@@ -3,6 +3,8 @@ import os
 import requests
 from tqdm import tqdm
 
+from utils import *
+
 def download_file_with_progress(url, file_name):
     response = requests.get(url, stream=True)
 
@@ -23,11 +25,10 @@ def download_file_with_progress(url, file_name):
     progress_bar.close()
     print(f"Finished downloading a file: {file_name}")
 
-def download_dataset(raw_path):
+def download_dataset():
     base_url = "https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/%s-%s.json.gz"
 
-    with open(f"{raw_path}/states.txt", "r") as f:
-        states = f.read().split("\n")
+    states = load_states()
 
     for mode in ["meta", "review"]:
         folder_path = f"{raw_path}/{mode}"
@@ -42,5 +43,4 @@ def download_dataset(raw_path):
                 download_file_with_progress(url, file_name)
 
 if __name__ == "__main__":
-    raw_path = "../dataset/raw"
-    download_dataset(raw_path)
+    download_dataset()
