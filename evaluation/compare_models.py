@@ -14,9 +14,9 @@ def construct_df():
         ndcg = results["valid"]["ndcg"]
 
         min_index = np.argmax(ndcg)
-        metrics.append((log_file.replace(".log", ""), recall[min_index], ndcg[min_index]))
+        metrics.append((log_file.replace(".log", ""), recall[min_index], ndcg[min_index], min_index+1))
 
-    df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg"])
+    df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg", "epoch"])
     df = df.sort_values(by="ndcg")
 
     print(df)
