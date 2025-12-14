@@ -1,9 +1,11 @@
+import sys
 import os
 from functools import partial
 
 import numpy as np
 import pandas as pd
 
+sys.path.append("..")
 from utils import *
 
 def filter_by_gmap_id(data, gmap_ids):

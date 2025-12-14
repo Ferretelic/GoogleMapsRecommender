@@ -1,5 +1,8 @@
+import sys
+
 import pandas as pd
 
+sys.path.append("..")
 from utils import *
 
 def combine_state_files(mode):

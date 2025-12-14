@@ -1,8 +1,10 @@
+import sys
 import os
 from functools import partial
 
 import pandas as pd
 
+sys.path.append("..")
 from utils import *
 
 def filter_by_country(data):
