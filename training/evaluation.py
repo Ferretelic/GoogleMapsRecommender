@@ -82,6 +82,6 @@ class Evaluator():
 
                 recall += self.calculate_recall(pred_items, target_items)
                 ndcg += self.calculate_ndcg(pred_items, target_items)
-                n_users += len(batch_users)
+                n_users += 1
 
         return recall / n_users, ndcg / n_users
