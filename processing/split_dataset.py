@@ -8,12 +8,32 @@ import numpy as np
 sys.path.append("..")
 from utils import *
 
-def apply_mappings(df):
+def save_mappings(cfg, df):
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))
     gmap2index = {gmap_id:index for index, gmap_id in enumerate(gmap_ids)}
+    index2gmap = {index:gmap_id for index, gmap_id in enumerate(gmap_ids)}
 
     user_ids = np.unique(np.sort(df["user_id"].values))
     user2index = {user_id:index for index, user_id in enumerate(user_ids)}
+    index2user = {index:user_id for index, user_id in enumerate(user_ids)}
+
+    with open(f"{cfg.paths.country}/mappings.json", "w") as f:
+        json.dump({
+            "gmap2index": gmap2index, "index2gmap": index2gmap,
+            "user2index": user2index, "index2user": index2user
+        }, f)
+
+def load_mappings(cfg, df):
+    if not os.path.exists(f"{cfg.paths.country}/mappings.json"):
+        save_mappings(cfg, df)
+
+    with open(f"{cfg.paths.country}/mappings.json", "r") as f:
+        mappings = json.load(f)
+
+    return mappings["gmap2index"], mappings["user2index"]
+
+def apply_mappings(cfg, df):
+    gmap2index, user2index = load_mappings(cfg, df)
 
     df["iid"] = df["gmap_id"].apply(lambda x: gmap2index[x])
     df["uid"] = df["user_id"].apply(lambda x: user2index[x])
@@ -27,7 +47,7 @@ def split_dataset_by_temporal(cfg):
         return
 
     df = pd.read_csv(f"{cfg.paths.country}/review.csv")
-    df = apply_mappings(df)
+    df = apply_mappings(cfg, df)
 
     df = df.sort_values(by=["uid", "time"])
     groups = df.groupby("uid")

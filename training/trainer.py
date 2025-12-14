@@ -14,13 +14,14 @@ class Trainer():
         self.model = model.to(self.device)
         self.optim = torch.optim.Adam(model.parameters(), lr=cfg.training.lr)
 
-        self.graph = load_adjacency_matrix(cfg)
+        self.graph = load_adjacency_matrix(cfg).to(self.device)
         self.datasets = construct_datasets(cfg)
+
+        self.evaluator = Evaluator(self.cfg.evaluation, "valid", self.datasets)
 
     def train(self):
         os.makedirs(self.cfg.paths.embedding, exist_ok=True)
 
-        self.model.train()
         train_dataloder = self.datasets["train"]
         train_losses = []
         valid_metrics = {"recall": [], "ndcg": []}
@@ -28,6 +29,7 @@ class Trainer():
         best_ndcg = 0
 
         for n_epoch in range(self.n_epochs):
+            self.model.train()
             running_loss = 0.0
 
             progress_bar = tqdm.tqdm(train_dataloder, desc="Training Model")
@@ -72,11 +74,5 @@ class Trainer():
 
     def evaluate(self, mode):
         embeddings = self.get_embeddings()
-
-        train_df = self.datasets["train"].dataset.df_pos
-        test_df = self.datasets[mode]
-
-        self.evaluator = Evaluator(self.cfg.evaluation, [train_df, test_df], embeddings)
-        recall, ndcgs = self.evaluator.evaluate()
-
+        recall, ndcgs = self.evaluator.evaluate(embeddings)
         return recall, ndcgs
