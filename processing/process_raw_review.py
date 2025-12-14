@@ -15,13 +15,13 @@ def filter_by_gmap_id(data, gmap_ids):
 
     return gmap_id in gmap_ids
 
-def filter_raw_state_review_data(state, filters):
-    raw_file = f"{raw_path}/review/{state}.json.gz"
+def filter_raw_state_review_data(config, state, filters):
+    raw_file = f"{config.raw_path}/review/{state}.json.gz"
     if not os.path.exists(raw_file):
         return
 
-    os.makedirs(f"{processed_path}/{country}/review/", exist_ok=True)
-    processed_file = f"{processed_path}/{country}/review/{state}.csv"
+    os.makedirs(f"{config.processed_path}/{config.country}/review/", exist_ok=True)
+    processed_file = f"{config.processed_path}/{config.country}/review/{state}.csv"
     if os.path.exists(processed_file):
         return
 
@@ -29,7 +29,7 @@ def filter_raw_state_review_data(state, filters):
     reviews = []
     for review in parse(raw_file):
         if all([f(data=review) for f in filters]):
-            review = {key: review.get(key, None) for key in review_keys}
+            review = {key: review.get(key, None) for key in config.review_keys}
             reviews.append(review)
 
     print(f"We obtained total of {len(reviews)} reviews after filtering by gmap_id")
@@ -37,13 +37,14 @@ def filter_raw_state_review_data(state, filters):
     df.to_csv(processed_file, index=False)
     return df
 
-def filter_raw_review_data():
-    states = load_states()
+def filter_raw_review_data(config):
+    states = load_states(config)
 
     for state in states:
-        gmap_ids = set(pd.read_csv(f"{processed_path}/{country}/meta/{state}.csv")["gmap_id"].values)
+        gmap_ids = set(pd.read_csv(f"{config.processed_path}/{config.country}/meta/{state}.csv")["gmap_id"].values)
         gmap_id_filter = partial(filter_by_gmap_id, gmap_ids=gmap_ids)
-        filter_raw_state_review_data(state, [gmap_id_filter])
+        filter_raw_state_review_data(config, state, [gmap_id_filter])
 
 if __name__ == "__main__":
-    filter_raw_review_data()
+    config = Config("..")
+    filter_raw_review_data(config)

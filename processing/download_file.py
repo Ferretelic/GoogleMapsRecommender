@@ -27,13 +27,13 @@ def download_file_with_progress(url, file_name):
     progress_bar.close()
     print(f"Finished downloading a file: {file_name}")
 
-def download_dataset():
+def download_dataset(config):
     base_url = "https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/%s-%s.json.gz"
 
-    states = load_states()
+    states = load_states(config)
 
     for mode in ["meta", "review"]:
-        folder_path = f"{raw_path}/{mode}"
+        folder_path = f"{config.raw_path}/{mode}"
         os.makedirs(folder_path, exist_ok=True)
 
         for state in states:
@@ -45,4 +45,5 @@ def download_dataset():
                 download_file_with_progress(url, file_name)
 
 if __name__ == "__main__":
-    download_dataset()
+    config = Config("..")
+    download_dataset(config)
