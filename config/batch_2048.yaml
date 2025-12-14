@@ -1,0 +1,37 @@
+name: "batch_2048"
+
+training:
+  batch_size: 2048
+  device: "cuda"
+  n_epochs: 1000
+  early_stopping: 20
+  lr: 0.002
+  reg_weight: 0.0001
+
+evaluation:
+  batch_size: 2048
+  rank: 20
+
+model:
+  embedding_dim: 64
+  n_layers: 3
+
+paths:
+  raw: "./dataset/raw"
+  processed: "./dataset/processed"
+
+  country: "${paths.processed}/${dataset.country}"
+  meta: "${paths.country}/meta"
+  review: "${paths.country}/review"
+  splits: "${paths.country}/splits"
+
+  result: "./results"
+  embedding: "./embeddings"
+  logs: "./logs"
+
+dataset:
+  min_num_reviews: 5
+  min_rating: 4
+  country: "Japanese"
+  meta_keys: ["gmap_id", "name", "address", "latitude", "longitude", "category", "avg_rating", "num_of_reviews", "price", "hours"]
+  review_keys: ["gmap_id", "user_id", "name", "time", "rating"]

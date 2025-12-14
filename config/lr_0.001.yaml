@@ -4,7 +4,7 @@ training:
   batch_size: 1024
   device: "cuda"
   n_epochs: 1000
-  early_stopping: 5
+  early_stopping: 20
   lr: 0.001
   reg_weight: 0.0001
 
@@ -27,6 +27,7 @@ paths:
 
   result: "./results"
   embedding: "./embeddings"
+  logs: "./logs"
 
 dataset:
   min_num_reviews: 5
