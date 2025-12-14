@@ -54,11 +54,11 @@ class Trainer():
 
             train_losses.append(running_loss / len(train_dataloder.dataset))
 
-            valid_recall, valid_ndcg = self.evaluate("valid")
+            valid_recall, valid_ndcg = self.evaluate()
             valid_metrics["recall"].append(valid_recall)
             valid_metrics["ndcg"].append(valid_ndcg)
 
-            print(f"Epoch [{n_epoch + 1:2d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
+            print(f"Epoch [{n_epoch + 1:3d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
 
             if valid_ndcg > best_ndcg:
                 best_ndcg = valid_ndcg
@@ -67,11 +67,11 @@ class Trainer():
             else:
                 n_patience += 1
                 if n_patience == self.cfg.training.early_stopping:
-                    print(f"Early stopping at epoch {n_epoch + 1:2d}")
+                    print(f"Early stopping at epoch {n_epoch + 1:3d}")
                     break
 
-        os.makedirs(f"{self.cfg.paths.log}", exist_ok=True)
-        with open(f"{self.cfg.paths.log}/{self.cfg.name}.json", "w") as f:
+        os.makedirs(f"{self.cfg.paths.logs}", exist_ok=True)
+        with open(f"{self.cfg.paths.logs}/{self.cfg.name}.json", "w") as f:
             json.dump({"train": train_losses, "valid": valid_metrics}, f)
 
     def get_embeddings(self):
@@ -82,7 +82,7 @@ class Trainer():
 
         return embeddings
 
-    def evaluate(self, mode):
+    def evaluate(self):
         embeddings = self.get_embeddings()
         recall, ndcgs = self.evaluator.evaluate(embeddings)
         return recall, ndcgs
