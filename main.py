@@ -12,6 +12,13 @@ from processing.split_dataset import *
 from training.lightgcn import *
 from training.trainer import *
 
+def seed_everything(seed=42):
+    random.seed(seed)
+    os.environ["PYTHONHASHSEED"] = str(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed(seed)
+
 def process_dataset(cfg):
     if not check_process_complete(cfg):
         print("    Downloading dataset...")
@@ -47,6 +54,8 @@ def train_model(cfg):
 
 @hydra.main(version_base=None, config_path="config", config_name="config")
 def main(cfg: DictConfig):
+    seed_everything()
+
     print("Preparation of Dataset")
     process_dataset(cfg)
 
