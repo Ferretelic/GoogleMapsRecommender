@@ -4,10 +4,10 @@ import json
 import numpy as np
 import pandas as pd
 
-def construct_df():
+def update_performance_csv(cfg):
     metrics = []
-    for log_file in os.listdir("../logs/Japanese"):
-        with open(f"../logs/Japanese/{log_file}", "r") as f:
+    for log_file in os.listdir(f"{cfg.paths.logs}"):
+        with open(f"{cfg.paths.logs}/{log_file}", "r") as f:
             results = json.load(f)
 
         recall = results["valid"]["recall"]
@@ -17,9 +17,8 @@ def construct_df():
         metrics.append((log_file.replace(".log", ""), recall[min_index], ndcg[min_index], min_index+1))
 
     df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg", "epoch"])
-    df = df.sort_values(by="ndcg")
+    df = df.sort_values(by="ndcg").reset_index(drop=True)
 
     print(df)
 
-if __name__ == "__main__":
-    construct_df()
+    df.to_csv(f"{cfg.paths.result}/performances.csv", index=False)

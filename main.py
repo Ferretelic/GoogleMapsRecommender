@@ -12,6 +12,8 @@ from processing.split_dataset import *
 from training.lightgcn import *
 from training.trainer import *
 
+from evaluation.compare_models import *
+
 def seed_everything(seed=42):
     random.seed(seed)
     os.environ["PYTHONHASHSEED"] = str(seed)
@@ -44,6 +46,9 @@ def process_dataset(cfg):
     split_dataset_by_temporal(cfg)
 
 def train_model(cfg):
+    if check_training_started(cfg):
+        return
+
     print("    Constructing LightGCN...")
     model = LightGCN(cfg)
 
@@ -51,6 +56,14 @@ def train_model(cfg):
     trainer = Trainer(cfg, model)
     trainer.train()
 
+    return True
+
+def evaluate_model(cfg):
+    if not check_training_completed(cfg):
+        return
+
+    print("    Updating performance csv...")
+    update_performance_csv(cfg)
 
 @hydra.main(version_base=None, config_path="config", config_name="config")
 def main(cfg: DictConfig):
@@ -61,6 +74,9 @@ def main(cfg: DictConfig):
 
     print("Training of Model")
     train_model(cfg)
+
+    print("Evaluation of Model")
+    evaluate_model(cfg)
 
 if __name__ == "__main__":
     main()
