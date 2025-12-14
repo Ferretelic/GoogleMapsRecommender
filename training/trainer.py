@@ -18,6 +18,8 @@ class Trainer():
         self.datasets = construct_datasets(cfg)
 
     def train(self):
+        os.makedirs(self.cfg.paths.embedding, exist_ok=True)
+
         self.model.train()
         train_dataloder = self.datasets["train"]
         train_losses = []
@@ -25,7 +27,7 @@ class Trainer():
 
         best_ndcg = 0
 
-        for _ in range(self.n_epochs):
+        for n_epoch in range(self.n_epochs):
             running_loss = 0.0
 
             progress_bar = tqdm.tqdm(train_dataloder, desc="Training Model")
@@ -50,11 +52,13 @@ class Trainer():
 
             valid_recall, valid_ndcg = self.evaluate("valid")
             valid_metrics["recall"].append(valid_recall)
-            valid_metrics["valid_ndcg"].append(valid_ndcg)
+            valid_metrics["ndcg"].append(valid_ndcg)
 
-            if valid_ndcg < best_ndcg:
+            if valid_ndcg > best_ndcg:
                 best_ndcg = valid_ndcg
                 torch.save(embeddings, f"{self.cfg.paths.embedding}/{self.cfg.name}.pt")
+
+            print(f"Epoch [{n_epoch + 1:2d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
 
         return {"train": train_losses, "valid": valid_metrics}
 
@@ -67,7 +71,7 @@ class Trainer():
         return embeddings
 
     def evaluate(self, mode):
-        embeddings = self.get_embeddings
+        embeddings = self.get_embeddings()
 
         train_df = self.datasets["train"].dataset.df_pos
         test_df = self.datasets[mode]
