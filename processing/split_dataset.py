@@ -1,11 +1,9 @@
-import sys
 import os
 
 import pandas as pd
 import tqdm
 import numpy as np
 
-sys.path.append("..")
 from utils import *
 
 def save_mappings(cfg, df):
