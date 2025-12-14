@@ -22,7 +22,17 @@ def apply_mappings(df):
 
     return df
 
-def temporal_split(config, df):
+def split_dataset_by_temporal(cfg):
+    folder_path = f"{cfg.paths.processed}/{cfg.dataset.country}/splits/"
+    os.makedirs(folder_path, exist_ok=True)
+
+    if os.path.exists(folder_path):
+        return
+
+
+    df = pd.read_csv(f"{cfg.paths.processed}/{cfg.dataset.country}/review.csv")
+    df = apply_mappings(df)
+
     df = df.sort_values(by=["uid", "time"])
     groups = df.groupby("uid")
 
@@ -47,14 +57,6 @@ def temporal_split(config, df):
 
     print(f"Train: {len(train_df)}, Valid: {len(valid_df)}, Test: {len(test_df)}")
 
-    folder_path = f"{config.processed_path}/{config.country}/splits/"
-    os.makedirs(folder_path, exist_ok=True)
     train_df.to_csv(f"{folder_path}train.csv", index=False)
     valid_df.to_csv(f"{folder_path}/valid.csv", index=False)
     test_df.to_csv(f"{folder_path}/test.csv", index=False)
-
-if __name__ == "__main__":
-    config = Config("..")
-    df = pd.read_csv(f"{config.processed_path}/{config.country}/review.csv")
-    df = apply_mappings(df)
-    temporal_split(config, df)
