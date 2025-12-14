@@ -20,9 +20,8 @@ def filter_raw_state_meta_data(cfg, state, filters):
     if not os.path.exists(raw_file):
         return
 
-    meta_path = f"{cfg.paths.processed}/{cfg.dataset.country}/meta/"
-    os.makedirs(meta_path, exist_ok=True)
-    processed_file = f"{meta_path}/{state}.csv"
+    os.makedirs(cfg.paths.meta, exist_ok=True)
+    processed_file = f"{cfg.paths.meta}/{state}.csv"
     if os.path.exists(processed_file):
         return
 
