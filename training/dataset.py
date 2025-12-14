@@ -70,9 +70,7 @@ def load_adjacency_matrix(cfg):
     return graph
 
 class CuisineDataset(Dataset):
-    def __init__(self, cfg, hard_neg_prob):
-        self.hard_neg_prob = hard_neg_prob
-
+    def __init__(self, cfg):
         _, self.n_items = load_dataset_sizes(cfg)
 
         df = pd.read_csv(f"{cfg.paths.splits}/train.csv")
@@ -91,15 +89,10 @@ class CuisineDataset(Dataset):
     def __getitem__(self, idx):
         user, pos_item = self.interactions[idx]
 
-        neg_item = self._sample_negative(user)
+        neg_item = self.sample_negative(user)
         return user, pos_item, neg_item
 
-    def _sample_negative(self, user):
-        explicit_negs = self.user_neg_dict.get(user, set())
-
-        if len(explicit_negs) > 0 and random.random() < self.hard_neg_prob:
-            return np.random.choice(list(explicit_negs))
-
+    def sample_negative(self, user):
         while True:
             neg_item = np.random.randint(0, self.n_items)
             if neg_item not in self.user_pos_dict.get(user, set()):
@@ -108,7 +101,7 @@ class CuisineDataset(Dataset):
 def construct_datasets(cfg):
     batch_size = cfg.training.batch_size
 
-    train = CuisineDataset(cfg, hard_neg_prob=cfg.training.hard_neg_prob)
+    train = CuisineDataset(cfg)
     train = DataLoader(train, batch_size=batch_size, shuffle=True)
 
     valid = pd.read_csv(f"{cfg.paths.splits}/valid.csv")
