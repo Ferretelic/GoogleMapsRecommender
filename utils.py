@@ -1,6 +1,7 @@
 import gzip
 import json
 
+min_rating = 4
 country = "Japanese"
 
 raw_path = "../dataset/raw"

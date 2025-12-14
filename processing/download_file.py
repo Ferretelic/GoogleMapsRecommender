@@ -1,8 +1,10 @@
 import os
+import sys
 
 import requests
 from tqdm import tqdm
 
+sys.path.append("..")
 from utils import *
 
 def download_file_with_progress(url, file_name):
