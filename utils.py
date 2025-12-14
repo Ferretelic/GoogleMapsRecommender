@@ -19,6 +19,4 @@ def check_process_complete(cfg):
     num_review_files = len(os.listdir(cfg.paths.review))
     num_meta_files = len(os.listdir(cfg.paths.meta))
 
-    print(num_states, num_review_files, num_meta_files)
-
     return (num_states == num_review_files) and (num_states == num_meta_files)
