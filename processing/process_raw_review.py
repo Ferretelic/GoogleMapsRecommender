@@ -1,11 +1,9 @@
-import sys
 import os
 from functools import partial
 
 import numpy as np
 import pandas as pd
 
-sys.path.append("..")
 from utils import *
 
 def filter_by_gmap_id(data, gmap_ids):
@@ -15,13 +13,14 @@ def filter_by_gmap_id(data, gmap_ids):
 
     return gmap_id in gmap_ids
 
-def filter_raw_state_review_data(config, state, filters):
-    raw_file = f"{config.raw_path}/review/{state}.json.gz"
+def filter_raw_state_review_data(cfg, state, filters):
+    raw_file = f"{cfg.paths.raw}/review/{state}.json.gz"
     if not os.path.exists(raw_file):
         return
 
-    os.makedirs(f"{config.processed_path}/{config.country}/review/", exist_ok=True)
-    processed_file = f"{config.processed_path}/{config.country}/review/{state}.csv"
+    folder_path = f"{cfg.paths.processed}/{cfg.dataset.country}/review/"
+    os.makedirs(folder_path, exist_ok=True)
+    processed_file = f"{folder_path}/{state}.csv"
     if os.path.exists(processed_file):
         return
 
@@ -29,7 +28,7 @@ def filter_raw_state_review_data(config, state, filters):
     reviews = []
     for review in parse(raw_file):
         if all([f(data=review) for f in filters]):
-            review = {key: review.get(key, None) for key in config.review_keys}
+            review = {key: review.get(key, None) for key in cfg.dataset.review_keys}
             reviews.append(review)
 
     print(f"We obtained total of {len(reviews)} reviews after filtering by gmap_id")
@@ -37,14 +36,10 @@ def filter_raw_state_review_data(config, state, filters):
     df.to_csv(processed_file, index=False)
     return df
 
-def filter_raw_review_data(config):
-    states = load_states(config)
+def filter_raw_review_data(cfg):
+    states = load_states(cfg.paths.raw)
 
     for state in states:
-        gmap_ids = set(pd.read_csv(f"{config.processed_path}/{config.country}/meta/{state}.csv")["gmap_id"].values)
+        gmap_ids = set(pd.read_csv(f"{cfg.paths.processed}/{cfg.dataset.country}/meta/{state}.csv")["gmap_id"].values)
         gmap_id_filter = partial(filter_by_gmap_id, gmap_ids=gmap_ids)
-        filter_raw_state_review_data(config, state, [gmap_id_filter])
-
-if __name__ == "__main__":
-    config = Config("..")
-    filter_raw_review_data(config)
+        filter_raw_state_review_data(cfg, state, [gmap_id_filter])
