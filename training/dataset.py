@@ -9,22 +9,22 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 
 def save_dataset_sizes(cfg):
-    df = pd.read_csv(f"{cfg.path.country}/review.csv")
+    df = pd.read_csv(f"{cfg.paths.country}/review.csv")
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))
     user_ids = np.unique(np.sort(df["user_id"].values))
 
     n_items = gmap_ids.shape[0]
     n_users = user_ids.shape[0]
 
-    os.makedirs(cfg.path.result, exist_ok=True)
-    with open(f"{cfg.path.result}/dataset_size.txt", "w") as f:
+    os.makedirs(cfg.paths.result, exist_ok=True)
+    with open(f"{cfg.paths.result}/dataset_size.txt", "w") as f:
         f.write(f"{n_users},{n_items}")
 
 def load_dataset_sizes(cfg):
-    if not os.path.exists(f"{cfg.path.result}/dataset_size.txt"):
+    if not os.path.exists(f"{cfg.paths.result}/dataset_size.txt"):
         save_dataset_sizes(cfg)
 
-    with open(f"{cfg.path.result}/dataset_size.txt", "r") as f:
+    with open(f"{cfg.paths.result}/dataset_size.txt", "r") as f:
         sizes = [int(l) for l in f.read().split(",")]
 
     return sizes
@@ -61,13 +61,13 @@ def build_adjacency_matrix(cfg):
 
     graph = torch.sparse_coo_tensor(indices, values, coo.shape).coalesce()
 
-    torch.save(graph, f"{cfg.path.result}/graph.pt")
+    torch.save(graph, f"{cfg.paths.result}/graph.pt")
 
 def load_adjacency_matrix(cfg):
-    if not os.path.exists(f"{cfg.path.result}/graph.pt"):
+    if not os.path.exists(f"{cfg.paths.result}/graph.pt"):
         build_adjacency_matrix(cfg)
 
-    graph = torch.load(f"{cfg.path.result}/graph.pt")
+    graph = torch.load(f"{cfg.paths.result}/graph.pt")
     return graph
 
 class CuisineDataset(Dataset):
@@ -109,7 +109,7 @@ class CuisineDataset(Dataset):
 def construct_datasets(cfg):
     batch_size = cfg.training.batch_size
 
-    train = CuisineDataset(cfg, "train", hard_neg_prob=cfg.training.hard_neg_prob)
+    train = CuisineDataset(cfg, hard_neg_prob=cfg.training.hard_neg_prob)
     train = DataLoader(train, batch_size=batch_size, shuffle=True)
 
     valid = pd.read_csv(f"{cfg.paths.splits}/valid.csv")
