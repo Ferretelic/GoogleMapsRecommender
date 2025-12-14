@@ -1,0 +1,15 @@
+training:
+  batch_size: 1024
+  device_name: "cpu"
+
+paths:
+  raw: "./dataset/raw"
+  processed: "./dataset/processed"
+  result: "./results"
+
+dataset:
+  min_num_reviews: 5
+  min_rating: 4
+  country: "Japanese"
+  meta_keys: ["gmap_id", "name", "address", "latitude", "longitude", "category", "avg_rating", "num_of_reviews", "price", "hours"]
+  review_keys: ["gmap_id", "user_id", "name", "time", "rating"]
