@@ -61,11 +61,11 @@ class Evaluator():
             return 0
 
     def evaluate(self):
-        recall, ndcg, n_users = 0
+        recall, ndcg, n_users = 0, 0, 0
         for batch_users in tqdm.tqdm(self.user_loader, desc="Evaluating Model"):
-            batch_users = batch_users.to(self.device)
+            batch_users = batch_users.to(self.user_embs.device)
 
-            scores = self.calculate_scores(batch_users, self.user_embs, self.item_embds)
+            scores = self.calculate_scores(batch_users, self.user_embs, self.item_embs)
 
             batch_users_np = batch_users.cpu().numpy()
             topk_items = self.get_top_k_items(batch_users_np, scores)
