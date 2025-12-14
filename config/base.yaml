@@ -17,3 +17,7 @@ dataset:
   country: Japanese
   meta_keys: [gmap_id, name, address, latitude, longitude, category, avg_rating, num_of_reviews, price, hours]
   review_keys: [gmap_id, user_id, name, time, rating]
+
+hydra:
+  run:
+    dir: outputs/${hydra.job.config_name}/${now:%Y-%m-%d_%H-%M-%S}

@@ -68,8 +68,7 @@ class Trainer():
             valid_metrics["ndcg"].append(valid_ndcg)
 
             self.logger.info(
-                f"Epoch [{n_epoch + 1:3d}] train loss: {train_losses[-1]:.6f} / \
-                    valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
+                f"Epoch [{n_epoch + 1:3d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
 
             with open(f"{self.cfg.paths.logs}/{self.cfg.name}.json", "w") as f:
                 json.dump({"train": train_losses, "valid": valid_metrics}, f)
