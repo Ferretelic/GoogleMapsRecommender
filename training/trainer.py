@@ -1,3 +1,5 @@
+import json
+
 import torch
 import tqdm
 
@@ -64,12 +66,13 @@ class Trainer():
                 torch.save(embeddings, f"{self.cfg.paths.embedding}/{self.cfg.name}.pt")
             else:
                 n_patience += 1
-                if n_patience == self.cfg.training.eraly_stopping:
+                if n_patience == self.cfg.training.early_stopping:
                     print(f"Early stopping at epoch {n_epoch + 1:2d}")
                     break
 
-
-        return {"train": train_losses, "valid": valid_metrics}
+        os.makedirs(f"{self.cfg.paths.log}", exist_ok=True)
+        with open(f"{self.cfg.paths.log}/{self.cfg.name}.json", "w") as f:
+            json.dump({"train": train_losses, "valid": valid_metrics}, f)
 
     def get_embeddings(self):
         self.model.eval()
