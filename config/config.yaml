@@ -7,6 +7,11 @@ paths:
   processed: "./dataset/processed"
   result: "./results"
 
+  country: "${paths.processed}/${dataset.country}"
+  meta: "${paths.country}/meta"
+  review: "${paths.country}/review"
+  splits: "${paths.country}/splits"
+
 dataset:
   min_num_reviews: 5
   min_rating: 4
