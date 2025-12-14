@@ -27,7 +27,7 @@ class Trainer():
         valid_metrics = {"recall": [], "ndcg": []}
 
         best_ndcg = 0
-
+        n_patience = 0
         for n_epoch in range(self.n_epochs):
             self.model.train()
             running_loss = 0.0
@@ -56,11 +56,18 @@ class Trainer():
             valid_metrics["recall"].append(valid_recall)
             valid_metrics["ndcg"].append(valid_ndcg)
 
+            print(f"Epoch [{n_epoch + 1:2d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
+
             if valid_ndcg > best_ndcg:
                 best_ndcg = valid_ndcg
+                n_patience = 0
                 torch.save(embeddings, f"{self.cfg.paths.embedding}/{self.cfg.name}.pt")
+            else:
+                n_patience += 1
+                if n_patience == self.cfg.training.eraly_stopping:
+                    print(f"Early stopping at epoch {n_epoch + 1:2d}")
+                    break
 
-            print(f"Epoch [{n_epoch + 1:2d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
 
         return {"train": train_losses, "valid": valid_metrics}
 
