@@ -54,6 +54,6 @@ def split_dataset_by_temporal(cfg):
     print(f"Train: {len(train_df)}, Valid: {len(valid_df)}, Test: {len(test_df)}")
 
     os.makedirs(cfg.paths.splits, exist_ok=True)
-    train_df.to_csv(f"{cfg.paths.splits}train.csv", index=False)
+    train_df.to_csv(f"{cfg.paths.splits}/train.csv", index=False)
     valid_df.to_csv(f"{cfg.paths.splits}/valid.csv", index=False)
     test_df.to_csv(f"{cfg.paths.splits}/test.csv", index=False)
