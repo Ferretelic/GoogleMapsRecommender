@@ -6,37 +6,37 @@ import pandas as pd
 import numpy as np
 import scipy.sparse as sp
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset, DataLoader
 
 sys.path.append("..")
 from utils import *
 
-def save_dataset_sizes(config):
-    df = pd.read_csv(f"{config.processed_path}/{config.country}/review.csv")
+def save_dataset_sizes(cfg):
+    df = pd.read_csv(f"{cfg.path.country}/review.csv")
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))
     user_ids = np.unique(np.sort(df["user_id"].values))
 
     n_items = gmap_ids.shape[0]
     n_users = user_ids.shape[0]
 
-    os.makedirs(config.result_path, exist_ok=True)
-    with open(f"{config.result_path}/dataset_size.txt", "w") as f:
+    os.makedirs(cfg.path.result, exist_ok=True)
+    with open(f"{cfg.path.result}/dataset_size.txt", "w") as f:
         f.write(f"{n_users},{n_items}")
 
-def load_dataset_sizes(config):
-    if not os.path.exists(f"{config.result_path}/dataset_size.txt"):
-        save_dataset_sizes(config)
+def load_dataset_sizes(cfg):
+    if not os.path.exists(f"{cfg.path.result}/dataset_size.txt"):
+        save_dataset_sizes(cfg)
 
-    with open(f"{config.result_path}/dataset_size.txt", "r") as f:
+    with open(f"{cfg.path.result}/dataset_size.txt", "r") as f:
         sizes = [int(l) for l in f.read().split(",")]
 
     return sizes
 
-def build_adjacency_matrix(config):
-    n_users, n_items = load_dataset_sizes(config)
+def build_adjacency_matrix(cfg):
+    n_users, n_items = load_dataset_sizes(cfg)
 
-    train = pd.read_csv(f"{config.processed_path}/{config.country}/splits/train.csv")
-    train_pos = train[train["rating"] >= config.min_rating]
+    train = pd.read_csv(f"{cfg.paths.splits}/train.csv")
+    train_pos = train[train["rating"] >= cfg.dataset.min_rating]
     u_ids = train_pos["uid"].values
     i_ids = train_pos["iid"].values
 
@@ -64,32 +64,30 @@ def build_adjacency_matrix(config):
 
     graph = torch.sparse_coo_tensor(indices, values, coo.shape).coalesce()
 
-    torch.save(graph, f"{config.result_path}/graph.pt")
+    torch.save(graph, f"{cfg.path.result}/graph.pt")
 
-def load_adjacency_matrix(config):
-    if not os.path.exists(f"{config.result_path}/graph.pt"):
-        build_adjacency_matrix(config)
+def load_adjacency_matrix(cfg):
+    if not os.path.exists(f"{cfg.path.result}/graph.pt"):
+        build_adjacency_matrix(cfg)
 
-    graph = torch.load(f"{config.result_path}/graph.pt")
+    graph = torch.load(f"{cfg.path.result}/graph.pt")
     return graph
 
 class CuisineDataset(Dataset):
-    def __init__(self, config, mode, hard_neg_prob=None):
-        self.mode = mode
+    def __init__(self, cfg, hard_neg_prob):
         self.hard_neg_prob = hard_neg_prob
 
-        _, self.n_items = load_dataset_sizes(config)
+        _, self.n_items = load_dataset_sizes(cfg)
 
-        df = pd.read_csv(f"{config.processed_path}/{config.country}/splits/{mode}.csv")
+        df = pd.read_csv(f"{cfg.paths.splits}/train.csv")
+        df_pos = df[df["rating"] >= cfg.dataset.min_rating]
+        df_neg = df[df["rating"] < cfg.dataset.min_rating]
 
-        df_pos = df[df["rating"] >= config.min_rating]
+        self.user_pos_dict = df_pos.groupby("uid")["iid"].apply(set).to_dict()
+        self.user_neg_dict = df_neg.groupby("uid")["iid"].apply(set).to_dict()
+
         self.interactions = df_pos[["uid", "iid"]].values
-
-        if mode == "train":
-            df_neg = df[df["rating"] < config.min_rating]
-
-            self.user_pos_dict = df_pos.groupby("uid")["iid"].apply(set).to_dict()
-            self.user_neg_dict = df_neg.groupby("uid")["iid"].apply(set).to_dict()
+        self.df_pos = df_pos
 
     def __len__(self):
         return self.interactions.shape[0]
@@ -97,11 +95,8 @@ class CuisineDataset(Dataset):
     def __getitem__(self, idx):
         user, pos_item = self.interactions[idx]
 
-        if self.mode == "train":
-            neg_item = self._sample_negative(user)
-            return user, pos_item, neg_item
-        else:
-            return user, pos_item
+        neg_item = self._sample_negative(user)
+        return user, pos_item, neg_item
 
     def _sample_negative(self, user):
         explicit_negs = self.user_neg_dict.get(user, set())
@@ -114,12 +109,13 @@ class CuisineDataset(Dataset):
             if neg_item not in self.user_pos_dict.get(user, set()):
                 return neg_item
 
-if __name__ == "__main__":
-    config = Config("..")
-    graph = load_adjacency_matrix(config)
-    hard_neg_prob = 0.5
-    dataset = CuisineDataset(config, "train", hard_neg_prob)
+def construct_datasets(cfg):
+    batch_size = cfg.training.batch_size
 
-    print(f"Graph indices size: {graph.indices().shape}")
-    u, p, n = dataset[0]
-    print(f"Sample: User={u}, Pos={p}, Neg={n}")
+    train = CuisineDataset(cfg, "train", hard_neg_prob=cfg.training.hard_neg_prob)
+    train = DataLoader(train, batch_size=batch_size, shuffle=True)
+
+    valid = pd.read_csv(f"{cfg.paths.splits}/valid.csv")
+    test = pd.read_csv(f"{cfg.paths.splits}/test.csv")
+
+    return {"train": train, "valid": valid, "test": test}
