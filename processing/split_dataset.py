@@ -23,14 +23,10 @@ def apply_mappings(df):
     return df
 
 def split_dataset_by_temporal(cfg):
-    folder_path = f"{cfg.paths.processed}/{cfg.dataset.country}/splits/"
-    os.makedirs(folder_path, exist_ok=True)
-
-    if os.path.exists(folder_path):
+    if os.path.exists(cfg.paths.splits):
         return
 
-
-    df = pd.read_csv(f"{cfg.paths.processed}/{cfg.dataset.country}/review.csv")
+    df = pd.read_csv(f"{cfg.paths.country}/review.csv")
     df = apply_mappings(df)
 
     df = df.sort_values(by=["uid", "time"])
@@ -57,6 +53,7 @@ def split_dataset_by_temporal(cfg):
 
     print(f"Train: {len(train_df)}, Valid: {len(valid_df)}, Test: {len(test_df)}")
 
-    train_df.to_csv(f"{folder_path}train.csv", index=False)
-    valid_df.to_csv(f"{folder_path}/valid.csv", index=False)
-    test_df.to_csv(f"{folder_path}/test.csv", index=False)
+    os.makedirs(cfg.paths.splits, exist_ok=True)
+    train_df.to_csv(f"{cfg.paths.splits}/train.csv", index=False)
+    valid_df.to_csv(f"{cfg.paths.splits}/valid.csv", index=False)
+    test_df.to_csv(f"{cfg.paths.splits}/test.csv", index=False)
