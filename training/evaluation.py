@@ -4,16 +4,16 @@ import torch
 from torch.utils.data import DataLoader
 
 class Evaluator():
-    def __init__(self, dfs, rank, embeddings):
+    def __init__(self, eval_cfg, dfs, embeddings):
         train_df, test_df,  = dfs
 
         self.test_user_pos = test_df.groupby("uid")["iid"].apply(set).to_dict()
         self.train_user_pos = train_df.groupby("uid")["iid"].apply(set).to_dict()
 
         self.test_users = list(self.test_user_pos.keys())
-        self.user_loader = DataLoader(self.test_users, batch_size=self.cfg.training.batch_size, shuffle=False)
+        self.user_loader = DataLoader(self.test_users, batch_size=eval_cfg.batch_size, shuffle=False)
 
-        self.rank = rank
+        self.rank = eval_cfg.rank
 
         self.user_embs, self.item_embs = embeddings
 

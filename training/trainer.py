@@ -72,9 +72,7 @@ class Trainer():
         train_df = self.datasets["train"].dataset.df_pos
         test_df = self.datasets[mode]
 
-        rank = self.cfg.evaluation.rank
-
-        self.evaluator = Evaluator([train_df, test_df], rank, embeddings)
+        self.evaluator = Evaluator(self.cfg.evaluation, [train_df, test_df], embeddings)
         recall, ndcgs = self.evaluator.evaluate()
 
         return recall, ndcgs

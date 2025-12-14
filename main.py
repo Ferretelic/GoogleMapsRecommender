@@ -53,6 +53,5 @@ def main(cfg: DictConfig):
     print("Training of Model")
     train_model(cfg)
 
-
 if __name__ == "__main__":
     main()
