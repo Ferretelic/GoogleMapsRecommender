@@ -13,20 +13,21 @@ from training.lightgcn import *
 from training.trainer import *
 
 def process_dataset(cfg):
-    print("    Downloading dataset...")
-    download_dataset(cfg)
+    if not check_process_complete(cfg):
+        print("    Downloading dataset...")
+        download_dataset(cfg)
 
-    print("    Processing raw meta data...")
-    country_filter = partial(
-        filter_by_country, country=cfg.dataset.country)
+        print("    Processing raw meta data...")
+        country_filter = partial(
+            filter_by_country, country=cfg.dataset.country)
 
-    num_reviews_filter = partial(
-        filter_by_num_reviews, min_num_reviews=cfg.dataset.min_num_reviews)
+        num_reviews_filter = partial(
+            filter_by_num_reviews, min_num_reviews=cfg.dataset.min_num_reviews)
 
-    filter_raw_meta_data(cfg, [country_filter, num_reviews_filter])
+        filter_raw_meta_data(cfg, [country_filter, num_reviews_filter])
 
-    print("    Processing raw review data...")
-    filter_raw_review_data(cfg)
+        print("    Processing raw review data...")
+        filter_raw_review_data(cfg)
 
     print("    Combining state data files...")
     combine_state_files(cfg, "meta")

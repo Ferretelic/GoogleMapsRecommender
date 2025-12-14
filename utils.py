@@ -1,3 +1,4 @@
+import os
 import gzip
 import json
 
@@ -12,3 +13,12 @@ def load_states(raw_path):
 
     states = [state.replace(" ", "_") for state in states]
     return states
+
+def check_process_complete(cfg):
+    num_states = len(load_states(cfg.paths.raw))
+    num_review_files = len(os.listdir(cfg.paths.review))
+    num_meta_files = len(os.listdir(cfg.paths.meta))
+
+    print(num_states, num_review_files, num_meta_files)
+
+    return (num_states == num_review_files) and (num_states == num_meta_files)
