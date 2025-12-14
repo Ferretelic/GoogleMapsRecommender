@@ -1,22 +1,23 @@
 import torch
-from torch.utils.data import DataLoader
 import tqdm
 
-from cuisine_dataset import *
-from evaluation import *
+from training.dataset import *
+from training.evaluation import *
 
 class Trainer():
     def __init__(self, cfg, model):
         self.cfg = cfg
 
         self.device = torch.device(cfg.training.device)
+        self.n_epochs = cfg.training.n_epochs
+
         self.model = model.to(self.device)
         self.optim = torch.optim.Adam(model.parameters(), lr=cfg.training.lr)
 
         self.graph = load_adjacency_matrix(cfg)
         self.datasets = construct_datasets(cfg)
 
-    def train(self, n_epochs):
+    def train(self):
         self.model.train()
         train_dataloder = self.datasets["train"]
         train_losses = []
@@ -24,7 +25,7 @@ class Trainer():
 
         best_ndcg = 0
 
-        for _ in range(n_epochs):
+        for _ in range(self.n_epochs):
             running_loss = 0.0
 
             progress_bar = tqdm.tqdm(train_dataloder, desc="Training Model")
