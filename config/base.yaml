@@ -1,19 +1,19 @@
 paths:
-  raw: "./dataset/raw"
-  processed: "./dataset/processed"
+  raw: ./dataset/raw
+  processed: ./dataset/processed
 
-  country: "${paths.processed}/${dataset.country}"
-  meta: "${paths.country}/meta"
-  review: "${paths.country}/review"
-  splits: "${paths.country}/splits"
+  country: ${paths.processed}/${dataset.country}
+  meta: ${paths.country}/meta
+  review: ${paths.country}/review
+  splits: ${paths.country}/splits
 
-  result: "./results/${dataset.country}"
-  embedding: "./embeddings/${dataset.country}"
-  logs: "./logs/${dataset.country}"
+  result: ./results/${dataset.country}
+  embedding: ./embeddings/${dataset.country}
+  logs: ./logs/${dataset.country}
 
 dataset:
   min_num_reviews: 5
   min_rating: 4
-  country: "Japanese"
-  meta_keys: ["gmap_id", "name", "address", "latitude", "longitude", "category", "avg_rating", "num_of_reviews", "price", "hours"]
-  review_keys: ["gmap_id", "user_id", "name", "time", "rating"]
+  country: Japanese
+  meta_keys: [gmap_id, name, address, latitude, longitude, category, avg_rating, num_of_reviews, price, hours]
+  review_keys: [gmap_id, user_id, name, time, rating]
