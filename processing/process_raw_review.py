@@ -18,9 +18,8 @@ def filter_raw_state_review_data(cfg, state, filters):
     if not os.path.exists(raw_file):
         return
 
-    folder_path = f"{cfg.paths.processed}/{cfg.dataset.country}/review/"
-    os.makedirs(folder_path, exist_ok=True)
-    processed_file = f"{folder_path}/{state}.csv"
+    os.makedirs(cfg.paths.review, exist_ok=True)
+    processed_file = f"{cfg.paths.review}/{state}.csv"
     if os.path.exists(processed_file):
         return
 
@@ -40,6 +39,6 @@ def filter_raw_review_data(cfg):
     states = load_states(cfg.paths.raw)
 
     for state in states:
-        gmap_ids = set(pd.read_csv(f"{cfg.paths.processed}/{cfg.dataset.country}/meta/{state}.csv")["gmap_id"].values)
+        gmap_ids = set(pd.read_csv(f"{cfg.paths.meta}/{state}.csv")["gmap_id"].values)
         gmap_id_filter = partial(filter_by_gmap_id, gmap_ids=gmap_ids)
         filter_raw_state_review_data(cfg, state, [gmap_id_filter])
