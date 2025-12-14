@@ -8,9 +8,6 @@ import scipy.sparse as sp
 import torch
 from torch.utils.data import Dataset, DataLoader
 
-sys.path.append("..")
-from utils import *
-
 def save_dataset_sizes(cfg):
     df = pd.read_csv(f"{cfg.path.country}/review.csv")
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))

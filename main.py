@@ -9,6 +9,9 @@ from processing.process_raw_review import *
 from processing.combine_file import *
 from processing.split_dataset import *
 
+from training.lightgcn import *
+from training.trainer import *
+
 def process_dataset(cfg):
     print("Downloading dataset...")
     download_dataset(cfg)
@@ -31,6 +34,14 @@ def process_dataset(cfg):
 
     print("Splitting dataset into train, valid, and test...")
     split_dataset_by_temporal(cfg)
+
+def train_model(cfg):
+    print("Constructing LightGCN...")
+    model = LightGCN(cfg)
+
+    print("Training LightGCN...")
+    trainer = Trainer(cfg, model)
+    trainer.train()
 
 
 @hydra.main(version_base=None, config_path="config", config_name="config")

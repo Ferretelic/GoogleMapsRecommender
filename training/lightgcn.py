@@ -4,19 +4,16 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-sys.path.append("..")
-from utils import *
-from cuisine_dataset import *
+from training.dataset import *
 
 class LightGCN(nn.Module):
     def __init__(self, cfg):
         super(LightGCN, self).__init__()
         self.n_users, self.n_items = load_dataset_sizes(cfg)
 
-        self.embedding_dim = embedding_dim
-        self.n_layers = n_layers
+        self.n_layers = cfg.model.n_layers
+        self.embedding = nn.Embedding(self.n_users + self.n_items, cfg.model.embedding_dim)
 
-        self.embedding = nn.Embedding(self.n_users + self.n_items, self.embedding_dim)
         nn.init.xavier_normal_(self.embedding.weight)
 
     def forward(self, graph):
