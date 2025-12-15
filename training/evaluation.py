@@ -15,73 +15,105 @@ class Evaluator():
 
         self.rank = eval_cfg.rank
 
-    def calculate_scores(self, batch_users, user_embs, item_embs):
-        u_embs = user_embs[batch_users]
-        scores = torch.matmul(u_embs, item_embs.t())
-
-        scores = scores.cpu().numpy()
+    def compute_scores(self, user_embs, item_embs, users):
+        user_embs = user_embs[users]
+        scores = torch.matmul(user_embs, item_embs.t())
         return scores
 
-    def get_top_k_items(self, batch_users, scores):
-        for i, uid in enumerate(batch_users):
-            train_pos_items = list(self.train_user_pos.get(uid, []))
-            if len(train_pos_items) > 0:
-                scores[i, train_pos_items] = -np.inf
+    def mask_train_items(self, scores, users):
+        rows, cols = [], []
+        for i, uid in enumerate(users):
+            train_items = self.train_user_pos.get(uid, [])
+            if train_items:
+                rows.extend([i] * len(train_items))
+                cols.extend(train_items)
 
-        topk_indices = np.argpartition(scores, -self.rank, axis=1)[:, -self.rank:]
+        if rows:
+            scores[rows, cols] = -float("inf")
 
-        rows = np.arange(len(batch_users))[:, None]
-        topk_scores = scores[rows, topk_indices]
-        sorted_idx = np.argsort(-topk_scores, axis=1)
-        topk_items = topk_indices[rows, sorted_idx]
+        return scores
 
-        return topk_items
+    def get_top_k_items(self, scores):
+        _, topk_indices = torch.topk(scores, k=self.rank, dim=1)
+        return topk_indices
 
-    def calculate_recall(self, pred_items, target_items):
-        if len(target_items) == 0:
-            return 0.0
+    def construct_target_matrix(self, users, num_items, device):
+        batch_size = len(users)
 
-        num_hits = sum([1 for item in pred_items if item in target_items])
-        recall = num_hits / len(target_items)
-        return recall
+        target_len = torch.zeros(batch_size, device=device)
+        batch_target_matrix = torch.zeros((batch_size, num_items), device=device, dtype=torch.bool)
 
-    def calculate_ndcg(self, pred_items, target_items):
-        dcg, idcg = 0.0, 0.0
+        batch_rows, batch_cols = [], []
+        for i, uid in enumerate(users):
+            test_items = self.test_user_pos.get(uid, [])
+            if test_items:
+                target_len[i] = len(test_items)
+                batch_rows.extend([i] * len(test_items))
+                batch_cols.extend(test_items)
 
-        for i, item in enumerate(pred_items):
-            if item in target_items:
-                dcg += 1.0 / np.log2(i + 2)
+        if batch_rows:
+            batch_target_matrix[batch_rows, batch_cols] = True
 
-        num_targets = len(target_items)
-        k = len(pred_items)
-        ideal_len = min(num_targets, k)
+        return batch_target_matrix, target_len
 
-        for i in range(ideal_len):
-            idcg += 1.0 / np.log2(i + 2)
+    def compute_hits(self, target_matrix, topk_indices):
+        hits = torch.gather(target_matrix, 1, topk_indices).float()
+        return hits
 
-        if idcg > 0:
-            return dcg / idcg
-        else:
-            return 0
+    def calculate_recall(self, hits, target_len):
+        recall_batch = hits.sum(1) / (target_len + 1e-10)
+        return recall_batch.sum().item()
+
+    def calculate_ndcg(self, hits, target_len, idcg_denominator):
+        batch_size = hits.size(0)
+        device = hits.device
+
+        dcg_batch = (hits * idcg_denominator).sum(1)
+        k_expanded = torch.ones(batch_size, device=device) * self.rank
+        ideal_len = torch.min(target_len, k_expanded).long()
+
+        idcg_table = torch.cumsum(idcg_denominator, dim=0)
+        idcg_vals = torch.zeros(batch_size, device=device)
+        valid_mask = ideal_len > 0
+        if valid_mask.any():
+            idcg_vals[valid_mask] = idcg_table[ideal_len[valid_mask] - 1]
+
+        ndcg_batch = dcg_batch / (idcg_vals + 1e-10)
+        return ndcg_batch.sum().item()
 
     def evaluate(self, embeddings):
         user_embs, item_embs = embeddings
+        user_embs = user_embs.detach()
+        item_embs = item_embs.detach()
 
-        recall, ndcg, n_users = 0, 0, 0
-        for batch_users in tqdm.tqdm(self.user_loader, desc="Evaluating Model"):
-            batch_users = batch_users.to(user_embs.device)
+        num_items = item_embs.shape[0]
+        device = user_embs.device
 
-            scores = self.calculate_scores(batch_users, user_embs, item_embs)
+        recall_sum, ndcg_sum, n_users = 0.0, 0.0, 0
 
-            batch_users_np = batch_users.cpu().numpy()
-            topk_items = self.get_top_k_items(batch_users_np, scores)
+        k_tensor = torch.arange(self.rank, device=device).float()
+        idcg_denominator = 1.0 / torch.log2(k_tensor + 2.0)
 
-            for i, uid in enumerate(batch_users_np):
-                pred_items = topk_items[i]
-                target_items = self.test_user_pos[uid]
+        with torch.no_grad():
+            for batch_users in tqdm.tqdm(self.user_loader, desc="Evaluating Model"):
+                batch_users = batch_users.to(device)
+                batch_users_list = batch_users.cpu().tolist()
+                batch_size = batch_users.size(0)
 
-                recall += self.calculate_recall(pred_items, target_items)
-                ndcg += self.calculate_ndcg(pred_items, target_items)
-                n_users += 1
+                scores = self.compute_scores(user_embs, item_embs, batch_users)
+                scores = self.mask_train_items(scores, batch_users_list)
+                topk_indices = self.get_top_k_items(scores)
+                target_matrix, target_len = self.construct_target_matrix(batch_users_list, num_items, device)
+                hits = self.compute_hits(target_matrix, topk_indices)
 
-        return recall / n_users, ndcg / n_users
+                recall = self.calculate_recall(hits, target_len)
+                ndcg = self.calculate_ndcg(hits, target_len, idcg_denominator)
+
+                recall_sum += recall
+                ndcg_sum += ndcg
+                n_users += batch_size
+
+        recall = recall_sum / n_users
+        ndcg = ndcg_sum / n_users
+
+        return recall, ndcg
