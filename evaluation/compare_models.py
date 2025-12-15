@@ -1,5 +1,6 @@
 import os
 import json
+import math
 
 import numpy as np
 import pandas as pd
@@ -7,7 +8,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from hydra import initialize, compose
-from omegaconf import OmegaConf
 
 def update_performance_csv(cfg):
     metrics = []
@@ -65,7 +65,10 @@ def plot_comparisons(names, targets, config_path, target_name=None):
 
     results = results[["target", "ndcg"]].groupby("target").agg("max")
     sns.barplot(results, x="target", y="ndcg", ax=ax2, hue="target", palette=palette)
-    ax2.set_ylim(0.10, 0.13)
+    min = math.floor(results["ndcg"].min() * 100) / 100
+    max = math.ceil(results["ndcg"].max() * 100) / 100
+    ax2.set_ylim(min, max)
+
     ax2.set_title("Comparison of best valid NDCG")
     ax2.set_xlabel(target_name)
     ax2.set_ylabel("NDCG")
