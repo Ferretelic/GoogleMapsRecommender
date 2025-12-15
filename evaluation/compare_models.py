@@ -48,8 +48,8 @@ def plot_ndcg_bar(results, ax, palette, target_name, sub_target_name=None):
         results = results[["target", "ndcg"]].groupby("target").agg("max")
         sns.barplot(results, x="target", y="ndcg", ax=ax, hue="target", palette=palette)
     else:
-        results = results[["target", "sub_target", "ndcg"]].groupby(["target", "sub_target"]).agg("max")
-        sns.barplot(results, x="target", y="ndcg", ax=ax, hue="sub_target", palette=palette)
+        results = results[["main_target", "sub_target", "ndcg"]].groupby(["main_target", "sub_target"]).agg("max")
+        sns.barplot(results, x="main_target", y="ndcg", ax=ax, hue="sub_target", palette=palette)
 
     min = math.floor(results["ndcg"].min() * 100) / 100
     max = math.ceil(results["ndcg"].max() * 100) / 100
@@ -66,7 +66,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
 
     sns.set_theme(style="whitegrid", rc={"axes.spines.right": False, "axes.spines.top": False})
     _, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8))
-    palette = sns.cubehelix_palette(n_colors=len(names), start=2.8, rot=0.1, dark=0.2, light=0.8)
+    palette = sns.cubehelix_palette(n_colors=len(names), start=2.6, rot=0.1, dark=0.2, light=0.8)
 
     plt.suptitle(f"Comparison of performances of models based on {target_name}")
     results = []
@@ -97,14 +97,14 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
     sns.set_theme(style="whitegrid", rc={"axes.spines.right": False, "axes.spines.top": False})
     _, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8))
 
-    palette = sns.cubehelix_palette(n_colors=len(names), start=2.8, rot=0.1, dark=0.2, light=0.8)
+    palette = sns.cubehelix_palette(n_colors=len(names), start=2.6, rot=0.1, dark=0.2, light=0.8)
 
-    plt.suptitle(f"Comparison of performances of models based on {target_name}")
+    plt.suptitle(f"Comparison of performances of models based on {target_name} and {sub_target_name}")
     results = []
     for name in names:
         cfg = load_hydra_config(name, config_path)
         target = cfg[targets[0][0]][targets[0][1]]
-        sub_target = cfg[targets[1][0]][targets[1][1]]
+        sub_target = cfg[targets[1][0]].get(targets[1][1], 0.0)
 
         with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
             ndcg = json.load(f)["valid"]["ndcg"]
@@ -112,15 +112,17 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
         df = pd.DataFrame({
             "epoch": range(len(ndcg)),
             "ndcg": ndcg,
-            "target": [target] * len(ndcg),
-            "sub_target": [sub_target] * len(ndcg)
+            "main_target": [target] * len(ndcg),
+            "sub_target": [sub_target] * len(ndcg),
+            "target": [f"{target} / {sub_target}"] * len(ndcg)
         })
 
         results.append(df)
 
     results = pd.concat(results, axis=0)
+
     plot_history_line(results, ax1, palette)
-    plot_ndcg_bar(results, ax2, palette, target_name, sub_target_name)
+    plot_ndcg_bar(results, ax2, palette[::results["sub_target"].nunique()], target_name, sub_target_name)
 
     folder_path = f"../results/{cfg.dataset.country}/plots/comparisons/"
     os.makedirs(folder_path, exist_ok=True)
@@ -161,10 +163,15 @@ if __name__ == "__main__":
 
 
     names = [
+        "emb_512_n_layers_6_reg_0.001",
         "emb_512_n_layers_6_reg_0.001_gentle_0.1",
         "emb_512_n_layers_6_reg_0.001_gentle_0.05",
+        "emb_512_n_layers_7_reg_0.001",
         "emb_512_n_layers_7_reg_0.001_gentle_0.1",
-        # "emb_512_n_layers_7_reg_0.001_gentle_0.05",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.05",
+        "emb_512_n_layers_8_reg_0.001",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.05",
     ]
 
     targets = [["model", "n_layers"], ["model", "decay"]]
