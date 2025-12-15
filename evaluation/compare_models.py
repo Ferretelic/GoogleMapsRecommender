@@ -40,7 +40,7 @@ def plot_comparisons(names, targets, config_path, target_name=None):
         target_name = targets[-1]
 
     sns.set_theme(style="whitegrid", rc={"axes.spines.right": False, "axes.spines.top": False})
-    _, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
+    _, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8))
     palette = sns.cubehelix_palette(n_colors=len(names), start=2.8, rot=0.1, dark=0.2, light=0.8)
 
     plt.suptitle(f"Comparison of performances of models based on {targets[-1]}")
@@ -73,6 +73,7 @@ def plot_comparisons(names, targets, config_path, target_name=None):
 
     folder_path = f"../results/{cfg.dataset.country}/plots/comparisons/"
     os.makedirs(folder_path, exist_ok=True)
+    plt.tight_layout()
     plt.savefig(f"{folder_path}/{target_name}.png")
 
 if __name__ == "__main__":

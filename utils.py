@@ -1,8 +1,10 @@
 import os
 import gzip
 import json
+import math
 
 import numpy as np
+import torch
 
 def parse(path):
     g = gzip.open(path, "r")
@@ -35,8 +37,50 @@ def check_training_completed(cfg):
     n_patience = ndcgs.shape[0] - (np.argmax(ndcgs) + 1)
 
     if early_stopping == n_patience:
-        print("        Training has been already completed.")
+        print("    Training has been already completed.")
         return True
 
     else:
-        print(f"        Training is still in progress with patience {n_patience}.")
+        print(f"    Training is still in progress with patience {n_patience}.")
+
+def split_embeddings(cfg):
+    model_path = f"{cfg.paths.embedding}/{cfg.name}"
+    file_size = os.path.getsize(f"{model_path}.pt") / (1024 ** 2)
+
+    if file_size <= 100:
+        return
+
+    target_chunk_size_mb = 50
+    num_chunks = math.ceil(file_size / target_chunk_size_mb)
+
+    print(f"    Splitting into {num_chunks} chunks")
+    users_emb, items_emb = torch.load(f"{model_path}.pt")
+    users_chunks = torch.chunk(users_emb, num_chunks, dim=1)
+
+    os.makedirs(model_path, exist_ok=True)
+    torch.save(items_emb.clone(), f"{model_path}/items.pt")
+    for i in range(num_chunks):
+        torch.save(users_chunks[i].clone(), f"{model_path}/users_{i}.pt")
+
+def load_embeddings(cfg):
+    model_path = f"{cfg.paths.embedding}/{cfg.name}"
+
+    if os.path.exists(model_path):
+        i = 0
+        users_chunks = []
+        while True:
+            user_path = f"{model_path}/users_{i}.pt"
+
+            if not os.path.exists(user_path):
+                break
+
+            users_chunks.append(torch.load(user_path))
+            i += 1
+
+        users_emb = torch.cat(users_chunks, dim=1)
+        items_emb = torch.load(f"{model_path}/items.pt")
+
+    else:
+        users_emb, items_emb = torch.load(model_path)
+
+    return users_emb, items_emb
