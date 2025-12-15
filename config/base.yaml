@@ -10,7 +10,7 @@ paths:
   result: ./results/${dataset.country}
   embedding: ./embeddings/${dataset.country}
   logs: ./logs/${dataset.country}
-  plots: ${paths.result}/${name}/plots
+  plots: ${paths.result}/plots/models/${name}/
 
 dataset:
   min_num_reviews: 5
