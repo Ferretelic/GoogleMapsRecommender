@@ -44,6 +44,17 @@ class LightGCN(nn.Module):
         users_emb, items_emb = torch.split(light_out, [self.n_users, self.n_items])
         return users_emb, items_emb
 
+    def load_embeddings(self, embeddings):
+        users_emb, items_emb = embeddings
+
+        device = self.embedding.weight.device
+        users_emb = users_emb.to(device)
+        items_emb = items_emb.to(device)
+
+        new_weights = torch.cat([users_emb, items_emb], dim=0)
+        with torch.no_grad():
+            self.embedding.weight.copy_(new_weights)
+
     def calculate_loss(self, embeddings, indices):
         users_emb, items_emb = embeddings
         user_idx, pos_idx, neg_idx = indices
