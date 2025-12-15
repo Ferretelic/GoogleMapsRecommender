@@ -19,7 +19,7 @@ def update_performance_csv(cfg):
         ndcg = results["valid"]["ndcg"]
 
         min_index = np.argmax(ndcg)
-        metrics.append((log_file.replace(".log", ""),
+        metrics.append((log_file.replace(".json", ""),
              recall[min_index], ndcg[min_index], min_index+1
         ))
 
