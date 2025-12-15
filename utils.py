@@ -53,6 +53,9 @@ def split_embeddings(cfg):
     target_chunk_size_mb = 50
     num_chunks = math.ceil(file_size / target_chunk_size_mb)
 
+    if os.path.exists(f"{cfg.paths.embedding}/{cfg.name}"):
+        return
+
     print(f"    Splitting into {num_chunks} chunks")
     users_emb, items_emb = torch.load(f"{model_path}.pt")
     users_chunks = torch.chunk(users_emb, num_chunks, dim=1)
