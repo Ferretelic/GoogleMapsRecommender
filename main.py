@@ -13,6 +13,7 @@ from training.lightgcn import *
 from training.trainer import *
 
 from evaluation.compare_models import *
+from evaluation.plot_results import *
 
 def seed_everything(seed=42):
     random.seed(seed)
@@ -64,6 +65,9 @@ def evaluate_model(cfg):
 
     print("    Updating performance csv...")
     update_performance_csv(cfg)
+
+    print("    Plotting training history...")
+    plot_training_history(cfg)
 
 @hydra.main(version_base=None, config_path="config", config_name="config")
 def main(cfg: DictConfig):
