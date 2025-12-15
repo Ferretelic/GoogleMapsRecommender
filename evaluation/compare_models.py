@@ -86,7 +86,7 @@ if __name__ == "__main__":
     targets = ["model", "embedding_dim"]
     plot_comparisons(names, targets, config_path)
 
-    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6"]
+    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6", "n_layers_7"]
     targets = ["model", "n_layers"]
     plot_comparisons(names, targets, config_path)
 
@@ -102,6 +102,11 @@ if __name__ == "__main__":
     targets = ["training", "lr"]
     plot_comparisons(names, targets, config_path)
 
-    names = ["emb_512_n_layers_4_reg_0.001", "emb_512_n_layers_5_reg_0.001", "emb_512_n_layers_6_reg_0.001"]
+    names = [
+        "emb_512_n_layers_4_reg_0.001",
+        "emb_512_n_layers_5_reg_0.001",
+        "emb_512_n_layers_6_reg_0.001",
+        "emb_512_n_layers_7_reg_0.001"
+    ]
     targets = ["model", "n_layers"]
     plot_comparisons(names, targets, config_path, target_name="emb_512_reg_0.001_n_layers")
