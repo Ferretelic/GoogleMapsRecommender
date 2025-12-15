@@ -57,7 +57,7 @@ def train_model(cfg):
     trainer = Trainer(cfg, model)
     trainer.train()
 
-    return True
+    split_embeddings(cfg)
 
 def evaluate_model(cfg):
     if not check_training_completed(cfg):
@@ -72,9 +72,6 @@ def evaluate_model(cfg):
 @hydra.main(version_base=None, config_path="config", config_name="config")
 def main(cfg: DictConfig):
     seed_everything()
-
-    split_embeddings(cfg)
-    load_embeddings(cfg)
 
     print("Preparation of Dataset")
     process_dataset(cfg)
