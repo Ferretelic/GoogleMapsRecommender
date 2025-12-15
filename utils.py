@@ -37,3 +37,6 @@ def check_training_completed(cfg):
     if early_stopping == n_patience:
         print("        Training has been already completed.")
         return True
+
+    else:
+        print(f"        Training is still in progress with patience {n_patience}.")
