@@ -57,11 +57,12 @@ def train_model(cfg):
     trainer = Trainer(cfg, model)
     trainer.train()
 
-    split_embeddings(cfg)
-
 def evaluate_model(cfg):
     if not check_training_completed(cfg):
         return
+
+    print("    Splitting embeddings...")
+    split_embeddings(cfg)
 
     print("    Updating performance csv...")
     update_performance_csv(cfg)

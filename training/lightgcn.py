@@ -14,6 +14,20 @@ class LightGCN(nn.Module):
 
         nn.init.xavier_normal_(self.embedding.weight)
 
+        weight_method = cfg.model.get("weighting", "uniform")
+
+        num_weights = self.n_layers + 1
+        if weight_method == "uniform":
+            weights = torch.ones(num_weights)
+        elif weight_method == "gentle":
+            decay = cfg.model.get("decay", 0.1)
+            weights = torch.ones(num_weights) - torch.arange(num_weights) * decay
+        else:
+            raise NotImplementedError
+
+        weights = weights / torch.sum(weights)
+        self.register_buffer("layer_weights", weights)
+
     def forward(self, graph):
         all_emb = self.embedding.weight
         embs = [all_emb]
@@ -24,7 +38,8 @@ class LightGCN(nn.Module):
             embs.append(x)
 
         embs = torch.stack(embs, dim=1)
-        light_out = torch.mean(embs, dim=1)
+        weights = self.layer_weights.view(1, -1, 1)
+        light_out = torch.sum(embs * weights, dim=1)
 
         users_emb, items_emb = torch.split(light_out, [self.n_users, self.n_items])
         return users_emb, items_emb
