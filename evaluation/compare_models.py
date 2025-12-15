@@ -35,7 +35,10 @@ def load_hydra_config(name, config_path):
         cfg = compose(config_name=name, overrides=[])
         return cfg
 
-def plot_comparisons(names, targets, config_path):
+def plot_comparisons(names, targets, config_path, target_name=None):
+    if target_name is None:
+        target_name = targets[-1]
+
     sns.set_theme(style="whitegrid", rc={"axes.spines.right": False, "axes.spines.top": False})
     _, (ax1, ax2) = plt.subplots(1, 2, figsize=(16, 6))
     palette = sns.cubehelix_palette(n_colors=len(names), start=2.8, rot=0.1, dark=0.2, light=0.8)
@@ -62,15 +65,15 @@ def plot_comparisons(names, targets, config_path):
 
     results = results[["target", "ndcg"]].groupby("target").agg("max")
     sns.barplot(results, x="target", y="ndcg", ax=ax2, hue="target", palette=palette)
-    ax2.set_ylim(0.10, 0.12)
+    ax2.set_ylim(0.10, 0.13)
     ax2.set_title("Comparison of best valid NDCG")
-    ax2.set_xlabel(targets[-1])
+    ax2.set_xlabel(target_name)
     ax2.set_ylabel("NDCG")
     ax2.legend()
 
     folder_path = f"../results/{cfg.dataset.country}/plots/comparisons/"
     os.makedirs(folder_path, exist_ok=True)
-    plt.savefig(f"{folder_path}/{targets[-1]}.png")
+    plt.savefig(f"{folder_path}/{target_name}.png")
 
 if __name__ == "__main__":
     config_path = "../config"
@@ -79,7 +82,7 @@ if __name__ == "__main__":
     targets = ["model", "embedding_dim"]
     plot_comparisons(names, targets, config_path)
 
-    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5"]
+    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6"]
     targets = ["model", "n_layers"]
     plot_comparisons(names, targets, config_path)
 
@@ -94,3 +97,7 @@ if __name__ == "__main__":
     names = ["lr_0.01", "baseline", "lr_0.0001"]
     targets = ["training", "lr"]
     plot_comparisons(names, targets, config_path)
+
+    names = ["emb_512_n_layers_4_reg_0.001", "emb_512_n_layers_5_reg_0.001", "emb_512_n_layers_6_reg_0.001"]
+    targets = ["model", "n_layers"]
+    plot_comparisons(names, targets, config_path, target_name="emb_512_reg_0.001_n_layers")
