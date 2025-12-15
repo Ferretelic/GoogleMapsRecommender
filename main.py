@@ -73,6 +73,9 @@ def evaluate_model(cfg):
 def main(cfg: DictConfig):
     seed_everything()
 
+    split_embeddings(cfg)
+    load_embeddings(cfg)
+
     print("Preparation of Dataset")
     process_dataset(cfg)
 
