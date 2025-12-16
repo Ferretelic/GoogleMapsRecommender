@@ -122,7 +122,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
     results = pd.concat(results, axis=0)
 
     plot_history_line(results, ax1, palette)
-    plot_ndcg_bar(results, ax2, palette[::results["sub_target"].nunique()], target_name, sub_target_name)
+    plot_ndcg_bar(results, ax2, palette[::results["main_target"].nunique()], target_name, sub_target_name)
 
     folder_path = f"../results/{cfg.dataset.country}/plots/comparisons/"
     os.makedirs(folder_path, exist_ok=True)
@@ -136,7 +136,7 @@ if __name__ == "__main__":
     targets = ["model", "embedding_dim"]
     plot_comparisons_one_target(names, targets, config_path)
 
-    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6", "n_layers_7"]
+    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6", "n_layers_7", "n_layers_8"]
     targets = ["model", "n_layers"]
     plot_comparisons_one_target(names, targets, config_path)
 
@@ -163,6 +163,9 @@ if __name__ == "__main__":
 
 
     names = [
+        "emb_512_n_layers_5_reg_0.001",
+        "emb_512_n_layers_5_reg_0.001_gentle_0.1",
+        "emb_512_n_layers_5_reg_0.001_gentle_0.05",
         "emb_512_n_layers_6_reg_0.001",
         "emb_512_n_layers_6_reg_0.001_gentle_0.1",
         "emb_512_n_layers_6_reg_0.001_gentle_0.05",
