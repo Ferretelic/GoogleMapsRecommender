@@ -50,9 +50,7 @@ class Trainer():
                 self.optim.zero_grad()
 
                 embeddings = self.model(self.graph)
-                bpr_loss, reg_loss = self.model.calculate_loss(embeddings, batch_data)
-
-                loss = bpr_loss + self.cfg.training.reg_weight * reg_loss
+                loss = self.model.calculate_loss(embeddings, batch_data, graph=self.graph)
 
                 loss.backward()
                 self.optim.step()
