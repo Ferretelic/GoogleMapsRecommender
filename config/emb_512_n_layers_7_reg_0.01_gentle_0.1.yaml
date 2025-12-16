@@ -1,4 +1,4 @@
-name: emb_512_n_layers_7_reg_0.01
+name: emb_512_n_layers_7_reg_0.01_gentle_0.1
 
 defaults:
   - base
@@ -19,3 +19,5 @@ evaluation:
 model:
   embedding_dim: 512
   n_layers: 7
+  weighting: gentle
+  decay: 0.1
