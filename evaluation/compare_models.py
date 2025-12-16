@@ -53,8 +53,8 @@ def plot_ndcg_bar(results, ax, palette, target_name, sub_target_name=None):
         results = results[["main_target", "sub_target", "ndcg"]].groupby(["main_target", "sub_target"]).agg("max")
         sns.barplot(results, x="main_target", y="ndcg", ax=ax, hue="sub_target", palette=palette)
 
-    min = math.floor(results["ndcg"].min() * 100) / 100
-    max = math.ceil(results["ndcg"].max() * 100) / 100
+    min = math.floor(results["ndcg"].min() * 200) / 200
+    max = math.ceil(results["ndcg"].max() * 200) / 200
     ax.set_ylim(min, max)
 
     ax.set_title("Comparison of best valid NDCG")
