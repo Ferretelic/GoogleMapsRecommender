@@ -1,0 +1,23 @@
+name: emb_512_n_layers_7_reg_0.01_gentle_0.1
+
+defaults:
+  - base
+  - _self_
+
+training:
+  batch_size: 1024
+  device: cuda
+  n_epochs: 1000
+  early_stopping: 20
+  lr: 0.001
+  reg_weight: 0.01
+
+evaluation:
+  batch_size: 1024
+  rank: 20
+
+model:
+  embedding_dim: 512
+  n_layers: 7
+  weighting: gentle
+  decay: 0.1
