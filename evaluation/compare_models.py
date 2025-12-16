@@ -18,12 +18,14 @@ def update_performance_csv(cfg):
         recall = results["valid"]["recall"]
         ndcg = results["valid"]["ndcg"]
 
+        n_patience = len(ndcg) - (np.argmax(ndcg) + 1)
+
         min_index = np.argmax(ndcg)
         metrics.append((log_file.replace(".json", ""),
-             recall[min_index], ndcg[min_index], min_index+1
+             recall[min_index], ndcg[min_index], min_index+1, n_patience
         ))
 
-    df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg", "epoch"])
+    df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg", "epoch", "n_patience"])
     df = df.sort_values(by="ndcg").reset_index(drop=True)
 
     print(df)
