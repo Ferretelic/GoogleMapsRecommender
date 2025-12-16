@@ -45,6 +45,10 @@ def check_training_completed(cfg):
 
 def split_embeddings(cfg):
     model_path = f"{cfg.paths.embedding}/{cfg.name}"
+
+    if not os.path.exists(f"{model_path}.pt"):
+        return
+
     file_size = os.path.getsize(f"{model_path}.pt") / (1024 ** 2)
 
     if file_size <= 100:
