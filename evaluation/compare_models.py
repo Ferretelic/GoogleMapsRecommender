@@ -181,3 +181,22 @@ if __name__ == "__main__":
 
     targets = [["model", "n_layers"], ["model", "decay"]]
     plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+
+    names = [
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl"
+    ]
+    targets = ["model", "n_layers"]
+    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
+
+    names = [
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+    ]
+    targets = [["model", "n_layers"], ["training", "gcl_reg"]]
+    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name="None")
