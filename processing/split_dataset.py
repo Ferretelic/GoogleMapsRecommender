@@ -66,9 +66,9 @@ def split_dataset_by_temporal(cfg):
         valid_indices.append(indices[-2])
         train_indices.extend(indices[:-2])
 
-    train_df = df.loc[train_indices][["uid", "iid", "rating"]].reset_index(drop=True)
-    valid_df = df.loc[valid_indices][["uid", "iid", "rating"]].reset_index(drop=True)
-    test_df = df.loc[test_indices][["uid", "iid", "rating"]].reset_index(drop=True)
+    train_df = df.loc[train_indices][["uid", "iid", "rating", "time"]].reset_index(drop=True)
+    valid_df = df.loc[valid_indices][["uid", "iid", "rating", "time"]].reset_index(drop=True)
+    test_df = df.loc[test_indices][["uid", "iid", "rating", "time"]].reset_index(drop=True)
 
     print(f"Train: {len(train_df)}, Valid: {len(valid_df)}, Test: {len(test_df)}")
 
