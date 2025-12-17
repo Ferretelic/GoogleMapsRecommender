@@ -1,3 +1,6 @@
+import json
+import logging
+
 import torch
 import tqdm
 
@@ -14,20 +17,30 @@ class Trainer():
         self.model = model.to(self.device)
         self.optim = torch.optim.Adam(model.parameters(), lr=cfg.training.lr)
 
-        self.graph = load_adjacency_matrix(cfg)
+        self.graph = load_adjacency_matrix(cfg).to(self.device)
         self.datasets = construct_datasets(cfg)
+
+        self.evaluator = Evaluator(self.cfg.evaluation, "valid", self.datasets)
+
+        self.logger = logging.getLogger(__name__)
 
     def train(self):
         os.makedirs(self.cfg.paths.embedding, exist_ok=True)
+        os.makedirs(f"{self.cfg.paths.logs}", exist_ok=True)
 
-        self.model.train()
+        model_path = f"{self.cfg.paths.embedding}/{self.cfg.name}.pt"
+        if os.path.exists(model_path):
+            print("    Model already exist...")
+            return
+
         train_dataloder = self.datasets["train"]
         train_losses = []
         valid_metrics = {"recall": [], "ndcg": []}
 
         best_ndcg = 0
-
+        n_patience = 0
         for n_epoch in range(self.n_epochs):
+            self.model.train()
             running_loss = 0.0
 
             progress_bar = tqdm.tqdm(train_dataloder, desc="Training Model")
@@ -37,9 +50,7 @@ class Trainer():
                 self.optim.zero_grad()
 
                 embeddings = self.model(self.graph)
-                bpr_loss, reg_loss = self.model.calculate_loss(embeddings, batch_data)
-
-                loss = bpr_loss + self.cfg.training.reg_weight * reg_loss
+                loss = self.model.calculate_loss(embeddings, batch_data, graph=self.graph)
 
                 loss.backward()
                 self.optim.step()
@@ -50,17 +61,25 @@ class Trainer():
 
             train_losses.append(running_loss / len(train_dataloder.dataset))
 
-            valid_recall, valid_ndcg = self.evaluate("valid")
+            valid_recall, valid_ndcg = self.evaluate()
             valid_metrics["recall"].append(valid_recall)
             valid_metrics["ndcg"].append(valid_ndcg)
 
+            self.logger.info(
+                f"Epoch [{n_epoch + 1:3d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
+
+            with open(f"{self.cfg.paths.logs}/{self.cfg.name}.json", "w") as f:
+                json.dump({"train": train_losses, "valid": valid_metrics}, f)
+
             if valid_ndcg > best_ndcg:
                 best_ndcg = valid_ndcg
-                torch.save(embeddings, f"{self.cfg.paths.embedding}/{self.cfg.name}.pt")
-
-            print(f"Epoch [{n_epoch + 1:2d}] train loss: {train_losses[-1]:.6f} / valid recall {valid_recall:.6f} / valid ndcg {valid_ndcg:.6f}")
-
-        return {"train": train_losses, "valid": valid_metrics}
+                n_patience = 0
+                torch.save(embeddings, model_path)
+            else:
+                n_patience += 1
+                if n_patience == self.cfg.training.early_stopping:
+                    print(f"Early stopping at epoch {n_epoch + 1:3d}")
+                    break
 
     def get_embeddings(self):
         self.model.eval()
@@ -70,13 +89,7 @@ class Trainer():
 
         return embeddings
 
-    def evaluate(self, mode):
+    def evaluate(self):
         embeddings = self.get_embeddings()
-
-        train_df = self.datasets["train"].dataset.df_pos
-        test_df = self.datasets[mode]
-
-        self.evaluator = Evaluator(self.cfg.evaluation, [train_df, test_df], embeddings)
-        recall, ndcgs = self.evaluator.evaluate()
-
+        recall, ndcgs = self.evaluator.evaluate(embeddings)
         return recall, ndcgs

@@ -1,0 +1,24 @@
+paths:
+  raw: ./dataset/raw
+  processed: ./dataset/processed
+
+  country: ${paths.processed}/${dataset.country}
+  meta: ${paths.country}/meta
+  review: ${paths.country}/review
+  splits: ${paths.country}/splits
+
+  result: ./results/${dataset.country}
+  embedding: ./embeddings/${dataset.country}
+  logs: ./logs/${dataset.country}
+  plots: ${paths.result}/plots/models/${name}/
+
+dataset:
+  min_num_reviews: 5
+  min_rating: 4
+  country: Japanese
+  meta_keys: [gmap_id, name, address, latitude, longitude, category, avg_rating, num_of_reviews, price, hours]
+  review_keys: [gmap_id, user_id, name, time, rating]
+
+hydra:
+  run:
+    dir: outputs/${hydra.job.config_name}/${now:%Y-%m-%d_%H-%M-%S}

@@ -4,78 +4,96 @@ import torch
 from torch.utils.data import DataLoader
 
 class Evaluator():
-    def __init__(self, eval_cfg, dfs, embeddings):
-        train_df, test_df,  = dfs
-
-        self.test_user_pos = test_df.groupby("uid")["iid"].apply(set).to_dict()
+    def __init__(self, eval_cfg, mode, datasets):
+        train_df = datasets["train"].dataset.df_pos
         self.train_user_pos = train_df.groupby("uid")["iid"].apply(set).to_dict()
 
-        self.test_users = list(self.test_user_pos.keys())
-        self.user_loader = DataLoader(self.test_users, batch_size=eval_cfg.batch_size, shuffle=False)
+        test_df = datasets[mode]
+        self.test_user_pos = test_df.groupby("uid")["iid"].apply(set).to_dict()
+        test_users = list(self.test_user_pos.keys())
+        self.user_loader = DataLoader(test_users, batch_size=eval_cfg.batch_size, shuffle=False)
 
         self.rank = eval_cfg.rank
 
-        self.user_embs, self.item_embs = embeddings
-
-    def calculate_scores(self, batch_users, user_embs, item_embs):
-        u_embs = user_embs[batch_users]
-        scores = torch.matmul(u_embs, item_embs.t())
-
-        scores = scores.cpu().numpy()
+    def compute_scores(self, user_embs, item_embs, users):
+        batch_user_embs = user_embs[users]
+        scores = torch.matmul(batch_user_embs, item_embs.t())
         return scores
 
-    def get_top_k_items(self, batch_users, scores):
-        for i, uid in enumerate(batch_users):
-            train_pos_items = list(self.train_user_pos.get(uid, []))
-            if len(train_pos_items) > 0:
-                scores[i, train_pos_items] = -np.inf
+    def mask_train_items(self, scores, users_list):
+        rows, cols = [], []
+        for i, uid in enumerate(users_list):
+            train_items = self.train_user_pos.get(uid, set())
+            train_items = list(train_items)
+            if train_items:
+                rows.extend([i] * len(train_items))
+                cols.extend(train_items)
 
-        topk_indices = np.argpartition(scores, -self.rank, axis=1)[:, -self.rank:]
+        if rows:
+            scores[rows, cols] = -float("inf")
 
-        rows = np.arange(len(batch_users))[:, None]
-        topk_scores = scores[rows, topk_indices]
-        sorted_idx = np.argsort(-topk_scores, axis=1)
-        topk_items = topk_indices[rows, sorted_idx]
+        return scores
 
-        return topk_items
+    def get_top_k_items(self, scores):
+        _, topk_indices = torch.topk(scores, k=self.rank, dim=1)
+        return topk_indices
 
-    def calculate_recall(self, pred_items, target_items):
-         num_hits = sum([1 for item in pred_items if item in target_items])
-         recall = num_hits / len(target_items)
-         return recall
+    def calculate_metrics_cpu(self, topk_indices, users_list):
+        recall_sum = 0.0
+        ndcg_sum = 0.0
 
-    def calculate_ndcg(self, pred_items, target_items):
-        dcg, idcg = 0.0, 0.0
+        idcg_denom = 1.0 / np.log2(np.arange(self.rank) + 2.0)
 
-        for rank, item in enumerate(pred_items):
-            if item in target_items:
-                dcg += 1.0 / np.log2(rank + 2)
+        for i, uid in enumerate(users_list):
+            pred_items = topk_indices[i]
+            target_items = self.test_user_pos.get(uid, set())
 
-        num_targets = len(target_items)
-        for rank in range(min(num_targets, rank)):
-            idcg += 1.0 / np.log2(rank + 2)
+            if len(target_items) == 0:
+                continue
 
-        if idcg > 0:
-            return dcg / idcg
-        else:
-            return 0
+            hits = [1.0 if item in target_items else 0.0 for item in pred_items]
+            hits = np.array(hits)
 
-    def evaluate(self):
-        recall, ndcg, n_users = 0, 0, 0
-        for batch_users in tqdm.tqdm(self.user_loader, desc="Evaluating Model"):
-            batch_users = batch_users.to(self.user_embs.device)
+            recall_sum += hits.sum() / len(target_items)
 
-            scores = self.calculate_scores(batch_users, self.user_embs, self.item_embs)
+            dcg = (hits * idcg_denom).sum()
+            k = len(pred_items)
+            num_pos = len(target_items)
+            ideal_len = min(k, num_pos)
+            if ideal_len > 0:
+                idcg = idcg_denom[:ideal_len].sum()
+                ndcg_sum += dcg / idcg
 
-            batch_users_np = batch_users.cpu().numpy()
-            topk_items = self.get_top_k_items(batch_users_np, scores)
+        return recall_sum, ndcg_sum
 
-            for i, uid in enumerate(batch_users_np):
-                pred_items = topk_items[i]
-                target_items = self.test_user_pos[uid]
+    def evaluate(self, embeddings):
+        user_embs, item_embs = embeddings
+        user_embs = user_embs.detach()
+        item_embs = item_embs.detach()
 
-                recall += self.calculate_recall(pred_items, target_items)
-                ndcg += self.calculate_ndcg(pred_items, target_items)
-                n_users += len(batch_users)
+        num_items = item_embs.shape[0]
+        device = user_embs.device
 
-        return recall / n_users, ndcg / n_users
+        recall_sum, ndcg_sum, n_users = 0.0, 0.0, 0
+        with torch.no_grad():
+            for batch_users in tqdm.tqdm(self.user_loader, desc="Evaluating Model"):
+                batch_users_device = batch_users.to(device)
+                batch_users_np = batch_users.numpy()
+                batch_size = batch_users.size(0)
+
+                scores = self.compute_scores(user_embs, item_embs, batch_users_device)
+                scores = self.mask_train_items(scores, batch_users_np)
+
+                topk_indices = self.get_top_k_items(scores)
+                top_indices_np = topk_indices.cpu().numpy()
+
+                recall, ndcg = self.calculate_metrics_cpu(top_indices_np, batch_users_np)
+
+                recall_sum += recall
+                ndcg_sum += ndcg
+                n_users += batch_size
+
+        recall = recall_sum / n_users
+        ndcg = ndcg_sum / n_users
+
+        return recall, ndcg
