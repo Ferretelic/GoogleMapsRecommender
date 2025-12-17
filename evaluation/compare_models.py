@@ -220,6 +220,19 @@ if __name__ == "__main__":
         "geo_distance_20.0_3.0",
         "geo_distance_20.0_4.0",
         "geo_distance_20.0_5.0",
+        "geo_distance_20.0_6.0",
+        "geo_distance_20.0_7.0",
+        "geo_distance_20.0_8.0",
     ]
     targets = ["model", "geo_sigma"]
+    plot_comparisons_one_target(names, targets, config_path, target_name=None)
+
+    names = [
+        "baseline",
+        "geo_distance_5",
+        "geo_distance_10",
+        "geo_distance_15",
+        "geo_distance_20",
+    ]
+    targets = ["model", "geo_k_neighbors"]
     plot_comparisons_one_target(names, targets, config_path, target_name=None)

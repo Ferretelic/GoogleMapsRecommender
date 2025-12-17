@@ -51,7 +51,7 @@ def add_geo_distance(cfg, train, n_items, graph_path):
     EARTH_RADIUS_KM = 6371.0
     geo_threshold = cfg.model.get("geo_threshold", 0.0)
     geo_sigma = cfg.model.get("geo_sigma", 0.0)
-    geo_k_neighbors = cfg.model.get("k_neighbors", 0)
+    geo_k_neighbors = cfg.model.get("geo_k_neighbors", 0)
 
     if geo_threshold != 0 or geo_k_neighbors != 0:
         item_locs = train.drop_duplicates(subset=["iid"])[["iid", "latitude", "longitude"]].set_index("iid")
@@ -66,13 +66,9 @@ def add_geo_distance(cfg, train, n_items, graph_path):
             graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
         else:
             dists_rad, indices = tree.query(coords, k=geo_k_neighbors)
-            graph_path += f"_geo_distance_{k_neighbors}"
+            graph_path += f"_geo_distance_{geo_k_neighbors}"
 
-        rows = []
-        cols = []
-        weights = []
-
-        gamma = -1.0 / (geo_sigma ** 2)
+        rows, cols, weights = [], [], []
 
         for i, (neighbors, dists) in enumerate(zip(indices, dists_rad)):
             mask = neighbors != i
@@ -82,9 +78,12 @@ def add_geo_distance(cfg, train, n_items, graph_path):
             if len(valid_neighbors) == 0:
                 continue
 
-            dists_km = valid_dists_rad * EARTH_RADIUS_KM
-
-            w = np.exp(gamma * (dists_km ** 2))
+            if geo_k_neighbors == 0:
+                gamma = -1.0 / (geo_sigma ** 2)
+                dists_km = valid_dists_rad * EARTH_RADIUS_KM
+                w = np.exp(gamma * (dists_km ** 2))
+            else:
+                w = np.ones(len(valid_neighbors), dtype=np.float32)
 
             rows.extend([i] * len(valid_neighbors))
             cols.extend(valid_neighbors)
@@ -152,6 +151,7 @@ def load_adjacency_matrix(cfg):
     if geo_k_neighbors != 0:
         graph_path += f"_geo_distance_{geo_k_neighbors}"
 
+    print(os.path.exists(f"{graph_path}.pt"), graph_path)
     if not os.path.exists(f"{graph_path}.pt"):
         build_adjacency_matrix(cfg)
 
