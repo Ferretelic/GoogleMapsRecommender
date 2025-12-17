@@ -1,0 +1,24 @@
+name: geo_distance_20.0_1.5
+
+defaults:
+  - base
+  - _self_
+
+training:
+  batch_size: 1024
+  device: cuda
+  n_epochs: 1000
+  early_stopping: 20
+  lr: 0.001
+  reg_weight: 0.0001
+
+evaluation:
+  batch_size: 1024
+  rank: 20
+
+model:
+  embedding_dim: 64
+  n_layers: 3
+
+  geo_threshold: 20.0
+  geo_sigma: 1.5
