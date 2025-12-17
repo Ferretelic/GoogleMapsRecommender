@@ -6,6 +6,7 @@ import numpy as np
 import scipy.sparse as sp
 import torch
 from torch.utils.data import Dataset, DataLoader
+from sklearn.neighbors import BallTree
 
 def save_dataset_sizes(cfg):
     df = pd.read_csv(f"{cfg.paths.country}/review.csv")
@@ -28,6 +29,68 @@ def load_dataset_sizes(cfg):
 
     return sizes
 
+def add_time_decay(cfg, train_pos, graph_path):
+    time_decay = cfg.model.get("time_decay", 0.0)
+    time_min_weight = cfg.model.get("time_min_weight", 0.0)
+
+    if time_decay == 0:
+        weights = np.ones(len(train_pos))
+
+    else:
+        t_values = train_pos["time"].values.astype(np.float32)
+        t_max = t_values.max()
+        time_diff_days = (t_max - t_values) / (86400.0 * 1000)
+
+        weights = (1 - time_min_weight) * np.exp(-time_decay * time_diff_days) + time_min_weight
+
+        graph_path += f"_time_decay_{time_decay}_{time_min_weight}"
+
+    return weights, graph_path
+
+def add_geo_distance(cfg, train, n_items, graph_path):
+    EARTH_RADIUS_KM = 6371.0
+    geo_threshold = cfg.model.get("geo_threshold", 0.0)
+    geo_sigma = cfg.model.get("geo_sigma", 0.0)
+
+    if geo_threshold == 0:
+        bottom_right = sp.csr_matrix((n_items, n_items))
+    else:
+        item_locs = train.drop_duplicates(subset=["iid"])[["iid", "latitude", "longitude"]].set_index("iid")
+        item_locs = item_locs.reindex(range(n_items)).fillna(0)
+
+        coords = np.radians(item_locs[["latitude", "longitude"]].values)
+        tree = BallTree(coords, metric="haversine")
+
+        radius_rad = geo_threshold / EARTH_RADIUS_KM
+        indices, dists_rad = tree.query_radius(coords, r=radius_rad, return_distance=True)
+
+        rows = []
+        cols = []
+        weights = []
+
+        gamma = -1.0 / (geo_sigma ** 2)
+
+        for i, (neighbors, dists) in enumerate(zip(indices, dists_rad)):
+            mask = neighbors != i
+            valid_neighbors = neighbors[mask]
+            valid_dists_rad = dists[mask]
+
+            if len(valid_neighbors) == 0:
+                continue
+
+            dists_km = valid_dists_rad * EARTH_RADIUS_KM
+
+            w = np.exp(gamma * (dists_km ** 2))
+
+            rows.extend([i] * len(valid_neighbors))
+            cols.extend(valid_neighbors)
+            weights.extend(w)
+
+        bottom_right = sp.coo_matrix((weights, (rows, cols)), shape=(n_items, n_items))
+        graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
+
+    return bottom_right, graph_path
+
 def build_adjacency_matrix(cfg):
     n_users, n_items = load_dataset_sizes(cfg)
 
@@ -36,27 +99,13 @@ def build_adjacency_matrix(cfg):
     u_ids = train_pos["uid"].values
     i_ids = train_pos["iid"].values
 
-    time_decay = cfg.model.get("time_decay", 0.0)
-
-    if time_decay == 0:
-        weights = np.ones(len(u_ids))
-        graph_path = f"{cfg.paths.graph}/graph.pt"
-
-    else:
-        t_values = train_pos["time"].values.astype(np.float32)
-        t_max = t_values.max()
-        time_diff_days = (t_max - t_values) / (86400.0 * 1000)
-
-        time_min_weight = cfg["model"]["time_min_weight"]
-        weights = (1 - time_min_weight) * np.exp(-time_decay * time_diff_days) + time_min_weight
-
-        graph_path = f"{cfg.paths.graph}/graph_time_decay_{time_decay}_{time_min_weight}.pt"
-
+    graph_path = f"{cfg.paths.graph}/graph"
+    weights, graph_path = add_time_decay(cfg, train_pos, graph_path)
     R = sp.coo_matrix((weights, (u_ids, i_ids)), shape=(n_users, n_items))
 
-    top_left = sp.csr_matrix((n_users, n_users))
-    bottom_right = sp.csr_matrix((n_items, n_items))
+    bottom_right, graph_path = add_geo_distance(cfg, train, n_items, graph_path)
 
+    top_left = sp.csr_matrix((n_users, n_users))
     adj_mat = sp.vstack([sp.hstack([top_left, R]), sp.hstack([R.T, bottom_right])])
 
     rowsum = np.array(adj_mat.sum(1)).flatten()
@@ -75,17 +124,23 @@ def build_adjacency_matrix(cfg):
     values = torch.from_numpy(coo.data.astype(np.float32))
 
     graph = torch.sparse_coo_tensor(indices, values, coo.shape).coalesce()
-    torch.save(graph, graph_path)
+    torch.save(graph, f"{graph_path}.pt")
 
 def load_adjacency_matrix(cfg):
+    os.makedirs(cfg.paths.graph, exist_ok=True)
+    graph_path = f"{cfg.paths.graph}/graph"
+
     time_decay = cfg.model.get("time_decay", 0.0)
     time_min_weight = cfg.model.get("time_min_weight", 0.0)
 
-    os.makedirs(cfg.paths.graph, exist_ok=True)
-    if time_decay == 0:
-        graph_path = f"{cfg.paths.graph}/graph.pt"
-    else:
-        graph_path = f"{cfg.paths.graph}/graph_time_decay_{time_decay}_{time_min_weight}.pt"
+    if time_decay != 0:
+        graph_path += f"_time_decay_{time_decay}_{time_min_weight}"
+
+    geo_threshold = cfg.model.get("geo_threshold", 0.0)
+    geo_sigma = cfg.model.get("geo_sigma", 0.0)
+
+    if geo_threshold != 0:
+        graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}.pt"
 
     if not os.path.exists(graph_path):
         build_adjacency_matrix(cfg)
