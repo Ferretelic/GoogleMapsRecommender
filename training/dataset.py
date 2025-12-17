@@ -36,7 +36,23 @@ def build_adjacency_matrix(cfg):
     u_ids = train_pos["uid"].values
     i_ids = train_pos["iid"].values
 
-    R = sp.coo_matrix((np.ones(len(u_ids)), (u_ids, i_ids)), shape=(n_users, n_items))
+    time_decay = cfg.model.get("time_decay", 0.0)
+
+    if time_decay == 0:
+        weights = np.ones(len(u_ids))
+        graph_path = f"{cfg.paths.graph}/graph.pt"
+
+    else:
+        t_values = train_pos["time"].values.astype(np.float32)
+        t_max = t_values.max()
+        time_diff_days = (t_max - t_values) / 86400.0
+
+        time_min_weight = cfg["model"]["time_min_weight"]
+        weights = (1 - time_min_weight) * np.exp(-time_decay * time_diff_days) + time_min_weight
+
+        graph_path = f"{cfg.paths.graph}/graph_time_decay_{time_decay}_{time_min_weight}.pt"
+
+    R = sp.coo_matrix((weights, (u_ids, i_ids)), shape=(n_users, n_items))
 
     top_left = sp.csr_matrix((n_users, n_users))
     bottom_right = sp.csr_matrix((n_items, n_items))
@@ -59,14 +75,22 @@ def build_adjacency_matrix(cfg):
     values = torch.from_numpy(coo.data.astype(np.float32))
 
     graph = torch.sparse_coo_tensor(indices, values, coo.shape).coalesce()
-
-    torch.save(graph, f"{cfg.paths.result}/graph.pt")
+    torch.save(graph, graph_path)
 
 def load_adjacency_matrix(cfg):
-    if not os.path.exists(f"{cfg.paths.result}/graph.pt"):
+    time_decay = cfg.model.get("time_decay", 0.0)
+    time_min_weight = cfg.model.get("time_min_weight", 0.0)
+
+    os.makedirs(cfg.paths.graph, exist_ok=True)
+    if time_decay == 0:
+        graph_path = f"{cfg.paths.graph}/graph.pt"
+    else:
+        graph_path = f"{cfg.paths.graph}/graph_time_decay_{time_decay}_{time_min_weight}.pt"
+
+    if not os.path.exists(graph_path):
         build_adjacency_matrix(cfg)
 
-    graph = torch.load(f"{cfg.paths.result}/graph.pt")
+    graph = torch.load(graph_path)
     return graph
 
 class CuisineDataset(Dataset):
