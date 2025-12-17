@@ -1,15 +1,9 @@
-python main.py --config-name=geo_distance_5 > /dev/null 2>&1 &
-python main.py --config-name=geo_distance_10 > /dev/null 2>&1 &
-python main.py --config-name=geo_distance_15 > /dev/null 2>&1 &
-python main.py --config-name=geo_distance_20 > /dev/null 2>&1 &
+python main.py --config-name=emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0
+python main.py --config-name=emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0
+python main.py --config-name=emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0
+
 
 wait
 
-python main.py --config-name=geo_distance_20.0_6.0 > /dev/null 2>&1 &
-python main.py --config-name=geo_distance_20.0_7.0 > /dev/null 2>&1 &
-python main.py --config-name=geo_distance_20.0_8.0 > /dev/null 2>&1 &
 
-python main.py --config-name=gcl > /dev/null 2>&1 &
-
-wait
 echo "Finished training all the models"

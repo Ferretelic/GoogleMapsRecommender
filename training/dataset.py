@@ -151,7 +151,6 @@ def load_adjacency_matrix(cfg):
     if geo_k_neighbors != 0:
         graph_path += f"_geo_distance_{geo_k_neighbors}"
 
-    print(os.path.exists(f"{graph_path}.pt"), graph_path)
     if not os.path.exists(f"{graph_path}.pt"):
         build_adjacency_matrix(cfg)
 
