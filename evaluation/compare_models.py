@@ -237,3 +237,25 @@ if __name__ == "__main__":
     ]
     targets = ["model", "geo_k_neighbors"]
     plot_comparisons_one_target(names, targets, config_path, target_name=None)
+
+    names = [
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+    ]
+    targets = [["model", "n_layers"], ["model", "geo_k_neighbors"]]
+    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+
+    names = [
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+    ]
+    targets = [["model", "n_layers"], ["model", "geo_threshold"]]
+    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
