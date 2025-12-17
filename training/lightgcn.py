@@ -14,14 +14,14 @@ class LightGCN(nn.Module):
 
         nn.init.xavier_normal_(self.embedding.weight)
 
-        weight_method = cfg.model.get("weighting", "uniform")
+        weight_method = cfg.model.get("layer_weighting", "uniform")
 
         num_weights = self.n_layers + 1
         if weight_method == "uniform":
             weights = torch.ones(num_weights)
         elif weight_method == "gentle":
-            decay = cfg.model.get("decay", 0.1)
-            weights = torch.ones(num_weights) - torch.arange(num_weights) * decay
+            layer_decay = cfg.model.get("layer_decay", 0.1)
+            weights = torch.ones(num_weights) - torch.arange(num_weights) * layer_decay
         else:
             raise NotImplementedError
 

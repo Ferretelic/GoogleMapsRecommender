@@ -82,7 +82,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
         df = pd.DataFrame({"epoch": range(len(ndcg)), "ndcg": ndcg, "target": [target] * len(ndcg)})
         results.append(df)
 
-    results = pd.concat(results, axis=0)
+    results = pd.concat(results, axis=0).reset_index(drop=True)
     plot_history_line(results, ax1, palette)
     plot_ndcg_bar(results, ax2, palette, target_name)
 
@@ -121,7 +121,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
 
         results.append(df)
 
-    results = pd.concat(results, axis=0)
+    results = pd.concat(results, axis=0).reset_index(drop=True)
 
     plot_history_line(results, ax1, palette)
     plot_ndcg_bar(results, ax2, palette[::results["main_target"].nunique()], target_name, sub_target_name)
@@ -179,7 +179,7 @@ if __name__ == "__main__":
         "emb_512_n_layers_8_reg_0.001_gentle_0.05",
     ]
 
-    targets = [["model", "n_layers"], ["model", "decay"]]
+    targets = [["model", "n_layers"], ["model", "layer_decay"]]
     plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
 
     names = [
@@ -199,4 +199,15 @@ if __name__ == "__main__":
         "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
     ]
     targets = [["model", "n_layers"], ["training", "gcl_reg"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name="None")
+    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+
+    names = [
+        "time_decay_0.001_0.1",
+        "time_decay_0.001_0.3",
+        "time_decay_0.0005_0.1",
+        "time_decay_0.0005_0.3",
+        "time_decay_0.0001_0.1",
+        "time_decay_0.0001_0.3",
+    ]
+    targets = [["model", "time_decay"], ["model", "time_min_weight"]]
+    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)

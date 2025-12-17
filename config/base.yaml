@@ -8,6 +8,7 @@ paths:
   splits: ${paths.country}/splits
 
   result: ./results/${dataset.country}
+  graph: ${paths.result}/graphs
   embedding: ./embeddings/${dataset.country}
   logs: ./logs/${dataset.country}
   plots: ${paths.result}/plots/models/${name}/
