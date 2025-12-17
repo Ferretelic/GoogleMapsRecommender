@@ -45,7 +45,7 @@ def build_adjacency_matrix(cfg):
     else:
         t_values = train_pos["time"].values.astype(np.float32)
         t_max = t_values.max()
-        time_diff_days = (t_max - t_values) / 86400.0
+        time_diff_days = (t_max - t_values) / (86400.0 * 1000)
 
         time_min_weight = cfg["model"]["time_min_weight"]
         weights = (1 - time_min_weight) * np.exp(-time_decay * time_diff_days) + time_min_weight
