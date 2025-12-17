@@ -1,0 +1,21 @@
+name: batch_2048
+
+defaults:
+  - base
+  - _self_
+
+training:
+  batch_size: 2048
+  device: cuda
+  n_epochs: 1000
+  early_stopping: 20
+  lr: 0.002
+  reg_weight: 0.0001
+
+evaluation:
+  batch_size: 2048
+  rank: 20
+
+model:
+  embedding_dim: 64
+  n_layers: 3
