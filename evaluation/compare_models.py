@@ -28,6 +28,7 @@ def update_performance_csv(cfg):
     df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg", "epoch", "n_patience"])
     df = df.sort_values(by="ndcg").reset_index(drop=True)
 
+    pd.set_option("display.max_rows", None)
     print(df)
 
     df.to_csv(f"{cfg.paths.result}/performances.csv", index=False)
