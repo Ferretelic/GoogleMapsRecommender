@@ -74,7 +74,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
     results = []
     for name in names:
         cfg = load_hydra_config(name, config_path)
-        target = cfg[targets[0]][targets[1]]
+        target = cfg[targets[0]].get(targets[1], 0.0)
 
         with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
             ndcg = json.load(f)["valid"]["ndcg"]
@@ -211,3 +211,15 @@ if __name__ == "__main__":
     ]
     targets = [["model", "time_decay"], ["model", "time_min_weight"]]
     plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+
+    names = [
+        "baseline",
+        "geo_distance_20.0_1.0",
+        "geo_distance_20.0_1.5",
+        "geo_distance_20.0_2.0",
+        "geo_distance_20.0_3.0",
+        "geo_distance_20.0_4.0",
+        "geo_distance_20.0_5.0",
+    ]
+    targets = ["model", "geo_sigma"]
+    plot_comparisons_one_target(names, targets, config_path, target_name=None)

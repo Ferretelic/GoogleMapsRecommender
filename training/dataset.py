@@ -51,18 +51,22 @@ def add_geo_distance(cfg, train, n_items, graph_path):
     EARTH_RADIUS_KM = 6371.0
     geo_threshold = cfg.model.get("geo_threshold", 0.0)
     geo_sigma = cfg.model.get("geo_sigma", 0.0)
+    geo_k_neighbors = cfg.model.get("k_neighbors", 0)
 
-    if geo_threshold == 0:
-        bottom_right = sp.csr_matrix((n_items, n_items))
-    else:
+    if geo_threshold != 0 or geo_k_neighbors != 0:
         item_locs = train.drop_duplicates(subset=["iid"])[["iid", "latitude", "longitude"]].set_index("iid")
         item_locs = item_locs.reindex(range(n_items)).fillna(0)
 
         coords = np.radians(item_locs[["latitude", "longitude"]].values)
         tree = BallTree(coords, metric="haversine")
 
-        radius_rad = geo_threshold / EARTH_RADIUS_KM
-        indices, dists_rad = tree.query_radius(coords, r=radius_rad, return_distance=True)
+        if geo_threshold != 0:
+            radius_rad = geo_threshold / EARTH_RADIUS_KM
+            indices, dists_rad = tree.query_radius(coords, r=radius_rad, return_distance=True)
+            graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
+        else:
+            dists_rad, indices = tree.query(coords, k=geo_k_neighbors)
+            graph_path += f"_geo_distance_{k_neighbors}"
 
         rows = []
         cols = []
@@ -87,7 +91,9 @@ def add_geo_distance(cfg, train, n_items, graph_path):
             weights.extend(w)
 
         bottom_right = sp.coo_matrix((weights, (rows, cols)), shape=(n_items, n_items))
-        graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
+
+    else:
+        bottom_right = sp.csr_matrix((n_items, n_items))
 
     return bottom_right, graph_path
 
@@ -140,12 +146,16 @@ def load_adjacency_matrix(cfg):
     geo_sigma = cfg.model.get("geo_sigma", 0.0)
 
     if geo_threshold != 0:
-        graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}.pt"
+        graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
 
-    if not os.path.exists(graph_path):
+    geo_k_neighbors = cfg.model.get("geo_k_neighbors", 0)
+    if geo_k_neighbors != 0:
+        graph_path += f"_geo_distance_{geo_k_neighbors}"
+
+    if not os.path.exists(f"{graph_path}.pt"):
         build_adjacency_matrix(cfg)
 
-    graph = torch.load(graph_path)
+    graph = torch.load(f"{graph_path}.pt")
     return graph
 
 class CuisineDataset(Dataset):
