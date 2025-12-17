@@ -1,4 +1,4 @@
-name: emb_512_n_layers_6_reg_0.001_gentle_0.05
+name: time_decay_0.0005_0.3
 
 defaults:
   - base
@@ -10,14 +10,15 @@ training:
   n_epochs: 1000
   early_stopping: 20
   lr: 0.001
-  reg_weight: 0.001
+  reg_weight: 0.0001
 
 evaluation:
   batch_size: 1024
   rank: 20
 
 model:
-  embedding_dim: 512
-  n_layers: 6
-  layer_weighting: gentle
-  layer_decay: 0.05
+  embedding_dim: 64
+  n_layers: 3
+
+  time_decay: 0.0005
+  time_min_weight: 0.3
