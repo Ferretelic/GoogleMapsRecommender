@@ -293,4 +293,4 @@ if __name__ == "__main__":
         "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_10_weight_1.0"
     ]
     targets = ["model", "geo_k_neighbors"]
-    plot_comparisons_one_target(names, targets, config_path)
+    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl")
