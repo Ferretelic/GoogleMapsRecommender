@@ -106,7 +106,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
     results = []
     for name in names:
         cfg = load_hydra_config(name, config_path)
-        target = cfg[targets[0][0]][targets[0][1]]
+        target = cfg[targets[0][0]].get(targets[0][1], 0.0)
         sub_target = cfg[targets[1][0]].get(targets[1][1], 0.0)
 
         with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
@@ -181,7 +181,7 @@ if __name__ == "__main__":
     ]
 
     targets = [["model", "n_layers"], ["model", "layer_decay"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
@@ -200,7 +200,7 @@ if __name__ == "__main__":
         "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
     ]
     targets = [["model", "n_layers"], ["training", "gcl_reg"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
@@ -220,7 +220,7 @@ if __name__ == "__main__":
         "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl"
     ]
     targets = [["model", "n_layers"], ["model", "layer_decay"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "time_decay_0.001_0.1",
@@ -231,32 +231,35 @@ if __name__ == "__main__":
         "time_decay_0.0001_0.3",
     ]
     targets = [["model", "time_decay"], ["model", "time_min_weight"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "baseline",
-        "geo_distance_20.0_1.0",
-        "geo_distance_20.0_1.5",
-        "geo_distance_20.0_2.0",
-        "geo_distance_20.0_3.0",
-        "geo_distance_20.0_4.0",
-        "geo_distance_20.0_5.0",
-        "geo_distance_20.0_6.0",
-        "geo_distance_20.0_7.0",
-        "geo_distance_20.0_8.0",
-    ]
-    targets = ["model", "geo_sigma"]
-    plot_comparisons_one_target(names, targets, config_path, target_name=None)
-
-    names = [
-        "baseline",
-        "geo_distance_5",
-        "geo_distance_10",
-        "geo_distance_15",
-        "geo_distance_20",
+        "geo_distance_neighbors_10_weight_0.1",
+        "geo_distance_neighbors_15_weight_0.1",
+        "geo_distance_neighbors_20_weight_0.1",
     ]
     targets = ["model", "geo_k_neighbors"]
-    plot_comparisons_one_target(names, targets, config_path, target_name=None)
+    plot_comparisons_one_target(names, targets, config_path)
+
+    names = [
+        "geo_distance_neighbors_10_weight_0.1",
+        "geo_distance_neighbors_10_weight_1.0",
+        "geo_distance_neighbors_15_weight_0.1",
+        "geo_distance_neighbors_15_weight_1.0",
+        "geo_distance_neighbors_20_weight_0.1",
+        "geo_distance_neighbors_20_weight_1.0",
+    ]
+    targets = [["model", "geo_k_neighbors"], ["model", "geo_weight"]]
+    plot_comparisons_two_targets(names, targets, config_path)
+
+    names = [
+        "baseline",
+        "geo_distance_threshold_5.0_weight_0.1",
+        "geo_distance_threshold_10.0_weight_0.1",
+    ]
+    targets = ["model", "geo_threshold"]
+    plot_comparisons_one_target(names, targets, config_path)
 
     names = [
         "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
@@ -267,7 +270,7 @@ if __name__ == "__main__":
         "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_15",
     ]
     targets = [["model", "n_layers"], ["model", "geo_k_neighbors"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
@@ -278,4 +281,4 @@ if __name__ == "__main__":
         "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
     ]
     targets = [["model", "n_layers"], ["model", "geo_threshold"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
