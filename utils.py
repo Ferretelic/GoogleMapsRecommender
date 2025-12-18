@@ -11,8 +11,8 @@ def parse(path):
     for l in g:
         yield json.loads(l)
 
-def load_states(raw_path):
-    with open(f"{raw_path}/states.txt", "r") as f:
+def load_states(dataset_path):
+    with open(f"{dataset_path}/states.txt", "r") as f:
         states = f.read().split("\n")
 
     states = [state.replace(" ", "_") for state in states]
@@ -22,7 +22,7 @@ def check_process_complete(cfg):
     if not os.path.exists(cfg.paths.review) or not os.path.exists(cfg.paths.meta):
         return False
 
-    num_states = len(load_states(cfg.paths.raw))
+    num_states = len(load_states(cfg.paths.dataset))
     num_review_files = len(os.listdir(cfg.paths.review))
     num_meta_files = len(os.listdir(cfg.paths.meta))
 

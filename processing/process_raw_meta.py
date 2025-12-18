@@ -38,7 +38,7 @@ def filter_raw_state_meta_data(cfg, state, filters):
     df.to_csv(processed_file, index=False)
 
 def filter_raw_meta_data(cfg, filters):
-    states = load_states(cfg.paths.raw)
+    states = load_states(cfg.paths.dataset)
 
     for state in states:
         filter_raw_state_meta_data(cfg, state, filters)

@@ -61,9 +61,6 @@ def evaluate_model(cfg):
     if not check_training_completed(cfg):
         return
 
-    print("    Splitting embeddings...")
-    split_embeddings(cfg)
-
     print("    Plotting training history...")
     plot_training_history(cfg)
 
