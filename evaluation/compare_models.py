@@ -235,14 +235,17 @@ if __name__ == "__main__":
 
     names = [
         "baseline",
-        "geo_distance_neighbors_10_weight_0.1",
-        "geo_distance_neighbors_15_weight_0.1",
-        "geo_distance_neighbors_20_weight_0.1",
+        "geo_distance_neighbors_5_weight_1.0",
+        "geo_distance_neighbors_10_weight_1.0",
+        "geo_distance_neighbors_15_weight_1.0",
+        "geo_distance_neighbors_20_weight_1.0",
     ]
     targets = ["model", "geo_k_neighbors"]
     plot_comparisons_one_target(names, targets, config_path)
 
     names = [
+        "geo_distance_neighbors_5_weight_0.1",
+        "geo_distance_neighbors_5_weight_1.0",
         "geo_distance_neighbors_10_weight_0.1",
         "geo_distance_neighbors_10_weight_1.0",
         "geo_distance_neighbors_15_weight_0.1",
@@ -282,3 +285,12 @@ if __name__ == "__main__":
     ]
     targets = [["model", "n_layers"], ["model", "geo_threshold"]]
     plot_comparisons_two_targets(names, targets, config_path)
+
+
+    names = [
+        "emb_512_n_layers_4_reg_0.001_gcl",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_10_weight_1.0"
+    ]
+    targets = ["model", "geo_k_neighbors"]
+    plot_comparisons_one_target(names, targets, config_path)
