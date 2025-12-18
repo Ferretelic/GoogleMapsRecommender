@@ -203,6 +203,26 @@ if __name__ == "__main__":
     plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
 
     names = [
+        "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_5_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+    ]
+    targets = ["model", "n_layers"]
+    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
+
+    names = [
+        "emb_512_n_layers_3_reg_0.001_gcl",
+        "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_4_reg_0.001_gcl",
+        "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl"
+    ]
+    targets = [["model", "n_layers"], ["model", "layer_decay"]]
+    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+
+    names = [
         "time_decay_0.001_0.1",
         "time_decay_0.001_0.3",
         "time_decay_0.0005_0.1",
