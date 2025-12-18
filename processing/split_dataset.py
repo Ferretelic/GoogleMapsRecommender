@@ -15,17 +15,17 @@ def save_mappings(cfg, df):
     user2index = {user_id:index for index, user_id in enumerate(user_ids)}
     index2user = {index:user_id for index, user_id in enumerate(user_ids)}
 
-    with open(f"{cfg.paths.country}/mappings.json", "w") as f:
+    with open(f"{cfg.paths.combined}/mappings.json", "w") as f:
         json.dump({
             "gmap2index": gmap2index, "index2gmap": index2gmap,
             "user2index": user2index, "index2user": index2user
         }, f)
 
 def load_mappings(cfg, df):
-    if not os.path.exists(f"{cfg.paths.country}/mappings.json"):
+    if not os.path.exists(f"{cfg.paths.combined}/mappings.json"):
         save_mappings(cfg, df)
 
-    with open(f"{cfg.paths.country}/mappings.json", "r") as f:
+    with open(f"{cfg.paths.combined}/mappings.json", "r") as f:
         mappings = json.load(f)
 
     return mappings["gmap2index"], mappings["user2index"]
@@ -36,15 +36,27 @@ def apply_mappings(cfg, df):
     df["iid"] = df["gmap_id"].apply(lambda x: gmap2index[x])
     df["uid"] = df["user_id"].apply(lambda x: user2index[x])
 
-    df = df[["uid", "iid", "time", "rating"]]
+    gmap2loc = get_gmap_to_loc(cfg)
+
+    df["latitude"] = df["gmap_id"].apply(lambda x: gmap2loc[x][0])
+    df["longitude"] = df["gmap_id"].apply(lambda x: gmap2loc[x][1])
+
+    df = df[["uid", "iid", "time", "rating", "latitude", "longitude"]]
 
     return df
+
+def get_gmap_to_loc(cfg):
+    meta = pd.read_csv(f"{cfg.paths.combined}/meta.csv")
+
+    gmap2loc = {gmap_id: (latitude, longitude) for (gmap_id, latitude, longitude) in meta[["gmap_id", "latitude", "longitude"]].values}
+
+    return gmap2loc
 
 def split_dataset_by_temporal(cfg):
     if os.path.exists(cfg.paths.splits):
         return
 
-    df = pd.read_csv(f"{cfg.paths.country}/review.csv")
+    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
     df = df[df["rating"] >= cfg.dataset.min_rating]
     df = apply_mappings(cfg, df)
 
@@ -66,9 +78,10 @@ def split_dataset_by_temporal(cfg):
         valid_indices.append(indices[-2])
         train_indices.extend(indices[:-2])
 
-    train_df = df.loc[train_indices][["uid", "iid", "rating", "time"]].reset_index(drop=True)
-    valid_df = df.loc[valid_indices][["uid", "iid", "rating", "time"]].reset_index(drop=True)
-    test_df = df.loc[test_indices][["uid", "iid", "rating", "time"]].reset_index(drop=True)
+    columns = ["uid", "iid", "rating", "time", "latitude", "longitude"]
+    train_df = df.loc[train_indices][columns].reset_index(drop=True)
+    valid_df = df.loc[valid_indices][columns].reset_index(drop=True)
+    test_df = df.loc[test_indices][columns].reset_index(drop=True)
 
     print(f"Train: {len(train_df)}, Valid: {len(valid_df)}, Test: {len(test_df)}")
 
