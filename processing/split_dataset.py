@@ -15,17 +15,17 @@ def save_mappings(cfg, df):
     user2index = {user_id:index for index, user_id in enumerate(user_ids)}
     index2user = {index:user_id for index, user_id in enumerate(user_ids)}
 
-    with open(f"{cfg.paths.country}/mappings.json", "w") as f:
+    with open(f"{cfg.paths.combined}/mappings.json", "w") as f:
         json.dump({
             "gmap2index": gmap2index, "index2gmap": index2gmap,
             "user2index": user2index, "index2user": index2user
         }, f)
 
 def load_mappings(cfg, df):
-    if not os.path.exists(f"{cfg.paths.country}/mappings.json"):
+    if not os.path.exists(f"{cfg.paths.combined}/mappings.json"):
         save_mappings(cfg, df)
 
-    with open(f"{cfg.paths.country}/mappings.json", "r") as f:
+    with open(f"{cfg.paths.combined}/mappings.json", "r") as f:
         mappings = json.load(f)
 
     return mappings["gmap2index"], mappings["user2index"]
@@ -46,7 +46,7 @@ def apply_mappings(cfg, df):
     return df
 
 def get_gmap_to_loc(cfg):
-    meta = pd.read_csv(f"{cfg.paths.country}/meta.csv")
+    meta = pd.read_csv(f"{cfg.paths.combined}/meta.csv")
 
     gmap2loc = {gmap_id: (latitude, longitude) for (gmap_id, latitude, longitude) in meta[["gmap_id", "latitude", "longitude"]].values}
 
@@ -56,7 +56,7 @@ def split_dataset_by_temporal(cfg):
     if os.path.exists(cfg.paths.splits):
         return
 
-    df = pd.read_csv(f"{cfg.paths.country}/review.csv")
+    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
     df = df[df["rating"] >= cfg.dataset.min_rating]
     df = apply_mappings(cfg, df)
 

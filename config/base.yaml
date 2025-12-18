@@ -1,11 +1,14 @@
 paths:
+  dataset: ./dataset/
   raw: ./dataset/raw
   processed: ./dataset/processed
 
-  country: ${paths.processed}/${dataset.country}
-  meta: ${paths.country}/meta
-  review: ${paths.country}/review
-  splits: ${paths.country}/splits
+  splits: ${paths.processed}/${dataset.country}/splits
+  combined: ${paths.processed}/${dataset.country}/combined
+  filtered: ${paths.processed}/${dataset.country}/filtered
+
+  meta: ${paths.filtered}/meta
+  review: ${paths.filtered}/review
 
   result: ./results/${dataset.country}
   graph: ./graphs/${dataset.country}
