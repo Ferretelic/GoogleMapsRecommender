@@ -1,4 +1,4 @@
-name: baseline
+name: geo_distance_neighbors_20_weight_1.0
 
 defaults:
   - base
@@ -19,3 +19,6 @@ evaluation:
 model:
   embedding_dim: 64
   n_layers: 3
+
+  geo_k_neighbors: 20
+  geo_weight: 1.0
