@@ -91,3 +91,22 @@ def load_embeddings(cfg):
         users_emb, items_emb = torch.load(model_path)
 
     return users_emb, items_emb
+
+if __name__ == "__main__":
+    from hydra import initialize, compose
+    import shutil
+
+    def load_hydra_config(name, config_path):
+        with initialize(version_base=None, config_path=config_path):
+            cfg = compose(config_name=name, overrides=[])
+            return cfg
+
+    config_path = "./config"
+    for file_name in sorted(os.listdir("./embeddings/Japanese")):
+        if "pt" not in file_name:
+            print(file_name)
+            cfg = load_hydra_config(file_name, config_path)
+            embeddings = load_embeddings(cfg)
+            torch.save(embeddings, f"./embeddings/Japanese/{file_name}.pt")
+
+            shutil.rmtree(f"./embeddings/Japanese/{file_name}")
