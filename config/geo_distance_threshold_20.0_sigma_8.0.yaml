@@ -1,4 +1,4 @@
-name: geo_distance_10
+name: geo_distance_threshold_20.0_sigma_8.0
 
 defaults:
   - base
@@ -20,4 +20,5 @@ model:
   embedding_dim: 64
   n_layers: 3
 
-  geo_k_neighbors: 10
+  geo_threshold: 20.0
+  geo_sigma: 8.0

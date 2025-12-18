@@ -1,5 +1,7 @@
-python main.py --config-name=emb_512_n_layers_3_reg_0.001_gcl
-python main.py --config-name=emb_512_n_layers_4_reg_0.001_gcl
+python main.py --config-name=geo_distance_neighbors_10_weight_0.1
+python main.py --config-name=geo_distance_neighbors_15_weight_0.1
+python main.py --config-name=geo_distance_threshold_5.0_weight_0.1
+python main.py --config-name=geo_distance_threshold_10.0_weight_0.1
 
 
 wait
