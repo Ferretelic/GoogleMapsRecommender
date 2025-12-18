@@ -322,7 +322,9 @@ if __name__ == "__main__":
 
     names = [
         "emb_512_n_layers_4_reg_0.001_gcl",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_2_weight_1.0",
         "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
         "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
         "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_7_weight_1.0",
         "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_10_weight_1.0"
