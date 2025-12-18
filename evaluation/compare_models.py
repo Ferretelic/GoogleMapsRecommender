@@ -122,6 +122,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
     os.makedirs(folder_path, exist_ok=True)
     plt.tight_layout()
     plt.savefig(f"{folder_path}/{target_name}.png")
+    plt.close()
 
 def plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None):
     if target_name is None:
@@ -162,6 +163,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
     os.makedirs(folder_path, exist_ok=True)
     plt.tight_layout()
     plt.savefig(f"{folder_path}/{target_name}_{sub_target_name}.png")
+    plt.close()
 
 if __name__ == "__main__":
     config_path = "../config"
@@ -351,3 +353,13 @@ if __name__ == "__main__":
     ]
     targets = ["model", "geo_weight"]
     plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5")
+
+    names = [
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_3_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+
+    ]
+    targets = [["training", "gcl_temp"], ["model", "geo_k_neighbors"]]
+    plot_comparisons_two_targets(names, targets, config_path)
