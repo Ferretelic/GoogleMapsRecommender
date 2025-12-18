@@ -28,7 +28,7 @@ def download_file_with_progress(url, file_name):
 def download_dataset(cfg):
     base_url = "https://mcauleylab.ucsd.edu/public_datasets/gdrive/googlelocal/%s-%s.json.gz"
 
-    states = load_states(cfg.paths.raw)
+    states = load_states(cfg.paths.dataset)
 
     for mode in ["meta", "review"]:
         folder_path = f"{cfg.paths.raw}/{mode}"

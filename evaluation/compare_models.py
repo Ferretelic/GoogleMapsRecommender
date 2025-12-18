@@ -9,28 +9,60 @@ import seaborn as sns
 
 from hydra import initialize, compose
 
-def update_performance_csv(cfg):
+def update_performances(config_path, view_columns=None):
+    hyperparameters = [
+        (["training", "batch_size"], 1024),
+        (["training", "lr"], 0.001),
+        (["training", "reg_weight"], 0.0001),
+
+        (["training", "gcl_reg"], 0.1),
+        (["training", "gcl_eps"], 0.1),
+        (["training", "gcl_temp"], 0.3),
+
+        (["model", "embedding_dim"], 64),
+        (["model", "n_layers"], 3),
+
+        (["model", "geo_threshold"], 0.0),
+        (["model", "geo_k_neighbors"], 0),
+        (["model", "geo_weight"], 1.0),
+
+        (["model", "time_decay"], 0.0),
+        (["model", "time_min_weight"], 0.0),
+
+        (["model", "layer_weighting"], "uniform"),
+        (["model", "layer_decay"], 0.0)
+    ]
+
+    cfg = load_hydra_config("baseline", config_path)
+    log_folder = f"../logs/{cfg.dataset.country}"
+
     metrics = []
-    for log_file in os.listdir(f"{cfg.paths.logs}"):
-        with open(f"{cfg.paths.logs}/{log_file}", "r") as f:
-            results = json.load(f)
+    for name in os.listdir(log_folder):
+        cfg = load_hydra_config(name.replace(".json", ""), config_path)
 
-        recall = results["valid"]["recall"]
-        ndcg = results["valid"]["ndcg"]
+        with open(f"../logs/{cfg.dataset.country}/{name}", "r") as f:
+            results = json.load(f)["valid"]
 
-        n_patience = len(ndcg) - (np.argmax(ndcg) + 1)
+        n_patience = len(results["ndcg"]) - (np.argmax(results["ndcg"]) + 1)
+        best_index = np.argmax(results["ndcg"])
+        recall, ndcg = results["recall"][best_index], results["ndcg"][best_index]
+        metric = [recall, ndcg, n_patience]
 
-        min_index = np.argmax(ndcg)
-        metrics.append((log_file.replace(".json", ""),
-             recall[min_index], ndcg[min_index], min_index+1, n_patience
-        ))
+        metric += [cfg[target[0]].get(target[1], default) for (target, default) in hyperparameters]
+        metric += [name.replace(".json", "")]
+        metrics.append(metric)
 
-    df = pd.DataFrame(metrics, columns=["name", "recall", "ndcg", "epoch", "n_patience"])
-    df = df.sort_values(by="ndcg").reset_index(drop=True)
+    columns = ["recall", "ndcg", "n_patience"] + [target[1] for (target, _) in hyperparameters] + ["name"]
+    df = pd.DataFrame(metrics, columns=columns).sort_values(by="ndcg").reset_index(drop=True)
 
-    print(df)
+    if view_columns is None:
+        view_columns = columns
 
-    df.to_csv(f"{cfg.paths.result}/performances.csv", index=False)
+    pd.set_option("display.max_colwidth", None)
+    pd.set_option("display.max_rows", None)
+    print(df[["recall", "ndcg", "n_patience"] + view_columns + ["name"]])
+
+    df.to_csv("../results/performances.csv", index=False)
 
 def load_hydra_config(name, config_path):
     with initialize(version_base=None, config_path=config_path):
@@ -74,7 +106,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
     results = []
     for name in names:
         cfg = load_hydra_config(name, config_path)
-        target = cfg[targets[0]][targets[1]]
+        target = cfg[targets[0]].get(targets[1], 0.0)
 
         with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
             ndcg = json.load(f)["valid"]["ndcg"]
@@ -105,7 +137,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
     results = []
     for name in names:
         cfg = load_hydra_config(name, config_path)
-        target = cfg[targets[0][0]][targets[0][1]]
+        target = cfg[targets[0][0]].get(targets[0][1], 0.0)
         sub_target = cfg[targets[1][0]].get(targets[1][1], 0.0)
 
         with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
@@ -133,6 +165,8 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
 
 if __name__ == "__main__":
     config_path = "../config"
+    view_columns = ["geo_k_neighbors", "geo_weight"]
+    update_performances(config_path, view_columns=view_columns)
 
     names = ["emb_32", "baseline", "emb_128", "emb_256", "emb_512", "emb_1024"]
     targets = ["model", "embedding_dim"]
@@ -180,7 +214,7 @@ if __name__ == "__main__":
     ]
 
     targets = [["model", "n_layers"], ["model", "layer_decay"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
@@ -199,7 +233,27 @@ if __name__ == "__main__":
         "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
     ]
     targets = [["model", "n_layers"], ["training", "gcl_reg"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
+
+    names = [
+        "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_5_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+    ]
+    targets = ["model", "n_layers"]
+    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
+
+    names = [
+        "emb_512_n_layers_3_reg_0.001_gcl",
+        "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_4_reg_0.001_gcl",
+        "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl"
+    ]
+    targets = [["model", "n_layers"], ["model", "layer_decay"]]
+    plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
         "time_decay_0.001_0.1",
@@ -210,4 +264,79 @@ if __name__ == "__main__":
         "time_decay_0.0001_0.3",
     ]
     targets = [["model", "time_decay"], ["model", "time_min_weight"]]
-    plot_comparisons_two_targets(names, targets, config_path, target_name=None, sub_target_name=None)
+    plot_comparisons_two_targets(names, targets, config_path)
+
+    names = [
+        "baseline",
+        "geo_distance_neighbors_5_weight_1.0",
+        "geo_distance_neighbors_10_weight_1.0",
+        "geo_distance_neighbors_15_weight_1.0",
+        "geo_distance_neighbors_20_weight_1.0",
+    ]
+    targets = ["model", "geo_k_neighbors"]
+    plot_comparisons_one_target(names, targets, config_path)
+
+    names = [
+        "geo_distance_neighbors_5_weight_0.1",
+        "geo_distance_neighbors_5_weight_1.0",
+        "geo_distance_neighbors_10_weight_0.1",
+        "geo_distance_neighbors_10_weight_1.0",
+        "geo_distance_neighbors_15_weight_0.1",
+        "geo_distance_neighbors_15_weight_1.0",
+        "geo_distance_neighbors_20_weight_0.1",
+        "geo_distance_neighbors_20_weight_1.0",
+    ]
+    targets = [["model", "geo_k_neighbors"], ["model", "geo_weight"]]
+    plot_comparisons_two_targets(names, targets, config_path)
+
+    names = [
+        "baseline",
+        "geo_distance_threshold_5.0_weight_0.1",
+        "geo_distance_threshold_10.0_weight_0.1",
+    ]
+    targets = ["model", "geo_threshold"]
+    plot_comparisons_one_target(names, targets, config_path)
+
+    names = [
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+    ]
+    targets = [["model", "n_layers"], ["model", "geo_k_neighbors"]]
+    plot_comparisons_two_targets(names, targets, config_path)
+
+    names = [
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+    ]
+    targets = [["model", "n_layers"], ["model", "geo_threshold"]]
+    plot_comparisons_two_targets(names, targets, config_path)
+
+
+    names = [
+        "emb_512_n_layers_4_reg_0.001_gcl",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_2_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_7_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_10_weight_1.0"
+    ]
+    targets = ["model", "geo_k_neighbors"]
+    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl")
+
+    names = [
+        "emb_512_n_layers_4_reg_0.001_gcl",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_2.0",
+        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_5.0",
+    ]
+    targets = ["model", "geo_weight"]
+    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5")
