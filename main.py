@@ -64,9 +64,6 @@ def evaluate_model(cfg):
     print("    Splitting embeddings...")
     split_embeddings(cfg)
 
-    print("    Updating performance csv...")
-    update_performance_csv(cfg)
-
     print("    Plotting training history...")
     plot_training_history(cfg)
 
