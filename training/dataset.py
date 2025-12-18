@@ -52,6 +52,7 @@ def add_geo_distance(cfg, train, n_items, graph_path):
     geo_threshold = cfg.model.get("geo_threshold", 0.0)
     geo_sigma = cfg.model.get("geo_sigma", 0.0)
     geo_k_neighbors = cfg.model.get("geo_k_neighbors", 0)
+    geo_weight = cfg.model.get("geo_weight", 1.0)
 
     if geo_threshold != 0 or geo_k_neighbors != 0:
         item_locs = train.drop_duplicates(subset=["iid"])[["iid", "latitude", "longitude"]].set_index("iid")
@@ -63,10 +64,15 @@ def add_geo_distance(cfg, train, n_items, graph_path):
         if geo_threshold != 0:
             radius_rad = geo_threshold / EARTH_RADIUS_KM
             indices, dists_rad = tree.query_radius(coords, r=radius_rad, return_distance=True)
-            graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
+            graph_path += f"_geo_distance_threshold_{geo_threshold}"
         else:
-            dists_rad, indices = tree.query(coords, k=geo_k_neighbors)
-            graph_path += f"_geo_distance_{geo_k_neighbors}"
+            dists_rad, indices = tree.query(coords, k=geo_k_neighbors + 1)
+            graph_path += f"_geo_distance_neighbors_{geo_k_neighbors}"
+
+        if geo_sigma != 0.0:
+            graph_path += f"_sigma_{geo_sigma}"
+        elif geo_weight != 1.0:
+            graph_path += f"_weight_{geo_weight}"
 
         rows, cols, weights = [], [], []
 
@@ -78,10 +84,12 @@ def add_geo_distance(cfg, train, n_items, graph_path):
             if len(valid_neighbors) == 0:
                 continue
 
-            if geo_k_neighbors == 0:
+            if geo_sigma != 0.0:
                 gamma = -1.0 / (geo_sigma ** 2)
                 dists_km = valid_dists_rad * EARTH_RADIUS_KM
                 w = np.exp(gamma * (dists_km ** 2))
+            elif geo_weight != 1.0:
+                w = np.ones(len(valid_neighbors), dtype=np.float32) * geo_weight
             else:
                 w = np.ones(len(valid_neighbors), dtype=np.float32)
 
@@ -90,6 +98,8 @@ def add_geo_distance(cfg, train, n_items, graph_path):
             weights.extend(w)
 
         bottom_right = sp.coo_matrix((weights, (rows, cols)), shape=(n_items, n_items))
+        bottom_right = bottom_right.tocsr()
+        bottom_right = bottom_right.maximum(bottom_right.transpose())
 
     else:
         bottom_right = sp.csr_matrix((n_items, n_items))
@@ -143,13 +153,19 @@ def load_adjacency_matrix(cfg):
 
     geo_threshold = cfg.model.get("geo_threshold", 0.0)
     geo_sigma = cfg.model.get("geo_sigma", 0.0)
+    geo_weight = cfg.model.get("geo_weight", 1.0)
 
     if geo_threshold != 0:
-        graph_path += f"_geo_distance_{geo_threshold}_{geo_sigma}"
+        graph_path += f"_geo_distance_threshold_{geo_threshold}"
 
     geo_k_neighbors = cfg.model.get("geo_k_neighbors", 0)
     if geo_k_neighbors != 0:
-        graph_path += f"_geo_distance_{geo_k_neighbors}"
+        graph_path += f"_geo_distance_neighbors_{geo_k_neighbors}"
+
+    if geo_sigma != 0.0:
+        graph_path += f"_sigma_{geo_sigma}"
+    elif geo_weight != 1.0:
+        graph_path += f"_weight_{geo_weight}"
 
     if not os.path.exists(f"{graph_path}.pt"):
         build_adjacency_matrix(cfg)

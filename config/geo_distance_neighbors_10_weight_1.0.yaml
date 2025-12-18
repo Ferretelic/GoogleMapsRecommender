@@ -1,4 +1,4 @@
-name: geo_distance_15
+name: geo_distance_neighbors_10_weight_1.0
 
 defaults:
   - base
@@ -20,4 +20,5 @@ model:
   embedding_dim: 64
   n_layers: 3
 
-  geo_k_neighbors: 15
+  geo_k_neighbors: 10
+  geo_weight: 1.0

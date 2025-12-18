@@ -1,4 +1,4 @@
-name: geo_distance_20.0_4.0
+name: geo_distance_threshold_10.0_weight_0.1
 
 defaults:
   - base
@@ -20,5 +20,5 @@ model:
   embedding_dim: 64
   n_layers: 3
 
-  geo_threshold: 20.0
-  geo_sigma: 4.0
+  geo_threshold: 10.0
+  geo_weight: 0.1
