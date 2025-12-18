@@ -35,7 +35,7 @@ def filter_raw_state_review_data(cfg, state, filters):
     return df
 
 def filter_raw_review_data(cfg):
-    states = load_states(cfg.paths.raw)
+    states = load_states(cfg.paths.dataset)
 
     for state in states:
         gmap_ids = set(pd.read_csv(f"{cfg.paths.meta}/{state}.csv")["gmap_id"].values)
