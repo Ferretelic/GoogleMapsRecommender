@@ -217,6 +217,17 @@ if __name__ == "__main__":
     plot_comparisons_two_targets(names, targets, config_path)
 
     names = [
+        "baseline",
+        "gcl_temp_0.1",
+        "gcl_temp_0.2",
+        "gcl",
+        "gcl_temp_0.4",
+        "gcl_temp_0.5",
+    ]
+    targets = ["training", "gcl_temp"]
+    plot_comparisons_one_target(names, targets, config_path)
+
+    names = [
         "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
         "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
         "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl"
