@@ -62,7 +62,7 @@ def update_performances(config_path, view_columns=None):
     pd.set_option("display.max_rows", None)
     print(df[["recall", "ndcg", "n_patience"] + view_columns + ["name"]])
 
-    df.to_csv("../results/performances.csv", index=False)
+    df.to_csv(f"../results/{cfg.dataset.country}/performances.csv", index=False)
 
 def load_hydra_config(name, config_path):
     with initialize(version_base=None, config_path=config_path):
