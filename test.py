@@ -9,7 +9,6 @@ def main(cfg: DictConfig):
     metrics = []
 
     print("Testing baselines...")
-    print(cfg.test.embeddings)
     for baseline in cfg.test.baselines:
         metric = test_recommender(cfg, "baseline", baseline)
 
