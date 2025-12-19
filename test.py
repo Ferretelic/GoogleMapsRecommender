@@ -26,6 +26,7 @@ def main(cfg: DictConfig):
 
     df = pd.DataFrame(metrics)
     print(df)
+    df.to_csv(f"{cfg.paths.result}/test_results.csv", index=False)
 
 if __name__ == "__main__":
     main()
