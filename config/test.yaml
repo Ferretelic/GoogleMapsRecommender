@@ -1,0 +1,17 @@
+defaults:
+  - base
+  - _self_
+
+test:
+  device: cuda
+  batch_size: 1024
+  rank: 20
+  embeddings: [
+    [LightGCN baseline with dot, dot, baseline],
+    [LightGCN baseline with cosine, cosine, baseline],
+    [LightGCN baseline with distance, distance, baseline],
+    [LightGCN best with dot, dot, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
+    [LightGCN best with cosine, cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
+    [LightGCN best with distance, distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
+  ]
+  baselines: ["knn", "popularity"]

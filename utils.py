@@ -45,11 +45,3 @@ def check_training_completed(cfg):
 
     else:
         print(f"    Training is still in progress with patience {n_patience}.")
-
-def load_embeddings(cfg):
-    model_path = f"{cfg.paths.embedding}/{cfg.name}.pt"
-    if not os.path.exists(model_path):
-        print("    Embeddings file was not found")
-
-    users_emb, items_emb = torch.load(model_path)
-    return users_emb, items_emb
