@@ -296,6 +296,26 @@ if __name__ == "__main__":
         targets = [["model", "n_layers"], ["model", "layer_decay"]]
         plot_comparisons_two_targets(names, targets, config_path)
 
+        names = [
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+
+        ]
+        targets = [["model", "geo_k_neighbors"], ["training", "gcl_temp"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+        names = [
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_reg_0.05_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_reg_0.05_geo_distance_neighbors_4_weight_1.0",
+
+        ]
+        targets = [["model", "geo_k_neighbors"], ["training", "gcl_reg"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
     if time_decay:
         names = [
             "time_decay_0.001_0.1",
@@ -383,13 +403,3 @@ if __name__ == "__main__":
         ]
         targets = ["model", "geo_weight"]
         plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5")
-
-        names = [
-            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
-            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_3_weight_1.0",
-            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
-            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
-
-        ]
-        targets = [["training", "gcl_temp"], ["model", "geo_k_neighbors"]]
-        plot_comparisons_two_targets(names, targets, config_path)
