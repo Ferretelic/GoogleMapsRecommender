@@ -9,7 +9,7 @@ from torch.utils.data import Dataset, DataLoader
 from sklearn.neighbors import BallTree
 
 def save_dataset_sizes(cfg):
-    df = pd.read_csv(f"{cfg.paths.country}/review.csv")
+    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))
     user_ids = np.unique(np.sort(df["user_id"].values))
 
