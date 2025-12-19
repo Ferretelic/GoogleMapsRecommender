@@ -49,14 +49,14 @@ def add_radar_chart(df, fig, cmap):
     angles = [n / float(num_vars) * 2 * math.pi for n in range(num_vars)]
     angles += angles[:1]
 
-    target_models = ["KNN", "Popularity", "LGCN Base (Dot)", "LGCN Best (Dot)", "LGCN Best (Cos)"]
+    target_models = ["KNN", "Popularity", "LightGCN Baseline (Dot)", "LightGCN Best (Dot)", "LightGCN Best (Cosine)"]
     for model_name in target_models:
-        row = normalized_df[normalized_df["name"] == model_name]
+        row = normalized_df[normalized_df["name"].lower() == model_name.lower()]
         values = row[metrics].values.flatten().tolist()
         values += values[:1]
 
-        ax1.plot(angles, values, linewidth=2, linestyle="solid", label=model_name, color=cmap[model_name])
-        ax1.fill(angles, values, color=cmap[model_name], alpha=0.1)
+        ax1.plot(angles, values, linewidth=2, linestyle="solid", label=model_name, color=cmap[model_name.lower()])
+        ax1.fill(angles, values, color=cmap[model_name.lower()], alpha=0.1)
 
     ax1.set_xticks(angles[:-1])
     ax1.set_xticklabels(labels, size=12, color="white", weight="bold")
