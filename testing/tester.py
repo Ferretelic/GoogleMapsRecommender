@@ -6,6 +6,7 @@ import pandas as pd
 import numpy as np
 import tqdm
 from torch.utils.data import DataLoader
+from scipy.stats import spearmanr, entropy
 
 from testing.recommender import *
 
@@ -17,7 +18,7 @@ class Tester:
         self.device = torch.device(cfg.test.device)
         self.user_loader, self.test_user_pos = self.prepare_dataset(cfg)
 
-        self.item_self_info = self.compute_dataset_metrics(cfg)
+        self.info_dict, self.counts_dict = self.compute_dataset_metrics(cfg)
         self.n_items = self.load_item_size(cfg)
 
     def prepare_dataset(self, cfg):
@@ -35,12 +36,13 @@ class Tester:
         item_counts = train_df["iid"].value_counts()
         total_interactions = len(train_df)
 
-        info_dict = {}
+        info_dict, counts_dict = {}, {}
         for iid, count in item_counts.items():
             prob = count / total_interactions
             info_dict[iid] = -np.log2(prob)
+            counts_dict[iid] = count
 
-        return info_dict
+        return info_dict, counts_dict
 
     def load_item_size(self, cfg):
         with open(f"{cfg.paths.result}/dataset_size.txt", "r") as f:
@@ -80,7 +82,7 @@ class Tester:
                 idcg = idcg_denom[:ideal_len].sum()
                 ndcg_sum += dcg / idcg
 
-            user_novelty = [self.item_self_info.get(item, 0.0) for item in pred_items]
+            user_novelty = [self.info_dict.get(item, 0.0) for item in pred_items]
             novelty_sum += np.mean(user_novelty) if user_novelty else 0.0
 
         return recall_sum, ndcg_sum, novelty_sum
@@ -122,6 +124,42 @@ class Tester:
 
         return coverage, gini
 
+    def calculate_popularity_metrics(self, global_rec_counts):
+        train_counts = np.zeros(self.n_items)
+        rec_counts = np.zeros(self.n_items)
+
+        for iid, count in self.counts_dict.items():
+            if iid < self.n_items:
+                train_counts[iid] = count
+
+        for iid, count in global_rec_counts.items():
+            if iid < self.n_items:
+                rec_counts[iid] = count
+
+        correlation, _ = spearmanr(train_counts, rec_counts)
+
+        epsilon = 1e-10
+        p_train = (train_counts + epsilon) / (train_counts.sum() + epsilon * self.n_items)
+        q_rec   = (rec_counts + epsilon) / (rec_counts.sum() + epsilon * self.n_items)
+
+        kl_div = entropy(p_train, q_rec)
+
+        sorted_indices = np.argsort(train_counts)[::-1]
+        n_head = int(self.n_items * 0.2)
+        head_indices = sorted_indices[:n_head]
+        tail_indices = sorted_indices[n_head:]
+
+        head_pop_share = p_train[head_indices].sum()
+        head_rec_share = q_rec[head_indices].sum()
+
+        tail_pop_share = p_train[tail_indices].sum()
+        tail_rec_share = q_rec[tail_indices].sum()
+
+        head_prr = head_rec_share / head_pop_share
+        tail_prr = tail_rec_share / tail_pop_share
+
+        return correlation, kl_div, head_prr, tail_prr
+
     def test(self):
         recall_sum, ndcg_sum, novelty_sum, diversity_sum = 0.0, 0.0, 0.0, 0.0
         n_users = 0
@@ -146,6 +184,7 @@ class Tester:
                 n_users += batch_users.size(0)
 
         coverage, gini = self.calculate_frequency_metrics(global_rec_counts)
+        correlation, kl_div, head_prr, tail_prr = self.calculate_popularity_metrics(global_rec_counts)
 
         metrics = {
             "recall": recall_sum / n_users,
@@ -153,8 +192,13 @@ class Tester:
             "novelty": novelty_sum / n_users,
             "diversity": diversity_sum / n_users,
             "coverage": coverage,
-            "gini": gini
+            "gini": gini,
+            "pop_correlation": correlation,
+            "kl_divergence": kl_div,
+            "head_prr": head_prr,
+            "tail_prr": tail_prr
         }
+
         return metrics
 
 def test_recommender(cfg, type, name):
