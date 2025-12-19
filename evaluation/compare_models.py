@@ -167,199 +167,229 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
 
 if __name__ == "__main__":
     config_path = "../config"
-    view_columns = ["geo_k_neighbors", "geo_weight"]
+    view_columns = ["gcl_temp", "gcl_reg", "gcl_eps"]
     update_performances(config_path, view_columns=view_columns)
 
-    names = ["emb_32", "baseline", "emb_128", "emb_256", "emb_512", "emb_1024"]
-    targets = ["model", "embedding_dim"]
-    plot_comparisons_one_target(names, targets, config_path)
+    base = False
+    layer_decay = False
+    gcl = True
+    time_decay = False
+    geo_distance = False
 
-    names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6", "n_layers_7", "n_layers_8"]
-    targets = ["model", "n_layers"]
-    plot_comparisons_one_target(names, targets, config_path)
+    if base:
+        names = ["emb_32", "baseline", "emb_128", "emb_256", "emb_512", "emb_1024"]
+        targets = ["model", "embedding_dim"]
+        plot_comparisons_one_target(names, targets, config_path)
 
-    names = ["reg_0.01", "reg_0.001", "baseline", "reg_0.00001"]
-    targets = ["training", "reg_weight"]
-    plot_comparisons_one_target(names, targets, config_path)
+        names = ["n_layers_2", "baseline", "n_layers_4", "n_layers_5", "n_layers_6", "n_layers_7", "n_layers_8"]
+        targets = ["model", "n_layers"]
+        plot_comparisons_one_target(names, targets, config_path)
 
-    names = ["baseline", "batch_2048", "batch_4096"]
-    targets = ["training", "batch_size"]
-    plot_comparisons_one_target(names, targets, config_path)
+        names = ["reg_0.01", "reg_0.001", "baseline", "reg_0.00001"]
+        targets = ["training", "reg_weight"]
+        plot_comparisons_one_target(names, targets, config_path)
 
-    names = ["lr_0.01", "baseline", "lr_0.0001"]
-    targets = ["training", "lr"]
-    plot_comparisons_one_target(names, targets, config_path)
+        names = ["baseline", "batch_2048", "batch_4096"]
+        targets = ["training", "batch_size"]
+        plot_comparisons_one_target(names, targets, config_path)
 
-    names = [
-        "emb_512_n_layers_4_reg_0.001",
-        "emb_512_n_layers_5_reg_0.001",
-        "emb_512_n_layers_6_reg_0.001",
-        "emb_512_n_layers_7_reg_0.001"
-    ]
-    targets = ["model", "n_layers"]
-    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_n_layers")
+        names = ["lr_0.01", "baseline", "lr_0.0001"]
+        targets = ["training", "lr"]
+        plot_comparisons_one_target(names, targets, config_path)
+
+        names = [
+            "emb_512_n_layers_4_reg_0.001",
+            "emb_512_n_layers_5_reg_0.001",
+            "emb_512_n_layers_6_reg_0.001",
+            "emb_512_n_layers_7_reg_0.001"
+        ]
+        targets = ["model", "n_layers"]
+        plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_n_layers")
+
+    if layer_decay:
+        names = [
+            "emb_512_n_layers_5_reg_0.001",
+            "emb_512_n_layers_5_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_5_reg_0.001_gentle_0.05",
+            "emb_512_n_layers_6_reg_0.001",
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_6_reg_0.001_gentle_0.05",
+            "emb_512_n_layers_7_reg_0.001",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.05",
+            "emb_512_n_layers_8_reg_0.001",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.05",
+        ]
+
+        targets = [["model", "n_layers"], ["model", "layer_decay"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+    if gcl:
+        names = [
+            "baseline",
+            "gcl_temp_0.1",
+            "gcl_temp_0.2",
+            "gcl",
+            "gcl_temp_0.4",
+            "gcl_temp_0.5",
+        ]
+        targets = ["training", "gcl_temp"]
+        plot_comparisons_one_target(names, targets, config_path)
+
+        names = [
+            "baseline",
+            "gcl_temp_0.2_reg_0.01",
+            "gcl_temp_0.2_reg_0.05",
+            "gcl_temp_0.2",
+            "gcl_temp_0.2_reg_0.2",
+            "gcl_temp_0.2_reg_0.5",
+        ]
+        targets = ["training", "gcl_reg"]
+        plot_comparisons_one_target(names, targets, config_path)
+
+        names = [
+            "baseline",
+            "gcl_temp_0.2_reg_0.05_eps_0.05",
+            "gcl_temp_0.2_reg_0.05",
+            "gcl_temp_0.2_reg_0.05_eps_0.2",
+        ]
+        targets = ["training", "gcl_eps"]
+        plot_comparisons_one_target(names, targets, config_path)
+
+        names = [
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl"
+        ]
+        targets = ["model", "n_layers"]
+        plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
+
+        names = [
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+        ]
+        targets = [["model", "n_layers"], ["training", "gcl_reg"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+        names = [
+            "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_5_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+        ]
+        targets = ["model", "n_layers"]
+        plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
+
+        names = [
+            "emb_512_n_layers_3_reg_0.001_gcl",
+            "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_4_reg_0.001_gcl",
+            "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl"
+        ]
+        targets = [["model", "n_layers"], ["model", "layer_decay"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+    if time_decay:
+        names = [
+            "time_decay_0.001_0.1",
+            "time_decay_0.001_0.3",
+            "time_decay_0.0005_0.1",
+            "time_decay_0.0005_0.3",
+            "time_decay_0.0001_0.1",
+            "time_decay_0.0001_0.3",
+        ]
+        targets = [["model", "time_decay"], ["model", "time_min_weight"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+    if geo_distance:
+        names = [
+            "baseline",
+            "geo_distance_neighbors_5_weight_1.0",
+            "geo_distance_neighbors_10_weight_1.0",
+            "geo_distance_neighbors_15_weight_1.0",
+            "geo_distance_neighbors_20_weight_1.0",
+        ]
+        targets = ["model", "geo_k_neighbors"]
+        plot_comparisons_one_target(names, targets, config_path)
+
+        names = [
+            "geo_distance_neighbors_5_weight_0.1",
+            "geo_distance_neighbors_5_weight_1.0",
+            "geo_distance_neighbors_10_weight_0.1",
+            "geo_distance_neighbors_10_weight_1.0",
+            "geo_distance_neighbors_15_weight_0.1",
+            "geo_distance_neighbors_15_weight_1.0",
+            "geo_distance_neighbors_20_weight_0.1",
+            "geo_distance_neighbors_20_weight_1.0",
+        ]
+        targets = [["model", "geo_k_neighbors"], ["model", "geo_weight"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+        names = [
+            "baseline",
+            "geo_distance_threshold_5.0_weight_0.1",
+            "geo_distance_threshold_10.0_weight_0.1",
+        ]
+        targets = ["model", "geo_threshold"]
+        plot_comparisons_one_target(names, targets, config_path)
+
+        names = [
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_15",
+        ]
+        targets = [["model", "n_layers"], ["model", "geo_k_neighbors"]]
+        plot_comparisons_two_targets(names, targets, config_path)
+
+        names = [
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
+            "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
+        ]
+        targets = [["model", "n_layers"], ["model", "geo_threshold"]]
+        plot_comparisons_two_targets(names, targets, config_path)
 
 
-    names = [
-        "emb_512_n_layers_5_reg_0.001",
-        "emb_512_n_layers_5_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_5_reg_0.001_gentle_0.05",
-        "emb_512_n_layers_6_reg_0.001",
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_6_reg_0.001_gentle_0.05",
-        "emb_512_n_layers_7_reg_0.001",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.05",
-        "emb_512_n_layers_8_reg_0.001",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.05",
-    ]
+        names = [
+            "emb_512_n_layers_4_reg_0.001_gcl",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_2_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_7_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_10_weight_1.0"
+        ]
+        targets = ["model", "geo_k_neighbors"]
+        plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl")
 
-    targets = [["model", "n_layers"], ["model", "layer_decay"]]
-    plot_comparisons_two_targets(names, targets, config_path)
+        names = [
+            "emb_512_n_layers_4_reg_0.001_gcl",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_2.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_5.0",
+        ]
+        targets = ["model", "geo_weight"]
+        plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5")
 
-    names = [
-        "baseline",
-        "gcl_temp_0.1",
-        "gcl_temp_0.2",
-        "gcl",
-        "gcl_temp_0.4",
-        "gcl_temp_0.5",
-    ]
-    targets = ["training", "gcl_temp"]
-    plot_comparisons_one_target(names, targets, config_path)
+        names = [
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_3_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
+            "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
 
-    names = [
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl"
-    ]
-    targets = ["model", "n_layers"]
-    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
-
-    names = [
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
-    ]
-    targets = [["model", "n_layers"], ["training", "gcl_reg"]]
-    plot_comparisons_two_targets(names, targets, config_path)
-
-    names = [
-        "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_5_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
-    ]
-    targets = ["model", "n_layers"]
-    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_reg_0.001_gentle_0.1_gcl_n_layers")
-
-    names = [
-        "emb_512_n_layers_3_reg_0.001_gcl",
-        "emb_512_n_layers_3_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_4_reg_0.001_gcl",
-        "emb_512_n_layers_4_reg_0.001_gentle_0.1_gcl"
-    ]
-    targets = [["model", "n_layers"], ["model", "layer_decay"]]
-    plot_comparisons_two_targets(names, targets, config_path)
-
-    names = [
-        "time_decay_0.001_0.1",
-        "time_decay_0.001_0.3",
-        "time_decay_0.0005_0.1",
-        "time_decay_0.0005_0.3",
-        "time_decay_0.0001_0.1",
-        "time_decay_0.0001_0.3",
-    ]
-    targets = [["model", "time_decay"], ["model", "time_min_weight"]]
-    plot_comparisons_two_targets(names, targets, config_path)
-
-    names = [
-        "baseline",
-        "geo_distance_neighbors_5_weight_1.0",
-        "geo_distance_neighbors_10_weight_1.0",
-        "geo_distance_neighbors_15_weight_1.0",
-        "geo_distance_neighbors_20_weight_1.0",
-    ]
-    targets = ["model", "geo_k_neighbors"]
-    plot_comparisons_one_target(names, targets, config_path)
-
-    names = [
-        "geo_distance_neighbors_5_weight_0.1",
-        "geo_distance_neighbors_5_weight_1.0",
-        "geo_distance_neighbors_10_weight_0.1",
-        "geo_distance_neighbors_10_weight_1.0",
-        "geo_distance_neighbors_15_weight_0.1",
-        "geo_distance_neighbors_15_weight_1.0",
-        "geo_distance_neighbors_20_weight_0.1",
-        "geo_distance_neighbors_20_weight_1.0",
-    ]
-    targets = [["model", "geo_k_neighbors"], ["model", "geo_weight"]]
-    plot_comparisons_two_targets(names, targets, config_path)
-
-    names = [
-        "baseline",
-        "geo_distance_threshold_5.0_weight_0.1",
-        "geo_distance_threshold_10.0_weight_0.1",
-    ]
-    targets = ["model", "geo_threshold"]
-    plot_comparisons_one_target(names, targets, config_path)
-
-    names = [
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_15",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_15",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_15",
-    ]
-    targets = [["model", "n_layers"], ["model", "geo_k_neighbors"]]
-    plot_comparisons_two_targets(names, targets, config_path)
-
-    names = [
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_6_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_7_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl",
-        "emb_512_n_layers_8_reg_0.001_gentle_0.1_gcl_geo_distance_20.0_8.0",
-    ]
-    targets = [["model", "n_layers"], ["model", "geo_threshold"]]
-    plot_comparisons_two_targets(names, targets, config_path)
-
-
-    names = [
-        "emb_512_n_layers_4_reg_0.001_gcl",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_2_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_7_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_10_weight_1.0"
-    ]
-    targets = ["model", "geo_k_neighbors"]
-    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl")
-
-    names = [
-        "emb_512_n_layers_4_reg_0.001_gcl",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_2.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5_weight_5.0",
-    ]
-    targets = ["model", "geo_weight"]
-    plot_comparisons_one_target(names, targets, config_path, target_name="emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_5")
-
-    names = [
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_3_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_3_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_geo_distance_neighbors_4_weight_1.0",
-        "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
-
-    ]
-    targets = [["training", "gcl_temp"], ["model", "geo_k_neighbors"]]
-    plot_comparisons_two_targets(names, targets, config_path)
+        ]
+        targets = [["training", "gcl_temp"], ["model", "geo_k_neighbors"]]
+        plot_comparisons_two_targets(names, targets, config_path)
