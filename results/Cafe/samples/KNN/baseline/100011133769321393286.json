@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Paper Moon Coffee Co., 5237 Stevens Creek Blvd, Santa Clara, CA 95051",
+            "category": "['Coffee shop', 'Beer store', 'Cafe', 'Coffee machine supplier', 'Coffee store']",
+            "date": "2018/07/22",
+            "gmap_id": "0x808fb57e46fd8df7:0xac425e997f86bde6",
+            "iid": 3610,
+            "name": "Paper Moon Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532290369108
+        },
+        {
+            "address": "Noah's NY Bagels, 1095 E Brokaw Rd Ste 10, San Jose, CA 95131",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "date": "2018/10/24",
+            "gmap_id": "0x808fcc08dd1ceb47:0xec0db21d8e36ca39",
+            "iid": 4051,
+            "name": "Noah's NY Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540346677385
+        },
+        {
+            "address": "Peet's Coffee, 420 Castro St, Mountain View, CA 94041",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "date": "2018/11/06",
+            "gmap_id": "0x808fb73374e9a8c7:0x20fe48be7d0568ea",
+            "iid": 3688,
+            "name": "Peet's Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541540458598
+        },
+        {
+            "address": "Starbucks, 55 River Oaks Pl #40, San Jose, CA 95134",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/11/11",
+            "gmap_id": "0x808fc90cc6cab2d7:0xb24d1572b25df7b1",
+            "iid": 3908,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541969600213
+        },
+        {
+            "address": "La Note, 2377 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['French restaurant', 'Bistro', 'Cafe', 'Restaurant']",
+            "date": "2019/03/02",
+            "gmap_id": "0x80857e82d280ff07:0x4ab1779424f266c2",
+            "iid": 1159,
+            "name": "La Note",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1551555430640
+        },
+        {
+            "address": "Dana Street Roasting Company, 744 W Dana St, Mountain View, CA 94041",
+            "category": "['Cafe', 'Coffee shop', 'Restaurant']",
+            "date": "2019/03/12",
+            "gmap_id": "0x808fb733f3d2000d:0x5c1f7040505340f7",
+            "iid": 3692,
+            "name": "Dana Street Roasting Company",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552416473318
+        },
+        {
+            "address": "Voyager Craft Coffee, 3985 Stevens Creek Blvd, Santa Clara, CA 95051",
+            "category": "['Coffee shop']",
+            "date": "2019/03/25",
+            "gmap_id": "0x808fca9284294b69:0xbe9f1ee6888001",
+            "iid": 3959,
+            "name": "Voyager Craft Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1553491848776
+        },
+        {
+            "address": "Great Bear Coffee, 19 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "date": "2019/05/13",
+            "gmap_id": "0x808e35faf2d097f9:0xa3b8271274843f06",
+            "iid": 2513,
+            "name": "Great Bear Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557784376411
+        },
+        {
+            "address": "Noah's NY Bagels, 2380 El Camino Real, Santa Clara, CA 95050",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "date": "2019/08/30",
+            "gmap_id": "0x808fca404e8df0cd:0xf484e3ed29c41740",
+            "iid": 3948,
+            "name": "Noah's NY Bagels",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1567180258731
+        },
+        {
+            "address": "Alana's Cafe, 1408 Burlingame Ave, Burlingame, CA 94010",
+            "category": "['Cafe', 'Brunch restaurant', 'Restaurant']",
+            "date": "2019/10/12",
+            "gmap_id": "0x808f9df113b26c8f:0xeef3e2fc0d0fbf5b",
+            "iid": 3387,
+            "name": "Alana's Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1570909427899
+        }
+    ],
+    "model": {
+        "model_name": "KNN",
+        "name": "KNN",
+        "type": "baseline"
+    },
+    "recommendations": [
+        {
+            "address": "iBagels Bakery & Caf\u00e9, 266 E Java Dr, Sunnyvale, CA 94089",
+            "category": "['Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Deli']",
+            "gmap_id": "0x808fb7c767954a77:0xfcef61c8200383d9",
+            "iid": 3706,
+            "name": "iBagels Bakery & Caf\u00e9",
+            "rank": 1,
+            "score": -1.1200531721115112,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 696 N Mathilda Ave, Sunnyvale, CA 94085",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808fb7a3e6c6f98f:0xe144e54e94c454de",
+            "iid": 3705,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": -2.203390598297119,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 615 N Mathilda Ave, Sunnyvale, CA 94085",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Ice cream shop', 'Restaurant', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x808fb65325b394d3:0x4a9eb306ec70b9e9",
+            "iid": 3654,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": -2.3352818489074707,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee & Tea, 645 Ellis St, Mountain View, CA 94043",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808fb7126957bea9:0xc9d3e523b6bc446c",
+            "iid": 3683,
+            "name": "Peet's Coffee & Tea",
+            "rank": 4,
+            "score": -2.3945553302764893,
+            "state": "California"
+        },
+        {
+            "address": "Specialty's Caf\u00e9 & Bakery, 645 Ellis St, Mountain View, CA 94043",
+            "category": "['Bakery', 'Breakfast restaurant', 'Cafe', 'Caterer', 'Coffee shop', 'Cookie shop', 'Lunch restaurant', 'Pastry shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808fb712699461f3:0x5675576dcef9470e",
+            "iid": 3684,
+            "name": "Specialty's Caf\u00e9 & Bakery",
+            "rank": 5,
+            "score": -2.397517442703247,
+            "state": "California"
+        },
+        {
+            "address": "The SpaceBar, S Akron Rd, Mountain View, CA 94043",
+            "category": "['Bar & grill', 'Coffee shop', 'Espresso bar', 'Hamburger restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808fb768d450ca6d:0x3277b56961ca3633",
+            "iid": 3703,
+            "name": "The SpaceBar",
+            "rank": 6,
+            "score": -2.5361413955688477,
+            "state": "California"
+        },
+        {
+            "address": "Bagel Street Cafe, 346 W Maude Ave, Sunnyvale, CA 94086",
+            "category": "['Bagel shop', 'Bakery', 'Cafe', 'Cake shop', 'Cupcake shop', 'Sandwich shop']",
+            "gmap_id": "0x808fb6517d98af7b:0xa6d0bd90fb2bd3cc",
+            "iid": 3652,
+            "name": "Bagel Street Cafe",
+            "rank": 7,
+            "score": -2.691901206970215,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 460 N Mathilda Ave, Sunnyvale, CA 94085",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fb6517d9f935d:0xa63ab8e697a4830c",
+            "iid": 3653,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": -2.778153419494629,
+            "state": "California"
+        },
+        {
+            "address": "Sunnywich Cafe, 223 E Maude Ave, Sunnyvale, CA 94085",
+            "category": "['Bubble tea store', 'Cafe', 'Sandwich shop']",
+            "gmap_id": "0x808fb64e52e34b37:0x681f7bdb435b2a38",
+            "iid": 3651,
+            "name": "Sunnywich Cafe",
+            "rank": 9,
+            "score": -2.819704532623291,
+            "state": "California"
+        },
+        {
+            "address": "Little India Cafe, 415 N Mary Ave, Sunnyvale, CA 94085",
+            "category": "['Indian restaurant', 'Cafe', 'Chicken restaurant', 'Restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fb701d0700b91:0xb908da7d6ffdf632",
+            "iid": 3681,
+            "name": "Little India Cafe",
+            "rank": 10,
+            "score": -2.9351441860198975,
+            "state": "California"
+        },
+        {
+            "address": "Union 82, 350 Ellis St, Mountain View, CA 94043",
+            "category": "['Bistro', 'Bar', 'Coffee shop']",
+            "gmap_id": "0x808fb710c1e74a2d:0xf67e86d8b57547be",
+            "iid": 3682,
+            "name": "Union 82",
+            "rank": 11,
+            "score": -2.984023094177246,
+            "state": "California"
+        },
+        {
+            "address": "Clocktower Coffee Roasting Company, 205 E Middlefield Rd, Mountain View, CA 94043",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "gmap_id": "0x808fb73dfa769465:0xb4e71c801097908b",
+            "iid": 3698,
+            "name": "Clocktower Coffee Roasting Company",
+            "rank": 12,
+            "score": -3.5420377254486084,
+            "state": "California"
+        },
+        {
+            "address": "Lillian Bakery & Cafe, 927 E Arques Ave #161, Sunnyvale, CA 94085",
+            "category": "['Cafe', 'Bakery']",
+            "gmap_id": "0x808fb63d85319c73:0x828fa5ad9a5d3353",
+            "iid": 3650,
+            "name": "Lillian Bakery & Cafe",
+            "rank": 13,
+            "score": -3.9253039360046387,
+            "state": "California"
+        },
+        {
+            "address": "Coffee & More, 100 S Murphy Ave #1, Sunnyvale, CA 94086",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x808fb65c58c4641d:0x1dea418e28c2590e",
+            "iid": 3657,
+            "name": "Coffee & More",
+            "rank": 14,
+            "score": -3.9915478229522705,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 125 S Frances St, Sunnyvale, CA 94086",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fb65c40766b31:0x19b71e8cc0c0db1b",
+            "iid": 3656,
+            "name": "Philz Coffee",
+            "rank": 15,
+            "score": -4.005887031555176,
+            "state": "California"
+        },
+        {
+            "address": "1 Oz Coffee, 3051 Tasman Dr, Santa Clara, CA 95054",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808fc9d26fdd4e13:0xaa6230c8f0e8c0e5",
+            "iid": 3936,
+            "name": "1 Oz Coffee",
+            "rank": 16,
+            "score": -4.008760452270508,
+            "state": "California"
+        },
+        {
+            "address": "K Tea Cafe, 139 S Murphy Ave, Sunnyvale, CA 94086",
+            "category": "['Cafe', 'Caterer']",
+            "gmap_id": "0x808fb65c5b276249:0x186675c59dee0da6",
+            "iid": 3658,
+            "name": "K Tea Cafe",
+            "rank": 17,
+            "score": -4.02810525894165,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 231 W Washington Ave, Sunnyvale, CA 94086",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fb65c30dbd755:0xaceeca3331968dc",
+            "iid": 3655,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -4.105309963226318,
+            "state": "California"
+        },
+        {
+            "address": "Bean Scene Caf\u00e9., 186 S Murphy Ave, Sunnyvale, CA 94086",
+            "category": "['Coffee shop', 'Tea store']",
+            "gmap_id": "0x808fb65dacdfce45:0x63c30c29f36dfc76",
+            "iid": 3659,
+            "name": "Bean Scene Caf\u00e9.",
+            "rank": 19,
+            "score": -4.112301826477051,
+            "state": "California"
+        },
+        {
+            "address": "BAMB\u016a Desserts & Drinks, 189 W Washington Ave, Sunnyvale, CA 94086",
+            "category": "['Dessert shop', 'Coffee shop', 'Dessert restaurant', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x808fb65db4b0c531:0x1fca0f77f885c05b",
+            "iid": 3661,
+            "name": "BAMB\u016a Desserts & Drinks",
+            "rank": 20,
+            "score": -4.119988918304443,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "YENYA YEN",
+        "uid": 113,
+        "user_id": 100011133769321393286
+    }
+}

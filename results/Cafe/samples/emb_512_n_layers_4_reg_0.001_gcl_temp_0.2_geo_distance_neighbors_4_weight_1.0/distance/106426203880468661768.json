@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "85\u00b0C Bakery Cafe - Pasadena, 61 S Fair Oaks Ave #120, Pasadena, CA 91105",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "date": "2018/02/06",
+            "gmap_id": "0x80c2c370f9278d8b:0x14d26d4ffc22d502",
+            "iid": 7956,
+            "name": "85\u00b0C Bakery Cafe - Pasadena",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517909031181
+        },
+        {
+            "address": "Blacktop Coffee, 826 E 3rd St, Los Angeles, CA 90013",
+            "category": "['Cafe']",
+            "date": "2018/02/06",
+            "gmap_id": "0x80c2c6394a8be241:0x4374a137611faaba",
+            "iid": 8120,
+            "name": "Blacktop Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517909050678
+        },
+        {
+            "address": "Sunnin Lebanese Cafe, 1776 Westwood Blvd, Los Angeles, CA 90024",
+            "category": "['Mediterranean restaurant', 'Cafe', 'Caterer', 'Lebanese restaurant', 'Middle Eastern restaurant']",
+            "date": "2018/02/06",
+            "gmap_id": "0x80c2bb82cd894537:0x1f2e93025137ba45",
+            "iid": 7414,
+            "name": "Sunnin Lebanese Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517909262610
+        },
+        {
+            "address": "Cognoscenti Coffee, 6114 Washington Blvd, Culver City, CA 90232",
+            "category": "['Coffee shop', 'Espresso bar']",
+            "date": "2018/02/06",
+            "gmap_id": "0x80c2b99c5a251287:0xbb3256bf2035ac7b",
+            "iid": 7193,
+            "name": "Cognoscenti Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517909279625
+        },
+        {
+            "address": "Alfred Coffee Brentwood, 11908 San Vicente Blvd, Los Angeles, CA 90049",
+            "category": "['Cafe', 'Bakery', 'Coffee shop', 'Espresso bar', 'Restaurant']",
+            "date": "2018/02/06",
+            "gmap_id": "0x80c2bca76673605d:0x94f7b6d368a47098",
+            "iid": 7536,
+            "name": "Alfred Coffee Brentwood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517910771642
+        },
+        {
+            "address": "Spoke Bicycle Cafe, 3050 N Coolidge Ave, Los Angeles, CA 90039",
+            "category": "['Cafe', 'Bicycle repair shop', 'Live music venue', 'Restaurant']",
+            "date": "2018/02/11",
+            "gmap_id": "0x80c2c6d3c4b49627:0xea25d54edfd9ce24",
+            "iid": 8202,
+            "name": "Spoke Bicycle Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518316413022
+        },
+        {
+            "address": "Two Kids Coffee, 1504 Mission St, South Pasadena, CA 91030",
+            "category": "['Cafe']",
+            "date": "2018/02/21",
+            "gmap_id": "0x80c2c48c237356b9:0x54174a5a8bab2f62",
+            "iid": 8011,
+            "name": "Two Kids Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519198505583
+        },
+        {
+            "address": "Alfred Coffee Melrose Place, 8428 Melrose Pl, Los Angeles, CA 90069",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Burrito restaurant', 'Cafe', 'Espresso bar']",
+            "date": "2018/03/10",
+            "gmap_id": "0x80c2beb6dca059d5:0x1cb3f4f60927a92a",
+            "iid": 7616,
+            "name": "Alfred Coffee Melrose Place",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520650486649
+        },
+        {
+            "address": "Joshua Tree Coffee Company, 61738 Twentynine Palms Highway, Joshua Tree, CA 92252",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "date": "2018/04/18",
+            "gmap_id": "0x80dada23ac91dc13:0xd93ebe6d2ef9782b",
+            "iid": 10149,
+            "name": "Joshua Tree Coffee Company",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1524020099967
+        },
+        {
+            "address": "Mary and Robbs Westwood Cafe, 1453 Westwood Blvd, Los Angeles, CA 90024",
+            "category": "['Traditional American restaurant', 'American restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Restaurant', 'Wine bar']",
+            "date": "2018/05/17",
+            "gmap_id": "0x80c2bb78caa2a3b9:0xedba271f70baad79",
+            "iid": 7412,
+            "name": "Mary and Robbs Westwood Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1526519016831
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Cafecito Organico Atwater, 2985 Glendale Blvd, Los Angeles, CA 90039",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "gmap_id": "0x80c2c1c7014b4145:0xa05f153eca3a42d9",
+            "iid": 7897,
+            "name": "Cafecito Organico Atwater",
+            "rank": 1,
+            "score": -1.7628436088562012,
+            "state": "California"
+        },
+        {
+            "address": "Venice Love Shack, 2121 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Furniture store', 'Antique store', 'Art gallery', 'Cafe', 'Gift shop', 'Record store', 'Recording studio']",
+            "gmap_id": "0x80c2baecceed7b93:0x64fe445c7360c161",
+            "iid": 7325,
+            "name": "Venice Love Shack",
+            "rank": 2,
+            "score": -1.7753582000732422,
+            "state": "California"
+        },
+        {
+            "address": "Ideology Coffee, 312 N Central Ave, Glendale, CA 91203",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c103c70144d7:0x708f5ea89ad6a8c6",
+            "iid": 7858,
+            "name": "Ideology Coffee",
+            "rank": 3,
+            "score": -1.8490158319473267,
+            "state": "California"
+        },
+        {
+            "address": "Lucky Wheels Coffee, 255 N Mission Rd, Los Angeles, CA 90033",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c61533abbeb1:0x7640b2e5a9e1e129",
+            "iid": 8088,
+            "name": "Lucky Wheels Coffee",
+            "rank": 4,
+            "score": -1.849768877029419,
+            "state": "California"
+        },
+        {
+            "address": "Smokey J Bakery Cafe, 301 N Garfield Ave unit a, Monterey Park, CA 91754",
+            "category": "['Bakery', 'Cafe']",
+            "gmap_id": "0x80c2c5dcb1daf2ff:0x81d1413503a7c492",
+            "iid": 8078,
+            "name": "Smokey J Bakery Cafe",
+            "rank": 5,
+            "score": -1.9497193098068237,
+            "state": "California"
+        },
+        {
+            "address": "Mealtop Los Angeles, 450 S Western Ave #307, Los Angeles, CA 90020",
+            "category": "['Ice cream shop', 'Cafe', 'Coffee shop', 'Korean restaurant', 'Tea house']",
+            "gmap_id": "0x80c2b9cff9a839a9:0x9d11f0d7c05967d1",
+            "iid": 7205,
+            "name": "Mealtop Los Angeles",
+            "rank": 6,
+            "score": -1.9775688648223877,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Ruisseau, 12150 Millennium Dr, Los Angeles, CA 90094",
+            "category": "['Coffee shop', 'Coffee stand']",
+            "gmap_id": "0x80c2b194fd7b390d:0xd9c41ae9689f532e",
+            "iid": 6751,
+            "name": "Cafe Ruisseau",
+            "rank": 7,
+            "score": -1.981795310974121,
+            "state": "California"
+        },
+        {
+            "address": "Paderia Bakehouse, 3032 Wilshire Blvd Suite E, Santa Monica, CA 90403",
+            "category": "['Bakery', 'Coffee shop', 'Dessert restaurant']",
+            "gmap_id": "0x80c2bbc354788743:0xdb7088f2d792724c",
+            "iid": 7451,
+            "name": "Paderia Bakehouse",
+            "rank": 8,
+            "score": -1.9884743690490723,
+            "state": "California"
+        },
+        {
+            "address": "Tr\u00e0 Space, 4012 Tilden Ave, Culver City, CA 90232",
+            "category": "['Bubble tea store', 'Cafe', 'Tea house']",
+            "gmap_id": "0x80c2bb27dba4dddf:0x485009d9dec27e7a",
+            "iid": 7351,
+            "name": "Tr\u00e0 Space",
+            "rank": 9,
+            "score": -2.0037801265716553,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 7138,
+            "name": "CAFE5",
+            "rank": 10,
+            "score": -2.0065126419067383,
+            "state": "California"
+        },
+        {
+            "address": "Kreation Organic Juicery, 806 E 3rd St #130, Los Angeles, CA 90013",
+            "category": "['Juice shop', 'Cafe']",
+            "gmap_id": "0x80c2c76fad7b1a77:0x655e354fa1e279e3",
+            "iid": 8302,
+            "name": "Kreation Organic Juicery",
+            "rank": 11,
+            "score": -2.0335772037506104,
+            "state": "California"
+        },
+        {
+            "address": "Le Muse Coffee & Wine Bar, 101 S Madison Ave, Pasadena, CA 91101",
+            "category": "['Coffee shop', 'Wine bar']",
+            "gmap_id": "0x80c2c366353a9c49:0xf741c2c0823818b3",
+            "iid": 7944,
+            "name": "Le Muse Coffee & Wine Bar",
+            "rank": 12,
+            "score": -2.0387938022613525,
+            "state": "California"
+        },
+        {
+            "address": "City Bean Roasters, 5051 W Jefferson Blvd, Los Angeles, CA 90016",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80c2b9b130b4a6d3:0x3a79c35029263c2b",
+            "iid": 7200,
+            "name": "City Bean Roasters",
+            "rank": 13,
+            "score": -2.042294979095459,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 13191,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.080796718597412,
+            "state": "California"
+        },
+        {
+            "address": "Hilltop Coffee + Kitchen, 4247 Eagle Rock Blvd, Los Angeles, CA 90065",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c1fb925bb721:0xcf79425fc77001d",
+            "iid": 7899,
+            "name": "Hilltop Coffee + Kitchen",
+            "rank": 15,
+            "score": -2.08487606048584,
+            "state": "California"
+        },
+        {
+            "address": "The DEZ fine food - takeaway - catering, 61705 Twentynine Palms Highway, Joshua Tree, CA 92252",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dadbfa9d4bdf35:0xe30350b0cad83bb3",
+            "iid": 10152,
+            "name": "The DEZ fine food - takeaway - catering",
+            "rank": 16,
+            "score": -2.104151725769043,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8441,
+            "name": "Figueroa & 28th",
+            "rank": 17,
+            "score": -2.1119391918182373,
+            "state": "California"
+        },
+        {
+            "address": "Flavors from Afar, 1046 S Fairfax Ave, Los Angeles, CA 90019",
+            "category": "['Ethnic restaurant', 'Boutique', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2b90b8054b0e1:0x2acc0d2ca2d97805",
+            "iid": 7088,
+            "name": "Flavors from Afar",
+            "rank": 18,
+            "score": -2.1162397861480713,
+            "state": "California"
+        },
+        {
+            "address": "OTOTO, 1360 Allison Ave, Los Angeles, CA 90026",
+            "category": "['Restaurant', 'Cafe', 'Japanese grocery store', 'Wine store']",
+            "gmap_id": "0x80c2c74d8a119307:0x628be02e0c66f616",
+            "iid": 8269,
+            "name": "OTOTO",
+            "rank": 19,
+            "score": -2.1181647777557373,
+            "state": "California"
+        },
+        {
+            "address": "1802 Roasters, 1206 N, Cypress Ave, Los Angeles, CA 90065",
+            "category": "['Coffee shop', 'Brunch restaurant', 'Cafe', 'Coffee roasters', 'Coffee store', 'Coffee wholesaler', 'Filipino restaurant', 'Juice shop', 'Pastry shop', 'Tea store']",
+            "gmap_id": "0x80c2c7417c883abb:0x57318e5f1b22b5d6",
+            "iid": 8256,
+            "name": "1802 Roasters",
+            "rank": 20,
+            "score": -2.1250107288360596,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Tina V",
+        "uid": 65829,
+        "user_id": 106426203880468661768
+    }
+}
