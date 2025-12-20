@@ -64,6 +64,7 @@ def main():
     required_columns = {"gmap_id", "name", "address", "category", "state"}
 
     print("=== Create New User ===")
+    os.makedirs(f"./users/{category}", exist_ok=True)
     current_count = len(os.listdir(f"./users/{category}"))
     new_user_id = current_count
 
