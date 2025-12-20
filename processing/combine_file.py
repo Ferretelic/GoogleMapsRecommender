@@ -35,7 +35,9 @@ def combine_state_files(cfg, mode):
     if os.path.exists(file_path):
         return
 
-    states = load_states(cfg.paths.dataset)
+    states = cfg.dataset.get("states", None)
+    if states == None:
+        states = load_states(cfg.paths.dataset)
 
     all_data = []
     for state in states:

@@ -66,7 +66,16 @@ class NewUserSampler():
 
         user_emb = torch.mean(recommender.item_embs[iids], dim=0, keepdim=True)
 
-        scores = torch.matmul(user_emb, recommender.item_embs.t())
+        if model_info["type"] == "dot":
+            scores = torch.matmul(user_emb, recommender.item_embs.t())
+        elif model_info["type"] == "cosine":
+            norm_user_embs = F.normalize(user_emb, p=2, dim=1)
+            norm_item_embs = F.normalize(recommender.item_embs, p=2, dim=1)
+            scores = torch.matmul(norm_user_embs, norm_item_embs.t())
+        else:
+            dists = torch.cdist(user_emb, recommender.item_embs, p=2)
+            scores = -dists
+
         scores[:, iids] = -float("inf")
 
         topk_items = torch.topk(scores, k=self.cfg.inference.topk, dim=1)
@@ -120,6 +129,7 @@ class NewUserSampler():
 
     def sample(self, model, users):
         for user in users:
+            user["gmap_ids"] = [gmap_id for gmap_id in user["gmap_ids"] if gmap_id in self.gmap2index.keys()]
             user_info = self.get_user_information(user)
             model_info = self.get_model_information(model)
             topk_scores, topk_indices = self.recommend_new_users(model_info, user)
@@ -139,12 +149,13 @@ class NewUserSampler():
             self.log_recommendation(results)
 
     def log_recommendation(self, results):
+        model_info = results["model"]
         user_info = results["user"]
         user_history = results["history"]
         user_recommendations = results["recommendations"]
 
         print("=" * 80)
-        print(f"Recommendations for user {user_info["name"]}")
+        print(f"Recommendations for user {user_info["name"]} with {model_info["name"]}")
         print("  History")
         for item in user_history:
             print(f"    [{item["iid"]:5d}] [{item["state"]:15s}] {item["name"]}")
