@@ -1,3 +1,7 @@
+defaults:
+  - cafe
+  - _self_
+
 paths:
   dataset: ./dataset/
   raw: ./dataset/raw
@@ -16,14 +20,6 @@ paths:
   embedding: ./embeddings/${dataset.category}
   logs: ./logs/${dataset.category}
   plots: ${paths.result}/plots/models/${name}/
-
-dataset:
-  min_num_reviews: 5
-  min_rating: 4
-  category: Cafe
-  category_list: [Cafe, Coffee]
-  meta_keys: [gmap_id, name, address, latitude, longitude, category, avg_rating, num_of_reviews, price, hours]
-  review_keys: [gmap_id, user_id, name, time, rating]
 
 hydra:
   run:

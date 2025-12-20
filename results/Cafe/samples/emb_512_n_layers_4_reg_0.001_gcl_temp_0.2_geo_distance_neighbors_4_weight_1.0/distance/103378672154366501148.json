@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "La Torta Cafe, 8356 Allison Ave, La Mesa, CA 91942",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2017/08/14",
+            "gmap_id": "0x80d9573cff5a7f57:0x15f5c62d6fcd4e87",
+            "iid": 10055,
+            "name": "La Torta Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1502751058614
+        },
+        {
+            "address": "Olive Cafe, 805 Santa Clara Pl, San Diego, CA 92109",
+            "category": "['Cafe', 'Brunch restaurant', 'Coffee shop', 'Lunch restaurant', 'Restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80dc01e47a1ce9b5:0x52fe54d215298ddb",
+            "iid": 10714,
+            "name": "Olive Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506222818939
+        },
+        {
+            "address": "Extraordinary Desserts, 2870 Fourth Ave, San Diego, CA 92103",
+            "category": "['Dessert restaurant', 'Bakery', 'Coffee shop', 'Ice cream shop', 'Restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d954c7f4d1bc73:0x597622b87a0b9393",
+            "iid": 9874,
+            "name": "Extraordinary Desserts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506227154673
+        },
+        {
+            "address": "Figaro Dessert Cafe, 3011 University Ave, San Diego, CA 92104",
+            "category": "['Dessert shop', 'Bakery', 'Coffee shop', 'Cr\u00eaperie', 'Ice cream shop', 'Wedding bakery']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d954f681ef69d7:0x9bea45c53091aef3",
+            "iid": 9912,
+            "name": "Figaro Dessert Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506227731334
+        },
+        {
+            "address": "Meraki Caf\u00e9, 1735 Adams Ave, San Diego, CA 92116",
+            "category": "['Cafe', 'Coffee shop', 'Lunch restaurant', 'Sandwich shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d9551e56908447:0xb8e6d5fdeed75b3d",
+            "iid": 9941,
+            "name": "Meraki Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506227941369
+        },
+        {
+            "address": "Kensington Cafe, 4141 Adams Ave, San Diego, CA 92116",
+            "category": "['American restaurant', 'Cafe', 'Restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d95449713b2939:0xdf541a36ecf6f05e",
+            "iid": 9794,
+            "name": "Kensington Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506228010406
+        },
+        {
+            "address": "Perry's Cafe, 4620 Pacific Hwy, San Diego, CA 92110",
+            "category": "['Cafe']",
+            "date": "2017/12/07",
+            "gmap_id": "0x80deaae66a57ce09:0xa4b7d84047ea47c6",
+            "iid": 13121,
+            "name": "Perry's Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1512629756163
+        },
+        {
+            "address": "Sweet Bar Cafe, 1320 Highland Ave, National City, CA 91950",
+            "category": "['Cafe']",
+            "date": "2018/02/01",
+            "gmap_id": "0x80d9523a43ee9b1b:0xb0c4c08a219dff5a",
+            "iid": 9700,
+            "name": "Sweet Bar Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517455598749
+        },
+        {
+            "address": "Better Buzz Coffee Pacific Beach East, 1909 Garnet Ave, San Diego, CA 92109, United States",
+            "category": "['Coffee shop']",
+            "date": "2019/01/04",
+            "gmap_id": "0x80dc01c79c654487:0xbb6fa8346f72d9ea",
+            "iid": 10707,
+            "name": "Better Buzz Coffee Pacific Beach East",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546646277688
+        },
+        {
+            "address": "Lestat's Hillcrest, 1045 University Ave, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2019/05/11",
+            "gmap_id": "0x80d954dcc91c1ae3:0xe8c30d6c8b43f973",
+            "iid": 9891,
+            "name": "Lestat's Hillcrest",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1557584061469
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "MOE COFFEE, 4195 Kansas St, San Diego, CA 92104",
+            "category": "['Coffee shop', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80d9557ee0a0188b:0x1a5da2e2aaece917",
+            "iid": 9975,
+            "name": "MOE COFFEE",
+            "rank": 1,
+            "score": -1.6935347318649292,
+            "state": "California"
+        },
+        {
+            "address": "Coffeentalk Hillcrest, 1080 University Ave H105, San Diego, CA 92103",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d955a0a3cafb59:0x7bc4e9c38be83026",
+            "iid": 9984,
+            "name": "Coffeentalk Hillcrest",
+            "rank": 2,
+            "score": -1.7975707054138184,
+            "state": "California"
+        },
+        {
+            "address": "Home Coffee, 1914 Sweetwater Rd, National City, CA 91950",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d951a43e70216f:0xdea8a65dd8883f09",
+            "iid": 9686,
+            "name": "Home Coffee",
+            "rank": 3,
+            "score": -1.8111984729766846,
+            "state": "California"
+        },
+        {
+            "address": "Babycakes Hillcrest, 3795 Fourth Ave, San Diego, CA 92103",
+            "category": "['Dessert shop', 'Coffee shop', 'Cupcake shop']",
+            "gmap_id": "0x80d955d91add5833:0x3bb3999c71615648",
+            "iid": 10002,
+            "name": "Babycakes Hillcrest",
+            "rank": 4,
+            "score": -1.828972578048706,
+            "state": "California"
+        },
+        {
+            "address": "Northside Shack - North Park, 3773 30th St UNIT H, San Diego, CA 92104",
+            "category": "['Juice shop', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Fruit parlor', 'Health food restaurant', 'Lunch restaurant', 'Salad shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80d955a6ce2ce8b5:0x1ab19f8b97e77627",
+            "iid": 9986,
+            "name": "Northside Shack - North Park",
+            "rank": 5,
+            "score": -1.8803566694259644,
+            "state": "California"
+        },
+        {
+            "address": "Yipao Coffee, 4601 Park Blvd Ste A, San Diego, CA 92116",
+            "category": "['Coffee store']",
+            "gmap_id": "0x80d95585157389d5:0x33dc664660a86bda",
+            "iid": 9976,
+            "name": "Yipao Coffee",
+            "rank": 6,
+            "score": -1.9289618730545044,
+            "state": "California"
+        },
+        {
+            "address": "Hessian Global Goods, 4034 Park Blvd, San Diego, CA 92103",
+            "category": "['Home goods store', 'Art gallery', 'Book store', 'Clothing store', 'Coffee store', 'Furniture store', 'Gift shop', 'Spice store', 'Tea store']",
+            "gmap_id": "0x80d954e64c013599:0x294e00a76a41dd21",
+            "iid": 9901,
+            "name": "Hessian Global Goods",
+            "rank": 7,
+            "score": -1.95198655128479,
+            "state": "California"
+        },
+        {
+            "address": "MNGO Dessert & Coffee Bar, 4176 Convoy St, San Diego, CA 92111",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dbff9d4632cb81:0xf1730870aca607c6",
+            "iid": 10633,
+            "name": "MNGO Dessert & Coffee Bar",
+            "rank": 8,
+            "score": -1.9544177055358887,
+            "state": "California"
+        },
+        {
+            "address": "Claire De Lune Coffee Lounge, 2906 University Ave, San Diego, CA 92104",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d954f6bc9421a1:0xc484cc088deeef5",
+            "iid": 9916,
+            "name": "Claire De Lune Coffee Lounge",
+            "rank": 9,
+            "score": -1.9585189819335938,
+            "state": "California"
+        },
+        {
+            "address": "Lazy Eye Coffee, 4013 Avati Dr, San Diego, CA 92117",
+            "category": "['Coffee stand', 'Coffee shop', 'Snack bar']",
+            "gmap_id": "0x80dc01f0dbc43a8f:0xe6d31fa7b99bf98a",
+            "iid": 10722,
+            "name": "Lazy Eye Coffee",
+            "rank": 10,
+            "score": -1.968513011932373,
+            "state": "California"
+        },
+        {
+            "address": "Oliver Coffea, 1644 University Ave, San Diego, CA 92103",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d955a4d8dea0f9:0x8a6ca5309d39ba3b",
+            "iid": 9985,
+            "name": "Oliver Coffea",
+            "rank": 11,
+            "score": -1.984148621559143,
+            "state": "California"
+        },
+        {
+            "address": "Barona Coffee Company, 1932 Wildcat Canyon Rd, Lakeside, CA 92040",
+            "category": "['Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x80dbe14f303fd27d:0x2cae9ebade59d62",
+            "iid": 10459,
+            "name": "Barona Coffee Company",
+            "rank": 12,
+            "score": -2.014942169189453,
+            "state": "California"
+        },
+        {
+            "address": "Venice Love Shack, 2121 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Furniture store', 'Antique store', 'Art gallery', 'Cafe', 'Gift shop', 'Record store', 'Recording studio']",
+            "gmap_id": "0x80c2baecceed7b93:0x64fe445c7360c161",
+            "iid": 7325,
+            "name": "Venice Love Shack",
+            "rank": 13,
+            "score": -2.015059232711792,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7680 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8094695f51033869:0x93dcc3367550415",
+            "iid": 4917,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.017852306365967,
+            "state": "California"
+        },
+        {
+            "address": "Java Garden, 2699 Mission Village Dr, San Diego, CA 92123",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95546ab665913:0x814913ceaab30c5f",
+            "iid": 9959,
+            "name": "Java Garden",
+            "rank": 15,
+            "score": -2.0220983028411865,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4311 Lincoln Blvd, Marina Del Rey, CA 90292",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2ba86fa10821d:0x43279408cc9632b4",
+            "iid": 7262,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -2.0299923419952393,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12911,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 17,
+            "score": -2.0398313999176025,
+            "state": "California"
+        },
+        {
+            "address": "Freshii, 1255B University Ave, San Diego, CA 92103",
+            "category": "['Health food restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80d9551d0680860d:0x9c6242d8dbe00549",
+            "iid": 9938,
+            "name": "Freshii",
+            "rank": 18,
+            "score": -2.047877550125122,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 515 W Washington St, San Diego, CA 92103",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80d954d3f968be1b:0xa93a4b83e3852e75",
+            "iid": 9878,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.0700883865356445,
+            "state": "California"
+        },
+        {
+            "address": "Caff\u00e8 San Luca, 690 University Ave, San Diego, CA 92103",
+            "category": "['Cafe', 'Coffee shop', 'Italian restaurant']",
+            "gmap_id": "0x80d95558d390c755:0x2229d8bb8c07f645",
+            "iid": 9966,
+            "name": "Caff\u00e8 San Luca",
+            "rank": 20,
+            "score": -2.0740692615509033,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Luz Miles",
+        "uid": 34573,
+        "user_id": 103378672154366501148
+    }
+}

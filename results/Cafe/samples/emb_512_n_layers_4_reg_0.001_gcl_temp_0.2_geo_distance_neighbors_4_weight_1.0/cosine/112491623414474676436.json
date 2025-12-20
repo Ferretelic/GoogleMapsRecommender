@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 1301 N Mildred Ave, King City, CA 93930",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/12/06",
+            "gmap_id": "0x8092f13cccae422f:0xf1cd28e8144de1a9",
+            "iid": 4714,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1512569391144
+        },
+        {
+            "address": "From Scratch Restaurant, 3626 The Barnyard Building C, Carmel-By-The-Sea, CA 93923",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "date": "2018/04/27",
+            "gmap_id": "0x808de8aa03dfd4db:0x4a8c5f27e6805901",
+            "iid": 2205,
+            "name": "From Scratch Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524798092065
+        },
+        {
+            "address": "Starbucks, 1363 N Davis Rd, Salinas, CA 93907",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/05/06",
+            "gmap_id": "0x808dff240998d0d9:0x3711946aefb7fc3f",
+            "iid": 2241,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1525627857813
+        },
+        {
+            "address": "Earthbound Farm's Farm Stand, 7250 Carmel Valley Rd, Carmel-By-The-Sea, CA 93923",
+            "category": "['Produce market', 'Cafe', 'Coffee shop', 'Event venue', 'Garden', 'Gift shop', 'Organic farm', 'Organic food store']",
+            "date": "2018/07/14",
+            "gmap_id": "0x808defa48ce23f6f:0x1b980340ab880794",
+            "iid": 2207,
+            "name": "Earthbound Farm's Farm Stand",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531531374744
+        },
+        {
+            "address": "Starbucks, 627 Orange St D, Redlands, CA 92374",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/12/03",
+            "gmap_id": "0x80dcaa72e75d5db3:0x5a1ea6c2fab80e7c",
+            "iid": 11202,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543860253510
+        },
+        {
+            "address": "Social House Craft Sandwiches, 1001 Heavenly Village Way Suite 3, South Lake Tahoe, CA 96150",
+            "category": "['Cafe', 'Bar & grill', 'Deli']",
+            "date": "2019/02/15",
+            "gmap_id": "0x8099907691e197fb:0xf03bc8492b49bfa8",
+            "iid": 5136,
+            "name": "Social House Craft Sandwiches",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550263230606
+        },
+        {
+            "address": "McDonald's, 1350 Broadway Cir, King City, CA 93930",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/21",
+            "gmap_id": "0x8092f122d61f7a4f:0x3096e4a877eb88b9",
+            "iid": 4713,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1553198863894
+        },
+        {
+            "address": "Heaven's Little Cafe, 1001 Heavenly Village Way #23, South Lake Tahoe, CA 96150",
+            "category": "['Coffee shop']",
+            "date": "2019/04/25",
+            "gmap_id": "0x80999076f45f5f45:0x6f71f540489c939",
+            "iid": 5140,
+            "name": "Heaven's Little Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556219696534
+        },
+        {
+            "address": "The Carmel Coffee House and Roasting Company, Dolores St, Carmel-By-The-Sea, CA 93921",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Coffee store']",
+            "date": "2019/09/16",
+            "gmap_id": "0x808de6154fc56705:0xebf2cc9b7362ca95",
+            "iid": 2192,
+            "name": "The Carmel Coffee House and Roasting Company",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1568659833785
+        },
+        {
+            "address": "Toro Place Cafe, 665 Monterey Salinas Hwy, Salinas, CA 93908",
+            "category": "['Cafe']",
+            "date": "2020/01/08",
+            "gmap_id": "0x808df74b9e4b0eef:0xcc9b02a0f5bc47f",
+            "iid": 2211,
+            "name": "Toro Place Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1578519154224
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Lafayette Bakery & Cafe, 3659 The Barnyard e22, Carmel-By-The-Sea, CA 93923",
+            "category": "['Bakery', 'Cafe', 'French restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808de601fc304cd1:0x9dc279952d8e2aef",
+            "iid": 2184,
+            "name": "Lafayette Bakery & Cafe",
+            "rank": 1,
+            "score": 0.5459498167037964,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Blue, 02803001, South Lake Tahoe, CA 96150",
+            "category": "['Cafe']",
+            "gmap_id": "0x8099911f63b87cf5:0x1bd3ef04135257e6",
+            "iid": 5142,
+            "name": "Cafe Blue",
+            "rank": 2,
+            "score": 0.5419898629188538,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 492 Del Monte Center Space #4-38, Monterey, CA 93940",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808de42af22505fb:0x106efaf529f79962",
+            "iid": 2157,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.54149329662323,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 441 Canyon Del Rey Blvd, Del Rey Oaks, CA 93940",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808de540d00bdeab:0x8ec565a4143acd27",
+            "iid": 2180,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": 0.5265554189682007,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3650 Rio Rd, Carmel-By-The-Sea, CA 93923",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808de8a9b9684af5:0x4d548a1a4a983559",
+            "iid": 2204,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": 0.5222736597061157,
+            "state": "California"
+        },
+        {
+            "address": "Carmel Valley Coffee Roasting, 3720 The Barnyard, Carmel-By-The-Sea, CA 93923",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808de8aa03dfd4db:0xb00ae9447a227e5",
+            "iid": 2206,
+            "name": "Carmel Valley Coffee Roasting",
+            "rank": 6,
+            "score": 0.5194721817970276,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Bank, 26135 Carmel Rancho Blvd, Carmel-By-The-Sea, CA 93923",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808de6003687874d:0xebed873b18c5bfac",
+            "iid": 2183,
+            "name": "Coffee Bank",
+            "rank": 7,
+            "score": 0.512726902961731,
+            "state": "California"
+        },
+        {
+            "address": "Nestl\u00e9 Toll House Caf\u00e9 By Chip, 1001 Heavenly Village Way #10, South Lake Tahoe, CA 96150",
+            "category": "['Cafe', 'Coffee shop', 'Dessert shop', 'Ice cream shop', 'Restaurant']",
+            "gmap_id": "0x80999076f45f5f45:0xa4f6434a633db057",
+            "iid": 5141,
+            "name": "Nestl\u00e9 Toll House Caf\u00e9 By Chip",
+            "rank": 8,
+            "score": 0.49755120277404785,
+            "state": "California"
+        },
+        {
+            "address": "Heavenly Donuts, 4080 Lake Tahoe Blvd, South Lake Tahoe, CA 96150",
+            "category": "['Cafe']",
+            "gmap_id": "0x8099907656be6337:0xdd76377543eff20e",
+            "iid": 5135,
+            "name": "Heavenly Donuts",
+            "rank": 9,
+            "score": 0.496171236038208,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 100 Country Club Gate Center, Pacific Grove, CA 93950",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808de6b67209179f:0xa90cff92b14c4940",
+            "iid": 2199,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.49028992652893066,
+            "state": "California"
+        },
+        {
+            "address": "Carmel Valley Coffee Roasting, 246 Crossroads Blvd, Carmel-By-The-Sea, CA 93923",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808e4ef8178e5eed:0xbc59776bbd4dfde8",
+            "iid": 2577,
+            "name": "Carmel Valley Coffee Roasting",
+            "rank": 11,
+            "score": 0.48655253648757935,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1001 Heavenly Village Way, South Lake Tahoe, CA 96150",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80999076ea1db0a9:0x2829e144fa2ac30b",
+            "iid": 5138,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.4850239157676697,
+            "state": "California"
+        },
+        {
+            "address": "Black Cabin Coffee, 3894 Pioneer Trail, South Lake Tahoe, CA 96150",
+            "category": "['Coffee roasters', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80999073be0b5c4d:0x86a1e7d47e13c7c5",
+            "iid": 5134,
+            "name": "Black Cabin Coffee",
+            "rank": 13,
+            "score": 0.4842018783092499,
+            "state": "California"
+        },
+        {
+            "address": "Pebble Beach Market, 1700 17 Mile Dr, Pebble Beach, CA 93953",
+            "category": "['Deli', 'Coffee shop', 'Market']",
+            "gmap_id": "0x808de692fba4673f:0x8fe1787aabb7d45a",
+            "iid": 2194,
+            "name": "Pebble Beach Market",
+            "rank": 14,
+            "score": 0.47292211651802063,
+            "state": "California"
+        },
+        {
+            "address": "Driftwood Cafe, 1001 Heavenly Village Way #1a, South Lake Tahoe, CA 96150",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Cafe']",
+            "gmap_id": "0x80999076eba333b7:0xf4db5e32f77f40f4",
+            "iid": 5139,
+            "name": "Driftwood Cafe",
+            "rank": 15,
+            "score": 0.471710741519928,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 17535 Vierra Canyon Rd, Prunedale, CA 93907",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808e005c880f8107:0x3f1cb63211d6f5b",
+            "iid": 2250,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": 0.4688109755516052,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4000 S Lake Tahoe Blvd #24, South Lake Tahoe, CA 96150",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80999076a29eddf1:0x479cbbbbe8b6849b",
+            "iid": 5137,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": 0.46829158067703247,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1064 Emerald Bay Rd, South Lake Tahoe, CA 96150",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80998fb0db180d45:0xdbf9c840f84381c1",
+            "iid": 5111,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.46561700105667114,
+            "state": "California"
+        },
+        {
+            "address": "Cherry Bean Coffee Roasting Co., 332 S Main St, Salinas, CA 93901",
+            "category": "['Cafe']",
+            "gmap_id": "0x808df9232a17a4d9:0x2a41e32ddc9a868c",
+            "iid": 2228,
+            "name": "Cherry Bean Coffee Roasting Co.",
+            "rank": 19,
+            "score": 0.46335816383361816,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 367 Walnut Ave, Greenfield, CA 93927",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80925f4816c239d1:0x2838a4e2d70e96cb",
+            "iid": 4708,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": 0.462810218334198,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Mark Phillips",
+        "uid": 127813,
+        "user_id": 112491623414474676436
+    }
+}

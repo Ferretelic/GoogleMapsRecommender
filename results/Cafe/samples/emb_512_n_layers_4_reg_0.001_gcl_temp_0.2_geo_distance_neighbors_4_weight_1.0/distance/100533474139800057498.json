@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 2457 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x80c2ba8d81a4f4a3:0xda755b331494147",
+            "iid": 7267,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549164582041
+        },
+        {
+            "address": "McDonald's, 695 S Western Ave, Los Angeles, CA 90005",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x80c2b885131ddfad:0xe8dbbb27b4cf0f4f",
+            "iid": 6983,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549164587042
+        },
+        {
+            "address": "McDonald's, 3105 N Broadway, Los Angeles, CA 90031",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/14",
+            "gmap_id": "0x80c2c5d5c6f94eb7:0xdb0bf5cb654c9b92",
+            "iid": 8077,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550122977323
+        },
+        {
+            "address": "McDonald's, 10623 Venice Blvd, Los Angeles, CA 90034",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/14",
+            "gmap_id": "0x80c2ba3049796f67:0x64e559218d4e4d84",
+            "iid": 7237,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552535030830
+        },
+        {
+            "address": "Yum Yum Donuts, 1834 Marengo St, Los Angeles, CA 90033",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/06/07",
+            "gmap_id": "0x80c2c6748be12863:0x6e9755dabe889078",
+            "iid": 8194,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559882880059
+        },
+        {
+            "address": "Yum Yum Donuts, 12201 Venice Blvd, Los Angeles, CA 90066",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/08/30",
+            "gmap_id": "0x80c2ba5c7049e5b1:0x710fcec4654a9941",
+            "iid": 7246,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567187484275
+        },
+        {
+            "address": "Winchell's Donut House, 1700 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2b87a8d90296f:0xef8ec1fefe066dcd",
+            "iid": 6966,
+            "name": "Winchell's Donut House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568142442799
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7803,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576870678769
+        },
+        {
+            "address": "Starbucks, 10911 W Pico Blvd, Los Angeles, CA 90064",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2bb9cf4c211cd:0x2d23cb256f811473",
+            "iid": 7433,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1576870758302
+        },
+        {
+            "address": "Yum Yum Donuts., 724 N Highland Ave, Los Angeles, CA 90038",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2b8d33e76c053:0xc7f5c392d8eded6",
+            "iid": 7051,
+            "name": "Yum Yum Donuts.",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1576870766412
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Venice Love Shack, 2121 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Furniture store', 'Antique store', 'Art gallery', 'Cafe', 'Gift shop', 'Record store', 'Recording studio']",
+            "gmap_id": "0x80c2baecceed7b93:0x64fe445c7360c161",
+            "iid": 7325,
+            "name": "Venice Love Shack",
+            "rank": 1,
+            "score": -1.8231375217437744,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4311 Lincoln Blvd, Marina Del Rey, CA 90292",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2ba86fa10821d:0x43279408cc9632b4",
+            "iid": 7262,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -1.9523365497589111,
+            "state": "California"
+        },
+        {
+            "address": "MUGS Coffee Roasters, 3557 E 3rd St, Los Angeles, CA 90063",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2cffbeb171e6d:0xc7c8aeeec810638e",
+            "iid": 8672,
+            "name": "MUGS Coffee Roasters",
+            "rank": 3,
+            "score": -1.9614886045455933,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8441,
+            "name": "Figueroa & 28th",
+            "rank": 4,
+            "score": -1.9635578393936157,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 7138,
+            "name": "CAFE5",
+            "rank": 5,
+            "score": -1.9803249835968018,
+            "state": "California"
+        },
+        {
+            "address": "City Bean Roasters, 5051 W Jefferson Blvd, Los Angeles, CA 90016",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80c2b9b130b4a6d3:0x3a79c35029263c2b",
+            "iid": 7200,
+            "name": "City Bean Roasters",
+            "rank": 6,
+            "score": -2.063526153564453,
+            "state": "California"
+        },
+        {
+            "address": "Sky's Gourmet Marketplace, 4333 Admiralty Way #001, Marina Del Rey, CA 90292",
+            "category": "['Gourmet grocery store', 'Bakery', 'Caterer', 'Coffee shop', 'Deli', 'Liquor store', 'Pizza delivery', 'Pizza restaurant', 'Pizza Takeout', 'Taco restaurant']",
+            "gmap_id": "0x80c2ba9079c23a4b:0x79b25ec20c4c2f74",
+            "iid": 7270,
+            "name": "Sky's Gourmet Marketplace",
+            "rank": 7,
+            "score": -2.1150553226470947,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 13191,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": -2.1184628009796143,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 5323 S Western Ave, Los Angeles, CA 90062",
+            "category": "['Donut shop', 'Coffee shop', 'Pastry shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2b72be095c915:0xfe9bfccb5cb57eb7",
+            "iid": 6928,
+            "name": "Winchell's Donut House",
+            "rank": 9,
+            "score": -2.123478651046753,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7680 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8094695f51033869:0x93dcc3367550415",
+            "iid": 4917,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.144862651824951,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Rebelde, 3025 Wabash Ave, Los Angeles, CA 90063",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c539cdef619d:0xd22cbc18c91a9ce5",
+            "iid": 8046,
+            "name": "Cafe Rebelde",
+            "rank": 11,
+            "score": -2.1515963077545166,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11583,
+            "name": "Auntie Anne's",
+            "rank": 12,
+            "score": -2.1573593616485596,
+            "state": "California"
+        },
+        {
+            "address": "New Deli By PlantX, 2524 Pacific Ave, Venice, CA 90291",
+            "category": "['Vegetarian cafe and deli']",
+            "gmap_id": "0x80c2bb47f1484043:0x9cb259720cf2edf6",
+            "iid": 7373,
+            "name": "New Deli By PlantX",
+            "rank": 13,
+            "score": -2.165360927581787,
+            "state": "California"
+        },
+        {
+            "address": "Lucky Wheels Coffee, 255 N Mission Rd, Los Angeles, CA 90033",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c61533abbeb1:0x7640b2e5a9e1e129",
+            "iid": 8088,
+            "name": "Lucky Wheels Coffee",
+            "rank": 14,
+            "score": -2.178534984588623,
+            "state": "California"
+        },
+        {
+            "address": "Ebar, 130 E Sailer Dr, San Mateo, CA 94403",
+            "category": "['Internet cafe', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x808f9f031167c7b1:0x4fc218227a0de65d",
+            "iid": 3443,
+            "name": "Ebar",
+            "rank": 15,
+            "score": -2.179633140563965,
+            "state": "California"
+        },
+        {
+            "address": "Mealtop Los Angeles, 450 S Western Ave #307, Los Angeles, CA 90020",
+            "category": "['Ice cream shop', 'Cafe', 'Coffee shop', 'Korean restaurant', 'Tea house']",
+            "gmap_id": "0x80c2b9cff9a839a9:0x9d11f0d7c05967d1",
+            "iid": 7205,
+            "name": "Mealtop Los Angeles",
+            "rank": 16,
+            "score": -2.1899242401123047,
+            "state": "California"
+        },
+        {
+            "address": "Ideology Coffee, 312 N Central Ave, Glendale, CA 91203",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c103c70144d7:0x708f5ea89ad6a8c6",
+            "iid": 7858,
+            "name": "Ideology Coffee",
+            "rank": 17,
+            "score": -2.192502737045288,
+            "state": "California"
+        },
+        {
+            "address": "Tr\u00e0 Space, 4012 Tilden Ave, Culver City, CA 90232",
+            "category": "['Bubble tea store', 'Cafe', 'Tea house']",
+            "gmap_id": "0x80c2bb27dba4dddf:0x485009d9dec27e7a",
+            "iid": 7351,
+            "name": "Tr\u00e0 Space",
+            "rank": 18,
+            "score": -2.1936919689178467,
+            "state": "California"
+        },
+        {
+            "address": "Flavors from Afar, 1046 S Fairfax Ave, Los Angeles, CA 90019",
+            "category": "['Ethnic restaurant', 'Boutique', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2b90b8054b0e1:0x2acc0d2ca2d97805",
+            "iid": 7088,
+            "name": "Flavors from Afar",
+            "rank": 19,
+            "score": -2.1998417377471924,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Ruisseau, 12150 Millennium Dr, Los Angeles, CA 90094",
+            "category": "['Coffee shop', 'Coffee stand']",
+            "gmap_id": "0x80c2b194fd7b390d:0xd9c41ae9689f532e",
+            "iid": 6751,
+            "name": "Cafe Ruisseau",
+            "rank": 20,
+            "score": -2.203911781311035,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Agustin Martinez",
+        "uid": 5553,
+        "user_id": 100533474139800057498
+    }
+}

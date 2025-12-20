@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 7085 Clairemont Mesa Blvd, San Diego, CA 92111",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/06/01",
+            "gmap_id": "0x80dbff845d22b893:0xe75e18a51c092ac6",
+            "iid": 10620,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1527832772138
+        },
+        {
+            "address": "McDonald's, 1624 Rosecrans St, San Diego, CA 92106",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/11/18",
+            "gmap_id": "0x80deaba42bcd3bc7:0x59eefe5319143e4f",
+            "iid": 13166,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542571524323
+        },
+        {
+            "address": "Cafe Moto, 2619 National Ave, San Diego, CA 92113",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2018/12/11",
+            "gmap_id": "0x80d9530d8e32b95f:0x4691331edf665d13",
+            "iid": 9709,
+            "name": "Cafe Moto",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544548256299
+        },
+        {
+            "address": "McDonald's, 1695 E Main St, El Cajon, CA 92021",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/13",
+            "gmap_id": "0x80d9591e4655f0b5:0x1890e32fa68d1a38",
+            "iid": 10097,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552511885465
+        },
+        {
+            "address": "McDonald's, 8876 Cuyamaca St, Santee, CA 92071",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/13",
+            "gmap_id": "0x80d958003c002a53:0x3fc639517dae58f0",
+            "iid": 10073,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552511955594
+        },
+        {
+            "address": "Starbucks, 1666 Rosecrans St, San Diego, CA 92106",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "date": "2020/03/12",
+            "gmap_id": "0x80deaba67f47a681:0x29ae8933650afd91",
+            "iid": 13169,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583993523773
+        },
+        {
+            "address": "Yum Yum Donuts, 6998 Federal Blvd, Lemon Grove, CA 92045",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/03/12",
+            "gmap_id": "0x80d956ccddccbf81:0xdc81ff64be8319b3",
+            "iid": 10025,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583993619062
+        },
+        {
+            "address": "McDonald's, 3400 Highland Ave, National City, CA 91950",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/06/13",
+            "gmap_id": "0x80d9520670bec313:0x6dde2edf8dfd8e59",
+            "iid": 9692,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1592014848150
+        },
+        {
+            "address": "McDonald's, 707 W San Ysidro Blvd, San Ysidro, CA 92173",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/10/06",
+            "gmap_id": "0x80d949470527a199:0x8b8072115d5137c6",
+            "iid": 9605,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1602002233412
+        },
+        {
+            "address": "McDonald's, 6925 Paradise Valley Rd, San Diego, CA 92139",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/10/14",
+            "gmap_id": "0x80d951bab2f9e5af:0x767a4a7df48d7199",
+            "iid": 9687,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1602695164565
+        }
+    ],
+    "model": {
+        "model_name": "KNN",
+        "name": "KNN",
+        "type": "baseline"
+    },
+    "recommendations": [
+        {
+            "address": "The Dojo Cafe, 4350 El Cajon Blvd, San Diego, CA 92105",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95438d1894569:0xddaf8753119c7cc5",
+            "iid": 9793,
+            "name": "The Dojo Cafe",
+            "rank": 1,
+            "score": -0.2196115106344223,
+            "state": "California"
+        },
+        {
+            "address": "Ryan Bros Coffee, 4465 University Ave, San Diego, CA 92105",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95566c0db1f99:0xf080606cc9ef78d7",
+            "iid": 9971,
+            "name": "Ryan Bros Coffee",
+            "rank": 2,
+            "score": -0.4682716131210327,
+            "state": "California"
+        },
+        {
+            "address": "City Heights Coffee House, 4465 University Ave, San Diego, CA 92105",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95438cb259613:0x3ec398bb546ec6f2",
+            "iid": 9792,
+            "name": "City Heights Coffee House",
+            "rank": 3,
+            "score": -0.4682716131210327,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3879 Fairmount Ave, San Diego, CA 92105",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80d954156fce28df:0x38a5131dd7af5d9d",
+            "iid": 9788,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": -0.5228826999664307,
+            "state": "California"
+        },
+        {
+            "address": "Cafeina Cafe, 4011 46th St, San Diego, CA 92105",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80d955d22538e067:0xf9b656a670acc41d",
+            "iid": 10000,
+            "name": "Cafeina Cafe",
+            "rank": 5,
+            "score": -0.5703234076499939,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3895 Fairmount Ave, San Diego, CA 92105",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80d95415bd245f59:0x6abb8ddc973b5811",
+            "iid": 9789,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -0.5707157254219055,
+            "state": "California"
+        },
+        {
+            "address": "YOHED COFFEE, 4160 University Ave, San Diego, CA 92105",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d9553b3652a037:0xd9ae02a1ae372ec5",
+            "iid": 9954,
+            "name": "YOHED COFFEE",
+            "rank": 7,
+            "score": -0.6648129224777222,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4144 University Ave, San Diego, CA 92105",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80d9554f62e72ebb:0x91cd2c07e3d8cb53",
+            "iid": 9964,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": -0.7394221425056458,
+            "state": "California"
+        },
+        {
+            "address": "Pappalecco, 4202 Adams Ave, San Diego, CA 92116",
+            "category": "['Italian restaurant', 'Cafe', 'Cafeteria', 'Coffee shop', 'Ice cream shop']",
+            "gmap_id": "0x80d9544995994e63:0xcfaf9fbd0279df23",
+            "iid": 9796,
+            "name": "Pappalecco",
+            "rank": 9,
+            "score": -1.1867566108703613,
+            "state": "California"
+        },
+        {
+            "address": "Black stag coffee, 4966 El Cajon Blvd, San Diego, CA 92115",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d95423977eaaab:0x2a1aa61d78dd8db5",
+            "iid": 9791,
+            "name": "Black stag coffee",
+            "rank": 10,
+            "score": -1.1944390535354614,
+            "state": "California"
+        },
+        {
+            "address": "Kensington Cafe, 4141 Adams Ave, San Diego, CA 92116",
+            "category": "['American restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80d95449713b2939:0xdf541a36ecf6f05e",
+            "iid": 9794,
+            "name": "Kensington Cafe",
+            "rank": 11,
+            "score": -1.2185747623443604,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4134 Adams Ave Suite 102, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80d954497b2d48d9:0xe4b7cb96e4b1ddab",
+            "iid": 9795,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -1.2720057964324951,
+            "state": "California"
+        },
+        {
+            "address": "Sunset Kava Lounge, 3675 University Ave, San Diego, CA 92104",
+            "category": "['Tea house', 'Art cafe', 'Lounge', 'Spiritist center']",
+            "gmap_id": "0x80d954fedd8a456b:0x8d5772b0c63dec66",
+            "iid": 9927,
+            "name": "Sunset Kava Lounge",
+            "rank": 13,
+            "score": -1.3867453336715698,
+            "state": "California"
+        },
+        {
+            "address": "Burly and The Bean, 3014 Columbine St, San Diego, CA 92105",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d9540d6ad42eff:0xba103862ef20aaf3",
+            "iid": 9787,
+            "name": "Burly and The Bean",
+            "rank": 14,
+            "score": -1.8237130641937256,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3610 Adams Ave, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80d9544d89aa69b5:0x765544912ff39d6a",
+            "iid": 9797,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -1.8316107988357544,
+            "state": "California"
+        },
+        {
+            "address": "Happytime Tea, 4336 54th St, San Diego, CA 92115",
+            "category": "['Bubble tea store', 'Coffee shop', 'Cr\u00eaperie', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80d954206d215a19:0x81fba09b3307722d",
+            "iid": 9790,
+            "name": "Happytime Tea",
+            "rank": 16,
+            "score": -1.8875497579574585,
+            "state": "California"
+        },
+        {
+            "address": "Dos Palmas Cafe, 3562 Adams Ave, San Diego, CA 92116",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Coffee store', 'Sandwich shop']",
+            "gmap_id": "0x80d95452696175ff:0xb7fb9090a39dbe3e",
+            "iid": 9798,
+            "name": "Dos Palmas Cafe",
+            "rank": 17,
+            "score": -1.8892213106155396,
+            "state": "California"
+        },
+        {
+            "address": "Cafe 102, 5416 El Cajon Blvd, San Diego, CA 92115",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d9569e2596ee07:0xb078af3d76f7049d",
+            "iid": 10021,
+            "name": "Cafe 102",
+            "rank": 18,
+            "score": -2.0001325607299805,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3352 Adams Ave, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80d954548eea9167:0xb4e774333c9d3333",
+            "iid": 9800,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.3414275646209717,
+            "state": "California"
+        },
+        {
+            "address": "Lestat's, 3343 Adams Ave, San Diego, CA 92116",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d954548b586a03:0x53b1db270c0b964",
+            "iid": 9799,
+            "name": "Lestat's",
+            "rank": 20,
+            "score": -2.3540396690368652,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "SUERTE SAN DIEGO",
+        "uid": 7850,
+        "user_id": 100754502616625003320
+    }
+}
