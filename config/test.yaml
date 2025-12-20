@@ -14,4 +14,19 @@ test:
     [LightGCN Best (Cosine), cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
     [LightGCN Best (Distance), distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
   ]
-  baselines: ["knn", "popularity"]
+  baselines: ["KNN", "Popularity"]
+
+inference:
+  device: cpu
+  min_num_reviews: 10
+  num_samples: 50
+  topk: 20
+  embeddings: [
+    [LightGCN Baseline (Dot), dot, baseline],
+    [LightGCN Baseline (Cosine), cosine, baseline],
+    [LightGCN Baseline (Distance), distance, baseline],
+    [LightGCN Best (Dot), dot, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
+    [LightGCN Best (Cosine), cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
+    [LightGCN Best (Distance), distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
+  ]
+  baselines: ["KNN", "Popularity"]

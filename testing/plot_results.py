@@ -67,7 +67,6 @@ def add_bar_plot(df, fig):
 
     prr_df = df[["name", "head_prr", "tail_prr"]].melt(id_vars="name", var_name="Type", value_name="PRR")
 
-    # 淡いブルーと淡いパープル
     bar_palette = {"head_prr": "#a2d2ff", "tail_prr": "#cdb4db"}
 
     sns.barplot(
