@@ -11,6 +11,10 @@ def parse(path):
     for l in g:
         yield json.loads(l)
 
+def count_lines(path):
+    with gzip.open(path, "r") as g:
+        return sum(1 for _ in g)
+
 def load_states(dataset_path):
     with open(f"{dataset_path}/states.txt", "r") as f:
         states = f.read().split("\n")

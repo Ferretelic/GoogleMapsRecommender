@@ -129,7 +129,6 @@ class NewUserSampler():
 
     def sample(self, model, users):
         for user in users:
-            user["gmap_ids"] = [gmap_id for gmap_id in user["gmap_ids"] if gmap_id in self.gmap2index.keys()]
             user_info = self.get_user_information(user)
             model_info = self.get_model_information(model)
             topk_scores, topk_indices = self.recommend_new_users(model_info, user)
