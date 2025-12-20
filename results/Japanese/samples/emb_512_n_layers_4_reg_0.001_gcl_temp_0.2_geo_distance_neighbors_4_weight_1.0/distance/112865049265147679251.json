@@ -1,0 +1,320 @@
+{
+    "history": [
+        {
+            "date": "2017/05/14",
+            "gmap_id": "0x80c2b59d79dc3509:0x1edfbd8cb3e64276",
+            "iid": 2944,
+            "name": "Shin-Sen-Gumi Hakata Ramen - Gardena",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1494799262707
+        },
+        {
+            "date": "2017/09/09",
+            "gmap_id": "0x80dd4b214fc1cd4f:0x90499c86f31e3693",
+            "iid": 4590,
+            "name": "Koshiji",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1504931713852
+        },
+        {
+            "date": "2018/01/28",
+            "gmap_id": "0x80dd4aba387d1565:0x46ed9e3ce262535f",
+            "iid": 4576,
+            "name": "Ichimiann",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517108368311
+        },
+        {
+            "date": "2018/02/22",
+            "gmap_id": "0x80dd4aa495bbb1ef:0xf2612859abf28e7e",
+            "iid": 4563,
+            "name": "Mo-Mo-Paradise",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519341154945
+        },
+        {
+            "date": "2018/03/08",
+            "gmap_id": "0x80dd4abb7598b7c5:0x659863c45b360ee5",
+            "iid": 4578,
+            "name": "Izakaya Hachi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520492538225
+        },
+        {
+            "date": "2018/03/14",
+            "gmap_id": "0x80c2b5818bd0b43f:0x5edaed814823ecb1",
+            "iid": 2929,
+            "name": "Spoon House Bakery and Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521061261396
+        },
+        {
+            "date": "2018/05/20",
+            "gmap_id": "0x54906ab2dda52f15:0xee0f05a876eec32e",
+            "iid": 555,
+            "name": "Sushi Kashiba",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1526856198348
+        },
+        {
+            "date": "2018/08/15",
+            "gmap_id": "0x80dd4aa4c96192fd:0xbe2e63f697462f2f",
+            "iid": 4565,
+            "name": "Wadatsumi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1534306683248
+        },
+        {
+            "date": "2018/10/12",
+            "gmap_id": "0x80c2b56685ac2169:0xae5fe05abe26b2",
+            "iid": 2919,
+            "name": "Tokyo Central",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1539313176801
+        },
+        {
+            "date": "2018/10/30",
+            "gmap_id": "0x80c329e9fc9a51c9:0x379ff1530dead885",
+            "iid": 3526,
+            "name": "Tokyo Central",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540881150015
+        },
+        {
+            "date": "2019/03/09",
+            "gmap_id": "0x80dd4af6702d6e57:0x267e098d6f0cd8e2",
+            "iid": 4586,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552106509094
+        },
+        {
+            "date": "2019/04/01",
+            "gmap_id": "0x80c32b048ab15517:0xe2e411492d7fa454",
+            "iid": 3545,
+            "name": "OoToro Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554094471245
+        },
+        {
+            "date": "2019/04/01",
+            "gmap_id": "0x80c2d68073e7bb69:0xe009b8afb6163e7e",
+            "iid": 3446,
+            "name": "101 Sushi Roll and Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554094504476
+        },
+        {
+            "date": "2020/10/04",
+            "gmap_id": "0x808561eac4487559:0xdd619e9c17acc7b5",
+            "iid": 1566,
+            "name": "Ramen Hiroshi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1601776579717
+        },
+        {
+            "date": "2021/04/18",
+            "gmap_id": "0x808fc77f17f54901:0xbfeeb861fece741e",
+            "iid": 2305,
+            "name": "Kitayama Japanese Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1618704817681
+        },
+        {
+            "date": "2021/05/02",
+            "gmap_id": "0x808fb0ee34ef8acd:0xdbe1a6e1d66e83f0",
+            "iid": 2189,
+            "name": "Sumika",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1619981866674
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "gmap_id": "0x80dd4aa4ecfcf1cd:0xe14f86fd711b4270",
+            "iid": 4572,
+            "name": "Bentoss",
+            "rank": 1,
+            "score": -1.6357133388519287,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4b87c07cbb81:0xe46d63867e02a62c",
+            "iid": 4607,
+            "name": "Tendon Tempura Carlos Jr",
+            "rank": 2,
+            "score": -1.7410606145858765,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4b28ae8163e9:0x1ce6f455c44d5392",
+            "iid": 4592,
+            "name": "Uncle Tetsu Japanese Cheesecake",
+            "rank": 3,
+            "score": -1.7756725549697876,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4aa4cbe26543:0xeb4c48bc4c2f1220",
+            "iid": 4568,
+            "name": "Teriyaki Inn",
+            "rank": 4,
+            "score": -1.7847954034805298,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4b3cf6085e31:0x802d0fe60171f5f7",
+            "iid": 4599,
+            "name": "UENO SUSHI & ASIAN IZAKAYA",
+            "rank": 5,
+            "score": -1.8114421367645264,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4aba5ee8f89d:0xa3c5a59948fe3542",
+            "iid": 4577,
+            "name": "Kozan Japanese Restaurant",
+            "rank": 6,
+            "score": -1.866252064704895,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4b2977bc4a4d:0x7b0fa24d76298e06",
+            "iid": 4593,
+            "name": "Ginza Grill",
+            "rank": 7,
+            "score": -1.8842545747756958,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2b5a0f439a531:0x10e3f9fe31047879",
+            "iid": 2945,
+            "name": "Wasabi Sushiya",
+            "rank": 8,
+            "score": -1.9354857206344604,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2b3ec7496f49f:0x8bf41df9dc438b6e",
+            "iid": 2884,
+            "name": "Sushi Inaba Manhattan Beach",
+            "rank": 9,
+            "score": -1.991708755493164,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2b57843e2f753:0x4bf78c4c75b677f7",
+            "iid": 2924,
+            "name": "Fukuno Restaurant",
+            "rank": 10,
+            "score": -1.9978023767471313,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 1942,
+            "name": "Tomokazu",
+            "rank": 11,
+            "score": -2.010176420211792,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2b56c2ab3baad:0x4b3db511a16403be",
+            "iid": 2922,
+            "name": "Hasu Japanese Izakaya & Grill",
+            "rank": 12,
+            "score": -2.027057409286499,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dcde0c57322dc9:0x638051b2fc92c274",
+            "iid": 4270,
+            "name": "Gen Grill",
+            "rank": 13,
+            "score": -2.027327299118042,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd33a8a6b89b77:0x3d97571247b17b45",
+            "iid": 4534,
+            "name": "Silverlake Ramen",
+            "rank": 14,
+            "score": -2.0455427169799805,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c32b5a222fff0f:0x3107e654a747c80",
+            "iid": 3547,
+            "name": "Yojie Japanese Fondue",
+            "rank": 15,
+            "score": -2.0576772689819336,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2d71529d56e99:0xd21e4e00331f1cf0",
+            "iid": 3449,
+            "name": "Secoya Market",
+            "rank": 16,
+            "score": -2.0672497749328613,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2b5cae73f8bc3:0x39932a4bd20f7d56",
+            "iid": 2947,
+            "name": "Kagura Gardena",
+            "rank": 17,
+            "score": -2.0763444900512695,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c2b5784c2c4e33:0xa58a86b9c1242fdf",
+            "iid": 2925,
+            "name": "Miyabi Sushi Restaurant",
+            "rank": 18,
+            "score": -2.100691318511963,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80c32a602de43891:0x327cb8fe0a7d1a7c",
+            "iid": 3534,
+            "name": "Misong Japanese Restaurant",
+            "rank": 19,
+            "score": -2.1046133041381836,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80dd4b31b59022a5:0xe243e2721ea85215",
+            "iid": 4598,
+            "name": "Yogi\u2019s Teriyaki House",
+            "rank": 20,
+            "score": -2.105026960372925,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Richite Cheong",
+        "uid": 59450,
+        "user_id": 112865049265147679251
+    }
+}

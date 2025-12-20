@@ -1,0 +1,320 @@
+{
+    "history": [
+        {
+            "date": "2010/11/12",
+            "gmap_id": "0x808580e4c57e84a5:0xf1c948195391a7d8",
+            "iid": 1742,
+            "name": "Miyabi Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1289576016963
+        },
+        {
+            "date": "2010/11/19",
+            "gmap_id": "0x89c6c6574d60b647:0x7ec58a5cff484cc5",
+            "iid": 13518,
+            "name": "Pod",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1290144367084
+        },
+        {
+            "date": "2013/07/29",
+            "gmap_id": "0x549509f0c272e883:0x61a38d48059f8528",
+            "iid": 788,
+            "name": "San Sai Japanese Grill",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1375057000283
+        },
+        {
+            "date": "2013/10/14",
+            "gmap_id": "0x8085808f3fd7d4ef:0x9fb447d8468d6f5d",
+            "iid": 1675,
+            "name": "Dojima Ann \u5802\u5cf6\u5eb5",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1381762789209
+        },
+        {
+            "date": "2013/10/14",
+            "gmap_id": "0x8085808f3fd7d4ef:0x9fb447d8468d6f5d",
+            "iid": 1675,
+            "name": "Dojima Ann \u5802\u5cf6\u5eb5",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1381762789209
+        },
+        {
+            "date": "2013/11/23",
+            "gmap_id": "0x808f7e5d2c7a6521:0x85b053e9c7ccccc8",
+            "iid": 2034,
+            "name": "ICHI Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1385170694240
+        },
+        {
+            "date": "2014/04/20",
+            "gmap_id": "0x8085875ce01473f7:0xaa625c17075c336",
+            "iid": 1799,
+            "name": "Ebisu Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1397982266488
+        },
+        {
+            "date": "2014/05/09",
+            "gmap_id": "0x808f7e22a8feae49:0x4a22e35f4cdf3bac",
+            "iid": 2010,
+            "name": "Yuzuki Japanese Eatery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1399597194135
+        },
+        {
+            "date": "2014/08/19",
+            "gmap_id": "0x80858065a8da1125:0x1da38cdc39547ca5",
+            "iid": 1641,
+            "name": "Ozumo SF",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1408463455731
+        },
+        {
+            "date": "2015/01/22",
+            "gmap_id": "0x808f7e49400dc209:0x921152c55e482a47",
+            "iid": 2031,
+            "name": "Sushi Bistro",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1421945807443
+        },
+        {
+            "date": "2015/05/03",
+            "gmap_id": "0x89c259a926e50df7:0x7915d42a07993fcf",
+            "iid": 12372,
+            "name": "EN Japanese Brasserie",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1430678453414
+        },
+        {
+            "date": "2015/08/24",
+            "gmap_id": "0x80858086504cfa81:0x614ef19e9fb7b6f8",
+            "iid": 1651,
+            "name": "Tokyo Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1440432606219
+        },
+        {
+            "date": "2017/02/16",
+            "gmap_id": "0x808f7e26791dc281:0xe147a1d9e33e11d4",
+            "iid": 2012,
+            "name": "Rintaro",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1487266184746
+        },
+        {
+            "date": "2017/05/22",
+            "gmap_id": "0x80858091bfcba4f3:0xef6d15db707c1776",
+            "iid": 1679,
+            "name": "Mensho Tokyo SF",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1495432547871
+        },
+        {
+            "date": "2018/02/03",
+            "gmap_id": "0x808580906108562b:0x11b6984b6ea1d250",
+            "iid": 1678,
+            "name": "Onsen Bath & Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1517680597739
+        },
+        {
+            "date": "2018/09/18",
+            "gmap_id": "0x808580b9279b8d1d:0xf10e8905aeedb7a1",
+            "iid": 1717,
+            "name": "Benihana",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1537242861276
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "gmap_id": "0x808f7e3eb119ec11:0x38ea18dbd69b3958",
+            "iid": 2027,
+            "name": "Nombe Catering & Events",
+            "rank": 1,
+            "score": 0.6113882064819336,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e1839392491:0x777eb3bba3da73ef",
+            "iid": 1995,
+            "name": "Commissary",
+            "rank": 2,
+            "score": 0.5968572497367859,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x8085808efe78a503:0xab475be4456e18dd",
+            "iid": 1674,
+            "name": "Sushi Boat",
+            "rank": 3,
+            "score": 0.5898398160934448,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e2272db0fb7:0x3912257aa5603589",
+            "iid": 2009,
+            "name": "Tokyo Go Go",
+            "rank": 4,
+            "score": 0.5880756378173828,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x8085808f6ec3e8a5:0x57b0513c17b02ff7",
+            "iid": 1676,
+            "name": "Hana Zen Yakitori & Sushi Bar",
+            "rank": 5,
+            "score": 0.5787312984466553,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x8085808e51ab7a67:0xd0483a7251ab6b0a",
+            "iid": 1671,
+            "name": "Katana Ya",
+            "rank": 6,
+            "score": 0.5686550140380859,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x8085809ff9d96527:0x58c5f0b1d398fc20",
+            "iid": 1690,
+            "name": "Sushi Zone",
+            "rank": 7,
+            "score": 0.565144419670105,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e267f39515f:0x6085e68361e0e88e",
+            "iid": 2013,
+            "name": "Nihon Whisky Lounge",
+            "rank": 8,
+            "score": 0.5580536723136902,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808580a24840bb67:0xef83841203e9d0dd",
+            "iid": 1692,
+            "name": "Domo",
+            "rank": 9,
+            "score": 0.5556132793426514,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7fd6c5d96213:0x128f79858b5019e0",
+            "iid": 2048,
+            "name": "Tsunami Mission Bay",
+            "rank": 10,
+            "score": 0.5494567155838013,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80858746221ac9dd:0x9fb10195662c7559",
+            "iid": 1795,
+            "name": "Okina Sushi",
+            "rank": 11,
+            "score": 0.5442139506340027,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x80858740a7182203:0xd1df192a266aa551",
+            "iid": 1793,
+            "name": "Tekka Japanese Restaurant",
+            "rank": 12,
+            "score": 0.542468249797821,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e6a35242e65:0x6ae2954366a3cb79",
+            "iid": 2037,
+            "name": "Kama Sushi",
+            "rank": 13,
+            "score": 0.5313321352005005,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e1c0bf111a1:0xe34a40015de5fcc6",
+            "iid": 2000,
+            "name": "Eiji",
+            "rank": 14,
+            "score": 0.5305600166320801,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 1667,
+            "name": "Sanraku",
+            "rank": 15,
+            "score": 0.5254610180854797,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808580f023059337:0x66f0e9ff65c03a3b",
+            "iid": 1754,
+            "name": "Sushi On North Beach",
+            "rank": 16,
+            "score": 0.5250519514083862,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e18bb085f25:0x38799a2de5ce13f0",
+            "iid": 1996,
+            "name": "Ramen Izakaya Goku",
+            "rank": 17,
+            "score": 0.5241276621818542,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e3ef1528535:0xab5fa8430ce2c5b3",
+            "iid": 2028,
+            "name": "We Be Sushi",
+            "rank": 18,
+            "score": 0.5234116315841675,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e494085299b:0xec8e1c0dc9a476a8",
+            "iid": 2032,
+            "name": "Kazan",
+            "rank": 19,
+            "score": 0.5175378322601318,
+            "state": "California"
+        },
+        {
+            "gmap_id": "0x808f7e224924ae8f:0xd4416a786cc50895",
+            "iid": 2008,
+            "name": "V16 Sushi Lounge",
+            "rank": 20,
+            "score": 0.5161005854606628,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Max Heinritz",
+        "uid": 10313,
+        "user_id": 102217125735823374958
+    }
+}

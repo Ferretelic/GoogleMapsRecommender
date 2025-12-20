@@ -10,7 +10,7 @@ class Recommender():
         self.cfg = cfg
         self.device = torch.device(cfg.test.device)
 
-        train_df = pd.read_csv(f"{cfg.paths.splits}/train.csv")
+        train_df = pd.read_csv(f"{cfg.paths.splits}/train.csv", dtype={"uid": int, "iid": int})
         self.train_user_pos = train_df.groupby("uid")["iid"].apply(set).to_dict()
 
     def mask_train_items(self, scores, users):
@@ -26,7 +26,24 @@ class Recommender():
         if rows:
             scores[rows, cols] = -float("inf")
 
+        item_size = self.load_item_size()
+        mapping_size = self.load_mapping_size()
+        if item_size != mapping_size:
+            scores[:, mapping_size-1:] = -float("inf")
+
         return scores
+
+    def load_mapping_size(self):
+        with open(f"{self.cfg.paths.combined}/mappings.json", "r") as f:
+            mappings = json.load(f)
+
+        return len(mappings["index2gmap"])
+
+    def load_item_size(self):
+        with open(f"{self.cfg.paths.result}/dataset_size.txt", "r") as f:
+            _, item_size = [int(l) for l in f.read().split(",")]
+
+        return item_size
 
     def get_top_k_items(self, scores, rank):
         _, topk_indices = torch.topk(scores, k=rank, dim=1)
@@ -45,14 +62,9 @@ class LocationRecommender(Recommender):
         self.item_popularity = self.load_item_popularity(cfg)
         self.item_location = self.load_item_location(cfg)
 
-    def load_item_size(self, cfg):
-        with open(f"{cfg.paths.result}/dataset_size.txt", "r") as f:
-            _, item_size = [int(l) for l in f.read().split(",")]
-
-        return item_size
 
     def load_item_popularity(self, cfg):
-        item_size = self.load_item_size(cfg)
+        item_size = self.load_item_size()
         item_popularity = torch.zeros(item_size, dtype=torch.float32).to(self.device)
 
         train_df = pd.read_csv(f"{self.cfg.paths.splits}/train.csv")
@@ -62,7 +74,7 @@ class LocationRecommender(Recommender):
         return item_popularity
 
     def load_item_location(self, cfg):
-        item_size = self.load_item_size(cfg)
+        item_size = self.load_item_size()
         item_location = torch.zeros((item_size, 2), dtype=torch.float32)
 
         train_df = pd.read_csv(f"{self.cfg.paths.splits}/train.csv")
@@ -165,3 +177,30 @@ class EmbeddingDistanceRecommender(EmbeddingRecommender):
         scores = -dists
 
         return scores
+
+def load_recommender(cfg, type, name):
+    recommender = None
+    if type == "baseline":
+        if name == "Popularity":
+            recommender = LocationPopularityRecommender(cfg)
+        elif name == "KNN":
+            recommender = LocationKNNRecommender(cfg)
+        else:
+            raise NotImplementedError
+
+    elif type == "dot":
+        recommender = EmbeddingDotRecommender(cfg)
+        recommender.load_embeddings(name)
+
+    elif type == "cosine":
+        recommender = EmbeddingCosineRecommender(cfg)
+        recommender.load_embeddings(name)
+
+    elif type == "distance":
+        recommender = EmbeddingDistanceRecommender(cfg)
+        recommender.load_embeddings(name)
+
+    else:
+        raise NotImplementedError
+
+    return recommender
