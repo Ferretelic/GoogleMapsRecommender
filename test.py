@@ -10,6 +10,7 @@ import torch
 from testing.tester import *
 from testing.plot_results import *
 from testing.sampling import *
+from testing.new_user import *
 
 def seed_everything(seed=42):
     random.seed(seed)
@@ -59,15 +60,25 @@ def run_inference(cfg):
     for model in cfg.inference.embeddings:
         sampler.sample(model, cfg.inference.log)
 
+def recommend_new_users(cfg):
+    users = load_new_users(cfg)
+    sampler = NewUserSampler(cfg)
+
+    for model in cfg.inference.embeddings:
+        sampler.sample(model, users)
+
 @hydra.main(version_base=None, config_path="config", config_name="test")
 def main(cfg: DictConfig):
     seed_everything()
 
-    print("Calculating metrics on test dataset...")
-    calculate_metrics(cfg)
+    # print("Calculating metrics on test dataset...")
+    # calculate_metrics(cfg)
 
-    print("Running inference on sampled users...")
-    run_inference(cfg)
+    # print("Running inference on sampled users...")
+    # run_inference(cfg)
+
+    print("Running recommenders on new users...")
+    recommend_new_users(cfg)
 
 
 if __name__ == "__main__":
