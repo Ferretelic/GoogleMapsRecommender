@@ -54,10 +54,10 @@ def run_inference(cfg):
 
     for baseline in cfg.inference.baselines:
         model = (baseline, "baseline", baseline)
-        sampler.sample(model)
+        sampler.sample(model, cfg.inference.log)
 
     for model in cfg.inference.embeddings:
-        sampler.sample(model)
+        sampler.sample(model, cfg.inference.log)
 
 @hydra.main(version_base=None, config_path="config", config_name="test")
 def main(cfg: DictConfig):
