@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ph\u1edf & Caf\u00e9 Saigon, 4248 Spruce St, Philadelphia, PA 19104",
+            "category": "['Vietnamese restaurant']",
+            "date": "2011/03/30",
+            "gmap_id": "0x89c6c6f11b7264b3:0x4c48d6de4149b7ec",
+            "iid": 4623,
+            "name": "Ph\u1edf & Caf\u00e9 Saigon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1301525490514
+        },
+        {
+            "address": "Simply Vietnam Restaurant, 966 N Dutton Ave, Santa Rosa, CA 95401",
+            "category": "['Vietnamese restaurant', 'Southeast Asian restaurant']",
+            "date": "2013/07/05",
+            "gmap_id": "0x808438054ed55461:0xdaf37c623df4a6aa",
+            "iid": 619,
+            "name": "Simply Vietnam Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1373065693777
+        },
+        {
+            "address": "Crustacean Restaurant, 1475 Polk St, San Francisco, CA 94109",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2013/07/05",
+            "gmap_id": "0x80858094d198366d:0x6f5d3f4f7204837c",
+            "iid": 726,
+            "name": "Crustacean Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1373066059031
+        },
+        {
+            "address": "Crustacean Restaurant, 1475 Polk St, San Francisco, CA 94109",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2013/07/05",
+            "gmap_id": "0x80858094d198366d:0x6f5d3f4f7204837c",
+            "iid": 726,
+            "name": "Crustacean Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1373066059031
+        },
+        {
+            "address": "Cam Huong, 702 International Blvd A, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2015/05/25",
+            "gmap_id": "0x808f8725254b0af3:0x6905011158988e15",
+            "iid": 935,
+            "name": "Cam Huong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1432516371583
+        },
+        {
+            "address": "The Slanted Door, Ferry Building #3, San Francisco, CA 94111",
+            "category": "['Vietnamese restaurant', 'Bar', 'Restaurant']",
+            "date": "2015/07/04",
+            "gmap_id": "0x808580668e8f3159:0x93f0d331861f8b9d",
+            "iid": 694,
+            "name": "The Slanted Door",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1435979088782
+        },
+        {
+            "address": "Tu Lan, 8 6th St, San Francisco, CA 94103",
+            "category": "['Vietnamese restaurant']",
+            "date": "2015/08/24",
+            "gmap_id": "0x80858084ff22d68d:0xb9b0634df179c9d2",
+            "iid": 698,
+            "name": "Tu Lan",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1440432464511
+        },
+        {
+            "address": "Evergreen Garden, 3100 18th St, San Francisco, CA 94110",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/03/26",
+            "gmap_id": "0x808f7e3a86acfced:0xa76dbc8435040e93",
+            "iid": 889,
+            "name": "Evergreen Garden",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1490501965135
+        },
+        {
+            "address": "Miss Saigon, 100 6th St, San Francisco, CA 94103",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/12/29",
+            "gmap_id": "0x80858084726a03d9:0xa0faa5fbb8d672fa",
+            "iid": 697,
+            "name": "Miss Saigon",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1514522757357
+        },
+        {
+            "address": "Saigon Sandwich, 560 Larkin St, San Francisco, CA 94102",
+            "category": "['Sandwich shop', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2018/10/27",
+            "gmap_id": "0x80858090bbc47a63:0x7063ea9d84d428dc",
+            "iid": 714,
+            "name": "Saigon Sandwich",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1540674225594
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Street, 1230 Arch St, Philadelphia, PA 19107",
+            "category": "['Vietnamese restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x89c6c7ef79964cbd:0x4a54453098428e87",
+            "iid": 4626,
+            "name": "Pho Street",
+            "rank": 1,
+            "score": -1.8924471139907837,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "PHO U, 6200 Claremont Ave, Oakland, CA 94618",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80857d82f7d2036b:0xfd37b104122fe8ad",
+            "iid": 674,
+            "name": "PHO U",
+            "rank": 2,
+            "score": -2.066824197769165,
+            "state": "California"
+        },
+        {
+            "address": "Mission Noodle House, 4845 Mission St, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7fdea4b4c4cd:0xace4214482d768b6",
+            "iid": 903,
+            "name": "Mission Noodle House",
+            "rank": 3,
+            "score": -2.1446003913879395,
+            "state": "California"
+        },
+        {
+            "address": "Vanessa's Bistro 2 Vietnamese Restaurant, 1512 Locust St, Walnut Creek, CA 94596",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Cocktail bar', 'Tapas restaurant', 'Wine bar']",
+            "gmap_id": "0x808561c1da9d1b8b:0x5e516d62d7f45bef",
+            "iid": 644,
+            "name": "Vanessa's Bistro 2 Vietnamese Restaurant",
+            "rank": 4,
+            "score": -2.238715410232544,
+            "state": "California"
+        },
+        {
+            "address": "Mama's Vietnamese Restaurant, 365 19th St, Oakland, CA 94612",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f80b2e1836d4b:0x178869c6ea2a3b70",
+            "iid": 908,
+            "name": "Mama's Vietnamese Restaurant",
+            "rank": 5,
+            "score": -2.240391492843628,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf Saigon, 236 Hartnell Ave, Redding, CA 96002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54d2ec96ea91dc69:0xde2e6a1314ec5a99",
+            "iid": 542,
+            "name": "Ph\u1edf Saigon",
+            "rank": 6,
+            "score": -2.2413578033447266,
+            "state": "California"
+        },
+        {
+            "address": "Lotus Garden Vietnamese Cuisine, 3216 Mission St, San Francisco, CA 94110",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f7e430ee5955b:0xb278233ad798b7a4",
+            "iid": 891,
+            "name": "Lotus Garden Vietnamese Cuisine",
+            "rank": 7,
+            "score": -2.338108539581299,
+            "state": "California"
+        },
+        {
+            "address": "Pho on Bryant, 2200 Bryant St, San Francisco, CA 94110",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Dumpling restaurant', 'Hamburger restaurant', 'Pho restaurant']",
+            "gmap_id": "0x808f7fedd75892d7:0x71c06be935b778f",
+            "iid": 904,
+            "name": "Pho on Bryant",
+            "rank": 8,
+            "score": -2.3806099891662598,
+            "state": "California"
+        },
+        {
+            "address": "Pho Hour, 1114 Bryant St, San Francisco, CA 94103",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7e292fe4955f:0x66ab85a9a6298a3b",
+            "iid": 884,
+            "name": "Pho Hour",
+            "rank": 9,
+            "score": -2.4874675273895264,
+            "state": "California"
+        },
+        {
+            "address": "Main Street Pho, 4307 Main St, Philadelphia, PA 19127",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c6b895043d31e1:0x85a4d3d654348b51",
+            "iid": 4599,
+            "name": "Main Street Pho",
+            "rank": 10,
+            "score": -2.490464448928833,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Camille Restaurant, 2507 Hearst Ave, Berkeley, CA 94709",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80857c2162a35acf:0x64ec34db158c8d5",
+            "iid": 671,
+            "name": "Camille Restaurant",
+            "rank": 11,
+            "score": -2.5030529499053955,
+            "state": "California"
+        },
+        {
+            "address": "Le's Pho, W63N146 Washington Ave, Cedarburg, WI 53012",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8804e56cce55ab4d:0xe9c22650e8ad121c",
+            "iid": 3481,
+            "name": "Le's Pho",
+            "rank": 12,
+            "score": -2.510227680206299,
+            "state": "Wisconsin"
+        },
+        {
+            "address": "Ph\u1edf Trang/VietnameseHourS, 1121 Commerce Ave, Longview, WA 98632",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54946ddb8fd245bd:0x99b84779bafe8353",
+            "iid": 380,
+            "name": "Ph\u1edf Trang/VietnameseHourS",
+            "rank": 13,
+            "score": -2.5113511085510254,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho Saigon, 10534 W Greenfield Ave, West Allis, WI 53214",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x880505717045770d:0x28504485b34c2769",
+            "iid": 3486,
+            "name": "Pho Saigon",
+            "rank": 14,
+            "score": -2.5204999446868896,
+            "state": "Wisconsin"
+        },
+        {
+            "address": "Saigon Noodle Bar, 9220 Allen Rd, West Chester Township, OH 45069",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "gmap_id": "0x884051f3710b4d79:0x104f8d315827d1f",
+            "iid": 3658,
+            "name": "Saigon Noodle Bar",
+            "rank": 15,
+            "score": -2.5239956378936768,
+            "state": "Ohio"
+        },
+        {
+            "address": "Saigon Bistro, 12303 E Mississippi Ave #145, Aurora, CO 80012",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x876c7dd8657de089:0x2eedfdc4cf82d6df",
+            "iid": 3207,
+            "name": "Saigon Bistro",
+            "rank": 16,
+            "score": -2.5240390300750732,
+            "state": "Colorado"
+        },
+        {
+            "address": "Beyond Restaurant & Lounge, 50 W Water St, Harrisonburg, VA 22801",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89b492cfac36e7d9:0xb00bbf51f9e44038",
+            "iid": 4180,
+            "name": "Beyond Restaurant & Lounge",
+            "rank": 17,
+            "score": -2.524672746658325,
+            "state": "Virginia"
+        },
+        {
+            "address": "B\u00e1nh, 942 Amsterdam Ave, New York, NY 10025",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2f79ec93dfdb3:0x7f9cb46cb7b7e20f",
+            "iid": 4538,
+            "name": "B\u00e1nh",
+            "rank": 18,
+            "score": -2.524709701538086,
+            "state": "New_York"
+        },
+        {
+            "address": "Mai's Vietnamese Restaurant, 316 Clement St, San Francisco, CA 94118",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085873be6827b9d:0xb337822c452324a4",
+            "iid": 751,
+            "name": "Mai's Vietnamese Restaurant",
+            "rank": 19,
+            "score": -2.526060104370117,
+            "state": "California"
+        },
+        {
+            "address": "YEN Viet Kitchen, 3575 S Decatur Blvd Suite 101, Las Vegas, NV 89103",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c8c7b57e219daf:0xd44583fc3d37dbd8",
+            "iid": 1549,
+            "name": "YEN Viet Kitchen",
+            "rank": 20,
+            "score": -2.527268886566162,
+            "state": "Nevada"
+        }
+    ],
+    "user": {
+        "name": "Max Heinritz",
+        "uid": 2134,
+        "user_id": 102217125735823374958
+    }
+}

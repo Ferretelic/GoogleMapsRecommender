@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Kata Robata, 3600 Kirby Dr suite h, Houston, TX 77098",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Ramen restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/03/23",
+            "gmap_id": "0x8640c0f233eb408f:0xabdf876a640e519a",
+            "iid": 8255,
+            "name": "Kata Robata",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1521834649780
+        },
+        {
+            "address": "Godavari, 8092 Westheimer Rd, Houston, TX 77063",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Biryani restaurant', 'Buffet restaurant', 'Fine dining restaurant', 'Halal restaurant']",
+            "date": "2018/07/19",
+            "gmap_id": "0x8640c3a3554d9997:0xde97f38a09000b0b",
+            "iid": 8340,
+            "name": "Godavari",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1532022902684
+        },
+        {
+            "address": "Roka Bar and Asian Flavors Restaurant, 1616 S Utica Ave, Tulsa, OK 74104",
+            "category": "['Asian fusion restaurant', 'Bar & grill', 'Chinese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/08/04",
+            "gmap_id": "0x87b6ec967f7b97e7:0x4d07a45030a78d8b",
+            "iid": 12067,
+            "name": "Roka Bar and Asian Flavors Restaurant",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1533384089961
+        },
+        {
+            "address": "Tokyo One, 2938 W Sam Houston Pkwy S, Houston, TX 77042",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/11/28",
+            "gmap_id": "0x8640c333b2f25c77:0x55fe6c5fd02a6fb8",
+            "iid": 8333,
+            "name": "Tokyo One",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1543436975028
+        },
+        {
+            "address": "Banana Leaf, 9889 Bellaire Blvd #311, Houston, TX 77036",
+            "category": "['Malaysian restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/12/06",
+            "gmap_id": "0x8640c2ce34458fef:0x9b9980da62e1aa16",
+            "iid": 8312,
+            "name": "Banana Leaf",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1544139611182
+        },
+        {
+            "address": "Golden China Restaurant, 26440 Farm to Market 1093 B150, Richmond, TX 77406",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2018/12/21",
+            "gmap_id": "0x864122378c9c4e4f:0x2fa7e76818cab14a",
+            "iid": 8623,
+            "name": "Golden China Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545428609306
+        },
+        {
+            "address": "Masala Wok //Houston - Indian + Asian Fare, 10001 Westheimer Rd Ste 1060, Houston, TX 77042",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "date": "2019/02/18",
+            "gmap_id": "0x8640c33a1a8c0bc9:0x1fd516695a3adbeb",
+            "iid": 8334,
+            "name": "Masala Wok //Houston - Indian + Asian Fare",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1550514309276
+        },
+        {
+            "address": "99 Ranch Market, 569 Mason Rd, Katy, TX 77450",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2019/03/10",
+            "gmap_id": "0x864127409735c083:0x154cf13d823e3788",
+            "iid": 8647,
+            "name": "99 Ranch Market",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1552252485240
+        },
+        {
+            "address": "RENDANG & CO - Indonesian Bistro, 5083 E 51st St, Tulsa, OK 74135",
+            "category": "['Indonesian restaurant', 'Asian restaurant', 'Family restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x87b6937c4353b99f:0xc5d54263525de916",
+            "iid": 12052,
+            "name": "RENDANG & CO - Indonesian Bistro",
+            "split": "valid",
+            "state": "Oklahoma",
+            "unix_time": 1563562417361
+        },
+        {
+            "address": "H Mart Katy, 23119 Colonial Pkwy bldg b, Katy, TX 77449",
+            "category": "['Asian grocery store', 'Food court', 'Grocery store', 'Korean grocery store']",
+            "date": "2019/07/20",
+            "gmap_id": "0x864126fcfe8875bf:0x63db7482c56dae61",
+            "iid": 8638,
+            "name": "H Mart Katy",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1563649519242
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "@Mala, 5803 N Fry Rd Suite 103, Katy, TX 77449",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x8640d7fb8540ea5d:0xa42c8c84788ba48f",
+            "iid": 8482,
+            "name": "@Mala",
+            "rank": 1,
+            "score": -1.9806402921676636,
+            "state": "Texas"
+        },
+        {
+            "address": "Dragon Tiger Noodle Co., 10650 Southern Highlands Pkwy Ste 101, Las Vegas, NV 89141",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80c8c9bdbac1bd13:0xf5deb00fa54a05e5",
+            "iid": 6090,
+            "name": "Dragon Tiger Noodle Co.",
+            "rank": 2,
+            "score": -2.1116902828216553,
+            "state": "Nevada"
+        },
+        {
+            "address": "The Pok\u00e9 Bar, 475 Albany Shaker Rd, Albany, NY 12211",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Fast food restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x89de0d1178bb2537:0x92e5faa07c4550c8",
+            "iid": 24402,
+            "name": "The Pok\u00e9 Bar",
+            "rank": 3,
+            "score": -2.1158440113067627,
+            "state": "New_York"
+        },
+        {
+            "address": "Kombu Sushi Ramen, 7325 Aloma Ave, Winter Park, FL 32792",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88e76f4d40bcbcff:0xe3c309fe0232428f",
+            "iid": 18618,
+            "name": "Kombu Sushi Ramen",
+            "rank": 4,
+            "score": -2.1160805225372314,
+            "state": "Florida"
+        },
+        {
+            "address": "Boru Ramen, 1509 Government St B, Baton Rouge, LA 70802",
+            "category": "['Ramen restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8626a1c2c3934b93:0x788fa92ed76d90eb",
+            "iid": 7909,
+            "name": "Boru Ramen",
+            "rank": 5,
+            "score": -2.1218056678771973,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Rice Kitchen, 204 Spring St, New York, NY 10012",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x89c2597028c75eb7:0xe966720bdca4cab0",
+            "iid": 21782,
+            "name": "Rice Kitchen",
+            "rank": 6,
+            "score": -2.123523712158203,
+            "state": "New_York"
+        },
+        {
+            "address": "Harbor Seafood Super Buffet, 10030 N Metro Pkwy E, Phoenix, AZ 85051",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x872b6d3dd07f2603:0xcfa81201354ee5d7",
+            "iid": 10788,
+            "name": "Harbor Seafood Super Buffet",
+            "rank": 7,
+            "score": -2.125678300857544,
+            "state": "Arizona"
+        },
+        {
+            "address": "Phnom Penh Sandwich Station, 7 S Main St, White River Junction, VT 05001",
+            "category": "['Southeast Asian restaurant', 'Asian restaurant', 'Cambodian restaurant', 'Sandwich shop', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x4cb4cb5da2d0f053:0x8912369c9920008b",
+            "iid": 149,
+            "name": "Phnom Penh Sandwich Station",
+            "rank": 8,
+            "score": -2.1275806427001953,
+            "state": "Vermont"
+        },
+        {
+            "address": "ChoLon - Central Park, 10195 E 29th Dr #140, Denver, CO 80238",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x876c7bd5ab4f03d9:0xbe93ec7e0d1a697e",
+            "iid": 11540,
+            "name": "ChoLon - Central Park",
+            "rank": 9,
+            "score": -2.1277337074279785,
+            "state": "Colorado"
+        },
+        {
+            "address": "Tako Sushi, 17630 Collins Ave, Sunny Isles Beach, FL 33160",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store', 'Japanese restaurant', 'Ramen restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88d9ad90c9d61767:0xb14ef4a3776d4e53",
+            "iid": 17842,
+            "name": "Tako Sushi",
+            "rank": 10,
+            "score": -2.128269910812378,
+            "state": "Florida"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 20030,
+            "name": "Chopstix",
+            "rank": 11,
+            "score": -2.1292662620544434,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sushi & Asian Kitchen, 336 South Avenue E, Westfield, NJ 07090",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c3b105f1aea80d:0xf2e454e539009cea",
+            "iid": 23114,
+            "name": "Sushi & Asian Kitchen",
+            "rank": 12,
+            "score": -2.129788398742676,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Tri\u2019s Market, 4021 S Washington St, Amarillo, TX 79110",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x87014f9c6432edcf:0x2bd6476b20046b43",
+            "iid": 10306,
+            "name": "Tri\u2019s Market",
+            "rank": 13,
+            "score": -2.1305553913116455,
+            "state": "Texas"
+        },
+        {
+            "address": "Native Noodles, 2129 Amsterdam Ave, New York, NY 10032",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89c2f7d5422a4c05:0x5b2c88d6ca9acdb9",
+            "iid": 22892,
+            "name": "Native Noodles",
+            "rank": 14,
+            "score": -2.1311025619506836,
+            "state": "New_York"
+        },
+        {
+            "address": "Wild Ginger Chinese Restaurant, 6904 Main St, Gloucester, VA 23061",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89b09cf4005f6877:0x4addbdbf584c6fd8",
+            "iid": 20094,
+            "name": "Wild Ginger Chinese Restaurant",
+            "rank": 15,
+            "score": -2.1314597129821777,
+            "state": "Virginia"
+        },
+        {
+            "address": "LemonShark Pok\u00e9 & Makai Grill, 3969 Merchants Row, Columbus, OH 43219",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x88388a86ccb8fbd5:0x84bf51c6ba1dbecf",
+            "iid": 15081,
+            "name": "LemonShark Pok\u00e9 & Makai Grill",
+            "rank": 16,
+            "score": -2.132443904876709,
+            "state": "Ohio"
+        },
+        {
+            "address": "California, San Francisco, 20th St, Yoji House\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x808f7fd5297e6c73:0xc12d39e4d3397baf",
+            "iid": 3287,
+            "name": "Yoji House",
+            "rank": 17,
+            "score": -2.132753372192383,
+            "state": "California"
+        },
+        {
+            "address": "Poke Bop, 9 S Tejon St, Colorado Springs, CO 80903",
+            "category": "['Asian fusion restaurant', 'Poke bar']",
+            "gmap_id": "0x871345f57c250ca7:0x486f6a6ab15546e6",
+            "iid": 10360,
+            "name": "Poke Bop",
+            "rank": 18,
+            "score": -2.1333200931549072,
+            "state": "Colorado"
+        },
+        {
+            "address": "Chai Asian Fusion, 5869 Fairmont Pkwy, Pasadena, TX 77505",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x864099e4ae2fe8b9:0x236ae86f83da8c46",
+            "iid": 8123,
+            "name": "Chai Asian Fusion",
+            "rank": 19,
+            "score": -2.1338212490081787,
+            "state": "Texas"
+        },
+        {
+            "address": "Teriyaki Madness, 4944 Thompson Pkwy, Johnstown, CO 80534",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876ead0f3cec845f:0x74325f6894d97d76",
+            "iid": 11730,
+            "name": "Teriyaki Madness",
+            "rank": 20,
+            "score": -2.1341333389282227,
+            "state": "Colorado"
+        }
+    ],
+    "user": {
+        "name": "Amik Uchiha",
+        "uid": 4004,
+        "user_id": 100379335471137523337
+    }
+}

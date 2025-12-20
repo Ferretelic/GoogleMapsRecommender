@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Zato Thai Cuisine and Sushi Bar, 9090 Skillman St #190a, Dallas, TX 75243",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fast food restaurant', 'Gluten-free restaurant', 'Halal restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop', 'Sushi restaurant']",
+            "date": "2019/08/20",
+            "gmap_id": "0x864ea0766e40afa1:0x8415c19df44858e4",
+            "iid": 9726,
+            "name": "Zato Thai Cuisine and Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1566311758618
+        },
+        {
+            "address": "Ivan's Cookhouse, 14815 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Caribbean restaurant', 'Asian fusion restaurant', 'Cajun restaurant', 'Creole restaurant', 'Gastropub', 'Haitian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x88d9ad9734ba51df:0xfe96567ef8fd9a3c",
+            "iid": 17843,
+            "name": "Ivan's Cookhouse",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1570116425158
+        },
+        {
+            "address": "Coconut Thai Cafe Wellesley, 257 Washington St, Wellesley, MA 02481",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/10/27",
+            "gmap_id": "0x89e383e29f07362d:0x792a05c6888fdda5",
+            "iid": 24916,
+            "name": "Coconut Thai Cafe Wellesley",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1572187849107
+        },
+        {
+            "address": "Silli Point Indian Fusion, 498 Anderson Ave, Cliffside Park, NJ 07010",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Delivery Restaurant']",
+            "date": "2019/12/05",
+            "gmap_id": "0x89c2f7b16ab44df9:0xeba14f30f13e4166",
+            "iid": 22886,
+            "name": "Silli Point Indian Fusion",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1575579726702
+        },
+        {
+            "address": "Kohinoor Dhaba Inc., 2800 S Eads St, Arlington, VA 22202",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x89b7b72ade88aecd:0x75800d0ca082562a",
+            "iid": 20742,
+            "name": "Kohinoor Dhaba Inc.",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1578603171053
+        },
+        {
+            "address": "Great Wall, 272 NY-32, Central Valley, NY 10917",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x89c2d12d20401e25:0xb2c4c70ed7134ba3",
+            "iid": 22721,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1593449674965
+        },
+        {
+            "address": "First Asian Store and Restaurant, 1503 South St, Leesburg, FL 34748",
+            "category": "['Asian grocery store', 'Filipino restaurant']",
+            "date": "2020/08/20",
+            "gmap_id": "0x88e7c02011aba11b:0xcee183183cf63dfe",
+            "iid": 18760,
+            "name": "First Asian Store and Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1597947543475
+        },
+        {
+            "address": "Panda Express, 970 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/10/08",
+            "gmap_id": "0x88d8df511cb9460f:0xfaa8be8516713579",
+            "iid": 17543,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1602185156086
+        },
+        {
+            "address": "X.O. Sushi Asian Restaurant, 1058 Broadway, Woodmere, NY 11598",
+            "category": "['Asian restaurant']",
+            "date": "2020/12/09",
+            "gmap_id": "0x89c265ac0153be63:0x62161fdc4bf0afe7",
+            "iid": 22456,
+            "name": "X.O. Sushi Asian Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1607547033970
+        },
+        {
+            "address": "El Sushi Loco Sushi & Mariscos La Puente, 15711 Amar Rd, La Puente, CA 91744",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Family restaurant', 'Mexican restaurant', 'Restaurant', 'Seafood restaurant', 'Stand bar']",
+            "date": "2021/03/17",
+            "gmap_id": "0x80c2d6142fac4c77:0x48bab497ee2a484d",
+            "iid": 5500,
+            "name": "El Sushi Loco Sushi & Mariscos La Puente",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616008670566
+        },
+        {
+            "address": "Best Cajun Asian Restaurant, 50 Broad St NW, Atlanta, GA 30303",
+            "category": "['Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2021/03/20",
+            "gmap_id": "0x88f50386e09d8b0b:0xe0072e1f2d928472",
+            "iid": 18960,
+            "name": "Best Cajun Asian Restaurant",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1616249365212
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Plum House Restaurant, 12 Lake St, Monroe, NY 10950",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2d6f72636f957:0xb145b335b1a0fe8f",
+            "iid": 22722,
+            "name": "Plum House Restaurant",
+            "rank": 1,
+            "score": 0.5367154479026794,
+            "state": "New_York"
+        },
+        {
+            "address": "Iron Chef of Central Valley, 365 NY-32, Central Valley, NY 10917",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x89c2d747023a75ab:0x4a3fd5a139c5eaf8",
+            "iid": 22724,
+            "name": "Iron Chef of Central Valley",
+            "rank": 2,
+            "score": 0.5283937454223633,
+            "state": "New_York"
+        },
+        {
+            "address": "Wok Tov, 594 Central Ave, Cedarhurst, NY 11516",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Kosher restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c265bf28e2d24f:0x6fac70227ca7571c",
+            "iid": 22457,
+            "name": "Wok Tov",
+            "rank": 3,
+            "score": 0.5230348706245422,
+            "state": "New_York"
+        },
+        {
+            "address": "Lucky Cornaga, 14-20 Cornaga Ave, Far Rockaway, NY 11691",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c268a98c47193d:0xecaff73610497be7",
+            "iid": 22474,
+            "name": "Lucky Cornaga",
+            "rank": 4,
+            "score": 0.491241991519928,
+            "state": "New_York"
+        },
+        {
+            "address": "YO!, 498 Red Apple Ct, Central Valley, NY 10917",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2d731f8ead079:0x5771f16b441cc93b",
+            "iid": 22723,
+            "name": "YO!",
+            "rank": 5,
+            "score": 0.46076956391334534,
+            "state": "New_York"
+        },
+        {
+            "address": "Xaga Sushi & Asian Fusion, 1330 Broadway, Hewlett, NY 11557",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c264ff5c10da95:0x6c688852ca63189a",
+            "iid": 22454,
+            "name": "Xaga Sushi & Asian Fusion",
+            "rank": 6,
+            "score": 0.4570066034793854,
+            "state": "New_York"
+        },
+        {
+            "address": "Magic Wok, 1145 Beach Channel Dr, Far Rockaway, NY 11691",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89c266026bfd7d21:0x4508bf078e2b0d25",
+            "iid": 22459,
+            "name": "Magic Wok",
+            "rank": 7,
+            "score": 0.4568549394607544,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Tokyo, 337 Central Ave, Lawrence, NY 11559",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Kosher restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c265ea32c121e7:0x95852297153acac1",
+            "iid": 22458,
+            "name": "Sushi Tokyo",
+            "rank": 8,
+            "score": 0.45406782627105713,
+            "state": "New_York"
+        },
+        {
+            "address": "Chopstick Asian Bistro, 377 Windsor Hwy, New Windsor, NY 12553",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Thai restaurant']",
+            "gmap_id": "0x89dd2d135c986513:0xb85f6975c2a3e6c",
+            "iid": 24334,
+            "name": "Chopstick Asian Bistro",
+            "rank": 9,
+            "score": 0.44017884135246277,
+            "state": "New_York"
+        },
+        {
+            "address": "Pei Wei Asian Kitchen, 1750 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88d8df53b14a7a4d:0xa5d4e9ee777a06b8",
+            "iid": 17545,
+            "name": "Pei Wei Asian Kitchen",
+            "rank": 10,
+            "score": 0.4153880178928375,
+            "state": "Florida"
+        },
+        {
+            "address": "Wing Wah Express, 115 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x88d8df5c42ceed3f:0x2069110475e8676",
+            "iid": 17546,
+            "name": "Wing Wah Express",
+            "rank": 11,
+            "score": 0.4150471091270447,
+            "state": "Florida"
+        },
+        {
+            "address": "Chinatown, 12343 Hagen Ranch Rd #701, Boynton Beach, FL 33437",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88d921091e75bd69:0x794cce7d7880f124",
+            "iid": 17735,
+            "name": "Chinatown",
+            "rank": 12,
+            "score": 0.4087144434452057,
+            "state": "Florida"
+        },
+        {
+            "address": "Sushi Jo, 640 E Ocean Ave #4, Boynton Beach, FL 33435",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88d8df26e08887f7:0x15d9a320530a0ce4",
+            "iid": 17542,
+            "name": "Sushi Jo",
+            "rank": 13,
+            "score": 0.4039698541164398,
+            "state": "Florida"
+        },
+        {
+            "address": "Lemongrass Asian Bistro, 1880 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Asian restaurant', 'Pan-Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88d8d8ad29a11d43:0x349c1e84700c2185",
+            "iid": 17539,
+            "name": "Lemongrass Asian Bistro",
+            "rank": 14,
+            "score": 0.40369582176208496,
+            "state": "Florida"
+        },
+        {
+            "address": "New York, Newburgh, NY-300, Newburgh Buffet\u90ae\u653f\u7f16\u7801: 12550",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Mongolian barbecue restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89dd2e7b53102ced:0x8581a7e7e1c4441d",
+            "iid": 24340,
+            "name": "Newburgh Buffet",
+            "rank": 15,
+            "score": 0.3977870047092438,
+            "state": "New_York"
+        },
+        {
+            "address": "Jin Fine Asian, 11 Washington St, Wellesley, MA 02481",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e38150c442bc85:0x101db8f4e1433fee",
+            "iid": 24893,
+            "name": "Jin Fine Asian",
+            "rank": 16,
+            "score": 0.3950823247432709,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Yellowtail, Modern Asian Cuisine and Sushi, 7959 W Atlantic Ave, Delray Beach, FL 33446",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88d91f592a7d2723:0x8417d11a0ba5d3c9",
+            "iid": 17728,
+            "name": "Yellowtail, Modern Asian Cuisine and Sushi",
+            "rank": 17,
+            "score": 0.3927602171897888,
+            "state": "Florida"
+        },
+        {
+            "address": "Lucky Foong, 58 NY-59, Monsey, NY 10952",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2e790a0707971:0x94d9aa4f7fea6147",
+            "iid": 22744,
+            "name": "Lucky Foong",
+            "rank": 18,
+            "score": 0.3918706774711609,
+            "state": "New_York"
+        },
+        {
+            "address": "Orange Hill Global Bistro, 82 NY-17K, Newburgh, NY 12550",
+            "category": "['American restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x89dd2dfd2e64b679:0x9d0bd5527aee922d",
+            "iid": 24336,
+            "name": "Orange Hill Global Bistro",
+            "rank": 19,
+            "score": 0.391841858625412,
+            "state": "New_York"
+        },
+        {
+            "address": NaN,
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89dd2d134a745be1:0xdf641ff5e5edc19d",
+            "iid": 24333,
+            "name": "QQ Asian Bistro",
+            "rank": 20,
+            "score": 0.39107823371887207,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Braiden H",
+        "uid": 72534,
+        "user_id": 106998469572974516379
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Asian Town Center, 3820 Superior Ave, Cleveland, OH 44114",
+            "category": "['Asian grocery store', 'Asian restaurant', 'Supermarket']",
+            "date": "2018/08/04",
+            "gmap_id": "0x8830fa440e959ca7:0xc9fcd98c29c5e024",
+            "iid": 14782,
+            "name": "Asian Town Center",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1533421288345
+        },
+        {
+            "address": "Park To Shop Supermarket, 1580 E 30th St, Cleveland, OH 44114",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2018/08/04",
+            "gmap_id": "0x8830fb3faaf83d97:0xaeeaafc15a713da5",
+            "iid": 14793,
+            "name": "Park To Shop Supermarket",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1533421296289
+        },
+        {
+            "address": "Bonchon Colony, 4940 TX-121 Suite 135, The Colony, TX 75056",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2018/08/04",
+            "gmap_id": "0x864c25118fd6094d:0x62eea1ddaa147284",
+            "iid": 9187,
+            "name": "Bonchon Colony",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533421356080
+        },
+        {
+            "address": "Kintaro All You Can Eat Sushi & Hot Pot, 7325 Northcliff Ave, Brooklyn, OH 44144",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Buffet restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "date": "2018/11/22",
+            "gmap_id": "0x8830ee55663e1dbb:0x9cddd6804baf0cad",
+            "iid": 14757,
+            "name": "Kintaro All You Can Eat Sushi & Hot Pot",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1542891547032
+        },
+        {
+            "address": "Maxim Market, 1930 Aborn Rd, San Jose, CA 95121",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2018/12/30",
+            "gmap_id": "0x808fb51c9690a6f5:0x788297d8880ac6b8",
+            "iid": 3553,
+            "name": "Maxim Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546147038505
+        },
+        {
+            "address": "Wonton Gourmet & BBQ, 3211 Payne Ave, Cleveland, OH 44114",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Restaurant']",
+            "date": "2019/04/16",
+            "gmap_id": "0x8830fa432ed27673:0x89f3502143215d6",
+            "iid": 14780,
+            "name": "Wonton Gourmet & BBQ",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1555377154981
+        },
+        {
+            "address": "Bonchon Seven Hills, 7581 Broadview Rd, Seven Hills, OH 44131",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2019/11/08",
+            "gmap_id": "0x8830e6226eaab29b:0xb252d7ed9972522e",
+            "iid": 14744,
+            "name": "Bonchon Seven Hills",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1573252285067
+        },
+        {
+            "address": "J & J Asian Mart Inc. (\ub3d9\uc591\uc2dd\ud488) 24529 Lorain Rd, North Olmsted, OH 44070",
+            "category": "['Asian grocery store', 'Appliance store', 'Cosmetics store', 'Health food store', 'Japanese grocery store', 'Korean grocery store', 'Variety store']",
+            "date": "2020/08/28",
+            "gmap_id": "0x8830931a1d87763f:0x7246d060d36232a7",
+            "iid": 14717,
+            "name": "J & J Asian Mart Inc. (\ub3d9\uc591\uc2dd\ud488)",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1598622406244
+        },
+        {
+            "address": "Pho Hoa Noodle Soup - Orlando, 649 Primrose Dr, Orlando, FL 32803",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "date": "2021/04/04",
+            "gmap_id": "0x88e77acefb7ac2c9:0x71b9057bc3cfb0ec",
+            "iid": 18674,
+            "name": "Pho Hoa Noodle Soup - Orlando",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1617551164471
+        },
+        {
+            "address": "Enson Market, 5132 W Colonial Dr, Orlando, FL 32808",
+            "category": "['Supermarket', 'Asian grocery store', 'Grocery store']",
+            "date": "2021/04/06",
+            "gmap_id": "0x88e779a20e4117f9:0xb12ddfced10eb3d5",
+            "iid": 18661,
+            "name": "Enson Market",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1617740374943
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Siam Cafe, 3951 St Clair Ave NE, Cleveland, OH 44114",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8830fa40c3b4f41b:0x274d16df1e6aaee",
+            "iid": 14779,
+            "name": "Siam Cafe",
+            "rank": 1,
+            "score": 10.199222564697266,
+            "state": "Ohio"
+        },
+        {
+            "address": "CAM International Market, 21200 Miles Rd, North Randall, OH 44128, United States",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x8830e297cd8253cb:0xeea8b621e5a25508",
+            "iid": 14741,
+            "name": "CAM International Market",
+            "rank": 2,
+            "score": 9.705778121948242,
+            "state": "Ohio"
+        },
+        {
+            "address": "Tink Holl, 1735 E 36th St, Cleveland, OH 44114",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x8830fa44a7e01f1d:0x831c8544f5b2db62",
+            "iid": 14784,
+            "name": "Tink Holl",
+            "rank": 3,
+            "score": 9.399812698364258,
+            "state": "Ohio"
+        },
+        {
+            "address": "Superior Ph\u1edf, 3030 Superior Ave #105, Cleveland, OH 44114",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x8830fa682f5fa7af:0x55ffe4c5daa95c10",
+            "iid": 14787,
+            "name": "Superior Ph\u1edf",
+            "rank": 4,
+            "score": 9.285693168640137,
+            "state": "Ohio"
+        },
+        {
+            "address": "bd's Mongolian Grill, 1845 Coventry Rd, Cleveland Heights, OH 44118",
+            "category": "['Restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8830fc41c73df5e1:0xf870ded43f0c0f4a",
+            "iid": 14801,
+            "name": "bd's Mongolian Grill",
+            "rank": 5,
+            "score": 8.84961986541748,
+            "state": "Ohio"
+        },
+        {
+            "address": "Otani Noodle - Uptown, 11472 Euclid Ave, Cleveland, OH 44106",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Noodle shop', 'Ramen restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8830fb8a7539a5a5:0x2b41df073f7365ae",
+            "iid": 14797,
+            "name": "Otani Noodle - Uptown",
+            "rank": 6,
+            "score": 8.771413803100586,
+            "state": "Ohio"
+        },
+        {
+            "address": "BIBIBOP Asian Grill, 11431 Euclid Ave, Cleveland, OH 44106",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8830fb8a16f21783:0xbfbac31f965a10b9",
+            "iid": 14796,
+            "name": "BIBIBOP Asian Grill",
+            "rank": 7,
+            "score": 7.550568580627441,
+            "state": "Ohio"
+        },
+        {
+            "address": "P.F. Chang's, 26001 Chagrin Blvd, Beachwood, OH 44122",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x883102c009ffcf9b:0xd10e7e846ed54fd7",
+            "iid": 14814,
+            "name": "P.F. Chang's",
+            "rank": 8,
+            "score": 7.343358993530273,
+            "state": "Ohio"
+        },
+        {
+            "address": "Korea House Restaurant, 3700 Superior Ave E, Cleveland, OH 44114",
+            "category": "['Korean restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8830fa43e94688c7:0x5d73827f77e1fdef",
+            "iid": 14781,
+            "name": "Korea House Restaurant",
+            "rank": 9,
+            "score": 7.322625637054443,
+            "state": "Ohio"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 5359 Mayfield Rd, Lyndhurst, OH 44124",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Caterer']",
+            "gmap_id": "0x883102269d8ba05f:0x516f9600eface94",
+            "iid": 14810,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 10,
+            "score": 7.238539695739746,
+            "state": "Ohio"
+        },
+        {
+            "address": "168 Asian Mart, 32393 John R Rd, Madison Heights, MI 48071",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x8824c516d3f56607:0x38a184452c3bdf2b",
+            "iid": 14602,
+            "name": "168 Asian Mart",
+            "rank": 11,
+            "score": 7.2150654792785645,
+            "state": "Michigan"
+        },
+        {
+            "address": "Otani Noodle - Downtown, 234 Euclid Ave, Cleveland, OH 44114",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Noodle shop', 'Ramen restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8830f07ff6ec7547:0x96ee7cafa5fbd1fa",
+            "iid": 14766,
+            "name": "Otani Noodle - Downtown",
+            "rank": 12,
+            "score": 7.070547103881836,
+            "state": "Ohio"
+        },
+        {
+            "address": "Good Harvest Foods Market, 3038 Payne Ave, Cleveland, OH 44114",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x8830fa5d31f4e63b:0x220f38acad13cf43",
+            "iid": 14785,
+            "name": "Good Harvest Foods Market",
+            "rank": 13,
+            "score": 6.904144287109375,
+            "state": "Ohio"
+        },
+        {
+            "address": "Parallax, 2179 W 11th St, Cleveland, OH 44113",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8830fa9fadb6653b:0x28fb45a99b9d89c0",
+            "iid": 14791,
+            "name": "Parallax",
+            "rank": 14,
+            "score": 6.843021869659424,
+            "state": "Ohio"
+        },
+        {
+            "address": "Fuji Buffet of Mentor, 9130 Mentor Ave, Mentor, OH 44060",
+            "category": "['Buffet restaurant', 'American restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8831a5d94d257311:0xd3677b638d73bc2f",
+            "iid": 14851,
+            "name": "Fuji Buffet of Mentor",
+            "rank": 15,
+            "score": 6.738589763641357,
+            "state": "Ohio"
+        },
+        {
+            "address": "\u0110\u1ea1i-Th\u00e0nh Supermarket, 418 S 2nd St, San Jose, CA 95113",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x808fccb74caf841d:0x3be1beb8d98ebd9e",
+            "iid": 3855,
+            "name": "\u0110\u1ea1i-Th\u00e0nh Supermarket",
+            "rank": 16,
+            "score": 6.722795009613037,
+            "state": "California"
+        },
+        {
+            "address": "Bowl of Ph\u1edf, 27339 Chagrin Blvd, Woodmere, OH 44122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x883102c2496071a9:0x67b2c3bfcd0b2b24",
+            "iid": 14815,
+            "name": "Bowl of Ph\u1edf",
+            "rank": 17,
+            "score": 6.716639041900635,
+            "state": "Ohio"
+        },
+        {
+            "address": "Chopstick Chinese Restaurant, 11332 Euclid Ave, Cleveland, OH 44106",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant']",
+            "gmap_id": "0x8830fb898dcc4e1b:0x2950c95dd7377d3f",
+            "iid": 14795,
+            "name": "Chopstick Chinese Restaurant",
+            "rank": 18,
+            "score": 6.650806903839111,
+            "state": "Ohio"
+        },
+        {
+            "address": "Otani Japanese Restaurant, 3490, 1625 Golden Gate Plaza, Mayfield Heights, OH 44124",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x883103ddf41f7419:0xc2ed59110a59c2bd",
+            "iid": 14822,
+            "name": "Otani Japanese Restaurant",
+            "rank": 19,
+            "score": 6.5927629470825195,
+            "state": "Ohio"
+        },
+        {
+            "address": "Beijing Brothers, 820 S MacArthur Blvd #112, Coppell, TX 75019",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x864c28e7116a9419:0xe648b32d73e96cae",
+            "iid": 9250,
+            "name": "Beijing Brothers",
+            "rank": 20,
+            "score": 6.541261672973633,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Thien Nguyen",
+        "uid": 181709,
+        "user_id": 117595982552647457937
+    }
+}

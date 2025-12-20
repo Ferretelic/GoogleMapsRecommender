@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Pho-Ever, 485 S Melrose Dr, Vista, CA 92081",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2015/11/16",
+            "gmap_id": "0x80dc741c9bc81131:0x794ea7639e568b2c",
+            "iid": 1695,
+            "name": "Pho-Ever",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1447685518061
+        },
+        {
+            "address": "Pho King, 207 E 18th St, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant']",
+            "date": "2015/11/18",
+            "gmap_id": "0x808f8725350350f7:0x80be24fa66195e8",
+            "iid": 936,
+            "name": "Pho King",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1447807285630
+        },
+        {
+            "address": "Ph\u1edf Ao Sen Restaurant, 1139 E 12th St, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2015/12/04",
+            "gmap_id": "0x808f8726bba02d7b:0xc3cff9842b18a1b2",
+            "iid": 938,
+            "name": "Ph\u1edf Ao Sen Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1449256854811
+        },
+        {
+            "address": "Golden Star Vietnamese Restaurant, 11 Walter U Lum Pl, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2016/01/24",
+            "gmap_id": "0x8085808b4704dc8d:0xffb976c6de1f6afb",
+            "iid": 707,
+            "name": "Golden Star Vietnamese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1453668958659
+        },
+        {
+            "address": "Mai Banh Mi, 6601 Telegraph Ave, Oakland, CA 94609",
+            "category": "['Vietnamese restaurant']",
+            "date": "2016/06/25",
+            "gmap_id": "0x80857dd6d9ff0947:0xe5cc5ed8b968517f",
+            "iid": 675,
+            "name": "Mai Banh Mi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1466885418711
+        },
+        {
+            "address": "Kim's Caf\u00e9 & Sandwiches, 1309 Solano Ave, Albany, CA 94706",
+            "category": "['Vietnamese restaurant', 'Sandwich shop']",
+            "date": "2016/07/28",
+            "gmap_id": "0x808579344032a8c1:0x9594b9e7bce397e6",
+            "iid": 670,
+            "name": "Kim's Caf\u00e9 & Sandwiches",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1469748243091
+        },
+        {
+            "address": "Huong Tra Restaurant, 12221 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Deli', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/01/06",
+            "gmap_id": "0x808578478020b3d7:0xa19f9522070a323b",
+            "iid": 662,
+            "name": "Huong Tra Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483670096274
+        },
+        {
+            "address": "Ph\u1edf Vy Vietnamese Cuisine, 401 International Blvd, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/01/17",
+            "gmap_id": "0x808f873062d659bd:0xa7481897dd1d229",
+            "iid": 939,
+            "name": "Ph\u1edf Vy Vietnamese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1484697543051
+        },
+        {
+            "address": "Pho Ha nam ninh, 701 Larkin St, San Francisco, CA 94109",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/06/18",
+            "gmap_id": "0x808580901db2fe7f:0x1380896708c8b13c",
+            "iid": 711,
+            "name": "Pho Ha nam ninh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497809626590
+        },
+        {
+            "address": "Saigon Sandwich, 560 Larkin St, San Francisco, CA 94102",
+            "category": "['Sandwich shop', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2017/07/12",
+            "gmap_id": "0x80858090bbc47a63:0x7063ea9d84d428dc",
+            "iid": 714,
+            "name": "Saigon Sandwich",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1499828396921
+        },
+        {
+            "address": "Super Super Pho, 1428 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/07/12",
+            "gmap_id": "0x80857ecf6835df31:0xd23981533970e55b",
+            "iid": 684,
+            "name": "Super Super Pho",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1499828441401
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Anh Restaurant & Bar, 1950 Esplanade Dr, Richmond, CA 94804",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085787990399fe9:0x1d2063c8a92aaffe",
+            "iid": 663,
+            "name": "Anh Restaurant & Bar",
+            "rank": 1,
+            "score": -1.8474634885787964,
+            "state": "California"
+        },
+        {
+            "address": "Mintleaf, 831 Marina Village Pkwy, Alameda, CA 94501",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f80d73656e221:0xb8306e9524f43e4f",
+            "iid": 916,
+            "name": "Mintleaf",
+            "rank": 2,
+            "score": -1.954609990119934,
+            "state": "California"
+        },
+        {
+            "address": "Bun Bo Hue An Nam 3, 3005 Silver Creek Rd #114, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e3281841327bb:0xf15b7d328129d36d",
+            "iid": 811,
+            "name": "Bun Bo Hue An Nam 3",
+            "rank": 3,
+            "score": -2.0067920684814453,
+            "state": "California"
+        },
+        {
+            "address": "Mission Noodle House, 4845 Mission St, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7fdea4b4c4cd:0xace4214482d768b6",
+            "iid": 903,
+            "name": "Mission Noodle House",
+            "rank": 4,
+            "score": -2.0168328285217285,
+            "state": "California"
+        },
+        {
+            "address": "Le Pho, 2228 Broadway, Oakland, CA 94612",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f81c9922a2627:0x524a91dee82c24d0",
+            "iid": 921,
+            "name": "Le Pho",
+            "rank": 5,
+            "score": -2.042930841445923,
+            "state": "California"
+        },
+        {
+            "address": "Sunrise Cafe, 1114 Bryant St, San Francisco, CA 94103",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e29302870c7:0xb643af86b67cdb2",
+            "iid": 885,
+            "name": "Sunrise Cafe",
+            "rank": 6,
+            "score": -2.061290979385376,
+            "state": "California"
+        },
+        {
+            "address": "N\u00f4ng Th\u00f4n Restaurant, 10086 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Vietnamese restaurant', 'Family restaurant', 'Seafood restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8085792269194a79:0x74765ebb16830eb6",
+            "iid": 667,
+            "name": "N\u00f4ng Th\u00f4n Restaurant",
+            "rank": 7,
+            "score": -2.1608173847198486,
+            "state": "California"
+        },
+        {
+            "address": "Tu Tai 3, 2141 MacArthur Blvd, Oakland, CA 94602",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f87abc554b5dd:0xdf7f7f7d801eebf1",
+            "iid": 943,
+            "name": "Tu Tai 3",
+            "rank": 8,
+            "score": -2.281299114227295,
+            "state": "California"
+        },
+        {
+            "address": "Vietnam Grille, 10386 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Vietnamese restaurant', 'Indian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x8085791c106392c7:0x8e86c742e381e3d5",
+            "iid": 665,
+            "name": "Vietnam Grille",
+            "rank": 9,
+            "score": -2.2946534156799316,
+            "state": "California"
+        },
+        {
+            "address": "Mac Khai Restaurant, 417 7th St, Oakland, CA 94607",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x808f80b64983dbe3:0xa6a2d8767288b7eb",
+            "iid": 914,
+            "name": "Mac Khai Restaurant",
+            "rank": 10,
+            "score": -2.2965805530548096,
+            "state": "California"
+        },
+        {
+            "address": "Ba Le French Coffee Shop, 812 Franklin St, Oakland, CA 94607",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f80b667b166cf:0x5729e223bc8acb19",
+            "iid": 915,
+            "name": "Ba Le French Coffee Shop",
+            "rank": 11,
+            "score": -2.30245304107666,
+            "state": "California"
+        },
+        {
+            "address": "Mayflower Restaurant, 1422 Ocean Ave, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7dd28149f731:0x113fc5473781d48e",
+            "iid": 878,
+            "name": "Mayflower Restaurant",
+            "rank": 12,
+            "score": -2.3147242069244385,
+            "state": "California"
+        },
+        {
+            "address": "Tu tai, 13898 Doolittle Dr, San Leandro, CA 94577",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f8555e60ed0e9:0x848536312c7048ae",
+            "iid": 922,
+            "name": "Tu tai",
+            "rank": 13,
+            "score": -2.3222427368164062,
+            "state": "California"
+        },
+        {
+            "address": "Pho Delicious, 1365 Stockton St, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808580f3c4eebfff:0xdb75cbaa43fbe366",
+            "iid": 740,
+            "name": "Pho Delicious",
+            "rank": 14,
+            "score": -2.3301868438720703,
+            "state": "California"
+        },
+        {
+            "address": "Pho Anh Dao, 280 E 18th St, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f87398f292707:0x5f7961a37bc387ae",
+            "iid": 940,
+            "name": "Pho Anh Dao",
+            "rank": 15,
+            "score": -2.3359506130218506,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf Saigon, 236 Hartnell Ave, Redding, CA 96002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54d2ec96ea91dc69:0xde2e6a1314ec5a99",
+            "iid": 542,
+            "name": "Ph\u1edf Saigon",
+            "rank": 16,
+            "score": -2.349886894226074,
+            "state": "California"
+        },
+        {
+            "address": "Pho Le, 1301 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80857f12070aa545:0x40a561726e15ef2c",
+            "iid": 687,
+            "name": "Pho Le",
+            "rank": 17,
+            "score": -2.3576693534851074,
+            "state": "California"
+        },
+        {
+            "address": "H\u01b0\u01a1ng Sen Tofu, 6830 Stockton Blvd #155, Sacramento, CA 95823",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x809ac56f46b88177:0xdd61500f507876d1",
+            "iid": 1220,
+            "name": "H\u01b0\u01a1ng Sen Tofu",
+            "rank": 18,
+            "score": -2.3590431213378906,
+            "state": "California"
+        },
+        {
+            "address": "DA NANG CORNER, 4428 Convoy St SUITE 120, San Diego, CA 92111",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dbff8ecfc36589:0x5ce7d3c0472da813",
+            "iid": 1666,
+            "name": "DA NANG CORNER",
+            "rank": 19,
+            "score": -2.3607099056243896,
+            "state": "California"
+        },
+        {
+            "address": "Branch Line Pub, 5885 Hollis St #25, Emeryville, CA 94608",
+            "category": "['Bar', 'Asian fusion restaurant', 'Cocktail bar', 'Vietnamese restaurant']",
+            "gmap_id": "0x80857e5d33839903:0xc5530719c0568299",
+            "iid": 681,
+            "name": "Branch Line Pub",
+            "rank": 20,
+            "score": -2.412998676300049,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Justin Bishop",
+        "uid": 7183,
+        "user_id": 107630798859141468756
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "B\u00e1nh M\u00ec & Ch\u00e8 Cali, 647 W Valley Blvd, Alhambra, CA 91803",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/07/10",
+            "gmap_id": "0x80c2c53ed66aa823:0x5fdf6db16e26bf6a",
+            "iid": 1363,
+            "name": "B\u00e1nh M\u00ec & Ch\u00e8 Cali",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499703277073
+        },
+        {
+            "address": "The Pig and The Lady, 83 N King St, Honolulu, HI 96817",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/01/28",
+            "gmap_id": "0x7c006e738d38f87f:0x3c3a78b0a6ad02c7",
+            "iid": 603,
+            "name": "The Pig and The Lady",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1517178729149
+        },
+        {
+            "address": "Saigon Eden, 980 E Las Tunas Dr # C, San Gabriel, CA 91776",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/03/30",
+            "gmap_id": "0x80c2dae0e77306fb:0x2f9c92a690a59fce",
+            "iid": 1459,
+            "name": "Saigon Eden",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522453546505
+        },
+        {
+            "address": "Diep Thanh Thanh, 8450 Garvey Ave #102, Rosemead, CA 91770",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/03/30",
+            "gmap_id": "0x80c2d0746b66a89f:0xa4a94585fd4512f6",
+            "iid": 1397,
+            "name": "Diep Thanh Thanh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522453580032
+        },
+        {
+            "address": "Com Tam Thuan Kieu, 120 E Valley Blvd E, San Gabriel, CA 91776",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/03/30",
+            "gmap_id": "0x80c2dab9bdf628eb:0x5e14e9765cc286c3",
+            "iid": 1452,
+            "name": "Com Tam Thuan Kieu",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522453695067
+        },
+        {
+            "address": "Mama Hong's Vietnamese Kitchen, 211 N San Fernando Blvd, Burbank, CA 91502",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/03/30",
+            "gmap_id": "0x80c29550885dc849:0x90a1514004f387fc",
+            "iid": 1273,
+            "name": "Mama Hong's Vietnamese Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522453717025
+        },
+        {
+            "address": "Pho Hot, 6306 San Fernando Rd, Glendale, CA 91201",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Sandwich shop']",
+            "date": "2018/03/30",
+            "gmap_id": "0x80c2c011f72fad0b:0x7cf08bb7f5954a6c",
+            "iid": 1341,
+            "name": "Pho Hot",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522453793365
+        },
+        {
+            "address": "Luc Lac Vietnamese Kitchen, 835 SW 2nd Ave, Portland, OR 97204",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Lounge', 'Southeast Asian restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x54950a0f764a32a5:0xa4715d2a98044fa3",
+            "iid": 398,
+            "name": "Luc Lac Vietnamese Kitchen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1564641640974
+        },
+        {
+            "address": "Vietnam Restaurant, 340 W Las Tunas Dr, San Gabriel, CA 91776",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/02/02",
+            "gmap_id": "0x80c2dad62f0618ff:0xd21c2b06be90e3f8",
+            "iid": 1457,
+            "name": "Vietnam Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1580614489010
+        },
+        {
+            "address": "B\u00e1nh M\u00ec M\u1ef9 Tho, 304 W Valley Blvd, Alhambra, CA 91801",
+            "category": "['Vietnamese restaurant', 'Coffee shop', 'Fast food restaurant', 'Lottery retailer', 'Sandwich shop']",
+            "date": "2020/02/02",
+            "gmap_id": "0x80c2c53840d35fc5:0xff31247412370765",
+            "iid": 1362,
+            "name": "B\u00e1nh M\u00ec M\u1ef9 Tho",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1580614506818
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Golden Deli Restaurant, 815 W Las Tunas Dr, San Gabriel, CA 91776, United States",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2db2ac87d1897:0xd50fbd33a3056663",
+            "iid": 1463,
+            "name": "Golden Deli Restaurant",
+            "rank": 1,
+            "score": 0.8381152749061584,
+            "state": "California"
+        },
+        {
+            "address": "Lotus and Light, 345 N Pass Ave, Burbank, CA 91505",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2be2d45ef6561:0x3791939344a1375d",
+            "iid": 1336,
+            "name": "Lotus and Light",
+            "rank": 2,
+            "score": 0.8074727654457092,
+            "state": "California"
+        },
+        {
+            "address": "B\u00e1nh M\u00ec M\u1ef9 Tho, 304 W Valley Blvd, Alhambra, CA 91801",
+            "category": "['Vietnamese restaurant', 'Coffee shop', 'Fast food restaurant', 'Lottery retailer', 'Sandwich shop']",
+            "gmap_id": "0x80c2c53840d35fc5:0xff31247412370765",
+            "iid": 1362,
+            "name": "B\u00e1nh M\u00ec M\u1ef9 Tho",
+            "rank": 3,
+            "score": 0.8039928078651428,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Eden, 29 S Garfield Ave, Alhambra, CA 91801",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2c527acb95fbb:0xfcc21984240eeebc",
+            "iid": 1360,
+            "name": "Saigon Eden",
+            "rank": 4,
+            "score": 0.8038430213928223,
+            "state": "California"
+        },
+        {
+            "address": "Mr. Baguette, 8702 Valley Blvd, Rosemead, CA 91770",
+            "category": "['Vietnamese restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2da9102292ce9:0xbf2e5d8ff5eb9c90",
+            "iid": 1439,
+            "name": "Mr. Baguette",
+            "rank": 5,
+            "score": 0.7923492193222046,
+            "state": "California"
+        },
+        {
+            "address": "Pho Ga Bac Ninh, 605 New Ave, Monterey Park, CA 91755",
+            "category": "['Vietnamese restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c2daadba160cf9:0xabf58ff46d16c3fe",
+            "iid": 1448,
+            "name": "Pho Ga Bac Ninh",
+            "rank": 6,
+            "score": 0.7796752452850342,
+            "state": "California"
+        },
+        {
+            "address": "Mr. Baguette, 400 S Atlantic Blvd, Monterey Park, CA 91754",
+            "category": "['Vietnamese restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x80c2c55e6a075b15:0x1d7e506576edf379",
+            "iid": 1368,
+            "name": "Mr. Baguette",
+            "rank": 7,
+            "score": 0.7747640609741211,
+            "state": "California"
+        },
+        {
+            "address": "Ginger And Spice Noodle & Grill, 451 E Colorado Blvd, Pasadena, CA 91101",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c368b666da7f:0xd22b4500f9b431af",
+            "iid": 1350,
+            "name": "Ginger And Spice Noodle & Grill",
+            "rank": 8,
+            "score": 0.7636089324951172,
+            "state": "California"
+        },
+        {
+            "address": "Summer Rolls, 5728 Rosemead Blvd #100, Temple City, CA 91780",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2dafb96d84627:0x3f4a076588e6dd6",
+            "iid": 1461,
+            "name": "Summer Rolls",
+            "rank": 9,
+            "score": 0.7548820376396179,
+            "state": "California"
+        },
+        {
+            "address": "Pho LTK, 10512 Lower Azusa Rd, El Monte, CA 91731",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2da130ad36a4f:0xf362240f5a19514d",
+            "iid": 1428,
+            "name": "Pho LTK",
+            "rank": 10,
+            "score": 0.7520925998687744,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf B\u00e1nh M\u00ec Ch\u00e8 Cali, 1525 E Colorado Blvd, Pasadena, CA 91106",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c3514338e9fb:0xed597d1162d4fab5",
+            "iid": 1348,
+            "name": "Ph\u1edf B\u00e1nh M\u00ec Ch\u00e8 Cali",
+            "rank": 11,
+            "score": 0.7517791986465454,
+            "state": "California"
+        },
+        {
+            "address": "Dip's Grill, 39 W Main St, Alhambra, CA 91801",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar & grill', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c5271072c7e9:0x74253c75ef767160",
+            "iid": 1359,
+            "name": "Dip's Grill",
+            "rank": 12,
+            "score": 0.7513031363487244,
+            "state": "California"
+        },
+        {
+            "address": "Golden Deli Temple City, 9664 Las Tunas Dr, Temple City, CA 91780",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2da5124ff0a53:0xb8995baaa6e38dbf",
+            "iid": 1432,
+            "name": "Golden Deli Temple City",
+            "rank": 13,
+            "score": 0.7486723065376282,
+            "state": "California"
+        },
+        {
+            "address": "Mei Lin Tou Chiang Restaurant, 1257 Valley Blvd, Alhambra, CA 91801",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2dab566eae1cd:0x43265aba64e6b170",
+            "iid": 1449,
+            "name": "Mei Lin Tou Chiang Restaurant",
+            "rank": 14,
+            "score": 0.7408238649368286,
+            "state": "California"
+        },
+        {
+            "address": "Pho N Mor, 2320 W Commonwealth Ave, Alhambra, CA 91803",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2c54cc6edb343:0x73f0c08c1308ac23",
+            "iid": 1366,
+            "name": "Pho N Mor",
+            "rank": 15,
+            "score": 0.7390497922897339,
+            "state": "California"
+        },
+        {
+            "address": "B\u00e1nh M\u00ec & Ch\u00e8 Cali, 135 S San Gabriel Blvd # A, San Gabriel, CA 91776",
+            "category": "['Vietnamese restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x80c2dade42a675fd:0x7fa187e8e9c87094",
+            "iid": 1458,
+            "name": "B\u00e1nh M\u00ec & Ch\u00e8 Cali",
+            "rank": 16,
+            "score": 0.7341756820678711,
+            "state": "California"
+        },
+        {
+            "address": "Kim Tar Seafood Restaurant, 964 E Garvey Ave, Monterey Park, CA 91755",
+            "category": "['Seafood restaurant', 'Chinese restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2daaaf906f381:0xdb26a6fc1156dbe3",
+            "iid": 1446,
+            "name": "Kim Tar Seafood Restaurant",
+            "rank": 17,
+            "score": 0.7329937219619751,
+            "state": "California"
+        },
+        {
+            "address": "Vietnam Restaurant, 340 W Las Tunas Dr, San Gabriel, CA 91776",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2dad62f0618ff:0xd21c2b06be90e3f8",
+            "iid": 1457,
+            "name": "Vietnam Restaurant",
+            "rank": 18,
+            "score": 0.7281618714332581,
+            "state": "California"
+        },
+        {
+            "address": "Boda Restaurant, 2310 Pasadena Ave Reference Area, Los Angeles, CA 90031",
+            "category": "['Chinese restaurant', 'Pho restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c687e7657777:0x4cb444d6b7515f66",
+            "iid": 1380,
+            "name": "Boda Restaurant",
+            "rank": 19,
+            "score": 0.7281365394592285,
+            "state": "California"
+        },
+        {
+            "address": "Pho Hai Kieu, 1000 S San Gabriel Blvd, San Gabriel, CA 91776",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2dac193b60fd7:0x51d4dd50e4bb6c14",
+            "iid": 1455,
+            "name": "Pho Hai Kieu",
+            "rank": 20,
+            "score": 0.7248710989952087,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "B L",
+        "uid": 13441,
+        "user_id": 114220081484267024583
+    }
+}

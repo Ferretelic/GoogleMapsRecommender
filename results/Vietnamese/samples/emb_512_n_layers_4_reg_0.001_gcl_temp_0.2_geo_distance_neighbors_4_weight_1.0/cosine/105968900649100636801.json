@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Tuong Ky Fast Food, 8200 Wilcrest Dr #14, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/09/24",
+            "gmap_id": "0x8640dd4f4d45b79b:0x24b95324b475b4b0",
+            "iid": 2480,
+            "name": "Tuong Ky Fast Food",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1537822581643
+        },
+        {
+            "address": "Pho Duy, 6968 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2018/09/27",
+            "gmap_id": "0x8640dd374c3eb3d1:0x73adbb8092ce3ea9",
+            "iid": 2454,
+            "name": "Pho Duy",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1538067871173
+        },
+        {
+            "address": "Pho Binh, 8336 Southwest Fwy, Houston, TX 77074",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/10/15",
+            "gmap_id": "0x8640c291d73e6d4d:0x1e3f4ebd6671600f",
+            "iid": 2303,
+            "name": "Pho Binh",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1539641514996
+        },
+        {
+            "address": "Le Colonial, 4444 Westheimer Rd, Houston, TX 77027",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/31",
+            "gmap_id": "0x8640c11469f7f0bf:0xc08704bdc31c967b",
+            "iid": 2293,
+            "name": "Le Colonial",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541021648429
+        },
+        {
+            "address": "Dong Ba Restaurant, 10815 Beechnut St #147, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/11/03",
+            "gmap_id": "0x8640dd4ec26a61c5:0x83885fd92f8e2b2f",
+            "iid": 2479,
+            "name": "Dong Ba Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541271263011
+        },
+        {
+            "address": "Pho Binh, 5901 Westheimer Rd U, Houston, TX 77057",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "date": "2018/11/09",
+            "gmap_id": "0x8640c3dbafdfb84d:0x15e1dfcc80ca1617",
+            "iid": 2319,
+            "name": "Pho Binh",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541796313235
+        },
+        {
+            "address": "Lee's Sandwiches, 11210 Bellaire Blvd #113, Houston, TX 77072",
+            "category": "['Sandwich shop', 'Bakery', 'Deli', 'Takeout Restaurant', 'Vietnamese restaurant']",
+            "date": "2018/11/28",
+            "gmap_id": "0x8640dd3b6eece2eb:0x2a13426457f204d",
+            "iid": 2461,
+            "name": "Lee's Sandwiches",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1543446097757
+        },
+        {
+            "address": "Don Cafe, 9300 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "date": "2018/11/30",
+            "gmap_id": "0x8640c2c4f6a6ec9b:0x151426eae78e843",
+            "iid": 2308,
+            "name": "Don Cafe",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1543601238307
+        },
+        {
+            "address": "Long Coffee, 10611 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Coffee shop', 'Snack bar', 'Tea house', 'Vietnamese restaurant']",
+            "date": "2018/12/19",
+            "gmap_id": "0x8640dd3116244e77:0x43f434b381de38d5",
+            "iid": 2446,
+            "name": "Long Coffee",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545195295957
+        },
+        {
+            "address": "Bun Bo Hue Duc Chuong 3, 12804 Gulf Fwy, Houston, TX 77034",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/11",
+            "gmap_id": "0x864099e8636640bf:0x4c8ee9b2109176f5",
+            "iid": 2225,
+            "name": "Bun Bo Hue Duc Chuong 3",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1573444422561
+        },
+        {
+            "address": "Nam Giao Restaurant & Bakery, 6938 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/11",
+            "gmap_id": "0x8640dd30b1b66c05:0x1627ec43fe8b15bf",
+            "iid": 2444,
+            "name": "Nam Giao Restaurant & Bakery",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1573514351057
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Qu\u00e1n D\u00ec T\u01b0, 8200 Wilcrest Dr #11, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd4f531704f3:0x1e8a03fa2927d63f",
+            "iid": 2481,
+            "name": "Qu\u00e1n D\u00ec T\u01b0",
+            "rank": 1,
+            "score": 0.6296108961105347,
+            "state": "Texas"
+        },
+        {
+            "address": "Saigon Pho, 6938 Wilcrest Dr STE A, Houston, TX 77072",
+            "category": "['Coffee shop', 'Cafe', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640dd48016c724b:0x3911d6d31c1c5a47",
+            "iid": 2478,
+            "name": "Saigon Pho",
+            "rank": 2,
+            "score": 0.6128857135772705,
+            "state": "Texas"
+        },
+        {
+            "address": "Banh Cuon Hoa #2, 11169 Beechnut St, Houston, TX 77072",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8640dd459562f477:0xbfcd6893ed316fe7",
+            "iid": 2477,
+            "name": "Banh Cuon Hoa #2",
+            "rank": 3,
+            "score": 0.5905752778053284,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Ngon, 10780 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640dd31b1c2c38f:0xd474287b75f5d7e1",
+            "iid": 2453,
+            "name": "Pho Ngon",
+            "rank": 4,
+            "score": 0.5599001049995422,
+            "state": "Texas"
+        },
+        {
+            "address": "Jasmine Asian Cuisine, 9938 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Takeout Restaurant']",
+            "gmap_id": "0x8640c2ce68aeb389:0xff4285cbc2b96faa",
+            "iid": 2311,
+            "name": "Jasmine Asian Cuisine",
+            "rank": 5,
+            "score": 0.5529511570930481,
+            "state": "Texas"
+        },
+        {
+            "address": "In D Kitchen, 2301 Yorktown Street Suite #102, Houston, TX 77056",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640c1670d203eb3:0xe389146eb27e8b78",
+            "iid": 2295,
+            "name": "In D Kitchen",
+            "rank": 6,
+            "score": 0.5382731556892395,
+            "state": "Texas"
+        },
+        {
+            "address": "Nam Giao Restaurant & Bakery, 6938 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd30b1b66c05:0x1627ec43fe8b15bf",
+            "iid": 2444,
+            "name": "Nam Giao Restaurant & Bakery",
+            "rank": 7,
+            "score": 0.533566951751709,
+            "state": "Texas"
+        },
+        {
+            "address": "Com Ga Houston, 11505 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd3d098058a5:0xd040fe3a6027dcbb",
+            "iid": 2466,
+            "name": "Com Ga Houston",
+            "rank": 8,
+            "score": 0.5286996960639954,
+            "state": "Texas"
+        },
+        {
+            "address": "Hoa M\u1eadp H\u1ee7 Ti\u1ebfu G\u00f5, 10815 Beechnut St #143, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd7155e37f69:0xdd461c9dda2ab278",
+            "iid": 2483,
+            "name": "Hoa M\u1eadp H\u1ee7 Ti\u1ebfu G\u00f5",
+            "rank": 9,
+            "score": 0.5263376235961914,
+            "state": "Texas"
+        },
+        {
+            "address": "Thanh Noi Sandwich, 9284 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640c2c487062d8d:0xf3590b5b1d8daa98",
+            "iid": 2307,
+            "name": "Thanh Noi Sandwich",
+            "rank": 10,
+            "score": 0.5172151923179626,
+            "state": "Texas"
+        },
+        {
+            "address": "FU Belly, 5727 Westheimer Rd, Houston, TX 77057, United States",
+            "category": "['Chinese restaurant', 'Bubble tea store', 'Delivery Chinese restaurant', 'Pan-Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640c16279714797:0x203e1c54b004da78",
+            "iid": 2294,
+            "name": "FU Belly",
+            "rank": 11,
+            "score": 0.4968101680278778,
+            "state": "Texas"
+        },
+        {
+            "address": "Kim Nguyen Restaurant & Hall, 9555 Wilcrest Dr #250, Houston, TX 77099",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd57a9d94343:0x991ff6082985f233",
+            "iid": 2482,
+            "name": "Kim Nguyen Restaurant & Hall",
+            "rank": 12,
+            "score": 0.4948102831840515,
+            "state": "Texas"
+        },
+        {
+            "address": "Tau Bay, 8282 Bellaire Blvd #156, Houston, TX 77036",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640c2ee29f971a5:0xd3edf7ea24f5997f",
+            "iid": 2312,
+            "name": "Tau Bay",
+            "rank": 13,
+            "score": 0.4947967231273651,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho 54, 10623 Bellaire Blvd c198, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd30fd2ebe41:0xc303afc561e89e08",
+            "iid": 2445,
+            "name": "Pho 54",
+            "rank": 14,
+            "score": 0.4934282600879669,
+            "state": "Texas"
+        },
+        {
+            "address": "Bun Mang Vit Thanh Da - The Duck House, 11526 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd0f1821c439:0xfca812279fd22b2e",
+            "iid": 2426,
+            "name": "Bun Mang Vit Thanh Da - The Duck House",
+            "rank": 15,
+            "score": 0.49048614501953125,
+            "state": "Texas"
+        },
+        {
+            "address": "Four Seasons Lounge, 12000 Bellaire Blvd #108, Houston, TX 77072",
+            "category": "['Vietnamese restaurant', 'Karaoke bar', 'Lounge', 'Sports bar']",
+            "gmap_id": "0x8640dd10f47f2ba3:0x5c5a10ea1f590902",
+            "iid": 2437,
+            "name": "Four Seasons Lounge",
+            "rank": 16,
+            "score": 0.4896583557128906,
+            "state": "Texas"
+        },
+        {
+            "address": "Thuan Kieu Com Tam, 10792 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd31a70bcf59:0x216bac490bee4181",
+            "iid": 2450,
+            "name": "Thuan Kieu Com Tam",
+            "rank": 17,
+            "score": 0.4862780272960663,
+            "state": "Texas"
+        },
+        {
+            "address": "JB Asian Caf\u00e9, 7515 Westheimer Rd, Houston, TX 77063",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640c3b95bb6c379:0xfd9cef8f84bd54e5",
+            "iid": 2317,
+            "name": "JB Asian Caf\u00e9",
+            "rank": 18,
+            "score": 0.48575782775878906,
+            "state": "Texas"
+        },
+        {
+            "address": "Tuong Ky Com Tam, 11210 Bellaire Blvd #125, Houston, TX 77072",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640dd3b6e8d9b25:0x91aa9032418145f1",
+            "iid": 2459,
+            "name": "Tuong Ky Com Tam",
+            "rank": 19,
+            "score": 0.4815916419029236,
+            "state": "Texas"
+        },
+        {
+            "address": "Roostar, 5551 Richmond Ave, Houston, TX 77056",
+            "category": "['Vietnamese restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x8640c17cfe19751b:0xd2d166e84b5fed28",
+            "iid": 2297,
+            "name": "Roostar",
+            "rank": 20,
+            "score": 0.48069989681243896,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "bao pham",
+        "uid": 5686,
+        "user_id": 105968900649100636801
+    }
+}

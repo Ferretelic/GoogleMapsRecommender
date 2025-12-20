@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2017/09/30",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1506730661031
+        },
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2017/09/30",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1506730661031
+        },
+        {
+            "address": "Saigon Bay Vietnamese Restaurant, 2373 E Fowler Ave, Tampa, FL 33612",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/12/25",
+            "gmap_id": "0x88c2c7078cad342d:0x968eb4f7b876c17e",
+            "iid": 3835,
+            "name": "Saigon Bay Vietnamese Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1514208251626
+        },
+        {
+            "address": "Bunker, 99 Scott Ave, Brooklyn, NY 11237",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/12/25",
+            "gmap_id": "0x89c25f86f67be46f:0xc8cffff79c532af7",
+            "iid": 4504,
+            "name": "Bunker",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1514208591640
+        },
+        {
+            "address": "Pho Quyen Vietnamese Restaurant, 4505 Park Blvd N #10, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/01/18",
+            "gmap_id": "0x88c2e56c06760313:0x48dc603ee16cabdf",
+            "iid": 3856,
+            "name": "Pho Quyen Vietnamese Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1516272112411
+        },
+        {
+            "address": "Simply Vietnamese, 1 Highwood Ave, Tenafly, NJ 07670",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x89c2f1be95f91bed:0xdbc1393906cc4a5a",
+            "iid": 4530,
+            "name": "Simply Vietnamese",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1545023612209
+        },
+        {
+            "address": "Pho Viet, 1202 W Brandon Blvd, Brandon, FL 33511",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x88c2ce78ac3784d9:0xa0b5294d893f0ab5",
+            "iid": 3837,
+            "name": "Pho Viet",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1545023915036
+        },
+        {
+            "address": "Binh Duong II, 1134 Liberty Ave, Hillside, NJ 07205",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/12/20",
+            "gmap_id": "0x89c3ad3f43e22bcf:0x9d19378c6b8de25d",
+            "iid": 4548,
+            "name": "Binh Duong II",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1545304913948
+        },
+        {
+            "address": "Pho\u00b4Edin, 355 Scotland St, Dunedin, FL 34698",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/05/06",
+            "gmap_id": "0x88c2f17b539e5c17:0xd43f02d3d3799ca1",
+            "iid": 3864,
+            "name": "Pho\u00b4Edin",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1557116171037
+        },
+        {
+            "address": "Saigon Cafe, 5118 Gall Blvd, Zephyrhills, FL 33542",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/02/28",
+            "gmap_id": "0x88dd4d0e43d6b8b3:0xc18f3dff0cc28344",
+            "iid": 3943,
+            "name": "Saigon Cafe",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1582915118976
+        },
+        {
+            "address": "Ha Long Bay Restaurant, 5944 34th St N, St. Petersburg, FL 33714",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "date": "2020/12/10",
+            "gmap_id": "0x88c2e47792e36929:0x3ddfeb9be2dc856a",
+            "iid": 3846,
+            "name": "Ha Long Bay Restaurant",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1607559006686
+        }
+    ],
+    "model": {
+        "model_name": "KNN",
+        "name": "KNN",
+        "type": "baseline"
+    },
+    "recommendations": [
+        {
+            "address": "Indochine Restaurant, 7 Wayne Dr, Wilmington, NC 28403",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Banquet hall', 'Restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89a9f56a982dac2b:0x7aa0bd16baa2d807",
+            "iid": 4125,
+            "name": "Indochine Restaurant",
+            "rank": 1,
+            "score": -38.02448654174805,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Pho Cafe, 3926 Market St #201, Wilmington, NC 28403",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89a9f53daa30e4f1:0xd115f70c0db2dfc3",
+            "iid": 4124,
+            "name": "Pho Cafe",
+            "rank": 2,
+            "score": -38.782325744628906,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "PHO BASIL Vietnamese cuisine, 812 S College Rd, Wilmington, NC 28403",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89a9f5a381f369b5:0x2a30e03192bfb794",
+            "iid": 4126,
+            "name": "PHO BASIL Vietnamese cuisine",
+            "rank": 3,
+            "score": -40.64788818359375,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "iNoodles Vietnamese Cuisine, 1486 US-17, Little River, SC 29566",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x890087240289496d:0x4b2dd1b60a3c3758",
+            "iid": 4121,
+            "name": "iNoodles Vietnamese Cuisine",
+            "rank": 4,
+            "score": -61.90950393676758,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Pho 7, 423 Yopp Rd, Jacksonville, NC 28540",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89a91149d43bd2cb:0x14df4360e80e0343",
+            "iid": 4123,
+            "name": "Pho 7",
+            "rank": 5,
+            "score": -87.59053039550781,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Pho Claire, 1201 38th Ave N, Myrtle Beach, SC 29577",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8900693b171a7e93:0x99e433d4bdaf1de7",
+            "iid": 4119,
+            "name": "Pho Claire",
+            "rank": 6,
+            "score": -88.52239227294922,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Saigon Cafe, 1943 10th Ave N unit a, Myrtle Beach, SC 29577",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x890069dc68e8a84b:0x7515979f91d9dbd0",
+            "iid": 4120,
+            "name": "Saigon Cafe",
+            "rank": 7,
+            "score": -91.44419860839844,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Pho Le, 1250 Western Blvd, Jacksonville, NC 28546, United States",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89a9108d6f0fc351:0x9fd12cd164ebbffe",
+            "iid": 4122,
+            "name": "Pho Le",
+            "rank": 8,
+            "score": -94.4406967163086,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Saigon Bistro, 1040 Bragg Blvd, Fayetteville, NC 28301",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89ab6ccf81d69e4f:0x81c2d954b5c33c12",
+            "iid": 4130,
+            "name": "Saigon Bistro",
+            "rank": 9,
+            "score": -95.76903533935547,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Ohana International, 4565 Yadkin Rd, Fayetteville, NC 28303",
+            "category": "['Korean barbecue restaurant', 'Japanese restaurant', 'Korean restaurant', 'Stand bar', 'Sushi restaurant', 'Teppanyaki restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89ab6b3c3445b2cb:0xe516f3b087696027",
+            "iid": 4129,
+            "name": "Ohana International",
+            "rank": 10,
+            "score": -100.37056732177734,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Grilled Ginger Vietnamese Restaurant, 5052 Yadkin Rd #101, Fayetteville, NC 28303",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89ab6b21d93b2663:0x9ddf23fcd005ba12",
+            "iid": 4128,
+            "name": "Grilled Ginger Vietnamese Restaurant",
+            "rank": 11,
+            "score": -101.29945373535156,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Vietnamese Restaurant, 5352 Yadkin Rd, Fayetteville, NC 28303",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89ab6ae067c80ff9:0xda7353ca1d0b2110",
+            "iid": 4127,
+            "name": "Vietnamese Restaurant",
+            "rank": 12,
+            "score": -101.80854034423828,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Ec Pho Vietnamese Noodle House, 109 Greenville Blvd SE Suite #100, Greenville, NC 27858",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89aec2b4fad0d441:0xdb6d8ad3c09c326e",
+            "iid": 4156,
+            "name": "Ec Pho Vietnamese Noodle House",
+            "rank": 13,
+            "score": -158.73831176757812,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Bida Manda, 222 S Blount St, Raleigh, NC 27601",
+            "category": "['Laotian restaurant', 'Asian restaurant', 'Bar', 'Noodle shop', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89ac5f7286f16695:0x85dba324f4be0a3",
+            "iid": 4137,
+            "name": "Bida Manda",
+            "rank": 14,
+            "score": -160.38201904296875,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Anise Pho, 222 Glenwood Ave #113, Raleigh, NC 27603",
+            "category": "['Vietnamese restaurant', 'Bubble tea store', 'Vegetarian restaurant']",
+            "gmap_id": "0x89ac5fd25ae0b077:0x5c3e0ce363046680",
+            "iid": 4138,
+            "name": "Anise Pho",
+            "rank": 15,
+            "score": -161.26690673828125,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Ph\u1edf Vietnam, 1284 Buck Jones Rd, Raleigh, NC 27606",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Caterer', 'Takeout Restaurant', 'Pho restaurant', 'Restaurant']",
+            "gmap_id": "0x89acf48355ce60bb:0x6168f55f3f9d9f94",
+            "iid": 4151,
+            "name": "Ph\u1edf Vietnam",
+            "rank": 16,
+            "score": -161.349853515625,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Dalat Asia Grandma's Kitchen, 2109 Avent Ferry Rd #110, Raleigh, NC 27606",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89acf599bea82079:0xdc16d14e70bf99e2",
+            "iid": 4153,
+            "name": "Dalat Asia Grandma's Kitchen",
+            "rank": 17,
+            "score": -161.3517303466797,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Pho Pho Pho Noodle Kitchen and Bar, 510 Glenwood Ave #103, Raleigh, NC 27603",
+            "category": "['Vietnamese restaurant', 'Bar', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x89ac5f67b5df10e3:0x346a51cf15870371",
+            "iid": 4136,
+            "name": "Pho Pho Pho Noodle Kitchen and Bar",
+            "rank": 18,
+            "score": -161.62136840820312,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sushi Iwa, 2026 Creekside Landing Dr, Apex, NC 27502",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant', 'Restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89ac932ab94614f7:0xb9fc5f8b9f5185ec",
+            "iid": 4139,
+            "name": "Sushi Iwa",
+            "rank": 19,
+            "score": -162.99368286132812,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Tangerine Cafe, 2422 SW Cary Pkwy, Cary, NC 27513",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Indian restaurant', 'Indonesian restaurant', 'Takeout Restaurant', 'South Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89acf2961c5ba115:0xf1d28df92a5461ec",
+            "iid": 4150,
+            "name": "Tangerine Cafe",
+            "rank": 20,
+            "score": -162.99609375,
+            "state": "North_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Changsoo Kim",
+        "uid": 2554,
+        "user_id": 102690923311205755337
+    }
+}

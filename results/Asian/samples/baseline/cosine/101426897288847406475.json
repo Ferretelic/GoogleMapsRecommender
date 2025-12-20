@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Gogi Bros. House, 6407 City W Pkwy ste c-7, Eden Prairie, MN 55344",
+            "category": "['Korean barbecue restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "date": "2017/06/06",
+            "gmap_id": "0x87f621e215d312f5:0x45b0b447950e86c3",
+            "iid": 12805,
+            "name": "Gogi Bros. House",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1496753353350
+        },
+        {
+            "address": "Kings Restaurant (Korean Cuisine), 1051 E Moore Lake Dr, Minneapolis, MN 55432",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Korean beef restaurant', 'Korean rib restaurant', 'Restaurant']",
+            "date": "2017/09/01",
+            "gmap_id": "0x52b32fa3388ff2fd:0xe2cc38aaa34e8169",
+            "iid": 283,
+            "name": "Kings Restaurant (Korean Cuisine)",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1504305194306
+        },
+        {
+            "address": "Tamarine Restaurant & Gallery, 546 University Ave, Palo Alto, CA 94301",
+            "category": "['Vietnamese restaurant', 'Bar', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/09/29",
+            "gmap_id": "0x808fbb38c71d67c1:0x9fafe1b9df55fa48",
+            "iid": 3672,
+            "name": "Tamarine Restaurant & Gallery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1538260658507
+        },
+        {
+            "address": "Bay Leaf Indian Cuisine, 6403 City W Pkwy, Eden Prairie, MN 55344",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Caterer', 'Ethnic restaurant', 'Restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x87f621e18ed1fb7f:0x4518bd1ed9eed81a",
+            "iid": 12804,
+            "name": "Bay Leaf Indian Cuisine",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1544404886950
+        },
+        {
+            "address": "Bay Leaf Indian Cuisine, 6403 City W Pkwy, Eden Prairie, MN 55344",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Caterer', 'Ethnic restaurant', 'Restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x87f621e18ed1fb7f:0x4518bd1ed9eed81a",
+            "iid": 12804,
+            "name": "Bay Leaf Indian Cuisine",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1544404886950
+        },
+        {
+            "address": "Shanghai Market Oriental Food, 8450 Excelsior Blvd, Hopkins, MN 55343",
+            "category": "['Asian grocery store']",
+            "date": "2018/12/23",
+            "gmap_id": "0x87f6205b99f508ef:0x430043ce1d6fa216",
+            "iid": 12800,
+            "name": "Shanghai Market Oriental Food",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1545605545760
+        },
+        {
+            "address": "Chino Latino, 2916 Hennepin Ave S, Minneapolis, MN 55408",
+            "category": "['Asian fusion restaurant', 'Bar', 'Fusion restaurant', 'Latin American restaurant', 'Restaurant']",
+            "date": "2018/12/25",
+            "gmap_id": "0x87f6277f588deb7d:0x91d1e8613c1a4d35",
+            "iid": 12829,
+            "name": "Chino Latino",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1545710107332
+        },
+        {
+            "address": "Joy's Pattaya Thai Restaurant, 7545 Lyndale Ave S, Richfield, MN 55423",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/12/25",
+            "gmap_id": "0x87f625c58e30ea2b:0x7225ca892e227cb9",
+            "iid": 12814,
+            "name": "Joy's Pattaya Thai Restaurant",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1545710180612
+        },
+        {
+            "address": "Benihana, 358 South Avenue, Bloomington, MN 55425",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/02/12",
+            "gmap_id": "0x87f62f6c5331521b:0xc49077550e24eecf",
+            "iid": 12885,
+            "name": "Benihana",
+            "split": "valid",
+            "state": "Minnesota",
+            "unix_time": 1549951517821
+        },
+        {
+            "address": "Lat14 Asian Eatery, 8815 7th Ave N, Golden Valley, MN 55427",
+            "category": "['Southeast Asian restaurant']",
+            "date": "2019/08/09",
+            "gmap_id": "0x52b335f1ac2ea81d:0xc4b8a636cd84463f",
+            "iid": 328,
+            "name": "Lat14 Asian Eatery",
+            "split": "test",
+            "state": "Minnesota",
+            "unix_time": 1565383901290
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Peninsula Malaysian Cuisine, 2608 Nicollet Ave, Minneapolis, MN 55408",
+            "category": "['Malaysian restaurant', 'Asian restaurant', 'Bar', 'Caterer', 'Family restaurant', 'Fine dining restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x52b332b57755471d:0x71f7d0e7f2f61f3c",
+            "iid": 306,
+            "name": "Peninsula Malaysian Cuisine",
+            "rank": 1,
+            "score": 0.7201729416847229,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Big Bowl, 3669 Galleria, Edina, MN 55435",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x87f626a7edb8d6e5:0x2b366623e9e4c465",
+            "iid": 12823,
+            "name": "Big Bowl",
+            "rank": 2,
+            "score": 0.6968861222267151,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Darbar India Grill & Bar, 1221 W Lake St #106, Minneapolis, MN 55408",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Bar', 'Fine dining restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x87f627815da5333f:0xf543440e9ecae87c",
+            "iid": 12832,
+            "name": "Darbar India Grill & Bar",
+            "rank": 3,
+            "score": 0.6561666131019592,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Vellee Deli, 109 S 7th St #263, Minneapolis, MN 55402",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x52b33299fc12e8e7:0x5a6684479e787e82",
+            "iid": 304,
+            "name": "Vellee Deli",
+            "rank": 4,
+            "score": 0.6456963419914246,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Gorkha Palace, 23 4th St NE, Minneapolis, MN 55414",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Nepalese restaurant', 'Organic restaurant', 'Restaurant']",
+            "gmap_id": "0x52b32d78face6fd3:0x46ea975a61473434",
+            "iid": 274,
+            "name": "Gorkha Palace",
+            "rank": 5,
+            "score": 0.644578754901886,
+            "state": "Minnesota"
+        },
+        {
+            "address": "House of Curry, 3420 150th St W, Rosemount, MN 55068",
+            "category": "['Sri Lankan restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x87f6347608c9a80f:0xf07478c63ebe0ad9",
+            "iid": 12902,
+            "name": "House of Curry",
+            "rank": 6,
+            "score": 0.6442530751228333,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Lemon Grass Thai Cuisine, 8600 Edinburgh Centre Dr, Brooklyn Park, MN 55443",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x52b33a900c3298cb:0x2391c6c539fc956b",
+            "iid": 340,
+            "name": "Lemon Grass Thai Cuisine",
+            "rank": 7,
+            "score": 0.6434169411659241,
+            "state": "Minnesota"
+        },
+        {
+            "address": "BHARAT BAZAAR, 8098 Morgan Cir S, Bloomington, MN 55431",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Grocery delivery service', 'Grocery store']",
+            "gmap_id": "0x87f624499605c095:0x43af237bc6e3d9be",
+            "iid": 12811,
+            "name": "BHARAT BAZAAR",
+            "rank": 8,
+            "score": 0.6401727199554443,
+            "state": "Minnesota"
+        },
+        {
+            "address": "PinKU Japanese Street Food, 20 University Ave NE, Minneapolis, MN 55413, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x52b32d792a49ae7b:0x82cc5dc9d29b7e55",
+            "iid": 275,
+            "name": "PinKU Japanese Street Food",
+            "rank": 9,
+            "score": 0.6362208724021912,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Chin Dian Kitchen, 1500 E Hennepin Ave, Minneapolis, MN 55414",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Indian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x52b32d078ee41293:0x38701eab39d8538",
+            "iid": 260,
+            "name": "Chin Dian Kitchen",
+            "rank": 10,
+            "score": 0.6339489221572876,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Sotarol Asian Kitchen, 5005 Ewing Ave S, Minneapolis, MN 55410",
+            "category": "['Restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87f626d836ed4ef3:0x8b70bf83f3003850",
+            "iid": 12825,
+            "name": "Sotarol Asian Kitchen",
+            "rank": 11,
+            "score": 0.6322388052940369,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Kabob's Indian Grill, 7814 Portland Ave S, Bloomington, MN 55420",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x87f625f29f3bcf21:0x75622e75fd2649a7",
+            "iid": 12816,
+            "name": "Kabob's Indian Grill",
+            "rank": 12,
+            "score": 0.6295778751373291,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Dancing Ganesha, 1100 Harmon Pl, Minneapolis, MN 55403",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x52b33294fcecafd1:0x45fbedad65575225",
+            "iid": 301,
+            "name": "Dancing Ganesha",
+            "rank": 13,
+            "score": 0.6267154812812805,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Hawaii Pok\u00e9 Bowl, 3345 Central Park Commons Dr, Eagan, MN 55121",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Hawaiian restaurant', 'Health food restaurant', 'Ramen restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x87f62db5b675eb63:0x824222364de184e2",
+            "iid": 12876,
+            "name": "Hawaii Pok\u00e9 Bowl",
+            "rank": 14,
+            "score": 0.6262407898902893,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Leeann Chin, 40 S 7th St, Minneapolis, MN 55402",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x52b33290e0b564e5:0xfd68168352095f84",
+            "iid": 300,
+            "name": "Leeann Chin",
+            "rank": 15,
+            "score": 0.6254657506942749,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Wok in the Park, 3005 Utah Ave S, St Louis Park, MN 55426",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x87f6207f715dda8d:0x8fd13cde23640ac7",
+            "iid": 12802,
+            "name": "Wok in the Park",
+            "rank": 16,
+            "score": 0.6251649856567383,
+            "state": "Minnesota"
+        },
+        {
+            "address": "United Noodles, 2015 E 24th St, Minneapolis, MN 55404",
+            "category": "['Asian grocery store', 'Grocery store']",
+            "gmap_id": "0x52b32d4951049895:0x513251d538ca0e77",
+            "iid": 269,
+            "name": "United Noodles",
+            "rank": 17,
+            "score": 0.6237571239471436,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Hai Hai, 2121 University Ave NE, Minneapolis, MN 55418",
+            "category": "['Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x52b32df531e1132f:0x5289acbb43656148",
+            "iid": 279,
+            "name": "Hai Hai",
+            "rank": 18,
+            "score": 0.6235865950584412,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Leeann Chin, 8061 Brooklyn Blvd, Minneapolis, MN 55445",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x52b33766afb1750f:0xd0957b736bec8799",
+            "iid": 333,
+            "name": "Leeann Chin",
+            "rank": 19,
+            "score": 0.6182885766029358,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Bukhara Indian Bistro, 15718 Wayzata Blvd E, Wayzata, MN 55391",
+            "category": "['Indian restaurant', 'Gluten-free restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x52b34b13eeddfa97:0xbb27601cbd2eaa88",
+            "iid": 365,
+            "name": "Bukhara Indian Bistro",
+            "rank": 20,
+            "score": 0.6180771589279175,
+            "state": "Minnesota"
+        }
+    ],
+    "user": {
+        "name": "Michael Kollar",
+        "uid": 14723,
+        "user_id": 101426897288847406475
+    }
+}

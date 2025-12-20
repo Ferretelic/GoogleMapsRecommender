@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Taj Mahal Grill, 1200 Ernest W Barrett Pkwy NW #236, Kennesaw, GA 30144",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2019/05/28",
+            "gmap_id": "0x88f51572ec4a6773:0xd5d2d1335490c9bb",
+            "iid": 19160,
+            "name": "Taj Mahal Grill",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1559087166220
+        },
+        {
+            "address": "Cho Ba Mien Asian Market, 3830 Washington Rd #35, Martinez, GA 30907",
+            "category": "['Asian grocery store']",
+            "date": "2019/05/28",
+            "gmap_id": "0x88f9d3a00764af77:0xfc2aa0ca0f28ff7f",
+            "iid": 19541,
+            "name": "Cho Ba Mien Asian Market",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1559087193498
+        },
+        {
+            "address": "Pho Bac, 4300 Towne Center Dr, Evans, GA 30809, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/05/28",
+            "gmap_id": "0x88f9d3585f322adb:0xbfd6284b5410d0d0",
+            "iid": 19538,
+            "name": "Pho Bac",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1559087248407
+        },
+        {
+            "address": "Thai Thani Thai Restaurant, 11025 International Dr, Orlando, FL 32821",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x88e77e274aca9833:0x4a4c808376b0a1ec",
+            "iid": 18710,
+            "name": "Thai Thani Thai Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561772422286
+        },
+        {
+            "address": "Ichiban Buffet, 5269 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/07/02",
+            "gmap_id": "0x88dd81eb3923a109:0x69fe81de62a28417",
+            "iid": 18211,
+            "name": "Ichiban Buffet",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1562033691612
+        },
+        {
+            "address": "H Mart Duluth, 2550 Pleasant Hill Road bldg 300, Park Village Shopping Center, Duluth, GA 30096",
+            "category": "['Asian grocery store', 'Chinese supermarket', 'Korean grocery store', 'Seafood market']",
+            "date": "2019/09/16",
+            "gmap_id": "0x88f5a3aaaa711347:0x4790b94d834a505c",
+            "iid": 19349,
+            "name": "H Mart Duluth",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1568661428987
+        },
+        {
+            "address": "SriThai: Thai kitchen & sushi bar, 4500 Satellite Blvd #1360, Duluth, GA 30096",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/10/19",
+            "gmap_id": "0x88f5a393fa1b75f9:0x1213d8235c25cb85",
+            "iid": 19345,
+            "name": "SriThai: Thai kitchen & sushi bar",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1571445051730
+        },
+        {
+            "address": "Jang Su Jang, 3645 Satellite Blvd, Duluth, GA 30096",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Korean barbecue restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/01/25",
+            "gmap_id": "0x88f5a308b766c6ab:0x76faea01d2c667e2",
+            "iid": 19323,
+            "name": "Jang Su Jang",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1579990944147
+        },
+        {
+            "address": "Kim Chi II Korean Restaurant, 149 E Montgomery Cross Rd, Savannah, GA 31406",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Pan-Asian restaurant']",
+            "date": "2020/02/05",
+            "gmap_id": "0x88fb744dc063021d:0xb55c7121116fa2f",
+            "iid": 19565,
+            "name": "Kim Chi II Korean Restaurant",
+            "split": "valid",
+            "state": "Georgia",
+            "unix_time": 1580865504026
+        },
+        {
+            "address": "CO, 10 Whitaker St, Savannah, GA 31401",
+            "category": "['Southeast Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2020/02/07",
+            "gmap_id": "0x88fb9e66a21e1185:0xe72c5dab2d05ec33",
+            "iid": 19584,
+            "name": "CO",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1581034347448
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Thai Kitchen, 4357 Washington Rd A, Evans, GA 30809, United States",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88f9d4ac01fdee59:0x9fda81de348c9fd1",
+            "iid": 19545,
+            "name": "Thai Kitchen",
+            "rank": 1,
+            "score": 0.6091722249984741,
+            "state": "Georgia"
+        },
+        {
+            "address": "Wasabi Xpress, 2838 Washington Rd, Augusta, GA 30909",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88f9cd63eb57023f:0xc078acfdf63a384c",
+            "iid": 19519,
+            "name": "Wasabi Xpress",
+            "rank": 2,
+            "score": 0.5982046127319336,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asian Market, 339 Furys Ferry Rd, Martinez, GA 30907",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x88f9d2c47f500a2f:0x96579031b659e16f",
+            "iid": 19531,
+            "name": "Asian Market",
+            "rank": 3,
+            "score": 0.5971583724021912,
+            "state": "Georgia"
+        },
+        {
+            "address": "Koi Hibachi & Sushi \u65e5\u6599 \u6b63\u5b97\u65e5\u9910 Japanese restaurant, 3847 Washington Rd #1, Augusta, GA 30907",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d397c450df6b:0xd5030f61ce71db24",
+            "iid": 19540,
+            "name": "Koi Hibachi & Sushi \u65e5\u6599 \u6b63\u5b97\u65e5\u9910 Japanese restaurant",
+            "rank": 4,
+            "score": 0.5963646769523621,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hibachi Grill & Supreme Buffet, 1343 Augusta W Pkwy, Augusta, GA 30909",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d3cd190fe1b1:0x89ed94e44fcca738",
+            "iid": 19542,
+            "name": "Hibachi Grill & Supreme Buffet",
+            "rank": 5,
+            "score": 0.5817947387695312,
+            "state": "Georgia"
+        },
+        {
+            "address": "Fuji Asian, 4414 Evans to Locks Rd, Evans, GA 30809",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x88f9d35610694d55:0x57eb635d1341f5ed",
+            "iid": 19536,
+            "name": "Fuji Asian",
+            "rank": 6,
+            "score": 0.5731920003890991,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hawaiian Style BBQ, 1719 Gordon Hwy, Augusta, GA 30904",
+            "category": "['Barbecue restaurant', 'Asian fusion restaurant', 'Hawaiian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9ce0e22a20815:0x12fad79ea0d548a",
+            "iid": 19521,
+            "name": "Hawaiian Style BBQ",
+            "rank": 7,
+            "score": 0.5724053382873535,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sawasdee Authentic Thai & Noodle House, 3836 Washington Rd #7, Martinez, GA 30907",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Noodle shop']",
+            "gmap_id": "0x88f9d31b5c40250f:0xc126ffb87446d293",
+            "iid": 19534,
+            "name": "Sawasdee Authentic Thai & Noodle House",
+            "rank": 8,
+            "score": 0.5716964602470398,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kinki Sushi, 3328 Washington Rd, Augusta, GA 30907",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88f9d2e91f5596a7:0xed3fe4076b2c34e5",
+            "iid": 19533,
+            "name": "Kinki Sushi",
+            "rank": 9,
+            "score": 0.5702771544456482,
+            "state": "Georgia"
+        },
+        {
+            "address": "Soy Noodle House, 1032 Broad St, Augusta, GA 30901",
+            "category": "['Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9cc6925526bdd:0xcc14a59ff729cc1f",
+            "iid": 19517,
+            "name": "Soy Noodle House",
+            "rank": 10,
+            "score": 0.5656806230545044,
+            "state": "Georgia"
+        },
+        {
+            "address": "Genghis Grill, 250 Robert C Daniel Jr Pkwy, Augusta, GA 30909",
+            "category": "['Mongolian barbecue restaurant', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Pan-Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88f9d2526cd938e9:0xeff6b1b8685b0263",
+            "iid": 19527,
+            "name": "Genghis Grill",
+            "rank": 11,
+            "score": 0.5652886033058167,
+            "state": "Georgia"
+        },
+        {
+            "address": "Chichop Taiwanese Grilled&Fried \uff08\u53f0\u6e7e\u70b8\u7269\uff09, 6035 Peachtree Rd, Atlanta, GA 30360",
+            "category": "['Restaurant', 'Grill', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Fried chicken takeaway', 'Seafood restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x88f5091304a8c9e5:0x774a63334c84462b",
+            "iid": 19076,
+            "name": "Chichop Taiwanese Grilled&Fried \uff08\u53f0\u6e7e\u70b8\u7269\uff09",
+            "rank": 12,
+            "score": 0.5618045926094055,
+            "state": "Georgia"
+        },
+        {
+            "address": "TOKI Japanese Steakhouse and Sushi, 362 Furys Ferry Rd #4, Martinez, GA 30907",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d2c4a6852a39:0x28f421eca14efc74",
+            "iid": 19532,
+            "name": "TOKI Japanese Steakhouse and Sushi",
+            "rank": 13,
+            "score": 0.5608998537063599,
+            "state": "Georgia"
+        },
+        {
+            "address": "Mai Thai Restaurant, 4272 Washington Rd, Evans, GA 30809",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88f9d3580d495c49:0x601c721aba31121c",
+            "iid": 19537,
+            "name": "Mai Thai Restaurant",
+            "rank": 14,
+            "score": 0.5580194592475891,
+            "state": "Georgia"
+        },
+        {
+            "address": "Eggroll Express West, 301 N Belair Rd, Evans, GA 30809",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9d496ea6bba6f:0x3e25291bcbb5ebae",
+            "iid": 19544,
+            "name": "Eggroll Express West",
+            "rank": 15,
+            "score": 0.5570356249809265,
+            "state": "Georgia"
+        },
+        {
+            "address": "TOKI Japanese Steakhouse, 4534 Washington Rd #7, Evans, GA 30809",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fine dining restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d4caa64f14cf:0x1888058584f7b924",
+            "iid": 19547,
+            "name": "TOKI Japanese Steakhouse",
+            "rank": 16,
+            "score": 0.556883692741394,
+            "state": "Georgia"
+        },
+        {
+            "address": "Mirin Fusion Kitchen, 630 Crane Creek Dr Suite 402, Augusta, GA 30907",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9d3789f4b7561:0xeaecb9834f36c11c",
+            "iid": 19539,
+            "name": "Mirin Fusion Kitchen",
+            "rank": 17,
+            "score": 0.5551012754440308,
+            "state": "Georgia"
+        },
+        {
+            "address": "Osaka Sushi, 4437 Washington Rd, Evans, GA 30809",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d4b259e997a9:0x188c7d410e96e1f7",
+            "iid": 19546,
+            "name": "Osaka Sushi",
+            "rank": 18,
+            "score": 0.5532118678092957,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 515 Mullins Colony Dr, Evans, GA 30809",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9d33f22c049d5:0xe2eb80b1d03df946",
+            "iid": 19535,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": 0.5513508915901184,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kims Oriental Market, 2324 Lumpkin Rd, Augusta, GA 30906",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x88f9ce2679966cf1:0xd7281324ffe6c341",
+            "iid": 19522,
+            "name": "Kims Oriental Market",
+            "rank": 20,
+            "score": 0.5478769540786743,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Raymond Chong",
+        "uid": 1000,
+        "user_id": 100095295841343340989
+    }
+}

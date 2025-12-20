@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushirrito - Union Square, 226 Kearny St, San Francisco, CA 94104",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "date": "2015/11/21",
+            "gmap_id": "0x80858062a6bcdae7:0xdf875c0d2342e4ef",
+            "iid": 2698,
+            "name": "Sushirrito - Union Square",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448073134023
+        },
+        {
+            "address": "Akiko's Sushi Bar, 542 A Mason St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2015/11/24",
+            "gmap_id": "0x8085808e7cddbe8d:0x86d688049cb51747",
+            "iid": 2755,
+            "name": "Akiko's Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448347493408
+        },
+        {
+            "address": "Quickly, 2288 Westborough Blvd # 102, South San Francisco, CA 94080",
+            "category": "['Asian fusion restaurant', 'Bubble tea store', 'Cafe']",
+            "date": "2016/02/29",
+            "gmap_id": "0x808f7a2c656e460b:0x4d34f76fada30a96",
+            "iid": 3180,
+            "name": "Quickly",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1456713029860
+        },
+        {
+            "address": "American Sushi House, 761 Hickey Blvd, Pacifica, CA 94044",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2016/09/18",
+            "gmap_id": "0x808f7bbce26b56a5:0xb3da47044f132db5",
+            "iid": 3186,
+            "name": "American Sushi House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1474215218022
+        },
+        {
+            "address": "Thep Phanom, 400 Waller St, San Francisco, CA 94117",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/10/27",
+            "gmap_id": "0x808580a6d7cdaf5f:0xd9eaa267698bb5cc",
+            "iid": 2796,
+            "name": "Thep Phanom",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1477527926404
+        },
+        {
+            "address": "Saigon City Restaurant, 418 E 3rd Ave, San Mateo, CA 94401",
+            "category": "['Vietnamese restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/10/23",
+            "gmap_id": "0x808f9e7a66bd6763:0xf2668b823231a3ca",
+            "iid": 3470,
+            "name": "Saigon City Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1508739222994
+        },
+        {
+            "address": "Amber, 25 Yerba Buena Ln, San Francisco, CA 94103",
+            "category": "['Indian restaurant', 'Bar', 'South Asian restaurant']",
+            "date": "2018/06/11",
+            "gmap_id": "0x808580888295cc0f:0x8fd882b38f7e79e8",
+            "iid": 2732,
+            "name": "Amber",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528734001160
+        },
+        {
+            "address": "Tara Indian Cuisine, 2217 Market St, San Francisco, CA 94114",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2018/09/24",
+            "gmap_id": "0x808f7e1c4739830f:0xe442f413961e9461",
+            "iid": 3242,
+            "name": "Tara Indian Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537755693339
+        },
+        {
+            "address": "Ginto, 658 Market St, San Francisco, CA 94104",
+            "category": "['Izakaya restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x8085808847ae5121:0xecae485ebb739b45",
+            "iid": 2730,
+            "name": "Ginto",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546900486648
+        },
+        {
+            "address": "Piggyback Bar, 200 Hudson St, Jersey City, NJ 07311",
+            "category": "['Southeast Asian restaurant', 'Bar', 'Hamburger restaurant', 'Restaurant']",
+            "date": "2019/02/16",
+            "gmap_id": "0x89c250abc292a659:0x238f6a113696509e",
+            "iid": 21495,
+            "name": "Piggyback Bar",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1550326555025
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "DOSA on Valencia (CLOSED), 995 Valencia St, San Francisco, CA 94110",
+            "category": "['Indian restaurant', 'Bar', 'Cocktail bar', 'Restaurant', 'South Asian restaurant', 'Wine bar']",
+            "gmap_id": "0x808f7e3e8111d63f:0xa17c82c8445a20c4",
+            "iid": 3258,
+            "name": "DOSA on Valencia (CLOSED)",
+            "rank": 1,
+            "score": 4.608673095703125,
+            "state": "California"
+        },
+        {
+            "address": "Benihana, 1496 Old Bayshore Hwy, Burlingame, CA 94010",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x808f762d370e7caf:0xb603522dd430112b",
+            "iid": 3137,
+            "name": "Benihana",
+            "rank": 2,
+            "score": 4.520771503448486,
+            "state": "California"
+        },
+        {
+            "address": "DOSA on Fillmore, 1700 Fillmore St, San Francisco, CA 94115",
+            "category": "['Indian restaurant', 'Caterer', 'Cocktail bar', 'Fine dining restaurant', 'Organic restaurant', 'Restaurant', 'South Asian restaurant', 'Wine bar']",
+            "gmap_id": "0x808580b859984f57:0xdd5396cdb3a4d404",
+            "iid": 2802,
+            "name": "DOSA on Fillmore",
+            "rank": 3,
+            "score": 4.051520824432373,
+            "state": "California"
+        },
+        {
+            "address": "Burma Cafe, 63 St Francis Square, Daly City, CA 94015",
+            "category": "['Burmese restaurant', 'Fine dining restaurant', 'Indian restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Thai restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808f7b8892a3f6d3:0xefa7fce289d7d9ac",
+            "iid": 3184,
+            "name": "Burma Cafe",
+            "rank": 4,
+            "score": 3.903561592102051,
+            "state": "California"
+        },
+        {
+            "address": "99 Ranch Market, 250 Skyline Plaza, Daly City, CA 94015",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808f7c7c5e81ee3f:0xb4e2b2a92f4d9677",
+            "iid": 3212,
+            "name": "99 Ranch Market",
+            "rank": 5,
+            "score": 3.745940923690796,
+            "state": "California"
+        },
+        {
+            "address": "Banana Island, 273 Lake Merced Blvd, Daly City, CA 94015",
+            "category": "['Asian restaurant', 'Singaporean restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x808f7c5c63c98bbb:0x46eb393ff099ad2e",
+            "iid": 3207,
+            "name": "Banana Island",
+            "rank": 6,
+            "score": 3.7320289611816406,
+            "state": "California"
+        },
+        {
+            "address": "Ben Tre Restaurant, 219 El Camino Real, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Pho restaurant']",
+            "gmap_id": "0x808f77a54cec683f:0xda2ac2e415af14c0",
+            "iid": 3155,
+            "name": "Ben Tre Restaurant",
+            "rank": 7,
+            "score": 3.7314822673797607,
+            "state": "California"
+        },
+        {
+            "address": "Dumpling Kitchen, 1935 Taraval St, San Francisco, CA 94116",
+            "category": "['Dumpling restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Noodle shop', 'Pan-Asian restaurant', 'Restaurant', 'Shanghainese restaurant', 'South Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f7d835ad0d52f:0x61768a5c80a9e9dc",
+            "iid": 3219,
+            "name": "Dumpling Kitchen",
+            "rank": 8,
+            "score": 3.720243215560913,
+            "state": "California"
+        },
+        {
+            "address": "Katana Ya, 422 Geary St, San Francisco, CA 94102",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Noodle shop', 'Soba noodle shop', 'Sushi restaurant']",
+            "gmap_id": "0x8085808e51ab7a67:0xd0483a7251ab6b0a",
+            "iid": 2754,
+            "name": "Katana Ya",
+            "rank": 9,
+            "score": 3.718824625015259,
+            "state": "California"
+        },
+        {
+            "address": "AsiaSF, 201 9th St, San Francisco, CA 94103",
+            "category": "['Asian fusion restaurant', 'Bar', 'Cabaret club', 'Night club']",
+            "gmap_id": "0x8085809d4c81227f:0x68fa0ae7d2bb8214",
+            "iid": 2790,
+            "name": "AsiaSF",
+            "rank": 10,
+            "score": 3.6616718769073486,
+            "state": "California"
+        },
+        {
+            "address": "White Elephant Restaurant, 146 Hazelwood Dr, South San Francisco, CA 94080",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f79966be3f43b:0x62781ba84d18fd04",
+            "iid": 3163,
+            "name": "White Elephant Restaurant",
+            "rank": 11,
+            "score": 3.641312837600708,
+            "state": "California"
+        },
+        {
+            "address": "Burma Superstar, 309 Clement St, San Francisco, CA 94118",
+            "category": "['Burmese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80857de1843a955f:0x951b79d8c35ce396",
+            "iid": 2639,
+            "name": "Burma Superstar",
+            "rank": 12,
+            "score": 3.6357104778289795,
+            "state": "California"
+        },
+        {
+            "address": "Old Town Sushi, 100 S B St, San Mateo, CA 94401",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Diner', 'Sushi restaurant']",
+            "gmap_id": "0x808f9e70ce4f5a63:0x3ea11c1c3d32d928",
+            "iid": 3465,
+            "name": "Old Town Sushi",
+            "rank": 13,
+            "score": 3.5361459255218506,
+            "state": "California"
+        },
+        {
+            "address": "Pacific Supermarket, 2228 Westborough Blvd, South San Francisco, CA 94080",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808f7a2b9c5b427b:0x911220b1c351f8ec",
+            "iid": 3179,
+            "name": "Pacific Supermarket",
+            "rank": 14,
+            "score": 3.53438138961792,
+            "state": "California"
+        },
+        {
+            "address": "Coco's Ramen, 3319 Mission St, San Francisco, CA 94110",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e4325d84c71:0x474ee9bd6ebc1f1b",
+            "iid": 3262,
+            "name": "Coco's Ramen",
+            "rank": 15,
+            "score": 3.5260326862335205,
+            "state": "California"
+        },
+        {
+            "address": "Live Sushi Bar, 2001 17th St, San Francisco, CA 94103",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Caterer', 'Food service', 'Restaurant']",
+            "gmap_id": "0x808f7e3304be26b5:0x1c7683d9cb8aeb54",
+            "iid": 3253,
+            "name": "Live Sushi Bar",
+            "rank": 16,
+            "score": 3.473937511444092,
+            "state": "California"
+        },
+        {
+            "address": "Osha Thai, 4 Embarcadero Center, San Francisco, CA 94111",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Lounge', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80858061485b6de3:0xe5ac42f1ac4906a2",
+            "iid": 2692,
+            "name": "Osha Thai",
+            "rank": 17,
+            "score": 3.467349052429199,
+            "state": "California"
+        },
+        {
+            "address": "The House, 1230 Grant Ave, San Francisco, CA 94133",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x808580f38a9937e5:0xb078c5c9d61f760d",
+            "iid": 2841,
+            "name": "The House",
+            "rank": 18,
+            "score": 3.462585687637329,
+            "state": "California"
+        },
+        {
+            "address": "Elephant Bar, 1600 Old Bayshore Hwy, Burlingame, CA 94010",
+            "category": "['American restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar']",
+            "gmap_id": "0x808f77d281921825:0x648a984565e7f6eb",
+            "iid": 3158,
+            "name": "Elephant Bar",
+            "rank": 19,
+            "score": 3.4583303928375244,
+            "state": "California"
+        },
+        {
+            "address": "PPQ Beef Noodle House, 1816 Irving St, San Francisco, CA 94122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Noodle shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8085876580c9ce43:0xf1eaf0702d54a319",
+            "iid": 2923,
+            "name": "PPQ Beef Noodle House",
+            "rank": 20,
+            "score": 3.4397904872894287,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dan Rowe",
+        "uid": 138197,
+        "user_id": 113370249731831794308
+    }
+}
