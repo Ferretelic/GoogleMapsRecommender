@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 1427 Herndon Rd, Modesto, CA 95351",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/07/01",
+            "gmap_id": "0x80905497ef0c97dd:0x1f0dc8ce0a1d4449",
+            "iid": 4490,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1530468946251
+        },
+        {
+            "address": "McDonald's, 2000 W Main St, Turlock, CA 95380",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/11/03",
+            "gmap_id": "0x809107bd7a669667:0x29735d58ea524b44",
+            "iid": 4600,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541267093621
+        },
+        {
+            "address": "McDonald's, 1500 Mitchell Rd, Ceres, CA 95307",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/12/26",
+            "gmap_id": "0x80905528f2278665:0x31b888fed4084121",
+            "iid": 4496,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545842228388
+        },
+        {
+            "address": "Starbucks, 13104 CA-33, Gustine, CA 95322",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/08",
+            "gmap_id": "0x809184c14d5db7fd:0x6f5ea77c03c76f6f",
+            "iid": 4653,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549587811805
+        },
+        {
+            "address": "McDonald's, 1324 E Hatch Rd, Modesto, CA 95351",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/03",
+            "gmap_id": "0x809054bd637aa279:0x6e131d4c9d3f3ff7",
+            "iid": 4492,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554317887193
+        },
+        {
+            "address": "Dunkin', 1300 Standiford Ave, Modesto, CA 95350",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "date": "2019/04/09",
+            "gmap_id": "0x80905118dba83fd7:0x4f17900ddd100d9c",
+            "iid": 4442,
+            "name": "Dunkin'",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554840840372
+        },
+        {
+            "address": "Dutch Bros Coffee, 8610 Elk Grove Blvd, Elk Grove, CA 95624",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2019/04/18",
+            "gmap_id": "0x809ac713327f1709:0x43ac46b611a9f629",
+            "iid": 5266,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555630485254
+        },
+        {
+            "address": "Starbucks, 2045 W Briggsmore Ave, Modesto, CA 95350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/05/04",
+            "gmap_id": "0x809051754f35ec1b:0xedc3e36ebf16154c",
+            "iid": 4455,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556992025345
+        },
+        {
+            "address": "Starbucks, 424 S Auburn St, Colfax, CA 95713",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/19",
+            "gmap_id": "0x809b0b04d8ca373b:0x7d241f00af18628",
+            "iid": 5750,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1563564943793
+        },
+        {
+            "address": "McDonald's, 13370 Lincoln Way, Auburn, CA 95603",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/07/17",
+            "gmap_id": "0x809b051544b53f75:0xb11d9745106b742",
+            "iid": 5736,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1595013439353
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Mariscos Colima, 101 E Glenn Ave, Modesto, CA 95358",
+            "category": "['Seafood restaurant', 'Restaurant or cafe']",
+            "gmap_id": "0x8090535e762d912f:0x193b07643a6cd597",
+            "iid": 4462,
+            "name": "Mariscos Colima",
+            "rank": 1,
+            "score": -1.8119261264801025,
+            "state": "California"
+        },
+        {
+            "address": "Venice Love Shack, 2121 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Furniture store', 'Antique store', 'Art gallery', 'Cafe', 'Gift shop', 'Record store', 'Recording studio']",
+            "gmap_id": "0x80c2baecceed7b93:0x64fe445c7360c161",
+            "iid": 7325,
+            "name": "Venice Love Shack",
+            "rank": 2,
+            "score": -1.8732224702835083,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8441,
+            "name": "Figueroa & 28th",
+            "rank": 3,
+            "score": -1.904464840888977,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Fanny, 1603 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Cafe']",
+            "gmap_id": "0x80857ec5d4e6b3ff:0xda85adcdc5d3a4dd",
+            "iid": 1209,
+            "name": "Cafe Fanny",
+            "rank": 4,
+            "score": -1.9504585266113281,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11583,
+            "name": "Auntie Anne's",
+            "rank": 5,
+            "score": -1.9534599781036377,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 13191,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -1.9555044174194336,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7680 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8094695f51033869:0x93dcc3367550415",
+            "iid": 4917,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": -1.9904459714889526,
+            "state": "California"
+        },
+        {
+            "address": "Jim's Donuts & Bagels, 1915 CA-33, Newman, CA 95360",
+            "category": "['Cafe']",
+            "gmap_id": "0x8091a373001161a1:0xef6ffce368616534",
+            "iid": 4656,
+            "name": "Jim's Donuts & Bagels",
+            "rank": 8,
+            "score": -1.9915060997009277,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4311 Lincoln Blvd, Marina Del Rey, CA 90292",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2ba86fa10821d:0x43279408cc9632b4",
+            "iid": 7262,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -2.0025711059570312,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12911,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 10,
+            "score": -2.0104522705078125,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6655 N Riverside Dr, Fresno, CA 93722",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80946f1b9a92a131:0x49b6063e0e13f53e",
+            "iid": 4922,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -2.0447909832000732,
+            "state": "California"
+        },
+        {
+            "address": "Ideology Coffee, 312 N Central Ave, Glendale, CA 91203",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c103c70144d7:0x708f5ea89ad6a8c6",
+            "iid": 7858,
+            "name": "Ideology Coffee",
+            "rank": 12,
+            "score": -2.0553853511810303,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 7138,
+            "name": "CAFE5",
+            "rank": 13,
+            "score": -2.0620386600494385,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 11525 South St, Cerritos, CA 90703",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80dd2da03af2e5c3:0xa0900e8be5f9cc1c",
+            "iid": 12662,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.0646727085113525,
+            "state": "California"
+        },
+        {
+            "address": "Cafecito Organico Atwater, 2985 Glendale Blvd, Los Angeles, CA 90039",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "gmap_id": "0x80c2c1c7014b4145:0xa05f153eca3a42d9",
+            "iid": 7897,
+            "name": "Cafecito Organico Atwater",
+            "rank": 15,
+            "score": -2.0691890716552734,
+            "state": "California"
+        },
+        {
+            "address": "Silver Dragon Cafe, 1 Airport Dr, Oakland, CA 94621",
+            "category": "['Chinese restaurant', 'Cafe']",
+            "gmap_id": "0x808f8503392c3ced:0xc2b0af0b66ec81fd",
+            "iid": 3149,
+            "name": "Silver Dragon Cafe",
+            "rank": 16,
+            "score": -2.074490785598755,
+            "state": "California"
+        },
+        {
+            "address": "City Bean Roasters, 5051 W Jefferson Blvd, Los Angeles, CA 90016",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80c2b9b130b4a6d3:0x3a79c35029263c2b",
+            "iid": 7200,
+            "name": "City Bean Roasters",
+            "rank": 17,
+            "score": -2.077165365219116,
+            "state": "California"
+        },
+        {
+            "address": "Nordstrom Ebar Artisan Coffee, 550 Stanford Shopping Center, Palo Alto, CA 94304",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fbb333a82f94f:0x8631d379aadb7ac2",
+            "iid": 3757,
+            "name": "Nordstrom Ebar Artisan Coffee",
+            "rank": 18,
+            "score": -2.0776960849761963,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Code, 13250 Rosecrans Ave, Norwalk, CA 90650",
+            "category": "['Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80dd2da9688b79a5:0x1e2c63557e51ecbf",
+            "iid": 12670,
+            "name": "Coffee Code",
+            "rank": 19,
+            "score": -2.080399990081787,
+            "state": "California"
+        },
+        {
+            "address": "Caffino Cup, 315 W Calaveras Blvd, Milpitas, CA 95035",
+            "category": "['Cafe']",
+            "gmap_id": "0x808fc92877c2afb1:0x63a854312d9df5ba",
+            "iid": 3916,
+            "name": "Caffino Cup",
+            "rank": 20,
+            "score": -2.083294630050659,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Christina Lopez",
+        "uid": 137304,
+        "user_id": 113418415512257976372
+    }
+}

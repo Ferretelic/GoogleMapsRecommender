@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3421 McHenry Ave, Modesto, CA 95350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/12/29",
+            "gmap_id": "0x809051319f32fee7:0x76e8fe3588d6f6e1",
+            "iid": 4446,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514570846774
+        },
+        {
+            "address": "McDonald's, 801 Oakdale Rd, Modesto, CA 95355",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/12/29",
+            "gmap_id": "0x8090543ed3333f59:0xa82a8adf93faa6af",
+            "iid": 4487,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514570875392
+        },
+        {
+            "address": "McDonald's, 430 1st Ave, Gustine, CA 95322",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/12/29",
+            "gmap_id": "0x809198ba1ab0b51f:0x1a91d9dd4b7a5fe8",
+            "iid": 4655,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514571029676
+        },
+        {
+            "address": "McDonald's, 1800 Prescott Rd, Modesto, CA 95350, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/15",
+            "gmap_id": "0x8090510af101a685:0x93cd387c89df18ba",
+            "iid": 4440,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550218725329
+        },
+        {
+            "address": "Starbucks, 1800 Oakdale Rd J, Modesto, CA 95355",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/15",
+            "gmap_id": "0x809054271725a71f:0xd964be5d32abfb4d",
+            "iid": 4485,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550218739098
+        },
+        {
+            "address": "Starbucks, 820 Kansas Ave, Modesto, CA 95351",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/10/03",
+            "gmap_id": "0x809053db2531da9f:0x46226e7d76626140",
+            "iid": 4473,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570129343823
+        },
+        {
+            "address": "Starbucks, 800 Oakdale Rd, Modesto, CA 95355",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/10/03",
+            "gmap_id": "0x809054251b44a681:0xb46eb4869a38ccbc",
+            "iid": 4484,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570129358866
+        },
+        {
+            "address": "McDonald's, 2601 Oakdale Rd, Modesto, CA 95355",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/01/16",
+            "gmap_id": "0x8090569bea6ba321:0x9d1bee62003173cd",
+            "iid": 4500,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1579158344182
+        },
+        {
+            "address": "McDonald's, 2118 McHenry Ave, Modesto, CA 95350",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/01/16",
+            "gmap_id": "0x8090514e82fde4c7:0x170a6d953d79750b",
+            "iid": 4449,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1579158353185
+        },
+        {
+            "address": "Starbucks, 2001 McHenry Ave, Modesto, CA 95350",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "date": "2020/01/27",
+            "gmap_id": "0x809051faed853e81:0x5ba184901c777b24",
+            "iid": 4459,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1580158154359
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 2118 McHenry Ave, Modesto, CA 95350",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x8090514e82fde4c7:0x170a6d953d79750b",
+            "iid": 4449,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": 7.277621269226074,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2519 Coffee Rd, Modesto, CA 95355",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809056b07598b587:0x10580197427addfc",
+            "iid": 4501,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 6.277235507965088,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2045 W Briggsmore Ave, Modesto, CA 95350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809051754f35ec1b:0xedc3e36ebf16154c",
+            "iid": 4455,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 6.117297649383545,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 900 9th St, Modesto, CA 95354",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80905392967fbc67:0x9d0bed0496a1a6e6",
+            "iid": 4467,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": 5.545039176940918,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 6411 Oakdale Rd, Riverbank, CA 95367",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809050d0668f0655:0xd9fa00fe2a03a5c4",
+            "iid": 4438,
+            "name": "McDonald's",
+            "rank": 5,
+            "score": 5.539791584014893,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1500 Mitchell Rd, Ceres, CA 95307",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80905528f2278665:0x31b888fed4084121",
+            "iid": 4496,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 5.374547481536865,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1801 H St, Modesto, CA 95354, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809053f4fa1b76a3:0x6f8e0a133cde0ece",
+            "iid": 4481,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 5.362677574157715,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1801 McHenry Ave, Modesto, CA 95350, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8090514e310a0a87:0x116260f6603f977a",
+            "iid": 4448,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 5.300261497497559,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 2103 McHenry Ave Suite A, Modesto, CA 95350",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x8090514e88cb279b:0x18bc63aa6e812699",
+            "iid": 4450,
+            "name": "Panera Bread",
+            "rank": 9,
+            "score": 5.15604829788208,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3801 Yosemite Blvd #4, Modesto, CA 95357",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8090550969346e59:0xb9052ce0250e0b3f",
+            "iid": 4494,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 5.015902996063232,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 901 N Carpenter Rd, Modesto, CA 95351",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809053d4e818686f:0xe16707d5bcd7a7de",
+            "iid": 4472,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": 4.912849426269531,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3430 Tully Rd, Modesto, CA 95350",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80905118857f16f7:0xca1182f5750d8ea2",
+            "iid": 4441,
+            "name": "McDonald's",
+            "rank": 12,
+            "score": 4.896552085876465,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4120 Dale Rd, Modesto, CA 95356",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x8090504399d73fdb:0x423217b3eaa680df",
+            "iid": 4430,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": 4.7905426025390625,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1427 Herndon Rd, Modesto, CA 95351",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80905497ef0c97dd:0x1f0dc8ce0a1d4449",
+            "iid": 4490,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 4.600931167602539,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2213 Claribel Rd, Riverbank, CA 95367",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8090571df0f09063:0xec3009f89666261",
+            "iid": 4505,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": 4.553587913513184,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 166 E Whitmore Ave A, Modesto, CA 95358",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80905359fa94d6ab:0x917012021d6ce38e",
+            "iid": 4461,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": 4.384787082672119,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1280 E Whitmore Ave, Modesto, CA 95358",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809054b1f953441b:0xad44d7a5ca350ed7",
+            "iid": 4491,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 4.375941276550293,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1324 E Hatch Rd, Modesto, CA 95351",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809054bd637aa279:0x6e131d4c9d3f3ff7",
+            "iid": 4492,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": 4.249411582946777,
+            "state": "California"
+        },
+        {
+            "address": "Village Baking Company & Cafe, 1700 McHenry Ave, Modesto, CA 95350",
+            "category": "['Bakery', 'Coffee shop', 'Deli', 'Wedding bakery']",
+            "gmap_id": "0x80905153d3b2fd65:0xd4ae984d7a0961f3",
+            "iid": 4452,
+            "name": "Village Baking Company & Cafe",
+            "rank": 19,
+            "score": 4.185612678527832,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 409 Paradise Rd, Modesto, CA 95351",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809053bd2abc72bd:0x1fb5fac1beecd15c",
+            "iid": 4470,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 4.167417526245117,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jennifer Winters",
+        "uid": 117227,
+        "user_id": 111438080471144839575
+    }
+}

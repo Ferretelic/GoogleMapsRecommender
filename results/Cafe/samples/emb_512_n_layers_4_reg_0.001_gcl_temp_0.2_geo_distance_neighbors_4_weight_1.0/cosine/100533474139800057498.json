@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 2457 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x80c2ba8d81a4f4a3:0xda755b331494147",
+            "iid": 7267,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549164582041
+        },
+        {
+            "address": "McDonald's, 695 S Western Ave, Los Angeles, CA 90005",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x80c2b885131ddfad:0xe8dbbb27b4cf0f4f",
+            "iid": 6983,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549164587042
+        },
+        {
+            "address": "McDonald's, 3105 N Broadway, Los Angeles, CA 90031",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/14",
+            "gmap_id": "0x80c2c5d5c6f94eb7:0xdb0bf5cb654c9b92",
+            "iid": 8077,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550122977323
+        },
+        {
+            "address": "McDonald's, 10623 Venice Blvd, Los Angeles, CA 90034",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/14",
+            "gmap_id": "0x80c2ba3049796f67:0x64e559218d4e4d84",
+            "iid": 7237,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552535030830
+        },
+        {
+            "address": "Yum Yum Donuts, 1834 Marengo St, Los Angeles, CA 90033",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/06/07",
+            "gmap_id": "0x80c2c6748be12863:0x6e9755dabe889078",
+            "iid": 8194,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559882880059
+        },
+        {
+            "address": "Yum Yum Donuts, 12201 Venice Blvd, Los Angeles, CA 90066",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/08/30",
+            "gmap_id": "0x80c2ba5c7049e5b1:0x710fcec4654a9941",
+            "iid": 7246,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567187484275
+        },
+        {
+            "address": "Winchell's Donut House, 1700 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2b87a8d90296f:0xef8ec1fefe066dcd",
+            "iid": 6966,
+            "name": "Winchell's Donut House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568142442799
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7803,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576870678769
+        },
+        {
+            "address": "Starbucks, 10911 W Pico Blvd, Los Angeles, CA 90064",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2bb9cf4c211cd:0x2d23cb256f811473",
+            "iid": 7433,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1576870758302
+        },
+        {
+            "address": "Yum Yum Donuts., 724 N Highland Ave, Los Angeles, CA 90038",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2b8d33e76c053:0xc7f5c392d8eded6",
+            "iid": 7051,
+            "name": "Yum Yum Donuts.",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1576870766412
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Dunkin, 2300 Venice Blvd, Los Angeles, CA 90019",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80c2b87ae5c4500b:0x129237a6f80faa97",
+            "iid": 6967,
+            "name": "Dunkin",
+            "rank": 1,
+            "score": 0.5241953730583191,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 3610 Venice Blvd, Los Angeles, CA 90019",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b85e0dea161b:0x4b19087f1b81e937",
+            "iid": 6961,
+            "name": "Winchell's Donut House",
+            "rank": 2,
+            "score": 0.5045966506004333,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1716 Marengo St, Los Angeles, CA 90033",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c6738e28e8af:0x6a14689fcc9c5313",
+            "iid": 8193,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": 0.4817536473274231,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 1608 Hoover St, Los Angeles, CA 90006",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c79171db6f99:0x634745c54a195fc5",
+            "iid": 8343,
+            "name": "Yum Yum Donuts",
+            "rank": 4,
+            "score": 0.44800159335136414,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1800 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b87a818f4605:0xccd05dc4485d4988",
+            "iid": 6965,
+            "name": "McDonald's",
+            "rank": 5,
+            "score": 0.4393966794013977,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2809 Lincoln Blvd, Santa Monica, CA 90405",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bad9faa25f1b:0x7118ed0bde96114a",
+            "iid": 7319,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 0.42569708824157715,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 245 N Soto St, Los Angeles, CA 90033",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c60871fc7e81:0x91946837739db6ad",
+            "iid": 8085,
+            "name": "McDonald's",
+            "rank": 7,
+            "score": 0.40941786766052246,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1311 W Washington Blvd, Los Angeles, CA 90006",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c793a9bf3edd:0x908f2d6293ce0caa",
+            "iid": 8344,
+            "name": "McDonald's",
+            "rank": 8,
+            "score": 0.4086671471595764,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1660 Venice Blvd, Los Angeles, CA 90006",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c78fa7819ee3:0x7acac639e0af8f39",
+            "iid": 8342,
+            "name": "McDonald's",
+            "rank": 9,
+            "score": 0.40611886978149414,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 2619 N Figueroa St Unit E, Los Angeles, CA 90065",
+            "category": "['Donut shop', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2c7bd5b469ecd:0xe5d8cb6ac16bcc19",
+            "iid": 8405,
+            "name": "Yum Yum Donuts",
+            "rank": 10,
+            "score": 0.40454789996147156,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 10833 National Blvd, Los Angeles, CA 90064",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bbb6c4bdcf6b:0x7d16c375b05bea43",
+            "iid": 7443,
+            "name": "Winchell's Donut House",
+            "rank": 11,
+            "score": 0.40439075231552124,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2224 N Figueroa St, Los Angeles, CA 90065",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c68e00e1e6b7:0x9220563e89962cc3",
+            "iid": 8197,
+            "name": "McDonald's",
+            "rank": 12,
+            "score": 0.39253270626068115,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4835 Sepulveda Blvd, Culver City, CA 90230",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2ba1a574bbc19:0x9b4d08fbdb51ecc0",
+            "iid": 7218,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": 0.3923411965370178,
+            "state": "California"
+        },
+        {
+            "address": "Grand View Market, 12210 Venice Blvd, Venice, CA 90291",
+            "category": "['Deli', 'American restaurant', 'Beer store', 'Cafe', 'Natural goods store']",
+            "gmap_id": "0x80c2ba5c6759ebd7:0xb8eef5e7559d1a32",
+            "iid": 7244,
+            "name": "Grand View Market",
+            "rank": 14,
+            "score": 0.3901456892490387,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 1614 S Crenshaw Blvd, Los Angeles, CA 90019",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80c2b85f2bd071c3:0xfdf1ee80db56aa22",
+            "iid": 6962,
+            "name": "Dunkin'",
+            "rank": 15,
+            "score": 0.3851451277732849,
+            "state": "California"
+        },
+        {
+            "address": "La Monarca Bakery & Cafe, 2127 East Cesar E Chavez Avenue, Los Angeles, CA 90033",
+            "category": "['Cafe', 'Bakery', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2c609205f9fc7:0xb2def4ff7279a23",
+            "iid": 8086,
+            "name": "La Monarca Bakery & Cafe",
+            "rank": 16,
+            "score": 0.38364163041114807,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts., 724 N Highland Ave, Los Angeles, CA 90038",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x80c2b8d33e76c053:0xc7f5c392d8eded6",
+            "iid": 7051,
+            "name": "Yum Yum Donuts.",
+            "rank": 17,
+            "score": 0.37750688195228577,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5930 W Pico Blvd, Los Angeles, CA 90035, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b8fd3a7ae501:0x61125bdf20f8f7bd",
+            "iid": 7082,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": 0.3739588260650635,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 12404 W, Venice Blvd Suite A, Los Angeles, CA 90066",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x14e1ba93817ad3b7:0x1a95306b1eac35fa",
+            "iid": 7,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 0.37137091159820557,
+            "state": "California"
+        },
+        {
+            "address": "Centinela Cafe, 4800 S Centinela Ave, Los Angeles, CA 90066",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2ba0ad89a9bcf:0xaa3e84f2c725facd",
+            "iid": 7216,
+            "name": "Centinela Cafe",
+            "rank": 20,
+            "score": 0.3713045120239258,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Agustin Martinez",
+        "uid": 5553,
+        "user_id": 100533474139800057498
+    }
+}

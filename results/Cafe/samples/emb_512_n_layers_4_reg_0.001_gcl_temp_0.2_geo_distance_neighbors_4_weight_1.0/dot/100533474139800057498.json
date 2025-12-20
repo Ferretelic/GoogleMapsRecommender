@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 2457 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x80c2ba8d81a4f4a3:0xda755b331494147",
+            "iid": 7267,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549164582041
+        },
+        {
+            "address": "McDonald's, 695 S Western Ave, Los Angeles, CA 90005",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x80c2b885131ddfad:0xe8dbbb27b4cf0f4f",
+            "iid": 6983,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549164587042
+        },
+        {
+            "address": "McDonald's, 3105 N Broadway, Los Angeles, CA 90031",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/14",
+            "gmap_id": "0x80c2c5d5c6f94eb7:0xdb0bf5cb654c9b92",
+            "iid": 8077,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550122977323
+        },
+        {
+            "address": "McDonald's, 10623 Venice Blvd, Los Angeles, CA 90034",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/14",
+            "gmap_id": "0x80c2ba3049796f67:0x64e559218d4e4d84",
+            "iid": 7237,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552535030830
+        },
+        {
+            "address": "Yum Yum Donuts, 1834 Marengo St, Los Angeles, CA 90033",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/06/07",
+            "gmap_id": "0x80c2c6748be12863:0x6e9755dabe889078",
+            "iid": 8194,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559882880059
+        },
+        {
+            "address": "Yum Yum Donuts, 12201 Venice Blvd, Los Angeles, CA 90066",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/08/30",
+            "gmap_id": "0x80c2ba5c7049e5b1:0x710fcec4654a9941",
+            "iid": 7246,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567187484275
+        },
+        {
+            "address": "Winchell's Donut House, 1700 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2b87a8d90296f:0xef8ec1fefe066dcd",
+            "iid": 6966,
+            "name": "Winchell's Donut House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568142442799
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7803,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576870678769
+        },
+        {
+            "address": "Starbucks, 10911 W Pico Blvd, Los Angeles, CA 90064",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2bb9cf4c211cd:0x2d23cb256f811473",
+            "iid": 7433,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1576870758302
+        },
+        {
+            "address": "Yum Yum Donuts., 724 N Highland Ave, Los Angeles, CA 90038",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop']",
+            "date": "2019/12/20",
+            "gmap_id": "0x80c2b8d33e76c053:0xc7f5c392d8eded6",
+            "iid": 7051,
+            "name": "Yum Yum Donuts.",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1576870766412
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 1716 Marengo St, Los Angeles, CA 90033",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c6738e28e8af:0x6a14689fcc9c5313",
+            "iid": 8193,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": 5.831848621368408,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1800 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b87a818f4605:0xccd05dc4485d4988",
+            "iid": 6965,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": 4.693779945373535,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1660 Venice Blvd, Los Angeles, CA 90006",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c78fa7819ee3:0x7acac639e0af8f39",
+            "iid": 8342,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": 4.639799118041992,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 245 N Soto St, Los Angeles, CA 90033",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c60871fc7e81:0x91946837739db6ad",
+            "iid": 8085,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": 4.609296798706055,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1311 W Washington Blvd, Los Angeles, CA 90006",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c793a9bf3edd:0x908f2d6293ce0caa",
+            "iid": 8344,
+            "name": "McDonald's",
+            "rank": 5,
+            "score": 4.2744364738464355,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2809 Lincoln Blvd, Santa Monica, CA 90405",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bad9faa25f1b:0x7118ed0bde96114a",
+            "iid": 7319,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 4.227286338806152,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4835 Sepulveda Blvd, Culver City, CA 90230",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2ba1a574bbc19:0x9b4d08fbdb51ecc0",
+            "iid": 7218,
+            "name": "McDonald's",
+            "rank": 7,
+            "score": 4.1717119216918945,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 3610 Venice Blvd, Los Angeles, CA 90019",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b85e0dea161b:0x4b19087f1b81e937",
+            "iid": 6961,
+            "name": "Winchell's Donut House",
+            "rank": 8,
+            "score": 4.101261138916016,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2224 N Figueroa St, Los Angeles, CA 90065",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c68e00e1e6b7:0x9220563e89962cc3",
+            "iid": 8197,
+            "name": "McDonald's",
+            "rank": 9,
+            "score": 4.100355625152588,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin, 2300 Venice Blvd, Los Angeles, CA 90019",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80c2b87ae5c4500b:0x129237a6f80faa97",
+            "iid": 6967,
+            "name": "Dunkin",
+            "rank": 10,
+            "score": 3.9872512817382812,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1231 South La Brea Ave, Los Angeles, CA 90019",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b8fd3753a2c5:0xbaf7bd74532a5d67",
+            "iid": 7081,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": 3.9653525352478027,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2838 Crenshaw Blvd, Los Angeles, CA 90016",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b84f5a7e6ac5:0x64f38a9570bd2251",
+            "iid": 6959,
+            "name": "McDonald's",
+            "rank": 12,
+            "score": 3.898510456085205,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5930 W Pico Blvd, Los Angeles, CA 90035, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b8fd3a7ae501:0x61125bdf20f8f7bd",
+            "iid": 7082,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": 3.839999198913574,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1617 N Eastern Ave, Los Angeles, CA 90063",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c590d4ab8cb3:0xa4dfbcb2ee0ff65",
+            "iid": 8068,
+            "name": "McDonald's",
+            "rank": 14,
+            "score": 3.8312339782714844,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4947 Huntington Dr, Los Angeles, CA 90032",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c44c636052ff:0xf96c0d203f95187c",
+            "iid": 8000,
+            "name": "McDonald's",
+            "rank": 15,
+            "score": 3.794851303100586,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3501 S La Cienega Blvd, Los Angeles, CA 90016",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b9970bbfeb47:0x4ecf052de170658a",
+            "iid": 7189,
+            "name": "McDonald's",
+            "rank": 16,
+            "score": 3.725295305252075,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1106 Cornwell St, Los Angeles, CA 90033",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c5e03ee34013:0x8e4e67abd6bfa26",
+            "iid": 8079,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": 3.653731346130371,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2902 W Pico Blvd, Santa Monica, CA 90405",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bb176691aa95:0xa3b5d8d610a2cdc0",
+            "iid": 7337,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": 3.618694305419922,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1845 S La Cienega Blvd, Los Angeles, CA 90035",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b971eafae629:0xbd81e4ac74ad56e9",
+            "iid": 7176,
+            "name": "McDonald's",
+            "rank": 19,
+            "score": 3.5807442665100098,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2712 Santa Monica Blvd, Santa Monica, CA 90404",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bb464ecbcd11:0xe560c9387097a851",
+            "iid": 7372,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 3.555333137512207,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Agustin Martinez",
+        "uid": 5553,
+        "user_id": 100533474139800057498
+    }
+}

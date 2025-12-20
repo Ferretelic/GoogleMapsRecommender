@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3211 Stanford Ranch Road Pad B-1, Rocklin, CA 95765",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/03/24",
+            "gmap_id": "0x809b18af2da7737d:0xb7b3174bf305a6a3",
+            "iid": 5766,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521909803624
+        },
+        {
+            "address": "Panera Bread, 916 Pleasant Grove Blvd, Roseville, CA 95678",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/09/20",
+            "gmap_id": "0x809b21935ee11645:0x56a8faf0d04661c0",
+            "iid": 5826,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569011790490
+        },
+        {
+            "address": "Starbucks, 1450 Ary Ln Suite F, Dixon, CA 95620",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/09/28",
+            "gmap_id": "0x808525b993edff19:0x6a2515d6ce029b4c",
+            "iid": 684,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569693554700
+        },
+        {
+            "address": "Peet's Coffee, 731 Pleasant Grove Blvd Suite 185, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "date": "2020/01/25",
+            "gmap_id": "0x809b21ee11789e3d:0x9f61e3dddc5262b7",
+            "iid": 5847,
+            "name": "Peet's Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1579917375369
+        },
+        {
+            "address": "Wally's Cafe (Rocklin - Sunset Blvd), 2110 Sunset Blvd Unit 600, Rocklin, CA 95765",
+            "category": "['Lebanese restaurant', 'Cafe', 'Mediterranean restaurant', 'Middle Eastern restaurant']",
+            "date": "2020/02/02",
+            "gmap_id": "0x809b2217bc381c63:0x3680662f7c4a2fc9",
+            "iid": 5854,
+            "name": "Wally's Cafe (Rocklin - Sunset Blvd)",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580619852219
+        },
+        {
+            "address": "Bloom Coffee and Tea, 1485 Eureka Rd #100, Roseville, CA 95661",
+            "category": "['Cafe', 'Coffee shop', 'Restaurant', 'Tea house']",
+            "date": "2020/02/16",
+            "gmap_id": "0x809b1f8d5c3b549b:0x25db328e4ed3a66d",
+            "iid": 5784,
+            "name": "Bloom Coffee and Tea",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581895772774
+        },
+        {
+            "address": "Starbucks, 6021 Stanford Ranch Rd, Rocklin, CA 95765",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/03/06",
+            "gmap_id": "0x809b21fd74e7b3df:0x33a0a460c9c4471",
+            "iid": 5850,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583522529604
+        },
+        {
+            "address": "Barnes & Noble, Creekside Town Center 1256, Galleria Blvd, Roseville, CA 95678",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "date": "2020/03/06",
+            "gmap_id": "0x809b21d7a76a457d:0xe3f1aa56078f1bf6",
+            "iid": 5839,
+            "name": "Barnes & Noble",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583522536148
+        },
+        {
+            "address": "Pottery World, 4419 Granite Dr Suite B, Rocklin, CA 95677",
+            "category": "['Home goods store', 'Boutique', 'Cafe', 'Dried flower shop', 'Furniture store', 'Outdoor furniture store', 'Pottery store', 'Statuary']",
+            "date": "2020/07/18",
+            "gmap_id": "0x809b1ee1bbeb7d6d:0x9318ed05bc1a2dad",
+            "iid": 5776,
+            "name": "Pottery World",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1595108918917
+        },
+        {
+            "address": "Pottery World, 4419 Granite Dr Suite B, Rocklin, CA 95677",
+            "category": "['Home goods store', 'Boutique', 'Cafe', 'Dried flower shop', 'Furniture store', 'Outdoor furniture store', 'Pottery store', 'Statuary']",
+            "date": "2020/07/18",
+            "gmap_id": "0x809b1ee1bbeb7d6d:0x9318ed05bc1a2dad",
+            "iid": 5776,
+            "name": "Pottery World",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1595108918917
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 2220 Sunset Blvd, Rocklin, CA 95765",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809b2202b56dcde3:0xfa42ad07485cea79",
+            "iid": 5851,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": -1.68209969997406,
+            "state": "California"
+        },
+        {
+            "address": "Mrs. Fields, 1151 Galleria Blvd #276, Roseville, CA 95678",
+            "category": "['Bakery', 'Cake shop', 'Coffee shop', 'Cookie shop', 'Dessert shop']",
+            "gmap_id": "0x809b21d0a8c8d4b9:0xa013e6e3385de1eb",
+            "iid": 5830,
+            "name": "Mrs. Fields",
+            "rank": 2,
+            "score": -1.7112361192703247,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 4180 Thrive Dr. Suite 100, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x809b23807a9287f3:0x913852def3edfc64",
+            "iid": 5863,
+            "name": "Peet's Coffee",
+            "rank": 3,
+            "score": -1.8702508211135864,
+            "state": "California"
+        },
+        {
+            "address": "PARTY PLACE, 6831 Lonetree Blvd Suite 101, Rocklin, CA 95765",
+            "category": "['Amusement center', 'Art center', 'Art gallery', 'Boutique', 'Coffee shop', 'Coffee store', 'Party store', 'Recreation center', 'Tea house', 'Video arcade']",
+            "gmap_id": "0x809b219ca563b4eb:0x715af6158e964be9",
+            "iid": 5829,
+            "name": "PARTY PLACE",
+            "rank": 4,
+            "score": -1.9169948101043701,
+            "state": "California"
+        },
+        {
+            "address": "Bru, 3565 Taylor Rd, Loomis, CA 95650",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809b1fdc5b79cdd3:0xd1c05dda25712b4f",
+            "iid": 5793,
+            "name": "Bru",
+            "rank": 5,
+            "score": -1.962272047996521,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5454 Sierra College Blvd, Rocklin, CA 95677",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809b1ee9afe78345:0xc5f9c63ab59d8b21",
+            "iid": 5778,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": -2.0253872871398926,
+            "state": "California"
+        },
+        {
+            "address": "Pipeline Coffee House, 1520 Del Webb Blvd, Lincoln, CA 95648",
+            "category": "['Cafe']",
+            "gmap_id": "0x809b22b1d41b7a4f:0xa774020f7f904c9b",
+            "iid": 5858,
+            "name": "Pipeline Coffee House",
+            "rank": 7,
+            "score": -2.0270774364471436,
+            "state": "California"
+        },
+        {
+            "address": "Sierra College Campus Center, Rocklin, CA 95677",
+            "category": "['Cafe']",
+            "gmap_id": "0x809b1fd6ed99b327:0xd30a75aa3f4729fc",
+            "iid": 5789,
+            "name": "Sierra College Campus Center",
+            "rank": 8,
+            "score": -2.097743034362793,
+            "state": "California"
+        },
+        {
+            "address": "Citizen Vine, Located inside Citizen Vine, 845 Twelve Bridges Dr suite 145, Lincoln, CA 95648",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x809b23fff6dc20e5:0x6d2b7def139de1fe",
+            "iid": 5866,
+            "name": "Citizen Vine",
+            "rank": 9,
+            "score": -2.107438802719116,
+            "state": "California"
+        },
+        {
+            "address": "Bobo Caf\u00e9, 1821 Douglas Blvd, Roseville, CA 95661",
+            "category": "['Asian restaurant', 'Cafe']",
+            "gmap_id": "0x809b1ff5d2942481:0x596989006998b7bc",
+            "iid": 5798,
+            "name": "Bobo Caf\u00e9",
+            "rank": 10,
+            "score": -2.117871046066284,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8441,
+            "name": "Figueroa & 28th",
+            "rank": 11,
+            "score": -2.156708002090454,
+            "state": "California"
+        },
+        {
+            "address": "The Yummy Cookie, 10305 Fairway Dr #110, Roseville, CA 95678",
+            "category": "['Cookie shop', 'Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Ice cream shop']",
+            "gmap_id": "0x809b21ed9d70d2e5:0xe78a0bd3eaafaa0a",
+            "iid": 5845,
+            "name": "The Yummy Cookie",
+            "rank": 12,
+            "score": -2.1685409545898438,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7680 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8094695f51033869:0x93dcc3367550415",
+            "iid": 4917,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -2.188455820083618,
+            "state": "California"
+        },
+        {
+            "address": "Venice Love Shack, 2121 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Furniture store', 'Antique store', 'Art gallery', 'Cafe', 'Gift shop', 'Record store', 'Recording studio']",
+            "gmap_id": "0x80c2baecceed7b93:0x64fe445c7360c161",
+            "iid": 7325,
+            "name": "Venice Love Shack",
+            "rank": 14,
+            "score": -2.197450876235962,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee & Tea, 6845 Douglas Blvd, Granite Bay, CA 95746",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x809ae1f72dc65069:0x4be4e0b202ddf60d",
+            "iid": 5655,
+            "name": "Peet's Coffee & Tea",
+            "rank": 15,
+            "score": -2.1976802349090576,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9045 Woodcreek Oaks Blvd, Roseville, CA 95747",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x809b23dd4f5e0507:0x718327ccf5213d0c",
+            "iid": 5865,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -2.2157227993011475,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 13191,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -2.2311270236968994,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12911,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 18,
+            "score": -2.240482807159424,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11583,
+            "name": "Auntie Anne's",
+            "rank": 19,
+            "score": -2.2461283206939697,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6949 Douglas-Auburn Folsom Rd, Granite Bay, CA 95746",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809ae21d7fe264d3:0xd9b110b3780747f6",
+            "iid": 5656,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -2.2477641105651855,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Chris Johnson",
+        "uid": 71192,
+        "user_id": 106949903816292504593
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 1301 N Mildred Ave, King City, CA 93930",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/12/06",
+            "gmap_id": "0x8092f13cccae422f:0xf1cd28e8144de1a9",
+            "iid": 4714,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1512569391144
+        },
+        {
+            "address": "From Scratch Restaurant, 3626 The Barnyard Building C, Carmel-By-The-Sea, CA 93923",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "date": "2018/04/27",
+            "gmap_id": "0x808de8aa03dfd4db:0x4a8c5f27e6805901",
+            "iid": 2205,
+            "name": "From Scratch Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524798092065
+        },
+        {
+            "address": "Starbucks, 1363 N Davis Rd, Salinas, CA 93907",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/05/06",
+            "gmap_id": "0x808dff240998d0d9:0x3711946aefb7fc3f",
+            "iid": 2241,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1525627857813
+        },
+        {
+            "address": "Earthbound Farm's Farm Stand, 7250 Carmel Valley Rd, Carmel-By-The-Sea, CA 93923",
+            "category": "['Produce market', 'Cafe', 'Coffee shop', 'Event venue', 'Garden', 'Gift shop', 'Organic farm', 'Organic food store']",
+            "date": "2018/07/14",
+            "gmap_id": "0x808defa48ce23f6f:0x1b980340ab880794",
+            "iid": 2207,
+            "name": "Earthbound Farm's Farm Stand",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531531374744
+        },
+        {
+            "address": "Starbucks, 627 Orange St D, Redlands, CA 92374",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/12/03",
+            "gmap_id": "0x80dcaa72e75d5db3:0x5a1ea6c2fab80e7c",
+            "iid": 11202,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543860253510
+        },
+        {
+            "address": "Social House Craft Sandwiches, 1001 Heavenly Village Way Suite 3, South Lake Tahoe, CA 96150",
+            "category": "['Cafe', 'Bar & grill', 'Deli']",
+            "date": "2019/02/15",
+            "gmap_id": "0x8099907691e197fb:0xf03bc8492b49bfa8",
+            "iid": 5136,
+            "name": "Social House Craft Sandwiches",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550263230606
+        },
+        {
+            "address": "McDonald's, 1350 Broadway Cir, King City, CA 93930",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/21",
+            "gmap_id": "0x8092f122d61f7a4f:0x3096e4a877eb88b9",
+            "iid": 4713,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1553198863894
+        },
+        {
+            "address": "Heaven's Little Cafe, 1001 Heavenly Village Way #23, South Lake Tahoe, CA 96150",
+            "category": "['Coffee shop']",
+            "date": "2019/04/25",
+            "gmap_id": "0x80999076f45f5f45:0x6f71f540489c939",
+            "iid": 5140,
+            "name": "Heaven's Little Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556219696534
+        },
+        {
+            "address": "The Carmel Coffee House and Roasting Company, Dolores St, Carmel-By-The-Sea, CA 93921",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Coffee store']",
+            "date": "2019/09/16",
+            "gmap_id": "0x808de6154fc56705:0xebf2cc9b7362ca95",
+            "iid": 2192,
+            "name": "The Carmel Coffee House and Roasting Company",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1568659833785
+        },
+        {
+            "address": "Toro Place Cafe, 665 Monterey Salinas Hwy, Salinas, CA 93908",
+            "category": "['Cafe']",
+            "date": "2020/01/08",
+            "gmap_id": "0x808df74b9e4b0eef:0xcc9b02a0f5bc47f",
+            "iid": 2211,
+            "name": "Toro Place Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1578519154224
+        }
+    ],
+    "model": {
+        "model_name": "KNN",
+        "name": "KNN",
+        "type": "baseline"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 46330 W Panoche Rd, Firebaugh, CA 93622",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x8093bb78c9d4f5b3:0xc1a943c174c32511",
+            "iid": 4723,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": -14.768802642822266,
+            "state": "California"
+        },
+        {
+            "address": "Star Cafe, 1320 N St, Firebaugh, CA 93622",
+            "category": "['Cafe']",
+            "gmap_id": "0x8093eb976e333ed7:0x63658aefa145972c",
+            "iid": 4725,
+            "name": "Star Cafe",
+            "rank": 2,
+            "score": -15.755457878112793,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 750 Derrick Ave, Mendota, CA 93640",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x8093922b0dac4f13:0x4487546815a85598",
+            "iid": 4722,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": -18.676538467407227,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Saloon, 1909 Marguerite St, Dos Palos, CA 93620",
+            "category": "['Coffee shop', 'Bistro', 'Breakfast restaurant', 'Lunch restaurant', 'Pastry shop', 'Sandwich shop']",
+            "gmap_id": "0x8093dbfbf4240001:0x14c8cda29390ccc0",
+            "iid": 4724,
+            "name": "The Coffee Saloon",
+            "rank": 4,
+            "score": -24.287090301513672,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 1430 E Pacheco Blvd, Los Banos, CA 93635",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80917f1e89e9a689:0xfe1ef6df08c7b937",
+            "iid": 4649,
+            "name": "Dutch Bros Coffee",
+            "rank": 5,
+            "score": -38.3045539855957,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1480 Mercey Springs Rd, Los Banos, CA 93635, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80917ef1a84d9155:0x6801d0a009ef4659",
+            "iid": 4644,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": -38.34480667114258,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1380 E Pacheco Blvd A, Los Banos, CA 93635",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80917ef19acdd289:0x9cc7bd7a703dcbca",
+            "iid": 4643,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": -38.350215911865234,
+            "state": "California"
+        },
+        {
+            "address": "Eddie's Restaurant, 401 W Pacheco Blvd, Los Banos, CA 93635",
+            "category": "['Cafe', 'Restaurant']",
+            "gmap_id": "0x80917f1a2ca5d663:0xe10dc0148537a908",
+            "iid": 4648,
+            "name": "Eddie's Restaurant",
+            "rank": 8,
+            "score": -39.55559158325195,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 360 N Mercey Springs Rd, Los Banos, CA 93635",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80917f8cb220e287:0x2a0bcad4526200bd",
+            "iid": 4652,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -39.85898208618164,
+            "state": "California"
+        },
+        {
+            "address": "Circle K, 410 Mercey Springs Rd, Los Banos, CA 93635",
+            "category": "['Convenience store', 'ATM', 'Car wash', 'Coffee shop', 'Coffee store', 'Diesel fuel supplier', 'Gas station', 'Public bathroom', 'Soft drinks shop']",
+            "gmap_id": "0x80917ef316b31c8f:0x7ec1cb94dff0c86b",
+            "iid": 4645,
+            "name": "Circle K",
+            "rank": 10,
+            "score": -39.96818923950195,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1405 W Pacheco Blvd, Los Banos, CA 93635",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80917f15477700b1:0xe253218f5ebd41cd",
+            "iid": 4647,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -40.27227783203125,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1363 W Pacheco Blvd A, Los Banos, CA 93635",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80917f153fd8ea23:0x9de483c46eae1e4c",
+            "iid": 4646,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -40.34944152832031,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1575 W Pacheco Blvd, Los Banos, CA 93635",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80917f69880dc08d:0x29fcf43a757aff83",
+            "iid": 4651,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": -40.50515365600586,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1500 W Pacheco Blvd, Los Banos, CA 93635",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80917f42242cda2f:0x3a2eb0b137b46e1c",
+            "iid": 4650,
+            "name": "McDonald's",
+            "rank": 14,
+            "score": -40.72724151611328,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 15100 W Whitesbridge Ave, Kerman, CA 93630",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80947a2151640f8f:0xde55d2848baf29e1",
+            "iid": 4926,
+            "name": "McDonald's",
+            "rank": 15,
+            "score": -47.775081634521484,
+            "state": "California"
+        },
+        {
+            "address": "Mexican Imports, Kerman, CA 93630",
+            "category": "['Mexican restaurant', 'Cafe']",
+            "gmap_id": "0x80947a23e95d8de1:0x657d543c4ec33df2",
+            "iid": 4927,
+            "name": "Mexican Imports",
+            "rank": 16,
+            "score": -47.885494232177734,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 14061 W Whitesbridge Ave, Kerman, CA 93630",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80947a38003bf37d:0x36beebb8c9ce8294",
+            "iid": 4929,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": -49.25650405883789,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 14025 West Whitesbridge Road, Kerman, CA 93630",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80947a37febaaf77:0x4b8672c7f33afb7a",
+            "iid": 4928,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -49.360740661621094,
+            "state": "California"
+        },
+        {
+            "address": "Cinnabon, 22717 Ave 18 1/2, Madera, CA 93637",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x8094084983dd9d73:0x3a670096379ceb59",
+            "iid": 4729,
+            "name": "Cinnabon",
+            "rank": 19,
+            "score": -49.63356399536133,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 18555 Pistachio Dr, Madera, CA 93637",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8094084960b17cf7:0xd798508f2bfd6ae4",
+            "iid": 4728,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -49.75447463989258,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Mark Phillips",
+        "uid": 127813,
+        "user_id": 112491623414474676436
+    }
+}

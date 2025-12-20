@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 7085 Clairemont Mesa Blvd, San Diego, CA 92111",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/06/01",
+            "gmap_id": "0x80dbff845d22b893:0xe75e18a51c092ac6",
+            "iid": 10620,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1527832772138
+        },
+        {
+            "address": "McDonald's, 1624 Rosecrans St, San Diego, CA 92106",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/11/18",
+            "gmap_id": "0x80deaba42bcd3bc7:0x59eefe5319143e4f",
+            "iid": 13166,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542571524323
+        },
+        {
+            "address": "Cafe Moto, 2619 National Ave, San Diego, CA 92113",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2018/12/11",
+            "gmap_id": "0x80d9530d8e32b95f:0x4691331edf665d13",
+            "iid": 9709,
+            "name": "Cafe Moto",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544548256299
+        },
+        {
+            "address": "McDonald's, 1695 E Main St, El Cajon, CA 92021",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/13",
+            "gmap_id": "0x80d9591e4655f0b5:0x1890e32fa68d1a38",
+            "iid": 10097,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552511885465
+        },
+        {
+            "address": "McDonald's, 8876 Cuyamaca St, Santee, CA 92071",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/03/13",
+            "gmap_id": "0x80d958003c002a53:0x3fc639517dae58f0",
+            "iid": 10073,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552511955594
+        },
+        {
+            "address": "Starbucks, 1666 Rosecrans St, San Diego, CA 92106",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "date": "2020/03/12",
+            "gmap_id": "0x80deaba67f47a681:0x29ae8933650afd91",
+            "iid": 13169,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583993523773
+        },
+        {
+            "address": "Yum Yum Donuts, 6998 Federal Blvd, Lemon Grove, CA 92045",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/03/12",
+            "gmap_id": "0x80d956ccddccbf81:0xdc81ff64be8319b3",
+            "iid": 10025,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583993619062
+        },
+        {
+            "address": "McDonald's, 3400 Highland Ave, National City, CA 91950",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/06/13",
+            "gmap_id": "0x80d9520670bec313:0x6dde2edf8dfd8e59",
+            "iid": 9692,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1592014848150
+        },
+        {
+            "address": "McDonald's, 707 W San Ysidro Blvd, San Ysidro, CA 92173",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/10/06",
+            "gmap_id": "0x80d949470527a199:0x8b8072115d5137c6",
+            "iid": 9605,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1602002233412
+        },
+        {
+            "address": "McDonald's, 6925 Paradise Valley Rd, San Diego, CA 92139",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/10/14",
+            "gmap_id": "0x80d951bab2f9e5af:0x767a4a7df48d7199",
+            "iid": 9687,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1602695164565
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 75 Broadway, Chula Vista, CA 91910",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80d9520670bec313:0x7ac6f3107126905e",
+            "iid": 9693,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": -1.8881502151489258,
+            "state": "California"
+        },
+        {
+            "address": "The Bean Box, 4019 W Point Loma Blvd, San Diego, CA 92110",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80deaa5847de2735:0x7f6067e1600b714b",
+            "iid": 13102,
+            "name": "The Bean Box",
+            "rank": 2,
+            "score": -1.9572157859802246,
+            "state": "California"
+        },
+        {
+            "address": "Bruegger's Bagels, 3705 Norman Scott Rd Building 3631, San Diego, CA 92136",
+            "category": "['Bagel shop', 'Breakfast restaurant', 'Cafe', 'Caterer', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80d953abf9af9d4b:0x147e3d5ac11ab431",
+            "iid": 9783,
+            "name": "Bruegger's Bagels",
+            "rank": 3,
+            "score": -1.9667757749557495,
+            "state": "California"
+        },
+        {
+            "address": "Barona Coffee Company, 1932 Wildcat Canyon Rd, Lakeside, CA 92040",
+            "category": "['Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x80dbe14f303fd27d:0x2cae9ebade59d62",
+            "iid": 10459,
+            "name": "Barona Coffee Company",
+            "rank": 4,
+            "score": -1.9824926853179932,
+            "state": "California"
+        },
+        {
+            "address": "Venice Love Shack, 2121 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Furniture store', 'Antique store', 'Art gallery', 'Cafe', 'Gift shop', 'Record store', 'Recording studio']",
+            "gmap_id": "0x80c2baecceed7b93:0x64fe445c7360c161",
+            "iid": 7325,
+            "name": "Venice Love Shack",
+            "rank": 5,
+            "score": -2.002864122390747,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 10460 Clairemont M, San Diego, CA 92124",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dbfe3fced2afb3:0x145c621c8861a816",
+            "iid": 10610,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.0380098819732666,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12911,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 7,
+            "score": -2.050758123397827,
+            "state": "California"
+        },
+        {
+            "address": "Pine Valley House Resort, 28841 Old Hwy 80, Pine Valley, CA 91962",
+            "category": "['Bar & grill', 'Bed & breakfast', 'Boutique', 'Coffee shop', 'Gym', 'Laundromat', 'Live music bar', 'Steak house']",
+            "gmap_id": "0x80d97be234fef14d:0x63ecdf664ca83506",
+            "iid": 10129,
+            "name": "Pine Valley House Resort",
+            "rank": 8,
+            "score": -2.071774959564209,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8441,
+            "name": "Figueroa & 28th",
+            "rank": 9,
+            "score": -2.07934832572937,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7680 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8094695f51033869:0x93dcc3367550415",
+            "iid": 4917,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.08563232421875,
+            "state": "California"
+        },
+        {
+            "address": "Lazy Eye Coffee, 4013 Avati Dr, San Diego, CA 92117",
+            "category": "['Coffee stand', 'Coffee shop', 'Snack bar']",
+            "gmap_id": "0x80dc01f0dbc43a8f:0xe6d31fa7b99bf98a",
+            "iid": 10722,
+            "name": "Lazy Eye Coffee",
+            "rank": 11,
+            "score": -2.093085765838623,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 7138,
+            "name": "CAFE5",
+            "rank": 12,
+            "score": -2.1057779788970947,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Fanny, 1603 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Cafe']",
+            "gmap_id": "0x80857ec5d4e6b3ff:0xda85adcdc5d3a4dd",
+            "iid": 1209,
+            "name": "Cafe Fanny",
+            "rank": 13,
+            "score": -2.10891056060791,
+            "state": "California"
+        },
+        {
+            "address": "Home Coffee, 1914 Sweetwater Rd, National City, CA 91950",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d951a43e70216f:0xdea8a65dd8883f09",
+            "iid": 9686,
+            "name": "Home Coffee",
+            "rank": 14,
+            "score": -2.1147165298461914,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11583,
+            "name": "Auntie Anne's",
+            "rank": 15,
+            "score": -2.131155252456665,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5469 Casino Way, El Cajon, CA 92019",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95db4a866433b:0x4b6d4c5fb2dc02f5",
+            "iid": 10118,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -2.1505002975463867,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 13191,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -2.1605546474456787,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Code, 13250 Rosecrans Ave, Norwalk, CA 90650",
+            "category": "['Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80dd2da9688b79a5:0x1e2c63557e51ecbf",
+            "iid": 12670,
+            "name": "Coffee Code",
+            "rank": 18,
+            "score": -2.162543296813965,
+            "state": "California"
+        },
+        {
+            "address": "City Bean Roasters, 5051 W Jefferson Blvd, Los Angeles, CA 90016",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80c2b9b130b4a6d3:0x3a79c35029263c2b",
+            "iid": 7200,
+            "name": "City Bean Roasters",
+            "rank": 19,
+            "score": -2.166934013366699,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4311 Lincoln Blvd, Marina Del Rey, CA 90292",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2ba86fa10821d:0x43279408cc9632b4",
+            "iid": 7262,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -2.174257278442383,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "SUERTE SAN DIEGO",
+        "uid": 7850,
+        "user_id": 100754502616625003320
+    }
+}

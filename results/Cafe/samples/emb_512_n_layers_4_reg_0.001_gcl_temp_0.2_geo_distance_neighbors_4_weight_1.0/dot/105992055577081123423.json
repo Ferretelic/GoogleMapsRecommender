@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 1013 W Foothill Blvd a, Upland, CA 91786",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c331400c68f68d:0xa62ca8f709150dc",
+            "iid": 9188,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564082677798
+        },
+        {
+            "address": "Euro Cafe, 546 E Baseline Rd, Claremont, CA 91711",
+            "category": "['Italian restaurant', 'Bakery', 'Breakfast restaurant', 'Coffee shop', 'Portuguese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x80c3304c5b3a9123:0x14f4d0c749fa8ea5",
+            "iid": 9182,
+            "name": "Euro Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564679811883
+        },
+        {
+            "address": "Looney Bean, 399 N Main St, Bishop, CA 93514",
+            "category": "['Cafe', 'Bakery', 'Coffee shop', 'Espresso bar', 'Vegan restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/08/19",
+            "gmap_id": "0x80be3dff9f436efb:0x47c23a4254c54906",
+            "iid": 6013,
+            "name": "Looney Bean",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566191914880
+        },
+        {
+            "address": "Starbucks, 14136 US-395, Adelanto, CA 92301",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/08/19",
+            "gmap_id": "0x80c36f1a34ec53dd:0xe7300428158f2c74",
+            "iid": 9502,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566192827925
+        },
+        {
+            "address": "Mi Cafecito Coffee, 101 S Main St, Pomona, CA 91766",
+            "category": "['Coffee shop', 'Dessert shop', 'Gift shop', 'Mexican restaurant', 'Sandwich shop', 'Tea house']",
+            "date": "2020/01/07",
+            "gmap_id": "0x80c32de4531b52cd:0x51aca72033557206",
+            "iid": 9140,
+            "name": "Mi Cafecito Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578380758084
+        },
+        {
+            "address": "McDonald's, 49714 Gorman School Rd, Gorman, CA 93243",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/01/07",
+            "gmap_id": "0x80e9e58eed80d423:0x705433c7883bae19",
+            "iid": 13600,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578381698095
+        },
+        {
+            "address": "McDonald's, 1695 Cascade Blvd, Shasta Lake, CA 96019",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/01/07",
+            "gmap_id": "0x54d28c284399bd01:0x15b6135f842b1b23",
+            "iid": 100,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578382139453
+        },
+        {
+            "address": "Red Hill Coffee Shop, 8111 Foothill Blvd A, Rancho Cucamonga, CA 91730",
+            "category": "['Restaurant', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Diner']",
+            "date": "2020/01/07",
+            "gmap_id": "0x80c336a4d23e74e3:0x8e115c3bf53365ea",
+            "iid": 9324,
+            "name": "Red Hill Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578382216382
+        },
+        {
+            "address": "McDonald's, 100 E Foothill Blvd, Upland, CA 91786",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/02/10",
+            "gmap_id": "0x80c3314eaaf53197:0x7bb86c321d9fc2f1",
+            "iid": 9191,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1581311573574
+        },
+        {
+            "address": "Lucky's Coffee Roasters, 387 N 2nd Ave, Upland, CA 91786",
+            "category": "['Cafe']",
+            "date": "2021/02/16",
+            "gmap_id": "0x80c331a3f37b0c61:0x9f2046062d3c2b",
+            "iid": 9204,
+            "name": "Lucky's Coffee Roasters",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613461380062
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Rad Coffee, 232 N 2nd Ave, Upland, CA 91786",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c331540a6d9ef3:0x1056d2afc36a1174",
+            "iid": 9193,
+            "name": "Rad Coffee",
+            "rank": 1,
+            "score": 4.798528671264648,
+            "state": "California"
+        },
+        {
+            "address": "Klatch Coffee Rancho, 8916 Foothill Blvd, Rancho Cucamonga, CA 91730",
+            "category": "['Coffee shop', 'Cafe', 'Catering food and drink supplier', 'Coffee store', 'Espresso bar', 'Restaurant', 'Store']",
+            "gmap_id": "0x80c3369b0df0a747:0xfcfb76cf0c052304",
+            "iid": 9322,
+            "name": "Klatch Coffee Rancho",
+            "rank": 2,
+            "score": 4.288509368896484,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 905 N Main St, Bishop, CA 93514",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80be16072bae0407:0x4e97705239b1feb3",
+            "iid": 6006,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 4.078049659729004,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 562 N Main St, Bishop, CA 93514",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80be160026cfb7af:0x9ca7c65991e1af6e",
+            "iid": 6005,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": 3.911799430847168,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 601 S Main St, Lone Pine, CA 93545",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80bf844bac438853:0x580e5c3dee6ea2df",
+            "iid": 6015,
+            "name": "McDonald's",
+            "rank": 5,
+            "score": 3.8416433334350586,
+            "state": "California"
+        },
+        {
+            "address": "Roberto's Cafe, 271 Old Mammoth Rd, Mammoth Lakes, CA 93546",
+            "category": "['Mexican restaurant', 'Cafe']",
+            "gmap_id": "0x80960c326a68ed01:0x6fb3b86173f2cab9",
+            "iid": 5054,
+            "name": "Roberto's Cafe",
+            "rank": 6,
+            "score": 3.7647647857666016,
+            "state": "California"
+        },
+        {
+            "address": "Sanctuary Coffee, 863 W Foothill Blvd, Claremont, CA 91711",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c331d42b380691:0x50448d502997fb56",
+            "iid": 9214,
+            "name": "Sanctuary Coffee",
+            "rank": 7,
+            "score": 3.662738800048828,
+            "state": "California"
+        },
+        {
+            "address": "Alabama Hills Cafe & Bakery, 111 W Post St, Lone Pine, CA 93545",
+            "category": "['Cafe', 'American restaurant', 'Bakery', 'Restaurant']",
+            "gmap_id": "0x80bf844b7c41a029:0x4119a01262b8d2f9",
+            "iid": 6014,
+            "name": "Alabama Hills Cafe & Bakery",
+            "rank": 8,
+            "score": 3.6129183769226074,
+            "state": "California"
+        },
+        {
+            "address": "Dolce \u2022 Eatery, Drinkery, Bakery, 8821 Central Ave, Montclair, CA 91763",
+            "category": "['Cafe', 'Bakery', 'Bistro', 'Gastropub', 'Restaurant']",
+            "gmap_id": "0x80c33177c30144a9:0x67fd2d8a2e4902e9",
+            "iid": 9196,
+            "name": "Dolce \u2022 Eatery, Drinkery, Bakery",
+            "rank": 9,
+            "score": 3.570073366165161,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2129 W 16th St Ste. 100, Upland, CA 91784",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c33055492cb995:0xb74424d58ffee807",
+            "iid": 9184,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 3.4186081886291504,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1053 E 19th St Suite C, Upland, CA 91784, United States",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80c336d67e66f645:0x4bd3e5946aa13c21",
+            "iid": 9328,
+            "name": "Panera Bread",
+            "rank": 11,
+            "score": 3.2665486335754395,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, 5183 N Montclair Plaza Ln, Montclair, CA 91763",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x80c331825f538035:0x40608c5f339e1a7a",
+            "iid": 9201,
+            "name": "Barnes & Noble",
+            "rank": 12,
+            "score": 3.2080743312835693,
+            "state": "California"
+        },
+        {
+            "address": "42nd Street Bagel, 225 Yale Ave, Claremont, CA 91711",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c331c195543af5:0xe8af2992d307fa75",
+            "iid": 9207,
+            "name": "42nd Street Bagel",
+            "rank": 13,
+            "score": 3.141005754470825,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 355 S Mountain Ave, Upland, CA 91786, United States",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80c331611995d0ed:0xbb1801397ddba74b",
+            "iid": 9194,
+            "name": "Dunkin'",
+            "rank": 14,
+            "score": 3.1044559478759766,
+            "state": "California"
+        },
+        {
+            "address": "Mimi's Cafe, 10909 Foothill Blvd, Rancho Cucamonga, CA 91730",
+            "category": "['Bistro', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Caterer', 'French restaurant', 'Takeout Restaurant', 'Wine bar']",
+            "gmap_id": "0x80c335e4095fbe71:0xa3e6f855c31f4793",
+            "iid": 9306,
+            "name": "Mimi's Cafe",
+            "rank": 15,
+            "score": 3.097872018814087,
+            "state": "California"
+        },
+        {
+            "address": "Black Sheep Coffee Roasters, 232 N Main St, Bishop, CA 93514",
+            "category": "['Coffee roasters', 'Cafe']",
+            "gmap_id": "0x80be3dfe6876f683:0x943ef86ddae43be9",
+            "iid": 6011,
+            "name": "Black Sheep Coffee Roasters",
+            "rank": 16,
+            "score": 3.0885677337646484,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1590 Foothill Blvd, Upland, CA 91786",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c3310da77c8e3d:0xa25b1b8a05bf1ed1",
+            "iid": 9186,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 3.0709402561187744,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 203 Yale Ave, Claremont, CA 91711",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c331c1c354dee7:0x51264f50dee0c06e",
+            "iid": 9209,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 3.055577516555786,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 517 E Foothill Blvd, Pomona, CA 91767",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c32e2baab688ef:0x751d2b9579dc7e6a",
+            "iid": 9145,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 3.0311992168426514,
+            "state": "California"
+        },
+        {
+            "address": "W\u00e4hfles Caf\u00e9, 1502 Foothill Blvd #101, La Verne, CA 91750",
+            "category": "['Cafe', 'Sandwich shop']",
+            "gmap_id": "0x80c32fa48544675f:0x8d624ba61da22f5f",
+            "iid": 9175,
+            "name": "W\u00e4hfles Caf\u00e9",
+            "rank": 20,
+            "score": 3.021894693374634,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jon S.",
+        "uid": 61322,
+        "user_id": 105992055577081123423
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "La Torta Cafe, 8356 Allison Ave, La Mesa, CA 91942",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2017/08/14",
+            "gmap_id": "0x80d9573cff5a7f57:0x15f5c62d6fcd4e87",
+            "iid": 10055,
+            "name": "La Torta Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1502751058614
+        },
+        {
+            "address": "Olive Cafe, 805 Santa Clara Pl, San Diego, CA 92109",
+            "category": "['Cafe', 'Brunch restaurant', 'Coffee shop', 'Lunch restaurant', 'Restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80dc01e47a1ce9b5:0x52fe54d215298ddb",
+            "iid": 10714,
+            "name": "Olive Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506222818939
+        },
+        {
+            "address": "Extraordinary Desserts, 2870 Fourth Ave, San Diego, CA 92103",
+            "category": "['Dessert restaurant', 'Bakery', 'Coffee shop', 'Ice cream shop', 'Restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d954c7f4d1bc73:0x597622b87a0b9393",
+            "iid": 9874,
+            "name": "Extraordinary Desserts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506227154673
+        },
+        {
+            "address": "Figaro Dessert Cafe, 3011 University Ave, San Diego, CA 92104",
+            "category": "['Dessert shop', 'Bakery', 'Coffee shop', 'Cr\u00eaperie', 'Ice cream shop', 'Wedding bakery']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d954f681ef69d7:0x9bea45c53091aef3",
+            "iid": 9912,
+            "name": "Figaro Dessert Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506227731334
+        },
+        {
+            "address": "Meraki Caf\u00e9, 1735 Adams Ave, San Diego, CA 92116",
+            "category": "['Cafe', 'Coffee shop', 'Lunch restaurant', 'Sandwich shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d9551e56908447:0xb8e6d5fdeed75b3d",
+            "iid": 9941,
+            "name": "Meraki Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506227941369
+        },
+        {
+            "address": "Kensington Cafe, 4141 Adams Ave, San Diego, CA 92116",
+            "category": "['American restaurant', 'Cafe', 'Restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x80d95449713b2939:0xdf541a36ecf6f05e",
+            "iid": 9794,
+            "name": "Kensington Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506228010406
+        },
+        {
+            "address": "Perry's Cafe, 4620 Pacific Hwy, San Diego, CA 92110",
+            "category": "['Cafe']",
+            "date": "2017/12/07",
+            "gmap_id": "0x80deaae66a57ce09:0xa4b7d84047ea47c6",
+            "iid": 13121,
+            "name": "Perry's Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1512629756163
+        },
+        {
+            "address": "Sweet Bar Cafe, 1320 Highland Ave, National City, CA 91950",
+            "category": "['Cafe']",
+            "date": "2018/02/01",
+            "gmap_id": "0x80d9523a43ee9b1b:0xb0c4c08a219dff5a",
+            "iid": 9700,
+            "name": "Sweet Bar Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517455598749
+        },
+        {
+            "address": "Better Buzz Coffee Pacific Beach East, 1909 Garnet Ave, San Diego, CA 92109, United States",
+            "category": "['Coffee shop']",
+            "date": "2019/01/04",
+            "gmap_id": "0x80dc01c79c654487:0xbb6fa8346f72d9ea",
+            "iid": 10707,
+            "name": "Better Buzz Coffee Pacific Beach East",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546646277688
+        },
+        {
+            "address": "Lestat's Hillcrest, 1045 University Ave, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2019/05/11",
+            "gmap_id": "0x80d954dcc91c1ae3:0xe8c30d6c8b43f973",
+            "iid": 9891,
+            "name": "Lestat's Hillcrest",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1557584061469
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Northside Shack - North Park, 3773 30th St UNIT H, San Diego, CA 92104",
+            "category": "['Juice shop', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Fruit parlor', 'Health food restaurant', 'Lunch restaurant', 'Salad shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80d955a6ce2ce8b5:0x1ab19f8b97e77627",
+            "iid": 9986,
+            "name": "Northside Shack - North Park",
+            "rank": 1,
+            "score": 0.564318060874939,
+            "state": "California"
+        },
+        {
+            "address": "Yipao Coffee, 4601 Park Blvd Ste A, San Diego, CA 92116",
+            "category": "['Coffee store']",
+            "gmap_id": "0x80d95585157389d5:0x33dc664660a86bda",
+            "iid": 9976,
+            "name": "Yipao Coffee",
+            "rank": 2,
+            "score": 0.5594075918197632,
+            "state": "California"
+        },
+        {
+            "address": "Black stag coffee, 4966 El Cajon Blvd, San Diego, CA 92115",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d95423977eaaab:0x2a1aa61d78dd8db5",
+            "iid": 9791,
+            "name": "Black stag coffee",
+            "rank": 3,
+            "score": 0.5524808168411255,
+            "state": "California"
+        },
+        {
+            "address": "Mystic Mocha, 2105 Mission Ave, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Bar & grill', 'Restaurant']",
+            "gmap_id": "0x80d954e24112ac67:0xeadfeba3865a7bb5",
+            "iid": 9897,
+            "name": "Mystic Mocha",
+            "rank": 4,
+            "score": 0.5511345863342285,
+            "state": "California"
+        },
+        {
+            "address": "Soltan Banoo Restaurant, 4645 Park Blvd, San Diego, CA 92116",
+            "category": "['Persian restaurant', 'Cafe', 'Middle Eastern restaurant', 'Restaurant']",
+            "gmap_id": "0x80d9551e456e5271:0x4d61466ba78ebf1d",
+            "iid": 9940,
+            "name": "Soltan Banoo Restaurant",
+            "rank": 5,
+            "score": 0.5403276085853577,
+            "state": "California"
+        },
+        {
+            "address": "Pappalecco, 4202 Adams Ave, San Diego, CA 92116",
+            "category": "['Italian restaurant', 'Cafe', 'Cafeteria', 'Coffee shop', 'Ice cream shop']",
+            "gmap_id": "0x80d9544995994e63:0xcfaf9fbd0279df23",
+            "iid": 9796,
+            "name": "Pappalecco",
+            "rank": 6,
+            "score": 0.5367143750190735,
+            "state": "California"
+        },
+        {
+            "address": "Twiggs Bakery & Coffeehouse, 2804 Adams Ave, San Diego, CA 92116",
+            "category": "['Bakery', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80d955020aef8d71:0x18a4000b8f571554",
+            "iid": 9928,
+            "name": "Twiggs Bakery & Coffeehouse",
+            "rank": 7,
+            "score": 0.5293868780136108,
+            "state": "California"
+        },
+        {
+            "address": "Twiggs, 4590 Park Blvd, San Diego, CA 92116",
+            "category": "['Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80d9551e305e3983:0xf33d3e2c1567e964",
+            "iid": 9939,
+            "name": "Twiggs",
+            "rank": 8,
+            "score": 0.5254421234130859,
+            "state": "California"
+        },
+        {
+            "address": "Torque Moto Cafe, 3604 30th St, San Diego, CA 92104",
+            "category": "['Cafe', 'Event venue', 'Internet cafe', 'Restaurant']",
+            "gmap_id": "0x80d954f4e92d6d9d:0x5fbcf8d1e9f07eaa",
+            "iid": 9910,
+            "name": "Torque Moto Cafe",
+            "rank": 9,
+            "score": 0.5192260146141052,
+            "state": "California"
+        },
+        {
+            "address": "James Coffee Co., 4379 30th St, San Diego, CA 92104",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d9557d28cbecc7:0xb288aca9febeed4f",
+            "iid": 9974,
+            "name": "James Coffee Co.",
+            "rank": 10,
+            "score": 0.518806517124176,
+            "state": "California"
+        },
+        {
+            "address": "Sheldon's Service Station, 8401 La Mesa Blvd, La Mesa, CA 91942",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d9573c4414dcf7:0xdc49c2d9a4418548",
+            "iid": 10053,
+            "name": "Sheldon's Service Station",
+            "rank": 11,
+            "score": 0.5172449946403503,
+            "state": "California"
+        },
+        {
+            "address": "92115 California, San Diego, El Cajon Blvd, Duet Coffee",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d9569304308cb9:0xc652f3929f9bacc0",
+            "iid": 10017,
+            "name": "Duet Coffee",
+            "rank": 12,
+            "score": 0.5168934464454651,
+            "state": "California"
+        },
+        {
+            "address": "Project Reo Collective, 2335 Reo Dr No. 6, San Diego, CA 92139",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95192e2719085:0xb23efe33dc8d158c",
+            "iid": 9685,
+            "name": "Project Reo Collective",
+            "rank": 13,
+            "score": 0.5141585469245911,
+            "state": "California"
+        },
+        {
+            "address": "Hawthorn Coffee, 3019 Adams Ave, San Diego, CA 92116",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d954fe35c6f221:0xb332776cf1d82f9c",
+            "iid": 9925,
+            "name": "Hawthorn Coffee",
+            "rank": 14,
+            "score": 0.5038591027259827,
+            "state": "California"
+        },
+        {
+            "address": "Subterranean Coffee Boutique North Park, 3764 30th St, San Diego, CA 92104",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Dessert shop', 'Filipino restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80d954f447a660d3:0x23bb33da853f75e1",
+            "iid": 9909,
+            "name": "Subterranean Coffee Boutique North Park",
+            "rank": 15,
+            "score": 0.5035471320152283,
+            "state": "California"
+        },
+        {
+            "address": "The Milk Bar | North Park, 2940 Lincoln Ave, San Diego, CA 92104",
+            "category": "['Ice cream shop', 'Cafe', 'Cookie shop', 'Milk delivery service']",
+            "gmap_id": "0x80d954f6e2293cdf:0x4517037b496f7c88",
+            "iid": 9917,
+            "name": "The Milk Bar | North Park",
+            "rank": 16,
+            "score": 0.4998210370540619,
+            "state": "California"
+        },
+        {
+            "address": "Claire De Lune Coffee Lounge, 2906 University Ave, San Diego, CA 92104",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d954f6bc9421a1:0xc484cc088deeef5",
+            "iid": 9916,
+            "name": "Claire De Lune Coffee Lounge",
+            "rank": 17,
+            "score": 0.4990580081939697,
+            "state": "California"
+        },
+        {
+            "address": "Atypical Waffle Company, 3519 30th St, San Diego, CA 92104",
+            "category": "['Brunch restaurant', 'Breakfast restaurant', 'Coffee shop']",
+            "gmap_id": "0x80d9548b2eb27d61:0x222cd599390c8d47",
+            "iid": 9809,
+            "name": "Atypical Waffle Company",
+            "rank": 18,
+            "score": 0.49904030561447144,
+            "state": "California"
+        },
+        {
+            "address": "Big City Bagels Cafe- BCB Cafe, 1010 University Ave STE C102, San Diego, CA 92103",
+            "category": "['Bagel shop', 'Coffee shop', 'Juice shop']",
+            "gmap_id": "0x80d954dce9609d7b:0xb35248dd10ef954",
+            "iid": 9893,
+            "name": "Big City Bagels Cafe- BCB Cafe",
+            "rank": 19,
+            "score": 0.4990208148956299,
+            "state": "California"
+        },
+        {
+            "address": "MOE COFFEE, 4195 Kansas St, San Diego, CA 92104",
+            "category": "['Coffee shop', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80d9557ee0a0188b:0x1a5da2e2aaece917",
+            "iid": 9975,
+            "name": "MOE COFFEE",
+            "rank": 20,
+            "score": 0.4965248703956604,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Luz Miles",
+        "uid": 34573,
+        "user_id": 103378672154366501148
+    }
+}

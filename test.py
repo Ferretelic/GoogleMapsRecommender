@@ -71,11 +71,11 @@ def recommend_new_users(cfg):
 def main(cfg: DictConfig):
     seed_everything()
 
-    # print("Calculating metrics on test dataset...")
-    # calculate_metrics(cfg)
+    print("Calculating metrics on test dataset...")
+    calculate_metrics(cfg)
 
-    # print("Running inference on sampled users...")
-    # run_inference(cfg)
+    print("Running inference on sampled users...")
+    run_inference(cfg)
 
     print("Running recommenders on new users...")
     recommend_new_users(cfg)
