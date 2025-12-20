@@ -3,6 +3,7 @@ from omegaconf import DictConfig
 import pandas as pd
 
 from testing.tester import *
+from testing.plot_results import *
 
 @hydra.main(version_base=None, config_path="config", config_name="test")
 def main(cfg: DictConfig):
@@ -27,6 +28,8 @@ def main(cfg: DictConfig):
     df = pd.DataFrame(metrics)
     print(df)
     df.to_csv(f"{cfg.paths.result}/test_results.csv", index=False)
+
+    plot_test_results(cfg, df)
 
 if __name__ == "__main__":
     main()
