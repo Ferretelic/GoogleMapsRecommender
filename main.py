@@ -29,7 +29,7 @@ def process_dataset(cfg):
 
         print("    Processing raw meta data...")
         category_filter = partial(
-            filter_by_category, category=cfg.dataset.category)
+            filter_by_category, category_list=cfg.dataset.get("category_list", cfg.dataset.category))
 
         num_reviews_filter = partial(
             filter_by_num_reviews, min_num_reviews=cfg.dataset.min_num_reviews)

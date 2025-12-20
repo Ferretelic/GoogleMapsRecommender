@@ -4,12 +4,12 @@ import pandas as pd
 
 from utils import *
 
-def filter_by_category(category, data):
-    category = data.get("category", None)
-    if category is None:
+def filter_by_category(category_list, data):
+    categories = data.get("category", None)
+    if categories is None:
         return False
 
-    return any([category.lower() in c.lower().split() for c in category])
+    return any([category.lower() in c.lower().split() for category in category_list for c in categories])
 
 def filter_by_num_reviews(data, min_num_reviews):
     return data["num_of_reviews"] >= min_num_reviews
@@ -32,7 +32,7 @@ def filter_raw_state_meta_data(cfg, state, filters):
             meta = {key: meta.get(key, None) for key in cfg.dataset.meta_keys}
             meta_list.append(meta)
 
-    print(f"We obtained total of {len(meta_list)} {cfg.dataset.category} restaurants after filtering")
+    print(f"We obtained total of {len(meta_list)} {cfg.dataset.category} places after filtering")
 
     df = pd.DataFrame(meta_list)
     df.to_csv(processed_file, index=False)
