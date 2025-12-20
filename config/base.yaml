@@ -3,24 +3,24 @@ paths:
   raw: ./dataset/raw
   processed: ./dataset/processed
 
-  splits: ${paths.processed}/${dataset.country}/splits
-  combined: ${paths.processed}/${dataset.country}/combined
-  filtered: ${paths.processed}/${dataset.country}/filtered
+  splits: ${paths.processed}/${dataset.category}/splits
+  combined: ${paths.processed}/${dataset.category}/combined
+  filtered: ${paths.processed}/${dataset.category}/filtered
 
   meta: ${paths.filtered}/meta
   review: ${paths.filtered}/review
 
-  result: ./results/${dataset.country}
-  users: ./users/${dataset.country}
-  graph: ./graphs/${dataset.country}
-  embedding: ./embeddings/${dataset.country}
-  logs: ./logs/${dataset.country}
+  result: ./results/${dataset.category}
+  users: ./users/${dataset.category}
+  graph: ./graphs/${dataset.category}
+  embedding: ./embeddings/${dataset.category}
+  logs: ./logs/${dataset.category}
   plots: ${paths.result}/plots/models/${name}/
 
 dataset:
   min_num_reviews: 5
   min_rating: 4
-  country: Japanese
+  category: Cafe
   meta_keys: [gmap_id, name, address, latitude, longitude, category, avg_rating, num_of_reviews, price, hours]
   review_keys: [gmap_id, user_id, name, time, rating]
 
