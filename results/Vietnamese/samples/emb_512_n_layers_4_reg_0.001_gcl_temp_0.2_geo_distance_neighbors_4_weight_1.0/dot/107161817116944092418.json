@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Bamboo Asia, 41 Montgomery St, San Francisco, CA 94104",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Indian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "date": "2016/04/13",
+            "gmap_id": "0x80858089d1fe7f4b:0x57d35d8fae11d265",
+            "iid": 704,
+            "name": "Bamboo Asia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460516308855
+        },
+        {
+            "address": "Xe May Sandwich Shop, 96 St Marks Pl, New York, NY 10009",
+            "category": "['Sandwich shop', 'Delivery Restaurant', 'Vietnamese restaurant']",
+            "date": "2016/09/08",
+            "gmap_id": "0x89c2599d169544a7:0x90fd86201c0d671d",
+            "iid": 4450,
+            "name": "Xe May Sandwich Shop",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1473351231097
+        },
+        {
+            "address": "Gigo's Cafe & Deli, 853 N Broadway, Los Angeles, CA 90012",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/12/26",
+            "gmap_id": "0x80c2c65bd19353e7:0x630acd6d579bf4e7",
+            "iid": 1378,
+            "name": "Gigo's Cafe & Deli",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514248041021
+        },
+        {
+            "address": "Cyclo, 5-51 47th Ave, Queens, NY 11101",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/04/06",
+            "gmap_id": "0x89c259240749bb33:0x7472dc2ccaaa3e75",
+            "iid": 4419,
+            "name": "Cyclo",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522983600419
+        },
+        {
+            "address": "Hanoi House, 119 St Marks Pl, New York, NY 10009",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/04/09",
+            "gmap_id": "0x89c2599d668a6c05:0x1e72d38c83ee191e",
+            "iid": 4452,
+            "name": "Hanoi House",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1523247899490
+        },
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2018/04/29",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525027941948
+        },
+        {
+            "address": "Vietnaam, 1700 2nd Ave, New York, NY 10128",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c258badec9f0bf:0x67ef81fab0b91df",
+            "iid": 4413,
+            "name": "Vietnaam",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525736080812
+        },
+        {
+            "address": "Ph\u1edf Vi Hoa, 4546 El Camino Real, Los Altos, CA 94022",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/08/19",
+            "gmap_id": "0x808fb09b79019973:0xb9f276091d8ac4e4",
+            "iid": 984,
+            "name": "Ph\u1edf Vi Hoa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1534707019230
+        },
+        {
+            "address": "JOJU MODERN VIETNAMESE SANDWICHES, 83-25 Broadway, Queens, NY 11373",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/23",
+            "gmap_id": "0x89c25fad3103cfad:0xc91272051c627ea4",
+            "iid": 4505,
+            "name": "JOJU MODERN VIETNAMESE SANDWICHES",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1540309825178
+        },
+        {
+            "address": "Saiguette, 935 Columbus Ave, New York, NY 10025",
+            "category": "['Vietnamese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2019/03/05",
+            "gmap_id": "0x89c2f623a98ee583:0xa39ea62df1eba8ed",
+            "iid": 4532,
+            "name": "Saiguette",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1551753423883
+        },
+        {
+            "address": "Ph\u1edf Pasteur, 682 Washington St, Boston, MA 02111",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e37a7790d43e19:0x34e29d9a13319e06",
+            "iid": 4744,
+            "name": "Ph\u1edf Pasteur",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1574824859014
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Madame Vo, 212 E 10th St, New York, NY 10003",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2599c4c8416a9:0xde39d305acb04e8a",
+            "iid": 4448,
+            "name": "Madame Vo",
+            "rank": 1,
+            "score": 3.8142833709716797,
+            "state": "New_York"
+        },
+        {
+            "address": "OBAO, 222 E 53rd St, New York, NY 10022",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c258e376941193:0xd56b7b64f6ed5dac",
+            "iid": 4416,
+            "name": "OBAO",
+            "rank": 2,
+            "score": 3.182314395904541,
+            "state": "New_York"
+        },
+        {
+            "address": "B\u00e1nh M\u00ec Saigon, 198 Grand St, New York, NY 10013",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c2598844ca9f2d:0x1ed7a92c48c3a951",
+            "iid": 4439,
+            "name": "B\u00e1nh M\u00ec Saigon",
+            "rank": 3,
+            "score": 3.171936511993408,
+            "state": "New_York"
+        },
+        {
+            "address": "OBAO, 647 9th Ave, New York, NY 10036",
+            "category": "['Asian fusion restaurant', 'Bar', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c25853d0289941:0xcc50a548cf78188e",
+            "iid": 4407,
+            "name": "OBAO",
+            "rank": 4,
+            "score": 2.9254729747772217,
+            "state": "New_York"
+        },
+        {
+            "address": "Luu's Baguette, 134 E 26th St, New York, NY 10010",
+            "category": "['Vietnamese restaurant', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c259a758ebbb87:0x526ebc57dfe740f5",
+            "iid": 4456,
+            "name": "Luu's Baguette",
+            "rank": 5,
+            "score": 2.808180809020996,
+            "state": "New_York"
+        },
+        {
+            "address": "Bunker, 99 Scott Ave, Brooklyn, NY 11237",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25f86f67be46f:0xc8cffff79c532af7",
+            "iid": 4504,
+            "name": "Bunker",
+            "rank": 6,
+            "score": 2.768129825592041,
+            "state": "New_York"
+        },
+        {
+            "address": "Saiguette, 935 Columbus Ave, New York, NY 10025",
+            "category": "['Vietnamese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2f623a98ee583:0xa39ea62df1eba8ed",
+            "iid": 4532,
+            "name": "Saiguette",
+            "rank": 7,
+            "score": 2.6690514087677,
+            "state": "New_York"
+        },
+        {
+            "address": "Sao Mai, 203 1st Avenue, New York, NY 10003",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2599dfdb01c89:0x76c0801164938126",
+            "iid": 4453,
+            "name": "Sao Mai",
+            "rank": 8,
+            "score": 2.6143980026245117,
+            "state": "New_York"
+        },
+        {
+            "address": "Cha Pa's Noodles and Grill, 314 W 52nd St, New York, NY 10019",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2585709e60193:0x626bff6f3a4b406f",
+            "iid": 4409,
+            "name": "Cha Pa's Noodles and Grill",
+            "rank": 9,
+            "score": 2.6081745624542236,
+            "state": "New_York"
+        },
+        {
+            "address": "An Choi, 85 Orchard St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bar', 'Cafe', 'Noodle shop']",
+            "gmap_id": "0x89c259871514f5ed:0x819fe06099b4b09b",
+            "iid": 4432,
+            "name": "An Choi",
+            "rank": 10,
+            "score": 2.602505922317505,
+            "state": "New_York"
+        },
+        {
+            "address": "Saigon Market, 93 University Pl, New York, NY 10003",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25999b9c6eff9:0x4b98becb736928d8",
+            "iid": 4447,
+            "name": "Saigon Market",
+            "rank": 11,
+            "score": 2.571608304977417,
+            "state": "New_York"
+        },
+        {
+            "address": "@The Spot, 719 2nd Ave, New York, NY 10016",
+            "category": "['Vietnamese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Noodle shop', 'Sandwich shop', 'South Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c259048af5b4b9:0xd8a3690dc77c6b2c",
+            "iid": 4418,
+            "name": "@The Spot",
+            "rank": 12,
+            "score": 2.569277763366699,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Bang, 157 Mott St, New York, NY 10013",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259885c5b13cf:0x8890db9549e4a0d9",
+            "iid": 4440,
+            "name": "Pho Bang",
+            "rank": 13,
+            "score": 2.536989212036133,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Grand, 277C Grand St, New York, NY 10002",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2598791707d55:0x395095c5abfccb5c",
+            "iid": 4434,
+            "name": "Pho Grand",
+            "rank": 14,
+            "score": 2.5090227127075195,
+            "state": "New_York"
+        },
+        {
+            "address": "Ph\u01a1 Saigon, 987 1st Avenue, New York, NY 10022",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c258e145ab2ba9:0xaba1930014c9ce79",
+            "iid": 4415,
+            "name": "Ph\u01a1 Saigon",
+            "rank": 15,
+            "score": 2.447882652282715,
+            "state": "New_York"
+        },
+        {
+            "address": "Sai Gon Dep, 719 2nd Ave, New York, NY 10016, United States",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25978417d1863:0xaabf3fa24fec1a3c",
+            "iid": 4429,
+            "name": "Sai Gon Dep",
+            "rank": 16,
+            "score": 2.393524646759033,
+            "state": "New_York"
+        },
+        {
+            "address": "Nam Son, 245 Grand St #1, New York, NY 10002",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25987e6c30f97:0xe982b5031870538d",
+            "iid": 4435,
+            "name": "Nam Son",
+            "rank": 17,
+            "score": 2.36365008354187,
+            "state": "New_York"
+        },
+        {
+            "address": "5ive Spice Tacos & Banh Mi, 52 5th Ave, Brooklyn, NY 11217",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25bac204b817b:0xbf0d4ac2fddc7ade",
+            "iid": 4494,
+            "name": "5ive Spice Tacos & Banh Mi",
+            "rank": 18,
+            "score": 2.3596973419189453,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Vietnam, 87 Chrystie St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25987fc742847:0x9855faf3b5bf8947",
+            "iid": 4436,
+            "name": "Pho Vietnam",
+            "rank": 19,
+            "score": 2.3316738605499268,
+            "state": "New_York"
+        },
+        {
+            "address": "Ginger and Lemongrass, 153 Rivington St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Health food restaurant', 'Thai restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89c25981a6bb7b69:0x7b93ded0a4f48be1",
+            "iid": 4430,
+            "name": "Ginger and Lemongrass",
+            "rank": 20,
+            "score": 2.2655768394470215,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Max P",
+        "uid": 6752,
+        "user_id": 107161817116944092418
+    }
+}

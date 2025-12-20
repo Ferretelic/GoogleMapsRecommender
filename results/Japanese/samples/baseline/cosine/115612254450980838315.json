@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Joy of Tokyo, 2531 Woodruff Rd #101, Simpsonville, SC 29681",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/09/21",
+            "gmap_id": "0x8858281487de6d03:0x2b4028b51b6e2c5",
+            "iid": 8557,
+            "name": "Joy of Tokyo",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1506019944596
+        },
+        {
+            "address": "Sushi ASA, 150 Tanner Rd #J, Greenville, SC 29607",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "date": "2018/04/19",
+            "gmap_id": "0x8858289353bfcdfd:0x409920c5710fb5a1",
+            "iid": 8558,
+            "name": "Sushi ASA",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1524155657261
+        },
+        {
+            "address": "Dozo Sushi & Habachi Restaurant, 6606 Calhoun Memorial Hwy, Easley, SC 29640",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/05/01",
+            "gmap_id": "0x88584611576b69e5:0x48b014301491a662",
+            "iid": 8591,
+            "name": "Dozo Sushi & Habachi Restaurant",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1525188459252
+        },
+        {
+            "address": "Joy of Tokyo, 926 NE Main St Ste D, Simpsonville, SC 29681",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/08/30",
+            "gmap_id": "0x885826513ae59ead:0xc6499c233974eb8b",
+            "iid": 8554,
+            "name": "Joy of Tokyo",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1567140786387
+        },
+        {
+            "address": "Sushi To Go, 300 E Greentree Rd, Marlton, NJ 08053",
+            "category": "['Sushi restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "date": "2019/08/30",
+            "gmap_id": "0x89c134f7c203945b:0xe4632fe346f06e26",
+            "iid": 11751,
+            "name": "Sushi To Go",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1567140967028
+        },
+        {
+            "address": "Fusion Japanese & Thai, 529 By-pass 72 NW, Greenwood, SC 29649",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2019/08/30",
+            "gmap_id": "0x88f801b193def39f:0x670c7e67de139ab8",
+            "iid": 10677,
+            "name": "Fusion Japanese & Thai",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1567141045608
+        },
+        {
+            "address": "Kanpai of Toyko, 533 Haywood Rd, Greenville, SC 29607",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/08/30",
+            "gmap_id": "0x88582efebe76a7cf:0x346822e59cb42cd9",
+            "iid": 8577,
+            "name": "Kanpai of Toyko",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1567141215576
+        },
+        {
+            "address": "Sushi Murasaki, 2 S Main St, Greenville, SC 29601",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/08/30",
+            "gmap_id": "0x885831d203cb9517:0x89c9f9e9ebbd0860",
+            "iid": 8584,
+            "name": "Sushi Murasaki",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1567141230371
+        },
+        {
+            "address": "Koi | Las Vegas, 3667 Las Vegas Blvd S, Las Vegas, NV 89109",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Lounge', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/02/25",
+            "gmap_id": "0x80c8c436601f9d37:0xe58316c12b57c3f8",
+            "iid": 3685,
+            "name": "Koi | Las Vegas",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1582637412738
+        },
+        {
+            "address": "Miyako Sushi Group, 118 Magnolia St, Spartanburg, SC 29306",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/05/27",
+            "gmap_id": "0x885775f4e2bcfaef:0xadc4051a64574174",
+            "iid": 8533,
+            "name": "Miyako Sushi Group",
+            "split": "test",
+            "state": "South_Carolina",
+            "unix_time": 1590551292072
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Sake Grill, 1660b E Main St, Duncan, SC 29334",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x885783b0973a1935:0xf6488a6fc7b557de",
+            "iid": 8538,
+            "name": "Sake Grill",
+            "rank": 1,
+            "score": 0.8150938749313354,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Sarku Japan, 700 Haywood Rd Space 2109, Greenville, SC 29607",
+            "category": "['Japanese restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x88582ee4d9b56b61:0xdde6c0ffe2e1da38",
+            "iid": 8574,
+            "name": "Sarku Japan",
+            "rank": 2,
+            "score": 0.8077783584594727,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Kanpai of Tokyo, 3520 SC-153 #11, Powdersville, SC 29611",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x885839f18fc39d39:0x38f1de1df67e8415",
+            "iid": 8589,
+            "name": "Kanpai of Tokyo",
+            "rank": 3,
+            "score": 0.8026961088180542,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "The Strip Club 104 Steakhouse, 104 E Poinsett St, Greer, SC 29651",
+            "category": "['Restaurant', 'American restaurant', 'Bar', 'Japanese steakhouse', 'Wine bar']",
+            "gmap_id": "0x88582a90b4e96d2f:0x703f98285ffdb80a",
+            "iid": 8565,
+            "name": "The Strip Club 104 Steakhouse",
+            "rank": 4,
+            "score": 0.7772753238677979,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Joy of Tokyo, 15 Pelham Rd, Greenville, SC 29615",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88582e673d69e95b:0x54d8bead0de6fbe7",
+            "iid": 8571,
+            "name": "Joy of Tokyo",
+            "rank": 5,
+            "score": 0.7642509937286377,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Hibachi Express, 2135 Old Spartanburg Rd, Greer, SC 29650",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88582bfabf8f5699:0xa8015a2d46640830",
+            "iid": 8568,
+            "name": "Hibachi Express",
+            "rank": 6,
+            "score": 0.7531840205192566,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Joy of Tokyo, 3220 N Pleasantburg Dr, Greenville, SC 29609",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8858321d4e9ac9c7:0xc42f2dac505fc9a9",
+            "iid": 8585,
+            "name": "Joy of Tokyo",
+            "rank": 7,
+            "score": 0.7508639693260193,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Imperial Grill, 3517 Clemson Blvd, Anderson, SC 29621",
+            "category": "['Buffet restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x885868cf0db388ef:0x179c8d3c06af411a",
+            "iid": 8605,
+            "name": "Imperial Grill",
+            "rank": 8,
+            "score": 0.7447012662887573,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Joy of Tokyo, 3710 Pelham Ct, Greenville, SC 29615",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88582eebd2662fa7:0x24c356e207fb20c4",
+            "iid": 8575,
+            "name": "Joy of Tokyo",
+            "rank": 9,
+            "score": 0.7434248328208923,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Osaka Express Japanese Cuisine, 2602 N Main St, Anderson, SC 29621",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8858645430dec767:0xd949f66f6d0ba56a",
+            "iid": 8601,
+            "name": "Osaka Express Japanese Cuisine",
+            "rank": 10,
+            "score": 0.7419346570968628,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Yoshi Japanese Restaurant, 1510 Blue Ridge Blvd, Seneca, SC 29672",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8858f47f0c4c7ff5:0x64112129bc1826eb",
+            "iid": 8617,
+            "name": "Yoshi Japanese Restaurant",
+            "rank": 11,
+            "score": 0.7388963103294373,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Tokyo Grill Express Duncan, 2138 E Main St, Duncan, SC 29334",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x885783e05cf181bd:0x67e34bbb8070ec07",
+            "iid": 8539,
+            "name": "Tokyo Grill Express Duncan",
+            "rank": 12,
+            "score": 0.7381543517112732,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "FUJI Boiling Springs, 4016 SC-9, Boiling Springs, SC 29316",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x885771254619c70b:0xdd5fa8aebd9ac5e0",
+            "iid": 8530,
+            "name": "FUJI Boiling Springs",
+            "rank": 13,
+            "score": 0.7381278276443481,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Fuji Hibachi Wok & Sushi, 1000 NE Main St #2, Simpsonville, SC 29681",
+            "category": "['Restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x885827ca98543df5:0x200665ae218aa5e8",
+            "iid": 8555,
+            "name": "Fuji Hibachi Wok & Sushi",
+            "rank": 14,
+            "score": 0.7275654673576355,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Atami Express, 1017 S Pendleton St, Easley, SC 29642",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8858487ed9f9cd6f:0xb96ee73f1bc4cfc6",
+            "iid": 8592,
+            "name": "Atami Express",
+            "rank": 15,
+            "score": 0.7228227257728577,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Osaka Express, 518 College Ave #110, Clemson, SC 29631",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88585e648d8e699b:0xb631b896158c7f3e",
+            "iid": 8599,
+            "name": "Osaka Express",
+            "rank": 16,
+            "score": 0.7216026782989502,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Sakura Japanese Steakhouse, 2537 N Pleasantburg Dr, Greenville, SC 29609",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88582dfe26a23811:0xf9659a9794686992",
+            "iid": 8570,
+            "name": "Sakura Japanese Steakhouse",
+            "rank": 17,
+            "score": 0.7200649380683899,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Boun's Hibachi Greenwood, BI-LO 3369, US 72/221 East, Greenwood, SC 29649",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8857fd840042b2a7:0x571776395808bc91",
+            "iid": 8549,
+            "name": "Boun's Hibachi Greenwood",
+            "rank": 18,
+            "score": 0.7134453654289246,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Japan Japanese & Chinese Diner, 806 S Broad St #2816, Clinton, SC 29325",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8857e9cd355e60b1:0xa4b8ce8c062f9b9",
+            "iid": 8547,
+            "name": "Japan Japanese & Chinese Diner",
+            "rank": 19,
+            "score": 0.7037159204483032,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Sakura, 1823 E Greenville St, Anderson, SC 29621",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88586c124df2f2cf:0xcb1071b7d7b7545d",
+            "iid": 8606,
+            "name": "Sakura",
+            "rank": 20,
+            "score": 0.7027934789657593,
+            "state": "South_Carolina"
+        }
+    ],
+    "user": {
+        "name": "jason bowers",
+        "uid": 72060,
+        "user_id": 115612254450980838315
+    }
+}

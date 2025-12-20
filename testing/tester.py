@@ -202,30 +202,7 @@ class Tester:
         return metrics
 
 def test_recommender(cfg, type, name):
-    recommender = None
-    if type == "baseline":
-        if name == "popularity":
-            recommender = LocationPopularityRecommender(cfg)
-        elif name == "knn":
-            recommender = LocationKNNRecommender(cfg)
-        else:
-            raise NotImplementedError
-
-    elif type == "dot":
-        recommender = EmbeddingDotRecommender(cfg)
-        recommender.load_embeddings(name)
-
-    elif type == "cosine":
-        recommender = EmbeddingCosineRecommender(cfg)
-        recommender.load_embeddings(name)
-
-    elif type == "distance":
-        recommender = EmbeddingDistanceRecommender(cfg)
-        recommender.load_embeddings(name)
-
-    else:
-        raise NotImplementedError
-
+    recommender = load_recommender(cfg, type, name)
     tester = Tester(cfg, recommender)
     print(f"    Start evaluating {name}")
     metric = tester.test()

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Express, 17870 Ventura Blvd, Encino, CA 91316",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2016/10/14",
+            "gmap_id": "0x80c299ad642ee4b9:0xa71f3af4e908eee5",
+            "iid": 4668,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1476480462498
+        },
+        {
+            "address": "Vegas Seafood Buffet, 7021 Hollywood Blvd #110, Los Angeles, CA 90028",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/11/15",
+            "gmap_id": "0x80c2bf21a9db1167:0x8b71e88dc28a18d5",
+            "iid": 5084,
+            "name": "Vegas Seafood Buffet",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479182180188
+        },
+        {
+            "address": "India's Tandoori, 11819 Wilshire Blvd, Los Angeles, CA 90025",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "date": "2017/06/22",
+            "gmap_id": "0x80c2bb5df7f0ba47:0xcc1174044b54f91d",
+            "iid": 4994,
+            "name": "India's Tandoori",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498161662489
+        },
+        {
+            "address": "Wokcano, 6320 CA-27 #16900, Woodland Hills, CA 91367",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Sushi restaurant']",
+            "date": "2017/07/02",
+            "gmap_id": "0x80c29c21bd71f65d:0xd8507c497e47a508",
+            "iid": 4713,
+            "name": "Wokcano",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498969334327
+        },
+        {
+            "address": "Awesome Thai Cuisine, 18505 Victory Blvd, Reseda, CA 91335",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/25",
+            "gmap_id": "0x80c2997705d9ed11:0x6a6667e7ec34972a",
+            "iid": 4664,
+            "name": "Awesome Thai Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506301390187
+        },
+        {
+            "address": "Flame Broiler, 321 E Willow St, Long Beach, CA 90806",
+            "category": "['Fast food restaurant', 'Asian restaurant', 'Health food restaurant', 'Restaurant']",
+            "date": "2017/09/25",
+            "gmap_id": "0x80dd33e6004fb0b5:0xbd1081907e95f76e",
+            "iid": 7511,
+            "name": "Flame Broiler",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506301556517
+        },
+        {
+            "address": "Top Thai Cuisine, 7333 Reseda Blvd, Reseda, CA 91335",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Delivery service', 'Seafood restaurant']",
+            "date": "2017/10/07",
+            "gmap_id": "0x80c29bd47e536d81:0x7072e61a15ba8adf",
+            "iid": 4704,
+            "name": "Top Thai Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507351422668
+        },
+        {
+            "address": "Thailand House, 19307 Vanowen St #5023, Reseda, CA 91335",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/11/08",
+            "gmap_id": "0x80c2996031cf878f:0x8ef42a7711f5371a",
+            "iid": 4662,
+            "name": "Thailand House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1510102931560
+        },
+        {
+            "address": "Gyu-Kaku, 6600 Topanga Canyon Blvd Suite 1010B, Canoga Park, CA 91303",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar & grill', 'Barbecue restaurant']",
+            "date": "2018/01/09",
+            "gmap_id": "0x80c29c22ebd4a073:0x4fb15ab2323f17c9",
+            "iid": 4714,
+            "name": "Gyu-Kaku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515525491670
+        },
+        {
+            "address": "Sanamluang Cafe, hollywood/thaitown, 5176 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant']",
+            "date": "2018/02/05",
+            "gmap_id": "0x80c2bf56e29dc893:0xb0c5ecfa69c7dc57",
+            "iid": 5112,
+            "name": "Sanamluang Cafe, hollywood/thaitown",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1517852297090
+        },
+        {
+            "address": "Panda Express, 2801 Lenwood Rd, Barstow, CA 92311",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/05/25",
+            "gmap_id": "0x80c47e83cd1b807d:0x6d9b140185d4ed32",
+            "iid": 5885,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1527276175327
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "WaBa Grill, 18739 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Health food restaurant', 'Rice restaurant']",
+            "gmap_id": "0x80c2990e6376cd27:0x2d0d8d5d3da2b072",
+            "iid": 4654,
+            "name": "WaBa Grill",
+            "rank": 1,
+            "score": 0.7443908452987671,
+            "state": "California"
+        },
+        {
+            "address": "China Star, 6900 Reseda Blvd, Reseda, CA 91335",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c29eb7c61f82ab:0x593b5f7dee73cad4",
+            "iid": 4741,
+            "name": "China Star",
+            "rank": 2,
+            "score": 0.738432765007019,
+            "state": "California"
+        },
+        {
+            "address": "Niko Sushi, 19001 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80c29913ad3d14b5:0x60944785d9162a0e",
+            "iid": 4656,
+            "name": "Niko Sushi",
+            "rank": 3,
+            "score": 0.7196154594421387,
+            "state": "California"
+        },
+        {
+            "address": "Vinh Loi Tofu, 18625 Sherman Way #101, Reseda, CA 91335",
+            "category": "['Vegan restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c29bd69b464925:0x8d2ed04df0dbbfd0",
+            "iid": 4706,
+            "name": "Vinh Loi Tofu",
+            "rank": 4,
+            "score": 0.7045716643333435,
+            "state": "California"
+        },
+        {
+            "address": "Dancing Wasabi, 17547 Ventura Blvd, Encino, CA 91316",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2984c9e4ee301:0x4476f63b3c6ae48c",
+            "iid": 4652,
+            "name": "Dancing Wasabi",
+            "rank": 5,
+            "score": 0.685490071773529,
+            "state": "California"
+        },
+        {
+            "address": "Woodland Hills Market, 19964 Ventura Blvd, Woodland Hills, CA 91364",
+            "category": "['Market', 'Asian grocery store', 'Deli', 'Supermarket']",
+            "gmap_id": "0x80c29947e201c5b1:0x4f8ffa55bdac69b9",
+            "iid": 4659,
+            "name": "Woodland Hills Market",
+            "rank": 6,
+            "score": 0.676173985004425,
+            "state": "California"
+        },
+        {
+            "address": "New Bangluck Market, 7235 Reseda Blvd, Reseda, CA 91335",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x80c29bd45a0925dd:0xa73bc1ac80bf58f3",
+            "iid": 4703,
+            "name": "New Bangluck Market",
+            "rank": 7,
+            "score": 0.6743442416191101,
+            "state": "California"
+        },
+        {
+            "address": "Kickin KAsian - Encino, 17620 Ventura Blvd, Encino, CA 91316",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Cajun restaurant', 'Creole restaurant']",
+            "gmap_id": "0x80c2984c957dc09b:0xbf69c9c565505d2d",
+            "iid": 4651,
+            "name": "Kickin KAsian - Encino",
+            "rank": 8,
+            "score": 0.6705359816551208,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 20040 Ventura Blvd, Woodland Hills, CA 91364",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c299483bee6059:0x2b3cdf8b18eef03a",
+            "iid": 4660,
+            "name": "Panda Express",
+            "rank": 9,
+            "score": 0.6672942638397217,
+            "state": "California"
+        },
+        {
+            "address": "Golden Garden Wok in Los Angeles, 21028 Victory Blvd, Woodland Hills, CA 91367",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29c1cd0bfad75:0x46eada9c5851a416",
+            "iid": 4711,
+            "name": "Golden Garden Wok in Los Angeles",
+            "rank": 10,
+            "score": 0.6648868918418884,
+            "state": "California"
+        },
+        {
+            "address": "A&W Seafood Restaurant, 7213 Reseda Blvd, Reseda, CA 91335",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c29bd5aa8fb493:0x6c1db44ca1e41018",
+            "iid": 4705,
+            "name": "A&W Seafood Restaurant",
+            "rank": 11,
+            "score": 0.6579270958900452,
+            "state": "California"
+        },
+        {
+            "address": "P.F. Chang's, 21821 W Oxnard St, Woodland Hills, CA 91367",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c29e9f7e66609b:0x9129824c8c07d58d",
+            "iid": 4739,
+            "name": "P.F. Chang's",
+            "rank": 12,
+            "score": 0.6514162421226501,
+            "state": "California"
+        },
+        {
+            "address": "Safir Mediterranean, 19940 Ventura Blvd, Woodland Hills, CA 91364",
+            "category": "['Persian restaurant', 'Asian restaurant', 'Deli', 'Dessert restaurant', 'Middle Eastern restaurant', 'Restaurant', 'Wine bar']",
+            "gmap_id": "0x80c2bb6fe7983435:0xdd90500da6ac865a",
+            "iid": 5000,
+            "name": "Safir Mediterranean",
+            "rank": 13,
+            "score": 0.6494020223617554,
+            "state": "California"
+        },
+        {
+            "address": "Little Orchids Thai Restaurant, across from Lexus dealer, 21614 Ventura Blvd, Woodland Hills, CA 91364",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c29ebdd2960b59:0x7435fc44359d4ed6",
+            "iid": 4742,
+            "name": "Little Orchids Thai Restaurant",
+            "rank": 14,
+            "score": 0.6306822896003723,
+            "state": "California"
+        },
+        {
+            "address": "The Great Wall Chinese Restaurant, 18331 Sherman Way, Reseda, CA 91335",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80c29a2aca1b1579:0x9b98b687d9688000",
+            "iid": 4673,
+            "name": "The Great Wall Chinese Restaurant",
+            "rank": 15,
+            "score": 0.6281933784484863,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 6859 Topanga Canyon Blvd, Canoga Park, CA 91303",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29c3db5681305:0x4064fdc8659a807",
+            "iid": 4717,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": 0.6224909424781799,
+            "state": "California"
+        },
+        {
+            "address": "Hanabi Sushi & Teriyaki, 17711 Saticoy St, Los Angeles, CA 91335",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80c29a26785b95fb:0x4f70cf2412b0ba2",
+            "iid": 4672,
+            "name": "Hanabi Sushi & Teriyaki",
+            "rank": 17,
+            "score": 0.6224164962768555,
+            "state": "California"
+        },
+        {
+            "address": "California Bowl Teriyaki Sushi, 21036 Victory Blvd, Woodland Hills, CA 91367",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c29c1cc5c4e00d:0xb4b7275640712918",
+            "iid": 4710,
+            "name": "California Bowl Teriyaki Sushi",
+            "rank": 18,
+            "score": 0.6178625226020813,
+            "state": "California"
+        },
+        {
+            "address": "Thai Fusion Bistro, 6401 Platt Ave UNIT 5, West Hills, CA 91307",
+            "category": "['Thai restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x80c29dc402e2070d:0xf1a50391fe53263c",
+            "iid": 4732,
+            "name": "Thai Fusion Bistro",
+            "rank": 19,
+            "score": 0.6146358251571655,
+            "state": "California"
+        },
+        {
+            "address": "Ping Pong Chinese Cuisine, 17267 Ventura Blvd, Encino, CA 91316",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29835f6a73155:0xdd3b4c849e3d8a6f",
+            "iid": 4649,
+            "name": "Ping Pong Chinese Cuisine",
+            "rank": 20,
+            "score": 0.6146077513694763,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "American Riviera Tours",
+        "uid": 129745,
+        "user_id": 112554191634498422427
+    }
+}

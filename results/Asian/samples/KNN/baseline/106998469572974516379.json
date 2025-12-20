@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Zato Thai Cuisine and Sushi Bar, 9090 Skillman St #190a, Dallas, TX 75243",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fast food restaurant', 'Gluten-free restaurant', 'Halal restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop', 'Sushi restaurant']",
+            "date": "2019/08/20",
+            "gmap_id": "0x864ea0766e40afa1:0x8415c19df44858e4",
+            "iid": 9726,
+            "name": "Zato Thai Cuisine and Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1566311758618
+        },
+        {
+            "address": "Ivan's Cookhouse, 14815 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Caribbean restaurant', 'Asian fusion restaurant', 'Cajun restaurant', 'Creole restaurant', 'Gastropub', 'Haitian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x88d9ad9734ba51df:0xfe96567ef8fd9a3c",
+            "iid": 17843,
+            "name": "Ivan's Cookhouse",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1570116425158
+        },
+        {
+            "address": "Coconut Thai Cafe Wellesley, 257 Washington St, Wellesley, MA 02481",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/10/27",
+            "gmap_id": "0x89e383e29f07362d:0x792a05c6888fdda5",
+            "iid": 24916,
+            "name": "Coconut Thai Cafe Wellesley",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1572187849107
+        },
+        {
+            "address": "Silli Point Indian Fusion, 498 Anderson Ave, Cliffside Park, NJ 07010",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Delivery Restaurant']",
+            "date": "2019/12/05",
+            "gmap_id": "0x89c2f7b16ab44df9:0xeba14f30f13e4166",
+            "iid": 22886,
+            "name": "Silli Point Indian Fusion",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1575579726702
+        },
+        {
+            "address": "Kohinoor Dhaba Inc., 2800 S Eads St, Arlington, VA 22202",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x89b7b72ade88aecd:0x75800d0ca082562a",
+            "iid": 20742,
+            "name": "Kohinoor Dhaba Inc.",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1578603171053
+        },
+        {
+            "address": "Great Wall, 272 NY-32, Central Valley, NY 10917",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x89c2d12d20401e25:0xb2c4c70ed7134ba3",
+            "iid": 22721,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1593449674965
+        },
+        {
+            "address": "First Asian Store and Restaurant, 1503 South St, Leesburg, FL 34748",
+            "category": "['Asian grocery store', 'Filipino restaurant']",
+            "date": "2020/08/20",
+            "gmap_id": "0x88e7c02011aba11b:0xcee183183cf63dfe",
+            "iid": 18760,
+            "name": "First Asian Store and Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1597947543475
+        },
+        {
+            "address": "Panda Express, 970 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/10/08",
+            "gmap_id": "0x88d8df511cb9460f:0xfaa8be8516713579",
+            "iid": 17543,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1602185156086
+        },
+        {
+            "address": "X.O. Sushi Asian Restaurant, 1058 Broadway, Woodmere, NY 11598",
+            "category": "['Asian restaurant']",
+            "date": "2020/12/09",
+            "gmap_id": "0x89c265ac0153be63:0x62161fdc4bf0afe7",
+            "iid": 22456,
+            "name": "X.O. Sushi Asian Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1607547033970
+        },
+        {
+            "address": "El Sushi Loco Sushi & Mariscos La Puente, 15711 Amar Rd, La Puente, CA 91744",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Family restaurant', 'Mexican restaurant', 'Restaurant', 'Seafood restaurant', 'Stand bar']",
+            "date": "2021/03/17",
+            "gmap_id": "0x80c2d6142fac4c77:0x48bab497ee2a484d",
+            "iid": 5500,
+            "name": "El Sushi Loco Sushi & Mariscos La Puente",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616008670566
+        },
+        {
+            "address": "Best Cajun Asian Restaurant, 50 Broad St NW, Atlanta, GA 30303",
+            "category": "['Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2021/03/20",
+            "gmap_id": "0x88f50386e09d8b0b:0xe0072e1f2d928472",
+            "iid": 18960,
+            "name": "Best Cajun Asian Restaurant",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1616249365212
+        }
+    ],
+    "model": {
+        "model_name": "KNN",
+        "name": "KNN",
+        "type": "baseline"
+    },
+    "recommendations": [
+        {
+            "address": "Yamato Japanese House of Steak, 1903 W Cumberland St, Dunn, NC 28334",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89ab81be92189805:0xd45e0468607fbe3a",
+            "iid": 19813,
+            "name": "Yamato Japanese House of Steak",
+            "rank": 1,
+            "score": -13.798612594604492,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "New Rainbow, 1363 N Raleigh St # D, Angier, NC 27501",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Restaurant']",
+            "gmap_id": "0x89ac8679aa1a9bc5:0xf4875a51cc2cc913",
+            "iid": 19884,
+            "name": "New Rainbow",
+            "rank": 2,
+            "score": -20.564531326293945,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Bitter Melon Asian Market, 9625 Bitter Melon Dr, Angier, NC 27501",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89ac85dfe3cd577b:0x971cd40334380417",
+            "iid": 19883,
+            "name": "Bitter Melon Asian Market",
+            "rank": 3,
+            "score": -21.921070098876953,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Thai-Esan Restaurant, 803 N Main St, Spring Lake, NC 28390",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89ab69a3e3bea5b3:0xfb2dba6811c2fbf0",
+            "iid": 19799,
+            "name": "Thai-Esan Restaurant",
+            "rank": 4,
+            "score": -26.165355682373047,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Chopstixs Thai & Asian Cuisine, 414 N Bragg Blvd, Spring Lake, NC 28390",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89ab69a0120e46eb:0x3f8dd0a6ac99ea13",
+            "iid": 19798,
+            "name": "Chopstixs Thai & Asian Cuisine",
+            "rank": 5,
+            "score": -26.165443420410156,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Super Wing Station, 150 Francam Dr #104, Fayetteville, NC 28311",
+            "category": "['Restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Takeout Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89ab6dcac005c13d:0x13b0558afe5c997b",
+            "iid": 19812,
+            "name": "Super Wing Station",
+            "rank": 6,
+            "score": -26.486351013183594,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Little China Restaurant, 3837 Ramsey St, Fayetteville, NC 28311",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89ab6db38fac4ead:0x435aadf67525fb0e",
+            "iid": 19811,
+            "name": "Little China Restaurant",
+            "rank": 7,
+            "score": -27.299161911010742,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Golden China, 1324 N Main St, Fuquay-Varina, NC 27526",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89ac8f1164a36965:0xaddb0c91b053f0be",
+            "iid": 19893,
+            "name": "Golden China",
+            "rank": 8,
+            "score": -27.392719268798828,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "King Wok, 7405 Sunset Lake Rd, Fuquay-Varina, NC 27526",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89ac8f0e0d23ad2b:0x908634c7562e94",
+            "iid": 19892,
+            "name": "King Wok",
+            "rank": 9,
+            "score": -28.02145767211914,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "New Rainbow, 3427 N Main St, Fuquay-Varina, NC 27526",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x89ac896ab87a9f0d:0xfabdd071d92e97d1",
+            "iid": 19885,
+            "name": "New Rainbow",
+            "rank": 10,
+            "score": -31.65764045715332,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Thai Pepper Restaurant, 1342 Bragg Blvd, Fayetteville, NC 28301",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89ab6cc646533309:0x84bac211902a31e5",
+            "iid": 19810,
+            "name": "Thai Pepper Restaurant",
+            "rank": 11,
+            "score": -32.692039489746094,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Bragg Asia Bistro, 2724B Bragg Blvd, Fayetteville, NC 28303",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89ab139104dc962f:0x66e385782b33cb09",
+            "iid": 19788,
+            "name": "Bragg Asia Bistro",
+            "rank": 12,
+            "score": -32.87024688720703,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Thai House Express, 316 N Eastern Blvd, Fayetteville, NC 28301",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89ab12cb3d4c538d:0xb29b60f7de799181",
+            "iid": 19787,
+            "name": "Thai House Express",
+            "rank": 13,
+            "score": -33.51485824584961,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Saigon Market LLC, 824 Santee Dr, Fayetteville, NC 28303",
+            "category": "['Restaurant', 'Asian grocery store']",
+            "gmap_id": "0x89ab6b22af0dc657:0x4b39ed9d5e88218d",
+            "iid": 19806,
+            "name": "Saigon Market LLC",
+            "rank": 14,
+            "score": -33.58942413330078,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Peking Restaurant, 5048 Yadkin Rd #204, Fayetteville, NC 28303",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89ab6b1f67a65e67:0xdd0cf1fe49d45c98",
+            "iid": 19804,
+            "name": "Peking Restaurant",
+            "rank": 15,
+            "score": -33.730613708496094,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sun Asian Supermarket, 404 Santa Fe Dr #100, Fayetteville, NC 28303",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x89ab6ae69dd952dd:0x2075a1fc5940fc33",
+            "iid": 19802,
+            "name": "Sun Asian Supermarket",
+            "rank": 16,
+            "score": -33.74232482910156,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Orchid Garden Restaurant, 5048 Yadkin Rd, Fayetteville, NC 28303",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Buffet restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89ab6b1f67a65e67:0x93ba07833c076a8f",
+            "iid": 19803,
+            "name": "Orchid Garden Restaurant",
+            "rank": 17,
+            "score": -33.745113372802734,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Grilled Ginger Vietnamese Restaurant, 5052 Yadkin Rd #101, Fayetteville, NC 28303",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89ab6b21d93b2663:0x9ddf23fcd005ba12",
+            "iid": 19805,
+            "name": "Grilled Ginger Vietnamese Restaurant",
+            "rank": 18,
+            "score": -33.800819396972656,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sapporo Restaurant, 649 N Reilly Rd # 103, Fayetteville, NC 28303",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89ab6a84c530fe05:0xbf3c0cb9f54c65fd",
+            "iid": 19800,
+            "name": "Sapporo Restaurant",
+            "rank": 19,
+            "score": -34.513389587402344,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Ming Moon Chinese Restaurant, 5841 U.S. Hwy 301 S, Four Oaks, NC 27524",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Restaurant']",
+            "gmap_id": "0x89ac712d8cafd9a7:0x728c49102b9ba45f",
+            "iid": 19881,
+            "name": "Ming Moon Chinese Restaurant",
+            "rank": 20,
+            "score": -34.54352951049805,
+            "state": "North_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Braiden H",
+        "uid": 72534,
+        "user_id": 106998469572974516379
+    }
+}

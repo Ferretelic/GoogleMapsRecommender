@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sao Mai, 203 1st Avenue, New York, NY 10003",
+            "category": "['Vietnamese restaurant']",
+            "date": "2014/08/30",
+            "gmap_id": "0x89c2599dfdb01c89:0x76c0801164938126",
+            "iid": 4453,
+            "name": "Sao Mai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1409358216152
+        },
+        {
+            "address": "Pho Vietnam, 1243 Avenue U, Brooklyn, NY 11229",
+            "category": "['Vietnamese restaurant']",
+            "date": "2015/11/05",
+            "gmap_id": "0x89c2448ca5202631:0xbaab397fa1aed878",
+            "iid": 4387,
+            "name": "Pho Vietnam",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1446713686573
+        },
+        {
+            "address": "Thanh Da, 6008 7th Ave, Brooklyn, NY 11220",
+            "category": "['Vietnamese restaurant']",
+            "date": "2015/11/05",
+            "gmap_id": "0x89c2454a6015945f:0x64a82630f9aafcf9",
+            "iid": 4396,
+            "name": "Thanh Da",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1446713814811
+        },
+        {
+            "address": "Ph\u1edf Ga Thanh Thanh, 2539 Kensington Ave, Philadelphia, PA 19125",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x89c6c823b31519a3:0xac9d57eb1cf3e4cc",
+            "iid": 4628,
+            "name": "Ph\u1edf Ga Thanh Thanh",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1544472804362
+        },
+        {
+            "address": "Ph\u1edf Ha Saigon, 575 Adams Ave, Philadelphia, PA 19120",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x89c6b6fe1f934cab:0x50554aea96d1f2a8",
+            "iid": 4594,
+            "name": "Ph\u1edf Ha Saigon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1544472834222
+        },
+        {
+            "address": "Viet Huong Restaurant, 1110 Washington Ave, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x89c6c618e17297f7:0x82240dbf29220223",
+            "iid": 4612,
+            "name": "Viet Huong Restaurant",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1544472925618
+        },
+        {
+            "address": "Rice Paper - Taste of Vietnam, 6775 Wilson Blvd, Falls Church, VA 22044",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/12/20",
+            "gmap_id": "0x89b7b4895660b097:0x7db0f7885da0fc16",
+            "iid": 4270,
+            "name": "Rice Paper - Taste of Vietnam",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1545283361119
+        },
+        {
+            "address": "Vn'Wich Cafe, 520 Northpark Dr, Porter, TX 77365",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x86474d45df4b5a73:0xf1df092904534acb",
+            "iid": 2625,
+            "name": "Vn'Wich Cafe",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1563545328583
+        },
+        {
+            "address": "Hong Kong City Mall, 11205 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Shopping mall', 'Cake shop', 'Dentist', 'Gift shop', 'Insurance agency', 'Restaurant', 'Supermarket', 'Vietnamese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x8640dd3a6f95e45b:0xa5be45d74bc43d2e",
+            "iid": 2456,
+            "name": "Hong Kong City Mall",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1563545439841
+        },
+        {
+            "address": "Pho One Vietnamese Restaurant, 181 South US-1, Metuchen, NJ 08840",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/09/23",
+            "gmap_id": "0x89c3b7836bb6edb1:0x3361e843d03ff09",
+            "iid": 4550,
+            "name": "Pho One Vietnamese Restaurant",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1600902106564
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Pho 75, 1122 Washington Ave F, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6c618fa3a6c51:0x2fb6d4e55f763984",
+            "iid": 4613,
+            "name": "Pho 75",
+            "rank": 1,
+            "score": 3.3295271396636963,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Caf\u00e9 Saigon, 827 Adams Ave, Philadelphia, PA 19124",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c6b65a0c90451f:0x1e730a4906e73853",
+            "iid": 4591,
+            "name": "Caf\u00e9 Saigon",
+            "rank": 2,
+            "score": 3.1707780361175537,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf 75, 823 Adams Ave, Philadelphia, PA 19124",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c6b65a095e28ad:0x493ccf7788037499",
+            "iid": 4590,
+            "name": "Ph\u1edf 75",
+            "rank": 3,
+            "score": 2.9174389839172363,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf T\u00e2y H\u1ed3, 2351 86th St, Brooklyn, NY 11214",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c24507216c99c5:0x76ac2244b71a6561",
+            "iid": 4390,
+            "name": "Ph\u1edf T\u00e2y H\u1ed3",
+            "rank": 4,
+            "score": 2.9135851860046387,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho 20, 234 N 10th St, Philadelphia, PA 19107",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c6c87d82a02d75:0x7a8684582ea5929b",
+            "iid": 4630,
+            "name": "Pho 20",
+            "rank": 5,
+            "score": 2.64730167388916,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Caf\u00e9 Diem, 1031 S 8th St, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6c61fafdc46bd:0x83874c7ca1eb7c4e",
+            "iid": 4616,
+            "name": "Caf\u00e9 Diem",
+            "rank": 6,
+            "score": 2.641606092453003,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Caf\u00e9 Mi Quang, 3324 Kensington Ave, Philadelphia, PA 19134",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b7d37162a625:0xfb86c86c0def62c0",
+            "iid": 4597,
+            "name": "Caf\u00e9 Mi Quang",
+            "rank": 7,
+            "score": 2.59289813041687,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho Ha, 600 Washington Ave, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c6c61e2c42c38b:0x62028c506aa574ed",
+            "iid": 4614,
+            "name": "Pho Ha",
+            "rank": 8,
+            "score": 2.5419962406158447,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf Saigon, 1100 S Christopher Columbus Blvd #22, Philadelphia, PA 19147",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c6c8a368f46f71:0x9d20591f8e010727",
+            "iid": 4635,
+            "name": "Ph\u1edf Saigon",
+            "rank": 9,
+            "score": 2.4477627277374268,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf Viet, 5520 Whitaker Ave, Philadelphia, PA 19124",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b6f969b002e9:0xae545e90ca167611",
+            "iid": 4593,
+            "name": "Ph\u1edf Viet",
+            "rank": 10,
+            "score": 2.3807904720306396,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf Ho\u00e0i, 1906 Avenue U, Brooklyn, NY 11229",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2448e92f6e849:0x27f70fdc70b4d218",
+            "iid": 4388,
+            "name": "Ph\u1edf Ho\u00e0i",
+            "rank": 11,
+            "score": 2.370727062225342,
+            "state": "New_York"
+        },
+        {
+            "address": "Ph\u1edf Le Lai, 2842 St Vincent St, Philadelphia, PA 19149",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b423e82a1481:0xba8b3f7e324efeea",
+            "iid": 4589,
+            "name": "Ph\u1edf Le Lai",
+            "rank": 12,
+            "score": 2.3613502979278564,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho Xe Lua Viet Thai Restaurant, 907 Race St, Philadelphia, PA 19107",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c6c62a7f3c66f7:0x54a19d94ccbf6c34",
+            "iid": 4619,
+            "name": "Pho Xe Lua Viet Thai Restaurant",
+            "rank": 13,
+            "score": 2.2914509773254395,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf Saigon, 6842 Bustleton Ave, Philadelphia, PA 19149",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b69c27dd3911:0x373b95da53be138b",
+            "iid": 4592,
+            "name": "Ph\u1edf Saigon",
+            "rank": 14,
+            "score": 2.270171642303467,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho Don, 3528 Germantown Ave, Philadelphia, PA 19140",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b7f9c192b279:0xf7341ec47ed7370e",
+            "iid": 4598,
+            "name": "Pho Don",
+            "rank": 15,
+            "score": 2.2589352130889893,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Little Saigon Pearl, 9 Bay 35th St, Brooklyn, NY 11214",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c24507161a9d15:0x49bc0c717674fa6",
+            "iid": 4389,
+            "name": "Little Saigon Pearl",
+            "rank": 16,
+            "score": 2.1783528327941895,
+            "state": "New_York"
+        },
+        {
+            "address": "Thang Long Noodle Restaurant (Kensington), 2534-36 Kensington Ave, Philadelphia, PA 19125",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6c8224b0b9001:0x56d120742146ac51",
+            "iid": 4627,
+            "name": "Thang Long Noodle Restaurant (Kensington)",
+            "rank": 17,
+            "score": 2.171361207962036,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho 60, 1001 60th St, Brooklyn, NY 11219",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2453646db0f49:0xaf404ce417673336",
+            "iid": 4393,
+            "name": "Pho 60",
+            "rank": 18,
+            "score": 2.129443883895874,
+            "state": "New_York"
+        },
+        {
+            "address": "Nam Vang Restaurant, 571 Adams Ave # 1, Philadelphia, PA 19120",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b701c2a4d4d7:0x42c268bbcfa65fb4",
+            "iid": 4595,
+            "name": "Nam Vang Restaurant",
+            "rank": 19,
+            "score": 2.1080727577209473,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho Ha Saigon, 320 W Oregon Ave, Philadelphia, PA 19148",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6cf5596356a5d:0x62ab2f88c23ff70a",
+            "iid": 4641,
+            "name": "Pho Ha Saigon",
+            "rank": 20,
+            "score": 2.041971206665039,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Vip Connect",
+        "uid": 9616,
+        "user_id": 110119913864980248646
+    }
+}

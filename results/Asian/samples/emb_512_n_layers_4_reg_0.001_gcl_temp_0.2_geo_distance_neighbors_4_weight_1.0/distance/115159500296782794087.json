@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sabaku Sushi, 90 E Center St, Moab, UT 84532",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/03/02",
+            "gmap_id": "0x8747e1ec6e984545:0x8608e2b444afe3e8",
+            "iid": 10994,
+            "name": "Sabaku Sushi",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1488493195730
+        },
+        {
+            "address": "Sushi Sake Key Largo, 103400 Overseas Hwy, Key Largo, FL 33037",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Family restaurant', 'Japanese restaurant']",
+            "date": "2018/06/11",
+            "gmap_id": "0x88d768f35d4343ef:0xd95eeaa989dab3be",
+            "iid": 17517,
+            "name": "Sushi Sake Key Largo",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1528675932092
+        },
+        {
+            "address": "Shalala, 698 W Dana St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/09",
+            "gmap_id": "0x808fb733e3895c73:0x5fbeb3ae533abf45",
+            "iid": 3633,
+            "name": "Shalala",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1533841654717
+        },
+        {
+            "address": "Little Hot Pot, 43829 Boscell Rd, Fremont, CA 94538",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/08/09",
+            "gmap_id": "0x808fc76cf51f3a09:0xcfae957756b9a421",
+            "iid": 3737,
+            "name": "Little Hot Pot",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1533841675256
+        },
+        {
+            "address": "Hong Kong Lounge, 5322 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Dim sum restaurant', 'Asian restaurant', 'Chinese restaurant', 'Family restaurant', 'Lounge']",
+            "date": "2018/08/26",
+            "gmap_id": "0x808587111e3aa9cb:0xecbf001743316ae6",
+            "iid": 2885,
+            "name": "Hong Kong Lounge",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535262674093
+        },
+        {
+            "address": "99 Ranch Market, Milpitas Square, 338 Barber Ln, Milpitas, CA 95035",
+            "category": "['Supermarket', 'Asian grocery store']",
+            "date": "2019/09/28",
+            "gmap_id": "0x808fc926c9d3a907:0x8a2619fefadc99c4",
+            "iid": 3758,
+            "name": "99 Ranch Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569709398929
+        },
+        {
+            "address": "Fashion Wok, 163 S Murphy Ave, Sunnyvale, CA 94086",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant']",
+            "date": "2019/12/16",
+            "gmap_id": "0x808fb7cc70687985:0xb1028b574647cfda",
+            "iid": 3650,
+            "name": "Fashion Wok",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576489468669
+        },
+        {
+            "address": "99 Ranch Market, 10983 N Wolfe Rd, Cupertino, CA 95014",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2020/12/17",
+            "gmap_id": "0x808fb5961445064d:0xfc9d933b56fbee90",
+            "iid": 3570,
+            "name": "99 Ranch Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1608174078430
+        },
+        {
+            "address": "99 Ranch Market, 35219 Newark Blvd, Newark, CA 94560",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2020/12/17",
+            "gmap_id": "0x808fbe50e01813cd:0xd7d2ad16a931c83e",
+            "iid": 3686,
+            "name": "99 Ranch Market",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1608174085324
+        },
+        {
+            "address": "99 Ranch Market, 1350 Grant Rd, Mountain View, CA 94040",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2021/02/01",
+            "gmap_id": "0x808fb6d7ad502541:0x6c3f4950294c5e49",
+            "iid": 3616,
+            "name": "99 Ranch Market",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1612147147791
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Quickly, 10887 N Wolfe Rd, Cupertino, CA 95014",
+            "category": "['Bubble tea store', 'Asian fusion restaurant', 'Cafe']",
+            "gmap_id": "0x808fb5961590e201:0xc958da05fd7640c2",
+            "iid": 3572,
+            "name": "Quickly",
+            "rank": 1,
+            "score": -1.7399073839187622,
+            "state": "California"
+        },
+        {
+            "address": "SOJO Ramen, 43779 Boscell Rd, Fremont, CA 94538",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x808fc757dc7daf1d:0xd719db3cb311d3aa",
+            "iid": 3731,
+            "name": "SOJO Ramen",
+            "rank": 2,
+            "score": -1.9773492813110352,
+            "state": "California"
+        },
+        {
+            "address": "Chicken Meets Rice (Cupertino), 10445 S De Anza Blvd Unit 101, Cupertino, CA 95014",
+            "category": "['Chicken shop', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808fb5eca1eaee93:0x95c61effe7c9518d",
+            "iid": 3588,
+            "name": "Chicken Meets Rice (Cupertino)",
+            "rank": 3,
+            "score": -1.98721182346344,
+            "state": "California"
+        },
+        {
+            "address": "Yo Sushi, 84E Second Street, New York, NY 10010",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2590abd507611:0x15483467938e3e38",
+            "iid": 21742,
+            "name": "Yo Sushi",
+            "rank": 4,
+            "score": -2.070819616317749,
+            "state": "New_York"
+        },
+        {
+            "address": "Noodle King, 841 Villa St, Mountain View, CA 94041",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb73daacabd81:0x2d4dfab25fa7eae9",
+            "iid": 3644,
+            "name": "Noodle King",
+            "rank": 5,
+            "score": -2.0814173221588135,
+            "state": "California"
+        },
+        {
+            "address": "Simply Thai Street Food, 425 N Whisman Rd, Mountain View, CA 94043",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808fb7144e806d67:0xa89d3c1734c7e275",
+            "iid": 3630,
+            "name": "Simply Thai Street Food",
+            "rank": 6,
+            "score": -2.0817089080810547,
+            "state": "California"
+        },
+        {
+            "address": "P.F. Chang's To Go, 213 W Hubbard St, Chicago, IL 60654",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2d42306554ff:0x1e7b171b4a859340",
+            "iid": 13465,
+            "name": "P.F. Chang's To Go",
+            "rank": 7,
+            "score": -2.1135823726654053,
+            "state": "Illinois"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 3143,
+            "name": "Tomokazu",
+            "rank": 8,
+            "score": -2.12013840675354,
+            "state": "California"
+        },
+        {
+            "address": "Pho 24 DBA. Hoang Toan Restaurant, 3865 Venture Dr, Duluth, GA 30096",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88f5a35feb5cbebb:0x8bf7388794a2ac6e",
+            "iid": 19337,
+            "name": "Pho 24 DBA. Hoang Toan Restaurant",
+            "rank": 9,
+            "score": -2.1265676021575928,
+            "state": "Georgia"
+        },
+        {
+            "address": "Shabuway, 5120 Geary Blvd, San Francisco, CA 94118",
+            "category": "['Shabu-shabu restaurant', 'Asian restaurant', 'Sukiyaki and Shabu Shabu restaurant']",
+            "gmap_id": "0x80858716d0297647:0xdf38f05ac3e5b4e3",
+            "iid": 2889,
+            "name": "Shabuway",
+            "rank": 10,
+            "score": -2.1351664066314697,
+            "state": "California"
+        },
+        {
+            "address": "Noodle Edition, 1331 Coleman Ave, Santa Clara, CA 95050",
+            "category": "['Noodle shop', 'Asian fusion restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x808fcb31133db015:0x7d3ef796c7ff3469",
+            "iid": 3812,
+            "name": "Noodle Edition",
+            "rank": 11,
+            "score": -2.1541175842285156,
+            "state": "California"
+        },
+        {
+            "address": "X-press Thai, 6750 Gaylord Pkwy #140, Frisco, TX 75034",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x864c3d74088cba95:0xef8e158684c6aae9",
+            "iid": 9362,
+            "name": "X-press Thai",
+            "rank": 12,
+            "score": -2.154742479324341,
+            "state": "Texas"
+        },
+        {
+            "address": "Truya Sushi SV, 415 N Mary Ave #104, Sunnyvale, CA 94085",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb701dc3917eb:0xb2936592414c2712",
+            "iid": 3629,
+            "name": "Truya Sushi SV",
+            "rank": 13,
+            "score": -2.166714906692505,
+            "state": "California"
+        },
+        {
+            "address": "Grand Sichuan, 125 Canal St, New York, NY 10002",
+            "category": "['Restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c25a27e75d1df7:0x75c68f59f60cecb",
+            "iid": 22044,
+            "name": "Grand Sichuan",
+            "rank": 14,
+            "score": -2.1835665702819824,
+            "state": "New_York"
+        },
+        {
+            "address": "Everest Grocery/Ananda Bazzar, 3102 S Parker Rd A6, Aurora, CO 80014",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x876c87e5cf3624e9:0xb668bb05b3e8ace9",
+            "iid": 11668,
+            "name": "Everest Grocery/Ananda Bazzar",
+            "rank": 15,
+            "score": -2.185587167739868,
+            "state": "Colorado"
+        },
+        {
+            "address": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING), 98 7th St, San Francisco, CA 94103",
+            "category": "['Asian restaurant', 'Breakfast restaurant', 'Caterer', 'Indian restaurant', 'Japanese restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8085808360795555:0x268c1a62603e82df",
+            "iid": 2717,
+            "name": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING)",
+            "rank": 16,
+            "score": -2.1975693702697754,
+            "state": "California"
+        },
+        {
+            "address": "Ocean Blue Sushi Club, 1010 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x808fb5ef93ea2b97:0x18932c3c522d7c15",
+            "iid": 3590,
+            "name": "Ocean Blue Sushi Club",
+            "rank": 17,
+            "score": -2.199786901473999,
+            "state": "California"
+        },
+        {
+            "address": "JunYue Bistro, 152 South Blvd, San Mateo, CA 94402",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x808f9f35f3000427:0x3133a9be82f71c15",
+            "iid": 3491,
+            "name": "JunYue Bistro",
+            "rank": 18,
+            "score": -2.2025704383850098,
+            "state": "California"
+        },
+        {
+            "address": "Food Talk Cafe, 43755 Boscell Rd, Fremont, CA 94538",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808fc76c63ea6cbf:0x22592d440e0e1a6c",
+            "iid": 3734,
+            "name": "Food Talk Cafe",
+            "rank": 19,
+            "score": -2.2119932174682617,
+            "state": "California"
+        },
+        {
+            "address": "Donburi Ya, 764 Harrison St, San Francisco, CA 94107",
+            "category": "['Restaurant', 'Asian restaurant', 'Caterer', 'Japanese restaurant']",
+            "gmap_id": "0x808581b259c7ab77:0x26230ccb54e7aff3",
+            "iid": 2861,
+            "name": "Donburi Ya",
+            "rank": 20,
+            "score": -2.2140495777130127,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Ziqi Peng",
+        "uid": 156466,
+        "user_id": 115159500296782794087
+    }
+}

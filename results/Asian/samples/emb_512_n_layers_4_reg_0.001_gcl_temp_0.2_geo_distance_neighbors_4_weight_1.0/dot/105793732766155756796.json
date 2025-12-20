@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Cafe Soho, 468 W Cheltenham Ave, Philadelphia, PA 19126",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Fried chicken takeaway', 'Restaurant']",
+            "date": "2019/12/19",
+            "gmap_id": "0x89c6b73e04bd15db:0xc1cdd8921a06956a",
+            "iid": 23529,
+            "name": "Cafe Soho",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1576771104192
+        },
+        {
+            "address": "Kyoto Palace Japanese Steakhouse, 1875 S Bascom Ave #2500, Campbell, CA 95008",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Banquet hall', 'Bar', 'Japanese steakhouse', 'Karaoke bar', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2019/12/28",
+            "gmap_id": "0x808e34c262a4d103:0xfaa507ae2893cb3f",
+            "iid": 3094,
+            "name": "Kyoto Palace Japanese Steakhouse",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1577545814029
+        },
+        {
+            "address": "FUSIAN, 4190 Worth Ave, Columbus, OH 43219",
+            "category": "['Asian restaurant', 'Grocery delivery service', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x88388a81e89826e9:0x7cedac569f81c9b2",
+            "iid": 15078,
+            "name": "FUSIAN",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1578321504033
+        },
+        {
+            "address": "New Hong Kong, 7665 W Saint Francis Rd, Frankfort, IL 60423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x880e144205c037b5:0x39b7a074dc845e8e",
+            "iid": 13341,
+            "name": "New Hong Kong",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1582056130916
+        },
+        {
+            "address": "TM Basil, 66 Oakbrook Center, Oak Brook, IL 60523",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Noodle shop', 'Soup restaurant', 'Sushi restaurant', 'Taiwanese restaurant', 'Thai restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x880e4c42a79c9d65:0x8cb6c1f62624cdaf",
+            "iid": 13557,
+            "name": "TM Basil",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1582056151355
+        },
+        {
+            "address": "Robata JINYA - Hollywood, 8050 W 3rd St, Los Angeles, CA 90048",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2020/07/10",
+            "gmap_id": "0x80c2b9369339f523:0x3502a4e0450f9dc6",
+            "iid": 4901,
+            "name": "Robata JINYA - Hollywood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1594407537501
+        },
+        {
+            "address": "Ruthai's Thai Kitchen, 3164 Linwood Ave, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/09/14",
+            "gmap_id": "0x8841ad8dd19e8797:0x6f233a6f459238a0",
+            "iid": 15501,
+            "name": "Ruthai's Thai Kitchen",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1600091852766
+        },
+        {
+            "address": "Naan On Devon & Grill, 2241 W Devon Ave, Chicago, IL 60659",
+            "category": "['Indian restaurant', 'Pakistani restaurant', 'South Asian restaurant']",
+            "date": "2020/09/28",
+            "gmap_id": "0x880fd1dd2cbbcd3f:0x9174a64c6df6c09e",
+            "iid": 14020,
+            "name": "Naan On Devon & Grill",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1601298568603
+        },
+        {
+            "address": "Ju Rang, 611 Milwaukee Ave, Glenview, IL 60025",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Karaoke', 'Restaurant', 'Sports bar']",
+            "date": "2020/09/28",
+            "gmap_id": "0x880fc7fa1a843fab:0xa1fc350951e5703a",
+            "iid": 13909,
+            "name": "Ju Rang",
+            "split": "valid",
+            "state": "Illinois",
+            "unix_time": 1601298595591
+        },
+        {
+            "address": "Surepinoy Oriental Food Mart, 145 Water St, Quincy, MA 02169",
+            "category": "['Asian grocery store']",
+            "date": "2021/01/08",
+            "gmap_id": "0x89e37cccebca0e91:0x289a9e4e5cfd850d",
+            "iid": 24875,
+            "name": "Surepinoy Oriental Food Mart",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1610122271729
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "P.F. Chang's, 2361 Fountain Square Dr, Lombard, IL 60148",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e4d953d0de3d5:0xbb2fd7d0db8a05bb",
+            "iid": 13567,
+            "name": "P.F. Chang's",
+            "rank": 1,
+            "score": 4.035651683807373,
+            "state": "Illinois"
+        },
+        {
+            "address": "Ghareeb Nawaz Restaurant, 2032 W Devon Ave, Chicago, IL 60659",
+            "category": "['Indian restaurant', 'Pakistani restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x880fd1c175439ef3:0x476db6339684a8a3",
+            "iid": 14014,
+            "name": "Ghareeb Nawaz Restaurant",
+            "rank": 2,
+            "score": 3.6634066104888916,
+            "state": "Illinois"
+        },
+        {
+            "address": "RockSugar Southeast Asian Kitchen, 2022 Spring Rd, Oak Brook, IL 60523",
+            "category": "['Asian restaurant', 'Event venue', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x880e4c6f3b05b5e1:0x1db7ad567b2bfe5",
+            "iid": 13559,
+            "name": "RockSugar Southeast Asian Kitchen",
+            "rank": 3,
+            "score": 3.5273563861846924,
+            "state": "Illinois"
+        },
+        {
+            "address": "Wu's House Orland Park, 16310 South La Grange Road, Orland Park, IL 60467",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e3f3f2ad16c15:0x843de61343f20a15",
+            "iid": 13528,
+            "name": "Wu's House Orland Park",
+            "rank": 4,
+            "score": 3.1295015811920166,
+            "state": "Illinois"
+        },
+        {
+            "address": "Masala Indian & Fusion Cuisine, 801 Butterfield Rd #101, Lombard, IL 60148",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Delivery Restaurant', 'Nepalese restaurant', 'Restaurant']",
+            "gmap_id": "0x880e4deb9ccaed5b:0xbc12809767c2b0c2",
+            "iid": 13572,
+            "name": "Masala Indian & Fusion Cuisine",
+            "rank": 5,
+            "score": 2.816840410232544,
+            "state": "Illinois"
+        },
+        {
+            "address": "Benihana, 747 Butterfield Rd, Lombard, IL 60148",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x880e4dec6f1fef7f:0xf5330298052fa56c",
+            "iid": 13573,
+            "name": "Benihana",
+            "rank": 6,
+            "score": 2.8135149478912354,
+            "state": "Illinois"
+        },
+        {
+            "address": "Biryani Pointe - Lombard, 40 W Roosevelt Rd, Lombard, IL 60148",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Halal restaurant', 'Mediterranean restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x880e527cfe2fe32b:0xf347b32fdca4f2c9",
+            "iid": 13599,
+            "name": "Biryani Pointe - Lombard",
+            "rank": 7,
+            "score": 2.8011679649353027,
+            "state": "Illinois"
+        },
+        {
+            "address": "Masala, 28331 Dodge Dr, Warrenville, IL 60555",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Banquet hall', 'Fine dining restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x880ef899599a28dd:0xa415468267fe8708",
+            "iid": 13679,
+            "name": "Masala",
+            "rank": 8,
+            "score": 2.758277177810669,
+            "state": "Illinois"
+        },
+        {
+            "address": "bd's Mongolian Grill, 619 E Boughton Rd #150, Bolingbrook, IL 60440",
+            "category": "['Restaurant', 'Asian restaurant']",
+            "gmap_id": "0x880e5af3c182bea3:0xbb9ba48ae43bb4a3",
+            "iid": 13637,
+            "name": "bd's Mongolian Grill",
+            "rank": 9,
+            "score": 2.757859230041504,
+            "state": "Illinois"
+        },
+        {
+            "address": "A. Fusion, 4601 Lincoln Hwy, Matteson, IL 60443",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e172e1531a9e3:0x870f683f832324d4",
+            "iid": 13348,
+            "name": "A. Fusion",
+            "rank": 10,
+            "score": 2.7343437671661377,
+            "state": "Illinois"
+        },
+        {
+            "address": "Chi Tung Restaurant, 9560 S Kedzie Ave, Evergreen Park, IL 60805, United States",
+            "category": "['Asian restaurant', 'Caterer', 'Chinese restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x880e3ab5c53c8d69:0x8074e7a0f52b492e",
+            "iid": 13522,
+            "name": "Chi Tung Restaurant",
+            "rank": 11,
+            "score": 2.7167165279388428,
+            "state": "Illinois"
+        },
+        {
+            "address": "P.F. Chang's, 14135 South La Grange Road, Orland Park, IL 60462",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e1533897ebb9f:0x379d741326f79633",
+            "iid": 13343,
+            "name": "P.F. Chang's",
+            "rank": 12,
+            "score": 2.7038652896881104,
+            "state": "Illinois"
+        },
+        {
+            "address": "P.F. Chang's, 2633 Edmondson Rd, Cincinnati, OH 45209",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8841b2870d307ac9:0xdab10ff57766ddb1",
+            "iid": 15517,
+            "name": "P.F. Chang's",
+            "rank": 13,
+            "score": 2.676905870437622,
+            "state": "Ohio"
+        },
+        {
+            "address": "Taste of India, 7243 S Kingery Hwy, Willowbrook, IL 60527",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Bar', 'Takeout Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x880e4f45ed362f71:0xec2b04a5037918d0",
+            "iid": 13583,
+            "name": "Taste of India",
+            "rank": 14,
+            "score": 2.67010235786438,
+            "state": "Illinois"
+        },
+        {
+            "address": "Tokyo Steakhouse, 9436 179th St, Tinley Park, IL 60487",
+            "category": "['Steak house', 'Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e1548d8cd3683:0xabd29250adb4d0ae",
+            "iid": 13344,
+            "name": "Tokyo Steakhouse",
+            "rank": 15,
+            "score": 2.645646810531616,
+            "state": "Illinois"
+        },
+        {
+            "address": "woow sushi, 19826 South La Grange Road, Frankfort, IL 60423",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880e14cea0ca1963:0x14bfb4612a0bd4c7",
+            "iid": 13342,
+            "name": "woow sushi",
+            "rank": 16,
+            "score": 2.6294033527374268,
+            "state": "Illinois"
+        },
+        {
+            "address": "P.F. Chang's, 4040 Townsfair Way, Columbus, OH 43219",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88388a7dcdaa57bf:0xbea6c1c2a5518db2",
+            "iid": 15077,
+            "name": "P.F. Chang's",
+            "rank": 17,
+            "score": 2.6171512603759766,
+            "state": "Ohio"
+        },
+        {
+            "address": "Green Papaya, 2942 Wasson Rd, Cincinnati, OH 45209",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8841ad819aa14b83:0xa171116e600f1c98",
+            "iid": 15498,
+            "name": "Green Papaya",
+            "rank": 18,
+            "score": 2.5887765884399414,
+            "state": "Ohio"
+        },
+        {
+            "address": "Asian Harbor, 1930 Ridge Rd, Homewood, IL 60430",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Family restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x880e1866be689077:0x4a73703a44025c3b",
+            "iid": 13350,
+            "name": "Asian Harbor",
+            "rank": 19,
+            "score": 2.577458381652832,
+            "state": "Illinois"
+        },
+        {
+            "address": "Khan Barbeque Restaurant, 2401 W Devon Ave, Chicago, IL 60659",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x880fd1dd06982a55:0x82e05db3496a6860",
+            "iid": 14018,
+            "name": "Khan Barbeque Restaurant",
+            "rank": 20,
+            "score": 2.552293062210083,
+            "state": "Illinois"
+        }
+    ],
+    "user": {
+        "name": "Brian Reimer",
+        "uid": 60106,
+        "user_id": 105793732766155756796
+    }
+}

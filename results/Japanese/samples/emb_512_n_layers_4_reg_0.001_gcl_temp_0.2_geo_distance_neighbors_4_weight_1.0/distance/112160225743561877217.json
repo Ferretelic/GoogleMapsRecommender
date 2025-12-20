@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "SUSHI POP, 1105 S Euclid St, Fullerton, CA 92832",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/02/12",
+            "gmap_id": "0x80dd2a1bfd7261ff:0xdc3260f6ba331d5f",
+            "iid": 4450,
+            "name": "SUSHI POP",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486928791428
+        },
+        {
+            "address": "Sake 2 Me Sushi, 13951 Carroll Way, Tustin, CA 92780",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x80dcda2ae9e649c7:0x2e1ddd5b7348b142",
+            "iid": 4230,
+            "name": "Sake 2 Me Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1529875297342
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 1065 Brea Mall Suite 2050A, Brea, CA 92821",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80dcd5069c53da71:0x7d511e402391854c",
+            "iid": 4180,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535505357908
+        },
+        {
+            "address": "Fin Sushi Bar, 1742 W Wilson Ave, Chicago, IL 60640",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/02/20",
+            "gmap_id": "0x880fd23b5401dbef:0xae6ba88677a46aec",
+            "iid": 7481,
+            "name": "Fin Sushi Bar",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1550698300094
+        },
+        {
+            "address": "Miku Sushi, 4514 N Lincoln Ave, Chicago, IL 60625",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/05/01",
+            "gmap_id": "0x880fd2105469915d:0x4b32e4d0ba7cbfb0",
+            "iid": 7478,
+            "name": "Miku Sushi",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1556676213928
+        },
+        {
+            "address": "Shinto Japanese Steakhouse & Sushi Lounge, 504 Illinois Rte 59 #116, Naperville, IL 60563",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Caterer', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/05/24",
+            "gmap_id": "0x880ef852eb72b827:0xc00d8e6088beddf1",
+            "iid": 7306,
+            "name": "Shinto Japanese Steakhouse & Sushi Lounge",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1558656418182
+        },
+        {
+            "address": "My Thai, 555 W Madison St, Chicago, IL 60661",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2019/08/22",
+            "gmap_id": "0x880e2cc6c0dca1d3:0x80744910fe492272",
+            "iid": 7204,
+            "name": "My Thai",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1566505124184
+        },
+        {
+            "address": "Ramen Misoya, 1584 Busse Rd, Mt Prospect, IL 60056",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/08/25",
+            "gmap_id": "0x880fb0eda5d1a0df:0xeaace2d6e905fa8",
+            "iid": 7397,
+            "name": "Ramen Misoya",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1566700972978
+        },
+        {
+            "address": "Sushi Ukai, W, 120B Calendar Ave, La Grange, IL 60525",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/09/14",
+            "gmap_id": "0x880e49f39f3c72dd:0xbdd4945741084d23",
+            "iid": 7245,
+            "name": "Sushi Ukai",
+            "split": "valid",
+            "state": "Illinois",
+            "unix_time": 1568494200691
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 47 E Chicago Ave #108, Naperville, IL 60540",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant']",
+            "date": "2020/07/27",
+            "gmap_id": "0x880e57524652095d:0x25e39f5e746891c5",
+            "iid": 7281,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "test",
+            "state": "Illinois",
+            "unix_time": 1595818908833
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Arami, 5700 S Cicero Ave, Chicago, IL 60638",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x880e3148d2db3769:0xba66b00904fac05e",
+            "iid": 7223,
+            "name": "Arami",
+            "rank": 1,
+            "score": -1.888922929763794,
+            "state": "Illinois"
+        },
+        {
+            "address": "Okazya Kitchen, 1811 W Commonwealth Ave, Fullerton, CA 92833",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80dd2a37f58271b9:0xfa7d81d4beab694",
+            "iid": 4451,
+            "name": "Okazya Kitchen",
+            "rank": 2,
+            "score": -1.9194415807724,
+            "state": "California"
+        },
+        {
+            "address": "House of Shabu Shabu II, 605 N Euclid St, Anaheim, CA 92801",
+            "category": "['Shabu-shabu restaurant', 'Beer hall', 'Buffet restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x80dd29f5c94d73b7:0xe99bc31c5656baef",
+            "iid": 4449,
+            "name": "House of Shabu Shabu II",
+            "rank": 3,
+            "score": -1.9235817193984985,
+            "state": "California"
+        },
+        {
+            "address": "Miso Asian Kitchen, 4449 N Broadway, Chicago, IL 60640",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fd3cd0e24b55b:0xf2354e2cd617c264",
+            "iid": 7557,
+            "name": "Miso Asian Kitchen",
+            "rank": 4,
+            "score": -1.926871657371521,
+            "state": "Illinois"
+        },
+        {
+            "address": "Hello Sushi, 1553 W Devon Ave, Chicago, IL 60660",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x880fd1bcfcfe1c31:0x89f3e5fb54d2b834",
+            "iid": 7473,
+            "name": "Hello Sushi",
+            "rank": 5,
+            "score": -1.9931707382202148,
+            "state": "Illinois"
+        },
+        {
+            "address": "Orange Tei, 440 S Anaheim Blvd #202-203, Anaheim, CA 92805",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80dcd6300af25233:0xf769e217260e2e35",
+            "iid": 4200,
+            "name": "Orange Tei",
+            "rank": 6,
+            "score": -1.9974037408828735,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Lunch Box & Sake Bar, 300 S Riverside Plaza, Chicago, IL 60606",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x880e2cbf876b36c9:0x90e80249470f3c0e",
+            "iid": 7201,
+            "name": "Tokyo Lunch Box & Sake Bar",
+            "rank": 7,
+            "score": -1.999127984046936,
+            "state": "Illinois"
+        },
+        {
+            "address": "Blue Fin Japanese Restaurant, 1952 W North Ave, Chicago, IL 60622",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fd2c74881e999:0x7849643594f49b4f",
+            "iid": 7499,
+            "name": "Blue Fin Japanese Restaurant",
+            "rank": 8,
+            "score": -2.006531000137329,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi King 3, 4337 N Western Ave, Chicago, IL 60618",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x880fd20de351bfaf:0x36ed8b16c1209f8b",
+            "iid": 7477,
+            "name": "Sushi King 3",
+            "rank": 9,
+            "score": -2.024308204650879,
+            "state": "Illinois"
+        },
+        {
+            "address": "TenGoku Aburiya, 651 W Washington Blvd Suite #101A, Chicago, IL 60661",
+            "category": "['Izakaya restaurant', 'Fried chicken takeaway', 'Authentic Japanese restaurant', 'Kushiyaki restaurant', 'Sushi restaurant', 'Udon noodle restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x880e2d58761ea1f3:0x3f3ba2e2fe0b6737",
+            "iid": 7218,
+            "name": "TenGoku Aburiya",
+            "rank": 10,
+            "score": -2.0257153511047363,
+            "state": "Illinois"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 1942,
+            "name": "Tomokazu",
+            "rank": 11,
+            "score": -2.0335323810577393,
+            "state": "California"
+        },
+        {
+            "address": "California, Orange, E Village Way, Pokeology\u90ae\u653f\u7f16\u7801: 92865",
+            "category": "['Kyoto style Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dcd73170c21ffd:0x3b5a4c6b82b284d4",
+            "iid": 4206,
+            "name": "Pokeology",
+            "rank": 12,
+            "score": -2.039672374725342,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Kitchen, 1325 E Chapman Ave, Fullerton, CA 92831",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dcd5e7cfd8dca9:0x8a1414af1a1601fa",
+            "iid": 4194,
+            "name": "Tokyo Kitchen",
+            "rank": 13,
+            "score": -2.06563663482666,
+            "state": "California"
+        },
+        {
+            "address": "Cho Cho San, 15 W 8th St, New York, NY 10011",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259972eb06293:0x621691c5f32b8d17",
+            "iid": 12288,
+            "name": "Cho Cho San",
+            "rank": 14,
+            "score": -2.0762441158294678,
+            "state": "New_York"
+        },
+        {
+            "address": "Giant Ramen & Sushi, 4544 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80dd2bdb961160cd:0x4e9e3b97fd4bbb32",
+            "iid": 4467,
+            "name": "Giant Ramen & Sushi",
+            "rank": 15,
+            "score": -2.0915567874908447,
+            "state": "California"
+        },
+        {
+            "address": "Cloud Shaved Snow, 229 E Commonwealth Ave E, Fullerton, CA 92832",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Hawaiian restaurant', 'Health food restaurant', 'Ice cream shop', 'Juice shop']",
+            "gmap_id": "0x80dcd5f9df6b3455:0x4889698ef92ca518",
+            "iid": 4199,
+            "name": "Cloud Shaved Snow",
+            "rank": 16,
+            "score": -2.1071245670318604,
+            "state": "California"
+        },
+        {
+            "address": "Yindee Restaurant, 1824 W Addison St, Chicago, IL 60613",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fd243225e1d41:0xa38717eeb04aa65a",
+            "iid": 7483,
+            "name": "Yindee Restaurant",
+            "rank": 17,
+            "score": -2.1109061241149902,
+            "state": "Illinois"
+        },
+        {
+            "address": "Silverlake Ramen, 4101 McGowen St STE 150, Long Beach, CA 90808",
+            "category": "['Restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80dd33a8a6b89b77:0x3d97571247b17b45",
+            "iid": 4534,
+            "name": "Silverlake Ramen",
+            "rank": 18,
+            "score": -2.122880458831787,
+            "state": "California"
+        },
+        {
+            "address": "Norikoh Chelsea, 43 W 24th St, New York, NY 10010",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Izakaya restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259f4193f287b:0x153495c94f6e6822",
+            "iid": 12458,
+            "name": "Norikoh Chelsea",
+            "rank": 19,
+            "score": -2.1261749267578125,
+            "state": "New_York"
+        },
+        {
+            "address": "Midoh - Sawtelle, 2130 Sawtelle Blvd #200, Los Angeles, CA 90025",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bb35cfd4fb9d:0xac627da6aaabadc3",
+            "iid": 3055,
+            "name": "Midoh - Sawtelle",
+            "rank": 20,
+            "score": -2.1269187927246094,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Sabina Balbale",
+        "uid": 56239,
+        "user_id": 112160225743561877217
+    }
+}

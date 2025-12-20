@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Sake, 2150 N Collins Blvd, Richardson, TX 75080",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x864c1f301e0241ff:0xc4d3db059c151d26",
+            "iid": 5388,
+            "name": "Sushi Sake",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1555201070166
+        },
+        {
+            "address": "Hanaki Japanese Cuisine, 3045 N Belt Line Rd, Irving, TX 75062",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x864e8230ec033d3b:0x4b74960f9246d34c",
+            "iid": 5602,
+            "name": "Hanaki Japanese Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1555201086412
+        },
+        {
+            "address": "Mitsuwa Marketplace - Texas Plano, 100 Legacy Dr, Plano, TX 75023",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "date": "2019/04/14",
+            "gmap_id": "0x864c19c494599741:0x979b6269030c5543",
+            "iid": 5369,
+            "name": "Mitsuwa Marketplace - Texas Plano",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1555201188368
+        },
+        {
+            "address": "Ikigai Udon, 8245 Preston Rd #100, Plano, TX 75024",
+            "category": "['Authentic Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese curry restaurant', 'Noodle shop', 'Restaurant', 'Rice restaurant', 'Salad shop', 'Tempura restaurant', 'Udon noodle restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x864c3cc47d678a3b:0xa47cbb97bdeb678f",
+            "iid": 5501,
+            "name": "Ikigai Udon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1555201238544
+        },
+        {
+            "address": "Wa Kubota, 8448 Parkwood Blvd #700, Plano, TX 75024",
+            "category": "['Authentic Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/06/17",
+            "gmap_id": "0x864c3cc0990b2879:0xc5c2dd8b5361bbe3",
+            "iid": 5496,
+            "name": "Wa Kubota",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1560796023037
+        },
+        {
+            "address": "Masami Japanese Sushi & Cuisine, 501 W Belt Line Rd #116, Richardson, TX 75080",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/06/17",
+            "gmap_id": "0x864c1f70c08ae44b:0x5fdd4e4c94ba2311",
+            "iid": 5389,
+            "name": "Masami Japanese Sushi & Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1560796053866
+        },
+        {
+            "address": "Jinbeh, 301 E Las Colinas Blvd #301, Irving, TX 75039",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/17",
+            "gmap_id": "0x864e82bf39c28609:0xb5480a04b99b27e9",
+            "iid": 5608,
+            "name": "Jinbeh",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1560796077490
+        },
+        {
+            "address": "Jinbeh, 2693 Preston Rd Suite 1040, Frisco, TX 75034",
+            "category": "['Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/06/17",
+            "gmap_id": "0x864c3ce9213beb05:0x749d6d2d03d355be",
+            "iid": 5503,
+            "name": "Jinbeh",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1560796090547
+        },
+        {
+            "address": "INO Japanese Bistro, 1920 N Coit Rd #250, Richardson, TX 75080",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/17",
+            "gmap_id": "0x864c21f2f7d396df:0xc91a9bef4de07907",
+            "iid": 5407,
+            "name": "INO Japanese Bistro",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1560796096163
+        },
+        {
+            "address": "75024 Texas, Plano, Preston Rd, Minato Ramen and Izakaya",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Lunch restaurant', 'Restaurant']",
+            "date": "2019/06/17",
+            "gmap_id": "0x864c3dd618ae8025:0xca23030569720fc1",
+            "iid": 5511,
+            "name": "Minato Ramen and Izakaya",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1560796131225
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "75024 Texas, Plano, Preston Rd, Minato Ramen and Izakaya",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x864c3dd618ae8025:0xca23030569720fc1",
+            "iid": 5511,
+            "name": "Minato Ramen and Izakaya",
+            "rank": 1,
+            "score": 0.7309021353721619,
+            "state": "Texas"
+        },
+        {
+            "address": "Mr Max Cafe Nippon, 3028 N Belt Line Rd, Irving, TX 75062",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864e8230e9ab7e2f:0x889bc4b794dc58f9",
+            "iid": 5601,
+            "name": "Mr Max Cafe Nippon",
+            "rank": 2,
+            "score": 0.695439338684082,
+            "state": "Texas"
+        },
+        {
+            "address": "Meccha Matcha, 2001 Coit Rd #166, Plano, TX 75075",
+            "category": "['Japanese sweets restaurant']",
+            "gmap_id": "0x864c23830adca5e5:0xe6c4954ca74390d6",
+            "iid": 5423,
+            "name": "Meccha Matcha",
+            "rank": 3,
+            "score": 0.666267454624176,
+            "state": "Texas"
+        },
+        {
+            "address": "Yatai Ramen Izakaya, 2001 Coit Rd #140, Plano, TX 75075",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864c225fdc6d2e27:0xb604b76ce6322724",
+            "iid": 5411,
+            "name": "Yatai Ramen Izakaya",
+            "rank": 4,
+            "score": 0.662767767906189,
+            "state": "Texas"
+        },
+        {
+            "address": "Yama Izakaya & Sushi, 8600 Preston Rd #120, Plano, TX 75024",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Cocktail bar', 'Izakaya restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x864c3cc29647be11:0x91ad6d79ba3a101e",
+            "iid": 5498,
+            "name": "Yama Izakaya & Sushi",
+            "rank": 5,
+            "score": 0.6615940928459167,
+            "state": "Texas"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 8240 Preston Rd #155, Plano, TX 75024",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x864c3d2f13760679:0xccd3db4817f55b35",
+            "iid": 5508,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 6,
+            "score": 0.6274036169052124,
+            "state": "Texas"
+        },
+        {
+            "address": "T-Swirl Cr\u00eape, 9292 Warren Pkwy #240, Frisco, TX 75035",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Dessert restaurant', 'Family restaurant', 'Takeout Restaurant', 'Tea house', 'Vegetarian restaurant']",
+            "gmap_id": "0x864c3da991a4c1a7:0x7a7e5187fb45d2ff",
+            "iid": 5510,
+            "name": "T-Swirl Cr\u00eape",
+            "rank": 7,
+            "score": 0.6267051100730896,
+            "state": "Texas"
+        },
+        {
+            "address": "Sutadonya, 120 Legacy Dr, Plano, TX 75023",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x864c19c5218b9d07:0xea88cc4643f77b65",
+            "iid": 5371,
+            "name": "Sutadonya",
+            "rank": 8,
+            "score": 0.626535177230835,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Envy, 8240 Preston Rd #130, Plano, TX 75024",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x864c3cc362e39889:0x116dfb37053ef625",
+            "iid": 5500,
+            "name": "Sushi Envy",
+            "rank": 9,
+            "score": 0.6234824061393738,
+            "state": "Texas"
+        },
+        {
+            "address": "Yoshi Shabu Shabu, 8612 Preston Rd #115, Plano, TX 75024",
+            "category": "['Shabu-shabu restaurant', 'Fondue restaurant', 'Japanese delicatessen', 'Japanese restaurant', 'Japanese steakhouse', 'Noodle shop', 'Ramen restaurant', 'Sukiyaki and Shabu Shabu restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x864c3cc2a02c74d9:0x80351cd23b5bcb81",
+            "iid": 5499,
+            "name": "Yoshi Shabu Shabu",
+            "rank": 10,
+            "score": 0.6152095794677734,
+            "state": "Texas"
+        },
+        {
+            "address": "MUSASHI Ramen & Izakaya, 8200 Preston Rd #110, Plano, TX 75024",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Izakaya restaurant', 'Japanese restaurant', 'Modern izakaya restaurants', 'Restaurant']",
+            "gmap_id": "0x864c3cc4958a9673:0xcfb52ea687b86f18",
+            "iid": 5502,
+            "name": "MUSASHI Ramen & Izakaya",
+            "rank": 11,
+            "score": 0.613264799118042,
+            "state": "Texas"
+        },
+        {
+            "address": "Teriyaki Madness, 8448 Parkwood Blvd Ste 300, Plano, TX 75024",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x864c3cc0a2e05465:0xf781c4b8d4fc484e",
+            "iid": 5497,
+            "name": "Teriyaki Madness",
+            "rank": 12,
+            "score": 0.6101846098899841,
+            "state": "Texas"
+        },
+        {
+            "address": "Yama Izakaya & Sushi, 240 Legacy Dr #100, Plano, TX 75023",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x864c19d0022b21d3:0x9ccb31d0a0eb92d5",
+            "iid": 5373,
+            "name": "Yama Izakaya & Sushi",
+            "rank": 13,
+            "score": 0.6064542531967163,
+            "state": "Texas"
+        },
+        {
+            "address": "Ninja Ramen, 111 Spring Creek Pkwy Suite #102, Plano, TX 75023",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864c196feb6d798f:0x7ecfc18f0b675c25",
+            "iid": 5367,
+            "name": "Ninja Ramen",
+            "rank": 14,
+            "score": 0.605227530002594,
+            "state": "Texas"
+        },
+        {
+            "address": "YAYOI Plano, 120 Legacy Dr, Plano, TX 75023",
+            "category": "['Japanese restaurant', 'Bar']",
+            "gmap_id": "0x864c19c53c619f63:0x1818074ea18e8f93",
+            "iid": 5372,
+            "name": "YAYOI Plano",
+            "rank": 15,
+            "score": 0.6041883230209351,
+            "state": "Texas"
+        },
+        {
+            "address": "Maki Boy, 2330 Royal Ln, Dallas, TX 75229",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x864c27f34263c7ef:0xc5e5a646991cd896",
+            "iid": 5446,
+            "name": "Maki Boy",
+            "rank": 16,
+            "score": 0.5982440114021301,
+            "state": "Texas"
+        },
+        {
+            "address": "EBESU, 1007 E 15th St, Plano, TX 75074",
+            "category": "['Sushi restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x864c191b83500003:0xcf8965c92cc5207e",
+            "iid": 5365,
+            "name": "EBESU",
+            "rank": 17,
+            "score": 0.5959852933883667,
+            "state": "Texas"
+        },
+        {
+            "address": "Genroku Sushi & Grill, 400 N Greenville Ave, Richardson, TX 75081",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864c1f72aa819bdb:0x1fddf41f2b9cecef",
+            "iid": 5390,
+            "name": "Genroku Sushi & Grill",
+            "rank": 18,
+            "score": 0.5959390997886658,
+            "state": "Texas"
+        },
+        {
+            "address": "Sarku Japan, 2601 Preston Road Space #2044, Frisco, TX 75034",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x864c3ceb07127b3b:0x1f422dbf5ae876dd",
+            "iid": 5504,
+            "name": "Sarku Japan",
+            "rank": 19,
+            "score": 0.5957047939300537,
+            "state": "Texas"
+        },
+        {
+            "address": "T-Swirl Cr\u00eape, 2540 Old Denton Rd Ste 150, Carrollton, TX 75006",
+            "category": "['Cr\u00eaperie', 'Catering food and drink supplier', 'Dessert restaurant', 'Japanese restaurant', 'Japanese sweets restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x864c25e31772ecff:0xf7359e95939a2db4",
+            "iid": 5436,
+            "name": "T-Swirl Cr\u00eape",
+            "rank": 20,
+            "score": 0.5793029069900513,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Shinsuke Tsushima",
+        "uid": 83363,
+        "user_id": 118058756795314776972
+    }
+}

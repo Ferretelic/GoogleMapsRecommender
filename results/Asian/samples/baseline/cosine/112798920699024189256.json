@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mizu Sushi Bar & Grill, 1035 S Winchester Blvd, San Jose, CA 95128",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Japanese restaurant', 'Korean restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2017/11/12",
+            "gmap_id": "0x808fcad6f3ee8b05:0xb15248d2f2e8696d",
+            "iid": 3800,
+            "name": "Mizu Sushi Bar & Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1510515982343
+        },
+        {
+            "address": "Maru Sushi, 1500 Adams Ave # 100B, Costa Mesa, CA 92626",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/12/24",
+            "gmap_id": "0x80dcdf60b8c4c20b:0xab8e45b1814cbb9f",
+            "iid": 7069,
+            "name": "Maru Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514106097701
+        },
+        {
+            "address": "Sushi Ai - Long Beach, 5260 2nd St, Long Beach, CA 90803",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/09/08",
+            "gmap_id": "0x80dd30364e36752f:0x2c7805a2bf01e5a5",
+            "iid": 7430,
+            "name": "Sushi Ai - Long Beach",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536419802703
+        },
+        {
+            "address": "Seafood City Supermarket, 2030 Diamond Blvd, Concord, CA 94520",
+            "category": "['Business center', 'Asian', 'Bakery', 'Fast food restaurant', 'Grocery store', 'Seafood market', 'Seafood wholesaler', 'Supermarket']",
+            "date": "2019/03/02",
+            "gmap_id": "0x808566c6aeb70463:0xa8622ba2fa9f0f6c",
+            "iid": 2558,
+            "name": "Seafood City Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1551562220108
+        },
+        {
+            "address": "Sushi Time, 1153 Fremont Blvd, Seaside, CA 93955",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/07/05",
+            "gmap_id": "0x808de4fc0937c7dd:0xcfef31ede0b9a760",
+            "iid": 3001,
+            "name": "Sushi Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562358785217
+        },
+        {
+            "address": "Kim's Oriental Market, 777 Broadway Ave, Seaside, CA 93955",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Oriental goods store']",
+            "date": "2019/07/06",
+            "gmap_id": "0x808de4f0f8571eed:0x6a922dd05766f753",
+            "iid": 2999,
+            "name": "Kim's Oriental Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562440548831
+        },
+        {
+            "address": "Matsu Sushi Japanese Restaurant, 1914 Contra Costa Blvd, Pleasant Hill, CA 94523",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/08/07",
+            "gmap_id": "0x808561381c4ebaf1:0x16fad1b810dfd1ab",
+            "iid": 2528,
+            "name": "Matsu Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1565214186612
+        },
+        {
+            "address": "Hana Tokyo, 5435 S Calle Santa Cruz #185, Tucson, AZ 85706",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/12/21",
+            "gmap_id": "0x86d67a224884401b:0x23c1529a142f0d76",
+            "iid": 10179,
+            "name": "Hana Tokyo",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1576903981222
+        },
+        {
+            "address": "Asiana Market, 1135 S Dobson Rd #104, Mesa, AZ 85202, United States",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2019/12/29",
+            "gmap_id": "0x872b07e246bbb1c5:0x6acb8a929a3b8923",
+            "iid": 10592,
+            "name": "Asiana Market",
+            "split": "valid",
+            "state": "Arizona",
+            "unix_time": 1577649782597
+        },
+        {
+            "address": "RA Sushi Bar Restaurant, 2905 E Skyline Dr #289, Tucson, AZ 85718",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2020/02/13",
+            "gmap_id": "0x86d672f3773ab99d:0xc2e5a3e8dd37cb77",
+            "iid": 10163,
+            "name": "RA Sushi Bar Restaurant",
+            "split": "test",
+            "state": "Arizona",
+            "unix_time": 1581633454684
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Teriyaki Madness, 110 General Stilwell Dr Building B 102, Marina, CA 93933",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808dfcb54e6a2833:0x108d86d06c26c46c",
+            "iid": 3014,
+            "name": "Teriyaki Madness",
+            "rank": 1,
+            "score": 0.6334962844848633,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 216 Tennant Ave, Morgan Hill, CA 95037",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808e20703df4b677:0x3e5168eee835beb3",
+            "iid": 3032,
+            "name": "Panda Express",
+            "rank": 2,
+            "score": 0.6142686605453491,
+            "state": "California"
+        },
+        {
+            "address": "Diablo Oriental Foods, 2590 N Main St, Walnut Creek, CA 94597",
+            "category": "['Grocery store', 'Asian grocery store']",
+            "gmap_id": "0x808561759aa7c851:0x67824316000becd9",
+            "iid": 2535,
+            "name": "Diablo Oriental Foods",
+            "rank": 3,
+            "score": 0.6101638078689575,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 2630 Fifth St, Alameda, CA 94501",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808f80c49109837d:0x5bbf09cbba077655",
+            "iid": 3316,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": 0.5888818502426147,
+            "state": "California"
+        },
+        {
+            "address": "China House, 125 Ocean View Blvd #126, Pacific Grove, CA 93950",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808de425ad160aed:0x198356d00f992c44",
+            "iid": 2991,
+            "name": "China House",
+            "rank": 5,
+            "score": 0.5869492292404175,
+            "state": "California"
+        },
+        {
+            "address": "Do Sit Thai Cuisine, 1520 Palos Verdes Mall, Walnut Creek, CA 94597",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808563d8d890df09:0x5bfd4f362f0d28ba",
+            "iid": 2551,
+            "name": "Do Sit Thai Cuisine",
+            "rank": 6,
+            "score": 0.5830361247062683,
+            "state": "California"
+        },
+        {
+            "address": "Benihana, 136 Olivier St, Monterey, CA 93940",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Banquet hall', 'Bar', 'Chinese restaurant', 'Japanese steakhouse', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x808de418994fa5f7:0x5944edde882952a2",
+            "iid": 2990,
+            "name": "Benihana",
+            "rank": 7,
+            "score": 0.5803381204605103,
+            "state": "California"
+        },
+        {
+            "address": "Binh Minh Quan, 338 12th St, Oakland, CA 94607",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808f80b448dbb849:0x8fb295aca1832bef",
+            "iid": 3304,
+            "name": "Binh Minh Quan",
+            "rank": 8,
+            "score": 0.5777235627174377,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Vietnamese Bistro, 1560 Newell Ave, Walnut Creek, CA 94596",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808561c291773c45:0x3e6abfa54120b121",
+            "iid": 2542,
+            "name": "Saigon Vietnamese Bistro",
+            "rank": 9,
+            "score": 0.5678232312202454,
+            "state": "California"
+        },
+        {
+            "address": "Asian Filipino Market, 330 Reservation Rd, Marina, CA 93933",
+            "category": "['Asian grocery store', 'Grocery store']",
+            "gmap_id": "0x808dfcdcd65e8859:0x7e8727f82019a6c5",
+            "iid": 3019,
+            "name": "Asian Filipino Market",
+            "rank": 10,
+            "score": 0.5594637393951416,
+            "state": "California"
+        },
+        {
+            "address": "May's Sushi Bar & Grill, 435 Front St, Santa Cruz, CA 95060",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808e40030bbe9157:0x68b7108ea5deda45",
+            "iid": 3109,
+            "name": "May's Sushi Bar & Grill",
+            "rank": 11,
+            "score": 0.5520697236061096,
+            "state": "California"
+        },
+        {
+            "address": "P.F. Chang's, 1200 Del Monte Center, Monterey, CA 93940",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808de42c932a983f:0xe89006a6d8520388",
+            "iid": 2994,
+            "name": "P.F. Chang's",
+            "rank": 12,
+            "score": 0.550121009349823,
+            "state": "California"
+        },
+        {
+            "address": "Ikebana Japanese Restaurant, 1315 N Main St, Salinas, CA 93906",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808dff37b9350e9d:0x5aadde09b2cb5543",
+            "iid": 3021,
+            "name": "Ikebana Japanese Restaurant",
+            "rank": 13,
+            "score": 0.5499526262283325,
+            "state": "California"
+        },
+        {
+            "address": "Jim's, 1584 Del Monte Blvd, Seaside, CA 93955",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808de4f6f0f1bab5:0x7567225164a469fe",
+            "iid": 3000,
+            "name": "Jim's",
+            "rank": 14,
+            "score": 0.5466229915618896,
+            "state": "California"
+        },
+        {
+            "address": "Santa Cruz Diner, 909 Ocean St, Santa Cruz, CA 95060",
+            "category": "['Diner', 'American restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808e4024a281216b:0x7837aad273d20dcc",
+            "iid": 3115,
+            "name": "Santa Cruz Diner",
+            "rank": 15,
+            "score": 0.5434026718139648,
+            "state": "California"
+        },
+        {
+            "address": "Noodle Bar, 1944 Fremont Blvd, Seaside, CA 93955",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808de4ecec6e0585:0x160e66f61fdc366f",
+            "iid": 2997,
+            "name": "Noodle Bar",
+            "rank": 16,
+            "score": 0.5424034595489502,
+            "state": "California"
+        },
+        {
+            "address": "Kokoro Sushi, 36 W Gabilan St, Salinas, CA 93901",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808df8c2281fd489:0x45222e14f04cde67",
+            "iid": 3008,
+            "name": "Kokoro Sushi",
+            "rank": 17,
+            "score": 0.5412318110466003,
+            "state": "California"
+        },
+        {
+            "address": "Miyuki Restaurant, 452 E Lake Ave, Watsonville, CA 95076",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808e1b161f3d133d:0xd5f9ef837fc5f290",
+            "iid": 3030,
+            "name": "Miyuki Restaurant",
+            "rank": 18,
+            "score": 0.5408639907836914,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 402 W Mariposa Rd, Nogales, AZ 85621",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x86d6adaf817177d5:0x58e48ee4dcb14bd6",
+            "iid": 10185,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": 0.5366284847259521,
+            "state": "Arizona"
+        },
+        {
+            "address": "Tommy's Wok, Mission between Ocean & 7th, Carmel-By-The-Sea, CA 93921",
+            "category": "['Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808de614e8053c2d:0x692b0f292ea322f7",
+            "iid": 3004,
+            "name": "Tommy's Wok",
+            "rank": 20,
+            "score": 0.5324236154556274,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Pika Chew",
+        "uid": 132201,
+        "user_id": 112798920699024189256
+    }
+}

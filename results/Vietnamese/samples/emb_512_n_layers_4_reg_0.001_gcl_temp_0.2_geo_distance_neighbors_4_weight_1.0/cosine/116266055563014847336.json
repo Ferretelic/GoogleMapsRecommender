@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Chau's Cafe, 814 S Fort Hood St, Killeen, TX 76541",
+            "category": "['Cafe', 'Vietnamese restaurant']",
+            "date": "2016/08/30",
+            "gmap_id": "0x86454b79132e3dcb:0xfb48d32a14f4ea7f",
+            "iid": 2600,
+            "name": "Chau's Cafe",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1472562411694
+        },
+        {
+            "address": "Pho Lee Vietnamese Restaurant, 2601 S IH 35 Frontage Rd, Round Rock, TX 78664",
+            "category": "['Vietnamese restaurant']",
+            "date": "2016/10/19",
+            "gmap_id": "0x8644ce23418c52f9:0x4a53de7475d6bfbd",
+            "iid": 2586,
+            "name": "Pho Lee Vietnamese Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1476904503002
+        },
+        {
+            "address": "Thanh Nhi Kitchen, 9200 N Lamar Blvd #104, Austin, TX 78753",
+            "category": "['Pho restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "date": "2016/10/22",
+            "gmap_id": "0x8644cbd87eab3c25:0xfee7c9882bc9b7c1",
+            "iid": 2581,
+            "name": "Thanh Nhi Kitchen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1477167014691
+        },
+        {
+            "address": "Minh's Cafe, 12221 Riata Trace Pkwy #190, Austin, TX 78727",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "date": "2016/10/23",
+            "gmap_id": "0x8644ccfb75f56beb:0x3d0f94bbd19ec9cb",
+            "iid": 2583,
+            "name": "Minh's Cafe",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1477195740658
+        },
+        {
+            "address": "Pho Phi Restaurant, 1700 W Parmer Ln #610, Austin, TX 78727",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/07/12",
+            "gmap_id": "0x8644cea2e5d09f75:0x3cdedf90528cef3f",
+            "iid": 2588,
+            "name": "Pho Phi Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1531439236287
+        },
+        {
+            "address": "Pho Thanh Nhi (Vietnamese Food), 1335 E Whitestone Blvd T100, Cedar Park, TX 78613",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/07/12",
+            "gmap_id": "0x865b2ce47069a9d1:0xe8cde70d2587acba",
+            "iid": 2818,
+            "name": "Pho Thanh Nhi (Vietnamese Food)",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1531439255251
+        },
+        {
+            "address": "Little China, 1921 Cedar Bend Dr, Austin, TX 78758",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "date": "2019/01/14",
+            "gmap_id": "0x8644cea7647591ad:0x197220bc271be3f4",
+            "iid": 2589,
+            "name": "Little China",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1547499234197
+        },
+        {
+            "address": "Pho Thaison, 161 W Slaughter Ln, Austin, TX 78748",
+            "category": "['Restaurant', 'Pho restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "date": "2020/02/05",
+            "gmap_id": "0x865b4cd436853663:0x893f003980c1cbb0",
+            "iid": 2832,
+            "name": "Pho Thaison",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1580873775341
+        },
+        {
+            "address": "Hai Ky, 1931 E Oltorf St Ste B, Austin, TX 78741",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/03/19",
+            "gmap_id": "0x8644b45d8b1800e3:0xb22bd39efef11122",
+            "iid": 2547,
+            "name": "Hai Ky",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1584657357379
+        },
+        {
+            "address": "Hai Ky, 1931 E Oltorf St Ste B, Austin, TX 78741",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/03/19",
+            "gmap_id": "0x8644b45d8b1800e3:0xb22bd39efef11122",
+            "iid": 2547,
+            "name": "Hai Ky",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1584657357379
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Cyclo Vietnamese & Chinese, 13000 N Interstate Hwy 35 #102, Austin, TX 78753",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8644cec76d726877:0x44753520ae2275d9",
+            "iid": 2590,
+            "name": "Cyclo Vietnamese & Chinese",
+            "rank": 1,
+            "score": 0.8000304102897644,
+            "state": "Texas"
+        },
+        {
+            "address": "Kim Phung Restaurant, 315 N Bell Blvd, Cedar Park, TX 78613",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865b2d063b64f889:0x67da58eaedb95c45",
+            "iid": 2820,
+            "name": "Kim Phung Restaurant",
+            "rank": 2,
+            "score": 0.7638486623764038,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Ha Noi Cuisine, 11331 N Lamar Blvd F, Austin, TX 78753",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8644c945790e2333:0xf85fb86cf122f056",
+            "iid": 2566,
+            "name": "Pho Ha Noi Cuisine",
+            "rank": 3,
+            "score": 0.7522151470184326,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho What!, 251 N Bell Blvd #105, Cedar Park, TX 78613",
+            "category": "['Pho restaurant', 'Noodle shop', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865b2d089bfd2469:0xcbf5c6394feeaf56",
+            "iid": 2821,
+            "name": "Pho What!",
+            "rank": 4,
+            "score": 0.7369298934936523,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho King Restaurant, 1021 E Parmer Ln, Austin, TX 78753",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8644ced580106e29:0xb919a456ab86a896",
+            "iid": 2591,
+            "name": "Pho King Restaurant",
+            "rank": 5,
+            "score": 0.7357837557792664,
+            "state": "Texas"
+        },
+        {
+            "address": "Rice2Go, 16560 Ranch Rd 620 #112, Round Rock, TX 78681",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644d26db5250277:0x3a817c3ebbade2a3",
+            "iid": 2596,
+            "name": "Rice2Go",
+            "rank": 6,
+            "score": 0.7345978617668152,
+            "state": "Texas"
+        },
+        {
+            "address": "China Wall Restaurant, 2000 S IH 35 Frontage Rd Suite G4, Round Rock, TX 78681",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery service', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644d1e116b65ed5:0xcecc655d07dabb12",
+            "iid": 2595,
+            "name": "China Wall Restaurant",
+            "rank": 7,
+            "score": 0.7283576726913452,
+            "state": "Texas"
+        },
+        {
+            "address": "Mama Fu's Asian House, 10710 Research Blvd Suite 328, Austin, TX 78759",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Vegan restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644cc85cad62447:0x217a8946abcd9b12",
+            "iid": 2582,
+            "name": "Mama Fu's Asian House",
+            "rank": 8,
+            "score": 0.7190538644790649,
+            "state": "Texas"
+        },
+        {
+            "address": "Moi Vietnamese Grill, 16051 Dessau Rd, Pflugerville, TX 78660",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8644cf7cec6fffff:0x5d955424bf106e0a",
+            "iid": 2592,
+            "name": "Moi Vietnamese Grill",
+            "rank": 9,
+            "score": 0.7182432413101196,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Dan, 11220 N Lamar Blvd B-200, Austin, TX 78753",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8644c9455b1ed44f:0xa532ab928200f76d",
+            "iid": 2565,
+            "name": "Pho Dan",
+            "rank": 10,
+            "score": 0.7107049226760864,
+            "state": "Texas"
+        },
+        {
+            "address": "V Cafe, 10700 Anderson Mill Rd #210, Austin, TX 78750",
+            "category": "['Vietnamese restaurant', 'Coffee shop', 'Noodle shop', 'Pho restaurant', 'Restaurant', 'Rice restaurant', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x865b333ce1c9f8ef:0xc2a49e944dc1bfe7",
+            "iid": 2825,
+            "name": "V Cafe",
+            "rank": 11,
+            "score": 0.7098057270050049,
+            "state": "Texas"
+        },
+        {
+            "address": "Mama Fu's Asian House, 2324 Farm to Market 685 Ste 500, Pflugerville, TX 78660",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Takeout Restaurant', 'Vegan restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644c56f4c1a348f:0xeb49cfdc4daea272",
+            "iid": 2557,
+            "name": "Mama Fu's Asian House",
+            "rank": 12,
+            "score": 0.6994941830635071,
+            "state": "Texas"
+        },
+        {
+            "address": "King Noodle, 500 Cypress Creek Road #100, Cedar Park, TX 78613",
+            "category": "['Vietnamese restaurant', 'Chinese takeaway', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x865b2d73eb1c4c51:0xc174117f51879a0c",
+            "iid": 2823,
+            "name": "King Noodle",
+            "rank": 13,
+            "score": 0.6893430948257446,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Viet, 603 Louis Henna Blvd B 200, Round Rock, TX 78664",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8644ce2bf48ad443:0x169e37c45d471969",
+            "iid": 2587,
+            "name": "Pho Viet",
+            "rank": 14,
+            "score": 0.6845200061798096,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Hong, 2521 Rutland Dr STE 400, Austin, TX 78758",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Pho restaurant']",
+            "gmap_id": "0x8644cb8daffd269b:0x876fc85e708e2ec8",
+            "iid": 2575,
+            "name": "Pho Hong",
+            "rank": 15,
+            "score": 0.6802037358283997,
+            "state": "Texas"
+        },
+        {
+            "address": "Fortune Garden, 201 University Oaks Blvd #730, Round Rock, TX 78665",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644d15d2e54ab47:0xe8218edc4fa41948",
+            "iid": 2594,
+            "name": "Fortune Garden",
+            "rank": 16,
+            "score": 0.6685571074485779,
+            "state": "Texas"
+        },
+        {
+            "address": "Dang Kitchen, 9070 Research Blvd #303, Austin, TX 78758",
+            "category": "['Vietnamese restaurant', 'Sandwich shop', 'Taco restaurant']",
+            "gmap_id": "0x8644cb97289f5e31:0xd452e4718563717a",
+            "iid": 2576,
+            "name": "Dang Kitchen",
+            "rank": 17,
+            "score": 0.6628421545028687,
+            "state": "Texas"
+        },
+        {
+            "address": "Baguette House & Cafe, 10901 N Lamar Blvd #C312, Austin, TX 78753",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x8644c944bf01248d:0xc923bb194d111030",
+            "iid": 2563,
+            "name": "Baguette House & Cafe",
+            "rank": 18,
+            "score": 0.6624351739883423,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Yes, 11300 US-290 Ste 250, Manor, TX 78653",
+            "category": "['Restaurant', 'Asian restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644c71b841a2f81:0x31912ac586cf29f5",
+            "iid": 2558,
+            "name": "Pho Yes",
+            "rank": 19,
+            "score": 0.6509896516799927,
+            "state": "Texas"
+        },
+        {
+            "address": "Mama Fu's Asian House, 11301 Lakeline Blvd #300, Austin, TX 78717",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865b2d58af39453b:0x2d23cba24a774795",
+            "iid": 2822,
+            "name": "Mama Fu's Asian House",
+            "rank": 20,
+            "score": 0.6468909978866577,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Cynthia",
+        "uid": 15416,
+        "user_id": 116266055563014847336
+    }
+}

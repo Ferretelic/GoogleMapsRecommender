@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "iPHO, 1921 Fairmount Ave, Philadelphia, PA 19130",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/06/20",
+            "gmap_id": "0x89c6c7cefdc41b8d:0x90b4162f6f1791f7",
+            "iid": 4625,
+            "name": "iPHO",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1497931683167
+        },
+        {
+            "address": "Pho 75, 1122 Washington Ave F, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/02/22",
+            "gmap_id": "0x89c6c618fa3a6c51:0x2fb6d4e55f763984",
+            "iid": 4613,
+            "name": "Pho 75",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1519262696914
+        },
+        {
+            "address": "Soc Trang Restaurant, 113 Vermont St, Springfield, MA 01108",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/02/22",
+            "gmap_id": "0x89e6e645c8c8816f:0x92c96cf822bdbc67",
+            "iid": 4800,
+            "name": "Soc Trang Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1519262755980
+        },
+        {
+            "address": "Phu Khang, 5201 NJ-38, Merchantville, NJ 08109",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/10/19",
+            "gmap_id": "0x89c6c96346e40411:0x3d40a91a927d86cb",
+            "iid": 4636,
+            "name": "Phu Khang",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1539950522444
+        },
+        {
+            "address": "Vinh Chau Restaurant, 1885, 409 Dickinson St, Springfield, MA 01108",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/10/19",
+            "gmap_id": "0x89e6e65c9dc62e41:0xdad4ee5142233a8a",
+            "iid": 4802,
+            "name": "Vinh Chau Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1539950768724
+        },
+        {
+            "address": "Thai Son, 5201 NJ-38, Pennsauken Township, NJ 08109",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/19",
+            "gmap_id": "0x89c6c9634a21a3f3:0x22f69ce7e84b77dd",
+            "iid": 4637,
+            "name": "Thai Son",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1539950887979
+        },
+        {
+            "address": "Ph\u1edf Ha Saigon, 575 Adams Ave, Philadelphia, PA 19120",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89c6b6fe1f934cab:0x50554aea96d1f2a8",
+            "iid": 4594,
+            "name": "Ph\u1edf Ha Saigon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1555822203318
+        },
+        {
+            "address": "Pho Ha Saigon, 320 W Oregon Ave, Philadelphia, PA 19148",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89c6cf5596356a5d:0x62ab2f88c23ff70a",
+            "iid": 4641,
+            "name": "Pho Ha Saigon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1555823246345
+        },
+        {
+            "address": "Ph\u1edf 68, 589 New Park Ave, West Hartford, CT 06110",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89e7ad25bd6836a3:0x2a068d877b9c60ea",
+            "iid": 4806,
+            "name": "Ph\u1edf 68",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1555823644734
+        },
+        {
+            "address": "\u00c1nh H\u1ed3ng Restaurant, 291 Adams St, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89e37ba39bb9c495:0xab0ef65453f33356",
+            "iid": 4749,
+            "name": "\u00c1nh H\u1ed3ng Restaurant",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1555823683323
+        },
+        {
+            "address": "Bamboo House, 676 Belmont Ave, Springfield, MA 01108",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89e6e6437a3bad4d:0x2fa897d0bc184bbb",
+            "iid": 4799,
+            "name": "Bamboo House",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1555823725773
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Garden, 600 Kings Hwy N, Cherry Hill, NJ 08034",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c6cb1106cb41a3:0x845e8a13d9e816d8",
+            "iid": 4638,
+            "name": "Pho Garden",
+            "rank": 1,
+            "score": 0.7753269672393799,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bo Ne Restaurant, 547 N Broad St, Woodbury, NJ 08096",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Soup restaurant']",
+            "gmap_id": "0x89c6cffa298e5fdb:0x7d41fdb965cef2f",
+            "iid": 4644,
+            "name": "Bo Ne Restaurant",
+            "rank": 2,
+            "score": 0.7569272518157959,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho Eden, 1900 Greentree Rd #7, Cherry Hill, NJ 08003",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c134b3065f09ff:0x3cd1358fb0cb0258",
+            "iid": 4378,
+            "name": "Pho Eden",
+            "rank": 3,
+            "score": 0.7534725666046143,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho 9, 1200 Haddonfield Rd, Cherry Hill, NJ 08002",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6cb95c75af5ff:0x77ba1005989c64d8",
+            "iid": 4640,
+            "name": "Pho 9",
+            "rank": 4,
+            "score": 0.7511074542999268,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Caf\u00e9 Diem, 1031 S 8th St, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6c61fafdc46bd:0x83874c7ca1eb7c4e",
+            "iid": 4616,
+            "name": "Caf\u00e9 Diem",
+            "rank": 5,
+            "score": 0.743807852268219,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Viet Huong Restaurant, 1110 Washington Ave, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c6c618e17297f7:0x82240dbf29220223",
+            "iid": 4612,
+            "name": "Viet Huong Restaurant",
+            "rank": 6,
+            "score": 0.7400251030921936,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf Cyclo Caf\u00e9, 2124 S Broad St, Philadelphia, PA 19145",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6c6093ddad2a7:0x632889369bb06daa",
+            "iid": 4609,
+            "name": "Ph\u1edf Cyclo Caf\u00e9",
+            "rank": 7,
+            "score": 0.7264644503593445,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bamboo, 245 Lancaster Ave, Malvern, PA 19355",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c6f2b0534f6575:0xcacaa763c197f9a3",
+            "iid": 4647,
+            "name": "Bamboo",
+            "rank": 8,
+            "score": 0.7245985269546509,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho 20, 234 N 10th St, Philadelphia, PA 19107",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c6c87d82a02d75:0x7a8684582ea5929b",
+            "iid": 4630,
+            "name": "Pho 20",
+            "rank": 9,
+            "score": 0.7187057733535767,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf House, 1816 State Hill Rd, Wyomissing, PA 19610",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6714c1e41877d:0xfb172badfd50feb9",
+            "iid": 4575,
+            "name": "Ph\u1edf House",
+            "rank": 10,
+            "score": 0.7183259129524231,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Hanoi's Pho, 1501 West Chester Pike, Havertown, PA 19083",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fine dining restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c6c1c96b1a2f81:0x681e340e06c31b39",
+            "iid": 4608,
+            "name": "Hanoi's Pho",
+            "rank": 11,
+            "score": 0.7063840627670288,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho-ever Yours, 106 N Essex Ave, Narberth, PA 19072",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c6c0a5b2d40bb9:0xf30c1319b0dd7f22",
+            "iid": 4604,
+            "name": "Pho-ever Yours",
+            "rank": 12,
+            "score": 0.7003122568130493,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ph\u1edf Saigon, 1100 S Christopher Columbus Blvd #22, Philadelphia, PA 19147",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c6c8a368f46f71:0x9d20591f8e010727",
+            "iid": 4635,
+            "name": "Ph\u1edf Saigon",
+            "rank": 13,
+            "score": 0.6955068707466125,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "H\u00ean Vietnamese Restaurant, 2087 Marlton Pike East, Cherry Hill, NJ 08003",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c13566f64c5b73:0x1c0a18057f6f99d2",
+            "iid": 4379,
+            "name": "H\u00ean Vietnamese Restaurant",
+            "rank": 14,
+            "score": 0.6953485608100891,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho Viet Express, 1222 NJ-166, Toms River, NJ 08753",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80d951c96859fd0f:0x48d97f4f75ccefc2",
+            "iid": 1582,
+            "name": "Pho Viet Express",
+            "rank": 15,
+            "score": 0.694918692111969,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho Ha, 600 Washington Ave, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c6c61e2c42c38b:0x62028c506aa574ed",
+            "iid": 4614,
+            "name": "Pho Ha",
+            "rank": 16,
+            "score": 0.6924036145210266,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Le's Kitchen, 18 Mill Plain Rd, Danbury, CT 06811",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89dd5509432f25d9:0x35da7b74072b87ee",
+            "iid": 4706,
+            "name": "Le's Kitchen",
+            "rank": 17,
+            "score": 0.6919671893119812,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Caf\u00e9 Saigon, 827 Adams Ave, Philadelphia, PA 19124",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c6b65a0c90451f:0x1e730a4906e73853",
+            "iid": 4591,
+            "name": "Caf\u00e9 Saigon",
+            "rank": 18,
+            "score": 0.6898074150085449,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Saigon Maxim Restaurant, 612 Washington Ave #3b, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Wedding venue']",
+            "gmap_id": "0x89c6c8a08032cfaf:0x1cda483d98124d11",
+            "iid": 4632,
+            "name": "Saigon Maxim Restaurant",
+            "rank": 19,
+            "score": 0.6894701719284058,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho Don, 3528 Germantown Ave, Philadelphia, PA 19140",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6b7f9c192b279:0xf7341ec47ed7370e",
+            "iid": 4598,
+            "name": "Pho Don",
+            "rank": 20,
+            "score": 0.6870138645172119,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Lone tone tv",
+        "uid": 3189,
+        "user_id": 103376655469695848749
+    }
+}

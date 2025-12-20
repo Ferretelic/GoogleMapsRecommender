@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Kobeyaki, 293 7th Ave, New York, NY 10001",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Hamburger restaurant', 'Sushi restaurant']",
+            "date": "2018/02/12",
+            "gmap_id": "0x89c259a55a7393df:0x588e01ec1b558576",
+            "iid": 12360,
+            "name": "Kobeyaki",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1518395885998
+        },
+        {
+            "address": "Kenko Hibachi, 112 Cornerstone St C, Lynchburg, VA 24502",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2018/02/15",
+            "gmap_id": "0x89b2d041b3ce74f7:0x2eab42d9cbbb23f5",
+            "iid": 11201,
+            "name": "Kenko Hibachi",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1518655640070
+        },
+        {
+            "address": "Florida, Miramar Beach, Scenic Gulf Dr, Frozen Dune Rolled Ice Cream & Coffee\u90ae\u653f\u7f16\u7801: 32550",
+            "category": "['Ice cream shop', 'Coffee shop', 'Japanese sweets restaurant', 'Soft drinks shop']",
+            "date": "2018/06/27",
+            "gmap_id": "0x88915b7912a5f0dd:0x6bf37ff80fedadf7",
+            "iid": 9243,
+            "name": "Frozen Dune Rolled Ice Cream & Coffee",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1530062192571
+        },
+        {
+            "address": "Kanai, 12111 W Maple St, Wichita, KS 67235",
+            "category": "['Event venue', 'Caterer', 'Japanese restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x87bade5ff9cc7a81:0x240f2aa80af0d427",
+            "iid": 6688,
+            "name": "Kanai",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1532743163208
+        },
+        {
+            "address": "MoMo Sushi & Grill, momobranson.com, 120 N Sycamore St STE 100, Branson, MO 65616",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/05",
+            "gmap_id": "0x87cf0383ac898219:0xd40bce2d3375b3f4",
+            "iid": 6811,
+            "name": "MoMo Sushi & Grill",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1533499842897
+        },
+        {
+            "address": "Izakaya Japanese Food & Sushi, 17928 Forest Rd, Forest, VA 24551",
+            "category": "['Authentic Japanese restaurant', 'Japanese restaurant', 'Sports bar', 'Sushi restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x89b2d11c1fe89647:0x1295d6dc9f3fb99f",
+            "iid": 11204,
+            "name": "Izakaya Japanese Food & Sushi",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1535068176196
+        },
+        {
+            "address": "Wasabi Japanese Steakhouse & Sushi Bar, Z Candlers Station, 3700 Candlers Mountain Rd, Lynchburg, VA 24502",
+            "category": "['Japanese steakhouse', 'Bar', 'Bar & grill', 'Japanese restaurant', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2019/01/20",
+            "gmap_id": "0x89b2da5b93975289:0x6d9e7719432e38ad",
+            "iid": 11211,
+            "name": "Wasabi Japanese Steakhouse & Sushi Bar",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1548017752565
+        },
+        {
+            "address": "Suzaku Cafe, 120 Simons Run ste g, Lynchburg, VA 24502",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Cafe', 'Restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x89b2d74f4c8f160b:0x60d161049fbf051",
+            "iid": 11207,
+            "name": "Suzaku Cafe",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1552157680208
+        },
+        {
+            "address": "Ninza Sushi Bar (West), 8428 W 13th St N #100, Wichita, KS 67212",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/06/08",
+            "gmap_id": "0x87badfd7a7b05173:0xbfbbcddfd826212b",
+            "iid": 6690,
+            "name": "Ninza Sushi Bar (West)",
+            "split": "valid",
+            "state": "Kansas",
+            "unix_time": 1559962629411
+        },
+        {
+            "address": "Jade Palace Restaurant, 7118 Timberlake Rd, Lynchburg, VA 24502",
+            "category": "['Chinese restaurant', 'American restaurant', 'Japanese restaurant']",
+            "date": "2019/12/03",
+            "gmap_id": "0x89b2d0861219b893:0x5d8dfaadea322c65",
+            "iid": 11203,
+            "name": "Jade Palace Restaurant",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1575388339995
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Tokyo Japanese Express, 7803 Timberlake Rd, Lynchburg, VA 24502",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89b2d05c2fab9137:0x2f9e1f85d337e973",
+            "iid": 11202,
+            "name": "Tokyo Japanese Express",
+            "rank": 1,
+            "score": -1.9840929508209229,
+            "state": "Virginia"
+        },
+        {
+            "address": "Yamazato Japanese Restaurant, 21039 Timberlake Rd, Lynchburg, VA 24502",
+            "category": "['Japanese restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x89b2d034b80bfe2b:0xd478e1a1db092b07",
+            "iid": 11200,
+            "name": "Yamazato Japanese Restaurant",
+            "rank": 2,
+            "score": -2.076442003250122,
+            "state": "Virginia"
+        },
+        {
+            "address": "Cho Cho San, 15 W 8th St, New York, NY 10011",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259972eb06293:0x621691c5f32b8d17",
+            "iid": 12288,
+            "name": "Cho Cho San",
+            "rank": 3,
+            "score": -2.126176357269287,
+            "state": "New_York"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 1942,
+            "name": "Tomokazu",
+            "rank": 4,
+            "score": -2.1772232055664062,
+            "state": "California"
+        },
+        {
+            "address": "TESO LIFE, 19-23 Saint Marks Place, St Marks Pl, New York, NY 10003",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x89c259966d177405:0x38f26fb82d44c380",
+            "iid": 12284,
+            "name": "TESO LIFE",
+            "rank": 5,
+            "score": -2.2112040519714355,
+            "state": "New_York"
+        },
+        {
+            "address": "Norikoh Chelsea, 43 W 24th St, New York, NY 10010",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Izakaya restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259f4193f287b:0x153495c94f6e6822",
+            "iid": 12458,
+            "name": "Norikoh Chelsea",
+            "rank": 6,
+            "score": -2.2242612838745117,
+            "state": "New_York"
+        },
+        {
+            "address": "Aquihito, 359 W 39th St, New York, NY 10018",
+            "category": "['Restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x89c259499c127fb1:0xb5efcc95e479f131",
+            "iid": 12181,
+            "name": "Aquihito",
+            "rank": 7,
+            "score": -2.2540853023529053,
+            "state": "New_York"
+        },
+        {
+            "address": "Rantei Japanese Cuisine, 1271 Franklin Mall, Santa Clara, CA 95050",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fcbe4ecd2c325:0x1282199f5d43399b",
+            "iid": 2357,
+            "name": "Rantei Japanese Cuisine",
+            "rank": 8,
+            "score": -2.2653069496154785,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Hibachi Grill, 2822 Linkhorne Dr, Lynchburg, VA 24503",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b2d75ee46dcb3b:0xadfad7bc63475fd8",
+            "iid": 11209,
+            "name": "Tokyo Hibachi Grill",
+            "rank": 9,
+            "score": -2.279465675354004,
+            "state": "Virginia"
+        },
+        {
+            "address": "Oishii! Japanese Hibachi & Sushi, 3412 Waterlick Rd, Lynchburg, VA 24502",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b2d1cdf4ecdd87:0x4134888ce1a058e",
+            "iid": 11205,
+            "name": "Oishii! Japanese Hibachi & Sushi",
+            "rank": 10,
+            "score": -2.2838969230651855,
+            "state": "Virginia"
+        },
+        {
+            "address": "The Terrace, 570 10th Ave, New York, NY 10036",
+            "category": "['Japanese restaurant', 'Bar', 'Cocktail bar']",
+            "gmap_id": "0x89c2584d7789d979:0x81768598bdf71614",
+            "iid": 11962,
+            "name": "The Terrace",
+            "rank": 11,
+            "score": -2.3060543537139893,
+            "state": "New_York"
+        },
+        {
+            "address": "Champion\u2019s Curry, 136 S Central Ave, Los Angeles, CA 90012",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x80c2c7bf130da18d:0xb4fc262cd0774e36",
+            "iid": 3372,
+            "name": "Champion\u2019s Curry",
+            "rank": 12,
+            "score": -2.309406042098999,
+            "state": "California"
+        },
+        {
+            "address": "Midoh - Sawtelle, 2130 Sawtelle Blvd #200, Los Angeles, CA 90025",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bb35cfd4fb9d:0xac627da6aaabadc3",
+            "iid": 3055,
+            "name": "Midoh - Sawtelle",
+            "rank": 13,
+            "score": -2.3162734508514404,
+            "state": "California"
+        },
+        {
+            "address": "Snow Ball Rice Ball, 6929 Airport Blvd, Austin, TX 78752",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8644cb817a8c83bb:0x92ed4ca3db0d1cfd",
+            "iid": 5241,
+            "name": "Snow Ball Rice Ball",
+            "rank": 14,
+            "score": -2.3184423446655273,
+            "state": "Texas"
+        },
+        {
+            "address": "KOA, 12 W 21st St, New York, NY 10010",
+            "category": "['Asian fusion restaurant', 'Bar', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c259a39e62fc01:0x6d6079eb23d442d5",
+            "iid": 12355,
+            "name": "KOA",
+            "rank": 15,
+            "score": -2.3186795711517334,
+            "state": "New_York"
+        },
+        {
+            "address": "Nana Restaurant & Bar, 155 5th Ave, Brooklyn, NY 11217",
+            "category": "['Asian restaurant', 'Bar', 'Brunch restaurant', 'Japanese restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c25baa4d515e97:0x91a206ea1c37a10c",
+            "iid": 12556,
+            "name": "Nana Restaurant & Bar",
+            "rank": 16,
+            "score": -2.3251657485961914,
+            "state": "New_York"
+        },
+        {
+            "address": "Matsuzaka-Tei, 328 Kalihi St, Honolulu, HI 96819",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006f9ab1ed940b:0x49f9f2e53dc1da9c",
+            "iid": 1433,
+            "name": "Matsuzaka-Tei",
+            "rank": 17,
+            "score": -2.325906991958618,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Nanbu Noodle Bar, 26 Logan Ln Unit C, Santa Rosa Beach, FL 32459",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8893e59893b76353:0xe1f7b5b3727a60b2",
+            "iid": 9267,
+            "name": "Nanbu Noodle Bar",
+            "rank": 18,
+            "score": -2.329376697540283,
+            "state": "Florida"
+        },
+        {
+            "address": "Temakase, 157 2nd Ave, New York, NY 10003",
+            "category": "['Japanese restaurant', 'Food and drink', 'Sushi restaurant']",
+            "gmap_id": "0x89c2599c4081116f:0x1fe31e89a8a9a7c8",
+            "iid": 12316,
+            "name": "Temakase",
+            "rank": 19,
+            "score": -2.3458518981933594,
+            "state": "New_York"
+        },
+        {
+            "address": "Arami, 5700 S Cicero Ave, Chicago, IL 60638",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x880e3148d2db3769:0xba66b00904fac05e",
+            "iid": 7223,
+            "name": "Arami",
+            "rank": 20,
+            "score": -2.3504199981689453,
+            "state": "Illinois"
+        }
+    ],
+    "user": {
+        "name": "Sabrina Rich",
+        "uid": 48141,
+        "user_id": 110399577256643727950
+    }
+}

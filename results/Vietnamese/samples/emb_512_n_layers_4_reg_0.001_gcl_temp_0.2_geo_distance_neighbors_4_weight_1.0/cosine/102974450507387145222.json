@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "\u00c1nh H\u1ed3ng Restaurant, 291 Adams St, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/04/16",
+            "gmap_id": "0x89e37ba39bb9c495:0xab0ef65453f33356",
+            "iid": 4749,
+            "name": "\u00c1nh H\u1ed3ng Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1523841712232
+        },
+        {
+            "address": "Caf\u00e9 Diem, 1031 S 8th St, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/07/12",
+            "gmap_id": "0x89c6c61fafdc46bd:0x83874c7ca1eb7c4e",
+            "iid": 4616,
+            "name": "Caf\u00e9 Diem",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1531355022034
+        },
+        {
+            "address": "Com Ga Ninh Kieu, 1124 Atlantic Ave, Atlantic City, NJ 08401",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/07/13",
+            "gmap_id": "0x89c0ee3911c175a5:0xbaf46abe7beb6c69",
+            "iid": 4371,
+            "name": "Com Ga Ninh Kieu",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1531489450328
+        },
+        {
+            "address": "Pho 88 Vietnamese Restaurant, 730 N Mills Ave, Orlando, FL 32803",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/27",
+            "gmap_id": "0x88e77ae99e152269:0xf6ae11d54bb805e3",
+            "iid": 3993,
+            "name": "Pho 88 Vietnamese Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1548631753402
+        },
+        {
+            "address": "Ph\u1edf L\u00ea Restaurant, 1356 Dorchester Ave, Boston, MA 02122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "date": "2019/03/31",
+            "gmap_id": "0x89e37ba57383b271:0x1d605803389a784b",
+            "iid": 4753,
+            "name": "Ph\u1edf L\u00ea Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554053772080
+        },
+        {
+            "address": "Saigon Chicken House, 223 Adams St, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x89e37ba4952e7ee1:0x9e66b41d14a5fa39",
+            "iid": 4751,
+            "name": "Saigon Chicken House",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554655053048
+        },
+        {
+            "address": "Ba L\u1eb9 Restaurant, 1052 Dorchester Ave, Boston, MA 02125",
+            "category": "['Vietnamese restaurant', 'Sandwich shop']",
+            "date": "2019/04/13",
+            "gmap_id": "0x89e37a53444a842b:0xc0ce3f44b51e832f",
+            "iid": 4742,
+            "name": "Ba L\u1eb9 Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1555179169085
+        },
+        {
+            "address": "B\u1ea1n T\u00f4i Restaurant, 1035 Dorchester Ave, Dorchester, MA 02125",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/06/25",
+            "gmap_id": "0x89e37b7afdaa5d2f:0x512f1bf841d2159f",
+            "iid": 4747,
+            "name": "B\u1ea1n T\u00f4i Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1561431086316
+        },
+        {
+            "address": "Saigon Surface, 324 S 14th St, Omaha, NE 68102",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bar', 'Dessert restaurant', 'Fine dining restaurant', 'Restaurant', 'Salad shop', 'Soup restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/06/26",
+            "gmap_id": "0x87938fae65df9d77:0xca9729a9ccfcd4df",
+            "iid": 3265,
+            "name": "Saigon Surface",
+            "split": "train",
+            "state": "Nebraska",
+            "unix_time": 1561511829218
+        },
+        {
+            "address": NaN,
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/09/10",
+            "gmap_id": "0x8620a58699d2dd33:0xb55f9934943891da",
+            "iid": 2121,
+            "name": "Namese",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1568141769233
+        },
+        {
+            "address": "Ph\u1edf Pasteur, 682 Washington St, Boston, MA 02111",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/07/26",
+            "gmap_id": "0x89e37a7790d43e19:0x34e29d9a13319e06",
+            "iid": 4744,
+            "name": "Ph\u1edf Pasteur",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1595793476003
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ph\u1edf 2000 Restaurant, 198 Adams St, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e37ba4e79245f3:0x8c5d7a1ede39d9fb",
+            "iid": 4752,
+            "name": "Ph\u1edf 2000 Restaurant",
+            "rank": 1,
+            "score": 0.8288080096244812,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "B\u1ebfp B\u1ee5i, 95 Freeport St, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e37b9f6f240fc7:0xd1714c116d5488d",
+            "iid": 4748,
+            "name": "B\u1ebfp B\u1ee5i",
+            "rank": 2,
+            "score": 0.8279665112495422,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Saigon One Restaurant, 1331 Dorchester Ave, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant', 'Cantonese restaurant', 'Chinese restaurant', 'Delivery Restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89e37baf8427925b:0xcd0d4e0d5e1d0fd9",
+            "iid": 4756,
+            "name": "Saigon One Restaurant",
+            "rank": 3,
+            "score": 0.8250101208686829,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Ph\u1edf S\u1ed1 1 Boston, 223 Adams St, Dorchester, MA 02122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e37ba494d4e4bf:0x4635067d0fe95c47",
+            "iid": 4750,
+            "name": "Ph\u1edf S\u1ed1 1 Boston",
+            "rank": 4,
+            "score": 0.7981585264205933,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Nhu Lan Baguette, 1155 Dorchester Ave, Dorchester, MA 02125",
+            "category": "['Deli', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x89e37bac504f665b:0xada20e428d898a5b",
+            "iid": 4755,
+            "name": "Nhu Lan Baguette",
+            "rank": 5,
+            "score": 0.7748935222625732,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho Hoa Restaurant, 1370 Dorchester Ave, Boston, MA 02122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e37ba57a0ef0cd:0x2e0adc6b01efbfc4",
+            "iid": 4754,
+            "name": "Pho Hoa Restaurant",
+            "rank": 6,
+            "score": 0.7519474625587463,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho Linh, 409 Hancock St, Quincy, MA 02171",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e37b5fd36411d1:0xeb53fc12bf93656d",
+            "iid": 4746,
+            "name": "Pho Linh",
+            "rank": 7,
+            "score": 0.6957628726959229,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Ph\u1edf Pasteur, 1462 Hancock St, Quincy, MA 02169",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e3634aca6cbb1f:0xf11ec3814b346236",
+            "iid": 4717,
+            "name": "Ph\u1edf Pasteur",
+            "rank": 8,
+            "score": 0.6469693779945374,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho Bistro, 8 Pleasant St, Malden, MA 02148",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e371615fd68bed:0xcbacfa7579536c47",
+            "iid": 4722,
+            "name": "Pho Bistro",
+            "rank": 9,
+            "score": 0.5558961033821106,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho 98 Vietnamese Cuisine, 92-94 N Main St, Randolph, MA 02368",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e482fbf23dbff7:0x831390124521c5bd",
+            "iid": 4787,
+            "name": "Pho 98 Vietnamese Cuisine",
+            "rank": 10,
+            "score": 0.5319260954856873,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Saigon Hut, 305 Meridian St, Boston, MA 02128",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e3705aa30a4ac1:0x9f49fe1602818048",
+            "iid": 4718,
+            "name": "Saigon Hut",
+            "rank": 11,
+            "score": 0.5313581228256226,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho 89, 937 N Main St, Randolph, MA 02368",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89e4826479c2070b:0x2f8b2b0d1682a934",
+            "iid": 4786,
+            "name": "Pho 89",
+            "rank": 12,
+            "score": 0.5105506181716919,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho So 1, 51 Memorial Pkwy, Randolph, MA 02368",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e482fea00383a5:0xe73181723f832b55",
+            "iid": 4788,
+            "name": "Pho So 1",
+            "rank": 13,
+            "score": 0.5065546631813049,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Ph\u1edf 99, 99 Pleasant St, Malden, MA 02148",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e371611a429cb3:0x1550db6ec743ec15",
+            "iid": 4721,
+            "name": "Ph\u1edf 99",
+            "rank": 14,
+            "score": 0.5061169862747192,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "N&P Saigon subs, 1185 N Main St, Randolph, MA 02368",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e4837259d85917:0x636269969daedd45",
+            "iid": 4789,
+            "name": "N&P Saigon subs",
+            "rank": 15,
+            "score": 0.49643033742904663,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Kien Giang Restaurant, 1871 Revere Beach Pkwy, Everett, MA 02149",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e371a752de43d5:0x1d6ce1adeb0f6c84",
+            "iid": 4724,
+            "name": "Kien Giang Restaurant",
+            "rank": 16,
+            "score": 0.48035380244255066,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "New Dong Khanh Restaurant, 83 Harrison Ave, Boston, MA 02111",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e37a78290f8ba7:0xd318f4076cdb5a33",
+            "iid": 4745,
+            "name": "New Dong Khanh Restaurant",
+            "rank": 17,
+            "score": 0.4609293043613434,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Saigon NV, 381 Main St, Malden, MA 02148",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89e37163e3e81ea7:0x62e648e4bfd8d92a",
+            "iid": 4723,
+            "name": "Saigon NV",
+            "rank": 18,
+            "score": 0.45938748121261597,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho#1 Woburn, 908 Main St, Woburn, MA 01801",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89e3753bbece3bb5:0xde2b5a7f4fc4281a",
+            "iid": 4726,
+            "name": "Pho#1 Woburn",
+            "rank": 19,
+            "score": 0.4558981955051422,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho Hoa, 17 Beach St, Boston, MA 02111",
+            "category": "['Pho restaurant', 'Noodle shop', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89e37a77895b6e05:0x1a6249fd30905fbc",
+            "iid": 4743,
+            "name": "Pho Hoa",
+            "rank": 20,
+            "score": 0.4521450698375702,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Danny Lam Ong",
+        "uid": 2826,
+        "user_id": 102974450507387145222
+    }
+}

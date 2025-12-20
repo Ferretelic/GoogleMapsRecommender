@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Royal Rangoon, 2826 Telegraph Ave, Berkeley, CA 94705",
+            "category": "['Burmese restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "date": "2017/10/26",
+            "gmap_id": "0x80857dd355f1abd3:0xb36685236a9ba350",
+            "iid": 2638,
+            "name": "Royal Rangoon",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1508997382493
+        },
+        {
+            "address": "An Choi, 85 Orchard St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bar', 'Cafe', 'Noodle shop']",
+            "date": "2017/10/26",
+            "gmap_id": "0x89c259871514f5ed:0x819fe06099b4b09b",
+            "iid": 21811,
+            "name": "An Choi",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1509000692994
+        },
+        {
+            "address": "The Best Sichuan\u4e00\u54c1\u6210\u90fd, 47 W 39th St, New York, NY 10018",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Thai restaurant']",
+            "date": "2017/10/26",
+            "gmap_id": "0x89c259abaa3f364b:0xfda6ee6f2f8bbc88",
+            "iid": 21935,
+            "name": "The Best Sichuan\u4e00\u54c1\u6210\u90fd",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1509001047352
+        },
+        {
+            "address": "Huong Tra Restaurant, 12221 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Deli', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/11/28",
+            "gmap_id": "0x808578478020b3d7:0xa19f9522070a323b",
+            "iid": 2603,
+            "name": "Huong Tra Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511831067731
+        },
+        {
+            "address": "Great China, 2190 Bancroft Way, Berkeley, CA 94704",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/11/28",
+            "gmap_id": "0x80857e9d0ba3811b:0x8eb009586964780e",
+            "iid": 2667,
+            "name": "Great China",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511831198470
+        },
+        {
+            "address": "N\u00f4ng Th\u00f4n Restaurant, 10086 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Vietnamese restaurant', 'Family restaurant', 'Seafood restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/11/28",
+            "gmap_id": "0x8085792269194a79:0x74765ebb16830eb6",
+            "iid": 2609,
+            "name": "N\u00f4ng Th\u00f4n Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511831218125
+        },
+        {
+            "address": "Bonchon Berkeley, 2050 Berkeley Way, Berkeley, CA 94704",
+            "category": "['Asian restaurant', 'Korean restaurant']",
+            "date": "2018/01/18",
+            "gmap_id": "0x80857e9ee34d85bd:0x74939f91a7e0962",
+            "iid": 2676,
+            "name": "Bonchon Berkeley",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516246855851
+        },
+        {
+            "address": "Lers Ros, 730 Larkin St, San Francisco, CA 94109",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/03/07",
+            "gmap_id": "0x808580912882db65:0x42b1eacb486fe3b9",
+            "iid": 2767,
+            "name": "Lers Ros",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520381019103
+        },
+        {
+            "address": "Liholiho Yacht Club, 3560 18th St, San Francisco, CA 94110",
+            "category": "['Restaurant', 'Asian restaurant', 'Californian restaurant', 'Cocktail bar', 'Seafood restaurant']",
+            "date": "2018/08/04",
+            "gmap_id": "0x8085809226a75491:0xb16e391a9d832609",
+            "iid": 2777,
+            "name": "Liholiho Yacht Club",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1533349332139
+        },
+        {
+            "address": "Aangan, 856 San Pablo Ave, Albany, CA 94706",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Caterer', 'Nepalese restaurant', 'Restaurant']",
+            "date": "2018/10/19",
+            "gmap_id": "0x80857931f9432771:0x8d7dcc299dffd123",
+            "iid": 2613,
+            "name": "Aangan",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1539932281737
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Crave Asia, 1301 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese bakery', 'Chinese restaurant', 'Chinese tea house', 'Japanese restaurant']",
+            "gmap_id": "0x80857eceeb35861f:0x7a543edf169bfbd5",
+            "iid": 2685,
+            "name": "Crave Asia",
+            "rank": 1,
+            "score": -1.9174392223358154,
+            "state": "California"
+        },
+        {
+            "address": "The Pearl House, 809 San Pablo Ave, Albany, CA 94706",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80857931dc75615d:0xdb665bdf61ebf38",
+            "iid": 2611,
+            "name": "The Pearl House",
+            "rank": 2,
+            "score": -1.9863396883010864,
+            "state": "California"
+        },
+        {
+            "address": "Elephant Bar Restaurant, 5601 Bay St, Emeryville, CA 94608",
+            "category": "['Asian restaurant', 'American restaurant', 'Bar', 'Cocktail bar', 'European restaurant', 'Restaurant', 'Wok restaurant']",
+            "gmap_id": "0x80857e414628c93f:0x8109405f00816937",
+            "iid": 2653,
+            "name": "Elephant Bar Restaurant",
+            "rank": 3,
+            "score": -2.0327627658843994,
+            "state": "California"
+        },
+        {
+            "address": "Yo Sushi, 84E Second Street, New York, NY 10010",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2590abd507611:0x15483467938e3e38",
+            "iid": 21742,
+            "name": "Yo Sushi",
+            "rank": 4,
+            "score": -2.0468099117279053,
+            "state": "New_York"
+        },
+        {
+            "address": "Restaurant Chu, 5362 College Ave, Oakland, CA 94618",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Banquet hall', 'Bar', 'Event venue', 'Takeout Restaurant', 'Restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x80857de8e26cf5ad:0x4a824e56e73d7c88",
+            "iid": 2645,
+            "name": "Restaurant Chu",
+            "rank": 5,
+            "score": -2.0572285652160645,
+            "state": "California"
+        },
+        {
+            "address": "Vanessa's Dumpling House, 118A Eldridge St, New York, NY 10002",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Chinese restaurant', 'Dumpling restaurant', 'Traditional restaurant']",
+            "gmap_id": "0x89c2594990e14945:0xafa7d45fc6891405",
+            "iid": 21762,
+            "name": "Vanessa's Dumpling House",
+            "rank": 6,
+            "score": -2.0702261924743652,
+            "state": "New_York"
+        },
+        {
+            "address": "Ninna, 4066 Piedmont Ave, Oakland, CA 94611",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80857df70d6ba361:0x5ddb405b91478262",
+            "iid": 2647,
+            "name": "Ninna",
+            "rank": 7,
+            "score": -2.0803005695343018,
+            "state": "California"
+        },
+        {
+            "address": "China Hut, 4021 Broadway, Oakland, CA 94611",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x80857dfa35c2ba8b:0x44c388d7e77a8989",
+            "iid": 2648,
+            "name": "China Hut",
+            "rank": 8,
+            "score": -2.101583957672119,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING), 98 7th St, San Francisco, CA 94103",
+            "category": "['Asian restaurant', 'Breakfast restaurant', 'Caterer', 'Indian restaurant', 'Japanese restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8085808360795555:0x268c1a62603e82df",
+            "iid": 2717,
+            "name": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING)",
+            "rank": 9,
+            "score": -2.112727642059326,
+            "state": "California"
+        },
+        {
+            "address": "Chen's Garden, 1818 Alcatraz Ave, Berkeley, CA 94703",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Noodle shop', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80857e797f36649d:0xa03453d54152105e",
+            "iid": 2658,
+            "name": "Chen's Garden",
+            "rank": 10,
+            "score": -2.1148324012756348,
+            "state": "California"
+        },
+        {
+            "address": "Grand Sichuan, 125 Canal St, New York, NY 10002",
+            "category": "['Restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c25a27e75d1df7:0x75c68f59f60cecb",
+            "iid": 22044,
+            "name": "Grand Sichuan",
+            "rank": 11,
+            "score": -2.1356019973754883,
+            "state": "New_York"
+        },
+        {
+            "address": "MoMo Masalas, 2505 Hearst Ave B, Berkeley, CA 94709",
+            "category": "['Modern Indian restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x80857c2162c65187:0xd16847c37f0388af",
+            "iid": 2623,
+            "name": "MoMo Masalas",
+            "rank": 12,
+            "score": -2.142406702041626,
+            "state": "California"
+        },
+        {
+            "address": "Thai Table, 913 University Ave, Berkeley, CA 94710",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Caterer', 'Takeout Restaurant']",
+            "gmap_id": "0x80857f07b8b163bb:0x4cb46b2286a39e99",
+            "iid": 2688,
+            "name": "Thai Table",
+            "rank": 13,
+            "score": -2.1592228412628174,
+            "state": "California"
+        },
+        {
+            "address": "Ken Hing Food Market, 247 Grand St #1, New York, NY 10002",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89c25987e6f5b639:0xad21a746cea756d9",
+            "iid": 21816,
+            "name": "Ken Hing Food Market",
+            "rank": 14,
+            "score": -2.165771961212158,
+            "state": "New_York"
+        },
+        {
+            "address": "Lucky Bird, 1926 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80857fa78f980487:0xe20853b8ba7cd6d",
+            "iid": 2690,
+            "name": "Lucky Bird",
+            "rank": 15,
+            "score": -2.1868491172790527,
+            "state": "California"
+        },
+        {
+            "address": "Riceful Onigiri, 2435 Durant Ave, Berkeley, CA 94704",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80857db825a424a9:0x48a69ecf83fa220",
+            "iid": 2634,
+            "name": "Riceful Onigiri",
+            "rank": 16,
+            "score": -2.1913042068481445,
+            "state": "California"
+        },
+        {
+            "address": "Nina's Cafe, 2703 Seventh St, Berkeley, CA 94710",
+            "category": "['Cafe', 'Asian restaurant', 'Espresso bar', 'Italian restaurant', 'Takeout Restaurant', 'Pizza restaurant', 'Sandwich shop', 'South Asian restaurant']",
+            "gmap_id": "0x80857ef2314390f7:0x373425f78024ba5",
+            "iid": 2686,
+            "name": "Nina's Cafe",
+            "rank": 17,
+            "score": -2.1989924907684326,
+            "state": "California"
+        },
+        {
+            "address": "Fusia Asian Bistro, 47 W 39th St, New York, NY 10018",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bistro', 'Karaoke bar', 'Malaysian restaurant', 'Restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c2599deae0ad73:0xdcbbe1d416ad80fb",
+            "iid": 21889,
+            "name": "Fusia Asian Bistro",
+            "rank": 18,
+            "score": -2.225851058959961,
+            "state": "New_York"
+        },
+        {
+            "address": "Zaiqa Indian and Pakistani Cuisine, 848 Willow Ave, Hercules, CA 94547",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80857173f4ad4de3:0xa874b83d5e5103cb",
+            "iid": 2576,
+            "name": "Zaiqa Indian and Pakistani Cuisine",
+            "rank": 19,
+            "score": -2.226689100265503,
+            "state": "California"
+        },
+        {
+            "address": "Roong Jing Jing thai, 10164 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x80857918bd271bc5:0xb5ee3612a0e9b003",
+            "iid": 2606,
+            "name": "Roong Jing Jing thai",
+            "rank": 20,
+            "score": -2.2353005409240723,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "david pierini",
+        "uid": 72246,
+        "user_id": 106968563755758645537
+    }
+}

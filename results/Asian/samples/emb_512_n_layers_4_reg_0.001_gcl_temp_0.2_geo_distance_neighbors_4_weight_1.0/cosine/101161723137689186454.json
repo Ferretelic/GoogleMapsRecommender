@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Izakaya M, 13573 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Izakaya restaurant', 'Pub', 'Sushi restaurant']",
+            "date": "2016/07/17",
+            "gmap_id": "0x80c2962894b75b01:0x104132dc0d15ab59",
+            "iid": 4608,
+            "name": "Izakaya M",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1468751566524
+        },
+        {
+            "address": "99 Ranch Market, 6450 Sepulveda Blvd, Van Nuys, CA 91411",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2016/08/09",
+            "gmap_id": "0x80c2976d0c16d5c7:0x57ac59ebf6cb904c",
+            "iid": 4635,
+            "name": "99 Ranch Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470747443493
+        },
+        {
+            "address": "Panda Express, 14445 Burbank Blvd, Van Nuys, CA 91401",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/09/05",
+            "gmap_id": "0x80c297ae457ab845:0x254238cf1b4f2ed5",
+            "iid": 4639,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473109746380
+        },
+        {
+            "address": "A & W BBQ Seafood Restaurant, 16906 San Fernando Mission Blvd, Granada Hills, CA 91344",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Barbecue restaurant']",
+            "date": "2016/11/26",
+            "gmap_id": "0x80c29abd02f03067:0xc30b4db50e1bb6bf",
+            "iid": 4679,
+            "name": "A & W BBQ Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1480140251919
+        },
+        {
+            "address": "Chiba Japanese Restaurant, 7515 Lankershim Blvd, North Hollywood, CA 91605",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/12/16",
+            "gmap_id": "0x80c294268e9e4c6d:0xe602681b904d8c2e",
+            "iid": 4583,
+            "name": "Chiba Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1481929866724
+        },
+        {
+            "address": "JINYA Ramen Bar - Studio City, 11239 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/01/22",
+            "gmap_id": "0x80c2be140ee223c9:0xea62c8c0736168d3",
+            "iid": 5055,
+            "name": "JINYA Ramen Bar - Studio City",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1485048660920
+        },
+        {
+            "address": "Picka Rico, 14308 Victory Blvd, Van Nuys, CA 91401",
+            "category": "['Asian fusion restaurant']",
+            "date": "2017/04/11",
+            "gmap_id": "0x80c29703e2c01783:0xdfd2584664518e89",
+            "iid": 4629,
+            "name": "Picka Rico",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491878457287
+        },
+        {
+            "address": "Tatsu Ramen, 7111 Melrose Ave, Los Angeles, CA 90046, United States",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/06/25",
+            "gmap_id": "0x80c2bf2ab548da49:0xb5e3296938e1d959",
+            "iid": 5091,
+            "name": "Tatsu Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498382885825
+        },
+        {
+            "address": "\u301290025 California, Los Angeles, Sawtelle Blvd, Shin-Sen-Gumi Hakata Ramen West L.A.",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant', 'Restaurant']",
+            "date": "2017/09/04",
+            "gmap_id": "0x80c2bb707a72770f:0x7050bd4d3a9b0c66",
+            "iid": 5001,
+            "name": "Shin-Sen-Gumi Hakata Ramen West L.A.",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1504501902240
+        },
+        {
+            "address": "Greenland Market, 17643 Sherman Way, Van Nuys, CA 91406",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2021/01/04",
+            "gmap_id": "0x80c29989afa75cb5:0x169b30904e7396a0",
+            "iid": 4665,
+            "name": "Greenland Market",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1609729329037
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Shoga Sushi, 12515 Victory Blvd, North Hollywood, CA 91606",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29663415afb13:0x3be3ef5abc81956d",
+            "iid": 4616,
+            "name": "Shoga Sushi",
+            "rank": 1,
+            "score": 0.7498867511749268,
+            "state": "California"
+        },
+        {
+            "address": "LET'S PHO, 4344 A Woodman Ave, Sherman Oaks, CA 91423",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2962ed615d15b:0x6c5b20a07c7003dc",
+            "iid": 4610,
+            "name": "LET'S PHO",
+            "rank": 2,
+            "score": 0.7472744584083557,
+            "state": "California"
+        },
+        {
+            "address": "88 Chinese & Sushi, 5658 Sepulveda Blvd, Van Nuys, CA 91411",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2979fab4ed7c7:0x9c60dd9af511edf7",
+            "iid": 4638,
+            "name": "88 Chinese & Sushi",
+            "rank": 3,
+            "score": 0.7463275790214539,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 14006 Riverside Dr #254, Sherman Oaks, CA 91423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29633993f90c9:0x16665adca3820fc0",
+            "iid": 4612,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": 0.7402934432029724,
+            "state": "California"
+        },
+        {
+            "address": "Big Fish Japanese Cuisine, 4364 Woodman Ave, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2962f2702b741:0xcc4d5351d8f93247",
+            "iid": 4611,
+            "name": "Big Fish Japanese Cuisine",
+            "rank": 5,
+            "score": 0.736889123916626,
+            "state": "California"
+        },
+        {
+            "address": "Golden Bowl Teriyaki, 13718 Sherman Way, Van Nuys, CA 91405",
+            "category": "['Asian fusion restaurant', 'Chicken restaurant', 'Fast food restaurant', 'Hamburger restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c296e6eb42caeb:0x3af56ad143095f12",
+            "iid": 4626,
+            "name": "Golden Bowl Teriyaki",
+            "rank": 6,
+            "score": 0.7359492778778076,
+            "state": "California"
+        },
+        {
+            "address": "Mint Garden Thai Restaurant, 4850 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c297c83248edbd:0xa42c1d375afe85d1",
+            "iid": 4643,
+            "name": "Mint Garden Thai Restaurant",
+            "rank": 7,
+            "score": 0.7247801423072815,
+            "state": "California"
+        },
+        {
+            "address": "King Of India, 14062 Burbank Blvd, Van Nuys, CA 91401",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2964d54ba70e7:0xf7f0f80e4fcd07c2",
+            "iid": 4615,
+            "name": "King Of India",
+            "rank": 8,
+            "score": 0.7205602526664734,
+            "state": "California"
+        },
+        {
+            "address": "Bua Siam, 12924 Sherman Way #4953, North Hollywood, CA 91605",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c29692e764fa03:0x976f22570b8a6f7",
+            "iid": 4621,
+            "name": "Bua Siam",
+            "rank": 9,
+            "score": 0.7167865037918091,
+            "state": "California"
+        },
+        {
+            "address": "WaBa Grill, 12643 Sherman Way Ste A, North Hollywood, CA 91605",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Health food restaurant', 'Rice restaurant']",
+            "gmap_id": "0x80c29691c05f0d91:0xd64f1532fecdc0d8",
+            "iid": 4617,
+            "name": "WaBa Grill",
+            "rank": 10,
+            "score": 0.7104573845863342,
+            "state": "California"
+        },
+        {
+            "address": "Little Ocha of the Valley, 13724 Sherman Way, Van Nuys, CA 91405",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c296f900000001:0x97261961d4581635",
+            "iid": 4628,
+            "name": "Little Ocha of the Valley",
+            "rank": 11,
+            "score": 0.7056156992912292,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Cuisine - Restaurant & Bar - Chinese Food Delivery and Takeout, 14010 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Korean restaurant', 'Lunch restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2962cec47741b:0xf4081065fe3d2ec6",
+            "iid": 4609,
+            "name": "Bamboo Cuisine - Restaurant & Bar - Chinese Food Delivery and Takeout",
+            "rank": 12,
+            "score": 0.7042754292488098,
+            "state": "California"
+        },
+        {
+            "address": "Shiki Sushi, 12745 A Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdf42502cb81:0xf7b9735026497644",
+            "iid": 5046,
+            "name": "Shiki Sushi",
+            "rank": 13,
+            "score": 0.7042153477668762,
+            "state": "California"
+        },
+        {
+            "address": "Shanghai Rose, 12229 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Family restaurant', 'Delivery Restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2bdfb709d74cb:0x2dec42bf9b220c69",
+            "iid": 5049,
+            "name": "Shanghai Rose",
+            "rank": 14,
+            "score": 0.7005895376205444,
+            "state": "California"
+        },
+        {
+            "address": "Siam Cabin, 13548 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Southern restaurant (US)', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c296288f35769f:0x7b9eab40b2032a17",
+            "iid": 4607,
+            "name": "Siam Cabin",
+            "rank": 15,
+            "score": 0.6967445611953735,
+            "state": "California"
+        },
+        {
+            "address": "Bangluck Market Corporation, 12980 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x80c29692da2c0e5d:0x229c9257ed24a719",
+            "iid": 4619,
+            "name": "Bangluck Market Corporation",
+            "rank": 16,
+            "score": 0.6940113306045532,
+            "state": "California"
+        },
+        {
+            "address": "The Flame Broiler, 4954 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Fast food restaurant', 'Asian restaurant', 'Health food restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297b7cbb1acf5:0x9bde7668df25b15f",
+            "iid": 4640,
+            "name": "The Flame Broiler",
+            "rank": 17,
+            "score": 0.6934607028961182,
+            "state": "California"
+        },
+        {
+            "address": "MB Chinese Food, 14120 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297d2df2a29a3:0x98ec84971f962017",
+            "iid": 4645,
+            "name": "MB Chinese Food",
+            "rank": 18,
+            "score": 0.6852714419364929,
+            "state": "California"
+        },
+        {
+            "address": "Pick Up Stix Fresh Asian Flavors, 3960 Laurel Canyon Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c2bde2cb9edad9:0x1f013faef1e7007f",
+            "iid": 5045,
+            "name": "Pick Up Stix Fresh Asian Flavors",
+            "rank": 19,
+            "score": 0.6778245568275452,
+            "state": "California"
+        },
+        {
+            "address": "WaBa Grill, 8383 Laurel Canyon Blvd, Sun Valley, CA 91352",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Health food restaurant', 'Rice restaurant']",
+            "gmap_id": "0x80c296a8ab5bd3e7:0x8d30488c9d187ef0",
+            "iid": 4623,
+            "name": "WaBa Grill",
+            "rank": 20,
+            "score": 0.6758447289466858,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "k hirano",
+        "uid": 11998,
+        "user_id": 101161723137689186454
+    }
+}

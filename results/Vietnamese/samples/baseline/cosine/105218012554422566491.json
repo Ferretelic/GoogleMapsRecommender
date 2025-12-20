@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "DragonEats, 555 Folsom St, San Francisco, CA 94105",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2016/11/16",
+            "gmap_id": "0x8085807c7834495d:0x5a0dc1a186113149",
+            "iid": 695,
+            "name": "DragonEats",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479325453386
+        },
+        {
+            "address": "Unicorn Pan-Asian Cuisine, 191 Pine St, San Francisco, CA 94111",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Vietnamese restaurant']",
+            "date": "2016/11/16",
+            "gmap_id": "0x808580622f6e7889:0xe31b055dc763d09",
+            "iid": 691,
+            "name": "Unicorn Pan-Asian Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479333444059
+        },
+        {
+            "address": "Que Huong Vietnamese Deli, 2138 Irving St, San Francisco, CA 94122",
+            "category": "['Vietnamese restaurant', 'Deli', 'Restaurant', 'Sandwich shop']",
+            "date": "2016/11/18",
+            "gmap_id": "0x808587701bf7a477:0xb3a4f15e4941fe97",
+            "iid": 763,
+            "name": "Que Huong Vietnamese Deli",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479498221511
+        },
+        {
+            "address": "Pho Thaison, 3601 W William Cannon Dr #250, Austin, TX 78749",
+            "category": "['Restaurant', 'Pho restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "date": "2016/11/25",
+            "gmap_id": "0x865b4b9c96ed392f:0xbe5b5851756db189",
+            "iid": 2830,
+            "name": "Pho Thaison",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1480096775790
+        },
+        {
+            "address": "Kim Phung, 7601 N Lamar Blvd, Austin, TX 78752",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Noodle shop', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "date": "2016/11/30",
+            "gmap_id": "0x8644ca337ae9f1d3:0xb5956870cb19529",
+            "iid": 2568,
+            "name": "Kim Phung",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1480482615263
+        },
+        {
+            "address": "Tam Deli & Cafe, 8222 N Lamar Blvd D33, Austin, TX 78753",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "date": "2016/12/09",
+            "gmap_id": "0x8644cbce62022e61:0x717668f2dd02aa1e",
+            "iid": 2580,
+            "name": "Tam Deli & Cafe",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1481319618207
+        },
+        {
+            "address": "Tin Vietnamese Cuisine, 937 Howard St, San Francisco, CA 94103",
+            "category": "['Vietnamese restaurant']",
+            "date": "2016/12/19",
+            "gmap_id": "0x8085808149e2afa3:0xff0a57861d108cc7",
+            "iid": 696,
+            "name": "Tin Vietnamese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1482179132483
+        },
+        {
+            "address": "Urban Picnic, 125 Kearny St, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant', 'Californian restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Takeout Restaurant', 'Pho restaurant', 'Salad shop', 'Sandwich shop', 'Vegetarian restaurant']",
+            "date": "2017/04/12",
+            "gmap_id": "0x80858089aef126df:0xf70d389bbae48e0e",
+            "iid": 703,
+            "name": "Urban Picnic",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492032213346
+        },
+        {
+            "address": "Bamboo Asia, 41 Montgomery St, San Francisco, CA 94104",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Indian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80858089d1fe7f4b:0x57d35d8fae11d265",
+            "iid": 704,
+            "name": "Bamboo Asia",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1492733069459
+        },
+        {
+            "address": "TY Sandwiches, 4829 Mission St, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/05/15",
+            "gmap_id": "0x808f7e850866dc2b:0x77e76aff4056c396",
+            "iid": 893,
+            "name": "TY Sandwiches",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1526401215701
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ly's Vietnamese Cuisine, 1779 Lombard St, San Francisco, CA 94123",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808580db908b2a45:0xaeae94d18f6c8180",
+            "iid": 732,
+            "name": "Ly's Vietnamese Cuisine",
+            "rank": 1,
+            "score": 0.7744792699813843,
+            "state": "California"
+        },
+        {
+            "address": "Dong Nai, 4211 S Lamar Blvd # E-1, Austin, TX 78704",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x865b4b30fdb1167b:0x5fc2ab5141e0f860",
+            "iid": 2828,
+            "name": "Dong Nai",
+            "rank": 2,
+            "score": 0.7594010233879089,
+            "state": "Texas"
+        },
+        {
+            "address": "Jasmine Garden, 708 14th St, San Francisco, CA 94114",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7e1e73502eab:0xc20e31a0f57de3ed",
+            "iid": 881,
+            "name": "Jasmine Garden",
+            "rank": 3,
+            "score": 0.7195937633514404,
+            "state": "California"
+        },
+        {
+            "address": "Pho Thaison, 2438 W Anderson Ln Suite A3, Austin, TX 78757",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8644cba542543a81:0x2c5f1295f20c0b34",
+            "iid": 2577,
+            "name": "Pho Thaison",
+            "rank": 4,
+            "score": 0.712276041507721,
+            "state": "Texas"
+        },
+        {
+            "address": "Elizabeth Street Cafe, 1501 S 1st St, Austin, TX 78704",
+            "category": "['Vietnamese restaurant', 'Bakery', 'Cafe', 'Coffee shop', 'French restaurant', 'Restaurant']",
+            "gmap_id": "0x8644b4e2e6dc275b:0x473a849de2ac9fab",
+            "iid": 2552,
+            "name": "Elizabeth Street Cafe",
+            "rank": 5,
+            "score": 0.7117692828178406,
+            "state": "Texas"
+        },
+        {
+            "address": "China Wall Restaurant, 2000 S IH 35 Frontage Rd Suite G4, Round Rock, TX 78681",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery service', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644d1e116b65ed5:0xcecc655d07dabb12",
+            "iid": 2595,
+            "name": "China Wall Restaurant",
+            "rank": 6,
+            "score": 0.7023102641105652,
+            "state": "Texas"
+        },
+        {
+            "address": "Hoa Hoa Restaurant, 2025 Guadalupe St, Austin, TX 78705",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8644b57620f7a3f9:0xb225d6aa40214b5a",
+            "iid": 2555,
+            "name": "Hoa Hoa Restaurant",
+            "rank": 7,
+            "score": 0.6977536678314209,
+            "state": "Texas"
+        },
+        {
+            "address": "YaYa Cafe, 3706 Guadalupe St Suite B, Austin, TX 78705",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8644ca7efbacfa03:0x5f0e51eb42839152",
+            "iid": 2573,
+            "name": "YaYa Cafe",
+            "rank": 8,
+            "score": 0.6949275135993958,
+            "state": "Texas"
+        },
+        {
+            "address": "Mama Fu's Asian House, 107 Childers Dr. #100, Bastrop, TX 78602",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Takeout Restaurant', 'Vegan restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x86449a37fd52a9ef:0x151fd7a4852f5618",
+            "iid": 2546,
+            "name": "Mama Fu's Asian House",
+            "rank": 9,
+            "score": 0.6931020617485046,
+            "state": "Texas"
+        },
+        {
+            "address": "Thanh Tam II, 577 Valencia St, San Francisco, CA 94110",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x887f80cfad6b9c99:0xba882c15c976fd59",
+            "iid": 3777,
+            "name": "Thanh Tam II",
+            "rank": 10,
+            "score": 0.6805471181869507,
+            "state": "California"
+        },
+        {
+            "address": "Hoa Ky Restaurant, 447 Broadway, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808f77a45a29d765:0x626539e39b4cad15",
+            "iid": 854,
+            "name": "Hoa Ky Restaurant",
+            "rank": 11,
+            "score": 0.6783909201622009,
+            "state": "California"
+        },
+        {
+            "address": "Fortune Garden, 201 University Oaks Blvd #730, Round Rock, TX 78665",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8644d15d2e54ab47:0xe8218edc4fa41948",
+            "iid": 2594,
+            "name": "Fortune Garden",
+            "rank": 12,
+            "score": 0.6771971583366394,
+            "state": "Texas"
+        },
+        {
+            "address": "Kat's Vietnam House, 35 Laurie Meadows Dr, San Mateo, CA 94403",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f9f3de2d9e735:0x1f2e5c6c6a32478f",
+            "iid": 976,
+            "name": "Kat's Vietnam House",
+            "rank": 13,
+            "score": 0.6760596632957458,
+            "state": "California"
+        },
+        {
+            "address": "Phonatic, 1201 Barbara Jordan Blvd #1460, Austin, TX 78723",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8644ca06163315ad:0xa333c551086b2321",
+            "iid": 2567,
+            "name": "Phonatic",
+            "rank": 14,
+            "score": 0.6690505146980286,
+            "state": "Texas"
+        },
+        {
+            "address": "Freshroll Vietnamese Rolls & Bowls, 157 4th St, San Francisco, CA 94109",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085808708b03a71:0xf292c66ede60c31c",
+            "iid": 700,
+            "name": "Freshroll Vietnamese Rolls & Bowls",
+            "rank": 15,
+            "score": 0.6524403691291809,
+            "state": "California"
+        },
+        {
+            "address": "Bun Mee, 650 Market St, San Francisco, CA 94104",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085808838073d17:0x429114094515b11e",
+            "iid": 701,
+            "name": "Bun Mee",
+            "rank": 16,
+            "score": 0.6507896184921265,
+            "state": "California"
+        },
+        {
+            "address": "Pho Thaison, 161 W Slaughter Ln, Austin, TX 78748",
+            "category": "['Restaurant', 'Pho restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865b4cd436853663:0x893f003980c1cbb0",
+            "iid": 2832,
+            "name": "Pho Thaison",
+            "rank": 17,
+            "score": 0.6451475620269775,
+            "state": "Texas"
+        },
+        {
+            "address": "Hao Hao Restaurant, 1901 W William Cannon Dr #115, Austin, TX 78745",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865b4ca043e7837b:0x960fe452a5948242",
+            "iid": 2831,
+            "name": "Hao Hao Restaurant",
+            "rank": 18,
+            "score": 0.6411837935447693,
+            "state": "Texas"
+        },
+        {
+            "address": "Sunflower Vietnamese Restaurant, 288 Connecticut St, San Francisco, CA 94107",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7fcbb0ec1cc3:0xb4e827f81a807816",
+            "iid": 902,
+            "name": "Sunflower Vietnamese Restaurant",
+            "rank": 19,
+            "score": 0.6326996684074402,
+            "state": "California"
+        },
+        {
+            "address": "PhoNatic, 2525 W Anderson Ln Suite 280, Austin, TX 78757",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8644cb42f025e16d:0x6728069056841e23",
+            "iid": 2574,
+            "name": "PhoNatic",
+            "rank": 20,
+            "score": 0.6321307420730591,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Paul DeMello",
+        "uid": 4955,
+        "user_id": 105218012554422566491
+    }
+}

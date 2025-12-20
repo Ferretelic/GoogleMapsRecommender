@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Mori Kitchen, 1000 S De Anza Blvd, San Jose, CA 95129",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/07/04",
+            "gmap_id": "0x808fb50411ccf1f1:0x8fc2c05070e308fb",
+            "iid": 2194,
+            "name": "Mori Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499208598952
+        },
+        {
+            "address": "Sanraku, 925 Blossom Hill Rd, San Jose, CA 95123",
+            "category": "['Sushi restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "date": "2018/12/26",
+            "gmap_id": "0x808e33d614387587:0xa05fbc97ef586ce4",
+            "iid": 1901,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545856616103
+        },
+        {
+            "address": "Kumako Ramen, 211 Jackson St, San Jose, CA 95112",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/05/29",
+            "gmap_id": "0x808fcc84ef10e251:0x5d09f70e188c20b7",
+            "iid": 2366,
+            "name": "Kumako Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559156782966
+        },
+        {
+            "address": "Nijiya Market San Diego Store, 3860 Convoy St, San Diego, CA 92111",
+            "category": "['Japanese grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80dbffe913978ff5:0xdc2f05fde824f6bc",
+            "iid": 4022,
+            "name": "Nijiya Market San Diego Store",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573344897987
+        },
+        {
+            "address": "Ototo Sushi Co., 2558 Laning Rd UNIT 103, San Diego, CA 92106",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/11/12",
+            "gmap_id": "0x80deab097939b433:0x4b766bbdbf6fac14",
+            "iid": 4618,
+            "name": "Ototo Sushi Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573593656563
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 19600 Vallco Pkwy #160, Cupertino, CA 95014",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/12",
+            "gmap_id": "0x808fb59ed888b5e9:0xfd5c475f3d309263",
+            "iid": 2216,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573593705810
+        },
+        {
+            "address": "Nijiya Market, 240 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "date": "2019/11/17",
+            "gmap_id": "0x808fcc84e134e047:0x845a11e6ecd8d327",
+            "iid": 2363,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574030659133
+        },
+        {
+            "address": "Benihana, 2074 Vallco Pkwy, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808fb598ebc8f8cb:0x4f61513c02794986",
+            "iid": 2214,
+            "name": "Benihana",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575839051461
+        },
+        {
+            "address": "Benihana, 1737 Post St, San Francisco, CA 94115, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808580b9279b8d1d:0xf10e8905aeedb7a1",
+            "iid": 1717,
+            "name": "Benihana",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575839134474
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "date": "2019/12/29",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 2332,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1577663950645
+        },
+        {
+            "address": "Ariake, 1008 Blossom Hill Rd, San Jose, CA 95123",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2021/02/20",
+            "gmap_id": "0x808e33d873c11e67:0x14d3f3e427a1520c",
+            "iid": 1902,
+            "name": "Ariake",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613792436621
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 2332,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "rank": 1,
+            "score": 5.926542282104492,
+            "state": "California"
+        },
+        {
+            "address": "Marukai Market, 19750 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Japanese grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x808fb5a0f9a7f933:0x7b0aa9bd45753494",
+            "iid": 2218,
+            "name": "Marukai Market",
+            "rank": 2,
+            "score": 4.848028659820557,
+            "state": "California"
+        },
+        {
+            "address": "Kazoo Japanese Sushi Boat Restaurant, 250 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese restaurant', 'Conveyor belt sushi restaurant', 'Authentic Japanese restaurant', 'Ramen restaurant', 'Sukiyaki restaurant', 'Sushi restaurant', 'Tempura restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x808fcc84e1f15c8d:0x963784e2a9350f09",
+            "iid": 2364,
+            "name": "Kazoo Japanese Sushi Boat Restaurant",
+            "rank": 3,
+            "score": 3.986013412475586,
+            "state": "California"
+        },
+        {
+            "address": "Minato Japanese Restaurant, 617 N 6th St, San Jose, CA 95112",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fcc84fbeda2bf:0x6807c242cf0b982d",
+            "iid": 2367,
+            "name": "Minato Japanese Restaurant",
+            "rank": 4,
+            "score": 3.8064229488372803,
+            "state": "California"
+        },
+        {
+            "address": "Gombei, 193 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fcc84948059bd:0x4a116f71efafaaa3",
+            "iid": 2361,
+            "name": "Gombei",
+            "rank": 5,
+            "score": 3.6904423236846924,
+            "state": "California"
+        },
+        {
+            "address": "Okayama Sushi, 565 N 6th St A, San Jose, CA 95112",
+            "category": "['Sushi restaurant', 'Banquet hall', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fcc85292a5649:0xfa6c79a02cd9fd85",
+            "iid": 2368,
+            "name": "Okayama Sushi",
+            "rank": 6,
+            "score": 3.5191497802734375,
+            "state": "California"
+        },
+        {
+            "address": "Kenzo Sushi, 5465 Snell Ave, San Jose, CA 95123",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808e31f30ea098cf:0x27232b78e1b38a52",
+            "iid": 1891,
+            "name": "Kenzo Sushi",
+            "rank": 7,
+            "score": 3.390758752822876,
+            "state": "California"
+        },
+        {
+            "address": "Nijiya Market San Francisco Store, 1737 Post St #333, San Francisco, CA 94115",
+            "category": "['Japanese grocery store', 'Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808580b8d7c745a3:0x3976a08275903f1c",
+            "iid": 1705,
+            "name": "Nijiya Market San Francisco Store",
+            "rank": 8,
+            "score": 3.1450247764587402,
+            "state": "California"
+        },
+        {
+            "address": "Ringer Hut, 1072 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fcabbbbfaa8d1:0x8cd20d4113220d4",
+            "iid": 2338,
+            "name": "Ringer Hut",
+            "rank": 9,
+            "score": 2.92757511138916,
+            "state": "California"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 19620 Stevens Creek Blvd #150, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x808fb5a1b5254455:0xb401b920b11cfed4",
+            "iid": 2220,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 10,
+            "score": 2.90458083152771,
+            "state": "California"
+        },
+        {
+            "address": "Curry House Japanese Curry & Spaghetti, 10350 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese curry restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808fb5a983361b57:0x55d2ef054e43f5ae",
+            "iid": 2225,
+            "name": "Curry House Japanese Curry & Spaghetti",
+            "rank": 11,
+            "score": 2.8471570014953613,
+            "state": "California"
+        },
+        {
+            "address": "Masa Ramen and Sake Bar, 864 Blossom Hill Rd, San Jose, CA 95123",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e317f3824fa15:0xf42de0acdef95a3e",
+            "iid": 1887,
+            "name": "Masa Ramen and Sake Bar",
+            "rank": 12,
+            "score": 2.794034957885742,
+            "state": "California"
+        },
+        {
+            "address": "Ramen Nagi, 2855 Stevens Creek Blvd, Santa Clara, CA 95050",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fcbdc470b6975:0xa6c3919d8fc6fe51",
+            "iid": 2355,
+            "name": "Ramen Nagi",
+            "rank": 13,
+            "score": 2.7918643951416016,
+            "state": "California"
+        },
+        {
+            "address": "Kubota, 593 N 5th St, San Jose, CA 95112",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x808fcc84c0ffa95b:0xa359e4bfd9ea33c9",
+            "iid": 2362,
+            "name": "Kubota",
+            "rank": 14,
+            "score": 2.7128679752349854,
+            "state": "California"
+        },
+        {
+            "address": "Marukai Market, 8151 Balboa Ave #2421, San Diego, CA 92111",
+            "category": "['Supermarket', 'Japanese grocery store']",
+            "gmap_id": "0x80dbffc00c74dbab:0x27efc192969e0fef",
+            "iid": 4018,
+            "name": "Marukai Market",
+            "rank": 15,
+            "score": 2.708238363265991,
+            "state": "California"
+        },
+        {
+            "address": "Harumi Sushi, 19754 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb5a1143505ff:0xfcc2c724306668f3",
+            "iid": 2219,
+            "name": "Harumi Sushi",
+            "rank": 16,
+            "score": 2.6781625747680664,
+            "state": "California"
+        },
+        {
+            "address": "Sen Dai Sushi, 224 N Abel St, Milpitas, CA 95035, United States",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fc8d6e88e4bb3:0x167e5e3ee03b24e9",
+            "iid": 2307,
+            "name": "Sen Dai Sushi",
+            "rank": 17,
+            "score": 2.6691088676452637,
+            "state": "California"
+        },
+        {
+            "address": "Mizu Sushi Bar & Grill, 1035 S Winchester Blvd, San Jose, CA 95128",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Japanese restaurant', 'Korean restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808fcad6f3ee8b05:0xb15248d2f2e8696d",
+            "iid": 2339,
+            "name": "Mizu Sushi Bar & Grill",
+            "rank": 18,
+            "score": 2.6574535369873047,
+            "state": "California"
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Diego, 4240 Kearny Mesa Rd, San Diego, CA 92111",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "gmap_id": "0x80dbffc1cfde7067:0x34f23a3836c8626e",
+            "iid": 4020,
+            "name": "Mitsuwa Marketplace - San Diego",
+            "rank": 19,
+            "score": 2.603384017944336,
+            "state": "California"
+        },
+        {
+            "address": "Ramen Taka, 2219 The Alameda, Santa Clara, CA 95050",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fcb09b7c85ba1:0xbe9656f78c33fd1e",
+            "iid": 2346,
+            "name": "Ramen Taka",
+            "rank": 20,
+            "score": 2.5386438369750977,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Kim Dela Cruz",
+        "uid": 15380,
+        "user_id": 103316436222345566338
+    }
+}

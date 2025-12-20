@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Com Tam Thien Huong, 1759 E Capitol Expy, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/01/23",
+            "gmap_id": "0x808e2d7e31b9b5c1:0xc9f1ed1a18e490c5",
+            "iid": 792,
+            "name": "Com Tam Thien Huong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1485141046178
+        },
+        {
+            "address": "HUONG Restaurant, 2847 S White Rd #100, San Jose, CA 95148",
+            "category": "['Vietnamese restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/03/31",
+            "gmap_id": "0x808e2d68cd880b23:0x43dfeccb63b89f9",
+            "iid": 789,
+            "name": "HUONG Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1490927265976
+        },
+        {
+            "address": "Pho Hong Phat, 3243 E Anaheim St, Long Beach, CA 90804",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/07/02",
+            "gmap_id": "0x80dd319f56b189bf:0xce6790f36d574ca2",
+            "iid": 2064,
+            "name": "Pho Hong Phat",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499037502328
+        },
+        {
+            "address": "Banh Mi & Che Cali, 8450 Valley Blvd, Rosemead, CA 91770",
+            "category": "['Fast food restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2017/07/03",
+            "gmap_id": "0x80c2da96e675c777:0xa5be54fe8c80463e",
+            "iid": 1440,
+            "name": "Banh Mi & Che Cali",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499109560981
+        },
+        {
+            "address": "Pho Papa, 1611 Capitol Expy, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/09/22",
+            "gmap_id": "0x808e3280446feb81:0xce892cb480f0f6c5",
+            "iid": 803,
+            "name": "Pho Papa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506107039091
+        },
+        {
+            "address": "Saigon Kitchen, 1111 Story Rd #1005, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/03/26",
+            "gmap_id": "0x808fcd2aefb35ccd:0xe963930b1a0d412c",
+            "iid": 1102,
+            "name": "Saigon Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522097080038
+        },
+        {
+            "address": "Huong Que HQ Dining, 3005 Silver Creek Rd STE 152, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/04/16",
+            "gmap_id": "0x808e328183a6c147:0xe1e6b43ec58b3ccc",
+            "iid": 809,
+            "name": "Huong Que HQ Dining",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523848143072
+        },
+        {
+            "address": "Ph\u1edf Wagyu #1, 2762 Aborn Rd, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/09/09",
+            "gmap_id": "0x808e2d242320f1df:0x208ff71551620e3d",
+            "iid": 787,
+            "name": "Ph\u1edf Wagyu #1",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536507604708
+        },
+        {
+            "address": "Thanh Long Restaurant, 4101 Judah St, San Francisco, CA 94122",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/12/30",
+            "gmap_id": "0x808587972836c929:0x16c9addcf0d90707",
+            "iid": 766,
+            "name": "Thanh Long Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546137137020
+        },
+        {
+            "address": "Pho Kim Long, 2082 N Capitol Ave, San Jose, CA 95132",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2020/11/13",
+            "gmap_id": "0x808fcea4cfca7903:0xd9914a00ddc4387",
+            "iid": 1120,
+            "name": "Pho Kim Long",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1605296228548
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bun Bo Hue An Nam 3, 3005 Silver Creek Rd #114, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e3281841327bb:0xf15b7d328129d36d",
+            "iid": 811,
+            "name": "Bun Bo Hue An Nam 3",
+            "rank": 1,
+            "score": -1.211974024772644,
+            "state": "California"
+        },
+        {
+            "address": "Hai Nam Restaurant, 3005 Silver Creek Rd STE 172, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0xdabe45a639077575",
+            "iid": 808,
+            "name": "Hai Nam Restaurant",
+            "rank": 2,
+            "score": -1.5084655284881592,
+            "state": "California"
+        },
+        {
+            "address": "Phi Hu Tieu Nam Vang 2, 2859 Senter Rd, San Jose, CA 95111",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e335c68f963cf:0x5049f20e25c12c96",
+            "iid": 844,
+            "name": "Phi Hu Tieu Nam Vang 2",
+            "rank": 3,
+            "score": -1.5384180545806885,
+            "state": "California"
+        },
+        {
+            "address": "CheeseCups - B\u00e1nh M\u00ec Ch\u00e8 Caf\u00e9 Viet, 3005 Silver Creek Rd STE 152, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant', 'Bubble tea store', 'Cafe', 'Coffee shop', 'Dessert shop', 'Seafood restaurant']",
+            "gmap_id": "0x808e33523fa88edb:0x159071ab802c2891",
+            "iid": 842,
+            "name": "CheeseCups - B\u00e1nh M\u00ec Ch\u00e8 Caf\u00e9 Viet",
+            "rank": 4,
+            "score": -1.5557491779327393,
+            "state": "California"
+        },
+        {
+            "address": "Bo Ne Restaurant - Sizzling Plate, 1615 McKee Rd, San Jose, CA 95116",
+            "category": "['Vietnamese restaurant', 'Karaoke', 'Lounge']",
+            "gmap_id": "0x808fcce4cb40c6ad:0xfe27e8d170465172",
+            "iid": 1088,
+            "name": "Bo Ne Restaurant - Sizzling Plate",
+            "rank": 5,
+            "score": -1.5568572282791138,
+            "state": "California"
+        },
+        {
+            "address": "Seapot Lau Oc Hai San, 3005 Silver Creek Rd STE 152, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808e328183a6c147:0x2d3cc7336ebacac4",
+            "iid": 804,
+            "name": "Seapot Lau Oc Hai San",
+            "rank": 6,
+            "score": -1.5631521940231323,
+            "state": "California"
+        },
+        {
+            "address": "B\u00ecnh Minh, 999 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd568c3d8a5:0x63ae8abc9ed5e053",
+            "iid": 1083,
+            "name": "B\u00ecnh Minh",
+            "rank": 7,
+            "score": -1.602744460105896,
+            "state": "California"
+        },
+        {
+            "address": "Bo Ne Phu Yen, 1818 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bd4713d58d:0x86295fd74077cdc3",
+            "iid": 827,
+            "name": "Bo Ne Phu Yen",
+            "rank": 8,
+            "score": -1.6145732402801514,
+            "state": "California"
+        },
+        {
+            "address": "DiLac Vegetarian Cuisine, 2850 Quimby Rd #125, San Jose, CA 95148",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e2d68973890ad:0xc77d8762076db913",
+            "iid": 788,
+            "name": "DiLac Vegetarian Cuisine",
+            "rank": 9,
+            "score": -1.6244592666625977,
+            "state": "California"
+        },
+        {
+            "address": "LuvCafe, 2444 Alvin Ave B, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e330a923a0f07:0x64d42011eba13408",
+            "iid": 838,
+            "name": "LuvCafe",
+            "rank": 10,
+            "score": -1.6588996648788452,
+            "state": "California"
+        },
+        {
+            "address": "Tram Chim Restaurant, ste 8054, 989 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd5bdd84d83:0xa7b835a4264ec26e",
+            "iid": 1087,
+            "name": "Tram Chim Restaurant",
+            "rank": 11,
+            "score": -1.6655082702636719,
+            "state": "California"
+        },
+        {
+            "address": "Banh Beo ToLan, 2955 Senter Rd #55, San Jose, CA 95111",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e325f6e165df7:0xa3a561c64796c987",
+            "iid": 802,
+            "name": "Banh Beo ToLan",
+            "rank": 12,
+            "score": -1.720557451248169,
+            "state": "California"
+        },
+        {
+            "address": "Chao Vit Thien-Huong, 1818 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e32bcf93e09b5:0x44e8d307d58f24ed",
+            "iid": 821,
+            "name": "Chao Vit Thien-Huong",
+            "rank": 13,
+            "score": -1.7499845027923584,
+            "state": "California"
+        },
+        {
+            "address": "Nam Giao Restaurant, 2066 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e3353eafcb1c5:0x64bdd2d632323cb3",
+            "iid": 843,
+            "name": "Nam Giao Restaurant",
+            "rank": 14,
+            "score": -1.758037805557251,
+            "state": "California"
+        },
+        {
+            "address": "Banh Cuon Saigon, 979 Story Rd #7048, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fcd30b87dc16b:0x6c8e69f1ffbb9545",
+            "iid": 1107,
+            "name": "Banh Cuon Saigon",
+            "rank": 15,
+            "score": -1.7788233757019043,
+            "state": "California"
+        },
+        {
+            "address": "BFresh Snacks & Drinks, 3005 Silver Creek Rd STE 174, San Jose, CA 95121",
+            "category": "['Bubble tea store', 'Chicken wings restaurant', 'Coffee shop', 'Health food restaurant', 'Snack bar', 'Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0x494cd8449387a1ec",
+            "iid": 805,
+            "name": "BFresh Snacks & Drinks",
+            "rank": 16,
+            "score": -1.7922443151474,
+            "state": "California"
+        },
+        {
+            "address": "Quan Hue Restaurant, 1818 Tully Rd # 116, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bcf93f7485:0x6145922bbf888c81",
+            "iid": 823,
+            "name": "Quan Hue Restaurant",
+            "rank": 17,
+            "score": -1.8043562173843384,
+            "state": "California"
+        },
+        {
+            "address": "Bun Bo Hue, 2871 Senter Rd, San Jose, CA 95111",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e32f6838119f3:0xba3ccbd52b1a115d",
+            "iid": 836,
+            "name": "Bun Bo Hue",
+            "rank": 18,
+            "score": -1.806137204170227,
+            "state": "California"
+        },
+        {
+            "address": "Dream cafe, 2444 Alvin Ave, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant', 'Cafe']",
+            "gmap_id": "0x808e32be086e4e6f:0x64866513fb5c1a68",
+            "iid": 829,
+            "name": "Dream cafe",
+            "rank": 19,
+            "score": -1.813969612121582,
+            "state": "California"
+        },
+        {
+            "address": "Bon Mua Restaurant, 1937 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bcae7ff743:0x188bf4a34c186ba9",
+            "iid": 820,
+            "name": "Bon Mua Restaurant",
+            "rank": 20,
+            "score": -1.825055480003357,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "danh dan",
+        "uid": 9987,
+        "user_id": 110532010819201494307
+    }
+}

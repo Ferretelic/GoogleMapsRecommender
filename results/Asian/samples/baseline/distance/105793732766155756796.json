@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Cafe Soho, 468 W Cheltenham Ave, Philadelphia, PA 19126",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Fried chicken takeaway', 'Restaurant']",
+            "date": "2019/12/19",
+            "gmap_id": "0x89c6b73e04bd15db:0xc1cdd8921a06956a",
+            "iid": 23529,
+            "name": "Cafe Soho",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1576771104192
+        },
+        {
+            "address": "Kyoto Palace Japanese Steakhouse, 1875 S Bascom Ave #2500, Campbell, CA 95008",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Banquet hall', 'Bar', 'Japanese steakhouse', 'Karaoke bar', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2019/12/28",
+            "gmap_id": "0x808e34c262a4d103:0xfaa507ae2893cb3f",
+            "iid": 3094,
+            "name": "Kyoto Palace Japanese Steakhouse",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1577545814029
+        },
+        {
+            "address": "FUSIAN, 4190 Worth Ave, Columbus, OH 43219",
+            "category": "['Asian restaurant', 'Grocery delivery service', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x88388a81e89826e9:0x7cedac569f81c9b2",
+            "iid": 15078,
+            "name": "FUSIAN",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1578321504033
+        },
+        {
+            "address": "New Hong Kong, 7665 W Saint Francis Rd, Frankfort, IL 60423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x880e144205c037b5:0x39b7a074dc845e8e",
+            "iid": 13341,
+            "name": "New Hong Kong",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1582056130916
+        },
+        {
+            "address": "TM Basil, 66 Oakbrook Center, Oak Brook, IL 60523",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Noodle shop', 'Soup restaurant', 'Sushi restaurant', 'Taiwanese restaurant', 'Thai restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x880e4c42a79c9d65:0x8cb6c1f62624cdaf",
+            "iid": 13557,
+            "name": "TM Basil",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1582056151355
+        },
+        {
+            "address": "Robata JINYA - Hollywood, 8050 W 3rd St, Los Angeles, CA 90048",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2020/07/10",
+            "gmap_id": "0x80c2b9369339f523:0x3502a4e0450f9dc6",
+            "iid": 4901,
+            "name": "Robata JINYA - Hollywood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1594407537501
+        },
+        {
+            "address": "Ruthai's Thai Kitchen, 3164 Linwood Ave, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/09/14",
+            "gmap_id": "0x8841ad8dd19e8797:0x6f233a6f459238a0",
+            "iid": 15501,
+            "name": "Ruthai's Thai Kitchen",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1600091852766
+        },
+        {
+            "address": "Naan On Devon & Grill, 2241 W Devon Ave, Chicago, IL 60659",
+            "category": "['Indian restaurant', 'Pakistani restaurant', 'South Asian restaurant']",
+            "date": "2020/09/28",
+            "gmap_id": "0x880fd1dd2cbbcd3f:0x9174a64c6df6c09e",
+            "iid": 14020,
+            "name": "Naan On Devon & Grill",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1601298568603
+        },
+        {
+            "address": "Ju Rang, 611 Milwaukee Ave, Glenview, IL 60025",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Karaoke', 'Restaurant', 'Sports bar']",
+            "date": "2020/09/28",
+            "gmap_id": "0x880fc7fa1a843fab:0xa1fc350951e5703a",
+            "iid": 13909,
+            "name": "Ju Rang",
+            "split": "valid",
+            "state": "Illinois",
+            "unix_time": 1601298595591
+        },
+        {
+            "address": "Surepinoy Oriental Food Mart, 145 Water St, Quincy, MA 02169",
+            "category": "['Asian grocery store']",
+            "date": "2021/01/08",
+            "gmap_id": "0x89e37cccebca0e91:0x289a9e4e5cfd850d",
+            "iid": 24875,
+            "name": "Surepinoy Oriental Food Mart",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1610122271729
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Chi Yatai, 2002 S Wentworth Ave b11, Chicago, IL 60616",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x880e2dcf2758df3d:0x606cfe7576432423",
+            "iid": 13479,
+            "name": "Chi Yatai",
+            "rank": 1,
+            "score": -2.7526094913482666,
+            "state": "Illinois"
+        },
+        {
+            "address": "Thai Spoon and Sushi, 601 S Wabash Ave, Chicago, IL 60605",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2da03d241a77:0xcd7cec4832d12ec3",
+            "iid": 13473,
+            "name": "Thai Spoon and Sushi",
+            "rank": 2,
+            "score": -2.8083603382110596,
+            "state": "Illinois"
+        },
+        {
+            "address": "Roll On In - East Cobb, 1100 Johnson Ferry Rd Suite 365, Marietta, GA 30068",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x88f50dd9a5888c29:0x95451f04ecf26465",
+            "iid": 19121,
+            "name": "Roll On In - East Cobb",
+            "rank": 3,
+            "score": -2.8284919261932373,
+            "state": "Georgia"
+        },
+        {
+            "address": "Tokyo Lunch Box & Sake Bar, 300 S Riverside Plaza, Chicago, IL 60606",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x880e2cbf876b36c9:0x90e80249470f3c0e",
+            "iid": 13442,
+            "name": "Tokyo Lunch Box & Sake Bar",
+            "rank": 4,
+            "score": -2.840430736541748,
+            "state": "Illinois"
+        },
+        {
+            "address": "China Buffet, 1797 S West Ave, Freeport, IL 61032",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Box lunch supplier']",
+            "gmap_id": "0x88086bd310db3b39:0x12bc793a910e560",
+            "iid": 13253,
+            "name": "China Buffet",
+            "rank": 5,
+            "score": -2.840627670288086,
+            "state": "Illinois"
+        },
+        {
+            "address": "Hanyang Mart (Korean food and gift Asian Market), 78 Beal Pkwy NW, Fort Walton Beach, FL 32548",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x88913f1bd97291d9:0xbbcf84098e74f657",
+            "iid": 17104,
+            "name": "Hanyang Mart (Korean food and gift Asian Market)",
+            "rank": 6,
+            "score": -2.8491992950439453,
+            "state": "Florida"
+        },
+        {
+            "address": "Purple Shell, 11 W Broadway, Boston, MA 02127",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Bar', 'Tapas restaurant']",
+            "gmap_id": "0x89e37b8ee176ee57:0x82ac8255f4b6f0e7",
+            "iid": 24856,
+            "name": "Purple Shell",
+            "rank": 7,
+            "score": -2.8611292839050293,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "P's VietMi Cafe, 8475 S John Young Pkwy, Orlando, FL 32819",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Restaurant', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x88e77d7be34a9435:0x8f720b18985b54bd",
+            "iid": 18704,
+            "name": "P's VietMi Cafe",
+            "rank": 8,
+            "score": -2.868597984313965,
+            "state": "Florida"
+        },
+        {
+            "address": "Pick Up Stix, 780 International Terminal Departures Level, San Francisco, CA 94128",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7790c9781e09:0x13d04ec1356f8553",
+            "iid": 3144,
+            "name": "Pick Up Stix",
+            "rank": 9,
+            "score": -2.8698389530181885,
+            "state": "California"
+        },
+        {
+            "address": "Xian San Marcos, 200 Springtown Way Ste. 138, San Marcos, TX 78666",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Dim sum restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x865ca964dfbdd665:0x91989ccae4bbc54c",
+            "iid": 10004,
+            "name": "Xian San Marcos",
+            "rank": 10,
+            "score": -2.871861696243286,
+            "state": "Texas"
+        },
+        {
+            "address": "Massachusetts, Somerville, Broadway, Happy Crab\u90ae\u653f\u7f16\u7801: 02144",
+            "category": "['Cajun restaurant', 'Asian restaurant', 'Distribution service', 'Fine dining restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89e377ef55adfb07:0xa4b7b61d764dfffa",
+            "iid": 24733,
+            "name": "Happy Crab",
+            "rank": 11,
+            "score": -2.8740978240966797,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Auntie Seng's Kitchen, 318 E Gold St, Kings Mountain, NC 28086",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8856e94a8e0a4d57:0x94425049afdd90e8",
+            "iid": 16034,
+            "name": "Auntie Seng's Kitchen",
+            "rank": 12,
+            "score": -2.87420392036438,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Zao Asian Cafe, 1899 W Traverse Pkwy, Lehi, UT 84043",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x8752812d0ff718ad:0xc1ec850c8b5fd88f",
+            "iid": 11086,
+            "name": "Zao Asian Cafe",
+            "rank": 13,
+            "score": -2.874457359313965,
+            "state": "Utah"
+        },
+        {
+            "address": "Harbor Seafood Super Buffet, 10030 N Metro Pkwy E, Phoenix, AZ 85051",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x872b6d3dd07f2603:0xcfa81201354ee5d7",
+            "iid": 10788,
+            "name": "Harbor Seafood Super Buffet",
+            "rank": 14,
+            "score": -2.878295660018921,
+            "state": "Arizona"
+        },
+        {
+            "address": "Teriyaki Madness, 1319 Golf Rd, Rolling Meadows, IL 60008",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fb13925c947c7:0x6a9766d272072e98",
+            "iid": 13839,
+            "name": "Teriyaki Madness",
+            "rank": 15,
+            "score": -2.8789780139923096,
+            "state": "Illinois"
+        },
+        {
+            "address": "Wei Wok Chinese bistro, 2743 S Market St #111 Gilbert, AZ 85295",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x872bad484e48fb3d:0x7fcbb9a306f4e639",
+            "iid": 10898,
+            "name": "Wei Wok Chinese bistro",
+            "rank": 16,
+            "score": -2.8799915313720703,
+            "state": "Arizona"
+        },
+        {
+            "address": "Rock n Roll Sushi, 1224 Main St, Little Rock, AR 72202",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar']",
+            "gmap_id": "0x87d2bb57289d22d7:0x5098274dd720b91",
+            "iid": 12468,
+            "name": "Rock n Roll Sushi",
+            "rank": 17,
+            "score": -2.8800504207611084,
+            "state": "Arkansas"
+        },
+        {
+            "address": "BAO, 590 Valencia St, San Francisco, CA 94110",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808f7faba4801927:0xa4ba379751b71c4f",
+            "iid": 3282,
+            "name": "BAO",
+            "rank": 18,
+            "score": -2.8803863525390625,
+            "state": "California"
+        },
+        {
+            "address": "The Pho Bar, 224 Berlin Turnpike, Berlin, CT 06037",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89e7b3af27439f03:0x5113515aa453db3",
+            "iid": 25469,
+            "name": "The Pho Bar",
+            "rank": 19,
+            "score": -2.8824117183685303,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Vietnamese Top Noodles, 501 1st St NW, Austin, MN 55912",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Lunch restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Noodle shop']",
+            "gmap_id": "0x87f0d1784ec9fc4d:0x27bf39738f9a21",
+            "iid": 12774,
+            "name": "Vietnamese Top Noodles",
+            "rank": 20,
+            "score": -2.882622003555298,
+            "state": "Minnesota"
+        }
+    ],
+    "user": {
+        "name": "Brian Reimer",
+        "uid": 60106,
+        "user_id": 105793732766155756796
+    }
+}

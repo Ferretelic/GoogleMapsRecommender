@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Chikara Japanese Yakiniku, 3590 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/09/02",
+            "gmap_id": "0x808fb5f660ec70db:0xa4444b9f783efd77",
+            "iid": 2233,
+            "name": "Chikara Japanese Yakiniku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1504315717044
+        },
+        {
+            "address": "Nijiya Market, 143 E El Camino Real, Mountain View, CA 94040",
+            "category": "['Japanese grocery store', 'Asian grocery store', 'Deli', 'Supermarket']",
+            "date": "2017/09/06",
+            "gmap_id": "0x808fb6d833fb8489:0xc662618588ae86b",
+            "iid": 2244,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1504666365416
+        },
+        {
+            "address": "Kappo Nami Nami, 240 Castro St, Mountain View, CA 94041",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/10/20",
+            "gmap_id": "0x808fb7346d0186b5:0x5adc861e7de67053",
+            "iid": 2257,
+            "name": "Kappo Nami Nami",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1508463187885
+        },
+        {
+            "address": "Yugen Ramen, 152 Castro St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/10/20",
+            "gmap_id": "0x808fb7343b2418bd:0x97552ea5316e3eb",
+            "iid": 2253,
+            "name": "Yugen Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1508463218698
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "date": "2018/01/15",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 2332,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516039925928
+        },
+        {
+            "address": "YAYOI Cupertino, 20682 Homestead Rd, Cupertino, CA 95014",
+            "category": "['Japanese restaurant']",
+            "date": "2018/01/16",
+            "gmap_id": "0x808fb5c979308bd1:0x112130aa892cc434",
+            "iid": 2229,
+            "name": "YAYOI Cupertino",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516062289358
+        },
+        {
+            "address": "Santouka, 675 Saratoga Avenue #103 Inside Mitsuwa Marketplace, San Jose, CA 95129",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/29",
+            "gmap_id": "0x808fca965bcdabdb:0x32878b1be42bfcb5",
+            "iid": 2331,
+            "name": "Santouka",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532907027937
+        },
+        {
+            "address": "Sumika, 236 Plaza Central, Los Altos, CA 94022",
+            "category": "['Japanese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x808fb0ee34ef8acd:0xdbe1a6e1d66e83f0",
+            "iid": 2189,
+            "name": "Sumika",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537650495770
+        },
+        {
+            "address": "Mitsuwa Marketplace - Costa Mesa, 665 Paularino Ave, Costa Mesa, CA 92626",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "date": "2019/06/17",
+            "gmap_id": "0x80dcdf18d4624d87:0xe5f53a926eebb3e1",
+            "iid": 4294,
+            "name": "Mitsuwa Marketplace - Costa Mesa",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1560742711197
+        },
+        {
+            "address": "Afuri Ramen + Dumpling, 20803 Steven's Creek Blvd, UNIT 110, Cupertino, CA 95014",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2019/12/29",
+            "gmap_id": "0x808fb5868f5af435:0x2397b1fa63c15a6c",
+            "iid": 2209,
+            "name": "Afuri Ramen + Dumpling",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1577584148713
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Afuri Ramen + Dumpling, 124 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb70644786a69:0x1a2b3f70b9da3776",
+            "iid": 2247,
+            "name": "Afuri Ramen + Dumpling",
+            "rank": 1,
+            "score": -1.7432724237442017,
+            "state": "California"
+        },
+        {
+            "address": "Barracuda Japanese Restaurant, 124 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb73425ef7fc7:0x3ab8de4dfe6d3b8",
+            "iid": 2251,
+            "name": "Barracuda Japanese Restaurant",
+            "rank": 2,
+            "score": -1.8382048606872559,
+            "state": "California"
+        },
+        {
+            "address": "Kobe Curry, 152 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese curry restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb7343c39af61:0x313e96c16b831f98",
+            "iid": 2254,
+            "name": "Kobe Curry",
+            "rank": 3,
+            "score": -1.841484785079956,
+            "state": "California"
+        },
+        {
+            "address": "Cho Cho San, 15 W 8th St, New York, NY 10011",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259972eb06293:0x621691c5f32b8d17",
+            "iid": 12288,
+            "name": "Cho Cho San",
+            "rank": 4,
+            "score": -1.8470598459243774,
+            "state": "New_York"
+        },
+        {
+            "address": "Shindokdo, 2690 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808fca14a9f408db:0x694968152ce35d9a",
+            "iid": 2324,
+            "name": "Shindokdo",
+            "rank": 5,
+            "score": -1.8780421018600464,
+            "state": "California"
+        },
+        {
+            "address": "Rantei Japanese Cuisine, 1271 Franklin Mall, Santa Clara, CA 95050",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fcbe4ecd2c325:0x1282199f5d43399b",
+            "iid": 2357,
+            "name": "Rantei Japanese Cuisine",
+            "rank": 6,
+            "score": -1.879766583442688,
+            "state": "California"
+        },
+        {
+            "address": "TESO LIFE, 19-23 Saint Marks Place, St Marks Pl, New York, NY 10003",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x89c259966d177405:0x38f26fb82d44c380",
+            "iid": 12284,
+            "name": "TESO LIFE",
+            "rank": 7,
+            "score": -1.8907655477523804,
+            "state": "New_York"
+        },
+        {
+            "address": "Homma's Brown Rice Sushi, 2363 Birch St, Palo Alto, CA 94306",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fbae5b054a32f:0x8c48e931f39c4035",
+            "iid": 2265,
+            "name": "Homma's Brown Rice Sushi",
+            "rank": 8,
+            "score": -1.9117145538330078,
+            "state": "California"
+        },
+        {
+            "address": "Ocean Blue Sushi Club, 1010 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x808fb5ef93ea2b97:0x18932c3c522d7c15",
+            "iid": 2230,
+            "name": "Ocean Blue Sushi Club",
+            "rank": 9,
+            "score": -1.9156519174575806,
+            "state": "California"
+        },
+        {
+            "address": "Ariake Express, 5190 Stevens Creek Blvd, San Jose, CA 95129",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb57e6fb67d37:0x2d2287d4a52a0cf4",
+            "iid": 2208,
+            "name": "Ariake Express",
+            "rank": 10,
+            "score": -1.921819806098938,
+            "state": "California"
+        },
+        {
+            "address": "New York, E 9th St, Sushi Kai\u90ae\u653f\u7f16\u7801: 10003",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c2596299cf66fb:0x1d9639b2840be58f",
+            "iid": 12207,
+            "name": "Sushi Kai",
+            "rank": 11,
+            "score": -1.928446888923645,
+            "state": "New_York"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 1942,
+            "name": "Tomokazu",
+            "rank": 12,
+            "score": -1.9380255937576294,
+            "state": "California"
+        },
+        {
+            "address": "Olleh Sushi & Tofu House, 595 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb670ed56c1e5:0x54d2a5e9dc0e5014",
+            "iid": 2242,
+            "name": "Olleh Sushi & Tofu House",
+            "rank": 13,
+            "score": -1.9449257850646973,
+            "state": "California"
+        },
+        {
+            "address": "KoJa Kitchen, 19700 Vallco Pkwy Suite 130, Cupertino, CA 95014",
+            "category": "['Korean restaurant', 'Fast food restaurant', 'Fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb59f247e7627:0x87d15034ac57cfb1",
+            "iid": 2217,
+            "name": "KoJa Kitchen",
+            "rank": 14,
+            "score": -1.9906566143035889,
+            "state": "California"
+        },
+        {
+            "address": "Temakase, 157 2nd Ave, New York, NY 10003",
+            "category": "['Japanese restaurant', 'Food and drink', 'Sushi restaurant']",
+            "gmap_id": "0x89c2599c4081116f:0x1fe31e89a8a9a7c8",
+            "iid": 12316,
+            "name": "Temakase",
+            "rank": 15,
+            "score": -1.9918184280395508,
+            "state": "New_York"
+        },
+        {
+            "address": "Aquihito, 359 W 39th St, New York, NY 10018",
+            "category": "['Restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x89c259499c127fb1:0xb5efcc95e479f131",
+            "iid": 12181,
+            "name": "Aquihito",
+            "rank": 16,
+            "score": -1.9991552829742432,
+            "state": "New_York"
+        },
+        {
+            "address": "Miyabi-tei, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fca9656e7ee93:0xc1152a22eaad0b83",
+            "iid": 2330,
+            "name": "Miyabi-tei",
+            "rank": 17,
+            "score": -1.9993613958358765,
+            "state": "California"
+        },
+        {
+            "address": "Gen Grill, 4143 Campus Dr, Irvine, CA 92612",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dcde0c57322dc9:0x638051b2fc92c274",
+            "iid": 4270,
+            "name": "Gen Grill",
+            "rank": 18,
+            "score": -2.0035386085510254,
+            "state": "California"
+        },
+        {
+            "address": "Midoh - Sawtelle, 2130 Sawtelle Blvd #200, Los Angeles, CA 90025",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bb35cfd4fb9d:0xac627da6aaabadc3",
+            "iid": 3055,
+            "name": "Midoh - Sawtelle",
+            "rank": 19,
+            "score": -2.016920328140259,
+            "state": "California"
+        },
+        {
+            "address": "Muracci's Japanese Curry & Grill, 244 State St, Los Altos, CA 94022",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb0ee3af17769:0xce2f70c9bcbce951",
+            "iid": 2190,
+            "name": "Muracci's Japanese Curry & Grill",
+            "rank": 20,
+            "score": -2.021221399307251,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Shuntaro Yamazaki",
+        "uid": 62695,
+        "user_id": 113567461207564718793
+    }
+}

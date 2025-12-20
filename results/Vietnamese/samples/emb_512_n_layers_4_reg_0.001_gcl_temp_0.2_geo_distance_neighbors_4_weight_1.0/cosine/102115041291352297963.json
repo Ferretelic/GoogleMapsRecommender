@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thien An Bo 7 Mon, 8837 Valley Blvd, Rosemead, CA 91770",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x80c2da8e33cf4e41:0x460e79a8232321be",
+            "iid": 1434,
+            "name": "Thien An Bo 7 Mon",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564660360065
+        },
+        {
+            "address": "Savoy Kitchen, 138 E Valley Blvd, Alhambra, CA 91801",
+            "category": "['Chinese restaurant', 'Vietnamese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x80c2c537cd44f0d1:0x5f30555f1aac2bb7",
+            "iid": 1361,
+            "name": "Savoy Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564660366773
+        },
+        {
+            "address": "My Canh, 626 Broadway, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x808580f38f022aab:0x9f19ed1d2c057d6f",
+            "iid": 739,
+            "name": "My Canh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564660490263
+        },
+        {
+            "address": "PH\u1ede H\u00c0 N\u1ed8I San Jose, 969 Story Rd #6048, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808e2d7e6e153ed9:0xdaf5915cd5ccf787",
+            "iid": 794,
+            "name": "PH\u1ede H\u00c0 N\u1ed8I San Jose",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573408390118
+        },
+        {
+            "address": "B\u00fan B\u00f2 Hu\u1ebf An Nam, 740 Story Rd #3, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808e332ac59a2b57:0x48b3e084b6cb02b3",
+            "iid": 839,
+            "name": "B\u00fan B\u00f2 Hu\u1ebf An Nam",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573408778546
+        },
+        {
+            "address": "C\u01a1m T\u1ea5m Thi\u00ean H\u01b0\u01a1ng, 1111 Story Rd #1086, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808fcd2aefb35ccd:0x5a00bdf1d69dc456",
+            "iid": 1101,
+            "name": "C\u01a1m T\u1ea5m Thi\u00ean H\u01b0\u01a1ng",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573408961230
+        },
+        {
+            "address": "Com Tam Thien Huong, 41 Serra Way #106, Milpitas, CA 95035",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808fc92a27d400d9:0x847075882a7530b7",
+            "iid": 1032,
+            "name": "Com Tam Thien Huong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573409249965
+        },
+        {
+            "address": "Hai Ky Mi Gia, 707 Ellis St, San Francisco, CA 94109",
+            "category": "['Chinese noodle restaurant', 'Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80858090d14a95cb:0x3c861511a4f66b96",
+            "iid": 720,
+            "name": "Hai Ky Mi Gia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573409821289
+        },
+        {
+            "address": "Le Soleil, 2419, 133 Clement St, San Francisco, CA 94118",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x8085873981bda673:0x6633ee39273e017",
+            "iid": 748,
+            "name": "Le Soleil",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1573409902926
+        },
+        {
+            "address": "999 Ph\u1edf, 2309 Kietzke Ln, Reno, NV 89502",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/11/29",
+            "gmap_id": "0x8099408269d50703:0xa48c12218cefefab",
+            "iid": 1201,
+            "name": "999 Ph\u1edf",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1606612544058
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Paloma Cafe, 1111 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Coffee shop', 'Snack bar', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808fcd2aefb35ccd:0xfd3cbe27b55f9200",
+            "iid": 1103,
+            "name": "Paloma Cafe",
+            "rank": 1,
+            "score": 0.5508962869644165,
+            "state": "California"
+        },
+        {
+            "address": "Oc Cay Dua, 1924 Aborn Rd, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32821ea8f74b:0x3b639849f6b69cf3",
+            "iid": 812,
+            "name": "Oc Cay Dua",
+            "rank": 2,
+            "score": 0.5247614979743958,
+            "state": "California"
+        },
+        {
+            "address": "HUE Restaurant, 3005 Silver Creek Rd Suite 190, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0xcbc7a1576a15deb3",
+            "iid": 807,
+            "name": "HUE Restaurant",
+            "rank": 3,
+            "score": 0.52176433801651,
+            "state": "California"
+        },
+        {
+            "address": "Banh Xeo Ngon, 3005 Silver Creek Rd STE 176, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0x79f2a4351e1d7156",
+            "iid": 806,
+            "name": "Banh Xeo Ngon",
+            "rank": 4,
+            "score": 0.5130980014801025,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Kitchen, 1111 Story Rd #1005, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808fcd2aefb35ccd:0xe963930b1a0d412c",
+            "iid": 1102,
+            "name": "Saigon Kitchen",
+            "rank": 5,
+            "score": 0.5066682696342468,
+            "state": "California"
+        },
+        {
+            "address": "Rong Bi\u1ec3n Restaurant, 1111 Story Rd Ste 1080, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd58da8d1c9:0x96458f5cccf21184",
+            "iid": 1085,
+            "name": "Rong Bi\u1ec3n Restaurant",
+            "rank": 6,
+            "score": 0.5008382797241211,
+            "state": "California"
+        },
+        {
+            "address": "C\u01a1m Ni\u00eau Lau Oc Lobster, 989 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd59dbc67cd:0xc87002b74bfe6134",
+            "iid": 1086,
+            "name": "C\u01a1m Ni\u00eau Lau Oc Lobster",
+            "rank": 7,
+            "score": 0.4931983947753906,
+            "state": "California"
+        },
+        {
+            "address": "Com Tam Thien Huong, 1759 E Capitol Expy, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e2d7e31b9b5c1:0xc9f1ed1a18e490c5",
+            "iid": 792,
+            "name": "Com Tam Thien Huong",
+            "rank": 8,
+            "score": 0.48926088213920593,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf G\u00e0 An Nam, 740 Story Rd #8, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Chicken shop']",
+            "gmap_id": "0x808e332acf9b3599:0x8e31bf484b9810cc",
+            "iid": 841,
+            "name": "Ph\u1edf G\u00e0 An Nam",
+            "rank": 9,
+            "score": 0.48362085223197937,
+            "state": "California"
+        },
+        {
+            "address": "Vit Dong Que, 1143 Story Rd #190, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fcd2af6d5568f:0x732c9d5e0b54dc08",
+            "iid": 1105,
+            "name": "Vit Dong Que",
+            "rank": 10,
+            "score": 0.4799230396747589,
+            "state": "California"
+        },
+        {
+            "address": "Tram Chim Restaurant, ste 8054, 989 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd5bdd84d83:0xa7b835a4264ec26e",
+            "iid": 1087,
+            "name": "Tram Chim Restaurant",
+            "rank": 11,
+            "score": 0.47478362917900085,
+            "state": "California"
+        },
+        {
+            "address": "Thi\u00ean Long Restaurant, 3005 Silver Creek Rd #138, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0xf35e0a4d860dddb2",
+            "iid": 810,
+            "name": "Thi\u00ean Long Restaurant",
+            "rank": 12,
+            "score": 0.4740462303161621,
+            "state": "California"
+        },
+        {
+            "address": "Nam Vang Restaurant, 2477 Alvin Ave, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808e329605bea527:0x1b6e1cecbd17f2d3",
+            "iid": 814,
+            "name": "Nam Vang Restaurant",
+            "rank": 13,
+            "score": 0.4730803668498993,
+            "state": "California"
+        },
+        {
+            "address": "Nha Trang Restaurant, 1820 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bd1c582b7b:0x9e82f253747f83c6",
+            "iid": 826,
+            "name": "Nha Trang Restaurant",
+            "rank": 14,
+            "score": 0.47091028094291687,
+            "state": "California"
+        },
+        {
+            "address": "C\u01a1m T\u1ea5m Thi\u00ean H\u01b0\u01a1ng, 909 Story Rd #100, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32cc5187a72d:0x36c665bea45a5539",
+            "iid": 830,
+            "name": "C\u01a1m T\u1ea5m Thi\u00ean H\u01b0\u01a1ng",
+            "rank": 15,
+            "score": 0.46755313873291016,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf G\u00e0 Nh\u00e0, 930 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fcd2aaea665c3:0xb7bf197c651cb5dd",
+            "iid": 1099,
+            "name": "Ph\u1edf G\u00e0 Nh\u00e0",
+            "rank": 16,
+            "score": 0.4603012204170227,
+            "state": "California"
+        },
+        {
+            "address": "C\u01a1m T\u1ea5m Thanh Restaurant, 1150 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fcd2ae31e3e6b:0x103eaf3872c1e0",
+            "iid": 1100,
+            "name": "C\u01a1m T\u1ea5m Thanh Restaurant",
+            "rank": 17,
+            "score": 0.456973671913147,
+            "state": "California"
+        },
+        {
+            "address": "Nam Thanh B\u00e1nh Canh 3 Mi\u1ec1n, 958 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fcd2aace808e3:0x2a0a32e0fa7e94fe",
+            "iid": 1098,
+            "name": "Nam Thanh B\u00e1nh Canh 3 Mi\u1ec1n",
+            "rank": 18,
+            "score": 0.4545004963874817,
+            "state": "California"
+        },
+        {
+            "address": "Banh Cuon Saigon, 979 Story Rd #7048, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fcd30b87dc16b:0x6c8e69f1ffbb9545",
+            "iid": 1107,
+            "name": "Banh Cuon Saigon",
+            "rank": 19,
+            "score": 0.4467815160751343,
+            "state": "California"
+        },
+        {
+            "address": "Pho 90 Degree, 999 Story Rd Unit #9090, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fcd2aa18a3113:0x872ab1c498439de8",
+            "iid": 1097,
+            "name": "Pho 90 Degree",
+            "rank": 20,
+            "score": 0.4462052285671234,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Minh Du",
+        "uid": 2035,
+        "user_id": 102115041291352297963
+    }
+}

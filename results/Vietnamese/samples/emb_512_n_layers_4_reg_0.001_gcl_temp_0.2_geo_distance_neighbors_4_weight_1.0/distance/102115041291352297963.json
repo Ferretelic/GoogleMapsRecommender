@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thien An Bo 7 Mon, 8837 Valley Blvd, Rosemead, CA 91770",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x80c2da8e33cf4e41:0x460e79a8232321be",
+            "iid": 1434,
+            "name": "Thien An Bo 7 Mon",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564660360065
+        },
+        {
+            "address": "Savoy Kitchen, 138 E Valley Blvd, Alhambra, CA 91801",
+            "category": "['Chinese restaurant', 'Vietnamese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x80c2c537cd44f0d1:0x5f30555f1aac2bb7",
+            "iid": 1361,
+            "name": "Savoy Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564660366773
+        },
+        {
+            "address": "My Canh, 626 Broadway, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/01",
+            "gmap_id": "0x808580f38f022aab:0x9f19ed1d2c057d6f",
+            "iid": 739,
+            "name": "My Canh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564660490263
+        },
+        {
+            "address": "PH\u1ede H\u00c0 N\u1ed8I San Jose, 969 Story Rd #6048, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808e2d7e6e153ed9:0xdaf5915cd5ccf787",
+            "iid": 794,
+            "name": "PH\u1ede H\u00c0 N\u1ed8I San Jose",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573408390118
+        },
+        {
+            "address": "B\u00fan B\u00f2 Hu\u1ebf An Nam, 740 Story Rd #3, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808e332ac59a2b57:0x48b3e084b6cb02b3",
+            "iid": 839,
+            "name": "B\u00fan B\u00f2 Hu\u1ebf An Nam",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573408778546
+        },
+        {
+            "address": "C\u01a1m T\u1ea5m Thi\u00ean H\u01b0\u01a1ng, 1111 Story Rd #1086, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808fcd2aefb35ccd:0x5a00bdf1d69dc456",
+            "iid": 1101,
+            "name": "C\u01a1m T\u1ea5m Thi\u00ean H\u01b0\u01a1ng",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573408961230
+        },
+        {
+            "address": "Com Tam Thien Huong, 41 Serra Way #106, Milpitas, CA 95035",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x808fc92a27d400d9:0x847075882a7530b7",
+            "iid": 1032,
+            "name": "Com Tam Thien Huong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573409249965
+        },
+        {
+            "address": "Hai Ky Mi Gia, 707 Ellis St, San Francisco, CA 94109",
+            "category": "['Chinese noodle restaurant', 'Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80858090d14a95cb:0x3c861511a4f66b96",
+            "iid": 720,
+            "name": "Hai Ky Mi Gia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573409821289
+        },
+        {
+            "address": "Le Soleil, 2419, 133 Clement St, San Francisco, CA 94118",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x8085873981bda673:0x6633ee39273e017",
+            "iid": 748,
+            "name": "Le Soleil",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1573409902926
+        },
+        {
+            "address": "999 Ph\u1edf, 2309 Kietzke Ln, Reno, NV 89502",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/11/29",
+            "gmap_id": "0x8099408269d50703:0xa48c12218cefefab",
+            "iid": 1201,
+            "name": "999 Ph\u1edf",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1606612544058
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bun Bo Hue An Nam 3, 3005 Silver Creek Rd #114, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e3281841327bb:0xf15b7d328129d36d",
+            "iid": 811,
+            "name": "Bun Bo Hue An Nam 3",
+            "rank": 1,
+            "score": -1.4554178714752197,
+            "state": "California"
+        },
+        {
+            "address": "Hai Nam Restaurant, 3005 Silver Creek Rd STE 172, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0xdabe45a639077575",
+            "iid": 808,
+            "name": "Hai Nam Restaurant",
+            "rank": 2,
+            "score": -1.6383581161499023,
+            "state": "California"
+        },
+        {
+            "address": "Thien Huong Restaurant, 41 Serra Way, Milpitas, CA 95035",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fc92a27c45307:0x9ec173a288276e76",
+            "iid": 1031,
+            "name": "Thien Huong Restaurant",
+            "rank": 3,
+            "score": -1.6505634784698486,
+            "state": "California"
+        },
+        {
+            "address": "Bo Ne Phu Yen, 1818 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bd4713d58d:0x86295fd74077cdc3",
+            "iid": 827,
+            "name": "Bo Ne Phu Yen",
+            "rank": 4,
+            "score": -1.663473129272461,
+            "state": "California"
+        },
+        {
+            "address": "Tram Chim Restaurant, ste 8054, 989 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd5bdd84d83:0xa7b835a4264ec26e",
+            "iid": 1087,
+            "name": "Tram Chim Restaurant",
+            "rank": 5,
+            "score": -1.6823039054870605,
+            "state": "California"
+        },
+        {
+            "address": "LuvCafe, 2444 Alvin Ave B, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e330a923a0f07:0x64d42011eba13408",
+            "iid": 838,
+            "name": "LuvCafe",
+            "rank": 6,
+            "score": -1.7298743724822998,
+            "state": "California"
+        },
+        {
+            "address": "La Vie, 5830 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8085870feb2e8d23:0xd22259fc5f5ba564",
+            "iid": 747,
+            "name": "La Vie",
+            "rank": 7,
+            "score": -1.7379791736602783,
+            "state": "California"
+        },
+        {
+            "address": "Pho Delicious, 1365 Stockton St, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808580f3c4eebfff:0xdb75cbaa43fbe366",
+            "iid": 740,
+            "name": "Pho Delicious",
+            "rank": 8,
+            "score": -1.743485450744629,
+            "state": "California"
+        },
+        {
+            "address": "Paloma Cafe, 1111 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Coffee shop', 'Snack bar', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808fcd2aefb35ccd:0xfd3cbe27b55f9200",
+            "iid": 1103,
+            "name": "Paloma Cafe",
+            "rank": 9,
+            "score": -1.743568778038025,
+            "state": "California"
+        },
+        {
+            "address": "B\u00ecnh Minh, 999 Story Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808fccd568c3d8a5:0x63ae8abc9ed5e053",
+            "iid": 1083,
+            "name": "B\u00ecnh Minh",
+            "rank": 10,
+            "score": -1.7475175857543945,
+            "state": "California"
+        },
+        {
+            "address": "An Chi, 5827 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085874e5d966d8b:0xb30182cbffe1b8c4",
+            "iid": 754,
+            "name": "An Chi",
+            "rank": 11,
+            "score": -1.7492812871932983,
+            "state": "California"
+        },
+        {
+            "address": "Thanh Thanh Cafe, 2205 Clement St, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant', 'American restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x808587057197e68f:0xa43c5fbaed2625f3",
+            "iid": 744,
+            "name": "Thanh Thanh Cafe",
+            "rank": 12,
+            "score": -1.7697902917861938,
+            "state": "California"
+        },
+        {
+            "address": "Chao Vit Thien-Huong, 1818 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e32bcf93e09b5:0x44e8d307d58f24ed",
+            "iid": 821,
+            "name": "Chao Vit Thien-Huong",
+            "rank": 13,
+            "score": -1.7721081972122192,
+            "state": "California"
+        },
+        {
+            "address": "Quan Hue Restaurant, 1818 Tully Rd # 116, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bcf93f7485:0x6145922bbf888c81",
+            "iid": 823,
+            "name": "Quan Hue Restaurant",
+            "rank": 14,
+            "score": -1.774987816810608,
+            "state": "California"
+        },
+        {
+            "address": "Bo Ne Restaurant - Sizzling Plate, 1615 McKee Rd, San Jose, CA 95116",
+            "category": "['Vietnamese restaurant', 'Karaoke', 'Lounge']",
+            "gmap_id": "0x808fcce4cb40c6ad:0xfe27e8d170465172",
+            "iid": 1088,
+            "name": "Bo Ne Restaurant - Sizzling Plate",
+            "rank": 15,
+            "score": -1.7918299436569214,
+            "state": "California"
+        },
+        {
+            "address": "Bo Ne By E.T, 10613 Bellaire Blvd a125, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd3117f1632f:0xa6f6f4ee432f119a",
+            "iid": 2447,
+            "name": "Bo Ne By E.T",
+            "rank": 16,
+            "score": -1.794245958328247,
+            "state": "Texas"
+        },
+        {
+            "address": "Saigon Pho, 6938 Wilcrest Dr STE A, Houston, TX 77072",
+            "category": "['Coffee shop', 'Cafe', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640dd48016c724b:0x3911d6d31c1c5a47",
+            "iid": 2478,
+            "name": "Saigon Pho",
+            "rank": 17,
+            "score": -1.794815182685852,
+            "state": "Texas"
+        },
+        {
+            "address": "Banh Beo ToLan, 2955 Senter Rd #55, San Jose, CA 95111",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e325f6e165df7:0xa3a561c64796c987",
+            "iid": 802,
+            "name": "Banh Beo ToLan",
+            "rank": 18,
+            "score": -1.797825813293457,
+            "state": "California"
+        },
+        {
+            "address": "BFresh Snacks & Drinks, 3005 Silver Creek Rd STE 174, San Jose, CA 95121",
+            "category": "['Bubble tea store', 'Chicken wings restaurant', 'Coffee shop', 'Health food restaurant', 'Snack bar', 'Vietnamese restaurant']",
+            "gmap_id": "0x808e328183a6c147:0x494cd8449387a1ec",
+            "iid": 805,
+            "name": "BFresh Snacks & Drinks",
+            "rank": 19,
+            "score": -1.7988030910491943,
+            "state": "California"
+        },
+        {
+            "address": "H\u01b0\u01a1ng Giang Food To Go, 14282 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27c40a4acecd:0x1d8bb7b6bcfc5a1",
+            "iid": 1941,
+            "name": "H\u01b0\u01a1ng Giang Food To Go",
+            "rank": 20,
+            "score": -1.799380898475647,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Minh Du",
+        "uid": 2035,
+        "user_id": 102115041291352297963
+    }
+}

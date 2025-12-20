@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2017/09/30",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1506730661031
+        },
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2017/09/30",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1506730661031
+        },
+        {
+            "address": "Saigon Bay Vietnamese Restaurant, 2373 E Fowler Ave, Tampa, FL 33612",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/12/25",
+            "gmap_id": "0x88c2c7078cad342d:0x968eb4f7b876c17e",
+            "iid": 3835,
+            "name": "Saigon Bay Vietnamese Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1514208251626
+        },
+        {
+            "address": "Bunker, 99 Scott Ave, Brooklyn, NY 11237",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/12/25",
+            "gmap_id": "0x89c25f86f67be46f:0xc8cffff79c532af7",
+            "iid": 4504,
+            "name": "Bunker",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1514208591640
+        },
+        {
+            "address": "Pho Quyen Vietnamese Restaurant, 4505 Park Blvd N #10, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/01/18",
+            "gmap_id": "0x88c2e56c06760313:0x48dc603ee16cabdf",
+            "iid": 3856,
+            "name": "Pho Quyen Vietnamese Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1516272112411
+        },
+        {
+            "address": "Simply Vietnamese, 1 Highwood Ave, Tenafly, NJ 07670",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x89c2f1be95f91bed:0xdbc1393906cc4a5a",
+            "iid": 4530,
+            "name": "Simply Vietnamese",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1545023612209
+        },
+        {
+            "address": "Pho Viet, 1202 W Brandon Blvd, Brandon, FL 33511",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x88c2ce78ac3784d9:0xa0b5294d893f0ab5",
+            "iid": 3837,
+            "name": "Pho Viet",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1545023915036
+        },
+        {
+            "address": "Binh Duong II, 1134 Liberty Ave, Hillside, NJ 07205",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/12/20",
+            "gmap_id": "0x89c3ad3f43e22bcf:0x9d19378c6b8de25d",
+            "iid": 4548,
+            "name": "Binh Duong II",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1545304913948
+        },
+        {
+            "address": "Pho\u00b4Edin, 355 Scotland St, Dunedin, FL 34698",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/05/06",
+            "gmap_id": "0x88c2f17b539e5c17:0xd43f02d3d3799ca1",
+            "iid": 3864,
+            "name": "Pho\u00b4Edin",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1557116171037
+        },
+        {
+            "address": "Saigon Cafe, 5118 Gall Blvd, Zephyrhills, FL 33542",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/02/28",
+            "gmap_id": "0x88dd4d0e43d6b8b3:0xc18f3dff0cc28344",
+            "iid": 3943,
+            "name": "Saigon Cafe",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1582915118976
+        },
+        {
+            "address": "Ha Long Bay Restaurant, 5944 34th St N, St. Petersburg, FL 33714",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "date": "2020/12/10",
+            "gmap_id": "0x88c2e47792e36929:0x3ddfeb9be2dc856a",
+            "iid": 3846,
+            "name": "Ha Long Bay Restaurant",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1607559006686
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 3858,
+            "name": "Thinh An Kitchen & Tofu",
+            "rank": 1,
+            "score": 3.875800848007202,
+            "state": "Florida"
+        },
+        {
+            "address": "Saigon Deli, 3858 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Deli', 'Restaurant']",
+            "gmap_id": "0x88c2c11349964eb9:0x138941c315dd1fc",
+            "iid": 3823,
+            "name": "Saigon Deli",
+            "rank": 2,
+            "score": 3.760892868041992,
+            "state": "Florida"
+        },
+        {
+            "address": "Ha Long Bay Restaurant, 5944 34th St N, St. Petersburg, FL 33714",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x88c2e47792e36929:0x3ddfeb9be2dc856a",
+            "iid": 3846,
+            "name": "Ha Long Bay Restaurant",
+            "rank": 3,
+            "score": 3.184826374053955,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Queen, 29000 US Hwy 19 N, Clearwater, FL 33761",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2f20b6a3b4151:0xd04d4d3ea824c613",
+            "iid": 3865,
+            "name": "Pho Queen",
+            "rank": 4,
+            "score": 3.1125504970550537,
+            "state": "Florida"
+        },
+        {
+            "address": "Simply Ph\u1edf, 13149 N Dale Mabry Hwy suite f, Tampa, FL 33618",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c0ebf99e45ed:0xedcb184b2f43be06",
+            "iid": 3821,
+            "name": "Simply Ph\u1edf",
+            "rank": 5,
+            "score": 2.9623665809631348,
+            "state": "Florida"
+        },
+        {
+            "address": "Song Huong, 4034 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c17339bf5c9b:0xf6e8877e20fbaa93",
+            "iid": 3828,
+            "name": "Song Huong",
+            "rank": 6,
+            "score": 2.8282322883605957,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Quyen Vietnamese Cuisine, 8404 W Hillsborough Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c16cc64f58ad:0x8c71b7075182f907",
+            "iid": 3826,
+            "name": "Pho Quyen Vietnamese Cuisine",
+            "rank": 7,
+            "score": 2.791297197341919,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Quyen, 2740 E Fowler Ave, Tampa, FL 33612",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c7a8898e6713:0x41b504faa7921127",
+            "iid": 3836,
+            "name": "Pho Quyen",
+            "rank": 8,
+            "score": 2.7718546390533447,
+            "state": "Florida"
+        },
+        {
+            "address": "5ive Spice Tacos & Banh Mi, 52 5th Ave, Brooklyn, NY 11217",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25bac204b817b:0xbf0d4ac2fddc7ade",
+            "iid": 4494,
+            "name": "5ive Spice Tacos & Banh Mi",
+            "rank": 9,
+            "score": 2.754648447036743,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Kien Giang, 8730 49th St N #1, Pinellas Park, FL 33782",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2e4f2f77952eb:0x8eac9845e410178b",
+            "iid": 3855,
+            "name": "Pho Kien Giang",
+            "rank": 10,
+            "score": 2.6368048191070557,
+            "state": "Florida"
+        },
+        {
+            "address": "The Spot Sushi Burritos Ha Long Bay, 10500 Ulmerton Rd #288, Largo, FL 33771",
+            "category": "['Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2fa5bc6ffe9a3:0x5f1c80ab8c0d69e9",
+            "iid": 3868,
+            "name": "The Spot Sushi Burritos Ha Long Bay",
+            "rank": 11,
+            "score": 2.549042224884033,
+            "state": "Florida"
+        },
+        {
+            "address": "Tasty Pho, 7430 49th St N, Pinellas Park, FL 33781, United States",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2e48fac5c3aed:0x7292487d61436ff4",
+            "iid": 3850,
+            "name": "Tasty Pho",
+            "rank": 12,
+            "score": 2.5094966888427734,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Nam Viet, 2549 Countryside Blvd #3, Clearwater, FL 33761",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2ee008bf02381:0xb9d65e5184b537d2",
+            "iid": 3860,
+            "name": "Pho Nam Viet",
+            "rank": 13,
+            "score": 2.5068886280059814,
+            "state": "Florida"
+        },
+        {
+            "address": "Green Mint Asian Grill, 25821 US Hwy 19 N, Clearwater, FL 33763",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2ee03fad4092d:0x2afb8b19cef2969c",
+            "iid": 3861,
+            "name": "Green Mint Asian Grill",
+            "rank": 14,
+            "score": 2.464664936065674,
+            "state": "Florida"
+        },
+        {
+            "address": "Vietnam's Central, 694 Central Park Ave, Scarsdale, NY 10583",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2936635a8d86d:0x2e892f6c4017f30f",
+            "iid": 4523,
+            "name": "Vietnam's Central",
+            "rank": 15,
+            "score": 2.4643149375915527,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Saigon, 10132 US-19, Port Richey, FL 34668",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c29a8fc01f72fd:0x981afb7f8832d1a5",
+            "iid": 3819,
+            "name": "Pho Saigon",
+            "rank": 16,
+            "score": 2.40596604347229,
+            "state": "Florida"
+        },
+        {
+            "address": "Saigon Market, 93 University Pl, New York, NY 10003",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25999b9c6eff9:0x4b98becb736928d8",
+            "iid": 4447,
+            "name": "Saigon Market",
+            "rank": 17,
+            "score": 2.3649754524230957,
+            "state": "New_York"
+        },
+        {
+            "address": "Saigon Bowl, 2129 Drew St, Clearwater, FL 33765",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2f132f3de4783:0xde2bfdb2298bcf8c",
+            "iid": 3863,
+            "name": "Saigon Bowl",
+            "rank": 18,
+            "score": 2.280034065246582,
+            "state": "Florida"
+        },
+        {
+            "address": "Bricolage, 162 5th Ave, Brooklyn, NY 11217",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25baa54979ebb:0x583dfc64acc3a12a",
+            "iid": 4493,
+            "name": "Bricolage",
+            "rank": 19,
+            "score": 2.238743543624878,
+            "state": "New_York"
+        },
+        {
+            "address": "Trang Viet Cuisine, 230 E Bearss Ave, Tampa, FL 33613",
+            "category": "['Vietnamese restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88c2c7053e279f4f:0x5639600981775d0a",
+            "iid": 3834,
+            "name": "Trang Viet Cuisine",
+            "rank": 20,
+            "score": 2.2198572158813477,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Changsoo Kim",
+        "uid": 2554,
+        "user_id": 102690923311205755337
+    }
+}

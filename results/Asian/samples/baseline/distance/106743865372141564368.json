@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Lee's Grocery, 917 Division St, Biloxi, MS 39530",
+            "category": "['Asian grocery store', 'ATM', 'Supermarket']",
+            "date": "2018/10/06",
+            "gmap_id": "0x889c0ef2083803c5:0xc8d1983cbcb18547",
+            "iid": 17194,
+            "name": "Lee's Grocery",
+            "split": "train",
+            "state": "Mississippi",
+            "unix_time": 1538837910990
+        },
+        {
+            "address": "Fuji San, 2000 Airport Blvd, Mobile, AL 36606",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Cafe', 'Coffee shop', 'Japanese restaurant']",
+            "date": "2018/11/19",
+            "gmap_id": "0x889a4e0b1ed42fb1:0x80d42b095a19621",
+            "iid": 17168,
+            "name": "Fuji San",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1542661059349
+        },
+        {
+            "address": "Hibachi Express, 3461 SpringHill Ave, Mobile, AL 36608",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/12/04",
+            "gmap_id": "0x889a527e84e86db5:0xbe5cf1181d176dd5",
+            "iid": 17170,
+            "name": "Hibachi Express",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1543955100630
+        },
+        {
+            "address": "Saigon Supermarket, 4258 Cottage Hill Rd, Mobile, AL 36609",
+            "category": "['Supermarket', 'Asian grocery store', 'Grocery store']",
+            "date": "2019/04/16",
+            "gmap_id": "0x889a4cd6dea43935:0xdc9aefcaa707f422",
+            "iid": 17159,
+            "name": "Saigon Supermarket",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1555389833746
+        },
+        {
+            "address": "Asian Garden, 2488 Hillcrest Rd, Mobile, AL 36695",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/07/28",
+            "gmap_id": "0x889bb3143863bb1f:0x458059d90e70e657",
+            "iid": 17174,
+            "name": "Asian Garden",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1564340648335
+        },
+        {
+            "address": "Saigon Oriental Market and Deli, 604 N Pace Blvd, Pensacola, FL 32505",
+            "category": "['Asian grocery store', 'Chinese restaurant', 'Deli', 'Lunch restaurant', 'Pho restaurant', 'Produce market', 'Sandwich shop', 'Vietnamese restaurant']",
+            "date": "2019/08/08",
+            "gmap_id": "0x8890bf47e9b37841:0x7fbbd7ba7af0ce16",
+            "iid": 17070,
+            "name": "Saigon Oriental Market and Deli",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1565283778199
+        },
+        {
+            "address": "P.F. Chang's, 3250 Joe Treadwell Dr, Mobile, AL 36606",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/02",
+            "gmap_id": "0x889a4da26586a9e1:0x4839737a38c762ff",
+            "iid": 17166,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1572655046090
+        },
+        {
+            "address": "ChockDee, 115 E Lindbergh Blvd, Universal City, TX 78148",
+            "category": "['Asian grocery store', 'Filipino restaurant']",
+            "date": "2021/03/26",
+            "gmap_id": "0x865c92b8c003c2c7:0x6735fc3ab7e95f03",
+            "iid": 9993,
+            "name": "ChockDee",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1616789497400
+        },
+        {
+            "address": "Manila Minimart, 8001 S Main St #300, Houston, TX 77025",
+            "category": "['Asian grocery store']",
+            "date": "2021/03/30",
+            "gmap_id": "0x8640c0162933dc19:0xeb07bb9533d8f9a1",
+            "iid": 8233,
+            "name": "Manila Minimart",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1617147173083
+        },
+        {
+            "address": "My Hoa Oriental Food Market, 454 Azalea Rd, Mobile, AL 36609",
+            "category": "['Asian grocery store']",
+            "date": "2021/04/24",
+            "gmap_id": "0x889a4d2304a8cc29:0x4fe6c2453f21cc9e",
+            "iid": 17162,
+            "name": "My Hoa Oriental Food Market",
+            "split": "test",
+            "state": "Alabama",
+            "unix_time": 1619295791790
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "The Pho King Spot, 3179 Mallett Rd Ste 23, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x889c0d852857f199:0x89fac3c3f75fa71c",
+            "iid": 17189,
+            "name": "The Pho King Spot",
+            "rank": 1,
+            "score": -2.015521287918091,
+            "state": "Mississippi"
+        },
+        {
+            "address": "New Ginger, 3733 Gulf Breeze Pkwy, Gulf Breeze, FL 32563",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8890c5a8a43b69a1:0xe0e136272bfe8951",
+            "iid": 17084,
+            "name": "New Ginger",
+            "rank": 2,
+            "score": -2.073676586151123,
+            "state": "Florida"
+        },
+        {
+            "address": "Roll & Go Sushi Asian Kitchen, 1410 US-98 Suite J, Daphne, AL 36526",
+            "category": "['Restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x889a41dea0e0b6e3:0xecf512cc6e8c941e",
+            "iid": 17154,
+            "name": "Roll & Go Sushi Asian Kitchen",
+            "rank": 3,
+            "score": -2.1568877696990967,
+            "state": "Alabama"
+        },
+        {
+            "address": "Panda Express, 865 Schillinger Rd S, Mobile, AL 36695",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x889bb3c3254f415b:0xc441d6ed88e72fe7",
+            "iid": 17175,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -2.1591243743896484,
+            "state": "Alabama"
+        },
+        {
+            "address": "Lao Ocean, 368 Gulf Breeze Pkwy, Gulf Breeze, FL 32561, United States",
+            "category": "['Southeast Asian restaurant', 'Laotian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8890c75cbc668017:0x53465442c9af6f99",
+            "iid": 17086,
+            "name": "Lao Ocean",
+            "rank": 5,
+            "score": -2.2115795612335205,
+            "state": "Florida"
+        },
+        {
+            "address": "Chef King - Authentic Chinese Cuisine, Chef King, 8187 W Fairfield Dr, Pensacola, FL 32506",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x8890bc1178078683:0xeb71ac562ca0339f",
+            "iid": 17066,
+            "name": "Chef King - Authentic Chinese Cuisine",
+            "rank": 6,
+            "score": -2.240342378616333,
+            "state": "Florida"
+        },
+        {
+            "address": "Shanghai Restaurant, Clear Pointe Plaza 2525, 5247, US-90, Gautier, MS 39553",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x889bf1c90e68180b:0xd7d5ee849da02f18",
+            "iid": 17182,
+            "name": "Shanghai Restaurant",
+            "rank": 7,
+            "score": -2.39473557472229,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Wild Ginger Chinese Restaurant, 6904 Main St, Gloucester, VA 23061",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89b09cf4005f6877:0x4addbdbf584c6fd8",
+            "iid": 20094,
+            "name": "Wild Ginger Chinese Restaurant",
+            "rank": 8,
+            "score": -2.4534413814544678,
+            "state": "Virginia"
+        },
+        {
+            "address": "Pin On Cafe, 1100 Central Ave N, St. Petersburg, FL 33705",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x88c2e3fccf52cb69:0x5c5e8223ff45ff1e",
+            "iid": 17378,
+            "name": "Pin On Cafe",
+            "rank": 9,
+            "score": -2.460563898086548,
+            "state": "Florida"
+        },
+        {
+            "address": "Poke Bowl Sushi Burrito & Boba, 28600 US-98, Daphne, AL 36526",
+            "category": "['Hawaiian restaurant', 'Takeout Restaurant', 'Restaurant', 'South Asian restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x889a439d81fcdc13:0xecf4861eb680cbfa",
+            "iid": 17155,
+            "name": "Poke Bowl Sushi Burrito & Boba",
+            "rank": 10,
+            "score": -2.4612362384796143,
+            "state": "Alabama"
+        },
+        {
+            "address": "Delicious Fusion, 50 N Dupont Hwy Unit 14 &15, Dover, DE 19901",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c765ff393a53a7:0xd9cf23e3e7d6c2ea",
+            "iid": 23823,
+            "name": "Delicious Fusion",
+            "rank": 11,
+            "score": -2.4619483947753906,
+            "state": "Delaware"
+        },
+        {
+            "address": "Din Tai Noodle, 1034 E Bastanchury Rd, Fullerton, CA 92835",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dcd57875a9ba93:0x2f865b28228cd1b5",
+            "iid": 6865,
+            "name": "Din Tai Noodle",
+            "rank": 12,
+            "score": -2.4626996517181396,
+            "state": "California"
+        },
+        {
+            "address": "Sakura Bistro, 641 S Broadway St, Forest City, NC 28043",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88573f78b7299df7:0xfc1dff9c7b17eae4",
+            "iid": 16042,
+            "name": "Sakura Bistro",
+            "rank": 13,
+            "score": -2.465366840362549,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "King of Thai Boat Noodles, 661 Ke\u2019eaumoku St Suite 103, Honolulu, HI 96814",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Hawaiian restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x7c006d511f0c8d7d:0x187309b6921aabf2",
+            "iid": 2263,
+            "name": "King of Thai Boat Noodles",
+            "rank": 14,
+            "score": -2.4668900966644287,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Ten Seconds Yunnan Rice Noodle, 2059 86th St, Brooklyn, NY 11214",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Noodle shop']",
+            "gmap_id": "0x89c2450ac476b7bb:0xedbdf3752fb81ea0",
+            "iid": 21421,
+            "name": "Ten Seconds Yunnan Rice Noodle",
+            "rank": 15,
+            "score": -2.467851161956787,
+            "state": "New_York"
+        },
+        {
+            "address": "86 Forks Bar + Table, 11b Palafox Pl, Pensacola, FL 32502",
+            "category": "['Asian fusion restaurant', 'Ramen restaurant', 'Tapas bar', 'Tapas restaurant']",
+            "gmap_id": "0x8890c14b41efadf3:0x78f96365d3b924c2",
+            "iid": 17083,
+            "name": "86 Forks Bar + Table",
+            "rank": 16,
+            "score": -2.4678940773010254,
+            "state": "Florida"
+        },
+        {
+            "address": "A Tasty Hot Pot \u98ce\u57ce\u4e00\u54c1\u706b\u9505, 4350 E New York St, Aurora, IL 60504",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Hot pot restaurant']",
+            "gmap_id": "0x880ef9ea52f084df:0x2708d0b3c992205c",
+            "iid": 13688,
+            "name": "A Tasty Hot Pot \u98ce\u57ce\u4e00\u54c1\u706b\u9505",
+            "rank": 17,
+            "score": -2.4694457054138184,
+            "state": "Illinois"
+        },
+        {
+            "address": "Toryumon Japanese House-Arlington, 1650 Wilson Blvd Suite 100B, Arlington, VA 22209",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b700d87c61fb:0x1eeabfc929866c9e",
+            "iid": 20737,
+            "name": "Toryumon Japanese House-Arlington",
+            "rank": 18,
+            "score": -2.4696755409240723,
+            "state": "Virginia"
+        },
+        {
+            "address": "YumYum Bento, 1017 E Grand River Rd, East Lansing, MI 48823",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8822e993833982f3:0x9d230eccc5dc2a5a",
+            "iid": 14466,
+            "name": "YumYum Bento",
+            "rank": 19,
+            "score": -2.470278739929199,
+            "state": "Michigan"
+        },
+        {
+            "address": "Panda Express, 1227 S Reed Rd, Kokomo, IN 46902",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8814851671b7b0d9:0xfd615d4cd06efe2",
+            "iid": 14235,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -2.470829725265503,
+            "state": "Indiana"
+        }
+    ],
+    "user": {
+        "name": "Ricky Peavy",
+        "uid": 69980,
+        "user_id": 106743865372141564368
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Clay Pot Restaurant, 416 Franklin Ave, Waco, TX 76701",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Rice restaurant']",
+            "date": "2017/11/10",
+            "gmap_id": "0x864f82486845b7b5:0x22029cd29e27a381",
+            "iid": 2813,
+            "name": "Clay Pot Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1510272926411
+        },
+        {
+            "address": "Pho 4 Star Vietnamese Restaurant Universal City, 2921 Pat Booker Rd, Universal City, TX 78148",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Box lunch supplier', 'Caterer', 'Chinese restaurant', 'Event venue', 'Pho restaurant', 'Restaurant', 'Self-catering accommodation', 'Thai restaurant']",
+            "date": "2017/11/12",
+            "gmap_id": "0x865c8d6ef241640f:0x1c67b2218f71aa10",
+            "iid": 2873,
+            "name": "Pho 4 Star Vietnamese Restaurant Universal City",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1510510582613
+        },
+        {
+            "address": "Pho Saigon, 2808 Milam St D, Houston, TX 77006",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2018/06/21",
+            "gmap_id": "0x8640bf6bc28dc9cd:0x23537d94d01c65ce",
+            "iid": 2276,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1529546011914
+        },
+        {
+            "address": "Le Colonial, 4444 Westheimer Rd, Houston, TX 77027",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/07/30",
+            "gmap_id": "0x8640c11469f7f0bf:0xc08704bdc31c967b",
+            "iid": 2293,
+            "name": "Le Colonial",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1532958444535
+        },
+        {
+            "address": "Ph\u1edf Linh Vietnamese Grill, 9100 Central Ave SE, Albuquerque, NM 87123",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/02/06",
+            "gmap_id": "0x87220b1b447c2669:0xfaf1db3c695da2c6",
+            "iid": 2971,
+            "name": "Ph\u1edf Linh Vietnamese Grill",
+            "split": "train",
+            "state": "New_Mexico",
+            "unix_time": 1549473154479
+        },
+        {
+            "address": "Pho House Vietnamese Cuisine, 10424 I-10 #450, Baytown, TX 77523",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/02/06",
+            "gmap_id": "0x863f5b33f408d433:0x389c8275c5f19713",
+            "iid": 2199,
+            "name": "Pho House Vietnamese Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1549473308211
+        },
+        {
+            "address": "Yummy Pho & Bo Ne, 23119 Colonial Pkwy #A11, Katy, TX 77449, United States",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/02/23",
+            "gmap_id": "0x864126fda07e95f7:0x788c18f902b6bcf4",
+            "iid": 2529,
+            "name": "Yummy Pho & Bo Ne",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1550947932105
+        },
+        {
+            "address": "Lotus Cafe, 8077 Georgia Ave, Silver Spring, MD 20910",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x89b7c8bdede24c83:0x9c84b08b3814cde1",
+            "iid": 4323,
+            "name": "Lotus Cafe",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1563166611013
+        },
+        {
+            "address": "Pho Bac, 700 S Potomac St, Baltimore, MD 21224",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/11/11",
+            "gmap_id": "0x89c806f3320fdce3:0xaecef6612beb8876",
+            "iid": 4656,
+            "name": "Pho Bac",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1573455919688
+        },
+        {
+            "address": "PHO NUCUOI SAIGON, 2890 Dale Blvd, Woodbridge, VA 22193",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/01/14",
+            "gmap_id": "0x89b6561d7a5f828b:0xca976b8dd66a2c27",
+            "iid": 4235,
+            "name": "PHO NUCUOI SAIGON",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1579044032213
+        },
+        {
+            "address": "Viet Chopsticks, 14532 Potomac Mills Rd, Woodbridge, VA 22192",
+            "category": "['Vietnamese restaurant']",
+            "date": "2021/05/13",
+            "gmap_id": "0x89b656055815e651:0xe1082c4a7dab7889",
+            "iid": 4234,
+            "name": "Viet Chopsticks",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1620947104957
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Mama Fu's Asian House, 1230 N Valley Mills Dr #100, Waco, TX 76710",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x864f840fc3ff31ef:0xb7c97a2ac19af942",
+            "iid": 2814,
+            "name": "Mama Fu's Asian House",
+            "rank": 1,
+            "score": 0.46269237995147705,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho 4 U, 480 Farm to Market 2410, Harker Heights, TX 76548",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Frozen yogurt shop', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x864549b09ee6e12d:0x4f2ed0d112982c56",
+            "iid": 2599,
+            "name": "Pho 4 U",
+            "rank": 2,
+            "score": 0.42017531394958496,
+            "state": "Texas"
+        },
+        {
+            "address": "The Red Boat Asian Fusion, 3 N Eutaw St, Baltimore, MD 21201",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c804a061155817:0xec87e993bee9c5e3",
+            "iid": 4655,
+            "name": "The Red Boat Asian Fusion",
+            "rank": 3,
+            "score": 0.4079494774341583,
+            "state": "Maryland"
+        },
+        {
+            "address": "Pho 7 Temple, 221 SW H K Dodgen Loop, Temple, TX 76502",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x86456b5c09d15bab:0x969fdc5c9e18200c",
+            "iid": 2603,
+            "name": "Pho 7 Temple",
+            "rank": 4,
+            "score": 0.4005207419395447,
+            "state": "Texas"
+        },
+        {
+            "address": "Saigon Today, 700 S Potomac St, Baltimore, MD 21224",
+            "category": "['Vietnamese restaurant', 'Bar', 'Pho restaurant']",
+            "gmap_id": "0x89c80475715f86a9:0x68af43dc117f9bc5",
+            "iid": 4652,
+            "name": "Saigon Today",
+            "rank": 5,
+            "score": 0.3976280391216278,
+            "state": "Maryland"
+        },
+        {
+            "address": "Vietnamese Noodles Pho-Saigon, 710 W Rancier Ave, Killeen, TX 76541",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86454c7bd8c743d3:0xf07ccd7e3894bba2",
+            "iid": 2602,
+            "name": "Vietnamese Noodles Pho-Saigon",
+            "rank": 6,
+            "score": 0.396286278963089,
+            "state": "Texas"
+        },
+        {
+            "address": "Chau's Cafe, 814 S Fort Hood St, Killeen, TX 76541",
+            "category": "['Cafe', 'Vietnamese restaurant']",
+            "gmap_id": "0x86454b79132e3dcb:0xfb48d32a14f4ea7f",
+            "iid": 2600,
+            "name": "Chau's Cafe",
+            "rank": 7,
+            "score": 0.3900577425956726,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Thanh Cong, 9613 Harford Rd #200, Parkville, MD 21234",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c808e13df41e25:0x6b907e896f51617b",
+            "iid": 4657,
+            "name": "Pho Thanh Cong",
+            "rank": 8,
+            "score": 0.38986119627952576,
+            "state": "Maryland"
+        },
+        {
+            "address": "A Dong Restaurant, 8311 Agora Pkwy, Selma, TX 78154",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c8d7677310597:0x5865f9e6a35f7b85",
+            "iid": 2874,
+            "name": "A Dong Restaurant",
+            "rank": 9,
+            "score": 0.38960427045822144,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho NB, 1050 I-35 N #100, New Braunfels, TX 78130",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Soup restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865cbd1c20af7293:0xcee7972575a7f7a9",
+            "iid": 2878,
+            "name": "Pho NB",
+            "rank": 10,
+            "score": 0.3887341022491455,
+            "state": "Texas"
+        },
+        {
+            "address": "Aw Dang Asian Cuisine, 17323 I-35, Schertz, TX 78154",
+            "category": "['Asian restaurant', 'Banquet hall', 'Chinese restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865c92696703867d:0xdd1e0c73a151029b",
+            "iid": 2875,
+            "name": "Aw Dang Asian Cuisine",
+            "rank": 11,
+            "score": 0.3854142427444458,
+            "state": "Texas"
+        },
+        {
+            "address": "Indochine Vietnamese Restaurant, 1015 N Charles St, Baltimore, MD 21201",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Indonesian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c8049659225ea7:0xa785b0df8038034f",
+            "iid": 4653,
+            "name": "Indochine Vietnamese Restaurant",
+            "rank": 12,
+            "score": 0.38448086380958557,
+            "state": "Maryland"
+        },
+        {
+            "address": "Mekong Delta Caf\u00e9, 222 N Charles St, Baltimore, MD 21201",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c8049f228a9233:0xdf17cc08b7f29c75",
+            "iid": 4654,
+            "name": "Mekong Delta Caf\u00e9",
+            "rank": 13,
+            "score": 0.38402998447418213,
+            "state": "Maryland"
+        },
+        {
+            "address": "Pho 7 Rich, 4136 E Joppa Rd, Nottingham, MD 21236",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c809b5cea7b28f:0xb16b86fb9d53c7b7",
+            "iid": 4658,
+            "name": "Pho 7 Rich",
+            "rank": 14,
+            "score": 0.3834340274333954,
+            "state": "Maryland"
+        },
+        {
+            "address": "Saigon Bistro, 1449 E Court St, Seguin, TX 78155",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x865cb77c693ce44d:0xab49a48bb7cb79dc",
+            "iid": 2877,
+            "name": "Saigon Bistro",
+            "rank": 15,
+            "score": 0.37015196681022644,
+            "state": "Texas"
+        },
+        {
+            "address": "Ph\u1edf Bistro, 900 Pat Booker Rd B, Universal City, TX 78148",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x865c92bc33b4e5cd:0x9f509b9f9e0d932d",
+            "iid": 2876,
+            "name": "Ph\u1edf Bistro",
+            "rank": 16,
+            "score": 0.3695515990257263,
+            "state": "Texas"
+        },
+        {
+            "address": "Breaktime Tea Lounge & B\u00e1nh M\u00ec, 1215 Grand West Blvd Building C, Unit, # C5, Katy, TX 77449",
+            "category": "['Coffee shop', 'Bubble tea store', 'Sandwich shop', 'Tea house', 'Vietnamese restaurant']",
+            "gmap_id": "0x864127bdfdf722dd:0x10b6399db4a2f33",
+            "iid": 2538,
+            "name": "Breaktime Tea Lounge & B\u00e1nh M\u00ec",
+            "rank": 17,
+            "score": 0.3650510609149933,
+            "state": "Texas"
+        },
+        {
+            "address": "LA Crawfish, 4609 Garth Rd Suite A, Baytown, TX 77521",
+            "category": "['Cajun restaurant', 'Pho restaurant', 'Seafood restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x863f5ea7bed9f35b:0x8c9f276e1a0285e1",
+            "iid": 2200,
+            "name": "LA Crawfish",
+            "rank": 18,
+            "score": 0.36006540060043335,
+            "state": "Texas"
+        },
+        {
+            "address": "Beijing House Restaurant, 11403 O'Connor Rd Ste-101, San Antonio, TX 78233",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Southeast Asian restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x865c8cc3c68144fd:0x8683c0dfd73213fe",
+            "iid": 2872,
+            "name": "Beijing House Restaurant",
+            "rank": 19,
+            "score": 0.3582090139389038,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Dat Thanh, 510 York Rd, Towson, MD 21204",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bar & grill', 'Pho restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c80faf21940ea3:0x9e81c2c1063658b7",
+            "iid": 4659,
+            "name": "Pho Dat Thanh",
+            "rank": 20,
+            "score": 0.34694984555244446,
+            "state": "Maryland"
+        }
+    ],
+    "user": {
+        "name": "Dennis Jenkins",
+        "uid": 11044,
+        "user_id": 111661689006557708832
+    }
+}

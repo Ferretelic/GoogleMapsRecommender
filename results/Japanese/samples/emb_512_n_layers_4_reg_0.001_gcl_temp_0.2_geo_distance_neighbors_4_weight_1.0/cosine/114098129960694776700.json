@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi AOI, 1100 New York Ave NW, Washington, DC 20005",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/10/25",
+            "gmap_id": "0x89b7b793f809e891:0x72a79f8e2f967465",
+            "iid": 11472,
+            "name": "Sushi AOI",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1508946171089
+        },
+        {
+            "address": "Hide-chan Ramen, 314 W 53rd St, New York, NY 10019",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/12/09",
+            "gmap_id": "0x89c25857994b29bf:0x79989a3d371b2c14",
+            "iid": 11992,
+            "name": "Hide-chan Ramen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1512791819370
+        },
+        {
+            "address": "Kappo Masa, 976 Madison Ave, New York, NY 10075",
+            "category": "['Japanese restaurant']",
+            "date": "2017/12/12",
+            "gmap_id": "0x89c258945f3b0df7:0x2ef478064025eae5",
+            "iid": 12016,
+            "name": "Kappo Masa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1513089993105
+        },
+        {
+            "address": "Gyu-Kaku, 805 3rd Ave #2, New York, NY 10022",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Barbecue restaurant', 'Diner', 'Restaurant']",
+            "date": "2018/02/13",
+            "gmap_id": "0x89c258e2d38d39b3:0xf65fbab30dc2e593",
+            "iid": 12045,
+            "name": "Gyu-Kaku",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1518547063461
+        },
+        {
+            "address": "KOME Japanese Cuisine, 2880 Center Valley Pkwy #600, Center Valley, PA 18034",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/02/24",
+            "gmap_id": "0x89c43c5d9904df57:0x94ac87b03f7d2e92",
+            "iid": 13353,
+            "name": "KOME Japanese Cuisine",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1519496722988
+        },
+        {
+            "address": "Ichiban, 1914 Catasauqua Rd, Allentown, PA 18109",
+            "category": "['Japanese steakhouse', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/06/12",
+            "gmap_id": "0x89c43f2c5c27bb41:0x46261570d886b915",
+            "iid": 13355,
+            "name": "Ichiban",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1528803799931
+        },
+        {
+            "address": "Kuro, Kuro, 1000, Boardwalk, Atlantic City, NJ 08401",
+            "category": "['Japanese restaurant']",
+            "date": "2018/07/23",
+            "gmap_id": "0x89c0efc15473b119:0x7859e2dd9b83459e",
+            "iid": 11740,
+            "name": "Kuro",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1532362888190
+        },
+        {
+            "address": "Kodama Sushi, 301 W 45th St, New York, NY 10036",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/07/30",
+            "gmap_id": "0x89c25854716ade25:0x38b290781439f3f6",
+            "iid": 11975,
+            "name": "Kodama Sushi",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1532967752862
+        },
+        {
+            "address": "Ginza, 91 Saratoga Dr, Charles Town, WV 25414",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2018/10/24",
+            "gmap_id": "0x89b601792a5fa123:0x2599cfed449ee228",
+            "iid": 11246,
+            "name": "Ginza",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1540384421554
+        },
+        {
+            "address": "Double Knot, 120 S 13th St, Philadelphia, PA 19107",
+            "category": "['Japanese restaurant', 'Cafe', 'Coffee shop', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/01/05",
+            "gmap_id": "0x89c6c62f661ed505:0x9ea4d8a13314e1da",
+            "iid": 13505,
+            "name": "Double Knot",
+            "split": "valid",
+            "state": "Pennsylvania",
+            "unix_time": 1546710689548
+        },
+        {
+            "address": "Tono Sushi Restaurant, 2605 Connecticut Ave NW, Washington, DC 20008",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Authentic Japanese restaurant']",
+            "date": "2019/07/24",
+            "gmap_id": "0x89b7b7d40539c7c3:0xa41e1b5040900f1e",
+            "iid": 11483,
+            "name": "Tono Sushi Restaurant",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1563930451423
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Rakkii Ramen, 328 S New St, Bethlehem, PA 18015",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c43f3f726049d5:0xf80f14e002342f7d",
+            "iid": 13356,
+            "name": "Rakkii Ramen",
+            "rank": 1,
+            "score": 0.6607570052146912,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "The Other Fish, 59 E Broad St, Bethlehem, PA 18018",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c43e520f56568b:0x5ddcb392860345a0",
+            "iid": 13354,
+            "name": "The Other Fish",
+            "rank": 2,
+            "score": 0.6190076470375061,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tokyo Do Japanese Restaurant, 2342 Easton Ave, Bethlehem, PA 18017",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c43fdd6b0fcb1b:0xe1e577e0b40a0a13",
+            "iid": 13357,
+            "name": "Tokyo Do Japanese Restaurant",
+            "rank": 3,
+            "score": 0.6074879765510559,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "One Third, 3022 Linden St #1, Bethlehem, PA 18017",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c43ff0e397cf1d:0xaa468fb140bd7ed4",
+            "iid": 13358,
+            "name": "One Third",
+            "rank": 4,
+            "score": 0.6046074032783508,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "CJT Asian Cuisine, 4402 Birkland Pl, Easton, PA 18045",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c46b2d1991503f:0xa6dc31b475ecee95",
+            "iid": 13359,
+            "name": "CJT Asian Cuisine",
+            "rank": 5,
+            "score": 0.5851302742958069,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Yuki Hana Restaurant, 3628 Brigantine Blvd #1026, Brigantine, NJ 08203",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c0f016ffd8df17:0x17b7ceb62f40d781",
+            "iid": 11741,
+            "name": "Yuki Hana Restaurant",
+            "rank": 6,
+            "score": 0.5682511925697327,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Asia Restaurant, 1102 E Susquehanna St, Allentown, PA 18103",
+            "category": "['Asian restaurant', 'Caterer', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c43c01bf035edd:0x66c16e408df129ec",
+            "iid": 13352,
+            "name": "Asia Restaurant",
+            "rank": 7,
+            "score": 0.5499548316001892,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Yellowtail Asian Fusion, 85 S West End Blvd, Quakertown, PA 18951",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c42213b1334673:0xd6c47abd15f09958",
+            "iid": 13347,
+            "name": "Yellowtail Asian Fusion",
+            "rank": 8,
+            "score": 0.5294503569602966,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "A1 Japanese Steak House, 3300 Lehigh St, Allentown, PA 18103",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c43afa215074af:0x2d55a4a50735fcd3",
+            "iid": 13350,
+            "name": "A1 Japanese Steak House",
+            "rank": 9,
+            "score": 0.5260462164878845,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Noodles of the World, Borgata Hotel, Casino & Spa, 1 Borgata Way, Atlantic City, NJ 08401",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c0efb4a9a4d915:0x7c788a2b7e2e78ce",
+            "iid": 11738,
+            "name": "Noodles of the World",
+            "rank": 10,
+            "score": 0.5165727734565735,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Jasmine Japanese and Thai restaurant, 1855 Sullivan Trail, Easton, PA 18040, United States",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c46c2318af865b:0xa0274692368f513e",
+            "iid": 13360,
+            "name": "Jasmine Japanese and Thai restaurant",
+            "rank": 11,
+            "score": 0.5155702233314514,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Izakaya, 1 Borgata Way, Atlantic City, NJ 08401",
+            "category": "['Japanese restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x89c0ee4cafdc1f67:0x7b9f8bd020d5a575",
+            "iid": 11735,
+            "name": "Izakaya",
+            "rank": 12,
+            "score": 0.5094454288482666,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Koja Cuisine Korean BBQ and Sushi, 1061 S 25th St, Easton, PA 18045",
+            "category": "['Korean barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c46c9d94c0cfe7:0x28a0ecf91e31ff08",
+            "iid": 13362,
+            "name": "Koja Cuisine Korean BBQ and Sushi",
+            "rank": 13,
+            "score": 0.49721330404281616,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Oshi Modern Asian Kitchen, 777 Harrah's Blvd, Atlantic City, NJ 08401",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c0efb7d36c4031:0xcbce6913496ddb31",
+            "iid": 11739,
+            "name": "Oshi Modern Asian Kitchen",
+            "rank": 14,
+            "score": 0.4862591028213501,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Lily Sushi Grill, 1908 Walbert Ave, Allentown, PA 18104",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c439ece2d3ed01:0x313effb80b3e1bf9",
+            "iid": 13349,
+            "name": "Lily Sushi Grill",
+            "rank": 15,
+            "score": 0.472538024187088,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sogo, 237 Northampton St, Easton, PA 18042",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c46c51742eb973:0xf030b47faceef2f7",
+            "iid": 13361,
+            "name": "Sogo",
+            "rank": 16,
+            "score": 0.46976128220558167,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Poke Kai, 3337 Hamilton Blvd, Allentown, PA 18103",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bubble tea store', 'Hawaiian restaurant', 'Ice cream shop', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c43b66d938a72f:0x6b3c1e95a368a8d3",
+            "iid": 13351,
+            "name": "Poke Kai",
+            "rank": 17,
+            "score": 0.4570765197277069,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Souzai Sushi & Sake, Atlantic City, NJ 08401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c0ee6be95a33ff:0x91c36b24ed452cb0",
+            "iid": 11736,
+            "name": "Souzai Sushi & Sake",
+            "rank": 18,
+            "score": 0.4487949311733246,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Makoto Japanese Restaurant, 596 Elder Ave, Phillipsburg, NJ 08865",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c46dbec7989bbf:0x1b31610b857b5425",
+            "iid": 13364,
+            "name": "Makoto Japanese Restaurant",
+            "rank": 19,
+            "score": 0.44543173909187317,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Oishi Japan, 4624 Broadway # A, Allentown, PA 18104",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c430e927046ae3:0x6c95fea802636b08",
+            "iid": 13348,
+            "name": "Oishi Japan",
+            "rank": 20,
+            "score": 0.4393579363822937,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Glenn Harshman",
+        "uid": 65110,
+        "user_id": 114098129960694776700
+    }
+}

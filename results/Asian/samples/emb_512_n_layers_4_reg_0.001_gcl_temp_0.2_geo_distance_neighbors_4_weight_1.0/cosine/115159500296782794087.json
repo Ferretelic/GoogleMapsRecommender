@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sabaku Sushi, 90 E Center St, Moab, UT 84532",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/03/02",
+            "gmap_id": "0x8747e1ec6e984545:0x8608e2b444afe3e8",
+            "iid": 10994,
+            "name": "Sabaku Sushi",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1488493195730
+        },
+        {
+            "address": "Sushi Sake Key Largo, 103400 Overseas Hwy, Key Largo, FL 33037",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Family restaurant', 'Japanese restaurant']",
+            "date": "2018/06/11",
+            "gmap_id": "0x88d768f35d4343ef:0xd95eeaa989dab3be",
+            "iid": 17517,
+            "name": "Sushi Sake Key Largo",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1528675932092
+        },
+        {
+            "address": "Shalala, 698 W Dana St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/09",
+            "gmap_id": "0x808fb733e3895c73:0x5fbeb3ae533abf45",
+            "iid": 3633,
+            "name": "Shalala",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1533841654717
+        },
+        {
+            "address": "Little Hot Pot, 43829 Boscell Rd, Fremont, CA 94538",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/08/09",
+            "gmap_id": "0x808fc76cf51f3a09:0xcfae957756b9a421",
+            "iid": 3737,
+            "name": "Little Hot Pot",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1533841675256
+        },
+        {
+            "address": "Hong Kong Lounge, 5322 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Dim sum restaurant', 'Asian restaurant', 'Chinese restaurant', 'Family restaurant', 'Lounge']",
+            "date": "2018/08/26",
+            "gmap_id": "0x808587111e3aa9cb:0xecbf001743316ae6",
+            "iid": 2885,
+            "name": "Hong Kong Lounge",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535262674093
+        },
+        {
+            "address": "99 Ranch Market, Milpitas Square, 338 Barber Ln, Milpitas, CA 95035",
+            "category": "['Supermarket', 'Asian grocery store']",
+            "date": "2019/09/28",
+            "gmap_id": "0x808fc926c9d3a907:0x8a2619fefadc99c4",
+            "iid": 3758,
+            "name": "99 Ranch Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569709398929
+        },
+        {
+            "address": "Fashion Wok, 163 S Murphy Ave, Sunnyvale, CA 94086",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant']",
+            "date": "2019/12/16",
+            "gmap_id": "0x808fb7cc70687985:0xb1028b574647cfda",
+            "iid": 3650,
+            "name": "Fashion Wok",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576489468669
+        },
+        {
+            "address": "99 Ranch Market, 10983 N Wolfe Rd, Cupertino, CA 95014",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2020/12/17",
+            "gmap_id": "0x808fb5961445064d:0xfc9d933b56fbee90",
+            "iid": 3570,
+            "name": "99 Ranch Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1608174078430
+        },
+        {
+            "address": "99 Ranch Market, 35219 Newark Blvd, Newark, CA 94560",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2020/12/17",
+            "gmap_id": "0x808fbe50e01813cd:0xd7d2ad16a931c83e",
+            "iid": 3686,
+            "name": "99 Ranch Market",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1608174085324
+        },
+        {
+            "address": "99 Ranch Market, 1350 Grant Rd, Mountain View, CA 94040",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2021/02/01",
+            "gmap_id": "0x808fb6d7ad502541:0x6c3f4950294c5e49",
+            "iid": 3616,
+            "name": "99 Ranch Market",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1612147147791
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Boiling Point, 19600 Vallco Pkwy, Cupertino, CA 95014",
+            "category": "['Hot pot restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Soup restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808fb54b02e916ef:0xc9f7e69b4ba5140b",
+            "iid": 3557,
+            "name": "Boiling Point",
+            "rank": 1,
+            "score": 0.5434749126434326,
+            "state": "California"
+        },
+        {
+            "address": "Shanghai Garden, 20956 Homestead Rd, Cupertino, CA 95014",
+            "category": "['Shanghainese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb4348e0f8029:0xda414dc5ff606d",
+            "iid": 3543,
+            "name": "Shanghai Garden",
+            "rank": 2,
+            "score": 0.519696831703186,
+            "state": "California"
+        },
+        {
+            "address": "Quickly, 10887 N Wolfe Rd, Cupertino, CA 95014",
+            "category": "['Bubble tea store', 'Asian fusion restaurant', 'Cafe']",
+            "gmap_id": "0x808fb5961590e201:0xc958da05fd7640c2",
+            "iid": 3572,
+            "name": "Quickly",
+            "rank": 3,
+            "score": 0.5160734057426453,
+            "state": "California"
+        },
+        {
+            "address": "Tong Dumpling, 10869 N Wolfe Rd, Cupertino, CA 95014",
+            "category": "['Dumpling restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb596158f29a5:0x914efd5e44ef3cb4",
+            "iid": 3571,
+            "name": "Tong Dumpling",
+            "rank": 4,
+            "score": 0.5086550712585449,
+            "state": "California"
+        },
+        {
+            "address": "Ocha Tea Cafe & Restaurant, 1350 Grant Rd #8, Mountain View, CA 94040",
+            "category": "['Cafe', 'Asian fusion restaurant', 'Restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808fb6d7ad502541:0xd3d119847712cb7d",
+            "iid": 3617,
+            "name": "Ocha Tea Cafe & Restaurant",
+            "rank": 5,
+            "score": 0.49263453483581543,
+            "state": "California"
+        },
+        {
+            "address": "99 Ranch Market, 1350 Grant Rd, Mountain View, CA 94040",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808fb6d7ad502541:0x6c3f4950294c5e49",
+            "iid": 3616,
+            "name": "99 Ranch Market",
+            "rank": 6,
+            "score": 0.4619235694408417,
+            "state": "California"
+        },
+        {
+            "address": "Food Talk Cafe, 43755 Boscell Rd, Fremont, CA 94538",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808fc76c63ea6cbf:0x22592d440e0e1a6c",
+            "iid": 3734,
+            "name": "Food Talk Cafe",
+            "rank": 7,
+            "score": 0.45940548181533813,
+            "state": "California"
+        },
+        {
+            "address": "Boiling Hot Pot, 46997 Warm Springs Blvd, Fremont, CA 94539",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808fc643c6329ca5:0x15714589d66ada15",
+            "iid": 3721,
+            "name": "Boiling Hot Pot",
+            "rank": 8,
+            "score": 0.45794132351875305,
+            "state": "California"
+        },
+        {
+            "address": "Cooking Papa, 1962 W El Camino Real, Mountain View, CA 94040",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Diner', 'Hong Kong style fast food restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb0b90145f5c7:0x8897fc57951016e5",
+            "iid": 3535,
+            "name": "Cooking Papa",
+            "rank": 9,
+            "score": 0.45408299565315247,
+            "state": "California"
+        },
+        {
+            "address": "Eden Silk Road Uyghur Cuisine, 39144 Paseo Padre Pkwy, Fremont, CA 94538",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Caterer', 'Chinese restaurant', 'Fine dining restaurant', 'Takeout Restaurant', 'Mediterranean restaurant', 'Middle Eastern restaurant']",
+            "gmap_id": "0x808fc08f9e8df2ab:0x6d48753b7617b8ac",
+            "iid": 3708,
+            "name": "Eden Silk Road Uyghur Cuisine",
+            "rank": 10,
+            "score": 0.4536762237548828,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Garden Restaurant, 108 Rengstorff Ave, Mountain View, CA 94043",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb0a5054b5b7f:0x6529915b18d42dd6",
+            "iid": 3532,
+            "name": "Bamboo Garden Restaurant",
+            "rank": 11,
+            "score": 0.45170697569847107,
+            "state": "California"
+        },
+        {
+            "address": "Kirin Restaurant \u9e92\u9e9f\u95a3, 485 Castro St, Mountain View, CA 94041",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808fb733a9b723a3:0x9e53564059a9fda8",
+            "iid": 3632,
+            "name": "Kirin Restaurant \u9e92\u9e9f\u95a3",
+            "rank": 12,
+            "score": 0.4514891505241394,
+            "state": "California"
+        },
+        {
+            "address": "Gangnam House, 1245 Jacklin Rd, Milpitas, CA 95035",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808fcf3a59fa8873:0x1af158c1b512d823",
+            "iid": 3905,
+            "name": "Gangnam House",
+            "rank": 13,
+            "score": 0.45077192783355713,
+            "state": "California"
+        },
+        {
+            "address": "Asian Pearl Seafood Restaurant, 43635 Boscell Rd, Fremont, CA 94538",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808fc76b8b08df45:0x9b3ed1b3b9bd328",
+            "iid": 3733,
+            "name": "Asian Pearl Seafood Restaurant",
+            "rank": 14,
+            "score": 0.4451606273651123,
+            "state": "California"
+        },
+        {
+            "address": "Mama Chen's Kitchen, 19052 Stevens Creek Blvd, Cupertino, CA 95014, United States",
+            "category": "['Taiwanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb577c4aeae13:0xa0c5330d7df6a774",
+            "iid": 3565,
+            "name": "Mama Chen's Kitchen",
+            "rank": 15,
+            "score": 0.44372791051864624,
+            "state": "California"
+        },
+        {
+            "address": "Thousand Tasty, 50 Dixon Rd, Milpitas, CA 95035",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808fc8b1cd666e99:0x2bce46c9d8dee951",
+            "iid": 3745,
+            "name": "Thousand Tasty",
+            "rank": 16,
+            "score": 0.44151148200035095,
+            "state": "California"
+        },
+        {
+            "address": "99 Ranch Market, 10425 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Asian grocery store', 'Bakery', 'Deli', 'Grocery store', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x808fb5aa3cf85b6b:0xeff42b837e005740",
+            "iid": 3583,
+            "name": "99 Ranch Market",
+            "rank": 17,
+            "score": 0.43426746129989624,
+            "state": "California"
+        },
+        {
+            "address": "Queen House, 273 Castro St, Mountain View, CA 94041",
+            "category": "['Taiwanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808fb7340b56e487:0x92a8396afcc00eca",
+            "iid": 3634,
+            "name": "Queen House",
+            "rank": 18,
+            "score": 0.43030041456222534,
+            "state": "California"
+        },
+        {
+            "address": "Chili Garden, 210 Barber Ct, Milpitas, CA 95035",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x808fc926cb2dc03d:0xfa239268a3297ed6",
+            "iid": 3760,
+            "name": "Chili Garden",
+            "rank": 19,
+            "score": 0.4294529855251312,
+            "state": "California"
+        },
+        {
+            "address": "Spicy Town, 43683 Boscell Rd, Fremont, CA 94538",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x808fc76c76e12fcd:0xeb1cd7c6b6a47652",
+            "iid": 3736,
+            "name": "Spicy Town",
+            "rank": 20,
+            "score": 0.42887240648269653,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Ziqi Peng",
+        "uid": 156466,
+        "user_id": 115159500296782794087
+    }
+}

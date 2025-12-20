@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Pig and Khao, 68 Clinton St, New York, NY 10002",
+            "category": "['Southeast Asian restaurant', 'Asian restaurant', 'Bar', 'Brunch restaurant', 'Filipino restaurant', 'Malaysian restaurant', 'Restaurant', 'Thai restaurant']",
+            "date": "2014/11/06",
+            "gmap_id": "0x89c25981bc0101af:0x6f023e0cb73a8463",
+            "iid": 21799,
+            "name": "Pig and Khao",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1415303560873
+        },
+        {
+            "address": "Omai, 158 9th Ave, New York, NY 10011",
+            "category": "['Vietnamese restaurant', 'Bar', 'Southeast Asian restaurant']",
+            "date": "2016/01/06",
+            "gmap_id": "0x89c259b9161fef21:0xbd232755b6183558",
+            "iid": 21956,
+            "name": "Omai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1452119891818
+        },
+        {
+            "address": "Happy Lamb, 136-59 37th Avenue, Queens, NY 11354",
+            "category": "['Hot pot restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Family restaurant', 'Soup restaurant', 'Vegetarian restaurant']",
+            "date": "2016/01/11",
+            "gmap_id": "0x89c260100dd5c2af:0x2952f57b3c7438c8",
+            "iid": 22335,
+            "name": "Happy Lamb",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1452492109706
+        },
+        {
+            "address": "T & T Asian Grocery, 2768 Elmwood Ave, Kenmore, NY 14217",
+            "category": "['Grocery store', 'Asian grocery store', 'Department store', 'Supermarket', 'Variety store']",
+            "date": "2016/03/08",
+            "gmap_id": "0x89d36d0377252d35:0xd94d51ed080a4c8c",
+            "iid": 24199,
+            "name": "T & T Asian Grocery",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1457467118720
+        },
+        {
+            "address": "Pho Lantern Restaurant, 837 Niagara St, Buffalo, NY 14213",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Pho restaurant', 'Restaurant', 'Sandwich shop', 'Seafood restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "date": "2016/06/07",
+            "gmap_id": "0x89d313083f6eaee3:0x8ce2ea68c6672d91",
+            "iid": 24183,
+            "name": "Pho Lantern Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1465270743458
+        },
+        {
+            "address": "Chego, 727 N Broadway Teen Seating, Los Angeles, CA 90012",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Restaurant']",
+            "date": "2017/01/30",
+            "gmap_id": "0x80c2bbcb0297c9ed:0xb27b7566ad015a97",
+            "iid": 5021,
+            "name": "Chego",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1485814859552
+        },
+        {
+            "address": "H Mart Union, 29-02 Union St, Queens, NY 11354",
+            "category": "['Asian grocery store', 'Grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2017/06/14",
+            "gmap_id": "0x89c2601d9adb5d6d:0xc7aeb904b6930cb9",
+            "iid": 22355,
+            "name": "H Mart Union",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1497470521748
+        },
+        {
+            "address": "Nisen Sushi, 5032 Jericho Turnpike, Commack, NY 11725",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2018/01/16",
+            "gmap_id": "0x89e82f99fcfb057b:0xa9880d28cb925e97",
+            "iid": 25651,
+            "name": "Nisen Sushi",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1516110295549
+        },
+        {
+            "address": "Nisen Sushi, 5032 Jericho Turnpike, Commack, NY 11725",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2018/01/16",
+            "gmap_id": "0x89e82f99fcfb057b:0xa9880d28cb925e97",
+            "iid": 25651,
+            "name": "Nisen Sushi",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1516110295549
+        },
+        {
+            "address": "dawa's, 51-18 Skillman Ave, Woodside, NY 11377",
+            "category": "['Asian restaurant', 'New American restaurant', 'Restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x89c25f20032e61f3:0x685293ab2d0544ae",
+            "iid": 22261,
+            "name": "dawa's",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1531308804754
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "The Best Sichuan\u4e00\u54c1\u6210\u90fd, 47 W 39th St, New York, NY 10018",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c259abaa3f364b:0xfda6ee6f2f8bbc88",
+            "iid": 21935,
+            "name": "The Best Sichuan\u4e00\u54c1\u6210\u90fd",
+            "rank": 1,
+            "score": 0.6364203691482544,
+            "state": "New_York"
+        },
+        {
+            "address": "99 Fast Food Restaurant, 3398 Bailey Ave, Buffalo, NY 14215",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89d372c70a1f273f:0xf7de017200b46de1",
+            "iid": 24211,
+            "name": "99 Fast Food Restaurant",
+            "rank": 2,
+            "score": 0.6120701432228088,
+            "state": "New_York"
+        },
+        {
+            "address": "Ni Hoowa Supermarket, 3173 Sheridan Dr, Buffalo, NY 14226",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x89d3725d8979694b:0xd9efcab1c3903a35",
+            "iid": 24205,
+            "name": "Ni Hoowa Supermarket",
+            "rank": 3,
+            "score": 0.5982624888420105,
+            "state": "New_York"
+        },
+        {
+            "address": "China King, 3500 Main St # 330, Buffalo, NY 14226",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89d37294efbd61a3:0x6d469ee43d28e6a5",
+            "iid": 24210,
+            "name": "China King",
+            "rank": 4,
+            "score": 0.5909794569015503,
+            "state": "New_York"
+        },
+        {
+            "address": "MIGHTY Bowl, 120 MacDougal St, New York, NY 10012",
+            "category": "['Fast food restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c25991862297d5:0xd33cf68602e16279",
+            "iid": 21839,
+            "name": "MIGHTY Bowl",
+            "rank": 5,
+            "score": 0.5796099901199341,
+            "state": "New_York"
+        },
+        {
+            "address": "Lucy\u2019s Vietnamese, 112 Berry St, Brooklyn, NY 11249",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c2599def221fd5:0x4db96fce7f7a53f3",
+            "iid": 21890,
+            "name": "Lucy\u2019s Vietnamese",
+            "rank": 6,
+            "score": 0.5796000957489014,
+            "state": "New_York"
+        },
+        {
+            "address": "King Palace Gyro And Fried Chicken, 1961 Flatbush Ave, Brooklyn, NY 11234",
+            "category": "['South Asian restaurant', 'Halal restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x89c24357d579d77b:0x7f4ee4815a86ea1b",
+            "iid": 21386,
+            "name": "King Palace Gyro And Fried Chicken",
+            "rank": 7,
+            "score": 0.5738340616226196,
+            "state": "New_York"
+        },
+        {
+            "address": "East Garden, 31-10 36th Ave, Queens, NY 11106",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x89c25f2e0d805013:0xfe92ef19b354faab",
+            "iid": 22269,
+            "name": "East Garden",
+            "rank": 8,
+            "score": 0.5651898384094238,
+            "state": "New_York"
+        },
+        {
+            "address": "Asian Wave, 636 Columbus Ave, Thornwood, NY 10594",
+            "category": "['Asian fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2be43140d5b43:0xb5b245068c921974",
+            "iid": 22705,
+            "name": "Asian Wave",
+            "rank": 9,
+            "score": 0.5619387626647949,
+            "state": "New_York"
+        },
+        {
+            "address": "East Village Thai, 32 E 7th St, New York, NY 10003",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c2599b7d036673:0xd2ac6ab3bf70215",
+            "iid": 21865,
+            "name": "East Village Thai",
+            "rank": 10,
+            "score": 0.5598636865615845,
+            "state": "New_York"
+        },
+        {
+            "address": "Snacky, 187 Grand St, Brooklyn, NY 11211",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89c25960641ee481:0x9a70d357e3da85af",
+            "iid": 21779,
+            "name": "Snacky",
+            "rank": 11,
+            "score": 0.5569694638252258,
+            "state": "New_York"
+        },
+        {
+            "address": "NewYork Roll'n Katsu, 11 W 32nd St, New York City, NY 10001",
+            "category": "['Sushi takeaway', 'Asian restaurant', 'Fast food restaurant', 'Japanese curry restaurant', 'Sushi restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x89c25912cd158789:0xad261e4f142a0f7f",
+            "iid": 21744,
+            "name": "NewYork Roll'n Katsu",
+            "rank": 12,
+            "score": 0.5552172064781189,
+            "state": "New_York"
+        },
+        {
+            "address": "Sunac Natural Food, 440 Union Ave, Brooklyn, NY 11211",
+            "category": "['Grocery store', 'Asian grocery store', 'Deli', 'Organic food store']",
+            "gmap_id": "0x89c259591d2a8521:0xe5caf77c8f71f40f",
+            "iid": 21772,
+            "name": "Sunac Natural Food",
+            "rank": 13,
+            "score": 0.5532417297363281,
+            "state": "New_York"
+        },
+        {
+            "address": "B\u00e1nh M\u00ec Saigon, 198 Grand St, New York, NY 10013",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c2598844ca9f2d:0x1ed7a92c48c3a951",
+            "iid": 21821,
+            "name": "B\u00e1nh M\u00ec Saigon",
+            "rank": 14,
+            "score": 0.5519118309020996,
+            "state": "New_York"
+        },
+        {
+            "address": "Go Go Thai, 144 W 19th St, New York, NY 10011",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c259bc93838301:0x3fb0b0fad00ded82",
+            "iid": 21967,
+            "name": "Go Go Thai",
+            "rank": 15,
+            "score": 0.5515962839126587,
+            "state": "New_York"
+        },
+        {
+            "address": "Wok Wok Southeast Asian Kitchen, 11 Mott St, New York, NY 10013",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c25a2694c3ffff:0xf440483b09f0bf1d",
+            "iid": 22022,
+            "name": "Wok Wok Southeast Asian Kitchen",
+            "rank": 16,
+            "score": 0.5511162281036377,
+            "state": "New_York"
+        },
+        {
+            "address": NaN,
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2602fb49854c1:0xa6c2403443406960",
+            "iid": 22358,
+            "name": "DABIN",
+            "rank": 17,
+            "score": 0.548298716545105,
+            "state": "New_York"
+        },
+        {
+            "address": "Muse, 689 Washington Ave, Brooklyn, NY 11238",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Cocktail bar']",
+            "gmap_id": "0x89c25ba11161d041:0x4157c2a97bb0eecc",
+            "iid": 22123,
+            "name": "Muse",
+            "rank": 18,
+            "score": 0.5465205907821655,
+            "state": "New_York"
+        },
+        {
+            "address": "Saika Sushi, 576 Dick Rd, Depew, NY 14043",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Seafood restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89d30b817a2d008b:0xf2a76cb50c508d91",
+            "iid": 24167,
+            "name": "Saika Sushi",
+            "rank": 19,
+            "score": 0.5441005825996399,
+            "state": "New_York"
+        },
+        {
+            "address": "Thai House (Temporarily closed), 5246 Transit Rd, Depew, NY 14043",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Burmese restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d30ae3907d5077:0x214536cc4bae2aa3",
+            "iid": 24166,
+            "name": "Thai House (Temporarily closed)",
+            "rank": 20,
+            "score": 0.5437238216400146,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Alan Chan",
+        "uid": 133918,
+        "user_id": 112967314463562641921
+    }
+}

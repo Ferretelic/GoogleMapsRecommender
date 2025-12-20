@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2013/08/04",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 11615,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1375582977680
+        },
+        {
+            "address": "Elephant Sushi, 1916 Hyde St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/11/26",
+            "gmap_id": "0x808580e8d69e7921:0xed03338501f71a2",
+            "iid": 1744,
+            "name": "Elephant Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448559490551
+        },
+        {
+            "address": "Zaoh, 1555 Mission St, San Francisco, CA 94103",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2016/02/12",
+            "gmap_id": "0x8085809de38a4abd:0xedf33edfba1e6491",
+            "iid": 1688,
+            "name": "Zaoh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1455235952905
+        },
+        {
+            "address": "Sushirrito - Union Square, 226 Kearny St, San Francisco, CA 94104",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "date": "2016/11/15",
+            "gmap_id": "0x80858062a6bcdae7:0xdf875c0d2342e4ef",
+            "iid": 1637,
+            "name": "Sushirrito - Union Square",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479226921313
+        },
+        {
+            "address": "Koja Kitchen, 343 Clement St, San Francisco, CA 94118",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "date": "2017/02/05",
+            "gmap_id": "0x8085873bfb67f86d:0x5b347fc92a49f360",
+            "iid": 1790,
+            "name": "Koja Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486263339195
+        },
+        {
+            "address": "Ebisu Restaurant, 1283 9th Ave, San Francisco, CA 94122",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/02/09",
+            "gmap_id": "0x8085875ce01473f7:0xaa625c17075c336",
+            "iid": 1799,
+            "name": "Ebisu Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486626867715
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/06/05",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 1667,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1496684008301
+        },
+        {
+            "address": "Nobu Palo Alto, 180 Hamilton Ave, Palo Alto, CA 94301",
+            "category": "['Japanese restaurant']",
+            "date": "2017/07/29",
+            "gmap_id": "0x808fbb3a3ecf1c23:0x5bb11772add3928",
+            "iid": 2273,
+            "name": "Nobu Palo Alto",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501366342541
+        },
+        {
+            "address": "Umami Asian Bistro and Sushi Bar, 150 Eagleview Blvd, Exton, PA 19341",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/08",
+            "gmap_id": "0x89c6f4d709f887f1:0xd2a53014a6aeca84",
+            "iid": 13596,
+            "name": "Umami Asian Bistro and Sushi Bar",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1531081163613
+        },
+        {
+            "address": "Glaze Teriyaki, 2095 Chestnut St, San Francisco, CA 94123",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/29",
+            "gmap_id": "0x808580d7241a814b:0x92faba038e76a608",
+            "iid": 1733,
+            "name": "Glaze Teriyaki",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546059351791
+        },
+        {
+            "address": "Deejai Thai Restaurant, 613 Providence Rd, Charlotte, NC 28207",
+            "category": "['Thai restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "date": "2020/07/09",
+            "gmap_id": "0x88569feed1aef1fb:0x3680efbf6bddc250",
+            "iid": 8489,
+            "name": "Deejai Thai Restaurant",
+            "split": "test",
+            "state": "North_Carolina",
+            "unix_time": 1594292950141
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Niji Japanese Grille, 50 Post St, San Francisco, CA 94104",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808580884a9ee2f5:0xef70a12b9a3722af",
+            "iid": 1657,
+            "name": "Niji Japanese Grille",
+            "rank": 1,
+            "score": -1.6452056169509888,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING), 98 7th St, San Francisco, CA 94103",
+            "category": "['Asian restaurant', 'Breakfast restaurant', 'Caterer', 'Indian restaurant', 'Japanese restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8085808360795555:0x268c1a62603e82df",
+            "iid": 1647,
+            "name": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING)",
+            "rank": 2,
+            "score": -1.6549201011657715,
+            "state": "California"
+        },
+        {
+            "address": "Poke Fusion, 112 Waverly Pl, San Francisco, CA 94108",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8085808b57547a65:0xe51df937889d212b",
+            "iid": 1663,
+            "name": "Poke Fusion",
+            "rank": 3,
+            "score": -1.7496137619018555,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Shio, 206 Valencia St, San Francisco, CA 94103",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7fc4e3a10361:0x97b5d0845226247f",
+            "iid": 2041,
+            "name": "Sushi Shio",
+            "rank": 4,
+            "score": -1.7887330055236816,
+            "state": "California"
+        },
+        {
+            "address": "Izakaya House, 1516 Folsom St, San Francisco, CA 94103",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7e27b718603f:0x26c13880b754c3f9",
+            "iid": 2014,
+            "name": "Izakaya House",
+            "rank": 5,
+            "score": -1.7995057106018066,
+            "state": "California"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 1942,
+            "name": "Tomokazu",
+            "rank": 6,
+            "score": -1.8072367906570435,
+            "state": "California"
+        },
+        {
+            "address": "Fenikkusu - Tapas and Omakase, 1009 Guerrero St, San Francisco, CA 94110",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7fc901b3d633:0x5d16a648409991c6",
+            "iid": 2043,
+            "name": "Fenikkusu - Tapas and Omakase",
+            "rank": 7,
+            "score": -1.8404382467269897,
+            "state": "California"
+        },
+        {
+            "address": "Sudachi Sushi, 1217 Sutter St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x8085809446374bc5:0x8a14e223a261b070",
+            "iid": 1681,
+            "name": "Sudachi Sushi",
+            "rank": 8,
+            "score": -1.9082098007202148,
+            "state": "California"
+        },
+        {
+            "address": "Sue's Kitchen Deco Sushi and Matcha Sweets, 303 2nd St, San Francisco, CA 94107",
+            "category": "['Japanese restaurant', 'Dessert shop', 'Sushi restaurant']",
+            "gmap_id": "0x8085807c7098c3fb:0xde741cdf698e4289",
+            "iid": 1645,
+            "name": "Sue's Kitchen Deco Sushi and Matcha Sweets",
+            "rank": 9,
+            "score": -1.9204821586608887,
+            "state": "California"
+        },
+        {
+            "address": "Bimi Poke, 135 4th St Mailbox #10, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80858146870aa833:0xe6a527d580293cfa",
+            "iid": 1761,
+            "name": "Bimi Poke",
+            "rank": 10,
+            "score": -1.9433506727218628,
+            "state": "California"
+        },
+        {
+            "address": "Kissako Tea, 1581 Webster St Ste 195, San Francisco, CA 94115",
+            "category": "['Tea house', 'Cafe', 'Dessert shop', 'Japanese sweets restaurant']",
+            "gmap_id": "0x808580b8e176c767:0xc6b1975626e73b87",
+            "iid": 1713,
+            "name": "Kissako Tea",
+            "rank": 11,
+            "score": -1.9718067646026611,
+            "state": "California"
+        },
+        {
+            "address": "Cho Cho San, 15 W 8th St, New York, NY 10011",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259972eb06293:0x621691c5f32b8d17",
+            "iid": 12288,
+            "name": "Cho Cho San",
+            "rank": 12,
+            "score": -1.9892603158950806,
+            "state": "New_York"
+        },
+        {
+            "address": "Yoji Sushi House, 406 Dewey Blvd, San Francisco, CA 94116",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x808f7def72a6f76b:0x7451a84981e87c36",
+            "iid": 1992,
+            "name": "Yoji Sushi House",
+            "rank": 13,
+            "score": -1.9932419061660767,
+            "state": "California"
+        },
+        {
+            "address": "Kichi Grill, 845 Market St # A, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808580866c2989cb:0x4807df4cf81c8c5d",
+            "iid": 1652,
+            "name": "Kichi Grill",
+            "rank": 14,
+            "score": -2.0041255950927734,
+            "state": "California"
+        },
+        {
+            "address": "Tataki Canyon, 678 Chenery St, San Francisco, CA 94131",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808f7e649e9dc6d7:0xf5ae939f94ae8169",
+            "iid": 2035,
+            "name": "Tataki Canyon",
+            "rank": 15,
+            "score": -2.0049588680267334,
+            "state": "California"
+        },
+        {
+            "address": "GINTO express, 60 Morris St, San Francisco, CA 94107",
+            "category": "['Sushi restaurant', 'Health food restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Kyoto style Japanese restaurant']",
+            "gmap_id": "0x808f7f05e7569703:0x998c32dd1a633fb",
+            "iid": 2039,
+            "name": "GINTO express",
+            "rank": 16,
+            "score": -2.028738498687744,
+            "state": "California"
+        },
+        {
+            "address": "An | Japanese Restaurant, 22 Peace Plz 510, San Francisco, CA 94115",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808580bed04e43f5:0x6213dfd9d02487ce",
+            "iid": 1723,
+            "name": "An | Japanese Restaurant",
+            "rank": 17,
+            "score": -2.0355260372161865,
+            "state": "California"
+        },
+        {
+            "address": "Hanami Brassiere, 1220 9th Ave, San Francisco, CA 94117",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085875ce2dddb15:0x70b7c2ca0e8ec8e",
+            "iid": 1800,
+            "name": "Hanami Brassiere",
+            "rank": 18,
+            "score": -2.036407232284546,
+            "state": "California"
+        },
+        {
+            "address": "Midoh - Sawtelle, 2130 Sawtelle Blvd #200, Los Angeles, CA 90025",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bb35cfd4fb9d:0xac627da6aaabadc3",
+            "iid": 3055,
+            "name": "Midoh - Sawtelle",
+            "rank": 19,
+            "score": -2.038179636001587,
+            "state": "California"
+        },
+        {
+            "address": "Homma's Brown Rice Sushi, 2363 Birch St, Palo Alto, CA 94306",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fbae5b054a32f:0x8c48e931f39c4035",
+            "iid": 2265,
+            "name": "Homma's Brown Rice Sushi",
+            "rank": 20,
+            "score": -2.050034523010254,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Brandon Nolte",
+        "uid": 79981,
+        "user_id": 117325078274548669984
+    }
+}
