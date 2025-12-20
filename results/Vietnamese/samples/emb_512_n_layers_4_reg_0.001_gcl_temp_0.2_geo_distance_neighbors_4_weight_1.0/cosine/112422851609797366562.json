@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ph\u1edf Grace, 2728 W Thomas St suite b, Hammond, LA 70401",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/11/29",
+            "gmap_id": "0x8627225e1e0afff9:0x2ac71638de5e46f",
+            "iid": 2175,
+            "name": "Ph\u1edf Grace",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1543501000331
+        },
+        {
+            "address": "Bao Vietnamese Kitchen, 8342 Perkins Rd, Baton Rouge, LA 70810",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/03/08",
+            "gmap_id": "0x8626a45268ca3bbd:0xe87264a9a95b2b39",
+            "iid": 2166,
+            "name": "Bao Vietnamese Kitchen",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1552016761205
+        },
+        {
+            "address": "Bao Vietnamese Kitchen, 8342 Perkins Rd, Baton Rouge, LA 70810",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/03/08",
+            "gmap_id": "0x8626a45268ca3bbd:0xe87264a9a95b2b39",
+            "iid": 2166,
+            "name": "Bao Vietnamese Kitchen",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1552016761205
+        },
+        {
+            "address": "Tan Tan Restaurant, 6816 Ranchester Dr, Houston, TX 77036",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2019/05/21",
+            "gmap_id": "0x8640c2c36f70419b:0x7f0a10d9ee9d1dd",
+            "iid": 2306,
+            "name": "Tan Tan Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1558410376748
+        },
+        {
+            "address": "Pho A Hung by Night, 11900 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/05/23",
+            "gmap_id": "0x8640dd10d1d8b85b:0xaa1963a539da0431",
+            "iid": 2436,
+            "name": "Pho A Hung by Night",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1558617949814
+        },
+        {
+            "address": "Viet Kitchen, 3415 U.S. Hwy 190, Mandeville, LA 70471",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/05/29",
+            "gmap_id": "0x86275bd2843bbc7b:0x59e3f25318d1a0ad",
+            "iid": 2179,
+            "name": "Viet Kitchen",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1559100027468
+        },
+        {
+            "address": "Ph\u1edf Saigon, 816 U.S. Hwy 190, Covington, LA 70433",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x86275c05cabc8c69:0xd22b7816df0df62a",
+            "iid": 2180,
+            "name": "Ph\u1edf Saigon",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1564445142036
+        },
+        {
+            "address": "Pho Michael, 3559 18th St, Metairie, LA 70002",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8620b030837bb9e5:0xc4700e550766922a",
+            "iid": 2150,
+            "name": "Pho Michael",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1564445299151
+        },
+        {
+            "address": "Hong Kong Food Market, 11205 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Asian grocery store', 'Supermarket', 'Vietnamese restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8640dd3bf4a86dd7:0x1bf1122af38686ba",
+            "iid": 2465,
+            "name": "Hong Kong Food Market",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1564445455800
+        },
+        {
+            "address": "Hong Kong City Mall, 11205 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Shopping mall', 'Cake shop', 'Dentist', 'Gift shop', 'Insurance agency', 'Restaurant', 'Supermarket', 'Vietnamese restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8640dd3a6f95e45b:0xa5be45d74bc43d2e",
+            "iid": 2456,
+            "name": "Hong Kong City Mall",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1564445822895
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "PANDAN TEAHOUSE, 3260 Highland Rd, Baton Rouge, LA 70802",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8626a7e4778eeb6b:0x5e1059cc83efe301",
+            "iid": 2169,
+            "name": "PANDAN TEAHOUSE",
+            "rank": 1,
+            "score": 0.8328869938850403,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Luv Pho Food & Sweet Idea, 4628 LA-22, Mandeville, LA 70471",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86275b068d8bed55:0x43823b13bae00d",
+            "iid": 2178,
+            "name": "Luv Pho Food & Sweet Idea",
+            "rank": 2,
+            "score": 0.7461221218109131,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Ph\u1edf C\u00f4ng Noodle & Grill, 1200 US-190 BUS, Covington, LA 70433",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x86275d6eac87d2b5:0xe2a1fdf96010cf6",
+            "iid": 2183,
+            "name": "Ph\u1edf C\u00f4ng Noodle & Grill",
+            "rank": 3,
+            "score": 0.7428044676780701,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Ava Street Caf\u00e9, 5207 Essen Ln, Baton Rouge, LA 70809",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8626a45b1645bc2b:0xa133a0f51d16350",
+            "iid": 2167,
+            "name": "Ava Street Caf\u00e9",
+            "rank": 4,
+            "score": 0.7339963912963867,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Drunken Fish - Baton Rouge, LA, 4410 Highland Rd, Baton Rouge, LA 70808",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8626a6e1761ab6ab:0x1daa867cd8531436",
+            "iid": 2168,
+            "name": "Drunken Fish - Baton Rouge, LA",
+            "rank": 5,
+            "score": 0.7310526967048645,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Northshore Empress, 31 Louis Prima Dr, Covington, LA 70433",
+            "category": "['Chinese restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x86275c06f73a00e5:0x727a89f7417d5a21",
+            "iid": 2181,
+            "name": "Northshore Empress",
+            "rank": 6,
+            "score": 0.7275857925415039,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Pho Cafe, 3851 S Sherwood Forest Blvd, Baton Rouge, LA 70816, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Frozen yogurt shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8626bb4fb2dd427b:0xc8168bd3f4f79f43",
+            "iid": 2170,
+            "name": "Pho Cafe",
+            "rank": 7,
+            "score": 0.7256860136985779,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Pho La, 842 N Collins Blvd, Covington, LA 70433",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86275dcac26e8e07:0x683fb382058fc630",
+            "iid": 2184,
+            "name": "Pho La",
+            "rank": 8,
+            "score": 0.7240327596664429,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Pho V & V, 1600 N Hwy 190, Covington, LA 70433",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x86275c197092a02f:0x9c0026d6cf7ff6d8",
+            "iid": 2182,
+            "name": "Pho V & V",
+            "rank": 9,
+            "score": 0.7135714292526245,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Little Saigon Restaurant, 11224 Florida Blvd, Baton Rouge, LA 70815",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8626bcc424dcfb99:0x677bf90b4639b4d3",
+            "iid": 2171,
+            "name": "Little Saigon Restaurant",
+            "rank": 10,
+            "score": 0.6950984001159668,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Kiki's Pho Saigon, 2890 E Causeway Approach B, Mandeville, LA 70448",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86275a208d710df1:0x53cbcfb739714f7b",
+            "iid": 2177,
+            "name": "Kiki's Pho Saigon",
+            "rank": 11,
+            "score": 0.6910755038261414,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Kazoku Asian Fusion, 1680 LA-59, Mandeville, LA 70448",
+            "category": "['Asian restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x862759bda34badb9:0xc7b53bcbd877fd42",
+            "iid": 2176,
+            "name": "Kazoku Asian Fusion",
+            "rank": 12,
+            "score": 0.6909036040306091,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Viet Garden, 11990 Florida Blvd, Baton Rouge, LA 70815",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8626bcc8b72317f9:0x1a6b4b2cb7389369",
+            "iid": 2173,
+            "name": "Viet Garden",
+            "rank": 13,
+            "score": 0.6907162070274353,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Ph\u1edf Huong Vietnamese Restaurant, 6547 Old Canton Rd, Ridgeland, MS 39157",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8629d3009d710cab:0xa7047e5ec8e81c3d",
+            "iid": 2185,
+            "name": "Ph\u1edf Huong Vietnamese Restaurant",
+            "rank": 14,
+            "score": 0.685960590839386,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Saigon Noodles, 1295 N Sherwood Forest Dr B, Baton Rouge, LA 70815",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8626bcccd7cedbbf:0x88d01f3ccdce8603",
+            "iid": 2174,
+            "name": "Saigon Noodles",
+            "rank": 15,
+            "score": 0.6743096113204956,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Dang's, 12385 Florida Blvd, Baton Rouge, LA 70815",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8626bcc5d36066f7:0x8c875ea3708bab42",
+            "iid": 2172,
+            "name": "Dang's",
+            "rank": 16,
+            "score": 0.663006603717804,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Little Saigon Sandwiches & Ph\u1edf, 115 Village Square Dr ste l, Brandon, MS 39047",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x8629d4e6810583a5:0x63cb5a423db4547a",
+            "iid": 2186,
+            "name": "Little Saigon Sandwiches & Ph\u1edf",
+            "rank": 17,
+            "score": 0.6413328647613525,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Pho Orchid Express, 1401 Airline Dr, Metairie, LA 70001",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8620a557e406b105:0xf1ab42fa84f28634",
+            "iid": 2120,
+            "name": "Pho Orchid Express",
+            "rank": 18,
+            "score": 0.6247104406356812,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Bo-Tea Caf\u00e9, 534 Gause Blvd, Slidell, LA 70458",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889de70ab6db0ce7:0x8fab8c8e45b88b14",
+            "iid": 3813,
+            "name": "Bo-Tea Caf\u00e9",
+            "rank": 19,
+            "score": 0.5833641290664673,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Ph\u1edf Orchid Restaurant, 3117 Houma Blvd, Metairie, LA 70006",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8620b05b7d3495d5:0xd03658ba5d00e1ac",
+            "iid": 2152,
+            "name": "Ph\u1edf Orchid Restaurant",
+            "rank": 20,
+            "score": 0.5781061053276062,
+            "state": "Louisiana"
+        }
+    ],
+    "user": {
+        "name": "Rosalie Portier",
+        "uid": 11777,
+        "user_id": 112422851609797366562
+    }
+}

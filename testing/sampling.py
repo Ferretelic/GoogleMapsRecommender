@@ -49,9 +49,9 @@ class Sampler():
         return mappings["index2gmap"], mappings["index2user"]
 
     def load_item_information(self):
-        meta = pd.read_csv(f"{self.cfg.paths.combined}/meta.csv")[["gmap_id", "name", "state"]]
+        meta = pd.read_csv(f"{self.cfg.paths.combined}/meta.csv")[["gmap_id", "name", "state", "address", "category"]]
 
-        gmap2info = {gmap_id: (name, state) for (gmap_id, name, state) in meta.values}
+        gmap2info = {gmap_id: (name, state, address, category) for (gmap_id, name, state, address, category) in meta.values}
         return gmap2info
 
     def load_user_name(self):
@@ -112,11 +112,13 @@ class Sampler():
         history = []
         for item_dict in user_hisotry:
             gmap_id = self.index2gmap[str(item_dict["iid"])]
-            name, state = self.gmap2info[gmap_id]
+            name, state, address, category = self.gmap2info[gmap_id]
 
             item_dict["gmap_id"] = gmap_id
             item_dict["name"] = name
             item_dict["state"] = state
+            item_dict["address"] = address
+            item_dict["category"] = category
             history.append(item_dict)
 
         return history
@@ -130,9 +132,18 @@ class Sampler():
             score = topk_scores[index]
             iid = topk_indices[index]
 
-            name, state = self.gmap2info[gmap_id]
+            name, state, address, category = self.gmap2info[gmap_id]
 
-            item_info = {"rank": index + 1, "iid": int(iid), "gmap_id": str(gmap_id), "score": float(score), "name": name, "state": state}
+            item_info = {
+                "rank": index + 1,
+                "iid": int(iid),
+                "gmap_id": str(gmap_id),
+                "score": float(score),
+                "name": name,
+                "state": state,
+                "address": address,
+                "category": category
+            }
             items.append(item_info)
 
         return items

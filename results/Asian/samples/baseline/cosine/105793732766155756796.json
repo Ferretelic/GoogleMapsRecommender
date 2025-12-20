@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Cafe Soho, 468 W Cheltenham Ave, Philadelphia, PA 19126",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Fried chicken takeaway', 'Restaurant']",
+            "date": "2019/12/19",
+            "gmap_id": "0x89c6b73e04bd15db:0xc1cdd8921a06956a",
+            "iid": 23529,
+            "name": "Cafe Soho",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1576771104192
+        },
+        {
+            "address": "Kyoto Palace Japanese Steakhouse, 1875 S Bascom Ave #2500, Campbell, CA 95008",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Banquet hall', 'Bar', 'Japanese steakhouse', 'Karaoke bar', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2019/12/28",
+            "gmap_id": "0x808e34c262a4d103:0xfaa507ae2893cb3f",
+            "iid": 3094,
+            "name": "Kyoto Palace Japanese Steakhouse",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1577545814029
+        },
+        {
+            "address": "FUSIAN, 4190 Worth Ave, Columbus, OH 43219",
+            "category": "['Asian restaurant', 'Grocery delivery service', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x88388a81e89826e9:0x7cedac569f81c9b2",
+            "iid": 15078,
+            "name": "FUSIAN",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1578321504033
+        },
+        {
+            "address": "New Hong Kong, 7665 W Saint Francis Rd, Frankfort, IL 60423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x880e144205c037b5:0x39b7a074dc845e8e",
+            "iid": 13341,
+            "name": "New Hong Kong",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1582056130916
+        },
+        {
+            "address": "TM Basil, 66 Oakbrook Center, Oak Brook, IL 60523",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Noodle shop', 'Soup restaurant', 'Sushi restaurant', 'Taiwanese restaurant', 'Thai restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x880e4c42a79c9d65:0x8cb6c1f62624cdaf",
+            "iid": 13557,
+            "name": "TM Basil",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1582056151355
+        },
+        {
+            "address": "Robata JINYA - Hollywood, 8050 W 3rd St, Los Angeles, CA 90048",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2020/07/10",
+            "gmap_id": "0x80c2b9369339f523:0x3502a4e0450f9dc6",
+            "iid": 4901,
+            "name": "Robata JINYA - Hollywood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1594407537501
+        },
+        {
+            "address": "Ruthai's Thai Kitchen, 3164 Linwood Ave, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/09/14",
+            "gmap_id": "0x8841ad8dd19e8797:0x6f233a6f459238a0",
+            "iid": 15501,
+            "name": "Ruthai's Thai Kitchen",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1600091852766
+        },
+        {
+            "address": "Naan On Devon & Grill, 2241 W Devon Ave, Chicago, IL 60659",
+            "category": "['Indian restaurant', 'Pakistani restaurant', 'South Asian restaurant']",
+            "date": "2020/09/28",
+            "gmap_id": "0x880fd1dd2cbbcd3f:0x9174a64c6df6c09e",
+            "iid": 14020,
+            "name": "Naan On Devon & Grill",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1601298568603
+        },
+        {
+            "address": "Ju Rang, 611 Milwaukee Ave, Glenview, IL 60025",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Karaoke', 'Restaurant', 'Sports bar']",
+            "date": "2020/09/28",
+            "gmap_id": "0x880fc7fa1a843fab:0xa1fc350951e5703a",
+            "iid": 13909,
+            "name": "Ju Rang",
+            "split": "valid",
+            "state": "Illinois",
+            "unix_time": 1601298595591
+        },
+        {
+            "address": "Surepinoy Oriental Food Mart, 145 Water St, Quincy, MA 02169",
+            "category": "['Asian grocery store']",
+            "date": "2021/01/08",
+            "gmap_id": "0x89e37cccebca0e91:0x289a9e4e5cfd850d",
+            "iid": 24875,
+            "name": "Surepinoy Oriental Food Mart",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1610122271729
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "NeeHee's Indian Vegetarian Street Food, 1850 W Army Trail Rd, Hanover Park, IL 60133",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Fast food restaurant', 'Indian takeaway', 'Modern Indian restaurant', 'North Eastern Indian restaurant', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x880fab7c28026cdb:0x918b4abfc1ee010",
+            "iid": 13794,
+            "name": "NeeHee's Indian Vegetarian Street Food",
+            "rank": 1,
+            "score": 0.643530011177063,
+            "state": "Illinois"
+        },
+        {
+            "address": "Gaylord Fine Indian Cuisine, 100 E Walton St, Chicago, IL 60611",
+            "category": "['Indian restaurant', 'Bar', 'Delivery Restaurant', 'Takeout Restaurant', 'North Eastern Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x880fd353d7c3233d:0x7ef259007d88cd4e",
+            "iid": 14137,
+            "name": "Gaylord Fine Indian Cuisine",
+            "rank": 2,
+            "score": 0.5875087380409241,
+            "state": "Illinois"
+        },
+        {
+            "address": "Mama Thai, 1112 Madison St #3603, Oak Park, IL 60302",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x880e34c26449b23b:0x298aa219223a2a5b",
+            "iid": 13500,
+            "name": "Mama Thai",
+            "rank": 3,
+            "score": 0.557827889919281,
+            "state": "Illinois"
+        },
+        {
+            "address": "Hong's Gourmet, 14510 Big Basin Way #9, Saratoga, CA 95070",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Family restaurant', 'Health food restaurant', 'Restaurant']",
+            "gmap_id": "0x808e4ae0996ac0c9:0xc153a05ac8752ae0",
+            "iid": 3127,
+            "name": "Hong's Gourmet",
+            "rank": 4,
+            "score": 0.5549831390380859,
+            "state": "California"
+        },
+        {
+            "address": "Amarit Thai Restaurant, 600 S Dearborn St, Chicago, IL 60605",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Catering food and drink supplier', 'Cocktail bar', 'Delivery service', 'Diner', 'Delivery Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x880e2c9793665a4b:0xf122e134f9d82196",
+            "iid": 13401,
+            "name": "Amarit Thai Restaurant",
+            "rank": 5,
+            "score": 0.5544375777244568,
+            "state": "Illinois"
+        },
+        {
+            "address": "Masala, 28331 Dodge Dr, Warrenville, IL 60555",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Banquet hall', 'Fine dining restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x880ef899599a28dd:0xa415468267fe8708",
+            "iid": 13679,
+            "name": "Masala",
+            "rank": 6,
+            "score": 0.5498313307762146,
+            "state": "Illinois"
+        },
+        {
+            "address": "Flavor of India Studio City, 12321 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Takeout Restaurant', 'South Asian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2bdfb01f6075d:0x468d8af9ce7cf96c",
+            "iid": 5047,
+            "name": "Flavor of India Studio City",
+            "rank": 7,
+            "score": 0.5419760942459106,
+            "state": "California"
+        },
+        {
+            "address": "Hakka Wok, 1851 W Golf Rd, Schaumburg, IL 60194",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Indian restaurant', 'Pakistani restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x880fa88b76261947:0x605ead335a176108",
+            "iid": 13787,
+            "name": "Hakka Wok",
+            "rank": 8,
+            "score": 0.5350762009620667,
+            "state": "Illinois"
+        },
+        {
+            "address": "Simply Thalia, 108 N State St, Chicago, IL 60602",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Lounge', 'Restaurant', 'Seafood restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x880e2ca52e73a6b1:0x963e5033342aa713",
+            "iid": 13413,
+            "name": "Simply Thalia",
+            "rank": 9,
+            "score": 0.5280965566635132,
+            "state": "Illinois"
+        },
+        {
+            "address": "Thai Twin, 7430 S Harlem Ave #1315, Bridgeview, IL 60455",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x880e376b9086ccc3:0xf8b88135eb9aa9c4",
+            "iid": 13511,
+            "name": "Thai Twin",
+            "rank": 10,
+            "score": 0.524735152721405,
+            "state": "Illinois"
+        },
+        {
+            "address": "Matsuya Japanese Restaurant, 7149 Manderlay Dr, Florence, KY 41042",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8841c776011000d3:0x224ace172b029b4f",
+            "iid": 15541,
+            "name": "Matsuya Japanese Restaurant",
+            "rank": 11,
+            "score": 0.5135854482650757,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Kansai, 1822 Spring Garden St, Philadelphia, PA 19130",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c6c7cc4da7826b:0x71a0722f0e744aa5",
+            "iid": 23662,
+            "name": "Kansai",
+            "rank": 12,
+            "score": 0.5114412307739258,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Mai Thai Restaurant Thai Restaurant & Sushi Bar, 7710 US-42, Florence, KY 41042, United States",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8841c7a7b42e0d05:0xbc767e34d8864330",
+            "iid": 15542,
+            "name": "Mai Thai Restaurant Thai Restaurant & Sushi Bar",
+            "rank": 13,
+            "score": 0.510942280292511,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Himalayan Cafe, 36 S Fair Oaks Ave, Pasadena, CA 91105",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "gmap_id": "0x80c2c371071a9a5f:0x8fe6e32b63b02d02",
+            "iid": 5182,
+            "name": "Himalayan Cafe",
+            "rank": 14,
+            "score": 0.5062825679779053,
+            "state": "California"
+        },
+        {
+            "address": "Bon Bon Sushi, 22 N Darlington St, West Chester, PA 19380",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c6f1464812f8b5:0x2d2cae5a37a81bba",
+            "iid": 23771,
+            "name": "Bon Bon Sushi",
+            "rank": 15,
+            "score": 0.5048385858535767,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Jaipur Restaurant, 847 W Randolph St, Chicago, IL 60607",
+            "category": "['South Asian restaurant', 'Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x880e2cdac19bef39:0x4198b3c265d9520d",
+            "iid": 13450,
+            "name": "Jaipur Restaurant",
+            "rank": 16,
+            "score": 0.5046483874320984,
+            "state": "Illinois"
+        },
+        {
+            "address": "Thalia Spice, 833 W Chicago Ave, Chicago, IL 60642",
+            "category": "['Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Japanese restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fd32d4f3942c5:0x54cb24fb28ac4335",
+            "iid": 14111,
+            "name": "Thalia Spice",
+            "rank": 17,
+            "score": 0.5042661428451538,
+            "state": "Illinois"
+        },
+        {
+            "address": "65 Express 201 W. Madison St, 201 W Madison St, Chicago, IL 60606",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x880e2cb96801df99:0x83c140e8abb5f063",
+            "iid": 13434,
+            "name": "65 Express 201 W. Madison St",
+            "rank": 18,
+            "score": 0.5004996061325073,
+            "state": "Illinois"
+        },
+        {
+            "address": "Panda Express, 340 Orland Square Dr, Orland Park, IL 60462",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x880e3f78b6472baf:0x68768c66e2701125",
+            "iid": 13530,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": 0.49894285202026367,
+            "state": "Illinois"
+        },
+        {
+            "address": "Khyber Pass, 1031 Lake St, Oak Park, IL 60301",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Buffet restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x880e34c5f666320f:0x65b97cafdbc7c251",
+            "iid": 13503,
+            "name": "Khyber Pass",
+            "rank": 20,
+            "score": 0.4986402094364166,
+            "state": "Illinois"
+        }
+    ],
+    "user": {
+        "name": "Brian Reimer",
+        "uid": 60106,
+        "user_id": 105793732766155756796
+    }
+}

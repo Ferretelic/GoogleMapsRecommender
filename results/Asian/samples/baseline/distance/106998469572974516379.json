@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Zato Thai Cuisine and Sushi Bar, 9090 Skillman St #190a, Dallas, TX 75243",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fast food restaurant', 'Gluten-free restaurant', 'Halal restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop', 'Sushi restaurant']",
+            "date": "2019/08/20",
+            "gmap_id": "0x864ea0766e40afa1:0x8415c19df44858e4",
+            "iid": 9726,
+            "name": "Zato Thai Cuisine and Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1566311758618
+        },
+        {
+            "address": "Ivan's Cookhouse, 14815 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Caribbean restaurant', 'Asian fusion restaurant', 'Cajun restaurant', 'Creole restaurant', 'Gastropub', 'Haitian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x88d9ad9734ba51df:0xfe96567ef8fd9a3c",
+            "iid": 17843,
+            "name": "Ivan's Cookhouse",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1570116425158
+        },
+        {
+            "address": "Coconut Thai Cafe Wellesley, 257 Washington St, Wellesley, MA 02481",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/10/27",
+            "gmap_id": "0x89e383e29f07362d:0x792a05c6888fdda5",
+            "iid": 24916,
+            "name": "Coconut Thai Cafe Wellesley",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1572187849107
+        },
+        {
+            "address": "Silli Point Indian Fusion, 498 Anderson Ave, Cliffside Park, NJ 07010",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Delivery Restaurant']",
+            "date": "2019/12/05",
+            "gmap_id": "0x89c2f7b16ab44df9:0xeba14f30f13e4166",
+            "iid": 22886,
+            "name": "Silli Point Indian Fusion",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1575579726702
+        },
+        {
+            "address": "Kohinoor Dhaba Inc., 2800 S Eads St, Arlington, VA 22202",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x89b7b72ade88aecd:0x75800d0ca082562a",
+            "iid": 20742,
+            "name": "Kohinoor Dhaba Inc.",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1578603171053
+        },
+        {
+            "address": "Great Wall, 272 NY-32, Central Valley, NY 10917",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x89c2d12d20401e25:0xb2c4c70ed7134ba3",
+            "iid": 22721,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1593449674965
+        },
+        {
+            "address": "First Asian Store and Restaurant, 1503 South St, Leesburg, FL 34748",
+            "category": "['Asian grocery store', 'Filipino restaurant']",
+            "date": "2020/08/20",
+            "gmap_id": "0x88e7c02011aba11b:0xcee183183cf63dfe",
+            "iid": 18760,
+            "name": "First Asian Store and Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1597947543475
+        },
+        {
+            "address": "Panda Express, 970 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/10/08",
+            "gmap_id": "0x88d8df511cb9460f:0xfaa8be8516713579",
+            "iid": 17543,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1602185156086
+        },
+        {
+            "address": "X.O. Sushi Asian Restaurant, 1058 Broadway, Woodmere, NY 11598",
+            "category": "['Asian restaurant']",
+            "date": "2020/12/09",
+            "gmap_id": "0x89c265ac0153be63:0x62161fdc4bf0afe7",
+            "iid": 22456,
+            "name": "X.O. Sushi Asian Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1607547033970
+        },
+        {
+            "address": "El Sushi Loco Sushi & Mariscos La Puente, 15711 Amar Rd, La Puente, CA 91744",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Family restaurant', 'Mexican restaurant', 'Restaurant', 'Seafood restaurant', 'Stand bar']",
+            "date": "2021/03/17",
+            "gmap_id": "0x80c2d6142fac4c77:0x48bab497ee2a484d",
+            "iid": 5500,
+            "name": "El Sushi Loco Sushi & Mariscos La Puente",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616008670566
+        },
+        {
+            "address": "Best Cajun Asian Restaurant, 50 Broad St NW, Atlanta, GA 30303",
+            "category": "['Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2021/03/20",
+            "gmap_id": "0x88f50386e09d8b0b:0xe0072e1f2d928472",
+            "iid": 18960,
+            "name": "Best Cajun Asian Restaurant",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1616249365212
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Chinese Restaurant, 1807 West Virginia Ave NE, Washington, DC 20002",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89b7b86d66df918f:0x64fa6bdd8baa4f63",
+            "iid": 20839,
+            "name": "Panda Chinese Restaurant",
+            "rank": 1,
+            "score": -2.900923013687134,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Wong Kok Asian Cuisine, 43090 Peacock Market Plaza, South Riding, VA 20152",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Family restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89b64174f07c1b5d:0xb5fd4c64b581a36b",
+            "iid": 20364,
+            "name": "Wong Kok Asian Cuisine",
+            "rank": 2,
+            "score": -2.9480602741241455,
+            "state": "Virginia"
+        },
+        {
+            "address": "Ginger Root of Woburn, 486 Main St, Woburn, MA 01801",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89e375075543051d:0xe9889075460c7c62",
+            "iid": 24664,
+            "name": "Ginger Root of Woburn",
+            "rank": 3,
+            "score": -3.0807511806488037,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Tasty Carryout, 7720 Landover Rd, Greater Landover, MD 20785",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x89b7c08d012f4f6f:0x6a744d54734da422",
+            "iid": 20862,
+            "name": "Tasty Carryout",
+            "rank": 4,
+            "score": -3.1240596771240234,
+            "state": "Maryland"
+        },
+        {
+            "address": "Asian Taste, 5441 Belair Rd, Baltimore, MD 21206",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c805df9d626eeb:0x433fdb23ac893363",
+            "iid": 23900,
+            "name": "Asian Taste",
+            "rank": 5,
+            "score": -3.1291983127593994,
+            "state": "Maryland"
+        },
+        {
+            "address": "Potstickers & Company, 4909 Merrick Rd, Massapequa Park, NY 11762",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e9d58fcdca077d:0x8e6d5a27da9ddc60",
+            "iid": 25738,
+            "name": "Potstickers & Company",
+            "rank": 6,
+            "score": -3.2263777256011963,
+            "state": "New_York"
+        },
+        {
+            "address": "Shangrila, 120 Swedesford Rd, Devon, PA 19333",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c6937e8e92e79f:0xe8896e5a09ab57e4",
+            "iid": 23444,
+            "name": "Shangrila",
+            "rank": 7,
+            "score": -3.238607883453369,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Char'd: Southeast Asian Kitchen - Richardson TX, 1251 State St #800, Richardson, TX 75082",
+            "category": "['Southeast Asian restaurant']",
+            "gmap_id": "0x864c197e99b7b7e7:0x77b504e43477cf86",
+            "iid": 9044,
+            "name": "Char'd: Southeast Asian Kitchen - Richardson TX",
+            "rank": 8,
+            "score": -3.260226011276245,
+            "state": "Texas"
+        },
+        {
+            "address": "Silk Cuisine, 654 Lancaster Ave, Bryn Mawr, PA 19010",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c6bf8a0a0acddb:0x6c02b61561b7a840",
+            "iid": 23559,
+            "name": "Silk Cuisine",
+            "rank": 9,
+            "score": -3.276235818862915,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "oriental express, 6063 Centreville Crest Ln, Centreville, VA 20121",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89b644e5609d3135:0xe6f3709f72683ccb",
+            "iid": 20372,
+            "name": "oriental express",
+            "rank": 10,
+            "score": -3.2802162170410156,
+            "state": "Virginia"
+        },
+        {
+            "address": "FireWok@Potomac, 9812 Falls Rd #104, Potomac, MD 20854",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x89b6350d1cbee1a7:0xb809c943e63148ef",
+            "iid": 20316,
+            "name": "FireWok@Potomac",
+            "rank": 11,
+            "score": -3.285264492034912,
+            "state": "Maryland"
+        },
+        {
+            "address": "Big Chef Chinese Kitchen, 1055 W Patrick St, Frederick, MD 21703",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c9dba17d4e74c1:0x9ac3aa3862edc4bf",
+            "iid": 24067,
+            "name": "Big Chef Chinese Kitchen",
+            "rank": 12,
+            "score": -3.31819486618042,
+            "state": "Maryland"
+        },
+        {
+            "address": "Ho Ho V Chinese, 27 Hampton House Rd, Newton, NJ 07860",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c36fc9536af1c3:0x98b2cdb3e4e7a5ec",
+            "iid": 23024,
+            "name": "Ho Ho V Chinese",
+            "rank": 13,
+            "score": -3.3236098289489746,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bonchon Gaithersburg - Market St, 130 Market St, Gaithersburg, MD 20878",
+            "category": "['Korean restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89b62d798ab71971:0x530982d272a34264",
+            "iid": 20305,
+            "name": "Bonchon Gaithersburg - Market St",
+            "rank": 14,
+            "score": -3.3337364196777344,
+            "state": "Maryland"
+        },
+        {
+            "address": "Bonchon National City, 1420 E Plaza Blvd Suite D-04, National City, CA 91950",
+            "category": "['Korean restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80d953bde1407c6d:0x25bfada4cb990ca0",
+            "iid": 6309,
+            "name": "Bonchon National City",
+            "rank": 15,
+            "score": -3.3558027744293213,
+            "state": "California"
+        },
+        {
+            "address": "New Hunan, 5151 Waterway Dr #1261, Montclair, VA 22025",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89b6f83e93cded8b:0x331bcc102e5b79e",
+            "iid": 20568,
+            "name": "New Hunan",
+            "rank": 16,
+            "score": -3.3912947177886963,
+            "state": "Virginia"
+        },
+        {
+            "address": "Black Dog Cafe, 4049 W Skippack Pike, Schwenksville, PA 19473",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89c699a5e5e809e7:0x297465c5f02aa0f3",
+            "iid": 23456,
+            "name": "Black Dog Cafe",
+            "rank": 17,
+            "score": -3.3946168422698975,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "How How Kitchen, 4084 Nesconset Hwy, Setauket- East Setauket, NY 11733",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89e840b0c55e723f:0x918450131c67fe77",
+            "iid": 25684,
+            "name": "How How Kitchen",
+            "rank": 18,
+            "score": -3.398259401321411,
+            "state": "New_York"
+        },
+        {
+            "address": "Zao Asian Cafe, 1899 W Traverse Pkwy, Lehi, UT 84043",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x8752812d0ff718ad:0xc1ec850c8b5fd88f",
+            "iid": 11086,
+            "name": "Zao Asian Cafe",
+            "rank": 19,
+            "score": -3.408262014389038,
+            "state": "Utah"
+        },
+        {
+            "address": "Lovers Eggroll, 2719 McKinney Ave, Dallas, TX 75204",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Chinese takeaway', 'Fine dining restaurant', 'Lunch restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x864e9956684450c5:0xaceb70af556b7ea6",
+            "iid": 9664,
+            "name": "Lovers Eggroll",
+            "rank": 20,
+            "score": -3.412742853164673,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Braiden H",
+        "uid": 72534,
+        "user_id": 106998469572974516379
+    }
+}

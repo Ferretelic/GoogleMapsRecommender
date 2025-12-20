@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Taj Mahal Grill, 1200 Ernest W Barrett Pkwy NW #236, Kennesaw, GA 30144",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2019/05/28",
+            "gmap_id": "0x88f51572ec4a6773:0xd5d2d1335490c9bb",
+            "iid": 19160,
+            "name": "Taj Mahal Grill",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1559087166220
+        },
+        {
+            "address": "Cho Ba Mien Asian Market, 3830 Washington Rd #35, Martinez, GA 30907",
+            "category": "['Asian grocery store']",
+            "date": "2019/05/28",
+            "gmap_id": "0x88f9d3a00764af77:0xfc2aa0ca0f28ff7f",
+            "iid": 19541,
+            "name": "Cho Ba Mien Asian Market",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1559087193498
+        },
+        {
+            "address": "Pho Bac, 4300 Towne Center Dr, Evans, GA 30809, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/05/28",
+            "gmap_id": "0x88f9d3585f322adb:0xbfd6284b5410d0d0",
+            "iid": 19538,
+            "name": "Pho Bac",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1559087248407
+        },
+        {
+            "address": "Thai Thani Thai Restaurant, 11025 International Dr, Orlando, FL 32821",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x88e77e274aca9833:0x4a4c808376b0a1ec",
+            "iid": 18710,
+            "name": "Thai Thani Thai Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561772422286
+        },
+        {
+            "address": "Ichiban Buffet, 5269 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/07/02",
+            "gmap_id": "0x88dd81eb3923a109:0x69fe81de62a28417",
+            "iid": 18211,
+            "name": "Ichiban Buffet",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1562033691612
+        },
+        {
+            "address": "H Mart Duluth, 2550 Pleasant Hill Road bldg 300, Park Village Shopping Center, Duluth, GA 30096",
+            "category": "['Asian grocery store', 'Chinese supermarket', 'Korean grocery store', 'Seafood market']",
+            "date": "2019/09/16",
+            "gmap_id": "0x88f5a3aaaa711347:0x4790b94d834a505c",
+            "iid": 19349,
+            "name": "H Mart Duluth",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1568661428987
+        },
+        {
+            "address": "SriThai: Thai kitchen & sushi bar, 4500 Satellite Blvd #1360, Duluth, GA 30096",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/10/19",
+            "gmap_id": "0x88f5a393fa1b75f9:0x1213d8235c25cb85",
+            "iid": 19345,
+            "name": "SriThai: Thai kitchen & sushi bar",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1571445051730
+        },
+        {
+            "address": "Jang Su Jang, 3645 Satellite Blvd, Duluth, GA 30096",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Korean barbecue restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/01/25",
+            "gmap_id": "0x88f5a308b766c6ab:0x76faea01d2c667e2",
+            "iid": 19323,
+            "name": "Jang Su Jang",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1579990944147
+        },
+        {
+            "address": "Kim Chi II Korean Restaurant, 149 E Montgomery Cross Rd, Savannah, GA 31406",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Pan-Asian restaurant']",
+            "date": "2020/02/05",
+            "gmap_id": "0x88fb744dc063021d:0xb55c7121116fa2f",
+            "iid": 19565,
+            "name": "Kim Chi II Korean Restaurant",
+            "split": "valid",
+            "state": "Georgia",
+            "unix_time": 1580865504026
+        },
+        {
+            "address": "CO, 10 Whitaker St, Savannah, GA 31401",
+            "category": "['Southeast Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2020/02/07",
+            "gmap_id": "0x88fb9e66a21e1185:0xe72c5dab2d05ec33",
+            "iid": 19584,
+            "name": "CO",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1581034347448
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Pho 24 DBA. Hoang Toan Restaurant, 3865 Venture Dr, Duluth, GA 30096",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88f5a35feb5cbebb:0x8bf7388794a2ac6e",
+            "iid": 19337,
+            "name": "Pho 24 DBA. Hoang Toan Restaurant",
+            "rank": 1,
+            "score": -1.4761981964111328,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asian Gourmet, 125 Ernest W Barrett Pkwy NW #107, Marietta, GA 30066",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x88f51551c3fbf123:0x70c6019285cffdd",
+            "iid": 19159,
+            "name": "Asian Gourmet",
+            "rank": 2,
+            "score": -1.7792848348617554,
+            "state": "Georgia"
+        },
+        {
+            "address": "Gu's Bistro, 5750 Buford Hwy NE suite a, Doraville, GA 30340",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f5a7608048ced1:0x4c7b5a6dabf040b5",
+            "iid": 19375,
+            "name": "Gu's Bistro",
+            "rank": 3,
+            "score": -1.7814258337020874,
+            "state": "Georgia"
+        },
+        {
+            "address": "P.F. Chang's To Go, 213 W Hubbard St, Chicago, IL 60654",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2d42306554ff:0x1e7b171b4a859340",
+            "iid": 13465,
+            "name": "P.F. Chang's To Go",
+            "rank": 4,
+            "score": -1.9183140993118286,
+            "state": "Illinois"
+        },
+        {
+            "address": "Yo Sushi, 84E Second Street, New York, NY 10010",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2590abd507611:0x15483467938e3e38",
+            "iid": 21742,
+            "name": "Yo Sushi",
+            "rank": 5,
+            "score": -1.9520750045776367,
+            "state": "New_York"
+        },
+        {
+            "address": "X-press Thai, 6750 Gaylord Pkwy #140, Frisco, TX 75034",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x864c3d74088cba95:0xef8e158684c6aae9",
+            "iid": 9362,
+            "name": "X-press Thai",
+            "rank": 6,
+            "score": -2.0152714252471924,
+            "state": "Texas"
+        },
+        {
+            "address": "Indoeats Foodmart, 5199 Buford Hwy NE, Doraville, GA 30340",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x88f5098ccbdab365:0x440f28f3bcb73002",
+            "iid": 19087,
+            "name": "Indoeats Foodmart",
+            "rank": 7,
+            "score": -2.0211451053619385,
+            "state": "Georgia"
+        },
+        {
+            "address": "Chichop Taiwanese Grilled&Fried \uff08\u53f0\u6e7e\u70b8\u7269\uff09, 6035 Peachtree Rd, Atlanta, GA 30360",
+            "category": "['Restaurant', 'Grill', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Fried chicken takeaway', 'Seafood restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x88f5091304a8c9e5:0x774a63334c84462b",
+            "iid": 19076,
+            "name": "Chichop Taiwanese Grilled&Fried \uff08\u53f0\u6e7e\u70b8\u7269\uff09",
+            "rank": 8,
+            "score": -2.0489394664764404,
+            "state": "Georgia"
+        },
+        {
+            "address": "Grand Sichuan, 125 Canal St, New York, NY 10002",
+            "category": "['Restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c25a27e75d1df7:0x75c68f59f60cecb",
+            "iid": 22044,
+            "name": "Grand Sichuan",
+            "rank": 9,
+            "score": -2.0758862495422363,
+            "state": "New_York"
+        },
+        {
+            "address": "NewYork Roll'n Katsu, 11 W 32nd St, New York City, NY 10001",
+            "category": "['Sushi takeaway', 'Asian restaurant', 'Fast food restaurant', 'Japanese curry restaurant', 'Sushi restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x89c25912cd158789:0xad261e4f142a0f7f",
+            "iid": 21744,
+            "name": "NewYork Roll'n Katsu",
+            "rank": 10,
+            "score": -2.09297776222229,
+            "state": "New_York"
+        },
+        {
+            "address": "Everest Grocery/Ananda Bazzar, 3102 S Parker Rd A6, Aurora, CO 80014",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x876c87e5cf3624e9:0xb668bb05b3e8ace9",
+            "iid": 11668,
+            "name": "Everest Grocery/Ananda Bazzar",
+            "rank": 11,
+            "score": -2.0939345359802246,
+            "state": "Colorado"
+        },
+        {
+            "address": "Mandarin Garden, 9350 US-192 #102, Clermont, FL 34714",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88dd7c9325a93f5b:0x60b9b05cdc9cdc26",
+            "iid": 18179,
+            "name": "Mandarin Garden",
+            "rank": 12,
+            "score": -2.0961697101593018,
+            "state": "Florida"
+        },
+        {
+            "address": "Tinbu Asian, 636 Willis Ave, Williston Park, NY 11596",
+            "category": "['Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c287e6c17e0a69:0x97fa5b43221023f0",
+            "iid": 22578,
+            "name": "Tinbu Asian",
+            "rank": 13,
+            "score": -2.1065833568573,
+            "state": "New_York"
+        },
+        {
+            "address": "Hung Vuong Food Market, 1445 Brace Rd, Cherry Hill, NJ 08034",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89c6cdfc19eff823:0xf53c4b966d39c04d",
+            "iid": 23728,
+            "name": "Hung Vuong Food Market",
+            "rank": 14,
+            "score": -2.1187376976013184,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 3143,
+            "name": "Tomokazu",
+            "rank": 15,
+            "score": -2.130817174911499,
+            "state": "California"
+        },
+        {
+            "address": "Noodle Edition, 1331 Coleman Ave, Santa Clara, CA 95050",
+            "category": "['Noodle shop', 'Asian fusion restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x808fcb31133db015:0x7d3ef796c7ff3469",
+            "iid": 3812,
+            "name": "Noodle Edition",
+            "rank": 16,
+            "score": -2.1313557624816895,
+            "state": "California"
+        },
+        {
+            "address": "Ken Hing Food Market, 247 Grand St #1, New York, NY 10002",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89c25987e6f5b639:0xad21a746cea756d9",
+            "iid": 21816,
+            "name": "Ken Hing Food Market",
+            "rank": 17,
+            "score": -2.1351778507232666,
+            "state": "New_York"
+        },
+        {
+            "address": "Pattaya Cafe Indonesian and Thai food, 3455 Peachtree Industrial Blvd #215, Duluth, GA 30096",
+            "category": "['Thai restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x88f5a20fc5dd6303:0x8476512ca59b4005",
+            "iid": 19314,
+            "name": "Pattaya Cafe Indonesian and Thai food",
+            "rank": 18,
+            "score": -2.1438653469085693,
+            "state": "Georgia"
+        },
+        {
+            "address": "New Beijing Chinese Restaurant, 8444 Langston Blvd, Fairfax, VA 22031",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89b64b791929b0ad:0xd4f9a9979b640e9",
+            "iid": 20444,
+            "name": "New Beijing Chinese Restaurant",
+            "rank": 19,
+            "score": -2.1513233184814453,
+            "state": "Virginia"
+        },
+        {
+            "address": "SpringTea, 8457 S John Young Pkwy, Orlando, FL 32819",
+            "category": "['Asian restaurant', 'Bubble tea store', 'Coffee store']",
+            "gmap_id": "0x88e77d35b847367b:0xd27ee7b726e89e1d",
+            "iid": 18702,
+            "name": "SpringTea",
+            "rank": 20,
+            "score": -2.153188943862915,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Raymond Chong",
+        "uid": 1000,
+        "user_id": 100095295841343340989
+    }
+}

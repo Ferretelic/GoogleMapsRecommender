@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Pho 7, 13121 SE Kent-Kangley Rd, Kent, WA 98030",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/08/30",
+            "gmap_id": "0x54905f20c587e92d:0xaaf27394dc674473",
+            "iid": 1021,
+            "name": "Pho 7",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1472537721735
+        },
+        {
+            "address": "Mi La Cay, 212 12th Ave S, Seattle, WA 98144",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant']",
+            "date": "2016/10/26",
+            "gmap_id": "0x54906a9455555555:0x8daa30696544687",
+            "iid": 1062,
+            "name": "Mi La Cay",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1477511587372
+        },
+        {
+            "address": "Ba Mien Seafood Market, 6951 Martin Luther King Jr Way S, Seattle, WA 98118",
+            "category": "['Seafood market', 'Asian grocery store']",
+            "date": "2016/12/30",
+            "gmap_id": "0x5490420182eccd25:0x239dd17295f37ddb",
+            "iid": 875,
+            "name": "Ba Mien Seafood Market",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1483082553683
+        },
+        {
+            "address": "Phnom Penh Noodle House, 913 S Jackson St suite A, Seattle, WA 98104",
+            "category": "['Cambodian restaurant', 'Noodle shop', 'Southeast Asian restaurant']",
+            "date": "2017/01/09",
+            "gmap_id": "0x54906abc425c30ab:0xe3397836ca8d0a8a",
+            "iid": 1086,
+            "name": "Phnom Penh Noodle House",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1483931119013
+        },
+        {
+            "address": "Over The Rainbow Tea Bar, 4820 NE 4th St, Renton, WA 98059",
+            "category": "['Tea house', 'Asian restaurant', 'Bubble tea store', 'Cafe', 'Juice shop']",
+            "date": "2017/07/21",
+            "gmap_id": "0x549067d75770b4c3:0x9f14b920e47e9656",
+            "iid": 1036,
+            "name": "Over The Rainbow Tea Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1500680205413
+        },
+        {
+            "address": "Foo Lam Chinese Restaurant, 7101 Martin Luther King Jr Way S, Seattle, WA 98118",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/10/26",
+            "gmap_id": "0x4107d9776d652c6d:0xb8d3eb633df1d791",
+            "iid": 37,
+            "name": "Foo Lam Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1508979848897
+        },
+        {
+            "address": "Saigon Soul Vietnamese Restaurant, 24202 104th Ave SE, Kent, WA 98031",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fine dining restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/11/14",
+            "gmap_id": "0x54905ea383d79ead:0x43664479fe108906",
+            "iid": 1015,
+            "name": "Saigon Soul Vietnamese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1542161808885
+        },
+        {
+            "address": "Crazy Pho Cajun, 32034 23rd Ave S, Federal Way, WA 98003",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Vietnamese restaurant']",
+            "date": "2019/05/17",
+            "gmap_id": "0x549057823544aa0d:0x48b9d50915a1ab66",
+            "iid": 942,
+            "name": "Crazy Pho Cajun",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1558060118544
+        },
+        {
+            "address": "Ba Bar Capitol Hill, 550 12th Ave, Seattle, WA 98122",
+            "category": "['Vietnamese restaurant', 'Banquet hall', 'Bar & grill', 'Catering food and drink supplier', 'Cocktail bar', 'Coffee shop', 'Lounge', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "date": "2019/12/07",
+            "gmap_id": "0x54906ac630a1649d:0xd16b1e435b163d37",
+            "iid": 1110,
+            "name": "Ba Bar Capitol Hill",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1575710449464
+        },
+        {
+            "address": "Muckleshoot Casino Resort, 2402 Auburn Way S, Auburn, WA 98002",
+            "category": "['Casino', 'Asian fusion restaurant', 'Banquet hall', 'Bar', 'Buffet restaurant', 'Cafe', 'Hamburger restaurant', 'Night club', 'Tourist attraction']",
+            "date": "2019/12/31",
+            "gmap_id": "0x5490f7ceab1dba15:0xd7048d45b6acb708",
+            "iid": 1212,
+            "name": "Muckleshoot Casino Resort",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1577784164139
+        },
+        {
+            "address": "Super Six, 3714 S Hudson St, Seattle, WA 98118",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/08",
+            "gmap_id": "0x54906a0e9f0d5111:0x1470ecdf52613ecc",
+            "iid": 1058,
+            "name": "Super Six",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1578465138061
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Oishi Yummy, 10715 SE Carr Rd, Renton, WA 98055",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x54905d59368a41ad:0x41348e96838f9b39",
+            "iid": 1009,
+            "name": "Oishi Yummy",
+            "rank": 1,
+            "score": -1.7362399101257324,
+            "state": "Washington"
+        },
+        {
+            "address": "Shabu Plus, 1032 S Jackson St #202b, Seattle, WA 98104",
+            "category": "['Hot pot restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54906abefabff55b:0x61ed2b3506923c2f",
+            "iid": 1105,
+            "name": "Shabu Plus",
+            "rank": 2,
+            "score": -1.7492698431015015,
+            "state": "Washington"
+        },
+        {
+            "address": "Golden Hong Market, 516 7th Ave S, Seattle, WA 98104",
+            "category": "['Asian grocery store', 'Food store']",
+            "gmap_id": "0x54906abc4e95ba27:0x362333043efa54",
+            "iid": 1087,
+            "name": "Golden Hong Market",
+            "rank": 3,
+            "score": -1.915756106376648,
+            "state": "Washington"
+        },
+        {
+            "address": "Thai Castle Restaurant, 6920 Coal Creek Pkwy SE #10, Newcastle, WA 98059",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x5490691f182defd3:0xeca513d23e21d1c0",
+            "iid": 1052,
+            "name": "Thai Castle Restaurant",
+            "rank": 4,
+            "score": -2.031808853149414,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho Van, 9150 Rainier Ave S, Seattle, WA 98118",
+            "category": "['Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x549042727ca22add:0x58bd903316af2a1e",
+            "iid": 878,
+            "name": "Pho Van",
+            "rank": 5,
+            "score": -2.0725595951080322,
+            "state": "Washington"
+        },
+        {
+            "address": "Bombay Grill, 11051 1st Ave S, Seattle, WA 98168",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x5490146068cb6e53:0xcd3587d060b338ce",
+            "iid": 737,
+            "name": "Bombay Grill",
+            "rank": 6,
+            "score": -2.145352363586426,
+            "state": "Washington"
+        },
+        {
+            "address": "Congeez, 604 5th Ave S, Seattle, WA 98104",
+            "category": "['Fast food restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5490145715f42bed:0x6691246284814be0",
+            "iid": 732,
+            "name": "Congeez",
+            "rank": 7,
+            "score": -2.1569676399230957,
+            "state": "Washington"
+        },
+        {
+            "address": "Thai Place Restaurant, 513 S Weller St, Seattle, WA 98104",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54906abcea31458d:0x5b9bb79f3891b4db",
+            "iid": 1097,
+            "name": "Thai Place Restaurant",
+            "rank": 8,
+            "score": -2.1742279529571533,
+            "state": "Washington"
+        },
+        {
+            "address": "Tea Palace, 2828 Sunset Ln NE, Renton, WA 98056",
+            "category": "['Asian restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x5490686c348bffc3:0x39df349b107aeba3",
+            "iid": 1043,
+            "name": "Tea Palace",
+            "rank": 9,
+            "score": -2.190100908279419,
+            "state": "Washington"
+        },
+        {
+            "address": "Taste of Xi'an, 14515 NE 20th St, Bellevue, WA 98007",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Cold noodle restaurant', 'Dan Dan noodle restaurant', 'Delivery Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x54906da5d27d9793:0x8d7c147a0fc0b197",
+            "iid": 1160,
+            "name": "Taste of Xi'an",
+            "rank": 10,
+            "score": -2.202106237411499,
+            "state": "Washington"
+        },
+        {
+            "address": "Hangry Panda: Gluten Free Teriyaki, Street Eats & Bubble Tea, 7815 Aurora Ave N, Seattle, WA 98103",
+            "category": "['Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Fast food restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x54901569492140fd:0xe42e682d386465ca",
+            "iid": 800,
+            "name": "Hangry Panda: Gluten Free Teriyaki, Street Eats & Bubble Tea",
+            "rank": 11,
+            "score": -2.2154037952423096,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho Sriracha, 5515 4th Ave S, Seattle, WA 98108",
+            "category": "['Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x549041bf603b4151:0x7effb6addf17bdc5",
+            "iid": 866,
+            "name": "Pho Sriracha",
+            "rank": 12,
+            "score": -2.2181293964385986,
+            "state": "Washington"
+        },
+        {
+            "address": "Bento Teriyaki, 323 Washington Ave S, Kent, WA 98032",
+            "category": "['Sushi restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54905be2f9e0fd19:0x3590beb2fcaddd7b",
+            "iid": 972,
+            "name": "Bento Teriyaki",
+            "rank": 13,
+            "score": -2.228137493133545,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho To Chau, 18230 E Valley Hwy # 146, Kent, WA 98032",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54905d029bbc2e61:0xd505038d8cc86000",
+            "iid": 998,
+            "name": "Pho To Chau",
+            "rank": 14,
+            "score": -2.242863655090332,
+            "state": "Washington"
+        },
+        {
+            "address": "Teri Fresh, 26636 Maple Valley Black Diamond Rd SE, Maple Valley, WA 98038",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x5490601e2ff8b949:0x15a92ac7db9d74a6",
+            "iid": 1029,
+            "name": "Teri Fresh",
+            "rank": 15,
+            "score": -2.2442219257354736,
+            "state": "Washington"
+        },
+        {
+            "address": "Asia Ginger Teriyaki, 1250 S 180th St, Renton, WA 98057",
+            "category": "['Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54905ce3ece3b189:0x8fbc796307f281",
+            "iid": 996,
+            "name": "Asia Ginger Teriyaki",
+            "rank": 16,
+            "score": -2.245256185531616,
+            "state": "Washington"
+        },
+        {
+            "address": "Best Cafe & Teriyaki, 10990 E Marginal Way S, Tukwila, WA 98168",
+            "category": "['Cafe', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54904250e80ac4dd:0x6727652e6220164e",
+            "iid": 876,
+            "name": "Best Cafe & Teriyaki",
+            "rank": 17,
+            "score": -2.2466063499450684,
+            "state": "Washington"
+        },
+        {
+            "address": "Crab Season, 3303 156th Ave SE, Bellevue, WA 98007",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Crab house', 'Restaurant']",
+            "gmap_id": "0x54906f2d484a0621:0x1a2bc18d7d8b394c",
+            "iid": 1179,
+            "name": "Crab Season",
+            "rank": 18,
+            "score": -2.2682504653930664,
+            "state": "Washington"
+        },
+        {
+            "address": "Angkor Market, 9660 16th Ave SW, Seattle, WA 98106",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x549043de4f0b2403:0xecfd90945dea991",
+            "iid": 892,
+            "name": "Angkor Market",
+            "rank": 19,
+            "score": -2.2918121814727783,
+            "state": "Washington"
+        },
+        {
+            "address": "Fuji Teriyaki, 17650 140th Ave SE, Renton, WA 98058",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x5490677df1a7db5d:0x3335b53072685d75",
+            "iid": 1035,
+            "name": "Fuji Teriyaki",
+            "rank": 20,
+            "score": -2.314520835876465,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Khanh Nguyen",
+        "uid": 178073,
+        "user_id": 117240793870453901405
+    }
+}

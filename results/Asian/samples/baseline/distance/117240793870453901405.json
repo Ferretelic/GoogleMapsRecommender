@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Pho 7, 13121 SE Kent-Kangley Rd, Kent, WA 98030",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/08/30",
+            "gmap_id": "0x54905f20c587e92d:0xaaf27394dc674473",
+            "iid": 1021,
+            "name": "Pho 7",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1472537721735
+        },
+        {
+            "address": "Mi La Cay, 212 12th Ave S, Seattle, WA 98144",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant']",
+            "date": "2016/10/26",
+            "gmap_id": "0x54906a9455555555:0x8daa30696544687",
+            "iid": 1062,
+            "name": "Mi La Cay",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1477511587372
+        },
+        {
+            "address": "Ba Mien Seafood Market, 6951 Martin Luther King Jr Way S, Seattle, WA 98118",
+            "category": "['Seafood market', 'Asian grocery store']",
+            "date": "2016/12/30",
+            "gmap_id": "0x5490420182eccd25:0x239dd17295f37ddb",
+            "iid": 875,
+            "name": "Ba Mien Seafood Market",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1483082553683
+        },
+        {
+            "address": "Phnom Penh Noodle House, 913 S Jackson St suite A, Seattle, WA 98104",
+            "category": "['Cambodian restaurant', 'Noodle shop', 'Southeast Asian restaurant']",
+            "date": "2017/01/09",
+            "gmap_id": "0x54906abc425c30ab:0xe3397836ca8d0a8a",
+            "iid": 1086,
+            "name": "Phnom Penh Noodle House",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1483931119013
+        },
+        {
+            "address": "Over The Rainbow Tea Bar, 4820 NE 4th St, Renton, WA 98059",
+            "category": "['Tea house', 'Asian restaurant', 'Bubble tea store', 'Cafe', 'Juice shop']",
+            "date": "2017/07/21",
+            "gmap_id": "0x549067d75770b4c3:0x9f14b920e47e9656",
+            "iid": 1036,
+            "name": "Over The Rainbow Tea Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1500680205413
+        },
+        {
+            "address": "Foo Lam Chinese Restaurant, 7101 Martin Luther King Jr Way S, Seattle, WA 98118",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/10/26",
+            "gmap_id": "0x4107d9776d652c6d:0xb8d3eb633df1d791",
+            "iid": 37,
+            "name": "Foo Lam Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1508979848897
+        },
+        {
+            "address": "Saigon Soul Vietnamese Restaurant, 24202 104th Ave SE, Kent, WA 98031",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fine dining restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/11/14",
+            "gmap_id": "0x54905ea383d79ead:0x43664479fe108906",
+            "iid": 1015,
+            "name": "Saigon Soul Vietnamese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1542161808885
+        },
+        {
+            "address": "Crazy Pho Cajun, 32034 23rd Ave S, Federal Way, WA 98003",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Vietnamese restaurant']",
+            "date": "2019/05/17",
+            "gmap_id": "0x549057823544aa0d:0x48b9d50915a1ab66",
+            "iid": 942,
+            "name": "Crazy Pho Cajun",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1558060118544
+        },
+        {
+            "address": "Ba Bar Capitol Hill, 550 12th Ave, Seattle, WA 98122",
+            "category": "['Vietnamese restaurant', 'Banquet hall', 'Bar & grill', 'Catering food and drink supplier', 'Cocktail bar', 'Coffee shop', 'Lounge', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "date": "2019/12/07",
+            "gmap_id": "0x54906ac630a1649d:0xd16b1e435b163d37",
+            "iid": 1110,
+            "name": "Ba Bar Capitol Hill",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1575710449464
+        },
+        {
+            "address": "Muckleshoot Casino Resort, 2402 Auburn Way S, Auburn, WA 98002",
+            "category": "['Casino', 'Asian fusion restaurant', 'Banquet hall', 'Bar', 'Buffet restaurant', 'Cafe', 'Hamburger restaurant', 'Night club', 'Tourist attraction']",
+            "date": "2019/12/31",
+            "gmap_id": "0x5490f7ceab1dba15:0xd7048d45b6acb708",
+            "iid": 1212,
+            "name": "Muckleshoot Casino Resort",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1577784164139
+        },
+        {
+            "address": "Super Six, 3714 S Hudson St, Seattle, WA 98118",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/08",
+            "gmap_id": "0x54906a0e9f0d5111:0x1470ecdf52613ecc",
+            "iid": 1058,
+            "name": "Super Six",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1578465138061
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Taste of Xi'an, 14515 NE 20th St, Bellevue, WA 98007",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Cold noodle restaurant', 'Dan Dan noodle restaurant', 'Delivery Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x54906da5d27d9793:0x8d7c147a0fc0b197",
+            "iid": 1160,
+            "name": "Taste of Xi'an",
+            "rank": 1,
+            "score": -2.1651413440704346,
+            "state": "Washington"
+        },
+        {
+            "address": "Soho Teriyaki, 1209 Auburn Way N, Auburn, WA 98002",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x549058602a654d97:0xb93a4ef4cbe8538f",
+            "iid": 955,
+            "name": "Soho Teriyaki",
+            "rank": 2,
+            "score": -2.303159713745117,
+            "state": "Washington"
+        },
+        {
+            "address": "Hangry Panda: Gluten Free Teriyaki, Street Eats & Bubble Tea, 7815 Aurora Ave N, Seattle, WA 98103",
+            "category": "['Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Fast food restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x54901569492140fd:0xe42e682d386465ca",
+            "iid": 800,
+            "name": "Hangry Panda: Gluten Free Teriyaki, Street Eats & Bubble Tea",
+            "rank": 3,
+            "score": -2.303659439086914,
+            "state": "Washington"
+        },
+        {
+            "address": "Quickly, 119 N Lincoln Ave, Monterey Park, CA 91755",
+            "category": "['Asian restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80c2c55126323e33:0x352f85c5986b7393",
+            "iid": 5233,
+            "name": "Quickly",
+            "rank": 4,
+            "score": -2.4359073638916016,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki & More, 120 Bellevue Way NE, Bellevue, WA 98004",
+            "category": "['Asian restaurant', 'Box lunch supplier', 'Chicken restaurant', 'Fast food restaurant', 'Japanese restaurant', 'Noodle shop', 'Seafood restaurant', 'Thai restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x54906c8779da7333:0xc866578e92fc4c88",
+            "iid": 1138,
+            "name": "Teriyaki & More",
+            "rank": 5,
+            "score": -2.545459270477295,
+            "state": "Washington"
+        },
+        {
+            "address": "Sunny Teriyaki #9, 13754 Aurora Ave N, Seattle, WA 98133",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5490113ab0f3089f:0x8b90367a1c14fb07",
+            "iid": 700,
+            "name": "Sunny Teriyaki #9",
+            "rank": 6,
+            "score": -2.5514187812805176,
+            "state": "Washington"
+        },
+        {
+            "address": "Washington, Bellevue, Factoria Blvd SE, Over The Rainbow Tea Bar\u90ae\u653f\u7f16\u7801: 98006",
+            "category": "['Bubble tea store', 'Asian restaurant', 'Cafe', 'Juice shop']",
+            "gmap_id": "0x54906fe64cf3e7eb:0x2dbea0a5d721dfe1",
+            "iid": 1191,
+            "name": "Over The Rainbow Tea Bar",
+            "rank": 7,
+            "score": -2.607659339904785,
+            "state": "Washington"
+        },
+        {
+            "address": "Teriyaki & Bao: Harumama - Carlsbad, 711 Grand Ave Suite A, Carlsbad, CA 92008",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80dc739bb50cbacd:0x69ca2052b01c2b22",
+            "iid": 6652,
+            "name": "Teriyaki & Bao: Harumama - Carlsbad",
+            "rank": 8,
+            "score": -2.6419081687927246,
+            "state": "California"
+        },
+        {
+            "address": "Sheung Shui - Fish & Rice Noodles \u4e0a\u6c34\u9c7c\u6c64\u7c73\u7ebf, 20651 Lake Forest Dr ste a-102, Lake Forest, CA 92630",
+            "category": "['Asian fusion restaurant', 'Noodle shop', 'Soup shop']",
+            "gmap_id": "0x80dce9511c59a1db:0xd7d44d7b1dcbdc69",
+            "iid": 7127,
+            "name": "Sheung Shui - Fish & Rice Noodles \u4e0a\u6c34\u9c7c\u6c64\u7c73\u7ebf",
+            "rank": 9,
+            "score": -2.645627737045288,
+            "state": "California"
+        },
+        {
+            "address": "Food Depot, 12405 SE 82nd Ave, Portland, OR 97086",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x54957587ef9aae7b:0x326b27fab9857651",
+            "iid": 1558,
+            "name": "Food Depot",
+            "rank": 10,
+            "score": -2.672205686569214,
+            "state": "Oregon"
+        },
+        {
+            "address": "Wisconsin, New Berlin, W National Ave, New China\u90ae\u653f\u7f16\u7801: 53151",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x880508c3bd036353:0x3d971d4e5c3345a2",
+            "iid": 13080,
+            "name": "New China",
+            "rank": 11,
+            "score": -2.6861412525177,
+            "state": "Wisconsin"
+        },
+        {
+            "address": "Spice Wok, 236 E Spring Valley Rd, Richardson, TX 75081",
+            "category": "['Asian fusion restaurant', 'Fast food restaurant', 'Halal restaurant', 'Takeout Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x864c1f0f9b4720db:0x85bc566f84293e07",
+            "iid": 9085,
+            "name": "Spice Wok",
+            "rank": 12,
+            "score": -2.687350273132324,
+            "state": "Texas"
+        },
+        {
+            "address": "Orenji Sushi & Noodles, 5625 221st Pl SE, Issaquah, WA 98027",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x54906fd84936fe97:0xc5d11584f10300e6",
+            "iid": 1187,
+            "name": "Orenji Sushi & Noodles",
+            "rank": 13,
+            "score": -2.6903696060180664,
+            "state": "Washington"
+        },
+        {
+            "address": "Koji Express Japanese Grill - South, 3114 S Church St, Murfreesboro, TN 37127",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8863f9d6687c7157:0x2cc7215c944047c",
+            "iid": 16405,
+            "name": "Koji Express Japanese Grill - South",
+            "rank": 14,
+            "score": -2.694850444793701,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Golden Box Express, 21212 Bake Pkwy Unit C & D, Lake Forest, CA 92630",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Chinese noodle restaurant', 'Chinese takeaway', 'Chinese tea house', 'Sichuan restaurant']",
+            "gmap_id": "0x80dce90d94db4f03:0xdfe86659fdfbddc7",
+            "iid": 7121,
+            "name": "Golden Box Express",
+            "rank": 15,
+            "score": -2.698518991470337,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Madness, 4275 City Centre Rd Unit 500, Firestone, CO 80504",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876c07ee09f4f09b:0xbd79da0cd16503af",
+            "iid": 11449,
+            "name": "Teriyaki Madness",
+            "rank": 16,
+            "score": -2.7036032676696777,
+            "state": "Colorado"
+        },
+        {
+            "address": "Pacific Fusion, 1140 N Germantown Pkwy, Cordova, TN 38016",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x887f9d77afe5c349:0xd84688c3683d4c60",
+            "iid": 16913,
+            "name": "Pacific Fusion",
+            "rank": 17,
+            "score": -2.7045798301696777,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Cafe Chinois - Wilmington, NC, 3710 S College Rd Unit #123, Wilmington, NC 28412",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89a9f5a2cda2eda1:0xd8987edb30c40653",
+            "iid": 19767,
+            "name": "Cafe Chinois - Wilmington, NC",
+            "rank": 18,
+            "score": -2.70643949508667,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "YAYO TACO, 965 N Vignes St # 6, Los Angeles, CA 90012",
+            "category": "['Restaurant', 'Asian restaurant', 'Breakfast restaurant', 'Central American restaurant', 'Fast food restaurant', 'Mexican restaurant']",
+            "gmap_id": "0x80c2c64301ee8893:0xe950e6898fca65e4",
+            "iid": 5256,
+            "name": "YAYO TACO",
+            "rank": 19,
+            "score": -2.706469774246216,
+            "state": "California"
+        },
+        {
+            "address": "P's VietMi Cafe, 8475 S John Young Pkwy, Orlando, FL 32819",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Restaurant', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x88e77d7be34a9435:0x8f720b18985b54bd",
+            "iid": 18704,
+            "name": "P's VietMi Cafe",
+            "rank": 20,
+            "score": -2.7069077491760254,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Khanh Nguyen",
+        "uid": 178073,
+        "user_id": 117240793870453901405
+    }
+}

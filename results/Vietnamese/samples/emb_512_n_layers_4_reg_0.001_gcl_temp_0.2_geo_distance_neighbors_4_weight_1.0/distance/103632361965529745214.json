@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/03/31",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 3858,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1522533110058
+        },
+        {
+            "address": "Pho Kien Giang, 8730 49th St N #1, Pinellas Park, FL 33782",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/05/29",
+            "gmap_id": "0x88c2e4f2f77952eb:0x8eac9845e410178b",
+            "iid": 3855,
+            "name": "Pho Kien Giang",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1527616188385
+        },
+        {
+            "address": "Pho Quyen Vietnamese Cuisine, 8404 W Hillsborough Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x88c2c16cc64f58ad:0x8c71b7075182f907",
+            "iid": 3826,
+            "name": "Pho Quyen Vietnamese Cuisine",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1529843901090
+        },
+        {
+            "address": "Pho Vietnam, 87 Chrystie St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/07/04",
+            "gmap_id": "0x89c25987fc742847:0x9855faf3b5bf8947",
+            "iid": 4436,
+            "name": "Pho Vietnam",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1530740767645
+        },
+        {
+            "address": "Hello Saigon, 180 Bleecker St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Bar', 'Delivery service', 'Pho restaurant', 'Sandwich shop']",
+            "date": "2018/07/07",
+            "gmap_id": "0x89c259921bf4909b:0x9e02d6c63bfd70bf",
+            "iid": 4444,
+            "name": "Hello Saigon",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1530982084471
+        },
+        {
+            "address": "Ha Long Bay Restaurant, 5944 34th St N, St. Petersburg, FL 33714",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "date": "2018/11/04",
+            "gmap_id": "0x88c2e47792e36929:0x3ddfeb9be2dc856a",
+            "iid": 3846,
+            "name": "Ha Long Bay Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1541295548109
+        },
+        {
+            "address": "Phan's Asian Cuisine, 9741 S Orange Blossom Trl STE 10, Orlando, FL 32837",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant']",
+            "date": "2018/12/25",
+            "gmap_id": "0x88e77d92eeb2fd4f:0x92238220761db75",
+            "iid": 4001,
+            "name": "Phan's Asian Cuisine",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1545744184950
+        },
+        {
+            "address": "Ben Thanh Restaurant, 4200 62nd Ave N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/23",
+            "gmap_id": "0x88c2e47fdb0fe3ff:0x8d9c6da976617ccf",
+            "iid": 3848,
+            "name": "Ben Thanh Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1548269809372
+        },
+        {
+            "address": "Pho Ha Tien, 6139 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Takeout Restaurant', 'Pho restaurant']",
+            "date": "2019/06/03",
+            "gmap_id": "0x88c2e4bb43160d97:0x53509eecf4e42a07",
+            "iid": 3851,
+            "name": "Pho Ha Tien",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1559568028967
+        },
+        {
+            "address": "Long Phung Cafe, 5864 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/11",
+            "gmap_id": "0x88c2e4bd44b7ce95:0xf8e1bbb21fd62733",
+            "iid": 3853,
+            "name": "Long Phung Cafe",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1565484331403
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Asian House Chinese & Vietnamese Restaurant, 6800 Gulfport Blvd S #105, South Pasadena, FL 33707",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88c2e351e3ab95e7:0x79f6d25934fde985",
+            "iid": 3843,
+            "name": "Asian House Chinese & Vietnamese Restaurant",
+            "rank": 1,
+            "score": -1.8587225675582886,
+            "state": "Florida"
+        },
+        {
+            "address": "Sab Cafe, 111 2nd Ave NE UNIT 100, St. Petersburg, FL 33701",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Live music venue', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2e19dbfaeccc3:0x50296b0b055c4bc",
+            "iid": 3842,
+            "name": "Sab Cafe",
+            "rank": 2,
+            "score": -1.912055253982544,
+            "state": "Florida"
+        },
+        {
+            "address": "Bo Ne By E.T, 10613 Bellaire Blvd a125, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd3117f1632f:0xa6f6f4ee432f119a",
+            "iid": 2447,
+            "name": "Bo Ne By E.T",
+            "rank": 3,
+            "score": -2.040482997894287,
+            "state": "Texas"
+        },
+        {
+            "address": "H\u01b0\u01a1ng Giang Food To Go, 14282 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27c40a4acecd:0x1d8bb7b6bcfc5a1",
+            "iid": 1941,
+            "name": "H\u01b0\u01a1ng Giang Food To Go",
+            "rank": 4,
+            "score": -2.0649943351745605,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Pho, 6938 Wilcrest Dr STE A, Houston, TX 77072",
+            "category": "['Coffee shop', 'Cafe', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640dd48016c724b:0x3911d6d31c1c5a47",
+            "iid": 2478,
+            "name": "Saigon Pho",
+            "rank": 5,
+            "score": -2.0744080543518066,
+            "state": "Texas"
+        },
+        {
+            "address": "Saigon Garden, 5937 Cypress Gardens Blvd, Winter Haven, FL 33884",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88dd0d87091e39fb:0xf3d7ec39130efaa0",
+            "iid": 3940,
+            "name": "Saigon Garden",
+            "rank": 6,
+            "score": -2.085238456726074,
+            "state": "Florida"
+        },
+        {
+            "address": "Little New Orleans Kitchen & Oyster Bar, 8204 Crystal Clear Ln, Orlando, FL 32809",
+            "category": "['Oyster bar restaurant', 'Bar', 'Bar & grill', 'Caterer', 'Pub', 'Seafood restaurant', 'Sports bar', 'Steak house', 'Vietnamese restaurant']",
+            "gmap_id": "0x88dd7f5920de621b:0x1002d7cc527d6fcc",
+            "iid": 3944,
+            "name": "Little New Orleans Kitchen & Oyster Bar",
+            "rank": 7,
+            "score": -2.110715866088867,
+            "state": "Florida"
+        },
+        {
+            "address": "Ku Ti brunch & grill, 15619 Brookhurst St, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant', 'Brunch restaurant', 'Cafeteria', 'Fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd271bbe253ba3:0x2bc4b7931f41682",
+            "iid": 1852,
+            "name": "Ku Ti brunch & grill",
+            "rank": 8,
+            "score": -2.1239466667175293,
+            "state": "California"
+        },
+        {
+            "address": "Rex Restaurant and Lounge, 10212 Westminster Ave #111, Garden Grove, CA 92648",
+            "category": "['Vietnamese restaurant', 'Sports bar']",
+            "gmap_id": "0x80dd27c320faaaab:0xbb95bc44c213bc3f",
+            "iid": 1933,
+            "name": "Rex Restaurant and Lounge",
+            "rank": 9,
+            "score": -2.1260409355163574,
+            "state": "California"
+        },
+        {
+            "address": "Hong Lan Queen Eggrolls, 15566 Brookhurst St, Westminster, CA 92683",
+            "category": "['Caterer', 'Chinese restaurant', 'Takeout Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd27a4846380bf:0xecddda0fd244cc89",
+            "iid": 1878,
+            "name": "Hong Lan Queen Eggrolls",
+            "rank": 10,
+            "score": -2.1336874961853027,
+            "state": "California"
+        },
+        {
+            "address": "Pho Kien Giang 2, 8199 N Dale Mabry Hwy, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2c16ce591aed9:0x890f263891636db7",
+            "iid": 3827,
+            "name": "Pho Kien Giang 2",
+            "rank": 11,
+            "score": -2.1348893642425537,
+            "state": "Florida"
+        },
+        {
+            "address": "Just Pho, 252 W 31st St, New York, NY 10001",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c259e1e7ed4f5b:0xa137d1c380886bfb",
+            "iid": 4469,
+            "name": "Just Pho",
+            "rank": 12,
+            "score": -2.1504271030426025,
+            "state": "New_York"
+        },
+        {
+            "address": "H\u01b0\u01a1ng Hu\u1ebf Food To Go, 9176 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80dd27cc91f963a1:0xdbef944126fb79b6",
+            "iid": 1957,
+            "name": "H\u01b0\u01a1ng Hu\u1ebf Food To Go",
+            "rank": 13,
+            "score": -2.1513683795928955,
+            "state": "California"
+        },
+        {
+            "address": "Can Tho Restaurant, 10544 Westminster Ave, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27e855b0d0eb:0xee161bf6b9b8b900",
+            "iid": 1974,
+            "name": "Can Tho Restaurant",
+            "rank": 14,
+            "score": -2.1568546295166016,
+            "state": "California"
+        },
+        {
+            "address": "Bun Bo Hue An Nam 3, 3005 Silver Creek Rd #114, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e3281841327bb:0xf15b7d328129d36d",
+            "iid": 811,
+            "name": "Bun Bo Hue An Nam 3",
+            "rank": 15,
+            "score": -2.1600537300109863,
+            "state": "California"
+        },
+        {
+            "address": "Lem's Kitchen, 11113 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640ddd6274f8615:0x2a80c4d7b04f58f9",
+            "iid": 2493,
+            "name": "Lem's Kitchen",
+            "rank": 16,
+            "score": -2.1654093265533447,
+            "state": "Texas"
+        },
+        {
+            "address": "Bo Ne Restaurant - Sizzling Plate, 1615 McKee Rd, San Jose, CA 95116",
+            "category": "['Vietnamese restaurant', 'Karaoke', 'Lounge']",
+            "gmap_id": "0x808fcce4cb40c6ad:0xfe27e8d170465172",
+            "iid": 1088,
+            "name": "Bo Ne Restaurant - Sizzling Plate",
+            "rank": 17,
+            "score": -2.166700601577759,
+            "state": "California"
+        },
+        {
+            "address": "Original Nicky\u2019s, 216 Avenue A, New York, NY 10009",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c259c085bf549f:0x3813509756249744",
+            "iid": 4465,
+            "name": "Original Nicky\u2019s",
+            "rank": 18,
+            "score": -2.166771650314331,
+            "state": "New_York"
+        },
+        {
+            "address": "Hung Ky BBQ, 9299 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd2749d4608699:0xca33f23a66e527bf",
+            "iid": 1856,
+            "name": "Hung Ky BBQ",
+            "rank": 19,
+            "score": -2.1680803298950195,
+            "state": "California"
+        },
+        {
+            "address": "L\u1ea9u \u0110\u1ed3ng Qu\u00ea Restaurant, 9066 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27b5503e87eb:0xefc8f348fb665612",
+            "iid": 1892,
+            "name": "L\u1ea9u \u0110\u1ed3ng Qu\u00ea Restaurant",
+            "rank": 20,
+            "score": -2.1735053062438965,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jerry DeLong",
+        "uid": 3452,
+        "user_id": 103632361965529745214
+    }
+}

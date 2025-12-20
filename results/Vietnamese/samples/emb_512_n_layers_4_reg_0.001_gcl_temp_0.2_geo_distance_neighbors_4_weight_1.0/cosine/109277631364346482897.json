@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Ph\u1edf Saigon, 236 Hartnell Ave, Redding, CA 96002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/03/05",
+            "gmap_id": "0x54d2ec96ea91dc69:0xde2e6a1314ec5a99",
+            "iid": 542,
+            "name": "Ph\u1edf Saigon",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488753177651
+        },
+        {
+            "address": "Sai\u2019s Vietnamese Restaurant, 505 Washington St, San Francisco, CA 94111",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x8085808aa3b9e1a5:0xf2414b3d2c971d73",
+            "iid": 705,
+            "name": "Sai\u2019s Vietnamese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518844714048
+        },
+        {
+            "address": "Golden King Restaurant, 757 Clay St, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x8085808b40541a91:0xdc939bfe3f1a8166",
+            "iid": 706,
+            "name": "Golden King Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518844978042
+        },
+        {
+            "address": "Pho Lee Hoa Phat 7, 870 E Travis Blvd #K, Fairfield, CA 94533",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x808515c133e81793:0xf3ddd4e73b1d0e5d",
+            "iid": 630,
+            "name": "Pho Lee Hoa Phat 7",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518845112080
+        },
+        {
+            "address": "Chicken Pho You, 292 Broadway, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Noodle shop', 'Southeast Asian restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x808f77a53fd7f37d:0x817138c6f702326a",
+            "iid": 855,
+            "name": "Chicken Pho You",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518845199430
+        },
+        {
+            "address": "La Petite Camille, 170 El Camino Real, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x808f77b07480741b:0x746f40cf78bfe06f",
+            "iid": 858,
+            "name": "La Petite Camille",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518845297872
+        },
+        {
+            "address": "Pho Vietnam, 87 Chrystie St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x89c25987fc742847:0x9855faf3b5bf8947",
+            "iid": 4436,
+            "name": "Pho Vietnam",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1518845615231
+        },
+        {
+            "address": "Ph\u1edf B\u00e1c Hoa Viet - Stockton Blvd, 6645 Stockton Blvd # 300, Sacramento, CA 95823",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x809ac56879dc610b:0x64337a9ee14a66bc",
+            "iid": 1212,
+            "name": "Ph\u1edf B\u00e1c Hoa Viet - Stockton Blvd",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568349524586
+        },
+        {
+            "address": "Golden Star Vietnamese Restaurant, 11 Walter U Lum Pl, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x8085808b4704dc8d:0xffb976c6de1f6afb",
+            "iid": 707,
+            "name": "Golden Star Vietnamese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568349558015
+        },
+        {
+            "address": "Ph\u1edf Kim Long Restaurant, 4023 W Spring Mountain Rd, Las Vegas, NV 89102",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x80c8c6a660ad53d7:0xacff6b8ca4e4e8bc",
+            "iid": 1537,
+            "name": "Ph\u1edf Kim Long Restaurant",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1568350303360
+        },
+        {
+            "address": "Pho Lee Hoa Phat, 88 Peabody Rd B, Vacaville, CA 95687",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x80853d4f7ea99075:0x9578b4866393252e",
+            "iid": 633,
+            "name": "Pho Lee Hoa Phat",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1568350592845
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Joy Hing B.B.Q. Noodle, 710 Kearny St, San Francisco, CA 94108",
+            "category": "['Barbecue restaurant', 'Chinese restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x808580f34c9e5c71:0xd98be1d0889730cc",
+            "iid": 738,
+            "name": "Joy Hing B.B.Q. Noodle",
+            "rank": 1,
+            "score": 0.671627402305603,
+            "state": "California"
+        },
+        {
+            "address": "Golden Flower Restaurant, 667 Jackson St, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808580f4bb46f98d:0x4dc5988f7901e68a",
+            "iid": 741,
+            "name": "Golden Flower Restaurant",
+            "rank": 2,
+            "score": 0.5784671306610107,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf C & C, 3211 Cohasset Rd # 110, Chico, CA 95973",
+            "category": "['Vietnamese restaurant', 'Grill', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8082d842a7637ced:0x989cdba6e133e0f4",
+            "iid": 612,
+            "name": "Ph\u1edf C & C",
+            "rank": 3,
+            "score": 0.5781892538070679,
+            "state": "California"
+        },
+        {
+            "address": "My Canh, 626 Broadway, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808580f38f022aab:0x9f19ed1d2c057d6f",
+            "iid": 739,
+            "name": "My Canh",
+            "rank": 4,
+            "score": 0.5740656852722168,
+            "state": "California"
+        },
+        {
+            "address": "Pho Delicious, 1365 Stockton St, San Francisco, CA 94133",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808580f3c4eebfff:0xdb75cbaa43fbe366",
+            "iid": 740,
+            "name": "Pho Delicious",
+            "rank": 5,
+            "score": 0.559332549571991,
+            "state": "California"
+        },
+        {
+            "address": "Begoni Bistro, 615 Jackson St, San Francisco, CA 94133",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Seafood restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x808580f4c871206b:0x9e45c8cc88935d8f",
+            "iid": 742,
+            "name": "Begoni Bistro",
+            "rank": 6,
+            "score": 0.5028353333473206,
+            "state": "California"
+        },
+        {
+            "address": "Pho Le, 2201 Pillsbury Rd, Chico, CA 95926",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8082d87901576f03:0xa3a5b6651f582d0b",
+            "iid": 613,
+            "name": "Pho Le",
+            "rank": 7,
+            "score": 0.5004847645759583,
+            "state": "California"
+        },
+        {
+            "address": "Everyday Vietnamese Cuisine, 951 Nord Ave, Chico, CA 95926",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8083270a578f26ef:0x28d0bd8cb8110216",
+            "iid": 615,
+            "name": "Everyday Vietnamese Cuisine",
+            "rank": 8,
+            "score": 0.491990327835083,
+            "state": "California"
+        },
+        {
+            "address": "Hai Ky Mi Gia, 707 Ellis St, San Francisco, CA 94109",
+            "category": "['Chinese noodle restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80858090d14a95cb:0x3c861511a4f66b96",
+            "iid": 720,
+            "name": "Hai Ky Mi Gia",
+            "rank": 9,
+            "score": 0.476813405752182,
+            "state": "California"
+        },
+        {
+            "address": "Vietnam Bistro, 788 East Ave, Chico, CA 95926",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8082d87a4f9b3cff:0x53924aecaef8be63",
+            "iid": 614,
+            "name": "Vietnam Bistro",
+            "rank": 10,
+            "score": 0.47287628054618835,
+            "state": "California"
+        },
+        {
+            "address": "Pho Lee Hoa Phat, 88 Peabody Rd B, Vacaville, CA 95687",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80853d4f7ea99075:0x9578b4866393252e",
+            "iid": 633,
+            "name": "Pho Lee Hoa Phat",
+            "rank": 11,
+            "score": 0.47272181510925293,
+            "state": "California"
+        },
+        {
+            "address": "PPQ Dungeness Island - Millbrae, 195 El Camino Real, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808f77aa203107d5:0x3ed0b51b2ad01edb",
+            "iid": 857,
+            "name": "PPQ Dungeness Island - Millbrae",
+            "rank": 12,
+            "score": 0.4618329107761383,
+            "state": "California"
+        },
+        {
+            "address": "Hoa Ky Restaurant, 447 Broadway, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808f77a45a29d765:0x626539e39b4cad15",
+            "iid": 854,
+            "name": "Hoa Ky Restaurant",
+            "rank": 13,
+            "score": 0.45685523748397827,
+            "state": "California"
+        },
+        {
+            "address": "Ben Tre Restaurant, 219 El Camino Real, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Pho restaurant']",
+            "gmap_id": "0x808f77a54cec683f:0xda2ac2e415af14c0",
+            "iid": 856,
+            "name": "Ben Tre Restaurant",
+            "rank": 14,
+            "score": 0.4538266956806183,
+            "state": "California"
+        },
+        {
+            "address": "Banhwich, 1105 Taraval St, San Francisco, CA 94116",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7d904db7549d:0x8503bbb3b2cdaa29",
+            "iid": 876,
+            "name": "Banhwich",
+            "rank": 15,
+            "score": 0.4217129647731781,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Pho, 500 Elmira Rd, Vacaville, CA 95687",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80853d3ebcd8b337:0x38ea06ddf8444cbb",
+            "iid": 632,
+            "name": "Saigon Pho",
+            "rank": 16,
+            "score": 0.4154945909976959,
+            "state": "California"
+        },
+        {
+            "address": "Pho Saigon, 1972 N Texas St C, Fairfield, CA 94533",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808515d3e5b6988f:0x3f2e10d65967fdb8",
+            "iid": 631,
+            "name": "Pho Saigon",
+            "rank": 17,
+            "score": 0.41112715005874634,
+            "state": "California"
+        },
+        {
+            "address": "Thai Nghiep Ky Mi Gia, 1427 Noriega St, San Francisco, CA 94122",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808587629f24b759:0x3d3012493dd06364",
+            "iid": 759,
+            "name": "Thai Nghiep Ky Mi Gia",
+            "rank": 18,
+            "score": 0.4033004343509674,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf SACTO, 6434 Stockton Blvd, Sacramento, CA 95823",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Pho restaurant', 'Restaurant', 'Soup restaurant']",
+            "gmap_id": "0x809ac55d18ebb653:0xfeb42222dbd3b873",
+            "iid": 1208,
+            "name": "Ph\u1edf SACTO",
+            "rank": 19,
+            "score": 0.39749518036842346,
+            "state": "California"
+        },
+        {
+            "address": "Mau Restaurant, 665 Valencia St, San Francisco, CA 94110",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e22d69c038b:0x6df436d3da98d49a",
+            "iid": 883,
+            "name": "Mau Restaurant",
+            "rank": 20,
+            "score": 0.3909813463687897,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "nkaujhmoobvwj",
+        "uid": 8818,
+        "user_id": 109277631364346482897
+    }
+}

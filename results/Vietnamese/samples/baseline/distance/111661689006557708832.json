@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Clay Pot Restaurant, 416 Franklin Ave, Waco, TX 76701",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Rice restaurant']",
+            "date": "2017/11/10",
+            "gmap_id": "0x864f82486845b7b5:0x22029cd29e27a381",
+            "iid": 2813,
+            "name": "Clay Pot Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1510272926411
+        },
+        {
+            "address": "Pho 4 Star Vietnamese Restaurant Universal City, 2921 Pat Booker Rd, Universal City, TX 78148",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Box lunch supplier', 'Caterer', 'Chinese restaurant', 'Event venue', 'Pho restaurant', 'Restaurant', 'Self-catering accommodation', 'Thai restaurant']",
+            "date": "2017/11/12",
+            "gmap_id": "0x865c8d6ef241640f:0x1c67b2218f71aa10",
+            "iid": 2873,
+            "name": "Pho 4 Star Vietnamese Restaurant Universal City",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1510510582613
+        },
+        {
+            "address": "Pho Saigon, 2808 Milam St D, Houston, TX 77006",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2018/06/21",
+            "gmap_id": "0x8640bf6bc28dc9cd:0x23537d94d01c65ce",
+            "iid": 2276,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1529546011914
+        },
+        {
+            "address": "Le Colonial, 4444 Westheimer Rd, Houston, TX 77027",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/07/30",
+            "gmap_id": "0x8640c11469f7f0bf:0xc08704bdc31c967b",
+            "iid": 2293,
+            "name": "Le Colonial",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1532958444535
+        },
+        {
+            "address": "Ph\u1edf Linh Vietnamese Grill, 9100 Central Ave SE, Albuquerque, NM 87123",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/02/06",
+            "gmap_id": "0x87220b1b447c2669:0xfaf1db3c695da2c6",
+            "iid": 2971,
+            "name": "Ph\u1edf Linh Vietnamese Grill",
+            "split": "train",
+            "state": "New_Mexico",
+            "unix_time": 1549473154479
+        },
+        {
+            "address": "Pho House Vietnamese Cuisine, 10424 I-10 #450, Baytown, TX 77523",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/02/06",
+            "gmap_id": "0x863f5b33f408d433:0x389c8275c5f19713",
+            "iid": 2199,
+            "name": "Pho House Vietnamese Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1549473308211
+        },
+        {
+            "address": "Yummy Pho & Bo Ne, 23119 Colonial Pkwy #A11, Katy, TX 77449, United States",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/02/23",
+            "gmap_id": "0x864126fda07e95f7:0x788c18f902b6bcf4",
+            "iid": 2529,
+            "name": "Yummy Pho & Bo Ne",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1550947932105
+        },
+        {
+            "address": "Lotus Cafe, 8077 Georgia Ave, Silver Spring, MD 20910",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x89b7c8bdede24c83:0x9c84b08b3814cde1",
+            "iid": 4323,
+            "name": "Lotus Cafe",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1563166611013
+        },
+        {
+            "address": "Pho Bac, 700 S Potomac St, Baltimore, MD 21224",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/11/11",
+            "gmap_id": "0x89c806f3320fdce3:0xaecef6612beb8876",
+            "iid": 4656,
+            "name": "Pho Bac",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1573455919688
+        },
+        {
+            "address": "PHO NUCUOI SAIGON, 2890 Dale Blvd, Woodbridge, VA 22193",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/01/14",
+            "gmap_id": "0x89b6561d7a5f828b:0xca976b8dd66a2c27",
+            "iid": 4235,
+            "name": "PHO NUCUOI SAIGON",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1579044032213
+        },
+        {
+            "address": "Viet Chopsticks, 14532 Potomac Mills Rd, Woodbridge, VA 22192",
+            "category": "['Vietnamese restaurant']",
+            "date": "2021/05/13",
+            "gmap_id": "0x89b656055815e651:0xe1082c4a7dab7889",
+            "iid": 4234,
+            "name": "Viet Chopsticks",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1620947104957
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Yummie, 10211 Cypresswood Dr #1200, Houston, TX 77070",
+            "category": "['Vietnamese restaurant', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x8640d3901e59584b:0xa86926263f9196ab",
+            "iid": 2398,
+            "name": "Yummie",
+            "rank": 1,
+            "score": -2.5073540210723877,
+            "state": "Texas"
+        },
+        {
+            "address": "Viet's Aroma Vietnamese Cuisine, 440 Prospect Blvd, Frederick, MD 21701",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c9dbb472e8883f:0xe40f4973a5fb7ea0",
+            "iid": 4680,
+            "name": "Viet's Aroma Vietnamese Cuisine",
+            "rank": 2,
+            "score": -2.5689656734466553,
+            "state": "Maryland"
+        },
+        {
+            "address": "New Saigon Pho, 202 S Plank Rd, Newburgh, NY 12550",
+            "category": "['Vietnamese restaurant', 'Takeout Restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89dd2f0753666acf:0x3ff56c5394c2bce5",
+            "iid": 4704,
+            "name": "New Saigon Pho",
+            "rank": 3,
+            "score": -2.5699400901794434,
+            "state": "New_York"
+        },
+        {
+            "address": "Saigon Restaurant, 4706 W 38th St, Indianapolis, IN 46254",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x886b57be26ec8c01:0x3bc4171705ac2bb7",
+            "iid": 3771,
+            "name": "Saigon Restaurant",
+            "rank": 4,
+            "score": -2.581195831298828,
+            "state": "Indiana"
+        },
+        {
+            "address": "Chau's Cafe, 814 S Fort Hood St, Killeen, TX 76541",
+            "category": "['Cafe', 'Vietnamese restaurant']",
+            "gmap_id": "0x86454b79132e3dcb:0xfb48d32a14f4ea7f",
+            "iid": 2600,
+            "name": "Chau's Cafe",
+            "rank": 5,
+            "score": -2.598421335220337,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Em, 4507 Garth Rd #C, Baytown, TX 77521",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x863f5f52a78bc2c9:0x41e94fafa449300c",
+            "iid": 2201,
+            "name": "Pho Em",
+            "rank": 6,
+            "score": -2.6277048587799072,
+            "state": "Texas"
+        },
+        {
+            "address": "Melody's Grillhouse, 47 E Butler Ave, Ambler, PA 19002",
+            "category": "['Vietnamese restaurant', 'Seafood restaurant', 'Steak house', 'Thai restaurant']",
+            "gmap_id": "0x89c6bb5c7f9bec1d:0x3937cd6d6b8bd996",
+            "iid": 4601,
+            "name": "Melody's Grillhouse",
+            "rank": 7,
+            "score": -2.6597936153411865,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Phonatic, 1201 Barbara Jordan Blvd #1460, Austin, TX 78723",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8644ca06163315ad:0xa333c551086b2321",
+            "iid": 2567,
+            "name": "Phonatic",
+            "rank": 8,
+            "score": -2.665097236633301,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Noodle Express, 1200 McKinney St UNIT 321, Houston, TX 77010",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640bf23485df435:0x9fc076d80708b059",
+            "iid": 2265,
+            "name": "Pho Noodle Express",
+            "rank": 9,
+            "score": -2.700735092163086,
+            "state": "Texas"
+        },
+        {
+            "address": "Van Loc, 3010 Milam St, Houston, TX 77006",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640bf69537d21d5:0x2f98eafe08ccb2b8",
+            "iid": 2272,
+            "name": "Van Loc",
+            "rank": 10,
+            "score": -2.7129411697387695,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Basil, 1531 Eldridge Pkwy, Houston, TX 77077",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dc7354bb1c55:0x2c268dfd74c2de2",
+            "iid": 2422,
+            "name": "Pho Basil",
+            "rank": 11,
+            "score": -2.713930368423462,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho 4 U, 480 Farm to Market 2410, Harker Heights, TX 76548",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Frozen yogurt shop', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x864549b09ee6e12d:0x4f2ed0d112982c56",
+            "iid": 2599,
+            "name": "Pho 4 U",
+            "rank": 12,
+            "score": -2.7384395599365234,
+            "state": "Texas"
+        },
+        {
+            "address": "Asian BBQ & Grill, 604 TX-336 Loop, Conroe, TX 77301",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x86473ebba405439f:0x27dc8cc738b485b8",
+            "iid": 2624,
+            "name": "Asian BBQ & Grill",
+            "rank": 13,
+            "score": -2.7456092834472656,
+            "state": "Texas"
+        },
+        {
+            "address": "Phodat Vietnamese Noodles Soup, 3411 169th Pl NE E, Arlington, WA 98223",
+            "category": "['Vietnamese restaurant', 'Deli']",
+            "gmap_id": "0x5485504c1fbfac15:0x839984bdfa7ec97d",
+            "iid": 81,
+            "name": "Phodat Vietnamese Noodles Soup",
+            "rank": 14,
+            "score": -2.7601070404052734,
+            "state": "Washington"
+        },
+        {
+            "address": "Kai Vietnamese Cuisine, 201 W 5th St, Tulsa, OK 74103",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x87b6ebd9de21ebff:0xe91bfa389e4f3ff6",
+            "iid": 3320,
+            "name": "Kai Vietnamese Cuisine",
+            "rank": 15,
+            "score": -2.763932943344116,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Bao Bao Banh Mi, 1127 Eldridge Pkwy #1030, Houston, TX 77077",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640db85ad7616f9:0xbe77d2273047ce65",
+            "iid": 2418,
+            "name": "Bao Bao Banh Mi",
+            "rank": 16,
+            "score": -2.764112949371338,
+            "state": "Texas"
+        },
+        {
+            "address": "\u0110\u1ed3ng Qu\u00ea Restaurant, 7420 W Cactus Rd #B - 9, Peoria, AZ 85381",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x872b6912ec1596cf:0x8ef2879dd65ebbb3",
+            "iid": 3028,
+            "name": "\u0110\u1ed3ng Qu\u00ea Restaurant",
+            "rank": 17,
+            "score": -2.766300678253174,
+            "state": "Arizona"
+        },
+        {
+            "address": "Pho 24, 1346 Lee Trevino Dr Suite 109, El Paso, TX 79936",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86e74306b63c4a85:0xf712040426f0f910",
+            "iid": 2920,
+            "name": "Pho 24",
+            "rank": 18,
+            "score": -2.7668800354003906,
+            "state": "Texas"
+        },
+        {
+            "address": "Banh's Cuisine, 750 9th St, Durham, NC 27705",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89ace3f8a3aa70b7:0xa3318c1794c2f003",
+            "iid": 4142,
+            "name": "Banh's Cuisine",
+            "rank": 19,
+            "score": -2.7712926864624023,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Pho Auntie 7, 2690 Castro Valley Blvd, Castro Valley, CA 94546",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f91da84e2e14f:0x656cf3b0866509b3",
+            "iid": 955,
+            "name": "Pho Auntie 7",
+            "rank": 20,
+            "score": -2.77665638923645,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dennis Jenkins",
+        "uid": 11044,
+        "user_id": 111661689006557708832
+    }
+}
