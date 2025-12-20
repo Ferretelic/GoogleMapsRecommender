@@ -34,13 +34,13 @@ def update_performances(config_path, view_columns=None):
     ]
 
     cfg = load_hydra_config("baseline", config_path)
-    log_folder = f"../logs/{cfg.dataset.country}"
+    log_folder = f"./logs/{cfg.dataset.country}"
 
     metrics = []
     for name in os.listdir(log_folder):
         cfg = load_hydra_config(name.replace(".json", ""), config_path)
 
-        with open(f"../logs/{cfg.dataset.country}/{name}", "r") as f:
+        with open(f"./logs/{cfg.dataset.country}/{name}", "r") as f:
             results = json.load(f)["valid"]
 
         n_patience = len(results["ndcg"]) - (np.argmax(results["ndcg"]) + 1)
@@ -62,7 +62,7 @@ def update_performances(config_path, view_columns=None):
     pd.set_option("display.max_rows", None)
     print(df[["recall", "ndcg", "n_patience"] + view_columns + ["name"]])
 
-    df.to_csv(f"../results/{cfg.dataset.country}/performances.csv", index=False)
+    df.to_csv(f"./results/{cfg.dataset.country}/performances.csv", index=False)
 
 def load_hydra_config(name, config_path):
     with initialize(version_base=None, config_path=config_path):
@@ -108,7 +108,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
         cfg = load_hydra_config(name, config_path)
         target = cfg[targets[0]].get(targets[1], 0.0)
 
-        with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
+        with open(f"./logs/{cfg.dataset.country}/{name}.json", "r") as f:
             ndcg = json.load(f)["valid"]["ndcg"]
 
         df = pd.DataFrame({"epoch": range(len(ndcg)), "ndcg": ndcg, "target": [target] * len(ndcg)})
@@ -118,7 +118,7 @@ def plot_comparisons_one_target(names, targets, config_path, target_name=None):
     plot_history_line(results, ax1, palette)
     plot_ndcg_bar(results, ax2, palette, target_name)
 
-    folder_path = f"../results/{cfg.dataset.country}/plots/comparisons/"
+    folder_path = f"./results/{cfg.dataset.country}/plots/comparisons/"
     os.makedirs(folder_path, exist_ok=True)
     plt.tight_layout()
     plt.savefig(f"{folder_path}/{target_name}.png")
@@ -141,7 +141,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
         target = cfg[targets[0][0]].get(targets[0][1], 0.0)
         sub_target = cfg[targets[1][0]].get(targets[1][1], 0.0)
 
-        with open(f"../logs/{cfg.dataset.country}/{name}.json", "r") as f:
+        with open(f"./logs/{cfg.dataset.country}/{name}.json", "r") as f:
             ndcg = json.load(f)["valid"]["ndcg"]
 
         df = pd.DataFrame({
@@ -159,7 +159,7 @@ def plot_comparisons_two_targets(names, targets, config_path, target_name=None, 
     plot_history_line(results, ax1, palette)
     plot_ndcg_bar(results, ax2, palette[::results["main_target"].nunique()], target_name, sub_target_name)
 
-    folder_path = f"../results/{cfg.dataset.country}/plots/comparisons/"
+    folder_path = f"./results/{cfg.dataset.country}/plots/comparisons/"
     os.makedirs(folder_path, exist_ok=True)
     plt.tight_layout()
     plt.savefig(f"{folder_path}/{target_name}_{sub_target_name}.png")
@@ -170,11 +170,11 @@ if __name__ == "__main__":
     view_columns = ["gcl_temp", "gcl_reg", "gcl_eps"]
     update_performances(config_path, view_columns=view_columns)
 
-    base = False
-    layer_decay = False
-    gcl = False
-    time_decay = False
-    geo_distance = False
+    base = True
+    layer_decay = True
+    gcl = True
+    time_decay = True
+    geo_distance = True
 
     if base:
         names = ["emb_32", "baseline", "emb_128", "emb_256", "emb_512", "emb_1024"]
