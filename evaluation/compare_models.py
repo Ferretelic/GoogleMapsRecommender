@@ -172,7 +172,7 @@ if __name__ == "__main__":
 
     base = False
     layer_decay = False
-    gcl = True
+    gcl = False
     time_decay = False
     geo_distance = False
 
