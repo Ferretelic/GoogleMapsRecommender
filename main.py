@@ -28,13 +28,13 @@ def process_dataset(cfg):
         download_dataset(cfg)
 
         print("    Processing raw meta data...")
-        country_filter = partial(
-            filter_by_country, country=cfg.dataset.country)
+        category_filter = partial(
+            filter_by_category, category=cfg.dataset.category)
 
         num_reviews_filter = partial(
             filter_by_num_reviews, min_num_reviews=cfg.dataset.min_num_reviews)
 
-        filter_raw_meta_data(cfg, [country_filter, num_reviews_filter])
+        filter_raw_meta_data(cfg, [category_filter, num_reviews_filter])
 
         print("    Processing raw review data...")
         filter_raw_review_data(cfg)

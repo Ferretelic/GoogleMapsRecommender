@@ -4,13 +4,13 @@ import json
 import pandas as pd
 from hydra import initialize, compose
 
-def load_country():
+def load_category():
     with initialize(version_base=None, config_path="../config"):
         cfg = compose(config_name="base", overrides=[])
-        return cfg.dataset.country
+        return cfg.dataset.category
 
-def load_meta(country):
-    meta = pd.read_csv(f"./dataset/processed/{country}/combined/meta.csv")
+def load_meta(category):
+    meta = pd.read_csv(f"./dataset/processed/{category}/combined/meta.csv")
     return meta
 
 def search_and_select_places(meta):
@@ -58,13 +58,13 @@ def search_and_select_places(meta):
     return list(selected_gmap_ids)
 
 def main():
-    country = load_country()
-    meta = load_meta(country)
+    category = load_category()
+    meta = load_meta(category)
 
     required_columns = {"gmap_id", "name", "address", "category", "state"}
 
     print("=== Create New User ===")
-    current_count = len(os.listdir(f"./users/{country}"))
+    current_count = len(os.listdir(f"./users/{category}"))
     new_user_id = current_count
 
     print(f"New User ID: {new_user_id}")
@@ -81,7 +81,7 @@ def main():
         "gmap_ids": gmap_ids
     }
 
-    with open(f"./users/{country}/{new_user_id}.json", "w") as f:
+    with open(f"./users/{category}/{new_user_id}.json", "w") as f:
         json.dump(new_user, f, indent=4)
 
 if __name__ == "__main__":
