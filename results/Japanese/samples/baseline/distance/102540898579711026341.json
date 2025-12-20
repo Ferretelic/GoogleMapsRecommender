@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "One Pot Shabu Shabu, 19648 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Shabu-shabu restaurant', 'Do-it-yourself shop', 'Japanese restaurant', 'Sukiyaki and Shabu Shabu restaurant']",
+            "date": "2014/08/21",
+            "gmap_id": "0x808fb5a1cb032dbf:0xc8cd563dcc8a9357",
+            "iid": 2221,
+            "name": "One Pot Shabu Shabu",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1408583928666
+        },
+        {
+            "address": "Yoshida, 10700 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2014/08/27",
+            "gmap_id": "0x808fb506d13dfcb1:0x49e344016059562d",
+            "iid": 2195,
+            "name": "Yoshida",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1409101091689
+        },
+        {
+            "address": "Sumiya, 2634 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Izakaya restaurant', 'Tapas restaurant', 'Yakitori restaurant']",
+            "date": "2014/09/06",
+            "gmap_id": "0x808fb5603d6ab961:0x9d6806089597b2c8",
+            "iid": 2203,
+            "name": "Sumiya",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410029885843
+        },
+        {
+            "address": "Yume-Ya, 150 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2014/09/11",
+            "gmap_id": "0x808fb663e29d6b05:0xa0867add83614e82",
+            "iid": 2240,
+            "name": "Yume-Ya",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410400969077
+        },
+        {
+            "address": "Kahoo Ramen, 4330 Moorpark Ave, San Jose, CA 95129",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "date": "2014/09/12",
+            "gmap_id": "0x808fca96f8dc8a83:0xc41d2e726c0b7ce5",
+            "iid": 2334,
+            "name": "Kahoo Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410489214578
+        },
+        {
+            "address": "Curry House Japanese Curry & Spaghetti, 10350 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese curry restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2014/09/13",
+            "gmap_id": "0x808fb5a983361b57:0x55d2ef054e43f5ae",
+            "iid": 2225,
+            "name": "Curry House Japanese Curry & Spaghetti",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410571275576
+        },
+        {
+            "address": "\u301295014 California, Cupertino, Bollinger Rd, AJITO",
+            "category": "['Yakitori restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2014/10/22",
+            "gmap_id": "0x808fb50126a0953d:0xbc96b4c15e1d0777",
+            "iid": 2193,
+            "name": "AJITO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1413944349973
+        },
+        {
+            "address": "TANTO Japanese Restaurant, 1063 E El Camino Real, Sunnyvale, CA 94087, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Brazilian restaurant', 'Coffee shop', 'Cuban restaurant', 'New American restaurant']",
+            "date": "2014/11/28",
+            "gmap_id": "0x808fb5f01cd7d477:0x5bfd6bcbc43a35b3",
+            "iid": 2232,
+            "name": "TANTO Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1417202587888
+        },
+        {
+            "address": "Dan Izakaya Restaurant, 1306 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2014/12/02",
+            "gmap_id": "0x808fcaafdfc4b2b1:0x98629443aefe9f82",
+            "iid": 2337,
+            "name": "Dan Izakaya Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1417488921669
+        },
+        {
+            "address": "Rintaro, 82 14th St, San Francisco, CA 94103",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2016/04/18",
+            "gmap_id": "0x808f7e26791dc281:0xe147a1d9e33e11d4",
+            "iid": 2012,
+            "name": "Rintaro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1460944087614
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Afuri Ramen + Dumpling, 124 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb70644786a69:0x1a2b3f70b9da3776",
+            "iid": 2247,
+            "name": "Afuri Ramen + Dumpling",
+            "rank": 1,
+            "score": -1.5656241178512573,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Madness, 2020 Wyatt Dr Suite 120, Santa Clara, CA 95054",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fc92dd976fbf1:0x7e15984d1938362c",
+            "iid": 2312,
+            "name": "Teriyaki Madness",
+            "rank": 2,
+            "score": -2.1027839183807373,
+            "state": "California"
+        },
+        {
+            "address": "Rainbow Sushi Brookline, 187 Harvard St, Brookline, MA 02446",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Raw food restaurant', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e37995ffbe2bbd:0xf2f8957a65d5adea",
+            "iid": 14103,
+            "name": "Rainbow Sushi Brookline",
+            "rank": 3,
+            "score": -2.2562694549560547,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "AJ's Kitchen, 67015038, San Jose, CA 95121",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e2ddd90b105cd:0x65d30f866d7319b5",
+            "iid": 1882,
+            "name": "AJ's Kitchen",
+            "rank": 4,
+            "score": -2.2820017337799072,
+            "state": "California"
+        },
+        {
+            "address": "Oh mammy, 1232 Anderson Ave, Fort Lee, NJ 07024",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x89c2f76d451a4e3d:0x2a36c85320ed130c",
+            "iid": 13084,
+            "name": "Oh mammy",
+            "rank": 5,
+            "score": -2.2939300537109375,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Shindokdo, 2690 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808fca14a9f408db:0x694968152ce35d9a",
+            "iid": 2324,
+            "name": "Shindokdo",
+            "rank": 6,
+            "score": -2.327444553375244,
+            "state": "California"
+        },
+        {
+            "address": "YU-OR-MI Sushi Bar, 100 E California Ave, Las Vegas, NV 89104",
+            "category": "['Sushi restaurant', 'Cocktail bar', 'Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80c8c3cb9f77e57f:0x7b849e6147201036",
+            "iid": 3672,
+            "name": "YU-OR-MI Sushi Bar",
+            "rank": 7,
+            "score": -2.370957851409912,
+            "state": "Nevada"
+        },
+        {
+            "address": "Ginza Ramen and Poke, 8771 TX-151 #106, San Antonio, TX 78245, United States",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c4315af90a8c3:0xaf833368ba00c02e",
+            "iid": 5727,
+            "name": "Ginza Ramen and Poke",
+            "rank": 8,
+            "score": -2.3759167194366455,
+            "state": "Texas"
+        },
+        {
+            "address": "Q Sushi Bar & Omakase, 4845 N Damen Ave., Chicago, IL 60625",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fd306d715ff05:0x12309afda7bd955c",
+            "iid": 7515,
+            "name": "Q Sushi Bar & Omakase",
+            "rank": 9,
+            "score": -2.3771231174468994,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Maki (Dadeland), 6661 S Dixie Hwy, Miami, FL 33143",
+            "category": "['Sushi restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x88d9c746a2cabce1:0x2dea3824848da787",
+            "iid": 9832,
+            "name": "Sushi Maki (Dadeland)",
+            "rank": 10,
+            "score": -2.3777480125427246,
+            "state": "Florida"
+        },
+        {
+            "address": "Hibachi Express Bradenton, 4533 14th St W, Bradenton, FL 34207",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88c317298b7be5c3:0x1109c218f382b675",
+            "iid": 9425,
+            "name": "Hibachi Express Bradenton",
+            "rank": 11,
+            "score": -2.378049612045288,
+            "state": "Florida"
+        },
+        {
+            "address": "Tokyo Express, 70-57 Parsons Blvd, Flushing, NY 11365",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c260588580d4f7:0xe3944db76768519e",
+            "iid": 12679,
+            "name": "Tokyo Express",
+            "rank": 12,
+            "score": -2.380476474761963,
+            "state": "New_York"
+        },
+        {
+            "address": "Sarku Japan, 825 Dulaney Valley Road Space #3310, Towson, MD 21204",
+            "category": "['Japanese restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x89c80fabe9e0f443:0x4c5a4c42ad9b32bd",
+            "iid": 13652,
+            "name": "Sarku Japan",
+            "rank": 13,
+            "score": -2.380685567855835,
+            "state": "Maryland"
+        },
+        {
+            "address": "Urban Ka-Re House, 699 Lewelling Blvd #104, San Leandro, CA 94579",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f91c2751e9123:0x8707e4b242cc8c94",
+            "iid": 2102,
+            "name": "Urban Ka-Re House",
+            "rank": 14,
+            "score": -2.3824470043182373,
+            "state": "California"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 3578,
+            "name": "Sushi One Spot",
+            "rank": 15,
+            "score": -2.383819818496704,
+            "state": "California"
+        },
+        {
+            "address": "Uchi, 252 NW 25th St, Miami, FL 33127",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88d9b73b11a3561f:0xeaa52b5601a51298",
+            "iid": 9760,
+            "name": "Uchi",
+            "rank": 16,
+            "score": -2.3844127655029297,
+            "state": "Florida"
+        },
+        {
+            "address": "Le Dish, 1280 NJ-33, Hamilton Township, NJ 08690",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c15fdfe401d009:0xbcdedf1c8b0a02ca",
+            "iid": 11776,
+            "name": "Le Dish",
+            "rank": 17,
+            "score": -2.3852901458740234,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Shinbashi 72, 218 W 72nd St, New York, NY 10023",
+            "category": "['Japanese restaurant', 'Japanese cheap sweets shop', 'Japanese curry restaurant', 'Japanese grocery store', 'Takeout Restaurant', 'Okonomiyaki restaurant']",
+            "gmap_id": "0x89c25952337f01ef:0xb91922f3f4d6adfc",
+            "iid": 12183,
+            "name": "Shinbashi 72",
+            "rank": 18,
+            "score": -2.38801908493042,
+            "state": "New_York"
+        },
+        {
+            "address": "Bonchon Dinkytown, 406 14th Ave SE, Minneapolis, MN 55414",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x52b32d5f3ea67b89:0x84bc5ea7a618bc0c",
+            "iid": 88,
+            "name": "Bonchon Dinkytown",
+            "rank": 19,
+            "score": -2.388880491256714,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Arkansas, Fort Smith, Rogers Ave, YW POKE\u90ae\u653f\u7f16\u7801: 72903",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87cbb39eb5cf1b0b:0x7d4d52f7319676d3",
+            "iid": 6800,
+            "name": "YW POKE",
+            "rank": 20,
+            "score": -2.3897862434387207,
+            "state": "Arkansas"
+        }
+    ],
+    "user": {
+        "name": "Nunu Eats",
+        "uid": 11830,
+        "user_id": 102540898579711026341
+    }
+}

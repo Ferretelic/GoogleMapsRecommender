@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "GW Supermarket, 421 N Atlantic Blvd, Monterey Park, CA 91754",
+            "category": "['Asian grocery store', 'Chinese supermarket']",
+            "date": "2018/10/24",
+            "gmap_id": "0x80c2c542651a0d0d:0x7ad582c40a41cfa",
+            "iid": 5226,
+            "name": "GW Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540362096978
+        },
+        {
+            "address": "The Vox Kitchen, 16161 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Asian fusion restaurant']",
+            "date": "2018/11/18",
+            "gmap_id": "0x80dd2709db4dd9db:0x8c2979e92d20ac2c",
+            "iid": 7221,
+            "name": "The Vox Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542516774047
+        },
+        {
+            "address": "Seafood City, 2700 Colorado Blvd Suite #140, Los Angeles, CA 90041",
+            "category": "['Supermarket', 'Asian grocery store', 'Bakery', 'Fast food restaurant', 'Grocery store', 'Seafood market']",
+            "date": "2019/04/05",
+            "gmap_id": "0x80c2c16c530931f5:0xcadb4dc00ad574e5",
+            "iid": 5157,
+            "name": "Seafood City",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554428203810
+        },
+        {
+            "address": "Seoul Market, 2383 Foothill Blvd, La Ca\u00f1ada Flintridge, CA 91011",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store']",
+            "date": "2019/06/10",
+            "gmap_id": "0x80c2ea40b77635e7:0x3f7d372ef0a39464",
+            "iid": 5615,
+            "name": "Seoul Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560192321847
+        },
+        {
+            "address": "Hop Woo BBQ & Seafood Restaurant (Chinatown), 845 N Broadway, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Seafood restaurant']",
+            "date": "2019/06/16",
+            "gmap_id": "0x80c2c65bcde74b43:0xc52120867fe1d098",
+            "iid": 5282,
+            "name": "Hop Woo BBQ & Seafood Restaurant (Chinatown)",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560656117006
+        },
+        {
+            "address": "Ai Hoa Market, 860 N Hill St, Los Angeles, CA 90012",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2019/07/31",
+            "gmap_id": "0x80c2c6598882bff9:0xde47fc61aeba00b8",
+            "iid": 5274,
+            "name": "Ai Hoa Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564601547184
+        },
+        {
+            "address": "Super A Foods, 2925 Division St, Los Angeles, CA 90065",
+            "category": "['Grocery store', 'Asian grocery store', 'Supermarket']",
+            "date": "2019/07/31",
+            "gmap_id": "0x80c2c6ced9cdcb5f:0x136e9410007c9157",
+            "iid": 5286,
+            "name": "Super A Foods",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564604149336
+        },
+        {
+            "address": "Golden Dragon Restaurant, 960 N Broadway, Los Angeles, CA 90012, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Takeout restaurant']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2c659439a6273:0xc819a0cf92f6816a",
+            "iid": 5271,
+            "name": "Golden Dragon Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567449546895
+        },
+        {
+            "address": "Pot Thai Cafe, 2242 Fair Park Ave, Los Angeles, CA 90041",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/03",
+            "gmap_id": "0x80c2c167f5534ebb:0xddf231e9faae888c",
+            "iid": 5156,
+            "name": "Pot Thai Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1567536648104
+        },
+        {
+            "address": "Green Apple China Bistro, 12265 Ventura Blvd #112, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/03",
+            "gmap_id": "0x80c2bdfb0c7430cd:0x56fca4ed44c6bff2",
+            "iid": 5048,
+            "name": "Green Apple China Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1578025069180
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Ph\u1edf 87, 1019 N Broadway, Los Angeles, CA 90012",
+            "category": "['Pho restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c65929b19f17:0xb392a89df55fb0a1",
+            "iid": 5270,
+            "name": "Ph\u1edf 87",
+            "rank": 1,
+            "score": 6.55617094039917,
+            "state": "California"
+        },
+        {
+            "address": "Seafood City Supermarket, 134-140 S Vermont Ave, Los Angeles, CA 90004",
+            "category": "['Supermarket', 'Asian grocery store', 'Seafood market']",
+            "gmap_id": "0x80c2c7669bbdcad5:0x8aa28d41d093590e",
+            "iid": 5305,
+            "name": "Seafood City Supermarket",
+            "rank": 2,
+            "score": 5.941831588745117,
+            "state": "California"
+        },
+        {
+            "address": "Hop Li Seafood Restaurant, 526 Alpine St, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2c65a0f2fc21f:0xc3adb108612fa238",
+            "iid": 5280,
+            "name": "Hop Li Seafood Restaurant",
+            "rank": 3,
+            "score": 5.199008941650391,
+            "state": "California"
+        },
+        {
+            "address": "King Buffet, 1375 N Western Ave, Los Angeles, CA 90027",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80c2bf5238c60893:0x7dfd621f9b1138a8",
+            "iid": 5109,
+            "name": "King Buffet",
+            "rank": 4,
+            "score": 5.080530166625977,
+            "state": "California"
+        },
+        {
+            "address": "Sanamluang Cafe, hollywood/thaitown, 5176 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x80c2bf56e29dc893:0xb0c5ecfa69c7dc57",
+            "iid": 5112,
+            "name": "Sanamluang Cafe, hollywood/thaitown",
+            "rank": 5,
+            "score": 5.008845329284668,
+            "state": "California"
+        },
+        {
+            "address": "Pho Broadway, 942 N Broadway #102, Los Angeles, CA 90012",
+            "category": "['Pho restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c6595dfc9b49:0x2bae27e5399aa180",
+            "iid": 5272,
+            "name": "Pho Broadway",
+            "rank": 6,
+            "score": 4.941267013549805,
+            "state": "California"
+        },
+        {
+            "address": "Jade Wok, 625 W College St #109, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c659d99d4699:0x7429c3f80fd31ffb",
+            "iid": 5278,
+            "name": "Jade Wok",
+            "rank": 7,
+            "score": 4.734122276306152,
+            "state": "California"
+        },
+        {
+            "address": "99 Ranch Market, 771 W Garvey Ave, Monterey Park, CA 91754",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x80c2d00b0ec3d19d:0x7f196ee4b531ab70",
+            "iid": 5430,
+            "name": "99 Ranch Market",
+            "rank": 8,
+            "score": 4.722551345825195,
+            "state": "California"
+        },
+        {
+            "address": "Lax-C, 1100 N Main St, Los Angeles, CA 90012",
+            "category": "['Wholesale grocer', 'Asian grocery store', 'Food products supplier']",
+            "gmap_id": "0x80c2c65c4c6ec9a7:0x5ffc83f434d4d84b",
+            "iid": 5283,
+            "name": "Lax-C",
+            "rank": 9,
+            "score": 4.676162242889404,
+            "state": "California"
+        },
+        {
+            "address": "Full Moon House, 960 N Hill St, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Family restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c6590ec8da79:0x912ed76036ca4daa",
+            "iid": 5269,
+            "name": "Full Moon House",
+            "rank": 10,
+            "score": 4.591373443603516,
+            "state": "California"
+        },
+        {
+            "address": "Plum Tree Inn, 913 N Broadway, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x80c2c6597d71ae9f:0x571f19d6de3a9406",
+            "iid": 5273,
+            "name": "Plum Tree Inn",
+            "rank": 11,
+            "score": 4.579555034637451,
+            "state": "California"
+        },
+        {
+            "address": "Kusina Filipina Los Angeles, 4157 Eagle Rock Blvd, Los Angeles, CA 90065",
+            "category": "['Filipino restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Caterer', 'Event venue', 'Fried chicken takeaway', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2c148f16cb82f:0x28c75fb5f15436cd",
+            "iid": 5150,
+            "name": "Kusina Filipina Los Angeles",
+            "rank": 12,
+            "score": 4.576585292816162,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 2919 Los Feliz Blvd #4, Los Angeles, CA 90039",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c0e7cd79e3b1:0x15c7156391c653f7",
+            "iid": 5140,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": 4.5453925132751465,
+            "state": "California"
+        },
+        {
+            "address": "Bulgogi Hut, 3600 Wilshire Blvd #100c, Los Angeles, CA 90010",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Family restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b8830c8a9799:0xb29b3a9fdd44094f",
+            "iid": 4858,
+            "name": "Bulgogi Hut",
+            "rank": 14,
+            "score": 4.522836685180664,
+            "state": "California"
+        },
+        {
+            "address": "Zion Market, 888 S Vermont Ave, Los Angeles, CA 90005",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store']",
+            "gmap_id": "0x80c2c77d42f8f245:0xa5b0f83b5f95a391",
+            "iid": 5316,
+            "name": "Zion Market",
+            "rank": 15,
+            "score": 4.510800838470459,
+            "state": "California"
+        },
+        {
+            "address": "Hawaii Supermarket, 120 E Valley Blvd, San Gabriel, CA 91776",
+            "category": "['Chinese supermarket', 'Asian grocery store']",
+            "gmap_id": "0x80c2dab9915e006b:0xe232d96324c147eb",
+            "iid": 5560,
+            "name": "Hawaii Supermarket",
+            "rank": 16,
+            "score": 4.437819957733154,
+            "state": "California"
+        },
+        {
+            "address": "Foo-Chow Restaurant, 949 N Hill St, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c659a7223297:0x5224ad37b833f2fc",
+            "iid": 5277,
+            "name": "Foo-Chow Restaurant",
+            "rank": 17,
+            "score": 4.265936374664307,
+            "state": "California"
+        },
+        {
+            "address": "99 Ranch Market, 345 E Main St, Alhambra, CA 91801",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x80c2c5280198351f:0xf137944b83185be",
+            "iid": 5212,
+            "name": "99 Ranch Market",
+            "rank": 18,
+            "score": 4.175472736358643,
+            "state": "California"
+        },
+        {
+            "address": "Little Sheep Mongolian Hot Pot, Pasadena, 45 S Fair Oaks Ave, Pasadena, CA 91105",
+            "category": "['Hot pot restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c37101889595:0x17ad4b653c7a9aad",
+            "iid": 5180,
+            "name": "Little Sheep Mongolian Hot Pot, Pasadena",
+            "rank": 19,
+            "score": 4.09311056137085,
+            "state": "California"
+        },
+        {
+            "address": "New Dragon Sea Food Restaurant, 934 N Hill St, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c2c6599e67a95d:0x4e18c974056a402e",
+            "iid": 5275,
+            "name": "New Dragon Sea Food Restaurant",
+            "rank": 20,
+            "score": 4.082413673400879,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Nes Merveilles",
+        "uid": 111261,
+        "user_id": 110764918875082980625
+    }
+}

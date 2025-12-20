@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mizu Sushi Bar & Grill, 1035 S Winchester Blvd, San Jose, CA 95128",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Japanese restaurant', 'Korean restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2017/11/12",
+            "gmap_id": "0x808fcad6f3ee8b05:0xb15248d2f2e8696d",
+            "iid": 3800,
+            "name": "Mizu Sushi Bar & Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1510515982343
+        },
+        {
+            "address": "Maru Sushi, 1500 Adams Ave # 100B, Costa Mesa, CA 92626",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/12/24",
+            "gmap_id": "0x80dcdf60b8c4c20b:0xab8e45b1814cbb9f",
+            "iid": 7069,
+            "name": "Maru Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514106097701
+        },
+        {
+            "address": "Sushi Ai - Long Beach, 5260 2nd St, Long Beach, CA 90803",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/09/08",
+            "gmap_id": "0x80dd30364e36752f:0x2c7805a2bf01e5a5",
+            "iid": 7430,
+            "name": "Sushi Ai - Long Beach",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536419802703
+        },
+        {
+            "address": "Seafood City Supermarket, 2030 Diamond Blvd, Concord, CA 94520",
+            "category": "['Business center', 'Asian', 'Bakery', 'Fast food restaurant', 'Grocery store', 'Seafood market', 'Seafood wholesaler', 'Supermarket']",
+            "date": "2019/03/02",
+            "gmap_id": "0x808566c6aeb70463:0xa8622ba2fa9f0f6c",
+            "iid": 2558,
+            "name": "Seafood City Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1551562220108
+        },
+        {
+            "address": "Sushi Time, 1153 Fremont Blvd, Seaside, CA 93955",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/07/05",
+            "gmap_id": "0x808de4fc0937c7dd:0xcfef31ede0b9a760",
+            "iid": 3001,
+            "name": "Sushi Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562358785217
+        },
+        {
+            "address": "Kim's Oriental Market, 777 Broadway Ave, Seaside, CA 93955",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Oriental goods store']",
+            "date": "2019/07/06",
+            "gmap_id": "0x808de4f0f8571eed:0x6a922dd05766f753",
+            "iid": 2999,
+            "name": "Kim's Oriental Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562440548831
+        },
+        {
+            "address": "Matsu Sushi Japanese Restaurant, 1914 Contra Costa Blvd, Pleasant Hill, CA 94523",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/08/07",
+            "gmap_id": "0x808561381c4ebaf1:0x16fad1b810dfd1ab",
+            "iid": 2528,
+            "name": "Matsu Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1565214186612
+        },
+        {
+            "address": "Hana Tokyo, 5435 S Calle Santa Cruz #185, Tucson, AZ 85706",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/12/21",
+            "gmap_id": "0x86d67a224884401b:0x23c1529a142f0d76",
+            "iid": 10179,
+            "name": "Hana Tokyo",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1576903981222
+        },
+        {
+            "address": "Asiana Market, 1135 S Dobson Rd #104, Mesa, AZ 85202, United States",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2019/12/29",
+            "gmap_id": "0x872b07e246bbb1c5:0x6acb8a929a3b8923",
+            "iid": 10592,
+            "name": "Asiana Market",
+            "split": "valid",
+            "state": "Arizona",
+            "unix_time": 1577649782597
+        },
+        {
+            "address": "RA Sushi Bar Restaurant, 2905 E Skyline Dr #289, Tucson, AZ 85718",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2020/02/13",
+            "gmap_id": "0x86d672f3773ab99d:0xc2e5a3e8dd37cb77",
+            "iid": 10163,
+            "name": "RA Sushi Bar Restaurant",
+            "split": "test",
+            "state": "Arizona",
+            "unix_time": 1581633454684
+        }
+    ],
+    "model": {
+        "model_name": "KNN",
+        "name": "KNN",
+        "type": "baseline"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 540 Woollomes Ave, Delano, CA 93215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80eae570be4641c3:0xf60622fce20018f2",
+            "iid": 7757,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": -31.85501480102539,
+            "state": "California"
+        },
+        {
+            "address": "Healthy Japan, 1223 N Cherry St, Tulare, CA 93274",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80952b929f3fdf69:0x15e4ae1b740e1e08",
+            "iid": 4171,
+            "name": "Healthy Japan",
+            "rank": 2,
+            "score": -57.516727447509766,
+            "state": "California"
+        },
+        {
+            "address": "Krave, 1299 E Prosperity Ave, Tulare, CA 93274",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80952b1c856334b7:0xf358a86b76288525",
+            "iid": 4169,
+            "name": "Krave",
+            "rank": 3,
+            "score": -57.87175750732422,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 1196 E Prosperity Ave, Tulare, CA 93274",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80952b8bab003b51:0x3f0173e14211b163",
+            "iid": 4170,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -58.013282775878906,
+            "state": "California"
+        },
+        {
+            "address": "Asian Grill, 2169 E Prosperity Ave, Tulare, CA 93274",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80952c6e2e3f1a43:0x89f1111fbdf605ad",
+            "iid": 4172,
+            "name": "Asian Grill",
+            "rank": 5,
+            "score": -58.47183609008789,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 35093 Merle Haggard Dr, Bakersfield, CA 93308",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80ea5d321c176aed:0x40d40c3ca0425e2c",
+            "iid": 7743,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -58.5347785949707,
+            "state": "California"
+        },
+        {
+            "address": "Thai Kitchen, 9901 Hageman Rd STE 200, Bakersfield, CA 93312",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80ea430d8983ab41:0x82b7fe7b18cbb614",
+            "iid": 7737,
+            "name": "Thai Kitchen",
+            "rank": 7,
+            "score": -59.335777282714844,
+            "state": "California"
+        },
+        {
+            "address": "mimotto, 9650 Hageman Rd, Bakersfield, CA 93312",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80ea430e02c82c43:0xa30f985f0a79b02a",
+            "iid": 7738,
+            "name": "mimotto",
+            "rank": 8,
+            "score": -59.40156936645508,
+            "state": "California"
+        },
+        {
+            "address": "Ninja Sushi & Dining, 2665 Calloway Dr #212, Bakersfield, CA 93312",
+            "category": "['Asian restaurant', 'Korean barbecue restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80ea43a136ba7a2b:0xdeebcf745ebcca75",
+            "iid": 7739,
+            "name": "Ninja Sushi & Dining",
+            "rank": 9,
+            "score": -60.41435623168945,
+            "state": "California"
+        },
+        {
+            "address": "#Saynomo' Asian Fusion Restaurant, 1392 W Olive Ave, Porterville, CA 93257",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bubble tea store', 'Delivery service', 'Thai restaurant']",
+            "gmap_id": "0x80eab919610ae883:0x5c93c41479f7e784",
+            "iid": 7756,
+            "name": "#Saynomo' Asian Fusion Restaurant",
+            "rank": 10,
+            "score": -60.71068572998047,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 9200 Rosedale Hwy #300, Bakersfield, CA 93312",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80ea43a5f075d967:0xaec01d762dbfb5db",
+            "iid": 7740,
+            "name": "Panda Express",
+            "rank": 11,
+            "score": -60.79924011230469,
+            "state": "California"
+        },
+        {
+            "address": "Love Sushi Iii Inc, 3940 Coffee Rd, Bakersfield, CA 93308",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80ea42fe2d067b57:0xbed3ac027f702287",
+            "iid": 7735,
+            "name": "Love Sushi Iii Inc",
+            "rank": 12,
+            "score": -60.84734344482422,
+            "state": "California"
+        },
+        {
+            "address": "Sushiko, 3615 Coffee Rd, Bakersfield, CA 93308",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80ea43000122550f:0x49677174f22cbf4b",
+            "iid": 7736,
+            "name": "Sushiko",
+            "rank": 13,
+            "score": -61.002864837646484,
+            "state": "California"
+        },
+        {
+            "address": "Flame Broiler, 3505 Coffee Rd B, Bakersfield, CA 93312",
+            "category": "['Fast food restaurant', 'Asian restaurant', 'Health food restaurant', 'Korean restaurant']",
+            "gmap_id": "0x80ea42554ac5da05:0x6ef894b1af1b7c0a",
+            "iid": 7734,
+            "name": "Flame Broiler",
+            "rank": 14,
+            "score": -61.06509017944336,
+            "state": "California"
+        },
+        {
+            "address": "Kamisama Ramen, 1400 Calloway Dr #101, Bakersfield, CA 93312",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80ea43b92c5a6719:0xa47e1d9866968718",
+            "iid": 7741,
+            "name": "Kamisama Ramen",
+            "rank": 15,
+            "score": -61.47756576538086,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 460 W Vandalia Ave, Porterville, CA 93257",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80eab8f8e5f3c6d7:0x6cbf1886b7f6ba18",
+            "iid": 7755,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": -61.547828674316406,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Moon, 1120 Calloway Dr, Bakersfield, CA 93312",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80ea43bf453495e3:0x7addefca8b4c47d4",
+            "iid": 7742,
+            "name": "Sushi Moon",
+            "rank": 17,
+            "score": -61.63966751098633,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Bowl, 1285 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80eab800aa5b9d73:0x77814a9855053bfa",
+            "iid": 7753,
+            "name": "Tokyo Bowl",
+            "rank": 18,
+            "score": -61.74099349975586,
+            "state": "California"
+        },
+        {
+            "address": "Thai Kitchen, 951 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80eab804467bcf57:0x34629357a9caba0c",
+            "iid": 7754,
+            "name": "Thai Kitchen",
+            "rank": 19,
+            "score": -62.21670150756836,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 796 Reeves Blvd building 295-b, Lemoore, CA 93246",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8094beade0436cc9:0x1bb936920036e6b2",
+            "iid": 4153,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -62.924739837646484,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Pika Chew",
+        "uid": 132201,
+        "user_id": 112798920699024189256
+    }
+}

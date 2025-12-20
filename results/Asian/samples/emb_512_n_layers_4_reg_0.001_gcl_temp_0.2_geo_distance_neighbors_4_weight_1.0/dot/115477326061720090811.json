@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Pacific Supermarket, 2228 Westborough Blvd, South San Francisco, CA 94080",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2016/02/02",
+            "gmap_id": "0x808f7a2b9c5b427b:0x911220b1c351f8ec",
+            "iid": 3179,
+            "name": "Pacific Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1454385968721
+        },
+        {
+            "address": "Marina Food Market, 2992 S Norfolk St, San Mateo, CA 94403",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2016/02/07",
+            "gmap_id": "0x808f9f2094cf1745:0x4298b6aeeb5bad76",
+            "iid": 3489,
+            "name": "Marina Food Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1454814180990
+        },
+        {
+            "address": "Ben Tre Restaurant, 219 El Camino Real, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Pho restaurant']",
+            "date": "2016/03/02",
+            "gmap_id": "0x808f77a54cec683f:0xda2ac2e415af14c0",
+            "iid": 3155,
+            "name": "Ben Tre Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1456940173026
+        },
+        {
+            "address": "Champagne Seafood Restaurant, 88 E 4th Ave, San Mateo, CA 94401",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Cantonese restaurant', 'Dim sum restaurant']",
+            "date": "2016/04/06",
+            "gmap_id": "0x808f9e7018def0f5:0x9d4f3b88296d6496",
+            "iid": 3453,
+            "name": "Champagne Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1459961843015
+        },
+        {
+            "address": "The Chairman, 2723 Oakdale Ave, San Francisco, CA 94124",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant', 'Mobile caterer', 'Taiwanese restaurant']",
+            "date": "2016/04/15",
+            "gmap_id": "0x80858090daebfb4d:0x391d999fa7381158",
+            "iid": 2764,
+            "name": "The Chairman",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460760408109
+        },
+        {
+            "address": "Lahore Karahi, 612 O'Farrell St, San Francisco, CA 94109",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Halal restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "date": "2016/04/16",
+            "gmap_id": "0x80858091add69db7:0x196d97249dfad0a0",
+            "iid": 2770,
+            "name": "Lahore Karahi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460773566375
+        },
+        {
+            "address": "Lahore Karahi, 612 O'Farrell St, San Francisco, CA 94109",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Halal restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "date": "2016/04/16",
+            "gmap_id": "0x80858091add69db7:0x196d97249dfad0a0",
+            "iid": 2770,
+            "name": "Lahore Karahi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460773566375
+        },
+        {
+            "address": "The Kitchen \u53a8\u623f\u88fd\u9020, 279 El Camino Real, Millbrae, CA 94030",
+            "category": "['Cantonese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Restaurant']",
+            "date": "2016/04/24",
+            "gmap_id": "0x808f77a539c002cd:0x60db02118246997",
+            "iid": 3153,
+            "name": "The Kitchen \u53a8\u623f\u88fd\u9020",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461476113911
+        },
+        {
+            "address": "Dumpling Kitchen, 1935 Taraval St, San Francisco, CA 94116",
+            "category": "['Dumpling restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Noodle shop', 'Pan-Asian restaurant', 'Restaurant', 'Shanghainese restaurant', 'South Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/05/03",
+            "gmap_id": "0x808f7d835ad0d52f:0x61768a5c80a9e9dc",
+            "iid": 3219,
+            "name": "Dumpling Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1462238804446
+        },
+        {
+            "address": "Noelani's Island Grill, 1037 Laurel St, San Carlos, CA 94070",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant']",
+            "date": "2016/05/24",
+            "gmap_id": "0x808fa219d629d955:0x18d9c30477bf4649",
+            "iid": 3504,
+            "name": "Noelani's Island Grill",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1464117811796
+        },
+        {
+            "address": "Sun's Market, 123 El Camino Real, Millbrae, CA 94030",
+            "category": "['Asian grocery store', 'Grocery store', 'Produce market', 'Supermarket']",
+            "date": "2016/07/15",
+            "gmap_id": "0x808f77b06b971e9d:0x422348084ce66e66",
+            "iid": 3156,
+            "name": "Sun's Market",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1468602757032
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "99 Ranch Market, 250 Skyline Plaza, Daly City, CA 94015",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808f7c7c5e81ee3f:0xb4e2b2a92f4d9677",
+            "iid": 3212,
+            "name": "99 Ranch Market",
+            "rank": 1,
+            "score": 5.702698230743408,
+            "state": "California"
+        },
+        {
+            "address": "Boiling Point, 111 E 4th Ave, San Mateo, CA 94401",
+            "category": "['Hot pot restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Soup restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808f9e7014396dbb:0x62f6211a1a09cc6a",
+            "iid": 3452,
+            "name": "Boiling Point",
+            "rank": 2,
+            "score": 5.232396125793457,
+            "state": "California"
+        },
+        {
+            "address": "99 Ranch Market, 1070 Foster City Blvd, Foster City, CA 94404",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808f98d7d1e308c7:0x13b13ea698d9e8f2",
+            "iid": 3438,
+            "name": "99 Ranch Market",
+            "rank": 3,
+            "score": 5.130654335021973,
+            "state": "California"
+        },
+        {
+            "address": "Takahashi Market, 221 S Claremont St, San Mateo, CA 94401",
+            "category": "['Asian grocery store', 'Grocery store', 'Hawaiian restaurant', 'Japanese grocery store', 'Japanese restaurant', 'Market']",
+            "gmap_id": "0x808f9e7a699ed723:0xd25e42c4b1039754",
+            "iid": 3471,
+            "name": "Takahashi Market",
+            "rank": 4,
+            "score": 5.018640518188477,
+            "state": "California"
+        },
+        {
+            "address": "Izakaya Mai, 212 2nd Ave, San Mateo, CA 94401",
+            "category": "['Izakaya restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808f9e70ed2a4071:0x5235775e7915045c",
+            "iid": 3467,
+            "name": "Izakaya Mai",
+            "rank": 5,
+            "score": 4.982130527496338,
+            "state": "California"
+        },
+        {
+            "address": "C Food Crush, 251 S B St, San Mateo, CA 94401",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Cajun restaurant', 'Creole restaurant', 'Fusion restaurant']",
+            "gmap_id": "0x808f9e708439c88b:0x1b2841efa86839ad",
+            "iid": 3459,
+            "name": "C Food Crush",
+            "rank": 6,
+            "score": 4.907092094421387,
+            "state": "California"
+        },
+        {
+            "address": "Hanabi, 723 California Dr, Burlingame, CA 94010",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x808f9df4c9cda3e9:0xb0a7d0f79469a39",
+            "iid": 3445,
+            "name": "Hanabi",
+            "rank": 7,
+            "score": 4.898190498352051,
+            "state": "California"
+        },
+        {
+            "address": "Banana Island, 273 Lake Merced Blvd, Daly City, CA 94015",
+            "category": "['Asian restaurant', 'Singaporean restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x808f7c5c63c98bbb:0x46eb393ff099ad2e",
+            "iid": 3207,
+            "name": "Banana Island",
+            "rank": 8,
+            "score": 4.849248886108398,
+            "state": "California"
+        },
+        {
+            "address": "Old Town Sushi, 100 S B St, San Mateo, CA 94401",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Diner', 'Sushi restaurant']",
+            "gmap_id": "0x808f9e70ce4f5a63:0x3ea11c1c3d32d928",
+            "iid": 3465,
+            "name": "Old Town Sushi",
+            "rank": 9,
+            "score": 4.81036376953125,
+            "state": "California"
+        },
+        {
+            "address": "Dumpling Empire, 216 Cypress Ave, South San Francisco, CA 94080",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dumpling restaurant', 'Restaurant']",
+            "gmap_id": "0x808f79aeeda75f09:0x270d07b0c21e39d0",
+            "iid": 3168,
+            "name": "Dumpling Empire",
+            "rank": 10,
+            "score": 4.73198127746582,
+            "state": "California"
+        },
+        {
+            "address": "Bonchon San Mateo, 220 S B St, San Mateo, CA 94401",
+            "category": "['Chicken restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x808f9e708df130eb:0x35a54fcebf7083a",
+            "iid": 3461,
+            "name": "Bonchon San Mateo",
+            "rank": 11,
+            "score": 4.718619346618652,
+            "state": "California"
+        },
+        {
+            "address": "Sun's Market, 123 El Camino Real, Millbrae, CA 94030",
+            "category": "['Asian grocery store', 'Grocery store', 'Produce market', 'Supermarket']",
+            "gmap_id": "0x808f77b06b971e9d:0x422348084ce66e66",
+            "iid": 3156,
+            "name": "Sun's Market",
+            "rank": 12,
+            "score": 4.693470478057861,
+            "state": "California"
+        },
+        {
+            "address": "Pacific Supermarket, 1015 El Camino Real, South San Francisco, CA 94080",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x808f79782add873f:0x917fd9d15d181916",
+            "iid": 3160,
+            "name": "Pacific Supermarket",
+            "rank": 13,
+            "score": 4.631195545196533,
+            "state": "California"
+        },
+        {
+            "address": "Tai Yuan Seafood Restaurant, King Plaza Center, 950 King Dr #100, Daly City, CA 94015",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x808f7bc82471d7e1:0xf4d40f7dcc96642e",
+            "iid": 3188,
+            "name": "Tai Yuan Seafood Restaurant",
+            "rank": 14,
+            "score": 4.562569618225098,
+            "state": "California"
+        },
+        {
+            "address": "Pakwan Restaurant - Tenderloin, 501 O'Farrell St, San Francisco, CA 94102",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x808580902c11ff33:0x6735e5227132c759",
+            "iid": 2761,
+            "name": "Pakwan Restaurant - Tenderloin",
+            "rank": 15,
+            "score": 4.54042387008667,
+            "state": "California"
+        },
+        {
+            "address": "Old Mandarin Islamic Restaurant, 3132 Vicente St, San Francisco, CA 94116",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Halal restaurant', 'Mandarin restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7d7a8904c923:0xe4170fadc1a22007",
+            "iid": 3216,
+            "name": "Old Mandarin Islamic Restaurant",
+            "rank": 16,
+            "score": 4.5257439613342285,
+            "state": "California"
+        },
+        {
+            "address": "Benihana, 1496 Old Bayshore Hwy, Burlingame, CA 94010",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x808f762d370e7caf:0xb603522dd430112b",
+            "iid": 3137,
+            "name": "Benihana",
+            "rank": 17,
+            "score": 4.3559136390686035,
+            "state": "California"
+        },
+        {
+            "address": "Zen Sushi Bistro, 420 Broadway, Millbrae, CA 94030",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Caterer', 'Japanese restaurant']",
+            "gmap_id": "0x808f77a4f7826b37:0x815fb1e50534e727",
+            "iid": 3150,
+            "name": "Zen Sushi Bistro",
+            "rank": 18,
+            "score": 4.33701753616333,
+            "state": "California"
+        },
+        {
+            "address": "White Elephant Restaurant, 146 Hazelwood Dr, South San Francisco, CA 94080",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f79966be3f43b:0x62781ba84d18fd04",
+            "iid": 3163,
+            "name": "White Elephant Restaurant",
+            "rank": 19,
+            "score": 4.252386093139648,
+            "state": "California"
+        },
+        {
+            "address": "Noelani's Island Grill, 1037 Laurel St, San Carlos, CA 94070",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x808fa219d629d955:0x18d9c30477bf4649",
+            "iid": 3504,
+            "name": "Noelani's Island Grill",
+            "rank": 20,
+            "score": 4.135232925415039,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Victor Chen",
+        "uid": 159814,
+        "user_id": 115477326061720090811
+    }
+}

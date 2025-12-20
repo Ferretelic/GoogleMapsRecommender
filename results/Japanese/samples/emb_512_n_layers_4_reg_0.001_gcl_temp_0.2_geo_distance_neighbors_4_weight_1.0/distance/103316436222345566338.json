@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Mori Kitchen, 1000 S De Anza Blvd, San Jose, CA 95129",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/07/04",
+            "gmap_id": "0x808fb50411ccf1f1:0x8fc2c05070e308fb",
+            "iid": 2194,
+            "name": "Mori Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499208598952
+        },
+        {
+            "address": "Sanraku, 925 Blossom Hill Rd, San Jose, CA 95123",
+            "category": "['Sushi restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "date": "2018/12/26",
+            "gmap_id": "0x808e33d614387587:0xa05fbc97ef586ce4",
+            "iid": 1901,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545856616103
+        },
+        {
+            "address": "Kumako Ramen, 211 Jackson St, San Jose, CA 95112",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/05/29",
+            "gmap_id": "0x808fcc84ef10e251:0x5d09f70e188c20b7",
+            "iid": 2366,
+            "name": "Kumako Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559156782966
+        },
+        {
+            "address": "Nijiya Market San Diego Store, 3860 Convoy St, San Diego, CA 92111",
+            "category": "['Japanese grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80dbffe913978ff5:0xdc2f05fde824f6bc",
+            "iid": 4022,
+            "name": "Nijiya Market San Diego Store",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573344897987
+        },
+        {
+            "address": "Ototo Sushi Co., 2558 Laning Rd UNIT 103, San Diego, CA 92106",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/11/12",
+            "gmap_id": "0x80deab097939b433:0x4b766bbdbf6fac14",
+            "iid": 4618,
+            "name": "Ototo Sushi Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573593656563
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 19600 Vallco Pkwy #160, Cupertino, CA 95014",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/12",
+            "gmap_id": "0x808fb59ed888b5e9:0xfd5c475f3d309263",
+            "iid": 2216,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573593705810
+        },
+        {
+            "address": "Nijiya Market, 240 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "date": "2019/11/17",
+            "gmap_id": "0x808fcc84e134e047:0x845a11e6ecd8d327",
+            "iid": 2363,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574030659133
+        },
+        {
+            "address": "Benihana, 2074 Vallco Pkwy, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808fb598ebc8f8cb:0x4f61513c02794986",
+            "iid": 2214,
+            "name": "Benihana",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575839051461
+        },
+        {
+            "address": "Benihana, 1737 Post St, San Francisco, CA 94115, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808580b9279b8d1d:0xf10e8905aeedb7a1",
+            "iid": 1717,
+            "name": "Benihana",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575839134474
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "date": "2019/12/29",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 2332,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1577663950645
+        },
+        {
+            "address": "Ariake, 1008 Blossom Hill Rd, San Jose, CA 95123",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2021/02/20",
+            "gmap_id": "0x808e33d873c11e67:0x14d3f3e427a1520c",
+            "iid": 1902,
+            "name": "Ariake",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613792436621
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "KoJa Kitchen, 19700 Vallco Pkwy Suite 130, Cupertino, CA 95014",
+            "category": "['Korean restaurant', 'Fast food restaurant', 'Fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb59f247e7627:0x87d15034ac57cfb1",
+            "iid": 2217,
+            "name": "KoJa Kitchen",
+            "rank": 1,
+            "score": -1.713047981262207,
+            "state": "California"
+        },
+        {
+            "address": "Rantei Japanese Cuisine, 1271 Franklin Mall, Santa Clara, CA 95050",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fcbe4ecd2c325:0x1282199f5d43399b",
+            "iid": 2357,
+            "name": "Rantei Japanese Cuisine",
+            "rank": 2,
+            "score": -1.8926758766174316,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Zono, 831 W Hamilton Ave, Campbell, CA 95008",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e353386f49d21:0xff390ba7c8ebd086",
+            "iid": 1912,
+            "name": "Sushi Zono",
+            "rank": 3,
+            "score": -1.931636929512024,
+            "state": "California"
+        },
+        {
+            "address": "Tomokazu, Terminal 3, Boarding Area F, San Francisco, CA 94128",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808f778fda79f7b1:0x408229d289533bb8",
+            "iid": 1942,
+            "name": "Tomokazu",
+            "rank": 4,
+            "score": -1.9351749420166016,
+            "state": "California"
+        },
+        {
+            "address": "The Hambak, 1179 S De Anza Blvd, San Jose, CA 95129",
+            "category": "['Japanese restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb51c96a6efad:0xff4a68b402b51741",
+            "iid": 2198,
+            "name": "The Hambak",
+            "rank": 5,
+            "score": -1.9552594423294067,
+            "state": "California"
+        },
+        {
+            "address": "Kissako Tea, 1581 Webster St Ste 195, San Francisco, CA 94115",
+            "category": "['Tea house', 'Cafe', 'Dessert shop', 'Japanese sweets restaurant']",
+            "gmap_id": "0x808580b8e176c767:0xc6b1975626e73b87",
+            "iid": 1713,
+            "name": "Kissako Tea",
+            "rank": 6,
+            "score": -1.9648176431655884,
+            "state": "California"
+        },
+        {
+            "address": "Sarku Japan, 925 Blossom Hill Rd Suite 1609, San Jose, CA 95123",
+            "category": "['Japanese restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x808e33d5e09d498d:0xb33a7f7078ef7da6",
+            "iid": 1900,
+            "name": "Sarku Japan",
+            "rank": 7,
+            "score": -1.9693161249160767,
+            "state": "California"
+        },
+        {
+            "address": "Tatami Buffet, 10123 N Wolfe Rd #2001, Cupertino, CA 95014",
+            "category": "['Buffet restaurant', 'Fish and seafood restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb598a280ad59:0x4945b8fada898418",
+            "iid": 2213,
+            "name": "Tatami Buffet",
+            "rank": 8,
+            "score": -1.9760934114456177,
+            "state": "California"
+        },
+        {
+            "address": "Bonchon Santa Teresa, 7026 Santa Teresa Blvd Suite 30, San Jose, CA 95139",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x808e2f119bee1a37:0xd9f4df54826f1e44",
+            "iid": 1885,
+            "name": "Bonchon Santa Teresa",
+            "rank": 9,
+            "score": -2.0091679096221924,
+            "state": "California"
+        },
+        {
+            "address": "AJ's Kitchen, 67015038, San Jose, CA 95121",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e2ddd90b105cd:0x65d30f866d7319b5",
+            "iid": 1882,
+            "name": "AJ's Kitchen",
+            "rank": 10,
+            "score": -2.0179991722106934,
+            "state": "California"
+        },
+        {
+            "address": "Hoshinoya, 1740 Buchanan St, San Francisco, CA 94115",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80858172b80ac169:0xa8ff0000d8389964",
+            "iid": 1763,
+            "name": "Hoshinoya",
+            "rank": 11,
+            "score": -2.023287296295166,
+            "state": "California"
+        },
+        {
+            "address": "Arigato Sushi, 2855 Stevens Creek Blvd, San Jose, CA 95128",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fcae19213fa11:0xba7b34e8bd4bfb22",
+            "iid": 2342,
+            "name": "Arigato Sushi",
+            "rank": 12,
+            "score": -2.027255058288574,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Madness, 2020 Wyatt Dr Suite 120, Santa Clara, CA 95054",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fc92dd976fbf1:0x7e15984d1938362c",
+            "iid": 2312,
+            "name": "Teriyaki Madness",
+            "rank": 13,
+            "score": -2.0404305458068848,
+            "state": "California"
+        },
+        {
+            "address": "TESO LIFE, 19-23 Saint Marks Place, St Marks Pl, New York, NY 10003",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x89c259966d177405:0x38f26fb82d44c380",
+            "iid": 12284,
+            "name": "TESO LIFE",
+            "rank": 14,
+            "score": -2.0632407665252686,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Kuchi, 4637 Convoy St Ste 104, San Diego, CA 92111",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbffeebb463003:0xa98e0d1f40929a60",
+            "iid": 4032,
+            "name": "Sushi Kuchi",
+            "rank": 15,
+            "score": -2.073575258255005,
+            "state": "California"
+        },
+        {
+            "address": "Cho Cho San, 15 W 8th St, New York, NY 10011",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259972eb06293:0x621691c5f32b8d17",
+            "iid": 12288,
+            "name": "Cho Cho San",
+            "rank": 16,
+            "score": -2.075606346130371,
+            "state": "New_York"
+        },
+        {
+            "address": "Oysy Sushi Teriyaki, 2590 S Bascom Ave, San Jose, CA 95124",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e34f0e11ef2fb:0x363c82e4ff8512e",
+            "iid": 1911,
+            "name": "Oysy Sushi Teriyaki",
+            "rank": 17,
+            "score": -2.076629400253296,
+            "state": "California"
+        },
+        {
+            "address": "Miyabi-tei, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fca9656e7ee93:0xc1152a22eaad0b83",
+            "iid": 2330,
+            "name": "Miyabi-tei",
+            "rank": 18,
+            "score": -2.0779287815093994,
+            "state": "California"
+        },
+        {
+            "address": "GINTO express, 60 Morris St, San Francisco, CA 94107",
+            "category": "['Sushi restaurant', 'Health food restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Kyoto style Japanese restaurant']",
+            "gmap_id": "0x808f7f05e7569703:0x998c32dd1a633fb",
+            "iid": 2039,
+            "name": "GINTO express",
+            "rank": 19,
+            "score": -2.079698085784912,
+            "state": "California"
+        },
+        {
+            "address": "Shindokdo, 2690 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808fca14a9f408db:0x694968152ce35d9a",
+            "iid": 2324,
+            "name": "Shindokdo",
+            "rank": 20,
+            "score": -2.0829827785491943,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Kim Dela Cruz",
+        "uid": 15380,
+        "user_id": 103316436222345566338
+    }
+}

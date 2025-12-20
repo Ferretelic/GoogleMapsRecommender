@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Asian Town Center, 3820 Superior Ave, Cleveland, OH 44114",
+            "category": "['Asian grocery store', 'Asian restaurant', 'Supermarket']",
+            "date": "2018/08/04",
+            "gmap_id": "0x8830fa440e959ca7:0xc9fcd98c29c5e024",
+            "iid": 14782,
+            "name": "Asian Town Center",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1533421288345
+        },
+        {
+            "address": "Park To Shop Supermarket, 1580 E 30th St, Cleveland, OH 44114",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2018/08/04",
+            "gmap_id": "0x8830fb3faaf83d97:0xaeeaafc15a713da5",
+            "iid": 14793,
+            "name": "Park To Shop Supermarket",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1533421296289
+        },
+        {
+            "address": "Bonchon Colony, 4940 TX-121 Suite 135, The Colony, TX 75056",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2018/08/04",
+            "gmap_id": "0x864c25118fd6094d:0x62eea1ddaa147284",
+            "iid": 9187,
+            "name": "Bonchon Colony",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533421356080
+        },
+        {
+            "address": "Kintaro All You Can Eat Sushi & Hot Pot, 7325 Northcliff Ave, Brooklyn, OH 44144",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Buffet restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "date": "2018/11/22",
+            "gmap_id": "0x8830ee55663e1dbb:0x9cddd6804baf0cad",
+            "iid": 14757,
+            "name": "Kintaro All You Can Eat Sushi & Hot Pot",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1542891547032
+        },
+        {
+            "address": "Maxim Market, 1930 Aborn Rd, San Jose, CA 95121",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2018/12/30",
+            "gmap_id": "0x808fb51c9690a6f5:0x788297d8880ac6b8",
+            "iid": 3553,
+            "name": "Maxim Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546147038505
+        },
+        {
+            "address": "Wonton Gourmet & BBQ, 3211 Payne Ave, Cleveland, OH 44114",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Restaurant']",
+            "date": "2019/04/16",
+            "gmap_id": "0x8830fa432ed27673:0x89f3502143215d6",
+            "iid": 14780,
+            "name": "Wonton Gourmet & BBQ",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1555377154981
+        },
+        {
+            "address": "Bonchon Seven Hills, 7581 Broadview Rd, Seven Hills, OH 44131",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2019/11/08",
+            "gmap_id": "0x8830e6226eaab29b:0xb252d7ed9972522e",
+            "iid": 14744,
+            "name": "Bonchon Seven Hills",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1573252285067
+        },
+        {
+            "address": "J & J Asian Mart Inc. (\ub3d9\uc591\uc2dd\ud488) 24529 Lorain Rd, North Olmsted, OH 44070",
+            "category": "['Asian grocery store', 'Appliance store', 'Cosmetics store', 'Health food store', 'Japanese grocery store', 'Korean grocery store', 'Variety store']",
+            "date": "2020/08/28",
+            "gmap_id": "0x8830931a1d87763f:0x7246d060d36232a7",
+            "iid": 14717,
+            "name": "J & J Asian Mart Inc. (\ub3d9\uc591\uc2dd\ud488)",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1598622406244
+        },
+        {
+            "address": "Pho Hoa Noodle Soup - Orlando, 649 Primrose Dr, Orlando, FL 32803",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "date": "2021/04/04",
+            "gmap_id": "0x88e77acefb7ac2c9:0x71b9057bc3cfb0ec",
+            "iid": 18674,
+            "name": "Pho Hoa Noodle Soup - Orlando",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1617551164471
+        },
+        {
+            "address": "Enson Market, 5132 W Colonial Dr, Orlando, FL 32808",
+            "category": "['Supermarket', 'Asian grocery store', 'Grocery store']",
+            "date": "2021/04/06",
+            "gmap_id": "0x88e779a20e4117f9:0xb12ddfced10eb3d5",
+            "iid": 18661,
+            "name": "Enson Market",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1617740374943
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Vietnam Market, 5506 Detroit Ave, Cleveland, OH 44102",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x8830f0488bbc9e3d:0x451ca4e4c71a9c46",
+            "iid": 14764,
+            "name": "Vietnam Market",
+            "rank": 1,
+            "score": -2.0474088191986084,
+            "state": "Ohio"
+        },
+        {
+            "address": "Dragon, 3851 Center Rd, Brunswick, OH 44212",
+            "category": "['Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8830c128d9828fdf:0x77985c3a30bc5563",
+            "iid": 14725,
+            "name": "Dragon",
+            "rank": 2,
+            "score": -2.07914662361145,
+            "state": "Ohio"
+        },
+        {
+            "address": "BIBIBOP Asian Grill, 15191 Pearl Rd, Strongsville, OH 44136",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8830c170fb32b097:0x768ec1b9b077edef",
+            "iid": 14726,
+            "name": "BIBIBOP Asian Grill",
+            "rank": 3,
+            "score": -2.1512348651885986,
+            "state": "Ohio"
+        },
+        {
+            "address": "P's VietMi Cafe, 8475 S John Young Pkwy, Orlando, FL 32819",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Restaurant', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x88e77d7be34a9435:0x8f720b18985b54bd",
+            "iid": 18704,
+            "name": "P's VietMi Cafe",
+            "rank": 4,
+            "score": -2.1777608394622803,
+            "state": "Florida"
+        },
+        {
+            "address": "China King Restaurant, 1502 Reisterstown Rd, Pikesville, MD 21208",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c81a069ea786cb:0xc35e4b1342809d6e",
+            "iid": 23951,
+            "name": "China King Restaurant",
+            "rank": 5,
+            "score": -2.1793103218078613,
+            "state": "Maryland"
+        },
+        {
+            "address": "Panda Express, 1227 S Reed Rd, Kokomo, IN 46902",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8814851671b7b0d9:0xfd615d4cd06efe2",
+            "iid": 14235,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -2.1846885681152344,
+            "state": "Indiana"
+        },
+        {
+            "address": "Ten Seconds Yunnan Rice Noodle, 2059 86th St, Brooklyn, NY 11214",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Noodle shop']",
+            "gmap_id": "0x89c2450ac476b7bb:0xedbdf3752fb81ea0",
+            "iid": 21421,
+            "name": "Ten Seconds Yunnan Rice Noodle",
+            "rank": 7,
+            "score": -2.1847522258758545,
+            "state": "New_York"
+        },
+        {
+            "address": "King of Thai Boat Noodles, 661 Ke\u2019eaumoku St Suite 103, Honolulu, HI 96814",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Hawaiian restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x7c006d511f0c8d7d:0x187309b6921aabf2",
+            "iid": 2263,
+            "name": "King of Thai Boat Noodles",
+            "rank": 8,
+            "score": -2.1854593753814697,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Lan Ramen, 250 S Washington St suit 1, Bloomington, IN 47408",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x886c67a97deca26f:0xf30e151d94875b61",
+            "iid": 16745,
+            "name": "Lan Ramen",
+            "rank": 9,
+            "score": -2.188072443008423,
+            "state": "Indiana"
+        },
+        {
+            "address": "Peacock Indian Restaurant & Bar | Best Indian Food | Best South Indian Food, 3500 Walnut St, Harrisburg, PA 17109",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Caterer', 'Delivery service', 'Takeout Restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c8c76d0df8ab39:0xb0170d2a27a65145",
+            "iid": 24036,
+            "name": "Peacock Indian Restaurant & Bar | Best Indian Food | Best South Indian Food",
+            "rank": 10,
+            "score": -2.1890742778778076,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Mint Tapas and Sushi Holladay, 3158 6200 S Ste B, Holladay, UT 84121",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Small plates restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8752631dbd2663a9:0x4dd6d2f106a28c11",
+            "iid": 11068,
+            "name": "Mint Tapas and Sushi Holladay",
+            "rank": 11,
+            "score": -2.1912848949432373,
+            "state": "Utah"
+        },
+        {
+            "address": "Pin On Cafe, 1100 Central Ave N, St. Petersburg, FL 33705",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x88c2e3fccf52cb69:0x5c5e8223ff45ff1e",
+            "iid": 17378,
+            "name": "Pin On Cafe",
+            "rank": 12,
+            "score": -2.191289186477661,
+            "state": "Florida"
+        },
+        {
+            "address": "KFIRE Korean BBQ, 2528 N Milwaukee Ave, Chicago, IL 60647",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Korean restaurant']",
+            "gmap_id": "0x880fcdd2cef7f383:0x54a6726caa0c35e4",
+            "iid": 13963,
+            "name": "KFIRE Korean BBQ",
+            "rank": 13,
+            "score": -2.1918349266052246,
+            "state": "Illinois"
+        },
+        {
+            "address": "Panda Express, 4300 Glumack Dr, St Paul, MN 55450",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x87f6294b788547ab:0x27e9478eab10c4e1",
+            "iid": 12854,
+            "name": "Panda Express",
+            "rank": 14,
+            "score": -2.193826198577881,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Pacific Fusion, 1140 N Germantown Pkwy, Cordova, TN 38016",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x887f9d77afe5c349:0xd84688c3683d4c60",
+            "iid": 16913,
+            "name": "Pacific Fusion",
+            "rank": 15,
+            "score": -2.1938576698303223,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Sunisa\u2019s Thai Restaurants, 17535 Chesterfield Airport Rd, Chesterfield, MO 63005",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87ded578366cb37b:0x6e4a8af0c58b2653",
+            "iid": 12612,
+            "name": "Sunisa\u2019s Thai Restaurants",
+            "rank": 16,
+            "score": -2.194587230682373,
+            "state": "Missouri"
+        },
+        {
+            "address": "Teriyaki Madness, 829 S Wabash Ave, Chicago, IL 60605",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880e2da6ecee90b5:0x40a4db12f38244c0",
+            "iid": 13474,
+            "name": "Teriyaki Madness",
+            "rank": 17,
+            "score": -2.1959681510925293,
+            "state": "Illinois"
+        },
+        {
+            "address": "Dragon Tiger Noodle Co., 10650 Southern Highlands Pkwy Ste 101, Las Vegas, NV 89141",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80c8c9bdbac1bd13:0xf5deb00fa54a05e5",
+            "iid": 6090,
+            "name": "Dragon Tiger Noodle Co.",
+            "rank": 18,
+            "score": -2.199140787124634,
+            "state": "Nevada"
+        },
+        {
+            "address": "Asian Joint - Thai Halal Cuisine, 10919 Main St, Fairfax, VA 22030",
+            "category": "['Halal restaurant', 'Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89b64fb95f655541:0x1ffa8465d74fae05",
+            "iid": 20498,
+            "name": "Asian Joint - Thai Halal Cuisine",
+            "rank": 19,
+            "score": -2.201164960861206,
+            "state": "Virginia"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 24138,
+            "name": "Fusia Bento Bar",
+            "rank": 20,
+            "score": -2.201205253601074,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Thien Nguyen",
+        "uid": 181709,
+        "user_id": 117595982552647457937
+    }
+}

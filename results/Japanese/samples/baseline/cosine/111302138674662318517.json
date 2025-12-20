@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Mikoto Ramen & Sushi Bar, 12155 Katy Fwy, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2017/06/06",
+            "gmap_id": "0x8640db7455ea5673:0xf6f77244c5a04d1",
+            "iid": 5125,
+            "name": "Mikoto Ramen & Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1496770606884
+        },
+        {
+            "address": "Keeper's, 4654 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2017/08/05",
+            "gmap_id": "0x8640e6743e1715e5:0x77ef09bafe451cfe",
+            "iid": 5151,
+            "name": "Keeper's",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1501925660439
+        },
+        {
+            "address": "Azuma On The Lake, 15830 Southwest Fwy, Sugar Land, TX 77478",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/12/05",
+            "gmap_id": "0x8640e694ca7bb275:0xe17a517b570bc78c",
+            "iid": 5157,
+            "name": "Azuma On The Lake",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1512439225410
+        },
+        {
+            "address": "Benihana, 9707 Westheimer Rd, Houston, TX 77042",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2018/01/28",
+            "gmap_id": "0x8640c3161bea4d37:0xbe4674c5780f92ba",
+            "iid": 5056,
+            "name": "Benihana",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1517121897799
+        },
+        {
+            "address": "MF Sushi Museum District, 1401 Binz St #100, Houston, TX 77004",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/04/22",
+            "gmap_id": "0x8640bf82fa1b466d:0xb981d9c00ec29cfb",
+            "iid": 5014,
+            "name": "MF Sushi Museum District",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1524408730569
+        },
+        {
+            "address": "Sushi Zushi, 9867 I-10, San Antonio, TX 78230",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "date": "2018/07/01",
+            "gmap_id": "0x865c60b82aa4c581:0x1c1af1f40a82a90b",
+            "iid": 5742,
+            "name": "Sushi Zushi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1530465016540
+        },
+        {
+            "address": "Benihana, 2579 Town Center Blvd N, Sugar Land, TX 77479",
+            "category": "['Teppanyaki restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2018/07/01",
+            "gmap_id": "0x8640e69389c98483:0xceb906171485e6c0",
+            "iid": 5155,
+            "name": "Benihana",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1530465199845
+        },
+        {
+            "address": "Ichibon Seafood & Steakhouse, 18206 Egret Bay Blvd, Houston, TX 77058",
+            "category": "['Japanese steakhouse']",
+            "date": "2018/07/08",
+            "gmap_id": "0x86409cfc5ba111af:0xdeda24345e3ff5fd",
+            "iid": 4977,
+            "name": "Ichibon Seafood & Steakhouse",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1531079900150
+        },
+        {
+            "address": "Fukuda Sushi & Robata, 25701 Interstate 45 N, The Woodlands, TX 77380",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/24",
+            "gmap_id": "0x864734287a071ebb:0xdba73509f5290abd",
+            "iid": 5306,
+            "name": "Fukuda Sushi & Robata",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1550979447411
+        },
+        {
+            "address": "Musashino Sushi Dokoro, 2905 San Gabriel St Suite 200, Austin, TX 78705, United States",
+            "category": "['Japanese restaurant', 'Bar']",
+            "date": "2019/03/15",
+            "gmap_id": "0x8644cb0f4bf7b95b:0x3046df37fa996214",
+            "iid": 5238,
+            "name": "Musashino Sushi Dokoro",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1552668093188
+        },
+        {
+            "address": "U'Maki Sushi Burrito, 13582 University Blvd Suite 200, Sugar Land, TX 77479",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8640e117f1e1594d:0x13f9aadb75f35c0e",
+            "iid": 5141,
+            "name": "U'Maki Sushi Burrito",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1564524143494
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "EurAsia Fusion Sushi, 1330 Wirt Rd Suite B, Houston, TX 77055",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8640c4224a87183f:0xdd35013dc7575460",
+            "iid": 5072,
+            "name": "EurAsia Fusion Sushi",
+            "rank": 1,
+            "score": 0.8086352944374084,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Sakura, 1014 Wirt Rd #263, Houston, TX 77055",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c41bfefbf02d:0x9fa16c87240627e1",
+            "iid": 5071,
+            "name": "Sushi Sakura",
+            "rank": 2,
+            "score": 0.7733330726623535,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyohana Grill & Sushi Bar, 3239 Southwest Fwy, Houston, TX 77027",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c0f953b5cd33:0x3f6b6de87f290939",
+            "iid": 5033,
+            "name": "Tokyohana Grill & Sushi Bar",
+            "rank": 3,
+            "score": 0.7683870196342468,
+            "state": "Texas"
+        },
+        {
+            "address": "Papa Yu, 1037 Blalock Rd, Houston, TX 77055",
+            "category": "['Japanese restaurant', 'Dessert shop', 'Restaurant', 'Sushi restaurant', 'Tea house']",
+            "gmap_id": "0x8640c48a4c2928f3:0x644b16fdecde8d89",
+            "iid": 5073,
+            "name": "Papa Yu",
+            "rank": 4,
+            "score": 0.7451130151748657,
+            "state": "Texas"
+        },
+        {
+            "address": "JINYA Ramen Bar - Sugar Land, 13509 University Blvd Suite A291, Sugar Land, TX 77479",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8640e17ea3c300e5:0x58148677d9d3882",
+            "iid": 5146,
+            "name": "JINYA Ramen Bar - Sugar Land",
+            "rank": 5,
+            "score": 0.7357975840568542,
+            "state": "Texas"
+        },
+        {
+            "address": "Bonchon Midtown Houston, 2100 Travis St STE 110, Houston, TX 77002",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x8640bf1513d8a5ff:0xe0ebc6136e014545",
+            "iid": 4999,
+            "name": "Bonchon Midtown Houston",
+            "rank": 6,
+            "score": 0.7292776107788086,
+            "state": "Texas"
+        },
+        {
+            "address": "Ginza Japanese Restaurant, 5868 San Felipe St, Houston, TX 77057",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8640c3e69009db07:0x82e1f73256d89345",
+            "iid": 5069,
+            "name": "Ginza Japanese Restaurant",
+            "rank": 7,
+            "score": 0.7262494564056396,
+            "state": "Texas"
+        },
+        {
+            "address": "Nori Sushi Bistro, 700 Town and Country Blvd, Houston, TX 77024",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c4b2a2620383:0x849fc1e91e3976a0",
+            "iid": 5077,
+            "name": "Nori Sushi Bistro",
+            "rank": 8,
+            "score": 0.7253240346908569,
+            "state": "Texas"
+        },
+        {
+            "address": "Tamashi, 2518 W Holcombe Blvd, Houston, TX 77030",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x8640c125869e194b:0x4d217594f5f75660",
+            "iid": 5041,
+            "name": "Tamashi",
+            "rank": 9,
+            "score": 0.722200334072113,
+            "state": "Texas"
+        },
+        {
+            "address": "Miyako, 4601 Washington Ave Ste 150, Houston, TX 77007",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Authentic Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c0b33b68e753:0x777c737426e071f0",
+            "iid": 5026,
+            "name": "Miyako",
+            "rank": 10,
+            "score": 0.7212013602256775,
+            "state": "Texas"
+        },
+        {
+            "address": "Akasaka Japanese Restaurant & Lounge, 6833 W Sam Houston Pkwy S #109, Houston, TX 77072",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8640c2ce97f629b3:0xea9d1212a6939864",
+            "iid": 5052,
+            "name": "Akasaka Japanese Restaurant & Lounge",
+            "rank": 11,
+            "score": 0.7177907228469849,
+            "state": "Texas"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 3510 Main St suite a, Houston, TX 77002, United States",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640bf6e6c0a0a03:0xe0d4a91e7918564a",
+            "iid": 5011,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 12,
+            "score": 0.7093839645385742,
+            "state": "Texas"
+        },
+        {
+            "address": "Japaneiro's, 2168 Texas Dr, Sugar Land, TX 77478",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640e69442d16241:0x5a0da1c66436ade",
+            "iid": 5156,
+            "name": "Japaneiro's",
+            "rank": 13,
+            "score": 0.706949770450592,
+            "state": "Texas"
+        },
+        {
+            "address": "Krazy Katsu & Udon, 4747 FM 1463 Suite 800, Katy, TX 77494",
+            "category": "['Katsudon restaurant', 'Japanese curry restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x864123860ad1f001:0x97cd33a53f1b96bb",
+            "iid": 5178,
+            "name": "Krazy Katsu & Udon",
+            "rank": 14,
+            "score": 0.7046089172363281,
+            "state": "Texas"
+        },
+        {
+            "address": "Izakaya Hi, 12637 Westheimer Rd #140, Houston, TX 77077",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Korean restaurant', 'Modern izakaya restaurants']",
+            "gmap_id": "0x8640dd466ea1ba33:0x4109a8c15967386a",
+            "iid": 5140,
+            "name": "Izakaya Hi",
+            "rank": 15,
+            "score": 0.6990667581558228,
+            "state": "Texas"
+        },
+        {
+            "address": "Rattan Pan Asian bistro & Wine Bar, 1396 Eldridge Pkwy Suite A, Houston, TX 77077",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x8640dc0aba3801c3:0x1735bf07c014a8d0",
+            "iid": 5130,
+            "name": "Rattan Pan Asian bistro & Wine Bar",
+            "rank": 16,
+            "score": 0.6982113122940063,
+            "state": "Texas"
+        },
+        {
+            "address": "The Blue Fish, 550 Texas Ave, Houston, TX 77002",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Bar & grill', 'Lounge', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640bf3097b6fc15:0xafba2549855f2bd7",
+            "iid": 5000,
+            "name": "The Blue Fish",
+            "rank": 17,
+            "score": 0.6934354901313782,
+            "state": "Texas"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 5134,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 18,
+            "score": 0.6878139972686768,
+            "state": "Texas"
+        },
+        {
+            "address": "Sage 400, 2800 Sage Rd, Houston, TX 77056",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8640c16f7c8daca7:0xd92b4ca66f913eff",
+            "iid": 5045,
+            "name": "Sage 400",
+            "rank": 19,
+            "score": 0.686415433883667,
+            "state": "Texas"
+        },
+        {
+            "address": "Izakaya, 318 Gray St, Houston, TX 77002",
+            "category": "['Modern izakaya restaurants', 'Bar', 'Gastropub', 'Japanese restaurant', 'Pub', 'Restaurant', 'Tapas bar']",
+            "gmap_id": "0x8640bf41a1b8d7a9:0xbd13182b7bf2b9f1",
+            "iid": 5005,
+            "name": "Izakaya",
+            "rank": 20,
+            "score": 0.6857985854148865,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Winnie Chan",
+        "uid": 52265,
+        "user_id": 111302138674662318517
+    }
+}

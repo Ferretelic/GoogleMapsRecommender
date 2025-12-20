@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Pho Anh Dao, 775 US-1, Edison, NJ 08817",
+            "category": "['Vietnamese restaurant']",
+            "date": "2016/04/18",
+            "gmap_id": "0x40658bb7fb7f11d7:0x6aea5e92b9d7d16b",
+            "iid": 6,
+            "name": "Pho Anh Dao",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1461001353247
+        },
+        {
+            "address": "Pho Today Bridgewater, 623 E Main St, Bridgewater Township, NJ 08807",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x89c3bff6f6e604b9:0xf23fd3ed4ea40658",
+            "iid": 4553,
+            "name": "Pho Today Bridgewater",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1461344530369
+        },
+        {
+            "address": "Ph\u1edf Minh's, 430 N Wood Ave, Linden, NJ 07036",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/05/22",
+            "gmap_id": "0x89c3b303ad410375:0x4965a344b508499e",
+            "iid": 4549,
+            "name": "Ph\u1edf Minh's",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1463924129088
+        },
+        {
+            "address": "Pho Element, 2216 S El Camino Real, San Mateo, CA 94403",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/07/16",
+            "gmap_id": "0x808f9ef900fc26df:0xcf8a483d5d31b82d",
+            "iid": 973,
+            "name": "Pho Element",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500174338878
+        },
+        {
+            "address": "Ph\u1edf Vinh, 1065 Holly St #A, San Carlos, CA 94070",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "date": "2017/07/22",
+            "gmap_id": "0x808fa203ec672fab:0xd99ab78f7f23b04c",
+            "iid": 978,
+            "name": "Ph\u1edf Vinh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500756447643
+        },
+        {
+            "address": "May\u2019s, 2088 Broadway, Redwood City, CA 94063",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/07/25",
+            "gmap_id": "0x808fa3acd2a9e4cb:0x7333634b1c2639e0",
+            "iid": 981,
+            "name": "May\u2019s",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501018305786
+        },
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "date": "2019/05/30",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1559182461438
+        },
+        {
+            "address": "Pho Bang, 157 Mott St, New York, NY 10013",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/05/30",
+            "gmap_id": "0x89c259885c5b13cf:0x8890db9549e4a0d9",
+            "iid": 4440,
+            "name": "Pho Bang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1559182796597
+        },
+        {
+            "address": "Nha Trang One, 87 Baxter St, New York, NY 10013",
+            "category": "['Vietnamese restaurant', 'Family restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2019/05/30",
+            "gmap_id": "0x89c25a27470d9fa5:0xd7d0c5e719ad805d",
+            "iid": 4478,
+            "name": "Nha Trang One",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1559182840401
+        },
+        {
+            "address": "Omai, 158 9th Ave, New York, NY 10011",
+            "category": "['Vietnamese restaurant', 'Bar', 'Southeast Asian restaurant']",
+            "date": "2019/08/30",
+            "gmap_id": "0x89c259b9161fef21:0xbd232755b6183558",
+            "iid": 4460,
+            "name": "Omai",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1567169077642
+        },
+        {
+            "address": "Ai Pho and Vermicelli, 515 Jersey Ave, Jersey City, NJ 07302",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x89c250b3f1110b75:0xf499ab066b4ebb95",
+            "iid": 4404,
+            "name": "Ai Pho and Vermicelli",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1575479283949
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Pho One Vietnamese Restaurant, 181 South US-1, Metuchen, NJ 08840",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c3b7836bb6edb1:0x3361e843d03ff09",
+            "iid": 4550,
+            "name": "Pho One Vietnamese Restaurant",
+            "rank": 1,
+            "score": -1.7797926664352417,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Saigon Cafe Millburn, 286 Essex St, Millburn, NJ 07041",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c3ac2b00939abd:0x77eee9a5af2b5c8a",
+            "iid": 4547,
+            "name": "Saigon Cafe Millburn",
+            "rank": 2,
+            "score": -1.8492705821990967,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kat's Vietnam House, 35 Laurie Meadows Dr, San Mateo, CA 94403",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f9f3de2d9e735:0x1f2e5c6c6a32478f",
+            "iid": 976,
+            "name": "Kat's Vietnam House",
+            "rank": 3,
+            "score": -1.931331753730774,
+            "state": "California"
+        },
+        {
+            "address": "Vietspot Tribeca, 200 Church St, New York, NY 10013",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25b4f10cca6ef:0xe37c3d5de05da365",
+            "iid": 4489,
+            "name": "Vietspot Tribeca",
+            "rank": 4,
+            "score": -1.9484272003173828,
+            "state": "New_York"
+        },
+        {
+            "address": "Indochine Restaurant, 371 George St, New Brunswick, NJ 08901",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c3c65121ff42ab:0x1ce48ef1d4f51f79",
+            "iid": 4555,
+            "name": "Indochine Restaurant",
+            "rank": 5,
+            "score": -1.9663116931915283,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho Times, 136 Talmadge Rd, Edison, NJ 08817",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c3c90afb4da77b:0xafd2b01c18b95ed",
+            "iid": 4559,
+            "name": "Pho Times",
+            "rank": 6,
+            "score": -1.9752341508865356,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bo Ne By E.T, 10613 Bellaire Blvd a125, Houston, TX 77072",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640dd3117f1632f:0xa6f6f4ee432f119a",
+            "iid": 2447,
+            "name": "Bo Ne By E.T",
+            "rank": 7,
+            "score": -1.9990770816802979,
+            "state": "Texas"
+        },
+        {
+            "address": "VCaf\u00e9, 345 Greenwich St, New York, NY 10013",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25a1e39ff3c11:0xe5d4c0c3b80039c0",
+            "iid": 4473,
+            "name": "VCaf\u00e9",
+            "rank": 8,
+            "score": -1.999435305595398,
+            "state": "New_York"
+        },
+        {
+            "address": "An Chi, 5827 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085874e5d966d8b:0xb30182cbffe1b8c4",
+            "iid": 754,
+            "name": "An Chi",
+            "rank": 9,
+            "score": -2.0287766456604004,
+            "state": "California"
+        },
+        {
+            "address": "Asia Saigon, 8 Liberty Pl, New York, NY 10038",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c25a1781b81bfb:0xa9fda6e07686a392",
+            "iid": 4471,
+            "name": "Asia Saigon",
+            "rank": 10,
+            "score": -2.037139892578125,
+            "state": "New_York"
+        },
+        {
+            "address": "Ai Pho and Vermicelli, 515 Jersey Ave, Jersey City, NJ 07302",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c250b3f1110b75:0xf499ab066b4ebb95",
+            "iid": 4404,
+            "name": "Ai Pho and Vermicelli",
+            "rank": 11,
+            "score": -2.0533299446105957,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "H\u01b0\u01a1ng Giang Food To Go, 14282 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27c40a4acecd:0x1d8bb7b6bcfc5a1",
+            "iid": 1941,
+            "name": "H\u01b0\u01a1ng Giang Food To Go",
+            "rank": 12,
+            "score": -2.053934335708618,
+            "state": "California"
+        },
+        {
+            "address": "Bun Bo Hue An Nam 3, 3005 Silver Creek Rd #114, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e3281841327bb:0xf15b7d328129d36d",
+            "iid": 811,
+            "name": "Bun Bo Hue An Nam 3",
+            "rank": 13,
+            "score": -2.0580687522888184,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Pho, 6938 Wilcrest Dr STE A, Houston, TX 77072",
+            "category": "['Coffee shop', 'Cafe', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640dd48016c724b:0x3911d6d31c1c5a47",
+            "iid": 2478,
+            "name": "Saigon Pho",
+            "rank": 14,
+            "score": -2.0608694553375244,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Tastic Vietnamese Restaurant, 905 NJ-70 E, Brick Township, NJ 08724",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c185020e0f6ebf:0x26db220d28572963",
+            "iid": 4384,
+            "name": "Pho Tastic Vietnamese Restaurant",
+            "rank": 15,
+            "score": -2.0751397609710693,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Original Nicky\u2019s, 216 Avenue A, New York, NY 10009",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c259c085bf549f:0x3813509756249744",
+            "iid": 4465,
+            "name": "Original Nicky\u2019s",
+            "rank": 16,
+            "score": -2.0768933296203613,
+            "state": "New_York"
+        },
+        {
+            "address": "Thanh Thanh Cafe, 2205 Clement St, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant', 'American restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x808587057197e68f:0xa43c5fbaed2625f3",
+            "iid": 744,
+            "name": "Thanh Thanh Cafe",
+            "rank": 17,
+            "score": -2.0856051445007324,
+            "state": "California"
+        },
+        {
+            "address": "Nem Nuong Khanh Hoa, 9738 Westminster Blvd., Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27da9f632a39:0x9c3be11d51168ac6",
+            "iid": 1960,
+            "name": "Nem Nuong Khanh Hoa",
+            "rank": 18,
+            "score": -2.100038766860962,
+            "state": "California"
+        },
+        {
+            "address": "La Vie, 5830 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8085870feb2e8d23:0xd22259fc5f5ba564",
+            "iid": 747,
+            "name": "La Vie",
+            "rank": 19,
+            "score": -2.100220203399658,
+            "state": "California"
+        },
+        {
+            "address": "Just Pho, 252 W 31st St, New York, NY 10001",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c259e1e7ed4f5b:0xa137d1c380886bfb",
+            "iid": 4469,
+            "name": "Just Pho",
+            "rank": 20,
+            "score": -2.1028902530670166,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Fano Yong",
+        "uid": 14271,
+        "user_id": 115125625656168168116
+    }
+}

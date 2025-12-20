@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Zato Thai Cuisine and Sushi Bar, 9090 Skillman St #190a, Dallas, TX 75243",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fast food restaurant', 'Gluten-free restaurant', 'Halal restaurant', 'Takeout Restaurant', 'Restaurant', 'Salad shop', 'Sushi restaurant']",
+            "date": "2019/08/20",
+            "gmap_id": "0x864ea0766e40afa1:0x8415c19df44858e4",
+            "iid": 9726,
+            "name": "Zato Thai Cuisine and Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1566311758618
+        },
+        {
+            "address": "Ivan's Cookhouse, 14815 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Caribbean restaurant', 'Asian fusion restaurant', 'Cajun restaurant', 'Creole restaurant', 'Gastropub', 'Haitian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x88d9ad9734ba51df:0xfe96567ef8fd9a3c",
+            "iid": 17843,
+            "name": "Ivan's Cookhouse",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1570116425158
+        },
+        {
+            "address": "Coconut Thai Cafe Wellesley, 257 Washington St, Wellesley, MA 02481",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/10/27",
+            "gmap_id": "0x89e383e29f07362d:0x792a05c6888fdda5",
+            "iid": 24916,
+            "name": "Coconut Thai Cafe Wellesley",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1572187849107
+        },
+        {
+            "address": "Silli Point Indian Fusion, 498 Anderson Ave, Cliffside Park, NJ 07010",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Delivery Restaurant']",
+            "date": "2019/12/05",
+            "gmap_id": "0x89c2f7b16ab44df9:0xeba14f30f13e4166",
+            "iid": 22886,
+            "name": "Silli Point Indian Fusion",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1575579726702
+        },
+        {
+            "address": "Kohinoor Dhaba Inc., 2800 S Eads St, Arlington, VA 22202",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x89b7b72ade88aecd:0x75800d0ca082562a",
+            "iid": 20742,
+            "name": "Kohinoor Dhaba Inc.",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1578603171053
+        },
+        {
+            "address": "Great Wall, 272 NY-32, Central Valley, NY 10917",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x89c2d12d20401e25:0xb2c4c70ed7134ba3",
+            "iid": 22721,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1593449674965
+        },
+        {
+            "address": "First Asian Store and Restaurant, 1503 South St, Leesburg, FL 34748",
+            "category": "['Asian grocery store', 'Filipino restaurant']",
+            "date": "2020/08/20",
+            "gmap_id": "0x88e7c02011aba11b:0xcee183183cf63dfe",
+            "iid": 18760,
+            "name": "First Asian Store and Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1597947543475
+        },
+        {
+            "address": "Panda Express, 970 N Congress Ave, Boynton Beach, FL 33426",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/10/08",
+            "gmap_id": "0x88d8df511cb9460f:0xfaa8be8516713579",
+            "iid": 17543,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1602185156086
+        },
+        {
+            "address": "X.O. Sushi Asian Restaurant, 1058 Broadway, Woodmere, NY 11598",
+            "category": "['Asian restaurant']",
+            "date": "2020/12/09",
+            "gmap_id": "0x89c265ac0153be63:0x62161fdc4bf0afe7",
+            "iid": 22456,
+            "name": "X.O. Sushi Asian Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1607547033970
+        },
+        {
+            "address": "El Sushi Loco Sushi & Mariscos La Puente, 15711 Amar Rd, La Puente, CA 91744",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Family restaurant', 'Mexican restaurant', 'Restaurant', 'Seafood restaurant', 'Stand bar']",
+            "date": "2021/03/17",
+            "gmap_id": "0x80c2d6142fac4c77:0x48bab497ee2a484d",
+            "iid": 5500,
+            "name": "El Sushi Loco Sushi & Mariscos La Puente",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616008670566
+        },
+        {
+            "address": "Best Cajun Asian Restaurant, 50 Broad St NW, Atlanta, GA 30303",
+            "category": "['Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2021/03/20",
+            "gmap_id": "0x88f50386e09d8b0b:0xe0072e1f2d928472",
+            "iid": 18960,
+            "name": "Best Cajun Asian Restaurant",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1616249365212
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Benihana, 7775 Banner Dr, Dallas, TX 75251",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x864c2040f23a310f:0xb74fdfc19d4dbdbf",
+            "iid": 9113,
+            "name": "Benihana",
+            "rank": 1,
+            "score": 12.066859245300293,
+            "state": "Texas"
+        },
+        {
+            "address": "Neisha Thai, 8027 Leesburg Pike #110, Vienna, VA 22182",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Caterer', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89b64ae8e520bd4d:0xa442ad298d8fcd87",
+            "iid": 20424,
+            "name": "Neisha Thai",
+            "rank": 2,
+            "score": 11.115589141845703,
+            "state": "Virginia"
+        },
+        {
+            "address": "Meiwah Restaurant, 4457 Willard Ave, Chevy Chase, MD 20815",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x89b7c990f43d4001:0x6463a8403eb5501f",
+            "iid": 20931,
+            "name": "Meiwah Restaurant",
+            "rank": 3,
+            "score": 10.740113258361816,
+            "state": "Maryland"
+        },
+        {
+            "address": "P.F. Chang's, 915 W Bethany Dr, Allen, TX 75013",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x864c175d4bb4f687:0xb68694b1e551eb40",
+            "iid": 9024,
+            "name": "P.F. Chang's",
+            "rank": 4,
+            "score": 10.489490509033203,
+            "state": "Texas"
+        },
+        {
+            "address": "Tito Rad's Grill, 49-10 Queens Blvd, Queens, NY 11377",
+            "category": "['Filipino restaurant', 'Grill', 'Asian restaurant', 'Barbecue restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c25edef78d55e9:0xb3fd31b6055aa4d0",
+            "iid": 22237,
+            "name": "Tito Rad's Grill",
+            "rank": 5,
+            "score": 10.433723449707031,
+            "state": "New_York"
+        },
+        {
+            "address": "Panda Asian Fusion, 2117 MacDade Boulevard, Holmes, PA 19043",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x89c6c2f61a33a129:0xa5da096a82e2f5f2",
+            "iid": 23585,
+            "name": "Panda Asian Fusion",
+            "rank": 6,
+            "score": 9.966604232788086,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "P.F. Chang's, 1716M International Dr, McLean, VA 22102",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b64aedb7ee03d3:0xca51719d1e93d7f1",
+            "iid": 20426,
+            "name": "P.F. Chang's",
+            "rank": 7,
+            "score": 9.909550666809082,
+            "state": "Virginia"
+        },
+        {
+            "address": "Kurumazushi, 7 E 47th St 2nd Floor, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c258fe7c87b859:0xf4d5471439a404ac",
+            "iid": 21710,
+            "name": "Kurumazushi",
+            "rank": 8,
+            "score": 9.747626304626465,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Street Cafe, 3483 FM 544 #110, Wylie, TX 75098",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Coffee shop', 'Pho restaurant', 'Sandwich shop']",
+            "gmap_id": "0x864c1b46aa7fe9a1:0x5d5c85c86dd4b545",
+            "iid": 9057,
+            "name": "Pho Street Cafe",
+            "rank": 9,
+            "score": 9.719917297363281,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai House II Restaurant, 2250 NE 163rd St, North Miami Beach, FL 33160",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88d9adbb4743dc7f:0x75c9f9dd423c8f3c",
+            "iid": 17849,
+            "name": "Thai House II Restaurant",
+            "rank": 10,
+            "score": 9.695804595947266,
+            "state": "Florida"
+        },
+        {
+            "address": "Tandoori Nights, 7236 Woodmont Ave, Bethesda, MD 20814",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89b7c97b919bfc0f:0x63d9cfdd36be0497",
+            "iid": 20925,
+            "name": "Tandoori Nights",
+            "rank": 11,
+            "score": 9.69498348236084,
+            "state": "Maryland"
+        },
+        {
+            "address": "Sichuan Gourmet, 271 Worcester Rd, Framingham, MA 01701",
+            "category": "['Sichuan restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e3888ad057c257:0x3341c2f6289b8d0b",
+            "iid": 24931,
+            "name": "Sichuan Gourmet",
+            "rank": 12,
+            "score": 9.671133995056152,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Gao Thai Kitchen, 63 W Main St, Ramsey, NJ 07446",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c2e15ef3ea4fbb:0xf26885d4de9b4632",
+            "iid": 22731,
+            "name": "Gao Thai Kitchen",
+            "rank": 13,
+            "score": 9.64146614074707,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Asian Bistro, 11670 Old National Pike, New Market, MD 21774",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c9d3beec883f9b:0xae0c5f9d10adffe8",
+            "iid": 24052,
+            "name": "Asian Bistro",
+            "rank": 14,
+            "score": 9.633999824523926,
+            "state": "Maryland"
+        },
+        {
+            "address": "Kiraku Japanese Restaurant, 127 Glen Head Rd, Glen Head, NY 11545",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c285c479bfd839:0x56f9d688e0679885",
+            "iid": 22565,
+            "name": "Kiraku Japanese Restaurant",
+            "rank": 15,
+            "score": 9.613967895507812,
+            "state": "New_York"
+        },
+        {
+            "address": "Bangkok Joe's, 3000 K St NW, Washington, DC 20007",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Dim sum restaurant', 'Dumpling restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89b7b64c4344f1a9:0x4659725332f74e77",
+            "iid": 20715,
+            "name": "Bangkok Joe's",
+            "rank": 16,
+            "score": 9.554335594177246,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Thai Pavilion, 151 American Way, Oxon Hill, MD 20745",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89b7b074519dffd7:0xf96117e52b384264",
+            "iid": 20620,
+            "name": "Thai Pavilion",
+            "rank": 17,
+            "score": 9.52002239227295,
+            "state": "Maryland"
+        },
+        {
+            "address": "Panda Express, 8800 N, Hampton Mall Dr N, Capitol Heights, MD 20743",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89b7bf946ea8e393:0x9271ee00fe7588d6",
+            "iid": 20858,
+            "name": "Panda Express",
+            "rank": 18,
+            "score": 9.508432388305664,
+            "state": "Maryland"
+        },
+        {
+            "address": "Mr Teriyaki, 3522 Gus Thomasson Rd, Mesquite, TX 75150",
+            "category": "['Asian restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x864ea4279e91133f:0xba9ef975330df016",
+            "iid": 9732,
+            "name": "Mr Teriyaki",
+            "rank": 19,
+            "score": 9.504613876342773,
+            "state": "Texas"
+        },
+        {
+            "address": "Paani, 530 A Boston Post Rd, Sudbury, MA 01776",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89e38ee7834cc243:0xb577fcd294635f0",
+            "iid": 24946,
+            "name": "Paani",
+            "rank": 20,
+            "score": 9.496950149536133,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Braiden H",
+        "uid": 72534,
+        "user_id": 106998469572974516379
+    }
+}

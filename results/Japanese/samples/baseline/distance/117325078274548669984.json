@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2013/08/04",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 11615,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1375582977680
+        },
+        {
+            "address": "Elephant Sushi, 1916 Hyde St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/11/26",
+            "gmap_id": "0x808580e8d69e7921:0xed03338501f71a2",
+            "iid": 1744,
+            "name": "Elephant Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448559490551
+        },
+        {
+            "address": "Zaoh, 1555 Mission St, San Francisco, CA 94103",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2016/02/12",
+            "gmap_id": "0x8085809de38a4abd:0xedf33edfba1e6491",
+            "iid": 1688,
+            "name": "Zaoh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1455235952905
+        },
+        {
+            "address": "Sushirrito - Union Square, 226 Kearny St, San Francisco, CA 94104",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "date": "2016/11/15",
+            "gmap_id": "0x80858062a6bcdae7:0xdf875c0d2342e4ef",
+            "iid": 1637,
+            "name": "Sushirrito - Union Square",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479226921313
+        },
+        {
+            "address": "Koja Kitchen, 343 Clement St, San Francisco, CA 94118",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "date": "2017/02/05",
+            "gmap_id": "0x8085873bfb67f86d:0x5b347fc92a49f360",
+            "iid": 1790,
+            "name": "Koja Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486263339195
+        },
+        {
+            "address": "Ebisu Restaurant, 1283 9th Ave, San Francisco, CA 94122",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/02/09",
+            "gmap_id": "0x8085875ce01473f7:0xaa625c17075c336",
+            "iid": 1799,
+            "name": "Ebisu Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486626867715
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/06/05",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 1667,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1496684008301
+        },
+        {
+            "address": "Nobu Palo Alto, 180 Hamilton Ave, Palo Alto, CA 94301",
+            "category": "['Japanese restaurant']",
+            "date": "2017/07/29",
+            "gmap_id": "0x808fbb3a3ecf1c23:0x5bb11772add3928",
+            "iid": 2273,
+            "name": "Nobu Palo Alto",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501366342541
+        },
+        {
+            "address": "Umami Asian Bistro and Sushi Bar, 150 Eagleview Blvd, Exton, PA 19341",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/08",
+            "gmap_id": "0x89c6f4d709f887f1:0xd2a53014a6aeca84",
+            "iid": 13596,
+            "name": "Umami Asian Bistro and Sushi Bar",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1531081163613
+        },
+        {
+            "address": "Glaze Teriyaki, 2095 Chestnut St, San Francisco, CA 94123",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/29",
+            "gmap_id": "0x808580d7241a814b:0x92faba038e76a608",
+            "iid": 1733,
+            "name": "Glaze Teriyaki",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546059351791
+        },
+        {
+            "address": "Deejai Thai Restaurant, 613 Providence Rd, Charlotte, NC 28207",
+            "category": "['Thai restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "date": "2020/07/09",
+            "gmap_id": "0x88569feed1aef1fb:0x3680efbf6bddc250",
+            "iid": 8489,
+            "name": "Deejai Thai Restaurant",
+            "split": "test",
+            "state": "North_Carolina",
+            "unix_time": 1594292950141
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Niji Japanese Grille, 50 Post St, San Francisco, CA 94104",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808580884a9ee2f5:0xef70a12b9a3722af",
+            "iid": 1657,
+            "name": "Niji Japanese Grille",
+            "rank": 1,
+            "score": -2.1710011959075928,
+            "state": "California"
+        },
+        {
+            "address": "New York Teriyaki, 663 S Lake Powell Blvd, Page, AZ 86040",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87346b57d5cca259:0xe4eb6db018e0f3b8",
+            "iid": 6184,
+            "name": "New York Teriyaki",
+            "rank": 2,
+            "score": -2.292635679244995,
+            "state": "Arizona"
+        },
+        {
+            "address": "Hell's Ramen, 2193 Mission St, San Francisco, CA 94110",
+            "category": "['Ramen restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808f7facad51c29f:0x6ecde0f18360c63b",
+            "iid": 2040,
+            "name": "Hell's Ramen",
+            "rank": 3,
+            "score": -2.32751202583313,
+            "state": "California"
+        },
+        {
+            "address": "Nom Nom Bowl, 1608 Sansom St, Philadelphia, PA 19104",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c6c7391e230ea7:0xca6d5e3887b62fd3",
+            "iid": 13522,
+            "name": "Nom Nom Bowl",
+            "rank": 4,
+            "score": -2.3841867446899414,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Genji Japanese Restaurant, 1904 Franklin St, Oakland, CA 94612",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f80b2e5678d01:0xbbd75ca81791b5ed",
+            "iid": 2055,
+            "name": "Genji Japanese Restaurant",
+            "rank": 5,
+            "score": -2.4505720138549805,
+            "state": "California"
+        },
+        {
+            "address": "Gyu Shige (\u725b\u7e41) Japanese BBQ, 2980 District Ave #100, Fairfax, VA 22031",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x89b64bf341d0196f:0x381c64b98f093512",
+            "iid": 11320,
+            "name": "Gyu Shige (\u725b\u7e41) Japanese BBQ",
+            "rank": 6,
+            "score": -2.5033977031707764,
+            "state": "Virginia"
+        },
+        {
+            "address": "Iron Chef of Central Valley, 365 NY-32, Central Valley, NY 10917",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x89c2d747023a75ab:0x4a3fd5a139c5eaf8",
+            "iid": 12946,
+            "name": "Iron Chef of Central Valley",
+            "rank": 7,
+            "score": -2.520548105239868,
+            "state": "New_York"
+        },
+        {
+            "address": "Barracuda Japanese Restaurant, 127 Serramonte Center, Daly City, CA 94015",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7bed49fdd75f:0x57ef2ecbbcf14882",
+            "iid": 1973,
+            "name": "Barracuda Japanese Restaurant",
+            "rank": 8,
+            "score": -2.567563533782959,
+            "state": "California"
+        },
+        {
+            "address": "YU-OR-MI Sushi Bar, 100 E California Ave, Las Vegas, NV 89104",
+            "category": "['Sushi restaurant', 'Cocktail bar', 'Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80c8c3cb9f77e57f:0x7b849e6147201036",
+            "iid": 3672,
+            "name": "YU-OR-MI Sushi Bar",
+            "rank": 9,
+            "score": -2.5726449489593506,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sarku Japan, 825 Dulaney Valley Road Space #3310, Towson, MD 21204",
+            "category": "['Japanese restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x89c80fabe9e0f443:0x4c5a4c42ad9b32bd",
+            "iid": 13652,
+            "name": "Sarku Japan",
+            "rank": 10,
+            "score": -2.5750246047973633,
+            "state": "Maryland"
+        },
+        {
+            "address": "Bonchon Dinkytown, 406 14th Ave SE, Minneapolis, MN 55414",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x52b32d5f3ea67b89:0x84bc5ea7a618bc0c",
+            "iid": 88,
+            "name": "Bonchon Dinkytown",
+            "rank": 11,
+            "score": -2.57842755317688,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Tabu Shabu - Thousand Oaks, 2920 Thousand Oaks Blvd suite a, Thousand Oaks, CA 91362",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80e825c162ad361b:0xa7f4332216e539c2",
+            "iid": 4628,
+            "name": "Tabu Shabu - Thousand Oaks",
+            "rank": 12,
+            "score": -2.580475091934204,
+            "state": "California"
+        },
+        {
+            "address": "Kyoto Express, 247 Oak Street Extension Suite #173, Forest City, NC 28043",
+            "category": "['Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x885741a9305de635:0xb011f662892e3461",
+            "iid": 8527,
+            "name": "Kyoto Express",
+            "rank": 13,
+            "score": -2.5815980434417725,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Mint Tapas and Sushi Holladay, 3158 6200 S Ste B, Holladay, UT 84121",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Small plates restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8752631dbd2663a9:0x4dd6d2f106a28c11",
+            "iid": 6236,
+            "name": "Mint Tapas and Sushi Holladay",
+            "rank": 14,
+            "score": -2.5819437503814697,
+            "state": "Utah"
+        },
+        {
+            "address": "Hiyakawa Miami, 2700 N Miami Ave #5, Miami, FL 33127",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88d9b72604816ddd:0x48055532c0489562",
+            "iid": 9758,
+            "name": "Hiyakawa Miami",
+            "rank": 15,
+            "score": -2.5839197635650635,
+            "state": "Florida"
+        },
+        {
+            "address": "KOMO Sushi, 16330 SW Langer Dr, Sherwood, OR 97140",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x54956db2b84c261f:0xde04c279a830ee32",
+            "iid": 879,
+            "name": "KOMO Sushi",
+            "rank": 16,
+            "score": -2.585934638977051,
+            "state": "Oregon"
+        },
+        {
+            "address": "Arkansas, Fort Smith, Rogers Ave, YW POKE\u90ae\u653f\u7f16\u7801: 72903",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87cbb39eb5cf1b0b:0x7d4d52f7319676d3",
+            "iid": 6800,
+            "name": "YW POKE",
+            "rank": 17,
+            "score": -2.5869319438934326,
+            "state": "Arkansas"
+        },
+        {
+            "address": "Kitayama Japanese Restaurant, 129 Anza St, Fremont, CA 94539",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fc77f17f54901:0xbfeeb861fece741e",
+            "iid": 2305,
+            "name": "Kitayama Japanese Restaurant",
+            "rank": 18,
+            "score": -2.5878584384918213,
+            "state": "California"
+        },
+        {
+            "address": "Oba Ramen, 1043 OR-99, Cottage Grove, OR 97424",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54c131b94f077293:0x4c26727af5af2f19",
+            "iid": 1141,
+            "name": "Oba Ramen",
+            "rank": 19,
+            "score": -2.5886340141296387,
+            "state": "Oregon"
+        },
+        {
+            "address": "Ichiban Japanese Steakhouse, 1932 Harrison Dr, Evanston, WY 82930",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8751795527aeed75:0x9ebf74a201d2f39b",
+            "iid": 6227,
+            "name": "Ichiban Japanese Steakhouse",
+            "rank": 20,
+            "score": -2.590834379196167,
+            "state": "Wyoming"
+        }
+    ],
+    "user": {
+        "name": "Brandon Nolte",
+        "uid": 79981,
+        "user_id": 117325078274548669984
+    }
+}

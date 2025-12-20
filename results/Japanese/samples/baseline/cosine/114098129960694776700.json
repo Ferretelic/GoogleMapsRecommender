@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi AOI, 1100 New York Ave NW, Washington, DC 20005",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/10/25",
+            "gmap_id": "0x89b7b793f809e891:0x72a79f8e2f967465",
+            "iid": 11472,
+            "name": "Sushi AOI",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1508946171089
+        },
+        {
+            "address": "Hide-chan Ramen, 314 W 53rd St, New York, NY 10019",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/12/09",
+            "gmap_id": "0x89c25857994b29bf:0x79989a3d371b2c14",
+            "iid": 11992,
+            "name": "Hide-chan Ramen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1512791819370
+        },
+        {
+            "address": "Kappo Masa, 976 Madison Ave, New York, NY 10075",
+            "category": "['Japanese restaurant']",
+            "date": "2017/12/12",
+            "gmap_id": "0x89c258945f3b0df7:0x2ef478064025eae5",
+            "iid": 12016,
+            "name": "Kappo Masa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1513089993105
+        },
+        {
+            "address": "Gyu-Kaku, 805 3rd Ave #2, New York, NY 10022",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Barbecue restaurant', 'Diner', 'Restaurant']",
+            "date": "2018/02/13",
+            "gmap_id": "0x89c258e2d38d39b3:0xf65fbab30dc2e593",
+            "iid": 12045,
+            "name": "Gyu-Kaku",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1518547063461
+        },
+        {
+            "address": "KOME Japanese Cuisine, 2880 Center Valley Pkwy #600, Center Valley, PA 18034",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/02/24",
+            "gmap_id": "0x89c43c5d9904df57:0x94ac87b03f7d2e92",
+            "iid": 13353,
+            "name": "KOME Japanese Cuisine",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1519496722988
+        },
+        {
+            "address": "Ichiban, 1914 Catasauqua Rd, Allentown, PA 18109",
+            "category": "['Japanese steakhouse', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/06/12",
+            "gmap_id": "0x89c43f2c5c27bb41:0x46261570d886b915",
+            "iid": 13355,
+            "name": "Ichiban",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1528803799931
+        },
+        {
+            "address": "Kuro, Kuro, 1000, Boardwalk, Atlantic City, NJ 08401",
+            "category": "['Japanese restaurant']",
+            "date": "2018/07/23",
+            "gmap_id": "0x89c0efc15473b119:0x7859e2dd9b83459e",
+            "iid": 11740,
+            "name": "Kuro",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1532362888190
+        },
+        {
+            "address": "Kodama Sushi, 301 W 45th St, New York, NY 10036",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/07/30",
+            "gmap_id": "0x89c25854716ade25:0x38b290781439f3f6",
+            "iid": 11975,
+            "name": "Kodama Sushi",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1532967752862
+        },
+        {
+            "address": "Ginza, 91 Saratoga Dr, Charles Town, WV 25414",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2018/10/24",
+            "gmap_id": "0x89b601792a5fa123:0x2599cfed449ee228",
+            "iid": 11246,
+            "name": "Ginza",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1540384421554
+        },
+        {
+            "address": "Double Knot, 120 S 13th St, Philadelphia, PA 19107",
+            "category": "['Japanese restaurant', 'Cafe', 'Coffee shop', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/01/05",
+            "gmap_id": "0x89c6c62f661ed505:0x9ea4d8a13314e1da",
+            "iid": 13505,
+            "name": "Double Knot",
+            "split": "valid",
+            "state": "Pennsylvania",
+            "unix_time": 1546710689548
+        },
+        {
+            "address": "Tono Sushi Restaurant, 2605 Connecticut Ave NW, Washington, DC 20008",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Authentic Japanese restaurant']",
+            "date": "2019/07/24",
+            "gmap_id": "0x89b7b7d40539c7c3:0xa41e1b5040900f1e",
+            "iid": 11483,
+            "name": "Tono Sushi Restaurant",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1563930451423
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Toku Japanese and Asian Cuisine, 1301 U St NW, Washington, DC 20009",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89b7b7e635ee1555:0xcb3d59b94aba32db",
+            "iid": 11491,
+            "name": "Toku Japanese and Asian Cuisine",
+            "rank": 1,
+            "score": 0.6474474668502808,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Seoul House Restaurant, 45 N Centre St, Cumberland, MD 21502",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean barbecue restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89ca8ec502bcc375:0x5ac8638cf18567cb",
+            "iid": 13741,
+            "name": "Seoul House Restaurant",
+            "rank": 2,
+            "score": 0.6159513592720032,
+            "state": "Maryland"
+        },
+        {
+            "address": "Buddakan, 1 Atlantic Ocean, Atlantic City, NJ 08401",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Cocktail bar', 'Event venue', 'Japanese restaurant']",
+            "gmap_id": "0x89c0ee6be95a33ff:0xa1f32bd0d8a3e7ad",
+            "iid": 11737,
+            "name": "Buddakan",
+            "rank": 3,
+            "score": 0.5892197489738464,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "OC Wasabi, 3316 Coastal Hwy, Ocean City, MD 21842",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b8d602d30ba7bd:0xdc1ea14cc16dac7c",
+            "iid": 11634,
+            "name": "OC Wasabi",
+            "rank": 4,
+            "score": 0.5831137895584106,
+            "state": "Maryland"
+        },
+        {
+            "address": "Tokyo Asian Cuisine, 433 N Reading Rd, Ephrata, PA 17522",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Bar', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c6141b7de7506d:0xc6a1f44e5455b11",
+            "iid": 13389,
+            "name": "Tokyo Asian Cuisine",
+            "rank": 5,
+            "score": 0.5786630511283875,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Izakaya Juraku, 121 Ludlow St, New York, NY 10002",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c25941ab306729:0x7231d28e22d2bc68",
+            "iid": 12174,
+            "name": "Izakaya Juraku",
+            "rank": 6,
+            "score": 0.5749066472053528,
+            "state": "New_York"
+        },
+        {
+            "address": "Yama, 122 E 17th St, New York, NY 10003",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2599f5fe81d1b:0x770dcc02417da5b",
+            "iid": 12343,
+            "name": "Yama",
+            "rank": 7,
+            "score": 0.574160099029541,
+            "state": "New_York"
+        },
+        {
+            "address": "Ageha Sushi, 767 9th Ave, New York, NY 10019",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c2585749e9ab03:0x63855837732e76eb",
+            "iid": 11990,
+            "name": "Ageha Sushi",
+            "rank": 8,
+            "score": 0.5719150304794312,
+            "state": "New_York"
+        },
+        {
+            "address": "Natsumi, 226 W 50th St, New York, NY 10019",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c2585643332b7d:0x793cd0a6ec2b857e",
+            "iid": 11983,
+            "name": "Natsumi",
+            "rank": 9,
+            "score": 0.5639540553092957,
+            "state": "New_York"
+        },
+        {
+            "address": "Izakaya, 1 Borgata Way, Atlantic City, NJ 08401",
+            "category": "['Japanese restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x89c0ee4cafdc1f67:0x7b9f8bd020d5a575",
+            "iid": 11735,
+            "name": "Izakaya",
+            "rank": 10,
+            "score": 0.5616045594215393,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Satto Sushi, 2177 PA-611 Ste 106, Swiftwater, PA 18370",
+            "category": "['Japanese restaurant', 'Eclectic restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89c48cc6673c6b6f:0xe6ada75521657fc0",
+            "iid": 13369,
+            "name": "Satto Sushi",
+            "rank": 11,
+            "score": 0.5546737909317017,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "The Dough Club, 119 Baxter St, New York, NY 10013",
+            "category": "['Donut shop', 'Bakery', 'Coffee shop', 'Dessert shop', 'Ice cream shop', 'Japanese restaurant', 'Japanese sweets restaurant']",
+            "gmap_id": "0x89c259872480c94d:0x3f8a6e5c0dd74762",
+            "iid": 12242,
+            "name": "The Dough Club",
+            "rank": 12,
+            "score": 0.5363548398017883,
+            "state": "New_York"
+        },
+        {
+            "address": "Takohachi Japanese Restaurant, 3249 Columbia Pike, Arlington, VA 22204",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7b6a5496bb391:0x36084b98184155ee",
+            "iid": 11455,
+            "name": "Takohachi Japanese Restaurant",
+            "rank": 13,
+            "score": 0.5350964665412903,
+            "state": "Virginia"
+        },
+        {
+            "address": "Hibachi of Valley Forge, 240 Swedesford Rd, Berwyn, PA 19312",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Mandarin restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c693795e69de75:0x9a26a88cfe5ca468",
+            "iid": 13409,
+            "name": "Hibachi of Valley Forge",
+            "rank": 14,
+            "score": 0.5337971448898315,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sushi Keiko, 2309 Wisconsin Ave NW, Washington, DC 20007",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89b7b624cd5f7b9b:0xcdd8b67c944db7a5",
+            "iid": 11445,
+            "name": "Sushi Keiko",
+            "rank": 15,
+            "score": 0.5330380201339722,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Ninja Grill, 103 Essex St, New York, NY 10002",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259812f4e6963:0x4562fa0eecc145dc",
+            "iid": 12225,
+            "name": "Ninja Grill",
+            "rank": 16,
+            "score": 0.5326697826385498,
+            "state": "New_York"
+        },
+        {
+            "address": "Hana Sushi, 211 7th Ave, New York, NY 10011",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c259bb3f2a6e87:0xbd9d5c181489ef39",
+            "iid": 12405,
+            "name": "Hana Sushi",
+            "rank": 17,
+            "score": 0.5294787287712097,
+            "state": "New_York"
+        },
+        {
+            "address": "Sakura of Japan, 570 8th Ave #3001, New York, NY 10018",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259ace5c94a5f:0x4807d636af7faf38",
+            "iid": 12388,
+            "name": "Sakura of Japan",
+            "rank": 18,
+            "score": 0.5285863876342773,
+            "state": "New_York"
+        },
+        {
+            "address": "Suzu, 1075 1st Ave #A, New York, NY 10022",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x89c258e7004a2dbd:0xb637478187c77da0",
+            "iid": 12064,
+            "name": "Suzu",
+            "rank": 19,
+            "score": 0.5257710218429565,
+            "state": "New_York"
+        },
+        {
+            "address": "Tengu, 5920 Fort Hamilton Pkwy, Brooklyn, NY 11219",
+            "category": "['Japanese restaurant', 'Noodle shop', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c245363d1bc895:0x96e500cf368627ca",
+            "iid": 11861,
+            "name": "Tengu",
+            "rank": 20,
+            "score": 0.521590530872345,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Glenn Harshman",
+        "uid": 65110,
+        "user_id": 114098129960694776700
+    }
+}

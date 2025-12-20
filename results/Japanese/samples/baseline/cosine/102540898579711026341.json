@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "One Pot Shabu Shabu, 19648 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Shabu-shabu restaurant', 'Do-it-yourself shop', 'Japanese restaurant', 'Sukiyaki and Shabu Shabu restaurant']",
+            "date": "2014/08/21",
+            "gmap_id": "0x808fb5a1cb032dbf:0xc8cd563dcc8a9357",
+            "iid": 2221,
+            "name": "One Pot Shabu Shabu",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1408583928666
+        },
+        {
+            "address": "Yoshida, 10700 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2014/08/27",
+            "gmap_id": "0x808fb506d13dfcb1:0x49e344016059562d",
+            "iid": 2195,
+            "name": "Yoshida",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1409101091689
+        },
+        {
+            "address": "Sumiya, 2634 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Izakaya restaurant', 'Tapas restaurant', 'Yakitori restaurant']",
+            "date": "2014/09/06",
+            "gmap_id": "0x808fb5603d6ab961:0x9d6806089597b2c8",
+            "iid": 2203,
+            "name": "Sumiya",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410029885843
+        },
+        {
+            "address": "Yume-Ya, 150 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2014/09/11",
+            "gmap_id": "0x808fb663e29d6b05:0xa0867add83614e82",
+            "iid": 2240,
+            "name": "Yume-Ya",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410400969077
+        },
+        {
+            "address": "Kahoo Ramen, 4330 Moorpark Ave, San Jose, CA 95129",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "date": "2014/09/12",
+            "gmap_id": "0x808fca96f8dc8a83:0xc41d2e726c0b7ce5",
+            "iid": 2334,
+            "name": "Kahoo Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410489214578
+        },
+        {
+            "address": "Curry House Japanese Curry & Spaghetti, 10350 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese curry restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2014/09/13",
+            "gmap_id": "0x808fb5a983361b57:0x55d2ef054e43f5ae",
+            "iid": 2225,
+            "name": "Curry House Japanese Curry & Spaghetti",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1410571275576
+        },
+        {
+            "address": "\u301295014 California, Cupertino, Bollinger Rd, AJITO",
+            "category": "['Yakitori restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2014/10/22",
+            "gmap_id": "0x808fb50126a0953d:0xbc96b4c15e1d0777",
+            "iid": 2193,
+            "name": "AJITO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1413944349973
+        },
+        {
+            "address": "TANTO Japanese Restaurant, 1063 E El Camino Real, Sunnyvale, CA 94087, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Brazilian restaurant', 'Coffee shop', 'Cuban restaurant', 'New American restaurant']",
+            "date": "2014/11/28",
+            "gmap_id": "0x808fb5f01cd7d477:0x5bfd6bcbc43a35b3",
+            "iid": 2232,
+            "name": "TANTO Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1417202587888
+        },
+        {
+            "address": "Dan Izakaya Restaurant, 1306 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2014/12/02",
+            "gmap_id": "0x808fcaafdfc4b2b1:0x98629443aefe9f82",
+            "iid": 2337,
+            "name": "Dan Izakaya Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1417488921669
+        },
+        {
+            "address": "Rintaro, 82 14th St, San Francisco, CA 94103",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2016/04/18",
+            "gmap_id": "0x808f7e26791dc281:0xe147a1d9e33e11d4",
+            "iid": 2012,
+            "name": "Rintaro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1460944087614
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ramen Seas, 173 Murphy Ave, Sunnyvale, CA 94086",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "gmap_id": "0x808fb65c526847e9:0x93a0cd4639403bc7",
+            "iid": 2239,
+            "name": "Ramen Seas",
+            "rank": 1,
+            "score": 0.8090435862541199,
+            "state": "California"
+        },
+        {
+            "address": "Rokko, 190 S Frances St, Sunnyvale, CA 94086",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x808fb65c37a806bf:0x1219140008696224",
+            "iid": 2237,
+            "name": "Rokko",
+            "rank": 2,
+            "score": 0.801596999168396,
+            "state": "California"
+        },
+        {
+            "address": "I Heart Bento, 10129 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808fb5aea7cb4cbd:0x92051f51635cb8f9",
+            "iid": 2226,
+            "name": "I Heart Bento",
+            "rank": 3,
+            "score": 0.7923808097839355,
+            "state": "California"
+        },
+        {
+            "address": "YAYOI Cupertino, 20682 Homestead Rd, Cupertino, CA 95014",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb5c979308bd1:0x112130aa892cc434",
+            "iid": 2229,
+            "name": "YAYOI Cupertino",
+            "rank": 4,
+            "score": 0.7888592481613159,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Kuni, 10211 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb5a957803313:0x53c78c746a27fc25",
+            "iid": 2224,
+            "name": "Sushi Kuni",
+            "rank": 5,
+            "score": 0.7779773473739624,
+            "state": "California"
+        },
+        {
+            "address": "Poki Bowl, 127 W Washington Ave, Sunnyvale, CA 94086",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb65c4b603f87:0xdbfa0d4ae28fe2b1",
+            "iid": 2238,
+            "name": "Poki Bowl",
+            "rank": 6,
+            "score": 0.7716867923736572,
+            "state": "California"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 19600 Vallco Pkwy #160, Cupertino, CA 95014",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb59ed888b5e9:0xfd5c475f3d309263",
+            "iid": 2216,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 7,
+            "score": 0.7693175077438354,
+            "state": "California"
+        },
+        {
+            "address": "Harumi Sushi, 19754 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb5a1143505ff:0xfcc2c724306668f3",
+            "iid": 2219,
+            "name": "Harumi Sushi",
+            "rank": 8,
+            "score": 0.7654112577438354,
+            "state": "California"
+        },
+        {
+            "address": "Sumika, 3548 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb587e41708cd:0xe6c08494273850c5",
+            "iid": 2210,
+            "name": "Sumika",
+            "rank": 9,
+            "score": 0.7581246495246887,
+            "state": "California"
+        },
+        {
+            "address": "Kotetsu Ramen, 2089 El Camino Real, Santa Clara, CA 95050",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fca46f66b4ddf:0x90cd8423d0d744f4",
+            "iid": 2325,
+            "name": "Kotetsu Ramen",
+            "rank": 10,
+            "score": 0.7563236355781555,
+            "state": "California"
+        },
+        {
+            "address": "Curry Life, 4320 Moorpark Ave, San Jose, CA 95129",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x808fca96f851971f:0x687460c9d5cdf11f",
+            "iid": 2333,
+            "name": "Curry Life",
+            "rank": 11,
+            "score": 0.7550642490386963,
+            "state": "California"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 19620 Stevens Creek Blvd #150, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x808fb5a1b5254455:0xb401b920b11cfed4",
+            "iid": 2220,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 12,
+            "score": 0.7512516379356384,
+            "state": "California"
+        },
+        {
+            "address": "En Japanese Tapas, 3450 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Restaurant']",
+            "gmap_id": "0x808fca0a26e36dc9:0xc2892e5fbfc3107a",
+            "iid": 2318,
+            "name": "En Japanese Tapas",
+            "rank": 13,
+            "score": 0.7393810749053955,
+            "state": "California"
+        },
+        {
+            "address": "SUMIKA - Santa Clara, 3548 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb56459ac3777:0x716f8c68d1efa72a",
+            "iid": 2204,
+            "name": "SUMIKA - Santa Clara",
+            "rank": 14,
+            "score": 0.7356345057487488,
+            "state": "California"
+        },
+        {
+            "address": "Shalala, 698 W Dana St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb733e3895c73:0x5fbeb3ae533abf45",
+            "iid": 2250,
+            "name": "Shalala",
+            "rank": 15,
+            "score": 0.7325916886329651,
+            "state": "California"
+        },
+        {
+            "address": "Tomisushi Restaurant, 4336 Moorpark Ave, San Jose, CA 95129",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fca96ff8b5fc7:0x659fd855e715c0dc",
+            "iid": 2336,
+            "name": "Tomisushi Restaurant",
+            "rank": 16,
+            "score": 0.7287681698799133,
+            "state": "California"
+        },
+        {
+            "address": "Ramen Tenma, 487 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x808fca938a34cbf3:0x21aedfcd94b52dc",
+            "iid": 2329,
+            "name": "Ramen Tenma",
+            "rank": 17,
+            "score": 0.7284476161003113,
+            "state": "California"
+        },
+        {
+            "address": "Afuri Ramen + Dumpling, 20803 Steven's Creek Blvd, UNIT 110, Cupertino, CA 95014",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb5868f5af435:0x2397b1fa63c15a6c",
+            "iid": 2209,
+            "name": "Afuri Ramen + Dumpling",
+            "rank": 18,
+            "score": 0.7278068661689758,
+            "state": "California"
+        },
+        {
+            "address": "Olleh Sushi & Tofu House, 595 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb670ed56c1e5:0x54d2a5e9dc0e5014",
+            "iid": 2242,
+            "name": "Olleh Sushi & Tofu House",
+            "rank": 19,
+            "score": 0.7259464859962463,
+            "state": "California"
+        },
+        {
+            "address": "Hachi Ju Hachi, 14480 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808e4ade1d926d39:0xb8675ae3cbda7e0",
+            "iid": 1924,
+            "name": "Hachi Ju Hachi",
+            "rank": 20,
+            "score": 0.7244746088981628,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Nunu Eats",
+        "uid": 11830,
+        "user_id": 102540898579711026341
+    }
+}

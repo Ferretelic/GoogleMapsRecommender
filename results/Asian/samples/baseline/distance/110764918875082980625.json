@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "GW Supermarket, 421 N Atlantic Blvd, Monterey Park, CA 91754",
+            "category": "['Asian grocery store', 'Chinese supermarket']",
+            "date": "2018/10/24",
+            "gmap_id": "0x80c2c542651a0d0d:0x7ad582c40a41cfa",
+            "iid": 5226,
+            "name": "GW Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540362096978
+        },
+        {
+            "address": "The Vox Kitchen, 16161 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Asian fusion restaurant']",
+            "date": "2018/11/18",
+            "gmap_id": "0x80dd2709db4dd9db:0x8c2979e92d20ac2c",
+            "iid": 7221,
+            "name": "The Vox Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542516774047
+        },
+        {
+            "address": "Seafood City, 2700 Colorado Blvd Suite #140, Los Angeles, CA 90041",
+            "category": "['Supermarket', 'Asian grocery store', 'Bakery', 'Fast food restaurant', 'Grocery store', 'Seafood market']",
+            "date": "2019/04/05",
+            "gmap_id": "0x80c2c16c530931f5:0xcadb4dc00ad574e5",
+            "iid": 5157,
+            "name": "Seafood City",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554428203810
+        },
+        {
+            "address": "Seoul Market, 2383 Foothill Blvd, La Ca\u00f1ada Flintridge, CA 91011",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store']",
+            "date": "2019/06/10",
+            "gmap_id": "0x80c2ea40b77635e7:0x3f7d372ef0a39464",
+            "iid": 5615,
+            "name": "Seoul Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560192321847
+        },
+        {
+            "address": "Hop Woo BBQ & Seafood Restaurant (Chinatown), 845 N Broadway, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Seafood restaurant']",
+            "date": "2019/06/16",
+            "gmap_id": "0x80c2c65bcde74b43:0xc52120867fe1d098",
+            "iid": 5282,
+            "name": "Hop Woo BBQ & Seafood Restaurant (Chinatown)",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560656117006
+        },
+        {
+            "address": "Ai Hoa Market, 860 N Hill St, Los Angeles, CA 90012",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2019/07/31",
+            "gmap_id": "0x80c2c6598882bff9:0xde47fc61aeba00b8",
+            "iid": 5274,
+            "name": "Ai Hoa Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564601547184
+        },
+        {
+            "address": "Super A Foods, 2925 Division St, Los Angeles, CA 90065",
+            "category": "['Grocery store', 'Asian grocery store', 'Supermarket']",
+            "date": "2019/07/31",
+            "gmap_id": "0x80c2c6ced9cdcb5f:0x136e9410007c9157",
+            "iid": 5286,
+            "name": "Super A Foods",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564604149336
+        },
+        {
+            "address": "Golden Dragon Restaurant, 960 N Broadway, Los Angeles, CA 90012, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Takeout restaurant']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2c659439a6273:0xc819a0cf92f6816a",
+            "iid": 5271,
+            "name": "Golden Dragon Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567449546895
+        },
+        {
+            "address": "Pot Thai Cafe, 2242 Fair Park Ave, Los Angeles, CA 90041",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/03",
+            "gmap_id": "0x80c2c167f5534ebb:0xddf231e9faae888c",
+            "iid": 5156,
+            "name": "Pot Thai Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1567536648104
+        },
+        {
+            "address": "Green Apple China Bistro, 12265 Ventura Blvd #112, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/03",
+            "gmap_id": "0x80c2bdfb0c7430cd:0x56fca4ed44c6bff2",
+            "iid": 5048,
+            "name": "Green Apple China Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1578025069180
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Ninjin Express, 557 N Hoover St, Los Angeles, CA 90004",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c743abcbd427:0xcddc623180cf0806",
+            "iid": 5296,
+            "name": "Ninjin Express",
+            "rank": 1,
+            "score": -2.313432455062866,
+            "state": "California"
+        },
+        {
+            "address": "Sunshine Grocery & Halal Meat, 45633 Dulles Eastern Plaza #111, Sterling, VA 20166",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89b639d9d82ef779:0xb1b98df432865637",
+            "iid": 20337,
+            "name": "Sunshine Grocery & Halal Meat",
+            "rank": 2,
+            "score": -2.417841911315918,
+            "state": "Virginia"
+        },
+        {
+            "address": "Good Taste, 1015 N 3rd St # 101 #101, Harrisburg, PA 17102",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c8c116ee95b62d:0xb3f1319f2db648b",
+            "iid": 24026,
+            "name": "Good Taste",
+            "rank": 3,
+            "score": -2.424668073654175,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Texas, Frisco, Main St, 888 Cookhouse\u90ae\u653f\u7f16\u7801: 75033",
+            "category": "['Traditional restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Restaurant']",
+            "gmap_id": "0x864c3ba758de1911:0x4ab35c0dab34038e",
+            "iid": 9321,
+            "name": "888 Cookhouse",
+            "rank": 4,
+            "score": -2.4294118881225586,
+            "state": "Texas"
+        },
+        {
+            "address": "Lali Son Fast Food, 12201 Hero Way W, Leander, TX 78641",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Fusion restaurant', 'Nepalese restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x865b29243e0a3981:0x1ac8d1410a300d89",
+            "iid": 9795,
+            "name": "Lali Son Fast Food",
+            "rank": 5,
+            "score": -2.431241989135742,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai Cuisine and Ramen King Asian Restaurant, 9555 Spring Green Blvd Suite. A, Katy, TX 77494",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x864123b57d96668f:0x930c5c6536c8fa10",
+            "iid": 8627,
+            "name": "Thai Cuisine and Ramen King Asian Restaurant",
+            "rank": 6,
+            "score": -2.4320929050445557,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 1102 W Shawnee St, Muskogee, OK 74401",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87b5e06ba5400305:0xdb830c24c76e1ac4",
+            "iid": 12008,
+            "name": "Panda Express",
+            "rank": 7,
+            "score": -2.4343481063842773,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Lee's Cafe, 22044 Westheimer Pkwy, Katy, TX 77450",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery service', 'Delivery Restaurant', 'Takeout Restaurant', 'Seafood restaurant', 'Thai restaurant']",
+            "gmap_id": "0x864120c28b0ce93d:0xd2cc678bf5feb3ab",
+            "iid": 8616,
+            "name": "Lee's Cafe",
+            "rank": 8,
+            "score": -2.4379262924194336,
+            "state": "Texas"
+        },
+        {
+            "address": "Narruto bowl, 461 Cedar Ln, Teaneck, NJ 07666",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2f1aca14ab627:0x2d5a03298b6f2c65",
+            "iid": 22799,
+            "name": "Narruto bowl",
+            "rank": 9,
+            "score": -2.4438109397888184,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Spice World Market, 1381 Old Arrington Rd, College Station, TX 77845",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x86469b1289b27707:0xc6caca2bd2290227",
+            "iid": 8904,
+            "name": "Spice World Market",
+            "rank": 10,
+            "score": -2.4444806575775146,
+            "state": "Texas"
+        },
+        {
+            "address": "Pearl Lian, 11600 Medlock Bridge Rd, Duluth, GA 30097",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x88f5997605263331:0xa57e15de2573adde",
+            "iid": 19279,
+            "name": "Pearl Lian",
+            "rank": 11,
+            "score": -2.4452006816864014,
+            "state": "Georgia"
+        },
+        {
+            "address": "Jia, Beau Rivage Resort & Casino, 875 Beach Blvd, Biloxi, MS 39530",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x889c0ee4e5989573:0xad26816cd5b50b41",
+            "iid": 17192,
+            "name": "Jia",
+            "rank": 12,
+            "score": -2.446119546890259,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Oseyo, 14260G Centreville Square, Centreville, VA 20121",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x89b6454dba9aebbb:0x4596be0eb7d45cf",
+            "iid": 20387,
+            "name": "Oseyo",
+            "rank": 13,
+            "score": -2.446155071258545,
+            "state": "Virginia"
+        },
+        {
+            "address": "Osaka, 514 Benefit St, Pawtucket, RI 02861",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e45d6b80f0d7e9:0x6b4fd89ccc9ca1b8",
+            "iid": 25181,
+            "name": "Osaka",
+            "rank": 14,
+            "score": -2.4475274085998535,
+            "state": "Rhode_Island"
+        },
+        {
+            "address": "Carly\u2019s Healthy Cuisine, 215 W Atlantic St, Branson, MO 65616",
+            "category": "['Restaurant', 'American restaurant', 'Asian fusion restaurant', 'Bubble tea store', 'Chinese noodle restaurant', 'Coffee shop', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x87cf03dd6015d021:0x271c7d8cdb64588c",
+            "iid": 12400,
+            "name": "Carly\u2019s Healthy Cuisine",
+            "rank": 15,
+            "score": -2.4477269649505615,
+            "state": "Missouri"
+        },
+        {
+            "address": "Asian Market, 6125 University Dr NW C2, Huntsville, AL 35806",
+            "category": "['Supermarket', 'Asian grocery store', 'Convenience store']",
+            "gmap_id": "0x886269467250dc73:0x98dc96d3192c9b61",
+            "iid": 16370,
+            "name": "Asian Market",
+            "rank": 16,
+            "score": -2.4485666751861572,
+            "state": "Alabama"
+        },
+        {
+            "address": "Asian Mart, 14600 10th Ave S # 100, Burnsville, MN 55337",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x87f63b363825c109:0xbcd2511bcb011536",
+            "iid": 12914,
+            "name": "Asian Mart",
+            "rank": 17,
+            "score": -2.4488890171051025,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Pacific Fusion, 1140 N Germantown Pkwy, Cordova, TN 38016",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x887f9d77afe5c349:0xd84688c3683d4c60",
+            "iid": 16913,
+            "name": "Pacific Fusion",
+            "rank": 18,
+            "score": -2.4491448402404785,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Teriyaki Madness, 509 S Main St, Lapeer, MI 48446",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x8824617a0042602d:0xf0916869a386fd13",
+            "iid": 14513,
+            "name": "Teriyaki Madness",
+            "rank": 19,
+            "score": -2.449179172515869,
+            "state": "Michigan"
+        },
+        {
+            "address": "Fong Kwan Kitchen, 65-48 Metropolitan Ave, Middle Village, NY 11379",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c25e6f7713201d:0xf341574e0b5dc0d8",
+            "iid": 22218,
+            "name": "Fong Kwan Kitchen",
+            "rank": 20,
+            "score": -2.4493911266326904,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Nes Merveilles",
+        "uid": 111261,
+        "user_id": 110764918875082980625
+    }
+}

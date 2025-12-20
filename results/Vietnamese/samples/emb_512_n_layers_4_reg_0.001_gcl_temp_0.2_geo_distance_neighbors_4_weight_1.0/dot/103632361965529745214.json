@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/03/31",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 3858,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1522533110058
+        },
+        {
+            "address": "Pho Kien Giang, 8730 49th St N #1, Pinellas Park, FL 33782",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/05/29",
+            "gmap_id": "0x88c2e4f2f77952eb:0x8eac9845e410178b",
+            "iid": 3855,
+            "name": "Pho Kien Giang",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1527616188385
+        },
+        {
+            "address": "Pho Quyen Vietnamese Cuisine, 8404 W Hillsborough Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x88c2c16cc64f58ad:0x8c71b7075182f907",
+            "iid": 3826,
+            "name": "Pho Quyen Vietnamese Cuisine",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1529843901090
+        },
+        {
+            "address": "Pho Vietnam, 87 Chrystie St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/07/04",
+            "gmap_id": "0x89c25987fc742847:0x9855faf3b5bf8947",
+            "iid": 4436,
+            "name": "Pho Vietnam",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1530740767645
+        },
+        {
+            "address": "Hello Saigon, 180 Bleecker St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Bar', 'Delivery service', 'Pho restaurant', 'Sandwich shop']",
+            "date": "2018/07/07",
+            "gmap_id": "0x89c259921bf4909b:0x9e02d6c63bfd70bf",
+            "iid": 4444,
+            "name": "Hello Saigon",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1530982084471
+        },
+        {
+            "address": "Ha Long Bay Restaurant, 5944 34th St N, St. Petersburg, FL 33714",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "date": "2018/11/04",
+            "gmap_id": "0x88c2e47792e36929:0x3ddfeb9be2dc856a",
+            "iid": 3846,
+            "name": "Ha Long Bay Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1541295548109
+        },
+        {
+            "address": "Phan's Asian Cuisine, 9741 S Orange Blossom Trl STE 10, Orlando, FL 32837",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant']",
+            "date": "2018/12/25",
+            "gmap_id": "0x88e77d92eeb2fd4f:0x92238220761db75",
+            "iid": 4001,
+            "name": "Phan's Asian Cuisine",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1545744184950
+        },
+        {
+            "address": "Ben Thanh Restaurant, 4200 62nd Ave N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/23",
+            "gmap_id": "0x88c2e47fdb0fe3ff:0x8d9c6da976617ccf",
+            "iid": 3848,
+            "name": "Ben Thanh Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1548269809372
+        },
+        {
+            "address": "Pho Ha Tien, 6139 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Takeout Restaurant', 'Pho restaurant']",
+            "date": "2019/06/03",
+            "gmap_id": "0x88c2e4bb43160d97:0x53509eecf4e42a07",
+            "iid": 3851,
+            "name": "Pho Ha Tien",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1559568028967
+        },
+        {
+            "address": "Long Phung Cafe, 5864 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/11",
+            "gmap_id": "0x88c2e4bd44b7ce95:0xf8e1bbb21fd62733",
+            "iid": 3853,
+            "name": "Long Phung Cafe",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1565484331403
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Saigon Deli, 3858 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Deli', 'Restaurant']",
+            "gmap_id": "0x88c2c11349964eb9:0x138941c315dd1fc",
+            "iid": 3823,
+            "name": "Saigon Deli",
+            "rank": 1,
+            "score": 5.277701377868652,
+            "state": "Florida"
+        },
+        {
+            "address": "Seasons Cafe and Bakery, 7261 US Hwy 19 N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Bakery', 'Restaurant']",
+            "gmap_id": "0x88c2e46519c4030d:0x9840780a5d7e2d10",
+            "iid": 3845,
+            "name": "Seasons Cafe and Bakery",
+            "rank": 2,
+            "score": 4.3706817626953125,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Quyen Vietnamese Restaurant, 4505 Park Blvd N #10, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2e56c06760313:0x48dc603ee16cabdf",
+            "iid": 3856,
+            "name": "Pho Quyen Vietnamese Restaurant",
+            "rank": 3,
+            "score": 4.164040565490723,
+            "state": "Florida"
+        },
+        {
+            "address": "La V Vietnamese Fusion, 441 Central Ave, St. Petersburg, FL 33701",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Delivery Restaurant', 'Restaurant', 'South Asian restaurant', 'Southeast Asian restaurant', 'Wine bar']",
+            "gmap_id": "0x88c2e1836cf2f21f:0x5e77fb188efddcca",
+            "iid": 3841,
+            "name": "La V Vietnamese Fusion",
+            "rank": 4,
+            "score": 4.116903781890869,
+            "state": "Florida"
+        },
+        {
+            "address": "Thuy Cafe, 5944 34th St N, St. Petersburg, FL 33714",
+            "category": "['Vietnamese restaurant', 'Bar & grill']",
+            "gmap_id": "0x88c2e47792e36929:0xa5c24d97325ff6b7",
+            "iid": 3847,
+            "name": "Thuy Cafe",
+            "rank": 5,
+            "score": 4.00762939453125,
+            "state": "Florida"
+        },
+        {
+            "address": "Tasty Pho, 7430 49th St N, Pinellas Park, FL 33781, United States",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2e48fac5c3aed:0x7292487d61436ff4",
+            "iid": 3850,
+            "name": "Tasty Pho",
+            "rank": 6,
+            "score": 3.7119839191436768,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Ha Tien, 6139 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Takeout Restaurant', 'Pho restaurant']",
+            "gmap_id": "0x88c2e4bb43160d97:0x53509eecf4e42a07",
+            "iid": 3851,
+            "name": "Pho Ha Tien",
+            "rank": 7,
+            "score": 3.661447286605835,
+            "state": "Florida"
+        },
+        {
+            "address": "Long Phung Cafe, 5864 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2e4bd44b7ce95:0xf8e1bbb21fd62733",
+            "iid": 3853,
+            "name": "Long Phung Cafe",
+            "rank": 8,
+            "score": 3.359419345855713,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho 97 Oriental Restaurant, 6800 49th St N, St. Petersburg, FL 33713",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88c2e3bd4538c79f:0xdc6098377f592098",
+            "iid": 3844,
+            "name": "Pho 97 Oriental Restaurant",
+            "rank": 9,
+            "score": 3.330410957336426,
+            "state": "Florida"
+        },
+        {
+            "address": "Song Huong, 4034 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c17339bf5c9b:0xf6e8877e20fbaa93",
+            "iid": 3828,
+            "name": "Song Huong",
+            "rank": 10,
+            "score": 3.2894492149353027,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Queen, 29000 US Hwy 19 N, Clearwater, FL 33761",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2f20b6a3b4151:0xd04d4d3ea824c613",
+            "iid": 3865,
+            "name": "Pho Queen",
+            "rank": 11,
+            "score": 3.207411289215088,
+            "state": "Florida"
+        },
+        {
+            "address": "Alesia Restaurant, 7204 Central Ave N, St. Petersburg, FL 33707",
+            "category": "['Vietnamese restaurant', 'Brunch restaurant', 'Chinese restaurant', 'French restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2fd2d974748af:0x136b91e727a41ffb",
+            "iid": 3872,
+            "name": "Alesia Restaurant",
+            "rank": 12,
+            "score": 3.1546716690063477,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Quyen, 2740 E Fowler Ave, Tampa, FL 33612",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c7a8898e6713:0x41b504faa7921127",
+            "iid": 3836,
+            "name": "Pho Quyen",
+            "rank": 13,
+            "score": 3.037748098373413,
+            "state": "Florida"
+        },
+        {
+            "address": "The Spot Sushi Burritos Ha Long Bay, 10500 Ulmerton Rd #288, Largo, FL 33771",
+            "category": "['Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2fa5bc6ffe9a3:0x5f1c80ab8c0d69e9",
+            "iid": 3868,
+            "name": "The Spot Sushi Burritos Ha Long Bay",
+            "rank": 14,
+            "score": 3.019972324371338,
+            "state": "Florida"
+        },
+        {
+            "address": "Loon Fong's Nam Viet - Machi Coffee and Tea, 8150 49th St N, Pinellas Park, FL 33781",
+            "category": "['Bubble tea store', 'Asian restaurant', 'Chinese restaurant', 'Coffee shop', 'Tea house', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2e48da796393d:0x4ae2bb43387c97a9",
+            "iid": 3849,
+            "name": "Loon Fong's Nam Viet - Machi Coffee and Tea",
+            "rank": 15,
+            "score": 2.842012405395508,
+            "state": "Florida"
+        },
+        {
+            "address": "Saigon Shack, 114 MacDougal St, New York, NY 10012",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25992279cb0a7:0x47c6705638de9109",
+            "iid": 4445,
+            "name": "Saigon Shack",
+            "rank": 16,
+            "score": 2.7575602531433105,
+            "state": "New_York"
+        },
+        {
+            "address": "Moonlight Teahouse, 6129 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Bubble tea store', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2e4bb5cf0cd89:0x984a755c58ebcc8a",
+            "iid": 3852,
+            "name": "Moonlight Teahouse",
+            "rank": 17,
+            "score": 2.734731674194336,
+            "state": "Florida"
+        },
+        {
+            "address": "Cafe Bich Nga, 5572 Park Blvd N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Cafe']",
+            "gmap_id": "0x88c2e4f24d6a9341:0x38715a909f1adc69",
+            "iid": 3854,
+            "name": "Cafe Bich Nga",
+            "rank": 18,
+            "score": 2.7047111988067627,
+            "state": "Florida"
+        },
+        {
+            "address": "Sab Cafe, 111 2nd Ave NE UNIT 100, St. Petersburg, FL 33701",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Live music venue', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2e19dbfaeccc3:0x50296b0b055c4bc",
+            "iid": 3842,
+            "name": "Sab Cafe",
+            "rank": 19,
+            "score": 2.6833086013793945,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho 88 Vietnamese Restaurant, 730 N Mills Ave, Orlando, FL 32803",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88e77ae99e152269:0xf6ae11d54bb805e3",
+            "iid": 3993,
+            "name": "Pho 88 Vietnamese Restaurant",
+            "rank": 20,
+            "score": 2.640798330307007,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Jerry DeLong",
+        "uid": 3452,
+        "user_id": 103632361965529745214
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Gogi Bros. House, 6407 City W Pkwy ste c-7, Eden Prairie, MN 55344",
+            "category": "['Korean barbecue restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "date": "2017/06/06",
+            "gmap_id": "0x87f621e215d312f5:0x45b0b447950e86c3",
+            "iid": 12805,
+            "name": "Gogi Bros. House",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1496753353350
+        },
+        {
+            "address": "Kings Restaurant (Korean Cuisine), 1051 E Moore Lake Dr, Minneapolis, MN 55432",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Korean beef restaurant', 'Korean rib restaurant', 'Restaurant']",
+            "date": "2017/09/01",
+            "gmap_id": "0x52b32fa3388ff2fd:0xe2cc38aaa34e8169",
+            "iid": 283,
+            "name": "Kings Restaurant (Korean Cuisine)",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1504305194306
+        },
+        {
+            "address": "Tamarine Restaurant & Gallery, 546 University Ave, Palo Alto, CA 94301",
+            "category": "['Vietnamese restaurant', 'Bar', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/09/29",
+            "gmap_id": "0x808fbb38c71d67c1:0x9fafe1b9df55fa48",
+            "iid": 3672,
+            "name": "Tamarine Restaurant & Gallery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1538260658507
+        },
+        {
+            "address": "Bay Leaf Indian Cuisine, 6403 City W Pkwy, Eden Prairie, MN 55344",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Caterer', 'Ethnic restaurant', 'Restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x87f621e18ed1fb7f:0x4518bd1ed9eed81a",
+            "iid": 12804,
+            "name": "Bay Leaf Indian Cuisine",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1544404886950
+        },
+        {
+            "address": "Bay Leaf Indian Cuisine, 6403 City W Pkwy, Eden Prairie, MN 55344",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Caterer', 'Ethnic restaurant', 'Restaurant']",
+            "date": "2018/12/10",
+            "gmap_id": "0x87f621e18ed1fb7f:0x4518bd1ed9eed81a",
+            "iid": 12804,
+            "name": "Bay Leaf Indian Cuisine",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1544404886950
+        },
+        {
+            "address": "Shanghai Market Oriental Food, 8450 Excelsior Blvd, Hopkins, MN 55343",
+            "category": "['Asian grocery store']",
+            "date": "2018/12/23",
+            "gmap_id": "0x87f6205b99f508ef:0x430043ce1d6fa216",
+            "iid": 12800,
+            "name": "Shanghai Market Oriental Food",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1545605545760
+        },
+        {
+            "address": "Chino Latino, 2916 Hennepin Ave S, Minneapolis, MN 55408",
+            "category": "['Asian fusion restaurant', 'Bar', 'Fusion restaurant', 'Latin American restaurant', 'Restaurant']",
+            "date": "2018/12/25",
+            "gmap_id": "0x87f6277f588deb7d:0x91d1e8613c1a4d35",
+            "iid": 12829,
+            "name": "Chino Latino",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1545710107332
+        },
+        {
+            "address": "Joy's Pattaya Thai Restaurant, 7545 Lyndale Ave S, Richfield, MN 55423",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/12/25",
+            "gmap_id": "0x87f625c58e30ea2b:0x7225ca892e227cb9",
+            "iid": 12814,
+            "name": "Joy's Pattaya Thai Restaurant",
+            "split": "train",
+            "state": "Minnesota",
+            "unix_time": 1545710180612
+        },
+        {
+            "address": "Benihana, 358 South Avenue, Bloomington, MN 55425",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/02/12",
+            "gmap_id": "0x87f62f6c5331521b:0xc49077550e24eecf",
+            "iid": 12885,
+            "name": "Benihana",
+            "split": "valid",
+            "state": "Minnesota",
+            "unix_time": 1549951517821
+        },
+        {
+            "address": "Lat14 Asian Eatery, 8815 7th Ave N, Golden Valley, MN 55427",
+            "category": "['Southeast Asian restaurant']",
+            "date": "2019/08/09",
+            "gmap_id": "0x52b335f1ac2ea81d:0xc4b8a636cd84463f",
+            "iid": 328,
+            "name": "Lat14 Asian Eatery",
+            "split": "test",
+            "state": "Minnesota",
+            "unix_time": 1565383901290
+        }
+    ],
+    "model": {
+        "model_name": "emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Leeann Chin, 12401 Wayzata Blvd, Minnetonka, MN 55305",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x52b34a95f1cba2ff:0xac2acc6fa2bb0acd",
+            "iid": 364,
+            "name": "Leeann Chin",
+            "rank": 1,
+            "score": -1.9090439081192017,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Leeann Chin, 8251 Flying Cloud Dr., Eden Prairie, MN 55344",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x87f618a3042f582d:0xe4b7eec5a3ce30ba",
+            "iid": 12791,
+            "name": "Leeann Chin",
+            "rank": 2,
+            "score": -1.9164659976959229,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Hana Bistro, 5033 France Ave S, Minneapolis, MN 55410",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Caterer', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87f626d9d6334e63:0x5c8cb5673500dc37",
+            "iid": 12827,
+            "name": "Hana Bistro",
+            "rank": 3,
+            "score": -1.9968059062957764,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Mandarin Yang, 3412 County Rd 101, Wayzata, MN 55391",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x87f61dfc2f17ce8f:0xb953b482c6649fb8",
+            "iid": 12799,
+            "name": "Mandarin Yang",
+            "rank": 4,
+            "score": -2.039865255355835,
+            "state": "Minnesota"
+        },
+        {
+            "address": "P.F. Chang's To Go, 213 W Hubbard St, Chicago, IL 60654",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2d42306554ff:0x1e7b171b4a859340",
+            "iid": 13465,
+            "name": "P.F. Chang's To Go",
+            "rank": 5,
+            "score": -2.1500420570373535,
+            "state": "Illinois"
+        },
+        {
+            "address": "Asian Express, 8755 Columbine Rd #105, Eden Prairie, MN 55344",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Lunch restaurant', 'Delivery Restaurant', 'Traditional restaurant']",
+            "gmap_id": "0x87f618f2b80b6c97:0x7bb7bca7d5bb5506",
+            "iid": 12794,
+            "name": "Asian Express",
+            "rank": 6,
+            "score": -2.1677205562591553,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Pho 24 DBA. Hoang Toan Restaurant, 3865 Venture Dr, Duluth, GA 30096",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88f5a35feb5cbebb:0x8bf7388794a2ac6e",
+            "iid": 19337,
+            "name": "Pho 24 DBA. Hoang Toan Restaurant",
+            "rank": 7,
+            "score": -2.190763473510742,
+            "state": "Georgia"
+        },
+        {
+            "address": "Leeann Chin, 8204 MN-7, St Louis Park, MN 55426",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x87f62063e00ee211:0x904282b36f83ccd3",
+            "iid": 12801,
+            "name": "Leeann Chin",
+            "rank": 8,
+            "score": -2.1996421813964844,
+            "state": "Minnesota"
+        },
+        {
+            "address": "X-press Thai, 6750 Gaylord Pkwy #140, Frisco, TX 75034",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x864c3d74088cba95:0xef8e158684c6aae9",
+            "iid": 9362,
+            "name": "X-press Thai",
+            "rank": 9,
+            "score": -2.200944185256958,
+            "state": "Texas"
+        },
+        {
+            "address": "Ono Hawaiian Plates, 729 N Washington Ave, Minneapolis, MN 55413",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Caterer', 'Restaurant']",
+            "gmap_id": "0x52b3335947c586cd:0x8da705004d801dff",
+            "iid": 318,
+            "name": "Ono Hawaiian Plates",
+            "rank": 10,
+            "score": -2.2028567790985107,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Yo Sushi, 84E Second Street, New York, NY 10010",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2590abd507611:0x15483467938e3e38",
+            "iid": 21742,
+            "name": "Yo Sushi",
+            "rank": 11,
+            "score": -2.2052102088928223,
+            "state": "New_York"
+        },
+        {
+            "address": "Rolls & Bowls Asian Cook House, 9656 Colorado Ln N, Brooklyn Park, MN 55445",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Soup restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x52b33b1ad52b2b95:0x7484df1163b5736b",
+            "iid": 342,
+            "name": "Rolls & Bowls Asian Cook House",
+            "rank": 12,
+            "score": -2.2121975421905518,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Tiger Sushi, 100 North Garden, Bloomington, MN 55425",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87f62f6eac0a01c9:0x91eac0942f8d98d0",
+            "iid": 12887,
+            "name": "Tiger Sushi",
+            "rank": 13,
+            "score": -2.2169225215911865,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Gu's Bistro, 5750 Buford Hwy NE suite a, Doraville, GA 30340",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f5a7608048ced1:0x4c7b5a6dabf040b5",
+            "iid": 19375,
+            "name": "Gu's Bistro",
+            "rank": 14,
+            "score": -2.267578363418579,
+            "state": "Georgia"
+        },
+        {
+            "address": "New Beijing Chinese Restaurant, 8444 Langston Blvd, Fairfax, VA 22031",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89b64b791929b0ad:0xd4f9a9979b640e9",
+            "iid": 20444,
+            "name": "New Beijing Chinese Restaurant",
+            "rank": 15,
+            "score": -2.2759222984313965,
+            "state": "Virginia"
+        },
+        {
+            "address": "Everest Grocery/Ananda Bazzar, 3102 S Parker Rd A6, Aurora, CO 80014",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x876c87e5cf3624e9:0xb668bb05b3e8ace9",
+            "iid": 11668,
+            "name": "Everest Grocery/Ananda Bazzar",
+            "rank": 16,
+            "score": -2.277114152908325,
+            "state": "Colorado"
+        },
+        {
+            "address": "Big Bowl Chinese Express, 7171 France Ave S, Edina, MN 55435",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87f6241cb415d775:0x16b94f6c48edeecf",
+            "iid": 12808,
+            "name": "Big Bowl Chinese Express",
+            "rank": 17,
+            "score": -2.303208827972412,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Hung Vuong Food Market, 1445 Brace Rd, Cherry Hill, NJ 08034",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89c6cdfc19eff823:0xf53c4b966d39c04d",
+            "iid": 23728,
+            "name": "Hung Vuong Food Market",
+            "rank": 18,
+            "score": -2.3033337593078613,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Donburi Ya, 764 Harrison St, San Francisco, CA 94107",
+            "category": "['Restaurant', 'Asian restaurant', 'Caterer', 'Japanese restaurant']",
+            "gmap_id": "0x808581b259c7ab77:0x26230ccb54e7aff3",
+            "iid": 2861,
+            "name": "Donburi Ya",
+            "rank": 19,
+            "score": -2.3043360710144043,
+            "state": "California"
+        },
+        {
+            "address": "Kim Anh Pastery & Deli, 8586 Edinburgh Centre Dr, Brooklyn Park, MN 55443",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bakery', 'Bubble tea store', 'Deli', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x52b33a907bef6301:0x2d45dd86c4a98f6f",
+            "iid": 341,
+            "name": "Kim Anh Pastery & Deli",
+            "rank": 20,
+            "score": -2.3069546222686768,
+            "state": "Minnesota"
+        }
+    ],
+    "user": {
+        "name": "Michael Kollar",
+        "uid": 14723,
+        "user_id": 101426897288847406475
+    }
+}

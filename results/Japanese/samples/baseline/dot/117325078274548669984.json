@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2013/08/04",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 11615,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1375582977680
+        },
+        {
+            "address": "Elephant Sushi, 1916 Hyde St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/11/26",
+            "gmap_id": "0x808580e8d69e7921:0xed03338501f71a2",
+            "iid": 1744,
+            "name": "Elephant Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448559490551
+        },
+        {
+            "address": "Zaoh, 1555 Mission St, San Francisco, CA 94103",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2016/02/12",
+            "gmap_id": "0x8085809de38a4abd:0xedf33edfba1e6491",
+            "iid": 1688,
+            "name": "Zaoh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1455235952905
+        },
+        {
+            "address": "Sushirrito - Union Square, 226 Kearny St, San Francisco, CA 94104",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "date": "2016/11/15",
+            "gmap_id": "0x80858062a6bcdae7:0xdf875c0d2342e4ef",
+            "iid": 1637,
+            "name": "Sushirrito - Union Square",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479226921313
+        },
+        {
+            "address": "Koja Kitchen, 343 Clement St, San Francisco, CA 94118",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "date": "2017/02/05",
+            "gmap_id": "0x8085873bfb67f86d:0x5b347fc92a49f360",
+            "iid": 1790,
+            "name": "Koja Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486263339195
+        },
+        {
+            "address": "Ebisu Restaurant, 1283 9th Ave, San Francisco, CA 94122",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/02/09",
+            "gmap_id": "0x8085875ce01473f7:0xaa625c17075c336",
+            "iid": 1799,
+            "name": "Ebisu Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1486626867715
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/06/05",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 1667,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1496684008301
+        },
+        {
+            "address": "Nobu Palo Alto, 180 Hamilton Ave, Palo Alto, CA 94301",
+            "category": "['Japanese restaurant']",
+            "date": "2017/07/29",
+            "gmap_id": "0x808fbb3a3ecf1c23:0x5bb11772add3928",
+            "iid": 2273,
+            "name": "Nobu Palo Alto",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501366342541
+        },
+        {
+            "address": "Umami Asian Bistro and Sushi Bar, 150 Eagleview Blvd, Exton, PA 19341",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/08",
+            "gmap_id": "0x89c6f4d709f887f1:0xd2a53014a6aeca84",
+            "iid": 13596,
+            "name": "Umami Asian Bistro and Sushi Bar",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1531081163613
+        },
+        {
+            "address": "Glaze Teriyaki, 2095 Chestnut St, San Francisco, CA 94123",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/29",
+            "gmap_id": "0x808580d7241a814b:0x92faba038e76a608",
+            "iid": 1733,
+            "name": "Glaze Teriyaki",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546059351791
+        },
+        {
+            "address": "Deejai Thai Restaurant, 613 Providence Rd, Charlotte, NC 28207",
+            "category": "['Thai restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "date": "2020/07/09",
+            "gmap_id": "0x88569feed1aef1fb:0x3680efbf6bddc250",
+            "iid": 8489,
+            "name": "Deejai Thai Restaurant",
+            "split": "test",
+            "state": "North_Carolina",
+            "unix_time": 1594292950141
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Ryoko's Japanese Restaurant & Bar, 619 Taylor St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x8085808e0fbbe951:0x2a0d6d496a174461",
+            "iid": 1668,
+            "name": "Ryoko's Japanese Restaurant & Bar",
+            "rank": 1,
+            "score": 10.42938232421875,
+            "state": "California"
+        },
+        {
+            "address": "Ozumo SF, 161 Steuart St, San Francisco, CA 94105",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80858065a8da1125:0x1da38cdc39547ca5",
+            "iid": 1641,
+            "name": "Ozumo SF",
+            "rank": 2,
+            "score": 10.028739929199219,
+            "state": "California"
+        },
+        {
+            "address": "Katana Ya, 422 Geary St, San Francisco, CA 94102",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Noodle shop', 'Soba noodle shop', 'Sushi restaurant']",
+            "gmap_id": "0x8085808e51ab7a67:0xd0483a7251ab6b0a",
+            "iid": 1671,
+            "name": "Katana Ya",
+            "rank": 3,
+            "score": 9.795866012573242,
+            "state": "California"
+        },
+        {
+            "address": "Nojo Ramen Tavern, 231 Franklin St, San Francisco, CA 94102",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x80858098d589d943:0xe8873eeb2cd86342",
+            "iid": 1686,
+            "name": "Nojo Ramen Tavern",
+            "rank": 4,
+            "score": 9.435103416442871,
+            "state": "California"
+        },
+        {
+            "address": "Domo, 511 Laguna St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808580a24840bb67:0xef83841203e9d0dd",
+            "iid": 1692,
+            "name": "Domo",
+            "rank": 5,
+            "score": 8.934025764465332,
+            "state": "California"
+        },
+        {
+            "address": "Iza Ramen, 237 Fillmore St, San Francisco, CA 94117",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "gmap_id": "0x808580a6cff045ef:0x4334bb8f7636cf98",
+            "iid": 1696,
+            "name": "Iza Ramen",
+            "rank": 6,
+            "score": 8.912562370300293,
+            "state": "California"
+        },
+        {
+            "address": "Coco's Ramen, 3319 Mission St, San Francisco, CA 94110",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e4325d84c71:0x474ee9bd6ebc1f1b",
+            "iid": 2030,
+            "name": "Coco's Ramen",
+            "rank": 7,
+            "score": 8.896102905273438,
+            "state": "California"
+        },
+        {
+            "address": "Kuma Sushi + Sake, 1040 Polk St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085809418e48943:0x1da9a19a63bf534",
+            "iid": 1680,
+            "name": "Kuma Sushi + Sake",
+            "rank": 8,
+            "score": 8.83696460723877,
+            "state": "California"
+        },
+        {
+            "address": "Ginto, 658 Market St, San Francisco, CA 94104",
+            "category": "['Izakaya restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8085808847ae5121:0xecae485ebb739b45",
+            "iid": 1656,
+            "name": "Ginto",
+            "rank": 9,
+            "score": 8.688495635986328,
+            "state": "California"
+        },
+        {
+            "address": "Otoro Sushi, 205 Oak St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Californian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8085809f474fefad:0x50d6c0350f0737d",
+            "iid": 1689,
+            "name": "Otoro Sushi",
+            "rank": 10,
+            "score": 8.641490936279297,
+            "state": "California"
+        },
+        {
+            "address": "Shizen Vegan Sushi Bar and Izakaya, 370 14th St, San Francisco, CA 94103",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x808f7e21a0ce5121:0xc098d695dbb20e9f",
+            "iid": 2007,
+            "name": "Shizen Vegan Sushi Bar and Izakaya",
+            "rank": 11,
+            "score": 8.583534240722656,
+            "state": "California"
+        },
+        {
+            "address": "Glaze Teriyaki, 1946 Fillmore St, San Francisco, CA 94115",
+            "category": "['Japanese restaurant', 'Gluten-free restaurant', 'Korean restaurant']",
+            "gmap_id": "0x808580c796434d63:0x3766782bbc26eae8",
+            "iid": 1727,
+            "name": "Glaze Teriyaki",
+            "rank": 12,
+            "score": 8.549626350402832,
+            "state": "California"
+        },
+        {
+            "address": "Alexander's Steakhouse, 448 Brannan St, San Francisco, CA 94107",
+            "category": "['Steak house', 'Bar', 'Cocktail bar', 'Event venue', 'Fine dining restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7fd600fb2455:0xf19facdda22466e",
+            "iid": 2047,
+            "name": "Alexander's Steakhouse",
+            "rank": 13,
+            "score": 8.50596809387207,
+            "state": "California"
+        },
+        {
+            "address": "Kama Sushi Soma, 294 9th St, San Francisco, CA 94103",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e28100e48bd:0xaa2e8243452c7fc5",
+            "iid": 2015,
+            "name": "Kama Sushi Soma",
+            "rank": 14,
+            "score": 8.420024871826172,
+            "state": "California"
+        },
+        {
+            "address": "Sanraku, 135 4th St, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808580870d6d38fb:0xfe73567d9c497651",
+            "iid": 1654,
+            "name": "Sanraku",
+            "rank": 15,
+            "score": 8.297725677490234,
+            "state": "California"
+        },
+        {
+            "address": "Sushirrito, 59 New Montgomery St, San Francisco, CA 94105",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Burrito restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80858062a6bcdae7:0xa9c1aacdfed1d7d2",
+            "iid": 1636,
+            "name": "Sushirrito",
+            "rank": 16,
+            "score": 8.154746055603027,
+            "state": "California"
+        },
+        {
+            "address": "Tataki Sushi and Sake Bar, 2827 California St, San Francisco, CA 94115",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808580c9614778df:0xe0b89c99dac137c2",
+            "iid": 1728,
+            "name": "Tataki Sushi and Sake Bar",
+            "rank": 17,
+            "score": 8.105452537536621,
+            "state": "California"
+        },
+        {
+            "address": "Fumi Curry & Ramen, 3303 Mission St, San Francisco, CA 94110",
+            "category": "['Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808f7e43237624d5:0xf5a045de43ba5515",
+            "iid": 2029,
+            "name": "Fumi Curry & Ramen",
+            "rank": 18,
+            "score": 8.005485534667969,
+            "state": "California"
+        },
+        {
+            "address": "Genki Crepes & Mini Mart, 330 Clement St, San Francisco, CA 94118",
+            "category": "['Cr\u00eaperie', 'Asian grocery store', 'Convenience store', 'Japanese confectionery shop']",
+            "gmap_id": "0x8085873bef876177:0x824c5edfd94e808c",
+            "iid": 1788,
+            "name": "Genki Crepes & Mini Mart",
+            "rank": 19,
+            "score": 7.9957380294799805,
+            "state": "California"
+        },
+        {
+            "address": "Orenchi Beyond, 174 Valencia St, San Francisco, CA 94103",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x808f7e20133a9107:0x3ffab30f7afee0fe",
+            "iid": 2006,
+            "name": "Orenchi Beyond",
+            "rank": 20,
+            "score": 7.989048957824707,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Brandon Nolte",
+        "uid": 79981,
+        "user_id": 117325078274548669984
+    }
+}

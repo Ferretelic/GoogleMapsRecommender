@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Ph\u1edf Saigon, 236 Hartnell Ave, Redding, CA 96002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/03/05",
+            "gmap_id": "0x54d2ec96ea91dc69:0xde2e6a1314ec5a99",
+            "iid": 542,
+            "name": "Ph\u1edf Saigon",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488753177651
+        },
+        {
+            "address": "Sai\u2019s Vietnamese Restaurant, 505 Washington St, San Francisco, CA 94111",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x8085808aa3b9e1a5:0xf2414b3d2c971d73",
+            "iid": 705,
+            "name": "Sai\u2019s Vietnamese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518844714048
+        },
+        {
+            "address": "Golden King Restaurant, 757 Clay St, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x8085808b40541a91:0xdc939bfe3f1a8166",
+            "iid": 706,
+            "name": "Golden King Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518844978042
+        },
+        {
+            "address": "Pho Lee Hoa Phat 7, 870 E Travis Blvd #K, Fairfield, CA 94533",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x808515c133e81793:0xf3ddd4e73b1d0e5d",
+            "iid": 630,
+            "name": "Pho Lee Hoa Phat 7",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518845112080
+        },
+        {
+            "address": "Chicken Pho You, 292 Broadway, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Noodle shop', 'Southeast Asian restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x808f77a53fd7f37d:0x817138c6f702326a",
+            "iid": 855,
+            "name": "Chicken Pho You",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518845199430
+        },
+        {
+            "address": "La Petite Camille, 170 El Camino Real, Millbrae, CA 94030",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x808f77b07480741b:0x746f40cf78bfe06f",
+            "iid": 858,
+            "name": "La Petite Camille",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518845297872
+        },
+        {
+            "address": "Pho Vietnam, 87 Chrystie St, New York, NY 10002",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/02/17",
+            "gmap_id": "0x89c25987fc742847:0x9855faf3b5bf8947",
+            "iid": 4436,
+            "name": "Pho Vietnam",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1518845615231
+        },
+        {
+            "address": "Ph\u1edf B\u00e1c Hoa Viet - Stockton Blvd, 6645 Stockton Blvd # 300, Sacramento, CA 95823",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x809ac56879dc610b:0x64337a9ee14a66bc",
+            "iid": 1212,
+            "name": "Ph\u1edf B\u00e1c Hoa Viet - Stockton Blvd",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568349524586
+        },
+        {
+            "address": "Golden Star Vietnamese Restaurant, 11 Walter U Lum Pl, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x8085808b4704dc8d:0xffb976c6de1f6afb",
+            "iid": 707,
+            "name": "Golden Star Vietnamese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568349558015
+        },
+        {
+            "address": "Ph\u1edf Kim Long Restaurant, 4023 W Spring Mountain Rd, Las Vegas, NV 89102",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x80c8c6a660ad53d7:0xacff6b8ca4e4e8bc",
+            "iid": 1537,
+            "name": "Ph\u1edf Kim Long Restaurant",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1568350303360
+        },
+        {
+            "address": "Pho Lee Hoa Phat, 88 Peabody Rd B, Vacaville, CA 95687",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/13",
+            "gmap_id": "0x80853d4f7ea99075:0x9578b4866393252e",
+            "iid": 633,
+            "name": "Pho Lee Hoa Phat",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1568350592845
+        }
+    ],
+    "model": {
+        "model_name": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Sunrise Cafe, 1114 Bryant St, San Francisco, CA 94103",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e29302870c7:0xb643af86b67cdb2",
+            "iid": 885,
+            "name": "Sunrise Cafe",
+            "rank": 1,
+            "score": -1.9996646642684937,
+            "state": "California"
+        },
+        {
+            "address": "Mangosteen, 601 Larkin St, San Francisco, CA 94109",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80858090c807c3d1:0x13d011572cb27666",
+            "iid": 716,
+            "name": "Mangosteen",
+            "rank": 2,
+            "score": -2.0452184677124023,
+            "state": "California"
+        },
+        {
+            "address": "Perilla Vietnamese Cuisine, 525 Haight St, San Francisco, CA 94117",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808580a6c3e337ab:0x4d212857a93d24c8",
+            "iid": 728,
+            "name": "Perilla Vietnamese Cuisine",
+            "rank": 3,
+            "score": -2.066438674926758,
+            "state": "California"
+        },
+        {
+            "address": "Thanh Thanh Cafe, 2205 Clement St, San Francisco, CA 94121",
+            "category": "['Vietnamese restaurant', 'American restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x808587057197e68f:0xa43c5fbaed2625f3",
+            "iid": 744,
+            "name": "Thanh Thanh Cafe",
+            "rank": 4,
+            "score": -2.1229286193847656,
+            "state": "California"
+        },
+        {
+            "address": "Mayflower Restaurant, 1422 Ocean Ave, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7dd28149f731:0x113fc5473781d48e",
+            "iid": 878,
+            "name": "Mayflower Restaurant",
+            "rank": 5,
+            "score": -2.200439453125,
+            "state": "California"
+        },
+        {
+            "address": "An Chi Vietnamese Cuisine, 4683 Mission St, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7e85f5c77413:0xa84ba393d3ba246a",
+            "iid": 894,
+            "name": "An Chi Vietnamese Cuisine",
+            "rank": 6,
+            "score": -2.3712987899780273,
+            "state": "California"
+        },
+        {
+            "address": "Chef Papa Vietnamese Kitchen, 42-05 162nd St, Queens, NY 11358",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c261ca03dd8981:0xe946bf6840523c82",
+            "iid": 4516,
+            "name": "Chef Papa Vietnamese Kitchen",
+            "rank": 7,
+            "score": -2.458693742752075,
+            "state": "New_York"
+        },
+        {
+            "address": "Original Nicky\u2019s, 216 Avenue A, New York, NY 10009",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c259c085bf549f:0x3813509756249744",
+            "iid": 4465,
+            "name": "Original Nicky\u2019s",
+            "rank": 8,
+            "score": -2.4647414684295654,
+            "state": "New_York"
+        },
+        {
+            "address": "Urban Picnic, 125 Kearny St, San Francisco, CA 94108",
+            "category": "['Vietnamese restaurant', 'Californian restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Takeout Restaurant', 'Pho restaurant', 'Salad shop', 'Sandwich shop', 'Vegetarian restaurant']",
+            "gmap_id": "0x80858089aef126df:0xf70d389bbae48e0e",
+            "iid": 703,
+            "name": "Urban Picnic",
+            "rank": 9,
+            "score": -2.4964327812194824,
+            "state": "California"
+        },
+        {
+            "address": "Mission Noodle House, 4845 Mission St, San Francisco, CA 94112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7fdea4b4c4cd:0xace4214482d768b6",
+            "iid": 903,
+            "name": "Mission Noodle House",
+            "rank": 10,
+            "score": -2.51628041267395,
+            "state": "California"
+        },
+        {
+            "address": "Kim Huong, 304 10th St, Oakland, CA 94607",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f80b5958f4561:0xeaad671504351ecd",
+            "iid": 911,
+            "name": "Kim Huong",
+            "rank": 11,
+            "score": -2.5432331562042236,
+            "state": "California"
+        },
+        {
+            "address": "Mintleaf, 831 Marina Village Pkwy, Alameda, CA 94501",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808f80d73656e221:0xb8306e9524f43e4f",
+            "iid": 916,
+            "name": "Mintleaf",
+            "rank": 12,
+            "score": -2.5603747367858887,
+            "state": "California"
+        },
+        {
+            "address": "Ben Tre Restaurant, 398 Grand Ave, South San Francisco, CA 94080",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f79aec2a79eef:0xc994ab2ee2c69079",
+            "iid": 861,
+            "name": "Ben Tre Restaurant",
+            "rank": 13,
+            "score": -2.586573600769043,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf No 1, 2571 San Bruno Ave, San Francisco, CA 94134",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7efd2a0d688f:0xff4f08adff5be427",
+            "iid": 898,
+            "name": "Ph\u1edf No 1",
+            "rank": 14,
+            "score": -2.6233975887298584,
+            "state": "California"
+        },
+        {
+            "address": "Pho Bac Hoa Viet, 1827 Broadway, Sacramento, CA 95818",
+            "category": "['Restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x809ad0e2507a42c5:0x468fb4b407439d87",
+            "iid": 1234,
+            "name": "Pho Bac Hoa Viet",
+            "rank": 15,
+            "score": -2.6324832439422607,
+            "state": "California"
+        },
+        {
+            "address": "Pho Tam, 25004 Blue Ravine Rd, Folsom, CA 95630",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x809ae47e277d72f9:0x3c1761e5d29881d1",
+            "iid": 1257,
+            "name": "Pho Tam",
+            "rank": 16,
+            "score": -2.6369006633758545,
+            "state": "California"
+        },
+        {
+            "address": "Mama's Vietnamese Restaurant, 365 19th St, Oakland, CA 94612",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f80b2e1836d4b:0x178869c6ea2a3b70",
+            "iid": 908,
+            "name": "Mama's Vietnamese Restaurant",
+            "rank": 17,
+            "score": -2.6563594341278076,
+            "state": "California"
+        },
+        {
+            "address": "Loi's Vietnamese Restaurant, 2228 Irving St, San Francisco, CA 94122, United States",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808587701540c14f:0x629e4668b49075f6",
+            "iid": 762,
+            "name": "Loi's Vietnamese Restaurant",
+            "rank": 18,
+            "score": -2.6654136180877686,
+            "state": "California"
+        },
+        {
+            "address": "JOJU MODERN VIETNAMESE SANDWICHES, 555 5th Ave, New York, NY 10017",
+            "category": "['Restaurant', 'Bubble tea store', 'Coffee store', 'Rice shop', 'Salad shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c2595f6bdac0fd:0x6e589cb2d2bdaccc",
+            "iid": 4428,
+            "name": "JOJU MODERN VIETNAMESE SANDWICHES",
+            "rank": 19,
+            "score": -2.67510986328125,
+            "state": "New_York"
+        },
+        {
+            "address": "Banhwich, 1105 Taraval St, San Francisco, CA 94116",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f7d904db7549d:0x8503bbb3b2cdaa29",
+            "iid": 876,
+            "name": "Banhwich",
+            "rank": 20,
+            "score": -2.700902223587036,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "nkaujhmoobvwj",
+        "uid": 8818,
+        "user_id": 109277631364346482897
+    }
+}
