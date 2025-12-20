@@ -57,7 +57,6 @@ def split_dataset_by_temporal(cfg):
         return
 
     df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
-    df = df[df["rating"] >= cfg.dataset.min_rating]
     df = apply_mappings(cfg, df)
 
     df = df.sort_values(by=["uid", "time"])

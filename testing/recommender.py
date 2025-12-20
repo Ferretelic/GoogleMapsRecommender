@@ -28,8 +28,6 @@ class Recommender():
 
         item_size = self.load_item_size()
         mapping_size = self.load_mapping_size()
-        if item_size != mapping_size:
-            scores[:, mapping_size-1:] = -float("inf")
 
         return scores
 

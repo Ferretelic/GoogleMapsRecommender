@@ -2,6 +2,7 @@ import os
 from functools import partial
 
 import pandas as pd
+import tqdm
 
 from utils import *
 
@@ -24,7 +25,8 @@ def filter_raw_state_review_data(cfg, state, filters):
 
     print(f"Start filtering {state}")
     reviews = []
-    for review in parse(raw_file):
+    total = count_lines(raw_file)
+    for review in tqdm.tqdm(parse(raw_file), total=total):
         if all([f(data=review) for f in filters]):
             review = {key: review.get(key, None) for key in cfg.dataset.review_keys}
             reviews.append(review)
