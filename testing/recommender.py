@@ -134,7 +134,7 @@ class EmbeddingRecommender(Recommender):
     def load_embeddings(self, name):
         model_path = f"{self.cfg.paths.embedding}/{name}.pt"
 
-        user_embs, item_embs = torch.load(model_path)
+        user_embs, item_embs = torch.load(model_path, map_location="cpu")
         self.user_embs = user_embs.to(self.device)
         self.item_embs = item_embs.to(self.device)
 
