@@ -137,7 +137,7 @@ class Sampler():
 
         return items
 
-    def sample(self, model):
+    def sample(self, model, log):
         model_info = self.get_model_information(model)
         topk_scores, topk_indices = self.run_recommender(model_info)
 
@@ -154,9 +154,14 @@ class Sampler():
             with open(f"{results_path}/{user_info["user_id"]}.json", "w") as f:
                 json.dump(results, f, indent=4, sort_keys=True)
 
+            if (user_info["user_id"] in log["user_ids"] and
+                model_info["model_name"] == log["model_name"] and
+                    model_info["type"] == log["type"]):
+                self.print_recommendation(results)
+
     def print_recommendation(self, results):
-        user_info = results["user_info"]
-        user_hisotry = results["history"]
+        user_info = results["user"]
+        user_history = results["history"]
         user_recommendations = results["recommendations"]
 
         print("=" * 80)
