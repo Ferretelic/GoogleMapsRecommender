@@ -143,7 +143,7 @@ def plot_test_results(cfg, df):
     colors = sns.color_palette("pastel", len(df))
     cmap = {name: col for name, col in zip(df["name"], colors)}
 
-    fig = plt.figure(figsize=(20, 12))
+    fig = plt.figure(figsize=(25, 12))
     fig.patch.set_facecolor('white')
 
     fig.suptitle("Recommender System Evaluation Dashboard", fontsize=24, weight="bold", y=0.98)

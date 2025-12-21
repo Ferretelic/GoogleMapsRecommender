@@ -236,8 +236,30 @@ class EmbeddingFoldRecommender(EmbeddingRecommender):
         self.item_degrees = self.compute_item_degrees()
 
     def compute_test_user_scores(self, users):
-        batch_user_embs = self.user_embs[users]
+        rows, cols, n_histories = [], [], []
+
+        for i, uid in enumerate(users.cpu().numpy()):
+            history_iids = self.train_user_pos.get(uid, [])
+            if history_iids:
+                length = len(history_iids)
+                rows.extend([i] * length)
+                cols.extend(history_iids)
+                n_histories.extend([length] * length)
+
+        rows_t = torch.tensor(rows, device=self.device, dtype=torch.long)
+        cols_t = torch.tensor(cols, device=self.device, dtype=torch.long)
+        n_hist_t = torch.tensor(n_histories, device=self.device, dtype=torch.float32)
+
+        target_item_degrees = self.item_degrees[cols_t]
+        norm_values = 1.0 / torch.sqrt(n_hist_t * target_item_degrees)
+
+        indices = torch.stack([rows_t, cols_t])
+        shape = (len(users), self.item_size)
+
+        user_history_graph = torch.sparse_coo_tensor(indices, norm_values, size=shape, device=self.device)
+        batch_user_embs = torch.sparse.mm(user_history_graph, self.item_embs)
         scores = torch.matmul(batch_user_embs, self.item_embs.t())
+
         return scores
 
     def compute_item_degrees(self):
