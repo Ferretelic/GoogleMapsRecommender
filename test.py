@@ -8,9 +8,9 @@ import numpy as np
 import torch
 
 from testing.tester import *
-from testing.plot_results import *
-from testing.sampling import *
+from testing.sampler import *
 from testing.new_user import *
+from testing.metrics import *
 
 def seed_everything(seed=42):
     random.seed(seed)
@@ -24,8 +24,6 @@ def calculate_metrics(cfg):
         return
 
     metrics = []
-
-    sample_users = sample_test_users
 
     print("Testing baselines...")
     for baseline in cfg.test.baselines:
@@ -51,7 +49,7 @@ def calculate_metrics(cfg):
 
 def run_inference(cfg):
     sample_users = sample_test_users(cfg)
-    sampler = Sampler(cfg, sample_users)
+    sampler = TestUserSampler(cfg, sample_users)
 
     for baseline in cfg.inference.baselines:
         model = (baseline, "baseline", baseline)
@@ -71,14 +69,20 @@ def recommend_new_users(cfg):
 def main(cfg: DictConfig):
     seed_everything()
 
-    print("Calculating metrics on test dataset...")
-    calculate_metrics(cfg)
+    print("Comparing model performances on validation datast...")
+    update_valid_performances(cfg)
 
-    print("Running inference on sampled users...")
-    run_inference(cfg)
+    print("Adding new user for inference...")
+    add_new_user(cfg)
 
-    print("Running recommenders on new users...")
-    recommend_new_users(cfg)
+    # print("Calculating metrics on test dataset...")
+    # calculate_metrics(cfg)
+
+    # print("Running inference on sampled users...")
+    # run_inference(cfg)
+
+    # print("Running recommenders on new users...")
+    # recommend_new_users(cfg)
 
 
 if __name__ == "__main__":
