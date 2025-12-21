@@ -153,4 +153,4 @@ def plot_test_results(cfg, df):
     add_bar_plot(df, fig)
 
     plt.tight_layout(rect=[0, 0, 1, 0.93])
-    plt.savefig(f"{cfg.paths.result}/test_results.png")
+    plt.savefig(f"{cfg.paths.result}/test_performances.png")

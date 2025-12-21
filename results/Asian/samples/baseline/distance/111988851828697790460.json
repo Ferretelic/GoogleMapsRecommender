@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Seafood City Supermarket, 16130 Nordhoff St, North Hills, CA 91343",
+            "category": "['Seafood market', 'Asian grocery store', 'Bakery', 'Fast food restaurant', 'Grocery store', 'Supermarket']",
+            "date": "2017/03/28",
+            "gmap_id": "0x80c2909fa952c39f:0xc9cab99631c25fa3",
+            "iid": 4332,
+            "name": "Seafood City Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1490719807058
+        },
+        {
+            "address": "Hikari Sushi Chatsworth, 21230 Devonshire St, Chatsworth, CA 91311",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/01/21",
+            "gmap_id": "0x80c29cb08cb33767:0xf11cda39462b62aa",
+            "iid": 4486,
+            "name": "Hikari Sushi Chatsworth",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516494671825
+        },
+        {
+            "address": "Shiki Sushi, 12745 A Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/03/11",
+            "gmap_id": "0x80c2bdf42502cb81:0xf7b9735026497644",
+            "iid": 4792,
+            "name": "Shiki Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520810364984
+        },
+        {
+            "address": "Crustacean Beverly Hills, 468 N Bedford Dr, Beverly Hills, CA 90210",
+            "category": "['Asian fusion restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x80c2bc083e0b1f21:0x76acc62a27588a38",
+            "iid": 4780,
+            "name": "Crustacean Beverly Hills",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1534983056750
+        },
+        {
+            "address": "Katana LA, 8439 Sunset Blvd, West Hollywood, CA 90069",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/10/06",
+            "gmap_id": "0x80c2bebe42bfbeeb:0xd6550e9eecfd71cb",
+            "iid": 4818,
+            "name": "Katana LA",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1538815110033
+        },
+        {
+            "address": "Katsuya Hollywood, 6300 Hollywood Blvd, Los Angeles, CA 90028",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Cocktail bar', 'Event venue', 'Fine dining restaurant', 'Japanese restaurant', 'Lounge', 'Raw food restaurant', 'Seafood restaurant', 'Wine bar']",
+            "date": "2018/12/08",
+            "gmap_id": "0x80c2bf391265d04f:0x61a13f0966697b2c",
+            "iid": 4842,
+            "name": "Katsuya Hollywood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544241870556
+        },
+        {
+            "address": "TAO, 6421 Selma Ave, Los Angeles, CA 90028",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/01/12",
+            "gmap_id": "0x80c2bf3bb54393e5:0x9a52698ffc0cfa37",
+            "iid": 4845,
+            "name": "TAO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547332978841
+        },
+        {
+            "address": "TAO, 6421 Selma Ave, Los Angeles, CA 90028",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/01/12",
+            "gmap_id": "0x80c2bf3bb54393e5:0x9a52698ffc0cfa37",
+            "iid": 4845,
+            "name": "TAO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547332978841
+        },
+        {
+            "address": "Gyu-Kaku, 6600 Topanga Canyon Blvd Suite 1010B, Canoga Park, CA 91303",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar & grill', 'Barbecue restaurant']",
+            "date": "2019/09/12",
+            "gmap_id": "0x80c29c22ebd4a073:0x4fb15ab2323f17c9",
+            "iid": 4475,
+            "name": "Gyu-Kaku",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1568267870845
+        },
+        {
+            "address": "MR CHOW BEVERLY HILLS, 344 N Camden Dr, Beverly Hills, CA 90210",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Fine dining restaurant']",
+            "date": "2020/09/02",
+            "gmap_id": "0x80c2bbf86ccc1195:0xc91aabee8b7665ab",
+            "iid": 4774,
+            "name": "MR CHOW BEVERLY HILLS",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1599021749644
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Chin's Szechwan - Carlsbad, 2820 Roosevelt St, Carlsbad, CA 92008",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Dumpling restaurant', 'Soup restaurant']",
+            "gmap_id": "0x80dc736926023cb9:0xb3377acd90a46f16",
+            "iid": 6297,
+            "name": "Chin's Szechwan - Carlsbad",
+            "rank": 1,
+            "score": -2.403853178024292,
+            "state": "California"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 22050,
+            "name": "Fusia Bento Bar",
+            "rank": 2,
+            "score": -2.4054346084594727,
+            "state": "New_York"
+        },
+        {
+            "address": "LemonShark Pok\u00e9 & Makai Grill, 3969 Merchants Row, Columbus, OH 43219",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x88388a86ccb8fbd5:0x84bf51c6ba1dbecf",
+            "iid": 14089,
+            "name": "LemonShark Pok\u00e9 & Makai Grill",
+            "rank": 3,
+            "score": -2.406440258026123,
+            "state": "Ohio"
+        },
+        {
+            "address": "W Mart, 7919 E Thomas Rd, Scottsdale, AZ 85257",
+            "category": "['Grocery store', 'Asian grocery store']",
+            "gmap_id": "0x872b0bf44d03b4ff:0xc7ba381cb3eacc82",
+            "iid": 10040,
+            "name": "W Mart",
+            "rank": 4,
+            "score": -2.4088125228881836,
+            "state": "Arizona"
+        },
+        {
+            "address": "Wei Wok Chinese bistro, 2743 S Market St #111 Gilbert, AZ 85295",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x872bad484e48fb3d:0x7fcbb9a306f4e639",
+            "iid": 10277,
+            "name": "Wei Wok Chinese bistro",
+            "rank": 5,
+            "score": -2.415034770965576,
+            "state": "Arizona"
+        },
+        {
+            "address": "Izumi sushi hibachi all you can eat, 2844 Thousand Oaks Dr, San Antonio, TX 78232",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Mandarin restaurant']",
+            "gmap_id": "0x865c8b41d657a32b:0xb6586010ef1211cb",
+            "iid": 9414,
+            "name": "Izumi sushi hibachi all you can eat",
+            "rank": 6,
+            "score": -2.415294647216797,
+            "state": "Texas"
+        },
+        {
+            "address": "Rooster & Rice, 2855 Stevens Creek Blvd, Santa Clara, CA 95050",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808fcb1e25ffe103:0xe163e04aa3dd5ef1",
+            "iid": 3613,
+            "name": "Rooster & Rice",
+            "rank": 7,
+            "score": -2.416152238845825,
+            "state": "California"
+        },
+        {
+            "address": "Salt|Soy, 2583 Broad Ave, Memphis, TN 38112",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x887f812568207263:0x34fe2199d7619ace",
+            "iid": 15659,
+            "name": "Salt|Soy",
+            "rank": 8,
+            "score": -2.418212652206421,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Happy Thai Restaurant, 519 S Walnut St, Bloomington, IN 47401",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'South Asian restaurant', 'Thai restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x886c671890866ec7:0x7b257df3a118e83a",
+            "iid": 15560,
+            "name": "Happy Thai Restaurant",
+            "rank": 9,
+            "score": -2.4185917377471924,
+            "state": "Indiana"
+        },
+        {
+            "address": "Zen Thai Cafe, 110 N Central Ave, Phoenix, AZ 85004",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Gluten-free restaurant', 'Restaurant', 'Vegan restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x872b13cde325d861:0x6c0777b47aa50f2c",
+            "iid": 10082,
+            "name": "Zen Thai Cafe",
+            "rank": 10,
+            "score": -2.4192230701446533,
+            "state": "Arizona"
+        },
+        {
+            "address": "Teriyaki Madness, 16955 N 75th Ave Ste 115, Peoria, AZ 85382",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x872b69a2e8e9c817:0xc4d37ae230d7bcae",
+            "iid": 10154,
+            "name": "Teriyaki Madness",
+            "rank": 11,
+            "score": -2.4195988178253174,
+            "state": "Arizona"
+        },
+        {
+            "address": "ChoLon - Central Park, 10195 E 29th Dr #140, Denver, CO 80238",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x876c7bd5ab4f03d9:0xbe93ec7e0d1a697e",
+            "iid": 10879,
+            "name": "ChoLon - Central Park",
+            "rank": 12,
+            "score": -2.4197676181793213,
+            "state": "Colorado"
+        },
+        {
+            "address": "BAO, 590 Valencia St, San Francisco, CA 94110",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808f7faba4801927:0xa4ba379751b71c4f",
+            "iid": 3111,
+            "name": "BAO",
+            "rank": 13,
+            "score": -2.4197893142700195,
+            "state": "California"
+        },
+        {
+            "address": "Osaka, 514 Benefit St, Pawtucket, RI 02861",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e45d6b80f0d7e9:0x6b4fd89ccc9ca1b8",
+            "iid": 22986,
+            "name": "Osaka",
+            "rank": 14,
+            "score": -2.420079231262207,
+            "state": "Rhode_Island"
+        },
+        {
+            "address": "Jade Chinese Restaurant, 12 Broad St, Hudson, MA 01749",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Mandarin restaurant', 'Delivery Restaurant', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89e38cd1ce62d581:0xa4647bde6f3d6af8",
+            "iid": 22771,
+            "name": "Jade Chinese Restaurant",
+            "rank": 15,
+            "score": -2.4201700687408447,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "YumYum Bento, 1017 E Grand River Rd, East Lansing, MI 48823",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8822e993833982f3:0x9d230eccc5dc2a5a",
+            "iid": 13544,
+            "name": "YumYum Bento",
+            "rank": 16,
+            "score": -2.420788049697876,
+            "state": "Michigan"
+        },
+        {
+            "address": "Thai Cuisine and Ramen King Asian Restaurant, 9555 Spring Green Blvd Suite. A, Katy, TX 77494",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x864123b57d96668f:0x930c5c6536c8fa10",
+            "iid": 8140,
+            "name": "Thai Cuisine and Ramen King Asian Restaurant",
+            "rank": 17,
+            "score": -2.4213597774505615,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi & Asian Kitchen, 336 South Avenue E, Westfield, NJ 07090",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c3b105f1aea80d:0xf2e454e539009cea",
+            "iid": 21190,
+            "name": "Sushi & Asian Kitchen",
+            "rank": 18,
+            "score": -2.4215056896209717,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Asian Market, 11614 N Kendall Dr, Miami, FL 33176",
+            "category": "['Asian grocery store', 'Japanese confectionery shop']",
+            "gmap_id": "0x88d9c1be61ed947f:0xd959a58f8370c1c9",
+            "iid": 16704,
+            "name": "Asian Market",
+            "rank": 19,
+            "score": -2.4216768741607666,
+            "state": "Florida"
+        },
+        {
+            "address": "Toryumon Japanese House-Arlington, 1650 Wilson Blvd Suite 100B, Arlington, VA 22209",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b700d87c61fb:0x1eeabfc929866c9e",
+            "iid": 19092,
+            "name": "Toryumon Japanese House-Arlington",
+            "rank": 20,
+            "score": -2.422971248626709,
+            "state": "Virginia"
+        }
+    ],
+    "user": {
+        "name": "TATIANA W",
+        "uid": 85739,
+        "user_id": 111988851828697790460
+    }
+}

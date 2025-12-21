@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai House On Shea, 6949 E Shea Blvd, Scottsdale, AZ 85254",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "date": "2017/07/07",
+            "gmap_id": "0x872b74947e7384d1:0x20d9b2f7487fa7d3",
+            "iid": 10213,
+            "name": "Thai House On Shea",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1499456764271
+        },
+        {
+            "address": "Hiro Sushi, 9393 N 90th St, Scottsdale, AZ 85258",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/01/21",
+            "gmap_id": "0x872b7536caa4395b:0x73062d2012526916",
+            "iid": 10220,
+            "name": "Hiro Sushi",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1516519921444
+        },
+        {
+            "address": "YC\u2019s Mongolian Grill, 9120 Talking Stick Way #8, Scottsdale, AZ 85250, United States",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Buffet restaurant', 'Chinese restaurant', 'Health food restaurant', 'Mongolian barbecue restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2018/01/21",
+            "gmap_id": "0x872b0a93efe8b6db:0x99f1e7550a19967c",
+            "iid": 10023,
+            "name": "YC\u2019s Mongolian Grill",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1516519946731
+        },
+        {
+            "address": "Shish Kabobs and Gyros, 9619 N Hayden Rd #106, Scottsdale, AZ 85258",
+            "category": "['Restaurant', 'Asian restaurant', 'Fast food restaurant', 'Greek restaurant', 'Israeli restaurant', 'Mediterranean restaurant', 'New American restaurant', 'Pho restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "date": "2018/04/28",
+            "gmap_id": "0x872b74d889cb399b:0x1aca2ea8f6dc66a1",
+            "iid": 10215,
+            "name": "Shish Kabobs and Gyros",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1524938400820
+        },
+        {
+            "address": "Akita Sushi, 9011 E V\u00eda Linda, Scottsdale, AZ 85258",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Health food restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "date": "2019/04/10",
+            "gmap_id": "0x872b7533fd6f8fdb:0x76368af25adcd44",
+            "iid": 10219,
+            "name": "Akita Sushi",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1554868859363
+        },
+        {
+            "address": "Thai Basil, 1111 S Rural Rd, Tempe, AZ 85281",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/04/13",
+            "gmap_id": "0x872b08e85bb8c211:0xe4f063919749ae24",
+            "iid": 10012,
+            "name": "Thai Basil",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1555172170696
+        },
+        {
+            "address": "China Wall Restaurant, 6422 U.S. 93 S, Whitefish, MT 59937",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2020/06/03",
+            "gmap_id": "0x53667acc37832edb:0xf396d8f045c4b3ad",
+            "iid": 471,
+            "name": "China Wall Restaurant",
+            "split": "train",
+            "state": "Montana",
+            "unix_time": 1591164238910
+        },
+        {
+            "address": "Tien's Place Oriental AND American Dining, 329 9th St W, Columbia Falls, MT 59912",
+            "category": "['Asian fusion restaurant']",
+            "date": "2020/10/07",
+            "gmap_id": "0x53664106387a1f0f:0x15b06bafd751a3b7",
+            "iid": 464,
+            "name": "Tien's Place Oriental AND American Dining",
+            "split": "train",
+            "state": "Montana",
+            "unix_time": 1602032471002
+        },
+        {
+            "address": "Tea Kettle Asian Kitchen, 12 Spokane Ave, Whitefish, MT 59937",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Gluten-free restaurant', 'Takeout Restaurant', 'Organic restaurant', 'Ramen restaurant', 'Thai restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2020/10/25",
+            "gmap_id": "0x536669b3c95cf583:0x9c80d4395774a282",
+            "iid": 470,
+            "name": "Tea Kettle Asian Kitchen",
+            "split": "valid",
+            "state": "Montana",
+            "unix_time": 1603636052234
+        },
+        {
+            "address": "Thai House, 15577 N Hayden Rd #105, Scottsdale, AZ 85260",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/02/10",
+            "gmap_id": "0x872b75c78c992981:0x74db0efe6ffe36e6",
+            "iid": 10230,
+            "name": "Thai House",
+            "split": "test",
+            "state": "Arizona",
+            "unix_time": 1612963731904
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Joyful Chinese Dining, 9699 N Hayden Rd, Scottsdale, AZ 85258",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Thai restaurant']",
+            "gmap_id": "0x872b75277cea76e3:0xd92239aba3cce61a",
+            "iid": 10216,
+            "name": "Joyful Chinese Dining",
+            "rank": 1,
+            "score": 0.6604958176612854,
+            "state": "Arizona"
+        },
+        {
+            "address": "Pho King Food Truck, 8018 E Thomas Rd, Scottsdale, AZ 85251",
+            "category": "['Asian fusion restaurant', 'Caterer']",
+            "gmap_id": "0x872b0bd39b312421:0x64876af31aacbd75",
+            "iid": 10035,
+            "name": "Pho King Food Truck",
+            "rank": 2,
+            "score": 0.6572019457817078,
+            "state": "Arizona"
+        },
+        {
+            "address": "Nobuo at Teeter House, 622 E Adams St, Phoenix, AZ 85004",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant', 'Tea house']",
+            "gmap_id": "0x872b121ea0f9d209:0x7c1f50df5bab6268",
+            "iid": 10065,
+            "name": "Nobuo at Teeter House",
+            "rank": 3,
+            "score": 0.6499895453453064,
+            "state": "Arizona"
+        },
+        {
+            "address": "Fish Wok \u6e1d\u6ecb\u5473, 2601 E Speedway Blvd, Tucson, AZ 85716",
+            "category": "['Asian restaurant', 'Dumpling restaurant', 'Family restaurant', 'Takeout Restaurant', 'Pasta shop', 'Seafood restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x86d671e7e2c71baf:0xf65475d045dc4143",
+            "iid": 9586,
+            "name": "Fish Wok \u6e1d\u6ecb\u5473",
+            "rank": 4,
+            "score": 0.643568217754364,
+            "state": "Arizona"
+        },
+        {
+            "address": "Samurai Sam's, 10105 E V\u00eda Linda Ste A-104, Scottsdale, AZ 85258",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Fast food restaurant', 'Food court', 'Noodle shop', 'Salad shop', 'Thai restaurant']",
+            "gmap_id": "0x872b75515c5d567d:0x8b1f5bcf93f545c8",
+            "iid": 10224,
+            "name": "Samurai Sam's",
+            "rank": 5,
+            "score": 0.6414205431938171,
+            "state": "Arizona"
+        },
+        {
+            "address": "Qwik Chinese Restaurant, 7353 N V\u00eda Paseo Del Sur #490, Scottsdale, AZ 85258",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Mandarin restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x872b0adf279cdb8d:0x4dd7899e0be86a00",
+            "iid": 10024,
+            "name": "Qwik Chinese Restaurant",
+            "rank": 6,
+            "score": 0.6343389749526978,
+            "state": "Arizona"
+        },
+        {
+            "address": "Tea Kettle Asian Kitchen, 12 Spokane Ave, Whitefish, MT 59937",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Gluten-free restaurant', 'Takeout Restaurant', 'Organic restaurant', 'Ramen restaurant', 'Thai restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x536669b3c95cf583:0x9c80d4395774a282",
+            "iid": 470,
+            "name": "Tea Kettle Asian Kitchen",
+            "rank": 7,
+            "score": 0.6306613683700562,
+            "state": "Montana"
+        },
+        {
+            "address": "Tottie's Asian Fusion | South Scottsdale, 7901 E Thomas Rd, Scottsdale, AZ 85251",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x872b0bd38d35e969:0x3c8c34c3cd5a8f2f",
+            "iid": 10034,
+            "name": "Tottie's Asian Fusion | South Scottsdale",
+            "rank": 8,
+            "score": 0.6258436441421509,
+            "state": "Arizona"
+        },
+        {
+            "address": "Yan's Chinese Food, #101 9305, 15557 W Roosevelt St, Goodyear, AZ 85338",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x872b386feecc8b65:0xad9d1569fb5e73",
+            "iid": 10090,
+            "name": "Yan's Chinese Food",
+            "rank": 9,
+            "score": 0.6220666170120239,
+            "state": "Arizona"
+        },
+        {
+            "address": "Autumn Court Chinese Restaurant, 3752 E Indian School Rd, Phoenix, AZ 85018",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Caterer', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x872b0dab4e6a8211:0x1557b38e853e52cb",
+            "iid": 10051,
+            "name": "Autumn Court Chinese Restaurant",
+            "rank": 10,
+            "score": 0.6142875552177429,
+            "state": "Arizona"
+        },
+        {
+            "address": "Jasmine Tokyo Asian Buffet, 7000 E Shea Blvd, Scottsdale, AZ 85254",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Chinese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x872b749361972621:0xcff944c9fa9eb711",
+            "iid": 10212,
+            "name": "Jasmine Tokyo Asian Buffet",
+            "rank": 11,
+            "score": 0.6119292974472046,
+            "state": "Arizona"
+        },
+        {
+            "address": "Panda Express, 6501 E Greenway Pkwy, Scottsdale, AZ 85254",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x872b740e29d46379:0x90a3c2ecb052f30b",
+            "iid": 10200,
+            "name": "Panda Express",
+            "rank": 12,
+            "score": 0.6084919571876526,
+            "state": "Arizona"
+        },
+        {
+            "address": "FOOSIA, 13610 N Scottsdale Rd #1, Scottsdale, AZ 85254",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x872b7442b42a1ffd:0x1d699a671128385e",
+            "iid": 10210,
+            "name": "FOOSIA",
+            "rank": 13,
+            "score": 0.603347659111023,
+            "state": "Arizona"
+        },
+        {
+            "address": "Nee House Chinese Restaurant, 13843 N Tatum Blvd # 15, Phoenix, AZ 85032",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x872b73c04880d9d9:0x4df5b27b89ae0dea",
+            "iid": 10196,
+            "name": "Nee House Chinese Restaurant",
+            "rank": 14,
+            "score": 0.5960827469825745,
+            "state": "Arizona"
+        },
+        {
+            "address": "Bei Sushi, Bar, Asian Cuisine, 2200 N Scottsdale Rd, Scottsdale, AZ 85257",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar & grill', 'Japanese restaurant']",
+            "gmap_id": "0x872b744235cb03eb:0xb5070332046ddfbe",
+            "iid": 10208,
+            "name": "Bei Sushi, Bar, Asian Cuisine",
+            "rank": 15,
+            "score": 0.5882772207260132,
+            "state": "Arizona"
+        },
+        {
+            "address": "Samurai Sam's, 5340 W Buckeye Rd, Phoenix, AZ 85043",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Fast food restaurant', 'Food court', 'Noodle shop', 'Salad shop', 'Thai restaurant']",
+            "gmap_id": "0x872b143b11a4605f:0x9caca601ea1f182d",
+            "iid": 10083,
+            "name": "Samurai Sam's",
+            "rank": 16,
+            "score": 0.5846749544143677,
+            "state": "Arizona"
+        },
+        {
+            "address": "Thai House, 15577 N Hayden Rd #105, Scottsdale, AZ 85260",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x872b75c78c992981:0x74db0efe6ffe36e6",
+            "iid": 10230,
+            "name": "Thai House",
+            "rank": 17,
+            "score": 0.5821774005889893,
+            "state": "Arizona"
+        },
+        {
+            "address": "New Town Buffet, 8500 N Cracker Barrel Rd, Tucson, AZ 85743",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant']",
+            "gmap_id": "0x86d5e027719d47ad:0x2a09fd6843d2c7ae",
+            "iid": 9548,
+            "name": "New Town Buffet",
+            "rank": 18,
+            "score": 0.5819126963615417,
+            "state": "Arizona"
+        },
+        {
+            "address": "Saketome, 459 Electric Ave STE I, Bigfork, MT 59911",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar & grill', 'Restaurant']",
+            "gmap_id": "0x5367b2629879b973:0x12e6702cfd22edc2",
+            "iid": 472,
+            "name": "Saketome",
+            "rank": 19,
+            "score": 0.5806191563606262,
+            "state": "Montana"
+        },
+        {
+            "address": "Pei Wei Asian Kitchen, 4340 E Indian School Rd Suite 23, Phoenix, AZ 85018",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "gmap_id": "0x872b0c509e6c0b61:0xe739db51b767639e",
+            "iid": 10043,
+            "name": "Pei Wei Asian Kitchen",
+            "rank": 20,
+            "score": 0.5797795057296753,
+            "state": "Arizona"
+        }
+    ],
+    "user": {
+        "name": "Chris Shurman",
+        "uid": 89696,
+        "user_id": 112546468696291545303
+    }
+}

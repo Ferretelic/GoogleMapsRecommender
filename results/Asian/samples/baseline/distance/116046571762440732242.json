@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Chiba Japanese Restaurant, 7533 S Cass Ave, Darien, IL 60561",
+            "category": "['Dinner theater', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/09/23",
+            "gmap_id": "0x880e4f7009abca87:0x40147ee86557f257",
+            "iid": 12728,
+            "name": "Chiba Japanese Restaurant",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1537715259942
+        },
+        {
+            "address": "Chef Soon Contemporary Sushi & Bar, 6430 Main St #150, Woodridge, IL 60517",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/05",
+            "gmap_id": "0x880e50ea07f404bb:0xf0b7d733c05da390",
+            "iid": 12733,
+            "name": "Chef Soon Contemporary Sushi & Bar",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1544042412486
+        },
+        {
+            "address": "Tokio Pub, 1900 E Higgins Rd #2, Schaumburg, IL 60173",
+            "category": "['Asian fusion restaurant', 'American restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/01/22",
+            "gmap_id": "0x880fafbf17504861:0xb5853f563afbe794",
+            "iid": 12950,
+            "name": "Tokio Pub",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1579723398745
+        },
+        {
+            "address": "Kabooki Sushi, 3122 E Colonial Dr, Orlando, FL 32803",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/03/14",
+            "gmap_id": "0x88e77acc6b2de8a5:0xebba986a24364299",
+            "iid": 17276,
+            "name": "Kabooki Sushi",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1584150030004
+        },
+        {
+            "address": "Kabooki Sushi, 3122 E Colonial Dr, Orlando, FL 32803",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/03/14",
+            "gmap_id": "0x88e77acc6b2de8a5:0xebba986a24364299",
+            "iid": 17276,
+            "name": "Kabooki Sushi",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1584150030004
+        },
+        {
+            "address": "MORA Asian Fusion, 24108 Lockport St, Plainfield, IL 60544",
+            "category": "['Asian fusion restaurant', 'Bar', 'Sushi restaurant']",
+            "date": "2020/07/18",
+            "gmap_id": "0x880ef5179676ad21:0xf0a23e4461810e3",
+            "iid": 12801,
+            "name": "MORA Asian Fusion",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1595043588762
+        },
+        {
+            "address": "Wu's House Mokena, 19826 South La Grange Road, Mokena, IL 60448",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/09/06",
+            "gmap_id": "0x880e15c3fb051317:0x7182e725c70abbfd",
+            "iid": 12499,
+            "name": "Wu's House Mokena",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1599351414463
+        },
+        {
+            "address": "Wu's House Orland Park, 16310 South La Grange Road, Orland Park, IL 60467",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2021/01/16",
+            "gmap_id": "0x880e3f3f2ad16c15:0x843de61343f20a15",
+            "iid": 12671,
+            "name": "Wu's House Orland Park",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1610774058590
+        },
+        {
+            "address": "RA Sushi Bar Restaurant, 310 Yorktown Shopping Center, Lombard, IL 60148",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/02/14",
+            "gmap_id": "0x880e4d8ccff5a285:0x9f36d6e394af073a",
+            "iid": 12709,
+            "name": "RA Sushi Bar Restaurant",
+            "split": "valid",
+            "state": "Illinois",
+            "unix_time": 1613273835157
+        },
+        {
+            "address": "RA Sushi Bar Restaurant, 310 Yorktown Shopping Center, Lombard, IL 60148",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/02/14",
+            "gmap_id": "0x880e4d8ccff5a285:0x9f36d6e394af073a",
+            "iid": 12709,
+            "name": "RA Sushi Bar Restaurant",
+            "split": "test",
+            "state": "Illinois",
+            "unix_time": 1613273835157
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Thai Spoon and Sushi, 601 S Wabash Ave, Chicago, IL 60605",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2da03d241a77:0xcd7cec4832d12ec3",
+            "iid": 12622,
+            "name": "Thai Spoon and Sushi",
+            "rank": 1,
+            "score": -2.5868632793426514,
+            "state": "Illinois"
+        },
+        {
+            "address": "Area 51 BBQ & Grill, 510 S 8th St, Fernandina Beach, FL 32034",
+            "category": "['Restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Korean restaurant']",
+            "gmap_id": "0x88e4ffa65706013d:0xc0f7848c0a9bfea7",
+            "iid": 16995,
+            "name": "Area 51 BBQ & Grill",
+            "rank": 2,
+            "score": -2.606797456741333,
+            "state": "Florida"
+        },
+        {
+            "address": "Texas, Frisco, Main St, 888 Cookhouse\u90ae\u653f\u7f16\u7801: 75033",
+            "category": "['Traditional restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Restaurant']",
+            "gmap_id": "0x864c3ba758de1911:0x4ab35c0dab34038e",
+            "iid": 8798,
+            "name": "888 Cookhouse",
+            "rank": 3,
+            "score": -2.6107938289642334,
+            "state": "Texas"
+        },
+        {
+            "address": "Speed Bowl (Korean Grill), 1300 SC-14 Suite A, Greer, SC 29650",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Korean beef restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x88582bee55678347:0x596b6e88d03305fb",
+            "iid": 14967,
+            "name": "Speed Bowl (Korean Grill)",
+            "rank": 4,
+            "score": -2.6118528842926025,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "STIX Grill & Bar, 40470 Albrae St, Fremont, CA 94538",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808fc7bbe21041b3:0xec74f36aff820d98",
+            "iid": 3545,
+            "name": "STIX Grill & Bar",
+            "rank": 5,
+            "score": -2.6142070293426514,
+            "state": "California"
+        },
+        {
+            "address": "Mama Poke, 3502 Hartsel Dr ste100, Colorado Springs, CO 80920",
+            "category": "['Asian restaurant', 'Dumpling restaurant', 'Japanese restaurant', 'Noodle shop', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87134f2f4e62494b:0x86d87a5191be2973",
+            "iid": 9797,
+            "name": "Mama Poke",
+            "rank": 6,
+            "score": -2.6178643703460693,
+            "state": "Colorado"
+        },
+        {
+            "address": "LemonShark Pok\u00e9 & Makai Grill, 3969 Merchants Row, Columbus, OH 43219",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x88388a86ccb8fbd5:0x84bf51c6ba1dbecf",
+            "iid": 14089,
+            "name": "LemonShark Pok\u00e9 & Makai Grill",
+            "rank": 7,
+            "score": -2.6225240230560303,
+            "state": "Ohio"
+        },
+        {
+            "address": "Mint Tapas and Sushi Holladay, 3158 6200 S Ste B, Holladay, UT 84121",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Small plates restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8752631dbd2663a9:0x4dd6d2f106a28c11",
+            "iid": 10440,
+            "name": "Mint Tapas and Sushi Holladay",
+            "rank": 8,
+            "score": -2.6230740547180176,
+            "state": "Utah"
+        },
+        {
+            "address": "Yami Boba Sushi & Bento, 18052 FM 529 Rd, Cypress, TX 77433",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8640d75c5d8f3d3b:0x9c755ea903c5ddd4",
+            "iid": 8001,
+            "name": "Yami Boba Sushi & Bento",
+            "rank": 9,
+            "score": -2.6231181621551514,
+            "state": "Texas"
+        },
+        {
+            "address": "Hawkers Asian Street Food, 201 S Estes Dr #400A, Chapel Hill, NC 27514",
+            "category": "['Asian restaurant', 'Cocktail bar', 'Restaurant']",
+            "gmap_id": "0x89acc318446800d9:0x5d8412a7e4a80f7f",
+            "iid": 18362,
+            "name": "Hawkers Asian Street Food",
+            "rank": 10,
+            "score": -2.6235594749450684,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Kombu Sushi Ramen, 7325 Aloma Ave, Winter Park, FL 32792",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88e76f4d40bcbcff:0xe3c309fe0232428f",
+            "iid": 17225,
+            "name": "Kombu Sushi Ramen",
+            "rank": 11,
+            "score": -2.6264586448669434,
+            "state": "Florida"
+        },
+        {
+            "address": "BAO, 590 Valencia St, San Francisco, CA 94110",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808f7faba4801927:0xa4ba379751b71c4f",
+            "iid": 3111,
+            "name": "BAO",
+            "rank": 12,
+            "score": -2.6277120113372803,
+            "state": "California"
+        },
+        {
+            "address": "Piranha Kitchen, 4550 S Maryland Pkwy #9, Las Vegas, NV 89119",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c8c5e4422cd041:0xa4875885687adcd8",
+            "iid": 5707,
+            "name": "Piranha Kitchen",
+            "rank": 13,
+            "score": -2.628183364868164,
+            "state": "Nevada"
+        },
+        {
+            "address": "Spice Wok, 236 E Spring Valley Rd, Richardson, TX 75081",
+            "category": "['Asian fusion restaurant', 'Fast food restaurant', 'Halal restaurant', 'Takeout Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x864c1f0f9b4720db:0x85bc566f84293e07",
+            "iid": 8574,
+            "name": "Spice Wok",
+            "rank": 14,
+            "score": -2.628349781036377,
+            "state": "Texas"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 22050,
+            "name": "Fusia Bento Bar",
+            "rank": 15,
+            "score": -2.628387689590454,
+            "state": "New_York"
+        },
+        {
+            "address": "Wagaya Sushi & Grill, 3425 SE 192nd Ave #110, Vancouver, WA 98683",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x5495a50de6f12307:0x468bc09fe8306d5c",
+            "iid": 1585,
+            "name": "Wagaya Sushi & Grill",
+            "rank": 16,
+            "score": -2.6288669109344482,
+            "state": "Washington"
+        },
+        {
+            "address": "Hiccups & Churroholic - Tampa, 13030 N Dale Mabry Hwy, Tampa, FL 33618",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x88c2c1b1062a38af:0xdfb89e627af7ea0f",
+            "iid": 16000,
+            "name": "Hiccups & Churroholic - Tampa",
+            "rank": 17,
+            "score": -2.6294565200805664,
+            "state": "Florida"
+        },
+        {
+            "address": "Koji Express Japanese Grill - South, 3114 S Church St, Murfreesboro, TN 37127",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8863f9d6687c7157:0x2cc7215c944047c",
+            "iid": 15261,
+            "name": "Koji Express Japanese Grill - South",
+            "rank": 18,
+            "score": -2.6296892166137695,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Boru Ramen, 1509 Government St B, Baton Rouge, LA 70802",
+            "category": "['Ramen restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8626a1c2c3934b93:0x788fa92ed76d90eb",
+            "iid": 7485,
+            "name": "Boru Ramen",
+            "rank": 19,
+            "score": -2.630119800567627,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Teriyaki Madness, 16955 N 75th Ave Ste 115, Peoria, AZ 85382",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x872b69a2e8e9c817:0xc4d37ae230d7bcae",
+            "iid": 10154,
+            "name": "Teriyaki Madness",
+            "rank": 20,
+            "score": -2.631256103515625,
+            "state": "Arizona"
+        }
+    ],
+    "user": {
+        "name": "don fenton",
+        "uid": 114695,
+        "user_id": 116046571762440732242
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Cafetasia, 38 E 8th St, New York, NY 10003",
+            "category": "['Asian restaurant', 'Eclectic restaurant', 'Thai restaurant']",
+            "date": "2010/11/16",
+            "gmap_id": "0x89c2599a08c11993:0x7742715b2e224e54",
+            "iid": 20074,
+            "name": "Cafetasia",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1289938058943
+        },
+        {
+            "address": "Thainy, 394 3rd Ave, New York, NY 10016",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2011/03/16",
+            "gmap_id": "0x89c25909adac7f3b:0x5d45e847974e2b61",
+            "iid": 19968,
+            "name": "Thainy",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1300293927341
+        },
+        {
+            "address": "IchiUmi, 6 E 32nd St, New York, NY 10016",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Buffet restaurant', 'Seafood restaurant', 'Shabu-shabu restaurant', 'Sushi restaurant']",
+            "date": "2011/05/15",
+            "gmap_id": "0x89c259a86a0649c1:0x5e5442b4eef0141",
+            "iid": 20129,
+            "name": "IchiUmi",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1305426545918
+        },
+        {
+            "address": "Bonchon, 325 5th Ave, New York, NY 10016",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2015/11/16",
+            "gmap_id": "0x89c259a845643143:0x8c9a1b823163c2c4",
+            "iid": 20128,
+            "name": "Bonchon",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1447712024694
+        },
+        {
+            "address": "Bonchon Nutley, 553 N Franklin Ave, Nutley, NJ 07110",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2016/02/18",
+            "gmap_id": "0x89c2ff64183f544b:0xab893436d95a72a5",
+            "iid": 21053,
+            "name": "Bonchon Nutley",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1455753886037
+        },
+        {
+            "address": "Mantra Restaurant, 275 Rte 4 West, Paramus, NJ 07652",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'South Asian restaurant']",
+            "date": "2016/03/03",
+            "gmap_id": "0x89c2fa66592f5e01:0xfe3f56c61a22d327",
+            "iid": 21033,
+            "name": "Mantra Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1457014365843
+        },
+        {
+            "address": "Woorijip, 12 W 32nd St, New York, NY 10001",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Takeout Restaurant']",
+            "date": "2016/03/06",
+            "gmap_id": "0x89c259a8f1bef1cd:0x7205b1a9e0c152e4",
+            "iid": 20134,
+            "name": "Woorijip",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1457225563126
+        },
+        {
+            "address": "Baohaus, 238 E 14th St, New York, NY 10003",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Taiwanese restaurant']",
+            "date": "2016/08/05",
+            "gmap_id": "0x89c259810f06cbc7:0xa8c2f3179940a8cb",
+            "iid": 20014,
+            "name": "Baohaus",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1470434399050
+        },
+        {
+            "address": "Ani Ramen, 401 Bloomfield Ave, Montclair, NJ 07042",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant', 'Soup restaurant']",
+            "date": "2018/01/03",
+            "gmap_id": "0x89c2554c9c2ac8f9:0x93fe9a19d522b987",
+            "iid": 19786,
+            "name": "Ani Ramen",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1514940164749
+        },
+        {
+            "address": "H Mart Paramus, 60 NJ-17, Paramus, NJ 07652",
+            "category": "['Asian grocery store', 'Grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2018/05/27",
+            "gmap_id": "0x89c2fa52040b95a5:0xf023188498cd9e71",
+            "iid": 21030,
+            "name": "H Mart Paramus",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1527463597859
+        },
+        {
+            "address": "99 Ranch Market, 450 Hackensack Ave, Hackensack, NJ 07601",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2019/07/08",
+            "gmap_id": "0x89c2f09d4cbbc8ff:0xe3516d9d73d98c10",
+            "iid": 20907,
+            "name": "99 Ranch Market",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1562545655158
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "wagamama, 100 W 55th St, New York, NY 10019",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25975f6bac0b9:0x50841f207d92389b",
+            "iid": 20008,
+            "name": "wagamama",
+            "rank": 1,
+            "score": -2.287435531616211,
+            "state": "New_York"
+        },
+        {
+            "address": "Vanessa's Dumpling House, 118A Eldridge St, New York, NY 10002",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Chinese restaurant', 'Dumpling restaurant', 'Traditional restaurant']",
+            "gmap_id": "0x89c2594990e14945:0xafa7d45fc6891405",
+            "iid": 19988,
+            "name": "Vanessa's Dumpling House",
+            "rank": 2,
+            "score": -2.4155800342559814,
+            "state": "New_York"
+        },
+        {
+            "address": "Teriyaki Madness, 16955 N 75th Ave Ste 115, Peoria, AZ 85382",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x872b69a2e8e9c817:0xc4d37ae230d7bcae",
+            "iid": 10154,
+            "name": "Teriyaki Madness",
+            "rank": 3,
+            "score": -2.529309034347534,
+            "state": "Arizona"
+        },
+        {
+            "address": "Mama Poke, 3502 Hartsel Dr ste100, Colorado Springs, CO 80920",
+            "category": "['Asian restaurant', 'Dumpling restaurant', 'Japanese restaurant', 'Noodle shop', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87134f2f4e62494b:0x86d87a5191be2973",
+            "iid": 9797,
+            "name": "Mama Poke",
+            "rank": 4,
+            "score": -2.538362503051758,
+            "state": "Colorado"
+        },
+        {
+            "address": "Urban Wok- Atlanta- Brookhaven, 705 Town Blvd Building R Suite A415, Brookhaven, GA 30319",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x88f50909106b600b:0xe882022beb213f40",
+            "iid": 17632,
+            "name": "Urban Wok- Atlanta- Brookhaven",
+            "rank": 5,
+            "score": -2.549025774002075,
+            "state": "Georgia"
+        },
+        {
+            "address": "Cool Fish, 21726 Catawba Ave, Cornelius, NC 28031",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Cocktail bar', 'Small plates restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8856ab8436987a4b:0xdbbb100bf03fbf18",
+            "iid": 14914,
+            "name": "Cool Fish",
+            "rank": 6,
+            "score": -2.5492465496063232,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "KIN thai + sushi - Bulverde, 17306 Bulverde Rd Ste 105, San Antonio, TX 78247",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x865c8bb5a36656bb:0xba1cde8db2c2888a",
+            "iid": 9417,
+            "name": "KIN thai + sushi - Bulverde",
+            "rank": 7,
+            "score": -2.5509471893310547,
+            "state": "Texas"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 18480,
+            "name": "Chopstix",
+            "rank": 8,
+            "score": -2.5533814430236816,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Golden Wat Noodle House, 111 Kings Ct, San Antonio, TX 78212",
+            "category": "['Cambodian restaurant', 'Asian restaurant', 'Family restaurant', 'Noodle shop', 'Restaurant', 'Rice restaurant', 'South Asian restaurant', 'Southeast Asian restaurant', 'Tofu restaurant']",
+            "gmap_id": "0x865c5f6ec5ea9cfd:0x404211cf155a09e9",
+            "iid": 9354,
+            "name": "Golden Wat Noodle House",
+            "rank": 9,
+            "score": -2.554511785507202,
+            "state": "Texas"
+        },
+        {
+            "address": "YumYum Bento, 1017 E Grand River Rd, East Lansing, MI 48823",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8822e993833982f3:0x9d230eccc5dc2a5a",
+            "iid": 13544,
+            "name": "YumYum Bento",
+            "rank": 10,
+            "score": -2.557316780090332,
+            "state": "Michigan"
+        },
+        {
+            "address": "Fresh & Natural Thai Kitchen, 1439 W State Rte 89A, Sedona, AZ 86336",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x872da122c8822ad3:0xbe5b9d7e18f3891e",
+            "iid": 10317,
+            "name": "Fresh & Natural Thai Kitchen",
+            "rank": 11,
+            "score": -2.5585415363311768,
+            "state": "Arizona"
+        },
+        {
+            "address": "Rollin Phatties, 2829 Chimney Rock Rd, Houston, TX 77056",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x8640c1bbff65148b:0x35468479ca86a263",
+            "iid": 7817,
+            "name": "Rollin Phatties",
+            "rank": 12,
+            "score": -2.56015682220459,
+            "state": "Texas"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 22050,
+            "name": "Fusia Bento Bar",
+            "rank": 13,
+            "score": -2.5603506565093994,
+            "state": "New_York"
+        },
+        {
+            "address": "BIBIBOP Asian Grill, 4038 Talmadge Rd, Toledo, OH 43623",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x883c7fd666ad743d:0x52b110953321723f",
+            "iid": 14289,
+            "name": "BIBIBOP Asian Grill",
+            "rank": 14,
+            "score": -2.5608749389648438,
+            "state": "Ohio"
+        },
+        {
+            "address": "KUFFO, 14433 Country Walk Dr, Miami, FL 33186",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x88d9c33e20cbced9:0x618c7b954d7b85c2",
+            "iid": 16711,
+            "name": "KUFFO",
+            "rank": 15,
+            "score": -2.5611329078674316,
+            "state": "Florida"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 15996,
+            "name": "KELP SUSHI JOINT",
+            "rank": 16,
+            "score": -2.562206268310547,
+            "state": "Florida"
+        },
+        {
+            "address": "Zao Asian Cafe, 1899 W Traverse Pkwy, Lehi, UT 84043",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x8752812d0ff718ad:0xc1ec850c8b5fd88f",
+            "iid": 10457,
+            "name": "Zao Asian Cafe",
+            "rank": 17,
+            "score": -2.562349796295166,
+            "state": "Utah"
+        },
+        {
+            "address": "Boba Queen, 5600 W Colonial Dr #104, Orlando, FL 32808",
+            "category": "['Cafe', 'Asian fusion restaurant', 'Dessert shop', 'Soft drinks shop']",
+            "gmap_id": "0x88e77903bf7008ef:0x9ad9e974bcd43275",
+            "iid": 17261,
+            "name": "Boba Queen",
+            "rank": 18,
+            "score": -2.562739133834839,
+            "state": "Florida"
+        },
+        {
+            "address": "Yamadaya, 450 6th Ave store a, New York, NY 10011",
+            "category": "['Japanese grocery store', 'Asian grocery store', 'Beauty supply store', 'Grocery store', 'Household goods wholesaler', 'Japanese sweets restaurant']",
+            "gmap_id": "0x89c259d15c4d4d31:0xfd6e8bcbd310872e",
+            "iid": 20188,
+            "name": "Yamadaya",
+            "rank": 19,
+            "score": -2.56280517578125,
+            "state": "New_York"
+        },
+        {
+            "address": "Natural Kitchen ( poke bowl and bubble tea), 1525 W Tennessee St #205, Tallahassee, FL 32304",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Bubble tea store', 'Health food restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88ecf53f534da5db:0x8d6c4e0f8aacb497",
+            "iid": 17423,
+            "name": "Natural Kitchen ( poke bowl and bubble tea)",
+            "rank": 20,
+            "score": -2.563223361968994,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Khalid Elachi",
+        "uid": 115332,
+        "user_id": 116136475879001118719
+    }
+}

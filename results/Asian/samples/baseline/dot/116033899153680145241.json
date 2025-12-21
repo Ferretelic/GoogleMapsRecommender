@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Hong Kong Supermarket, 5495 Jimmy Carter Blvd, Norcross, GA 30093, United States",
+            "category": "['Grocery store', 'Asian grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2018/05/23",
+            "gmap_id": "0x88f5a6bf02b90cb5:0x230c1c835629f168",
+            "iid": 17891,
+            "name": "Hong Kong Supermarket",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1527089440631
+        },
+        {
+            "address": "Kwan's Deli and Korean Kitchen, 267 Marietta St NW, Atlanta, GA 30313",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Deli', 'Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/06/30",
+            "gmap_id": "0x88f5047faf827459:0x19ede45dc77d586a",
+            "iid": 17554,
+            "name": "Kwan's Deli and Korean Kitchen",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1530375967014
+        },
+        {
+            "address": "Panda Express, 85 Marketplace Blvd, Dawsonville, GA 30534",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/05/26",
+            "gmap_id": "0x88f589c561d80c17:0x398fe15b6b27bc33",
+            "iid": 17775,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1558885579088
+        },
+        {
+            "address": "Panda Express, 205 Atlanta Hwy, Loganville, GA 30052",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/10/29",
+            "gmap_id": "0x88f5c700bc67b337:0xb14b8940f42cdd8b",
+            "iid": 17935,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1572361994943
+        },
+        {
+            "address": "Panda Express, 5260 Forest Dr, Columbia, SC 29206",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/09/02",
+            "gmap_id": "0x88f8afb85aa3b9ed:0xa0c479e51fba9ae6",
+            "iid": 18008,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1599032335724
+        },
+        {
+            "address": "Panda Express, 515 Mullins Colony Dr, Evans, GA 30809",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/09/03",
+            "gmap_id": "0x88f9d33f22c049d5:0xe2eb80b1d03df946",
+            "iid": 18039,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1599124495318
+        },
+        {
+            "address": "Panda Express, 7781 Eastchase Pkwy, Montgomery, AL 36117",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/12/11",
+            "gmap_id": "0x888c2de46822d41b:0x9ca69ffe2d4214e9",
+            "iid": 15800,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1607680468494
+        },
+        {
+            "address": "Hibachi Sushi Super Buffet, 3578 US-31, Pelham, AL 35124",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/12/29",
+            "gmap_id": "0x888924329376b5d5:0xd4eb4bc3549bb985",
+            "iid": 15774,
+            "name": "Hibachi Sushi Super Buffet",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1609208651691
+        },
+        {
+            "address": "Panda Express, 443 Killian Rd, Columbia, SC 29203",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/02/12",
+            "gmap_id": "0x88f8a85bc54a2b53:0x56844fd7b8ccf607",
+            "iid": 17996,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1613098862576
+        },
+        {
+            "address": "Panda Express, 20 Commons Way, Oxford, AL 36203, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/04/19",
+            "gmap_id": "0x888bb1c0af00eaad:0x94a9966c09595969",
+            "iid": 15791,
+            "name": "Panda Express",
+            "split": "valid",
+            "state": "Alabama",
+            "unix_time": 1618842160964
+        },
+        {
+            "address": "Bismillah Supermarket, 4022 Buford Hwy NE, Atlanta, GA 30345",
+            "category": "['Fast food restaurant', 'Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2021/05/22",
+            "gmap_id": "0x88f508617fb53fcd:0x29a18d65d113818b",
+            "iid": 17626,
+            "name": "Bismillah Supermarket",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1621645191657
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "H Mart Duluth, 2550 Pleasant Hill Road bldg 300, Park Village Shopping Center, Duluth, GA 30096",
+            "category": "['Asian grocery store', 'Chinese supermarket', 'Korean grocery store', 'Seafood market']",
+            "gmap_id": "0x88f5a3aaaa711347:0x4790b94d834a505c",
+            "iid": 17876,
+            "name": "H Mart Duluth",
+            "rank": 1,
+            "score": 13.282822608947754,
+            "state": "Georgia"
+        },
+        {
+            "address": "H Mart Doraville, 6035 Peachtree Rd bldg b, Doraville, GA 30360",
+            "category": "['Asian grocery store', 'Grocery store', 'Korean grocery store', 'Supermarket']",
+            "gmap_id": "0x88f509c1ba21559b:0xa9011883e67a7e77",
+            "iid": 17648,
+            "name": "H Mart Doraville",
+            "rank": 2,
+            "score": 13.094890594482422,
+            "state": "Georgia"
+        },
+        {
+            "address": "GW Supermarket, 2300 Pleasant Hill Rd, Duluth, GA 30096",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x88f5a3049faa977b:0xf74ddd4fc4eacb8e",
+            "iid": 17850,
+            "name": "GW Supermarket",
+            "rank": 3,
+            "score": 12.958707809448242,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 2239 GA-20, Conyers, GA 30013",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f44b5fbe98915b:0x8582a13dc14b30e5",
+            "iid": 17472,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": 12.911521911621094,
+            "state": "Georgia"
+        },
+        {
+            "address": "Nam Dae Mun Farmers Market, 3825 Shackleford Rd, Duluth, GA 30096",
+            "category": "['Supermarket', 'Asian grocery store', 'Grocery store', 'Produce market', 'Seafood market']",
+            "gmap_id": "0x88f5a372d1b410c7:0x229ef2ce03c03db2",
+            "iid": 17870,
+            "name": "Nam Dae Mun Farmers Market",
+            "rank": 5,
+            "score": 12.377401351928711,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hibachi Grill & Supreme Buffet, 1343 Augusta W Pkwy, Augusta, GA 30909",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d3cd190fe1b1:0x89ed94e44fcca738",
+            "iid": 18046,
+            "name": "Hibachi Grill & Supreme Buffet",
+            "rank": 6,
+            "score": 11.660543441772461,
+            "state": "Georgia"
+        },
+        {
+            "address": "Pho Bac, 4300 Towne Center Dr, Evans, GA 30809, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88f9d3585f322adb:0xbfd6284b5410d0d0",
+            "iid": 18042,
+            "name": "Pho Bac",
+            "rank": 7,
+            "score": 11.193416595458984,
+            "state": "Georgia"
+        },
+        {
+            "address": "Wasabi Sushi & Thai, 1639 Bradley Park Dr #800, Columbus, GA 31904",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x888ccb615441a88b:0x5be0c6b220f3221a",
+            "iid": 15807,
+            "name": "Wasabi Sushi & Thai",
+            "rank": 8,
+            "score": 10.932391166687012,
+            "state": "Georgia"
+        },
+        {
+            "address": "Nam Dae Mun Farmers Market, 1940 Mt Zion Rd, Morrow, GA 30260",
+            "category": "['Supermarket', 'Asian grocery store', 'Grocery store', 'Produce market', 'Seafood market']",
+            "gmap_id": "0x88f4f9309090c077:0x596bd7c08d73e8e4",
+            "iid": 17503,
+            "name": "Nam Dae Mun Farmers Market",
+            "rank": 9,
+            "score": 10.8511962890625,
+            "state": "Georgia"
+        },
+        {
+            "address": "H Mart Riverdale, 6335 GA-85, Riverdale, GA 30274",
+            "category": "['Asian grocery store', 'Grocery store', 'Korean grocery store', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x88f4fc9de793f34d:0x7ae88685c404dc31",
+            "iid": 17508,
+            "name": "H Mart Riverdale",
+            "rank": 10,
+            "score": 10.835588455200195,
+            "state": "Georgia"
+        },
+        {
+            "address": "H Mart Suwanee, 2700 Lawrenceville-Suwanee Rd, Suwanee, GA 30024",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x88f5963b7126c6f1:0x4ca4000a451deaeb",
+            "iid": 17796,
+            "name": "H Mart Suwanee",
+            "rank": 11,
+            "score": 10.83289909362793,
+            "state": "Georgia"
+        },
+        {
+            "address": "H Mart Johns Creek, 10820 Abbotts Bridge Rd, Johns Creek, GA 30097",
+            "category": "['Asian grocery store', 'Korean grocery store', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x88f598cf1d972a77:0x731a9f2c5fea174",
+            "iid": 17805,
+            "name": "H Mart Johns Creek",
+            "rank": 12,
+            "score": 10.808691024780273,
+            "state": "Georgia"
+        },
+        {
+            "address": "P.F. Chang's, 1624 Cumberland Mall Ste LS108, Atlanta, GA 30339",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f5104155555555:0x47f86eaac7670086",
+            "iid": 17691,
+            "name": "P.F. Chang's",
+            "rank": 13,
+            "score": 10.67975902557373,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hawaiian Style BBQ, 1719 Gordon Hwy, Augusta, GA 30904",
+            "category": "['Barbecue restaurant', 'Asian fusion restaurant', 'Hawaiian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9ce0e22a20815:0x12fad79ea0d548a",
+            "iid": 18028,
+            "name": "Hawaiian Style BBQ",
+            "rank": 14,
+            "score": 10.54482650756836,
+            "state": "Georgia"
+        },
+        {
+            "address": "Pho Viet Restaurant, 2011 Devine St, Columbia, SC 29205",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88f8bacc4f7ad8b5:0xc2af1597a77e1ee4",
+            "iid": 18012,
+            "name": "Pho Viet Restaurant",
+            "rank": 15,
+            "score": 10.386012077331543,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Kuya's Food Express, ASSI PLAZA, 1630 Pleasant Hill Rd, Duluth, GA 30096",
+            "category": "['Filipino restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88f5a3153e2f1a49:0xc94274bb007058c9",
+            "iid": 17860,
+            "name": "Kuya's Food Express",
+            "rank": 16,
+            "score": 10.383906364440918,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 6035 Peachtree Rd Unit A107-A110, Doraville, GA 30360",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f509c197fa5db7:0xb5aad7a4fa93f4a4",
+            "iid": 17647,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 17,
+            "score": 10.319151878356934,
+            "state": "Georgia"
+        },
+        {
+            "address": "ASSI PLAZA Suwanee, 1291 Old Peachtree Rd NW, Suwanee, GA 30024",
+            "category": "['Supermarket', 'Asian grocery store', 'Korean grocery store']",
+            "gmap_id": "0x88f5bd5c6cda4beb:0xa5ef5f22c44989d2",
+            "iid": 17925,
+            "name": "ASSI PLAZA Suwanee",
+            "rank": 18,
+            "score": 10.29817008972168,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 407 B Street, Building 29722, Augusta, GA 30905",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9d6cffe0772b9:0xd5a5d3017a1d080e",
+            "iid": 18052,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": 10.295331954956055,
+            "state": "Georgia"
+        },
+        {
+            "address": "Bento Cafe, 5495 Jimmy Carter Blvd STE A4, Norcross, GA 30093",
+            "category": "['Cafe', 'Asian fusion restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Steamed bun shop', 'Taiwanese restaurant']",
+            "gmap_id": "0x88f5a6bf0f354d07:0x9984fb9304e5bda6",
+            "iid": 17894,
+            "name": "Bento Cafe",
+            "rank": 20,
+            "score": 10.261457443237305,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Rightway Hood&exhaust",
+        "uid": 114601,
+        "user_id": 116033899153680145241
+    }
+}

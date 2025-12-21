@@ -6,13 +6,12 @@ defaults:
 
 training:
   batch_size: 1024
-  device: cuda
   n_epochs: 1000
   early_stopping: 20
   lr: 0.001
   reg_weight: 0.001
 
-  gcl_reg: 0.05
+  gcl_reg: 0.1
   gcl_eps: 0.1
   gcl_temp: 0.2
 

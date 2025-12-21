@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Golden India Restaurant, 2837 Fairlawn Dr, Winston-Salem, NC 27106",
+            "category": "['Indian restaurant', 'Indian grocery store', 'Delivery Restaurant', 'South Asian restaurant']",
+            "date": "2016/09/11",
+            "gmap_id": "0x8853b23d41287d97:0xfb58df167da7dd6c",
+            "iid": 14745,
+            "name": "Golden India Restaurant",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1473631272656
+        },
+        {
+            "address": "Tokyo Express, 1170 Memorial Blvd N, Martinsville, VA 24112",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2016/12/03",
+            "gmap_id": "0x8852900aa79e1623:0x215f1d9d9a14ef97",
+            "iid": 14641,
+            "name": "Tokyo Express",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1480776788857
+        },
+        {
+            "address": "Kanki Japanese House of Steaks & Sushi - Durham, 3504 Mt Moriah Rd, Durham, NC 27707",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/07/07",
+            "gmap_id": "0x89ace7c077a472d3:0x281696f263097fdb",
+            "iid": 18395,
+            "name": "Kanki Japanese House of Steaks & Sushi - Durham",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1530973960720
+        },
+        {
+            "address": "Taaza Bistro, 3252 S Church St, Burlington, NC 27215",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2018/07/07",
+            "gmap_id": "0x8853294708b386fd:0x6e87086bc08a123",
+            "iid": 14715,
+            "name": "Taaza Bistro",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1530974068045
+        },
+        {
+            "address": "CholaNad Restaurant & Bar, 310 W Franklin St, Chapel Hill, NC 27516",
+            "category": "['Indian restaurant', 'Bar', 'Cocktail bar', 'Gluten-free restaurant', 'Seafood restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2019/05/11",
+            "gmap_id": "0x89acc2e0de3d585d:0x980c6adaf75b5d61",
+            "iid": 18356,
+            "name": "CholaNad Restaurant & Bar",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1557582122361
+        },
+        {
+            "address": "China Inn Buffet, 2310 Maple Ave, Burlington, NC 27215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/09/15",
+            "gmap_id": "0x88532b834b1b8f43:0xc35fba5c2e60931d",
+            "iid": 14717,
+            "name": "China Inn Buffet",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1568573533326
+        },
+        {
+            "address": "Red Bowl Asian Bistro, 3140 Walden Ln, Burlington, NC 27215",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "date": "2020/02/19",
+            "gmap_id": "0x8853292953a145ad:0xb646783f9690076f",
+            "iid": 14713,
+            "name": "Red Bowl Asian Bistro",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1582144217216
+        },
+        {
+            "address": "Golden Dragon Asian Bistro, 1120 St Marks Church Rd, Burlington, NC 27215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bistro']",
+            "date": "2020/09/07",
+            "gmap_id": "0x88532920cdf5f177:0x8b5c33d0a31f5a5e",
+            "iid": 14711,
+            "name": "Golden Dragon Asian Bistro",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1599503010577
+        },
+        {
+            "address": "Sushi Republic, 329 Tate St, Greensboro, NC 27403",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/09/27",
+            "gmap_id": "0x8853193fa6c44917:0x8f3b5d3150f564f9",
+            "iid": 14662,
+            "name": "Sushi Republic",
+            "split": "valid",
+            "state": "North_Carolina",
+            "unix_time": 1601167751902
+        },
+        {
+            "address": "Peking House, 1441 University Dr G, Burlington, NC 27215",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2020/09/27",
+            "gmap_id": "0x885328d14cfe5be5:0x56e55109008cee04",
+            "iid": 14710,
+            "name": "Peking House",
+            "split": "test",
+            "state": "North_Carolina",
+            "unix_time": 1601167814418
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Sake Japanese House, 1010 Mebane Oaks Rd #9679, Mebane, NC 27302",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89acd68dfddd9165:0x4599cfc17babce0a",
+            "iid": 18368,
+            "name": "Sake Japanese House",
+            "rank": 1,
+            "score": 0.7497074604034424,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Panda Express, 4505 W Wendover Ave, Greensboro, NC 27409",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88531b27147ed61b:0xd83ae171da90d944",
+            "iid": 14682,
+            "name": "Panda Express",
+            "rank": 2,
+            "score": 0.7324025630950928,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Hong Kong Chinese Restaurant, 2763 S Church St, Burlington, NC 27215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x88532941c9ddaf81:0xef99d5f12b4587a8",
+            "iid": 14714,
+            "name": "Hong Kong Chinese Restaurant",
+            "rank": 3,
+            "score": 0.7120793461799622,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sapporo Express, 1220 E Dixie Dr unit c, Asheboro, NC 27203",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x885368fc4a313af5:0x2f41cad3181da95e",
+            "iid": 14721,
+            "name": "Sapporo Express",
+            "rank": 4,
+            "score": 0.7082991003990173,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "China Wok, 948 Walker Ave D, Greensboro, NC 27403",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8853193faf7fa21d:0xe4af0d9904cd3ed8",
+            "iid": 14663,
+            "name": "China Wok",
+            "rank": 5,
+            "score": 0.703169047832489,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Simply Asian Thai Restaurant, 1337 E Dixie Dr B, Asheboro, NC 27203",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88536901dbbef3d9:0xcb692f268359cdec",
+            "iid": 14722,
+            "name": "Simply Asian Thai Restaurant",
+            "rank": 6,
+            "score": 0.6788138747215271,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sakura Japanese Steakhouse, 3274 S Church St, Burlington, NC 27215",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Steak house']",
+            "gmap_id": "0x88532923b2517ec3:0xdef61c502fac152",
+            "iid": 14712,
+            "name": "Sakura Japanese Steakhouse",
+            "rank": 7,
+            "score": 0.6770073771476746,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Fire & Sticks Japanese Steakhouse & Sushi, 3917 Sedgebrook St, High Point, NC 27265",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x885304ff6f1b5515:0x89b63b998037245c",
+            "iid": 14645,
+            "name": "Fire & Sticks Japanese Steakhouse & Sushi",
+            "rank": 8,
+            "score": 0.675611138343811,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Asian Harbor, 1294 S 5th St, Mebane, NC 27302",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89acd426975d4ae1:0x9bf4c7654c8d8669",
+            "iid": 18367,
+            "name": "Asian Harbor",
+            "rank": 9,
+            "score": 0.6727238893508911,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Peking House, 1441 University Dr G, Burlington, NC 27215",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x885328d14cfe5be5:0x56e55109008cee04",
+            "iid": 14710,
+            "name": "Peking House",
+            "rank": 10,
+            "score": 0.672184944152832,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Thai Herb, 1116 Eastchester Dr, High Point, NC 27265",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x88530f39fadc205b:0x9f579a30bb138608",
+            "iid": 14658,
+            "name": "Thai Herb",
+            "rank": 11,
+            "score": 0.6714245676994324,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Indu Indian Grocery Store, 4925 W Market St Suit 1103, Greensboro, NC 27407",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Fruit and vegetable store', 'Incense supplier', 'Indian restaurant', 'Kosher grocery store', 'Pakistani restaurant', 'Produce market', 'Spice store']",
+            "gmap_id": "0x88531b09fbd5ab01:0x688102af74957455",
+            "iid": 14678,
+            "name": "Indu Indian Grocery Store",
+            "rank": 12,
+            "score": 0.6710591316223145,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Niobe Japanese Steakhouse, 1071 S Main St, Graham, NC 27253",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88532ca0df7f4a2b:0x79c874c2f15910df",
+            "iid": 14719,
+            "name": "Niobe Japanese Steakhouse",
+            "rank": 13,
+            "score": 0.669100821018219,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "INDU INDIAN GROCERY and Fresh farmers market, 2531 Eastchester Dr #101, High Point, NC 27265",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Kosher grocery store', 'Meat products', 'Produce market']",
+            "gmap_id": "0x8853059b8c2ad0a9:0x8db7d64b3821912",
+            "iid": 14651,
+            "name": "INDU INDIAN GROCERY and Fresh farmers market",
+            "rank": 14,
+            "score": 0.6641967296600342,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Mandalay Asian Fusion Cuisine, 3793 Samet Dr Suite 140, High Point, NC 27265",
+            "category": "['Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x88530584bcc4e5e1:0x1dee58201be3603",
+            "iid": 14649,
+            "name": "Mandalay Asian Fusion Cuisine",
+            "rank": 15,
+            "score": 0.658056914806366,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "US Sushi, 619 Friendly Center Rd, Greensboro, NC 27408",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88531bfdc7bab6e5:0xcbbf8827f7fc608",
+            "iid": 14692,
+            "name": "US Sushi",
+            "rank": 16,
+            "score": 0.6547505259513855,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "singha 2 thai bistro, 2401 Penny Rd, High Point, NC 27265",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8853059fc902e7cd:0x519c8a2ab9c2b477",
+            "iid": 14653,
+            "name": "singha 2 thai bistro",
+            "rank": 17,
+            "score": 0.6509085297584534,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Little Tokyo, 4045 Premier Dr, High Point, NC 27265",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8853050bafa32487:0xb04478a2d35aca25",
+            "iid": 14646,
+            "name": "Little Tokyo",
+            "rank": 18,
+            "score": 0.6507492065429688,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Super China Buffet, 2103 Pyramids Village Blvd #103, Greensboro, NC 27405",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88531f69594cc4dd:0x2b9b2c0aca37f692",
+            "iid": 14708,
+            "name": "Super China Buffet",
+            "rank": 19,
+            "score": 0.649874210357666,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Midori Express, 2421 Randleman Rd, Greensboro, NC 27406",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x885319a445be1521:0xd71b77178c600eea",
+            "iid": 14667,
+            "name": "Midori Express",
+            "rank": 20,
+            "score": 0.6478515863418579,
+            "state": "North_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Sam White",
+        "uid": 99919,
+        "user_id": 113979116032259807881
+    }
+}

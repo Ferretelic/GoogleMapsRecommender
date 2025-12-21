@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "BCD Tofu House, 3575 Wilshire Blvd, Los Angeles, CA 90010",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/12/11",
+            "gmap_id": "0x80c2b8831c5ab3a1:0xe81dfbb2ef41329a",
+            "iid": 4613,
+            "name": "BCD Tofu House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1481428555331
+        },
+        {
+            "address": "veSTATION, 14435 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Vegan restaurant', 'Asian fusion restaurant', 'Organic restaurant', 'Restaurant']",
+            "date": "2017/03/15",
+            "gmap_id": "0x80c297ce46015c05:0xa82a46b652db77ca",
+            "iid": 4407,
+            "name": "veSTATION",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1489541995571
+        },
+        {
+            "address": "Toro Sushi Poke House, 144 N San Fernando Blvd, Burbank, CA 91502",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/04/12",
+            "gmap_id": "0x80c29550f15a79d5:0x12187453f4489bdf",
+            "iid": 4359,
+            "name": "Toro Sushi Poke House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491961381253
+        },
+        {
+            "address": "Sushi Dan | Studio City, 11056 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80c2be1509e69e41:0xad59af9b23ef59b2",
+            "iid": 4803,
+            "name": "Sushi Dan | Studio City",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492782141619
+        },
+        {
+            "address": "BIBIBOP Asian Grill, 1401 3rd Street Promenade, Santa Monica, CA 90401",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Vegetarian restaurant']",
+            "date": "2018/03/12",
+            "gmap_id": "0x80c2a4cfcfdefa21:0xaa343ce663fcfe3a",
+            "iid": 4516,
+            "name": "BIBIBOP Asian Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520814369129
+        },
+        {
+            "address": "Hae Jang Chon Korean BBQ Restaurant, 3821 W 6th St, Los Angeles, CA 90020",
+            "category": "['Asian restaurant', 'Korean restaurant']",
+            "date": "2018/11/22",
+            "gmap_id": "0x80c2b89b437ecda9:0xc6e1364fd48e3303",
+            "iid": 4632,
+            "name": "Hae Jang Chon Korean BBQ Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542852217544
+        },
+        {
+            "address": "Kabuki Japanese Restaurant, 201 N San Fernando Blvd, Burbank, CA 91502",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x80c295508bff3127:0xf20e63ebefc885b6",
+            "iid": 4356,
+            "name": "Kabuki Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1551664977709
+        },
+        {
+            "address": "Isa Japanese Ramen, 916 South La Brea Ave, Los Angeles, CA 90036",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese curry restaurant', 'Noodle shop', 'Ramen restaurant', 'Soba noodle shop', 'Sushi restaurant']",
+            "date": "2019/07/04",
+            "gmap_id": "0x80c2b8e1f0401827:0x7c3f8560ba84ac3a",
+            "iid": 4644,
+            "name": "Isa Japanese Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562263773140
+        },
+        {
+            "address": "Far Bar, 347 E 1st St, Los Angeles, CA 90012",
+            "category": "['Gastropub', 'Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Japanese restaurant', 'Lounge', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/08/10",
+            "gmap_id": "0x80c2c647eb207b7b:0x52d0b49417c487ad",
+            "iid": 4996,
+            "name": "Far Bar",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1565396214503
+        },
+        {
+            "address": "Wokcano, 8000 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/10/20",
+            "gmap_id": "0x80c2b94bbecf7a9f:0x51c8bbca996440b4",
+            "iid": 4661,
+            "name": "Wokcano",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1571543080100
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "JINYA Ramen Bar - Studio City, 11239 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2be140ee223c9:0xea62c8c0736168d3",
+            "iid": 4801,
+            "name": "JINYA Ramen Bar - Studio City",
+            "rank": 1,
+            "score": 11.676539421081543,
+            "state": "California"
+        },
+        {
+            "address": "Yamashiro Hollywood, 1999 N Sycamore Ave, Los Angeles, CA 90068, United States",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Californian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Wedding venue']",
+            "gmap_id": "0x80c2bf1f68d9c3e1:0xeb6245d12e254ab4",
+            "iid": 4827,
+            "name": "Yamashiro Hollywood",
+            "rank": 2,
+            "score": 10.929068565368652,
+            "state": "California"
+        },
+        {
+            "address": "Flavor of India Burbank, 161 E Orange Grove Ave, Burbank, CA 91502",
+            "category": "['Indian restaurant', 'Punjabi restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c295508f572517:0xdc916891dd702b12",
+            "iid": 4358,
+            "name": "Flavor of India Burbank",
+            "rank": 3,
+            "score": 9.992302894592285,
+            "state": "California"
+        },
+        {
+            "address": "Silverlake Ramen, 2927 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c73fa9f6c741:0x77538dc1124a61e",
+            "iid": 5027,
+            "name": "Silverlake Ramen",
+            "rank": 4,
+            "score": 9.774100303649902,
+            "state": "California"
+        },
+        {
+            "address": "TAO, 6421 Selma Ave, Los Angeles, CA 90028",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bf3bb54393e5:0x9a52698ffc0cfa37",
+            "iid": 4845,
+            "name": "TAO",
+            "rank": 5,
+            "score": 9.362369537353516,
+            "state": "California"
+        },
+        {
+            "address": "Daikokuya Little Tokyo, 327 E 1st St, Los Angeles, CA 90012",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Lunch restaurant', 'Restaurant', 'Rice restaurant', 'Soup restaurant', 'Sushi restaurant', 'Tempura restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2c647c36efd67:0xc53f5231ed83a07c",
+            "iid": 4993,
+            "name": "Daikokuya Little Tokyo",
+            "rank": 6,
+            "score": 8.834515571594238,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf 87, 1019 N Broadway, Los Angeles, CA 90012",
+            "category": "['Pho restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c65929b19f17:0xb392a89df55fb0a1",
+            "iid": 5003,
+            "name": "Ph\u1edf 87",
+            "rank": 7,
+            "score": 8.77357006072998,
+            "state": "California"
+        },
+        {
+            "address": "The Bun Shop, 151 N Western Ave, Los Angeles, CA 90004",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b8a366da6781:0x958f0d49b66a7daf",
+            "iid": 4635,
+            "name": "The Bun Shop",
+            "rank": 8,
+            "score": 8.577664375305176,
+            "state": "California"
+        },
+        {
+            "address": "JINYA Ramen Bar - Burbank, 4011 W Riverside Dr, Burbank, CA 91505",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80c2bfccf68dcc8d:0xf06dee4cac09ef57",
+            "iid": 4862,
+            "name": "JINYA Ramen Bar - Burbank",
+            "rank": 9,
+            "score": 8.561509132385254,
+            "state": "California"
+        },
+        {
+            "address": "Shanghai Rose, 12229 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Family restaurant', 'Delivery Restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2bdfb709d74cb:0x2dec42bf9b220c69",
+            "iid": 4795,
+            "name": "Shanghai Rose",
+            "rank": 10,
+            "score": 8.4153470993042,
+            "state": "California"
+        },
+        {
+            "address": "Gourmet 88, 230 N San Fernando Blvd, Burbank, CA 91502",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c295507cad7a8f:0x13a7f1419f8675e3",
+            "iid": 4355,
+            "name": "Gourmet 88",
+            "rank": 11,
+            "score": 8.277632713317871,
+            "state": "California"
+        },
+        {
+            "address": "H.O.P.E. Healthy Organic Positive Eating, 11943 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Vegan restaurant', 'Asian restaurant', 'Organic restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80c2be07e233af91:0xddb3ce9b066f16fd",
+            "iid": 4799,
+            "name": "H.O.P.E. Healthy Organic Positive Eating",
+            "rank": 12,
+            "score": 8.272137641906738,
+            "state": "California"
+        },
+        {
+            "address": "Tatsu Ramen, 7111 Melrose Ave, Los Angeles, CA 90046, United States",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bf2ab548da49:0xb5e3296938e1d959",
+            "iid": 4836,
+            "name": "Tatsu Ramen",
+            "rank": 13,
+            "score": 8.19589900970459,
+            "state": "California"
+        },
+        {
+            "address": "Takami Sushi & Robata, 811 Wilshire Blvd #2100, Los Angeles, CA 90017",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2c7b3e391ba03:0xe58ba75be6616636",
+            "iid": 5061,
+            "name": "Takami Sushi & Robata",
+            "rank": 14,
+            "score": 8.069063186645508,
+            "state": "California"
+        },
+        {
+            "address": "Katsuya L.A. LIVE, 800 W Olympic Blvd, Los Angeles, CA 90015",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Cocktail bar', 'Event venue', 'Fine dining restaurant', 'Japanese restaurant', 'Lounge', 'Raw food restaurant', 'Wine bar']",
+            "gmap_id": "0x80c2c7b782019c1b:0x1b36b4ee9dbc2d9a",
+            "iid": 5071,
+            "name": "Katsuya L.A. LIVE",
+            "rank": 15,
+            "score": 8.041984558105469,
+            "state": "California"
+        },
+        {
+            "address": "Yaki's the Original Teriyaki, 904 W Alameda Ave, Burbank, CA 91506",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Hamburger restaurant']",
+            "gmap_id": "0x80c2bfe5588d60c7:0x982329f58e27a391",
+            "iid": 4865,
+            "name": "Yaki's the Original Teriyaki",
+            "rank": 16,
+            "score": 8.001004219055176,
+            "state": "California"
+        },
+        {
+            "address": "Shiki Sushi, 12745 A Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdf42502cb81:0xf7b9735026497644",
+            "iid": 4792,
+            "name": "Shiki Sushi",
+            "rank": 17,
+            "score": 7.978389739990234,
+            "state": "California"
+        },
+        {
+            "address": "Wokcano, 8000 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2b94bbecf7a9f:0x51c8bbca996440b4",
+            "iid": 4661,
+            "name": "Wokcano",
+            "rank": 18,
+            "score": 7.904224395751953,
+            "state": "California"
+        },
+        {
+            "address": "Kinnara Thai, 15355 Sherman Way, Van Nuys, CA 91406",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fine dining restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c29746bae330d3:0xb176a3a476796d47",
+            "iid": 4396,
+            "name": "Kinnara Thai",
+            "rank": 19,
+            "score": 7.872402667999268,
+            "state": "California"
+        },
+        {
+            "address": "\u00c2u L\u1ea1c LA, 710 W 1st St, Los Angeles, CA 90012",
+            "category": "['Vegan restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Health food restaurant', 'Pho restaurant', 'Raw food restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c6529c0f4b7b:0xe486235160d450c4",
+            "iid": 5001,
+            "name": "\u00c2u L\u1ea1c LA",
+            "rank": 20,
+            "score": 7.692126750946045,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Joseph Cond\u00e9",
+        "uid": 59384,
+        "user_id": 108300684873381663157
+    }
+}

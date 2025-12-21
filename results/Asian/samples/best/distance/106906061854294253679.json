@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Musashi, 2126 Dwight Way, Berkeley, CA 94704",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80857e82614f83d9:0x86bd228091383970",
+            "iid": 2512,
+            "name": "Musashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492744572102
+        },
+        {
+            "address": "Imperial Tea Court, 1511 Shattuck Ave, Berkeley, CA 94709",
+            "category": "['Dim sum restaurant', 'Asian restaurant', 'Cafe', 'Chinese restaurant', 'Restaurant', 'Tea house', 'Tea store']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80857ea133d15f13:0xa08732b541fe280e",
+            "iid": 2530,
+            "name": "Imperial Tea Court",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492745167420
+        },
+        {
+            "address": "Ohgane Oakland, 3915 Broadway, Oakland, CA 94611",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Korean barbecue restaurant', 'Restaurant']",
+            "date": "2017/09/27",
+            "gmap_id": "0x80857dfbcd78b387:0xfe5c9d3ef455543d",
+            "iid": 2503,
+            "name": "Ohgane Oakland",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506493236748
+        },
+        {
+            "address": "Huong Tra Restaurant, 12221 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Deli', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/27",
+            "gmap_id": "0x808578478020b3d7:0xa19f9522070a323b",
+            "iid": 2459,
+            "name": "Huong Tra Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506493278706
+        },
+        {
+            "address": "Great China, 2190 Bancroft Way, Berkeley, CA 94704",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/01/06",
+            "gmap_id": "0x80857e9d0ba3811b:0x8eb009586964780e",
+            "iid": 2519,
+            "name": "Great China",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515219816491
+        },
+        {
+            "address": "Coach Sushi, 532 Grand Ave, Oakland, CA 94610",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/05/09",
+            "gmap_id": "0x808f87468f00e393:0x667c09de768c346a",
+            "iid": 3192,
+            "name": "Coach Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557372136637
+        },
+        {
+            "address": "Shan Dong, 328 10th St #101, Oakland, CA 94607",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x808f80b5c6d4610d:0x410ae1ade597863f",
+            "iid": 3136,
+            "name": "Shan Dong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561753643093
+        },
+        {
+            "address": "Shilla Restaurant, 16944 S Western Ave, Gardena, CA 90247",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c2b5652d073c41:0x8d51e043de839aa8",
+            "iid": 4577,
+            "name": "Shilla Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561753671121
+        },
+        {
+            "address": "The House, 1230 Grant Ave, San Francisco, CA 94133",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x808580f38a9937e5:0xb078c5c9d61f760d",
+            "iid": 2688,
+            "name": "The House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576036224631
+        },
+        {
+            "address": "99 Ranch Market, 3288 Pierce Street Pacific East Shopping Mall, Richmond, CA 94804",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2020/01/05",
+            "gmap_id": "0x80857921050ff81b:0xb839274bd0cd0872",
+            "iid": 2464,
+            "name": "99 Ranch Market",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578197136266
+        },
+        {
+            "address": "Cassia, 1314 7th St, Santa Monica, CA 90401",
+            "category": "['Southeast Asian restaurant', 'Restaurant', 'Brasserie']",
+            "date": "2020/02/17",
+            "gmap_id": "0x80c2a4ce955a98e5:0x2f2bdd558da9b9b4",
+            "iid": 4512,
+            "name": "Cassia",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1581913123172
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Roll & Bowl, 2302 Encinal Ave, Alameda, CA 94501",
+            "category": "['Asian fusion restaurant', 'Dessert restaurant', 'Ice cream shop', 'Takeout Restaurant']",
+            "gmap_id": "0x808f87367c2a1cb3:0x97db8aaeacb1e2a9",
+            "iid": 3186,
+            "name": "Roll & Bowl",
+            "rank": 1,
+            "score": -2.0350871086120605,
+            "state": "California"
+        },
+        {
+            "address": "R' noodles, 930 Webster St, Oakland, CA 94607",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Noodle shop']",
+            "gmap_id": "0x808f818173c26ef9:0x16fa8a953ff15a49",
+            "iid": 3155,
+            "name": "R' noodles",
+            "rank": 2,
+            "score": -2.1750757694244385,
+            "state": "California"
+        },
+        {
+            "address": "612one Fusion Culinary & Fine cocktails, 6121 Hollis St, Emeryville, CA 94608",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80857e5d00efc4e5:0x8cff39f0d65ce926",
+            "iid": 2507,
+            "name": "612one Fusion Culinary & Fine cocktails",
+            "rank": 3,
+            "score": -2.221231460571289,
+            "state": "California"
+        },
+        {
+            "address": "Crave Asia, 1301 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese bakery', 'Chinese restaurant', 'Chinese tea house', 'Japanese restaurant']",
+            "gmap_id": "0x80857eceeb35861f:0x7a543edf169bfbd5",
+            "iid": 2537,
+            "name": "Crave Asia",
+            "rank": 4,
+            "score": -2.2444851398468018,
+            "state": "California"
+        },
+        {
+            "address": "Ninna, 4066 Piedmont Ave, Oakland, CA 94611",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80857df70d6ba361:0x5ddb405b91478262",
+            "iid": 2501,
+            "name": "Ninna",
+            "rank": 5,
+            "score": -2.3054697513580322,
+            "state": "California"
+        },
+        {
+            "address": "Kamdesh Afghan Kabab House, 332 14th St, Oakland, CA 94612",
+            "category": "['Afghani restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x808f80b464d0f73d:0xc281586893121843",
+            "iid": 3134,
+            "name": "Kamdesh Afghan Kabab House",
+            "rank": 6,
+            "score": -2.3261184692382812,
+            "state": "California"
+        },
+        {
+            "address": "Chicken Meets Rice (Cupertino), 10445 S De Anza Blvd Unit 101, Cupertino, CA 95014",
+            "category": "['Chicken shop', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808fb5eca1eaee93:0x95c61effe7c9518d",
+            "iid": 3399,
+            "name": "Chicken Meets Rice (Cupertino)",
+            "rank": 7,
+            "score": -2.33109450340271,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Go Go, 3535 Pierson St #3427, Oakland, CA 94619",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808f8617acd8b325:0x2ecdc80bbea6a3ae",
+            "iid": 3161,
+            "name": "Sushi Go Go",
+            "rank": 8,
+            "score": -2.3380415439605713,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING), 98 7th St, San Francisco, CA 94103",
+            "category": "['Asian restaurant', 'Breakfast restaurant', 'Caterer', 'Indian restaurant', 'Japanese restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8085808360795555:0x268c1a62603e82df",
+            "iid": 2568,
+            "name": "Bamboo Asia - DELIVERY ONLY (CLOSED FOR IN-STORE DINING)",
+            "rank": 9,
+            "score": -2.3398122787475586,
+            "state": "California"
+        },
+        {
+            "address": "Riceful Onigiri, 2435 Durant Ave, Berkeley, CA 94704",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80857db825a424a9:0x48a69ecf83fa220",
+            "iid": 2489,
+            "name": "Riceful Onigiri",
+            "rank": 10,
+            "score": -2.340688705444336,
+            "state": "California"
+        },
+        {
+            "address": "Holy Basil Ph\u1edf And Cocktail bar, 5362 College Ave, Oakland, CA 94618",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Noodle shop', 'Pho restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80857de91dcc0001:0x9a1240cca539b0d5",
+            "iid": 2500,
+            "name": "Holy Basil Ph\u1edf And Cocktail bar",
+            "rank": 11,
+            "score": -2.38570499420166,
+            "state": "California"
+        },
+        {
+            "address": "Mandarin House, 2519 Durant Ave # D, Berkeley, CA 94704",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80857c2f6ba1fc31:0xa77cb8665368ad52",
+            "iid": 2487,
+            "name": "Mandarin House",
+            "rank": 12,
+            "score": -2.388824701309204,
+            "state": "California"
+        },
+        {
+            "address": "Rikyu, 5335 College Ave # 2, Oakland, CA 94618",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80857de8dc3a4363:0xd6db0f0bd5e53cf6",
+            "iid": 2499,
+            "name": "Rikyu",
+            "rank": 13,
+            "score": -2.393343448638916,
+            "state": "California"
+        },
+        {
+            "address": "Fusion kitchen, 3009 MacArthur Blvd, Oakland, CA 94602",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x808f871c407d0b05:0x5cec893c363cf1e6",
+            "iid": 3179,
+            "name": "Fusion kitchen",
+            "rank": 14,
+            "score": -2.4002978801727295,
+            "state": "California"
+        },
+        {
+            "address": "Jasmine Thai, 1805 Euclid Ave, Berkeley, CA 94709",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fast food restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80857c21824ef8cb:0x23d4b6f624e2951a",
+            "iid": 2481,
+            "name": "Jasmine Thai",
+            "rank": 15,
+            "score": -2.416600465774536,
+            "state": "California"
+        },
+        {
+            "address": "Lucky Bird, 1926 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80857fa78f980487:0xe20853b8ba7cd6d",
+            "iid": 2542,
+            "name": "Lucky Bird",
+            "rank": 16,
+            "score": -2.417494058609009,
+            "state": "California"
+        },
+        {
+            "address": "Chai Thai Noodles, 3015 San Pablo Ave Suite B, Berkeley, CA 94702",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Catering food and drink supplier']",
+            "gmap_id": "0x80857f7800432925:0xd90a4a607c8d2d5d",
+            "iid": 2541,
+            "name": "Chai Thai Noodles",
+            "rank": 17,
+            "score": -2.4212229251861572,
+            "state": "California"
+        },
+        {
+            "address": "Mac Khai Restaurant, 417 7th St, Oakland, CA 94607",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x808f80b64983dbe3:0xa6a2d8767288b7eb",
+            "iid": 3140,
+            "name": "Mac Khai Restaurant",
+            "rank": 18,
+            "score": -2.422119140625,
+            "state": "California"
+        },
+        {
+            "address": "FuseBox, 2311 Magnolia St A, Oakland, CA 94607",
+            "category": "['Asian fusion restaurant', 'Izakaya restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x80857e1edc5cb869:0xf02728dac028658a",
+            "iid": 2505,
+            "name": "FuseBox",
+            "rank": 19,
+            "score": -2.424288749694824,
+            "state": "California"
+        },
+        {
+            "address": "Khana Peena, 1889 Solano Ave, Berkeley, CA 94707",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Bar']",
+            "gmap_id": "0x80857eb2b19439db:0x81336e4c4003560f",
+            "iid": 2533,
+            "name": "Khana Peena",
+            "rank": 20,
+            "score": -2.428048849105835,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Colin Davies",
+        "uid": 49557,
+        "user_id": 106906061854294253679
+    }
+}

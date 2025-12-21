@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "BCD Tofu House, 3575 Wilshire Blvd, Los Angeles, CA 90010",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/12/11",
+            "gmap_id": "0x80c2b8831c5ab3a1:0xe81dfbb2ef41329a",
+            "iid": 4613,
+            "name": "BCD Tofu House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1481428555331
+        },
+        {
+            "address": "veSTATION, 14435 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Vegan restaurant', 'Asian fusion restaurant', 'Organic restaurant', 'Restaurant']",
+            "date": "2017/03/15",
+            "gmap_id": "0x80c297ce46015c05:0xa82a46b652db77ca",
+            "iid": 4407,
+            "name": "veSTATION",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1489541995571
+        },
+        {
+            "address": "Toro Sushi Poke House, 144 N San Fernando Blvd, Burbank, CA 91502",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/04/12",
+            "gmap_id": "0x80c29550f15a79d5:0x12187453f4489bdf",
+            "iid": 4359,
+            "name": "Toro Sushi Poke House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491961381253
+        },
+        {
+            "address": "Sushi Dan | Studio City, 11056 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80c2be1509e69e41:0xad59af9b23ef59b2",
+            "iid": 4803,
+            "name": "Sushi Dan | Studio City",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492782141619
+        },
+        {
+            "address": "BIBIBOP Asian Grill, 1401 3rd Street Promenade, Santa Monica, CA 90401",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Vegetarian restaurant']",
+            "date": "2018/03/12",
+            "gmap_id": "0x80c2a4cfcfdefa21:0xaa343ce663fcfe3a",
+            "iid": 4516,
+            "name": "BIBIBOP Asian Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520814369129
+        },
+        {
+            "address": "Hae Jang Chon Korean BBQ Restaurant, 3821 W 6th St, Los Angeles, CA 90020",
+            "category": "['Asian restaurant', 'Korean restaurant']",
+            "date": "2018/11/22",
+            "gmap_id": "0x80c2b89b437ecda9:0xc6e1364fd48e3303",
+            "iid": 4632,
+            "name": "Hae Jang Chon Korean BBQ Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542852217544
+        },
+        {
+            "address": "Kabuki Japanese Restaurant, 201 N San Fernando Blvd, Burbank, CA 91502",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x80c295508bff3127:0xf20e63ebefc885b6",
+            "iid": 4356,
+            "name": "Kabuki Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1551664977709
+        },
+        {
+            "address": "Isa Japanese Ramen, 916 South La Brea Ave, Los Angeles, CA 90036",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese curry restaurant', 'Noodle shop', 'Ramen restaurant', 'Soba noodle shop', 'Sushi restaurant']",
+            "date": "2019/07/04",
+            "gmap_id": "0x80c2b8e1f0401827:0x7c3f8560ba84ac3a",
+            "iid": 4644,
+            "name": "Isa Japanese Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562263773140
+        },
+        {
+            "address": "Far Bar, 347 E 1st St, Los Angeles, CA 90012",
+            "category": "['Gastropub', 'Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Japanese restaurant', 'Lounge', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/08/10",
+            "gmap_id": "0x80c2c647eb207b7b:0x52d0b49417c487ad",
+            "iid": 4996,
+            "name": "Far Bar",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1565396214503
+        },
+        {
+            "address": "Wokcano, 8000 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/10/20",
+            "gmap_id": "0x80c2b94bbecf7a9f:0x51c8bbca996440b4",
+            "iid": 4661,
+            "name": "Wokcano",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1571543080100
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "JINYA Ramen Bar - Studio City, 11239 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2be140ee223c9:0xea62c8c0736168d3",
+            "iid": 4801,
+            "name": "JINYA Ramen Bar - Studio City",
+            "rank": 1,
+            "score": 0.6091753244400024,
+            "state": "California"
+        },
+        {
+            "address": "Chin Chin Studio City, 12215 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Caterer', 'Chinese noodle restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdfc9e163545:0xc566b0400873b34b",
+            "iid": 4796,
+            "name": "Chin Chin Studio City",
+            "rank": 2,
+            "score": 0.5853173732757568,
+            "state": "California"
+        },
+        {
+            "address": "JINYA Ramen Bar - Burbank, 4011 W Riverside Dr, Burbank, CA 91505",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80c2bfccf68dcc8d:0xf06dee4cac09ef57",
+            "iid": 4862,
+            "name": "JINYA Ramen Bar - Burbank",
+            "rank": 3,
+            "score": 0.5838370323181152,
+            "state": "California"
+        },
+        {
+            "address": "Flavor of India Burbank, 161 E Orange Grove Ave, Burbank, CA 91502",
+            "category": "['Indian restaurant', 'Punjabi restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c295508f572517:0xdc916891dd702b12",
+            "iid": 4358,
+            "name": "Flavor of India Burbank",
+            "rank": 4,
+            "score": 0.5731422901153564,
+            "state": "California"
+        },
+        {
+            "address": "The Dish Thai Fusion Cuisine, 11717 Moorpark St, Studio City, CA 91604",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2be0146d61931:0xb387c89c00160cac",
+            "iid": 4798,
+            "name": "The Dish Thai Fusion Cuisine",
+            "rank": 5,
+            "score": 0.5662251710891724,
+            "state": "California"
+        },
+        {
+            "address": "Flavor of India Studio City, 12321 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Takeout Restaurant', 'South Asian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2bdfb01f6075d:0x468d8af9ce7cf96c",
+            "iid": 4793,
+            "name": "Flavor of India Studio City",
+            "rank": 6,
+            "score": 0.5649803876876831,
+            "state": "California"
+        },
+        {
+            "address": "H.O.P.E. Healthy Organic Positive Eating, 11943 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Vegan restaurant', 'Asian restaurant', 'Organic restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80c2be07e233af91:0xddb3ce9b066f16fd",
+            "iid": 4799,
+            "name": "H.O.P.E. Healthy Organic Positive Eating",
+            "rank": 7,
+            "score": 0.5480818748474121,
+            "state": "California"
+        },
+        {
+            "address": "Green Apple China Bistro, 12265 Ventura Blvd #112, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdfb0c7430cd:0x56fca4ed44c6bff2",
+            "iid": 4794,
+            "name": "Green Apple China Bistro",
+            "rank": 8,
+            "score": 0.5422619581222534,
+            "state": "California"
+        },
+        {
+            "address": "Spice Season (Studio City), 11402 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c2be125a63b871:0x94d9e5677d62ea6b",
+            "iid": 4800,
+            "name": "Spice Season (Studio City)",
+            "rank": 9,
+            "score": 0.5419452786445618,
+            "state": "California"
+        },
+        {
+            "address": "Hungry Crowd, 10140 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['New American restaurant', 'Asian fusion restaurant', 'Brunch restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x80c2be31f54953cb:0xd3e24bf372a33f25",
+            "iid": 4805,
+            "name": "Hungry Crowd",
+            "rank": 10,
+            "score": 0.5371322631835938,
+            "state": "California"
+        },
+        {
+            "address": "Genghis Cohen, 740 N Fairfax Ave, Los Angeles, CA 90046",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Live music venue']",
+            "gmap_id": "0x80c2bece826a04cf:0x8961ff1a8aaa1a5f",
+            "iid": 4820,
+            "name": "Genghis Cohen",
+            "rank": 11,
+            "score": 0.5363806486129761,
+            "state": "California"
+        },
+        {
+            "address": "Mint Garden Thai Restaurant, 4850 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c297c83248edbd:0xa42c1d375afe85d1",
+            "iid": 4406,
+            "name": "Mint Garden Thai Restaurant",
+            "rank": 12,
+            "score": 0.5321041941642761,
+            "state": "California"
+        },
+        {
+            "address": "Season Thai Cuisine, 166 E Orange Grove Ave, Burbank, CA 91502",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c295508e0c191f:0xbb18deed1e1f9a28",
+            "iid": 4357,
+            "name": "Season Thai Cuisine",
+            "rank": 13,
+            "score": 0.5316373705863953,
+            "state": "California"
+        },
+        {
+            "address": "Win's Thai Cuisine, 11688 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80c295fca9a0b61d:0x80e353ed1cdfa22b",
+            "iid": 4371,
+            "name": "Win's Thai Cuisine",
+            "rank": 14,
+            "score": 0.5298426151275635,
+            "state": "California"
+        },
+        {
+            "address": "Soo Raa Thai-American, 10650 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Thai restaurant', 'American restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c2be24991f706d:0x4e0f711dfdd42f2c",
+            "iid": 4804,
+            "name": "Soo Raa Thai-American",
+            "rank": 15,
+            "score": 0.5280309915542603,
+            "state": "California"
+        },
+        {
+            "address": "Lal Mirch, 11138 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80c2be1444269ae5:0xf3da085b17b7da60",
+            "iid": 4802,
+            "name": "Lal Mirch",
+            "rank": 16,
+            "score": 0.5277896523475647,
+            "state": "California"
+        },
+        {
+            "address": "Shanghai Rose, 12229 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Family restaurant', 'Delivery Restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2bdfb709d74cb:0x2dec42bf9b220c69",
+            "iid": 4795,
+            "name": "Shanghai Rose",
+            "rank": 17,
+            "score": 0.5271353125572205,
+            "state": "California"
+        },
+        {
+            "address": "Shiki Sushi, 12745 A Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdf42502cb81:0xf7b9735026497644",
+            "iid": 4792,
+            "name": "Shiki Sushi",
+            "rank": 18,
+            "score": 0.5248767733573914,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 3728 Cahuenga Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2be46829915d9:0xe5692dd463eb670b",
+            "iid": 4807,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": 0.5175809860229492,
+            "state": "California"
+        },
+        {
+            "address": "LA LA Sushi, 12415 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bd0e0f7ecd35:0x2c249e132edbeb4f",
+            "iid": 4788,
+            "name": "LA LA Sushi",
+            "rank": 20,
+            "score": 0.5123708844184875,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Joseph Cond\u00e9",
+        "uid": 59384,
+        "user_id": 108300684873381663157
+    }
+}

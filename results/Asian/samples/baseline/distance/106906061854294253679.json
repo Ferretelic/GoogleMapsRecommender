@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Musashi, 2126 Dwight Way, Berkeley, CA 94704",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80857e82614f83d9:0x86bd228091383970",
+            "iid": 2512,
+            "name": "Musashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492744572102
+        },
+        {
+            "address": "Imperial Tea Court, 1511 Shattuck Ave, Berkeley, CA 94709",
+            "category": "['Dim sum restaurant', 'Asian restaurant', 'Cafe', 'Chinese restaurant', 'Restaurant', 'Tea house', 'Tea store']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80857ea133d15f13:0xa08732b541fe280e",
+            "iid": 2530,
+            "name": "Imperial Tea Court",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492745167420
+        },
+        {
+            "address": "Ohgane Oakland, 3915 Broadway, Oakland, CA 94611",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Korean barbecue restaurant', 'Restaurant']",
+            "date": "2017/09/27",
+            "gmap_id": "0x80857dfbcd78b387:0xfe5c9d3ef455543d",
+            "iid": 2503,
+            "name": "Ohgane Oakland",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506493236748
+        },
+        {
+            "address": "Huong Tra Restaurant, 12221 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Deli', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/27",
+            "gmap_id": "0x808578478020b3d7:0xa19f9522070a323b",
+            "iid": 2459,
+            "name": "Huong Tra Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506493278706
+        },
+        {
+            "address": "Great China, 2190 Bancroft Way, Berkeley, CA 94704",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/01/06",
+            "gmap_id": "0x80857e9d0ba3811b:0x8eb009586964780e",
+            "iid": 2519,
+            "name": "Great China",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515219816491
+        },
+        {
+            "address": "Coach Sushi, 532 Grand Ave, Oakland, CA 94610",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/05/09",
+            "gmap_id": "0x808f87468f00e393:0x667c09de768c346a",
+            "iid": 3192,
+            "name": "Coach Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557372136637
+        },
+        {
+            "address": "Shan Dong, 328 10th St #101, Oakland, CA 94607",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x808f80b5c6d4610d:0x410ae1ade597863f",
+            "iid": 3136,
+            "name": "Shan Dong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561753643093
+        },
+        {
+            "address": "Shilla Restaurant, 16944 S Western Ave, Gardena, CA 90247",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c2b5652d073c41:0x8d51e043de839aa8",
+            "iid": 4577,
+            "name": "Shilla Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561753671121
+        },
+        {
+            "address": "The House, 1230 Grant Ave, San Francisco, CA 94133",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x808580f38a9937e5:0xb078c5c9d61f760d",
+            "iid": 2688,
+            "name": "The House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576036224631
+        },
+        {
+            "address": "99 Ranch Market, 3288 Pierce Street Pacific East Shopping Mall, Richmond, CA 94804",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2020/01/05",
+            "gmap_id": "0x80857921050ff81b:0xb839274bd0cd0872",
+            "iid": 2464,
+            "name": "99 Ranch Market",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578197136266
+        },
+        {
+            "address": "Cassia, 1314 7th St, Santa Monica, CA 90401",
+            "category": "['Southeast Asian restaurant', 'Restaurant', 'Brasserie']",
+            "date": "2020/02/17",
+            "gmap_id": "0x80c2a4ce955a98e5:0x2f2bdd558da9b9b4",
+            "iid": 4512,
+            "name": "Cassia",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1581913123172
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "W Mart, 7919 E Thomas Rd, Scottsdale, AZ 85257",
+            "category": "['Grocery store', 'Asian grocery store']",
+            "gmap_id": "0x872b0bf44d03b4ff:0xc7ba381cb3eacc82",
+            "iid": 10040,
+            "name": "W Mart",
+            "rank": 1,
+            "score": -2.4069159030914307,
+            "state": "Arizona"
+        },
+        {
+            "address": "Zen Thai Cafe, 110 N Central Ave, Phoenix, AZ 85004",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Gluten-free restaurant', 'Restaurant', 'Vegan restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x872b13cde325d861:0x6c0777b47aa50f2c",
+            "iid": 10082,
+            "name": "Zen Thai Cafe",
+            "rank": 2,
+            "score": -2.427253007888794,
+            "state": "Arizona"
+        },
+        {
+            "address": "Chin's Szechwan - Carlsbad, 2820 Roosevelt St, Carlsbad, CA 92008",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Dumpling restaurant', 'Soup restaurant']",
+            "gmap_id": "0x80dc736926023cb9:0xb3377acd90a46f16",
+            "iid": 6297,
+            "name": "Chin's Szechwan - Carlsbad",
+            "rank": 3,
+            "score": -2.430070400238037,
+            "state": "California"
+        },
+        {
+            "address": "Natural Kitchen ( poke bowl and bubble tea), 1525 W Tennessee St #205, Tallahassee, FL 32304",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Bubble tea store', 'Health food restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88ecf53f534da5db:0x8d6c4e0f8aacb497",
+            "iid": 17423,
+            "name": "Natural Kitchen ( poke bowl and bubble tea)",
+            "rank": 4,
+            "score": -2.4333789348602295,
+            "state": "Florida"
+        },
+        {
+            "address": "Tengu Sushi, 715 SW Hurbert St Unit D, Newport, OR 97365",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Restaurant', 'Rice restaurant']",
+            "gmap_id": "0x54c1d7c44b3121e5:0x49b9b26833e1e58",
+            "iid": 1936,
+            "name": "Tengu Sushi",
+            "rank": 5,
+            "score": -2.439218521118164,
+            "state": "Oregon"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 22050,
+            "name": "Fusia Bento Bar",
+            "rank": 6,
+            "score": -2.439603328704834,
+            "state": "New_York"
+        },
+        {
+            "address": "Lab No.1 Asian Bistro, 14107 St Germain Dr, Centreville, VA 20121",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89b6451e8286de5b:0x2705d654639af3f",
+            "iid": 18778,
+            "name": "Lab No.1 Asian Bistro",
+            "rank": 7,
+            "score": -2.4405910968780518,
+            "state": "Virginia"
+        },
+        {
+            "address": "Phnom Penh Sandwich Station, 7 S Main St, White River Junction, VT 05001",
+            "category": "['Southeast Asian restaurant', 'Asian restaurant', 'Cambodian restaurant', 'Sandwich shop', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x4cb4cb5da2d0f053:0x8912369c9920008b",
+            "iid": 132,
+            "name": "Phnom Penh Sandwich Station",
+            "rank": 8,
+            "score": -2.4406330585479736,
+            "state": "Vermont"
+        },
+        {
+            "address": "East Side King Cedar Park, 4701 183A TOLL RD STE C, Cedar Park, TX 78613",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery service', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x865b2d76e9f4a92f:0xba22487bc6c08e4b",
+            "iid": 9257,
+            "name": "East Side King Cedar Park",
+            "rank": 9,
+            "score": -2.440812826156616,
+            "state": "Texas"
+        },
+        {
+            "address": "Asian Market, 11614 N Kendall Dr, Miami, FL 33176",
+            "category": "['Asian grocery store', 'Japanese confectionery shop']",
+            "gmap_id": "0x88d9c1be61ed947f:0xd959a58f8370c1c9",
+            "iid": 16704,
+            "name": "Asian Market",
+            "rank": 10,
+            "score": -2.4412403106689453,
+            "state": "Florida"
+        },
+        {
+            "address": "Jade Chinese Restaurant, 12 Broad St, Hudson, MA 01749",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Mandarin restaurant', 'Delivery Restaurant', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89e38cd1ce62d581:0xa4647bde6f3d6af8",
+            "iid": 22771,
+            "name": "Jade Chinese Restaurant",
+            "rank": 11,
+            "score": -2.4420840740203857,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "King of Thai Boat Noodles, 661 Ke\u2019eaumoku St Suite 103, Honolulu, HI 96814",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Hawaiian restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x7c006d511f0c8d7d:0x187309b6921aabf2",
+            "iid": 2142,
+            "name": "King of Thai Boat Noodles",
+            "rank": 12,
+            "score": -2.443519115447998,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Thai Lanna2, 7923 US-19, Port Richey, FL 34668",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2912624ae154d:0x4c28cfe8796a022b",
+            "iid": 15966,
+            "name": "Thai Lanna2",
+            "rank": 13,
+            "score": -2.4440557956695557,
+            "state": "Florida"
+        },
+        {
+            "address": "YumYum Bento, 1017 E Grand River Rd, East Lansing, MI 48823",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8822e993833982f3:0x9d230eccc5dc2a5a",
+            "iid": 13544,
+            "name": "YumYum Bento",
+            "rank": 14,
+            "score": -2.4441778659820557,
+            "state": "Michigan"
+        },
+        {
+            "address": "Chang's Dumpling House, 1807 2nd St Suite #35, Santa Fe, NM 87505",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x871851091f8c95ab:0xfe57f0bb70c7bb44",
+            "iid": 9835,
+            "name": "Chang's Dumpling House",
+            "rank": 15,
+            "score": -2.4459121227264404,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Tawakkul Grocers And Halal Meat, 25757 Westheimer Pkwy Ste #170, Katy, TX 77494",
+            "category": "['Grocery store', 'Halal restaurant', 'Indian grocery store', 'Indian sweets shop', 'Meat products', 'Pakistani restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x864121dc2c37be4d:0x5d201394d5539041",
+            "iid": 8133,
+            "name": "Tawakkul Grocers And Halal Meat",
+            "rank": 16,
+            "score": -2.446314811706543,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi & Asian Kitchen, 336 South Avenue E, Westfield, NJ 07090",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c3b105f1aea80d:0xf2e454e539009cea",
+            "iid": 21190,
+            "name": "Sushi & Asian Kitchen",
+            "rank": 17,
+            "score": -2.446523427963257,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Vegas Test Kitchen, 1020 E Fremont St #120, Las Vegas, NV 89101",
+            "category": "['American restaurant', 'Asian restaurant', 'Bagel shop', 'Pie shop', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c36d11539e27:0xc136ddffaf461845",
+            "iid": 5644,
+            "name": "Vegas Test Kitchen",
+            "rank": 18,
+            "score": -2.447026014328003,
+            "state": "Nevada"
+        },
+        {
+            "address": "Kings Sushi, 1119 Wappoo Rd # H, Charleston, SC 29407, United States",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Buffet restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x88fe7dd0043fcf8b:0xbdb0c88eabd5735d",
+            "iid": 18147,
+            "name": "Kings Sushi",
+            "rank": 19,
+            "score": -2.447082757949829,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "STIX Grill & Bar, 40470 Albrae St, Fremont, CA 94538",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808fc7bbe21041b3:0xec74f36aff820d98",
+            "iid": 3545,
+            "name": "STIX Grill & Bar",
+            "rank": 20,
+            "score": -2.4482245445251465,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Colin Davies",
+        "uid": 49557,
+        "user_id": 106906061854294253679
+    }
+}

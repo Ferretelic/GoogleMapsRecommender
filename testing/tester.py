@@ -15,7 +15,7 @@ class Tester:
         self.recommender = recommender
         self.rank = cfg.test.rank
 
-        self.device = torch.device(cfg.test.device)
+        self.device = torch.device(cfg.device)
         self.user_loader, self.test_user_pos = self.prepare_dataset(cfg)
 
         self.info_dict, self.counts_dict = self.compute_dataset_metrics(cfg)
@@ -201,10 +201,10 @@ class Tester:
 
         return metrics
 
-def test_recommender(cfg, type, name):
-    recommender = load_recommender(cfg, type, name)
+def test_recommender(cfg, model_info):
+    recommender = load_recommender(cfg, model_info)
     tester = Tester(cfg, recommender)
-    print(f"    Start evaluating {name}")
+    print(f"    Start evaluating {model_info["name"]}")
     metric = tester.test()
 
     return metric

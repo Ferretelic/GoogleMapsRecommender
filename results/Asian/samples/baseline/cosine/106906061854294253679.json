@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Musashi, 2126 Dwight Way, Berkeley, CA 94704",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80857e82614f83d9:0x86bd228091383970",
+            "iid": 2512,
+            "name": "Musashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492744572102
+        },
+        {
+            "address": "Imperial Tea Court, 1511 Shattuck Ave, Berkeley, CA 94709",
+            "category": "['Dim sum restaurant', 'Asian restaurant', 'Cafe', 'Chinese restaurant', 'Restaurant', 'Tea house', 'Tea store']",
+            "date": "2017/04/21",
+            "gmap_id": "0x80857ea133d15f13:0xa08732b541fe280e",
+            "iid": 2530,
+            "name": "Imperial Tea Court",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492745167420
+        },
+        {
+            "address": "Ohgane Oakland, 3915 Broadway, Oakland, CA 94611",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Korean barbecue restaurant', 'Restaurant']",
+            "date": "2017/09/27",
+            "gmap_id": "0x80857dfbcd78b387:0xfe5c9d3ef455543d",
+            "iid": 2503,
+            "name": "Ohgane Oakland",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506493236748
+        },
+        {
+            "address": "Huong Tra Restaurant, 12221 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Deli', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/27",
+            "gmap_id": "0x808578478020b3d7:0xa19f9522070a323b",
+            "iid": 2459,
+            "name": "Huong Tra Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1506493278706
+        },
+        {
+            "address": "Great China, 2190 Bancroft Way, Berkeley, CA 94704",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/01/06",
+            "gmap_id": "0x80857e9d0ba3811b:0x8eb009586964780e",
+            "iid": 2519,
+            "name": "Great China",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515219816491
+        },
+        {
+            "address": "Coach Sushi, 532 Grand Ave, Oakland, CA 94610",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/05/09",
+            "gmap_id": "0x808f87468f00e393:0x667c09de768c346a",
+            "iid": 3192,
+            "name": "Coach Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557372136637
+        },
+        {
+            "address": "Shan Dong, 328 10th St #101, Oakland, CA 94607",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x808f80b5c6d4610d:0x410ae1ade597863f",
+            "iid": 3136,
+            "name": "Shan Dong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561753643093
+        },
+        {
+            "address": "Shilla Restaurant, 16944 S Western Ave, Gardena, CA 90247",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c2b5652d073c41:0x8d51e043de839aa8",
+            "iid": 4577,
+            "name": "Shilla Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561753671121
+        },
+        {
+            "address": "The House, 1230 Grant Ave, San Francisco, CA 94133",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x808580f38a9937e5:0xb078c5c9d61f760d",
+            "iid": 2688,
+            "name": "The House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576036224631
+        },
+        {
+            "address": "99 Ranch Market, 3288 Pierce Street Pacific East Shopping Mall, Richmond, CA 94804",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2020/01/05",
+            "gmap_id": "0x80857921050ff81b:0xb839274bd0cd0872",
+            "iid": 2464,
+            "name": "99 Ranch Market",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578197136266
+        },
+        {
+            "address": "Cassia, 1314 7th St, Santa Monica, CA 90401",
+            "category": "['Southeast Asian restaurant', 'Restaurant', 'Brasserie']",
+            "date": "2020/02/17",
+            "gmap_id": "0x80c2a4ce955a98e5:0x2f2bdd558da9b9b4",
+            "iid": 4512,
+            "name": "Cassia",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1581913123172
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "KoJa Kitchen, 2395 Telegraph Ave, Berkeley, CA 94704",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80857c2f235cc93d:0xc9eacf389d040940",
+            "iid": 2486,
+            "name": "KoJa Kitchen",
+            "rank": 1,
+            "score": 0.6875782012939453,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf K & K, 2533 Telegraph Ave, Berkeley, CA 94704",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80857c2ea013479d:0xb90cc4f88f578db2",
+            "iid": 2483,
+            "name": "Ph\u1edf K & K",
+            "rank": 2,
+            "score": 0.6773627996444702,
+            "state": "California"
+        },
+        {
+            "address": "Toss Noodle Bar, 2272 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Noodle shop', 'Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80857e9d02ee2bc1:0x71e173c8417643b4",
+            "iid": 2518,
+            "name": "Toss Noodle Bar",
+            "rank": 3,
+            "score": 0.6657382249832153,
+            "state": "California"
+        },
+        {
+            "address": "Urbann Turbann, 1870 Euclid Ave, Berkeley, CA 94709",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80857c217a56b773:0xacc3245b8e0a7507",
+            "iid": 2480,
+            "name": "Urbann Turbann",
+            "rank": 4,
+            "score": 0.6628426909446716,
+            "state": "California"
+        },
+        {
+            "address": "Cam Huong, 702 International Blvd A, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808f8725254b0af3:0x6905011158988e15",
+            "iid": 3182,
+            "name": "Cam Huong",
+            "rank": 5,
+            "score": 0.6411855220794678,
+            "state": "California"
+        },
+        {
+            "address": "Yojimbo, 1221 Park St, Alameda, CA 94501",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808f86bdac3c43cf:0x8c25a15e06de5658",
+            "iid": 3167,
+            "name": "Yojimbo",
+            "rank": 6,
+            "score": 0.6387202143669128,
+            "state": "California"
+        },
+        {
+            "address": "FuseBox, 2311 Magnolia St A, Oakland, CA 94607",
+            "category": "['Asian fusion restaurant', 'Izakaya restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x80857e1edc5cb869:0xf02728dac028658a",
+            "iid": 2505,
+            "name": "FuseBox",
+            "rank": 7,
+            "score": 0.6367517709732056,
+            "state": "California"
+        },
+        {
+            "address": "Kiku Sushi, 1316 Gilman St, Berkeley, CA 94706",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80857ec9cb22406d:0x316ab1218a37fa3a",
+            "iid": 2535,
+            "name": "Kiku Sushi",
+            "rank": 8,
+            "score": 0.6235071420669556,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Park, 4209 Park Blvd, Oakland, CA 94602",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808f8709a1de941d:0x9a0d124b2fe7caf7",
+            "iid": 3178,
+            "name": "Sushi Park",
+            "rank": 9,
+            "score": 0.6180465817451477,
+            "state": "California"
+        },
+        {
+            "address": "Kimchi Garden, 2517 Durant Ave suite b, Berkeley, CA 94704",
+            "category": "['Korean restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x80857c2f1532bf9b:0x28d192dfce89c7ef",
+            "iid": 2485,
+            "name": "Kimchi Garden",
+            "rank": 10,
+            "score": 0.6177514791488647,
+            "state": "California"
+        },
+        {
+            "address": "Kyoto Sushi, 1599 Solano Ave, Berkeley, CA 94707",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese grocery store', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085794b1a070f25:0x763ef2e6df60e707",
+            "iid": 2473,
+            "name": "Kyoto Sushi",
+            "rank": 11,
+            "score": 0.6155319213867188,
+            "state": "California"
+        },
+        {
+            "address": "Poke Bar, 2433 Durant Ave E, Berkeley, CA 94704",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80857c28b25f4519:0xba781bf57ca6055d",
+            "iid": 2482,
+            "name": "Poke Bar",
+            "rank": 12,
+            "score": 0.6127764582633972,
+            "state": "California"
+        },
+        {
+            "address": "IPPUDO, 2015 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "gmap_id": "0x80857e9e66610011:0xf04f0fe6bec72b19",
+            "iid": 2521,
+            "name": "IPPUDO",
+            "rank": 13,
+            "score": 0.6126119494438171,
+            "state": "California"
+        },
+        {
+            "address": "Belly, 1901 San Pablo Ave, Oakland, CA 94612",
+            "category": "['Asian fusion restaurant', 'Hamburger restaurant', 'Restaurant']",
+            "gmap_id": "0x808f80ae5abcec05:0xb1c8e07ae3d4626a",
+            "iid": 3120,
+            "name": "Belly",
+            "rank": 14,
+            "score": 0.6061078310012817,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Express, 2045 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80857e9e7a330897:0x2d6a7a6ff9cfe35",
+            "iid": 2525,
+            "name": "Saigon Express",
+            "rank": 15,
+            "score": 0.6021893620491028,
+            "state": "California"
+        },
+        {
+            "address": "Roong Jing Jing thai, 10164 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x80857918bd271bc5:0xb5ee3612a0e9b003",
+            "iid": 2462,
+            "name": "Roong Jing Jing thai",
+            "rank": 16,
+            "score": 0.5899183750152588,
+            "state": "California"
+        },
+        {
+            "address": "The Pearl House, 809 San Pablo Ave, Albany, CA 94706",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80857931dc75615d:0xdb665bdf61ebf38",
+            "iid": 2467,
+            "name": "The Pearl House",
+            "rank": 17,
+            "score": 0.5889266729354858,
+            "state": "California"
+        },
+        {
+            "address": "Malazui Tasty Bowl, 2017 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x80857e9e6f8c66c3:0xd670063c56d6cae",
+            "iid": 2524,
+            "name": "Malazui Tasty Bowl",
+            "rank": 18,
+            "score": 0.582252025604248,
+            "state": "California"
+        },
+        {
+            "address": "Da Lian Restaurant, 1674 Shattuck Ave, Berkeley, CA 94709",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80857ea1bb18d31f:0xe4fb2c4af9e92782",
+            "iid": 2531,
+            "name": "Da Lian Restaurant",
+            "rank": 19,
+            "score": 0.5816020965576172,
+            "state": "California"
+        },
+        {
+            "address": "Tuk Tuk Thai, 2468 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80857e82faa9d7b9:0xaba8cfd92445ee8c",
+            "iid": 2513,
+            "name": "Tuk Tuk Thai",
+            "rank": 20,
+            "score": 0.5785170197486877,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Colin Davies",
+        "uid": 49557,
+        "user_id": 106906061854294253679
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "New Metro Sushi Cafe, 118-21 Metropolitan Ave, Queens, NY 11415",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Delivery Restaurant']",
+            "date": "2019/08/26",
+            "gmap_id": "0x89c260a44a255d13:0x3c5afcaea62679ff",
+            "iid": 20534,
+            "name": "New Metro Sushi Cafe",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1566834246049
+        },
+        {
+            "address": "Ju Hachi Japanese Cuisine, 1730 S St, Sacramento, CA 95811",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/02/04",
+            "gmap_id": "0x809ad0e097a5cb2d:0x740bceda088481e4",
+            "iid": 4102,
+            "name": "Ju Hachi Japanese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580858920231
+        },
+        {
+            "address": "Osaka, 22 Garden St, Rhinebeck, NY 12572",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "date": "2020/02/18",
+            "gmap_id": "0x89dd0c37ebca8077:0x7fa1af85874da41a",
+            "iid": 22202,
+            "name": "Osaka",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1582039229125
+        },
+        {
+            "address": "Lucky City Restaurant, 5574 W Sample Rd, Margate, FL 33073",
+            "category": "['Asian restaurant', 'Caribbean restaurant', 'Chinese restaurant', 'Ethnic restaurant', 'Restaurant', 'Rice restaurant']",
+            "date": "2020/03/10",
+            "gmap_id": "0x88d91b4ce016f755:0xc90510aced699eb3",
+            "iid": 16397,
+            "name": "Lucky City Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1583859287398
+        },
+        {
+            "address": "Kapow Noodle Bar, 519 Clematis St, West Palm Beach, FL 33401",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Ramen restaurant', 'Restaurant']",
+            "date": "2020/03/10",
+            "gmap_id": "0x88d8d6624af0d94f:0xc3b2c2e89d7e6170",
+            "iid": 16227,
+            "name": "Kapow Noodle Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1583859324619
+        },
+        {
+            "address": "Lin\u2019s Asian Cuisine, 1506 Bronxdale Ave, Bronx, NY 10462",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "date": "2020/05/19",
+            "gmap_id": "0x89c2f521249d6739:0xd5de790c5388a167",
+            "iid": 20939,
+            "name": "Lin\u2019s Asian Cuisine",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1589895397687
+        },
+        {
+            "address": "Asian Mint, 11617 N. Central Expwy, Suite 135, Dallas, TX 75243",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Caterer', 'Event venue', 'Restaurant']",
+            "date": "2020/06/24",
+            "gmap_id": "0x864c206d3826e1b9:0xf698890f007723aa",
+            "iid": 8601,
+            "name": "Asian Mint",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1593010269275
+        },
+        {
+            "address": "Maki Maki, 200 S Main St, New City, NY 10956",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Roman restaurant', 'Sushi restaurant']",
+            "date": "2021/02/01",
+            "gmap_id": "0x89c2c2f0ac847179:0xc013bde08f861db6",
+            "iid": 20840,
+            "name": "Maki Maki",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1612216906658
+        },
+        {
+            "address": "Panda Express, 150 E Orangethorpe Ave, Fullerton, CA 92832",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/03/01",
+            "gmap_id": "0x80dd2a00034ae85f:0x9712da60bac2869",
+            "iid": 6924,
+            "name": "Panda Express",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1614618652132
+        },
+        {
+            "address": "China Food, 410 W McMillan St, Cincinnati, OH 45219",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Restaurant']",
+            "date": "2021/05/05",
+            "gmap_id": "0x8841b40b16e74249:0x85eeae88d30a1abd",
+            "iid": 14491,
+            "name": "China Food",
+            "split": "test",
+            "state": "Ohio",
+            "unix_time": 1620237037555
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Shen Wang, 48 Germonds Rd, New City, NY 10956",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c2c297f494e9d5:0x3cfce2d6fac80ded",
+            "iid": 20839,
+            "name": "Shen Wang",
+            "rank": 1,
+            "score": 0.48903000354766846,
+            "state": "New_York"
+        },
+        {
+            "address": "Hana Sushi, 7270 S Broadway, Red Hook, NY 12571",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89dd0b038a4ddca7:0xe1523cc3e3d7756a",
+            "iid": 22201,
+            "name": "Hana Sushi",
+            "rank": 2,
+            "score": 0.4872739911079407,
+            "state": "New_York"
+        },
+        {
+            "address": "World Sushi of NY, 266 NY-59, Nanuet, NY 10954",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2e83f4f641aed:0x5e574b09575ede38",
+            "iid": 20869,
+            "name": "World Sushi of NY",
+            "rank": 3,
+            "score": 0.4833645820617676,
+            "state": "New_York"
+        },
+        {
+            "address": "Mr Q's, 2115 Williamsbridge Rd, Bronx, NY 10461",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c2f35870ee01b1:0x4251fae1e8cebb15",
+            "iid": 20924,
+            "name": "Mr Q's",
+            "rank": 4,
+            "score": 0.4796696603298187,
+            "state": "New_York"
+        },
+        {
+            "address": "Kumo Sushi and Lounge New City, 170 S Main St, New City, NY 10956",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Japanese steakhouse', 'Lounge', 'Sushi takeaway', 'Wine bar']",
+            "gmap_id": "0x89c2c2fa178f44e7:0x3da4d4c61a25a23",
+            "iid": 20841,
+            "name": "Kumo Sushi and Lounge New City",
+            "rank": 5,
+            "score": 0.4770877957344055,
+            "state": "New_York"
+        },
+        {
+            "address": "Cha-Cha Japanese Cafe, 155 FL-7 #108, Royal Palm Beach, FL 33414",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x88d92f474fa23343:0x8b2f67ed65982371",
+            "iid": 16448,
+            "name": "Cha-Cha Japanese Cafe",
+            "rank": 6,
+            "score": 0.47415485978126526,
+            "state": "Florida"
+        },
+        {
+            "address": "Yum Yum Noodle Bar - Red Hook, 7496 S Broadway, Red Hook, NY 12571",
+            "category": "['Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Korean restaurant', 'Noodle shop']",
+            "gmap_id": "0x89dd0ae366b7e347:0x7ba804372e78556",
+            "iid": 22200,
+            "name": "Yum Yum Noodle Bar - Red Hook",
+            "rank": 7,
+            "score": 0.4584711790084839,
+            "state": "New_York"
+        },
+        {
+            "address": "Kotoni, 340 Kings Mall Ct, Kingston, NY 12401",
+            "category": "['Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89dd0f2b95045d7d:0xd330b2d93cbe27f2",
+            "iid": 22206,
+            "name": "Kotoni",
+            "rank": 8,
+            "score": 0.4561139941215515,
+            "state": "New_York"
+        },
+        {
+            "address": "OSAKA TIVOLI, 74 Broadway, Tivoli, NY 12583",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89dda0e98e9a8e31:0x79914d7fcc0089e4",
+            "iid": 22242,
+            "name": "OSAKA TIVOLI",
+            "rank": 9,
+            "score": 0.45397084951400757,
+            "state": "New_York"
+        },
+        {
+            "address": "Bombay Grill, 261 S Little Tor Rd, New City, NY 10956",
+            "category": "['Modern Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c2c2948d2e25cd:0x79ab19e0ce31f6a8",
+            "iid": 20838,
+            "name": "Bombay Grill",
+            "rank": 10,
+            "score": 0.45371055603027344,
+            "state": "New_York"
+        },
+        {
+            "address": "aroi Thai restaurant, 55 E Market St, Rhinebeck, NY 12572",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89dd0c486d047401:0xdfa12f6b9b6d3336",
+            "iid": 22203,
+            "name": "aroi Thai restaurant",
+            "rank": 11,
+            "score": 0.453410804271698,
+            "state": "New_York"
+        },
+        {
+            "address": "Oyummy Modern Asian Fusion, 478 Albany Ave, Kingston, NY 12401",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89dd0f11be0dd00b:0x6a25f39fa6530ec7",
+            "iid": 22204,
+            "name": "Oyummy Modern Asian Fusion",
+            "rank": 12,
+            "score": 0.45297861099243164,
+            "state": "New_York"
+        },
+        {
+            "address": "Kai, 1475 Williamsbridge Rd, Bronx, NY 10461",
+            "category": "['Asian fusion restaurant', 'Catering food and drink supplier', 'Chinese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2f4b271c351af:0xedfdb041203cae36",
+            "iid": 20935,
+            "name": "Kai",
+            "rank": 13,
+            "score": 0.45149296522140503,
+            "state": "New_York"
+        },
+        {
+            "address": "Trump Plaza, 525 S Flagler Dr, West Palm Beach, FL 33401",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x88d8d68b003527c7:0x71e6ba3d839a5ff4",
+            "iid": 16228,
+            "name": "Trump Plaza",
+            "rank": 14,
+            "score": 0.45127981901168823,
+            "state": "Florida"
+        },
+        {
+            "address": "Imoto at Buccan, 350 S County Rd, Palm Beach, FL 33480",
+            "category": "['Asian restaurant', 'Bar', 'Izakaya restaurant', 'Japanese restaurant', 'Small plates restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88d8d6eb61d764db:0xb0b888b78fef3d9e",
+            "iid": 16230,
+            "name": "Imoto at Buccan",
+            "rank": 15,
+            "score": 0.44640064239501953,
+            "state": "Florida"
+        },
+        {
+            "address": "Lucky Foong, 58 NY-59, Monsey, NY 10952",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2e790a0707971:0x94d9aa4f7fea6147",
+            "iid": 20867,
+            "name": "Lucky Foong",
+            "rank": 16,
+            "score": 0.444153755903244,
+            "state": "New_York"
+        },
+        {
+            "address": "China Wok, 1486 Williamsbridge Rd, Bronx, NY 10461",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c2f4ad885cfe67:0x9406e93358640adc",
+            "iid": 20934,
+            "name": "China Wok",
+            "rank": 17,
+            "score": 0.4432840347290039,
+            "state": "New_York"
+        },
+        {
+            "address": "Momo Asian Fusion, Lake Ridge Plaza, 9, Valley Cottage, NY 10989",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c2c219189e5189:0x684a238fa71eb176",
+            "iid": 20837,
+            "name": "Momo Asian Fusion",
+            "rank": 18,
+            "score": 0.44001954793930054,
+            "state": "New_York"
+        },
+        {
+            "address": "Sabrosura, 1200 Castle Hill Ave, Bronx, NY 10462",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2f4c8fd086b6b:0xff87f6e5d5c5ef04",
+            "iid": 20938,
+            "name": "Sabrosura",
+            "rank": 19,
+            "score": 0.4398282766342163,
+            "state": "New_York"
+        },
+        {
+            "address": "Yum Yum Noodle Bar - Kingston, 275 Fair St, Kingston, NY 12401",
+            "category": "['Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Korean restaurant', 'Noodle shop']",
+            "gmap_id": "0x89dd0f7807d12e65:0x90833ceaff05096c",
+            "iid": 22207,
+            "name": "Yum Yum Noodle Bar - Kingston",
+            "rank": 20,
+            "score": 0.43552061915397644,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Legend Barron",
+        "uid": 16510,
+        "user_id": 102308449384262678921
+    }
+}

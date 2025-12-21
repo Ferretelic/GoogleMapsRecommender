@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Yama Zakura, 369 W Main St #3, Northborough, MA 01532",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x89e3f5fe46ef717d:0x591eef1f362ef4c",
+            "iid": 22872,
+            "name": "Yama Zakura",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1539219753424
+        },
+        {
+            "address": "Hong Kong Eatery, 79 Harrison Ave, Boston, MA 02111",
+            "category": "['Cantonese restaurant', 'Asian restaurant', 'Noodle shop']",
+            "date": "2019/03/06",
+            "gmap_id": "0x89e37a7828570e3d:0x65a59e5e04b797bf",
+            "iid": 22679,
+            "name": "Hong Kong Eatery",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1551846970085
+        },
+        {
+            "address": "Truong Thinh Supermarket, 1305 Dorchester Ave, Boston, MA 02122",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2019/09/25",
+            "gmap_id": "0x89e37bafa0fd540d:0x72faf5beb636f06a",
+            "iid": 22695,
+            "name": "Truong Thinh Supermarket",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1569431474147
+        },
+        {
+            "address": "The Q, 660 Washington St, Boston, MA 02111",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Hot pot restaurant', 'Lounge', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/10/15",
+            "gmap_id": "0x89e37a77ecdbd817:0x7ea9c255fc59265e",
+            "iid": 22676,
+            "name": "The Q",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1571140872711
+        },
+        {
+            "address": "Ph\u1edf L\u00ea Restaurant, 1356 Dorchester Ave, Boston, MA 02122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "date": "2020/11/11",
+            "gmap_id": "0x89e37ba57383b271:0x1d605803389a784b",
+            "iid": 22692,
+            "name": "Ph\u1edf L\u00ea Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1605062788690
+        },
+        {
+            "address": "Kam Man Foods, 219 Quincy Ave, Quincy, MA 02169",
+            "category": "['Asian grocery store', 'Grocery store', 'Market', 'Supermarket']",
+            "date": "2020/12/11",
+            "gmap_id": "0x89e36337496cf3a3:0xb98e037163fbaad3",
+            "iid": 22424,
+            "name": "Kam Man Foods",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1607706365487
+        },
+        {
+            "address": "Ph\u00fa C\u01b0\u1eddng Market, 1188 Dorchester Ave, Dorchester, MA 02125",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2021/01/07",
+            "gmap_id": "0x89e37a53460b0689:0x8b5e78ed8f8ad6d3",
+            "iid": 22660,
+            "name": "Ph\u00fa C\u01b0\u1eddng Market",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1610028141346
+        },
+        {
+            "address": "Pure Thai Cookhouse, 766 9th Ave #2, New York, NY 10019",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Noodle shop', 'Southeast Asian restaurant']",
+            "date": "2021/01/12",
+            "gmap_id": "0x89c25857374872d9:0xa7bb55ff7611f201",
+            "iid": 19845,
+            "name": "Pure Thai Cookhouse",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1610430451078
+        },
+        {
+            "address": "H Mart, 581 Massachusetts Ave, Cambridge, MA 02139",
+            "category": "['Asian grocery store', 'Food court', 'Grocery store', 'Korean grocery store']",
+            "date": "2021/02/08",
+            "gmap_id": "0x89e37753fa6eabed:0x94a2d0389a185792",
+            "iid": 22555,
+            "name": "H Mart",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1612778967474
+        },
+        {
+            "address": "Bonchon Allston, 123 Brighton Ave, Boston, MA 02134",
+            "category": "['Asian fusion restaurant', 'Korean restaurant']",
+            "date": "2021/03/26",
+            "gmap_id": "0x89e379c509b15c13:0x331fab1ee153854f",
+            "iid": 22620,
+            "name": "Bonchon Allston",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1616773025189
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Hoa Restaurant, 1370 Dorchester Ave, Boston, MA 02122",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e37ba57a0ef0cd:0x2e0adc6b01efbfc4",
+            "iid": 22693,
+            "name": "Pho Hoa Restaurant",
+            "rank": 1,
+            "score": 0.683070957660675,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Saigon Market, 1112 N Main St, Randolph, MA 02368",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89e4827a5e2e0abb:0x5be01f7c05b8f03",
+            "iid": 23026,
+            "name": "Saigon Market",
+            "rank": 2,
+            "score": 0.6416985988616943,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Kim Long Market, 211 Ferry St, Malden, MA 02148",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89e3716495b6a711:0x70f4bc5fe2b49bd5",
+            "iid": 22481,
+            "name": "Kim Long Market",
+            "rank": 3,
+            "score": 0.6191115975379944,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Bon Me, 441 Stuart St, Boston, MA 02116",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x89e37a0cfbc7cd51:0x444c6257ed4b3160",
+            "iid": 22639,
+            "name": "Bon Me",
+            "rank": 4,
+            "score": 0.6145032048225403,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Fish Market Sushi Bar, 170 Brighton Ave, Allston, MA 02134",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89e379c58082966b:0x50ba51a18ebfbe74",
+            "iid": 22622,
+            "name": "Fish Market Sushi Bar",
+            "rank": 5,
+            "score": 0.6027195453643799,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "My Sister's Crawfish, 272 Adams St, Dorchester, MA 02122",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x89e37ba4780eb769:0x54372dec3ffa04a7",
+            "iid": 22691,
+            "name": "My Sister's Crawfish",
+            "rank": 6,
+            "score": 0.5953834652900696,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Jade Garden, 20 Tyler St, Boston, MA 02111",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Mandarin restaurant', 'Restaurant']",
+            "gmap_id": "0x89e37a78316d49d1:0x5b7ef039b4a5c5a1",
+            "iid": 22681,
+            "name": "Jade Garden",
+            "rank": 7,
+            "score": 0.5939632058143616,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Cafe Mami, 1815 Massachusetts Ave, Cambridge, MA 02140",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89e3773dcbeacf09:0x385809350fc1a96c",
+            "iid": 22549,
+            "name": "Cafe Mami",
+            "rank": 8,
+            "score": 0.590399444103241,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Zen Mkt Quincy Inc, 733 Hancock St, Quincy, MA 02170",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x89e37ca6295e138b:0xff3abd8a695be23b",
+            "iid": 22702,
+            "name": "Zen Mkt Quincy Inc",
+            "rank": 9,
+            "score": 0.5861174464225769,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "wagamama seaport, 100 Northern Ave #1802, Boston, MA 02210",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Noodle shop']",
+            "gmap_id": "0x89e370792e95f649:0xbd6cdbd345a4a4b6",
+            "iid": 22439,
+            "name": "wagamama seaport",
+            "rank": 10,
+            "score": 0.5779375433921814,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Chau Chow Restaurant, 699 Morrissey Blvd, Dorchester, MA 02122",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89e37ba0a87b0383:0x514db9436df726cd",
+            "iid": 22690,
+            "name": "Chau Chow Restaurant",
+            "rank": 11,
+            "score": 0.5700145959854126,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Van Shabu & Bar, 1156 Dorchester Ave, Dorchester, MA 02125",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e37bac5c7a06e5:0x2aa75d3fa06a7f5b",
+            "iid": 22694,
+            "name": "Van Shabu & Bar",
+            "rank": 12,
+            "score": 0.5687267780303955,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sichuan Taste, 290 Main St, Malden, MA 02148",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89e37166a7054711:0x2144250c5d981967",
+            "iid": 22482,
+            "name": "Sichuan Taste",
+            "rank": 13,
+            "score": 0.5663093328475952,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Fuji at WoC, 1420 Hancock St, Quincy, MA 02169",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x89e3634aa24300d1:0xae5972f282df0c46",
+            "iid": 22426,
+            "name": "Fuji at WoC",
+            "rank": 14,
+            "score": 0.5646998286247253,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "S & I To Go, 168A Brighton Ave, Boston, MA 02134",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e379c580875831:0x8b92ee37bf1bf2f8",
+            "iid": 22623,
+            "name": "S & I To Go",
+            "rank": 15,
+            "score": 0.5642094612121582,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Brigham Circle Chinese Food, 728 Huntington Ave, Boston, MA 02115, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Meal delivery', 'Restaurant']",
+            "gmap_id": "0x89e3798f3b7ca959:0x4631aaee8e823742",
+            "iid": 22603,
+            "name": "Brigham Circle Chinese Food",
+            "rank": 16,
+            "score": 0.5580405592918396,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Taiwan Cafe, 34 Oxford St, Boston, MA 02111",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Taiwanese restaurant']",
+            "gmap_id": "0x89e37a7815805feb:0x4289bb365856413d",
+            "iid": 22677,
+            "name": "Taiwan Cafe",
+            "rank": 17,
+            "score": 0.5578482151031494,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Moy's Restaurant, 3 N Wisconsin St, Elkhorn, WI 53121",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Mandarin restaurant', 'Restaurant']",
+            "gmap_id": "0x8805f23bb80953b7:0x149861a12eae6629",
+            "iid": 12347,
+            "name": "Moy's Restaurant",
+            "rank": 18,
+            "score": 0.5569419860839844,
+            "state": "Wisconsin"
+        },
+        {
+            "address": "H Mart, 581 Massachusetts Ave, Cambridge, MA 02139",
+            "category": "['Asian grocery store', 'Food court', 'Grocery store', 'Korean grocery store']",
+            "gmap_id": "0x89e37753fa6eabed:0x94a2d0389a185792",
+            "iid": 22555,
+            "name": "H Mart",
+            "rank": 19,
+            "score": 0.5561032891273499,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Crying Thaiger Rustic Thai Kitchen, 114 Ferry St, Malden, MA 02148",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89e3716381c09f25:0xe2325dcb097c5f5e",
+            "iid": 22478,
+            "name": "Crying Thaiger Rustic Thai Kitchen",
+            "rank": 20,
+            "score": 0.5516294836997986,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Phong V",
+        "uid": 84183,
+        "user_id": 111759652220836474093
+    }
+}

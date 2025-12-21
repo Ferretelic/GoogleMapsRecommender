@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Kofusion, 1 E Main St, Champaign, IL 61820",
+            "category": "['Asian fusion restaurant', 'Restaurant']",
+            "date": "2016/08/21",
+            "gmap_id": "0x880cd74c5ec3e777:0x4f9e937b5f0bfed0",
+            "iid": 12478,
+            "name": "Kofusion",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1471807971073
+        },
+        {
+            "address": "Pho Lucky Detroit - Midtown, 3111 Woodward Ave, Detroit, MI 48201",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "date": "2017/05/24",
+            "gmap_id": "0x8824d2ca41090d5f:0xc615219ac278808d",
+            "iid": 13714,
+            "name": "Pho Lucky Detroit - Midtown",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1495601158141
+        },
+        {
+            "address": "Park Bar, 2040 Park Ave, Detroit, MI 48226",
+            "category": "['Bar & grill', 'American restaurant', 'Asian fusion restaurant', 'Live music venue']",
+            "date": "2017/12/19",
+            "gmap_id": "0x883b2d340b7d5c03:0xdce89045e4761bc9",
+            "iid": 14210,
+            "name": "Park Bar",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1513686502659
+        },
+        {
+            "address": "Sushi House, 22030 Farmington Rd, Farmington, MI 48336",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/05/25",
+            "gmap_id": "0x8824b1743142481b:0xbfa78d9e901a14f5",
+            "iid": 13623,
+            "name": "Sushi House",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1527208208561
+        },
+        {
+            "address": "Uma Uma, 9380 Baltimore National Pike, Ellicott City, MD 21042",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2018/05/25",
+            "gmap_id": "0x89c821d182da2203:0xca85a547a4c8609c",
+            "iid": 21923,
+            "name": "Uma Uma",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1527208289314
+        },
+        {
+            "address": "Thai Orchid Cuisine, 60 Cherry St, Mt Clemens, MI 48043",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/07/26",
+            "gmap_id": "0x882520f6ccdf44df:0xd9832ee955311dcb",
+            "iid": 13760,
+            "name": "Thai Orchid Cuisine",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1532636845962
+        },
+        {
+            "address": "Golden Harvest, 6880 Twelve Mile Rd, Warren, MI 48092",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Restaurant']",
+            "date": "2019/02/18",
+            "gmap_id": "0x8824da62d1d4ccd7:0x69e7ae1702d69d7d",
+            "iid": 13720,
+            "name": "Golden Harvest",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1550515295695
+        },
+        {
+            "address": "P.F. Chang's, 2801 W Big Beaver Rd Spc D112, Troy, MI 48084",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/18",
+            "gmap_id": "0x8824c6956543ac5b:0xa132f610f2190fe6",
+            "iid": 13686,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1550515355365
+        },
+        {
+            "address": "Pi's Thai Cuisine, 24940 John R Rd, Hazel Park, MI 48030",
+            "category": "['Restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "date": "2019/08/27",
+            "gmap_id": "0x8824cfbecac541cf:0x236bb58eca207a35",
+            "iid": 13705,
+            "name": "Pi's Thai Cuisine",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1566934554167
+        },
+        {
+            "address": "The Goblin, 35925 S Gratiot Ave, Clinton Twp, MI 48035",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi takeaway']",
+            "date": "2019/10/18",
+            "gmap_id": "0x8825270cb8528b95:0x166ca7de14693f35",
+            "iid": 13761,
+            "name": "The Goblin",
+            "split": "valid",
+            "state": "Michigan",
+            "unix_time": 1571358876669
+        },
+        {
+            "address": "H Mart Paramus, 60 NJ-17, Paramus, NJ 07652",
+            "category": "['Asian grocery store', 'Grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2020/03/05",
+            "gmap_id": "0x89c2fa52040b95a5:0xf023188498cd9e71",
+            "iid": 21030,
+            "name": "H Mart Paramus",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1583451516485
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Kit Chen Thai, 26639 Hoover Rd, Warren, MI 48089",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Down home cooking restaurant', 'Fast food restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Takeout Restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8824d1143ad82a3f:0x8111df9a71a6bb16",
+            "iid": 13709,
+            "name": "Kit Chen Thai",
+            "rank": 1,
+            "score": -2.3105781078338623,
+            "state": "Michigan"
+        },
+        {
+            "address": "UwU Sushi, 147 W Auburn Rd, Rochester Hills, MI 48307",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese restaurant', 'Fusion restaurant', 'Hawaiian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8824c356d4a836d1:0x4b47f0b60ee90ee0",
+            "iid": 13654,
+            "name": "UwU Sushi",
+            "rank": 2,
+            "score": -2.4128365516662598,
+            "state": "Michigan"
+        },
+        {
+            "address": "Panda Express, 10550 Hartland Square Dr., Hartland, MI 48353",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant']",
+            "gmap_id": "0x88235d511f8577fd:0xd2bb9253a164ef97",
+            "iid": 13565,
+            "name": "Panda Express",
+            "rank": 3,
+            "score": -2.449871301651001,
+            "state": "Michigan"
+        },
+        {
+            "address": "Bash Original Izakaya, 5069 Trumbull, Detroit, MI 48208",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Bar', 'Seafood restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8824cdcb546fe701:0x3462859c785c7d0b",
+            "iid": 13696,
+            "name": "Bash Original Izakaya",
+            "rank": 4,
+            "score": -2.471778154373169,
+            "state": "Michigan"
+        },
+        {
+            "address": "Dragon Tiger Noodle Co., 10650 Southern Highlands Pkwy Ste 101, Las Vegas, NV 89141",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x80c8c9bdbac1bd13:0xf5deb00fa54a05e5",
+            "iid": 5771,
+            "name": "Dragon Tiger Noodle Co.",
+            "rank": 5,
+            "score": -2.549044609069824,
+            "state": "Nevada"
+        },
+        {
+            "address": "Teriyaki Madness, 4275 City Centre Rd Unit 500, Firestone, CO 80504",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876c07ee09f4f09b:0xbd79da0cd16503af",
+            "iid": 10796,
+            "name": "Teriyaki Madness",
+            "rank": 6,
+            "score": -2.5585503578186035,
+            "state": "Colorado"
+        },
+        {
+            "address": "J's Asian Street Food, 402 E Tennessee St, Tallahassee, FL 32301",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x88ecf5b8bff281a7:0x78a63a1eea49cb72",
+            "iid": 17431,
+            "name": "J's Asian Street Food",
+            "rank": 7,
+            "score": -2.5598292350769043,
+            "state": "Florida"
+        },
+        {
+            "address": "Teriyaki Madness, 2020 Wyatt Dr Suite 120, Santa Clara, CA 95054",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fc92dd976fbf1:0x7e15984d1938362c",
+            "iid": 3572,
+            "name": "Teriyaki Madness",
+            "rank": 8,
+            "score": -2.5607504844665527,
+            "state": "California"
+        },
+        {
+            "address": "Speed Bowl (Korean Grill), 1300 SC-14 Suite A, Greer, SC 29650",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Korean beef restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x88582bee55678347:0x596b6e88d03305fb",
+            "iid": 14967,
+            "name": "Speed Bowl (Korean Grill)",
+            "rank": 9,
+            "score": -2.5608458518981934,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Boba Queen, 5600 W Colonial Dr #104, Orlando, FL 32808",
+            "category": "['Cafe', 'Asian fusion restaurant', 'Dessert shop', 'Soft drinks shop']",
+            "gmap_id": "0x88e77903bf7008ef:0x9ad9e974bcd43275",
+            "iid": 17261,
+            "name": "Boba Queen",
+            "rank": 10,
+            "score": -2.562692642211914,
+            "state": "Florida"
+        },
+        {
+            "address": "Rollin Phatties, 2829 Chimney Rock Rd, Houston, TX 77056",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x8640c1bbff65148b:0x35468479ca86a263",
+            "iid": 7817,
+            "name": "Rollin Phatties",
+            "rank": 11,
+            "score": -2.564337968826294,
+            "state": "Texas"
+        },
+        {
+            "address": "Zen Thai Cafe, 110 N Central Ave, Phoenix, AZ 85004",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Gluten-free restaurant', 'Restaurant', 'Vegan restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x872b13cde325d861:0x6c0777b47aa50f2c",
+            "iid": 10082,
+            "name": "Zen Thai Cafe",
+            "rank": 12,
+            "score": -2.5645596981048584,
+            "state": "Arizona"
+        },
+        {
+            "address": "Vegas Test Kitchen, 1020 E Fremont St #120, Las Vegas, NV 89101",
+            "category": "['American restaurant', 'Asian restaurant', 'Bagel shop', 'Pie shop', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c36d11539e27:0xc136ddffaf461845",
+            "iid": 5644,
+            "name": "Vegas Test Kitchen",
+            "rank": 13,
+            "score": -2.5654664039611816,
+            "state": "Nevada"
+        },
+        {
+            "address": "Larb Thai-Isan, 6234 N Federal Hwy, Fort Lauderdale, FL 33308",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Laotian restaurant', 'Rice restaurant', 'Soup restaurant']",
+            "gmap_id": "0x88d903fc646d1263:0xba9a628b1c573300",
+            "iid": 16329,
+            "name": "Larb Thai-Isan",
+            "rank": 14,
+            "score": -2.56573224067688,
+            "state": "Florida"
+        },
+        {
+            "address": "California, San Francisco, 20th St, Yoji House\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x808f7fd5297e6c73:0xc12d39e4d3397baf",
+            "iid": 3116,
+            "name": "Yoji House",
+            "rank": 15,
+            "score": -2.5663235187530518,
+            "state": "California"
+        },
+        {
+            "address": "MOSU, 111 Wolf Rd Suite 1, Albany, NY 12205",
+            "category": "['Asian restaurant', 'Hot pot restaurant', 'Korean barbecue restaurant', 'Yakiniku restaurant']",
+            "gmap_id": "0x89de0d759af8056f:0xec2a698bd24ef497",
+            "iid": 22277,
+            "name": "MOSU",
+            "rank": 16,
+            "score": -2.56672739982605,
+            "state": "New_York"
+        },
+        {
+            "address": "Tri\u2019s Market, 4021 S Washington St, Amarillo, TX 79110",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x87014f9c6432edcf:0x2bd6476b20046b43",
+            "iid": 9717,
+            "name": "Tri\u2019s Market",
+            "rank": 17,
+            "score": -2.5668718814849854,
+            "state": "Texas"
+        },
+        {
+            "address": "The Orient, 3050 Windy Hill Rd SE, Atlanta, GA 30339",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f51146b0c43ca5:0xce4607bb7cad9391",
+            "iid": 17701,
+            "name": "The Orient",
+            "rank": 18,
+            "score": -2.568467140197754,
+            "state": "Georgia"
+        },
+        {
+            "address": "Shabu Shabuya, 31406 Pacific Hwy S, Federal Way, WA 98003",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x549057e83e943da7:0xa8a247da1a52ed9a",
+            "iid": 895,
+            "name": "Shabu Shabuya",
+            "rank": 19,
+            "score": -2.5698161125183105,
+            "state": "Washington"
+        },
+        {
+            "address": "Loro, 1812 N Haskell Ave., Dallas, TX 75204",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x864e99b86790c4e7:0xd6943710a4791ea2",
+            "iid": 9131,
+            "name": "Loro",
+            "rank": 20,
+            "score": -2.5704057216644287,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Trisha",
+        "uid": 48462,
+        "user_id": 106745925788845302094
+    }
+}

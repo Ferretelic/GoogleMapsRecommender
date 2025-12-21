@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Seafood City Supermarket, 16130 Nordhoff St, North Hills, CA 91343",
+            "category": "['Seafood market', 'Asian grocery store', 'Bakery', 'Fast food restaurant', 'Grocery store', 'Supermarket']",
+            "date": "2017/03/28",
+            "gmap_id": "0x80c2909fa952c39f:0xc9cab99631c25fa3",
+            "iid": 4332,
+            "name": "Seafood City Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1490719807058
+        },
+        {
+            "address": "Hikari Sushi Chatsworth, 21230 Devonshire St, Chatsworth, CA 91311",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/01/21",
+            "gmap_id": "0x80c29cb08cb33767:0xf11cda39462b62aa",
+            "iid": 4486,
+            "name": "Hikari Sushi Chatsworth",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516494671825
+        },
+        {
+            "address": "Shiki Sushi, 12745 A Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/03/11",
+            "gmap_id": "0x80c2bdf42502cb81:0xf7b9735026497644",
+            "iid": 4792,
+            "name": "Shiki Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520810364984
+        },
+        {
+            "address": "Crustacean Beverly Hills, 468 N Bedford Dr, Beverly Hills, CA 90210",
+            "category": "['Asian fusion restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x80c2bc083e0b1f21:0x76acc62a27588a38",
+            "iid": 4780,
+            "name": "Crustacean Beverly Hills",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1534983056750
+        },
+        {
+            "address": "Katana LA, 8439 Sunset Blvd, West Hollywood, CA 90069",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/10/06",
+            "gmap_id": "0x80c2bebe42bfbeeb:0xd6550e9eecfd71cb",
+            "iid": 4818,
+            "name": "Katana LA",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1538815110033
+        },
+        {
+            "address": "Katsuya Hollywood, 6300 Hollywood Blvd, Los Angeles, CA 90028",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Cocktail bar', 'Event venue', 'Fine dining restaurant', 'Japanese restaurant', 'Lounge', 'Raw food restaurant', 'Seafood restaurant', 'Wine bar']",
+            "date": "2018/12/08",
+            "gmap_id": "0x80c2bf391265d04f:0x61a13f0966697b2c",
+            "iid": 4842,
+            "name": "Katsuya Hollywood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544241870556
+        },
+        {
+            "address": "TAO, 6421 Selma Ave, Los Angeles, CA 90028",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/01/12",
+            "gmap_id": "0x80c2bf3bb54393e5:0x9a52698ffc0cfa37",
+            "iid": 4845,
+            "name": "TAO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547332978841
+        },
+        {
+            "address": "TAO, 6421 Selma Ave, Los Angeles, CA 90028",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/01/12",
+            "gmap_id": "0x80c2bf3bb54393e5:0x9a52698ffc0cfa37",
+            "iid": 4845,
+            "name": "TAO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547332978841
+        },
+        {
+            "address": "Gyu-Kaku, 6600 Topanga Canyon Blvd Suite 1010B, Canoga Park, CA 91303",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar & grill', 'Barbecue restaurant']",
+            "date": "2019/09/12",
+            "gmap_id": "0x80c29c22ebd4a073:0x4fb15ab2323f17c9",
+            "iid": 4475,
+            "name": "Gyu-Kaku",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1568267870845
+        },
+        {
+            "address": "MR CHOW BEVERLY HILLS, 344 N Camden Dr, Beverly Hills, CA 90210",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Fine dining restaurant']",
+            "date": "2020/09/02",
+            "gmap_id": "0x80c2bbf86ccc1195:0xc91aabee8b7665ab",
+            "iid": 4774,
+            "name": "MR CHOW BEVERLY HILLS",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1599021749644
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Koi Los Angeles, 730 N La Cienega Blvd, Los Angeles, CA 90069",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2beb0c6eafe67:0x3ec3e808ed06024b",
+            "iid": 4811,
+            "name": "Koi Los Angeles",
+            "rank": 1,
+            "score": 0.7494200468063354,
+            "state": "California"
+        },
+        {
+            "address": "Roppongi Asian Tapas Bar & Sushi, 8535 Sunset Blvd #1, West Hollywood, CA 90069",
+            "category": "['Izakaya restaurant', 'Asian fusion restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2bebdb04092c5:0x4939e0a586f792f",
+            "iid": 4817,
+            "name": "Roppongi Asian Tapas Bar & Sushi",
+            "rank": 2,
+            "score": 0.6411526203155518,
+            "state": "California"
+        },
+        {
+            "address": "Kabuki, 1545 Vine St, Los Angeles, CA 90028",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x80c2bf39dd33ac19:0xe28e7d461388beb4",
+            "iid": 4843,
+            "name": "Kabuki",
+            "rank": 3,
+            "score": 0.626755952835083,
+            "state": "California"
+        },
+        {
+            "address": "JINYA Ramen Bar - Studio City, 11239 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2be140ee223c9:0xea62c8c0736168d3",
+            "iid": 4801,
+            "name": "JINYA Ramen Bar - Studio City",
+            "rank": 4,
+            "score": 0.603386640548706,
+            "state": "California"
+        },
+        {
+            "address": "PHOnomenal, 8543 Santa Monica Blvd, West Hollywood, CA 90069",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c2bebba46c410f:0xae458b1689a7db22",
+            "iid": 4815,
+            "name": "PHOnomenal",
+            "rank": 5,
+            "score": 0.6023845672607422,
+            "state": "California"
+        },
+        {
+            "address": "Chin Chin West Hollywood, 8618 Sunset Blvd, West Hollywood, CA 90069",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Catering food and drink supplier', 'Caterer', 'Chinese noodle restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bebce640089f:0x82730b001e44136e",
+            "iid": 4816,
+            "name": "Chin Chin West Hollywood",
+            "rank": 6,
+            "score": 0.5995180606842041,
+            "state": "California"
+        },
+        {
+            "address": "Chin Chin Studio City, 12215 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Caterer', 'Chinese noodle restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdfc9e163545:0xc566b0400873b34b",
+            "iid": 4796,
+            "name": "Chin Chin Studio City",
+            "rank": 7,
+            "score": 0.5806092023849487,
+            "state": "California"
+        },
+        {
+            "address": "Jinpachi, 8711 Santa Monica Blvd, West Hollywood, CA 90069",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2bebad9c36119:0x54374c537776907b",
+            "iid": 4814,
+            "name": "Jinpachi",
+            "rank": 8,
+            "score": 0.575861930847168,
+            "state": "California"
+        },
+        {
+            "address": "9021Pho - West Hollywood, 7950 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Pan-Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80c2bec227ee5a09:0x96f18651913b1bdb",
+            "iid": 4819,
+            "name": "9021Pho - West Hollywood",
+            "rank": 9,
+            "score": 0.5727000832557678,
+            "state": "California"
+        },
+        {
+            "address": "Wokcano, 8000 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2b94bbecf7a9f:0x51c8bbca996440b4",
+            "iid": 4661,
+            "name": "Wokcano",
+            "rank": 10,
+            "score": 0.5684357285499573,
+            "state": "California"
+        },
+        {
+            "address": "Yamashiro Hollywood, 1999 N Sycamore Ave, Los Angeles, CA 90068, United States",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Californian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Wedding venue']",
+            "gmap_id": "0x80c2bf1f68d9c3e1:0xeb6245d12e254ab4",
+            "iid": 4827,
+            "name": "Yamashiro Hollywood",
+            "rank": 11,
+            "score": 0.5674207806587219,
+            "state": "California"
+        },
+        {
+            "address": "LA LA Sushi, 12415 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bd0e0f7ecd35:0x2c249e132edbeb4f",
+            "iid": 4788,
+            "name": "LA LA Sushi",
+            "rank": 12,
+            "score": 0.5673513412475586,
+            "state": "California"
+        },
+        {
+            "address": "LET'S PHO, 4344 A Woodman Ave, Sherman Oaks, CA 91423",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2962ed615d15b:0x6c5b20a07c7003dc",
+            "iid": 4374,
+            "name": "LET'S PHO",
+            "rank": 13,
+            "score": 0.5505775213241577,
+            "state": "California"
+        },
+        {
+            "address": "Asakuma Rice Restaurant, 848 N La Cienega Blvd, Los Angeles, CA 90069",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2beba0fd81961:0x9e8bf1e9f48c03fd",
+            "iid": 4813,
+            "name": "Asakuma Rice Restaurant",
+            "rank": 14,
+            "score": 0.5413260459899902,
+            "state": "California"
+        },
+        {
+            "address": NaN,
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2b952b9a3c6b9:0x2e78276ba755866e",
+            "iid": 4667,
+            "name": "The Fox and Hounds",
+            "rank": 15,
+            "score": 0.5407315492630005,
+            "state": "Oregon"
+        },
+        {
+            "address": "Anajak Thai Cuisine, 14704 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Catering food and drink supplier', 'Fine dining restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant', 'Wine bar', 'Wine store']",
+            "gmap_id": "0x80c297c5baa1e89f:0x83a04faba786ac13",
+            "iid": 4405,
+            "name": "Anajak Thai Cuisine",
+            "rank": 16,
+            "score": 0.5354127883911133,
+            "state": "California"
+        },
+        {
+            "address": "Flavor of India Studio City, 12321 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Takeout Restaurant', 'South Asian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2bdfb01f6075d:0x468d8af9ce7cf96c",
+            "iid": 4793,
+            "name": "Flavor of India Studio City",
+            "rank": 17,
+            "score": 0.5317541360855103,
+            "state": "California"
+        },
+        {
+            "address": "Big Fish Japanese Cuisine, 4364 Woodman Ave, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2962f2702b741:0xcc4d5351d8f93247",
+            "iid": 4375,
+            "name": "Big Fish Japanese Cuisine",
+            "rank": 18,
+            "score": 0.531502366065979,
+            "state": "California"
+        },
+        {
+            "address": "The Dish Thai Fusion Cuisine, 11717 Moorpark St, Studio City, CA 91604",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2be0146d61931:0xb387c89c00160cac",
+            "iid": 4798,
+            "name": "The Dish Thai Fusion Cuisine",
+            "rank": 19,
+            "score": 0.5300692319869995,
+            "state": "California"
+        },
+        {
+            "address": "Green Apple China Bistro, 12265 Ventura Blvd #112, Studio City, CA 91604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdfb0c7430cd:0x56fca4ed44c6bff2",
+            "iid": 4794,
+            "name": "Green Apple China Bistro",
+            "rank": 20,
+            "score": 0.5281692743301392,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "TATIANA W",
+        "uid": 85739,
+        "user_id": 111988851828697790460
+    }
+}

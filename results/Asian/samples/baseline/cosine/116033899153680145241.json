@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Hong Kong Supermarket, 5495 Jimmy Carter Blvd, Norcross, GA 30093, United States",
+            "category": "['Grocery store', 'Asian grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2018/05/23",
+            "gmap_id": "0x88f5a6bf02b90cb5:0x230c1c835629f168",
+            "iid": 17891,
+            "name": "Hong Kong Supermarket",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1527089440631
+        },
+        {
+            "address": "Kwan's Deli and Korean Kitchen, 267 Marietta St NW, Atlanta, GA 30313",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Deli', 'Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/06/30",
+            "gmap_id": "0x88f5047faf827459:0x19ede45dc77d586a",
+            "iid": 17554,
+            "name": "Kwan's Deli and Korean Kitchen",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1530375967014
+        },
+        {
+            "address": "Panda Express, 85 Marketplace Blvd, Dawsonville, GA 30534",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/05/26",
+            "gmap_id": "0x88f589c561d80c17:0x398fe15b6b27bc33",
+            "iid": 17775,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1558885579088
+        },
+        {
+            "address": "Panda Express, 205 Atlanta Hwy, Loganville, GA 30052",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/10/29",
+            "gmap_id": "0x88f5c700bc67b337:0xb14b8940f42cdd8b",
+            "iid": 17935,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1572361994943
+        },
+        {
+            "address": "Panda Express, 5260 Forest Dr, Columbia, SC 29206",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/09/02",
+            "gmap_id": "0x88f8afb85aa3b9ed:0xa0c479e51fba9ae6",
+            "iid": 18008,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1599032335724
+        },
+        {
+            "address": "Panda Express, 515 Mullins Colony Dr, Evans, GA 30809",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/09/03",
+            "gmap_id": "0x88f9d33f22c049d5:0xe2eb80b1d03df946",
+            "iid": 18039,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1599124495318
+        },
+        {
+            "address": "Panda Express, 7781 Eastchase Pkwy, Montgomery, AL 36117",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/12/11",
+            "gmap_id": "0x888c2de46822d41b:0x9ca69ffe2d4214e9",
+            "iid": 15800,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1607680468494
+        },
+        {
+            "address": "Hibachi Sushi Super Buffet, 3578 US-31, Pelham, AL 35124",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/12/29",
+            "gmap_id": "0x888924329376b5d5:0xd4eb4bc3549bb985",
+            "iid": 15774,
+            "name": "Hibachi Sushi Super Buffet",
+            "split": "train",
+            "state": "Alabama",
+            "unix_time": 1609208651691
+        },
+        {
+            "address": "Panda Express, 443 Killian Rd, Columbia, SC 29203",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/02/12",
+            "gmap_id": "0x88f8a85bc54a2b53:0x56844fd7b8ccf607",
+            "iid": 17996,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1613098862576
+        },
+        {
+            "address": "Panda Express, 20 Commons Way, Oxford, AL 36203, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/04/19",
+            "gmap_id": "0x888bb1c0af00eaad:0x94a9966c09595969",
+            "iid": 15791,
+            "name": "Panda Express",
+            "split": "valid",
+            "state": "Alabama",
+            "unix_time": 1618842160964
+        },
+        {
+            "address": "Bismillah Supermarket, 4022 Buford Hwy NE, Atlanta, GA 30345",
+            "category": "['Fast food restaurant', 'Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2021/05/22",
+            "gmap_id": "0x88f508617fb53fcd:0x29a18d65d113818b",
+            "iid": 17626,
+            "name": "Bismillah Supermarket",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1621645191657
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 2239 GA-20, Conyers, GA 30013",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f44b5fbe98915b:0x8582a13dc14b30e5",
+            "iid": 17472,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": 0.7100866436958313,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 407 B Street, Building 29722, Augusta, GA 30905",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9d6cffe0772b9:0xd5a5d3017a1d080e",
+            "iid": 18052,
+            "name": "Panda Express",
+            "rank": 2,
+            "score": 0.691722571849823,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hibachi Grill & Supreme Buffet, 1343 Augusta W Pkwy, Augusta, GA 30909",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d3cd190fe1b1:0x89ed94e44fcca738",
+            "iid": 18046,
+            "name": "Hibachi Grill & Supreme Buffet",
+            "rank": 3,
+            "score": 0.6416594982147217,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sushi & Hibachi To Go, 1100 Elmwood Ave, Columbia, SC 29201",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88f8a4d04e7536c3:0xb6e4543240134831",
+            "iid": 17992,
+            "name": "Sushi & Hibachi To Go",
+            "rank": 4,
+            "score": 0.6231098771095276,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Panda Express, 11481 Tara Blvd, Lovejoy, GA 30250",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f4f6fd484494cf:0xf6c243a077258ce0",
+            "iid": 17500,
+            "name": "Panda Express",
+            "rank": 5,
+            "score": 0.6230065226554871,
+            "state": "Georgia"
+        },
+        {
+            "address": "Koiya Japanese Express, 528 S Main St, Swainsboro, GA 30401",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88f0a46c3fdaa6b1:0x358606dbc4c9874a",
+            "iid": 17442,
+            "name": "Koiya Japanese Express",
+            "rank": 6,
+            "score": 0.6223229169845581,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asian Market, 339 Furys Ferry Rd, Martinez, GA 30907",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x88f9d2c47f500a2f:0x96579031b659e16f",
+            "iid": 18035,
+            "name": "Asian Market",
+            "rank": 7,
+            "score": 0.6175967454910278,
+            "state": "Georgia"
+        },
+        {
+            "address": "Eggroll Express West, 301 N Belair Rd, Evans, GA 30809",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9d496ea6bba6f:0x3e25291bcbb5ebae",
+            "iid": 18048,
+            "name": "Eggroll Express West",
+            "rank": 8,
+            "score": 0.6053295135498047,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hibachi Express, 6160 Bradley Park Dr, Columbus, GA 31904",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x888ccb612ebda0af:0x5b46d6fd9d659fae",
+            "iid": 15805,
+            "name": "Hibachi Express",
+            "rank": 9,
+            "score": 0.6004440784454346,
+            "state": "Georgia"
+        },
+        {
+            "address": "Osaka Sushi, 4437 Washington Rd, Evans, GA 30809",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f9d4b259e997a9:0x188c7d410e96e1f7",
+            "iid": 18050,
+            "name": "Osaka Sushi",
+            "rank": 10,
+            "score": 0.5956368446350098,
+            "state": "Georgia"
+        },
+        {
+            "address": "Thai and Thai Restaurant Columbus, GA : Thai Food, Sushi Bar, 5870 Veterans Pkwy, Columbus, GA 31909",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x888ccb5f76236f19:0xe7baef493c593c5f",
+            "iid": 15804,
+            "name": "Thai and Thai Restaurant Columbus, GA : Thai Food, Sushi Bar",
+            "rank": 11,
+            "score": 0.592815637588501,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asian House, 1678 Buford Hwy, Cumming, GA 30041",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88f59a9404047eaf:0x909f7db08bae20dd",
+            "iid": 17814,
+            "name": "Asian House",
+            "rank": 12,
+            "score": 0.5788987874984741,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 2716 Chapel Hill Rd, Douglasville, GA 30135",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f526548305e619:0x35a5ee0bb7d3198d",
+            "iid": 17723,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": 0.5771313905715942,
+            "state": "Georgia"
+        },
+        {
+            "address": "Capitol Farmers Market, 2256 E South Blvd, Montgomery, AL 36116",
+            "category": "[\"Farmers' market\", 'Asian grocery store', 'Grocery store', 'Korean grocery store']",
+            "gmap_id": "0x888e803cd0ce2d85:0x6b7fc6e6bd75750b",
+            "iid": 15819,
+            "name": "Capitol Farmers Market",
+            "rank": 14,
+            "score": 0.5751159191131592,
+            "state": "Alabama"
+        },
+        {
+            "address": "Hawaiian Style BBQ, 1719 Gordon Hwy, Augusta, GA 30904",
+            "category": "['Barbecue restaurant', 'Asian fusion restaurant', 'Hawaiian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f9ce0e22a20815:0x12fad79ea0d548a",
+            "iid": 18028,
+            "name": "Hawaiian Style BBQ",
+            "rank": 15,
+            "score": 0.5737541317939758,
+            "state": "Georgia"
+        },
+        {
+            "address": "OK YAKI, 714 Moreland Ave SE Suite D, Atlanta, GA 30316",
+            "category": "['Okonomiyaki restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88f503bc2772fa29:0xe180cc2edd433341",
+            "iid": 17531,
+            "name": "OK YAKI",
+            "rank": 16,
+            "score": 0.5731766223907471,
+            "state": "Georgia"
+        },
+        {
+            "address": "Jumbo Chinese Restaurant, 213 Commerce Ave, LaGrange, GA 30241",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x888b541fa98bde21:0xdbf1fdfeabbf4b9d",
+            "iid": 15786,
+            "name": "Jumbo Chinese Restaurant",
+            "rank": 17,
+            "score": 0.5729543566703796,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kobe Express Japanese Cuisine, 960 E Franklin St, Hartwell, GA 30643",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88588084729ff149:0x598f3bc72268d980",
+            "iid": 15004,
+            "name": "Kobe Express Japanese Cuisine",
+            "rank": 18,
+            "score": 0.5719006657600403,
+            "state": "Georgia"
+        },
+        {
+            "address": "Peking Restaurant, 5048 Yadkin Rd #204, Fayetteville, NC 28303",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89ab6b1f67a65e67:0xdd0cf1fe49d45c98",
+            "iid": 18269,
+            "name": "Peking Restaurant",
+            "rank": 19,
+            "score": 0.5709935426712036,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Pho King Decatur, 319 W Ponce de Leon Ave, Decatur, GA 30030",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x88f5078700815e03:0x251583e29b623a3b",
+            "iid": 17615,
+            "name": "Pho King Decatur",
+            "rank": 20,
+            "score": 0.5692130327224731,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Rightway Hood&exhaust",
+        "uid": 114601,
+        "user_id": 116033899153680145241
+    }
+}

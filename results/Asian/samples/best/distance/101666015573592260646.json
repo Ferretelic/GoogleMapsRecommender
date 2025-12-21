@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Qu\u00e1n Mii Restaurant, 9541 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x80dd27b7ac57a0d7:0x3d1c77bee4c8f511",
+            "iid": 6859,
+            "name": "Qu\u00e1n Mii Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555220099233
+        },
+        {
+            "address": "Gangnam Asian BBQ Dining, 4480 Paradise Rd Ste 600, Las Vegas, NV 89169",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Korean barbecue restaurant', 'Korean restaurant', 'Yakiniku restaurant']",
+            "date": "2019/04/28",
+            "gmap_id": "0x80c8c452e7a9131d:0x1925b1ea7fa69d91",
+            "iid": 5671,
+            "name": "Gangnam Asian BBQ Dining",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1556429640328
+        },
+        {
+            "address": "Hoa Binh Garden Grove Supermarket, 13922 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Asian grocery store', 'Grocery store', 'Supermarket']",
+            "date": "2019/06/03",
+            "gmap_id": "0x80dd27db7ac8928b:0xa0c799c83fb01e6a",
+            "iid": 6871,
+            "name": "Hoa Binh Garden Grove Supermarket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559522243305
+        },
+        {
+            "address": "Streets by Bistro Orient, 74 N Skyline Dr, Thousand Oaks, CA 91362",
+            "category": "['Asian fusion restaurant', 'Bar', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x80e82522869799e7:0x8ac532f2b3304705",
+            "iid": 7205,
+            "name": "Streets by Bistro Orient",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1563569837650
+        },
+        {
+            "address": "Pick Up Stix Fresh Asian Flavors, 30734 Russell Ranch Rd Suite D, Thousand Oaks, CA 91362",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/08/22",
+            "gmap_id": "0x80e824fb23c90759:0x274396935f455504",
+            "iid": 7204,
+            "name": "Pick Up Stix Fresh Asian Flavors",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566505933346
+        },
+        {
+            "address": "Capital Seafood, 8851 Westminster Blvd., Garden Grove, CA 92844",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/11/24",
+            "gmap_id": "0x80dd262c7fbd2f0f:0x2b1bd6cb82a7b063",
+            "iid": 6808,
+            "name": "Capital Seafood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574572117955
+        },
+        {
+            "address": "Flame Broiler, 1025 Broadbeck Dr Suite I, Newbury Park, CA 91320",
+            "category": "['Fast food restaurant', 'Asian restaurant', 'Health food restaurant', 'Restaurant']",
+            "date": "2020/02/20",
+            "gmap_id": "0x80e830bbb8cfab3f:0xfb05886fe6715250",
+            "iid": 7229,
+            "name": "Flame Broiler",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582234782712
+        },
+        {
+            "address": "Saigon City Marketplace, 15471 Brookhurst St, Westminster, CA 92683",
+            "category": "['Supermarket', 'Asian grocery store', 'Discount store']",
+            "date": "2020/03/08",
+            "gmap_id": "0x80dd27a4ca23f7fb:0xe58bee870d03d5fe",
+            "iid": 6853,
+            "name": "Saigon City Marketplace",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583710842852
+        },
+        {
+            "address": "Dalat Supermarket, 13075 Euclid St, Garden Grove, CA 92843",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2020/11/23",
+            "gmap_id": "0x80dd27e290f6015d:0xab4f6b64a40e6b39",
+            "iid": 6872,
+            "name": "Dalat Supermarket",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1606101262201
+        },
+        {
+            "address": "AA Market, 13220 Harbor Blvd, Garden Grove, CA 92843",
+            "category": "['Asian grocery store', 'Supermarket']",
+            "date": "2020/12/14",
+            "gmap_id": "0x80dcd804296f451d:0x95b18a76c8e20c87",
+            "iid": 6540,
+            "name": "AA Market",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1607911515233
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 382 W Hillcrest Dr, Thousand Oaks, CA 91360",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80e83a99203bb2bd:0x9606adb7fe51b490",
+            "iid": 7241,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": -2.326913833618164,
+            "state": "California"
+        },
+        {
+            "address": "P.F. Chang's To Go, 213 W Hubbard St, Chicago, IL 60654",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2d42306554ff:0x1e7b171b4a859340",
+            "iid": 12614,
+            "name": "P.F. Chang's To Go",
+            "rank": 2,
+            "score": -2.3370449542999268,
+            "state": "Illinois"
+        },
+        {
+            "address": "Trang Tien, 9609 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Southeast Asian restaurant']",
+            "gmap_id": "0x80dd27b7bd5e5d2b:0xc8f03d8415e334fd",
+            "iid": 6860,
+            "name": "Trang Tien",
+            "rank": 3,
+            "score": -2.383134603500366,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 12971 Beach Blvd, Garden Grove, CA 92841",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd29db27241d13:0x67419b74b2522b38",
+            "iid": 6918,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -2.3914027214050293,
+            "state": "California"
+        },
+        {
+            "address": "Kaishin Malibu, 23715 Malibu Rd, Malibu, CA 90265",
+            "category": "['Cantonese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80e81e344340169b:0x9e878ace67808c81",
+            "iid": 7201,
+            "name": "Kaishin Malibu",
+            "rank": 5,
+            "score": -2.4017062187194824,
+            "state": "California"
+        },
+        {
+            "address": "EXO Sushi, 1731 W Katella Ave suite f, Anaheim, CA 92804",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80dd29a0c183eedb:0xe60a58dc6014ddc2",
+            "iid": 6915,
+            "name": "EXO Sushi",
+            "rank": 6,
+            "score": -2.4066081047058105,
+            "state": "California"
+        },
+        {
+            "address": "Social Monk, 4000 Thousand Oaks Blvd Spc C1, Westlake Village, CA 91362",
+            "category": "['Southeast Asian restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant']",
+            "gmap_id": "0x80e825ce6829d7a3:0x82cf86587e76cefd",
+            "iid": 7208,
+            "name": "Social Monk",
+            "rank": 7,
+            "score": -2.4187395572662354,
+            "state": "California"
+        },
+        {
+            "address": "Chicken Meets Rice (Cupertino), 10445 S De Anza Blvd Unit 101, Cupertino, CA 95014",
+            "category": "['Chicken shop', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808fb5eca1eaee93:0x95c61effe7c9518d",
+            "iid": 3399,
+            "name": "Chicken Meets Rice (Cupertino)",
+            "rank": 8,
+            "score": -2.421201467514038,
+            "state": "California"
+        },
+        {
+            "address": "Mika Sushi, 2500 Las Posas Rd E, Camarillo, CA 93010",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80e835fd46a23ff3:0x36a367ce14e4941b",
+            "iid": 7234,
+            "name": "Mika Sushi",
+            "rank": 9,
+            "score": -2.422121047973633,
+            "state": "California"
+        },
+        {
+            "address": "X-press Thai, 6750 Gaylord Pkwy #140, Frisco, TX 75034",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x864c3d74088cba95:0xef8e158684c6aae9",
+            "iid": 8838,
+            "name": "X-press Thai",
+            "rank": 10,
+            "score": -2.4233853816986084,
+            "state": "Texas"
+        },
+        {
+            "address": "WaBa Grill, 2941 Cochran St, Simi Valley, CA 93065",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Health food restaurant', 'Rice restaurant']",
+            "gmap_id": "0x80e82919d9c7cec3:0xb229d8f010b27e43",
+            "iid": 7214,
+            "name": "WaBa Grill",
+            "rank": 11,
+            "score": -2.430845260620117,
+            "state": "California"
+        },
+        {
+            "address": "Vua Kho Bo, 13861 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x80dd27db6938a1e7:0xa1de72e6a6da306c",
+            "iid": 6870,
+            "name": "Vua Kho Bo",
+            "rank": 12,
+            "score": -2.4415128231048584,
+            "state": "California"
+        },
+        {
+            "address": "Bonchon Fountain Valley, 16177 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd27e7c3c1c31b:0x709acd0f665633aa",
+            "iid": 6873,
+            "name": "Bonchon Fountain Valley",
+            "rank": 13,
+            "score": -2.4499850273132324,
+            "state": "California"
+        },
+        {
+            "address": "Mandarin House Restaurant, 4585 Pleasant Valley Rd, Camarillo, CA 93012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Mandarin restaurant', 'Restaurant']",
+            "gmap_id": "0x80e8365a9e97bdab:0xde585ccf5367685f",
+            "iid": 7238,
+            "name": "Mandarin House Restaurant",
+            "rank": 14,
+            "score": -2.459372043609619,
+            "state": "California"
+        },
+        {
+            "address": "Xu's Public House, 15 Union Square W, New York, NY 10003",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x89c259ec7de5d24d:0x218bfedc7d4cf785",
+            "iid": 20201,
+            "name": "Xu's Public House",
+            "rank": 15,
+            "score": -2.4695346355438232,
+            "state": "New_York"
+        },
+        {
+            "address": "Tara's Himalayan Cuisine - Ventura, 171 N Reino Rd, Newbury Park, CA 91320",
+            "category": "['Nepalese restaurant', 'Family restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80e8375334827d4d:0x791db561b7cc4fa9",
+            "iid": 7240,
+            "name": "Tara's Himalayan Cuisine - Ventura",
+            "rank": 16,
+            "score": -2.472593069076538,
+            "state": "California"
+        },
+        {
+            "address": "Tri\u2019s Market, 4021 S Washington St, Amarillo, TX 79110",
+            "category": "['Asian grocery store']",
+            "gmap_id": "0x87014f9c6432edcf:0x2bd6476b20046b43",
+            "iid": 9717,
+            "name": "Tri\u2019s Market",
+            "rank": 17,
+            "score": -2.4807372093200684,
+            "state": "Texas"
+        },
+        {
+            "address": "Simply Ramen, 312 Old Morgantown Rd, Bowling Green, KY 42101",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8865ef9085e1074b:0xd7df9f75604a3177",
+            "iid": 15398,
+            "name": "Simply Ramen",
+            "rank": 18,
+            "score": -2.486229181289673,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Y Noodle & Bar, 425 W Fountain St #100, Providence, RI 02903",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Bar', 'Dan Dan noodle restaurant', 'Dumpling restaurant']",
+            "gmap_id": "0x89e445b213eca0f3:0x9008426ecb50ec16",
+            "iid": 22945,
+            "name": "Y Noodle & Bar",
+            "rank": 19,
+            "score": -2.4881532192230225,
+            "state": "Rhode_Island"
+        },
+        {
+            "address": "Panda Express, 5752 Lindero Canyon Rd, Westlake Village, CA 91361",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80e824421fe8a48b:0x6a27eb408144406",
+            "iid": 7202,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -2.490462064743042,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "John Bui",
+        "uid": 11909,
+        "user_id": 101666015573592260646
+    }
+}

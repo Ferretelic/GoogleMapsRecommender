@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai House On Shea, 6949 E Shea Blvd, Scottsdale, AZ 85254",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "date": "2017/07/07",
+            "gmap_id": "0x872b74947e7384d1:0x20d9b2f7487fa7d3",
+            "iid": 10213,
+            "name": "Thai House On Shea",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1499456764271
+        },
+        {
+            "address": "Hiro Sushi, 9393 N 90th St, Scottsdale, AZ 85258",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/01/21",
+            "gmap_id": "0x872b7536caa4395b:0x73062d2012526916",
+            "iid": 10220,
+            "name": "Hiro Sushi",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1516519921444
+        },
+        {
+            "address": "YC\u2019s Mongolian Grill, 9120 Talking Stick Way #8, Scottsdale, AZ 85250, United States",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Buffet restaurant', 'Chinese restaurant', 'Health food restaurant', 'Mongolian barbecue restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2018/01/21",
+            "gmap_id": "0x872b0a93efe8b6db:0x99f1e7550a19967c",
+            "iid": 10023,
+            "name": "YC\u2019s Mongolian Grill",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1516519946731
+        },
+        {
+            "address": "Shish Kabobs and Gyros, 9619 N Hayden Rd #106, Scottsdale, AZ 85258",
+            "category": "['Restaurant', 'Asian restaurant', 'Fast food restaurant', 'Greek restaurant', 'Israeli restaurant', 'Mediterranean restaurant', 'New American restaurant', 'Pho restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "date": "2018/04/28",
+            "gmap_id": "0x872b74d889cb399b:0x1aca2ea8f6dc66a1",
+            "iid": 10215,
+            "name": "Shish Kabobs and Gyros",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1524938400820
+        },
+        {
+            "address": "Akita Sushi, 9011 E V\u00eda Linda, Scottsdale, AZ 85258",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Health food restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "date": "2019/04/10",
+            "gmap_id": "0x872b7533fd6f8fdb:0x76368af25adcd44",
+            "iid": 10219,
+            "name": "Akita Sushi",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1554868859363
+        },
+        {
+            "address": "Thai Basil, 1111 S Rural Rd, Tempe, AZ 85281",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/04/13",
+            "gmap_id": "0x872b08e85bb8c211:0xe4f063919749ae24",
+            "iid": 10012,
+            "name": "Thai Basil",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1555172170696
+        },
+        {
+            "address": "China Wall Restaurant, 6422 U.S. 93 S, Whitefish, MT 59937",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2020/06/03",
+            "gmap_id": "0x53667acc37832edb:0xf396d8f045c4b3ad",
+            "iid": 471,
+            "name": "China Wall Restaurant",
+            "split": "train",
+            "state": "Montana",
+            "unix_time": 1591164238910
+        },
+        {
+            "address": "Tien's Place Oriental AND American Dining, 329 9th St W, Columbia Falls, MT 59912",
+            "category": "['Asian fusion restaurant']",
+            "date": "2020/10/07",
+            "gmap_id": "0x53664106387a1f0f:0x15b06bafd751a3b7",
+            "iid": 464,
+            "name": "Tien's Place Oriental AND American Dining",
+            "split": "train",
+            "state": "Montana",
+            "unix_time": 1602032471002
+        },
+        {
+            "address": "Tea Kettle Asian Kitchen, 12 Spokane Ave, Whitefish, MT 59937",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Gluten-free restaurant', 'Takeout Restaurant', 'Organic restaurant', 'Ramen restaurant', 'Thai restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2020/10/25",
+            "gmap_id": "0x536669b3c95cf583:0x9c80d4395774a282",
+            "iid": 470,
+            "name": "Tea Kettle Asian Kitchen",
+            "split": "valid",
+            "state": "Montana",
+            "unix_time": 1603636052234
+        },
+        {
+            "address": "Thai House, 15577 N Hayden Rd #105, Scottsdale, AZ 85260",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2021/02/10",
+            "gmap_id": "0x872b75c78c992981:0x74db0efe6ffe36e6",
+            "iid": 10230,
+            "name": "Thai House",
+            "split": "test",
+            "state": "Arizona",
+            "unix_time": 1612963731904
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Chicago's Pizza With A Twist, 3950 W Ray Rd, Chandler, AZ 85226",
+            "category": "['Pizza restaurant', 'Asian fusion restaurant', 'Chicken wings restaurant', 'Pizza delivery', 'Pizza Takeout', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x872b07c167253425:0x35fd6030590e7b81",
+            "iid": 9987,
+            "name": "Chicago's Pizza With A Twist",
+            "rank": 1,
+            "score": -2.2005958557128906,
+            "state": "Arizona"
+        },
+        {
+            "address": "AZ Pho Grill, 885 N 54th St STE 5, Chandler, AZ 85226",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Restaurant']",
+            "gmap_id": "0x872b05a8457cb3ff:0x2c94562485107bac",
+            "iid": 9951,
+            "name": "AZ Pho Grill",
+            "rank": 2,
+            "score": -2.4582793712615967,
+            "state": "Arizona"
+        },
+        {
+            "address": "Bop and Roll, 7000 E Mayo Blvd #1086, Phoenix, AZ 85054",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x872b7784fa3097e5:0xfa48ca6148bd7357",
+            "iid": 10233,
+            "name": "Bop and Roll",
+            "rank": 3,
+            "score": -2.4830613136291504,
+            "state": "Arizona"
+        },
+        {
+            "address": "Khao Thai and Sushi, 10855 N Frank Lloyd Wright Blvd STE 100, Scottsdale, AZ 85259",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x872b9f180f39549b:0xd0909779048160dc",
+            "iid": 10238,
+            "name": "Khao Thai and Sushi",
+            "rank": 4,
+            "score": -2.5103039741516113,
+            "state": "Arizona"
+        },
+        {
+            "address": "Carly\u2019s Healthy Cuisine, 215 W Atlantic St, Branson, MO 65616",
+            "category": "['Restaurant', 'American restaurant', 'Asian fusion restaurant', 'Bubble tea store', 'Chinese noodle restaurant', 'Coffee shop', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x87cf03dd6015d021:0x271c7d8cdb64588c",
+            "iid": 11661,
+            "name": "Carly\u2019s Healthy Cuisine",
+            "rank": 5,
+            "score": -2.586970567703247,
+            "state": "Missouri"
+        },
+        {
+            "address": "Koji Express Japanese Grill - South, 3114 S Church St, Murfreesboro, TN 37127",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8863f9d6687c7157:0x2cc7215c944047c",
+            "iid": 15261,
+            "name": "Koji Express Japanese Grill - South",
+            "rank": 6,
+            "score": -2.5972163677215576,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Mahalo Poke Co., 6920 Pacific St suite 110, Omaha, NE 68106",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Hawaiian restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Tea house']",
+            "gmap_id": "0x87938d3e96573159:0x41302764ff4eee62",
+            "iid": 11101,
+            "name": "Mahalo Poke Co.",
+            "rank": 7,
+            "score": -2.5976407527923584,
+            "state": "Nebraska"
+        },
+        {
+            "address": "ADDA by Jimmy's, 744 S Central Expy Suite #230, Richardson, TX 75080",
+            "category": "['Restaurant', 'Indian restaurant', 'Pakistani restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x864c1fae027372db:0x3bf0c042ca79198c",
+            "iid": 8592,
+            "name": "ADDA by Jimmy's",
+            "rank": 8,
+            "score": -2.5985567569732666,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai Lanna2, 7923 US-19, Port Richey, FL 34668",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2912624ae154d:0x4c28cfe8796a022b",
+            "iid": 15966,
+            "name": "Thai Lanna2",
+            "rank": 9,
+            "score": -2.5998494625091553,
+            "state": "Florida"
+        },
+        {
+            "address": "Boru Ramen, 1509 Government St B, Baton Rouge, LA 70802",
+            "category": "['Ramen restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8626a1c2c3934b93:0x788fa92ed76d90eb",
+            "iid": 7485,
+            "name": "Boru Ramen",
+            "rank": 10,
+            "score": -2.601700782775879,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Chin's Szechwan - Carlsbad, 2820 Roosevelt St, Carlsbad, CA 92008",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Dumpling restaurant', 'Soup restaurant']",
+            "gmap_id": "0x80dc736926023cb9:0xb3377acd90a46f16",
+            "iid": 6297,
+            "name": "Chin's Szechwan - Carlsbad",
+            "rank": 11,
+            "score": -2.6050453186035156,
+            "state": "California"
+        },
+        {
+            "address": "MC Restaurant, 324 S Academy St, Cary, NC 27511",
+            "category": "['Asian fusion restaurant']",
+            "gmap_id": "0x89acf34a79b3ba51:0x9fbb9dc86e97b3e8",
+            "iid": 18441,
+            "name": "MC Restaurant",
+            "rank": 12,
+            "score": -2.6058037281036377,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Izumi sushi hibachi all you can eat, 2844 Thousand Oaks Dr, San Antonio, TX 78232",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Mandarin restaurant']",
+            "gmap_id": "0x865c8b41d657a32b:0xb6586010ef1211cb",
+            "iid": 9414,
+            "name": "Izumi sushi hibachi all you can eat",
+            "rank": 13,
+            "score": -2.605994939804077,
+            "state": "Texas"
+        },
+        {
+            "address": "STIX Grill & Bar, 40470 Albrae St, Fremont, CA 94538",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808fc7bbe21041b3:0xec74f36aff820d98",
+            "iid": 3545,
+            "name": "STIX Grill & Bar",
+            "rank": 14,
+            "score": -2.608916997909546,
+            "state": "California"
+        },
+        {
+            "address": "Chang's Dumpling House, 1807 2nd St Suite #35, Santa Fe, NM 87505",
+            "category": "['Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x871851091f8c95ab:0xfe57f0bb70c7bb44",
+            "iid": 9835,
+            "name": "Chang's Dumpling House",
+            "rank": 15,
+            "score": -2.6092755794525146,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Mint Tapas and Sushi Holladay, 3158 6200 S Ste B, Holladay, UT 84121",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Small plates restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8752631dbd2663a9:0x4dd6d2f106a28c11",
+            "iid": 10440,
+            "name": "Mint Tapas and Sushi Holladay",
+            "rank": 16,
+            "score": -2.6106905937194824,
+            "state": "Utah"
+        },
+        {
+            "address": "Lobster Banh Mi, 3095 Peachtree Industrial Blvd #120, Duluth, GA 30097",
+            "category": "['Asian restaurant', 'Coffee shop', 'Frozen yogurt shop', 'Sandwich shop', 'Seafood restaurant', 'Tea house', 'Vietnamese restaurant']",
+            "gmap_id": "0x88f599c58c8c3931:0xe38ec2de2aefd697",
+            "iid": 17813,
+            "name": "Lobster Banh Mi",
+            "rank": 17,
+            "score": -2.611049175262451,
+            "state": "Georgia"
+        },
+        {
+            "address": "Native Noodles, 2129 Amsterdam Ave, New York, NY 10032",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x89c2f7d5422a4c05:0x5b2c88d6ca9acdb9",
+            "iid": 20997,
+            "name": "Native Noodles",
+            "rank": 18,
+            "score": -2.613748073577881,
+            "state": "New_York"
+        },
+        {
+            "address": "Rooster & Rice, 2855 Stevens Creek Blvd, Santa Clara, CA 95050",
+            "category": "['Asian restaurant']",
+            "gmap_id": "0x808fcb1e25ffe103:0xe163e04aa3dd5ef1",
+            "iid": 3613,
+            "name": "Rooster & Rice",
+            "rank": 19,
+            "score": -2.613889217376709,
+            "state": "California"
+        },
+        {
+            "address": "Peacock Indian Restaurant & Bar | Best Indian Food | Best South Indian Food, 3500 Walnut St, Harrisburg, PA 17109",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Caterer', 'Delivery service', 'Takeout Restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c8c76d0df8ab39:0xb0170d2a27a65145",
+            "iid": 21966,
+            "name": "Peacock Indian Restaurant & Bar | Best Indian Food | Best South Indian Food",
+            "rank": 20,
+            "score": -2.6147658824920654,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Chris Shurman",
+        "uid": 89696,
+        "user_id": 112546468696291545303
+    }
+}
