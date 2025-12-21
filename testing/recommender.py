@@ -149,7 +149,6 @@ class LocationKNNRecommender(LocationRecommender):
 
         return scores
 
-
 class LocationLatestKNNRecommender(LocationRecommender):
     def compute_test_user_scores(self, users):
         user_locs = self.get_test_user_latest_locations(users)
@@ -231,6 +230,39 @@ class EmbeddingDotRecommender(EmbeddingRecommender):
         scores = torch.matmul(user_emb, self.item_embs.t())
         return scores
 
+class EmbeddingFoldRecommender(EmbeddingRecommender):
+    def __init__(self, cfg):
+        super().__init__(cfg)
+        self.item_degrees = self.compute_item_degrees()
+
+    def compute_test_user_scores(self, users):
+        batch_user_embs = self.user_embs[users]
+        scores = torch.matmul(batch_user_embs, self.item_embs.t())
+        return scores
+
+    def compute_item_degrees(self):
+        degrees = torch.zeros(self.item_size, device=self.device)
+
+        item_counts = self.train_df["iid"].value_counts()
+        indices = torch.tensor(item_counts.index.values, device=self.device)
+        counts = torch.tensor(item_counts.values, dtype=torch.float32, device=self.device)
+
+        degrees[indices] = counts
+        degrees[degrees == 0] = 1.0
+        return degrees
+
+    def compute_new_user_scores(self, iids):
+        n_history = iids.size(0)
+        target_item_degrees = self.item_degrees[iids]
+
+        norm_factor = 1.0 / torch.sqrt(n_history * target_item_degrees)
+        target_item_embs = self.item_embs[iids]
+
+        user_emb = torch.sum(norm_factor.unsqueeze(1) * target_item_embs, dim=0, keepdim=True)
+        scores = torch.matmul(user_emb, self.item_embs.t())
+
+        return scores
+
 class EmbeddingCosineRecommender(EmbeddingRecommender):
     def compute_test_user_scores(self, users):
         batch_user_embs = self.user_embs[users]
@@ -294,6 +326,10 @@ def load_recommender(cfg, model_info):
 
     elif model_info["type"] == "distance":
         recommender = EmbeddingDistanceRecommender(cfg)
+        recommender.load_embeddings(model_info["model"])
+
+    elif model_info["type"] == "fold":
+        recommender = EmbeddingFoldRecommender(cfg)
         recommender.load_embeddings(model_info["model"])
 
     else:

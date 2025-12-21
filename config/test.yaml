@@ -15,6 +15,10 @@ embeddings:
     type: distance
     model: baseline
 
+  - name: LightGCN Baseline (Fold)
+    type: fold
+    model: baseline
+
   - name: LightGCN Best (Dot)
     type: dot
     model: best
@@ -25,6 +29,10 @@ embeddings:
 
   - name: LightGCN Best (Distance)
     type: distance
+    model: best
+
+  - name: LightGCN Best (Fold)
+    type: fold
     model: best
 
 baselines:
@@ -53,6 +61,5 @@ inference:
   num_samples: 50
   topk: 20
   log:
-    type: dot
+    type: fold
     model: best
-    user_ids: []
