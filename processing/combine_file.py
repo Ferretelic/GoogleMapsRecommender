@@ -46,9 +46,9 @@ def combine_state_files(cfg, mode):
         all_data.append(data)
 
     df = pd.concat(all_data, axis=0)
-    df = df[df["rating"] >= cfg.dataset.min_rating]
 
     if mode == "review":
+        df = df[df["rating"] >= cfg.dataset.min_rating]
         df = filter_reviews_with_k_core(cfg, df)
 
     df.to_csv(file_path, index=False)
