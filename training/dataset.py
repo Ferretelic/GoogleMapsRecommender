@@ -8,26 +8,7 @@ import torch
 from torch.utils.data import Dataset, DataLoader
 from sklearn.neighbors import BallTree
 
-def save_dataset_sizes(cfg):
-    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
-    gmap_ids = np.unique(np.sort(df["gmap_id"].values))
-    user_ids = np.unique(np.sort(df["user_id"].values))
-
-    n_items = gmap_ids.shape[0]
-    n_users = user_ids.shape[0]
-
-    os.makedirs(cfg.paths.result, exist_ok=True)
-    with open(f"{cfg.paths.result}/dataset_size.txt", "w") as f:
-        f.write(f"{n_users},{n_items}")
-
-def load_dataset_sizes(cfg):
-    if not os.path.exists(f"{cfg.paths.result}/dataset_size.txt"):
-        save_dataset_sizes(cfg)
-
-    with open(f"{cfg.paths.result}/dataset_size.txt", "r") as f:
-        sizes = [int(l) for l in f.read().split(",")]
-
-    return sizes
+from utils import *
 
 def add_time_decay(cfg, train_pos, graph_path):
     time_decay = cfg.model.get("time_decay", 0.0)
