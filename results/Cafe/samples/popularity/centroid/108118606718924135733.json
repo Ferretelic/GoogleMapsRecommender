@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 5852 Dennis McCarthy Dr, Lebec, CA 93243",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/30",
+            "gmap_id": "0x80e9f60176cda09d:0x2cfe6be7c961c8bd",
+            "iid": 13091,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556643236936
+        },
+        {
+            "address": "Panera Bread, 150 12th Ave Suite 101, Hanford, CA 93230",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x8094c3ed5702708f:0x86c15c2b3b91e4a1",
+            "iid": 4771,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556994454038
+        },
+        {
+            "address": "Panera Bread, 4103 S Mooney Blvd, Visalia, CA 93277",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/11/17",
+            "gmap_id": "0x80952f2872e74c8f:0x328db528e9dafdb7",
+            "iid": 4839,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574024487845
+        },
+        {
+            "address": "Urth Caffe, 459 S Hewitt St, Los Angeles, CA 90013",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c2c63b819c5a17:0x560b879100a3bb9f",
+            "iid": 7851,
+            "name": "Urth Caffe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574552343218
+        },
+        {
+            "address": "Le Boulevard, 520 S Mooney Blvd, Visalia, CA 93277, United States",
+            "category": "['Coffee shop']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f50a102cfcb:0xdba546ab08329304",
+            "iid": 4843,
+            "name": "Le Boulevard",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338435717
+        },
+        {
+            "address": "Krispy Kreme, 5692 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x809467f6379040b3:0x5a05242cf3d7edb7",
+            "iid": 4721,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338742393
+        },
+        {
+            "address": "The Corner Caf\u00e9, 5219 W Goshen Ave, Visalia, CA 93291, United States",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f9ea08e834f:0x27de00be193d55",
+            "iid": 4855,
+            "name": "The Corner Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338781932
+        },
+        {
+            "address": "The 18hundred, 1800 Chester Ave, Bakersfield, CA 93301",
+            "category": "['Restaurant', 'Bar & grill', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80ea6977f985332f:0x1a119a88d2d1a6c8",
+            "iid": 13169,
+            "name": "The 18hundred",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338791883
+        },
+        {
+            "address": "Milt's Coffee Shop, 6112 Knudsen Dr, Bakersfield, CA 93308",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x80ea42908f5ece89:0x75986a248392dbc8",
+            "iid": 13122,
+            "name": "Milt's Coffee Shop",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578600180018
+        },
+        {
+            "address": "Starbucks, 450 W El Monte Way h, Dinuba, CA 93618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/06/04",
+            "gmap_id": "0x80951e0a0d5dec15:0x5b25494bcbcf5bad",
+            "iid": 4805,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1591239034533
+        }
+    ],
+    "model": {
+        "model": "popularity",
+        "name": "Popularity (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 1607 Glenwood St, Delano, CA 93215",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eae5e97b452ef1:0xfcf7204f9bebfd05",
+            "iid": 13252,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 21.68280601501465,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 975 N Earlimart Ave, Earlimart, CA 93219",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eadd0eb8acb033:0x5ae110c08e17021c",
+            "iid": 13247,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": 10.55164623260498,
+            "state": "California"
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7537,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 3,
+            "score": 10.5311279296875,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 610 Woollomes Ave, Delano, CA 93215",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eae571213c6b77:0x624b1e8e985872ce",
+            "iid": 13250,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": 10.094884872436523,
+            "state": "California"
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 5,
+            "score": 9.824379920959473,
+            "state": "California"
+        },
+        {
+            "address": "The Shoppe @ Bravoland, 33341 Bernard Dr ste a, Kettleman City, CA 93239",
+            "category": "['Gift shop', 'Antique store', 'Cheese shop', 'Coffee shop', 'Dog park', 'Event venue', 'Ice cream shop', 'Playground', 'Public bathroom', 'Wine bar']",
+            "gmap_id": "0x80eb4d45ed1deca5:0xf6d9cdd23ff90393",
+            "iid": 13260,
+            "name": "The Shoppe @ Bravoland",
+            "rank": 6,
+            "score": 9.495386123657227,
+            "state": "California"
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 8233 Firestone Blvd, Downey, CA 90241",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c2cd983a64bc8f:0x1ad5d43088e89bed",
+            "iid": 8299,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 7,
+            "score": 8.534698486328125,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, 4001 California Ave, Bakersfield, CA 93309",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x80ea42008c4abf9f:0x97b50fd34b9582b4",
+            "iid": 13116,
+            "name": "Barnes & Noble",
+            "rank": 8,
+            "score": 7.723495006561279,
+            "state": "California"
+        },
+        {
+            "address": "Madonna Inn, 100 Madonna Rd, San Luis Obispo, CA 93405",
+            "category": "['Hotel', 'Boutique', 'Cafe', 'Gift shop', 'Inn', 'Spa', 'Steak house', 'Tourist attraction']",
+            "gmap_id": "0x80ecf0e660039bc7:0x6f2837fd2edba5ec",
+            "iid": 13416,
+            "name": "Madonna Inn",
+            "rank": 9,
+            "score": 6.673819065093994,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 101 W Sherwood Ave, McFarland, CA 93250",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eaf0810ee1e7c7:0xab008148cb4c7da1",
+            "iid": 13253,
+            "name": "McDonald's",
+            "rank": 10,
+            "score": 5.854135036468506,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 20673 Tracy Ave #101, Buttonwillow, CA 93206",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80ea532302a1c771:0x6a6a81ee65fc0f16",
+            "iid": 13154,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 5.792882919311523,
+            "state": "California"
+        },
+        {
+            "address": "Bottega Louie, 700 S Grand Ave, Los Angeles, CA 90017",
+            "category": "['Italian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Chocolate shop', 'Coffee shop', 'Pastry shop', 'Patisserie', 'Restaurant']",
+            "gmap_id": "0x80c2c7b44ee125ff:0x189e483154a17e53",
+            "iid": 8099,
+            "name": "Bottega Louie",
+            "rank": 12,
+            "score": 5.631311416625977,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 35102 Merle Haggard Dr, Bakersfield, CA 93308",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80ea5d33f028919d:0x1fb50337dd6a3738",
+            "iid": 13159,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": 5.621224880218506,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5844 Dennis McCarthy Dr, Lebec, CA 93243",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e9f6017e65c2ff:0x309452295b530749",
+            "iid": 13092,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 5.5169572830200195,
+            "state": "California"
+        },
+        {
+            "address": "The Original Pantry Cafe, 877 S Figueroa St, Los Angeles, CA 90017",
+            "category": "['Restaurant', 'Grill', 'Breakfast restaurant', 'Cafe', 'Dessert restaurant', 'Diner', 'Down home cooking restaurant', 'Hamburger restaurant', 'Lunch restaurant']",
+            "gmap_id": "0x80c2c7b714d5310f:0xf3a421bd8607c90f",
+            "iid": 8116,
+            "name": "The Original Pantry Cafe",
+            "rank": 15,
+            "score": 5.355932235717773,
+            "state": "California"
+        },
+        {
+            "address": "24th Street Cafe, 1415 24th St, Bakersfield, CA 93301",
+            "category": "['Cafe', 'Diner', 'Hamburger restaurant', 'Restaurant']",
+            "gmap_id": "0x80ea698dc20d87a9:0xe10b7d8713d9b2b",
+            "iid": 13181,
+            "name": "24th Street Cafe",
+            "rank": 16,
+            "score": 5.285765647888184,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 20700 Tracy Ave, Buttonwillow, CA 93206",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80ea533c9da2fda7:0xc0124c5a6585d7b1",
+            "iid": 13155,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 5.184245586395264,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2310 F St, Bakersfield, CA 93301",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80ea69f2a5eafe97:0x632ce77e1ed749fc",
+            "iid": 13190,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": 4.769546031951904,
+            "state": "California"
+        },
+        {
+            "address": "Bob's Big Boy, 4211 W Riverside Dr, Burbank, CA 91505",
+            "category": "['Hamburger restaurant', 'American restaurant', 'Coffee shop', 'Diner', 'Fast food restaurant', 'Historical landmark']",
+            "gmap_id": "0x80c2bfcd2b263829:0x8d2acdfb878a2f0a",
+            "iid": 7499,
+            "name": "Bob's Big Boy",
+            "rank": 19,
+            "score": 4.544704437255859,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1000 Real Rd, Bakersfield, CA 93309",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80ea69ff1382f5d5:0x5b5786fb6158aca0",
+            "iid": 13196,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 4.475725173950195,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Teresa Gonzalez",
+        "uid": 61705,
+        "user_id": 108118606718924135733
+    }
+}

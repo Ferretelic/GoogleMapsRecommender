@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 5852 Dennis McCarthy Dr, Lebec, CA 93243",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/30",
+            "gmap_id": "0x80e9f60176cda09d:0x2cfe6be7c961c8bd",
+            "iid": 13091,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556643236936
+        },
+        {
+            "address": "Panera Bread, 150 12th Ave Suite 101, Hanford, CA 93230",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x8094c3ed5702708f:0x86c15c2b3b91e4a1",
+            "iid": 4771,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556994454038
+        },
+        {
+            "address": "Panera Bread, 4103 S Mooney Blvd, Visalia, CA 93277",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/11/17",
+            "gmap_id": "0x80952f2872e74c8f:0x328db528e9dafdb7",
+            "iid": 4839,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574024487845
+        },
+        {
+            "address": "Urth Caffe, 459 S Hewitt St, Los Angeles, CA 90013",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c2c63b819c5a17:0x560b879100a3bb9f",
+            "iid": 7851,
+            "name": "Urth Caffe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574552343218
+        },
+        {
+            "address": "Le Boulevard, 520 S Mooney Blvd, Visalia, CA 93277, United States",
+            "category": "['Coffee shop']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f50a102cfcb:0xdba546ab08329304",
+            "iid": 4843,
+            "name": "Le Boulevard",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338435717
+        },
+        {
+            "address": "Krispy Kreme, 5692 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x809467f6379040b3:0x5a05242cf3d7edb7",
+            "iid": 4721,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338742393
+        },
+        {
+            "address": "The Corner Caf\u00e9, 5219 W Goshen Ave, Visalia, CA 93291, United States",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f9ea08e834f:0x27de00be193d55",
+            "iid": 4855,
+            "name": "The Corner Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338781932
+        },
+        {
+            "address": "The 18hundred, 1800 Chester Ave, Bakersfield, CA 93301",
+            "category": "['Restaurant', 'Bar & grill', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80ea6977f985332f:0x1a119a88d2d1a6c8",
+            "iid": 13169,
+            "name": "The 18hundred",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338791883
+        },
+        {
+            "address": "Milt's Coffee Shop, 6112 Knudsen Dr, Bakersfield, CA 93308",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x80ea42908f5ece89:0x75986a248392dbc8",
+            "iid": 13122,
+            "name": "Milt's Coffee Shop",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578600180018
+        },
+        {
+            "address": "Starbucks, 450 W El Monte Way h, Dinuba, CA 93618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/06/04",
+            "gmap_id": "0x80951e0a0d5dec15:0x5b25494bcbcf5bad",
+            "iid": 4805,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1591239034533
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "The Little Boba Shop, 1303 Main St #105, Delano, CA 93215",
+            "category": "['Cafe']",
+            "gmap_id": "0x80eae564335d6a9d:0x6e9c869f744d5f7f",
+            "iid": 13249,
+            "name": "The Little Boba Shop",
+            "rank": 1,
+            "score": -5.845856189727783,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1607 Glenwood St, Delano, CA 93215",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eae5e97b452ef1:0xfcf7204f9bebfd05",
+            "iid": 13252,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -5.849414348602295,
+            "state": "California"
+        },
+        {
+            "address": "Victoria Donuts, 428 High St. g, Delano, CA 93215",
+            "category": "['Donut shop', 'Bubble tea store', 'Coffee shop']",
+            "gmap_id": "0x80eae59a97f16f47:0x42cc97d2bb962979",
+            "iid": 13251,
+            "name": "Victoria Donuts",
+            "rank": 3,
+            "score": -6.689469814300537,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 610 Woollomes Ave, Delano, CA 93215",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eae571213c6b77:0x624b1e8e985872ce",
+            "iid": 13250,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": -8.32010555267334,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 520 Woollomes Ave, Delano, CA 93215",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eae55ec77ab5ff:0xcadf35df966141aa",
+            "iid": 13248,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -8.380363464355469,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 975 N Earlimart Ave, Earlimart, CA 93219",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eadd0eb8acb033:0x5ae110c08e17021c",
+            "iid": 13247,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": -10.60922908782959,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 101 W Sherwood Ave, McFarland, CA 93250",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eaf0810ee1e7c7:0xab008148cb4c7da1",
+            "iid": 13253,
+            "name": "McDonald's",
+            "rank": 7,
+            "score": -15.615386962890625,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2100 CA-46, Wasco, CA 93280",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eafe9f6d2a249d:0xddb5a59382ec25d2",
+            "iid": 13255,
+            "name": "McDonald's",
+            "rank": 8,
+            "score": -26.865236282348633,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2125 CA-46, Wasco, CA 93280",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eafe9f22a80af3:0xe02b9fd49ec0e257",
+            "iid": 13254,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -26.971364974975586,
+            "state": "California"
+        },
+        {
+            "address": "Cotton Center Cafe, 15234 Rd 192, Porterville, CA 93257",
+            "category": "['Cafe', 'Restaurant']",
+            "gmap_id": "0x80eacf53b9757c4f:0x9f807a2d5a0c810e",
+            "iid": 13246,
+            "name": "Cotton Center Cafe",
+            "rank": 10,
+            "score": -28.69792938232422,
+            "state": "California"
+        },
+        {
+            "address": "STARBUCKS, 421 W Vandalia Ave, Porterville, CA 93257",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eab9b0f284d763:0x8917cbf0a04d7d62",
+            "iid": 13236,
+            "name": "STARBUCKS",
+            "rank": 11,
+            "score": -31.156400680541992,
+            "state": "California"
+        },
+        {
+            "address": "Caf\u00e9 12:2, 1563 W Olive Ave, Porterville, CA 93257",
+            "category": "['American restaurant', 'Barbecue restaurant', 'Breakfast restaurant', 'Cafe', 'Lunch restaurant', 'Steak house']",
+            "gmap_id": "0x80eac7f362d95bc1:0x462c440a67b1a50d",
+            "iid": 13238,
+            "name": "Caf\u00e9 12:2",
+            "rank": 12,
+            "score": -31.252187728881836,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 947 W Olive Ave, Porterville, CA 93257",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eab8731237c749:0x3686490c5e34e0e9",
+            "iid": 13235,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -31.82668113708496,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 12 S Main St, Porterville, CA 93257",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eab8449755dc21:0xf0fe4c7828957d78",
+            "iid": 13233,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -32.74343490600586,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 8 Olive Ave, Porterville, CA 93257",
+            "category": "['Donut shop', 'Bakery', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eab844816d359f:0x54cd60f491ebc731",
+            "iid": 13232,
+            "name": "Yum Yum Donuts",
+            "rank": 15,
+            "score": -32.772830963134766,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1355 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80eac7ff39de68d3:0x91632fe2f43a0bb4",
+            "iid": 13240,
+            "name": "McDonald's",
+            "rank": 16,
+            "score": -32.88602828979492,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1337 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80eac7ff4efc76a3:0x8bc9915b49dcb492",
+            "iid": 13241,
+            "name": "Panera Bread",
+            "rank": 17,
+            "score": -32.930076599121094,
+            "state": "California"
+        },
+        {
+            "address": "The Mud House, Porterville, CA 93257",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80eab9b51d65e839:0x60b5ca897e08aa87",
+            "iid": 13237,
+            "name": "The Mud House",
+            "rank": 18,
+            "score": -32.998661041259766,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1270 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eac7ff5756fc55:0xb1d73ff837c7adef",
+            "iid": 13242,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -33.020381927490234,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1187 W Henderson Ave Suite A, Porterville, CA 93257",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eab80727d68eb5:0xd205978765d82caf",
+            "iid": 13231,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -33.061153411865234,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Teresa Gonzalez",
+        "uid": 61705,
+        "user_id": 108118606718924135733
+    }
+}
