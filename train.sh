@@ -1,10 +1,5 @@
-python main.py --config-name=geo_distance_neighbors_10_weight_0.1
-python main.py --config-name=geo_distance_neighbors_15_weight_0.1
-python main.py --config-name=geo_distance_threshold_5.0_weight_0.1
-python main.py --config-name=geo_distance_threshold_10.0_weight_0.1
+python main.py --config-name=baseline dataset=Asian
+python main.py --config-name=best dataset=Asian
 
-
-wait
-
-
-echo "Finished training all the models"
+python main.py --config-name=baseline dataset=Cafe
+python main.py --config-name=best dataset=Cafe
