@@ -60,7 +60,6 @@ class LocationRecommender(Recommender):
         self.item_popularity = self.load_item_popularity(cfg)
         self.item_location = self.load_item_location(cfg)
 
-
     def load_item_popularity(self, cfg):
         item_size = self.load_item_size()
         item_popularity = torch.zeros(item_size, dtype=torch.float32).to(self.device)
