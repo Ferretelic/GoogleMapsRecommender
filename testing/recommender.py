@@ -9,8 +9,9 @@ class Recommender:
         self.cfg = cfg
         self.device = torch.device(cfg.device)
 
-        self.train_df = load_split_dataset(cfg, "train")
-        self.train_user_pos = self.train_df.groupby("uid")["iid"].apply(set).to_dict()
+        train_df = load_split_dataset(cfg, "train")
+        self.train_df = train_df.sort_values(by=["uid", "time"]).reset_index(drop=True)
+        self.train_user_pos = self.train_df.groupby("uid")["iid"].apply(list).to_dict()
 
         _, self.item_size = load_dataset_sizes(cfg)
 
@@ -18,7 +19,7 @@ class Recommender:
         users = users.cpu().numpy()
         rows, cols = [], []
         for i, uid in enumerate(users):
-            train_items = self.train_user_pos.get(uid, set())
+            train_items = self.train_user_pos[uid]
             train_items = list(train_items)
             if train_items:
                 rows.extend([i] * len(train_items))
@@ -70,7 +71,7 @@ class LocationRecommender(Recommender):
         batch_centroids = torch.zeros(users.size(0), 2, device=self.device)
 
         for i, uid in enumerate(users.cpu().numpy()):
-            history_iids = list(self.train_user_pos.get(uid, []))
+            history_iids = list(self.train_user_pos[uid])
             hist_indices = torch.tensor(history_iids, device=self.device)
             hist_locs = self.item_location[hist_indices]
 
@@ -78,6 +79,16 @@ class LocationRecommender(Recommender):
             batch_centroids[i] = centroid
 
         return batch_centroids
+
+    def get_user_latest_locations(self, users):
+        latest_iids = []
+        for uid in users.cpu().numpy():
+            latest_iids.append(self.train_user_pos[uid][-1])
+
+        latest_iids = torch.tensor(latest_iids, device=self.device)
+        latest_locs = self.item_location[latest_iids]
+
+        return latest_locs
 
     def compute_haversine_distance(self, center_locs):
         lat1 = center_locs[:, 0:1]
@@ -104,6 +115,14 @@ class LocationKNNRecommender(LocationRecommender):
 
         return scores
 
+class LocationLatestKNNRecommender(LocationRecommender):
+    def compute_scores(self, users):
+        user_locs = self.get_user_latest_locations(users)
+        dists = self.compute_haversine_distance(user_locs)
+        scores = -dists
+
+        return scores
+
 class LocationPopularityRecommender(LocationRecommender):
     def __init__(self, cfg):
         super().__init__(cfg)
@@ -113,6 +132,20 @@ class LocationPopularityRecommender(LocationRecommender):
     def compute_scores(self, users):
         user_centers = self.get_user_centroids(users)
         dists = self.compute_haversine_distance(user_centers)
+
+        pop_scores = self.item_popularity.unsqueeze(0)
+        scores = pop_scores / (dists + self.epsilon)
+        return scores
+
+class LocationLatestPopularityRecommender(LocationRecommender):
+    def __init__(self, cfg):
+        super().__init__(cfg)
+        self.distance_decay = 1.0
+        self.epsilon = 0.1
+
+    def compute_scores(self, users):
+        user_locs = self.get_user_latest_locations(users)
+        dists = self.compute_haversine_distance(user_locs)
 
         pop_scores = self.item_popularity.unsqueeze(0)
         scores = pop_scores / (dists + self.epsilon)
@@ -155,11 +188,19 @@ class EmbeddingDistanceRecommender(EmbeddingRecommender):
         return scores
 
 def load_recommender(cfg, model_info):
-    if model_info["type"] == "baseline":
-        if model_info["model"] == "Popularity":
+    if model_info["type"] == "centroid":
+        if model_info["model"] == "popularity":
             recommender = LocationPopularityRecommender(cfg)
-        elif model_info["model"] == "KNN":
+        elif model_info["model"] == "knn":
             recommender = LocationKNNRecommender(cfg)
+        else:
+            raise NotImplementedError
+
+    elif model_info["type"] == "latest":
+        if model_info["model"] == "popularity":
+            recommender = LocationLatestPopularityRecommender(cfg)
+        elif model_info["model"] == "knn":
+            recommender = LocationLatestKNNRecommender(cfg)
         else:
             raise NotImplementedError
 

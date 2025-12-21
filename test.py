@@ -13,11 +13,9 @@ from utils import *
 
 def load_models(cfg):
     models = []
-    print("Testing baselines...")
-    for baseline in cfg.baselines:
-        models.append({"name": baseline, "type": "baseline", "model": baseline})
+    for model_info in cfg.baselines:
+        models.append(OmegaConf.to_container(model_info, resolve=True))
 
-    print("Testing trained embeddings...")
     for model_info in cfg.embeddings:
         models.append(OmegaConf.to_container(model_info, resolve=True))
 

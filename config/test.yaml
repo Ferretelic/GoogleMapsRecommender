@@ -27,10 +27,24 @@ embeddings:
     type: distance
     model: best
 
-baselines: ["KNN", "Popularity"]
+baselines:
+  - name: "KNN (Centroid)"
+    type: centroid
+    model: knn
+
+  - name: "KNN (Latest)"
+    type: latest
+    model: knn
+
+  - name: "Popularity (Centroid)"
+    type: centroid
+    model: popularity
+
+  - name: "Popularity (Latest)"
+    type: latest
+    model: popularity
 
 test:
-  device: cuda
   batch_size: 1024
   rank: 20
 
