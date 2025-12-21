@@ -11,7 +11,7 @@ from processing.split_dataset import *
 
 from training.lightgcn import *
 from training.trainer import *
-from training.plot_results import *
+from training.evaluation import *
 
 from utils import *
 

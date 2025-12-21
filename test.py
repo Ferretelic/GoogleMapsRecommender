@@ -1,23 +1,14 @@
 import os
-import random
 
 import hydra
-from omegaconf import DictConfig
 import pandas as pd
-import numpy as np
-import torch
 
 from testing.tester import *
 from testing.sampler import *
 from testing.new_user import *
 from testing.metrics import *
 
-def seed_everything(seed=42):
-    random.seed(seed)
-    os.environ["PYTHONHASHSEED"] = str(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
+from utils import *
 
 def calculate_metrics(cfg):
     if os.path.exists(f"{cfg.paths.result}/test_results.csv"):
@@ -66,7 +57,7 @@ def recommend_new_users(cfg):
         sampler.sample(model, users)
 
 @hydra.main(version_base=None, config_path="config", config_name="test")
-def main(cfg: DictConfig):
+def main(cfg):
     seed_everything()
 
     print("Comparing model performances on validation datast...")

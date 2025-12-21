@@ -1,8 +1,16 @@
 import os
 import json
 
-import pandas as pd
-from hydra import initialize, compose
+from utils import *
+
+def load_new_users(cfg):
+    users = []
+    for file_name in os.listdir(cfg.paths.users):
+        with open(f"{cfg.paths.users}/{file_name}", "r") as f:
+            user = json.load(f)
+        users.append(user)
+
+    return users
 
 def search_and_select_places(meta):
     selected_gmap_ids = set()
@@ -49,7 +57,7 @@ def search_and_select_places(meta):
     return list(selected_gmap_ids)
 
 def add_new_user(cfg):
-    meta = pd.read_csv(f"{cfg.paths.combined}/meta.csv")
+    meta = load_combined_datast(cfg, "meta")
     os.makedirs(cfg.paths.users, exist_ok=True)
 
     while True:
