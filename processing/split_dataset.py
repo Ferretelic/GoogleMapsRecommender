@@ -7,7 +7,7 @@ import numpy as np
 from utils import *
 
 def apply_mappings(cfg, df):
-    mappings = load_mappings(cfg, df)
+    mappings = load_mappings(cfg)
     gmap2index, user2index = mappings["gmap2index"], mappings["user2index"]
 
     df["iid"] = df["gmap_id"].apply(lambda x: gmap2index[x])
