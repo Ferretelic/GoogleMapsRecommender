@@ -21,6 +21,10 @@ def load_models(cfg):
 
     return models
 
+def calculate_valid_performances(cfg):
+    update_valid_performances(cfg)
+    plot_validation_results(cfg)
+
 def calculate_metrics(cfg):
     if os.path.exists(f"{cfg.paths.result}/test_performances.csv"):
         return
@@ -56,7 +60,7 @@ def main(cfg):
     seed_everything()
 
     print("Comparing model performances on validation datast...")
-    update_valid_performances(cfg)
+    calculate_valid_performances(cfg)
 
     print("Calculating metrics on test dataset...")
     calculate_metrics(cfg)

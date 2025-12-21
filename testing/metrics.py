@@ -58,6 +58,63 @@ def update_valid_performances(cfg):
 
     df.to_csv(f"{cfg.paths.result}/valid_performances.csv", index=False)
 
+def plot_history_line(results, metric, ax, palette):
+    sns.lineplot(results, x="epoch", y=metric, ax=ax, hue="name", palette=palette)
+
+    ax.set_title(f"Comparison of training history of {metric}")
+    ax.set_xlabel("Epoch")
+    ax.set_ylabel(metric)
+    ax.legend()
+
+def plot_ndcg_bar(results, metric, ax, palette):
+    results = results[results["best"]]
+    sns.barplot(results, x="name", y=metric, ax=ax, hue="name", palette=palette)
+
+    ax.set_title(f"Comparison of valid {metric}")
+    ax.set_xlabel("Models")
+    ax.set_ylabel(metric)
+
+def plot_validation_results(cfg):
+    results = []
+    for log_file in os.listdir(cfg.paths.logs):
+        name = log_file.replace(".json", "")
+
+        with open(f"{cfg.paths.logs}/{log_file}", "r") as f:
+            valid = json.load(f)["valid"]
+
+        recall, ndcg = valid["recall"], valid["ndcg"]
+
+        best_index = np.argmax(ndcg)
+        best = [False] * len(ndcg)
+        best[best_index] = True
+        df = pd.DataFrame({
+            "name": [name] * len(ndcg),
+            "epoch": range(len(ndcg)),
+            "best": best,
+            "recall": recall,
+            "ndcg": ndcg,
+        })
+
+        results.append(df)
+
+    results = pd.concat(results, axis=0).reset_index(drop=True)
+
+    sns.set_theme(style="whitegrid", rc={"axes.spines.right": False, "axes.spines.top": False})
+    palette = "Blues"
+    for metric in ["recall", "ndcg"]:
+        _, (ax1, ax2) = plt.subplots(1, 2, figsize=(20, 8))
+
+        plt.suptitle(f"Comparison of performances of models on validation dataset")
+
+        plot_history_line(results, metric, ax1, palette)
+        plot_ndcg_bar(results, metric, ax2, palette)
+
+        folder_path = f"{cfg.paths.result}/plots/comparisons/"
+        os.makedirs(folder_path, exist_ok=True)
+        plt.tight_layout()
+        plt.savefig(f"{folder_path}/{metric}.png")
+        plt.close()
+
 def add_radar_chart(df, fig, cmap):
     ax1 = fig.add_subplot(221, polar=True)
 
@@ -101,14 +158,6 @@ def add_scatter_plot(df, fig, cmap):
         hue="name", palette=cmap, s=300, alpha=0.9, ax=ax2,
         edgecolor="white"
     )
-
-    best_model_name = "LightGCN Best (Dot)"
-    if best_model_name in df["name"].values:
-        best_model = df[df["name"] == best_model_name]
-        ax2.scatter(
-            best_model["diversity"], best_model["recall"],
-            s=600, facecolors="none", edgecolors="#666666", linewidth=2, linestyle="--"
-        )
 
     ax2.set_title("The Trade-off Frontier: Accuracy vs Diversity", size=15)
     ax2.set_xlabel("Diversity", fontsize=12)
