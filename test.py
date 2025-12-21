@@ -62,7 +62,6 @@ def analyze_models(cfg):
         if model_info["type"] == "dot":
             models.append(model_info["model"])
 
-    models = set(models)
     for model in models:
         analyze_embeddings(cfg, model)
 
