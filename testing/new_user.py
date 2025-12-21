@@ -58,7 +58,16 @@ def search_and_select_places(meta):
 
 def add_new_user(cfg):
     meta = load_combined_datast(cfg, "meta")
+    index2gmap = load_mappings(cfg)["index2gmap"]
+    iids = [index2gmap[str(iid)] for iid in load_splits_dataset(cfg)["iid"].unique()]
+    meta = meta[meta["gmap_id"].isin(iids)]
+
     os.makedirs(cfg.paths.users, exist_ok=True)
+
+    print("-" * 80)
+    print("Current Users")
+    for user in load_new_users(cfg):
+        print(f"  [{user["user_id"]:2d}] {user["name"]}")
 
     while True:
         print("\n" + "=" * 20)
@@ -97,3 +106,5 @@ def add_new_user(cfg):
         if cont != "y":
             print("Finished.")
             break
+
+    print("-" * 80)

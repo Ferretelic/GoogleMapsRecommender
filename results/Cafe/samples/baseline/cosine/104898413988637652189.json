@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Caffe Frascati, 315 S 1st St, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Espresso bar', 'Live music venue']",
+            "date": "2016/07/31",
+            "gmap_id": "0x808fccba653b063b:0xc54e60f26512abce",
+            "iid": 3939,
+            "name": "Caffe Frascati",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470006376702
+        },
+        {
+            "address": "La Lune Sucr\u00e9e, 116 Paseo de San Antonio, San Jose, CA 95112",
+            "category": "['Cafe', 'Bakery', 'Box lunch supplier', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Sandwich shop']",
+            "date": "2016/09/10",
+            "gmap_id": "0x808fccbbd4394103:0x981e3df4fc697d68",
+            "iid": 3944,
+            "name": "La Lune Sucr\u00e9e",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473523863099
+        },
+        {
+            "address": "Yeganeh Bakery and Kafe Unik, 3275 Stevens Creek Blvd, San Jose, CA 95117",
+            "category": "['Coffee shop', 'Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Espresso bar', 'Halal restaurant', 'Juice shop', 'Middle Eastern restaurant', 'Sandwich shop', 'Wi-Fi spot']",
+            "date": "2016/11/21",
+            "gmap_id": "0x808fb624d833dcfd:0x19a67c29ce238297",
+            "iid": 3517,
+            "name": "Yeganeh Bakery and Kafe Unik",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1479756370978
+        },
+        {
+            "address": "Headlands Coffeehouse, 120 E Laurel St, Fort Bragg, CA 95437",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2016/11/29",
+            "gmap_id": "0x80803548ef18b583:0xc14e52a91c36b296",
+            "iid": 191,
+            "name": "Headlands Coffeehouse",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1480405020702
+        },
+        {
+            "address": "Double D's Coffee, 9449 Main St, Upper Lake, CA 95485",
+            "category": "['Cafe']",
+            "date": "2016/11/29",
+            "gmap_id": "0x8083dcd86d2abd87:0xa2b89ddf743e859b",
+            "iid": 339,
+            "name": "Double D's Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1480405067745
+        },
+        {
+            "address": "Noah's NY Bagels, 1140 Lincoln Ave, San Jose, CA 95125",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "date": "2017/01/14",
+            "gmap_id": "0x808e33578940a657:0x8dfd2e3babdba166",
+            "iid": 2317,
+            "name": "Noah's NY Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1484425881656
+        },
+        {
+            "address": "Bel Bacio Cafe, 350 W Julian St #4, San Jose, CA 95110",
+            "category": "['Cafe']",
+            "date": "2018/01/01",
+            "gmap_id": "0x808fcca1d2a217d9:0x542d59d763f2a005",
+            "iid": 3921,
+            "name": "Bel Bacio Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514841913624
+        },
+        {
+            "address": "Manresa Bread, 276 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Bakery', 'Cafe']",
+            "date": "2018/04/08",
+            "gmap_id": "0x808e35f028857fff:0xe4a160ab1e6e82e2",
+            "iid": 2407,
+            "name": "Manresa Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523149562966
+        },
+        {
+            "address": "Douce France, 855 El Camino Real #104, Palo Alto, CA 94301",
+            "category": "['Bakery', 'Cafe', 'Coffee shop']",
+            "date": "2018/05/27",
+            "gmap_id": "0x808fbb2516173e1f:0x692ff849e7db409f",
+            "iid": 3612,
+            "name": "Douce France",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1527392638649
+        },
+        {
+            "address": "Flower Flour, 896 Willow St, San Jose, CA 95125",
+            "category": "['Wedding bakery', 'Bakery', 'Coffee shop', 'Dessert shop']",
+            "date": "2020/07/03",
+            "gmap_id": "0x808e335724593a53:0x63cf94ea38b1f0e8",
+            "iid": 2315,
+            "name": "Flower Flour",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1593791438358
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Vero's Coffee Bar, 387 S 1st St, San Jose, CA 95113",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fccb099a8e34d:0x7b7f1427d1bc094a",
+            "iid": 3934,
+            "name": "Vero's Coffee Bar",
+            "rank": 1,
+            "score": 0.7806692123413086,
+            "state": "California"
+        },
+        {
+            "address": "Crema Coffee Roasting Co., 1202 The Alameda, San Jose, CA 95126",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fcb5d41fb2701:0x27b149493649bc48",
+            "iid": 3861,
+            "name": "Crema Coffee Roasting Co.",
+            "rank": 2,
+            "score": 0.7088640332221985,
+            "state": "California"
+        },
+        {
+            "address": "Flower Flour, 896 Willow St, San Jose, CA 95125",
+            "category": "['Wedding bakery', 'Bakery', 'Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x808e335724593a53:0x63cf94ea38b1f0e8",
+            "iid": 2315,
+            "name": "Flower Flour",
+            "rank": 3,
+            "score": 0.6687882542610168,
+            "state": "California"
+        },
+        {
+            "address": "Voyager Craft Coffee, 87 N San Pedro St, San Jose, CA 95110",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fcd9abd27124b:0xe298f6183d9f219a",
+            "iid": 3977,
+            "name": "Voyager Craft Coffee",
+            "rank": 4,
+            "score": 0.6668758392333984,
+            "state": "California"
+        },
+        {
+            "address": "@YC, 347 E Taylor St, San Jose, CA 95112",
+            "category": "['Sandwich shop', 'Art cafe', 'Coffee shop']",
+            "gmap_id": "0x808fcc85d43ff919:0x7a1ad15c4a206196",
+            "iid": 3917,
+            "name": "@YC",
+            "rank": 5,
+            "score": 0.6376340389251709,
+            "state": "California"
+        },
+        {
+            "address": "Roy's Station Coffee & Tea, 197 Jackson St, San Jose, CA 95112",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808fcc84949bd917:0xe66c13c3bf8f3dcf",
+            "iid": 3915,
+            "name": "Roy's Station Coffee & Tea",
+            "rank": 6,
+            "score": 0.6288675665855408,
+            "state": "California"
+        },
+        {
+            "address": "Thirst Tea, 150 S 1st St #118, San Jose, CA 95113",
+            "category": "['Cafe', 'Tea house']",
+            "gmap_id": "0x808fccbb6b40b411:0xc929a8ef57b91cdd",
+            "iid": 3940,
+            "name": "Thirst Tea",
+            "rank": 7,
+            "score": 0.6287839412689209,
+            "state": "California"
+        },
+        {
+            "address": "Chromatic Coffee, 17 N 2nd St, San Jose, CA 95113",
+            "category": "['Cafe']",
+            "gmap_id": "0x808fccbd29b60439:0x8ddccf4c79811b6e",
+            "iid": 3948,
+            "name": "Chromatic Coffee",
+            "rank": 8,
+            "score": 0.6217054128646851,
+            "state": "California"
+        },
+        {
+            "address": "Academic Coffee, 499 S 2nd St, San Jose, CA 95113",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fccb728925b21:0x23fa8af46e1c653d",
+            "iid": 3936,
+            "name": "Academic Coffee",
+            "rank": 9,
+            "score": 0.6215898394584656,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Rosalena, 1077 The Alameda, San Jose, CA 95126",
+            "category": "['Restaurant', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Diner']",
+            "gmap_id": "0x808fcb5d6ccff945:0x197bdd750482827b",
+            "iid": 3864,
+            "name": "Cafe Rosalena",
+            "rank": 10,
+            "score": 0.6170956492424011,
+            "state": "California"
+        },
+        {
+            "address": "Agave Taqueria & Cafe, 17 S 4th St, San Jose, CA 95112",
+            "category": "['Mexican restaurant', 'Cafe']",
+            "gmap_id": "0x808fccbc57074a39:0x169d8ac9683113e1",
+            "iid": 3947,
+            "name": "Agave Taqueria & Cafe",
+            "rank": 11,
+            "score": 0.610610842704773,
+            "state": "California"
+        },
+        {
+            "address": "The Source, 1109 Lincoln Ave # 10, San Jose, CA 95125",
+            "category": "['Vegan restaurant', 'Acupuncturist', 'Cafe', 'Chinese medicine clinic', 'Coffee shop', 'Juice shop', 'Delivery Restaurant']",
+            "gmap_id": "0x808e3357e7c2ed2d:0xa56fbc92aea541fc",
+            "iid": 2318,
+            "name": "The Source",
+            "rank": 12,
+            "score": 0.6097254753112793,
+            "state": "California"
+        },
+        {
+            "address": "Gente Cafe, 17 N 2nd St, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Pastry shop', 'Tea house']",
+            "gmap_id": "0x808fcdf4c47089e7:0x21808a67fc773304",
+            "iid": 3980,
+            "name": "Gente Cafe",
+            "rank": 13,
+            "score": 0.6087223291397095,
+            "state": "California"
+        },
+        {
+            "address": "Living Room Coffee Craft, 1711 S Winchester Blvd, Campbell, CA 95008",
+            "category": "['Coffee shop', 'Bakery']",
+            "gmap_id": "0x808e350725a75729:0xfe45f2781ab8fc97",
+            "iid": 2378,
+            "name": "Living Room Coffee Craft",
+            "rank": 14,
+            "score": 0.599296510219574,
+            "state": "California"
+        },
+        {
+            "address": "Nirvana Soul, 315 S 1st St, San Jose, CA 95113",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fcdf9b0ce52cf:0xfdeac7a5e235e1b0",
+            "iid": 3981,
+            "name": "Nirvana Soul",
+            "rank": 15,
+            "score": 0.5972926616668701,
+            "state": "California"
+        },
+        {
+            "address": "Mosswood Market, 14111 CA-128, Boonville, CA 95415",
+            "category": "['Cafe', 'Bakery']",
+            "gmap_id": "0x80816a37460464b3:0x47aed7157c207ccf",
+            "iid": 224,
+            "name": "Mosswood Market",
+            "rank": 16,
+            "score": 0.5968255996704102,
+            "state": "California"
+        },
+        {
+            "address": "Regal Bagel, 125 Bernal Rd, San Jose, CA 95119",
+            "category": "['Bagel shop', 'Bakery', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x808e2faf84d15b0d:0x7c37f281b2dcccb",
+            "iid": 2260,
+            "name": "Regal Bagel",
+            "rank": 17,
+            "score": 0.5958855748176575,
+            "state": "California"
+        },
+        {
+            "address": "Camellia Coffee Roasters, 1104 R St STE 150, Sacramento, CA 95811",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ad126c86aaaab:0x383510cdf447e037",
+            "iid": 5189,
+            "name": "Camellia Coffee Roasters",
+            "rank": 18,
+            "score": 0.5930339097976685,
+            "state": "California"
+        },
+        {
+            "address": "Plank Coffee Cloverdale, 227 N Cloverdale Blvd, Cloverdale, CA 95425",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x8083ff6e9f45b3dd:0x5842da41675ad377",
+            "iid": 350,
+            "name": "Plank Coffee Cloverdale",
+            "rank": 19,
+            "score": 0.5921215415000916,
+            "state": "California"
+        },
+        {
+            "address": "Crema Coffee Roasting Company., 238 Race St, San Jose, CA 95126",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fcb5dcd63db11:0xf52ddebcbcaf993b",
+            "iid": 3865,
+            "name": "Crema Coffee Roasting Company.",
+            "rank": 20,
+            "score": 0.5920546054840088,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Ralf B.",
+        "uid": 37070,
+        "user_id": 104898413988637652189
+    }
+}

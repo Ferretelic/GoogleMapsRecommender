@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Enoteca La Storia, 416 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Italian restaurant', 'Bar', 'Cafe', 'Fine dining restaurant', 'Restaurant', 'Wine bar']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e35ee0d56fc19:0x3168c2e2b1ea32ed",
+            "iid": 2404,
+            "name": "Enoteca La Storia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557968945821
+        },
+        {
+            "address": "Morro Bay Coffee Co, 948 Morro Bay Blvd, Morro Bay, CA 93442",
+            "category": "['Coffee shop']",
+            "date": "2019/05/16",
+            "gmap_id": "0x80ece1707ca2a125:0xc61d64f9319fb2ac",
+            "iid": 13379,
+            "name": "Morro Bay Coffee Co",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557969232507
+        },
+        {
+            "address": "Bouchon Bakery, 6528 Washington St, Yountville, CA 94599",
+            "category": "['Bakery', 'Cafe', 'Caterer']",
+            "date": "2019/05/16",
+            "gmap_id": "0x80845554165da903:0xe8dff9533f6712cc",
+            "iid": 526,
+            "name": "Bouchon Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557969366960
+        },
+        {
+            "address": "Barefoot Coffee, 1819 S Bascom Ave, Campbell, CA 95008",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e34c3b4018493:0x665aa3cad7eeded2",
+            "iid": 2363,
+            "name": "Barefoot Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557969580148
+        },
+        {
+            "address": "The Picnic Basket, 125 Beach St, Santa Cruz, CA 95060",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Deli', 'Ice cream shop', 'Lunch restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e6a9a43cb1f37:0x120b81b8862f2a0d",
+            "iid": 2489,
+            "name": "The Picnic Basket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557973393715
+        },
+        {
+            "address": "Gold Rush On Broadway, 2742 Broadway St, Eureka, CA 95501",
+            "category": "['Cafe']",
+            "date": "2019/05/16",
+            "gmap_id": "0x54d3fff83ab95dc3:0x584da1f0b43d35bb",
+            "iid": 171,
+            "name": "Gold Rush On Broadway",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557976476070
+        },
+        {
+            "address": "Caffino Drive-Thru Espresso., 2790 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808fca6419ecca2f:0x6499b89e38074f8e",
+            "iid": 3811,
+            "name": "Caffino Drive-Thru Espresso.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557981145799
+        },
+        {
+            "address": "Brown Chicken Brown Cow, 397 E Campbell Ave, Campbell, CA 95008",
+            "category": "['Sandwich shop', 'Bar', 'Cafe', 'Hamburger restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e34de602ed64d:0x1291796a0e89a2ba",
+            "iid": 2371,
+            "name": "Brown Chicken Brown Cow",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557982145087
+        },
+        {
+            "address": "Big Mug Coffee Roaster, 3014 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Coffee shop']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808fca129ca13001:0xb516fdf2b4c2a30b",
+            "iid": 3804,
+            "name": "Big Mug Coffee Roaster",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1557982273080
+        },
+        {
+            "address": "Panera Bread, 503 Coleman Ave, San Jose, CA 95110",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808fcb6225b6ef79:0x2eea68e19c26161e",
+            "iid": 3867,
+            "name": "Panera Bread",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1557982409903
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Just Right Family Cafe, 2135 S Winchester Blvd STE 100, Campbell, CA 95008",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e35205207d719:0x6e0868334131f0fb",
+            "iid": 2382,
+            "name": "Just Right Family Cafe",
+            "rank": 1,
+            "score": -1.904140591621399,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1811 Hillsdale Ave, San Jose, CA 95124",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x808e3580cb92d8bd:0xff6a6e40ae99dece",
+            "iid": 2391,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -1.9934731721878052,
+            "state": "California"
+        },
+        {
+            "address": "Alpaca Cafe, 1600 S Azusa Ave #162, City of Industry, CA 91748",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d59563d37251:0xfa05272978ecee2f",
+            "iid": 8491,
+            "name": "Alpaca Cafe",
+            "rank": 3,
+            "score": -2.0123891830444336,
+            "state": "California"
+        },
+        {
+            "address": "Scales Cafe & Deli, 30 Old Fisherman\u2019s Wharf, Monterey, CA 93940",
+            "category": "['Cafe']",
+            "gmap_id": "0x808de4187b5dfb51:0xd2a8357299d5c869",
+            "iid": 2043,
+            "name": "Scales Cafe & Deli",
+            "rank": 4,
+            "score": -2.021573066711426,
+            "state": "California"
+        },
+        {
+            "address": "Secret Spot, 17200 Pacific Coast Hwy, Huntington Beach, CA 92649",
+            "category": "['Cafe', 'Breakfast restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80dd250fc6a6d2f1:0xe3e584c932901182",
+            "iid": 11865,
+            "name": "Secret Spot",
+            "rank": 5,
+            "score": -2.03059983253479,
+            "state": "California"
+        },
+        {
+            "address": "Wilshire's Apple Shed, Yucaipa, CA 92399",
+            "category": "['Cafe']",
+            "gmap_id": "0x80db4f0a77680ffd:0x7f053707fd75a958",
+            "iid": 9947,
+            "name": "Wilshire's Apple Shed",
+            "rank": 6,
+            "score": -2.0658581256866455,
+            "state": "California"
+        },
+        {
+            "address": "Shrine Coffee, 544 W Cliff Dr, Santa Cruz, CA 95060",
+            "category": "['Coffee shop', 'Tea store']",
+            "gmap_id": "0x808e6b390832002d:0xd2fbbd3569e2334a",
+            "iid": 2496,
+            "name": "Shrine Coffee",
+            "rank": 7,
+            "score": -2.069287061691284,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Society, 10800 Torre Ave STE 100, Cupertino, CA 95014",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fb5a83e7e8fcb:0xd0647501b2b16e63",
+            "iid": 3493,
+            "name": "Coffee Society",
+            "rank": 8,
+            "score": -2.071680784225464,
+            "state": "California"
+        },
+        {
+            "address": "Ain't Normal Cafe, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d9ed6e3a86b:0x691165ec6ef61201",
+            "iid": 1020,
+            "name": "Ain't Normal Cafe",
+            "rank": 9,
+            "score": -2.0873281955718994,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 6892,
+            "name": "CAFE5",
+            "rank": 10,
+            "score": -2.1141388416290283,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11147,
+            "name": "Auntie Anne's",
+            "rank": 11,
+            "score": -2.1192233562469482,
+            "state": "California"
+        },
+        {
+            "address": "Heist Cafe, 678 Post St, San Francisco, CA 94109",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Brunch restaurant']",
+            "gmap_id": "0x8085815b9eba301f:0xee3ea320cd862a19",
+            "iid": 1685,
+            "name": "Heist Cafe",
+            "rank": 12,
+            "score": -2.177924633026123,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 13,
+            "score": -2.1879446506500244,
+            "state": "California"
+        },
+        {
+            "address": "Paper Moon Cafe, 17 N 2nd St, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Cafe', 'Tea house']",
+            "gmap_id": "0x808fcd2dcfd53531:0xdba005a5679b7b0f",
+            "iid": 3967,
+            "name": "Paper Moon Cafe",
+            "rank": 14,
+            "score": -2.1993229389190674,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12429,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 15,
+            "score": -2.202488899230957,
+            "state": "California"
+        },
+        {
+            "address": "Nordstrom Ebar Artisan Coffee, 550 Stanford Shopping Center, Palo Alto, CA 94304",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fbb333a82f94f:0x8631d379aadb7ac2",
+            "iid": 3622,
+            "name": "Nordstrom Ebar Artisan Coffee",
+            "rank": 16,
+            "score": -2.2043089866638184,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 852 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808fb5e41bb927e7:0x67a51d7b2ef6a492",
+            "iid": 3506,
+            "name": "Dunkin'",
+            "rank": 17,
+            "score": -2.2055320739746094,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 12697,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.2059693336486816,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3711 E Shaw Ave Suite 101, Clovis, CA 93619",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80945b6798778b57:0xe04dbb89bd457e0f",
+            "iid": 4604,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.211664915084839,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 5323 S Western Ave, Los Angeles, CA 90062",
+            "category": "['Donut shop', 'Coffee shop', 'Pastry shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2b72be095c915:0xfe9bfccb5cb57eb7",
+            "iid": 6687,
+            "name": "Winchell's Donut House",
+            "rank": 20,
+            "score": -2.2121331691741943,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Shawn Hamby",
+        "uid": 71111,
+        "user_id": 109366149719454356306
+    }
+}

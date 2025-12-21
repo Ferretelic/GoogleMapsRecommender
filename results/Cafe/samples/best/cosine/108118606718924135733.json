@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 5852 Dennis McCarthy Dr, Lebec, CA 93243",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/30",
+            "gmap_id": "0x80e9f60176cda09d:0x2cfe6be7c961c8bd",
+            "iid": 13091,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556643236936
+        },
+        {
+            "address": "Panera Bread, 150 12th Ave Suite 101, Hanford, CA 93230",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x8094c3ed5702708f:0x86c15c2b3b91e4a1",
+            "iid": 4771,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556994454038
+        },
+        {
+            "address": "Panera Bread, 4103 S Mooney Blvd, Visalia, CA 93277",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/11/17",
+            "gmap_id": "0x80952f2872e74c8f:0x328db528e9dafdb7",
+            "iid": 4839,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574024487845
+        },
+        {
+            "address": "Urth Caffe, 459 S Hewitt St, Los Angeles, CA 90013",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c2c63b819c5a17:0x560b879100a3bb9f",
+            "iid": 7851,
+            "name": "Urth Caffe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574552343218
+        },
+        {
+            "address": "Le Boulevard, 520 S Mooney Blvd, Visalia, CA 93277, United States",
+            "category": "['Coffee shop']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f50a102cfcb:0xdba546ab08329304",
+            "iid": 4843,
+            "name": "Le Boulevard",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338435717
+        },
+        {
+            "address": "Krispy Kreme, 5692 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x809467f6379040b3:0x5a05242cf3d7edb7",
+            "iid": 4721,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338742393
+        },
+        {
+            "address": "The Corner Caf\u00e9, 5219 W Goshen Ave, Visalia, CA 93291, United States",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f9ea08e834f:0x27de00be193d55",
+            "iid": 4855,
+            "name": "The Corner Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338781932
+        },
+        {
+            "address": "The 18hundred, 1800 Chester Ave, Bakersfield, CA 93301",
+            "category": "['Restaurant', 'Bar & grill', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80ea6977f985332f:0x1a119a88d2d1a6c8",
+            "iid": 13169,
+            "name": "The 18hundred",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338791883
+        },
+        {
+            "address": "Milt's Coffee Shop, 6112 Knudsen Dr, Bakersfield, CA 93308",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x80ea42908f5ece89:0x75986a248392dbc8",
+            "iid": 13122,
+            "name": "Milt's Coffee Shop",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578600180018
+        },
+        {
+            "address": "Starbucks, 450 W El Monte Way h, Dinuba, CA 93618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/06/04",
+            "gmap_id": "0x80951e0a0d5dec15:0x5b25494bcbcf5bad",
+            "iid": 4805,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1591239034533
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Char-Cu-Te-Rie, 211 W Main St, Visalia, CA 93291",
+            "category": "['Cafe', 'Restaurant']",
+            "gmap_id": "0x80952f645161d5c7:0xcfb5630994a5e909",
+            "iid": 4848,
+            "name": "Char-Cu-Te-Rie",
+            "rank": 1,
+            "score": 0.6647350192070007,
+            "state": "California"
+        },
+        {
+            "address": "Corner Bakery Cafe, 4021 S Mooney Blvd Ste G-1B, Visalia, CA 93277",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "gmap_id": "0x80952f28772944b9:0x3a6cdfaf0333531a",
+            "iid": 4840,
+            "name": "Corner Bakery Cafe",
+            "rank": 2,
+            "score": 0.657909631729126,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3401 W Noble Ave A, Visalia, CA 93277",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809528a9fb036d8d:0xfafc983f1c7313dc",
+            "iid": 4816,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.6395400762557983,
+            "state": "California"
+        },
+        {
+            "address": "Tazz.Coffee, 501 W Main St, Visalia, CA 93291",
+            "category": "['Cafe']",
+            "gmap_id": "0x80952f6690c9b3f5:0x1ca6ef1dfcb6f430",
+            "iid": 4850,
+            "name": "Tazz.Coffee",
+            "rank": 4,
+            "score": 0.6343191266059875,
+            "state": "California"
+        },
+        {
+            "address": "Component Coffee Lab, 514 E Main St, Visalia, CA 93292",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80952f6241dcbc97:0x69aac6e0466a4e2b",
+            "iid": 4844,
+            "name": "Component Coffee Lab",
+            "rank": 5,
+            "score": 0.6317196488380432,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5103 W Goshen Ave, Visalia, CA 93291",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8095261565eb65c9:0x70d7ed7bb9afde95",
+            "iid": 4811,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": 0.6295590996742249,
+            "state": "California"
+        },
+        {
+            "address": "The Human Bean Tulare County, 1331 West Caldwell Avenue 942 S Mooney Blvd, Tulare, Visalia, CA 93277",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80952f6f1ae2f237:0xbb03c460d10ba7dc",
+            "iid": 4851,
+            "name": "The Human Bean Tulare County",
+            "rank": 7,
+            "score": 0.6224206686019897,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3010 N Mooney Blvd Unit 101, Visalia, CA 93291",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809525dd832bd029:0x82630ec88bc8d953",
+            "iid": 4809,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 0.617016077041626,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 110 W Main St, Visalia, CA 93291",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80952f64fcde22f9:0x6437719c3868eff",
+            "iid": 4849,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 0.6166242361068726,
+            "state": "California"
+        },
+        {
+            "address": "Primo Espresso, 108 S Akers St, Visalia, CA 93291",
+            "category": "['Cafe', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x8095262270b20505:0x7d62895c2356a05",
+            "iid": 4812,
+            "name": "Primo Espresso",
+            "rank": 10,
+            "score": 0.6056575775146484,
+            "state": "California"
+        },
+        {
+            "address": "Mavericks Coffee Company, 238 E Caldwell Ave, Visalia, CA 93277",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80952ee2ab8b3b51:0xc138bd12a16fe310",
+            "iid": 4834,
+            "name": "Mavericks Coffee Company",
+            "rank": 11,
+            "score": 0.598738968372345,
+            "state": "California"
+        },
+        {
+            "address": "Clay Cafe Ceramic Arts, 1018 E Mineral King Ave, Visalia, CA 93292",
+            "category": "['Art cafe', 'Art center']",
+            "gmap_id": "0x80952f76f8b09747:0xf673b866e05e3ed2",
+            "iid": 4852,
+            "name": "Clay Cafe Ceramic Arts",
+            "rank": 12,
+            "score": 0.5964353084564209,
+            "state": "California"
+        },
+        {
+            "address": "Jammin Java, 1720 E Noble Ave, Visalia, CA 93292",
+            "category": "['Coffee shop', 'Store']",
+            "gmap_id": "0x80952f9ec46f65a7:0xb1283adf80588504",
+            "iid": 4856,
+            "name": "Jammin Java",
+            "rank": 13,
+            "score": 0.5918439030647278,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5101 W Walnut Ave A, Visalia, CA 93277",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809528bd4f600229:0xd4f52f654e65b3d1",
+            "iid": 4817,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 0.5851248502731323,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1349 E Noble Ave, Visalia, CA 93292",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80952f09fc3ba9c9:0xdf265c6c7514452c",
+            "iid": 4835,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": 0.5821192264556885,
+            "state": "California"
+        },
+        {
+            "address": "Panini Nut House, 209 W Main St ste c, Visalia, CA 93291",
+            "category": "['Cafe']",
+            "gmap_id": "0x80952f644d00a8e7:0x1b552dbf7643f4ed",
+            "iid": 4847,
+            "name": "Panini Nut House",
+            "rank": 16,
+            "score": 0.5765693187713623,
+            "state": "California"
+        },
+        {
+            "address": "Mama K's Diner, 233 W Main St, Visalia, CA 93291",
+            "category": "['Diner', 'Cafe']",
+            "gmap_id": "0x80952f644823823d:0xeb5582bed1296713",
+            "iid": 4846,
+            "name": "Mama K's Diner",
+            "rank": 17,
+            "score": 0.5710283517837524,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3927 W Caldwell Ave A, Visalia, CA 93277",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809528cfb222183b:0xe2fd4f4e8d7d6134",
+            "iid": 4818,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.5649595856666565,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4219 S Mooney Blvd #A, Visalia, CA 93277",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80952f281d038393:0x853247dbcca3fdc8",
+            "iid": 4838,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 0.5556555986404419,
+            "state": "California"
+        },
+        {
+            "address": "Wildflower Cafe, 121 S E St, Exeter, CA 93221",
+            "category": "['Cafe', 'Bakery', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x809533ff740aba51:0xd561b742b7e2ad63",
+            "iid": 4860,
+            "name": "Wildflower Cafe",
+            "rank": 20,
+            "score": 0.5495291352272034,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Teresa Gonzalez",
+        "uid": 61705,
+        "user_id": 108118606718924135733
+    }
+}

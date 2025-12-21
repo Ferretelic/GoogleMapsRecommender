@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 5852 Dennis McCarthy Dr, Lebec, CA 93243",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/30",
+            "gmap_id": "0x80e9f60176cda09d:0x2cfe6be7c961c8bd",
+            "iid": 13091,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556643236936
+        },
+        {
+            "address": "Panera Bread, 150 12th Ave Suite 101, Hanford, CA 93230",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x8094c3ed5702708f:0x86c15c2b3b91e4a1",
+            "iid": 4771,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556994454038
+        },
+        {
+            "address": "Panera Bread, 4103 S Mooney Blvd, Visalia, CA 93277",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/11/17",
+            "gmap_id": "0x80952f2872e74c8f:0x328db528e9dafdb7",
+            "iid": 4839,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574024487845
+        },
+        {
+            "address": "Urth Caffe, 459 S Hewitt St, Los Angeles, CA 90013",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c2c63b819c5a17:0x560b879100a3bb9f",
+            "iid": 7851,
+            "name": "Urth Caffe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574552343218
+        },
+        {
+            "address": "Le Boulevard, 520 S Mooney Blvd, Visalia, CA 93277, United States",
+            "category": "['Coffee shop']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f50a102cfcb:0xdba546ab08329304",
+            "iid": 4843,
+            "name": "Le Boulevard",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338435717
+        },
+        {
+            "address": "Krispy Kreme, 5692 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x809467f6379040b3:0x5a05242cf3d7edb7",
+            "iid": 4721,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338742393
+        },
+        {
+            "address": "The Corner Caf\u00e9, 5219 W Goshen Ave, Visalia, CA 93291, United States",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80952f9ea08e834f:0x27de00be193d55",
+            "iid": 4855,
+            "name": "The Corner Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338781932
+        },
+        {
+            "address": "The 18hundred, 1800 Chester Ave, Bakersfield, CA 93301",
+            "category": "['Restaurant', 'Bar & grill', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x80ea6977f985332f:0x1a119a88d2d1a6c8",
+            "iid": 13169,
+            "name": "The 18hundred",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1578338791883
+        },
+        {
+            "address": "Milt's Coffee Shop, 6112 Knudsen Dr, Bakersfield, CA 93308",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x80ea42908f5ece89:0x75986a248392dbc8",
+            "iid": 13122,
+            "name": "Milt's Coffee Shop",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1578600180018
+        },
+        {
+            "address": "Starbucks, 450 W El Monte Way h, Dinuba, CA 93618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/06/04",
+            "gmap_id": "0x80951e0a0d5dec15:0x5b25494bcbcf5bad",
+            "iid": 4805,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1591239034533
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 5359 University Dr, Irvine, CA 92612",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcddcdbd920acd:0x7a027b99809e5014",
+            "iid": 11391,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": -2.319018602371216,
+            "state": "California"
+        },
+        {
+            "address": "Ocean View Cafe, 1400 Main St, Montara, CA 94037",
+            "category": "['Cafe']",
+            "gmap_id": "0x808f71c150f69f33:0xc6603b69938a6c84",
+            "iid": 2505,
+            "name": "Ocean View Cafe",
+            "rank": 2,
+            "score": -2.3757376670837402,
+            "state": "California"
+        },
+        {
+            "address": "The Power Plant Coffee, 7990 CA-1, Moss Landing, CA 95039",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e0736345ea5a5:0xa3898e72629a3cca",
+            "iid": 2157,
+            "name": "The Power Plant Coffee",
+            "rank": 3,
+            "score": -2.386758327484131,
+            "state": "California"
+        },
+        {
+            "address": "The Cup, 385 Novel B3, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dcc3818e0c0ff9:0xdd62cdf82b3a2fee",
+            "iid": 10950,
+            "name": "The Cup",
+            "rank": 4,
+            "score": -2.389646053314209,
+            "state": "California"
+        },
+        {
+            "address": "Stoble Coffee, 418 Broadway St, Chico, CA 95928",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x8083276f3be27437:0xdb025d436f754f4e",
+            "iid": 282,
+            "name": "Stoble Coffee",
+            "rank": 5,
+            "score": -2.39111065864563,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6597 Collins Dr, Moorpark, CA 93021",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e82d56ebdc28b3:0x9b8c6beaf817c757",
+            "iid": 12773,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.394076347351074,
+            "state": "California"
+        },
+        {
+            "address": "Chant\u2019el Cafe, 1750 Prairie City Rd Ste 150, Folsom, CA 95630",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ae58feefb1791:0xceb210acdf8785ed",
+            "iid": 5484,
+            "name": "Chant\u2019el Cafe",
+            "rank": 7,
+            "score": -2.3943698406219482,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 2739 Santa Rosa Ave, Santa Rosa, CA 95407",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808449558b8a1231:0x9880135b7b2409e",
+            "iid": 488,
+            "name": "Dunkin'",
+            "rank": 8,
+            "score": -2.3953800201416016,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 73 Lee Rd, Watsonville, CA 95076",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808e1b3d123f3b59:0xaf41c5a735856949",
+            "iid": 2215,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -2.3955914974212646,
+            "state": "California"
+        },
+        {
+            "address": "Cafe De Mama, 1102 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b9506215aeab:0xf6fe0f900a73fd73",
+            "iid": 6907,
+            "name": "Cafe De Mama",
+            "rank": 10,
+            "score": -2.3970444202423096,
+            "state": "California"
+        },
+        {
+            "address": "Sharetea, 2010 Birch Rd, Chula Vista, CA 91915",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d94558432d8119:0xe042877e396a09eb",
+            "iid": 9240,
+            "name": "Sharetea",
+            "rank": 11,
+            "score": -2.3980472087860107,
+            "state": "California"
+        },
+        {
+            "address": "Twisted St. Cafe, 2320 Lombard St, San Francisco, CA 94123",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Coffee store', 'Lunch restaurant', 'Pastry shop', 'Snack bar', 'Soft drinks shop']",
+            "gmap_id": "0x80858189021a99f5:0x7722d36a036bc4a9",
+            "iid": 1695,
+            "name": "Twisted St. Cafe",
+            "rank": 12,
+            "score": -2.3981974124908447,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -2.3998804092407227,
+            "state": "California"
+        },
+        {
+            "address": "Tea Lyfe Saratoga, 14554 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e4b21ccbdf3f5:0x92d5b8e58ffd703c",
+            "iid": 2471,
+            "name": "Tea Lyfe Saratoga",
+            "rank": 14,
+            "score": -2.399982213973999,
+            "state": "California"
+        },
+        {
+            "address": "The Hall Coffee House, 600 N Avalon Blvd unit C, Wilmington, CA 90744",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd352b28a9d14d:0xb9fdaf27185928aa",
+            "iid": 12449,
+            "name": "The Hall Coffee House",
+            "rank": 15,
+            "score": -2.4009945392608643,
+            "state": "California"
+        },
+        {
+            "address": "Dirtbag Coffee Shop, 204 E State St, Redlands, CA 92373",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dcab58ec7a5d8f:0x87169c2b47bc1b59",
+            "iid": 10798,
+            "name": "Dirtbag Coffee Shop",
+            "rank": 16,
+            "score": -2.401623010635376,
+            "state": "California"
+        },
+        {
+            "address": "Grain Traders, 1010 N Fairfax Ave, West Hollywood, CA 90046",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c2bf36af08dbaf:0x2aa83e8894294289",
+            "iid": 7432,
+            "name": "Grain Traders",
+            "rank": 17,
+            "score": -2.4049174785614014,
+            "state": "California"
+        },
+        {
+            "address": "Pink Rose Cafe, 8209 La Mesa Blvd, La Mesa, CA 91942",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d957a709f303e9:0xe8ae4abe76947444",
+            "iid": 9705,
+            "name": "Pink Rose Cafe",
+            "rank": 18,
+            "score": -2.4059507846832275,
+            "state": "California"
+        },
+        {
+            "address": "MudLab, 440 Grand Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Artist', 'Bakery', 'Coworking space', 'Event venue', 'Grocery store', 'Pasta shop']",
+            "gmap_id": "0x80857d0750490b69:0xad3394d0ef19731b",
+            "iid": 1010,
+            "name": "MudLab",
+            "rank": 19,
+            "score": -2.4063069820404053,
+            "state": "California"
+        },
+        {
+            "address": "Spot Brazil, 1344 Garnet Ave, San Diego, CA 92109",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc010a69c5d08d:0x72739f93a73df55b",
+            "iid": 10281,
+            "name": "Spot Brazil",
+            "rank": 20,
+            "score": -2.406911611557007,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Teresa Gonzalez",
+        "uid": 61705,
+        "user_id": 108118606718924135733
+    }
+}

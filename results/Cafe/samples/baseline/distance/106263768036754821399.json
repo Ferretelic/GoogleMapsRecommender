@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 3805 Thousand Oaks Blvd, Westlake Village, CA 91361",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/07/04",
+            "gmap_id": "0x80e824e2e290396f:0x4bdce1de8a1b4bb",
+            "iid": 12718,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1530686066567
+        },
+        {
+            "address": "Starbucks, 14301 Bellflower Blvd, Bellflower, CA 90706",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/04",
+            "gmap_id": "0x80c2cd4f8d9174fd:0x216a864a4706f30e",
+            "iid": 8281,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546561681374
+        },
+        {
+            "address": "Starbucks, 20056 Sherman Way, Canoga Park, CA 91306",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/04",
+            "gmap_id": "0x80c29bf07901fb3d:0x91690486efaff45e",
+            "iid": 6292,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546561688578
+        },
+        {
+            "address": "McDonald's, 2605 Yosemite Ave, Simi Valley, CA 93063",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80e8282c62763f11:0xabb97e22be8b93c7",
+            "iid": 12754,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930314563
+        },
+        {
+            "address": "McDonald's, 2224 N Figueroa St, Los Angeles, CA 90065",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80c2c68e00e1e6b7:0x9220563e89962cc3",
+            "iid": 7920,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930331992
+        },
+        {
+            "address": "McDonald's, 1705 Pacific Coast Hwy, Long Beach, CA 90810",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80dd3166e80e23db:0x89539b6751752b6",
+            "iid": 12316,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930337785
+        },
+        {
+            "address": "Starbucks, 3931 Artesia Blvd, Torrance, CA 90504",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80c2b503cb92bac9:0xef7defb2872f53b3",
+            "iid": 6603,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930364859
+        },
+        {
+            "address": "McDonald's, 15606 Hawthorne Blvd, Lawndale, CA 90260",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80c2b44dd5e6ec89:0x44989da2c66f1de3",
+            "iid": 6567,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930372313
+        },
+        {
+            "address": "McDonald's, 1891 W Malvern Ave, Fullerton, CA 92833",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80dd2a4f13c19515:0x38269358e6b836ad",
+            "iid": 12065,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1549930380537
+        },
+        {
+            "address": "McDonald's, 640 Long Beach Blvd, Long Beach, CA 90813",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/01/18",
+            "gmap_id": "0x80dd314737fb34a1:0x8bc0e9f3cfd0ea31",
+            "iid": 12310,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1610965665492
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 1,
+            "score": -1.6981263160705566,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5411 Diablo Dr, Sacramento, CA 95842",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adfb5618d5a87:0x32b1b6e2249a524d",
+            "iid": 5435,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -2.2101211547851562,
+            "state": "California"
+        },
+        {
+            "address": "Grain Traders, 1010 N Fairfax Ave, West Hollywood, CA 90046",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c2bf36af08dbaf:0x2aa83e8894294289",
+            "iid": 7432,
+            "name": "Grain Traders",
+            "rank": 3,
+            "score": -2.221400260925293,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": -2.222569704055786,
+            "state": "California"
+        },
+        {
+            "address": "Tea Lyfe Saratoga, 14554 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e4b21ccbdf3f5:0x92d5b8e58ffd703c",
+            "iid": 2471,
+            "name": "Tea Lyfe Saratoga",
+            "rank": 5,
+            "score": -2.2302112579345703,
+            "state": "California"
+        },
+        {
+            "address": "SPRO, 500 Church St, San Francisco, CA 94114",
+            "category": "['Cafe', 'Bakery', 'Coffee shop', 'Dessert shop', 'Hamburger restaurant', 'Restaurant', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x808f7f6366731ebd:0x8f3d832962c9ee77",
+            "iid": 2892,
+            "name": "SPRO",
+            "rank": 6,
+            "score": -2.2461624145507812,
+            "state": "California"
+        },
+        {
+            "address": "Sunday Morning, 7201 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2bf59a3f09ef3:0xe6440d61bd88b50c",
+            "iid": 7474,
+            "name": "Sunday Morning",
+            "rank": 7,
+            "score": -2.248307704925537,
+            "state": "California"
+        },
+        {
+            "address": "The Hall Coffee House, 600 N Avalon Blvd unit C, Wilmington, CA 90744",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd352b28a9d14d:0xb9fdaf27185928aa",
+            "iid": 12449,
+            "name": "The Hall Coffee House",
+            "rank": 8,
+            "score": -2.2511956691741943,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 14788 Bear Valley Rd, Victorville, CA 92395",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80c367ba222e446f:0x1056d19a9bc484da",
+            "iid": 9158,
+            "name": "Dutch Bros Coffee",
+            "rank": 9,
+            "score": -2.2513844966888428,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2746 Marconi Ave, Sacramento, CA 95821",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809ad92286444629:0xf7230ca5d878c0ff",
+            "iid": 5283,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.253054618835449,
+            "state": "California"
+        },
+        {
+            "address": "COFFEE CULTURES, 1926 Park St, Alameda, CA 94501",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f87c152ade279:0xc8d4d25779e9912c",
+            "iid": 3135,
+            "name": "COFFEE CULTURES",
+            "rank": 11,
+            "score": -2.2533349990844727,
+            "state": "California"
+        },
+        {
+            "address": "Red Bay Coffee, 1 Ferry Building, Shop 43, San Francisco, CA 94111",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808581cc8dc53cf3:0x8b2f70a22ddda347",
+            "iid": 1708,
+            "name": "Red Bay Coffee",
+            "rank": 12,
+            "score": -2.2566168308258057,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 13,
+            "score": -2.2595248222351074,
+            "state": "California"
+        },
+        {
+            "address": "M\u00e1s Cafecito Coffee, 13224 Valley Blvd, La Puente, CA 91746",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2d7059cdf3023:0x470e6336cec8ab0f",
+            "iid": 8510,
+            "name": "M\u00e1s Cafecito Coffee",
+            "rank": 14,
+            "score": -2.2595996856689453,
+            "state": "California"
+        },
+        {
+            "address": "Yonder Coffee, 9028 Balboa Blvd, Northridge, CA 91325",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c29b6e9606301f:0x6e89b800c7be44b5",
+            "iid": 6267,
+            "name": "Yonder Coffee",
+            "rank": 15,
+            "score": -2.261152505874634,
+            "state": "California"
+        },
+        {
+            "address": "Twisted St. Cafe, 2320 Lombard St, San Francisco, CA 94123",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Coffee store', 'Lunch restaurant', 'Pastry shop', 'Snack bar', 'Soft drinks shop']",
+            "gmap_id": "0x80858189021a99f5:0x7722d36a036bc4a9",
+            "iid": 1695,
+            "name": "Twisted St. Cafe",
+            "rank": 16,
+            "score": -2.261284112930298,
+            "state": "California"
+        },
+        {
+            "address": "Ocean View Cafe, 1400 Main St, Montara, CA 94037",
+            "category": "['Cafe']",
+            "gmap_id": "0x808f71c150f69f33:0xc6603b69938a6c84",
+            "iid": 2505,
+            "name": "Ocean View Cafe",
+            "rank": 17,
+            "score": -2.261357307434082,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 14170 Limonite Ave, Eastvale, CA 92880",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dccb8e2d8e4f69:0x71a00d84104a3a3e",
+            "iid": 10991,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.2631094455718994,
+            "state": "California"
+        },
+        {
+            "address": "Dirtbag Coffee Shop, 204 E State St, Redlands, CA 92373",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dcab58ec7a5d8f:0x87169c2b47bc1b59",
+            "iid": 10798,
+            "name": "Dirtbag Coffee Shop",
+            "rank": 19,
+            "score": -2.2639293670654297,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -2.266153573989868,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Manuel Villagran",
+        "uid": 47513,
+        "user_id": 106263768036754821399
+    }
+}

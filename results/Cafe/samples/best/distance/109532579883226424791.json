@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 1198 San Pablo Ave, Berkeley, CA 94706",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/01/28",
+            "gmap_id": "0x80857ecdb434744b:0x89362b570fa54baf",
+            "iid": 1165,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517153833109
+        },
+        {
+            "address": "McDonald's, 1100 Fillmore St, San Francisco, CA 94102",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/01/28",
+            "gmap_id": "0x808580bb058365f7:0xfd5ee1b75e539d41",
+            "iid": 1550,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517154039054
+        },
+        {
+            "address": "McDonald's, 1402 Tara Hills Dr, Pinole, CA 94564",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x80857702279a9487:0x41710d3abc84f72d",
+            "iid": 921,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536592958862
+        },
+        {
+            "address": "Starbucks, 14330 San Pablo Ave A, San Pablo, CA 94806",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/09/10",
+            "gmap_id": "0x808577e80ba8a0bb:0x62c4de23eabdf6c5",
+            "iid": 935,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536593023866
+        },
+        {
+            "address": "McDonald's, 14480 San Pablo Ave, San Pablo, CA 94806",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x808577c2a64c97e3:0xddaae98c1ae37c47",
+            "iid": 934,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536593044315
+        },
+        {
+            "address": "McDonald's, 14480 San Pablo Ave, San Pablo, CA 94806",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x808577c2a64c97e3:0xddaae98c1ae37c47",
+            "iid": 934,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536593044315
+        },
+        {
+            "address": "McDonald's, 6623 San Pablo Ave, Oakland, CA 94608",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/09/13",
+            "gmap_id": "0x80857e604fe1e3bf:0x6cf3965dde7edc1a",
+            "iid": 1091,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568400259683
+        },
+        {
+            "address": "McDonald's, 3350 Klose Way, Richmond, CA 94806",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/03/29",
+            "gmap_id": "0x808577b7cbc715eb:0x8ed0d8f643265c06",
+            "iid": 933,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1585519327295
+        },
+        {
+            "address": "McDonald's, 300 E Louise Ave, Lathrop, CA 95330",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/04/04",
+            "gmap_id": "0x80901583d84c65cb:0xec2b4b580d7bac19",
+            "iid": 4219,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1617508930427
+        },
+        {
+            "address": "McDonald's, 4400 Central Pl, Fairfield, CA 94534",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/04/22",
+            "gmap_id": "0x808513b5a59c3e45:0x8923d6147634e16",
+            "iid": 610,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1619123751839
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Cafe Pascal, 2181 Meeker Ave, Richmond, CA 94804",
+            "category": "['Breakfast restaurant', 'Bistro', 'Cafe']",
+            "gmap_id": "0x8085787057f79cc7:0x4e9dc74e5638f2e6",
+            "iid": 946,
+            "name": "Cafe Pascal",
+            "rank": 1,
+            "score": -2.126129388809204,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4500 Macdonald Ave, Richmond, CA 94805",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x8085785401707159:0x2b0066b7b813b2ff",
+            "iid": 944,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -2.1740407943725586,
+            "state": "California"
+        },
+        {
+            "address": "FasTrack Coffee Company, Elsewhere Tavern, 4156 Appian Way, El Sobrante, CA 94803",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808577a0252fc38f:0xd51709b8909975eb",
+            "iid": 931,
+            "name": "FasTrack Coffee Company",
+            "rank": 3,
+            "score": -2.197683811187744,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Tapioca, 1581 Sycamore Ave, Hercules, CA 94547",
+            "category": "['Cafe']",
+            "gmap_id": "0x808576d5d73d2899:0xe8d274c5f0e5abb2",
+            "iid": 916,
+            "name": "Cafe Tapioca",
+            "rank": 4,
+            "score": -2.21170973777771,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1400 Fitzgerald Dr, Pinole, CA 94564",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857706ef59e5b5:0xd7f2779990a5de93",
+            "iid": 923,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -2.2182414531707764,
+            "state": "California"
+        },
+        {
+            "address": "Alpaca Cafe, 1600 S Azusa Ave #162, City of Industry, CA 91748",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d59563d37251:0xfa05272978ecee2f",
+            "iid": 8491,
+            "name": "Alpaca Cafe",
+            "rank": 6,
+            "score": -2.279622793197632,
+            "state": "California"
+        },
+        {
+            "address": "NANA Crepe, 10172 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Cr\u00eaperie', 'Coffee shop', 'Dessert shop', 'Ice cream shop', 'Moroccan restaurant']",
+            "gmap_id": "0x8085798eb453a53f:0x2da60fb90d64d208",
+            "iid": 972,
+            "name": "NANA Crepe",
+            "rank": 7,
+            "score": -2.2870402336120605,
+            "state": "California"
+        },
+        {
+            "address": "Joy Cafe 94801, 1400 Macdonald Ave, Richmond, CA 94801",
+            "category": "['Chinese restaurant', 'Cafe', 'Diner']",
+            "gmap_id": "0x80857807f45d0e29:0x4bb102d1080fc064",
+            "iid": 937,
+            "name": "Joy Cafe 94801",
+            "rank": 8,
+            "score": -2.3067922592163086,
+            "state": "California"
+        },
+        {
+            "address": "Secret Spot, 17200 Pacific Coast Hwy, Huntington Beach, CA 92649",
+            "category": "['Cafe', 'Breakfast restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80dd250fc6a6d2f1:0xe3e584c932901182",
+            "iid": 11865,
+            "name": "Secret Spot",
+            "rank": 9,
+            "score": -2.356820583343506,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12429,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 10,
+            "score": -2.3853812217712402,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 11,
+            "score": -2.3899893760681152,
+            "state": "California"
+        },
+        {
+            "address": "Wilshire's Apple Shed, Yucaipa, CA 92399",
+            "category": "['Cafe']",
+            "gmap_id": "0x80db4f0a77680ffd:0x7f053707fd75a958",
+            "iid": 9947,
+            "name": "Wilshire's Apple Shed",
+            "rank": 12,
+            "score": -2.429553985595703,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 6892,
+            "name": "CAFE5",
+            "rank": 13,
+            "score": -2.430266857147217,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 12697,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.437189817428589,
+            "state": "California"
+        },
+        {
+            "address": "Blue Bottle Coffee, 201 S B St Suite A, San Mateo, CA 94401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f9f3f022a4c77:0xaf610a6142fd79a1",
+            "iid": 3327,
+            "name": "Blue Bottle Coffee",
+            "rank": 15,
+            "score": -2.4476237297058105,
+            "state": "California"
+        },
+        {
+            "address": "Hayk's Cake House, 13521 Sherman Way Unit A, Van Nuys, CA 91405",
+            "category": "['Bakery', 'Cafe', 'Cake shop', 'Coffee shop', 'Pastry shop', 'Restaurant', 'Sandwich shop', 'Wedding bakery']",
+            "gmap_id": "0x80c296e8a9ce2ef3:0x32588a63d9842e93",
+            "iid": 6143,
+            "name": "Hayk's Cake House",
+            "rank": 16,
+            "score": -2.4578518867492676,
+            "state": "California"
+        },
+        {
+            "address": "Paderia Bakehouse, 3032 Wilshire Blvd Suite E, Santa Monica, CA 90403",
+            "category": "['Bakery', 'Coffee shop', 'Dessert restaurant']",
+            "gmap_id": "0x80c2bbc354788743:0xdb7088f2d792724c",
+            "iid": 7195,
+            "name": "Paderia Bakehouse",
+            "rank": 17,
+            "score": -2.479757070541382,
+            "state": "California"
+        },
+        {
+            "address": "Ebar, 130 E Sailer Dr, San Mateo, CA 94403",
+            "category": "['Internet cafe', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x808f9f031167c7b1:0x4fc218227a0de65d",
+            "iid": 3317,
+            "name": "Ebar",
+            "rank": 18,
+            "score": -2.483119249343872,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11147,
+            "name": "Auntie Anne's",
+            "rank": 19,
+            "score": -2.4878172874450684,
+            "state": "California"
+        },
+        {
+            "address": "MUGS Coffee Roasters, 3557 E 3rd St, Los Angeles, CA 90063",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2cffbeb171e6d:0xc7c8aeeec810638e",
+            "iid": 8374,
+            "name": "MUGS Coffee Roasters",
+            "rank": 20,
+            "score": -2.494978427886963,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "jolene Smith",
+        "uid": 72319,
+        "user_id": 109532579883226424791
+    }
+}

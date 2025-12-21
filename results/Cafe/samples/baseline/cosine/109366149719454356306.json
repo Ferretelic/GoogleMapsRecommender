@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Enoteca La Storia, 416 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Italian restaurant', 'Bar', 'Cafe', 'Fine dining restaurant', 'Restaurant', 'Wine bar']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e35ee0d56fc19:0x3168c2e2b1ea32ed",
+            "iid": 2404,
+            "name": "Enoteca La Storia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557968945821
+        },
+        {
+            "address": "Morro Bay Coffee Co, 948 Morro Bay Blvd, Morro Bay, CA 93442",
+            "category": "['Coffee shop']",
+            "date": "2019/05/16",
+            "gmap_id": "0x80ece1707ca2a125:0xc61d64f9319fb2ac",
+            "iid": 13379,
+            "name": "Morro Bay Coffee Co",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557969232507
+        },
+        {
+            "address": "Bouchon Bakery, 6528 Washington St, Yountville, CA 94599",
+            "category": "['Bakery', 'Cafe', 'Caterer']",
+            "date": "2019/05/16",
+            "gmap_id": "0x80845554165da903:0xe8dff9533f6712cc",
+            "iid": 526,
+            "name": "Bouchon Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557969366960
+        },
+        {
+            "address": "Barefoot Coffee, 1819 S Bascom Ave, Campbell, CA 95008",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e34c3b4018493:0x665aa3cad7eeded2",
+            "iid": 2363,
+            "name": "Barefoot Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557969580148
+        },
+        {
+            "address": "The Picnic Basket, 125 Beach St, Santa Cruz, CA 95060",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Deli', 'Ice cream shop', 'Lunch restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e6a9a43cb1f37:0x120b81b8862f2a0d",
+            "iid": 2489,
+            "name": "The Picnic Basket",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557973393715
+        },
+        {
+            "address": "Gold Rush On Broadway, 2742 Broadway St, Eureka, CA 95501",
+            "category": "['Cafe']",
+            "date": "2019/05/16",
+            "gmap_id": "0x54d3fff83ab95dc3:0x584da1f0b43d35bb",
+            "iid": 171,
+            "name": "Gold Rush On Broadway",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557976476070
+        },
+        {
+            "address": "Caffino Drive-Thru Espresso., 2790 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808fca6419ecca2f:0x6499b89e38074f8e",
+            "iid": 3811,
+            "name": "Caffino Drive-Thru Espresso.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557981145799
+        },
+        {
+            "address": "Brown Chicken Brown Cow, 397 E Campbell Ave, Campbell, CA 95008",
+            "category": "['Sandwich shop', 'Bar', 'Cafe', 'Hamburger restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808e34de602ed64d:0x1291796a0e89a2ba",
+            "iid": 2371,
+            "name": "Brown Chicken Brown Cow",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557982145087
+        },
+        {
+            "address": "Big Mug Coffee Roaster, 3014 El Camino Real, Santa Clara, CA 95051",
+            "category": "['Coffee shop']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808fca129ca13001:0xb516fdf2b4c2a30b",
+            "iid": 3804,
+            "name": "Big Mug Coffee Roaster",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1557982273080
+        },
+        {
+            "address": "Panera Bread, 503 Coleman Ave, San Jose, CA 95110",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x808fcb6225b6ef79:0x2eea68e19c26161e",
+            "iid": 3867,
+            "name": "Panera Bread",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1557982409903
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Blvd Coffee, 15525 Los Gatos Blvd, Los Gatos, CA 95032",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Espresso bar', 'Lunch restaurant']",
+            "gmap_id": "0x808e35b84cb61523:0xdfd7ef964d62c878",
+            "iid": 2394,
+            "name": "Blvd Coffee",
+            "rank": 1,
+            "score": 0.7132027745246887,
+            "state": "California"
+        },
+        {
+            "address": "Heartbeat Cafe, 14392 Union Ave, San Jose, CA 95124",
+            "category": "['Cafe']",
+            "gmap_id": "0x808e345b467e5561:0xaaae83eb88f1b54e",
+            "iid": 2354,
+            "name": "Heartbeat Cafe",
+            "rank": 2,
+            "score": 0.6821616291999817,
+            "state": "California"
+        },
+        {
+            "address": "Mystic Bean Cafe, 1070 US-101, Crescent City, CA 95531",
+            "category": "['Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x54d066220a510885:0xf1ac457b67b59e14",
+            "iid": 41,
+            "name": "Mystic Bean Cafe",
+            "rank": 3,
+            "score": 0.6382119655609131,
+            "state": "California"
+        },
+        {
+            "address": "Flower Flour, 896 Willow St, San Jose, CA 95125",
+            "category": "['Wedding bakery', 'Bakery', 'Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x808e335724593a53:0x63cf94ea38b1f0e8",
+            "iid": 2315,
+            "name": "Flower Flour",
+            "rank": 4,
+            "score": 0.6345049142837524,
+            "state": "California"
+        },
+        {
+            "address": "Mind's Eye Manufactory & Coffee Lounge, 393 Main St, Ferndale, CA 95536",
+            "category": "['Coffee shop', 'Art gallery', 'Cafe', 'Live music venue', 'Tea house']",
+            "gmap_id": "0x54d410e194ac29bd:0x32387d0bbb41ca9a",
+            "iid": 177,
+            "name": "Mind's Eye Manufactory & Coffee Lounge",
+            "rank": 5,
+            "score": 0.6330636143684387,
+            "state": "California"
+        },
+        {
+            "address": "Lou's Coffee Shop, 15691 Los Gatos Blvd, Los Gatos, CA 95032",
+            "category": "['Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x808e35c786dc64b7:0xa162171a79a371d7",
+            "iid": 2397,
+            "name": "Lou's Coffee Shop",
+            "rank": 6,
+            "score": 0.627196192741394,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 681 Blossom Hill Rd #102, Los Gatos, CA 95123",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e35c6bab93b61:0x99bf22726c178ad3",
+            "iid": 2396,
+            "name": "Philz Coffee",
+            "rank": 7,
+            "score": 0.6236076951026917,
+            "state": "California"
+        },
+        {
+            "address": "Snake & Butterfly, 191 E Campbell Ave, Campbell, CA 95008",
+            "category": "['Chocolate shop', 'Candy store', 'Coffee shop', 'Dessert shop', 'Frozen dessert supplier', 'Ice cream shop', 'Wi-Fi spot']",
+            "gmap_id": "0x808e34df674063b7:0x28ba5bfaa5782d3",
+            "iid": 2375,
+            "name": "Snake & Butterfly",
+            "rank": 8,
+            "score": 0.6119253039360046,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Cat, 255 Mt Hermon Rd A, Scotts Valley, CA 95066",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e472cb3ff3d1b:0xc6945bd85deef4a8",
+            "iid": 2457,
+            "name": "Coffee Cat",
+            "rank": 9,
+            "score": 0.6111547350883484,
+            "state": "California"
+        },
+        {
+            "address": "Great Bear Coffee, 19 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "gmap_id": "0x808e35faf2d097f9:0xa3b8271274843f06",
+            "iid": 2409,
+            "name": "Great Bear Coffee",
+            "rank": 10,
+            "score": 0.6083511710166931,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Guys, 50 E 3rd St #140, Morgan Hill, CA 95037",
+            "category": "['Cafe']",
+            "gmap_id": "0x808e20f2d79e4c5d:0x8563da62d35e00de",
+            "iid": 2228,
+            "name": "Coffee Guys",
+            "rank": 11,
+            "score": 0.6057825684547424,
+            "state": "California"
+        },
+        {
+            "address": "Purple Onion Caf\u00e9, 14107 Winchester Blvd, Los Gatos, CA 95030",
+            "category": "['Cafe', 'Breakfast restaurant', 'Caterer', 'Lunch restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808e350906109211:0xcfafa621a2f60738",
+            "iid": 2379,
+            "name": "Purple Onion Caf\u00e9",
+            "rank": 12,
+            "score": 0.6055872440338135,
+            "state": "California"
+        },
+        {
+            "address": "Hub's Coffee, 630 Blossom Hill Rd #50, San Jose, CA 95123",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808e318f65989e23:0x9b9c6dd9ec322d9f",
+            "iid": 2266,
+            "name": "Hub's Coffee",
+            "rank": 13,
+            "score": 0.5974389314651489,
+            "state": "California"
+        },
+        {
+            "address": "Manresa Bread, 276 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Bakery', 'Cafe']",
+            "gmap_id": "0x808e35f028857fff:0xe4a160ab1e6e82e2",
+            "iid": 2407,
+            "name": "Manresa Bread",
+            "rank": 14,
+            "score": 0.5965332388877869,
+            "state": "California"
+        },
+        {
+            "address": "STEEP Organic Coffee and Tea, 13275 US-101 #7, Hopland, CA 95449",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808158dba147f905:0x4bf9cfb6c3e27d6b",
+            "iid": 211,
+            "name": "STEEP Organic Coffee and Tea",
+            "rank": 15,
+            "score": 0.5956138968467712,
+            "state": "California"
+        },
+        {
+            "address": "Glazier, 326 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Ice cream shop', 'Bubble tea store', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x808e35c81035f6ab:0x9c12335a81d12336",
+            "iid": 2398,
+            "name": "Glazier",
+            "rank": 16,
+            "score": 0.5930548310279846,
+            "state": "California"
+        },
+        {
+            "address": "Psycho Donuts, 2006 S Winchester Blvd, Campbell, CA 95008",
+            "category": "['Donut shop', 'Art gallery', 'Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x808e3520dcaa7599:0x98d211d0865bd282",
+            "iid": 2383,
+            "name": "Psycho Donuts",
+            "rank": 17,
+            "score": 0.590066134929657,
+            "state": "California"
+        },
+        {
+            "address": "Lost Coast Brewery & Cafe, 617 4th St, Eureka, CA 95501",
+            "category": "['Cafe', 'Brewery', 'Brewpub']",
+            "gmap_id": "0x54d1557b51fa73d3:0xb99dcfa5e8580fbd",
+            "iid": 63,
+            "name": "Lost Coast Brewery & Cafe",
+            "rank": 18,
+            "score": 0.588725745677948,
+            "state": "California"
+        },
+        {
+            "address": "Purple Onion Caf\u00e9, 26 E Main St, Los Gatos, CA 95030",
+            "category": "['Cafe', 'Breakfast restaurant', 'Caterer', 'Lunch restaurant']",
+            "gmap_id": "0x808e35e4b03aa971:0xde67650aca801ce5",
+            "iid": 2400,
+            "name": "Purple Onion Caf\u00e9",
+            "rank": 19,
+            "score": 0.5882492065429688,
+            "state": "California"
+        },
+        {
+            "address": "Orchard Valley Coffee., 349 E Campbell Ave, Campbell, CA 95008",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e34def83c20f5:0x31a2b3032bc88fd6",
+            "iid": 2372,
+            "name": "Orchard Valley Coffee.",
+            "rank": 20,
+            "score": 0.5829150676727295,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Shawn Hamby",
+        "uid": 71111,
+        "user_id": 109366149719454356306
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Bird Rock Coffee Roasters, 2212 Carmel Valley Rd, Del Mar, CA 92014",
+            "category": "['Coffee shop']",
+            "date": "2020/03/15",
+            "gmap_id": "0x80dc061ac7995555:0x2e5dc649486b47d2",
+            "iid": 10360,
+            "name": "Bird Rock Coffee Roasters",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1584293693594
+        },
+        {
+            "address": "Parakeet Cafe, 927 Silverado St, La Jolla, CA 92037",
+            "category": "['Restaurant', 'Coffee shop']",
+            "date": "2020/06/20",
+            "gmap_id": "0x80dc03fb4cdec9b7:0x76ffc9fc2e32ccf5",
+            "iid": 10348,
+            "name": "Parakeet Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1592620931972
+        },
+        {
+            "address": "Fresheria - Be Fresh San Diego, 4687 Logan Ave, San Diego, CA 92113",
+            "category": "['Restaurant', 'Coffee shop', 'Deli', 'Health food restaurant', 'Juice shop', 'Delivery Restaurant', 'Salsa bar', 'Sandwich shop']",
+            "date": "2020/07/02",
+            "gmap_id": "0x80d95349cf4ee12d:0x9c9199273ebd48aa",
+            "iid": 9372,
+            "name": "Fresheria - Be Fresh San Diego",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593726170714
+        },
+        {
+            "address": "Spill the Beans Coffee and Bagels, 555 Market St, San Diego, CA 92101",
+            "category": "['Coffee shop']",
+            "date": "2020/08/01",
+            "gmap_id": "0x80d95359bce1b455:0x19c0ac0f5e37590d",
+            "iid": 9406,
+            "name": "Spill the Beans Coffee and Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1596323324365
+        },
+        {
+            "address": "Pappalecco, 1602 State St, San Diego, CA 92101",
+            "category": "['Italian restaurant', 'Cafe', 'Coffee shop', 'Ice cream shop']",
+            "date": "2020/09/03",
+            "gmap_id": "0x80d954ae6f3567db:0x40ff164aecf06ffb",
+            "iid": 9493,
+            "name": "Pappalecco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1599161713979
+        },
+        {
+            "address": "Dark Horse Coffee Roasters., 811 25th St UNIT 100, San Diego, CA 92102",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store']",
+            "date": "2020/09/13",
+            "gmap_id": "0x80d9536498e4ec0d:0x5644db38af9e6d06",
+            "iid": 9423,
+            "name": "Dark Horse Coffee Roasters.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1600033246526
+        },
+        {
+            "address": "Seven Seas Roasting Company, 1947 Fern St, San Diego, CA 92102",
+            "category": "['Coffee shop', 'Cafe', 'Coffee roasters', 'Coffee stand', 'Coffee store', 'Coffee wholesaler']",
+            "date": "2020/10/18",
+            "gmap_id": "0x80d955696e58f16f:0x5d75abef5814d99e",
+            "iid": 9612,
+            "name": "Seven Seas Roasting Company",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1603056545144
+        },
+        {
+            "address": "Morning Glory, 550 W Date St, San Diego, CA 92101",
+            "category": "['Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Restaurant']",
+            "date": "2021/02/10",
+            "gmap_id": "0x80d955d6bd9fcb5b:0x97547d20a2ffcd28",
+            "iid": 9641,
+            "name": "Morning Glory",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1612988959696
+        },
+        {
+            "address": "Azucar, 4820 Newport Ave, San Diego, CA 92107",
+            "category": "['Pastry shop', 'Breakfast restaurant', 'Coffee shop', 'Dessert shop', 'Lunch restaurant']",
+            "date": "2021/02/28",
+            "gmap_id": "0x80deaa371187dc43:0x8e58455b62a6ef9c",
+            "iid": 12594,
+            "name": "Azucar",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1614506182924
+        },
+        {
+            "address": "Crest Cafe, 425 Robinson Ave, San Diego, CA 92103",
+            "category": "['American restaurant', 'Cafe', 'Caterer', 'Diner', 'Lunch restaurant']",
+            "date": "2021/02/28",
+            "gmap_id": "0x80d954daba8d6961:0x79d2bd79990251af",
+            "iid": 9528,
+            "name": "Crest Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1614506225773
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Portside Coffee & Gelato, 1360 N Harbor Dr, San Diego, CA 92101",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80deab36b181c733:0xb152a23cfe7ab298",
+            "iid": 12661,
+            "name": "Portside Coffee & Gelato",
+            "rank": 1,
+            "score": -2.0260818004608154,
+            "state": "California"
+        },
+        {
+            "address": "Armonia Kitchen, 1422 Garnet Ave, San Diego, CA 92109",
+            "category": "['Mexican restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Health food restaurant', 'Juice shop']",
+            "gmap_id": "0x80dc01fd0a514b71:0x1b5c62371474a079",
+            "iid": 10327,
+            "name": "Armonia Kitchen",
+            "rank": 2,
+            "score": -2.1419570446014404,
+            "state": "California"
+        },
+        {
+            "address": "MOE COFFEE, 4195 Kansas St, San Diego, CA 92104",
+            "category": "['Coffee shop', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80d9557ee0a0188b:0x1a5da2e2aaece917",
+            "iid": 9615,
+            "name": "MOE COFFEE",
+            "rank": 3,
+            "score": -2.255486488342285,
+            "state": "California"
+        },
+        {
+            "address": "Claro Coffee, 5334 Banks St A, San Diego, CA 92110",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80deabda2d554869:0x5b6c7772b3a73c3e",
+            "iid": 12681,
+            "name": "Claro Coffee",
+            "rank": 4,
+            "score": -2.4140608310699463,
+            "state": "California"
+        },
+        {
+            "address": "Hessian Global Goods, 4034 Park Blvd, San Diego, CA 92103",
+            "category": "['Home goods store', 'Art gallery', 'Book store', 'Clothing store', 'Coffee store', 'Furniture store', 'Gift shop', 'Spice store', 'Tea store']",
+            "gmap_id": "0x80d954e64c013599:0x294e00a76a41dd21",
+            "iid": 9542,
+            "name": "Hessian Global Goods",
+            "rank": 5,
+            "score": -2.4194159507751465,
+            "state": "California"
+        },
+        {
+            "address": "Black stag coffee, 4966 El Cajon Blvd, San Diego, CA 92115",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d95423977eaaab:0x2a1aa61d78dd8db5",
+            "iid": 9439,
+            "name": "Black stag coffee",
+            "rank": 6,
+            "score": -2.4337878227233887,
+            "state": "California"
+        },
+        {
+            "address": "Tired Eyes Coffee, 803 F St, San Diego, CA 92101",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d9531f215a2a17:0x9d60c0f1f95ff2bf",
+            "iid": 9363,
+            "name": "Tired Eyes Coffee",
+            "rank": 7,
+            "score": -2.503187656402588,
+            "state": "California"
+        },
+        {
+            "address": "Coffeentalk Hillcrest, 1080 University Ave H105, San Diego, CA 92103",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d955a0a3cafb59:0x7bc4e9c38be83026",
+            "iid": 9624,
+            "name": "Coffeentalk Hillcrest",
+            "rank": 8,
+            "score": -2.512237071990967,
+            "state": "California"
+        },
+        {
+            "address": "The Patio Express, 928 Fort Stockton Dr, San Diego, CA 92103",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d954d4e098ff87:0xf9e50727dfeaf8f",
+            "iid": 9522,
+            "name": "The Patio Express",
+            "rank": 9,
+            "score": -2.5247080326080322,
+            "state": "California"
+        },
+        {
+            "address": "Freshii, 1255B University Ave, San Diego, CA 92103",
+            "category": "['Health food restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80d9551d0680860d:0x9c6242d8dbe00549",
+            "iid": 9579,
+            "name": "Freshii",
+            "rank": 10,
+            "score": -2.530222177505493,
+            "state": "California"
+        },
+        {
+            "address": "Esquina Vintage and Coffee, 640 National City Blvd &, E 7th St Ste 130, National City, CA 91950",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d953500d7a0583:0x64ae486e94d90bb5",
+            "iid": 9376,
+            "name": "Esquina Vintage and Coffee",
+            "rank": 11,
+            "score": -2.61279034614563,
+            "state": "California"
+        },
+        {
+            "address": "Oliver Coffea, 1644 University Ave, San Diego, CA 92103",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d955a4d8dea0f9:0x8a6ca5309d39ba3b",
+            "iid": 9625,
+            "name": "Oliver Coffea",
+            "rank": 12,
+            "score": -2.6365065574645996,
+            "state": "California"
+        },
+        {
+            "address": "Achilles Coffee Roasters @ Park 12, 100 Park Plaza Suite 175, San Diego, CA 92101",
+            "category": "['Coffee roasters', 'Restaurant']",
+            "gmap_id": "0x80d95362913094ef:0xe8248ae4fbd61eb8",
+            "iid": 9421,
+            "name": "Achilles Coffee Roasters @ Park 12",
+            "rank": 13,
+            "score": -2.6439595222473145,
+            "state": "California"
+        },
+        {
+            "address": "Ryan Bros. Coffee, 900 Bayfront Ct, San Diego, CA 92101",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d954ab66e8d693:0xdf8194597991d4a6",
+            "iid": 9484,
+            "name": "Ryan Bros. Coffee",
+            "rank": 14,
+            "score": -2.653299570083618,
+            "state": "California"
+        },
+        {
+            "address": "Caff\u00e8 San Luca, 690 University Ave, San Diego, CA 92103",
+            "category": "['Cafe', 'Coffee shop', 'Italian restaurant']",
+            "gmap_id": "0x80d95558d390c755:0x2229d8bb8c07f645",
+            "iid": 9606,
+            "name": "Caff\u00e8 San Luca",
+            "rank": 15,
+            "score": -2.6537697315216064,
+            "state": "California"
+        },
+        {
+            "address": "Bondar\u2019s Coffee&Sweets, 722 11th Ave, San Diego, CA 92101",
+            "category": "['Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80d9535ec362ab1b:0x3a017e88bc5b52e8",
+            "iid": 9418,
+            "name": "Bondar\u2019s Coffee&Sweets",
+            "rank": 16,
+            "score": -2.674345016479492,
+            "state": "California"
+        },
+        {
+            "address": "The Invigatorium, 631 Ninth Ave, San Diego, CA 92101",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cocktail bar', 'Wine store']",
+            "gmap_id": "0x80d953492d7bfe5b:0xb05fd94e65221c45",
+            "iid": 9371,
+            "name": "The Invigatorium",
+            "rank": 17,
+            "score": -2.6808114051818848,
+            "state": "California"
+        },
+        {
+            "address": "The Bean Box, 4019 W Point Loma Blvd, San Diego, CA 92110",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80deaa5847de2735:0x7f6067e1600b714b",
+            "iid": 12611,
+            "name": "The Bean Box",
+            "rank": 18,
+            "score": -2.6946682929992676,
+            "state": "California"
+        },
+        {
+            "address": "Home Coffee, 1914 Sweetwater Rd, National City, CA 91950",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d951a43e70216f:0xdea8a65dd8883f09",
+            "iid": 9338,
+            "name": "Home Coffee",
+            "rank": 19,
+            "score": -2.7046449184417725,
+            "state": "California"
+        },
+        {
+            "address": "Abanico Coffee Roasters, 2121 Mission St, San Francisco, CA 94110",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f7f93c972d729:0x648cd4920dfaa61e",
+            "iid": 2898,
+            "name": "Abanico Coffee Roasters",
+            "rank": 20,
+            "score": -2.7236387729644775,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "aodemba1",
+        "uid": 10980,
+        "user_id": 101430744296283114353
+    }
+}

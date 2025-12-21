@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 3805 Thousand Oaks Blvd, Westlake Village, CA 91361",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/07/04",
+            "gmap_id": "0x80e824e2e290396f:0x4bdce1de8a1b4bb",
+            "iid": 12718,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1530686066567
+        },
+        {
+            "address": "Starbucks, 14301 Bellflower Blvd, Bellflower, CA 90706",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/04",
+            "gmap_id": "0x80c2cd4f8d9174fd:0x216a864a4706f30e",
+            "iid": 8281,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546561681374
+        },
+        {
+            "address": "Starbucks, 20056 Sherman Way, Canoga Park, CA 91306",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/04",
+            "gmap_id": "0x80c29bf07901fb3d:0x91690486efaff45e",
+            "iid": 6292,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546561688578
+        },
+        {
+            "address": "McDonald's, 2605 Yosemite Ave, Simi Valley, CA 93063",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80e8282c62763f11:0xabb97e22be8b93c7",
+            "iid": 12754,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930314563
+        },
+        {
+            "address": "McDonald's, 2224 N Figueroa St, Los Angeles, CA 90065",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80c2c68e00e1e6b7:0x9220563e89962cc3",
+            "iid": 7920,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930331992
+        },
+        {
+            "address": "McDonald's, 1705 Pacific Coast Hwy, Long Beach, CA 90810",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80dd3166e80e23db:0x89539b6751752b6",
+            "iid": 12316,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930337785
+        },
+        {
+            "address": "Starbucks, 3931 Artesia Blvd, Torrance, CA 90504",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80c2b503cb92bac9:0xef7defb2872f53b3",
+            "iid": 6603,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930364859
+        },
+        {
+            "address": "McDonald's, 15606 Hawthorne Blvd, Lawndale, CA 90260",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80c2b44dd5e6ec89:0x44989da2c66f1de3",
+            "iid": 6567,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549930372313
+        },
+        {
+            "address": "McDonald's, 1891 W Malvern Ave, Fullerton, CA 92833",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/02/12",
+            "gmap_id": "0x80dd2a4f13c19515:0x38269358e6b836ad",
+            "iid": 12065,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1549930380537
+        },
+        {
+            "address": "McDonald's, 640 Long Beach Blvd, Long Beach, CA 90813",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/01/18",
+            "gmap_id": "0x80dd314737fb34a1:0x8bc0e9f3cfd0ea31",
+            "iid": 12310,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1610965665492
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 21850 W Oxnard St, Woodland Hills, CA 91367",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c29e9f6698edc3:0xcad1143dc6f5908f",
+            "iid": 6357,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": -1.7803528308868408,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2124 Artesia Blvd, Torrance, CA 90504",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b5f79f79c8dd:0x4da6ebd0c84dcdc6",
+            "iid": 6650,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -1.9240044355392456,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 12697,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": -1.9486089944839478,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12429,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 4,
+            "score": -1.9574931859970093,
+            "state": "California"
+        },
+        {
+            "address": "Hayk's Cake House, 13521 Sherman Way Unit A, Van Nuys, CA 91405",
+            "category": "['Bakery', 'Cafe', 'Cake shop', 'Coffee shop', 'Pastry shop', 'Restaurant', 'Sandwich shop', 'Wedding bakery']",
+            "gmap_id": "0x80c296e8a9ce2ef3:0x32588a63d9842e93",
+            "iid": 6143,
+            "name": "Hayk's Cake House",
+            "rank": 5,
+            "score": -1.9607614278793335,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 6,
+            "score": -1.9887996912002563,
+            "state": "California"
+        },
+        {
+            "address": "Alpaca Cafe, 1600 S Azusa Ave #162, City of Industry, CA 91748",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d59563d37251:0xfa05272978ecee2f",
+            "iid": 8491,
+            "name": "Alpaca Cafe",
+            "rank": 7,
+            "score": -2.0000293254852295,
+            "state": "California"
+        },
+        {
+            "address": "Kona Koffee Company, 138 International Boardwalk, Redondo Beach, CA 90277",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b4a0cbcfbcf5:0xea12333a8f98ba05",
+            "iid": 6578,
+            "name": "Kona Koffee Company",
+            "rank": 8,
+            "score": -2.006269931793213,
+            "state": "California"
+        },
+        {
+            "address": "Ain't Normal Cafe, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d9ed6e3a86b:0x691165ec6ef61201",
+            "iid": 1020,
+            "name": "Ain't Normal Cafe",
+            "rank": 9,
+            "score": -2.035397529602051,
+            "state": "California"
+        },
+        {
+            "address": "Glady's Donuts & Sandwiches, 17230 Downey Ave, Bellflower, CA 90706",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Lottery retailer', 'Sandwich shop']",
+            "gmap_id": "0x80dd32d09c76d279:0xe740d3809546b63e",
+            "iid": 12386,
+            "name": "Glady's Donuts & Sandwiches",
+            "rank": 10,
+            "score": -2.0383877754211426,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Del Mundo, 7414 S Vermont Ave, Los Angeles, CA 90044",
+            "category": "['Coffee roasters', 'Coffee shop']",
+            "gmap_id": "0x80c2c9762d700a39:0xb0a5921741143b49",
+            "iid": 8207,
+            "name": "Coffee Del Mundo",
+            "rank": 11,
+            "score": -2.0415050983428955,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11147,
+            "name": "Auntie Anne's",
+            "rank": 12,
+            "score": -2.0527284145355225,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4700 Admiralty Way, Marina Del Rey, CA 90292",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2bb59e3ca7c7d:0x81bda22ef7e538bc",
+            "iid": 7129,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -2.0717694759368896,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4311 Lincoln Blvd, Marina Del Rey, CA 90292",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2ba86fa10821d:0x43279408cc9632b4",
+            "iid": 7010,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.0733275413513184,
+            "state": "California"
+        },
+        {
+            "address": "Secret Spot, 17200 Pacific Coast Hwy, Huntington Beach, CA 92649",
+            "category": "['Cafe', 'Breakfast restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80dd250fc6a6d2f1:0xe3e584c932901182",
+            "iid": 11865,
+            "name": "Secret Spot",
+            "rank": 15,
+            "score": -2.0735790729522705,
+            "state": "California"
+        },
+        {
+            "address": "Tr\u00e0 Space, 4012 Tilden Ave, Culver City, CA 90232",
+            "category": "['Bubble tea store', 'Cafe', 'Tea house']",
+            "gmap_id": "0x80c2bb27dba4dddf:0x485009d9dec27e7a",
+            "iid": 7097,
+            "name": "Tr\u00e0 Space",
+            "rank": 16,
+            "score": -2.0883939266204834,
+            "state": "California"
+        },
+        {
+            "address": "Warner Center Cafe, 20970 Warner Center Ln, Woodland Hills, CA 91367",
+            "category": "['Cafe', 'Breakfast restaurant', 'Lunch restaurant', 'Mediterranean restaurant']",
+            "gmap_id": "0x80c29f9b3b8723b7:0xb79d5fe3fa904c7b",
+            "iid": 6369,
+            "name": "Warner Center Cafe",
+            "rank": 17,
+            "score": -2.1038758754730225,
+            "state": "California"
+        },
+        {
+            "address": "Famous Cafe Restaurant, 5150 N Sepulveda Blvd, Sherman Oaks, CA 91411",
+            "category": "['Cafe', 'American restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2979709a792df:0x91b92aa70ec83525",
+            "iid": 6171,
+            "name": "Famous Cafe Restaurant",
+            "rank": 18,
+            "score": -2.104832172393799,
+            "state": "California"
+        },
+        {
+            "address": "TMJ Cafe & Dough, 18189 S Western Ave, Gardena, CA 90248",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b52a2de5717f:0x80433aa363e9d86e",
+            "iid": 6611,
+            "name": "TMJ Cafe & Dough",
+            "rank": 19,
+            "score": -2.1052732467651367,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Code, 13250 Rosecrans Ave, Norwalk, CA 90650",
+            "category": "['Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80dd2da9688b79a5:0x1e2c63557e51ecbf",
+            "iid": 12193,
+            "name": "Coffee Code",
+            "rank": 20,
+            "score": -2.107487916946411,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Manuel Villagran",
+        "uid": 47513,
+        "user_id": 106263768036754821399
+    }
+}

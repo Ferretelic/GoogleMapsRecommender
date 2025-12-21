@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3551 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/12/22",
+            "gmap_id": "0x808fb5884fc73575:0x1a2179ef7080b595",
+            "iid": 3482,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1513976735120
+        },
+        {
+            "address": "Starbucks, 239 W Huntington Dr, Monrovia, CA 91016",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/12/25",
+            "gmap_id": "0x80c2d963fe50e383:0x5595e5bf46c93feb",
+            "iid": 8556,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514189201395
+        },
+        {
+            "address": "Coffee & More, 100 S Murphy Ave #1, Sunnyvale, CA 94086",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Sandwich shop', 'Tea house']",
+            "date": "2018/01/14",
+            "gmap_id": "0x808fb65c58c4641d:0x1dea418e28c2590e",
+            "iid": 3525,
+            "name": "Coffee & More",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515889367680
+        },
+        {
+            "address": "Starbucks Reserve, 20520A Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2018/03/30",
+            "gmap_id": "0x808fb5ac26534e81:0x3db79dafd91e818b",
+            "iid": 3495,
+            "name": "Starbucks Reserve",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522388338336
+        },
+        {
+            "address": "Starbucks, 175 E El Camino Real, Mountain View, CA 94040",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/03/30",
+            "gmap_id": "0x808fb6d84a41eb51:0xc275d3556c405a39",
+            "iid": 3543,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522388343408
+        },
+        {
+            "address": "Dametra Cafe, CORNER OF OCEAN &, Lincoln St, Carmel-By-The-Sea, CA 93921",
+            "category": "['Mediterranean restaurant', 'Bar', 'Cafe', 'European restaurant', 'Greek restaurant', 'Gyro restaurant', 'Italian restaurant', 'Lebanese restaurant', 'Pizza restaurant', 'Syrian restaurant', 'Tourist attraction']",
+            "date": "2018/03/30",
+            "gmap_id": "0x808de6154f24ed01:0x616cf6bd790ca14e",
+            "iid": 2097,
+            "name": "Dametra Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522388351298
+        },
+        {
+            "address": "Starbucks, 1150 Prospect St, La Jolla, CA 92037",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/05/21",
+            "gmap_id": "0x80dc03fc744a4977:0x14c37398542577ff",
+            "iid": 10357,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1526912242170
+        },
+        {
+            "address": "Terrain Cafe, Stanford Shopping Center, 180 El Camino Real #1301, Palo Alto, CA 94304",
+            "category": "['Cafe', 'New American restaurant']",
+            "date": "2018/10/27",
+            "gmap_id": "0x808fbb35ad88d2b7:0xc3a9b539eaf3118",
+            "iid": 3626,
+            "name": "Terrain Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540683249120
+        },
+        {
+            "address": "Philz Coffee, 125 S Frances St, Sunnyvale, CA 94086",
+            "category": "['Coffee shop']",
+            "date": "2019/05/15",
+            "gmap_id": "0x808fb65c40766b31:0x19b71e8cc0c0db1b",
+            "iid": 3524,
+            "name": "Philz Coffee",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1557889346896
+        },
+        {
+            "address": "Whispers Cafe and Creperie, 150 S 2nd St, San Jose, CA 95113",
+            "category": "['Cafe', 'Breakfast restaurant', 'Brunch restaurant', 'Cr\u00eaperie', 'Restaurant']",
+            "date": "2020/01/24",
+            "gmap_id": "0x808fccbb745f10f9:0x480433c1e4e598d1",
+            "iid": 3941,
+            "name": "Whispers Cafe and Creperie",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1579905544203
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Philz Coffee, 125 S Frances St, Sunnyvale, CA 94086",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fb65c40766b31:0x19b71e8cc0c0db1b",
+            "iid": 3524,
+            "name": "Philz Coffee",
+            "rank": 1,
+            "score": 11.8842134475708,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 19439 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fb59e8f52bc3f:0xe530c674022cd1bb",
+            "iid": 3490,
+            "name": "Philz Coffee",
+            "rank": 2,
+            "score": 10.036214828491211,
+            "state": "California"
+        },
+        {
+            "address": "Madras Caf\u00e9, 1177 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Indian restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x808fb6e8d40eb295:0x7990316e7fd45ea7",
+            "iid": 3545,
+            "name": "Madras Caf\u00e9",
+            "rank": 3,
+            "score": 9.844558715820312,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 101 Forest Ave, Palo Alto, CA 94301",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fbb3a5f04cc95:0x238b2bcd56b23b71",
+            "iid": 3645,
+            "name": "Philz Coffee",
+            "rank": 4,
+            "score": 9.672775268554688,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1035 El Monte Ave, Mountain View, CA 94041",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x808fb0c7d8bfc96d:0x7669490e8a046a8e",
+            "iid": 3432,
+            "name": "Panera Bread",
+            "rank": 5,
+            "score": 9.657268524169922,
+            "state": "California"
+        },
+        {
+            "address": "Red Rock Coffee, 201 Castro St, Mountain View, CA 94041",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "gmap_id": "0x808fb734116ac517:0x39773b61b8c262c6",
+            "iid": 3563,
+            "name": "Red Rock Coffee",
+            "rank": 6,
+            "score": 9.628033638000488,
+            "state": "California"
+        },
+        {
+            "address": "Blue Bottle Coffee, 456 University Ave, Palo Alto, CA 94301",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808fbb391d9d22f7:0x630ed127d33d0169",
+            "iid": 3636,
+            "name": "Blue Bottle Coffee",
+            "rank": 7,
+            "score": 9.52933120727539,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 20686 Stevens Creek Blvd, Cupertino, CA 95014",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fb5adba96bc6f:0x4b1fa8f6a23445e7",
+            "iid": 3499,
+            "name": "Philz Coffee",
+            "rank": 8,
+            "score": 9.400711059570312,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 3191 Middlefield Rd, Palo Alto, CA 94306",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fba5bc558ceab:0xd96e5b3018727546",
+            "iid": 3582,
+            "name": "Philz Coffee",
+            "rank": 9,
+            "score": 9.332157135009766,
+            "state": "California"
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - San Jose, 1183 South De Anza Boulevard #10&20, San Jose, CA 95129",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x808fb51b86c88def:0x84c29fece8ec42c3",
+            "iid": 3464,
+            "name": "85\u00b0C Bakery Cafe - San Jose",
+            "rank": 10,
+            "score": 8.909369468688965,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 118 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x808fb6648757bcf9:0x9a799f67f14ddaa8",
+            "iid": 3535,
+            "name": "Panera Bread",
+            "rank": 11,
+            "score": 8.739151000976562,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 348 El Camino Real Rd, Sunnyvale, CA 94087",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fb6619dfb466f:0xf37b9af14483a90",
+            "iid": 3531,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 8.668460845947266,
+            "state": "California"
+        },
+        {
+            "address": "85C Bakery Cafe - Cupertino, 19459 Stevens Creek Blvd #100, Cupertino, CA 95014",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x808fb59e67c11849:0xb1dc1971bd136f62",
+            "iid": 3489,
+            "name": "85C Bakery Cafe - Cupertino",
+            "rank": 13,
+            "score": 8.602285385131836,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 750 Castro St, Mountain View, CA 94041",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fb732b07132ef:0xe8ed74b59658a1d6",
+            "iid": 3553,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 8.48576831817627,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 801 W El Camino Real Suite A, Mountain View, CA 94040",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fb0d2c7c0cdbb:0x953c126202caeec4",
+            "iid": 3434,
+            "name": "Peet's Coffee",
+            "rank": 15,
+            "score": 8.472883224487305,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1195 E Arques Ave, Sunnyvale, CA 94085",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x808fb61eeffc8db5:0x947fced5fb1fce68",
+            "iid": 3513,
+            "name": "Panera Bread",
+            "rank": 16,
+            "score": 8.393409729003906,
+            "state": "California"
+        },
+        {
+            "address": "Krispy Kreme, 2146 Leghorn St, Mountain View, CA 94043",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "gmap_id": "0x808fba059ce105bb:0xb370b90b6286a5d9",
+            "iid": 3576,
+            "name": "Krispy Kreme",
+            "rank": 17,
+            "score": 8.31951904296875,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2410 Charleston Rd, Mountain View, CA 94043",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fba103c73ff4f:0x490b0306da6e619b",
+            "iid": 3580,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 8.288444519042969,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1037-C, El Monte Ave, Mountain View, CA 94040",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fb0bb889488b3:0xf35ba67abb7aa408",
+            "iid": 3431,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 8.188352584838867,
+            "state": "California"
+        },
+        {
+            "address": "Coupa Cafe - Ramona, 538 Ramona St, Palo Alto, CA 94301",
+            "category": "['Cafe', 'Coffee shop', 'Restaurant', 'Venezuelan restaurant']",
+            "gmap_id": "0x808fbb398a089563:0xe226d74063e0423e",
+            "iid": 3638,
+            "name": "Coupa Cafe - Ramona",
+            "rank": 20,
+            "score": 8.161133766174316,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Yanan Guo",
+        "uid": 79703,
+        "user_id": 110508987747927548713
+    }
+}
