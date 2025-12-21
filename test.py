@@ -62,7 +62,6 @@ def analyze_models(cfg):
         if model_info["type"] == "dot":
             models.append(model_info["model"])
 
-    models = set(models)
     for model in models:
         analyze_embeddings(cfg, model)
 
@@ -70,23 +69,23 @@ def analyze_models(cfg):
 def main(cfg):
     seed_everything()
 
-    print("Comparing model performances on validation datast...")
-    calculate_valid_performances(cfg)
+    # print("Comparing model performances on validation datast...")
+    # calculate_valid_performances(cfg)
 
     print("Analysing embedding vectors...")
     analyze_models(cfg)
 
-    print("Calculating metrics on test dataset...")
-    calculate_metrics(cfg)
+    # print("Calculating metrics on test dataset...")
+    # calculate_metrics(cfg)
 
-    print("Running inference on sampled users...")
-    run_inference(cfg)
+    # print("Running inference on sampled users...")
+    # run_inference(cfg)
 
-    print("Adding new user for inference...")
-    add_new_user(cfg)
+    # print("Adding new user for inference...")
+    # add_new_user(cfg)
 
-    print("Running recommenders on new users...")
-    recommend_new_users(cfg)
+    # print("Running recommenders on new users...")
+    # recommend_new_users(cfg)
 
 
 if __name__ == "__main__":
