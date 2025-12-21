@@ -39,6 +39,13 @@ class UserSampler:
         gmap2info = {gmap_id: (name, state, address, category) for (gmap_id, name, state, address, category) in meta.values}
         return gmap2info
 
+    def get_topk_scores_indices(self, scores):
+        topk_items = torch.topk(scores, k=self.cfg.inference.topk, dim=1)
+        topk_scores = topk_items.values.detach().cpu().numpy()
+        topk_indices = topk_items.indices.detach().cpu().numpy()
+
+        return topk_scores, topk_indices
+
     def get_user_recommendations(self, topk_scores, topk_indices):
         items = []
 
@@ -129,12 +136,8 @@ class TestUserSampler(UserSampler):
         recommender = load_recommender(self.cfg, model_info)
         users = self.users.to(self.device)
 
-        scores = recommender.compute_scores(users)
-        scores = recommender.mask_train_items(scores, users)
-
-        topk_items = torch.topk(scores, k=self.cfg.inference.topk, dim=1)
-        topk_scores = topk_items.values.detach().cpu().numpy()
-        topk_indices = topk_items.indices.detach().cpu().numpy()
+        scores = recommender.get_test_user_scores(users)
+        topk_scores, topk_indices = self.get_topk_scores_indices(scores)
 
         return topk_scores, topk_indices
 
@@ -185,36 +188,14 @@ class NewUserSampler(UserSampler):
     def get_user_information(self, user):
         return {"name": user["name"], "user_id": user["user_id"]}
 
-    def compute_new_user_scores(self, recommender, user_emb, type):
-        if type == "dot":
-            scores = torch.matmul(user_emb, recommender.item_embs.t())
-
-        elif type == "cosine":
-            norm_user_embs = F.normalize(user_emb, p=2, dim=1)
-            norm_item_embs = F.normalize(recommender.item_embs, p=2, dim=1)
-            scores = torch.matmul(norm_user_embs, norm_item_embs.t())
-
-        elif type == "distance":
-            dists = torch.cdist(user_emb, recommender.item_embs, p=2)
-            scores = -dists
-
-        else:
-            raise NotImplementedError
-
-        return scores
-
     def run_recommender(self, model_info, user):
         recommender = load_recommender(self.cfg, model_info)
+
         iids = [self.gmap2index[gmap_id] for gmap_id in user["gmap_ids"]]
         iids = torch.tensor(iids, dtype=torch.long).to(self.device)
 
-        user_emb = torch.mean(recommender.item_embs[iids], dim=0, keepdim=True)
-        scores = self.compute_new_user_scores(recommender, user_emb, model_info["type"])
-        scores[:, iids] = -float("inf")
-
-        topk_items = torch.topk(scores, k=self.cfg.inference.topk, dim=1)
-        topk_scores = topk_items.values.detach().cpu().numpy()
-        topk_indices = topk_items.indices.detach().cpu().numpy()
+        scores = recommender.get_new_user_scores(iids)
+        topk_scores, topk_indices = self.get_topk_scores_indices(scores)
 
         return topk_scores, topk_indices
 
