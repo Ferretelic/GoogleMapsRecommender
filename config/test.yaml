@@ -63,3 +63,8 @@ inference:
   log:
     type: fold
     model: best
+
+analysis:
+  n_components: 4
+  methods: [pca, umap]
+  item_category: [state, chain, rating]

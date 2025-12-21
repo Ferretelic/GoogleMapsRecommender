@@ -35,17 +35,14 @@ class LightGCN(nn.Module):
         self.gcl_temp = cfg.training.get("gcl_temp", 0.0)
 
     def forward(self, graph):
-        all_emb = self.embedding.weight
-        embs = [all_emb]
+        weights = self.layer_weights.view(-1)
+        x = self.embedding.weight
 
-        x = all_emb
-        for _ in range(self.n_layers):
+        light_out = x * weights[0]
+
+        for k in range(self.n_layers):
             x = torch.sparse.mm(graph, x)
-            embs.append(x)
-
-        embs = torch.stack(embs, dim=1)
-        weights = self.layer_weights.view(1, -1, 1)
-        light_out = torch.sum(embs * weights, dim=1)
+            light_out = light_out + (x * weights[k + 1])
 
         users_emb, items_emb = torch.split(light_out, [self.n_users, self.n_items])
         return users_emb, items_emb

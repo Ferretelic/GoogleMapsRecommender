@@ -8,6 +8,7 @@ from testing.tester import *
 from testing.sampler import *
 from testing.new_user import *
 from testing.metrics import *
+from testing.dim_reduction import *
 
 from utils import *
 
@@ -55,12 +56,25 @@ def recommend_new_users(cfg):
     for model_info in load_models(cfg):
         sampler.sample(model_info, users, cfg.inference.log)
 
+def analyze_models(cfg):
+    models = []
+    for model_info in load_models(cfg):
+        if model_info["type"] == "dot":
+            models.append(model_info["model"])
+
+    models = set(models)
+    for model in models:
+        analyze_embeddings(cfg, model)
+
 @hydra.main(version_base=None, config_path="config", config_name="test")
 def main(cfg):
     seed_everything()
 
     print("Comparing model performances on validation datast...")
     calculate_valid_performances(cfg)
+
+    print("Analysing embedding vectors...")
+    analyze_models(cfg)
 
     print("Calculating metrics on test dataset...")
     calculate_metrics(cfg)
