@@ -27,8 +27,7 @@ embeddings:
     type: distance
     model: best
 
-baselines: []
-# baselines: ["KNN", "Popularity"]
+baselines: ["KNN", "Popularity"]
 
 test:
   device: cuda
