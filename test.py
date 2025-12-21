@@ -51,7 +51,7 @@ def recommend_new_users(cfg):
     sampler = NewUserSampler(cfg)
 
     for model_info in load_models(cfg):
-        sampler.sample(OmegaConf.to_container(model_info, resolve=True), users)
+        sampler.sample(model_info, users)
 
 @hydra.main(version_base=None, config_path="config", config_name="test")
 def main(cfg):

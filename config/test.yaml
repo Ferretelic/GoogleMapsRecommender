@@ -3,29 +3,29 @@ defaults:
   - _self_
 
 embeddings:
-    - name: LightGCN Baseline (Dot)
-      type: dot
-      model: baseline
+  - name: LightGCN Baseline (Dot)
+    type: dot
+    model: baseline
 
-    - name: LightGCN Baseline (Cosine)
-      type: cosine
-      model: baseline
+  - name: LightGCN Baseline (Cosine)
+    type: cosine
+    model: baseline
 
-    - name: LightGCN Baseline (Distance)
-      type: distance
-      model: baseline
+  - name: LightGCN Baseline (Distance)
+    type: distance
+    model: baseline
 
-    - name: LightGCN Best (Dot)
-      type: dot
-      model: best
+  - name: LightGCN Best (Dot)
+    type: dot
+    model: best
 
-    - name: LightGCN Best (Cosine)
-      type: cosine
-      model: best
+  - name: LightGCN Best (Cosine)
+    type: cosine
+    model: best
 
-    - name: LightGCN Best (Distance)
-      type: distance
-      model: best
+  - name: LightGCN Best (Distance)
+    type: distance
+    model: best
 
 baselines: []
 # baselines: ["KNN", "Popularity"]
