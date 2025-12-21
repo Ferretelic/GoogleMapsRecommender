@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Tpumps, 1916 Irving St, San Francisco, CA 94122",
+            "category": "['Bubble tea store', 'Cafe']",
+            "date": "2014/07/29",
+            "gmap_id": "0x8085876f88a23827:0xa8d39584f871c899",
+            "iid": 1837,
+            "name": "Tpumps",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1406668823420
+        },
+        {
+            "address": "Bulletproof Coffee, 3110 Main St, Santa Monica, CA 90405",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2016/05/19",
+            "gmap_id": "0x80c2bace1390d795:0x460a8a7d27505b55",
+            "iid": 7052,
+            "name": "Bulletproof Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1463620067515
+        },
+        {
+            "address": "Blueys Market and Cafe, 1814 Berkeley St, Santa Monica, CA 90404",
+            "category": "['Cafe', 'Australian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Health food restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2016/09/04",
+            "gmap_id": "0x80c2bb157da5cfa9:0xe397d07a3283ec24",
+            "iid": 7082,
+            "name": "Blueys Market and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473020078564
+        },
+        {
+            "address": "Philz Coffee, 113 S B St, San Mateo, CA 94401",
+            "category": "['Coffee shop']",
+            "date": "2016/09/05",
+            "gmap_id": "0x808f9e70cf5f154b:0xcdbeecd693ae4a41",
+            "iid": 3290,
+            "name": "Philz Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473059111515
+        },
+        {
+            "address": "North End Caffe, 3421 Highland Ave, Manhattan Beach, CA 90266",
+            "category": "['Diner', 'Cafe', 'Restaurant']",
+            "date": "2016/09/05",
+            "gmap_id": "0x80c2b3dfce73ed51:0x1278887028a9cb19",
+            "iid": 6533,
+            "name": "North End Caffe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473059172392
+        },
+        {
+            "address": "Eggslut, 1611 Pacific Ave, Venice, CA 90291",
+            "category": "['Cafe']",
+            "date": "2017/01/01",
+            "gmap_id": "0x80c2bab9ac1df3ed:0x556166e63905c0fa",
+            "iid": 7033,
+            "name": "Eggslut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483254581359
+        },
+        {
+            "address": "Alana's Coffee Roasters, 12511 Venice Blvd, Los Angeles, CA 90066",
+            "category": "['Coffee shop']",
+            "date": "2017/06/30",
+            "gmap_id": "0x80c2ba5e95d221a1:0x6a4a8860480dcac0",
+            "iid": 6997,
+            "name": "Alana's Coffee Roasters",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498847193982
+        },
+        {
+            "address": "Philz Coffee, 748 Van Ness Ave, San Francisco, CA 94102, United States",
+            "category": "['Coffee shop']",
+            "date": "2018/07/01",
+            "gmap_id": "0x80858097729cf68f:0xe3ee46e6aff05108",
+            "iid": 1462,
+            "name": "Philz Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1530489064949
+        },
+        {
+            "address": "Blue Butterfly Coffee Co, 351 Main St, El Segundo, CA 90245",
+            "category": "['Coffee shop', 'Breakfast restaurant']",
+            "date": "2018/07/01",
+            "gmap_id": "0x80c2b140278770cb:0x1cf264558f61fe54",
+            "iid": 6504,
+            "name": "Blue Butterfly Coffee Co",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1530489072305
+        },
+        {
+            "address": "Two Guns Espresso, 350 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Espresso bar']",
+            "date": "2018/07/01",
+            "gmap_id": "0x80c2b38a2a122103:0x5539f8244c1438f3",
+            "iid": 6531,
+            "name": "Two Guns Espresso",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1530489083722
+        },
+        {
+            "address": "Two Guns Espresso, 360 N Sepulveda Blvd, El Segundo, CA 90245",
+            "category": "['Cafe']",
+            "date": "2018/09/04",
+            "gmap_id": "0x80c2b1d8a6d0a023:0xa57d0afef7db8419",
+            "iid": 6514,
+            "name": "Two Guns Espresso",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1536076523190
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "The Rose Venice, 220 Rose Ave, Venice, CA 90291, United States",
+            "category": "['Californian restaurant', 'American restaurant', 'Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bacf023f9e97:0xd029828d00402ca1",
+            "iid": 7056,
+            "name": "The Rose Venice",
+            "rank": 1,
+            "score": 2.7925913333892822,
+            "state": "California"
+        },
+        {
+            "address": "Playa Provisions, 119 Culver Blvd, Playa Del Rey, CA 90293",
+            "category": "['New American restaurant', 'Bar', 'Cafe', 'Ice cream shop', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2b06649b1a9df:0x37a7dc442bcf8c14",
+            "iid": 6464,
+            "name": "Playa Provisions",
+            "rank": 2,
+            "score": 2.684847354888916,
+            "state": "California"
+        },
+        {
+            "address": "Intelligentsia Coffee Venice Coffeebar, 1331 Abbot Kinney Blvd, Venice, CA 90291, United States",
+            "category": "['Coffee shop', 'Coffee store', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2babf65ac0199:0x12f1b16f685ac7a2",
+            "iid": 7036,
+            "name": "Intelligentsia Coffee Venice Coffeebar",
+            "rank": 3,
+            "score": 2.518799304962158,
+            "state": "California"
+        },
+        {
+            "address": "Urth Caffe Santa Monica, 2327 Main St, Santa Monica, CA 90405",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x80c2bad4d097b987:0x9f54d0c69186e0b1",
+            "iid": 7065,
+            "name": "Urth Caffe Santa Monica",
+            "rank": 4,
+            "score": 2.376485586166382,
+            "state": "California"
+        },
+        {
+            "address": "Gjusta, 320 Sunset Ave, Venice, CA 90291",
+            "category": "['Bakery', 'Cafe', 'Caterer', 'Deli', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bac5f945be21:0x98feb3acb7938077",
+            "iid": 7045,
+            "name": "Gjusta",
+            "rank": 5,
+            "score": 2.342867612838745,
+            "state": "California"
+        },
+        {
+            "address": "Superba Food + Bread, 1900 Lincoln Blvd, Venice, CA 90291",
+            "category": "['Californian restaurant', 'American restaurant', 'Bakery', 'Cafe', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2bb2b997a34d3:0x74024ac3b38b67e0",
+            "iid": 7100,
+            "name": "Superba Food + Bread",
+            "rank": 6,
+            "score": 2.3325071334838867,
+            "state": "California"
+        },
+        {
+            "address": "Two Guns Espresso, 350 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x80c2b38a2a122103:0x5539f8244c1438f3",
+            "iid": 6531,
+            "name": "Two Guns Espresso",
+            "rank": 7,
+            "score": 2.1214537620544434,
+            "state": "California"
+        },
+        {
+            "address": "Two Guns Kitchen, 321 Main St, El Segundo, CA 90245",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b1402aa709fd:0x8395d1f5e885ba02",
+            "iid": 6505,
+            "name": "Two Guns Kitchen",
+            "rank": 8,
+            "score": 2.0928359031677246,
+            "state": "California"
+        },
+        {
+            "address": "Lodge Bread Company, 11918 Washington Blvd, Los Angeles, CA 90066",
+            "category": "['Cafe', 'Bakery', 'Pizza restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2ba6c715b1311:0x5309098589dc3c7c",
+            "iid": 7004,
+            "name": "Lodge Bread Company",
+            "rank": 9,
+            "score": 1.9440332651138306,
+            "state": "California"
+        },
+        {
+            "address": "Huckleberry Cafe, 1014 Wilshire Blvd, Santa Monica, CA 90401",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Deli', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2a4ca2a45f313:0xbe1d5c4bbd5534b",
+            "iid": 6419,
+            "name": "Huckleberry Cafe",
+            "rank": 10,
+            "score": 1.9380418062210083,
+            "state": "California"
+        },
+        {
+            "address": "The Butcher's Daughter, 1205 Abbot Kinney Blvd, Venice, CA 90291, United States",
+            "category": "['Vegetarian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Juice shop', 'Lunch restaurant', 'Restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2bac74de94d6f:0x1e297f1177fa15df",
+            "iid": 7047,
+            "name": "The Butcher's Daughter",
+            "rank": 11,
+            "score": 1.930406093597412,
+            "state": "California"
+        },
+        {
+            "address": "Sidecar Doughnuts & Coffee, 631 Wilshire Blvd, Santa Monica, CA 90401",
+            "category": "['Donut shop', 'Coffee shop']",
+            "gmap_id": "0x80c2a4c8e7e39d3b:0xe6aadd46c0084c8",
+            "iid": 6415,
+            "name": "Sidecar Doughnuts & Coffee",
+            "rank": 12,
+            "score": 1.9203909635543823,
+            "state": "California"
+        },
+        {
+            "address": "Blue Bottle Coffee, 12105 West Waterfront Dr C4 #108C, Los Angeles, CA 90094",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2b0a5ccc768db:0x10e71f8149816c2f",
+            "iid": 6474,
+            "name": "Blue Bottle Coffee",
+            "rank": 13,
+            "score": 1.9032330513000488,
+            "state": "California"
+        },
+        {
+            "address": "Blue Bottle Coffee, 1103 Abbot Kinney Blvd, Venice, CA 90291",
+            "category": "['Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2bac76a98f25d:0x6e69483d322ad46c",
+            "iid": 7049,
+            "name": "Blue Bottle Coffee",
+            "rank": 14,
+            "score": 1.8965258598327637,
+            "state": "California"
+        },
+        {
+            "address": "Rutts Hawaiian Cafe, 11707 Washington Pl, Los Angeles, CA 90066",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Cafe', 'Caterer', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2ba692c81394d:0xf92df184f24e405c",
+            "iid": 7003,
+            "name": "Rutts Hawaiian Cafe",
+            "rank": 15,
+            "score": 1.888749122619629,
+            "state": "California"
+        },
+        {
+            "address": "Menotti's Coffee Stop, 56 Windward Ave, Venice, CA 90291",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Restaurant', 'Tea house']",
+            "gmap_id": "0x80c2bab9b3aecce5:0x403ea9d657ac7f61",
+            "iid": 7034,
+            "name": "Menotti's Coffee Stop",
+            "rank": 16,
+            "score": 1.8733055591583252,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Connection, 3838 S Centinela Ave, Los Angeles, CA 90066",
+            "category": "['Cafe', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x80c2ba5c317f69bf:0x48a4721ab23fbe15",
+            "iid": 6992,
+            "name": "Coffee Connection",
+            "rank": 17,
+            "score": 1.8579604625701904,
+            "state": "California"
+        },
+        {
+            "address": "R\u00e9publique, 624 South La Brea Ave, Los Angeles, CA 90036",
+            "category": "['French restaurant', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Cocktail bar', 'New American restaurant', 'Restaurant', 'Wine bar']",
+            "gmap_id": "0x80c2b8dfce39a0a9:0x9ab1e575a704621c",
+            "iid": 6825,
+            "name": "R\u00e9publique",
+            "rank": 18,
+            "score": 1.8299148082733154,
+            "state": "California"
+        },
+        {
+            "address": "Bodega Wine Bar, 814 Broadway, Santa Monica, CA 90401",
+            "category": "['Wine bar', 'Coffee shop']",
+            "gmap_id": "0x80c2a4cda7123a17:0x9209c23ec26b0f6f",
+            "iid": 6427,
+            "name": "Bodega Wine Bar",
+            "rank": 19,
+            "score": 1.7984497547149658,
+            "state": "California"
+        },
+        {
+            "address": "Bottega Louie, 700 S Grand Ave, Los Angeles, CA 90017",
+            "category": "['Italian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Chocolate shop', 'Coffee shop', 'Pastry shop', 'Patisserie', 'Restaurant']",
+            "gmap_id": "0x80c2c7b44ee125ff:0x189e483154a17e53",
+            "iid": 8099,
+            "name": "Bottega Louie",
+            "rank": 20,
+            "score": 1.797874093055725,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Advait Shinde",
+        "uid": 35427,
+        "user_id": 104689617504330125401
+    }
+}

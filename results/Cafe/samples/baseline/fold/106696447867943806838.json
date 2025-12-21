@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Main Street Cafe, 450 Main St, El Segundo, CA 90245",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2017/12/25",
+            "gmap_id": "0x80c2b140058988d3:0x57e7f35579d2bf13",
+            "iid": 6503,
+            "name": "Main Street Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514240963555
+        },
+        {
+            "address": "Two Guns Kitchen, 321 Main St, El Segundo, CA 90245",
+            "category": "['Cafe']",
+            "date": "2018/03/10",
+            "gmap_id": "0x80c2b1402aa709fd:0x8395d1f5e885ba02",
+            "iid": 6505,
+            "name": "Two Guns Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520720688383
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 2616 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "date": "2018/05/22",
+            "gmap_id": "0x80c2b3f400000005:0xf1e65ff17ee227db",
+            "iid": 6541,
+            "name": "The Coffee Bean & Tea Leaf",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1526967092105
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 1590 Rosecrans Ave T, Manhattan Beach, CA 90266",
+            "category": "['Coffee shop', 'Tea house']",
+            "date": "2019/03/19",
+            "gmap_id": "0x80c2b405aecec3a9:0x6c8db045aa4a5fac",
+            "iid": 6552,
+            "name": "The Coffee Bean & Tea Leaf",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1553032668730
+        },
+        {
+            "address": "Starbucks, 530 N Sepulveda Blvd #C, El Segundo, CA 90245",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/08/27",
+            "gmap_id": "0x80c2b14b82be3f73:0x49aa7d07a2795603",
+            "iid": 6507,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566941277518
+        },
+        {
+            "address": "Starbucks, 8231 La Palma Ave, Buena Park, CA 90620",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/08/27",
+            "gmap_id": "0x80dd2bdecbf2b731:0xf1f50764311f3ca3",
+            "iid": 12116,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566941548097
+        },
+        {
+            "address": "Fork-in Aussie Pie\u00ae Kitchen, 11918 Aviation Blvd, Inglewood, CA 90304",
+            "category": "['Australian restaurant', 'Caterer', 'Coffee shop']",
+            "date": "2019/09/27",
+            "gmap_id": "0x80c2b6bbadb898ed:0x15452af2547bf3c3",
+            "iid": 6668,
+            "name": "Fork-in Aussie Pie\u00ae Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569624906143
+        },
+        {
+            "address": "Starbucks, 4110 Norwood Ave, Sacramento, CA 95838, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/12/10",
+            "gmap_id": "0x809ad7854ff0c075:0x3c2ee9a68da313c9",
+            "iid": 5271,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575994206602
+        },
+        {
+            "address": "Paper or Plastik Cafe, 5772 W Pico Blvd, Los Angeles, CA 90019",
+            "category": "['Cafe', 'Coffee shop', 'Espresso bar', 'Restaurant']",
+            "date": "2020/03/02",
+            "gmap_id": "0x80c2b913d27ccc7d:0xa3db6c6d0df93a0d",
+            "iid": 6849,
+            "name": "Paper or Plastik Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1583188122943
+        },
+        {
+            "address": "Starbucks, 600 World Way, Los Angeles, CA 90045",
+            "category": "['Coffee shop']",
+            "date": "2020/03/02",
+            "gmap_id": "0x80c2b128dea22d1f:0xabd400b812f64259",
+            "iid": 6498,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583188314465
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Blue Butterfly Coffee Co, 351 Main St, El Segundo, CA 90245",
+            "category": "['Coffee shop', 'Breakfast restaurant']",
+            "gmap_id": "0x80c2b140278770cb:0x1cf264558f61fe54",
+            "iid": 6504,
+            "name": "Blue Butterfly Coffee Co",
+            "rank": 1,
+            "score": 6.769481182098389,
+            "state": "California"
+        },
+        {
+            "address": "Good Stuff El Segundo, 131 W Grand Ave Ste. C, El Segundo, CA 90245",
+            "category": "['Family restaurant', 'American restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Diner', 'Eclectic restaurant', 'Gluten-free restaurant', 'Hamburger restaurant']",
+            "gmap_id": "0x80c2b16a7828d3d5:0x2553d8f09373002d",
+            "iid": 6510,
+            "name": "Good Stuff El Segundo",
+            "rank": 2,
+            "score": 6.0297675132751465,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 14828 Hawthorne Blvd, Lawndale, CA 90260",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b449ff322b7b:0x8172ab3b6ee251f1",
+            "iid": 6565,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 5.898271560668945,
+            "state": "California"
+        },
+        {
+            "address": "Two Guns Espresso, 350 N Sepulveda Blvd, Manhattan Beach, CA 90266",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x80c2b38a2a122103:0x5539f8244c1438f3",
+            "iid": 6531,
+            "name": "Two Guns Espresso",
+            "rank": 4,
+            "score": 5.877237319946289,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1511 Hawthorne Blvd, Redondo Beach, CA 90278",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80c2b4fb65686b45:0xada58d0d924217b8",
+            "iid": 6602,
+            "name": "Panera Bread",
+            "rank": 5,
+            "score": 5.788486003875732,
+            "state": "California"
+        },
+        {
+            "address": "Corner, 3208 N Sepulveda Blvd Ste B, Manhattan Beach, CA 90266",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "gmap_id": "0x80c2b3f85e4fa377:0x14d1bf47e03ce86e",
+            "iid": 6544,
+            "name": "Corner",
+            "rank": 6,
+            "score": 5.753851413726807,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Company, 8751 La Tijera Blvd, Los Angeles, CA 90045",
+            "category": "['Brunch restaurant', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Espresso bar', 'Takeout Restaurant']",
+            "gmap_id": "0x80c2b0d29670bb69:0x377ef68d36d5bba8",
+            "iid": 6488,
+            "name": "The Coffee Company",
+            "rank": 7,
+            "score": 5.751079559326172,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5030 W Rosecrans Ave, Hawthorne, CA 90250",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b43daab62d15:0x2dfec331ee61894a",
+            "iid": 6562,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 5.730299472808838,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2909 W 120th St A, Hawthorne, CA 90250",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b5df7f55bd49:0xf5aa28631849218c",
+            "iid": 6647,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 5.672688961029053,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2231 Rosecrans Ave, El Segundo, CA 90245",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b40502943637:0xf25af71a2eb60aac",
+            "iid": 6551,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 5.651125907897949,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2979 Artesia Blvd, Redondo Beach, CA 90278",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b4f94d364e33:0xce98d2e0b79880ae",
+            "iid": 6597,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 5.544778347015381,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 820 S Sepulveda Blvd Suite A100, El Segundo, CA 90245",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2b3ff1a399c65:0xa5651272198eae26",
+            "iid": 6545,
+            "name": "Peet's Coffee",
+            "rank": 12,
+            "score": 5.521239757537842,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, Manhattan Gateway Shopping Center, 1800 Rosecrans Ave Building B, Manhattan Beach, CA 90266",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x80c2b41aa179778b:0xaa5969be310f7fe8",
+            "iid": 6558,
+            "name": "Barnes & Noble",
+            "rank": 13,
+            "score": 5.490437984466553,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 2525 Artesia Blvd, Redondo Beach, CA 90278",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2b4f5f0371c65:0xc48c70b1c69bbfb6",
+            "iid": 6595,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 14,
+            "score": 5.482292175292969,
+            "state": "California"
+        },
+        {
+            "address": "Noah's NY Bagels, 2231 Rosecrans Ave # C, El Segundo, CA 90245",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2b404fb9abd0b:0x362b1133867dc3ce",
+            "iid": 6550,
+            "name": "Noah's NY Bagels",
+            "rank": 15,
+            "score": 5.456068992614746,
+            "state": "California"
+        },
+        {
+            "address": "Torrance Bakery, 1341 El Prado Ave, Torrance, CA 90501",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Wedding bakery']",
+            "gmap_id": "0x80dd4ab0aa08827f:0x6cd1f9d92cd7d0b",
+            "iid": 12513,
+            "name": "Torrance Bakery",
+            "rank": 16,
+            "score": 5.418975830078125,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 15606 Hawthorne Blvd, Lawndale, CA 90260",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b44dd5e6ec89:0x44989da2c66f1de3",
+            "iid": 6567,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 5.395744800567627,
+            "state": "California"
+        },
+        {
+            "address": "Loaded Cafe Restaurants Lawndale, 15126-B Hawthorne Blvd, Lawndale, CA 90260",
+            "category": "['Family restaurant', 'Breakfast restaurant', 'Cafe', 'Pancake restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b44bdba72aeb:0x248c11e17857aa70",
+            "iid": 6566,
+            "name": "Loaded Cafe Restaurants Lawndale",
+            "rank": 18,
+            "score": 5.364457607269287,
+            "state": "California"
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Torrance, 1735 W Carson St A, Torrance, CA 90501",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x80dd4aa4b45458c7:0x1ace788cef605fc8",
+            "iid": 12511,
+            "name": "85\u00b0C Bakery Cafe - Torrance",
+            "rank": 19,
+            "score": 5.343648910522461,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 18201 Crenshaw Blvd, Torrance, CA 90504",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2b515b35047db:0xbe47b357e3dfc8d",
+            "iid": 6606,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 20,
+            "score": 5.322350025177002,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Ryan Langley",
+        "uid": 50850,
+        "user_id": 106696447867943806838
+    }
+}
