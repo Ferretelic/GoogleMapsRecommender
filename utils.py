@@ -1,14 +1,14 @@
 import os
 import gzip
 import json
-import math
+import random
 
 import numpy as np
+import pandas as pd
 import torch
 
 from hydra import compose, initialize
 from hydra.core.global_hydra import GlobalHydra
-from omegaconf import OmegaConf
 
 def parse(path):
     g = gzip.open(path, "r")
@@ -75,7 +75,7 @@ def load_hydra_config(config_name):
 
 
 def save_mappings(cfg):
-    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
+    df = load_combined_datast(cfg, "review")
 
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))
     gmap2index = {gmap_id:index for index, gmap_id in enumerate(gmap_ids)}
@@ -102,7 +102,7 @@ def load_mappings(cfg):
 
 
 def save_dataset_sizes(cfg):
-    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
+    df = load_combined_datast(cfg, "review")
     gmap_ids = np.unique(np.sort(df["gmap_id"].values))
     user_ids = np.unique(np.sort(df["user_id"].values))
 
@@ -124,19 +124,23 @@ def load_dataset_sizes(cfg):
 
 
 def load_splits_dataset(cfg):
-    train_df = pd.read_csv(f"{cfg.paths.splits}/train.csv")
+    train_df = load_split_dataset(cfg, "train")
     train_df["split"] = train_df["uid"].apply(lambda x: "train")
 
-    valid_df = pd.read_csv(f"{cfg.paths.splits}/valid.csv")
+    valid_df = load_split_dataset(cfg, "valid")
     valid_df["split"] = valid_df["uid"].apply(lambda x: "valid")
 
-    test_df = pd.read_csv(f"{cfg.paths.splits}/test.csv")
+    test_df = load_split_dataset(cfg, "test")
     test_df["split"] = test_df["uid"].apply(lambda x: "test")
 
     df = pd.concat([train_df, valid_df, test_df], axis=0)
 
     return df
 
-def load_test_dataset(cfg):
-    test_df = pd.read_csv(f"{cfg.paths.splits}/test.csv")
+def load_split_dataset(cfg, split):
+    test_df = pd.read_csv(f"{cfg.paths.splits}/{split}.csv")
     return test_df
+
+def load_combined_datast(cfg, mode):
+    df = pd.read_csv(f"{cfg.paths.combined}/{mode}.csv")
+    return df

@@ -7,7 +7,9 @@ from testing.recommender import *
 from utils import *
 
 def sample_test_users(cfg):
-    test_df, df = load_dataset(cfg)
+    df = load_splits_dataset(cfg)
+    test_df = load_split_dataset(cfg, "test")
+
     test_users = test_df["uid"].unique()
 
     df = df[df["uid"].isin(test_users)]
@@ -18,7 +20,7 @@ def sample_test_users(cfg):
 
     return sample_users
 
-class UserSampler():
+class UserSampler:
     def __init__(self, cfg):
         self.cfg = cfg
 
@@ -28,7 +30,9 @@ class UserSampler():
         self.gmap2info = self.load_item_information()
 
     def load_item_information(self, cfg):
-        meta = pd.read_csv(f"{cfg.paths.combined}/meta.csv")[["gmap_id", "name", "state", "address", "category"]]
+        meta = load_combined_datast(cfg, "meta")
+        meta = meta[["gmap_id", "name", "state", "address", "category"]]
+
         gmap2info = {gmap_id: (name, state, address, category) for (gmap_id, name, state, address, category) in meta.values}
         return gmap2info
 
@@ -92,13 +96,13 @@ class TestUserSampler(UserSampler):
         self.user2history = self.load_user_history()
 
     def load_user_name(self):
-        review = pd.read_csv(f"{self.cfg.paths.combined}/review.csv")[["user_id", "name"]]
+        review = load_combined_datast(self.cfg, "review")[["user_id", "name"]]
 
         user2name = {user_id: name for (user_id, name) in review.values}
         return user2name
 
     def load_user_history(self):
-        df = load_splits_dataset(cfg)
+        df = load_splits_dataset(self.cfg)
         df["date"] = pd.to_datetime(df["time"], unit="ms").dt.strftime("%Y/%m/%d")
         df = df.sort_values(by=["uid", "time"])
 
@@ -185,16 +189,19 @@ class NewUserSampler(UserSampler):
     def get_user_information(self, user):
         return {"name": user["name"], "user_id": user["user_id"]}
 
-    def compute_new_user_scores(self, recommender, user_emb):
-        if model_info["type"] == "dot":
+    def compute_new_user_scores(self, recommender, user_emb, type):
+        if type == "dot":
             scores = torch.matmul(user_emb, recommender.item_embs.t())
-        elif model_info["type"] == "cosine":
+
+        elif type == "cosine":
             norm_user_embs = F.normalize(user_emb, p=2, dim=1)
             norm_item_embs = F.normalize(recommender.item_embs, p=2, dim=1)
             scores = torch.matmul(norm_user_embs, norm_item_embs.t())
-        elif model_info["type"] == "distance":
+
+        elif type == "distance":
             dists = torch.cdist(user_emb, recommender.item_embs, p=2)
             scores = -dists
+
         else:
             raise NotImplementedError
 
@@ -206,7 +213,7 @@ class NewUserSampler(UserSampler):
         iids = torch.tensor(iids, dtype=torch.long).to(recommender.device)
 
         user_emb = torch.mean(recommender.item_embs[iids], dim=0, keepdim=True)
-        scores = self.compute_new_user_scores(recommender, user_emb)
+        scores = self.compute_new_user_scores(recommender, user_emb, model_info["type"])
         scores[:, iids] = -float("inf")
 
         topk_items = torch.topk(scores, k=self.cfg.inference.topk, dim=1)

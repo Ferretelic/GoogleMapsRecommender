@@ -76,7 +76,6 @@ class Evaluator():
         user_embs = user_embs.detach()
         item_embs = item_embs.detach()
 
-        num_items = item_embs.shape[0]
         device = user_embs.device
 
         recall_sum, ndcg_sum, n_users = 0.0, 0.0, 0

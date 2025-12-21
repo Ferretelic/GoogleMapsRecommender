@@ -1,17 +1,18 @@
-import json
-
 import torch
 import torch.nn.functional as F
-import pandas as pd
 import numpy as np
 
-class Recommender():
+from utils import *
+
+class Recommender:
     def __init__(self, cfg):
         self.cfg = cfg
         self.device = torch.device(cfg.test.device)
 
-        train_df = pd.read_csv(f"{cfg.paths.splits}/train.csv", dtype={"uid": int, "iid": int})
-        self.train_user_pos = train_df.groupby("uid")["iid"].apply(set).to_dict()
+        self.train_df = load_split_dataset(cfg, "train")
+        self.train_user_pos = self.train_df.groupby("uid")["iid"].apply(set).to_dict()
+
+        _, self.item_size = load_dataset_sizes(cfg)
 
     def mask_train_items(self, scores, users):
         users = users.cpu().numpy()
@@ -26,22 +27,7 @@ class Recommender():
         if rows:
             scores[rows, cols] = -float("inf")
 
-        item_size = self.load_item_size()
-        mapping_size = self.load_mapping_size()
-
         return scores
-
-    def load_mapping_size(self):
-        with open(f"{self.cfg.paths.combined}/mappings.json", "r") as f:
-            mappings = json.load(f)
-
-        return len(mappings["index2gmap"])
-
-    def load_item_size(self):
-        with open(f"{self.cfg.paths.result}/dataset_size.txt", "r") as f:
-            _, item_size = [int(l) for l in f.read().split(",")]
-
-        return item_size
 
     def get_top_k_items(self, scores, rank):
         _, topk_indices = torch.topk(scores, k=rank, dim=1)
@@ -61,23 +47,16 @@ class LocationRecommender(Recommender):
         self.item_location = self.load_item_location(cfg)
 
     def load_item_popularity(self, cfg):
-        item_size = self.load_item_size()
-        item_popularity = torch.zeros(item_size, dtype=torch.float32).to(self.device)
+        item_popularity = torch.zeros(self.item_size, dtype=torch.float32).to(self.device)
 
-        train_df = pd.read_csv(f"{self.cfg.paths.splits}/train.csv")
-        for iid, count in train_df["iid"].value_counts().reset_index().values:
+        for iid, count in self.train_df["iid"].value_counts().reset_index().values:
             item_popularity[iid] = count
 
         return item_popularity
 
     def load_item_location(self, cfg):
-        item_size = self.load_item_size()
-        item_location = torch.zeros((item_size, 2), dtype=torch.float32)
-
-        train_df = pd.read_csv(f"{self.cfg.paths.splits}/train.csv")
-        valid_df = pd.read_csv(f"{self.cfg.paths.splits}/valid.csv")
-        test_df = pd.read_csv(f"{self.cfg.paths.splits}/test.csv")
-        df = pd.concat([train_df, valid_df, test_df], axis=0)
+        item_location = torch.zeros((self.item_size, 2), dtype=torch.float32)
+        df = load_splits_dataset(cfg)
         df = df.groupby("iid")[["latitude", "longitude"]].first().reset_index()
 
         for (iid, latitude, longitude) in df.values:

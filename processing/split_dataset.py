@@ -1,8 +1,6 @@
 import os
 
-import pandas as pd
 import tqdm
-import numpy as np
 
 from utils import *
 
@@ -23,7 +21,7 @@ def apply_mappings(cfg, df):
     return df
 
 def get_gmap_to_loc(cfg):
-    meta = pd.read_csv(f"{cfg.paths.combined}/meta.csv")
+    meta = load_combined_datast(cfg, "meta")
 
     gmap2loc = {gmap_id: (latitude, longitude) for (gmap_id, latitude, longitude) in meta[["gmap_id", "latitude", "longitude"]].values}
 
@@ -33,7 +31,7 @@ def split_dataset_by_temporal(cfg):
     if os.path.exists(cfg.paths.splits):
         return
 
-    df = pd.read_csv(f"{cfg.paths.combined}/review.csv")
+    df = load_combined_datast(cfg, "review")
     df = apply_mappings(cfg, df)
 
     df = df.sort_values(by=["uid", "time"])
