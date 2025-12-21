@@ -23,24 +23,21 @@ def sample_test_users(cfg):
 class UserSampler:
     def __init__(self, cfg):
         self.cfg = cfg
+        self.device = torch.device(cfg.device)
 
         mappings = load_mappings(cfg)
-        self.index2gmap, self.index2user = mappings["index2gmap"], mappings["index2user"]
+        self.index2gmap = mappings["index2gmap"]
+        self.index2user = mappings["index2user"]
+        self.gmap2index = mappings["gmap2index"]
 
         self.gmap2info = self.load_item_information()
 
-    def load_item_information(self, cfg):
-        meta = load_combined_datast(cfg, "meta")
+    def load_item_information(self):
+        meta = load_combined_datast(self.cfg, "meta")
         meta = meta[["gmap_id", "name", "state", "address", "category"]]
 
         gmap2info = {gmap_id: (name, state, address, category) for (gmap_id, name, state, address, category) in meta.values}
         return gmap2info
-
-    def get_model_information(self, model):
-        name, type, model_name = model
-        model_info = {"name": name, "type": type, "model_name": model_name}
-
-        return model_info
 
     def get_user_recommendations(self, topk_scores, topk_indices):
         items = []
@@ -129,8 +126,8 @@ class TestUserSampler(UserSampler):
         return user_info
 
     def run_recommender(self, model_info):
-        recommender = load_recommender(self.cfg, model_info["type"], model_info["model_name"])
-        users = self.users.to(recommender.device)
+        recommender = load_recommender(self.cfg, model_info)
+        users = self.users.to(self.device)
 
         scores = recommender.compute_scores(users)
         scores = recommender.mask_train_items(scores, users)
@@ -158,14 +155,13 @@ class TestUserSampler(UserSampler):
 
         return history
 
-    def sample(self, model, log):
-        model_info = self.get_model_information(model)
+    def sample(self, model_info, log):
         topk_scores, topk_indices = self.run_recommender(model_info)
 
-        results_path = f"{self.cfg.paths.result}/samples/{model_info["model_name"]}/{model_info["type"]}"
+        results_path = f"{self.cfg.paths.result}/samples/{model_info["model"]}/{model_info["type"]}"
         os.makedirs(results_path, exist_ok=True)
 
-        print(f"  Start running recommendations with {model_info["name"]}")
+        print(f"  Start running recommender {model_info["name"]}")
 
         for index in range(self.users.size(0)):
             user_info = self.get_user_information(index)
@@ -178,7 +174,7 @@ class TestUserSampler(UserSampler):
                 json.dump(results, f, indent=4, sort_keys=True)
 
             if (user_info["user_id"] in log["user_ids"] and
-                model_info["model_name"] == log["model_name"] and
+                model_info["model"] == log["model"] and
                     model_info["type"] == log["type"]):
                 self.log_recommendation(results)
 
@@ -208,9 +204,9 @@ class NewUserSampler(UserSampler):
         return scores
 
     def run_recommender(self, model_info, user):
-        recommender = load_recommender(self.cfg, model_info["type"], model_info["model_name"])
+        recommender = load_recommender(self.cfg, model_info)
         iids = [self.gmap2index[gmap_id] for gmap_id in user["gmap_ids"]]
-        iids = torch.tensor(iids, dtype=torch.long).to(recommender.device)
+        iids = torch.tensor(iids, dtype=torch.long).to(self.device)
 
         user_emb = torch.mean(recommender.item_embs[iids], dim=0, keepdim=True)
         scores = self.compute_new_user_scores(recommender, user_emb, model_info["type"])
@@ -240,13 +236,12 @@ class NewUserSampler(UserSampler):
 
         return history
 
-    def sample(self, model, users):
+    def sample(self, model_info, users):
         for user in users:
             user_info = self.get_user_information(user)
-            model_info = self.get_model_information(model)
-            topk_scores, topk_indices = self.recommend_new_users(model_info, user)
+            topk_scores, topk_indices = self.run_recommender(model_info, user)
 
-            results_path = f"{self.cfg.paths.result}/new_users/{model_info["model_name"]}/{model_info["type"]}"
+            results_path = f"{self.cfg.paths.result}/new_users/{model_info["model"]}/{model_info["type"]}"
             os.makedirs(results_path, exist_ok=True)
             file_path = f"{results_path}/{user_info["user_id"]}.json"
 

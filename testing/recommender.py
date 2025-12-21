@@ -7,7 +7,7 @@ from utils import *
 class Recommender:
     def __init__(self, cfg):
         self.cfg = cfg
-        self.device = torch.device(cfg.test.device)
+        self.device = torch.device(cfg.device)
 
         self.train_df = load_split_dataset(cfg, "train")
         self.train_user_pos = self.train_df.groupby("uid")["iid"].apply(set).to_dict()
@@ -154,27 +154,26 @@ class EmbeddingDistanceRecommender(EmbeddingRecommender):
 
         return scores
 
-def load_recommender(cfg, type, name):
-    recommender = None
-    if type == "baseline":
-        if name == "Popularity":
+def load_recommender(cfg, model_info):
+    if model_info["type"] == "baseline":
+        if model_info["model"] == "Popularity":
             recommender = LocationPopularityRecommender(cfg)
-        elif name == "KNN":
+        elif model_info["model"] == "KNN":
             recommender = LocationKNNRecommender(cfg)
         else:
             raise NotImplementedError
 
-    elif type == "dot":
+    elif model_info["type"] == "dot":
         recommender = EmbeddingDotRecommender(cfg)
-        recommender.load_embeddings(name)
+        recommender.load_embeddings(model_info["model"])
 
-    elif type == "cosine":
+    elif model_info["type"] == "cosine":
         recommender = EmbeddingCosineRecommender(cfg)
-        recommender.load_embeddings(name)
+        recommender.load_embeddings(model_info["model"])
 
-    elif type == "distance":
+    elif model_info["type"] == "distance":
         recommender = EmbeddingDistanceRecommender(cfg)
-        recommender.load_embeddings(name)
+        recommender.load_embeddings(model_info["model"])
 
     else:
         raise NotImplementedError

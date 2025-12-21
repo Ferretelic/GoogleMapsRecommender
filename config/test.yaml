@@ -2,35 +2,44 @@ defaults:
   - base
   - _self_
 
+embeddings:
+    - name: LightGCN Baseline (Dot)
+      type: dot
+      model: baseline
+
+    - name: LightGCN Baseline (Cosine)
+      type: cosine
+      model: baseline
+
+    - name: LightGCN Baseline (Distance)
+      type: distance
+      model: baseline
+
+    - name: LightGCN Best (Dot)
+      type: dot
+      model: best
+
+    - name: LightGCN Best (Cosine)
+      type: cosine
+      model: best
+
+    - name: LightGCN Best (Distance)
+      type: distance
+      model: best
+
+baselines: []
+# baselines: ["KNN", "Popularity"]
+
 test:
-  device: cpu
+  device: cuda
   batch_size: 1024
   rank: 20
-  embeddings: [
-    # [LightGCN Baseline (Dot), dot, baseline],
-    # [LightGCN Baseline (Cosine), cosine, baseline],
-    # [LightGCN Baseline (Distance), distance, baseline],
-    [LightGCN Best (Dot), dot, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Cosine), cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Distance), distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-  ]
-  baselines: ["KNN", "Popularity"]
 
 inference:
-  device: cuda
   min_num_reviews: 10
   num_samples: 50
   topk: 20
-  embeddings: [
-    # [LightGCN Baseline (Dot), dot, baseline],
-    # [LightGCN Baseline (Cosine), cosine, baseline],
-    # [LightGCN Baseline (Distance), distance, baseline],
-    [LightGCN Best (Dot), dot, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Cosine), cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Distance), distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-  ]
-  baselines: ["KNN", "Popularity"]
   log:
     type: dot
-    model_name: emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0
+    model: best
     user_ids: []
