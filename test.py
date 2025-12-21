@@ -11,12 +11,15 @@ from testing.metrics import *
 
 from utils import *
 
-def load_models(cfg):
+def load_models(cfg, fold=False):
     models = []
     for model_info in cfg.baselines:
         models.append(OmegaConf.to_container(model_info, resolve=True))
 
     for model_info in cfg.embeddings:
+        if not fold and model_info.type == "fold":
+            continue
+
         models.append(OmegaConf.to_container(model_info, resolve=True))
 
     return models
@@ -42,14 +45,22 @@ def run_inference(cfg):
     sampler = TestUserSampler(cfg, sample_users)
 
     for model_info in load_models(cfg):
+        results_path = f"{cfg.paths.result}/samples/{model_info["model"]}/{model_info["type"]}"
+        if len(os.listdir(results_path)) == cfg.inference.num_samples:
+            continue
+
         sampler.sample(model_info, cfg.inference.log)
 
 def recommend_new_users(cfg):
     users = load_new_users(cfg)
     sampler = NewUserSampler(cfg)
 
-    for model_info in load_models(cfg):
-        sampler.sample(model_info, users)
+    for model_info in load_models(cfg, fold=True):
+        results_path = f"{cfg.paths.result}/new_users/{model_info["model"]}/{model_info["type"]}"
+        if len(os.listdir(results_path)) == len(os.listdir(cfg.paths.users)):
+            continue
+
+        sampler.sample(model_info, users, cfg.inference.log)
 
 @hydra.main(version_base=None, config_path="config", config_name="test")
 def main(cfg):

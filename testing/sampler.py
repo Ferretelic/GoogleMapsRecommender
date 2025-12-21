@@ -176,9 +176,7 @@ class TestUserSampler(UserSampler):
             with open(f"{results_path}/{user_info["user_id"]}.json", "w") as f:
                 json.dump(results, f, indent=4, sort_keys=True)
 
-            if (user_info["user_id"] in log["user_ids"] and
-                model_info["model"] == log["model"] and
-                    model_info["type"] == log["type"]):
+            if (model_info["model"] == log["model"] and model_info["type"] == log["type"]):
                 self.log_recommendation(results)
 
 class NewUserSampler(UserSampler):
@@ -217,7 +215,7 @@ class NewUserSampler(UserSampler):
 
         return history
 
-    def sample(self, model_info, users):
+    def sample(self, model_info, users, log):
         for user in users:
             user_info = self.get_user_information(user)
             topk_scores, topk_indices = self.run_recommender(model_info, user)
@@ -234,4 +232,5 @@ class NewUserSampler(UserSampler):
             with open(file_path, "w") as f:
                 json.dump(results, f, indent=4, sort_keys=True)
 
-            self.log_recommendation(results)
+            if (model_info["model"] == log["model"] and model_info["type"] == log["type"]):
+                self.log_recommendation(results)
