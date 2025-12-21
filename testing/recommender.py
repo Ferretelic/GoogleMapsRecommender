@@ -15,7 +15,7 @@ class Recommender:
 
         _, self.item_size = load_dataset_sizes(cfg)
 
-    def mask_train_items(self, scores, users):
+    def mask_test_user_train_items(self, scores, users):
         users = users.cpu().numpy()
         rows, cols = [], []
         for i, uid in enumerate(users):
@@ -30,16 +30,32 @@ class Recommender:
 
         return scores
 
+    def mask_new_user_train_items(self, scores, iids):
+        scores[:, iids] = -float("inf")
+        return scores
+
     def get_top_k_items(self, scores, rank):
         _, topk_indices = torch.topk(scores, k=rank, dim=1)
         return topk_indices
 
     def recommend(self, users, rank):
-        scores = self.compute_scores(users)
-        scores = self.mask_train_items(scores, users)
+        scores = self.compute_test_user_scores(users)
+        scores = self.mask_test_user_train_items(scores, users)
         topk_indices = self.get_top_k_items(scores, rank)
 
         return topk_indices
+
+    def get_test_user_scores(self, users):
+        scores = self.compute_test_user_scores(users)
+        scores = self.mask_test_user_train_items(scores, users)
+
+        return scores
+
+    def get_new_user_scores(self, iids):
+        scores = self.compute_new_user_scores(iids)
+        scores = self.mask_new_user_train_items(scores, iids)
+
+        return scores
 
 class LocationRecommender(Recommender):
     def __init__(self, cfg):
@@ -67,7 +83,7 @@ class LocationRecommender(Recommender):
 
         return item_location
 
-    def get_user_centroids(self, users):
+    def get_test_user_centroids(self, users):
         batch_centroids = torch.zeros(users.size(0), 2, device=self.device)
 
         for i, uid in enumerate(users.cpu().numpy()):
@@ -80,7 +96,13 @@ class LocationRecommender(Recommender):
 
         return batch_centroids
 
-    def get_user_latest_locations(self, users):
+    def get_new_user_centroids(self, iids):
+        hist_locs = self.item_location[iids]
+        centroid = hist_locs.mean(dim=0, keepdim=True)
+
+        return centroid
+
+    def get_test_user_latest_locations(self, users):
         latest_iids = []
         for uid in users.cpu().numpy():
             latest_iids.append(self.train_user_pos[uid][-1])
@@ -89,6 +111,11 @@ class LocationRecommender(Recommender):
         latest_locs = self.item_location[latest_iids]
 
         return latest_locs
+
+    def get_new_user_latest_locations(self, iids):
+        user_loc = self.item_location[iids[-1].unsqueeze(0)]
+
+        return user_loc
 
     def compute_haversine_distance(self, center_locs):
         lat1 = center_locs[:, 0:1]
@@ -108,17 +135,32 @@ class LocationRecommender(Recommender):
         return dist
 
 class LocationKNNRecommender(LocationRecommender):
-    def compute_scores(self, users):
-        user_centers = self.get_user_centroids(users)
+    def compute_test_user_scores(self, users):
+        user_centers = self.get_test_user_centroids(users)
         dists = self.compute_haversine_distance(user_centers)
         scores = -dists
 
         return scores
 
+    def compute_new_user_scores(self, iids):
+        user_center = self.get_new_user_centroids(iids)
+        dists = self.compute_haversine_distance(user_center)
+        scores = -dists
+
+        return scores
+
+
 class LocationLatestKNNRecommender(LocationRecommender):
-    def compute_scores(self, users):
-        user_locs = self.get_user_latest_locations(users)
+    def compute_test_user_scores(self, users):
+        user_locs = self.get_test_user_latest_locations(users)
         dists = self.compute_haversine_distance(user_locs)
+        scores = -dists
+
+        return scores
+
+    def compute_new_user_scores(self, iids):
+        user_loc = self.get_new_user_latest_locations(iids)
+        dists = self.compute_haversine_distance(user_loc)
         scores = -dists
 
         return scores
@@ -129,9 +171,17 @@ class LocationPopularityRecommender(LocationRecommender):
         self.distance_decay = 1.0
         self.epsilon = 0.1
 
-    def compute_scores(self, users):
-        user_centers = self.get_user_centroids(users)
+    def compute_test_user_scores(self, users):
+        user_centers = self.get_test_user_centroids(users)
         dists = self.compute_haversine_distance(user_centers)
+
+        pop_scores = self.item_popularity.unsqueeze(0)
+        scores = pop_scores / (dists + self.epsilon)
+        return scores
+
+    def compute_new_user_scores(self, iids):
+        user_center = self.get_new_user_centroids(iids)
+        dists = self.compute_haversine_distance(user_center)
 
         pop_scores = self.item_popularity.unsqueeze(0)
         scores = pop_scores / (dists + self.epsilon)
@@ -143,9 +193,17 @@ class LocationLatestPopularityRecommender(LocationRecommender):
         self.distance_decay = 1.0
         self.epsilon = 0.1
 
-    def compute_scores(self, users):
-        user_locs = self.get_user_latest_locations(users)
+    def compute_test_user_scores(self, users):
+        user_locs = self.get_test_user_latest_locations(users)
         dists = self.compute_haversine_distance(user_locs)
+
+        pop_scores = self.item_popularity.unsqueeze(0)
+        scores = pop_scores / (dists + self.epsilon)
+        return scores
+
+    def compute_new_user_scores(self, iids):
+        user_loc = self.get_new_user_latest_locations(iids)
+        dists = self.compute_haversine_distance(user_loc)
 
         pop_scores = self.item_popularity.unsqueeze(0)
         scores = pop_scores / (dists + self.epsilon)
@@ -163,13 +221,18 @@ class EmbeddingRecommender(Recommender):
         return self.item_embs.shape[0]
 
 class EmbeddingDotRecommender(EmbeddingRecommender):
-    def compute_scores(self, users):
+    def compute_test_user_scores(self, users):
         batch_user_embs = self.user_embs[users]
         scores = torch.matmul(batch_user_embs, self.item_embs.t())
         return scores
 
+    def compute_new_user_scores(self, iids):
+        user_emb = torch.mean(self.item_embs[iids], dim=0, keepdim=True)
+        scores = torch.matmul(user_emb, self.item_embs.t())
+        return scores
+
 class EmbeddingCosineRecommender(EmbeddingRecommender):
-    def compute_scores(self, users):
+    def compute_test_user_scores(self, users):
         batch_user_embs = self.user_embs[users]
 
         norm_user_embs = F.normalize(batch_user_embs, p=2, dim=1)
@@ -178,11 +241,28 @@ class EmbeddingCosineRecommender(EmbeddingRecommender):
         scores = torch.matmul(norm_user_embs, norm_item_embs.t())
         return scores
 
+    def compute_new_user_scores(self, iids):
+        user_emb = torch.mean(self.item_embs[iids], dim=0, keepdim=True)
+
+        norm_user_embs = F.normalize(user_emb, p=2, dim=1)
+        norm_item_embs = F.normalize(self.item_embs, p=2, dim=1)
+
+        scores = torch.matmul(norm_user_embs, norm_item_embs.t())
+        return scores
+
 class EmbeddingDistanceRecommender(EmbeddingRecommender):
-    def compute_scores(self, users):
+    def compute_test_user_scores(self, users):
         batch_user_embs = self.user_embs[users]
 
         dists = torch.cdist(batch_user_embs, self.item_embs, p=2)
+        scores = -dists
+
+        return scores
+
+    def compute_new_user_scores(self, iids):
+        user_emb = torch.mean(self.item_embs[iids], dim=0, keepdim=True)
+
+        dists = torch.cdist(user_emb, self.item_embs, p=2)
         scores = -dists
 
         return scores
