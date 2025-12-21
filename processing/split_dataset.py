@@ -6,32 +6,9 @@ import numpy as np
 
 from utils import *
 
-def save_mappings(cfg, df):
-    gmap_ids = np.unique(np.sort(df["gmap_id"].values))
-    gmap2index = {gmap_id:index for index, gmap_id in enumerate(gmap_ids)}
-    index2gmap = {index:gmap_id for index, gmap_id in enumerate(gmap_ids)}
-
-    user_ids = np.unique(np.sort(df["user_id"].values))
-    user2index = {user_id:index for index, user_id in enumerate(user_ids)}
-    index2user = {index:user_id for index, user_id in enumerate(user_ids)}
-
-    with open(f"{cfg.paths.combined}/mappings.json", "w") as f:
-        json.dump({
-            "gmap2index": gmap2index, "index2gmap": index2gmap,
-            "user2index": user2index, "index2user": index2user
-        }, f)
-
-def load_mappings(cfg, df):
-    if not os.path.exists(f"{cfg.paths.combined}/mappings.json"):
-        save_mappings(cfg, df)
-
-    with open(f"{cfg.paths.combined}/mappings.json", "r") as f:
-        mappings = json.load(f)
-
-    return mappings["gmap2index"], mappings["user2index"]
-
 def apply_mappings(cfg, df):
-    gmap2index, user2index = load_mappings(cfg, df)
+    mappings = load_mappings(cfg, df)
+    gmap2index, user2index = mappings["gmap2index"], mappings["user2index"]
 
     df["iid"] = df["gmap_id"].apply(lambda x: gmap2index[x])
     df["uid"] = df["user_id"].apply(lambda x: user2index[x])
