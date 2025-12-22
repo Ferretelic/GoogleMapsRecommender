@@ -1,4 +1,4 @@
-name: mixgcf_0.4_32_0.1
+name: mixgcf_0.4_64_0.2
 
 defaults:
   - base
@@ -11,12 +11,12 @@ training:
   lr: 0.001
   reg_weight: 0.001
 
-  gcl_reg: 0.1
+  gcl_reg: 0.2
   gcl_eps: 0.1
   gcl_temp: 0.2
 
   mix_alpha: 0.4
-  mix_n_candidates: 32
+  mix_n_candidates: 64
 
 evaluation:
   batch_size: 1024
