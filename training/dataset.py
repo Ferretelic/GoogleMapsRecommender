@@ -166,13 +166,21 @@ class CuisineDataset(Dataset):
         self.interactions = df_pos[["uid", "iid"]].values
         self.df_pos = df_pos
 
+        self.n_candidates = cfg.training.get("mix_n_candidates", 1)
+
     def __len__(self):
         return self.interactions.shape[0]
 
     def __getitem__(self, idx):
         user, pos_item = self.interactions[idx]
 
-        neg_item = self.sample_negative(user)
+        if self.n_candidates > 1:
+            neg_items = self.sample_negatives(user, self.n_candidates)
+            return user, pos_item, neg_items
+        else:
+            neg_item = self.sample_negative(user)
+            return user, pos_item, neg_item
+
         return user, pos_item, neg_item
 
     def sample_negative(self, user):
@@ -180,6 +188,16 @@ class CuisineDataset(Dataset):
             neg_item = np.random.randint(0, self.n_items)
             if neg_item not in self.user_pos_dict.get(user, set()):
                 return neg_item
+
+    def sample_negatives(self, user, count):
+        user_pos = self.user_pos_dict.get(user, set())
+        neg_items = np.random.randint(0, self.n_items, size=count)
+
+        for i in range(count):
+            while neg_items[i] in user_pos:
+                neg_items[i] = np.random.randint(0, self.n_items)
+
+        return neg_items
 
 def construct_datasets(cfg):
     batch_size = cfg.training.batch_size
