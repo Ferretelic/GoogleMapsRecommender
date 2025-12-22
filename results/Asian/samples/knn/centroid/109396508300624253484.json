@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Bluefin Sushi & Seafood, 401 NE Northgate Way #463, Seattle, WA 98125",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Dessert restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2017/07/12",
+            "gmap_id": "0x549011541fc59b95:0x9dbe215c412a1de8",
+            "iid": 1830,
+            "name": "Bluefin Sushi & Seafood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1499835536774
+        },
+        {
+            "address": "New Seoul Restaurant, 14007 Hwy 99 # G, Lynnwood, WA 98087",
+            "category": "['Korean restaurant']",
+            "date": "2018/02/27",
+            "gmap_id": "0x5490043f0a9e2daf:0x93b6b91da04c3dd3",
+            "iid": 1555,
+            "name": "New Seoul Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1519771617091
+        },
+        {
+            "address": "Sakuma Japanese Restaurant, 10924 Mukilteo Speedway, Mukilteo, WA 98275",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/06",
+            "gmap_id": "0x549003fa88460135:0x1abdfc9340f6c751",
+            "iid": 1544,
+            "name": "Sakuma Japanese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522998448076
+        },
+        {
+            "address": "Phoenix Restaurant, 14007 Hwy 99, Lynnwood, WA 98087",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "date": "2018/07/14",
+            "gmap_id": "0x5490043f0a9e2daf:0x82462061da4cf7f4",
+            "iid": 1554,
+            "name": "Phoenix Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531554749003
+        },
+        {
+            "address": "Surah Restaurant, 5333 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2018/07/27",
+            "gmap_id": "0x80dd2b753419c84f:0x9ebe2e5b44cc8a17",
+            "iid": 20555,
+            "name": "Surah Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532658116292
+        },
+        {
+            "address": "H Mart Buena Park, 5111 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Seafood market', 'Supermarket']",
+            "date": "2018/07/27",
+            "gmap_id": "0x80dd2b74cb6b5611:0x27ef0453a9b0a05c",
+            "iid": 20548,
+            "name": "H Mart Buena Park",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532658925680
+        },
+        {
+            "address": "Peony Kitchen Bellevue, 10317 Main St #100, Bellevue, WA 98004",
+            "category": "['Chinese restaurant', 'Cocktail bar']",
+            "date": "2018/07/27",
+            "gmap_id": "0x54906c7de537d25b:0x4cf02e0809711fd5",
+            "iid": 3040,
+            "name": "Peony Kitchen Bellevue",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1532660483795
+        },
+        {
+            "address": "H Mart Lynnwood, 3301 184th St SW, Lynnwood, WA 98037",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Supermarket']",
+            "date": "2018/10/01",
+            "gmap_id": "0x5490050c6e597ced:0x85fc7542f82b2377",
+            "iid": 1575,
+            "name": "H Mart Lynnwood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1538431553196
+        },
+        {
+            "address": "Hosoonyi Korean Restaurant, 23830 Hwy 99 #114, Edmonds, WA 98026",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2018/11/02",
+            "gmap_id": "0x5490107927248969:0x616caf51bebce76e",
+            "iid": 1789,
+            "name": "Hosoonyi Korean Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1541124248554
+        },
+        {
+            "address": "Silver Spoon Thai Restaurant & Bar, 3828 196th St SW, Lynnwood, WA 98036",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x5490056980220449:0x1bc59a67faa3bc33",
+            "iid": 1603,
+            "name": "Silver Spoon Thai Restaurant & Bar",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1543264713493
+        },
+        {
+            "address": "Arirang Korean BBQ Lynnwood, 18623 Hwy 99 #150, Lynnwood, WA 98037",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x5490053d26125fa3:0x42a3d703b448900e",
+            "iid": 1592,
+            "name": "Arirang Korean BBQ Lynnwood",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1545074671406
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Hunan Chinese Restaurant, 16 NE A St, Madras, OR 97741",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54beea2c34b78b67:0x87862eff37971722",
+            "iid": 5184,
+            "name": "Hunan Chinese Restaurant",
+            "rank": 1,
+            "score": -17.6680965423584,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 455 NW Oak tree Ln, Redmond, OR 97756",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54bf2a8d15a36151:0x381e6ba648699a9d",
+            "iid": 5185,
+            "name": "Panda Express",
+            "rank": 2,
+            "score": -47.34408950805664,
+            "state": "Oregon"
+        },
+        {
+            "address": "Yi's Wok, 615 NW 6th St, Redmond, OR 97756",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bf2ac2ba9fc17d:0xc8813c942a8aaa7d",
+            "iid": 5186,
+            "name": "Yi's Wok",
+            "rank": 3,
+            "score": -48.68317413330078,
+            "state": "Oregon"
+        },
+        {
+            "address": "Happy Wok, 352 E Hood Ave, Sisters, OR 97759",
+            "category": "['Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x54bf30b550556697:0x5872560cb74965a9",
+            "iid": 5191,
+            "name": "Happy Wok",
+            "rank": 4,
+            "score": -49.083621978759766,
+            "state": "Oregon"
+        },
+        {
+            "address": "Oishi, 511 SW 6th St, Redmond, OR 97756",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54bf2ad9fa69d03d:0x9a38808c244d4d8",
+            "iid": 5188,
+            "name": "Oishi",
+            "rank": 5,
+            "score": -49.63737869262695,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chan's Of Redmond, 704 SW 6th St, Redmond, OR 97756",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54bf2ac2baaae297:0x424bf0c86d6f6f3b",
+            "iid": 5187,
+            "name": "Chan's Of Redmond",
+            "rank": 6,
+            "score": -49.864261627197266,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thai O Restaurant, 974 SW Veterans Way, Redmond, OR 97756, United States",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54bf2b29a3c9dbff:0x2ae93b23dcfeb4ac",
+            "iid": 5189,
+            "name": "Thai O Restaurant",
+            "rank": 7,
+            "score": -50.1605224609375,
+            "state": "Oregon"
+        },
+        {
+            "address": "Cindy's Chinese Garden, 1362 S Hwy 97, Redmond, OR 97756",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bf2b2b001e07f5:0x1088392bee93a863",
+            "iid": 5190,
+            "name": "Cindy's Chinese Garden",
+            "rank": 8,
+            "score": -50.53739929199219,
+            "state": "Oregon"
+        },
+        {
+            "address": "Pho House, 1604 S Hwy 97, Redmond, OR 97756",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54b8d4d337b044db:0x3da4721bd6b86997",
+            "iid": 5181,
+            "name": "Pho House",
+            "rank": 9,
+            "score": -50.894195556640625,
+            "state": "Oregon"
+        },
+        {
+            "address": "Gee's Family Restaurant, 987 NW 2nd St, Prineville, OR 97754",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b93271da8d9355:0xd9d68bce4acf2e43",
+            "iid": 5182,
+            "name": "Gee's Family Restaurant",
+            "rank": 10,
+            "score": -58.28152084350586,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sora Sushi - Prineville, 234 N Main St Suite B, Prineville, OR 97754",
+            "category": "['Sushi restaurant', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x54b93306548a8437:0x2796b9502bd6a62a",
+            "iid": 5183,
+            "name": "Sora Sushi - Prineville",
+            "rank": 11,
+            "score": -58.973567962646484,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thai Food Tumalo, 19855 8th St, Bend, OR 97701",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54b8c61ee2d0f32b:0x45377e3777c22315",
+            "iid": 5150,
+            "name": "Thai Food Tumalo",
+            "rank": 12,
+            "score": -62.21195602416992,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 63447 N Hwy 97, Bend, OR 97701",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54b8ced867616d37:0xa3d472b4b98f5638",
+            "iid": 5178,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": -66.81270599365234,
+            "state": "Oregon"
+        },
+        {
+            "address": "Shinsei Sushi, 63455 N Hwy 97 #35, Bend, OR 97703",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54b8cf2833b33cd3:0xa69323845991fcfb",
+            "iid": 5179,
+            "name": "Shinsei Sushi",
+            "rank": 14,
+            "score": -67.114990234375,
+            "state": "Oregon"
+        },
+        {
+            "address": "CHI | Chinese and Sushi Bar, 3118 N Hwy 97, Bend, OR 97703",
+            "category": "['Chinese restaurant', 'Cocktail bar']",
+            "gmap_id": "0x54b8c89c5696688b:0xac937b19fcce87f5",
+            "iid": 5168,
+            "name": "CHI | Chinese and Sushi Bar",
+            "rank": 15,
+            "score": -69.2553939819336,
+            "state": "Oregon"
+        },
+        {
+            "address": "King Buffet, 2000 NE 3rd St #104, Bend, OR 97701",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54b8c8a4bfad628d:0x28d499d98cc84457",
+            "iid": 5176,
+            "name": "King Buffet",
+            "rank": 16,
+            "score": -70.57312774658203,
+            "state": "Oregon"
+        },
+        {
+            "address": "Orchid Thai Restaurant, 1900 NE Division St #110, Bend, OR 97701, United States",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Takeout restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54b8c8a31133e3e5:0xa6c920fd2ce26988",
+            "iid": 5175,
+            "name": "Orchid Thai Restaurant",
+            "rank": 17,
+            "score": -70.71129608154297,
+            "state": "Oregon"
+        },
+        {
+            "address": "Szechuan Restaurant, 1600 NE 3rd St, Bend, OR 97701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b8c8a164d96dc9:0xca5e0c02b5d0e44e",
+            "iid": 5174,
+            "name": "Szechuan Restaurant",
+            "rank": 18,
+            "score": -71.03258514404297,
+            "state": "Oregon"
+        },
+        {
+            "address": "Pho Viet & Cafe, 1326 NE 3rd St, Bend, OR 97701, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54b8c8a0380ee36d:0x90f6b801cce9a8d1",
+            "iid": 5173,
+            "name": "Pho Viet & Cafe",
+            "rank": 19,
+            "score": -71.32662200927734,
+            "state": "Oregon"
+        },
+        {
+            "address": "Kanpai, 990 NW Newport Ave, Bend, OR 97701",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x54b8c885bba6b31d:0xd4a40ca4b96d8ef",
+            "iid": 5167,
+            "name": "Kanpai",
+            "rank": 20,
+            "score": -71.38819885253906,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "Phyllis Nickelson",
+        "uid": 280609,
+        "user_id": 109396508300624253484
+    }
+}

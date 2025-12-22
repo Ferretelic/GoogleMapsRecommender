@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Nan Xiang Xiao Long Bao, 39-16 Prince St #104, Queens, NY 11354",
+            "category": "['Dumpling restaurant', 'Chinese restaurant', 'Shanghainese restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x89c2600e5c0c3e57:0x24af49e7e7726484",
+            "iid": 61468,
+            "name": "Nan Xiang Xiao Long Bao",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1510748947008
+        },
+        {
+            "address": "Hei La Moon Restaurant, 88 Beach St, Boston, MA 02111",
+            "category": "['Dim sum restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89e37a785fd0e5dd:0x9ad4e5f54d53c87a",
+            "iid": 69808,
+            "name": "Hei La Moon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1525700360665
+        },
+        {
+            "address": "750 Myrtle Diner, 750 Myrtle Ave, Brooklyn, NY 11205",
+            "category": "['Japanese grocery store', 'Fried chicken takeaway']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c25bec6e3658e5:0x2eedc5b6d41156e2",
+            "iid": 60879,
+            "name": "750 Myrtle Diner",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700597320
+        },
+        {
+            "address": "Asian Jewels, 133-30 39th Ave, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c2600e8936acd9:0x7186588fb0262c0e",
+            "iid": 61481,
+            "name": "Asian Jewels",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700613463
+        },
+        {
+            "address": "Insa, 328 Douglass St, Brooklyn, NY 11217",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/12/08",
+            "gmap_id": "0x89c25bab362fe1a3:0x29c89c8f51d7998d",
+            "iid": 60792,
+            "name": "Insa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1544295294055
+        },
+        {
+            "address": "Lake Pavilion, 6015 Main St, Queens, NY 11367",
+            "category": "['Dim sum restaurant', 'Cantonese restaurant', 'Chinese restaurant']",
+            "date": "2019/02/11",
+            "gmap_id": "0x89c2606f50d57779:0x340cf570f56be0b",
+            "iid": 61662,
+            "name": "Lake Pavilion",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1549918220926
+        },
+        {
+            "address": "Katsuei, 210 7th Ave, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c25b015e09d89f:0xacbaea5e956adece",
+            "iid": 60596,
+            "name": "Katsuei",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550158663001
+        },
+        {
+            "address": "Jongro BBQ, 155-14 Roosevelt Ave, Flushing, NY 11354",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c26025cb1b859d:0x95d3b37963a5465e",
+            "iid": 61600,
+            "name": "Jongro BBQ",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550159423804
+        },
+        {
+            "address": "OKONOMI // YUJI Ramen, 150 Ainslie St, Brooklyn, NY 11211",
+            "category": "['Japanese restaurant', 'Breakfast restaurant', 'Ramen restaurant', 'Seafood restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x89c2595831328cd9:0xfad5f1be4ddd8e13",
+            "iid": 59477,
+            "name": "OKONOMI // YUJI Ramen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1576091100300
+        },
+        {
+            "address": "Zenith, 7002 Fresh Pond Rd, Ridgewood, NY 11385",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "date": "2020/06/26",
+            "gmap_id": "0x89c25c29f0f4fe79:0x650949e95638e6be",
+            "iid": 60944,
+            "name": "Zenith",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1593141209096
+        },
+        {
+            "address": "Nowon, 507 E 6th St, New York, NY 10009",
+            "category": "['Korean restaurant', 'Gastropub']",
+            "date": "2021/03/22",
+            "gmap_id": "0x89c259ac4080178d:0x5f2796bd79da7a9e",
+            "iid": 60076,
+            "name": "Nowon",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1616417989099
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 1,
+            "score": -2.1456918716430664,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "\u798f\u7984\u5bff\u559cFollowsoshi, 135-24 40th Rd, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Breakfast restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Lunch restaurant', 'Pancake restaurant']",
+            "gmap_id": "0x89c261612e03981b:0xfa580b5a302811c2",
+            "iid": 61788,
+            "name": "\u798f\u7984\u5bff\u559cFollowsoshi",
+            "rank": 2,
+            "score": -2.146101951599121,
+            "state": "New_York"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 44215,
+            "name": "Aki Japanese Cuisine",
+            "rank": 3,
+            "score": -2.163743257522583,
+            "state": "Alabama"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 4,
+            "score": -2.174694299697876,
+            "state": "Texas"
+        },
+        {
+            "address": "BaoBao Kitchen, 2403 Battleground Ave # 2, Greensboro, NC 27408",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88531f5e253ebb6b:0x59ab448cb5a35ed4",
+            "iid": 42667,
+            "name": "BaoBao Kitchen",
+            "rank": 5,
+            "score": -2.180311679840088,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Kin Thai Street Eatery, 1050 20th St Suite 180, Sacramento, CA 95811",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x809ad1afcc0eb341:0x22fa22acd60fa947",
+            "iid": 12416,
+            "name": "Kin Thai Street Eatery",
+            "rank": 6,
+            "score": -2.1824915409088135,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Madness, 2535 Otay Center Dr Ste C, San Diego, CA 92154",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80d947f9ff16dfd9:0x88deafec802a258f",
+            "iid": 17750,
+            "name": "Teriyaki Madness",
+            "rank": 7,
+            "score": -2.1831753253936768,
+            "state": "California"
+        },
+        {
+            "address": "Toyose, 3814 Noriega St, San Francisco, CA 94122",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x8085878a8085d297:0xadf6a9f9923446f2",
+            "iid": 8187,
+            "name": "Toyose",
+            "rank": 8,
+            "score": -2.186387538909912,
+            "state": "California"
+        },
+        {
+            "address": "Fresh Vietnamese Bistro & Teahouse, 3840 Promenade Pkwy STE A, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889c0d9661e03b47:0xeb5e97144e7bada9",
+            "iid": 46727,
+            "name": "Fresh Vietnamese Bistro & Teahouse",
+            "rank": 9,
+            "score": -2.1899333000183105,
+            "state": "Mississippi"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 10,
+            "score": -2.190166473388672,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Lucky House, 22 Central St, Peabody, MA 01960",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e313b4b6747579:0x7d4ce6b1cb30fea7",
+            "iid": 69131,
+            "name": "Lucky House",
+            "rank": 11,
+            "score": -2.1903865337371826,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "sichuan garden, 2347 NW Military Hwy, San Antonio, TX 78231",
+            "category": "['Sichuan restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c6162ec1c3cf9:0xa91320ba029fdfc5",
+            "iid": 27324,
+            "name": "sichuan garden",
+            "rank": 12,
+            "score": -2.1941959857940674,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 350 Tucker Rd, Tehachapi, CA 93561",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c1f78cd4167551:0xe748a4ee08859ce4",
+            "iid": 12921,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": -2.1968328952789307,
+            "state": "California"
+        },
+        {
+            "address": "L\u00faa, 3971 N Williams Ave Suite 103, Portland, OR 97227",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x5495a75bd7f5b689:0x59487750aeda7595",
+            "iid": 4540,
+            "name": "L\u00faa",
+            "rank": 14,
+            "score": -2.197903871536255,
+            "state": "Oregon"
+        },
+        {
+            "address": "Masterpiece, 11625 Medlock Bridge Rd, Johns Creek, GA 30097",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f5990636ae077b:0xe94b4ec35d1014cd",
+            "iid": 52121,
+            "name": "Masterpiece",
+            "rank": 15,
+            "score": -2.198075532913208,
+            "state": "Georgia"
+        },
+        {
+            "address": "Jasmine at Belden, 4695 Dressler Rd NW, Canton, OH 44718",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8836d703ba30f571:0x1252196718c989ca",
+            "iid": 40566,
+            "name": "Jasmine at Belden",
+            "rank": 16,
+            "score": -2.1982274055480957,
+            "state": "Ohio"
+        },
+        {
+            "address": "DA.WA. Korean Restaurant, 473 Saw Mill Rd, West Haven, CT 06516",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89e877daa4b2f073:0x178a9f88118d57a8",
+            "iid": 72127,
+            "name": "DA.WA. Korean Restaurant",
+            "rank": 17,
+            "score": -2.198235034942627,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Pacific East, 186 Union St, Westlake, OH 44145",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88309311b18159cf:0x4fb2998efb68410c",
+            "iid": 39657,
+            "name": "Pacific East",
+            "rank": 18,
+            "score": -2.1984310150146484,
+            "state": "Ohio"
+        },
+        {
+            "address": "Spicy Girl, 5748 International Dr, Orlando, FL 32819",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x88e77f4c90479db9:0x7538bf4ef2014063",
+            "iid": 50578,
+            "name": "Spicy Girl",
+            "rank": 19,
+            "score": -2.1988003253936768,
+            "state": "Florida"
+        },
+        {
+            "address": "Baan Thai Cuisine, 5350 Farm to Market 1960 Rd E, Humble, TX 77346",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8640adb04f979723:0x7386c265acfd58e7",
+            "iid": 22846,
+            "name": "Baan Thai Cuisine",
+            "rank": 20,
+            "score": -2.199430465698242,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Brian Quiban",
+        "uid": 422444,
+        "user_id": 114187155024950400381
+    }
+}

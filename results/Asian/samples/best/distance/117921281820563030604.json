@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Persis Biryani Indian Grill, 1451 Woodruff Rd Suite D, Greenville, SC 29607",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2017/11/27",
+            "gmap_id": "0x885828ea13f64afb:0xe5b25d3448227728",
+            "iid": 43545,
+            "name": "Persis Biryani Indian Grill",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1511741234784
+        },
+        {
+            "address": "Krishna Grocery, 1288 Woodruff Rd, Greenville, SC 29607",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Grocery store']",
+            "date": "2017/11/27",
+            "gmap_id": "0x88582f01d46a55e1:0x3d2945be639b6476",
+            "iid": 43587,
+            "name": "Krishna Grocery",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1511741560228
+        },
+        {
+            "address": "Yao buffet-sushi-grill, 153 Smokey Park Hwy, Asheville, NC 28806",
+            "category": "['Asian restaurant', 'Thai restaurant']",
+            "date": "2017/11/29",
+            "gmap_id": "0x88598c36840059f3:0x17cf58862a70d327",
+            "iid": 43710,
+            "name": "Yao buffet-sushi-grill",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1511915389395
+        },
+        {
+            "address": "Radha Indian Grocers, 9 Hendrix Dr, Greenville, SC 29607",
+            "category": "['Indian grocery store', 'Grocery store']",
+            "date": "2017/12/04",
+            "gmap_id": "0x885828c1cfbcdd29:0x359f3a8f0f749458",
+            "iid": 43536,
+            "name": "Radha Indian Grocers",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1512348356901
+        },
+        {
+            "address": "Rasoi Indian Kitchen, 1810 K Street NW K Street Entrance, Washington, DC 20006",
+            "category": "['Indian restaurant', 'Bar & grill', 'Caterer']",
+            "date": "2017/12/22",
+            "gmap_id": "0x89b7b7b986d4b259:0xcda7159330e77d8c",
+            "iid": 56361,
+            "name": "Rasoi Indian Kitchen",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1513904533616
+        },
+        {
+            "address": "Super G Mart Charlotte, 7323 E Independence Blvd, Charlotte, NC 28227",
+            "category": "['Supermarket', 'Asian grocery store', 'Fresh food market', 'Grocery store', 'Indian grocery store', 'Korean grocery store', 'Mexican grocery store', 'Produce market']",
+            "date": "2018/08/08",
+            "gmap_id": "0x88542176a3ea3e03:0xab7f71a2248cb723",
+            "iid": 42968,
+            "name": "Super G Mart Charlotte",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1533689627202
+        },
+        {
+            "address": "Botiwalla, 24 S Main St, Alpharetta, GA 30009",
+            "category": "['Indian restaurant', 'South Asian restaurant']",
+            "date": "2019/07/14",
+            "gmap_id": "0x88f575bea1bde709:0x21327d4833becb35",
+            "iid": 52003,
+            "name": "Botiwalla",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1563107563989
+        },
+        {
+            "address": "Hong Kong Supermarket, 5495 Jimmy Carter Blvd, Norcross, GA 30093, United States",
+            "category": "['Grocery store', 'Asian grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2019/07/14",
+            "gmap_id": "0x88f5a6bf02b90cb5:0x230c1c835629f168",
+            "iid": 52399,
+            "name": "Hong Kong Supermarket",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1563107667587
+        },
+        {
+            "address": "Thai Restaurant, 3012 Augusta St, Greenville, SC 29605",
+            "category": "['Thai restaurant']",
+            "date": "2019/07/14",
+            "gmap_id": "0x88582ffb48df001d:0xe5dbe8556f298471",
+            "iid": 43595,
+            "name": "Thai Restaurant",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1563107856407
+        },
+        {
+            "address": "Tuk Tuk Thai and Vietnamese Kitchen, 5010 Old Spartanburg Rd, Taylors, SC 29687",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Pho restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2019/07/29",
+            "gmap_id": "0x88582bf9ce7fe847:0x952e51af271b6fae",
+            "iid": 43564,
+            "name": "Tuk Tuk Thai and Vietnamese Kitchen",
+            "split": "valid",
+            "state": "South_Carolina",
+            "unix_time": 1564360685194
+        },
+        {
+            "address": "Menkoi, 241B N Main St, Greenville, SC 29601",
+            "category": "['Japanese restaurant']",
+            "date": "2020/12/25",
+            "gmap_id": "0x885831d04a3ffffd:0xfa74e08207d034b4",
+            "iid": 43606,
+            "name": "Menkoi",
+            "split": "test",
+            "state": "South_Carolina",
+            "unix_time": 1608861480913
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 1,
+            "score": -2.226628065109253,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "KEIHIRO HIBACHI AND SUSHI, 250 E Military Dr, North Little Rock, AR 72118",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87d2bdbb70f8f36f:0xaebc6c02510927b1",
+            "iid": 33755,
+            "name": "KEIHIRO HIBACHI AND SUSHI",
+            "rank": 2,
+            "score": -2.2279043197631836,
+            "state": "Arkansas"
+        },
+        {
+            "address": "Big Fish Sushi, 22639 NE Inglewood Hill Rd, Sammamish, WA 98074",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x54907184e871b8b3:0xd6b96efed8e5720",
+            "iid": 3230,
+            "name": "Big Fish Sushi",
+            "rank": 3,
+            "score": -2.2394254207611084,
+            "state": "Washington"
+        },
+        {
+            "address": "Panda Express, 350 Tucker Rd, Tehachapi, CA 93561",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c1f78cd4167551:0xe748a4ee08859ce4",
+            "iid": 12921,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -2.2403509616851807,
+            "state": "California"
+        },
+        {
+            "address": "Nagoya Japanese Restaurant, 2915 28th St SE, Grand Rapids, MI 49512",
+            "category": "['Japanese restaurant', 'Children hall', 'Rice restaurant', 'Soup restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88184d7666c51da9:0x72bf8f923723ea80",
+            "iid": 38607,
+            "name": "Nagoya Japanese Restaurant",
+            "rank": 5,
+            "score": -2.2406139373779297,
+            "state": "Michigan"
+        },
+        {
+            "address": "Dragon Teriyaki Express, 5630 Fulton Industrial Blvd SW Suite A, Atlanta, GA 30336",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f51f47d72e7c75:0xaec04592eb95ea5b",
+            "iid": 51825,
+            "name": "Dragon Teriyaki Express",
+            "rank": 6,
+            "score": -2.241255760192871,
+            "state": "Georgia"
+        },
+        {
+            "address": "Suphan Thai Kitchen, 18825 Eureka Rd, Southgate, MI 48195",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x883b3784017768bb:0x6b177fa3afc9e3d3",
+            "iid": 41090,
+            "name": "Suphan Thai Kitchen",
+            "rank": 7,
+            "score": -2.24180269241333,
+            "state": "Michigan"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 8,
+            "score": -2.2430062294006348,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "BaoBao Kitchen, 2403 Battleground Ave # 2, Greensboro, NC 27408",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88531f5e253ebb6b:0x59ab448cb5a35ed4",
+            "iid": 42667,
+            "name": "BaoBao Kitchen",
+            "rank": 9,
+            "score": -2.2445948123931885,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Vanessa's Dumpling House, 452 Amsterdam Ave, New York, NY 10024",
+            "category": "['Restaurant', 'Chinese restaurant', 'Dumpling restaurant']",
+            "gmap_id": "0x89c25953992cecfd:0xfb5266ff6b8bd4a2",
+            "iid": 59456,
+            "name": "Vanessa's Dumpling House",
+            "rank": 10,
+            "score": -2.24507737159729,
+            "state": "New_York"
+        },
+        {
+            "address": "Bombay Bazaar Springfield, 1915 S Glenstone Ave, Springfield, MO 65804",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x87cf633a43c479a7:0xe58332b2e9c4f60e",
+            "iid": 33583,
+            "name": "Bombay Bazaar Springfield",
+            "rank": 11,
+            "score": -2.245180368423462,
+            "state": "Missouri"
+        },
+        {
+            "address": "F&F Japanese Grill, 1505 Texas Ave S Ste B, College Station, TX 77840",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86468578955ddeef:0x9e3d190cfa89a2e3",
+            "iid": 24796,
+            "name": "F&F Japanese Grill",
+            "rank": 12,
+            "score": -2.2454330921173096,
+            "state": "Texas"
+        },
+        {
+            "address": "Taj: Modern Indian Cuisine, 2290 Town Center Ave Suite 115, Melbourne, FL 32940",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88de076d17bdfe67:0x5e6ba493dcffebb6",
+            "iid": 49394,
+            "name": "Taj: Modern Indian Cuisine",
+            "rank": 13,
+            "score": -2.246476173400879,
+            "state": "Florida"
+        },
+        {
+            "address": "Elephant Thai, 3408 N Academy Blvd, Colorado Springs, CO 80917",
+            "category": "['Thai restaurant', 'Gluten-free restaurant', 'Pho restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x87134f20589c95ed:0x82b46084c5faa1fd",
+            "iid": 28459,
+            "name": "Elephant Thai",
+            "rank": 14,
+            "score": -2.247321367263794,
+            "state": "Colorado"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 15,
+            "score": -2.250199556350708,
+            "state": "Texas"
+        },
+        {
+            "address": "KRAVE Thai Restaurant, 22250 Bulverde Rd Ste 118, San Antonio, TX 78259",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865c89dba1402bf5:0xae7ae26cee826dad",
+            "iid": 27428,
+            "name": "KRAVE Thai Restaurant",
+            "rank": 16,
+            "score": -2.2520763874053955,
+            "state": "Texas"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 44215,
+            "name": "Aki Japanese Cuisine",
+            "rank": 17,
+            "score": -2.252718687057495,
+            "state": "Alabama"
+        },
+        {
+            "address": "Kin Thai Street Eatery, 1050 20th St Suite 180, Sacramento, CA 95811",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x809ad1afcc0eb341:0x22fa22acd60fa947",
+            "iid": 12416,
+            "name": "Kin Thai Street Eatery",
+            "rank": 18,
+            "score": -2.255828380584717,
+            "state": "California"
+        },
+        {
+            "address": "sichuan garden, 2347 NW Military Hwy, San Antonio, TX 78231",
+            "category": "['Sichuan restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c6162ec1c3cf9:0xa91320ba029fdfc5",
+            "iid": 27324,
+            "name": "sichuan garden",
+            "rank": 19,
+            "score": -2.2563047409057617,
+            "state": "Texas"
+        },
+        {
+            "address": "Dragon Palace, 115 Ryan Dr, Forest City, NC 28043",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885741fd5e5251d3:0x70089a77a62a2a12",
+            "iid": 43441,
+            "name": "Dragon Palace",
+            "rank": 20,
+            "score": -2.2582414150238037,
+            "state": "North_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Heather Cazarin",
+        "uid": 533835,
+        "user_id": 117921281820563030604
+    }
+}

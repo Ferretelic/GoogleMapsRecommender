@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Nicky's Thai Kitchen, 903 Penn Ave, Pittsburgh, PA 15222",
+            "category": "['Thai restaurant']",
+            "date": "2018/01/07",
+            "gmap_id": "0x8834f157fcc6eeb9:0xa6d96d37ed9f85dd",
+            "iid": 40317,
+            "name": "Nicky's Thai Kitchen",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1515338019481
+        },
+        {
+            "address": "Indian Spices, 129 6th St, Pittsburgh, PA 15222",
+            "category": "['Indian restaurant']",
+            "date": "2018/08/17",
+            "gmap_id": "0x8834f15612e73135:0xaab879731979dd82",
+            "iid": 40315,
+            "name": "Indian Spices",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1534527054412
+        },
+        {
+            "address": "Papaya Fine Asian Cuisine, 210 McHolme Dr, Pittsburgh, PA 15275",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/03",
+            "gmap_id": "0x883459457e2c8fb9:0x5b48c4995c5e5077",
+            "iid": 40175,
+            "name": "Papaya Fine Asian Cuisine",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1549235524322
+        },
+        {
+            "address": "Dhaba Wala Indian Kitchen, 49 Asylum St, Hartford, CT 06103",
+            "category": "['Indian restaurant']",
+            "date": "2019/03/06",
+            "gmap_id": "0x89e65364b4ae0ae9:0xea9e23a69b1ae51e",
+            "iid": 71077,
+            "name": "Dhaba Wala Indian Kitchen",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1551837737121
+        },
+        {
+            "address": "Naatiya Indian Restaurant, 8 Mountain Ave, Bloomfield, CT 06002",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x89e7aae8af3d0993:0xdf31990a32bfa899",
+            "iid": 71367,
+            "name": "Naatiya Indian Restaurant",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1552161991311
+        },
+        {
+            "address": "Rasham Restaurant, 577 John Fitch Blvd, South Windsor, CT 06074",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x89e6567488a9567b:0x174142c71881f149",
+            "iid": 71096,
+            "name": "Rasham Restaurant",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1553292519566
+        },
+        {
+            "address": "Tamarind Savoring India, Towne Center, 2101 Greentree Road Scott, Pittsburgh, PA 15220",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Delivery service', 'Health food restaurant', 'Indian sizzler restaurant', 'Pastry shop', 'South Asian restaurant', 'Vegan restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f7bfdc932321:0x45f57420d98d64ea",
+            "iid": 40453,
+            "name": "Tamarind Savoring India",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1553292601140
+        },
+        {
+            "address": "Sesame Inn Mt. Lebanon, 704 Washington Rd, Pittsburgh, PA 15228",
+            "category": "['Mandarin restaurant', 'Chinese restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f77056801c57:0x3995d741deee21b8",
+            "iid": 40446,
+            "name": "Sesame Inn Mt. Lebanon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1553292623225
+        },
+        {
+            "address": "Cafe Delhi and Karma Banquet/Event Center, 205 Mary St, Carnegie, PA 15106",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Banquet hall', 'Cafe', 'Event venue', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f7d20ccc7895:0x5f5978e97cd8aee2",
+            "iid": 40457,
+            "name": "Cafe Delhi and Karma Banquet/Event Center",
+            "split": "valid",
+            "state": "Pennsylvania",
+            "unix_time": 1553292656301
+        },
+        {
+            "address": "Sai Foods, 1137 Tolland Turnpike, Manchester, CT 06042",
+            "category": "['Indian grocery store']",
+            "date": "2019/11/16",
+            "gmap_id": "0x89e657a69947c569:0xdeb801aca81f01b4",
+            "iid": 71117,
+            "name": "Sai Foods",
+            "split": "test",
+            "state": "Connecticut",
+            "unix_time": 1573925183794
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Choolaah, 227 Summit Park Dr, Pittsburgh, PA 15275",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8834597962f96e63:0xd1e11802828caac5",
+            "iid": 40179,
+            "name": "Choolaah",
+            "rank": 1,
+            "score": -2.033473491668701,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Green Garden, 300 Beverly Rd, Pittsburgh, PA 15216",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8834f70b3a4dc89d:0xe6d70926c3d69c8",
+            "iid": 40435,
+            "name": "Green Garden",
+            "rank": 2,
+            "score": -2.049729824066162,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bao Dumplings & Bao Tea \u5bf6\u9903\u5bf6\u8336, 1358 NJ-36, Hazlet, NJ 07730",
+            "category": "['Dumpling restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x89c235d3eeed285d:0x858b6bd3976311ef",
+            "iid": 58075,
+            "name": "Bao Dumplings & Bao Tea \u5bf6\u9903\u5bf6\u8336",
+            "rank": 3,
+            "score": -2.127563953399658,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 4,
+            "score": -2.1281769275665283,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Din Tai Noodle, 1034 E Bastanchury Rd, Fullerton, CA 92835",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dcd57875a9ba93:0x2f865b28228cd1b5",
+            "iid": 19321,
+            "name": "Din Tai Noodle",
+            "rank": 5,
+            "score": -2.12963604927063,
+            "state": "California"
+        },
+        {
+            "address": "Toyose, 3814 Noriega St, San Francisco, CA 94122",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x8085878a8085d297:0xadf6a9f9923446f2",
+            "iid": 8187,
+            "name": "Toyose",
+            "rank": 6,
+            "score": -2.132112503051758,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Chinese Kitchen, 360 N Main St, Tonopah, NV 89049",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80bc076c7f652e95:0x7468a2a5ccfb97ad",
+            "iid": 12909,
+            "name": "Bamboo Chinese Kitchen",
+            "rank": 7,
+            "score": -2.1376335620880127,
+            "state": "Nevada"
+        },
+        {
+            "address": "Ginza Japanese Grill - North Charleston, 5647 Rivers Ave, North Charleston, SC 29406",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fe6397576378ab:0x10b1e3a09d6166f7",
+            "iid": 53203,
+            "name": "Ginza Japanese Grill - North Charleston",
+            "rank": 8,
+            "score": -2.1401524543762207,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Jasmine at Belden, 4695 Dressler Rd NW, Canton, OH 44718",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8836d703ba30f571:0x1252196718c989ca",
+            "iid": 40566,
+            "name": "Jasmine at Belden",
+            "rank": 9,
+            "score": -2.1416280269622803,
+            "state": "Ohio"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 459 8th St Suite A, Oakland, CA 94607",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x808f818b0e37f605:0x3c207a96459a3dc3",
+            "iid": 9376,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 10,
+            "score": -2.1420679092407227,
+            "state": "California"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 44215,
+            "name": "Aki Japanese Cuisine",
+            "rank": 11,
+            "score": -2.14457368850708,
+            "state": "Alabama"
+        },
+        {
+            "address": "Sa-Bai Thai Bistro, 2580 AZ-95, Bullhead City, AZ 86442",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80ce4154e59c71ed:0x8b32d091441ba99f",
+            "iid": 17673,
+            "name": "Sa-Bai Thai Bistro",
+            "rank": 12,
+            "score": -2.1462128162384033,
+            "state": "Arizona"
+        },
+        {
+            "address": "Big Fish Sushi, 22639 NE Inglewood Hill Rd, Sammamish, WA 98074",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x54907184e871b8b3:0xd6b96efed8e5720",
+            "iid": 3230,
+            "name": "Big Fish Sushi",
+            "rank": 13,
+            "score": -2.146498680114746,
+            "state": "Washington"
+        },
+        {
+            "address": "Sanshi, 118 2nd Ave, New York, NY 10003",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x89c259950f48b181:0x1d8c370870f57480",
+            "iid": 59768,
+            "name": "Sanshi",
+            "rank": 14,
+            "score": -2.146829128265381,
+            "state": "New_York"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 15,
+            "score": -2.1472554206848145,
+            "state": "Texas"
+        },
+        {
+            "address": "Spicy Girl, 5748 International Dr, Orlando, FL 32819",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x88e77f4c90479db9:0x7538bf4ef2014063",
+            "iid": 50578,
+            "name": "Spicy Girl",
+            "rank": 16,
+            "score": -2.1485068798065186,
+            "state": "Florida"
+        },
+        {
+            "address": "Teriyaki Madness, 4944 Thompson Pkwy, Johnstown, CO 80534",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876ead0f3cec845f:0x74325f6894d97d76",
+            "iid": 31644,
+            "name": "Teriyaki Madness",
+            "rank": 17,
+            "score": -2.148773193359375,
+            "state": "Colorado"
+        },
+        {
+            "address": "Lucky House, 22 Central St, Peabody, MA 01960",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e313b4b6747579:0x7d4ce6b1cb30fea7",
+            "iid": 69131,
+            "name": "Lucky House",
+            "rank": 18,
+            "score": -2.1495275497436523,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pora Foods, 1 American Dream Way, East Rutherford, NJ 07073",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2f95b1abb51b5:0xc58f2ed7901b313c",
+            "iid": 63747,
+            "name": "Pora Foods",
+            "rank": 19,
+            "score": -2.1506845951080322,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Indian Kitchen, 3905 W University Dr Suite 400, McKinney, TX 75071",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c15e49d9c3dc3:0x45d87b07f0a6862e",
+            "iid": 25089,
+            "name": "Indian Kitchen",
+            "rank": 20,
+            "score": -2.151050567626953,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Anupam Paul",
+        "uid": 176936,
+        "user_id": 105917264377137135845
+    }
+}

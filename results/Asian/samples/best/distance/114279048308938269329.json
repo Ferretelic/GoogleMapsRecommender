@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Lao Orchid, 636 TX-46, New Braunfels, TX 78130",
+            "category": "['Thai restaurant']",
+            "date": "2018/02/26",
+            "gmap_id": "0x865cbce208382623:0xab7196cb737f79ab",
+            "iid": 27514,
+            "name": "Thai Lao Orchid",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1519662836526
+        },
+        {
+            "address": "Taste of China Chinese Restaurant, 8720 NE Centerpointe Dr STE 101, Vancouver, WA 98665",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2018/05/27",
+            "gmap_id": "0x5495ae2e5a15d31d:0x1cb14c8d203bd5bf",
+            "iid": 4584,
+            "name": "Taste of China Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1527453297057
+        },
+        {
+            "address": "Zien Hong, 5314 NE Sandy Blvd, Portland, OR 97213",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/06/25",
+            "gmap_id": "0x5495a12f3efcb58f:0xdd04b30546b713e2",
+            "iid": 4377,
+            "name": "Zien Hong",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1529892981203
+        },
+        {
+            "address": "Panda Express, 526 SE 192nd Ave, Vancouver, WA 98683",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x5495bb397cb9e49f:0x130665b13b87f20c",
+            "iid": 4647,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531330973739
+        },
+        {
+            "address": "Pho Van 82nd, 1919 SE 82nd Ave, Portland, OR 97216",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/17",
+            "gmap_id": "0x5495a1acd647d3bb:0x421632c4034abc13",
+            "iid": 4423,
+            "name": "Pho Van 82nd",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1539801757659
+        },
+        {
+            "address": "Tan Tan Cafe & Delicatessen, 12675 SW Broadway St, Beaverton, OR 97005",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x54950e9f8f090565:0x9e29719d738b0235",
+            "iid": 3931,
+            "name": "Tan Tan Cafe & Delicatessen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1555268477440
+        },
+        {
+            "address": "Bon Teriyaki, 1935 NE Division St, Gresham, OR 97030",
+            "category": "['Japanese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x5495985d251883cb:0xe9b6f660ffffd740",
+            "iid": 4196,
+            "name": "Bon Teriyaki",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563546586758
+        },
+        {
+            "address": "Ph\u1edf Vietnam Restaurant, 5440 SE 82nd Ave, Portland, OR 97266, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/05",
+            "gmap_id": "0x5495a04bf5e00a1d:0x54aca66769ec13a",
+            "iid": 4250,
+            "name": "Ph\u1edf Vietnam Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1567726861581
+        },
+        {
+            "address": "Best Baguette, 8308 SE Powell Blvd, Portland, OR 97266",
+            "category": "['Sandwich shop', 'Asian restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant', 'Store', 'Vietnamese restaurant']",
+            "date": "2019/09/25",
+            "gmap_id": "0x5495a049d1ade44d:0xae5a29db0fc24304",
+            "iid": 4249,
+            "name": "Best Baguette",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1569375804123
+        },
+        {
+            "address": "Kung Food Restaurant, 8071 N Lombard Way, Portland, OR 97203",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x5495a8009146a083:0x1f8daf918d2799f4",
+            "iid": 4566,
+            "name": "Kung Food Restaurant",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1570139026322
+        },
+        {
+            "address": "Yu's Garden, 366 NW Frontage Rd, Troutdale, OR 97060",
+            "category": "['Chinese restaurant', 'Family restaurant', 'Lounge', 'Restaurant']",
+            "date": "2021/04/10",
+            "gmap_id": "0x5495bd50467fe469:0xf3974197a2cfff20",
+            "iid": 4655,
+            "name": "Yu's Garden",
+            "split": "test",
+            "state": "Oregon",
+            "unix_time": 1618022388511
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Fubonn Supermarket, 2850 SE 82nd Ave, Portland, OR 97266",
+            "category": "['Chinese supermarket']",
+            "gmap_id": "0x5495a11f35c1d8a5:0x8bebd882776f365",
+            "iid": 4372,
+            "name": "Fubonn Supermarket",
+            "rank": 1,
+            "score": -2.2071897983551025,
+            "state": "Oregon"
+        },
+        {
+            "address": "Excellent Cuisine, 8733 SE Division St, Portland, OR 97266",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x5495a19137b15e39:0x38c20179d3123eb9",
+            "iid": 4416,
+            "name": "Excellent Cuisine",
+            "rank": 2,
+            "score": -2.3099184036254883,
+            "state": "Oregon"
+        },
+        {
+            "address": "Pure Spice Chinese Restaurant, 2446 SE 87th Ave, Portland, OR 97216",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x5495a1d5de292015:0x939ac98a04a60b38",
+            "iid": 4432,
+            "name": "Pure Spice Chinese Restaurant",
+            "rank": 3,
+            "score": -2.36917781829834,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sapporo, 2800 Marina Bay Dr Suite A, League City, TX 77573",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86409d383b20e3db:0x18d9165940c3445a",
+            "iid": 22789,
+            "name": "Sapporo",
+            "rank": 4,
+            "score": -2.380323648452759,
+            "state": "Texas"
+        },
+        {
+            "address": "YUBU, 86 E 7th St, New York, NY 10003",
+            "category": "['Korean restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259cfbaa63c0b:0xa570face20d149c1",
+            "iid": 60218,
+            "name": "YUBU",
+            "rank": 5,
+            "score": -2.383563756942749,
+            "state": "New_York"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 6,
+            "score": -2.3874292373657227,
+            "state": "Texas"
+        },
+        {
+            "address": "Fresh India Grocery and Eatery, 441 Commerce Dr, Woodbury, MN 55125",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "gmap_id": "0x87f7d905ae8ddaf7:0x3f2a456bd99a094c",
+            "iid": 35169,
+            "name": "Fresh India Grocery and Eatery",
+            "rank": 7,
+            "score": -2.3883116245269775,
+            "state": "Minnesota"
+        },
+        {
+            "address": "\u798f\u7984\u5bff\u559cFollowsoshi, 135-24 40th Rd, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Breakfast restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Lunch restaurant', 'Pancake restaurant']",
+            "gmap_id": "0x89c261612e03981b:0xfa580b5a302811c2",
+            "iid": 61788,
+            "name": "\u798f\u7984\u5bff\u559cFollowsoshi",
+            "rank": 8,
+            "score": -2.388690948486328,
+            "state": "New_York"
+        },
+        {
+            "address": "Dragon Palace, 115 Ryan Dr, Forest City, NC 28043",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885741fd5e5251d3:0x70089a77a62a2a12",
+            "iid": 43441,
+            "name": "Dragon Palace",
+            "rank": 9,
+            "score": -2.3893914222717285,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "India's Grill Authentic Indian Cuisines Brandon, 902 E Brandon Blvd, Brandon, FL 33511",
+            "category": "['Indian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88c2cdc86fbac39b:0xfcbab4769c8b68d8",
+            "iid": 47143,
+            "name": "India's Grill Authentic Indian Cuisines Brandon",
+            "rank": 10,
+            "score": -2.3903369903564453,
+            "state": "Florida"
+        },
+        {
+            "address": "APSARA CAF\u00c9, 5025 Church Rd E Suite 100, Olive Branch, MS 38654",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Bakery', 'Bubble tea store', 'Cambodian restaurant', 'Chinese noodle restaurant', 'Coffee shop', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x887f8d951b3cc439:0x425afe3979897bde",
+            "iid": 45721,
+            "name": "APSARA CAF\u00c9",
+            "rank": 11,
+            "score": -2.3913016319274902,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Mizumi Sushi & Asian Bistro, 17629 Cedar Ave, Lakeville, MN 55044",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x87f6372598c9aab9:0xb35e9730050c478b",
+            "iid": 35055,
+            "name": "Mizumi Sushi & Asian Bistro",
+            "rank": 12,
+            "score": -2.3941004276275635,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Kuma Ramen, 5121 Collin McKinney Pkwy Ste 800, McKinney, TX 75070",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x864c173262835931:0x22b3e597980b5b4c",
+            "iid": 25099,
+            "name": "Kuma Ramen",
+            "rank": 13,
+            "score": -2.39717960357666,
+            "state": "Texas"
+        },
+        {
+            "address": "Imm Dee Thai Restaurant & Bar, 2009 NE Burnside Rd, Gresham, OR 97030",
+            "category": "['Thai restaurant', 'Bar', 'Gluten-free restaurant', 'Sports bar', 'Vegan restaurant']",
+            "gmap_id": "0x5495997e6c5d5ff7:0xd8d7c59bf6925e1c",
+            "iid": 4211,
+            "name": "Imm Dee Thai Restaurant & Bar",
+            "rank": 14,
+            "score": -2.39945912361145,
+            "state": "Oregon"
+        },
+        {
+            "address": "The Monk's Heights, 126 Heights Blvd Unit #110, Houston, TX 77007",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8640c19abdf11311:0xd74a8cb7a3e564a7",
+            "iid": 23113,
+            "name": "The Monk's Heights",
+            "rank": 15,
+            "score": -2.400400161743164,
+            "state": "Texas"
+        },
+        {
+            "address": "Toryumon Japanese House-Arlington, 1650 Wilson Blvd Suite 100B, Arlington, VA 22209",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b700d87c61fb:0x1eeabfc929866c9e",
+            "iid": 56271,
+            "name": "Toryumon Japanese House-Arlington",
+            "rank": 16,
+            "score": -2.403154134750366,
+            "state": "Virginia"
+        },
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 17,
+            "score": -2.403592824935913,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "FUSIAN, 7721 Sawmill Rd, Dublin, OH 43016",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8838ed1769136129:0xde34c0370308822b",
+            "iid": 40925,
+            "name": "FUSIAN",
+            "rank": 18,
+            "score": -2.4036684036254883,
+            "state": "Ohio"
+        },
+        {
+            "address": "TaiPei Asian Cuisine, 5912 N Davis Hwy Suite C, Pensacola, FL 32503",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8890c1f26265d4a5:0xb78c76d16905d2c5",
+            "iid": 46371,
+            "name": "TaiPei Asian Cuisine",
+            "rank": 19,
+            "score": -2.404857873916626,
+            "state": "Florida"
+        },
+        {
+            "address": "sichuan garden, 2347 NW Military Hwy, San Antonio, TX 78231",
+            "category": "['Sichuan restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c6162ec1c3cf9:0xa91320ba029fdfc5",
+            "iid": 27324,
+            "name": "sichuan garden",
+            "rank": 20,
+            "score": -2.4052722454071045,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "CRAZYROBSTA",
+        "uid": 425158,
+        "user_id": 114279048308938269329
+    }
+}

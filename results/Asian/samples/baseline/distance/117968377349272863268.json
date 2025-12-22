@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "ABC Mandarin, 5260 S 1900 W, Roy, UT 84067",
+            "category": "['Chinese restaurant']",
+            "date": "2018/08/30",
+            "gmap_id": "0x8753055fc6db0989:0x1577f397a6c619cb",
+            "iid": 30537,
+            "name": "ABC Mandarin",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1535672219978
+        },
+        {
+            "address": "Asian Buffet, 877 W Hill Field Rd, Layton, UT 84041",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x875303b74e92299d:0x9903f1df2cc88478",
+            "iid": 30513,
+            "name": "Asian Buffet",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1536730812024
+        },
+        {
+            "address": "Golden Jade Restaurant, 4848 Harrison Blvd, Ogden, UT 84403",
+            "category": "['Chinese restaurant', 'Fast food restaurant', 'Restaurant']",
+            "date": "2018/09/21",
+            "gmap_id": "0x87530607d2ae2793:0x9276e830e2caaa49",
+            "iid": 30541,
+            "name": "Golden Jade Restaurant",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1537499281668
+        },
+        {
+            "address": "Eastern Winds Restaurant3740 Washington Blvd, Ogden, UT 84403",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "date": "2018/11/21",
+            "gmap_id": "0x87530f41495b5f61:0x4a806c3476aac09c",
+            "iid": 30569,
+            "name": "Eastern Winds Restaurant",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1542833720001
+        },
+        {
+            "address": "P.F. Chang's, 3667 S Las Vegas Blvd, Las Vegas, NV 89109",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x80c8c43661d137ab:0x6a1bd9f29389ad44",
+            "iid": 17046,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1555806577057
+        },
+        {
+            "address": "Pho Banh Ogden, 2056 Harrison Blvd, Ogden, UT 84401",
+            "category": "['Vietnamese restaurant', 'Diner', 'Pho restaurant', 'Sandwich shop']",
+            "date": "2019/06/09",
+            "gmap_id": "0x8753097c0a9defc5:0x305a3da3f9364609",
+            "iid": 30547,
+            "name": "Pho Banh Ogden",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1560067473601
+        },
+        {
+            "address": "Five Star Restaurant, 5676 S 1900 W, Roy, UT 84067",
+            "category": "['Thai restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x8753055d3cb137b9:0x4d138c1d6d7d87ba",
+            "iid": 30531,
+            "name": "Five Star Restaurant",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1561750125164
+        },
+        {
+            "address": "Takumi Japanese Grill, 15 E 500 N, Brigham City, UT 84302",
+            "category": "['Restaurant', 'Japanese restaurant', 'Pho restaurant']",
+            "date": "2019/08/18",
+            "gmap_id": "0x87537bb6e3125bdf:0x9261e40514eb8372",
+            "iid": 30589,
+            "name": "Takumi Japanese Grill",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1566141700408
+        },
+        {
+            "address": "Sushi Marquee, 3625 The Star Blvd, Frisco, TX 75034",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2019/09/11",
+            "gmap_id": "0x864c3c84f598bcfd:0xff1bb22f530b2474",
+            "iid": 25930,
+            "name": "Sushi Marquee",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1568209136235
+        },
+        {
+            "address": "SK@BBQ, 1925 S El Camino Real, San Clemente, CA 92672",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2020/01/30",
+            "gmap_id": "0x80dcf45c1d5c252b:0xed250fda31075453",
+            "iid": 20003,
+            "name": "SK@BBQ",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1580425677529
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Chinese Gourmet Express, 2070 Layton Hills Pkwy, Layton, UT 84041",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x875303c7421e6a83:0xa8c22d2153c4e76f",
+            "iid": 30516,
+            "name": "Chinese Gourmet Express",
+            "rank": 1,
+            "score": -2.0705416202545166,
+            "state": "Utah"
+        },
+        {
+            "address": "Mercantile on Main, 240 E Main St, Rochester, NY 14604",
+            "category": "['Food court', 'Cafe', 'Food producer', 'Indian takeaway', 'Meat dish restaurant', 'Pasta shop', 'Restaurant', 'Salad shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89d6b515dddd6de1:0x6c2317dad013fe38",
+            "iid": 68119,
+            "name": "Mercantile on Main",
+            "rank": 2,
+            "score": -2.261995792388916,
+            "state": "New_York"
+        },
+        {
+            "address": "Fresh India Grocery and Eatery, 441 Commerce Dr, Woodbury, MN 55125",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "gmap_id": "0x87f7d905ae8ddaf7:0x3f2a456bd99a094c",
+            "iid": 35169,
+            "name": "Fresh India Grocery and Eatery",
+            "rank": 3,
+            "score": -2.2679495811462402,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Taichi Bubble Tea, 2460 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Restaurant', 'Bubble tea store', 'Chinese takeaway', 'Ramen restaurant']",
+            "gmap_id": "0x89e839035dc18483:0x754aa3f4a8c2094c",
+            "iid": 71987,
+            "name": "Taichi Bubble Tea",
+            "rank": 4,
+            "score": -2.2700135707855225,
+            "state": "New_York"
+        },
+        {
+            "address": "ChoSun Hwaro, 9445 Baltimore National Pike, Ellicott City, MD 21042",
+            "category": "['Korean beef restaurant']",
+            "gmap_id": "0x89c821dc5e14fd37:0x32aa7421dc71dbb1",
+            "iid": 67263,
+            "name": "ChoSun Hwaro",
+            "rank": 5,
+            "score": -2.271373987197876,
+            "state": "Maryland"
+        },
+        {
+            "address": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762, 1428 S Azusa Ave Suite B, West Covina, CA 91791",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x80c329e30a7791d3:0x56b9c0215ff24bd0",
+            "iid": 16259,
+            "name": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762",
+            "rank": 6,
+            "score": -2.275617837905884,
+            "state": "California"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 7,
+            "score": -2.2772042751312256,
+            "state": "Nevada"
+        },
+        {
+            "address": "26 Thai Sushi & Bar (Brookhaven), 705 Town Blvd NE, Q330, Brookhaven, GA 30319",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f50913cf13dc39:0x79e9714803ce7f35",
+            "iid": 51555,
+            "name": "26 Thai Sushi & Bar (Brookhaven)",
+            "rank": 8,
+            "score": -2.2786316871643066,
+            "state": "Georgia"
+        },
+        {
+            "address": "Saffron Columbus, 5300 Sidney Simons Blvd Suite 27, Columbus, GA 31904",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x888ccdddca67fe35:0x7387913462abff46",
+            "iid": 46238,
+            "name": "Saffron Columbus",
+            "rank": 9,
+            "score": -2.2788171768188477,
+            "state": "Georgia"
+        },
+        {
+            "address": "Bombay Burger, 1420 E Madison St, Seattle, WA 98122",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54906b5c804a1f5d:0xa5d1c30a2a9527d0",
+            "iid": 2985,
+            "name": "Bombay Burger",
+            "rank": 10,
+            "score": -2.28129243850708,
+            "state": "Washington"
+        },
+        {
+            "address": "Filipino Hawaiian Food, 7200 Montgomery Blvd NE G6, Albuquerque, NM 87109",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x872275bdf413d519:0xdbd1be99be44b562",
+            "iid": 28761,
+            "name": "Filipino Hawaiian Food",
+            "rank": 11,
+            "score": -2.282316207885742,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "OEC CHINESE EXPRESS, 959 Joe Frank Harris Pkwy SE, Cartersville, GA 30120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f54f0501581fcf:0xcaffa56eb659b697",
+            "iid": 51896,
+            "name": "OEC CHINESE EXPRESS",
+            "rank": 12,
+            "score": -2.283649206161499,
+            "state": "Georgia"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 7479 Tidewater Dr, Norfolk, VA 23505",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89ba97ebd0f792bd:0x156084d0d8bd74b4",
+            "iid": 57390,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 13,
+            "score": -2.2846009731292725,
+            "state": "Virginia"
+        },
+        {
+            "address": "Fuji Cajun, 1493 S Randall Rd, Algonquin, IL 60102",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x880f13541f2d6e93:0xb2208b6e94bfa22",
+            "iid": 36936,
+            "name": "Fuji Cajun",
+            "rank": 14,
+            "score": -2.2855582237243652,
+            "state": "Illinois"
+        },
+        {
+            "address": "Indian Kitchen, 3905 W University Dr Suite 400, McKinney, TX 75071",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c15e49d9c3dc3:0x45d87b07f0a6862e",
+            "iid": 25089,
+            "name": "Indian Kitchen",
+            "rank": 15,
+            "score": -2.285874128341675,
+            "state": "Texas"
+        },
+        {
+            "address": "Am Noodle, 4744 Telephone Rd, Ventura, CA 93003",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80e853ef2825140f:0xb6da6722e07c4248",
+            "iid": 21430,
+            "name": "Am Noodle",
+            "rank": 16,
+            "score": -2.285940408706665,
+            "state": "California"
+        },
+        {
+            "address": "KBOP, 1891 Chamblee Tucker Rd Suite 4-1, Chamblee, GA 30341",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Delivery service', 'Takeout Restaurant', 'Restaurant', 'Rice restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x88f509c9f0af8c29:0x25a46b00d9fd4967",
+            "iid": 51605,
+            "name": "KBOP",
+            "rank": 17,
+            "score": -2.2873687744140625,
+            "state": "Georgia"
+        },
+        {
+            "address": "Mazaidar Haleem, 11315 S Texas 6 Suite A, Sugar Land, TX 77498",
+            "category": "['Pakistani restaurant', 'Indian restaurant']",
+            "gmap_id": "0x8640e1d10868b405:0x8bc5100db82a5615",
+            "iid": 23961,
+            "name": "Mazaidar Haleem",
+            "rank": 18,
+            "score": -2.2874553203582764,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": -2.2894794940948486,
+            "state": "Texas"
+        },
+        {
+            "address": "Choong Man Chicken Aurora (\ucda9\ub9cc\uce58\ud0a8), 4334 E New York St Unit 110, Aurora, IL 60504",
+            "category": "['Korean restaurant', 'Fried chicken takeaway', 'Restaurant']",
+            "gmap_id": "0x880ef9a385d950cf:0xf1eb08f5064571eb",
+            "iid": 36840,
+            "name": "Choong Man Chicken Aurora (\ucda9\ub9cc\uce58\ud0a8)",
+            "rank": 20,
+            "score": -2.2896862030029297,
+            "state": "Illinois"
+        }
+    ],
+    "user": {
+        "name": "Tim Behunin",
+        "uid": 535206,
+        "user_id": 117968377349272863268
+    }
+}

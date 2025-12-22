@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ayothaya Thai Cafe, 404 E, AZ-260, Payson, AZ 85541",
+            "category": "['Thai restaurant']",
+            "date": "2017/02/16",
+            "gmap_id": "0x872c11d8d49fbd2d:0x35a17be16fdd07c2",
+            "iid": 29755,
+            "name": "Ayothaya Thai Cafe",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1487284849660
+        },
+        {
+            "address": "Thai Spicy Basil, 10 N Main St, Lamar, CO 81052",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/10/25",
+            "gmap_id": "0x870c2587221de8fd:0x4615cb221e3b5667",
+            "iid": 28335,
+            "name": "Thai Spicy Basil",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1508932308132
+        },
+        {
+            "address": "Motomaki - Sushi Burritos and Bowls, 14650 W Colfax Ave, Lakewood, CO 80401",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b84665f99e75f:0xea0229fe3769a62a",
+            "iid": 30801,
+            "name": "Motomaki - Sushi Burritos and Bowls",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512956261682
+        },
+        {
+            "address": "Ph\u1edf H\u1eadu Restaurant, 12089 W Alameda Pkwy, Lakewood, CO 80228",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b83e4d518e4b5:0xd03cba1a808c0a2e",
+            "iid": 30793,
+            "name": "Ph\u1edf H\u1eadu Restaurant",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512957314918
+        },
+        {
+            "address": "Zheng Asian Bistro, 35 Market St Unit C, Glenwood Springs, CO 81601",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x8741097a020db14b:0xcb5907c691a18a07",
+            "iid": 29895,
+            "name": "Zheng Asian Bistro",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1529862306738
+        },
+        {
+            "address": "Hana Matsuri Sushi, 150 S Union Blvd #103, Lakewood, CO 80228",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Health food restaurant', 'Japanese restaurant', 'Raw food restaurant']",
+            "date": "2018/08/01",
+            "gmap_id": "0x876b83f958b130ff:0x8a76ed2bfe115c37",
+            "iid": 30797,
+            "name": "Hana Matsuri Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1533098630552
+        },
+        {
+            "address": "Thai Cortez & Sushi, 1430 E Main St, Cortez, CO 81321",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x87396f767e54ef91:0x100548e7215905ea",
+            "iid": 29837,
+            "name": "Thai Cortez & Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1558033112595
+        },
+        {
+            "address": "Stonefish Sushi & More, 16 W Main St, Cortez, CO 81321",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x87396f96f0b35ca7:0xe4079216f2080a23",
+            "iid": 29839,
+            "name": "Stonefish Sushi & More",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1562759921606
+        },
+        {
+            "address": "P.F. Chang's, 7210 W Alameda Ave, Lakewood, CO 80226",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/08/29",
+            "gmap_id": "0x876b8120ad789d8f:0xa59ebc3f5e01559f",
+            "iid": 30777,
+            "name": "P.F. Chang's",
+            "split": "valid",
+            "state": "Colorado",
+            "unix_time": 1567110179176
+        },
+        {
+            "address": "Baan Thai, 9386 Huebner Rd suite 101, San Antonio, TX 78240",
+            "category": "['Thai restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x865c6741ea055555:0x62d90e7340b6e667",
+            "iid": 27381,
+            "name": "Baan Thai",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1576196963658
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Thai Kitchen, 101 W 11th St, Durango, CO 81301",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x873c02a03849f809:0xc0219acc5684f46f",
+            "iid": 29854,
+            "name": "Thai Kitchen",
+            "rank": 1,
+            "score": 0.7416379451751709,
+            "state": "Colorado"
+        },
+        {
+            "address": "May Palace, 909 Main Ave, Durango, CO 81301",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873c02a1c0ff8707:0x976a39b53918bd6a",
+            "iid": 29856,
+            "name": "May Palace",
+            "rank": 2,
+            "score": 0.7025787234306335,
+            "state": "Colorado"
+        },
+        {
+            "address": "China Cafe, 1525 Main Ave, Durango, CO 81301",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873ea81ef920867b:0x889c8050431c2925",
+            "iid": 29865,
+            "name": "China Cafe",
+            "rank": 3,
+            "score": 0.6763915419578552,
+            "state": "Colorado"
+        },
+        {
+            "address": "Boon's Family Thai BBQ, 321 W Main St, Farmington, NM 87401",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x873b8f8a3a85ef47:0xd54723b2265b0a36",
+            "iid": 29848,
+            "name": "Boon's Family Thai BBQ",
+            "rank": 4,
+            "score": 0.6739697456359863,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Wonderful House Chinese Restaurant, 115 W Aztec Blvd, Aztec, NM 87410",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x873c768c79bf8aa3:0x7589b8a680e7f07c",
+            "iid": 29859,
+            "name": "Wonderful House Chinese Restaurant",
+            "rank": 5,
+            "score": 0.6674778461456299,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Thai Pagosa, 565 Village Dr #8989, Pagosa Springs, CO 81147",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x873ddae969481afd:0x937a5d858ee0592",
+            "iid": 29862,
+            "name": "Thai Pagosa",
+            "rank": 6,
+            "score": 0.6547406911849976,
+            "state": "Colorado"
+        },
+        {
+            "address": "Tomo Sushi and Steakhouse, 3500 E Main St, Farmington, NM 87402",
+            "category": "['Asian restaurant', 'Japanese steakhouse', 'Lunch restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x873b8f44067f4cf3:0x10d25a224b56d5ce",
+            "iid": 29845,
+            "name": "Tomo Sushi and Steakhouse",
+            "rank": 7,
+            "score": 0.6326472163200378,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Hong's Garden Chinese Restaurant, 480 Wolverine Dr, Bayfield, CO 81122",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873c23e0877fcbc1:0x4a55b3d310de62da",
+            "iid": 29858,
+            "name": "Hong's Garden Chinese Restaurant",
+            "rank": 8,
+            "score": 0.6175097227096558,
+            "state": "Colorado"
+        },
+        {
+            "address": "China Dragon, 1329 W 38th Ave, Denver, CO 80211",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x876c78f164583f9f:0xe4e828d7e8a0fed5",
+            "iid": 31187,
+            "name": "China Dragon",
+            "rank": 9,
+            "score": 0.6145315170288086,
+            "state": "Colorado"
+        },
+        {
+            "address": "Sizzling Siam, 519, 1/2 Main Ave, Durango, CO 81301",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x873c02987f81d387:0x871bc93ee36b1fc2",
+            "iid": 29852,
+            "name": "Sizzling Siam",
+            "rank": 10,
+            "score": 0.6121907830238342,
+            "state": "Colorado"
+        },
+        {
+            "address": "Panda Garden Chinese Restaurant, 1100 W Broadway Ave, Bloomfield, NM 87413",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873c790507ef8aa5:0xbf465e5dec0bc1e0",
+            "iid": 29860,
+            "name": "Panda Garden Chinese Restaurant",
+            "rank": 11,
+            "score": 0.6069666147232056,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Panda Express, 3544 E Main St, Farmington, NM 87402",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x873b8f469cc4b983:0xdd9d941673f42cb4",
+            "iid": 29846,
+            "name": "Panda Express",
+            "rank": 12,
+            "score": 0.6063241362571716,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Ocean Pearl Chinese Restaurant, 300 E Main St, Cortez, CO 81321",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x87396f99c5a4f6d1:0x4c2ac73d24805c60",
+            "iid": 29840,
+            "name": "Ocean Pearl Chinese Restaurant",
+            "rank": 13,
+            "score": 0.5960519909858704,
+            "state": "Colorado"
+        },
+        {
+            "address": "Guru's Restaurant, 448 E Main St, Montrose, CO 81401",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x873f508e03718db7:0xb0b92f2a8b63d5c2",
+            "iid": 29875,
+            "name": "Guru's Restaurant",
+            "rank": 14,
+            "score": 0.5945446491241455,
+            "state": "Colorado"
+        },
+        {
+            "address": "Himalayan Kitchen, 992 Main Ave, Durango, CO 81301",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "gmap_id": "0x873c02a1b704dadf:0x7fb047eac859dbc0",
+            "iid": 29855,
+            "name": "Himalayan Kitchen",
+            "rank": 15,
+            "score": 0.5849271416664124,
+            "state": "Colorado"
+        },
+        {
+            "address": "Shanghai Chinese Restaurant, 20 Village Dr, Pagosa Springs, CO 81147",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873ddaeac7f78559:0x9341bafc4a9ac0fa",
+            "iid": 29863,
+            "name": "Shanghai Chinese Restaurant",
+            "rank": 16,
+            "score": 0.5839211344718933,
+            "state": "Colorado"
+        },
+        {
+            "address": "Taste of India, 1013 E Main St, Cortez, CO 81321",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87396f9dd86616b3:0xb77b5d48fa99b6fb",
+            "iid": 29841,
+            "name": "Taste of India",
+            "rank": 17,
+            "score": 0.5809390544891357,
+            "state": "Colorado"
+        },
+        {
+            "address": "Mongolian Grill, 1135 S Camino Del Rio, Durango, CO 81303",
+            "category": "['Chinese restaurant', 'Mongolian barbecue restaurant']",
+            "gmap_id": "0x873c02a01b7b0fdb:0x904b98a38c45c48d",
+            "iid": 29853,
+            "name": "Mongolian Grill",
+            "rank": 18,
+            "score": 0.5806469321250916,
+            "state": "Colorado"
+        },
+        {
+            "address": "Namaste Nepal Restaurant, 2692 US-50, Grand Junction, CO 81503",
+            "category": "['Nepalese restaurant', 'Indian restaurant', 'Tibetan restaurant']",
+            "gmap_id": "0x87471b8eb6061365:0xe56f162a8eb60577",
+            "iid": 29920,
+            "name": "Namaste Nepal Restaurant",
+            "rank": 19,
+            "score": 0.5776336789131165,
+            "state": "Colorado"
+        },
+        {
+            "address": "Asian Buffet, 1281 S 2nd St, Raton, NM 87740",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8710f04d214f34ff:0x375920faa66d01a2",
+            "iid": 28340,
+            "name": "Asian Buffet",
+            "rank": 20,
+            "score": 0.5768924355506897,
+            "state": "New_Mexico"
+        }
+    ],
+    "user": {
+        "name": "Joel Ragan Young",
+        "uid": 82897,
+        "user_id": 102784077860317903664
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ayothaya Thai Cafe, 404 E, AZ-260, Payson, AZ 85541",
+            "category": "['Thai restaurant']",
+            "date": "2017/02/16",
+            "gmap_id": "0x872c11d8d49fbd2d:0x35a17be16fdd07c2",
+            "iid": 29755,
+            "name": "Ayothaya Thai Cafe",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1487284849660
+        },
+        {
+            "address": "Thai Spicy Basil, 10 N Main St, Lamar, CO 81052",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/10/25",
+            "gmap_id": "0x870c2587221de8fd:0x4615cb221e3b5667",
+            "iid": 28335,
+            "name": "Thai Spicy Basil",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1508932308132
+        },
+        {
+            "address": "Motomaki - Sushi Burritos and Bowls, 14650 W Colfax Ave, Lakewood, CO 80401",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b84665f99e75f:0xea0229fe3769a62a",
+            "iid": 30801,
+            "name": "Motomaki - Sushi Burritos and Bowls",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512956261682
+        },
+        {
+            "address": "Ph\u1edf H\u1eadu Restaurant, 12089 W Alameda Pkwy, Lakewood, CO 80228",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b83e4d518e4b5:0xd03cba1a808c0a2e",
+            "iid": 30793,
+            "name": "Ph\u1edf H\u1eadu Restaurant",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512957314918
+        },
+        {
+            "address": "Zheng Asian Bistro, 35 Market St Unit C, Glenwood Springs, CO 81601",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x8741097a020db14b:0xcb5907c691a18a07",
+            "iid": 29895,
+            "name": "Zheng Asian Bistro",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1529862306738
+        },
+        {
+            "address": "Hana Matsuri Sushi, 150 S Union Blvd #103, Lakewood, CO 80228",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Health food restaurant', 'Japanese restaurant', 'Raw food restaurant']",
+            "date": "2018/08/01",
+            "gmap_id": "0x876b83f958b130ff:0x8a76ed2bfe115c37",
+            "iid": 30797,
+            "name": "Hana Matsuri Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1533098630552
+        },
+        {
+            "address": "Thai Cortez & Sushi, 1430 E Main St, Cortez, CO 81321",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x87396f767e54ef91:0x100548e7215905ea",
+            "iid": 29837,
+            "name": "Thai Cortez & Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1558033112595
+        },
+        {
+            "address": "Stonefish Sushi & More, 16 W Main St, Cortez, CO 81321",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x87396f96f0b35ca7:0xe4079216f2080a23",
+            "iid": 29839,
+            "name": "Stonefish Sushi & More",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1562759921606
+        },
+        {
+            "address": "P.F. Chang's, 7210 W Alameda Ave, Lakewood, CO 80226",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/08/29",
+            "gmap_id": "0x876b8120ad789d8f:0xa59ebc3f5e01559f",
+            "iid": 30777,
+            "name": "P.F. Chang's",
+            "split": "valid",
+            "state": "Colorado",
+            "unix_time": 1567110179176
+        },
+        {
+            "address": "Baan Thai, 9386 Huebner Rd suite 101, San Antonio, TX 78240",
+            "category": "['Thai restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x865c6741ea055555:0x62d90e7340b6e667",
+            "iid": 27381,
+            "name": "Baan Thai",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1576196963658
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Shanghai Garden Restaurant, 1538 Railroad Ave, Rifle, CO 81650",
+            "category": "['Chinese restaurant', 'Fine dining restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x87413999ced2ee09:0xea98916ec60581ab",
+            "iid": 29902,
+            "name": "Shanghai Garden Restaurant",
+            "rank": 1,
+            "score": -2.1287877559661865,
+            "state": "Colorado"
+        },
+        {
+            "address": "Toyose, 3814 Noriega St, San Francisco, CA 94122",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x8085878a8085d297:0xadf6a9f9923446f2",
+            "iid": 8187,
+            "name": "Toyose",
+            "rank": 2,
+            "score": -2.2057418823242188,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Madness, 2535 Otay Center Dr Ste C, San Diego, CA 92154",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80d947f9ff16dfd9:0x88deafec802a258f",
+            "iid": 17750,
+            "name": "Teriyaki Madness",
+            "rank": 3,
+            "score": -2.2103919982910156,
+            "state": "California"
+        },
+        {
+            "address": "India's Grill Authentic Indian Cuisines Brandon, 902 E Brandon Blvd, Brandon, FL 33511",
+            "category": "['Indian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88c2cdc86fbac39b:0xfcbab4769c8b68d8",
+            "iid": 47143,
+            "name": "India's Grill Authentic Indian Cuisines Brandon",
+            "rank": 4,
+            "score": -2.212111711502075,
+            "state": "Florida"
+        },
+        {
+            "address": "OEC CHINESE EXPRESS, 959 Joe Frank Harris Pkwy SE, Cartersville, GA 30120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f54f0501581fcf:0xcaffa56eb659b697",
+            "iid": 51896,
+            "name": "OEC CHINESE EXPRESS",
+            "rank": 5,
+            "score": -2.2135400772094727,
+            "state": "Georgia"
+        },
+        {
+            "address": "Aroma Indian Cuisine, 14700 Tamiami Trail N, Naples, FL 34110",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88db19a33acaf3cb:0xa2dcabc81dfbb029",
+            "iid": 48987,
+            "name": "Aroma Indian Cuisine",
+            "rank": 6,
+            "score": -2.2137696743011475,
+            "state": "Florida"
+        },
+        {
+            "address": "Pora Foods, 1 American Dream Way, East Rutherford, NJ 07073",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2f95b1abb51b5:0xc58f2ed7901b313c",
+            "iid": 63747,
+            "name": "Pora Foods",
+            "rank": 7,
+            "score": -2.2139086723327637,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Baan Thai & Sushi, 501 N Theard St, Covington, LA 70433",
+            "category": "['Thai restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x86275d7ac6e33e47:0x4ffe2bb68c8c512f",
+            "iid": 22226,
+            "name": "Baan Thai & Sushi",
+            "rank": 8,
+            "score": -2.2145657539367676,
+            "state": "Louisiana"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 9,
+            "score": -2.21502423286438,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bombay Central | Grocery \u00b7 Caf\u00e9 \u00b7 Halal Meat, 10966 Chapel Hill Rd, Morrisville, NC 27560",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x89acefc23ee7f66f:0x4737bd0e3ea5f823",
+            "iid": 54195,
+            "name": "Bombay Central | Grocery \u00b7 Caf\u00e9 \u00b7 Halal Meat",
+            "rank": 10,
+            "score": -2.2171056270599365,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Q One Teriyaki & Sushi Express, 569 N State St, Lindon, UT 84042",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x874d85be085328a1:0x2f5b4e6312d4ebef",
+            "iid": 29998,
+            "name": "Q One Teriyaki & Sushi Express",
+            "rank": 11,
+            "score": -2.218366861343384,
+            "state": "Utah"
+        },
+        {
+            "address": "F&F Japanese Grill, 1505 Texas Ave S Ste B, College Station, TX 77840",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86468578955ddeef:0x9e3d190cfa89a2e3",
+            "iid": 24796,
+            "name": "F&F Japanese Grill",
+            "rank": 12,
+            "score": -2.2184062004089355,
+            "state": "Texas"
+        },
+        {
+            "address": "Japan House, 324 Long Hollow Pike #201, Goodlettsville, TN 37072",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x886445dedf27abd9:0xdb17a61e1bc3644b",
+            "iid": 44400,
+            "name": "Japan House",
+            "rank": 13,
+            "score": -2.218966245651245,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 14,
+            "score": -2.220353603363037,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Din Tai Noodle, 1034 E Bastanchury Rd, Fullerton, CA 92835",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dcd57875a9ba93:0x2f865b28228cd1b5",
+            "iid": 19321,
+            "name": "Din Tai Noodle",
+            "rank": 15,
+            "score": -2.2208478450775146,
+            "state": "California"
+        },
+        {
+            "address": "Osaka, 514 Benefit St, Pawtucket, RI 02861",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e45d6b80f0d7e9:0x6b4fd89ccc9ca1b8",
+            "iid": 70605,
+            "name": "Osaka",
+            "rank": 16,
+            "score": -2.2209103107452393,
+            "state": "Rhode_Island"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 46972,
+            "name": "KELP SUSHI JOINT",
+            "rank": 17,
+            "score": -2.2226369380950928,
+            "state": "Florida"
+        },
+        {
+            "address": "UDOM Khmer Restaurant, 1223 E Anaheim St, Long Beach, CA 90813",
+            "category": "['Event venue', 'Cambodian restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd31c430139813:0xdd61bd6b42373794",
+            "iid": 20909,
+            "name": "UDOM Khmer Restaurant",
+            "rank": 18,
+            "score": -2.223404884338379,
+            "state": "California"
+        },
+        {
+            "address": "\u798f\u7984\u5bff\u559cFollowsoshi, 135-24 40th Rd, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Breakfast restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Lunch restaurant', 'Pancake restaurant']",
+            "gmap_id": "0x89c261612e03981b:0xfa580b5a302811c2",
+            "iid": 61788,
+            "name": "\u798f\u7984\u5bff\u559cFollowsoshi",
+            "rank": 19,
+            "score": -2.2241361141204834,
+            "state": "New_York"
+        },
+        {
+            "address": "Spicy Girl, 5748 International Dr, Orlando, FL 32819",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x88e77f4c90479db9:0x7538bf4ef2014063",
+            "iid": 50578,
+            "name": "Spicy Girl",
+            "rank": 20,
+            "score": -2.2243170738220215,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Joel Ragan Young",
+        "uid": 82897,
+        "user_id": 102784077860317903664
+    }
+}

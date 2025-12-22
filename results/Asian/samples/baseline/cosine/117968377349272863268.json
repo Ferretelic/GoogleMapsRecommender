@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "ABC Mandarin, 5260 S 1900 W, Roy, UT 84067",
+            "category": "['Chinese restaurant']",
+            "date": "2018/08/30",
+            "gmap_id": "0x8753055fc6db0989:0x1577f397a6c619cb",
+            "iid": 30537,
+            "name": "ABC Mandarin",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1535672219978
+        },
+        {
+            "address": "Asian Buffet, 877 W Hill Field Rd, Layton, UT 84041",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x875303b74e92299d:0x9903f1df2cc88478",
+            "iid": 30513,
+            "name": "Asian Buffet",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1536730812024
+        },
+        {
+            "address": "Golden Jade Restaurant, 4848 Harrison Blvd, Ogden, UT 84403",
+            "category": "['Chinese restaurant', 'Fast food restaurant', 'Restaurant']",
+            "date": "2018/09/21",
+            "gmap_id": "0x87530607d2ae2793:0x9276e830e2caaa49",
+            "iid": 30541,
+            "name": "Golden Jade Restaurant",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1537499281668
+        },
+        {
+            "address": "Eastern Winds Restaurant3740 Washington Blvd, Ogden, UT 84403",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "date": "2018/11/21",
+            "gmap_id": "0x87530f41495b5f61:0x4a806c3476aac09c",
+            "iid": 30569,
+            "name": "Eastern Winds Restaurant",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1542833720001
+        },
+        {
+            "address": "P.F. Chang's, 3667 S Las Vegas Blvd, Las Vegas, NV 89109",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x80c8c43661d137ab:0x6a1bd9f29389ad44",
+            "iid": 17046,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1555806577057
+        },
+        {
+            "address": "Pho Banh Ogden, 2056 Harrison Blvd, Ogden, UT 84401",
+            "category": "['Vietnamese restaurant', 'Diner', 'Pho restaurant', 'Sandwich shop']",
+            "date": "2019/06/09",
+            "gmap_id": "0x8753097c0a9defc5:0x305a3da3f9364609",
+            "iid": 30547,
+            "name": "Pho Banh Ogden",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1560067473601
+        },
+        {
+            "address": "Five Star Restaurant, 5676 S 1900 W, Roy, UT 84067",
+            "category": "['Thai restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x8753055d3cb137b9:0x4d138c1d6d7d87ba",
+            "iid": 30531,
+            "name": "Five Star Restaurant",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1561750125164
+        },
+        {
+            "address": "Takumi Japanese Grill, 15 E 500 N, Brigham City, UT 84302",
+            "category": "['Restaurant', 'Japanese restaurant', 'Pho restaurant']",
+            "date": "2019/08/18",
+            "gmap_id": "0x87537bb6e3125bdf:0x9261e40514eb8372",
+            "iid": 30589,
+            "name": "Takumi Japanese Grill",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1566141700408
+        },
+        {
+            "address": "Sushi Marquee, 3625 The Star Blvd, Frisco, TX 75034",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2019/09/11",
+            "gmap_id": "0x864c3c84f598bcfd:0xff1bb22f530b2474",
+            "iid": 25930,
+            "name": "Sushi Marquee",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1568209136235
+        },
+        {
+            "address": "SK@BBQ, 1925 S El Camino Real, San Clemente, CA 92672",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2020/01/30",
+            "gmap_id": "0x80dcf45c1d5c252b:0xed250fda31075453",
+            "iid": 20003,
+            "name": "SK@BBQ",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1580425677529
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 1649 N 2000 W, Clinton, UT 84015",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87531ac6a4f29841:0x59ce4ee0523f239a",
+            "iid": 30581,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": 0.7807022333145142,
+            "state": "Utah"
+        },
+        {
+            "address": "Maple Express, 475 12th St, Ogden, UT 84404",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Box lunch supplier', 'Dim sum restaurant', 'Diner', 'Fast food restaurant']",
+            "gmap_id": "0x87530ebbc80e9dc1:0xec77aaeaa4a0e4a6",
+            "iid": 30557,
+            "name": "Maple Express",
+            "rank": 2,
+            "score": 0.7802470922470093,
+            "state": "Utah"
+        },
+        {
+            "address": "Bombay Bites, 4139 Riverdale Rd, Riverdale, UT 84405",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x87530f6f14fbe593:0x68888ba679388847",
+            "iid": 30574,
+            "name": "Bombay Bites",
+            "rank": 3,
+            "score": 0.7798082828521729,
+            "state": "Utah"
+        },
+        {
+            "address": "HuHot Mongolian Grill, 842 N Main St, Layton, UT 84041",
+            "category": "['Mongolian barbecue restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x875303c8b2e177f3:0x40d587b91618e186",
+            "iid": 30517,
+            "name": "HuHot Mongolian Grill",
+            "rank": 4,
+            "score": 0.7706311941146851,
+            "state": "Utah"
+        },
+        {
+            "address": "Wasatch Wok, 129 State St, Clearfield, UT 84015",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x875304c01b51a01d:0xe6681cffb357cea7",
+            "iid": 30529,
+            "name": "Wasatch Wok",
+            "rank": 5,
+            "score": 0.7700172066688538,
+            "state": "Utah"
+        },
+        {
+            "address": "Kobe Teppanyaki, 6024 S 1550 E, Ogden, UT 84405",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x875306649647a447:0x5ae7fe41a7bb7b34",
+            "iid": 30543,
+            "name": "Kobe Teppanyaki",
+            "rank": 6,
+            "score": 0.7676961421966553,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 1950 N 1000 W, Layton, UT 84041",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x875303910fbaf33f:0xe7554f804c329e52",
+            "iid": 30508,
+            "name": "Panda Express",
+            "rank": 7,
+            "score": 0.7618952989578247,
+            "state": "Utah"
+        },
+        {
+            "address": "Lucky Buffet, 4001 Riverdale Rd, Ogden, UT 84405",
+            "category": "['Buffet restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87530f813664253d:0xb3d9b439128cf3c6",
+            "iid": 30575,
+            "name": "Lucky Buffet",
+            "rank": 8,
+            "score": 0.7518575191497803,
+            "state": "Utah"
+        },
+        {
+            "address": "Ramen Haus, 2550 Washington Blvd, Ogden, UT 84401",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87530ed8b4de2de5:0x1c6404a9a0e7a8dd",
+            "iid": 30560,
+            "name": "Ramen Haus",
+            "rank": 9,
+            "score": 0.7481867074966431,
+            "state": "Utah"
+        },
+        {
+            "address": "Marigold, 1695 Skyline Dr #1, South Ogden, UT 84405",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x87530663139e2e7f:0x851dcccc97998f5e",
+            "iid": 30542,
+            "name": "Marigold",
+            "rank": 10,
+            "score": 0.7464364767074585,
+            "state": "Utah"
+        },
+        {
+            "address": "So Delicious Japanese Wasabi, 3739 Washington Blvd, Ogden, UT 84403",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87530f4142e5519d:0x2238fbf536e7bdb9",
+            "iid": 30568,
+            "name": "So Delicious Japanese Wasabi",
+            "rank": 11,
+            "score": 0.7442798614501953,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 4115 Riverdale Rd space a, Riverdale, UT 84405",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87530f6f14fbe593:0x438c856643275ebf",
+            "iid": 30573,
+            "name": "Panda Express",
+            "rank": 12,
+            "score": 0.7401639819145203,
+            "state": "Utah"
+        },
+        {
+            "address": "Asian Bistro, 1120 N Main St, Layton, UT 84041",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x875303bbfc4ecd3b:0x6c6d4243791577f",
+            "iid": 30514,
+            "name": "Asian Bistro",
+            "rank": 13,
+            "score": 0.738265335559845,
+            "state": "Utah"
+        },
+        {
+            "address": "Sitara India, 3585 Harrison Blvd #14, Ogden, UT 84403",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x875308b37bbe302d:0x256dd518b13a178d",
+            "iid": 30544,
+            "name": "Sitara India",
+            "rank": 14,
+            "score": 0.7373290657997131,
+            "state": "Utah"
+        },
+        {
+            "address": "Tokyo Station, 2259 Washington Blvd, Ogden, UT 84401",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87530edc79f218c3:0xbc7562b3a173fc31",
+            "iid": 30561,
+            "name": "Tokyo Station",
+            "rank": 15,
+            "score": 0.7366977334022522,
+            "state": "Utah"
+        },
+        {
+            "address": "Tepanyaki Japanese Steakhouse, 1386 Legend Hills Dr, Clearfield, UT 84015",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8753038149bcbb9b:0x6fbb9c1213b18310",
+            "iid": 30506,
+            "name": "Tepanyaki Japanese Steakhouse",
+            "rank": 16,
+            "score": 0.733917772769928,
+            "state": "Utah"
+        },
+        {
+            "address": "Seoul Korean Restaurant, 2625 N Hill Field Rd, Layton, UT 84041",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x875303f4900ba79d:0x2aebfd44eefbdc4c",
+            "iid": 30523,
+            "name": "Seoul Korean Restaurant",
+            "rank": 17,
+            "score": 0.7289613485336304,
+            "state": "Utah"
+        },
+        {
+            "address": "Zhang's Chinese Kitchen, 380 N 2000 W, Ogden, UT 84404",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87530d9423c69697:0x5679f076b473c251",
+            "iid": 30552,
+            "name": "Zhang's Chinese Kitchen",
+            "rank": 18,
+            "score": 0.727617084980011,
+            "state": "Utah"
+        },
+        {
+            "address": "Windy's Sukiyaki, 3809 Riverdale Rd, Ogden, UT 84405",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Gluten-free restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87530f6a690a718b:0x145148f2dc8246f1",
+            "iid": 30570,
+            "name": "Windy's Sukiyaki",
+            "rank": 19,
+            "score": 0.7233490943908691,
+            "state": "Utah"
+        },
+        {
+            "address": "PHO BANH, 1286 South, Legend Hills Dr, Clearfield, UT 84015",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Lunch restaurant', 'Pho restaurant', 'Restaurant', 'Sandwich shop', 'South Asian restaurant']",
+            "gmap_id": "0x875303811f9be7b1:0x6ea36e94d1071891",
+            "iid": 30505,
+            "name": "PHO BANH",
+            "rank": 20,
+            "score": 0.7230810523033142,
+            "state": "Utah"
+        }
+    ],
+    "user": {
+        "name": "Tim Behunin",
+        "uid": 535206,
+        "user_id": 117968377349272863268
+    }
+}

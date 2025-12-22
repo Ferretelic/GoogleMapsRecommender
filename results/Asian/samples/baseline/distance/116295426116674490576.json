@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sam City Pho & Grill, 2180 Pacific Blvd SE, Albany, OR 97321",
+            "category": "['Pho restaurant', 'American restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2018/03/08",
+            "gmap_id": "0x54c06cb9d137dd79:0x3f6852d9f88b30c9",
+            "iid": 5317,
+            "name": "Sam City Pho & Grill",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1520520740892
+        },
+        {
+            "address": "Tasty Thai Campus, 1308 Hilyard St, Eugene, OR 97401",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x54c11e3edebd15c3:0x898f2236850ff926",
+            "iid": 5403,
+            "name": "Tasty Thai Campus",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1536712047844
+        },
+        {
+            "address": "Great Wall Buffet, 2875 Commercial St SE, Salem, OR 97302",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/14",
+            "gmap_id": "0x54c000a915f46cbf:0x9469d1c07f498833",
+            "iid": 5256,
+            "name": "Great Wall Buffet",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563146414136
+        },
+        {
+            "address": "Maple Garden, 1275 Alder St, Eugene, OR 97401",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x54c11e3ea349bc21:0x936878db0e373305",
+            "iid": 5398,
+            "name": "Maple Garden",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563155257211
+        },
+        {
+            "address": "UFO Thai Food, 63 W Oak St, Lebanon, OR 97355",
+            "category": "['Thai restaurant']",
+            "date": "2019/08/06",
+            "gmap_id": "0x54c06f800999f359:0xa0721b6a2541788e",
+            "iid": 5325,
+            "name": "UFO Thai Food",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1565126259648
+        },
+        {
+            "address": "Bon Mi, 153 E Broadway, Eugene, OR 97401",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2020/09/23",
+            "gmap_id": "0x54c11e14ee8ee793:0x778ce63c71c8b22a",
+            "iid": 5385,
+            "name": "Bon Mi",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1600822111104
+        },
+        {
+            "address": "KKOKI Korean BBQ, 3610 Center St NE, Salem, OR 97301",
+            "category": "['Korean restaurant']",
+            "date": "2020/09/23",
+            "gmap_id": "0x54bfff703456e9d3:0xc7266070b8b1c193",
+            "iid": 5249,
+            "name": "KKOKI Korean BBQ",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1600871786415
+        },
+        {
+            "address": "Panda Express, 1310 SE Geary St, Albany, OR 97322",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/10/08",
+            "gmap_id": "0x54c06ca351f34f2b:0xb7911f44db13499",
+            "iid": 5312,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1602199281701
+        },
+        {
+            "address": "Swan, 658 Main St, Sweet Home, OR 97386",
+            "category": "['Chinese restaurant']",
+            "date": "2021/01/03",
+            "gmap_id": "0x54c089b21532bab9:0xe4ae84a59e09bb2b",
+            "iid": 5327,
+            "name": "Swan",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1609713344374
+        },
+        {
+            "address": "Spice N Steam, 165 W 11th Ave, Eugene, OR 97401",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Chinese noodle restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Dumpling restaurant', 'Takeout Restaurant']",
+            "date": "2021/05/27",
+            "gmap_id": "0x54c11fd6a60813b7:0x6fe2f70eb74fd1ca",
+            "iid": 5434,
+            "name": "Spice N Steam",
+            "split": "test",
+            "state": "Oregon",
+            "unix_time": 1622082287963
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "China Faith Restaurant, 1812 Lancaster Dr NE, Salem, OR 97305",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bffeeb4278fe97:0x4dd9be6fa8d9e630",
+            "iid": 5228,
+            "name": "China Faith Restaurant",
+            "rank": 1,
+            "score": -1.855858564376831,
+            "state": "Oregon"
+        },
+        {
+            "address": "Bangkok Thai Bistro, 1130 Royvonne Ave SE # 105, Salem, OR 97302",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Diner', 'Delivery Restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x54c0075ad1ba1cf7:0xbdc68ba091d37537",
+            "iid": 5270,
+            "name": "Bangkok Thai Bistro",
+            "rank": 2,
+            "score": -1.9275051355361938,
+            "state": "Oregon"
+        },
+        {
+            "address": "Wonder Wok Restaurant and Bar, 1099 Chambers St, Eugene, OR 97402",
+            "category": "['Restaurant', 'Bar', 'Chinese restaurant', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x54c11fece568cc6f:0xe6a6904aa4463810",
+            "iid": 5435,
+            "name": "Wonder Wok Restaurant and Bar",
+            "rank": 3,
+            "score": -2.0131378173828125,
+            "state": "Oregon"
+        },
+        {
+            "address": "Farmhouse Kitchen Thai Cuisine | Pearl District, 121 NW 9th Ave, Portland, OR 97209",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54950bdbd48512c7:0xa7b3abe2c2ef48cb",
+            "iid": 3844,
+            "name": "Farmhouse Kitchen Thai Cuisine | Pearl District",
+            "rank": 4,
+            "score": -2.108727216720581,
+            "state": "Oregon"
+        },
+        {
+            "address": "Moo Ping Thai Street Food, 977 Garfield St, Eugene, OR 97402",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54c11f36d72e4f0b:0x9b90ef7354d41813",
+            "iid": 5429,
+            "name": "Moo Ping Thai Street Food",
+            "rank": 5,
+            "score": -2.1223034858703613,
+            "state": "Oregon"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 6,
+            "score": -2.156384229660034,
+            "state": "Nevada"
+        },
+        {
+            "address": "Pho King Vietnamese Cuisine, 3608 Market St, Camp Hill, PA 17011",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c8c3400e3736cf:0x4e66c59db6f054db",
+            "iid": 67424,
+            "name": "Pho King Vietnamese Cuisine",
+            "rank": 7,
+            "score": -2.1605334281921387,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Honkaku Sushi, 19 E North Ave., Glendale Heights, IL 60139",
+            "category": "['Restaurant', 'Caterer', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e53c0a74886cb:0x27b2b49155af5629",
+            "iid": 36635,
+            "name": "Honkaku Sushi",
+            "rank": 8,
+            "score": -2.1646945476531982,
+            "state": "Illinois"
+        },
+        {
+            "address": "Jia, Beau Rivage Resort & Casino, 875 Beach Blvd, Biloxi, MS 39530",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x889c0ee4e5989573:0xad26816cd5b50b41",
+            "iid": 46734,
+            "name": "Jia",
+            "rank": 9,
+            "score": -2.1654999256134033,
+            "state": "Mississippi"
+        },
+        {
+            "address": "EurAsia 3- Ramen | Sushi | Poke, 5222 Burnet Rd Ste 400A, Austin, TX 78756",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8644cb2c4d2df40b:0xcc5d31866dd02d7e",
+            "iid": 24498,
+            "name": "EurAsia 3- Ramen | Sushi | Poke",
+            "rank": 10,
+            "score": -2.167386293411255,
+            "state": "Texas"
+        },
+        {
+            "address": "Yuzu Kitchen, 37 W 43rd St, New York, NY 10036",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c25992e9aae597:0xea18dea3d15789",
+            "iid": 59747,
+            "name": "Yuzu Kitchen",
+            "rank": 11,
+            "score": -2.1692090034484863,
+            "state": "New_York"
+        },
+        {
+            "address": "Okome House, 4457 42nd Ave S, Minneapolis, MN 55406",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87f629ab9b5c76db:0xed925ce0aa795710",
+            "iid": 34959,
+            "name": "Okome House",
+            "rank": 12,
+            "score": -2.171912670135498,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Kazoku Hibachi Express, 171 John McGhee Blvd, Caryville, TN 37714",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x885c4df176118fc3:0xc31b04f4846ce626",
+            "iid": 43979,
+            "name": "Kazoku Hibachi Express",
+            "rank": 13,
+            "score": -2.1721889972686768,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Mai Pai Thai Cuisine, 3009 E Highland Dr Suite F, Jonesboro, AR 72401",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87d42dc84625e299:0x799c5f8f64dd41d5",
+            "iid": 33797,
+            "name": "Mai Pai Thai Cuisine",
+            "rank": 14,
+            "score": -2.1735854148864746,
+            "state": "Arkansas"
+        },
+        {
+            "address": "Ming's Asian Cuisine, 1045 Hamilton Pl Dr, Johnson City, TN 37604",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a63874bd9f1b3:0x6324bdb79866ff4b",
+            "iid": 43810,
+            "name": "Ming's Asian Cuisine",
+            "rank": 15,
+            "score": -2.173762083053589,
+            "state": "Tennessee"
+        },
+        {
+            "address": "IZUMI, 228 Washington St, U-A130, South Attleboro, MA 02703",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e45da993c68df1:0xc58cd5c7b3831f98",
+            "iid": 70607,
+            "name": "IZUMI",
+            "rank": 16,
+            "score": -2.1741440296173096,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Cloves Indian Groceries & Kitchen, 1930 W Thunderbird Rd UNIT 108, Phoenix, AZ 85023",
+            "category": "['Indian grocery store', 'Halal restaurant', 'Indian restaurant', 'Meat products', 'Produce market', 'Wholesale grocer']",
+            "gmap_id": "0x872b6fcf79c5fec7:0x7bfdbcdb5ed1674d",
+            "iid": 29469,
+            "name": "Cloves Indian Groceries & Kitchen",
+            "rank": 17,
+            "score": -2.1748828887939453,
+            "state": "Arizona"
+        },
+        {
+            "address": "Mito sushi and Grill, 9430 Narcoossee Rd, Orlando, FL 32827",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88e763e7d826adf5:0x6f0e43ae1f9d0823",
+            "iid": 50172,
+            "name": "Mito sushi and Grill",
+            "rank": 18,
+            "score": -2.1753652095794678,
+            "state": "Florida"
+        },
+        {
+            "address": "Arigato Steak House, 1401 Citrus Blvd, Leesburg, FL 34748",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x88e7c1a71b6b0f27:0x7c9dc840c4aea7bb",
+            "iid": 50667,
+            "name": "Arigato Steak House",
+            "rank": 19,
+            "score": -2.175701379776001,
+            "state": "Florida"
+        },
+        {
+            "address": "Cafe Moon, 41 E Lipoa St #8, Kihei, HI 96753",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x7954d1e0f6f14643:0x78aa81c14287ee3f",
+            "iid": 5890,
+            "name": "Cafe Moon",
+            "rank": 20,
+            "score": -2.1757748126983643,
+            "state": "Hawaii"
+        }
+    ],
+    "user": {
+        "name": "Tiffany Martinez",
+        "uid": 485561,
+        "user_id": 116295426116674490576
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Bamboo Restaurant, 5406 N Division St, Spokane, WA 99207",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/09/12",
+            "gmap_id": "0x549e194827cf29a9:0x2060d4fcdcb90816",
+            "iid": 4891,
+            "name": "Thai Bamboo Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1505248194601
+        },
+        {
+            "address": "Red Dragon Chinese Delivery, 3011 E Diamond Ave, Spokane, WA 99217",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2017/11/10",
+            "gmap_id": "0x549e1edd26a25aab:0xf71773f51b9f3d4",
+            "iid": 4904,
+            "name": "Red Dragon Chinese Delivery",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1510345455778
+        },
+        {
+            "address": "Thai Nigiri Restaurant, 209 N First Ave, Sandpoint, ID 83864",
+            "category": "['Thai restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x5363d6c5c2c57dbb:0x176c0cd7db919202",
+            "iid": 1308,
+            "name": "Thai Nigiri Restaurant",
+            "split": "train",
+            "state": "Idaho",
+            "unix_time": 1517546327885
+        },
+        {
+            "address": "Peking North Chinese Restaurant, 4120 N Division St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Karaoke bar']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e193b4172eba5:0x96c7759382efe0f8",
+            "iid": 4889,
+            "name": "Peking North Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723587173
+        },
+        {
+            "address": "Mr Wok Restaurant, 9222 N Newport Hwy C, Spokane, WA 99218",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e1c11388c5b19:0x82127319a2d850e1",
+            "iid": 4895,
+            "name": "Mr Wok Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723656021
+        },
+        {
+            "address": "Hunan Chinese Restaurant, 16 NE A St, Madras, OR 97741",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/04/12",
+            "gmap_id": "0x54beea2c34b78b67:0x87862eff37971722",
+            "iid": 5184,
+            "name": "Hunan Chinese Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1523565303075
+        },
+        {
+            "address": "Panda Chinese Restaurant, 605 E Northern Lights Blvd, Anchorage, AK 99503",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2018/09/16",
+            "gmap_id": "0x56c897c9d2127e65:0x67073d9b8e5951be",
+            "iid": 5719,
+            "name": "Panda Chinese Restaurant",
+            "split": "train",
+            "state": "Alaska",
+            "unix_time": 1537059356254
+        },
+        {
+            "address": "Grace Su's China Gorge Restaurant, 2680 Old Columbia River Dr, Hood River, OR 97031",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x54960e6a63804ecf:0xf5a67bf98c90106d",
+            "iid": 4660,
+            "name": "Grace Su's China Gorge Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1543194115233
+        },
+        {
+            "address": "Vien Dong Restaurant, 3435 E Trent Ave, Spokane, WA 99202",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/11/28",
+            "gmap_id": "0x549e19fb11e93d11:0xd9bd04909d9c58a6",
+            "iid": 4894,
+            "name": "Vien Dong Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1543441611608
+        },
+        {
+            "address": "J&J Chinese Restaurant, 1025 NW Gilman Blvd E-8, Issaquah, WA 98027",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/09/28",
+            "gmap_id": "0x54906f9e33459e03:0x2d329571304f8990",
+            "iid": 3216,
+            "name": "J&J Chinese Restaurant",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1569640366831
+        },
+        {
+            "address": "99352 Washington, Richland, George Washington Way, Ara Sushi & Grill",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2021/05/09",
+            "gmap_id": "0x54987b4d8966e4b7:0x8fc10a9ff2fd3a1b",
+            "iid": 4726,
+            "name": "Ara Sushi & Grill",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1620522646085
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Happiness Chinese Restaurant, 3420 E Sprague Ave, Spokane, WA 99202",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x549e190c2aa39cbf:0x8be3406a891668b5",
+            "iid": 4883,
+            "name": "Happiness Chinese Restaurant",
+            "rank": 1,
+            "score": -2.064239740371704,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho Le 1, 2360 N Old Mill Loop Suite J101, Coeur d'Alene, ID 83814",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5361c72a961f853d:0xd7b0ca358b3d3a14",
+            "iid": 1293,
+            "name": "Pho Le 1",
+            "rank": 2,
+            "score": -2.2214202880859375,
+            "state": "Idaho"
+        },
+        {
+            "address": "\u798f\u7984\u5bff\u559cFollowsoshi, 135-24 40th Rd, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Breakfast restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Lunch restaurant', 'Pancake restaurant']",
+            "gmap_id": "0x89c261612e03981b:0xfa580b5a302811c2",
+            "iid": 61788,
+            "name": "\u798f\u7984\u5bff\u559cFollowsoshi",
+            "rank": 3,
+            "score": -2.2439334392547607,
+            "state": "New_York"
+        },
+        {
+            "address": "Din Tai Noodle, 1034 E Bastanchury Rd, Fullerton, CA 92835",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dcd57875a9ba93:0x2f865b28228cd1b5",
+            "iid": 19321,
+            "name": "Din Tai Noodle",
+            "rank": 4,
+            "score": -2.2575106620788574,
+            "state": "California"
+        },
+        {
+            "address": "Lucky House, 22 Central St, Peabody, MA 01960",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e313b4b6747579:0x7d4ce6b1cb30fea7",
+            "iid": 69131,
+            "name": "Lucky House",
+            "rank": 5,
+            "score": -2.2603344917297363,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 44215,
+            "name": "Aki Japanese Cuisine",
+            "rank": 6,
+            "score": -2.26068377494812,
+            "state": "Alabama"
+        },
+        {
+            "address": "Sushi House and Asian Cuisine, 2682 High Commons Way, West Valley City, UT 84120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8752f3b42fea5d6f:0x4ee3e86117d85c6e",
+            "iid": 30399,
+            "name": "Sushi House and Asian Cuisine",
+            "rank": 7,
+            "score": -2.26130747795105,
+            "state": "Utah"
+        },
+        {
+            "address": "sichuan garden, 2347 NW Military Hwy, San Antonio, TX 78231",
+            "category": "['Sichuan restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c6162ec1c3cf9:0xa91320ba029fdfc5",
+            "iid": 27324,
+            "name": "sichuan garden",
+            "rank": 8,
+            "score": -2.2639029026031494,
+            "state": "Texas"
+        },
+        {
+            "address": "Empress M, 221 Silverado Trail, Napa, CA 94559",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8085077815065c83:0xedd616eecae2d68d",
+            "iid": 6834,
+            "name": "Empress M",
+            "rank": 9,
+            "score": -2.2643485069274902,
+            "state": "California"
+        },
+        {
+            "address": "Kurrys at Troy Indian Cuisine, 3303 Rochester Rd, Troy, MI 48083",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8824c5e5594d8059:0xf6ddd3de4ddf5cfc",
+            "iid": 39325,
+            "name": "Kurrys at Troy Indian Cuisine",
+            "rank": 10,
+            "score": -2.264702796936035,
+            "state": "Michigan"
+        },
+        {
+            "address": "APSARA CAF\u00c9, 5025 Church Rd E Suite 100, Olive Branch, MS 38654",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Bakery', 'Bubble tea store', 'Cambodian restaurant', 'Chinese noodle restaurant', 'Coffee shop', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x887f8d951b3cc439:0x425afe3979897bde",
+            "iid": 45721,
+            "name": "APSARA CAF\u00c9",
+            "rank": 11,
+            "score": -2.2647705078125,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Casa De Goa, 177 S Plank Rd, Newburgh, NY 12550",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89dd2f3814e19d31:0x1d4ce002e0f4ec49",
+            "iid": 68475,
+            "name": "Casa De Goa",
+            "rank": 12,
+            "score": -2.26593017578125,
+            "state": "New_York"
+        },
+        {
+            "address": "Teriyaki Madness, 4944 Thompson Pkwy, Johnstown, CO 80534",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876ead0f3cec845f:0x74325f6894d97d76",
+            "iid": 31644,
+            "name": "Teriyaki Madness",
+            "rank": 13,
+            "score": -2.2670130729675293,
+            "state": "Colorado"
+        },
+        {
+            "address": "Oregon, Grants Pass, NE D St, Hunan Garden\u90ae\u653f\u7f16\u7801: 97526",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c57b7d82f40285:0xc47f276ef1f47800",
+            "iid": 5487,
+            "name": "Hunan Garden",
+            "rank": 14,
+            "score": -2.2674176692962646,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sanshi, 118 2nd Ave, New York, NY 10003",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x89c259950f48b181:0x1d8c370870f57480",
+            "iid": 59768,
+            "name": "Sanshi",
+            "rank": 15,
+            "score": -2.268024444580078,
+            "state": "New_York"
+        },
+        {
+            "address": "Soup Shop, 5840 Firestone Blvd #102, South Gate, CA 90280",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Soup restaurant', 'Soup shop']",
+            "gmap_id": "0x80c2cd093bcb768d:0x70529206613cc2e0",
+            "iid": 15532,
+            "name": "Soup Shop",
+            "rank": 16,
+            "score": -2.2687854766845703,
+            "state": "California"
+        },
+        {
+            "address": "YUBU, 86 E 7th St, New York, NY 10003",
+            "category": "['Korean restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259cfbaa63c0b:0xa570face20d149c1",
+            "iid": 60218,
+            "name": "YUBU",
+            "rank": 17,
+            "score": -2.269137144088745,
+            "state": "New_York"
+        },
+        {
+            "address": "Mazaidar Haleem, 11315 S Texas 6 Suite A, Sugar Land, TX 77498",
+            "category": "['Pakistani restaurant', 'Indian restaurant']",
+            "gmap_id": "0x8640e1d10868b405:0x8bc5100db82a5615",
+            "iid": 23961,
+            "name": "Mazaidar Haleem",
+            "rank": 18,
+            "score": -2.269685983657837,
+            "state": "Texas"
+        },
+        {
+            "address": "KRAVE Thai Restaurant, 22250 Bulverde Rd Ste 118, San Antonio, TX 78259",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865c89dba1402bf5:0xae7ae26cee826dad",
+            "iid": 27428,
+            "name": "KRAVE Thai Restaurant",
+            "rank": 19,
+            "score": -2.270714044570923,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 350 Tucker Rd, Tehachapi, CA 93561",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c1f78cd4167551:0xe748a4ee08859ce4",
+            "iid": 12921,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -2.2709240913391113,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Natasha Martushoff",
+        "uid": 89781,
+        "user_id": 103011314750792201674
+    }
+}

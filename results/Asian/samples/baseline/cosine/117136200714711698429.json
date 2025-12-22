@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Diamond Palace Chinese Seafood, 225 Gentle Springs Ln, Diamond Bar, CA 91765",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/02",
+            "gmap_id": "0x80c32c68952e1ccb:0x80bbedd091fb1fe1",
+            "iid": 16448,
+            "name": "Diamond Palace Chinese Seafood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535861382865
+        },
+        {
+            "address": "Bambu, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Dessert shop', 'Bubble tea store', 'Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e838efd3ee268f:0xfb0304dcd499d8a7",
+            "iid": 71986,
+            "name": "Bambu",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579577633
+        },
+        {
+            "address": "The Rolling Spring Roll (Syosset), 228 W Jericho Turnpike, Syosset, NY 11791",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89c2817d75bbe41b:0x1f6037e607a9b672",
+            "iid": 62367,
+            "name": "The Rolling Spring Roll (Syosset)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579610353
+        },
+        {
+            "address": "World Seafood Restaurant, 1412 S Garfield Ave, Alhambra, CA 91801",
+            "category": "['Chinese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c2c537e6f01e17:0x155a986680dc0a5b",
+            "iid": 14893,
+            "name": "World Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579643737
+        },
+        {
+            "address": "Chamsutgol BBQ, 18722 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c32af68391bbdf:0x5d0d9dc40bf8e3a4",
+            "iid": 16373,
+            "name": "Chamsutgol BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579674033
+        },
+        {
+            "address": "The Rolling Spring Roll (Farmingdale), 189 Main St, Farmingdale, NY 11735",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e82abe60ea794f:0xb23c2aa6936bfb4d",
+            "iid": 71860,
+            "name": "The Rolling Spring Roll (Farmingdale)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579695606
+        },
+        {
+            "address": "Splendid Noodle, 1320 Stony Brook Rd, Stony Brook, NY 11790",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese takeaway', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/09/23",
+            "gmap_id": "0x89e838ee364abfff:0x33ca03f14def7cab",
+            "iid": 71982,
+            "name": "Splendid Noodle",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537673206139
+        },
+        {
+            "address": "Phayathai, 735 Hawkins Ave, Lake Ronkonkoma, NY 11779",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x89e8381795858023:0x8a3695b5953f51e9",
+            "iid": 71968,
+            "name": "Phayathai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1547661527620
+        },
+        {
+            "address": "Thai Fresh, 106 5th St SE, Charlottesville, VA 22902",
+            "category": "['Thai restaurant']",
+            "date": "2019/04/18",
+            "gmap_id": "0x89b38626e692f469:0x74166e45c2b6ebf4",
+            "iid": 54895,
+            "name": "Thai Fresh",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1555548997455
+        },
+        {
+            "address": "Oriental Sushi, 600 Portion Rd, Ronkonkoma, NY 11779",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/05/14",
+            "gmap_id": "0x89e83807f9672919:0xe418095ce9a4f43a",
+            "iid": 71967,
+            "name": "Oriental Sushi",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1557852839852
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ichi sushi ramen, 700 N Country Rd, Setauket- East Setauket, NY 11733",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e83f67401bf0b7:0xa4801fd8fad8aac6",
+            "iid": 72014,
+            "name": "Ichi sushi ramen",
+            "rank": 1,
+            "score": 0.5934163928031921,
+            "state": "New_York"
+        },
+        {
+            "address": "Ssambap Korean BBQ, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Korean barbecue restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89e838ee32cb3baf:0x4f9ca1d2fd4464b3",
+            "iid": 71981,
+            "name": "Ssambap Korean BBQ",
+            "rank": 2,
+            "score": 0.5845215320587158,
+            "state": "New_York"
+        },
+        {
+            "address": "Teinei Ya, 251-20 Northern Blvd #1, Little Neck, NY 11362",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c289efcb708583:0x3f7e95131bf5b163",
+            "iid": 62511,
+            "name": "Teinei Ya",
+            "rank": 3,
+            "score": 0.5840089321136475,
+            "state": "New_York"
+        },
+        {
+            "address": "Shabu 88, 18981 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Korean restaurant', 'Meat dish restaurant', 'Sukiyaki and Shabu Shabu restaurant', 'Soup restaurant']",
+            "gmap_id": "0x80c32bb048edc1a5:0xcd28ff85ea5eccce",
+            "iid": 16419,
+            "name": "Shabu 88",
+            "rank": 4,
+            "score": 0.5808785557746887,
+            "state": "California"
+        },
+        {
+            "address": "koiKOKORO, 501 Main St, Islip, NY 11751",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e833a457006e2b:0x1530d7f88d0112e1",
+            "iid": 71952,
+            "name": "koiKOKORO",
+            "rank": 5,
+            "score": 0.578998863697052,
+            "state": "New_York"
+        },
+        {
+            "address": "Chinese Sauerkraut Fish, City of Industry, CA 91748",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c32a5d965b5ad1:0xd160d0618a7a3dbe",
+            "iid": 16302,
+            "name": "Chinese Sauerkraut Fish",
+            "rank": 6,
+            "score": 0.5764233469963074,
+            "state": "California"
+        },
+        {
+            "address": "Bistro Na's, 9055 Las Tunas Dr #105, Temple City, CA 91780",
+            "category": "['Restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x80c2dafbe7f214b5:0xbc5c6d9eb0cf75ee",
+            "iid": 16014,
+            "name": "Bistro Na's",
+            "rank": 7,
+            "score": 0.5753037333488464,
+            "state": "California"
+        },
+        {
+            "address": "Golden Palace Gourmet, 140-09 Cherry Ave, Queens, NY 11355",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c26014f408209d:0x166139328a3851b0",
+            "iid": 61551,
+            "name": "Golden Palace Gourmet",
+            "rank": 8,
+            "score": 0.5664746761322021,
+            "state": "New_York"
+        },
+        {
+            "address": "Beijing House, 170 Jericho Turnpike, Syosset, NY 11791",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c2822b6525d409:0xda019f2a329fa5f0",
+            "iid": 62388,
+            "name": "Beijing House",
+            "rank": 9,
+            "score": 0.5637281537055969,
+            "state": "New_York"
+        },
+        {
+            "address": "Lucky 1 Restaurant, 3001 7637, Garvey Ave, Rosemead, CA 91770",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c2db8f86e7866f:0xfbaf1bfe70b8b93a",
+            "iid": 16064,
+            "name": "Lucky 1 Restaurant",
+            "rank": 10,
+            "score": 0.5595765709877014,
+            "state": "California"
+        },
+        {
+            "address": "OoToro Sushi Japanese Restaurant, 1569 Fairway Dr, Walnut, CA 91789",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c32b048ab15517:0xe2e411492d7fa454",
+            "iid": 16386,
+            "name": "OoToro Sushi Japanese Restaurant",
+            "rank": 11,
+            "score": 0.5570240020751953,
+            "state": "California"
+        },
+        {
+            "address": "Taka Sushi, 821 Carman Ave, Westbury, NY 11590",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c280b146213791:0xd728b6108b872321",
+            "iid": 62325,
+            "name": "Taka Sushi",
+            "rank": 12,
+            "score": 0.555474042892456,
+            "state": "New_York"
+        },
+        {
+            "address": "F\u2022A\u2022N Chinese Cuisine, 534 Commack Rd a10, Deer Park, NY 11729",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89e82f01e6775071:0x62e42da2ebeb32e2",
+            "iid": 71902,
+            "name": "F\u2022A\u2022N Chinese Cuisine",
+            "rank": 13,
+            "score": 0.5543625950813293,
+            "state": "New_York"
+        },
+        {
+            "address": "Mo-Mo-Paradise, 17596 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Japanese restaurant', 'Sukiyaki and Shabu Shabu restaurant']",
+            "gmap_id": "0x80c32a791e061b5b:0x6c821095a26d8f63",
+            "iid": 16353,
+            "name": "Mo-Mo-Paradise",
+            "rank": 14,
+            "score": 0.5533384680747986,
+            "state": "California"
+        },
+        {
+            "address": "Arata Sushi, 18 Cold Spring Rd, Syosset, NY 11791",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2824868b26853:0xe3ecd6deba755bbe",
+            "iid": 62394,
+            "name": "Arata Sushi",
+            "rank": 15,
+            "score": 0.5521097183227539,
+            "state": "New_York"
+        },
+        {
+            "address": "Tara Japanese Cuisine, 251-09 Northern Blvd, Queens, NY 11362",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c289faa6119843:0x619264db00fa3fa2",
+            "iid": 62518,
+            "name": "Tara Japanese Cuisine",
+            "rank": 16,
+            "score": 0.5480048656463623,
+            "state": "New_York"
+        },
+        {
+            "address": "Coco Palace, 19 Northern Blvd, Great Neck, NY 11021",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c28971c413c3d3:0xab1ff311a46db2d9",
+            "iid": 62481,
+            "name": "Coco Palace",
+            "rank": 17,
+            "score": 0.5458981394767761,
+            "state": "New_York"
+        },
+        {
+            "address": "Saigon Casa, 4747 Nesconset Hwy, Port Jefferson Station, NY 11776",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e840e85d6a424b:0xdba724d0e94396bc",
+            "iid": 72023,
+            "name": "Saigon Casa",
+            "rank": 18,
+            "score": 0.5428188443183899,
+            "state": "New_York"
+        },
+        {
+            "address": "Watawa, 164 Hicksville Rd, Bethpage, NY 11714",
+            "category": "['Japanese restaurant', 'Fusion restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c28074d2d8ee93:0x343bef53c6fa5242",
+            "iid": 62321,
+            "name": "Watawa",
+            "rank": 19,
+            "score": 0.5423994660377502,
+            "state": "New_York"
+        },
+        {
+            "address": "China Max, 152 The Arches Cir, Deer Park, NY 11729",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e82ddcac638ea9:0xab63a5e0e6456990",
+            "iid": 71901,
+            "name": "China Max",
+            "rank": 20,
+            "score": 0.5423910617828369,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "York Moy",
+        "uid": 510513,
+        "user_id": 117136200714711698429
+    }
+}

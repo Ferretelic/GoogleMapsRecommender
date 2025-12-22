@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Nan Xiang Xiao Long Bao, 39-16 Prince St #104, Queens, NY 11354",
+            "category": "['Dumpling restaurant', 'Chinese restaurant', 'Shanghainese restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x89c2600e5c0c3e57:0x24af49e7e7726484",
+            "iid": 61468,
+            "name": "Nan Xiang Xiao Long Bao",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1510748947008
+        },
+        {
+            "address": "Hei La Moon Restaurant, 88 Beach St, Boston, MA 02111",
+            "category": "['Dim sum restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89e37a785fd0e5dd:0x9ad4e5f54d53c87a",
+            "iid": 69808,
+            "name": "Hei La Moon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1525700360665
+        },
+        {
+            "address": "750 Myrtle Diner, 750 Myrtle Ave, Brooklyn, NY 11205",
+            "category": "['Japanese grocery store', 'Fried chicken takeaway']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c25bec6e3658e5:0x2eedc5b6d41156e2",
+            "iid": 60879,
+            "name": "750 Myrtle Diner",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700597320
+        },
+        {
+            "address": "Asian Jewels, 133-30 39th Ave, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c2600e8936acd9:0x7186588fb0262c0e",
+            "iid": 61481,
+            "name": "Asian Jewels",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700613463
+        },
+        {
+            "address": "Insa, 328 Douglass St, Brooklyn, NY 11217",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/12/08",
+            "gmap_id": "0x89c25bab362fe1a3:0x29c89c8f51d7998d",
+            "iid": 60792,
+            "name": "Insa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1544295294055
+        },
+        {
+            "address": "Lake Pavilion, 6015 Main St, Queens, NY 11367",
+            "category": "['Dim sum restaurant', 'Cantonese restaurant', 'Chinese restaurant']",
+            "date": "2019/02/11",
+            "gmap_id": "0x89c2606f50d57779:0x340cf570f56be0b",
+            "iid": 61662,
+            "name": "Lake Pavilion",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1549918220926
+        },
+        {
+            "address": "Katsuei, 210 7th Ave, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c25b015e09d89f:0xacbaea5e956adece",
+            "iid": 60596,
+            "name": "Katsuei",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550158663001
+        },
+        {
+            "address": "Jongro BBQ, 155-14 Roosevelt Ave, Flushing, NY 11354",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c26025cb1b859d:0x95d3b37963a5465e",
+            "iid": 61600,
+            "name": "Jongro BBQ",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550159423804
+        },
+        {
+            "address": "OKONOMI // YUJI Ramen, 150 Ainslie St, Brooklyn, NY 11211",
+            "category": "['Japanese restaurant', 'Breakfast restaurant', 'Ramen restaurant', 'Seafood restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x89c2595831328cd9:0xfad5f1be4ddd8e13",
+            "iid": 59477,
+            "name": "OKONOMI // YUJI Ramen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1576091100300
+        },
+        {
+            "address": "Zenith, 7002 Fresh Pond Rd, Ridgewood, NY 11385",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "date": "2020/06/26",
+            "gmap_id": "0x89c25c29f0f4fe79:0x650949e95638e6be",
+            "iid": 60944,
+            "name": "Zenith",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1593141209096
+        },
+        {
+            "address": "Nowon, 507 E 6th St, New York, NY 10009",
+            "category": "['Korean restaurant', 'Gastropub']",
+            "date": "2021/03/22",
+            "gmap_id": "0x89c259ac4080178d:0x5f2796bd79da7a9e",
+            "iid": 60076,
+            "name": "Nowon",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1616417989099
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "SONA, 36 E 20th St, New York, NY 10003",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2597bdf202ebb:0x873f4d2aca72121e",
+            "iid": 59566,
+            "name": "SONA",
+            "rank": 1,
+            "score": -2.1019392013549805,
+            "state": "New_York"
+        },
+        {
+            "address": "Excellent Cuisine, 8733 SE Division St, Portland, OR 97266",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x5495a19137b15e39:0x38c20179d3123eb9",
+            "iid": 4416,
+            "name": "Excellent Cuisine",
+            "rank": 2,
+            "score": -2.1292622089385986,
+            "state": "Oregon"
+        },
+        {
+            "address": "Silver Apricot, 20 Cornelia St, New York, NY 10014",
+            "category": "['New American restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c25986c0139c31:0xd59ae8dddcb5676c",
+            "iid": 59628,
+            "name": "Silver Apricot",
+            "rank": 3,
+            "score": -2.1313440799713135,
+            "state": "New_York"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 4,
+            "score": -2.1716225147247314,
+            "state": "Florida"
+        },
+        {
+            "address": "Kanji Goose Creek, 119 Plantation N Blvd #2A, Goose Creek, SC 29445",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88fe6182c397d121:0xe5cefcb52509df03",
+            "iid": 53186,
+            "name": "Kanji Goose Creek",
+            "rank": 5,
+            "score": -2.1747689247131348,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Panda Express, 376 Kilauea Ave, Hilo, HI 96720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x79524b421b1e5311:0x486963a643926b6d",
+            "iid": 5795,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -2.1806766986846924,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Gogi 92, 1602 Village Market Blvd SE, Leesburg, VA 20175",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89b63dfa5ba73ca9:0x4363f8250bc51ac2",
+            "iid": 55232,
+            "name": "Gogi 92",
+            "rank": 7,
+            "score": -2.185105323791504,
+            "state": "Virginia"
+        },
+        {
+            "address": "California, San Francisco, Cortland Ave, Shokudou\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7fa3e5e7731f:0x61a2a36642107cb7",
+            "iid": 9254,
+            "name": "Shokudou",
+            "rank": 8,
+            "score": -2.1866254806518555,
+            "state": "California"
+        },
+        {
+            "address": "Suggi Oota, 949 Ruff Dr, San Jose, CA 95110",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fcbeb9bd195dd:0x5c512b6315d54596",
+            "iid": 10903,
+            "name": "Suggi Oota",
+            "rank": 9,
+            "score": -2.1876535415649414,
+            "state": "California"
+        },
+        {
+            "address": "Izumi Spa Massage, 4060 S El Camino Real, San Mateo, CA 94403",
+            "category": "['Massage therapist', 'Foot massage parlor', 'Massage spa', 'Reflexologist', 'Sports massage therapist', 'Thai massage therapist']",
+            "gmap_id": "0x808f9fc41a5420bb:0xa2962d7894687118",
+            "iid": 9838,
+            "name": "Izumi Spa Massage",
+            "rank": 10,
+            "score": -2.1878159046173096,
+            "state": "California"
+        },
+        {
+            "address": "Yummy Garden, 2270 Commercial Way, Spring Hill, FL 34606",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88c29f55de76f88f:0xbc66922ff2fd788c",
+            "iid": 46882,
+            "name": "Yummy Garden",
+            "rank": 11,
+            "score": -2.1943347454071045,
+            "state": "Florida"
+        },
+        {
+            "address": "Great India, 752 Blue Vista Ln #400, Midvale, UT 84047",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87528971c6afead3:0x679fb662b8237409",
+            "iid": 30249,
+            "name": "Great India",
+            "rank": 12,
+            "score": -2.1952641010284424,
+            "state": "Utah"
+        },
+        {
+            "address": "Teriyaki Madness, 1653 W Island Green Dr Ste 130, Meridian, ID 83646",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55cae7f4fa65:0x225b2adc029f2e05",
+            "iid": 5059,
+            "name": "Teriyaki Madness",
+            "rank": 13,
+            "score": -2.1955723762512207,
+            "state": "Idaho"
+        },
+        {
+            "address": "Panda Express, 5811 S Westnedge Ave, Portage, MI 49002",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88179dee9cf012f5:0xe5d34795de64499",
+            "iid": 38576,
+            "name": "Panda Express",
+            "rank": 14,
+            "score": -2.1955955028533936,
+            "state": "Michigan"
+        },
+        {
+            "address": "MamaMi Vietnamese Kitchen, 324 Berlin - Cross Keys Rd, Williamstown, NJ 08094",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6d55120b892e3:0xcdfd947a4f6b32d8",
+            "iid": 66556,
+            "name": "MamaMi Vietnamese Kitchen",
+            "rank": 15,
+            "score": -2.1960866451263428,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Golden Kitchen Chinese Restaurant, 820 Surfside Dr, Surfside Beach, SC 29575",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x890041e9d4e26387:0xb40b7d2a0ab61f1e",
+            "iid": 53418,
+            "name": "Golden Kitchen Chinese Restaurant",
+            "rank": 16,
+            "score": -2.1972339153289795,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Gotji's Kitchen, 400 Main St, Buda, TX 78610",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865b5391f8ab7e21:0x50276f6f719071f8",
+            "iid": 27140,
+            "name": "Gotji's Kitchen",
+            "rank": 17,
+            "score": -2.197272300720215,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho 16th Vietnamese Grill, 535 16th St Mall Ste, Denver, CO 80202",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x876c79c292984dd9:0x533b9ac25bc6fdcb",
+            "iid": 31219,
+            "name": "Pho 16th Vietnamese Grill",
+            "rank": 18,
+            "score": -2.197519540786743,
+            "state": "Colorado"
+        },
+        {
+            "address": "NaaMo Thai Restaurant, 209 Applegarth Rd Suite 1, Monroe Township, NJ 08831",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c3d9a430ef6f8d:0x780a2c7d75130080",
+            "iid": 64963,
+            "name": "NaaMo Thai Restaurant",
+            "rank": 19,
+            "score": -2.197521686553955,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Golden Chinese BBQ, 1818 E Pioneer Pkwy, Arlington, TX 76010",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x864e87c0cf2e6acb:0x47949321e92a6978",
+            "iid": 26561,
+            "name": "Golden Chinese BBQ",
+            "rank": 20,
+            "score": -2.1975786685943604,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Brian Quiban",
+        "uid": 422444,
+        "user_id": 114187155024950400381
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Taste of india, 902 E Brandon Blvd, Brandon, FL 33511",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "date": "2016/10/16",
+            "gmap_id": "0x88c2cdb246f322fd:0xe368a07222e41157",
+            "iid": 47136,
+            "name": "Taste of india",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1476642381111
+        },
+        {
+            "address": "Lotus Vegetarian, 13872 Metrotech Dr, Chantilly, VA 20151",
+            "category": "['Vegetarian restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Vegan restaurant']",
+            "date": "2016/10/18",
+            "gmap_id": "0x89b6468749d700e1:0x99b9d77482d31a2f",
+            "iid": 55362,
+            "name": "Lotus Vegetarian",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1476818006131
+        },
+        {
+            "address": "Bowl of Pho, 5626 Grape Rd, Mishawaka, IN 46545",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/11/05",
+            "gmap_id": "0x8816d210deac46a9:0x603e0f679f7af740",
+            "iid": 38521,
+            "name": "Bowl of Pho",
+            "split": "train",
+            "state": "Indiana",
+            "unix_time": 1478368377164
+        },
+        {
+            "address": "Bowl of Pho, 5626 Grape Rd, Mishawaka, IN 46545",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/11/05",
+            "gmap_id": "0x8816d210deac46a9:0x603e0f679f7af740",
+            "iid": 38521,
+            "name": "Bowl of Pho",
+            "split": "train",
+            "state": "Indiana",
+            "unix_time": 1478368377164
+        },
+        {
+            "address": "Ginger Thai Cuisine, 111 W 2nd St, Cedar Falls, IA 50613",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2016/11/23",
+            "gmap_id": "0x87faaaba298ee991:0x3698cc57ec2c7742",
+            "iid": 35232,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Iowa",
+            "unix_time": 1479914356933
+        },
+        {
+            "address": "Pei Wei Asian Kitchen, 1816 N Westshore Blvd, Tampa, FL 33607",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2017/02/03",
+            "gmap_id": "0x88c2c25677037d3b:0x906330849524100",
+            "iid": 46998,
+            "name": "Pei Wei Asian Kitchen",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486146320012
+        },
+        {
+            "address": "Thai Jasmine Restaurant, 10900 Kingspoint Rd, Houston, TX 77075",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/28",
+            "gmap_id": "0x864097602af8aea1:0x8a2cab11274e3e29",
+            "iid": 22710,
+            "name": "Thai Jasmine Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506557465116
+        },
+        {
+            "address": "Thai\ud83c\udf36Hot, 921 Lithia Pinecrest Rd, Brandon, FL 33511",
+            "category": "['Thai restaurant', 'Family restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x88c2cdbc9877a22b:0xb1d03567a398d6a5",
+            "iid": 47139,
+            "name": "Thai\ud83c\udf36Hot",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1510776960363
+        },
+        {
+            "address": "Zen Bistro, 223 Magnolia Ave, Daytona Beach, FL 32114",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x88e6da28b1c6f0dd:0xd21a52fe01bfb84c",
+            "iid": 50053,
+            "name": "Zen Bistro",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1532748797112
+        },
+        {
+            "address": "Blu Basil Wine and Grill, 5451 Johnston St, Lafayette, LA 70503",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Cocktail bar', 'Pho restaurant', 'Seafood restaurant', 'Steak house', 'Wine bar']",
+            "date": "2020/11/13",
+            "gmap_id": "0x86249e7a2c68980b:0xbfd4f4828c5ef919",
+            "iid": 22046,
+            "name": "Blu Basil Wine and Grill",
+            "split": "valid",
+            "state": "Louisiana",
+            "unix_time": 1605235256710
+        },
+        {
+            "address": "Thai Spice, 1514 E Commercial Blvd, Fort Lauderdale, FL 33334",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Fine dining restaurant', 'Restaurant', 'Steak house', 'Thai restaurant', 'Wine bar']",
+            "date": "2020/11/13",
+            "gmap_id": "0x88d9023b9b3270cf:0x21b6fe52d9eb7da",
+            "iid": 47847,
+            "name": "Thai Spice",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1605294643786
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Seaweed Steaks, Seafood & Sushi, 2819 W Bay Dr, Belleair Bluffs, FL 33770",
+            "category": "['Restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x88c2fb54ec4e1dc5:0xf63cdae64d7f76f7",
+            "iid": 47433,
+            "name": "Seaweed Steaks, Seafood & Sushi",
+            "rank": 1,
+            "score": 0.5665076971054077,
+            "state": "Florida"
+        },
+        {
+            "address": "Sugar Palm Thai Restaurant, 5580 Vincent Gate Terrace, Alexandria, VA 22312",
+            "category": "['Thai restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89b7b2eddd0b8225:0x9787ea7171b1aaf9",
+            "iid": 56064,
+            "name": "Sugar Palm Thai Restaurant",
+            "rank": 2,
+            "score": 0.5176457166671753,
+            "state": "Virginia"
+        },
+        {
+            "address": "China 1, 1950 34th St N, St. Petersburg, FL 33713",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2e3babf0bec39:0xa9abac4fbd0e5eaf",
+            "iid": 47258,
+            "name": "China 1",
+            "rank": 3,
+            "score": 0.5156750082969666,
+            "state": "Florida"
+        },
+        {
+            "address": "Indian Bistro, 2779 Gulf to Bay Blvd, Clearwater, FL 33759",
+            "category": "['Indian restaurant', 'Bistro', 'Indian takeaway', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x88c2e554c0f365ed:0x2526ee2b44b964f3",
+            "iid": 47293,
+            "name": "Indian Bistro",
+            "rank": 4,
+            "score": 0.49329736828804016,
+            "state": "Florida"
+        },
+        {
+            "address": "Iberian Rooster, 475 Central Ave N UNIT 100, St. Petersburg, FL 33701",
+            "category": "['Indian restaurant', 'Caterer', 'Cocktail bar', 'Event venue', 'Fast food restaurant', 'Goan restaurant']",
+            "gmap_id": "0x88c2e18374aa4b3f:0x3df16e6f0e5491e6",
+            "iid": 47226,
+            "name": "Iberian Rooster",
+            "rank": 5,
+            "score": 0.4904336929321289,
+            "state": "Florida"
+        },
+        {
+            "address": "Ahan Thai Kitchen, 474260 E State Rd 200, Fernandina Beach, FL 32034",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Diner', 'Lunch restaurant', 'Restaurant', 'Wine bar']",
+            "gmap_id": "0x88e4ff6d99b69c5b:0x5bbcbbd63dead1c",
+            "iid": 49715,
+            "name": "Ahan Thai Kitchen",
+            "rank": 6,
+            "score": 0.48567891120910645,
+            "state": "Florida"
+        },
+        {
+            "address": "Chiang Mai Thai & Sushi Bar, 415 Cleveland St, Clearwater, FL 33755",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c2f0de0c78714f:0x175eb7f51ca38977",
+            "iid": 47373,
+            "name": "Chiang Mai Thai & Sushi Bar",
+            "rank": 7,
+            "score": 0.48443496227264404,
+            "state": "Florida"
+        },
+        {
+            "address": "Tokai Japanese Restaurant, 10115 E Adamo Dr, Tampa, FL 33619",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c2ce57919bd797:0x84eadcef44574997",
+            "iid": 47155,
+            "name": "Tokai Japanese Restaurant",
+            "rank": 8,
+            "score": 0.47784557938575745,
+            "state": "Florida"
+        },
+        {
+            "address": "Ocean Blue Asian Fusion, 2475 McMullen Booth Rd ste m, Clearwater, FL 33759",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x88c2ee757306bbc3:0x22f73db549810f96",
+            "iid": 47360,
+            "name": "Ocean Blue Asian Fusion",
+            "rank": 9,
+            "score": 0.477293461561203,
+            "state": "Florida"
+        },
+        {
+            "address": "Chiang Mai Thai Restaurant, 1100 Central Ave, St. Petersburg, FL 33705",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2e22a26924ec3:0x4845f62a2af8940a",
+            "iid": 47234,
+            "name": "Chiang Mai Thai Restaurant",
+            "rank": 10,
+            "score": 0.47631117701530457,
+            "state": "Florida"
+        },
+        {
+            "address": "Justhai, 3201 4th St N, St. Petersburg, FL 33704",
+            "category": "['Asian restaurant', 'Fast food restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88c2c33d38dc7e87:0x81739c2ed3fef77f",
+            "iid": 47019,
+            "name": "Justhai",
+            "rank": 11,
+            "score": 0.4760608673095703,
+            "state": "Florida"
+        },
+        {
+            "address": "Twisted Indian, 2639 Central Ave, St. Petersburg, FL 33713",
+            "category": "['Indian restaurant', 'Mobile caterer']",
+            "gmap_id": "0x88c2ce349283bf8d:0x45130cb578f60408",
+            "iid": 47148,
+            "name": "Twisted Indian",
+            "rank": 12,
+            "score": 0.4742588996887207,
+            "state": "Florida"
+        },
+        {
+            "address": "La V Vietnamese Fusion, 441 Central Ave, St. Petersburg, FL 33701",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Delivery Restaurant', 'Restaurant', 'South Asian restaurant', 'Southeast Asian restaurant', 'Wine bar']",
+            "gmap_id": "0x88c2e1836cf2f21f:0x5e77fb188efddcca",
+            "iid": 47225,
+            "name": "La V Vietnamese Fusion",
+            "rank": 13,
+            "score": 0.4702119529247284,
+            "state": "Florida"
+        },
+        {
+            "address": "Bombay Darbar, 2901-2999 Florida Ave, Miami, FL 33133",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x88d9b7c572ca40c7:0xa868fadfe870c660",
+            "iid": 48701,
+            "name": "Bombay Darbar",
+            "rank": 14,
+            "score": 0.4688590168952942,
+            "state": "Florida"
+        },
+        {
+            "address": "Minh\u2019s Bistro, 18949 Coastal Hwy #103, Rehoboth Beach, DE 19971",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89b8b7afd02b5b1b:0x65ae119c5746f991",
+            "iid": 57198,
+            "name": "Minh\u2019s Bistro",
+            "rank": 15,
+            "score": 0.46807917952537537,
+            "state": "Delaware"
+        },
+        {
+            "address": "Thai Orchid Restaurant, 4339 66th St N, Kenneth City, FL 33709",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c2e34e97d6aa89:0x679c18614b88b9a0",
+            "iid": 47247,
+            "name": "Thai Orchid Restaurant",
+            "rank": 16,
+            "score": 0.46510255336761475,
+            "state": "Florida"
+        },
+        {
+            "address": "Faceless Samurai, 3428 Tampa Rd, Palm Harbor, FL 34684",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88c2ed7119cdd4e9:0x4f152d257fcf2400",
+            "iid": 47345,
+            "name": "Faceless Samurai",
+            "rank": 17,
+            "score": 0.4650566577911377,
+            "state": "Florida"
+        },
+        {
+            "address": "Thai Bay & Sushi Restaurant, 1300 E Bay Dr, Largo, FL 33771",
+            "category": "['Asian restaurant', 'Diner', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88c2fa814c5d877b:0xc695caf679c23fa2",
+            "iid": 47420,
+            "name": "Thai Bay & Sushi Restaurant",
+            "rank": 18,
+            "score": 0.46354538202285767,
+            "state": "Florida"
+        },
+        {
+            "address": "Jenny's At The Wharf, 668 Water St SW, Washington, DC 20024",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Seafood restaurant', 'Soup restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89b7b776bc2ea237:0x1d58f63fed5ef6a0",
+            "iid": 56301,
+            "name": "Jenny's At The Wharf",
+            "rank": 19,
+            "score": 0.46333539485931396,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Siam Garden Thai, 3125 Dr M.L.K. Jr St N, St. Petersburg, FL 33704",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88c2e15fba20122b:0xf4fbeb9fc2d0b0e6",
+            "iid": 47221,
+            "name": "Siam Garden Thai",
+            "rank": 20,
+            "score": 0.4625471830368042,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Marc Salveson",
+        "uid": 304102,
+        "user_id": 110187390938213596410
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ten Ren's Tea Time, 73 Mott St, New York, NY 10013",
+            "category": "['Bubble tea store', 'Chinese tea house']",
+            "date": "2018/03/25",
+            "gmap_id": "0x89c25a270cbc1ae3:0x4c5f4e7b8dd36c0",
+            "iid": 60417,
+            "name": "Ten Ren's Tea Time",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522018721853
+        },
+        {
+            "address": "Yaya Tea GRAND, 206 Grand St, New York, NY 10013",
+            "category": "['Bubble tea store', 'Cafe', 'Japanese grocery store', 'Tea house']",
+            "date": "2018/04/14",
+            "gmap_id": "0x89c25988426716b1:0x3f2d979880efff62",
+            "iid": 59665,
+            "name": "Yaya Tea GRAND",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1523725672906
+        },
+        {
+            "address": "Tang, 196-50 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant', 'Japanese restaurant']",
+            "date": "2018/07/05",
+            "gmap_id": "0x89c261d012a09525:0x6bdd5365b72422e",
+            "iid": 61852,
+            "name": "Tang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1530753501683
+        },
+        {
+            "address": "Spicy Village, 68 Forsyth St B, New York, NY 10002",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/08/17",
+            "gmap_id": "0x89c25a281fc4cab7:0xefe26f1bb5922e6",
+            "iid": 60454,
+            "name": "Spicy Village",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1534528353087
+        },
+        {
+            "address": "Park Asia, 6521 8th Ave, Brooklyn, NY 11220, United States",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Dim sum restaurant', 'Tea house', 'Wedding venue']",
+            "date": "2019/01/30",
+            "gmap_id": "0x89c2454f3705963f:0xcd1e96594e89262f",
+            "iid": 58303,
+            "name": "Park Asia",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1548884833940
+        },
+        {
+            "address": "Thai Villa, 5 E 19th St, New York, NY 10003, United States",
+            "category": "['Thai restaurant']",
+            "date": "2019/03/24",
+            "gmap_id": "0x89c259a3b48fdf7d:0x1b80533593b46ffa",
+            "iid": 59956,
+            "name": "Thai Villa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1553471106242
+        },
+        {
+            "address": "Yunshang, 53 Bayard St, New York, NY 10013",
+            "category": "['Chinese noodle restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Noodle shop']",
+            "date": "2019/03/27",
+            "gmap_id": "0x89c25bb83bd3b349:0x4d1a3da556c08b22",
+            "iid": 60823,
+            "name": "Yunshang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1553720562880
+        },
+        {
+            "address": "Cafe Hong Kong, 51 Bayard St, New York, NY 10013",
+            "category": "['Chinese restaurant']",
+            "date": "2019/04/04",
+            "gmap_id": "0x89c25a271cd298e9:0xa9d5b8f25e95a808",
+            "iid": 60425,
+            "name": "Cafe Hong Kong",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1554403074415
+        },
+        {
+            "address": "Deluxe Food Market, 79 Elizabeth St, New York, NY 10013",
+            "category": "['Asian grocery store', 'Chinese supermarket', 'Grocery store']",
+            "date": "2019/04/07",
+            "gmap_id": "0x89c259882282eee3:0x6423e4ee7c2ff7d0",
+            "iid": 59661,
+            "name": "Deluxe Food Market",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1554669936359
+        },
+        {
+            "address": "Kings Kitchen, 92 E Broadway, New York, NY 10002",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x89c25a28921e4f1b:0xb5ca25f717e0e821",
+            "iid": 60464,
+            "name": "Kings Kitchen",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1578339239652
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "The Legend Cafe House, 8140 New Utrecht Ave, Brooklyn, NY 11214",
+            "category": "['Hong Kong style fast food restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c245153d03b91d:0x1fef9335276bcc1",
+            "iid": 58220,
+            "name": "The Legend Cafe House",
+            "rank": 1,
+            "score": -1.9489809274673462,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Ga Thanh Thanh, 1100 Washington Ave, Philadelphia, PA 19147",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6c77fddad1e45:0x7da08304ff669bab",
+            "iid": 66269,
+            "name": "Pho Ga Thanh Thanh",
+            "rank": 2,
+            "score": -2.011897325515747,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Aki Kushiyaki, 2106 E Madison St, Seattle, WA 98112",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54906b2d601dd8e3:0xbf5a8042f7137364",
+            "iid": 2983,
+            "name": "Aki Kushiyaki",
+            "rank": 3,
+            "score": -2.1585023403167725,
+            "state": "Washington"
+        },
+        {
+            "address": "Emperor Seafood, 136-59 37th Avenue #2/F, Queens, NY 11354",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c26179efebb81d:0x10f52e0bd47c824a",
+            "iid": 61802,
+            "name": "Emperor Seafood",
+            "rank": 4,
+            "score": -2.1661229133605957,
+            "state": "New_York"
+        },
+        {
+            "address": "Neem Indian Cuisine, 3549 Johnson Ave, Bronx, NY 10463",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c2f312f5103253:0x21b36806c618b66b",
+            "iid": 63199,
+            "name": "Neem Indian Cuisine",
+            "rank": 5,
+            "score": -2.1694653034210205,
+            "state": "New_York"
+        },
+        {
+            "address": "Cupbop - Korean BBQ, 806 Blue Lakes Blvd N, Twin Falls, ID 83301",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x54aca3dddad1edbb:0xa5bb956eb578e98e",
+            "iid": 5021,
+            "name": "Cupbop - Korean BBQ",
+            "rank": 6,
+            "score": -2.1707851886749268,
+            "state": "Idaho"
+        },
+        {
+            "address": "Fresh India Grocery and Eatery, 441 Commerce Dr, Woodbury, MN 55125",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "gmap_id": "0x87f7d905ae8ddaf7:0x3f2a456bd99a094c",
+            "iid": 35169,
+            "name": "Fresh India Grocery and Eatery",
+            "rank": 7,
+            "score": -2.1709368228912354,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 8,
+            "score": -2.172389268875122,
+            "state": "Florida"
+        },
+        {
+            "address": "Barn Joo Nomad, 816 6th Ave, New York, NY 10001",
+            "category": "['Gastropub', 'Bar', 'Cocktail bar', 'Korean restaurant', 'Restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x89c259c6b11ba8fd:0xf5871a3bb878d505",
+            "iid": 60210,
+            "name": "Barn Joo Nomad",
+            "rank": 9,
+            "score": -2.1744437217712402,
+            "state": "New_York"
+        },
+        {
+            "address": "Panda Express, 6167 East Sam Houston Pkwy N, Houston, TX 77049",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640a59db4100c4d:0x20e1dc5125432944",
+            "iid": 22828,
+            "name": "Panda Express",
+            "rank": 10,
+            "score": -2.1756882667541504,
+            "state": "Texas"
+        },
+        {
+            "address": "ChiMcKing Chicken & Beer, 1022 N Marshall St, Philadelphia, PA 19123",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c6c8712288e003:0xffa29b8b6fd9df65",
+            "iid": 66343,
+            "name": "ChiMcKing Chicken & Beer",
+            "rank": 11,
+            "score": -2.1779749393463135,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "FUSIAN, 7721 Sawmill Rd, Dublin, OH 43016",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8838ed1769136129:0xde34c0370308822b",
+            "iid": 40925,
+            "name": "FUSIAN",
+            "rank": 12,
+            "score": -2.1794378757476807,
+            "state": "Ohio"
+        },
+        {
+            "address": "Tabla, 3005 Peachtree Rd #400, Atlanta, GA 30305",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88f505e58fc767e3:0x2200c51785c808dc",
+            "iid": 51431,
+            "name": "Tabla",
+            "rank": 13,
+            "score": -2.180912971496582,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 14,
+            "score": -2.1809587478637695,
+            "state": "Texas"
+        },
+        {
+            "address": "Honest Indian Restaurant, Honest Restaurant, 97 US 206 North, Somerville, NJ 08876",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c395b83d5efd19:0xff6a135cb99c47b1",
+            "iid": 64198,
+            "name": "Honest Indian Restaurant",
+            "rank": 15,
+            "score": -2.180983543395996,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Great India, 752 Blue Vista Ln #400, Midvale, UT 84047",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87528971c6afead3:0x679fb662b8237409",
+            "iid": 30249,
+            "name": "Great India",
+            "rank": 16,
+            "score": -2.1813278198242188,
+            "state": "Utah"
+        },
+        {
+            "address": "Samurai Ramen, 2442 Pleasant Hill Rd #4, Duluth, GA 30096",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f5a3ce5f4f659f:0x92a1670ae1370880",
+            "iid": 52357,
+            "name": "Samurai Ramen",
+            "rank": 17,
+            "score": -2.182220458984375,
+            "state": "Georgia"
+        },
+        {
+            "address": "King's Kitchen, 440 State St, Salem, OR 97301",
+            "category": "['Southeast Asian restaurant', 'Cambodian restaurant', 'Laotian restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x54bfffec963b2425:0xf22f9e46fa7a0131",
+            "iid": 5253,
+            "name": "King's Kitchen",
+            "rank": 18,
+            "score": -2.18245530128479,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thai Maison, 2430 James St, Bellingham, WA 98225",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x5485a3084389e80d:0x278a30ee3379f7ae",
+            "iid": 1420,
+            "name": "Thai Maison",
+            "rank": 19,
+            "score": -2.1827878952026367,
+            "state": "Washington"
+        },
+        {
+            "address": "JINYA Ramen Bar - Eastvale, 12768 Limonite Ave, Eastvale, CA 92880",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80dccb87dd20cbfb:0x9f057d329f897298",
+            "iid": 19217,
+            "name": "JINYA Ramen Bar - Eastvale",
+            "rank": 20,
+            "score": -2.1830906867980957,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "lamay Ou",
+        "uid": 168258,
+        "user_id": 105629911014910754913
+    }
+}

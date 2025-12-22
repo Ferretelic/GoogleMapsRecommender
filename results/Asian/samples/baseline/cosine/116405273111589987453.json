@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "76015 Texas, Arlington, S Cooper St, Sushi Cafe",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/04/01",
+            "gmap_id": "0x864e62d71f043a7d:0xbc3ecba1e16d4d0c",
+            "iid": 26223,
+            "name": "Sushi Cafe",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1491053105099
+        },
+        {
+            "address": "Dong Bo Sung, 11445 Emerald St STE 115, Dallas, TX 75229",
+            "category": "['Chinese restaurant']",
+            "date": "2017/04/11",
+            "gmap_id": "0x864c27f329b62b87:0xe61482fa30e564c0",
+            "iid": 25682,
+            "name": "Dong Bo Sung",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1491954150874
+        },
+        {
+            "address": "China Harbor, 3512 S Cooper St, Arlington, TX 76015",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "date": "2017/04/11",
+            "gmap_id": "0x864e62d6c9d6cf81:0x8c17b385788e2598",
+            "iid": 26222,
+            "name": "China Harbor",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1491954260849
+        },
+        {
+            "address": "Kim Son, 2001 Jefferson St, Houston, TX 77003",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2017/04/11",
+            "gmap_id": "0x8640bf19bd5fa501:0xe1fa99399a0b491c",
+            "iid": 22918,
+            "name": "Kim Son",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1491954276470
+        },
+        {
+            "address": "75007 Texas, Carrollton, Old Denton Rd, GangNam Sushi House",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2017/04/11",
+            "gmap_id": "0x864c25e53c0d46f9:0xd30ec8bebc489239",
+            "iid": 25604,
+            "name": "GangNam Sushi House",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1491954331147
+        },
+        {
+            "address": "DanSungSa, 11407 Emerald St Suite 121, Dallas, TX 75229",
+            "category": "['Korean restaurant', 'Bar', 'Restaurant', 'Seafood restaurant']",
+            "date": "2017/05/02",
+            "gmap_id": "0x864c27f33224728b:0x6b684c7b48b9c4d8",
+            "iid": 25685,
+            "name": "DanSungSa",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1493690108520
+        },
+        {
+            "address": "Tandoor, 1200 N Fielder Rd Suite 532, Arlington, TX 76012",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2017/06/28",
+            "gmap_id": "0x864e7d00a2bb1da5:0xaca4ac6cda5acabc",
+            "iid": 26411,
+            "name": "Tandoor",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1498677655742
+        },
+        {
+            "address": "Ninja Ramen, 4654 S Cooper St #340, Arlington, TX 76017",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Bar & grill', 'Japanese restaurant', 'Vegetarian restaurant']",
+            "date": "2017/07/02",
+            "gmap_id": "0x864e62e03b2286b7:0x652e3d0d9effda27",
+            "iid": 26231,
+            "name": "Ninja Ramen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1498963216234
+        },
+        {
+            "address": "Wild Goji Sushi Bar - Now Open, 7115 Blanco Rd #110, San Antonio, TX 78216",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Bar', 'Ramen restaurant', 'Sushi restaurant', 'Tapas bar']",
+            "date": "2017/07/15",
+            "gmap_id": "0x865c600ca8355cc9:0xce0734cebd1e72a8",
+            "iid": 27288,
+            "name": "Wild Goji Sushi Bar - Now Open",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1500083758545
+        },
+        {
+            "address": "Jin Korean BBQ, 3810 S Cooper St #130, Arlington, TX 76015",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2019/12/20",
+            "gmap_id": "0x864e62d86b0c7037:0xf801e42bff70c4ae",
+            "iid": 26225,
+            "name": "Jin Korean BBQ",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1576857422702
+        },
+        {
+            "address": "RA Sushi Bar Restaurant, 7501 Lone Star Dr B-130, Plano, TX 75024",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2019/12/20",
+            "gmap_id": "0x864c3cb1ee26a295:0xa9d4932968aad993",
+            "iid": 25933,
+            "name": "RA Sushi Bar Restaurant",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1576857457816
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Palace, 2126 S Collins St, Arlington, TX 76010",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x864e7d5759e91e13:0x4e6129dcb28e5f07",
+            "iid": 26427,
+            "name": "Pho Palace",
+            "rank": 1,
+            "score": 0.7421731352806091,
+            "state": "Texas"
+        },
+        {
+            "address": "Mr Max Cafe Nippon, 3028 N Belt Line Rd, Irving, TX 75062",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864e8230e9ab7e2f:0x889bc4b794dc58f9",
+            "iid": 26495,
+            "name": "Mr Max Cafe Nippon",
+            "rank": 2,
+            "score": 0.7223678827285767,
+            "state": "Texas"
+        },
+        {
+            "address": "Jin Korean BBQ, 3810 S Cooper St #130, Arlington, TX 76015",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x864e62d86b0c7037:0xf801e42bff70c4ae",
+            "iid": 26225,
+            "name": "Jin Korean BBQ",
+            "rank": 3,
+            "score": 0.7194647789001465,
+            "state": "Texas"
+        },
+        {
+            "address": "The Pearl Restaurant, 2625 W Pioneer Pkwy #600, Grand Prairie, TX 75051",
+            "category": "['Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x864e862db10b6e15:0x30c91e52f502cca9",
+            "iid": 26553,
+            "name": "The Pearl Restaurant",
+            "rank": 4,
+            "score": 0.7040335536003113,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Hung Restaurant, 2615 W Pioneer Pkwy # 108, Grand Prairie, TX 75051",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x864e862d8b4a4581:0xbca9fa524cd9f2ef",
+            "iid": 26551,
+            "name": "Pho Hung Restaurant",
+            "rank": 5,
+            "score": 0.6930369734764099,
+            "state": "Texas"
+        },
+        {
+            "address": "Mon Viet Cafe, 1818 E Pioneer Pkwy #182, Arlington, TX 76010",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x864e87e4e05eb3fb:0x26818ea0a2541565",
+            "iid": 26566,
+            "name": "Mon Viet Cafe",
+            "rank": 6,
+            "score": 0.6888965964317322,
+            "state": "Texas"
+        },
+        {
+            "address": "Ph\u1edf Pasteur Restaurant, 100 W Pioneer Pkwy #158, Arlington, TX 76010",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x864e7d4f4aa6240d:0xaf1d2c9aa810a10a",
+            "iid": 26424,
+            "name": "Ph\u1edf Pasteur Restaurant",
+            "rank": 7,
+            "score": 0.681784987449646,
+            "state": "Texas"
+        },
+        {
+            "address": "Ba Le Restaurant, 2240 Browning Dr, Arlington, TX 76010",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x864e87fa52ad6ead:0x9156fe1ff024ac4",
+            "iid": 26572,
+            "name": "Ba Le Restaurant",
+            "rank": 8,
+            "score": 0.6795936226844788,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Mai Vietnamese Cusine, 2230 S Collins St, Arlington, TX 76010",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x864e7daa2eb5d643:0xbee149b3ae64193b",
+            "iid": 26440,
+            "name": "Pho Mai Vietnamese Cusine",
+            "rank": 9,
+            "score": 0.6791390180587769,
+            "state": "Texas"
+        },
+        {
+            "address": "ABC Seafood, 2420 E Arkansas Ln suite 216, Arlington, TX 76014",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x864e7d4f2e81a28b:0x68ca465c2c5df346",
+            "iid": 26421,
+            "name": "ABC Seafood",
+            "rank": 10,
+            "score": 0.670001745223999,
+            "state": "Texas"
+        },
+        {
+            "address": "Shabro Hot Pot shabu shabu, 2625 Old Denton Rd #404, Carrollton, TX 75007",
+            "category": "['Hot pot restaurant', 'Buffet restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x864c25faef7ada73:0xb87d00d41d5f89f7",
+            "iid": 25619,
+            "name": "Shabro Hot Pot shabu shabu",
+            "rank": 11,
+            "score": 0.6688726544380188,
+            "state": "Texas"
+        },
+        {
+            "address": "Ahi Poke Bowl, 3701 S Cooper St #169, Arlington, TX 76015",
+            "category": "['Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x864e62d0ad9e762d:0x1a68f199e2e5f98d",
+            "iid": 26220,
+            "name": "Ahi Poke Bowl",
+            "rank": 12,
+            "score": 0.6686842441558838,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Hop, 5022 E Belknap St, Haltom City, TX 76117",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x864e775b0c97c4c7:0xdc7e49286c25ce52",
+            "iid": 26353,
+            "name": "Pho Hop",
+            "rank": 13,
+            "score": 0.664766788482666,
+            "state": "Texas"
+        },
+        {
+            "address": "Omi Korean Grill & Bar(Arlington), 226 Lincoln Square, Arlington, TX 76011",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x864e7d8eeaa60021:0xcf8fcb6d7530052f",
+            "iid": 26438,
+            "name": "Omi Korean Grill & Bar(Arlington)",
+            "rank": 14,
+            "score": 0.6630558371543884,
+            "state": "Texas"
+        },
+        {
+            "address": "Soju 101 Karaoke, Bar & Korean Kitchen, 11445 Emerald St #101, Dallas, TX 75229",
+            "category": "['Bar', 'Asian fusion restaurant', 'Karaoke', 'Korean restaurant', 'Wine bar']",
+            "gmap_id": "0x864c27f32afcc7bb:0x57bdc4c71e1e7088",
+            "iid": 25683,
+            "name": "Soju 101 Karaoke, Bar & Korean Kitchen",
+            "rank": 15,
+            "score": 0.6610468626022339,
+            "state": "Texas"
+        },
+        {
+            "address": "Hanabi Ramen Fort Worth, 3204 Camp Bowie Blvd, Fort Worth, TX 76107",
+            "category": "['Ramen restaurant', 'Bar', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x864e73e8108718fd:0x5142f2b3ea6e37f1",
+            "iid": 26328,
+            "name": "Hanabi Ramen Fort Worth",
+            "rank": 16,
+            "score": 0.6575292944908142,
+            "state": "Texas"
+        },
+        {
+            "address": "Gen Korean BBQ House, 2540 Old Denton Rd #134, Carrollton, TX 75006",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x864c25e31772ecff:0xbcfea1bce3c494fd",
+            "iid": 25593,
+            "name": "Gen Korean BBQ House",
+            "rank": 17,
+            "score": 0.6541252136230469,
+            "state": "Texas"
+        },
+        {
+            "address": "Piranha Killer Ramen, 309 Curtis Mathes Way Suite 149, Arlington, TX 76018",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Korean restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x864e62b9532c8e21:0xa84707e43e8a10d9",
+            "iid": 26217,
+            "name": "Piranha Killer Ramen",
+            "rank": 18,
+            "score": 0.6510202288627625,
+            "state": "Texas"
+        },
+        {
+            "address": "bbbop Seoul Kitchen, 828 W Davis St, Dallas, TX 75208, United States",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway']",
+            "gmap_id": "0x864e9a29b1571b55:0xcd63e1efe7100ab6",
+            "iid": 26660,
+            "name": "bbbop Seoul Kitchen",
+            "rank": 19,
+            "score": 0.6469547748565674,
+            "state": "Texas"
+        },
+        {
+            "address": "Lotus Cafe, 4261 W Green Oaks Blvd, Arlington, TX 76016",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x864e64b9f1996a0d:0x324ff9ddb325da00",
+            "iid": 26244,
+            "name": "Lotus Cafe",
+            "rank": 20,
+            "score": 0.6449606418609619,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Shannon Johnson",
+        "uid": 488810,
+        "user_id": 116405273111589987453
+    }
+}

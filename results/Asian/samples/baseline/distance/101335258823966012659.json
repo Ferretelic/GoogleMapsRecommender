@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Seafood Cove 2, 9211 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2015/11/27",
+            "gmap_id": "0x80dd27b5907083c5:0x56d690f19753ab05",
+            "iid": 20193,
+            "name": "Seafood Cove 2",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448639271699
+        },
+        {
+            "address": "Sushi Murasaki, 2901 W MacArthur Blvd #108, Santa Ana, CA 92704",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2016/03/13",
+            "gmap_id": "0x80dcd8b36870be27:0x1837887ad4f3adb5",
+            "iid": 19463,
+            "name": "Sushi Murasaki",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1457838727377
+        },
+        {
+            "address": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y, 14370 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/03/19",
+            "gmap_id": "0x80dd27c6a923d2e1:0x7b7c51197d0a02d3",
+            "iid": 20254,
+            "name": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1489957576634
+        },
+        {
+            "address": "Bangkok Avenue, 17221 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Thai restaurant', 'Asian fusion restaurant']",
+            "date": "2017/07/19",
+            "gmap_id": "0x80dd26f22ad56a69:0x4d84310ad52cd569",
+            "iid": 20107,
+            "name": "Bangkok Avenue",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500442750213
+        },
+        {
+            "address": "Hue Oi Vietnamese Cuisine, 16537 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "date": "2018/03/01",
+            "gmap_id": "0x80dd270ea58dc8b7:0x29a28bc803d4a031",
+            "iid": 20116,
+            "name": "Hue Oi Vietnamese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519868028711
+        },
+        {
+            "address": "\u301292708 California, Fountain Valley, Brookhurst St, Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "date": "2018/07/10",
+            "gmap_id": "0x80dd2730b1427af7:0x49529432dcdc7b62",
+            "iid": 20129,
+            "name": "Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531198624894
+        },
+        {
+            "address": "Hwang Hae Doh, 3010 W Lincoln Ave, Anaheim, CA 92801",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/07/23",
+            "gmap_id": "0x80dd287c684f247f:0xe661c6d3a58d39b2",
+            "iid": 20340,
+            "name": "Hwang Hae Doh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532367126416
+        },
+        {
+            "address": "Tasty Kitchen, 1324 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Chinese restaurant']",
+            "date": "2018/12/24",
+            "gmap_id": "0x80c2ca9e49f223c9:0xca2aa7b8452e3f19",
+            "iid": 15492,
+            "name": "Tasty Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545669038154
+        },
+        {
+            "address": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80, 8895 Garden Grove Blvd, Garden Grove, CA 92844",
+            "category": "['Korean restaurant', 'Korean barbecue restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80dd288605040983:0xc09343ebb49c98c0",
+            "iid": 20351,
+            "name": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546362964239
+        },
+        {
+            "address": "Lotus of Siam, 953 E Sahara Ave Ste A5, Las Vegas, NV 89104",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/03/10",
+            "gmap_id": "0x80c8c47decbe13bf:0x601671d9c1b61a37",
+            "iid": 17091,
+            "name": "Lotus of Siam",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1552214214972
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bo Ne Phu Yen, 1818 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bd4713d58d:0x86295fd74077cdc3",
+            "iid": 8606,
+            "name": "Bo Ne Phu Yen",
+            "rank": 1,
+            "score": -2.115370512008667,
+            "state": "California"
+        },
+        {
+            "address": "Thanh Do Restaurant, 9684 Westminster Blvd., Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27c601694617:0xad22647aed7d0686",
+            "iid": 20253,
+            "name": "Thanh Do Restaurant",
+            "rank": 2,
+            "score": -2.3566298484802246,
+            "state": "California"
+        },
+        {
+            "address": "Urban Ka-Re House, 699 Lewelling Blvd #104, San Leandro, CA 94579",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f91c2751e9123:0x8707e4b242cc8c94",
+            "iid": 9592,
+            "name": "Urban Ka-Re House",
+            "rank": 3,
+            "score": -2.3969147205352783,
+            "state": "California"
+        },
+        {
+            "address": "KING PARADISE, 9777 Chapman Ave, Garden Grove, CA 92841",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd29b2f511783f:0x77ca479005aaaf48",
+            "iid": 20446,
+            "name": "KING PARADISE",
+            "rank": 4,
+            "score": -2.4011082649230957,
+            "state": "California"
+        },
+        {
+            "address": "Akemi Sushi, 3295 Castro Valley Blvd #109, Castro Valley, CA 94546",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f9316a4494b01:0x333d90fa8221c2eb",
+            "iid": 9613,
+            "name": "Akemi Sushi",
+            "rank": 5,
+            "score": -2.407327175140381,
+            "state": "California"
+        },
+        {
+            "address": "LuvCafe, 2444 Alvin Ave B, San Jose, CA 95121",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e330a923a0f07:0x64d42011eba13408",
+            "iid": 8618,
+            "name": "LuvCafe",
+            "rank": 6,
+            "score": -2.4191715717315674,
+            "state": "California"
+        },
+        {
+            "address": "Taichi Bubble Tea, 2460 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Restaurant', 'Bubble tea store', 'Chinese takeaway', 'Ramen restaurant']",
+            "gmap_id": "0x89e839035dc18483:0x754aa3f4a8c2094c",
+            "iid": 71987,
+            "name": "Taichi Bubble Tea",
+            "rank": 7,
+            "score": -2.454690933227539,
+            "state": "New_York"
+        },
+        {
+            "address": "W & Z Asian bistro & sushi bar, 203 East, AZ-260, Payson, AZ 85541",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x872c11fd058f1093:0x55159130f6ee2ad0",
+            "iid": 29756,
+            "name": "W & Z Asian bistro & sushi bar",
+            "rank": 8,
+            "score": -2.4633500576019287,
+            "state": "Arizona"
+        },
+        {
+            "address": "Don Don Mugimaru, 665 Paularino Ave, Costa Mesa, CA 92626",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dcdf18d46fef1d:0xec440b5f8fcad6f1",
+            "iid": 19744,
+            "name": "Don Don Mugimaru",
+            "rank": 9,
+            "score": -2.4705424308776855,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 10,
+            "score": -2.4734275341033936,
+            "state": "Texas"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 7479 Tidewater Dr, Norfolk, VA 23505",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89ba97ebd0f792bd:0x156084d0d8bd74b4",
+            "iid": 57390,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 11,
+            "score": -2.4802589416503906,
+            "state": "Virginia"
+        },
+        {
+            "address": "Suggi Oota, 949 Ruff Dr, San Jose, CA 95110",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fcbeb9bd195dd:0x5c512b6315d54596",
+            "iid": 10903,
+            "name": "Suggi Oota",
+            "rank": 12,
+            "score": -2.481579542160034,
+            "state": "California"
+        },
+        {
+            "address": "Thai Nine Restaurant, 9873 N Michigan Rd, Carmel, IN 46032",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8814abd7c63ff377:0xafc4fab408ec49e2",
+            "iid": 38309,
+            "name": "Thai Nine Restaurant",
+            "rank": 13,
+            "score": -2.4816832542419434,
+            "state": "Indiana"
+        },
+        {
+            "address": "Saigon Blvd Ph\u1edf & Grill, 30975 Five Mile Rd, Livonia, MI 48154",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8824b3f56cee8555:0x83abed68d50fa968",
+            "iid": 39166,
+            "name": "Saigon Blvd Ph\u1edf & Grill",
+            "rank": 14,
+            "score": -2.4836742877960205,
+            "state": "Michigan"
+        },
+        {
+            "address": "Desi Bites, 16165 SW Regatta Ln # 300, Beaverton, OR 97006",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54950fe83c8441ad:0x6b6a2e36f9b39405",
+            "iid": 4011,
+            "name": "Desi Bites",
+            "rank": 15,
+            "score": -2.4842944145202637,
+            "state": "Oregon"
+        },
+        {
+            "address": "MamaMi Vietnamese Kitchen, 324 Berlin - Cross Keys Rd, Williamstown, NJ 08094",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6d55120b892e3:0xcdfd947a4f6b32d8",
+            "iid": 66556,
+            "name": "MamaMi Vietnamese Kitchen",
+            "rank": 16,
+            "score": -2.4864494800567627,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "KorPot, 2494 South Rd, Poughkeepsie, NY 12603",
+            "category": "['Korean restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89dd3f7135f25369:0xbce168cecbcfdb15",
+            "iid": 68526,
+            "name": "KorPot",
+            "rank": 17,
+            "score": -2.486487627029419,
+            "state": "New_York"
+        },
+        {
+            "address": "Panda Express, 6167 East Sam Houston Pkwy N, Houston, TX 77049",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640a59db4100c4d:0x20e1dc5125432944",
+            "iid": 22828,
+            "name": "Panda Express",
+            "rank": 18,
+            "score": -2.4872238636016846,
+            "state": "Texas"
+        },
+        {
+            "address": "Viet-Thai, 8451 Davis Lake Pkwy, Charlotte, NC 28269",
+            "category": "['Pho restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8856a78c93df353b:0x97e16cf253b266d1",
+            "iid": 43342,
+            "name": "Viet-Thai",
+            "rank": 19,
+            "score": -2.4881038665771484,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 20,
+            "score": -2.4885923862457275,
+            "state": "Nevada"
+        }
+    ],
+    "user": {
+        "name": "Vince Dang",
+        "uid": 39865,
+        "user_id": 101335258823966012659
+    }
+}

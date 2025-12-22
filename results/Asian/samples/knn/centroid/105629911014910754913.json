@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ten Ren's Tea Time, 73 Mott St, New York, NY 10013",
+            "category": "['Bubble tea store', 'Chinese tea house']",
+            "date": "2018/03/25",
+            "gmap_id": "0x89c25a270cbc1ae3:0x4c5f4e7b8dd36c0",
+            "iid": 60417,
+            "name": "Ten Ren's Tea Time",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522018721853
+        },
+        {
+            "address": "Yaya Tea GRAND, 206 Grand St, New York, NY 10013",
+            "category": "['Bubble tea store', 'Cafe', 'Japanese grocery store', 'Tea house']",
+            "date": "2018/04/14",
+            "gmap_id": "0x89c25988426716b1:0x3f2d979880efff62",
+            "iid": 59665,
+            "name": "Yaya Tea GRAND",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1523725672906
+        },
+        {
+            "address": "Tang, 196-50 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant', 'Japanese restaurant']",
+            "date": "2018/07/05",
+            "gmap_id": "0x89c261d012a09525:0x6bdd5365b72422e",
+            "iid": 61852,
+            "name": "Tang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1530753501683
+        },
+        {
+            "address": "Spicy Village, 68 Forsyth St B, New York, NY 10002",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/08/17",
+            "gmap_id": "0x89c25a281fc4cab7:0xefe26f1bb5922e6",
+            "iid": 60454,
+            "name": "Spicy Village",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1534528353087
+        },
+        {
+            "address": "Park Asia, 6521 8th Ave, Brooklyn, NY 11220, United States",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Dim sum restaurant', 'Tea house', 'Wedding venue']",
+            "date": "2019/01/30",
+            "gmap_id": "0x89c2454f3705963f:0xcd1e96594e89262f",
+            "iid": 58303,
+            "name": "Park Asia",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1548884833940
+        },
+        {
+            "address": "Thai Villa, 5 E 19th St, New York, NY 10003, United States",
+            "category": "['Thai restaurant']",
+            "date": "2019/03/24",
+            "gmap_id": "0x89c259a3b48fdf7d:0x1b80533593b46ffa",
+            "iid": 59956,
+            "name": "Thai Villa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1553471106242
+        },
+        {
+            "address": "Yunshang, 53 Bayard St, New York, NY 10013",
+            "category": "['Chinese noodle restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Noodle shop']",
+            "date": "2019/03/27",
+            "gmap_id": "0x89c25bb83bd3b349:0x4d1a3da556c08b22",
+            "iid": 60823,
+            "name": "Yunshang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1553720562880
+        },
+        {
+            "address": "Cafe Hong Kong, 51 Bayard St, New York, NY 10013",
+            "category": "['Chinese restaurant']",
+            "date": "2019/04/04",
+            "gmap_id": "0x89c25a271cd298e9:0xa9d5b8f25e95a808",
+            "iid": 60425,
+            "name": "Cafe Hong Kong",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1554403074415
+        },
+        {
+            "address": "Deluxe Food Market, 79 Elizabeth St, New York, NY 10013",
+            "category": "['Asian grocery store', 'Chinese supermarket', 'Grocery store']",
+            "date": "2019/04/07",
+            "gmap_id": "0x89c259882282eee3:0x6423e4ee7c2ff7d0",
+            "iid": 59661,
+            "name": "Deluxe Food Market",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1554669936359
+        },
+        {
+            "address": "Kings Kitchen, 92 E Broadway, New York, NY 10002",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x89c25a28921e4f1b:0xb5ca25f717e0e821",
+            "iid": 60464,
+            "name": "Kings Kitchen",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1578339239652
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Bia, 67 S 6th St, Brooklyn, NY 11211",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25bd8cfd427df:0xb36cc067bfb31210",
+            "iid": 60858,
+            "name": "Bia",
+            "rank": 1,
+            "score": -0.5417966842651367,
+            "state": "New_York"
+        },
+        {
+            "address": "Ume Williamsburg, 237 Kent Ave, Brooklyn, NY 11249",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259739dbd8aeb:0xa34f97c5074ade0a",
+            "iid": 59539,
+            "name": "Ume Williamsburg",
+            "rank": 2,
+            "score": -0.5673916339874268,
+            "state": "New_York"
+        },
+        {
+            "address": "Spice, 394 Bedford Ave, Brooklyn, NY 11249",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c25ba32c62eba9:0x133811ba5dbbf4d2",
+            "iid": 60762,
+            "name": "Spice",
+            "rank": 3,
+            "score": -0.720795214176178,
+            "state": "New_York"
+        },
+        {
+            "address": "Wa Lung Kitchen, 557 Grand St, New York, NY 10002",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25bd50ad1f741:0xa0e058bb32376ff4",
+            "iid": 60853,
+            "name": "Wa Lung Kitchen",
+            "rank": 4,
+            "score": -0.7506915330886841,
+            "state": "New_York"
+        },
+        {
+            "address": "Khao Sarn Thai, 338 Bedford Ave, Brooklyn, NY 11211",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Delivery Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c2596031012d31:0x58ca6c1caed2e893",
+            "iid": 59511,
+            "name": "Khao Sarn Thai",
+            "rank": 5,
+            "score": -0.7543227076530457,
+            "state": "New_York"
+        },
+        {
+            "address": "Dim Sum Bar, 167 Grand St, Brooklyn, NY 11249",
+            "category": "['Dim sum restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c2596059497201:0x6b3029d54a690b32",
+            "iid": 59513,
+            "name": "Dim Sum Bar",
+            "rank": 6,
+            "score": -0.845038115978241,
+            "state": "New_York"
+        },
+        {
+            "address": "Salt + Charcoal, 171 Grand St, Brooklyn, NY 11249",
+            "category": "['Japanese steakhouse', 'Bar & grill', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x89c25960594e4961:0xe1d289c85189ef88",
+            "iid": 59514,
+            "name": "Salt + Charcoal",
+            "rank": 7,
+            "score": -0.8494765162467957,
+            "state": "New_York"
+        },
+        {
+            "address": "Food Sing, 172 Grand St, Brooklyn, NY 11211",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c25960434898ab:0xc7e2ef5e063893cd",
+            "iid": 59512,
+            "name": "Food Sing",
+            "rank": 8,
+            "score": -0.8496761918067932,
+            "state": "New_York"
+        },
+        {
+            "address": "Setagaya, 280 Bedford Ave, Brooklyn, NY 11249",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x89c259605f1f225d:0x9d1b4a760460e8a7",
+            "iid": 59516,
+            "name": "Setagaya",
+            "rank": 9,
+            "score": -0.855499267578125,
+            "state": "New_York"
+        },
+        {
+            "address": "Noods n\u2019 Chill, 170 S 3rd St, Brooklyn, NY 11211",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c25b84bc7cdc7b:0x772e2b1e11cbe39c",
+            "iid": 60715,
+            "name": "Noods n\u2019 Chill",
+            "rank": 10,
+            "score": -0.8824468851089478,
+            "state": "New_York"
+        },
+        {
+            "address": "Tikka Indian Grill, 185 Grand St, Brooklyn, NY 11211",
+            "category": "['Indian restaurant', 'Caterer', 'Fine dining restaurant', 'Halal restaurant', 'Indian takeaway', 'Delivery Restaurant']",
+            "gmap_id": "0x89c2596066febe7f:0x7e454aec039d5225",
+            "iid": 59517,
+            "name": "Tikka Indian Grill",
+            "rank": 11,
+            "score": -0.891567587852478,
+            "state": "New_York"
+        },
+        {
+            "address": "Ten Ichi Mart & Deli, 188 Berry St, Brooklyn, NY 11249",
+            "category": "['Japanese grocery store', 'Sushi takeaway']",
+            "gmap_id": "0x89c2590e6a2dd07d:0x81e0c88307e1fd6",
+            "iid": 59320,
+            "name": "Ten Ichi Mart & Deli",
+            "rank": 12,
+            "score": -0.9131061434745789,
+            "state": "New_York"
+        },
+        {
+            "address": "High L\u00faa, 182 S 2nd St, Brooklyn, NY 11211",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25995546c39c9:0xc33a1b5d615eb8cb",
+            "iid": 59769,
+            "name": "High L\u00faa",
+            "rank": 13,
+            "score": -0.9244454503059387,
+            "state": "New_York"
+        },
+        {
+            "address": "Zen Yai Viet Cajun&Pho, 208 Grand St, Brooklyn, NY 11211",
+            "category": "['Pho restaurant', 'Bar', 'Cafe', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c259a7f4f39d13:0xcc814451d87f1343",
+            "iid": 59988,
+            "name": "Zen Yai Viet Cajun&Pho",
+            "rank": 14,
+            "score": -0.9245341420173645,
+            "state": "New_York"
+        },
+        {
+            "address": "The Chinese Club, 208 Grand St, Brooklyn, NY 11211",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Indian restaurant']",
+            "gmap_id": "0x89c259606dd9182b:0x3569504d218aadc2",
+            "iid": 59518,
+            "name": "The Chinese Club",
+            "rank": 15,
+            "score": -0.9268527626991272,
+            "state": "New_York"
+        },
+        {
+            "address": "Dokebi Bar and Grill, 199 Grand St, Brooklyn, NY 11211",
+            "category": "['Korean barbecue restaurant', 'Korean grocery store', 'Restaurant']",
+            "gmap_id": "0x89c259607ad3eefb:0x6f4b5118fa053c19",
+            "iid": 59519,
+            "name": "Dokebi Bar and Grill",
+            "rank": 16,
+            "score": -0.9368680715560913,
+            "state": "New_York"
+        },
+        {
+            "address": "Samurai Mama, 205 Grand St, Brooklyn, NY 11211",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x89c259605d056b09:0x6a4bba6a734b01c6",
+            "iid": 59515,
+            "name": "Samurai Mama",
+            "rank": 17,
+            "score": -0.9444383978843689,
+            "state": "New_York"
+        },
+        {
+            "address": "Kimbap Lab, 238 Bedford Ave, Brooklyn, NY 11249",
+            "category": "['Korean restaurant', 'Gluten-free restaurant']",
+            "gmap_id": "0x89c25960be8ecb49:0x714dd9d378d3f9ba",
+            "iid": 59520,
+            "name": "Kimbap Lab",
+            "rank": 18,
+            "score": -1.008347749710083,
+            "state": "New_York"
+        },
+        {
+            "address": "Mysttik Masaala Williamsburg, 238 Bedford Ave, Brooklyn, NY 11211",
+            "category": "['Indian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89c2593667f79f99:0x39b5ec32c4d8797b",
+            "iid": 59395,
+            "name": "Mysttik Masaala Williamsburg",
+            "rank": 19,
+            "score": -1.008347749710083,
+            "state": "New_York"
+        },
+        {
+            "address": "East Hae, 98 N 6th St 3rd floor, Brooklyn, NY 11249",
+            "category": "['Korean restaurant', 'Bar', 'Cocktail bar', 'Gastropub']",
+            "gmap_id": "0x89c2595835ba5f1b:0x5a544ee8656257cb",
+            "iid": 59478,
+            "name": "East Hae",
+            "rank": 20,
+            "score": -1.0273579359054565,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "lamay Ou",
+        "uid": 168258,
+        "user_id": 105629911014910754913
+    }
+}

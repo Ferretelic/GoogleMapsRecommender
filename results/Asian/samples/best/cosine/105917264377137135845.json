@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Nicky's Thai Kitchen, 903 Penn Ave, Pittsburgh, PA 15222",
+            "category": "['Thai restaurant']",
+            "date": "2018/01/07",
+            "gmap_id": "0x8834f157fcc6eeb9:0xa6d96d37ed9f85dd",
+            "iid": 40317,
+            "name": "Nicky's Thai Kitchen",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1515338019481
+        },
+        {
+            "address": "Indian Spices, 129 6th St, Pittsburgh, PA 15222",
+            "category": "['Indian restaurant']",
+            "date": "2018/08/17",
+            "gmap_id": "0x8834f15612e73135:0xaab879731979dd82",
+            "iid": 40315,
+            "name": "Indian Spices",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1534527054412
+        },
+        {
+            "address": "Papaya Fine Asian Cuisine, 210 McHolme Dr, Pittsburgh, PA 15275",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/03",
+            "gmap_id": "0x883459457e2c8fb9:0x5b48c4995c5e5077",
+            "iid": 40175,
+            "name": "Papaya Fine Asian Cuisine",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1549235524322
+        },
+        {
+            "address": "Dhaba Wala Indian Kitchen, 49 Asylum St, Hartford, CT 06103",
+            "category": "['Indian restaurant']",
+            "date": "2019/03/06",
+            "gmap_id": "0x89e65364b4ae0ae9:0xea9e23a69b1ae51e",
+            "iid": 71077,
+            "name": "Dhaba Wala Indian Kitchen",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1551837737121
+        },
+        {
+            "address": "Naatiya Indian Restaurant, 8 Mountain Ave, Bloomfield, CT 06002",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x89e7aae8af3d0993:0xdf31990a32bfa899",
+            "iid": 71367,
+            "name": "Naatiya Indian Restaurant",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1552161991311
+        },
+        {
+            "address": "Rasham Restaurant, 577 John Fitch Blvd, South Windsor, CT 06074",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x89e6567488a9567b:0x174142c71881f149",
+            "iid": 71096,
+            "name": "Rasham Restaurant",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1553292519566
+        },
+        {
+            "address": "Tamarind Savoring India, Towne Center, 2101 Greentree Road Scott, Pittsburgh, PA 15220",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Delivery service', 'Health food restaurant', 'Indian sizzler restaurant', 'Pastry shop', 'South Asian restaurant', 'Vegan restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f7bfdc932321:0x45f57420d98d64ea",
+            "iid": 40453,
+            "name": "Tamarind Savoring India",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1553292601140
+        },
+        {
+            "address": "Sesame Inn Mt. Lebanon, 704 Washington Rd, Pittsburgh, PA 15228",
+            "category": "['Mandarin restaurant', 'Chinese restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f77056801c57:0x3995d741deee21b8",
+            "iid": 40446,
+            "name": "Sesame Inn Mt. Lebanon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1553292623225
+        },
+        {
+            "address": "Cafe Delhi and Karma Banquet/Event Center, 205 Mary St, Carnegie, PA 15106",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Banquet hall', 'Cafe', 'Event venue', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f7d20ccc7895:0x5f5978e97cd8aee2",
+            "iid": 40457,
+            "name": "Cafe Delhi and Karma Banquet/Event Center",
+            "split": "valid",
+            "state": "Pennsylvania",
+            "unix_time": 1553292656301
+        },
+        {
+            "address": "Sai Foods, 1137 Tolland Turnpike, Manchester, CT 06042",
+            "category": "['Indian grocery store']",
+            "date": "2019/11/16",
+            "gmap_id": "0x89e657a69947c569:0xdeb801aca81f01b4",
+            "iid": 71117,
+            "name": "Sai Foods",
+            "split": "test",
+            "state": "Connecticut",
+            "unix_time": 1573925183794
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "My Thai, 3024 W Liberty Ave, Pittsburgh, PA 15216",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Noodle shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8834f7114583303b:0x9f00a2f2194d1ac6",
+            "iid": 40436,
+            "name": "My Thai",
+            "rank": 1,
+            "score": 0.5815843939781189,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Spice n Sabzi - Robinson, 1120 Park Manor Blvd, Pittsburgh, PA 15205",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x88345949fe8344bf:0xa43e0e0654587ef2",
+            "iid": 40177,
+            "name": "Spice n Sabzi - Robinson",
+            "rank": 2,
+            "score": 0.5339906215667725,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "KOHLI'S INDIAN BAZAAR, 3103 Banksville Rd, Pittsburgh, PA 15216",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x8834f704cb67dbc7:0x4b73e8d43e3d1ae8",
+            "iid": 40433,
+            "name": "KOHLI'S INDIAN BAZAAR",
+            "rank": 3,
+            "score": 0.5188999772071838,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Manpasand Spice Corner, 2101 Greentree Rd, Pittsburgh, PA 15220",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x8834f7bfdc932321:0xa6eea5422601447a",
+            "iid": 40454,
+            "name": "Manpasand Spice Corner",
+            "rank": 4,
+            "score": 0.5103545188903809,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Thai Touch Kitchen, 665 Washington Rd, Mt Lebanon, PA 15228",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8834f77195eee46b:0xad4658cfeed48bf0",
+            "iid": 40448,
+            "name": "Thai Touch Kitchen",
+            "rank": 5,
+            "score": 0.5049968957901001,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Green Garden, 300 Beverly Rd, Pittsburgh, PA 15216",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8834f70b3a4dc89d:0xe6d70926c3d69c8",
+            "iid": 40435,
+            "name": "Green Garden",
+            "rank": 6,
+            "score": 0.4892297089099884,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kabab & Curry Restaurant & Grill, 2890 Banksville Rd, Pittsburgh, PA 15216",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Indian takeaway', 'Pakistani restaurant', 'Punjabi restaurant']",
+            "gmap_id": "0x8834f71ceea81ef5:0x22ff45bfe9d771a1",
+            "iid": 40440,
+            "name": "Kabab & Curry Restaurant & Grill",
+            "rank": 7,
+            "score": 0.4853023290634155,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sree's Foods, 808 Penn Ave, Pittsburgh, PA 15222",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8834f1581734b3e3:0xc9e152a9392c2b04",
+            "iid": 40319,
+            "name": "Sree's Foods",
+            "rank": 8,
+            "score": 0.48176878690719604,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kasai Pgh Japanese Restaurant, 146 E Main St, Carnegie, PA 15106",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8834f7cd962f71c9:0xeabb17d47968a1a",
+            "iid": 40455,
+            "name": "Kasai Pgh Japanese Restaurant",
+            "rank": 9,
+            "score": 0.4669974446296692,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "New Dragon Express, 3127 Washington Pike # 100, Bridgeville, PA 15017",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x883457c39cfd8fcf:0x35d81970749f3b59",
+            "iid": 40168,
+            "name": "New Dragon Express",
+            "rank": 10,
+            "score": 0.46664100885391235,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "India Palace Cuisine, 137 6th St, Pittsburgh, PA 15222",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8834f15605bc19f3:0x6f47638d8b6faba0",
+            "iid": 40314,
+            "name": "India Palace Cuisine",
+            "rank": 11,
+            "score": 0.4663003087043762,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Umai, 297 Beverly Rd, Pittsburgh, PA 15216",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8834f70b37b803f9:0x7e929f3db63c529d",
+            "iid": 40434,
+            "name": "Umai",
+            "rank": 12,
+            "score": 0.45359447598457336,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kasai Pgh/Don Don, 146 E Main St, Carnegie, PA 15106",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8834f7cda5e3eeb3:0x73816394ba8fc4e6",
+            "iid": 40456,
+            "name": "Kasai Pgh/Don Don",
+            "rank": 13,
+            "score": 0.4534103274345398,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Shanthi Supermarket, 1008 Greentree Rd, Pittsburgh, PA 15220",
+            "category": "['Indian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x8834f6faf57f7b05:0x33ff7e5206f0a19",
+            "iid": 40432,
+            "name": "Shanthi Supermarket",
+            "rank": 14,
+            "score": 0.45087191462516785,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Halal Food Market, 398 Windsor Ave, Windsor, CT 06095",
+            "category": "['Indian grocery store', \"Farmers' market\", 'Indian restaurant', 'Supermarket']",
+            "gmap_id": "0x89e655a9490e95fd:0xb40a8cee07b95801",
+            "iid": 71094,
+            "name": "Halal Food Market",
+            "rank": 15,
+            "score": 0.4485994875431061,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Choolaah, 227 Summit Park Dr, Pittsburgh, PA 15275",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8834597962f96e63:0xd1e11802828caac5",
+            "iid": 40179,
+            "name": "Choolaah",
+            "rank": 16,
+            "score": 0.4483884274959564,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "China Buffet King, 2249 Noblestown Rd, Pittsburgh, PA 15205",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8834f6f54c9a74bb:0x9dc5e8453a3f88ef",
+            "iid": 40431,
+            "name": "China Buffet King",
+            "rank": 17,
+            "score": 0.4459030032157898,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Chutney\u2019s - India\u2019s Veg Kitchen, 1120 Park Manor Blvd suite b, Pittsburgh, PA 15205",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8834594f13c12243:0x3caf368c5006de94",
+            "iid": 40178,
+            "name": "Chutney\u2019s - India\u2019s Veg Kitchen",
+            "rank": 18,
+            "score": 0.4453311860561371,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Patel Foods, 171 E Spencer St, Manchester, CT 06040",
+            "category": "['Indian grocery store', 'Dry fruit store', \"Farmers' market\", 'Frozen food store', 'Grocery store', 'Health and beauty shop', 'Organic food store', 'Produce market', 'Spice store', 'Supermarket']",
+            "gmap_id": "0x89e656d87f2b6f6d:0x7e63a27f2314c459",
+            "iid": 71103,
+            "name": "Patel Foods",
+            "rank": 19,
+            "score": 0.44417116045951843,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Siam Hartford, 77 Pratt St, Hartford, CT 06103",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e6536356053d5f:0x9cd47502344bf563",
+            "iid": 71074,
+            "name": "Siam Hartford",
+            "rank": 20,
+            "score": 0.4411958158016205,
+            "state": "Connecticut"
+        }
+    ],
+    "user": {
+        "name": "Anupam Paul",
+        "uid": 176936,
+        "user_id": 105917264377137135845
+    }
+}

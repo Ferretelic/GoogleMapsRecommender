@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Diamond Palace Chinese Seafood, 225 Gentle Springs Ln, Diamond Bar, CA 91765",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/02",
+            "gmap_id": "0x80c32c68952e1ccb:0x80bbedd091fb1fe1",
+            "iid": 16448,
+            "name": "Diamond Palace Chinese Seafood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535861382865
+        },
+        {
+            "address": "Bambu, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Dessert shop', 'Bubble tea store', 'Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e838efd3ee268f:0xfb0304dcd499d8a7",
+            "iid": 71986,
+            "name": "Bambu",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579577633
+        },
+        {
+            "address": "The Rolling Spring Roll (Syosset), 228 W Jericho Turnpike, Syosset, NY 11791",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89c2817d75bbe41b:0x1f6037e607a9b672",
+            "iid": 62367,
+            "name": "The Rolling Spring Roll (Syosset)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579610353
+        },
+        {
+            "address": "World Seafood Restaurant, 1412 S Garfield Ave, Alhambra, CA 91801",
+            "category": "['Chinese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c2c537e6f01e17:0x155a986680dc0a5b",
+            "iid": 14893,
+            "name": "World Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579643737
+        },
+        {
+            "address": "Chamsutgol BBQ, 18722 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c32af68391bbdf:0x5d0d9dc40bf8e3a4",
+            "iid": 16373,
+            "name": "Chamsutgol BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579674033
+        },
+        {
+            "address": "The Rolling Spring Roll (Farmingdale), 189 Main St, Farmingdale, NY 11735",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e82abe60ea794f:0xb23c2aa6936bfb4d",
+            "iid": 71860,
+            "name": "The Rolling Spring Roll (Farmingdale)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579695606
+        },
+        {
+            "address": "Splendid Noodle, 1320 Stony Brook Rd, Stony Brook, NY 11790",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese takeaway', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/09/23",
+            "gmap_id": "0x89e838ee364abfff:0x33ca03f14def7cab",
+            "iid": 71982,
+            "name": "Splendid Noodle",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537673206139
+        },
+        {
+            "address": "Phayathai, 735 Hawkins Ave, Lake Ronkonkoma, NY 11779",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x89e8381795858023:0x8a3695b5953f51e9",
+            "iid": 71968,
+            "name": "Phayathai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1547661527620
+        },
+        {
+            "address": "Thai Fresh, 106 5th St SE, Charlottesville, VA 22902",
+            "category": "['Thai restaurant']",
+            "date": "2019/04/18",
+            "gmap_id": "0x89b38626e692f469:0x74166e45c2b6ebf4",
+            "iid": 54895,
+            "name": "Thai Fresh",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1555548997455
+        },
+        {
+            "address": "Oriental Sushi, 600 Portion Rd, Ronkonkoma, NY 11779",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/05/14",
+            "gmap_id": "0x89e83807f9672919:0xe418095ce9a4f43a",
+            "iid": 71967,
+            "name": "Oriental Sushi",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1557852839852
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "H Mart Jericho, 336 N Broadway, Jericho, NY 11753",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x89c28117086812b5:0x4dfa1287747efb04",
+            "iid": 62353,
+            "name": "H Mart Jericho",
+            "rank": 1,
+            "score": 10.080780982971191,
+            "state": "New_York"
+        },
+        {
+            "address": "Ssambap Korean BBQ, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Korean barbecue restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89e838ee32cb3baf:0x4f9ca1d2fd4464b3",
+            "iid": 71981,
+            "name": "Ssambap Korean BBQ",
+            "rank": 2,
+            "score": 9.667309761047363,
+            "state": "New_York"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 40-52 Main St floor 2, Queens, NY 11354",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant', 'Yakiniku restaurant']",
+            "gmap_id": "0x89c26011fef54e19:0xa0a12dbd84f6cae6",
+            "iid": 61532,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 3,
+            "score": 9.482876777648926,
+            "state": "New_York"
+        },
+        {
+            "address": "Asian Jewels, 133-30 39th Ave, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c2600e8936acd9:0x7186588fb0262c0e",
+            "iid": 61481,
+            "name": "Asian Jewels",
+            "rank": 4,
+            "score": 9.25186538696289,
+            "state": "New_York"
+        },
+        {
+            "address": "Lake Pavilion, 6015 Main St, Queens, NY 11367",
+            "category": "['Dim sum restaurant', 'Cantonese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c2606f50d57779:0x340cf570f56be0b",
+            "iid": 61662,
+            "name": "Lake Pavilion",
+            "rank": 5,
+            "score": 9.038274765014648,
+            "state": "New_York"
+        },
+        {
+            "address": "Nan Xiang Xiao Long Bao, 39-16 Prince St #104, Queens, NY 11354",
+            "category": "['Dumpling restaurant', 'Chinese restaurant', 'Shanghainese restaurant']",
+            "gmap_id": "0x89c2600e5c0c3e57:0x24af49e7e7726484",
+            "iid": 61468,
+            "name": "Nan Xiang Xiao Long Bao",
+            "rank": 6,
+            "score": 8.880266189575195,
+            "state": "New_York"
+        },
+        {
+            "address": "Kung Fu Xiao Long Bao, 59-16 Main St, Queens, NY 11355",
+            "category": "['Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x89c2606f423a09ed:0xb0caf79f87412906",
+            "iid": 61661,
+            "name": "Kung Fu Xiao Long Bao",
+            "rank": 7,
+            "score": 8.34540843963623,
+            "state": "New_York"
+        },
+        {
+            "address": "The Dolar Shop, 36-36 Prince St, Flushing, NY 11354",
+            "category": "['Hot pot restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c2600faa7a1935:0x1b6e7da86ab53d5",
+            "iid": 61487,
+            "name": "The Dolar Shop",
+            "rank": 8,
+            "score": 8.312317848205566,
+            "state": "New_York"
+        },
+        {
+            "address": "East Buffet, 4207 Main St, Queens, NY 11355",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c26012f7ab1c11:0x88b059af03f7eebe",
+            "iid": 61542,
+            "name": "East Buffet",
+            "rank": 9,
+            "score": 8.28195571899414,
+            "state": "New_York"
+        },
+        {
+            "address": "Five Senses (Koreatown), 9 W 32nd St, New York, NY 10001",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259a8f8eed3d5:0xf6d2708ec3f5b2f9",
+            "iid": 60036,
+            "name": "Five Senses (Koreatown)",
+            "rank": 10,
+            "score": 8.238712310791016,
+            "state": "New_York"
+        },
+        {
+            "address": "Ichiran, 132 W 31st St, New York, NY 10001",
+            "category": "['Ramen restaurant', 'Chinese noodle restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x89c259af1989db01:0xfff4c602a3069de6",
+            "iid": 60103,
+            "name": "Ichiran",
+            "rank": 11,
+            "score": 8.23277759552002,
+            "state": "New_York"
+        },
+        {
+            "address": "Bistro Na's, 9055 Las Tunas Dr #105, Temple City, CA 91780",
+            "category": "['Restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x80c2dafbe7f214b5:0xbc5c6d9eb0cf75ee",
+            "iid": 16014,
+            "name": "Bistro Na's",
+            "rank": 12,
+            "score": 8.219014167785645,
+            "state": "California"
+        },
+        {
+            "address": "Xi'an Famous Foods \u897f\u5b89\u540d\u5403, 37 W 43rd St, New York, NY 10036",
+            "category": "['Chinese restaurant', 'Chinese noodle restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x89c258ffc89d0d8d:0x79fa6bef40a685a5",
+            "iid": 59188,
+            "name": "Xi'an Famous Foods \u897f\u5b89\u540d\u5403",
+            "rank": 13,
+            "score": 8.134371757507324,
+            "state": "New_York"
+        },
+        {
+            "address": "Kotobuki, 1530 Old Northern Blvd, Roslyn, NY 11576",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c28622441c166b:0x87b61ce19f1981cb",
+            "iid": 62414,
+            "name": "Kotobuki",
+            "rank": 14,
+            "score": 8.105955123901367,
+            "state": "New_York"
+        },
+        {
+            "address": "koiKOKORO, 501 Main St, Islip, NY 11751",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e833a457006e2b:0x1530d7f88d0112e1",
+            "iid": 71952,
+            "name": "koiKOKORO",
+            "rank": 15,
+            "score": 7.911893367767334,
+            "state": "New_York"
+        },
+        {
+            "address": "Mo-Mo-Paradise, 17596 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Japanese restaurant', 'Sukiyaki and Shabu Shabu restaurant']",
+            "gmap_id": "0x80c32a791e061b5b:0x6c821095a26d8f63",
+            "iid": 16353,
+            "name": "Mo-Mo-Paradise",
+            "rank": 16,
+            "score": 7.835806369781494,
+            "state": "California"
+        },
+        {
+            "address": "Fortune Wheel, 3601 Hempstead Turnpike, Levittown, NY 11756",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c280788183605f:0x3ab37e374607802f",
+            "iid": 62322,
+            "name": "Fortune Wheel",
+            "rank": 17,
+            "score": 7.83529806137085,
+            "state": "New_York"
+        },
+        {
+            "address": "Kumo Japanese of Stony Brook, 2548 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e838ee7ba133ab:0x7da07c346bbfc7c3",
+            "iid": 71985,
+            "name": "Kumo Japanese of Stony Brook",
+            "rank": 18,
+            "score": 7.8200578689575195,
+            "state": "New_York"
+        },
+        {
+            "address": "New Northern Manor, 251-15 Northern Blvd, Queens, NY 11362",
+            "category": "['Cantonese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c289faa616354f:0xf9986aeeb9303acf",
+            "iid": 62519,
+            "name": "New Northern Manor",
+            "rank": 19,
+            "score": 7.807473659515381,
+            "state": "New_York"
+        },
+        {
+            "address": "Xi'an Famous Foods \u897f\u5b89\u540d\u5403, 41-10 Main St, Flushing, NY 11355",
+            "category": "['Chinese restaurant', 'Chinese noodle restaurant']",
+            "gmap_id": "0x89c26012026e3c99:0xeda4b0652206c667",
+            "iid": 61533,
+            "name": "Xi'an Famous Foods \u897f\u5b89\u540d\u5403",
+            "rank": 20,
+            "score": 7.784271717071533,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "York Moy",
+        "uid": 510513,
+        "user_id": 117136200714711698429
+    }
+}

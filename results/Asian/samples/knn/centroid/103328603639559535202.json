@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Makoto Japanese Steak House, 297 NJ-72, Manahawkin, NJ 08050, United States",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/10/30",
+            "gmap_id": "0x89c1064a0c0f7829:0x52807753e79c9def",
+            "iid": 57723,
+            "name": "Makoto Japanese Steak House",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1477793615721
+        },
+        {
+            "address": "Harvest Buffet, 501 U.S. 9, Waretown, NJ 08758",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "date": "2017/07/04",
+            "gmap_id": "0x89c10a0435fc2a21:0x2cd4f9e0a4bee8d5",
+            "iid": 57729,
+            "name": "Harvest Buffet",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1499175164830
+        },
+        {
+            "address": "Xina Restaurant, 3430 NJ-37, Toms River, NJ 08753",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Oyster bar restaurant', 'Sushi restaurant']",
+            "date": "2017/07/17",
+            "gmap_id": "0x89c19bf05a96636d:0x3a47da5f563250f4",
+            "iid": 57986,
+            "name": "Xina Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1500295765183
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi, 26 Union Ave, Lakehurst, NJ 08733",
+            "category": "['Chinese restaurant', 'Kyoto style Japanese restaurant', 'Restaurant']",
+            "date": "2017/12/13",
+            "gmap_id": "0x89c1772ccd9904b5:0x2c63200c7e31897b",
+            "iid": 57939,
+            "name": "Tokyo Sushi & Hibachi",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1513173993334
+        },
+        {
+            "address": "Namaste JALSA, 1504 King St, Alexandria, VA 22314",
+            "category": "['Indian restaurant', 'Bar', 'Nepalese restaurant']",
+            "date": "2017/12/28",
+            "gmap_id": "0x89b7b0fff9244c67:0x500fcca4be7704af",
+            "iid": 55997,
+            "name": "Namaste JALSA",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1514428159761
+        },
+        {
+            "address": "Li's Garden, 700 NJ-70, Lakewood, NJ 08701",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/01/22",
+            "gmap_id": "0x89c182eaef1009bd:0x9ff6185673edbea1",
+            "iid": 57957,
+            "name": "Li's Garden",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1516587157172
+        },
+        {
+            "address": "P.F. Chang's, 3710 U.S. 9 Ste 2817, Freehold Township, NJ 07728",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x89c3d5750027851f:0x25716ea4ac2e93e8",
+            "iid": 64950,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1523322743645
+        },
+        {
+            "address": "Tan's Garden Chinese Restaurant, 297 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/16",
+            "gmap_id": "0x89c10635e8dfc0b9:0x9bd10f8a6d1e4f5f",
+            "iid": 57722,
+            "name": "Tan's Garden Chinese Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1542391380503
+        },
+        {
+            "address": "Fuji72 Hibachi & Sushi (Manahawkin), 626 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/01/29",
+            "gmap_id": "0x89c10791bef2ca9d:0x95f5ba933b50770a",
+            "iid": 57725,
+            "name": "Fuji72 Hibachi & Sushi (Manahawkin)",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1548727032034
+        },
+        {
+            "address": "Golden Gate Express, 1851 NJ-35, Seaside Heights, NJ 08751",
+            "category": "['Chinese restaurant']",
+            "date": "2021/01/26",
+            "gmap_id": "0x89c19a4c9743b777:0xc6ac9b7a3ed578b9",
+            "iid": 57985,
+            "name": "Golden Gate Express",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1611666820695
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Beijing Restaurant, 1793 US-206, Southampton Township, NJ 08088",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c139a580a2d799:0x3d103504ce10db49",
+            "iid": 57778,
+            "name": "Beijing Restaurant",
+            "rank": 1,
+            "score": -17.761465072631836,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bo Bo Garden Kitchen, 558 Lakehurst Rd Ste 12, Browns Mills, NJ 08015",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c16afe89e57039:0xe134f1e182f412d3",
+            "iid": 57932,
+            "name": "Bo Bo Garden Kitchen",
+            "rank": 2,
+            "score": -19.257699966430664,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "No 1 Chinese Restaurant, 7 Juliustown Rd, Browns Mills, NJ 08015",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x89c1470f07eb68f1:0x7fadfdce6403be39",
+            "iid": 57783,
+            "name": "No 1 Chinese Restaurant",
+            "rank": 3,
+            "score": -20.686817169189453,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Shogun Wok, 22 Juliustown Rd, Browns Mills, NJ 08015",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c16a7aee98a99d:0x4622659bf68b2be3",
+            "iid": 57931,
+            "name": "Shogun Wok",
+            "rank": 4,
+            "score": -20.84531021118164,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Seasoned Wok, 15 Jackson Rd, Medford, NJ 08055",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c1372d155b6903:0xdbb38432163b9f43",
+            "iid": 57776,
+            "name": "Seasoned Wok",
+            "rank": 5,
+            "score": -21.93097496032715,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Vincent's, 422 Stokes Rd, Medford, NJ 08055",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c1372dea628ae1:0x54afd02f562a4588",
+            "iid": 57777,
+            "name": "Vincent's",
+            "rank": 6,
+            "score": -22.036226272583008,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Lim Fong's Delight II, 209 Hanover St, Pemberton, NJ 08068",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c1472d40fd47c3:0xc940d73184cf1b7f",
+            "iid": 57784,
+            "name": "Lim Fong's Delight II",
+            "rank": 7,
+            "score": -22.142436981201172,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Hoy Yeung Restaurant, 240 S White Horse Pike, Hammonton, NJ 08037",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Authentic Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c1286c5a2a3b63:0x95132dc9661e4f32",
+            "iid": 57731,
+            "name": "Hoy Yeung Restaurant",
+            "rank": 8,
+            "score": -22.824308395385742,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Fortune Cookie Restaurant, 200 Tuckerton Rd # 8, Medford, NJ 08055",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c1313772adef75:0x160e2c33950646c",
+            "iid": 57738,
+            "name": "Fortune Cookie Restaurant",
+            "rank": 9,
+            "score": -24.153091430664062,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Peking Gourmet, 176 NJ-70, Medford, NJ 08055",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c136e395bbe53f:0xab4d2fdbedbd8c03",
+            "iid": 57774,
+            "name": "Peking Gourmet",
+            "rank": 10,
+            "score": -24.47308921813965,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Eastern Phoenix Restaurant, 125 Bellevue Ave, Hammonton, NJ 08037",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c128220a41fb2b:0x4c89c21890eed5fa",
+            "iid": 57730,
+            "name": "Eastern Phoenix Restaurant",
+            "rank": 11,
+            "score": -24.639467239379883,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Jasmine Oriental Cuisine, 175 NJ-70, Medford, NJ 08055",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89c136e481da7b77:0xe9d84f252e14d887",
+            "iid": 57775,
+            "name": "Jasmine Oriental Cuisine",
+            "rank": 12,
+            "score": -24.807706832885742,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China Wok, 1636 Route 72 W, Manahawkin, NJ 08050",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c108ba4eff1167:0xe641ea4fb7831db0",
+            "iid": 57727,
+            "name": "China Wok",
+            "rank": 13,
+            "score": -25.44747543334961,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "King Wong Inc, 111 Merchants Way, Evesham, NJ 08053",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c13161a889dc6d:0xe94fd226142ad266",
+            "iid": 57739,
+            "name": "King Wong Inc",
+            "rank": 14,
+            "score": -25.561046600341797,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China Town, 400 Lacey Rd #10, Whiting, NJ 08759",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c172137e466011:0x37364115285463ee",
+            "iid": 57934,
+            "name": "China Town",
+            "rank": 15,
+            "score": -25.747465133666992,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Peking Kitchen, 108 Lacey Rd, Whiting, NJ 08759",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c172408188bb89:0xada33aca44b08fec",
+            "iid": 57935,
+            "name": "Peking Kitchen",
+            "rank": 16,
+            "score": -25.827455520629883,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China Max Restaurant, 296 White Horse Pike # A6, Atco, NJ 08004",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c12db7a64abd21:0x74c7ebb195dc3d44",
+            "iid": 57737,
+            "name": "China Max Restaurant",
+            "rank": 17,
+            "score": -26.609821319580078,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Best Food In Town, 900 12th St #5, Hammonton, NJ 08037",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c0d7cc7a6d7da7:0xd74afdc9588081fe",
+            "iid": 57656,
+            "name": "Best Food In Town",
+            "rank": 18,
+            "score": -27.22914695739746,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "King Wong, 795 NJ-70, Evesham, NJ 08053",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c1341dc7c5086f:0x24fec8ffeeb5946e",
+            "iid": 57748,
+            "name": "King Wong",
+            "rank": 19,
+            "score": -27.3934268951416,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Mikado, 793 E Rte 70, Marlton, NJ 08053",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x89c1341cfcd7cecf:0x9ba9a7b5ce940ef2",
+            "iid": 57747,
+            "name": "Mikado",
+            "rank": 20,
+            "score": -27.4742488861084,
+            "state": "New_Jersey"
+        }
+    ],
+    "user": {
+        "name": "Jerry Thompson",
+        "uid": 99104,
+        "user_id": 103328603639559535202
+    }
+}

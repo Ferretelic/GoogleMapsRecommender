@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Taste of india, 902 E Brandon Blvd, Brandon, FL 33511",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "date": "2016/10/16",
+            "gmap_id": "0x88c2cdb246f322fd:0xe368a07222e41157",
+            "iid": 47136,
+            "name": "Taste of india",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1476642381111
+        },
+        {
+            "address": "Lotus Vegetarian, 13872 Metrotech Dr, Chantilly, VA 20151",
+            "category": "['Vegetarian restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Vegan restaurant']",
+            "date": "2016/10/18",
+            "gmap_id": "0x89b6468749d700e1:0x99b9d77482d31a2f",
+            "iid": 55362,
+            "name": "Lotus Vegetarian",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1476818006131
+        },
+        {
+            "address": "Bowl of Pho, 5626 Grape Rd, Mishawaka, IN 46545",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/11/05",
+            "gmap_id": "0x8816d210deac46a9:0x603e0f679f7af740",
+            "iid": 38521,
+            "name": "Bowl of Pho",
+            "split": "train",
+            "state": "Indiana",
+            "unix_time": 1478368377164
+        },
+        {
+            "address": "Bowl of Pho, 5626 Grape Rd, Mishawaka, IN 46545",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/11/05",
+            "gmap_id": "0x8816d210deac46a9:0x603e0f679f7af740",
+            "iid": 38521,
+            "name": "Bowl of Pho",
+            "split": "train",
+            "state": "Indiana",
+            "unix_time": 1478368377164
+        },
+        {
+            "address": "Ginger Thai Cuisine, 111 W 2nd St, Cedar Falls, IA 50613",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2016/11/23",
+            "gmap_id": "0x87faaaba298ee991:0x3698cc57ec2c7742",
+            "iid": 35232,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Iowa",
+            "unix_time": 1479914356933
+        },
+        {
+            "address": "Pei Wei Asian Kitchen, 1816 N Westshore Blvd, Tampa, FL 33607",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2017/02/03",
+            "gmap_id": "0x88c2c25677037d3b:0x906330849524100",
+            "iid": 46998,
+            "name": "Pei Wei Asian Kitchen",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486146320012
+        },
+        {
+            "address": "Thai Jasmine Restaurant, 10900 Kingspoint Rd, Houston, TX 77075",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/28",
+            "gmap_id": "0x864097602af8aea1:0x8a2cab11274e3e29",
+            "iid": 22710,
+            "name": "Thai Jasmine Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506557465116
+        },
+        {
+            "address": "Thai\ud83c\udf36Hot, 921 Lithia Pinecrest Rd, Brandon, FL 33511",
+            "category": "['Thai restaurant', 'Family restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x88c2cdbc9877a22b:0xb1d03567a398d6a5",
+            "iid": 47139,
+            "name": "Thai\ud83c\udf36Hot",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1510776960363
+        },
+        {
+            "address": "Zen Bistro, 223 Magnolia Ave, Daytona Beach, FL 32114",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x88e6da28b1c6f0dd:0xd21a52fe01bfb84c",
+            "iid": 50053,
+            "name": "Zen Bistro",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1532748797112
+        },
+        {
+            "address": "Blu Basil Wine and Grill, 5451 Johnston St, Lafayette, LA 70503",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Cocktail bar', 'Pho restaurant', 'Seafood restaurant', 'Steak house', 'Wine bar']",
+            "date": "2020/11/13",
+            "gmap_id": "0x86249e7a2c68980b:0xbfd4f4828c5ef919",
+            "iid": 22046,
+            "name": "Blu Basil Wine and Grill",
+            "split": "valid",
+            "state": "Louisiana",
+            "unix_time": 1605235256710
+        },
+        {
+            "address": "Thai Spice, 1514 E Commercial Blvd, Fort Lauderdale, FL 33334",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Fine dining restaurant', 'Restaurant', 'Steak house', 'Thai restaurant', 'Wine bar']",
+            "date": "2020/11/13",
+            "gmap_id": "0x88d9023b9b3270cf:0x21b6fe52d9eb7da",
+            "iid": 47847,
+            "name": "Thai Spice",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1605294643786
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Krunch & Noodles, 277 S Van Dorn St, Alexandria, VA 22304",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89b7b348411d0cdf:0xcea747aed09c578e",
+            "iid": 56091,
+            "name": "Krunch & Noodles",
+            "rank": 1,
+            "score": -2.5283286571502686,
+            "state": "Virginia"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 459 8th St Suite A, Oakland, CA 94607",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x808f818b0e37f605:0x3c207a96459a3dc3",
+            "iid": 9376,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 2,
+            "score": -2.730131149291992,
+            "state": "California"
+        },
+        {
+            "address": "Northern Cafe, 9305 Reseda Blvd, Northridge, CA 91324",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c29b94d6a1d415:0xb6c85412e7f12920",
+            "iid": 13407,
+            "name": "Northern Cafe",
+            "rank": 3,
+            "score": -2.740344524383545,
+            "state": "California"
+        },
+        {
+            "address": "Charlie Chow's Dragon Grill, 255 E 400 S, Salt Lake City, UT 84111",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x8752f529e14136bf:0x473678d1ef5def9f",
+            "iid": 30435,
+            "name": "Charlie Chow's Dragon Grill",
+            "rank": 4,
+            "score": -2.745326280593872,
+            "state": "Utah"
+        },
+        {
+            "address": "Osaka Marketplace, 1655 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fb51c2f05b1d9:0xcfcb32d6226683f3",
+            "iid": 9989,
+            "name": "Osaka Marketplace",
+            "rank": 5,
+            "score": -2.757821798324585,
+            "state": "California"
+        },
+        {
+            "address": "Underdog Hot Chicken, 1347 16th St, Fort Lee, NJ 07024",
+            "category": "['Chicken restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89c2f7917bf5de77:0x5097755fc51427ec",
+            "iid": 63662,
+            "name": "Underdog Hot Chicken",
+            "rank": 6,
+            "score": -2.75803279876709,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Am Noodle, 4744 Telephone Rd, Ventura, CA 93003",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80e853ef2825140f:0xb6da6722e07c4248",
+            "iid": 21430,
+            "name": "Am Noodle",
+            "rank": 7,
+            "score": -2.758134126663208,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Madness, 7074 W 105th St, Overland Park, KS 66212",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0eb95eaedd347:0x2574563dfd87af6a",
+            "iid": 33086,
+            "name": "Teriyaki Madness",
+            "rank": 8,
+            "score": -2.7587835788726807,
+            "state": "Kansas"
+        },
+        {
+            "address": "Neem Indian Cuisine, 3549 Johnson Ave, Bronx, NY 10463",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c2f312f5103253:0x21b36806c618b66b",
+            "iid": 63199,
+            "name": "Neem Indian Cuisine",
+            "rank": 9,
+            "score": -2.75936222076416,
+            "state": "New_York"
+        },
+        {
+            "address": "FUSIAN, 7721 Sawmill Rd, Dublin, OH 43016",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8838ed1769136129:0xde34c0370308822b",
+            "iid": 40925,
+            "name": "FUSIAN",
+            "rank": 10,
+            "score": -2.7597408294677734,
+            "state": "Ohio"
+        },
+        {
+            "address": "Donut House N Oriental Food Express, 6309 66th St, Lubbock, TX 79424",
+            "category": "['Cambodian restaurant', 'Asian restaurant', 'Chinese restaurant', 'Donut shop', 'Korean restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x86fe73b97ddd165f:0x9846c0bf4e41148a",
+            "iid": 28241,
+            "name": "Donut House N Oriental Food Express",
+            "rank": 11,
+            "score": -2.760953187942505,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Yuki - Japanese Restaurant of Carrollton, 1500 W Hebron Pkwy #102, Carrollton, TX 75010",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x864c2fb5400a3aa3:0x4525b014005ff7e9",
+            "iid": 25844,
+            "name": "Sushi Yuki - Japanese Restaurant of Carrollton",
+            "rank": 12,
+            "score": -2.7612907886505127,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Mai Cali, 9888 N Magnolia Ave, Santee, CA 92071",
+            "category": "['Restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dbe37e7e110281:0x1466fc950edacc6c",
+            "iid": 18351,
+            "name": "Pho Mai Cali",
+            "rank": 13,
+            "score": -2.7613539695739746,
+            "state": "California"
+        },
+        {
+            "address": "Kelly's Healing Massage, 990 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Massage therapist', 'Thai massage therapist']",
+            "gmap_id": "0x808fb782b4f1c997:0x5bc9681b751fdba4",
+            "iid": 10276,
+            "name": "Kelly's Healing Massage",
+            "rank": 14,
+            "score": -2.7622978687286377,
+            "state": "California"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 15,
+            "score": -2.763062000274658,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kiko Rice & Noodle, 758 W North St, Fayetteville, AR 72701",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x87c96f067f0e30e9:0xc21795c61a9e03a2",
+            "iid": 33426,
+            "name": "Kiko Rice & Noodle",
+            "rank": 16,
+            "score": -2.764268636703491,
+            "state": "Arkansas"
+        },
+        {
+            "address": "Seasoning 63, 2513 Old 63 S Ste 103, Columbia, MO 65201",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87dcb7b7c990e577:0xc95d90dd47c526fd",
+            "iid": 34136,
+            "name": "Seasoning 63",
+            "rank": 17,
+            "score": -2.7649238109588623,
+            "state": "Missouri"
+        },
+        {
+            "address": "Fujiyama, 2257 Wilma Rudolph Blvd #6193, Clarksville, TN 37040",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8864d9d162bb9e37:0x926f326d2526bba",
+            "iid": 44620,
+            "name": "Fujiyama",
+            "rank": 18,
+            "score": -2.7652571201324463,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Wow Wings & Hibachi, 431 W Main St, Spartanburg, SC 29301",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Chinese restaurant', 'Fast food restaurant', 'Japanese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x88579f547c87cc15:0x4a636b37fc2d617",
+            "iid": 43497,
+            "name": "Wow Wings & Hibachi",
+            "rank": 19,
+            "score": -2.765355110168457,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Ginza Japanese Grill - North Charleston, 5647 Rivers Ave, North Charleston, SC 29406",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fe6397576378ab:0x10b1e3a09d6166f7",
+            "iid": 53203,
+            "name": "Ginza Japanese Grill - North Charleston",
+            "rank": 20,
+            "score": -2.765497922897339,
+            "state": "South_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Marc Salveson",
+        "uid": 304102,
+        "user_id": 110187390938213596410
+    }
+}

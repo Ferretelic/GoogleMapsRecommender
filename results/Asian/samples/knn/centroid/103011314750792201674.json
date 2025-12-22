@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Bamboo Restaurant, 5406 N Division St, Spokane, WA 99207",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/09/12",
+            "gmap_id": "0x549e194827cf29a9:0x2060d4fcdcb90816",
+            "iid": 4891,
+            "name": "Thai Bamboo Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1505248194601
+        },
+        {
+            "address": "Red Dragon Chinese Delivery, 3011 E Diamond Ave, Spokane, WA 99217",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2017/11/10",
+            "gmap_id": "0x549e1edd26a25aab:0xf71773f51b9f3d4",
+            "iid": 4904,
+            "name": "Red Dragon Chinese Delivery",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1510345455778
+        },
+        {
+            "address": "Thai Nigiri Restaurant, 209 N First Ave, Sandpoint, ID 83864",
+            "category": "['Thai restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x5363d6c5c2c57dbb:0x176c0cd7db919202",
+            "iid": 1308,
+            "name": "Thai Nigiri Restaurant",
+            "split": "train",
+            "state": "Idaho",
+            "unix_time": 1517546327885
+        },
+        {
+            "address": "Peking North Chinese Restaurant, 4120 N Division St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Karaoke bar']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e193b4172eba5:0x96c7759382efe0f8",
+            "iid": 4889,
+            "name": "Peking North Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723587173
+        },
+        {
+            "address": "Mr Wok Restaurant, 9222 N Newport Hwy C, Spokane, WA 99218",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e1c11388c5b19:0x82127319a2d850e1",
+            "iid": 4895,
+            "name": "Mr Wok Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723656021
+        },
+        {
+            "address": "Hunan Chinese Restaurant, 16 NE A St, Madras, OR 97741",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/04/12",
+            "gmap_id": "0x54beea2c34b78b67:0x87862eff37971722",
+            "iid": 5184,
+            "name": "Hunan Chinese Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1523565303075
+        },
+        {
+            "address": "Panda Chinese Restaurant, 605 E Northern Lights Blvd, Anchorage, AK 99503",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2018/09/16",
+            "gmap_id": "0x56c897c9d2127e65:0x67073d9b8e5951be",
+            "iid": 5719,
+            "name": "Panda Chinese Restaurant",
+            "split": "train",
+            "state": "Alaska",
+            "unix_time": 1537059356254
+        },
+        {
+            "address": "Grace Su's China Gorge Restaurant, 2680 Old Columbia River Dr, Hood River, OR 97031",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x54960e6a63804ecf:0xf5a67bf98c90106d",
+            "iid": 4660,
+            "name": "Grace Su's China Gorge Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1543194115233
+        },
+        {
+            "address": "Vien Dong Restaurant, 3435 E Trent Ave, Spokane, WA 99202",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/11/28",
+            "gmap_id": "0x549e19fb11e93d11:0xd9bd04909d9c58a6",
+            "iid": 4894,
+            "name": "Vien Dong Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1543441611608
+        },
+        {
+            "address": "J&J Chinese Restaurant, 1025 NW Gilman Blvd E-8, Issaquah, WA 98027",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/09/28",
+            "gmap_id": "0x54906f9e33459e03:0x2d329571304f8990",
+            "iid": 3216,
+            "name": "J&J Chinese Restaurant",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1569640366831
+        },
+        {
+            "address": "99352 Washington, Richland, George Washington Way, Ara Sushi & Grill",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2021/05/09",
+            "gmap_id": "0x54987b4d8966e4b7:0x8fc10a9ff2fd3a1b",
+            "iid": 4726,
+            "name": "Ara Sushi & Grill",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1620522646085
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Miga Asian Cuisine Restaurant, 44618 WA-20, Concrete, WA 98237",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x54851faab2cfdc05:0x66601aeafea3b18",
+            "iid": 1345,
+            "name": "Miga Asian Cuisine Restaurant",
+            "rank": 1,
+            "score": -18.460996627807617,
+            "state": "Washington"
+        },
+        {
+            "address": "Lucky Teriyaki Restaurant, 214 Ball St, Sedro-Woolley, WA 98284",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54851293189e3741:0x9212581404c19d74",
+            "iid": 1343,
+            "name": "Lucky Teriyaki Restaurant",
+            "rank": 2,
+            "score": -39.51827621459961,
+            "state": "Washington"
+        },
+        {
+            "address": "Little Thailand, 702 Metcalf St, Sedro-Woolley, WA 98284",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x548512c0085fc585:0x7e8408e86576c591",
+            "iid": 1344,
+            "name": "Little Thailand",
+            "rank": 3,
+            "score": -40.42631149291992,
+            "state": "Washington"
+        },
+        {
+            "address": "Cherry Teriyaki, 200 S Cherry St, Burlington, WA 98233",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54856da252aa404d:0xedd7736cabe1208b",
+            "iid": 1400,
+            "name": "Cherry Teriyaki",
+            "rank": 4,
+            "score": -47.761905670166016,
+            "state": "Washington"
+        },
+        {
+            "address": "Teriyaki Time, 3729 E College Way, Mt Vernon, WA 98273",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54856c6e8968d01b:0xc2b41b6c984be22e",
+            "iid": 1399,
+            "name": "Teriyaki Time",
+            "rank": 5,
+            "score": -48.133514404296875,
+            "state": "Washington"
+        },
+        {
+            "address": "Sunny Teriyaki, 280 S Burlington Blvd, Burlington, WA 98233",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54856dbd42df0f3d:0x79574b2edadd21be",
+            "iid": 1404,
+            "name": "Sunny Teriyaki",
+            "rank": 6,
+            "score": -48.26776123046875,
+            "state": "Washington"
+        },
+        {
+            "address": "Bangkok Bistro Fine Thai Cuisine, 104 Lila Ln, Burlington, WA 98233",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54856db91507655b:0xaa951aeb96eac0ee",
+            "iid": 1403,
+            "name": "Bangkok Bistro Fine Thai Cuisine",
+            "rank": 7,
+            "score": -48.76078414916992,
+            "state": "Washington"
+        },
+        {
+            "address": "Four Season Buffet, 1216 S Burlington Blvd, Burlington, WA 98233",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x54856db7da42e4df:0x11a62a247621db35",
+            "iid": 1402,
+            "name": "Four Season Buffet",
+            "rank": 8,
+            "score": -48.933868408203125,
+            "state": "Washington"
+        },
+        {
+            "address": "Asian 1 in Burlington (Healthy Asian Cuisine), 145 Cascade Pl #112, Burlington, WA 98233",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54856db624413049:0xe92a6265e6e2c1eb",
+            "iid": 1401,
+            "name": "Asian 1 in Burlington (Healthy Asian Cuisine)",
+            "rank": 9,
+            "score": -49.035160064697266,
+            "state": "Washington"
+        },
+        {
+            "address": "Tokyo Stop & Sushi, 477 Cascade Mall Dr, Burlington, WA 98233",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x54856dc7c367e7b1:0xb57adb28e5d2f852",
+            "iid": 1405,
+            "name": "Tokyo Stop & Sushi",
+            "rank": 10,
+            "score": -49.22147750854492,
+            "state": "Washington"
+        },
+        {
+            "address": "Little Tokyo Restaurant, 2915 Newmarket St #101, Bellingham, WA 98226",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x5485a47b79057a41:0x82df178db2db80bf",
+            "iid": 1450,
+            "name": "Little Tokyo Restaurant",
+            "rank": 11,
+            "score": -49.33771896362305,
+            "state": "Washington"
+        },
+        {
+            "address": "On Rice Thai Cuisine & Spirit, 2200 Rimland Dr, Bellingham, WA 98226",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x5485a47cde3b5877:0xa68394d3581ad00e",
+            "iid": 1451,
+            "name": "On Rice Thai Cuisine & Spirit",
+            "rank": 12,
+            "score": -49.463531494140625,
+            "state": "Washington"
+        },
+        {
+            "address": "Kyoto Kitchen, 2001 E College Way, Mt Vernon, WA 98273",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54856c1622ae59b5:0xd5a85e3209a23e21",
+            "iid": 1390,
+            "name": "Kyoto Kitchen",
+            "rank": 13,
+            "score": -49.49427795410156,
+            "state": "Washington"
+        },
+        {
+            "address": "Sakura Japanese Steakhouse and Sushi Bar, 1830 S Burlington Blvd, Burlington, WA 98233",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54856c334102b8bd:0x919a5255152eba91",
+            "iid": 1398,
+            "name": "Sakura Japanese Steakhouse and Sushi Bar",
+            "rank": 14,
+            "score": -49.624141693115234,
+            "state": "Washington"
+        },
+        {
+            "address": "Orange Teriyaki, 2222 Riverside Dr STE 101, Mt Vernon, WA 98273",
+            "category": "['Asian restaurant', 'Pan-Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x54856c257799d4cd:0xca6bedeeea657322",
+            "iid": 1392,
+            "name": "Orange Teriyaki",
+            "rank": 15,
+            "score": -50.287818908691406,
+            "state": "Washington"
+        },
+        {
+            "address": "Lakeway Teriyaki, 806 Lakeway Dr, Bellingham, WA 98229",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x5485a3ea82cf6047:0x797506f97de15fdd",
+            "iid": 1448,
+            "name": "Lakeway Teriyaki",
+            "rank": 16,
+            "score": -50.4722900390625,
+            "state": "Washington"
+        },
+        {
+            "address": "Dragon Inn Restaurant, 225 Riverside Ln, Mt Vernon, WA 98273",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x54856c266fda0a01:0x525c875e2e2d7aa3",
+            "iid": 1393,
+            "name": "Dragon Inn Restaurant",
+            "rank": 17,
+            "score": -50.524024963378906,
+            "state": "Washington"
+        },
+        {
+            "address": "Asian Grill & More 1, 1825 Riverside Dr #B, Mt Vernon, WA 98273",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54856c2699f56f45:0x8784794da5858ba1",
+            "iid": 1394,
+            "name": "Asian Grill & More 1",
+            "rank": 18,
+            "score": -50.571006774902344,
+            "state": "Washington"
+        },
+        {
+            "address": "Best Teriyaki, 1722 Riverside Dr, Mt Vernon, WA 98273",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54856c26b1110647:0xe9812a87e177df20",
+            "iid": 1395,
+            "name": "Best Teriyaki",
+            "rank": 19,
+            "score": -50.58366775512695,
+            "state": "Washington"
+        },
+        {
+            "address": "Panda Express, 1000 E Sunset Dr, Bellingham, WA 98226",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x5485a37fe555a0f7:0x915bfb96160cf2bd",
+            "iid": 1425,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -50.63169860839844,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Natasha Martushoff",
+        "uid": 89781,
+        "user_id": 103011314750792201674
+    }
+}

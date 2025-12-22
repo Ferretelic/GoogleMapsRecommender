@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Mughlai Fine Indian Cuisine, 5301 Alpha Rd UNIT 14, Dallas, TX 75240",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Buffet restaurant', 'Catering food and drink supplier', 'Caterer', 'Gluten-free restaurant', 'Indian takeaway', 'Modern Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2017/04/13",
+            "gmap_id": "0x864c20de9737d0db:0xff0002534a16e696",
+            "iid": 25385,
+            "name": "Mughlai Fine Indian Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1492107188105
+        },
+        {
+            "address": "Oceanic Thai Kitchen, 1501 Preston Rd #800, Plano, TX 75093",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/05/02",
+            "gmap_id": "0x864c23ad95976c9f:0xdfe919d15718ea04",
+            "iid": 25516,
+            "name": "Oceanic Thai Kitchen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1493746481612
+        },
+        {
+            "address": "Bawarchi Biryanis - Plano Indian Cuisine, 8201 Ohio Dr #110, Plano, TX 75024",
+            "category": "['Indian restaurant']",
+            "date": "2017/05/12",
+            "gmap_id": "0x864c3cdbd5842dd5:0xfcdb6bf75a5adffa",
+            "iid": 25953,
+            "name": "Bawarchi Biryanis - Plano Indian Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1494547969622
+        },
+        {
+            "address": "Andhra Mess, 5910 N MacArthur Blvd #142, Irving, TX 75039",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2017/06/10",
+            "gmap_id": "0x864c282c154fd1d5:0x59f74dfa0e73874f",
+            "iid": 25699,
+            "name": "Andhra Mess",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1497117463459
+        },
+        {
+            "address": "Patel Brothers, 8150 Walton Blvd, Irving, TX 75063",
+            "category": "['Indian grocery store']",
+            "date": "2017/07/05",
+            "gmap_id": "0x864c29ad49565de9:0x1304d855647762b1",
+            "iid": 25765,
+            "name": "Patel Brothers",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1499294999680
+        },
+        {
+            "address": "Daawat Indian Bistro, 1335 Cameron Ave, Lewis Center, OH 43035",
+            "category": "['Indian restaurant']",
+            "date": "2017/09/08",
+            "gmap_id": "0x8838f38c08209073:0x95cdb4f172bd2311",
+            "iid": 40957,
+            "name": "Daawat Indian Bistro",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1504839575558
+        },
+        {
+            "address": "Thai 9, 11 Brown St, Dayton, OH 45402",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2017/10/19",
+            "gmap_id": "0x8840815587d92029:0x5d1f72c545e103b4",
+            "iid": 41719,
+            "name": "Thai 9",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1508449751125
+        },
+        {
+            "address": "Kumar's Plano, 1301 Custer Rd #510, Plano, TX 75075",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2017/10/19",
+            "gmap_id": "0x864c1891691a9333:0xc615dbd7e9450bcb",
+            "iid": 25141,
+            "name": "Kumar's Plano",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1508449792384
+        },
+        {
+            "address": "Aroma Indian Cuisine, 3948 Legacy Dr #112, Plano, TX 75023",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2017/10/19",
+            "gmap_id": "0x864c22b58b0404cf:0x208b59b386cb3b98",
+            "iid": 25470,
+            "name": "Aroma Indian Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1508449802525
+        },
+        {
+            "address": "Pandiya\u2019s, 820 S MacArthur Blvd #100, Coppell, TX 75019",
+            "category": "['Indian restaurant']",
+            "date": "2017/10/19",
+            "gmap_id": "0x864c28e7394acf53:0x6c2b919b7153c5a4",
+            "iid": 25738,
+            "name": "Pandiya\u2019s",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1508449812079
+        },
+        {
+            "address": "Cafe Bahar, 949 W Royal Ln Suite # 108, Irving, TX 75039",
+            "category": "['Indian restaurant']",
+            "date": "2018/04/24",
+            "gmap_id": "0x864c282d62ec2191:0x841f86c4455f9e69",
+            "iid": 25700,
+            "name": "Cafe Bahar",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1524570741989
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Desi District, 6451 Riverside Dr #100, Irving, TX 75039",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c2819da9a8fcf:0x569eeca127db101",
+            "iid": 25697,
+            "name": "Desi District",
+            "rank": 1,
+            "score": 0.3956359326839447,
+            "state": "Texas"
+        },
+        {
+            "address": "Nellai Marts, 58 Dillmont Dr, Columbus, OH 43235",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Beer store', 'Food products supplier', 'Produce market', 'Rice shop', 'Spice store', 'Supermarket']",
+            "gmap_id": "0x8838f30ca9469bcb:0x62426ff8b3a6eeb6",
+            "iid": 40942,
+            "name": "Nellai Marts",
+            "rank": 2,
+            "score": 0.38884061574935913,
+            "state": "Ohio"
+        },
+        {
+            "address": "Hyderabad House Indian Restaurant, 8481 Sancus Blvd, Columbus, OH 43240",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8838f4801c9c9b0f:0x9f44cd568f5836f8",
+            "iid": 40972,
+            "name": "Hyderabad House Indian Restaurant",
+            "rank": 3,
+            "score": 0.36949411034584045,
+            "state": "Ohio"
+        },
+        {
+            "address": "Mumbai Grill, 17370 Preston Rd #490, Dallas, TX 75252",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x864c23d73baff7ad:0x5b2a4c1eb9e7e2f7",
+            "iid": 25529,
+            "name": "Mumbai Grill",
+            "rank": 4,
+            "score": 0.36850303411483765,
+            "state": "Texas"
+        },
+        {
+            "address": "Patel Brothers, 6600 Sawmill Rd, Columbus, OH 43235",
+            "category": "['Indian grocery store', 'Supermarket']",
+            "gmap_id": "0x88388da4e402fcf3:0x7590081358e8d2ed",
+            "iid": 40793,
+            "name": "Patel Brothers",
+            "rank": 5,
+            "score": 0.3638540804386139,
+            "state": "Ohio"
+        },
+        {
+            "address": "Malgudi Garden, 5024 Tennyson Pkwy #200, Plano, TX 75024",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Family restaurant', 'Health food restaurant', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x864c232f3513fa35:0x7d6549ec56690deb",
+            "iid": 25496,
+            "name": "Malgudi Garden",
+            "rank": 6,
+            "score": 0.36364543437957764,
+            "state": "Texas"
+        },
+        {
+            "address": "Ultimate BBQ, 6421 Riverside Dr #160, Irving, TX 75039",
+            "category": "['Indian restaurant', 'Banquet hall', 'Biryani restaurant', 'Fine dining restaurant', 'Indian takeaway']",
+            "gmap_id": "0x864c29dfa122112d:0xda6e1440ebccaf1",
+            "iid": 25774,
+            "name": "Ultimate BBQ",
+            "rank": 7,
+            "score": 0.36245372891426086,
+            "state": "Texas"
+        },
+        {
+            "address": "Mirchi Columbus, Indian Bar & Grill, 195 E Campus View Blvd, Columbus, OH 43235",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8838f397c4ad5f73:0xcb3ca0ef2f80eae8",
+            "iid": 40959,
+            "name": "Mirchi Columbus, Indian Bar & Grill",
+            "rank": 8,
+            "score": 0.36142802238464355,
+            "state": "Ohio"
+        },
+        {
+            "address": "Swadeshi Plaza, 7964 N MacArthur Blvd #100, Irving, TX 75063",
+            "category": "['Indian grocery store', 'Halal restaurant', 'Indian takeaway']",
+            "gmap_id": "0x864c284dfd524563:0xb9fe75951a812c3d",
+            "iid": 25720,
+            "name": "Swadeshi Plaza",
+            "rank": 9,
+            "score": 0.34698283672332764,
+            "state": "Texas"
+        },
+        {
+            "address": "Godavari Columbus, 1025 Polaris Pkwy, Columbus, OH 43240",
+            "category": "['Indian restaurant', 'Halal restaurant']",
+            "gmap_id": "0x8838f38782d59515:0x3c4974f0fd4492c6",
+            "iid": 40955,
+            "name": "Godavari Columbus",
+            "rank": 10,
+            "score": 0.3451341390609741,
+            "state": "Ohio"
+        },
+        {
+            "address": "Persis Karaikudi & Biryani Grill, 195 E Campus View Blvd, Columbus, OH 43235",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8838f341efc06025:0xfe81c5cc800f3a69",
+            "iid": 40951,
+            "name": "Persis Karaikudi & Biryani Grill",
+            "rank": 11,
+            "score": 0.34431159496307373,
+            "state": "Ohio"
+        },
+        {
+            "address": "Banana Leaf Restaurant, 816 Bethel Rd, Columbus, OH 43214",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88388d06b9081a97:0xbbaea8bf4ee78f97",
+            "iid": 40769,
+            "name": "Banana Leaf Restaurant",
+            "rank": 12,
+            "score": 0.3426086902618408,
+            "state": "Ohio"
+        },
+        {
+            "address": "NeeHee's Indian Vegetarian Street Food, 6080 Sawmill Rd, Dublin, OH 43017",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Fast food restaurant', 'Ice cream shop', 'Indian takeaway', 'North Eastern Indian restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x883893c8ad634f47:0xc25add83c8841ad",
+            "iid": 40906,
+            "name": "NeeHee's Indian Vegetarian Street Food",
+            "rank": 13,
+            "score": 0.33824649453163147,
+            "state": "Ohio"
+        },
+        {
+            "address": "Amar India Restaurant, 2751 Miamisburg Centerville Rd, Dayton, OH 45459",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x884088fb7cd1a945:0xbe6ff8b84fd3d010",
+            "iid": 41756,
+            "name": "Amar India Restaurant",
+            "rank": 14,
+            "score": 0.3296823799610138,
+            "state": "Ohio"
+        },
+        {
+            "address": "Bombay Chowpatty, 825 W Royal Ln, Irving, TX 75039",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c282d835f41db:0x5821d30137cd81ee",
+            "iid": 25704,
+            "name": "Bombay Chowpatty",
+            "rank": 15,
+            "score": 0.3281556963920593,
+            "state": "Texas"
+        },
+        {
+            "address": "Pandiyas, 208 Coit Rd #700, Plano, TX 75075",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c2216f16f57e3:0x6602c4e75fc3fcb4",
+            "iid": 25436,
+            "name": "Pandiyas",
+            "rank": 16,
+            "score": 0.32793983817100525,
+            "state": "Texas"
+        },
+        {
+            "address": "Patel Brothers, 6205 Coit Rd STE 201, Plano, TX 75024",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Grocery store', 'Spice store', 'Supermarket']",
+            "gmap_id": "0x864c22c0b3985959:0xeead06cbddf4e3a0",
+            "iid": 25480,
+            "name": "Patel Brothers",
+            "rank": 17,
+            "score": 0.3276488482952118,
+            "state": "Texas"
+        },
+        {
+            "address": "Biryani Corner, 1381 Bethel Rd, Columbus, OH 43220",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88388d0b1f56d13b:0xdba8325e4d26116",
+            "iid": 40771,
+            "name": "Biryani Corner",
+            "rank": 18,
+            "score": 0.32757362723350525,
+            "state": "Ohio"
+        },
+        {
+            "address": "India Chaat Cafe, 18101 Preston Rd, Dallas, TX 75252",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c23ce8d6e5191:0xc7804092fe3656e9",
+            "iid": 25526,
+            "name": "India Chaat Cafe",
+            "rank": 19,
+            "score": 0.3247792720794678,
+            "state": "Texas"
+        },
+        {
+            "address": "Urban Tadka, 1800 Market Pl Blvd #190, Irving, TX 75063",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x864c29ae4869e13b:0x4405194f5766ab5a",
+            "iid": 25769,
+            "name": "Urban Tadka",
+            "rank": 20,
+            "score": 0.32378318905830383,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Vineeth Yalavarthi",
+        "uid": 450994,
+        "user_id": 115144036068189068227
+    }
+}

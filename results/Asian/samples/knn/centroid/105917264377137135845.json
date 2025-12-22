@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Nicky's Thai Kitchen, 903 Penn Ave, Pittsburgh, PA 15222",
+            "category": "['Thai restaurant']",
+            "date": "2018/01/07",
+            "gmap_id": "0x8834f157fcc6eeb9:0xa6d96d37ed9f85dd",
+            "iid": 40317,
+            "name": "Nicky's Thai Kitchen",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1515338019481
+        },
+        {
+            "address": "Indian Spices, 129 6th St, Pittsburgh, PA 15222",
+            "category": "['Indian restaurant']",
+            "date": "2018/08/17",
+            "gmap_id": "0x8834f15612e73135:0xaab879731979dd82",
+            "iid": 40315,
+            "name": "Indian Spices",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1534527054412
+        },
+        {
+            "address": "Papaya Fine Asian Cuisine, 210 McHolme Dr, Pittsburgh, PA 15275",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/03",
+            "gmap_id": "0x883459457e2c8fb9:0x5b48c4995c5e5077",
+            "iid": 40175,
+            "name": "Papaya Fine Asian Cuisine",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1549235524322
+        },
+        {
+            "address": "Dhaba Wala Indian Kitchen, 49 Asylum St, Hartford, CT 06103",
+            "category": "['Indian restaurant']",
+            "date": "2019/03/06",
+            "gmap_id": "0x89e65364b4ae0ae9:0xea9e23a69b1ae51e",
+            "iid": 71077,
+            "name": "Dhaba Wala Indian Kitchen",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1551837737121
+        },
+        {
+            "address": "Naatiya Indian Restaurant, 8 Mountain Ave, Bloomfield, CT 06002",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x89e7aae8af3d0993:0xdf31990a32bfa899",
+            "iid": 71367,
+            "name": "Naatiya Indian Restaurant",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1552161991311
+        },
+        {
+            "address": "Rasham Restaurant, 577 John Fitch Blvd, South Windsor, CT 06074",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x89e6567488a9567b:0x174142c71881f149",
+            "iid": 71096,
+            "name": "Rasham Restaurant",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1553292519566
+        },
+        {
+            "address": "Tamarind Savoring India, Towne Center, 2101 Greentree Road Scott, Pittsburgh, PA 15220",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Delivery service', 'Health food restaurant', 'Indian sizzler restaurant', 'Pastry shop', 'South Asian restaurant', 'Vegan restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f7bfdc932321:0x45f57420d98d64ea",
+            "iid": 40453,
+            "name": "Tamarind Savoring India",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1553292601140
+        },
+        {
+            "address": "Sesame Inn Mt. Lebanon, 704 Washington Rd, Pittsburgh, PA 15228",
+            "category": "['Mandarin restaurant', 'Chinese restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f77056801c57:0x3995d741deee21b8",
+            "iid": 40446,
+            "name": "Sesame Inn Mt. Lebanon",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1553292623225
+        },
+        {
+            "address": "Cafe Delhi and Karma Banquet/Event Center, 205 Mary St, Carnegie, PA 15106",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Banquet hall', 'Cafe', 'Event venue', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/22",
+            "gmap_id": "0x8834f7d20ccc7895:0x5f5978e97cd8aee2",
+            "iid": 40457,
+            "name": "Cafe Delhi and Karma Banquet/Event Center",
+            "split": "valid",
+            "state": "Pennsylvania",
+            "unix_time": 1553292656301
+        },
+        {
+            "address": "Sai Foods, 1137 Tolland Turnpike, Manchester, CT 06042",
+            "category": "['Indian grocery store']",
+            "date": "2019/11/16",
+            "gmap_id": "0x89e657a69947c569:0xdeb801aca81f01b4",
+            "iid": 71117,
+            "name": "Sai Foods",
+            "split": "test",
+            "state": "Connecticut",
+            "unix_time": 1573925183794
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Shanghai Chinese Restaurant, 140 E Main St, Lock Haven, PA 17745",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89cef13f2d661b47:0x58ebfd763e97f3ed",
+            "iid": 67686,
+            "name": "Shanghai Chinese Restaurant",
+            "rank": 1,
+            "score": -25.390296936035156,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "China Wok, 8233 US-522, Middleburg, PA 17842",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89cf2356efdfc7af:0x9568e5abbea3c5e0",
+            "iid": 67690,
+            "name": "China Wok",
+            "rank": 2,
+            "score": -28.34881591796875,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Peking Garden Restaurant, 310 N 10th St, Lewisburg, PA 17837",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89cf13b653510b4b:0x20ef6c4dd4b95a3c",
+            "iid": 67689,
+            "name": "Peking Garden Restaurant",
+            "rank": 3,
+            "score": -33.33730697631836,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Siam Restaurant & Bar, 518 Market St, Lewisburg, PA 17837",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Bar', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89cf13b11956e69b:0xf570bcc0a81d634b",
+            "iid": 67688,
+            "name": "Siam Restaurant & Bar",
+            "rank": 4,
+            "score": -33.840057373046875,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Yung Ting Chinese Restaurant, 7445 Westbranch Hwy, Lewisburg, PA 17837",
+            "category": "['Delivery Chinese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89cf124535aaba69:0x9aa013fb04b43d5a",
+            "iid": 67687,
+            "name": "Yung Ting Chinese Restaurant",
+            "rank": 5,
+            "score": -34.188629150390625,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bamboo Palace Restaurant, 200 S Market St, Selinsgrove, PA 17870",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89cf3f1adc66cbc3:0x2b888c26de90489c",
+            "iid": 67691,
+            "name": "Bamboo Palace Restaurant",
+            "rank": 6,
+            "score": -39.24270248413086,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sushi Masa, 801 N Market St, Selinsgrove, PA 17870",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89cf3faf89551c05:0xafc55d251e6b1a03",
+            "iid": 67692,
+            "name": "Sushi Masa",
+            "rank": 7,
+            "score": -39.24472427368164,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Panda Chinese, 335 Rose St, Williamsport, PA 17701",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89cfa89346b1a683:0x37169cf772aee17f",
+            "iid": 67714,
+            "name": "Panda Chinese",
+            "rank": 8,
+            "score": -39.54658889770508,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Golden Chopsticks, 3004 N Susquehanna Trail, Shamokin Dam, PA 17876",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89cf6aaea8f41827:0x79cb09f11ea47089",
+            "iid": 67700,
+            "name": "Golden Chopsticks",
+            "rank": 9,
+            "score": -40.6838264465332,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pennsylvania, Williamsport, William St, Hachiko Asian Cuisine\u90ae\u653f\u7f16\u7801: 17701",
+            "category": "['Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Dumpling restaurant', 'Delivery Restaurant', 'Noodle shop']",
+            "gmap_id": "0x89cfa6224ab20ce5:0x9cc2c50a928983f6",
+            "iid": 67710,
+            "name": "Hachiko Asian Cuisine",
+            "rank": 10,
+            "score": -40.88895034790039,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bullfrog Brewery, 229 W 4th St, Williamsport, PA 17701",
+            "category": "['Brewery', 'American restaurant', 'Banquet hall', 'Brunch restaurant', 'Korean barbecue restaurant', 'Live music venue', 'Pub', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89cfa621eebe11fb:0xc43a881a9e97715a",
+            "iid": 67709,
+            "name": "Bullfrog Brewery",
+            "rank": 11,
+            "score": -40.95769119262695,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bellefonte Wok, 111 S Allegheny St, Bellefonte, PA 16823",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89cea2e2e926b4ab:0xd0c2a60010d101e2",
+            "iid": 67646,
+            "name": "Bellefonte Wok",
+            "rank": 12,
+            "score": -41.15036392211914,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Joy Thai Cuisine, 15 W 4th St, Williamsport, PA 17701",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89cfa61892bfd311:0x6ba551c7c2e9776e",
+            "iid": 67707,
+            "name": "Joy Thai Cuisine",
+            "rank": 13,
+            "score": -41.25414276123047,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Hong Kong Chinese Restaurant, 500 Pine St #3, Williamsport, PA 17701",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89cfa61f294c30db:0xae8cef382bc89bea",
+            "iid": 67708,
+            "name": "Hong Kong Chinese Restaurant",
+            "rank": 14,
+            "score": -41.3052978515625,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "China Cafe, 201 Basin St, Williamsport, PA 17701",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x89cfa617ad81fc89:0x16e31431cd11a482",
+            "iid": 67706,
+            "name": "China Cafe",
+            "rank": 15,
+            "score": -41.551944732666016,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Star Garden, 234 Duke St, Northumberland, PA 17857",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89cf6b1a25d94f57:0xedb2781c9b44fc8e",
+            "iid": 67701,
+            "name": "Star Garden",
+            "rank": 16,
+            "score": -41.67887878417969,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi Restaurant, 205 S Logan Blvd, Burnham, PA 17009",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89ceb560a3b0f8a3:0x1812bfde5ef99c53",
+            "iid": 67685,
+            "name": "Tokyo Sushi & Hibachi Restaurant",
+            "rank": 17,
+            "score": -41.84571075439453,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Jasmine Chinese & Thai Cuisine Restaurant, 331 Washington Blvd, Williamsport, PA 17701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89cfa7ef96749903:0xd302d5386543bc55",
+            "iid": 67713,
+            "name": "Jasmine Chinese & Thai Cuisine Restaurant",
+            "rank": 18,
+            "score": -42.0196533203125,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ichiban Japanese Restaurant, 1800 E 3rd St, Williamsport, PA 17701",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89cfa67c5c4a1285:0x43ecf862edc8851d",
+            "iid": 67711,
+            "name": "Ichiban Japanese Restaurant",
+            "rank": 19,
+            "score": -43.61852264404297,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Family Wok Chinese Restaurant, 309 Broad St, Montoursville, PA 17754",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89cfa6a8569b40a3:0x6244e87257fe0e42",
+            "iid": 67712,
+            "name": "Family Wok Chinese Restaurant",
+            "rank": 20,
+            "score": -45.907081604003906,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Anupam Paul",
+        "uid": 176936,
+        "user_id": 105917264377137135845
+    }
+}

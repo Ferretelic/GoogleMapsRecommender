@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Bluefin Sushi & Seafood, 401 NE Northgate Way #463, Seattle, WA 98125",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Dessert restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2017/07/12",
+            "gmap_id": "0x549011541fc59b95:0x9dbe215c412a1de8",
+            "iid": 1830,
+            "name": "Bluefin Sushi & Seafood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1499835536774
+        },
+        {
+            "address": "New Seoul Restaurant, 14007 Hwy 99 # G, Lynnwood, WA 98087",
+            "category": "['Korean restaurant']",
+            "date": "2018/02/27",
+            "gmap_id": "0x5490043f0a9e2daf:0x93b6b91da04c3dd3",
+            "iid": 1555,
+            "name": "New Seoul Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1519771617091
+        },
+        {
+            "address": "Sakuma Japanese Restaurant, 10924 Mukilteo Speedway, Mukilteo, WA 98275",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/06",
+            "gmap_id": "0x549003fa88460135:0x1abdfc9340f6c751",
+            "iid": 1544,
+            "name": "Sakuma Japanese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522998448076
+        },
+        {
+            "address": "Phoenix Restaurant, 14007 Hwy 99, Lynnwood, WA 98087",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "date": "2018/07/14",
+            "gmap_id": "0x5490043f0a9e2daf:0x82462061da4cf7f4",
+            "iid": 1554,
+            "name": "Phoenix Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531554749003
+        },
+        {
+            "address": "Surah Restaurant, 5333 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2018/07/27",
+            "gmap_id": "0x80dd2b753419c84f:0x9ebe2e5b44cc8a17",
+            "iid": 20555,
+            "name": "Surah Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532658116292
+        },
+        {
+            "address": "H Mart Buena Park, 5111 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Seafood market', 'Supermarket']",
+            "date": "2018/07/27",
+            "gmap_id": "0x80dd2b74cb6b5611:0x27ef0453a9b0a05c",
+            "iid": 20548,
+            "name": "H Mart Buena Park",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532658925680
+        },
+        {
+            "address": "Peony Kitchen Bellevue, 10317 Main St #100, Bellevue, WA 98004",
+            "category": "['Chinese restaurant', 'Cocktail bar']",
+            "date": "2018/07/27",
+            "gmap_id": "0x54906c7de537d25b:0x4cf02e0809711fd5",
+            "iid": 3040,
+            "name": "Peony Kitchen Bellevue",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1532660483795
+        },
+        {
+            "address": "H Mart Lynnwood, 3301 184th St SW, Lynnwood, WA 98037",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Supermarket']",
+            "date": "2018/10/01",
+            "gmap_id": "0x5490050c6e597ced:0x85fc7542f82b2377",
+            "iid": 1575,
+            "name": "H Mart Lynnwood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1538431553196
+        },
+        {
+            "address": "Hosoonyi Korean Restaurant, 23830 Hwy 99 #114, Edmonds, WA 98026",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2018/11/02",
+            "gmap_id": "0x5490107927248969:0x616caf51bebce76e",
+            "iid": 1789,
+            "name": "Hosoonyi Korean Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1541124248554
+        },
+        {
+            "address": "Silver Spoon Thai Restaurant & Bar, 3828 196th St SW, Lynnwood, WA 98036",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x5490056980220449:0x1bc59a67faa3bc33",
+            "iid": 1603,
+            "name": "Silver Spoon Thai Restaurant & Bar",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1543264713493
+        },
+        {
+            "address": "Arirang Korean BBQ Lynnwood, 18623 Hwy 99 #150, Lynnwood, WA 98037",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x5490053d26125fa3:0x42a3d703b448900e",
+            "iid": 1592,
+            "name": "Arirang Korean BBQ Lynnwood",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1545074671406
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 1,
+            "score": -2.2782509326934814,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Masterpiece, 11625 Medlock Bridge Rd, Johns Creek, GA 30097",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f5990636ae077b:0xe94b4ec35d1014cd",
+            "iid": 52121,
+            "name": "Masterpiece",
+            "rank": 2,
+            "score": -2.287675142288208,
+            "state": "Georgia"
+        },
+        {
+            "address": "Suphan Thai Kitchen, 18825 Eureka Rd, Southgate, MI 48195",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x883b3784017768bb:0x6b177fa3afc9e3d3",
+            "iid": 41090,
+            "name": "Suphan Thai Kitchen",
+            "rank": 3,
+            "score": -2.2877230644226074,
+            "state": "Michigan"
+        },
+        {
+            "address": "Dragon Palace, 115 Ryan Dr, Forest City, NC 28043",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885741fd5e5251d3:0x70089a77a62a2a12",
+            "iid": 43441,
+            "name": "Dragon Palace",
+            "rank": 4,
+            "score": -2.288614273071289,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Osaka, 514 Benefit St, Pawtucket, RI 02861",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e45d6b80f0d7e9:0x6b4fd89ccc9ca1b8",
+            "iid": 70605,
+            "name": "Osaka",
+            "rank": 5,
+            "score": -2.2921628952026367,
+            "state": "Rhode_Island"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 44215,
+            "name": "Aki Japanese Cuisine",
+            "rank": 6,
+            "score": -2.293375015258789,
+            "state": "Alabama"
+        },
+        {
+            "address": "Max's Restaurant, 8011 Main St Suite 100, Houston, TX 77025",
+            "category": "['Filipino restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c1fd51d12b33:0x8cfd612b5f90a865",
+            "iid": 23128,
+            "name": "Max's Restaurant",
+            "rank": 7,
+            "score": -2.294985055923462,
+            "state": "Texas"
+        },
+        {
+            "address": "Q One Teriyaki & Sushi Express, 569 N State St, Lindon, UT 84042",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x874d85be085328a1:0x2f5b4e6312d4ebef",
+            "iid": 29998,
+            "name": "Q One Teriyaki & Sushi Express",
+            "rank": 8,
+            "score": -2.2970683574676514,
+            "state": "Utah"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 9,
+            "score": -2.2983977794647217,
+            "state": "Texas"
+        },
+        {
+            "address": "UDOM Khmer Restaurant, 1223 E Anaheim St, Long Beach, CA 90813",
+            "category": "['Event venue', 'Cambodian restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd31c430139813:0xdd61bd6b42373794",
+            "iid": 20909,
+            "name": "UDOM Khmer Restaurant",
+            "rank": 10,
+            "score": -2.298546314239502,
+            "state": "California"
+        },
+        {
+            "address": "Cupbop - Korean BBQ, 806 Blue Lakes Blvd N, Twin Falls, ID 83301",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x54aca3dddad1edbb:0xa5bb956eb578e98e",
+            "iid": 5021,
+            "name": "Cupbop - Korean BBQ",
+            "rank": 11,
+            "score": -2.3009629249572754,
+            "state": "Idaho"
+        },
+        {
+            "address": "\u798f\u7984\u5bff\u559cFollowsoshi, 135-24 40th Rd, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Breakfast restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Lunch restaurant', 'Pancake restaurant']",
+            "gmap_id": "0x89c261612e03981b:0xfa580b5a302811c2",
+            "iid": 61788,
+            "name": "\u798f\u7984\u5bff\u559cFollowsoshi",
+            "rank": 12,
+            "score": -2.30112886428833,
+            "state": "New_York"
+        },
+        {
+            "address": "Ph\u1edf Charlotte, 1225 Tamiami Trail A4, Port Charlotte, FL 33953",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88dcaba63fe95ea5:0x5d1e236543c0a339",
+            "iid": 49146,
+            "name": "Ph\u1edf Charlotte",
+            "rank": 13,
+            "score": -2.3021538257598877,
+            "state": "Florida"
+        },
+        {
+            "address": "Fresh Vietnamese Bistro & Teahouse, 3840 Promenade Pkwy STE A, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889c0d9661e03b47:0xeb5e97144e7bada9",
+            "iid": 46727,
+            "name": "Fresh Vietnamese Bistro & Teahouse",
+            "rank": 14,
+            "score": -2.3049986362457275,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Toyose, 3814 Noriega St, San Francisco, CA 94122",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x8085878a8085d297:0xadf6a9f9923446f2",
+            "iid": 8187,
+            "name": "Toyose",
+            "rank": 15,
+            "score": -2.3052029609680176,
+            "state": "California"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 67763,
+            "name": "Fusia Bento Bar",
+            "rank": 16,
+            "score": -2.305359125137329,
+            "state": "New_York"
+        },
+        {
+            "address": "Q Sushi Bar & Omakase, 4845 N Damen Ave., Chicago, IL 60625",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fd306d715ff05:0x12309afda7bd955c",
+            "iid": 37949,
+            "name": "Q Sushi Bar & Omakase",
+            "rank": 17,
+            "score": -2.305711507797241,
+            "state": "Illinois"
+        },
+        {
+            "address": "Mazaidar Haleem, 11315 S Texas 6 Suite A, Sugar Land, TX 77498",
+            "category": "['Pakistani restaurant', 'Indian restaurant']",
+            "gmap_id": "0x8640e1d10868b405:0x8bc5100db82a5615",
+            "iid": 23961,
+            "name": "Mazaidar Haleem",
+            "rank": 18,
+            "score": -2.305774450302124,
+            "state": "Texas"
+        },
+        {
+            "address": "L\u00faa, 3971 N Williams Ave Suite 103, Portland, OR 97227",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x5495a75bd7f5b689:0x59487750aeda7595",
+            "iid": 4540,
+            "name": "L\u00faa",
+            "rank": 19,
+            "score": -2.3061676025390625,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 1335 Main St, Ramona, CA 92065",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80dbe91bb6cfe785:0x631953de1c06650f",
+            "iid": 18356,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -2.3061676025390625,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Phyllis Nickelson",
+        "uid": 280609,
+        "user_id": 109396508300624253484
+    }
+}

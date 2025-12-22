@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Lao Orchid, 636 TX-46, New Braunfels, TX 78130",
+            "category": "['Thai restaurant']",
+            "date": "2018/02/26",
+            "gmap_id": "0x865cbce208382623:0xab7196cb737f79ab",
+            "iid": 27514,
+            "name": "Thai Lao Orchid",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1519662836526
+        },
+        {
+            "address": "Taste of China Chinese Restaurant, 8720 NE Centerpointe Dr STE 101, Vancouver, WA 98665",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2018/05/27",
+            "gmap_id": "0x5495ae2e5a15d31d:0x1cb14c8d203bd5bf",
+            "iid": 4584,
+            "name": "Taste of China Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1527453297057
+        },
+        {
+            "address": "Zien Hong, 5314 NE Sandy Blvd, Portland, OR 97213",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/06/25",
+            "gmap_id": "0x5495a12f3efcb58f:0xdd04b30546b713e2",
+            "iid": 4377,
+            "name": "Zien Hong",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1529892981203
+        },
+        {
+            "address": "Panda Express, 526 SE 192nd Ave, Vancouver, WA 98683",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x5495bb397cb9e49f:0x130665b13b87f20c",
+            "iid": 4647,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531330973739
+        },
+        {
+            "address": "Pho Van 82nd, 1919 SE 82nd Ave, Portland, OR 97216",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/17",
+            "gmap_id": "0x5495a1acd647d3bb:0x421632c4034abc13",
+            "iid": 4423,
+            "name": "Pho Van 82nd",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1539801757659
+        },
+        {
+            "address": "Tan Tan Cafe & Delicatessen, 12675 SW Broadway St, Beaverton, OR 97005",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x54950e9f8f090565:0x9e29719d738b0235",
+            "iid": 3931,
+            "name": "Tan Tan Cafe & Delicatessen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1555268477440
+        },
+        {
+            "address": "Bon Teriyaki, 1935 NE Division St, Gresham, OR 97030",
+            "category": "['Japanese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x5495985d251883cb:0xe9b6f660ffffd740",
+            "iid": 4196,
+            "name": "Bon Teriyaki",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563546586758
+        },
+        {
+            "address": "Ph\u1edf Vietnam Restaurant, 5440 SE 82nd Ave, Portland, OR 97266, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/05",
+            "gmap_id": "0x5495a04bf5e00a1d:0x54aca66769ec13a",
+            "iid": 4250,
+            "name": "Ph\u1edf Vietnam Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1567726861581
+        },
+        {
+            "address": "Best Baguette, 8308 SE Powell Blvd, Portland, OR 97266",
+            "category": "['Sandwich shop', 'Asian restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant', 'Store', 'Vietnamese restaurant']",
+            "date": "2019/09/25",
+            "gmap_id": "0x5495a049d1ade44d:0xae5a29db0fc24304",
+            "iid": 4249,
+            "name": "Best Baguette",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1569375804123
+        },
+        {
+            "address": "Kung Food Restaurant, 8071 N Lombard Way, Portland, OR 97203",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x5495a8009146a083:0x1f8daf918d2799f4",
+            "iid": 4566,
+            "name": "Kung Food Restaurant",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1570139026322
+        },
+        {
+            "address": "Yu's Garden, 366 NW Frontage Rd, Troutdale, OR 97060",
+            "category": "['Chinese restaurant', 'Family restaurant', 'Lounge', 'Restaurant']",
+            "date": "2021/04/10",
+            "gmap_id": "0x5495bd50467fe469:0xf3974197a2cfff20",
+            "iid": 4655,
+            "name": "Yu's Garden",
+            "split": "test",
+            "state": "Oregon",
+            "unix_time": 1618022388511
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Excellent Cuisine, 8733 SE Division St, Portland, OR 97266",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x5495a19137b15e39:0x38c20179d3123eb9",
+            "iid": 4416,
+            "name": "Excellent Cuisine",
+            "rank": 1,
+            "score": -2.0650079250335693,
+            "state": "Oregon"
+        },
+        {
+            "address": "Fubonn Supermarket, 2850 SE 82nd Ave, Portland, OR 97266",
+            "category": "['Chinese supermarket']",
+            "gmap_id": "0x5495a11f35c1d8a5:0x8bebd882776f365",
+            "iid": 4372,
+            "name": "Fubonn Supermarket",
+            "rank": 2,
+            "score": -2.1994571685791016,
+            "state": "Oregon"
+        },
+        {
+            "address": "EARTH-DELIGHTS DELI, 13812 Newport Ave SUITE 107, Tustin, CA 92780",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Bubble tea store', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80dcdbe308661dd3:0x6a05733d397c040e",
+            "iid": 19553,
+            "name": "EARTH-DELIGHTS DELI",
+            "rank": 3,
+            "score": -2.3008694648742676,
+            "state": "California"
+        },
+        {
+            "address": "Gogi 92, 1602 Village Market Blvd SE, Leesburg, VA 20175",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89b63dfa5ba73ca9:0x4363f8250bc51ac2",
+            "iid": 55232,
+            "name": "Gogi 92",
+            "rank": 4,
+            "score": -2.356126070022583,
+            "state": "Virginia"
+        },
+        {
+            "address": "Sushi House and Asian Cuisine, 2682 High Commons Way, West Valley City, UT 84120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8752f3b42fea5d6f:0x4ee3e86117d85c6e",
+            "iid": 30399,
+            "name": "Sushi House and Asian Cuisine",
+            "rank": 5,
+            "score": -2.361969470977783,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 6167 East Sam Houston Pkwy N, Houston, TX 77049",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640a59db4100c4d:0x20e1dc5125432944",
+            "iid": 22828,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -2.3629350662231445,
+            "state": "Texas"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 46972,
+            "name": "KELP SUSHI JOINT",
+            "rank": 7,
+            "score": -2.363919973373413,
+            "state": "Florida"
+        },
+        {
+            "address": "Honkaku Sushi, 19 E North Ave., Glendale Heights, IL 60139",
+            "category": "['Restaurant', 'Caterer', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e53c0a74886cb:0x27b2b49155af5629",
+            "iid": 36635,
+            "name": "Honkaku Sushi",
+            "rank": 8,
+            "score": -2.3671998977661133,
+            "state": "Illinois"
+        },
+        {
+            "address": "Surina Thai, 2390 Chamblee Tucker Rd, Chamblee, GA 30341",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f509868d67cd2d:0xf9b5fa0ecc662587",
+            "iid": 51589,
+            "name": "Surina Thai",
+            "rank": 9,
+            "score": -2.370269536972046,
+            "state": "Georgia"
+        },
+        {
+            "address": "Great India, 752 Blue Vista Ln #400, Midvale, UT 84047",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87528971c6afead3:0x679fb662b8237409",
+            "iid": 30249,
+            "name": "Great India",
+            "rank": 10,
+            "score": -2.3709592819213867,
+            "state": "Utah"
+        },
+        {
+            "address": "Golden Kitchen Chinese Restaurant, 820 Surfside Dr, Surfside Beach, SC 29575",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x890041e9d4e26387:0xb40b7d2a0ab61f1e",
+            "iid": 53418,
+            "name": "Golden Kitchen Chinese Restaurant",
+            "rank": 11,
+            "score": -2.371466875076294,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Pure Spice Chinese Restaurant, 2446 SE 87th Ave, Portland, OR 97216",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x5495a1d5de292015:0x939ac98a04a60b38",
+            "iid": 4432,
+            "name": "Pure Spice Chinese Restaurant",
+            "rank": 12,
+            "score": -2.3720145225524902,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": -2.374398946762085,
+            "state": "Texas"
+        },
+        {
+            "address": "W & Z Asian bistro & sushi bar, 203 East, AZ-260, Payson, AZ 85541",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x872c11fd058f1093:0x55159130f6ee2ad0",
+            "iid": 29756,
+            "name": "W & Z Asian bistro & sushi bar",
+            "rank": 14,
+            "score": -2.3752543926239014,
+            "state": "Arizona"
+        },
+        {
+            "address": "New York, Brooklyn, Bay Pkwy, \u5bff\u559c\u90ae\u653f\u7f16\u7801: 11204",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c245b2fc4f8b1b:0xd677a538d3f37423",
+            "iid": 58341,
+            "name": "\u5bff\u559c",
+            "rank": 15,
+            "score": -2.3759777545928955,
+            "state": "New_York"
+        },
+        {
+            "address": "PHO KIM ANH, 75-5660 Kopiko St #D1, Kailua-Kona, HI 96740",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x79540f6ed4418d81:0x4ba51cd08b8937a1",
+            "iid": 5864,
+            "name": "PHO KIM ANH",
+            "rank": 16,
+            "score": -2.3778624534606934,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Panda Express, 6519 Winchester Blvd, Canal Winchester, OH 43110",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88387df6a4013829:0x201a425d177b4d97",
+            "iid": 40689,
+            "name": "Panda Express",
+            "rank": 17,
+            "score": -2.378216505050659,
+            "state": "Ohio"
+        },
+        {
+            "address": "Kin Thai, 207 W 8th St, Medford, OR 97501",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54cf7bdd26479d37:0xaf143c71d0621db2",
+            "iid": 5560,
+            "name": "Kin Thai",
+            "rank": 18,
+            "score": -2.3799803256988525,
+            "state": "Oregon"
+        },
+        {
+            "address": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762, 1428 S Azusa Ave Suite B, West Covina, CA 91791",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x80c329e30a7791d3:0x56b9c0215ff24bd0",
+            "iid": 16259,
+            "name": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762",
+            "rank": 19,
+            "score": -2.3803908824920654,
+            "state": "California"
+        },
+        {
+            "address": "Mughlai Grill Indian Cuisine, 6 Clinton St, New York, NY 10002",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25999a9826151:0x69731c4c31cf8f46",
+            "iid": 59802,
+            "name": "Mughlai Grill Indian Cuisine",
+            "rank": 20,
+            "score": -2.3809521198272705,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "CRAZYROBSTA",
+        "uid": 425158,
+        "user_id": 114279048308938269329
+    }
+}

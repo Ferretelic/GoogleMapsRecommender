@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ayothaya Thai Cafe, 404 E, AZ-260, Payson, AZ 85541",
+            "category": "['Thai restaurant']",
+            "date": "2017/02/16",
+            "gmap_id": "0x872c11d8d49fbd2d:0x35a17be16fdd07c2",
+            "iid": 29755,
+            "name": "Ayothaya Thai Cafe",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1487284849660
+        },
+        {
+            "address": "Thai Spicy Basil, 10 N Main St, Lamar, CO 81052",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/10/25",
+            "gmap_id": "0x870c2587221de8fd:0x4615cb221e3b5667",
+            "iid": 28335,
+            "name": "Thai Spicy Basil",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1508932308132
+        },
+        {
+            "address": "Motomaki - Sushi Burritos and Bowls, 14650 W Colfax Ave, Lakewood, CO 80401",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b84665f99e75f:0xea0229fe3769a62a",
+            "iid": 30801,
+            "name": "Motomaki - Sushi Burritos and Bowls",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512956261682
+        },
+        {
+            "address": "Ph\u1edf H\u1eadu Restaurant, 12089 W Alameda Pkwy, Lakewood, CO 80228",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b83e4d518e4b5:0xd03cba1a808c0a2e",
+            "iid": 30793,
+            "name": "Ph\u1edf H\u1eadu Restaurant",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512957314918
+        },
+        {
+            "address": "Zheng Asian Bistro, 35 Market St Unit C, Glenwood Springs, CO 81601",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x8741097a020db14b:0xcb5907c691a18a07",
+            "iid": 29895,
+            "name": "Zheng Asian Bistro",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1529862306738
+        },
+        {
+            "address": "Hana Matsuri Sushi, 150 S Union Blvd #103, Lakewood, CO 80228",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Health food restaurant', 'Japanese restaurant', 'Raw food restaurant']",
+            "date": "2018/08/01",
+            "gmap_id": "0x876b83f958b130ff:0x8a76ed2bfe115c37",
+            "iid": 30797,
+            "name": "Hana Matsuri Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1533098630552
+        },
+        {
+            "address": "Thai Cortez & Sushi, 1430 E Main St, Cortez, CO 81321",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x87396f767e54ef91:0x100548e7215905ea",
+            "iid": 29837,
+            "name": "Thai Cortez & Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1558033112595
+        },
+        {
+            "address": "Stonefish Sushi & More, 16 W Main St, Cortez, CO 81321",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x87396f96f0b35ca7:0xe4079216f2080a23",
+            "iid": 29839,
+            "name": "Stonefish Sushi & More",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1562759921606
+        },
+        {
+            "address": "P.F. Chang's, 7210 W Alameda Ave, Lakewood, CO 80226",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/08/29",
+            "gmap_id": "0x876b8120ad789d8f:0xa59ebc3f5e01559f",
+            "iid": 30777,
+            "name": "P.F. Chang's",
+            "split": "valid",
+            "state": "Colorado",
+            "unix_time": 1567110179176
+        },
+        {
+            "address": "Baan Thai, 9386 Huebner Rd suite 101, San Antonio, TX 78240",
+            "category": "['Thai restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x865c6741ea055555:0x62d90e7340b6e667",
+            "iid": 27381,
+            "name": "Baan Thai",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1576196963658
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Shanghai Garden Restaurant, 1538 Railroad Ave, Rifle, CO 81650",
+            "category": "['Chinese restaurant', 'Fine dining restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x87413999ced2ee09:0xea98916ec60581ab",
+            "iid": 29902,
+            "name": "Shanghai Garden Restaurant",
+            "rank": 1,
+            "score": -2.2788989543914795,
+            "state": "Colorado"
+        },
+        {
+            "address": "China Gourmet, 59 Central Ave # 2, Ilion, NY 13357",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d94c6b09c9e35f:0xb747c57701061984",
+            "iid": 68215,
+            "name": "China Gourmet",
+            "rank": 2,
+            "score": -2.3066999912261963,
+            "state": "New_York"
+        },
+        {
+            "address": "FishTail Cuisine of India & Nepal, 305 Pavilions Pl, Brighton, CO 80601",
+            "category": "['Indian restaurant', 'Diner', 'Lunch restaurant', 'Nepalese restaurant', 'Restaurant', 'Tibetan restaurant']",
+            "gmap_id": "0x876c6d2aaddc6ed9:0xd9d7d06a4620f10f",
+            "iid": 31081,
+            "name": "FishTail Cuisine of India & Nepal",
+            "rank": 3,
+            "score": -2.382054567337036,
+            "state": "Colorado"
+        },
+        {
+            "address": "Jin's Kitchen, 31333 Temecula Pkwy #120, Temecula, CA 92592",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80db7f7d5cb257cf:0x90718769fa458637",
+            "iid": 18331,
+            "name": "Jin's Kitchen",
+            "rank": 4,
+            "score": -2.402926206588745,
+            "state": "California"
+        },
+        {
+            "address": "Mono Mono Korean Fried Chicken, 1550 Blake St, Denver, CO 80202",
+            "category": "['Chicken wings restaurant', 'Bar', 'Korean restaurant']",
+            "gmap_id": "0x876c79f508592285:0x92c3486b36b9abb2",
+            "iid": 31221,
+            "name": "Mono Mono Korean Fried Chicken",
+            "rank": 5,
+            "score": -2.4208688735961914,
+            "state": "Colorado"
+        },
+        {
+            "address": "Miyake Sushi, 8419 S 73rd Plaza #105, Papillion, NE 68046",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87938be5ba0dc461:0xdce323325aa1e8f8",
+            "iid": 31817,
+            "name": "Miyake Sushi",
+            "rank": 6,
+            "score": -2.449902057647705,
+            "state": "Nebraska"
+        },
+        {
+            "address": "Urban Rolls, 5428 Crossings Dr Suite 101, Rocklin, CA 95677",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Pho restaurant']",
+            "gmap_id": "0x809b1fb39dd8e6a7:0x757d2c6ab152b3e4",
+            "iid": 12751,
+            "name": "Urban Rolls",
+            "rank": 7,
+            "score": -2.450573205947876,
+            "state": "California"
+        },
+        {
+            "address": "Bombaywala & CO., 440 Forest Ave, Paramus, NJ 07652",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x89c2fabf1bf402fd:0xe1c35c5ba85e8ea3",
+            "iid": 63808,
+            "name": "Bombaywala & CO.",
+            "rank": 8,
+            "score": -2.457186460494995,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Seafood Party Midwest City, 7199 SE 29th St suite 104-5, Midwest City, OK 73110",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x87b23d42d7eb1611:0xde91180e9ce71afd",
+            "iid": 32372,
+            "name": "Seafood Party Midwest City",
+            "rank": 9,
+            "score": -2.4574244022369385,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Am Noodle, 4744 Telephone Rd, Ventura, CA 93003",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80e853ef2825140f:0xb6da6722e07c4248",
+            "iid": 21430,
+            "name": "Am Noodle",
+            "rank": 10,
+            "score": -2.4658875465393066,
+            "state": "California"
+        },
+        {
+            "address": "Donut House N Oriental Food Express, 6309 66th St, Lubbock, TX 79424",
+            "category": "['Cambodian restaurant', 'Asian restaurant', 'Chinese restaurant', 'Donut shop', 'Korean restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x86fe73b97ddd165f:0x9846c0bf4e41148a",
+            "iid": 28241,
+            "name": "Donut House N Oriental Food Express",
+            "rank": 11,
+            "score": -2.4708468914031982,
+            "state": "Texas"
+        },
+        {
+            "address": "Yuzu Kitchen, 37 W 43rd St, New York, NY 10036",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c25992e9aae597:0xea18dea3d15789",
+            "iid": 59747,
+            "name": "Yuzu Kitchen",
+            "rank": 12,
+            "score": -2.471381902694702,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Bac Vietnamese Restaurant, 2180 Pleasant Hill Rd ste. A6-A7, Duluth, GA 30096",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88f5a34ab2ea9d4f:0xbea5addd7333a55a",
+            "iid": 52330,
+            "name": "Pho Bac Vietnamese Restaurant",
+            "rank": 13,
+            "score": -2.473597288131714,
+            "state": "Georgia"
+        },
+        {
+            "address": "Bangkok Street, 608 Main St, Dallas, OR 97338",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54eaa9a0738deea3:0xdaef7b4ccd5b1cdc",
+            "iid": 5651,
+            "name": "Bangkok Street",
+            "rank": 14,
+            "score": -2.474365711212158,
+            "state": "Oregon"
+        },
+        {
+            "address": "RAJ EXPRESS INDIAN KITCHEN, 11721 College Blvd, Overland Park, KS 66210",
+            "category": "['North Eastern Indian restaurant', 'Ethnic restaurant', 'Health food restaurant', 'Indian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x87c0eb1bd08a7739:0xc8a67a8ce18b3fa7",
+            "iid": 33066,
+            "name": "RAJ EXPRESS INDIAN KITCHEN",
+            "rank": 15,
+            "score": -2.4753215312957764,
+            "state": "Kansas"
+        },
+        {
+            "address": "Panda Express, 4106 S Garnett Rd, Tulsa, OK 74146",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x87b68d17568d5345:0x6c6ab0819c4df5ad",
+            "iid": 32502,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": -2.4754347801208496,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Ph\u1edf Ca Dao & Grill, 609 N Escondido Blvd, Escondido, CA 92025",
+            "category": "['Restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dbf498577c894d:0xbfc4248b9ea12bef",
+            "iid": 18392,
+            "name": "Ph\u1edf Ca Dao & Grill",
+            "rank": 17,
+            "score": -2.4769575595855713,
+            "state": "California"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 67763,
+            "name": "Fusia Bento Bar",
+            "rank": 18,
+            "score": -2.4782752990722656,
+            "state": "New_York"
+        },
+        {
+            "address": "Chicot Hibachi Express - Bentonville, 1401 S Walton Blvd Suite 21, Bentonville, AR 72712",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87c911394a05f27f:0x2692bde7c23eb351",
+            "iid": 33368,
+            "name": "Chicot Hibachi Express - Bentonville",
+            "rank": 19,
+            "score": -2.478911876678467,
+            "state": "Arkansas"
+        },
+        {
+            "address": "Korean Mammas Cooking, 3624 Sonoma Blvd, Vallejo, CA 94590",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x808573f0627c36f9:0x5da98fe56cc155cd",
+            "iid": 7177,
+            "name": "Korean Mammas Cooking",
+            "rank": 20,
+            "score": -2.4789674282073975,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Joel Ragan Young",
+        "uid": 82897,
+        "user_id": 102784077860317903664
+    }
+}
