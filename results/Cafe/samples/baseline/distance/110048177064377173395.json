@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Coffee To The People, 1206 Masonic Ave, San Francisco, CA 94117",
+            "category": "['Coffee shop']",
+            "date": "2018/12/26",
+            "gmap_id": "0x808580ac956668ab:0xc2f1ec4b2b650174",
+            "iid": 1514,
+            "name": "Coffee To The People",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545858994279
+        },
+        {
+            "address": "Starbucks, 201 Powell St, San Francisco, CA 94102",
+            "category": "['Coffee shop']",
+            "date": "2019/01/01",
+            "gmap_id": "0x8085808f126f966f:0xc0cfef65845dcde0",
+            "iid": 1422,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546364312991
+        },
+        {
+            "address": "Cafe International, 508 Haight St, San Francisco, CA 94117",
+            "category": "['Cafe']",
+            "date": "2019/04/07",
+            "gmap_id": "0x808580a6c7593ff9:0xa0b133f52e0870e4",
+            "iid": 1505,
+            "name": "Cafe International",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554676788200
+        },
+        {
+            "address": "McDonald's, 1100 Fillmore St, San Francisco, CA 94102",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/13",
+            "gmap_id": "0x808580bb058365f7:0xfd5ee1b75e539d41",
+            "iid": 1550,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555174580690
+        },
+        {
+            "address": "Fueling Station Cafe, 2436 Polk St, San Francisco, CA 94109",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2019/10/19",
+            "gmap_id": "0x808580e87197a88b:0x51d0b67203265f2f",
+            "iid": 1606,
+            "name": "Fueling Station Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1571524068823
+        },
+        {
+            "address": "Quetzal Internet Cafe, 1234 Polk St, San Francisco, CA 94109",
+            "category": "['Fast food restaurant', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/10/30",
+            "gmap_id": "0x808580945eb50fdb:0xe599fdeb5c0ad45",
+            "iid": 1452,
+            "name": "Quetzal Internet Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1572403738779
+        },
+        {
+            "address": "Chestnut Street Coffee Roastery, 2331 Chestnut St, San Francisco, CA 94123",
+            "category": "['Coffee shop']",
+            "date": "2019/11/03",
+            "gmap_id": "0x808580d43b98eb0d:0x2146c6e1169ea49",
+            "iid": 1569,
+            "name": "Chestnut Street Coffee Roastery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1572797962714
+        },
+        {
+            "address": "Java Beach Cafe, 1396 La Playa St, San Francisco, CA 94122",
+            "category": "['Cafe']",
+            "date": "2020/07/01",
+            "gmap_id": "0x808587969d812a81:0xe153ea7a8d729785",
+            "iid": 1849,
+            "name": "Java Beach Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593566069741
+        },
+        {
+            "address": "Ashley's Cafe, 4454 California St, San Francisco, CA 94118",
+            "category": "['Cafe', 'Gourmet grocery store']",
+            "date": "2020/11/18",
+            "gmap_id": "0x8085873ce952e711:0x3650d0fc3c002f35",
+            "iid": 1794,
+            "name": "Ashley's Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1605735503456
+        },
+        {
+            "address": "Beacon Coffee & Pantry, 805 Columbus Ave, San Francisco, CA 94133",
+            "category": "['Cafe']",
+            "date": "2021/01/14",
+            "gmap_id": "0x808580effbe0bf5b:0xa1d7d1302c9e8301",
+            "iid": 1623,
+            "name": "Beacon Coffee & Pantry",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1610643248635
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Mission Public, 233 14th St, San Francisco, CA 94103",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x808f7e214dbcc41d:0xd7e60d88f931ea8d",
+            "iid": 2740,
+            "name": "Mission Public",
+            "rank": 1,
+            "score": -2.519972085952759,
+            "state": "California"
+        },
+        {
+            "address": "Bancarella, 350 Powell St, San Francisco, CA 94108",
+            "category": "['Cafe', 'Bakery', 'Coffee shop']",
+            "gmap_id": "0x8085808ec8988df9:0x7c17f58a313035f6",
+            "iid": 1419,
+            "name": "Bancarella",
+            "rank": 2,
+            "score": -2.5219109058380127,
+            "state": "California"
+        },
+        {
+            "address": "Xpresso Tea, 6901 Geary Blvd, San Francisco, CA 94121",
+            "category": "['Cafe']",
+            "gmap_id": "0x808587a838831827:0xbe0418be66a88d70",
+            "iid": 1857,
+            "name": "Xpresso Tea",
+            "rank": 3,
+            "score": -2.5764312744140625,
+            "state": "California"
+        },
+        {
+            "address": "Spot Brazil, 1344 Garnet Ave, San Diego, CA 92109",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc010a69c5d08d:0x72739f93a73df55b",
+            "iid": 10281,
+            "name": "Spot Brazil",
+            "rank": 4,
+            "score": -2.609016180038452,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 5,
+            "score": -2.6109323501586914,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8200 Saratoga Way, El Dorado Hills, CA 95762",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809afb64a1ffb7f3:0x3a915dcd3138cafe",
+            "iid": 5526,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.6296546459198,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 6000 Bollinger Canyon Rd Suite 1609, San Ramon, CA 94583",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808ff3821d846019:0xe5a282584d689b01",
+            "iid": 4114,
+            "name": "Philz Coffee",
+            "rank": 7,
+            "score": -2.6301543712615967,
+            "state": "California"
+        },
+        {
+            "address": "Ocean View Cafe, 1400 Main St, Montara, CA 94037",
+            "category": "['Cafe']",
+            "gmap_id": "0x808f71c150f69f33:0xc6603b69938a6c84",
+            "iid": 2505,
+            "name": "Ocean View Cafe",
+            "rank": 8,
+            "score": -2.630690813064575,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2955 Alpine Blvd, Alpine, CA 91901",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80d96166be1456fb:0x9d97dc72f483c8b6",
+            "iid": 9760,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -2.6320738792419434,
+            "state": "California"
+        },
+        {
+            "address": "1011 Sip TEA SF, 2127 Irving St, San Francisco, CA 94122",
+            "category": "['Cafe']",
+            "gmap_id": "0x808587af16b93857:0x5ea63744ef91b808",
+            "iid": 1860,
+            "name": "1011 Sip TEA SF",
+            "rank": 10,
+            "score": -2.633342742919922,
+            "state": "California"
+        },
+        {
+            "address": "Grain Traders, 1010 N Fairfax Ave, West Hollywood, CA 90046",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c2bf36af08dbaf:0x2aa83e8894294289",
+            "iid": 7432,
+            "name": "Grain Traders",
+            "rank": 11,
+            "score": -2.6340880393981934,
+            "state": "California"
+        },
+        {
+            "address": "COFFEE CULTURES, 1926 Park St, Alameda, CA 94501",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f87c152ade279:0xc8d4d25779e9912c",
+            "iid": 3135,
+            "name": "COFFEE CULTURES",
+            "rank": 12,
+            "score": -2.634598731994629,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -2.6352035999298096,
+            "state": "California"
+        },
+        {
+            "address": "Stoble Coffee, 418 Broadway St, Chico, CA 95928",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x8083276f3be27437:0xdb025d436f754f4e",
+            "iid": 282,
+            "name": "Stoble Coffee",
+            "rank": 14,
+            "score": -2.637516736984253,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 73 Lee Rd, Watsonville, CA 95076",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808e1b3d123f3b59:0xaf41c5a735856949",
+            "iid": 2215,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -2.63966703414917,
+            "state": "California"
+        },
+        {
+            "address": "Jane's Cafe, 591 Camino De La Reina Suite 130, San Diego, CA 92108",
+            "category": "['Breakfast restaurant', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80d95564aa979ae5:0x4ebfb61aa649050b",
+            "iid": 9610,
+            "name": "Jane's Cafe",
+            "rank": 16,
+            "score": -2.640936851501465,
+            "state": "California"
+        },
+        {
+            "address": "Hopulent, 138 Tennessee St, Vallejo, CA 94590",
+            "category": "['Cafe']",
+            "gmap_id": "0x80857383709b0eb5:0x4a58a781367cb4ac",
+            "iid": 904,
+            "name": "Hopulent",
+            "rank": 17,
+            "score": -2.6424195766448975,
+            "state": "California"
+        },
+        {
+            "address": "Pink Rose Cafe, 8209 La Mesa Blvd, La Mesa, CA 91942",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d957a709f303e9:0xe8ae4abe76947444",
+            "iid": 9705,
+            "name": "Pink Rose Cafe",
+            "rank": 18,
+            "score": -2.6432044506073,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 401 N Moorpark Rd suite 3706, Thousand Oaks, CA 91360",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e83b9ef851c967:0x4f53a77ebdb29391",
+            "iid": 12850,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.643371105194092,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Mei \u7f8e\u800c\u7f8e, 43761 Boscell Rd #5125, Fremont, CA 94538",
+            "category": "['Breakfast restaurant', 'Cafe', 'Lunch restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808fc71d61bcb7d7:0x6cd30ddf8f1b4c8",
+            "iid": 3735,
+            "name": "Cafe Mei \u7f8e\u800c\u7f8e",
+            "rank": 20,
+            "score": -2.643683433532715,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jordan Aylesworth",
+        "uid": 76234,
+        "user_id": 110048177064377173395
+    }
+}

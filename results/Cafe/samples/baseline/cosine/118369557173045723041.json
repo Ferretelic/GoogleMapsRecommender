@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Groundwork Coffee Co., 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80c295ee3084ae23:0x8c9cf421dbc876c9",
+            "iid": 6097,
+            "name": "Groundwork Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535585730204
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634841758
+        },
+        {
+            "address": "Arizmendi Bakery, 3265 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x808f874190045807:0x2eeb5a2233b2e795",
+            "iid": 3098,
+            "name": "Arizmendi Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634879130
+        },
+        {
+            "address": "Yum Yum Donuts, 11699 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c295fcad40fe95:0x64a60cef1a0f6da2",
+            "iid": 6109,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575431639513
+        },
+        {
+            "address": "Idle Hour, 4824 Vineland Ave, Los Angeles, CA 91601",
+            "category": "['Cocktail bar', 'American restaurant', 'Cafe']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1ff11986bd:0xcc42bc2563a5e06f",
+            "iid": 7317,
+            "name": "Idle Hour",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432342486
+        },
+        {
+            "address": "Tribal Cafe, 1651 W Temple St, Los Angeles, CA 90026",
+            "category": "['Health food restaurant', 'Espresso bar', 'Juice shop', 'Salad shop', 'Sandwich shop', 'Traditional restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c705de85656b:0x859d68549af844c5",
+            "iid": 7930,
+            "name": "Tribal Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432632193
+        },
+        {
+            "address": "Boba Guys - Rideback Ranch, 1670 Beverly Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Bubble tea store']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c70ea768c6cb:0x431659f4f8a3f779",
+            "iid": 7939,
+            "name": "Boba Guys - Rideback Ranch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432639051
+        },
+        {
+            "address": "Tierra Mia Coffee, 653 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c635502a0037:0x419fb186110d7a32",
+            "iid": 7836,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432914813
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1575432958758
+        },
+        {
+            "address": "Patys Restaurant, 10001 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Diner', 'Gluten-free restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be325c7d3801:0xc4272e5c703640a",
+            "iid": 7323,
+            "name": "Patys Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575433047692
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Mugshot COFFEE Roasters, 1728 Glendale Blvd #5, Los Angeles, CA 90026",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "gmap_id": "0x80c2c7f82b8783fb:0x4fc26a9886c5938e",
+            "iid": 8161,
+            "name": "Mugshot COFFEE Roasters",
+            "rank": 1,
+            "score": 0.6476708054542542,
+            "state": "California"
+        },
+        {
+            "address": "Afters Ice Cream, 5713 N Figueroa St, Highland Park, CA 90042",
+            "category": "['Ice cream shop', 'Cafe']",
+            "gmap_id": "0x80c2c41041bd6987:0xece0222028e6859f",
+            "iid": 7724,
+            "name": "Afters Ice Cream",
+            "rank": 2,
+            "score": 0.6375845670700073,
+            "state": "California"
+        },
+        {
+            "address": "Icy Rush Co., 2148 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Ice cream shop', 'Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x80c2c710b7571699:0x7ee243e6911aa2a4",
+            "iid": 7943,
+            "name": "Icy Rush Co.",
+            "rank": 3,
+            "score": 0.6078011393547058,
+            "state": "California"
+        },
+        {
+            "address": "Blu Jam Cafe, 15045 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Brunch restaurant', 'American restaurant', 'Breakfast restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297c1bbe6108f:0xfc36d0be05b68ab",
+            "iid": 6181,
+            "name": "Blu Jam Cafe",
+            "rank": 4,
+            "score": 0.6047815084457397,
+            "state": "California"
+        },
+        {
+            "address": "Happy Days Cafe, 14552 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Dessert shop', 'Cafe', 'Coffee shop', 'Coffee stand', 'Gluten-free restaurant', 'Ice cream shop', 'Organic restaurant', 'Restaurant', 'Tea house', 'Vegan restaurant']",
+            "gmap_id": "0x80c297cf906fac57:0x72641de88ff705c4",
+            "iid": 6187,
+            "name": "Happy Days Cafe",
+            "rank": 5,
+            "score": 0.6030522584915161,
+            "state": "California"
+        },
+        {
+            "address": "Stamp Proper Foods, 4500 Los Feliz Blvd, Los Angeles, CA 90027",
+            "category": "['Health food restaurant', 'Cafe', 'Gluten-free restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c0a4cd6dbf4f:0x1c7172efdc3254a7",
+            "iid": 7546,
+            "name": "Stamp Proper Foods",
+            "rank": 6,
+            "score": 0.5984464883804321,
+            "state": "California"
+        },
+        {
+            "address": "Drink Houz, 3231 W Temple St, Los Angeles, CA 90026",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop']",
+            "gmap_id": "0x80c2c76bd91dc495:0x154b5a3cea3e220c",
+            "iid": 8019,
+            "name": "Drink Houz",
+            "rank": 7,
+            "score": 0.5966771841049194,
+            "state": "California"
+        },
+        {
+            "address": "Hey Hey, 1555 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Tea house', 'Bubble tea store', 'Cafe', 'Coffee shop', 'Dessert shop', 'Event venue', 'Live music venue', 'Restaurant', 'Social club']",
+            "gmap_id": "0x80c2c71cec41b647:0x429da11ce16eec7f",
+            "iid": 7956,
+            "name": "Hey Hey",
+            "rank": 8,
+            "score": 0.5888580083847046,
+            "state": "California"
+        },
+        {
+            "address": "Valerie Echo Park, 1665 Echo Park Ave, Los Angeles, CA 90026",
+            "category": "['Bakery', 'Cafe']",
+            "gmap_id": "0x80c2c71fb39b081d:0xcebfc48b49650598",
+            "iid": 7958,
+            "name": "Valerie Echo Park",
+            "rank": 9,
+            "score": 0.5880389213562012,
+            "state": "California"
+        },
+        {
+            "address": "Muddy Paw Coffee Silverlake, 3320 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Coffee shop', 'Dog cafe', 'Espresso bar']",
+            "gmap_id": "0x80c2c7389f61aabf:0xc60b5317da93be7f",
+            "iid": 7971,
+            "name": "Muddy Paw Coffee Silverlake",
+            "rank": 10,
+            "score": 0.584398090839386,
+            "state": "California"
+        },
+        {
+            "address": "DRNK Coffee + Tea, 1528 N Vermont Ave C, Los Angeles, CA 90027",
+            "category": "['Coffee shop', 'Cafe', 'Health food restaurant', 'Restaurant', 'Tea house']",
+            "gmap_id": "0x80c2c0acf0202159:0x747922e72f398d7b",
+            "iid": 7548,
+            "name": "DRNK Coffee + Tea",
+            "rank": 11,
+            "score": 0.5833133459091187,
+            "state": "California"
+        },
+        {
+            "address": "Lankershim Train Depot, 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop', 'Tourist attraction']",
+            "gmap_id": "0x80c295ee3af4753d:0x561bcd30c997e22e",
+            "iid": 6098,
+            "name": "Lankershim Train Depot",
+            "rank": 12,
+            "score": 0.5781972408294678,
+            "state": "California"
+        },
+        {
+            "address": "Chill Frozen Yogurt, Crepes and Coffee, 11706 Moorpark St, Studio City, CA 91604",
+            "category": "['Cafe', 'Coffee shop', 'Cr\u00eaperie', 'Frozen yogurt shop', 'Tea house']",
+            "gmap_id": "0x80c2be01458e4739:0x5df50eb4e4bc2e19",
+            "iid": 7307,
+            "name": "Chill Frozen Yogurt, Crepes and Coffee",
+            "rank": 13,
+            "score": 0.5755225419998169,
+            "state": "California"
+        },
+        {
+            "address": "American Tea Room, 909 S Santa Fe Ave, Los Angeles, CA 90021",
+            "category": "['Tea house', 'Cafe', 'Cocktail bar', 'Restaurant', 'Tea store']",
+            "gmap_id": "0x80c2c620374aec0d:0x1bff165cc1a5a57a",
+            "iid": 7819,
+            "name": "American Tea Room",
+            "rank": 14,
+            "score": 0.5708287954330444,
+            "state": "California"
+        },
+        {
+            "address": "Los Feliz Cafe, 3207 Los Feliz Blvd, Los Angeles, CA 90039",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2c0e9e2f47c33:0x44e544e0b7a6b3f",
+            "iid": 7575,
+            "name": "Los Feliz Cafe",
+            "rank": 15,
+            "score": 0.5706096291542053,
+            "state": "California"
+        },
+        {
+            "address": "Patio Cafe, 5803 Uplander Way, Culver City, CA 90230",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b7513b3fa1bb:0x90b0d885a70928b1",
+            "iid": 6694,
+            "name": "Patio Cafe",
+            "rank": 16,
+            "score": 0.5665867924690247,
+            "state": "California"
+        },
+        {
+            "address": "Uncle John's Cafe, 834 S Grand Ave, Los Angeles, CA 90017",
+            "category": "['Eclectic restaurant', 'American restaurant', 'Asian restaurant', 'Breakfast restaurant', 'Cafe', 'Cajun restaurant', 'Chinese restaurant', 'Coffee shop', 'Diner', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2c7b674d67d65:0x2792e6244718045e",
+            "iid": 8113,
+            "name": "Uncle John's Cafe",
+            "rank": 17,
+            "score": 0.5661821961402893,
+            "state": "California"
+        },
+        {
+            "address": "street level cafe, 1166 Glendale Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'American restaurant', 'Breakfast restaurant', 'Dessert restaurant']",
+            "gmap_id": "0x80c2c71bb8e9b7f5:0xeb3a274db35e26a7",
+            "iid": 7951,
+            "name": "street level cafe",
+            "rank": 18,
+            "score": 0.5650053024291992,
+            "state": "California"
+        },
+        {
+            "address": "Stories, 1716 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Book store']",
+            "gmap_id": "0x80c2c71b8369099d:0x6a710a4078636fe5",
+            "iid": 7947,
+            "name": "Stories",
+            "rank": 19,
+            "score": 0.5646355748176575,
+            "state": "California"
+        },
+        {
+            "address": "Urartu Coffee, 119 N Artsakh Ave, Glendale, CA 91206",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c0fff48e3139:0xfe45106979917f62",
+            "iid": 7589,
+            "name": "Urartu Coffee",
+            "rank": 20,
+            "score": 0.5592254996299744,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dayan Romero",
+        "uid": 139315,
+        "user_id": 118369557173045723041
+    }
+}

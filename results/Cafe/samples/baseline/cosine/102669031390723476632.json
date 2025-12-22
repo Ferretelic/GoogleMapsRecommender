@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Healthy Creations Cafe, 376 N El Camino Real, Encinitas, CA 92024",
+            "category": "['Organic restaurant', 'Cafe', 'Gluten-free restaurant', 'Health food restaurant', 'Internet cafe', 'Juice shop']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0b88a86b6705:0xf939d51e38dec784",
+            "iid": 10450,
+            "name": "Healthy Creations Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499543736449
+        },
+        {
+            "address": "Kay's Coffee Shop, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x80e836191df3118f:0xf03d14fe2d196794",
+            "iid": 12823,
+            "name": "Kay's Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536602539368
+        },
+        {
+            "address": "Palisades Garden Cafe, 15231 La Cruz Dr, Pacific Palisades, CA 90272",
+            "category": "['Restaurant', 'Cafe']",
+            "date": "2019/03/17",
+            "gmap_id": "0x80c2a37bb2010929:0x42429785171d881e",
+            "iid": 6384,
+            "name": "Palisades Garden Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552855690340
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Glendale, 201 N Brand Blvd #100, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "date": "2019/06/02",
+            "gmap_id": "0x80c2c05573175dc3:0xd2391dff78f0f2f2",
+            "iid": 7540,
+            "name": "85\u00b0C Bakery Cafe - Glendale",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559445688286
+        },
+        {
+            "address": "Beech Street Cafe, 863 N Swarthmore Ave, Pacific Palisades, CA 90272",
+            "category": "['Italian restaurant', 'Cafe', 'Pizza restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2a37a398a2a21:0xb99fb1f1685f9d25",
+            "iid": 6379,
+            "name": "Beech Street Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840786953
+        },
+        {
+            "address": "Simpang Asia, 10433 National Blvd #2, Los Angeles, CA 90034",
+            "category": "['Indonesian restaurant', 'Cafe', 'Halal restaurant', 'Restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2bbcb99c2200f:0xc6b3dfc7ed3fbab2",
+            "iid": 7200,
+            "name": "Simpang Asia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840831242
+        },
+        {
+            "address": "Blu Jam Cafe, 18700 Ventura Blvd #140, Tarzana, CA 91356",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Brunch restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x80c2990ef06da427:0x2067459e2bc3d0ff",
+            "iid": 6208,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567310914149
+        },
+        {
+            "address": "Bourgeois Pig, 5931 Franklin Ave, Los Angeles, CA 90028",
+            "category": "['Coffee shop']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2bf46cd1f2813:0xbd8fa81754545ffd",
+            "iid": 7456,
+            "name": "Bourgeois Pig",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567453833671
+        },
+        {
+            "address": "It's Boba Time, 136 S Brand Blvd, Glendale, CA 91205",
+            "category": "['Cafe']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2c0ffbbb20935:0x313a90c687135817",
+            "iid": 7588,
+            "name": "It's Boba Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568135575973
+        },
+        {
+            "address": "M Caf\u00e9 Melrose, 7119 Melrose Ave, Hollywood, CA 90046",
+            "category": "['Macrobiotic restaurant', 'Breakfast restaurant', 'Cafe', 'Deli', 'Health food restaurant', 'Vegan restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "date": "2020/01/21",
+            "gmap_id": "0x80c2bf2ab53f14c5:0x8bf2eebea5c0db8a",
+            "iid": 7426,
+            "name": "M Caf\u00e9 Melrose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1579586097431
+        },
+        {
+            "address": "It's Boba Time (St. Andrews + Sunset), 5549 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Bubble tea store', 'Cafe']",
+            "date": "2021/02/14",
+            "gmap_id": "0x80c2bf9349b8ef0b:0xdf82b083745a5541",
+            "iid": 7481,
+            "name": "It's Boba Time (St. Andrews + Sunset)",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613345298646
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Le cafe de la plage Malibu, 29169 Heathercliff Rd #112, Malibu, CA 90265",
+            "category": "['Ice cream shop', 'Bakery', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80e818f68c627151:0x35ce74df729a1436",
+            "iid": 12696,
+            "name": "Le cafe de la plage Malibu",
+            "rank": 1,
+            "score": 0.6816255450248718,
+            "state": "California"
+        },
+        {
+            "address": "GASOLINA cafe, 21150 Ventura Blvd, Woodland Hills, CA 91364",
+            "category": "['Restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant', 'Spanish restaurant']",
+            "gmap_id": "0x80c29eb787ed816b:0x428aa77068d3e335",
+            "iid": 6363,
+            "name": "GASOLINA cafe",
+            "rank": 2,
+            "score": 0.6489182114601135,
+            "state": "California"
+        },
+        {
+            "address": "Cauldron Ice Cream, 204 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c2c0550d39f35b:0xbe6a61557b065605",
+            "iid": 7539,
+            "name": "Cauldron Ice Cream",
+            "rank": 3,
+            "score": 0.6464130878448486,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 968 S Westlake Blvd #6, Westlake Village, CA 91361",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80e824ef0411cc9b:0xe2214ebed3f86038",
+            "iid": 12721,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 4,
+            "score": 0.6439836025238037,
+            "state": "California"
+        },
+        {
+            "address": "Blu Jam Cafe, 15045 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Brunch restaurant', 'American restaurant', 'Breakfast restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297c1bbe6108f:0xfc36d0be05b68ab",
+            "iid": 6181,
+            "name": "Blu Jam Cafe",
+            "rank": 5,
+            "score": 0.6431795358657837,
+            "state": "California"
+        },
+        {
+            "address": "LOKUM, 1019 State St, Santa Barbara, CA 93101",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e915f17ef6974b:0x2c5a561daf37b68f",
+            "iid": 12993,
+            "name": "LOKUM",
+            "rank": 6,
+            "score": 0.6382768750190735,
+            "state": "California"
+        },
+        {
+            "address": "Gelato-go Hollywood, 5633 Hollywood Blvd, Los Angeles, CA 90028",
+            "category": "['Ice cream shop', 'Bakery', 'Coffee shop', 'Italian restaurant', 'Pastry shop']",
+            "gmap_id": "0x80c2bf4f8ac6f697:0xa9ac556aa975c12",
+            "iid": 7462,
+            "name": "Gelato-go Hollywood",
+            "rank": 7,
+            "score": 0.6376026272773743,
+            "state": "California"
+        },
+        {
+            "address": "Tortoni Caffe, 15060 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2979029787ecb:0xc7c999bd920b141",
+            "iid": 6169,
+            "name": "Tortoni Caffe",
+            "rank": 8,
+            "score": 0.6348196268081665,
+            "state": "California"
+        },
+        {
+            "address": "Pedalers Fork, 23504 Calabasas Rd, Calabasas, CA 91302",
+            "category": "['American restaurant', 'Bar', 'Bicycle repair shop', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', \"Farmers' market\", 'New American restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29e68b1e7ee69:0x9d87422847c5e261",
+            "iid": 6344,
+            "name": "Pedalers Fork",
+            "rank": 9,
+            "score": 0.6341370344161987,
+            "state": "California"
+        },
+        {
+            "address": "JRA Bikes & Brew, 215 Thousand Oaks Blvd, Thousand Oaks, CA 91360",
+            "category": "['Bicycle Shop', 'Bicycle repair shop', 'Coffee shop']",
+            "gmap_id": "0x80e826ab6e685649:0xd982071b000eb5c",
+            "iid": 12747,
+            "name": "JRA Bikes & Brew",
+            "rank": 10,
+            "score": 0.6334124207496643,
+            "state": "California"
+        },
+        {
+            "address": "Element Coffee, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e83618e2051fc1:0xdd58b12cd5bbde6c",
+            "iid": 12822,
+            "name": "Element Coffee",
+            "rank": 11,
+            "score": 0.6293924450874329,
+            "state": "California"
+        },
+        {
+            "address": "JOi Caf\u00e9 // Coffee by JOi, 2855 Agoura Rd, Westlake Village, CA 91361",
+            "category": "['Cafe', 'American restaurant', 'Coffee shop', 'Health food restaurant', 'Juice shop', 'Nutritionist', 'Tea house', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80e824f272e65323:0x79bfb59f676d9ebc",
+            "iid": 12723,
+            "name": "JOi Caf\u00e9 // Coffee by JOi",
+            "rank": 12,
+            "score": 0.6265910267829895,
+            "state": "California"
+        },
+        {
+            "address": "Happy Days Cafe, 14552 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Dessert shop', 'Cafe', 'Coffee shop', 'Coffee stand', 'Gluten-free restaurant', 'Ice cream shop', 'Organic restaurant', 'Restaurant', 'Tea house', 'Vegan restaurant']",
+            "gmap_id": "0x80c297cf906fac57:0x72641de88ff705c4",
+            "iid": 6187,
+            "name": "Happy Days Cafe",
+            "rank": 13,
+            "score": 0.6265876293182373,
+            "state": "California"
+        },
+        {
+            "address": "Espresso Profeta, 1129 Glendon Ave, Los Angeles, CA 90024",
+            "category": "['Cafe', 'Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x80c2bc8196732793:0x1e3f4c453a526e8b",
+            "iid": 7257,
+            "name": "Espresso Profeta",
+            "rank": 14,
+            "score": 0.626052975654602,
+            "state": "California"
+        },
+        {
+            "address": "andSons Chocolatiers, 9548 Brighton Way, Beverly Hills, CA 90210",
+            "category": "['Chocolate shop', 'Cafe', 'Candy store', 'Confectionery', 'Gift shop']",
+            "gmap_id": "0x80c2bbf8084dde9d:0xf0cad758cb9b64aa",
+            "iid": 7222,
+            "name": "andSons Chocolatiers",
+            "rank": 15,
+            "score": 0.6193860769271851,
+            "state": "California"
+        },
+        {
+            "address": "SunLife Organics, 4799 Commons Way ste e, Calabasas, CA 91302",
+            "category": "['Juice shop', 'Cafe', 'Health food restaurant', 'Health food store', 'Organic restaurant', 'Vitamin & supplements store']",
+            "gmap_id": "0x80c29e6baa465ed1:0xc01d2af8fdb7a724",
+            "iid": 6348,
+            "name": "SunLife Organics",
+            "rank": 16,
+            "score": 0.6153895854949951,
+            "state": "California"
+        },
+        {
+            "address": "Champagne French Bakery Caf\u00e9 Thousand Oaks, 180 Promenade Way Ste. I, Thousand Oaks, CA 91362",
+            "category": "['Cafe', 'Bakery', 'Brunch restaurant', 'Caterer', 'Dessert restaurant']",
+            "gmap_id": "0x80e824fae9522215:0xc288c407e1eecda0",
+            "iid": 12724,
+            "name": "Champagne French Bakery Caf\u00e9 Thousand Oaks",
+            "rank": 17,
+            "score": 0.6131078004837036,
+            "state": "California"
+        },
+        {
+            "address": "The Stonehaus, 32039 Agoura Rd, Westlake Village, CA 91361",
+            "category": "['European restaurant', 'Breakfast restaurant', 'Coffee shop', 'Restaurant', 'Winery']",
+            "gmap_id": "0x80e8248b32b818f5:0x9dc0173d96ff0dd3",
+            "iid": 12716,
+            "name": "The Stonehaus",
+            "rank": 18,
+            "score": 0.6130223274230957,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 1854 Westwood Blvd, Los Angeles, CA 90025",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2bb9cefd1b3cf:0x5941a2c5dcf19bc3",
+            "iid": 7177,
+            "name": "Peet's Coffee",
+            "rank": 19,
+            "score": 0.6092329621315002,
+            "state": "California"
+        },
+        {
+            "address": "M Street Coffee, 13251 Moorpark St, Sherman Oaks, CA 91423",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c296214fca8b6d:0x2d9bf2b513cd632",
+            "iid": 6112,
+            "name": "M Street Coffee",
+            "rank": 20,
+            "score": 0.6027986407279968,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dylan Furlong",
+        "uid": 20199,
+        "user_id": 102669031390723476632
+    }
+}

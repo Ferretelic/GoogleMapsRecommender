@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Den Cafe, 125 N Broadway D, Santa Ana, CA 92701",
+            "category": "['Brunch restaurant', 'Bar', 'Cafe', 'Caterer', 'Coffee shop', 'Event venue', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2017/04/09",
+            "gmap_id": "0x80dcd906f9e8c519:0xea50f6610d04fd75",
+            "iid": 11220,
+            "name": "The Den Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491707870437
+        },
+        {
+            "address": "Urth Caffe Melrose, 8565 Melrose Ave, West Hollywood, CA 90069",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "date": "2017/04/23",
+            "gmap_id": "0x80c2beb1a584bda5:0x475ef45b7dbbb67",
+            "iid": 7350,
+            "name": "Urth Caffe Melrose",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492974011984
+        },
+        {
+            "address": "Masataco, 14103 Lambert Rd, Whittier, CA 90605",
+            "category": "['Mexican restaurant', 'Coffee shop', 'Vegan restaurant']",
+            "date": "2018/02/13",
+            "gmap_id": "0x80c2d37baf856225:0xea10572b2f2494f4",
+            "iid": 8445,
+            "name": "Masataco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518487433053
+        },
+        {
+            "address": "Masataco, 14103 Lambert Rd, Whittier, CA 90605",
+            "category": "['Mexican restaurant', 'Coffee shop', 'Vegan restaurant']",
+            "date": "2018/02/13",
+            "gmap_id": "0x80c2d37baf856225:0xea10572b2f2494f4",
+            "iid": 8445,
+            "name": "Masataco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518487433053
+        },
+        {
+            "address": "Bakers & Baristas, 11700 South St, Artesia, CA 90701",
+            "category": "['Cafe', 'Bakery']",
+            "date": "2018/03/16",
+            "gmap_id": "0x80dd2da1414de345:0xc95186492c8cfdba",
+            "iid": 12187,
+            "name": "Bakers & Baristas",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521164050673
+        },
+        {
+            "address": "Local Fixture, 6728 Bright Ave, Whittier, CA 90601",
+            "category": "['Gift shop', 'Baby clothing store', 'Coffee shop', 'Fashion accessories store', \"Men's clothing store\"]",
+            "date": "2018/03/16",
+            "gmap_id": "0x80c2d3ec09fb8629:0x1ffcf91532ae9f08",
+            "iid": 8467,
+            "name": "Local Fixture",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521164104147
+        },
+        {
+            "address": "Solid Coffee Roasters - Artesia, 12147 South St, Artesia, CA 90701",
+            "category": "['Cafe', 'Coffee shop', 'Restaurant']",
+            "date": "2018/03/16",
+            "gmap_id": "0x80dd2da93158b4ef:0xddccae9a6373c8f7",
+            "iid": 12192,
+            "name": "Solid Coffee Roasters - Artesia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521164155180
+        },
+        {
+            "address": "Grow Coffee + Tea, 1035 N Tustin Ave, Anaheim, CA 92807",
+            "category": "['Coffee shop']",
+            "date": "2018/03/16",
+            "gmap_id": "0x80dcd6ce97b65cf9:0x451a248b26aa134a",
+            "iid": 11128,
+            "name": "Grow Coffee + Tea",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521164240627
+        },
+        {
+            "address": "Dripp, 500 N Harbor Blvd Suite B, Fullerton, CA 92832, United States",
+            "category": "['Coffee shop', 'Coffee store', 'Dessert shop', 'Ice cream shop', 'Pastry shop']",
+            "date": "2018/03/16",
+            "gmap_id": "0x80dcd5f60e2f20cd:0x6305e4732df9d62e",
+            "iid": 11103,
+            "name": "Dripp",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1521164435445
+        },
+        {
+            "address": "The Night Owl, 200 N Harbor Blvd, Fullerton, CA 92832",
+            "category": "['Coffee shop', 'Art cafe', 'Cafe', 'Live music venue', 'Organic shop']",
+            "date": "2019/06/12",
+            "gmap_id": "0x80dd2a091d19b671:0xb51c0588178c4260",
+            "iid": 12051,
+            "name": "The Night Owl",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1560310501294
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Toast, 11119 1st Ave, Whittier, CA 90603",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d4ce87185383:0x56473804bc27b1e5",
+            "iid": 8479,
+            "name": "Toast",
+            "rank": 1,
+            "score": 0.6648776531219482,
+            "state": "California"
+        },
+        {
+            "address": "Stereoscope Coffee, 4542 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd2b0e20d409a5:0xdfe80fc5b0226a89",
+            "iid": 12084,
+            "name": "Stereoscope Coffee",
+            "rank": 2,
+            "score": 0.6366979479789734,
+            "state": "California"
+        },
+        {
+            "address": "Pho 45 - La Mirada, 12810 La Mirada Blvd, La Mirada, CA 90638",
+            "category": "['Vietnamese restaurant', 'Coffee shop', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x80dd2b516216b8cd:0xe593145c1ee15c52",
+            "iid": 12091,
+            "name": "Pho 45 - La Mirada",
+            "rank": 3,
+            "score": 0.6354243159294128,
+            "state": "California"
+        },
+        {
+            "address": "Donas, 15729 Downey Ave, Paramount, CA 90723",
+            "category": "['Donut shop', 'Coffee store', 'Dessert shop', 'Ice cream shop']",
+            "gmap_id": "0x80c2cd1202ff7e81:0x8c40e49fd0c067ae",
+            "iid": 8274,
+            "name": "Donas",
+            "rank": 4,
+            "score": 0.6299609541893005,
+            "state": "California"
+        },
+        {
+            "address": "Enchanted Coffee Bar, 13391 S Beach Blvd A, La Mirada, CA 90638",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dd2b2191bab629:0x136e7146a974ab34",
+            "iid": 12088,
+            "name": "Enchanted Coffee Bar",
+            "rank": 5,
+            "score": 0.6287065744400024,
+            "state": "California"
+        },
+        {
+            "address": "Cream & Sugar Cafe, 12826 La Mirada Blvd, La Mirada, CA 90638",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dd2b5158ed489d:0x28b4814af546a7cf",
+            "iid": 12090,
+            "name": "Cream & Sugar Cafe",
+            "rank": 6,
+            "score": 0.6012710332870483,
+            "state": "California"
+        },
+        {
+            "address": "Pura Vida Cafe and Juice Bar, 8133 Firestone Blvd, Downey, CA 90241",
+            "category": "['Juice shop', 'Vegan restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2cd97e2cced27:0x15090e279347766c",
+            "iid": 8298,
+            "name": "Pura Vida Cafe and Juice Bar",
+            "rank": 7,
+            "score": 0.5992617607116699,
+            "state": "California"
+        },
+        {
+            "address": "Smoking Tiger Coffee & Bread, 4600 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd2bfe2a7c74b9:0x9c8c1356b51362f2",
+            "iid": 12131,
+            "name": "Smoking Tiger Coffee & Bread",
+            "rank": 8,
+            "score": 0.5991157293319702,
+            "state": "California"
+        },
+        {
+            "address": "Dough & Arrow Cookies & Coffee., 3033 Bristol St Q, Costa Mesa, CA 92626",
+            "category": "['Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x80dcdf2448955793:0xdb21bf26aa1d18ab",
+            "iid": 11469,
+            "name": "Dough & Arrow Cookies & Coffee.",
+            "rank": 9,
+            "score": 0.5986010432243347,
+            "state": "California"
+        },
+        {
+            "address": "Off Street Cafe, 11020 Artesia Blvd, Cerritos, CA 90703",
+            "category": "['Cafe', 'American restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd2d6f35734e91:0xad1718b16298aaa7",
+            "iid": 12170,
+            "name": "Off Street Cafe",
+            "rank": 10,
+            "score": 0.5930900573730469,
+            "state": "California"
+        },
+        {
+            "address": "Vibes Cafe, 76 1/2 62nd Pl, Long Beach, CA 90803",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dd31d0796e0841:0x41cfa42016f87a9d",
+            "iid": 12344,
+            "name": "Vibes Cafe",
+            "rank": 11,
+            "score": 0.5922846794128418,
+            "state": "California"
+        },
+        {
+            "address": "Corner Place Coffee, 14838 Whittier Blvd, Whittier, CA 90605",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d49af76d5ebf:0xb6e0e9f88fcf563c",
+            "iid": 8475,
+            "name": "Corner Place Coffee",
+            "rank": 12,
+            "score": 0.5893921852111816,
+            "state": "California"
+        },
+        {
+            "address": "Chillin', 7041 Greenleaf Ave, Whittier, CA 90602",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d3eb74b709a1:0x81b017d3e674f5e9",
+            "iid": 8462,
+            "name": "Chillin'",
+            "rank": 13,
+            "score": 0.5819257497787476,
+            "state": "California"
+        },
+        {
+            "address": "The Original Pancake House - Whittier, 16363 Whittier Blvd, Whittier, CA 90603",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Coffee shop', 'Diner', 'Family restaurant', 'Juice shop', 'Pancake restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2d4dafb981905:0x22fea0c8a50e0df8",
+            "iid": 8480,
+            "name": "The Original Pancake House - Whittier",
+            "rank": 14,
+            "score": 0.57144695520401,
+            "state": "California"
+        },
+        {
+            "address": "Forkin Good Cafe, 6744 Greenleaf Ave, Whittier, CA 90601",
+            "category": "['Organic restaurant', 'Breakfast restaurant', 'Cafe', 'Caterer', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2d3ebec50e555:0xf9043ca78a5170ec",
+            "iid": 8466,
+            "name": "Forkin Good Cafe",
+            "rank": 15,
+            "score": 0.5713344216346741,
+            "state": "California"
+        },
+        {
+            "address": "Lift Coffee Roasters, 6701 Greenleaf Ave, Whittier, CA 90601",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2d3e939c0b709:0xbee20f4b17600375",
+            "iid": 8458,
+            "name": "Lift Coffee Roasters",
+            "rank": 16,
+            "score": 0.569806694984436,
+            "state": "California"
+        },
+        {
+            "address": "Civitas Coffee, 14218 Rosecrans Ave #1/2, La Mirada, CA 90638",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dd2de516633a53:0x32ce008e0c9a652a",
+            "iid": 12204,
+            "name": "Civitas Coffee",
+            "rank": 17,
+            "score": 0.5696281790733337,
+            "state": "California"
+        },
+        {
+            "address": "Steelhead Coffee, 1208 E Wardlow Rd, Long Beach, CA 90807",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd33b8b0387f53:0xdf0813b82420ff5d",
+            "iid": 12424,
+            "name": "Steelhead Coffee",
+            "rank": 18,
+            "score": 0.569128155708313,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Code, 1030 Rosecrans Ave, Fullerton, CA 92833",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd2a61acbd51bb:0x2b536c9e506c5412",
+            "iid": 12066,
+            "name": "Coffee Code",
+            "rank": 19,
+            "score": 0.5675737857818604,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 160 E Lambert Rd, Brea, CA 92821",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80dcd55b92c97ccb:0xe8298f9245949629",
+            "iid": 11078,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 20,
+            "score": 0.5671135187149048,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "alia",
+        "uid": 88998,
+        "user_id": 111731345354436265227
+    }
+}

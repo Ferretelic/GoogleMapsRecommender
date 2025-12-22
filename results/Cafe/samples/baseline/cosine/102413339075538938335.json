@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 12770 Hawthorne Blvd, Hawthorne, CA 90250",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80c2b429f52ea8a3:0x8b246f56fd334425",
+            "iid": 6559,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573426295144
+        },
+        {
+            "address": "Tea Block, 18311 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Bubble tea store', 'Coffee shop', 'Fried chicken takeaway', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c32a61b2498f9f:0xa785d11ea81265c8",
+            "iid": 8765,
+            "name": "Tea Block",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574485351615
+        },
+        {
+            "address": "McDonald's, 8913 Washington Blvd, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/12/12",
+            "gmap_id": "0x80c2d1f6e3f5a9fd:0xd0b38eaef11cce0b",
+            "iid": 8405,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1607744232789
+        },
+        {
+            "address": "McDonald's, 8715 E Whittier Ave, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/02/24",
+            "gmap_id": "0x80c2d1950dec5457:0x1dfddbffa639c576",
+            "iid": 8401,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1614127612084
+        },
+        {
+            "address": "Krispy Kreme, 1024 W Gladstone St, San Dimas, CA 91773",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2021/02/26",
+            "gmap_id": "0x80c32f4b92890125:0xcc306d19e0f361a5",
+            "iid": 8847,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1614305012133
+        },
+        {
+            "address": "Starbucks, 12693 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2021/03/06",
+            "gmap_id": "0x80c36841f3208617:0x6c2c759229612edd",
+            "iid": 9162,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1615071290699
+        },
+        {
+            "address": "McDonald's, 4015 Phelan Rd, Phelan, CA 92371",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/29",
+            "gmap_id": "0x80c31497c1e0819b:0x2d0f3374354a30c0",
+            "iid": 8698,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1616989357291
+        },
+        {
+            "address": "McDonald's, 14466 Main St Pad G, Hesperia, CA 92345",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/29",
+            "gmap_id": "0x80c367e8bdb8aeab:0x7b51d0ae99fab272",
+            "iid": 9160,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1616989363322
+        },
+        {
+            "address": "La Monarca Bakery & Cafe, 6001 Rosemead Blvd, Pico Rivera, CA 90660",
+            "category": "['Bakery', 'Cafe', 'Catering food and drink supplier', 'Caterer', 'Coffee shop']",
+            "date": "2021/04/11",
+            "gmap_id": "0x80c2d192992ded0b:0xf5459c3de40db2bb",
+            "iid": 8399,
+            "name": "La Monarca Bakery & Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1618181822517
+        },
+        {
+            "address": "McDonald's, 2020 W Olympic Blvd, Los Angeles, CA 90006, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/06/02",
+            "gmap_id": "0x80c2c79853c7f055:0x872dec17aab894d9",
+            "iid": 8065,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1622660823746
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 12146 Mariposa Rd, Victorville, CA 92392",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c3663e638a5f4f:0xb81626d374fea42c",
+            "iid": 9148,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": 0.5961920022964478,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 11896 Amargosa Rd, Victorville, CA 92392",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c366240b5e80b9:0xddc410152beb05c8",
+            "iid": 9143,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": 0.5925236940383911,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3030 E Garvey Ave S, West Covina, CA 91791",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c329aa20343d67:0x8c09f4d8a4a199c",
+            "iid": 8747,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": 0.5840657949447632,
+            "state": "California"
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Azusa, 1119 E Alosta Ave, Azusa, CA 91702",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x80c327cc2cd203b5:0xb0413903b3561e43",
+            "iid": 8718,
+            "name": "85\u00b0C Bakery Cafe - Azusa",
+            "rank": 4,
+            "score": 0.5724278688430786,
+            "state": "California"
+        },
+        {
+            "address": "Krispy Kreme, 15280 Civic Dr, Victorville, CA 92392",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "gmap_id": "0x80c365c458374cab:0xccd98307c301e01a",
+            "iid": 9135,
+            "name": "Krispy Kreme",
+            "rank": 5,
+            "score": 0.5707584023475647,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3870 Sierra Ave, Fontana, CA 92336",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c34ed8b4422de9:0x9ccb921d30a6f6c1",
+            "iid": 9066,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 0.5651121735572815,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4851 Santa Anita Ave, El Monte, CA 91731",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2da1b056fbfa3:0x2f488c920002ab3",
+            "iid": 8573,
+            "name": "McDonald's",
+            "rank": 7,
+            "score": 0.5621324181556702,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 12199 Hesperia Rd, Victorville, CA 92395",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c366ddec753dc3:0x6b104d31abbfaaf5",
+            "iid": 9153,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 0.5601904392242432,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3853 Portola Pkwy, Irvine, CA 92620",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcdc9fe3ab4a39:0xe89be4ec57bde8d3",
+            "iid": 11357,
+            "name": "McDonald's",
+            "rank": 9,
+            "score": 0.55966717004776,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 219 S Azusa Ave, Azusa, CA 91702",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c327e5e78d4a51:0xaf37f121a1cae8d4",
+            "iid": 8721,
+            "name": "McDonald's",
+            "rank": 10,
+            "score": 0.5561942458152771,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1283 N Hacienda Blvd A, La Puente, CA 91744",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2d64741219a75:0x90e5ce00b066f768",
+            "iid": 8500,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 0.5542994737625122,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 17050 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c35d8b00bbb5dd:0xb64d7492de342b71",
+            "iid": 9109,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.5532087683677673,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2571 Commerce Pkwy, Barstow, CA 92311",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c47e9b778b6cb5:0x19cc8b82882b040b",
+            "iid": 9182,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": 0.5516830682754517,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1303 S Lone Hill Ave, Glendora, CA 91740",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c329cceefc955b:0x1745bfdcfbe28cb1",
+            "iid": 8750,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 0.5500038862228394,
+            "state": "California"
+        },
+        {
+            "address": "Mimi's Cafe, 12032 Amargosa Rd, Victorville, CA 92392",
+            "category": "['Bistro', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Caterer', 'French restaurant', 'Takeout Restaurant', 'Wine bar']",
+            "gmap_id": "0x80c3663cc8a4480b:0x173400dc83116738",
+            "iid": 9147,
+            "name": "Mimi's Cafe",
+            "rank": 15,
+            "score": 0.5412023663520813,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 303 E Valley Blvd, San Gabriel, CA 91776",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2dbb3c6734005:0x8afadd285820cadf",
+            "iid": 8627,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": 0.5409837961196899,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1398 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2ca9e31e09b1d:0x158e3e73a15584fd",
+            "iid": 8226,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 0.5302460789680481,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 17003 Bear Valley Rd, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c366e74a7c8f21:0x950c6d1dc14b7bab",
+            "iid": 9155,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.5301246047019958,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 665 E Foothill Blvd Unit #B, Claremont, CA 91711",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c331ba93eecfe3:0x3e835338c13467d0",
+            "iid": 8884,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 0.5284025073051453,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3230 Wagon Train Rd, Phelan, CA 92371",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c3414f8224dea5:0x16d8fcd7208f1ad8",
+            "iid": 9011,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 0.5270475149154663,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jesus Flores",
+        "uid": 18267,
+        "user_id": 102413339075538938335
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Coffee Commissary, 801 N Fairfax Ave, Los Angeles, CA 90046",
+            "category": "['Cafe']",
+            "date": "2016/08/16",
+            "gmap_id": "0x80c2bece93410cd1:0x1b11252b7a68b91d",
+            "iid": 7387,
+            "name": "Coffee Commissary",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1471359441487
+        },
+        {
+            "address": "Starbucks, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/01/31",
+            "gmap_id": "0x80c2c7e7a1dea49d:0x1d8f0c57931c0218",
+            "iid": 8152,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1485837489789
+        },
+        {
+            "address": "Starbucks, 20240 S Avalon Blvd, Carson, CA 90746",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/06/11",
+            "gmap_id": "0x80dd353002092a9b:0xbf69b6810f3c23e8",
+            "iid": 12450,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497148676550
+        },
+        {
+            "address": "Starbucks, 2979 Artesia Blvd, Redondo Beach, CA 90278",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/08/05",
+            "gmap_id": "0x80c2b4f94d364e33:0xce98d2e0b79880ae",
+            "iid": 6597,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501904450235
+        },
+        {
+            "address": "Barnes & Noble, 189 The Grove Dr, Los Angeles, CA 90036",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "date": "2019/03/11",
+            "gmap_id": "0x80dcd73df3fa3897:0xe1f86585c928e6b9",
+            "iid": 11136,
+            "name": "Barnes & Noble",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552307213946
+        },
+        {
+            "address": "Stories, 1716 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Book store']",
+            "date": "2019/05/31",
+            "gmap_id": "0x80c2c71b8369099d:0x6a710a4078636fe5",
+            "iid": 7947,
+            "name": "Stories",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559288639167
+        },
+        {
+            "address": "The Waffle, 6255 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Diner', 'American restaurant', 'Bar', 'Belgian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Lunch restaurant', 'New American restaurant', 'Restaurant']",
+            "date": "2019/06/05",
+            "gmap_id": "0x80c2bf3780596299:0x40d37d9946882088",
+            "iid": 7435,
+            "name": "The Waffle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559716839340
+        },
+        {
+            "address": "Toasted And Roasted, 7311 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Coffee shop', 'Cafe', 'Coffee roasters']",
+            "date": "2019/08/12",
+            "gmap_id": "0x80c2bed4e075ed7d:0x1dacf840dbe2ac12",
+            "iid": 7394,
+            "name": "Toasted And Roasted",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1565627018972
+        },
+        {
+            "address": "Starbucks, 1250 South La Brea Ave, Los Angeles, CA 90019",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/10/10",
+            "gmap_id": "0x80c2b8fd0f6683d7:0x3105602c8245226c",
+            "iid": 6837,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1570742427649
+        },
+        {
+            "address": "Starbucks, 859 N Highland Ave, Los Angeles, CA 90038",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/12/18",
+            "gmap_id": "0x80c2bf2c932908b3:0x30dcd97ddeadb63d",
+            "iid": 7427,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1608281308756
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 5001 Madison Ave, Sacramento, CA 95841",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x809adfb58da46f13:0x1d35af3251010890",
+            "iid": 5436,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": -2.102639675140381,
+            "state": "California"
+        },
+        {
+            "address": "Cafe De Mama, 1102 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b9506215aeab:0xf6fe0f900a73fd73",
+            "iid": 6907,
+            "name": "Cafe De Mama",
+            "rank": 2,
+            "score": -2.365271806716919,
+            "state": "California"
+        },
+        {
+            "address": "Delta Sky Club Terminal 2, Terminal 2, 1 World Way, Los Angeles, CA 90045",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b1fdb7e683c3:0xe47983babbb4ad02",
+            "iid": 6516,
+            "name": "Delta Sky Club Terminal 2",
+            "rank": 3,
+            "score": -2.3859150409698486,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 4,
+            "score": -2.3901829719543457,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 6892,
+            "name": "CAFE5",
+            "rank": 5,
+            "score": -2.418663501739502,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 575 W Olive Ave, Merced, CA 95348",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809143cbb6c58c0f:0x108603f1b6b3174f",
+            "iid": 4462,
+            "name": "Dutch Bros Coffee",
+            "rank": 6,
+            "score": -2.480736494064331,
+            "state": "California"
+        },
+        {
+            "address": "Compton\u2019s Coffee House, 1910 Fillmore St, San Francisco, CA 94115",
+            "category": "['Cafe']",
+            "gmap_id": "0x808581502d318ef3:0xa51ab9e1de16189e",
+            "iid": 1681,
+            "name": "Compton\u2019s Coffee House",
+            "rank": 7,
+            "score": -2.490175724029541,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 6000 Bollinger Canyon Rd Suite 1609, San Ramon, CA 94583",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808ff3821d846019:0xe5a282584d689b01",
+            "iid": 4114,
+            "name": "Philz Coffee",
+            "rank": 8,
+            "score": -2.49130916595459,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 9,
+            "score": -2.491421937942505,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 470 Lake Park Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f87118ebdb817:0x94ad97c3591e4a72",
+            "iid": 3085,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.493368148803711,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -2.5014705657958984,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5411 Diablo Dr, Sacramento, CA 95842",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adfb5618d5a87:0x32b1b6e2249a524d",
+            "iid": 5435,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -2.5018973350524902,
+            "state": "California"
+        },
+        {
+            "address": "Chant\u2019el Cafe, 1750 Prairie City Rd Ste 150, Folsom, CA 95630",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ae58feefb1791:0xceb210acdf8785ed",
+            "iid": 5484,
+            "name": "Chant\u2019el Cafe",
+            "rank": 13,
+            "score": -2.504608631134033,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.5050559043884277,
+            "state": "California"
+        },
+        {
+            "address": "COFFEE CULTURES, 1926 Park St, Alameda, CA 94501",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f87c152ade279:0xc8d4d25779e9912c",
+            "iid": 3135,
+            "name": "COFFEE CULTURES",
+            "rank": 15,
+            "score": -2.5085744857788086,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 4040 San Pablo Ave Suite A, Hercules, CA 94547",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80857709a76b652f:0x2d19695d2e5e4019",
+            "iid": 924,
+            "name": "Peet's Coffee",
+            "rank": 16,
+            "score": -2.5091264247894287,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 4130 Northgate Blvd, Sacramento, CA 95834",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809ad7381afd6843:0xceaecec727b67574",
+            "iid": 5262,
+            "name": "Dutch Bros Coffee",
+            "rank": 17,
+            "score": -2.5096044540405273,
+            "state": "California"
+        },
+        {
+            "address": "Spot Brazil, 1344 Garnet Ave, San Diego, CA 92109",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc010a69c5d08d:0x72739f93a73df55b",
+            "iid": 10281,
+            "name": "Spot Brazil",
+            "rank": 18,
+            "score": -2.5104727745056152,
+            "state": "California"
+        },
+        {
+            "address": "Yonder Coffee, 9028 Balboa Blvd, Northridge, CA 91325",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c29b6e9606301f:0x6e89b800c7be44b5",
+            "iid": 6267,
+            "name": "Yonder Coffee",
+            "rank": 19,
+            "score": -2.511401891708374,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 2739 Santa Rosa Ave, Santa Rosa, CA 95407",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808449558b8a1231:0x9880135b7b2409e",
+            "iid": 488,
+            "name": "Dunkin'",
+            "rank": 20,
+            "score": -2.5114219188690186,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Kim R",
+        "uid": 83719,
+        "user_id": 111028578734993624708
+    }
+}

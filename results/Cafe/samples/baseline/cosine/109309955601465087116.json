@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 3750 Sierra Hwy, Acton, CA 93510",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2f67c650fa271:0xb4b419c9e67b32e7",
+            "iid": 8691,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564026749792
+        },
+        {
+            "address": "McDonald's, 10721 Atlantic Ave, Lynwood, CA 90262",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cc69e8f28159:0x199cdcff22333893",
+            "iid": 8267,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564026826624
+        },
+        {
+            "address": "Starbucks, 3801 Martin Luther King Jr Blvd #1, Lynwood, CA 90262",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cc7126ed35df:0xf3049b9137b17c39",
+            "iid": 8268,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027011458
+        },
+        {
+            "address": "Dunkin', 9070 Firestone Blvd, Downey, CA 90241",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cd829eef7825:0xed73efce19891b16",
+            "iid": 8289,
+            "name": "Dunkin'",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027125733
+        },
+        {
+            "address": "I Love Boba, 1001 Vermont Ave, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2c783bfcdaad9:0x65e5aaa19e20a2dd",
+            "iid": 8056,
+            "name": "I Love Boba",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027309464
+        },
+        {
+            "address": "BionicLand, 13041 Rosecrans Ave, Norwalk, CA 90650",
+            "category": "['Mexican restaurant', 'Coffee shop', 'Frozen yogurt shop', 'Ice cream shop', 'Juice shop', 'Seafood restaurant', 'Shopping mall', 'Tamale shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2d2d0c6f2f7f5:0x5409b01261b3e316",
+            "iid": 8431,
+            "name": "BionicLand",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027666378
+        },
+        {
+            "address": "McDonald's, 3309 Tweedy Blvd, South Gate, CA 90280",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cbf980a32ffb:0x4df8f3f3ce4a031d",
+            "iid": 8251,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027817391
+        },
+        {
+            "address": "Starbucks, 5201 E Washington Blvd # A, Commerce, CA 90040",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cefdafe2351f:0x9688b8f8d1a05568",
+            "iid": 8339,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027843762
+        },
+        {
+            "address": "Starbucks, 9001 East, Firestone Blvd UNIT 101, Downey, CA 90241",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cd82d05070d7:0xf598642af9f021ec",
+            "iid": 8290,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1564027864334
+        },
+        {
+            "address": "McDonald's, 15235 S Figueroa St, Gardena, CA 90248",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2ca89c2f18517:0x6cb9ad2db3a3b363",
+            "iid": 8225,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1564027954536
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "85\u00b0C Bakery Cafe - South Gate, 5831 Firestone Blvd A, South Gate, CA 90280",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x80c2cc33945a4e09:0xb8f30a165b6f40ba",
+            "iid": 8261,
+            "name": "85\u00b0C Bakery Cafe - South Gate",
+            "rank": 1,
+            "score": 0.7578353881835938,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9001 East, Firestone Blvd UNIT 101, Downey, CA 90241",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2cd82d05070d7:0xf598642af9f021ec",
+            "iid": 8290,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 0.7165644764900208,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 100 Citadel Dr #200, Commerce, CA 90040",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2ce5384c1ee89:0x8ebcd79571b6f4be",
+            "iid": 8323,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.6937264800071716,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 9250 Lakewood Blvd, Downey, CA 90240",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cd8a89a735bb:0xebf14fdf91c39e4c",
+            "iid": 8296,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": 0.6474495530128479,
+            "state": "California"
+        },
+        {
+            "address": "Class 302 Cafe - Downey, 8855 Apollo Way #224, Downey, CA 90242",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2cd724f715db1:0x547cc8015d480545",
+            "iid": 8285,
+            "name": "Class 302 Cafe - Downey",
+            "rank": 5,
+            "score": 0.6381981372833252,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Dulce (Vernon), 2520 S Alameda St, Vernon, CA 90058",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c9a14a059651:0x13baf961e96b4c21",
+            "iid": 8212,
+            "name": "Cafe Dulce (Vernon)",
+            "rank": 6,
+            "score": 0.6363425850868225,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8924 Long Beach Blvd, South Gate, CA 90280",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c959913895ed:0x220b1473c67b04af",
+            "iid": 8205,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 0.6353336572647095,
+            "state": "California"
+        },
+        {
+            "address": "Cinnabon, 251 Stonewood St, Downey, CA 90241",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80c2cd8208bb89c3:0x9874f3a692fb4292",
+            "iid": 8288,
+            "name": "Cinnabon",
+            "rank": 8,
+            "score": 0.6324113607406616,
+            "state": "California"
+        },
+        {
+            "address": "Cinnabon, 141 Los Cerritos Center, Cerritos, CA 90703",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80dd2d74444799e7:0xb43a44f13bfd8720",
+            "iid": 12177,
+            "name": "Cinnabon",
+            "rank": 9,
+            "score": 0.6320587396621704,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 181 S Vermont Ave, Los Angeles, CA 90004",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c7450f4fc5af:0xe025474db913680c",
+            "iid": 7981,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.6268762946128845,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 12751 Towne Center Dr Suite N-3, Cerritos, CA 90703",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dd2cfecd393e47:0x4aa11b9338b6135a",
+            "iid": 12155,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 0.6259846687316895,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3060 E, Slauson Ave, Huntington Park, CA 90255",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c9293a856d01:0xa266b3cfba8d0c6b",
+            "iid": 8196,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.6235071420669556,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Canela, 3100 E Imperial Hwy, Lynwood, CA 90262",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2cb8d04433607:0xedba8fba599f2bbc",
+            "iid": 8243,
+            "name": "Cafe Canela",
+            "rank": 13,
+            "score": 0.6211151480674744,
+            "state": "California"
+        },
+        {
+            "address": "3rd Street Coffee, 8221 3rd St UNIT 101, Downey, CA 90241",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cd9775e2a5d1:0xea930a5704632470",
+            "iid": 8297,
+            "name": "3rd Street Coffee",
+            "rank": 14,
+            "score": 0.6186147332191467,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 11031 Firestone Blvd, Norwalk, CA 90650",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2d297a963b741:0xbffdecc7ddd93e9e",
+            "iid": 8423,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": 0.6094708442687988,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 9020 Los Cerritos Center, Cerritos, CA 90703",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80dd2de2196ec2a9:0xc8c3c466a646e772",
+            "iid": 12203,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 16,
+            "score": 0.6088881492614746,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4135 Firestone Blvd, South Gate, CA 90280",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cc03a82b69b9:0x6fa5e337f46bef03",
+            "iid": 8254,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 0.6088146567344666,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 4000 E, 4000 Firestone Blvd, South Gate, CA 90280",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cc022a970b41:0xadc920bc28b0d310",
+            "iid": 8253,
+            "name": "Winchell's Donut House",
+            "rank": 18,
+            "score": 0.6058253645896912,
+            "state": "California"
+        },
+        {
+            "address": "Donas, 15729 Downey Ave, Paramount, CA 90723",
+            "category": "['Donut shop', 'Coffee store', 'Dessert shop', 'Ice cream shop']",
+            "gmap_id": "0x80c2cd1202ff7e81:0x8c40e49fd0c067ae",
+            "iid": 8274,
+            "name": "Donas",
+            "rank": 19,
+            "score": 0.6028202772140503,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4704 Firestone Blvd, South Gate, CA 90280",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2cc190d6c227b:0x107b6fcd9de5b2df",
+            "iid": 8257,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": 0.5937632322311401,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Sandra Mora",
+        "uid": 70682,
+        "user_id": 109309955601465087116
+    }
+}

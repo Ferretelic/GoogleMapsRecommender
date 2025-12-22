@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Groundwork Coffee Co., 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80c295ee3084ae23:0x8c9cf421dbc876c9",
+            "iid": 6097,
+            "name": "Groundwork Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535585730204
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634841758
+        },
+        {
+            "address": "Arizmendi Bakery, 3265 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x808f874190045807:0x2eeb5a2233b2e795",
+            "iid": 3098,
+            "name": "Arizmendi Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634879130
+        },
+        {
+            "address": "Yum Yum Donuts, 11699 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c295fcad40fe95:0x64a60cef1a0f6da2",
+            "iid": 6109,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575431639513
+        },
+        {
+            "address": "Idle Hour, 4824 Vineland Ave, Los Angeles, CA 91601",
+            "category": "['Cocktail bar', 'American restaurant', 'Cafe']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1ff11986bd:0xcc42bc2563a5e06f",
+            "iid": 7317,
+            "name": "Idle Hour",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432342486
+        },
+        {
+            "address": "Tribal Cafe, 1651 W Temple St, Los Angeles, CA 90026",
+            "category": "['Health food restaurant', 'Espresso bar', 'Juice shop', 'Salad shop', 'Sandwich shop', 'Traditional restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c705de85656b:0x859d68549af844c5",
+            "iid": 7930,
+            "name": "Tribal Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432632193
+        },
+        {
+            "address": "Boba Guys - Rideback Ranch, 1670 Beverly Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Bubble tea store']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c70ea768c6cb:0x431659f4f8a3f779",
+            "iid": 7939,
+            "name": "Boba Guys - Rideback Ranch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432639051
+        },
+        {
+            "address": "Tierra Mia Coffee, 653 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c635502a0037:0x419fb186110d7a32",
+            "iid": 7836,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432914813
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1575432958758
+        },
+        {
+            "address": "Patys Restaurant, 10001 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Diner', 'Gluten-free restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be325c7d3801:0xc4272e5c703640a",
+            "iid": 7323,
+            "name": "Patys Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575433047692
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Boba Guys NoHo, 11135 W Magnolia Blvd Unit 170, North Hollywood, CA 91601",
+            "category": "['Cafe', 'Bubble tea store']",
+            "gmap_id": "0x80c2959e6854b019:0x806a04d80be5c01a",
+            "iid": 6084,
+            "name": "Boba Guys NoHo",
+            "rank": 1,
+            "score": -1.9219087362289429,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 6892,
+            "name": "CAFE5",
+            "rank": 2,
+            "score": -2.0804009437561035,
+            "state": "California"
+        },
+        {
+            "address": "Lankershim Train Depot, 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop', 'Tourist attraction']",
+            "gmap_id": "0x80c295ee3af4753d:0x561bcd30c997e22e",
+            "iid": 6098,
+            "name": "Lankershim Train Depot",
+            "rank": 3,
+            "score": -2.1231396198272705,
+            "state": "California"
+        },
+        {
+            "address": "Famous Cafe Restaurant, 5150 N Sepulveda Blvd, Sherman Oaks, CA 91411",
+            "category": "['Cafe', 'American restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2979709a792df:0x91b92aa70ec83525",
+            "iid": 6171,
+            "name": "Famous Cafe Restaurant",
+            "rank": 4,
+            "score": -2.1328394412994385,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Del Mundo, 7414 S Vermont Ave, Los Angeles, CA 90044",
+            "category": "['Coffee roasters', 'Coffee shop']",
+            "gmap_id": "0x80c2c9762d700a39:0xb0a5921741143b49",
+            "iid": 8207,
+            "name": "Coffee Del Mundo",
+            "rank": 5,
+            "score": -2.1474995613098145,
+            "state": "California"
+        },
+        {
+            "address": "Nazo's Bakery, 810 W 8th St, Los Angeles, CA 90017",
+            "category": "['Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant', 'Delivery Restaurant', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2c7b6c30b2599:0x3ee450a2374bdc51",
+            "iid": 8115,
+            "name": "Nazo's Bakery",
+            "rank": 6,
+            "score": -2.177583932876587,
+            "state": "California"
+        },
+        {
+            "address": "Alpaca Cafe, 1600 S Azusa Ave #162, City of Industry, CA 91748",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d59563d37251:0xfa05272978ecee2f",
+            "iid": 8491,
+            "name": "Alpaca Cafe",
+            "rank": 7,
+            "score": -2.178330898284912,
+            "state": "California"
+        },
+        {
+            "address": "Hayk's Cake House, 13521 Sherman Way Unit A, Van Nuys, CA 91405",
+            "category": "['Bakery', 'Cafe', 'Cake shop', 'Coffee shop', 'Pastry shop', 'Restaurant', 'Sandwich shop', 'Wedding bakery']",
+            "gmap_id": "0x80c296e8a9ce2ef3:0x32588a63d9842e93",
+            "iid": 6143,
+            "name": "Hayk's Cake House",
+            "rank": 8,
+            "score": -2.1916120052337646,
+            "state": "California"
+        },
+        {
+            "address": "Ain't Normal Cafe, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d9ed6e3a86b:0x691165ec6ef61201",
+            "iid": 1020,
+            "name": "Ain't Normal Cafe",
+            "rank": 9,
+            "score": -2.2062647342681885,
+            "state": "California"
+        },
+        {
+            "address": "BonTea, 7275 Melrose Ave # C, Los Angeles, CA 90046",
+            "category": "['Bubble tea store', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2bf9935f618f7:0x3ce2f24ffd0f3111",
+            "iid": 7483,
+            "name": "BonTea",
+            "rank": 10,
+            "score": -2.227665901184082,
+            "state": "California"
+        },
+        {
+            "address": "Wake & Bake, 5038 Vineland Ave, North Hollywood, CA 91601",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Event venue', 'Local medical services']",
+            "gmap_id": "0x80c295f4d1c2a3e7:0xb8ac866b96df4769",
+            "iid": 6107,
+            "name": "Wake & Bake",
+            "rank": 11,
+            "score": -2.2293057441711426,
+            "state": "California"
+        },
+        {
+            "address": "MUGS Coffee Roasters, 3557 E 3rd St, Los Angeles, CA 90063",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2cffbeb171e6d:0xc7c8aeeec810638e",
+            "iid": 8374,
+            "name": "MUGS Coffee Roasters",
+            "rank": 12,
+            "score": -2.2325568199157715,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 13,
+            "score": -2.2466602325439453,
+            "state": "California"
+        },
+        {
+            "address": "Bambu Desserts And Drinks, 8255 N Woodman Ave, Panorama City, CA 91402",
+            "category": "['Dessert shop', 'Cafe']",
+            "gmap_id": "0x80c296d3ef4ce99f:0xeec160967b1f87d4",
+            "iid": 6141,
+            "name": "Bambu Desserts And Drinks",
+            "rank": 14,
+            "score": -2.2554144859313965,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 12697,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -2.263044595718384,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11147,
+            "name": "Auntie Anne's",
+            "rank": 16,
+            "score": -2.277796983718872,
+            "state": "California"
+        },
+        {
+            "address": "Paderia Bakehouse, 3032 Wilshire Blvd Suite E, Santa Monica, CA 90403",
+            "category": "['Bakery', 'Coffee shop', 'Dessert restaurant']",
+            "gmap_id": "0x80c2bbc354788743:0xdb7088f2d792724c",
+            "iid": 7195,
+            "name": "Paderia Bakehouse",
+            "rank": 17,
+            "score": -2.284383773803711,
+            "state": "California"
+        },
+        {
+            "address": "Leelin Bakery & Cafe, 209 Vermont Ave, Los Angeles, CA 90004",
+            "category": "['Filipino restaurant', 'Cafe']",
+            "gmap_id": "0x80c2c76415e17cb7:0xe22c9bf09880f4ef",
+            "iid": 8009,
+            "name": "Leelin Bakery & Cafe",
+            "rank": 18,
+            "score": -2.2928409576416016,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6150 Laurel Canyon Blvd, North Hollywood, CA 91606",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c297b1c798e6a7:0x1c00d0e00b9b133e",
+            "iid": 6176,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.2936465740203857,
+            "state": "California"
+        },
+        {
+            "address": "Cafecito Organico Atwater, 2985 Glendale Blvd, Los Angeles, CA 90039",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "gmap_id": "0x80c2c1c7014b4145:0xa05f153eca3a42d9",
+            "iid": 7627,
+            "name": "Cafecito Organico Atwater",
+            "rank": 20,
+            "score": -2.2942721843719482,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dayan Romero",
+        "uid": 139315,
+        "user_id": 118369557173045723041
+    }
+}

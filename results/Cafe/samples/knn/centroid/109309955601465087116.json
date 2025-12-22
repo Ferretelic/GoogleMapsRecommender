@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 3750 Sierra Hwy, Acton, CA 93510",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2f67c650fa271:0xb4b419c9e67b32e7",
+            "iid": 8691,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564026749792
+        },
+        {
+            "address": "McDonald's, 10721 Atlantic Ave, Lynwood, CA 90262",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cc69e8f28159:0x199cdcff22333893",
+            "iid": 8267,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564026826624
+        },
+        {
+            "address": "Starbucks, 3801 Martin Luther King Jr Blvd #1, Lynwood, CA 90262",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cc7126ed35df:0xf3049b9137b17c39",
+            "iid": 8268,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027011458
+        },
+        {
+            "address": "Dunkin', 9070 Firestone Blvd, Downey, CA 90241",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cd829eef7825:0xed73efce19891b16",
+            "iid": 8289,
+            "name": "Dunkin'",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027125733
+        },
+        {
+            "address": "I Love Boba, 1001 Vermont Ave, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2c783bfcdaad9:0x65e5aaa19e20a2dd",
+            "iid": 8056,
+            "name": "I Love Boba",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027309464
+        },
+        {
+            "address": "BionicLand, 13041 Rosecrans Ave, Norwalk, CA 90650",
+            "category": "['Mexican restaurant', 'Coffee shop', 'Frozen yogurt shop', 'Ice cream shop', 'Juice shop', 'Seafood restaurant', 'Shopping mall', 'Tamale shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2d2d0c6f2f7f5:0x5409b01261b3e316",
+            "iid": 8431,
+            "name": "BionicLand",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027666378
+        },
+        {
+            "address": "McDonald's, 3309 Tweedy Blvd, South Gate, CA 90280",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cbf980a32ffb:0x4df8f3f3ce4a031d",
+            "iid": 8251,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027817391
+        },
+        {
+            "address": "Starbucks, 5201 E Washington Blvd # A, Commerce, CA 90040",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cefdafe2351f:0x9688b8f8d1a05568",
+            "iid": 8339,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564027843762
+        },
+        {
+            "address": "Starbucks, 9001 East, Firestone Blvd UNIT 101, Downey, CA 90241",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2cd82d05070d7:0xf598642af9f021ec",
+            "iid": 8290,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1564027864334
+        },
+        {
+            "address": "McDonald's, 15235 S Figueroa St, Gardena, CA 90248",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/07/25",
+            "gmap_id": "0x80c2ca89c2f18517:0x6cb9ad2db3a3b363",
+            "iid": 8225,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1564027954536
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Texas Donuts, 4501 Whittier Blvd, East Los Angeles, CA 90022",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2cf12a0908073:0xe83a501808222101",
+            "iid": 8343,
+            "name": "Texas Donuts",
+            "rank": 1,
+            "score": -0.6879177093505859,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4480 E Olympic Blvd, East Los Angeles, CA 90023",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cf13d4588dad:0xbf5b7d8815d932d0",
+            "iid": 8344,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": -0.6995385885238647,
+            "state": "California"
+        },
+        {
+            "address": "Boulevard Cafe, 4555 Whittier Blvd, Los Angeles, CA 90022",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2cf0d1254ac21:0xbd39375655bd5f67",
+            "iid": 8342,
+            "name": "Boulevard Cafe",
+            "rank": 3,
+            "score": -0.837897539138794,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3868 E 3rd St, East Los Angeles, CA 90063",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cf5d6b33c745:0x48db5f2d11211798",
+            "iid": 8349,
+            "name": "McDonald's",
+            "rank": 4,
+            "score": -1.1432465314865112,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3853 E 3rd St E, Los Angeles, CA 90063",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2cf5d0c3609ed:0x9aea389708bfc534",
+            "iid": 8348,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -1.2239964008331299,
+            "state": "California"
+        },
+        {
+            "address": "MUGS Coffee Roasters, 3557 E 3rd St, Los Angeles, CA 90063",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2cffbeb171e6d:0xc7c8aeeec810638e",
+            "iid": 8374,
+            "name": "MUGS Coffee Roasters",
+            "rank": 6,
+            "score": -1.688618779182434,
+            "state": "California"
+        },
+        {
+            "address": "Cal Cafe & Billiards, 5128 Whittier Blvd, Los Angeles, CA 90022",
+            "category": "['Cafe', 'Restaurant']",
+            "gmap_id": "0x80c2cfca788c0431:0x74d099bb5dc7e03c",
+            "iid": 8366,
+            "name": "Cal Cafe & Billiards",
+            "rank": 7,
+            "score": -1.8057907819747925,
+            "state": "California"
+        },
+        {
+            "address": "La Cocina By: Don Manuel, 4201 East Cesar E Chavez Avenue, Los Angeles, CA 90063",
+            "category": "['Mexican restaurant', 'Coffee shop']",
+            "gmap_id": "0x80c2cf63c85b8dd7:0x6748a2875d0b6e9f",
+            "iid": 8350,
+            "name": "La Cocina By: Don Manuel",
+            "rank": 8,
+            "score": -1.9122263193130493,
+            "state": "California"
+        },
+        {
+            "address": "Dave's Deli & Catering, 213 S Mednik Ave, Los Angeles, CA 90022",
+            "category": "['Pizza Takeout', 'Breakfast restaurant', 'Coffee shop', 'Salad shop', 'Sandwich shop', 'Soup shop']",
+            "gmap_id": "0x80c2cf77aa0007a9:0xf022660049232834",
+            "iid": 8352,
+            "name": "Dave's Deli & Catering",
+            "rank": 9,
+            "score": -1.9232968091964722,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 209 S Mednik Ave, East Los Angeles, CA 90022",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2cf77a8259107:0x98c30c723f11f328",
+            "iid": 8351,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 10,
+            "score": -1.937048316001892,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3458 Whittier Blvd, Los Angeles, CA 90023",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cf4e117b062f:0xd27bb78d2a0961df",
+            "iid": 8346,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": -1.964044213294983,
+            "state": "California"
+        },
+        {
+            "address": "La Farfala Coffee Shop & Deli, 346 N Ford Blvd, East Los Angeles, CA 90022",
+            "category": "['Coffee shop', 'Store']",
+            "gmap_id": "0x80c2cf7b612d080d:0xe424922d6cfd367f",
+            "iid": 8353,
+            "name": "La Farfala Coffee Shop & Deli",
+            "rank": 12,
+            "score": -1.9910540580749512,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 3351 Whittier Blvd, Los Angeles, CA 90023",
+            "category": "['Donut shop', 'Bakery', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cf5211505c81:0xf39ddd8af289af8",
+            "iid": 8347,
+            "name": "Yum Yum Donuts",
+            "rank": 13,
+            "score": -2.1765687465667725,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 1455 S Atlantic Blvd, Los Angeles, CA 90022",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cf00a687c061:0x38546c09ca493b55",
+            "iid": 8340,
+            "name": "Winchell's Donut House",
+            "rank": 14,
+            "score": -2.2242345809936523,
+            "state": "California"
+        },
+        {
+            "address": "Tacos Baja, 5385 Whittier Blvd, Los Angeles, CA 90022",
+            "category": "['Mexican restaurant', 'Cafe', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80c2cfa66934a4b9:0xcf1328b02baa82",
+            "iid": 8361,
+            "name": "Tacos Baja",
+            "rank": 15,
+            "score": -2.239553213119507,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 906 South Goodrich Blvd, Commerce, CA 90022",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2cfa605d54955:0x7fac29652f2341e0",
+            "iid": 8360,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -2.3334388732910156,
+            "state": "California"
+        },
+        {
+            "address": "It's Boba Time - Commerce, 5452 Whittier Blvd, Commerce, CA 90022",
+            "category": "['Tea house', 'Cafe']",
+            "gmap_id": "0x80c2cfcf0f31f731:0x2ce6baaeeced7f2c",
+            "iid": 8368,
+            "name": "It's Boba Time - Commerce",
+            "rank": 17,
+            "score": -2.4085254669189453,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 269 S Atlantic Blvd, East Los Angeles, CA 90022",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cf9eb5de7a89:0x957b5b11cff9488d",
+            "iid": 8359,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": -2.5052316188812256,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5545 Whittier Blvd, East Los Angeles, CA 90022",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2cfaf7c6678f3:0x4b495d0ca59dfd60",
+            "iid": 8362,
+            "name": "McDonald's",
+            "rank": 19,
+            "score": -2.5719704627990723,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5600 Whittier Blvd, Commerce, CA 90022",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2cf3b0f4c1e8b:0xda7e786509df3c3",
+            "iid": 8345,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -2.5991954803466797,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Sandra Mora",
+        "uid": 70682,
+        "user_id": 109309955601465087116
+    }
+}

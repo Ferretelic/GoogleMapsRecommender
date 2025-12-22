@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3503 E South St, Long Beach, CA 90805",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/04/13",
+            "gmap_id": "0x80dd32e680998b1b:0x5c411c3b4534cd26",
+            "iid": 12389,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523589811983
+        },
+        {
+            "address": "Aroma Di Roma, 4708 2nd St, Long Beach, CA 90803",
+            "category": "['Cafe', 'Bakery', 'Bar', 'Breakfast restaurant', 'Coffee shop', 'Ice cream shop', 'Italian restaurant', 'Wine bar']",
+            "date": "2018/06/10",
+            "gmap_id": "0x80dd304a35305873:0x15d6dfc1b8707db7",
+            "iid": 12266,
+            "name": "Aroma Di Roma",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528633454553
+        },
+        {
+            "address": "McDonald's, 3037 Niles St, Bakersfield, CA 93306",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/09/15",
+            "gmap_id": "0x80ea6c09995b8925:0xcc59f788d7d268f2",
+            "iid": 13218,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537040526407
+        },
+        {
+            "address": "McDonald's, 1000 E 4th St, Long Beach, CA 90802",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/10/26",
+            "gmap_id": "0x80dd3115cd157833:0x783a147875576f91",
+            "iid": 12279,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540594106280
+        },
+        {
+            "address": "Maru Coffee, 1019 S Santa Fe Ave, Los Angeles, CA 90021",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2018/12/14",
+            "gmap_id": "0x80c2c62011fa30ff:0x2ac90042413608fb",
+            "iid": 7818,
+            "name": "Maru Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748614807
+        },
+        {
+            "address": "Winchell's Donut House, 1300 E Alondra Blvd, Compton, CA 90221",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/06/01",
+            "gmap_id": "0x80c2cb5f3b70bbc7:0x76e71218cc8b3829",
+            "iid": 8233,
+            "name": "Winchell's Donut House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559386729388
+        },
+        {
+            "address": "Starbucks, 500 Long Beach Blvd, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80dd3138bad0bd25:0x35c79ad2f073586b",
+            "iid": 12295,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581482435045
+        },
+        {
+            "address": "Starbucks, 2701 Ming Ave #102, Bakersfield, CA 93304",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80ea6a70304d5039:0xd7a4736daee863dd",
+            "iid": 13207,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581482792882
+        },
+        {
+            "address": "McDonald's, 5223 W Century Blvd, Los Angeles, CA 90045",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80c2b6dd6b98fea7:0x88bef9bbc7879dd4",
+            "iid": 6673,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1581482845376
+        },
+        {
+            "address": "Starbucks, 999 E Spring St, Signal Hill, CA 90755",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80dd33c1e539c0a5:0x5e9e123f94bff806",
+            "iid": 12427,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1581482903209
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 8139 Sunland Blvd, Sun Valley, CA 91352",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2943f81fbe871:0x9c4dfefaddc8ea69",
+            "iid": 6042,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": -1.5641638040542603,
+            "state": "California"
+        },
+        {
+            "address": "Raspado Xpress, 8202 San Fernando Rd, Sun Valley, CA 91352",
+            "category": "['Dessert shop', 'Cafe', 'Catering food and drink supplier', 'Cr\u00eaperie', 'Health food restaurant', 'Ice cream shop', 'Juice shop', 'Latin American restaurant', 'Mexican restaurant']",
+            "gmap_id": "0x80c2955885a906a1:0xa1b0d486b84092fa",
+            "iid": 6067,
+            "name": "Raspado Xpress",
+            "rank": 2,
+            "score": -1.610124111175537,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8274 Sunland Blvd, Sun Valley, CA 91352",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c29440297f4d35:0x1b5d2caa2f1778f1",
+            "iid": 6043,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": -1.7148663997650146,
+            "state": "California"
+        },
+        {
+            "address": "Masis Bakery, 8725 Sunland Blvd, Sun Valley, CA 91352",
+            "category": "['Bakery', 'Cafe', 'Chocolate shop', 'Coffee shop', 'Deli', 'Wedding bakery']",
+            "gmap_id": "0x80c2946c5bf66ef5:0xac51087fb9312188",
+            "iid": 6044,
+            "name": "Masis Bakery",
+            "rank": 4,
+            "score": -1.7253737449645996,
+            "state": "California"
+        },
+        {
+            "address": "The Town Cafe, 8722 Sunland Blvd, Sun Valley, CA 91352",
+            "category": "['Family restaurant', 'American restaurant', 'Breakfast restaurant', 'Cafe']",
+            "gmap_id": "0x80c2946c5c6113f7:0x458437f365e8aa8e",
+            "iid": 6045,
+            "name": "The Town Cafe",
+            "rank": 5,
+            "score": -1.8047535419464111,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 7605 Lankershim Blvd, North Hollywood, CA 91605",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c294268f175dbd:0x712bf7b02dbc5d8e",
+            "iid": 6040,
+            "name": "Yum Yum Donuts",
+            "rank": 6,
+            "score": -1.8255665302276611,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Land, 7561 Lankershim Blvd #109, North Hollywood, CA 91605",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c29426622b0cfb:0x4f31e5ac6373b5a4",
+            "iid": 6039,
+            "name": "Coffee Land",
+            "rank": 7,
+            "score": -1.9001882076263428,
+            "state": "California"
+        },
+        {
+            "address": "Continental Bakery, 12105 Saticoy St, North Hollywood, CA 91605",
+            "category": "['Bakery', 'Cafe', 'Latin American restaurant', 'Mexican restaurant', 'Wedding bakery']",
+            "gmap_id": "0x80c2969c26161f0d:0x828d3e60a264005f",
+            "iid": 6138,
+            "name": "Continental Bakery",
+            "rank": 8,
+            "score": -2.0902469158172607,
+            "state": "California"
+        },
+        {
+            "address": "Panaderia La Colmena #1, 11537 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2942dd1c6e595:0x6840156003f15f2b",
+            "iid": 6041,
+            "name": "Panaderia La Colmena #1",
+            "rank": 9,
+            "score": -2.6135454177856445,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 10980 Sherman Way, Burbank, CA 91505",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c29508e5ec2341:0x53ddbe8c55f44657",
+            "iid": 6047,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -3.0440149307250977,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 12520 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c29690281f6641:0xbad5a5ec6b6de898",
+            "iid": 6133,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -3.296536684036255,
+            "state": "California"
+        },
+        {
+            "address": "Steeple House Coffee, Worship Center, Roscoe Blvd, Sun Valley, CA 91352",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c296c933bd7209:0x840c95e16535137b",
+            "iid": 6139,
+            "name": "Steeple House Coffee",
+            "rank": 12,
+            "score": -3.384725570678711,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 12616 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c29691d6619675:0xa2998b2893688dfb",
+            "iid": 6134,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": -3.4063196182250977,
+            "state": "California"
+        },
+        {
+            "address": "La Vie Hookah Lounge, 12855 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Hookah bar', 'Internet cafe', 'Lounge']",
+            "gmap_id": "0x80c296925b6d2311:0xf07b06058f46d89a",
+            "iid": 6135,
+            "name": "La Vie Hookah Lounge",
+            "rank": 14,
+            "score": -3.6551334857940674,
+            "state": "California"
+        },
+        {
+            "address": "Boba Loca, 7324, 12901 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Cafe', 'Juice shop']",
+            "gmap_id": "0x80c29692e161e131:0x8d62b715dd855078",
+            "iid": 6137,
+            "name": "Boba Loca",
+            "rank": 15,
+            "score": -3.7367820739746094,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9725 Laurel Canyon Blvd, Pacoima, CA 91331",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2910fc6278241:0xf567fbc7b71ed89d",
+            "iid": 6019,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -3.8834285736083984,
+            "state": "California"
+        },
+        {
+            "address": "Sanamluang Caf\u00e9 N. Hollywood, 12980 Sherman Way, North Hollywood, CA 91605",
+            "category": "['Thai restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80c29692da2c0e5d:0x4f0d7857c658680e",
+            "iid": 6136,
+            "name": "Sanamluang Caf\u00e9 N. Hollywood",
+            "rank": 17,
+            "score": -3.902858018875122,
+            "state": "California"
+        },
+        {
+            "address": "Tonir Cafe, 3236 N San Fernando Blvd, Burbank, CA 91504",
+            "category": "['Mediterranean restaurant', 'Armenian restaurant', 'Cafe']",
+            "gmap_id": "0x80c295aa9ad5f125:0xe666e9131d6c44b6",
+            "iid": 6088,
+            "name": "Tonir Cafe",
+            "rank": 18,
+            "score": -4.23307466506958,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 11051 Victory Blvd, North Hollywood, CA 91606",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c295c7bf2f4137:0x854684d3a557e485",
+            "iid": 6090,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -4.275444984436035,
+            "state": "California"
+        },
+        {
+            "address": "Lilit Bakery & Cafe, 12001 Victory Blvd, North Hollywood, CA 91606",
+            "category": "['Bakery', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c29678ed0e69d7:0x17054b55196aab12",
+            "iid": 6132,
+            "name": "Lilit Bakery & Cafe",
+            "rank": 20,
+            "score": -4.315145969390869,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Felicita Lara",
+        "uid": 112659,
+        "user_id": 114891739660775700574
+    }
+}

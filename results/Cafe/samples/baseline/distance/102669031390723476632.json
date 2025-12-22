@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Healthy Creations Cafe, 376 N El Camino Real, Encinitas, CA 92024",
+            "category": "['Organic restaurant', 'Cafe', 'Gluten-free restaurant', 'Health food restaurant', 'Internet cafe', 'Juice shop']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0b88a86b6705:0xf939d51e38dec784",
+            "iid": 10450,
+            "name": "Healthy Creations Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499543736449
+        },
+        {
+            "address": "Kay's Coffee Shop, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x80e836191df3118f:0xf03d14fe2d196794",
+            "iid": 12823,
+            "name": "Kay's Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536602539368
+        },
+        {
+            "address": "Palisades Garden Cafe, 15231 La Cruz Dr, Pacific Palisades, CA 90272",
+            "category": "['Restaurant', 'Cafe']",
+            "date": "2019/03/17",
+            "gmap_id": "0x80c2a37bb2010929:0x42429785171d881e",
+            "iid": 6384,
+            "name": "Palisades Garden Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552855690340
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Glendale, 201 N Brand Blvd #100, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "date": "2019/06/02",
+            "gmap_id": "0x80c2c05573175dc3:0xd2391dff78f0f2f2",
+            "iid": 7540,
+            "name": "85\u00b0C Bakery Cafe - Glendale",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559445688286
+        },
+        {
+            "address": "Beech Street Cafe, 863 N Swarthmore Ave, Pacific Palisades, CA 90272",
+            "category": "['Italian restaurant', 'Cafe', 'Pizza restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2a37a398a2a21:0xb99fb1f1685f9d25",
+            "iid": 6379,
+            "name": "Beech Street Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840786953
+        },
+        {
+            "address": "Simpang Asia, 10433 National Blvd #2, Los Angeles, CA 90034",
+            "category": "['Indonesian restaurant', 'Cafe', 'Halal restaurant', 'Restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2bbcb99c2200f:0xc6b3dfc7ed3fbab2",
+            "iid": 7200,
+            "name": "Simpang Asia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840831242
+        },
+        {
+            "address": "Blu Jam Cafe, 18700 Ventura Blvd #140, Tarzana, CA 91356",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Brunch restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x80c2990ef06da427:0x2067459e2bc3d0ff",
+            "iid": 6208,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567310914149
+        },
+        {
+            "address": "Bourgeois Pig, 5931 Franklin Ave, Los Angeles, CA 90028",
+            "category": "['Coffee shop']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2bf46cd1f2813:0xbd8fa81754545ffd",
+            "iid": 7456,
+            "name": "Bourgeois Pig",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567453833671
+        },
+        {
+            "address": "It's Boba Time, 136 S Brand Blvd, Glendale, CA 91205",
+            "category": "['Cafe']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2c0ffbbb20935:0x313a90c687135817",
+            "iid": 7588,
+            "name": "It's Boba Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568135575973
+        },
+        {
+            "address": "M Caf\u00e9 Melrose, 7119 Melrose Ave, Hollywood, CA 90046",
+            "category": "['Macrobiotic restaurant', 'Breakfast restaurant', 'Cafe', 'Deli', 'Health food restaurant', 'Vegan restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "date": "2020/01/21",
+            "gmap_id": "0x80c2bf2ab53f14c5:0x8bf2eebea5c0db8a",
+            "iid": 7426,
+            "name": "M Caf\u00e9 Melrose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1579586097431
+        },
+        {
+            "address": "It's Boba Time (St. Andrews + Sunset), 5549 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Bubble tea store', 'Cafe']",
+            "date": "2021/02/14",
+            "gmap_id": "0x80c2bf9349b8ef0b:0xdf82b083745a5541",
+            "iid": 7481,
+            "name": "It's Boba Time (St. Andrews + Sunset)",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613345298646
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Havana Savannah, 24050 Copper Hill Dr, Valencia, CA 91354",
+            "category": "['Coffee shop', 'Cafe', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c27dfdda7366b3:0x9572d744cb32319e",
+            "iid": 5906,
+            "name": "Havana Savannah",
+            "rank": 1,
+            "score": -2.3016738891601562,
+            "state": "California"
+        },
+        {
+            "address": "Flavors from Afar, 1046 S Fairfax Ave, Los Angeles, CA 90019",
+            "category": "['Ethnic restaurant', 'Boutique', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2b90b8054b0e1:0x2acc0d2ca2d97805",
+            "iid": 6845,
+            "name": "Flavors from Afar",
+            "rank": 2,
+            "score": -2.5684640407562256,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": -2.5856964588165283,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 470 Lake Park Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f87118ebdb817:0x94ad97c3591e4a72",
+            "iid": 3085,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": -2.608694314956665,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -2.6140453815460205,
+            "state": "California"
+        },
+        {
+            "address": "Tea Lyfe Saratoga, 14554 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e4b21ccbdf3f5:0x92d5b8e58ffd703c",
+            "iid": 2471,
+            "name": "Tea Lyfe Saratoga",
+            "rank": 6,
+            "score": -2.614075183868408,
+            "state": "California"
+        },
+        {
+            "address": "Mast Coffee, 2421 17th St, Sacramento, CA 95818",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ad1f5ae775ef3:0x1e2305357af1ecda",
+            "iid": 5229,
+            "name": "Mast Coffee",
+            "rank": 7,
+            "score": -2.6199917793273926,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6597 Collins Dr, Moorpark, CA 93021",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e82d56ebdc28b3:0x9b8c6beaf817c757",
+            "iid": 12773,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": -2.6211161613464355,
+            "state": "California"
+        },
+        {
+            "address": "Get Hooked, 1543 E Los Angeles Ave, Simi Valley, CA 93065",
+            "category": "['Coffee shop', 'Bagel shop', 'Breakfast restaurant', 'Cafe', 'Lunch restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80e82fa80f1b14d3:0x3ffcccb35a9aed15",
+            "iid": 12785,
+            "name": "Get Hooked",
+            "rank": 9,
+            "score": -2.621577024459839,
+            "state": "California"
+        },
+        {
+            "address": "Mundial, 1725 Spruce St, Riverside, CA 92507",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dcaff1a0707007:0xea0e77a0876bb26f",
+            "iid": 10857,
+            "name": "Mundial",
+            "rank": 10,
+            "score": -2.6228392124176025,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 4365 Rosecrans Ave Building A, Hawthorne, CA 90250",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80c2b434035ea2ef:0x1217a54f3cd18e6f",
+            "iid": 6561,
+            "name": "Dunkin'",
+            "rank": 11,
+            "score": -2.6237125396728516,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 2739 Santa Rosa Ave, Santa Rosa, CA 95407",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808449558b8a1231:0x9880135b7b2409e",
+            "iid": 488,
+            "name": "Dunkin'",
+            "rank": 12,
+            "score": -2.6238417625427246,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 9300 Culver Blvd #113, Culver City, CA 90232",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2ba29e891b445:0x87507c270d2cd0b3",
+            "iid": 6977,
+            "name": "Philz Coffee",
+            "rank": 13,
+            "score": -2.6241090297698975,
+            "state": "California"
+        },
+        {
+            "address": "Chant\u2019el Cafe, 1750 Prairie City Rd Ste 150, Folsom, CA 95630",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ae58feefb1791:0xceb210acdf8785ed",
+            "iid": 5484,
+            "name": "Chant\u2019el Cafe",
+            "rank": 14,
+            "score": -2.624833583831787,
+            "state": "California"
+        },
+        {
+            "address": "Compton\u2019s Coffee House, 1910 Fillmore St, San Francisco, CA 94115",
+            "category": "['Cafe']",
+            "gmap_id": "0x808581502d318ef3:0xa51ab9e1de16189e",
+            "iid": 1681,
+            "name": "Compton\u2019s Coffee House",
+            "rank": 15,
+            "score": -2.6249091625213623,
+            "state": "California"
+        },
+        {
+            "address": "Stoble Coffee, 418 Broadway St, Chico, CA 95928",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x8083276f3be27437:0xdb025d436f754f4e",
+            "iid": 282,
+            "name": "Stoble Coffee",
+            "rank": 16,
+            "score": -2.6258277893066406,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3194 Kendall Dr, San Bernardino, CA 92407",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c351a61c05fba1:0x6e8cd189b981ef62",
+            "iid": 9075,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -2.6309988498687744,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8200 Saratoga Way, El Dorado Hills, CA 95762",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809afb64a1ffb7f3:0x3a915dcd3138cafe",
+            "iid": 5526,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.632220506668091,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7040 Sepulveda Blvd, Van Nuys, CA 91405",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c297ba9769c4ff:0x33775ad178835a1a",
+            "iid": 6178,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.63271427154541,
+            "state": "California"
+        },
+        {
+            "address": "Be True Cafe, 330 Tres Pinos Rd E, Hollister, CA 95023",
+            "category": "['Coffee shop', 'Brunch restaurant']",
+            "gmap_id": "0x80921de091b47ad1:0x75a371d8d9b95d8f",
+            "iid": 4533,
+            "name": "Be True Cafe",
+            "rank": 20,
+            "score": -2.6357767581939697,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dylan Furlong",
+        "uid": 20199,
+        "user_id": 102669031390723476632
+    }
+}

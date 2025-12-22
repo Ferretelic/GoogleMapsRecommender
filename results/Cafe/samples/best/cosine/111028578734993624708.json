@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Coffee Commissary, 801 N Fairfax Ave, Los Angeles, CA 90046",
+            "category": "['Cafe']",
+            "date": "2016/08/16",
+            "gmap_id": "0x80c2bece93410cd1:0x1b11252b7a68b91d",
+            "iid": 7387,
+            "name": "Coffee Commissary",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1471359441487
+        },
+        {
+            "address": "Starbucks, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/01/31",
+            "gmap_id": "0x80c2c7e7a1dea49d:0x1d8f0c57931c0218",
+            "iid": 8152,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1485837489789
+        },
+        {
+            "address": "Starbucks, 20240 S Avalon Blvd, Carson, CA 90746",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/06/11",
+            "gmap_id": "0x80dd353002092a9b:0xbf69b6810f3c23e8",
+            "iid": 12450,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497148676550
+        },
+        {
+            "address": "Starbucks, 2979 Artesia Blvd, Redondo Beach, CA 90278",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/08/05",
+            "gmap_id": "0x80c2b4f94d364e33:0xce98d2e0b79880ae",
+            "iid": 6597,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501904450235
+        },
+        {
+            "address": "Barnes & Noble, 189 The Grove Dr, Los Angeles, CA 90036",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "date": "2019/03/11",
+            "gmap_id": "0x80dcd73df3fa3897:0xe1f86585c928e6b9",
+            "iid": 11136,
+            "name": "Barnes & Noble",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552307213946
+        },
+        {
+            "address": "Stories, 1716 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Book store']",
+            "date": "2019/05/31",
+            "gmap_id": "0x80c2c71b8369099d:0x6a710a4078636fe5",
+            "iid": 7947,
+            "name": "Stories",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559288639167
+        },
+        {
+            "address": "The Waffle, 6255 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Diner', 'American restaurant', 'Bar', 'Belgian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Lunch restaurant', 'New American restaurant', 'Restaurant']",
+            "date": "2019/06/05",
+            "gmap_id": "0x80c2bf3780596299:0x40d37d9946882088",
+            "iid": 7435,
+            "name": "The Waffle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559716839340
+        },
+        {
+            "address": "Toasted And Roasted, 7311 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Coffee shop', 'Cafe', 'Coffee roasters']",
+            "date": "2019/08/12",
+            "gmap_id": "0x80c2bed4e075ed7d:0x1dacf840dbe2ac12",
+            "iid": 7394,
+            "name": "Toasted And Roasted",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1565627018972
+        },
+        {
+            "address": "Starbucks, 1250 South La Brea Ave, Los Angeles, CA 90019",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/10/10",
+            "gmap_id": "0x80c2b8fd0f6683d7:0x3105602c8245226c",
+            "iid": 6837,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1570742427649
+        },
+        {
+            "address": "Starbucks, 859 N Highland Ave, Los Angeles, CA 90038",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/12/18",
+            "gmap_id": "0x80c2bf2c932908b3:0x30dcd97ddeadb63d",
+            "iid": 7427,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1608281308756
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Froma on Melrose, 7960 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Cafe', 'Coffee shop', 'Wine bar', 'Wine store']",
+            "gmap_id": "0x80c2becc05871113:0xc121bcd668ea5fef",
+            "iid": 7382,
+            "name": "Froma on Melrose",
+            "rank": 1,
+            "score": 0.44155797362327576,
+            "state": "California"
+        },
+        {
+            "address": "Javista Organic Coffee Bar, 6707 Sunset Blvd, Hollywood, CA 90028",
+            "category": "['Coffee shop', 'Gluten-free restaurant', 'Sandwich shop', 'Tea house', 'Vegan restaurant']",
+            "gmap_id": "0x80c2bf251b2ac833:0xd4571f154bde1c13",
+            "iid": 7419,
+            "name": "Javista Organic Coffee Bar",
+            "rank": 2,
+            "score": 0.4366150200366974,
+            "state": "California"
+        },
+        {
+            "address": "Otus Thai Kitchen & Coffee, 1253 N La Brea Ave, West Hollywood, CA 90038",
+            "category": "['Thai restaurant', 'Cafe', 'Catering food and drink supplier', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2bf27d896702d:0x5d96ba16f1db2d23",
+            "iid": 7423,
+            "name": "Otus Thai Kitchen & Coffee",
+            "rank": 3,
+            "score": 0.43106749653816223,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Attic, 7353B Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2bf176363bc75:0xee7ede48dea0202b",
+            "iid": 7403,
+            "name": "Coffee Attic",
+            "rank": 4,
+            "score": 0.4239193797111511,
+            "state": "California"
+        },
+        {
+            "address": "Open Space, 457 N Fairfax Ave, Los Angeles, CA 90036",
+            "category": "['Coffee shop', 'Cafe', 'Comedy club', 'Live music venue', 'Performing arts theater']",
+            "gmap_id": "0x80c2beccd1edfed9:0xee5c1a65c2402c9",
+            "iid": 7384,
+            "name": "Open Space",
+            "rank": 5,
+            "score": 0.4205450415611267,
+            "state": "California"
+        },
+        {
+            "address": "Paramount Coffee Project, 456 N Fairfax Ave, Los Angeles, CA 90036",
+            "category": "['Restaurant', 'Coffee shop']",
+            "gmap_id": "0x80c2beccd3ed0441:0xb2938fc86b50dfc2",
+            "iid": 7385,
+            "name": "Paramount Coffee Project",
+            "rank": 6,
+            "score": 0.41924482583999634,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 20806 S Figueroa St, Carson, CA 90745",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dd354571bc9031:0x82aec23ef63204ea",
+            "iid": 12454,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 0.414420485496521,
+            "state": "California"
+        },
+        {
+            "address": "Melrose Umbrella Co., 7465 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Cocktail bar', 'Bar', 'Catering food and drink supplier', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2bed37afc3cf3:0x9d1efd01019c0c54",
+            "iid": 7392,
+            "name": "Melrose Umbrella Co.",
+            "rank": 8,
+            "score": 0.4136786162853241,
+            "state": "California"
+        },
+        {
+            "address": "Crumbs & Whiskers | Kitten & Cat Cafe, 7924 Melrose Ave, Los Angeles, CA 90048",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2becc17cca5ff:0x435e225eecd8bc34",
+            "iid": 7383,
+            "name": "Crumbs & Whiskers | Kitten & Cat Cafe",
+            "rank": 9,
+            "score": 0.4103597402572632,
+            "state": "California"
+        },
+        {
+            "address": "Rubies+Diamonds, 6115 Sunset Blvd #150, Los Angeles, CA 90028",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2bf4820107b99:0x9724b5d80f78fa8",
+            "iid": 7457,
+            "name": "Rubies+Diamonds",
+            "rank": 10,
+            "score": 0.4093446731567383,
+            "state": "California"
+        },
+        {
+            "address": "Fratelli Cafe, 7200 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Brunch restaurant', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c2b92aab2efcc9:0x69780e9040daf866",
+            "iid": 6866,
+            "name": "Fratelli Cafe",
+            "rank": 11,
+            "score": 0.408730149269104,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8000 Sunset Blvd B110, Los Angeles, CA 90046",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2bec1c01adb69:0xa34511c6faaead68",
+            "iid": 7371,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.4085880517959595,
+            "state": "California"
+        },
+        {
+            "address": "Groundwork Coffee Co., 1501 N Cahuenga Blvd, Los Angeles, CA 90028",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Pastry shop', 'Sandwich shop', 'Tea house', 'Tea store']",
+            "gmap_id": "0x80c2bf3a11dc4f5d:0xb7b824027d70ebc9",
+            "iid": 7445,
+            "name": "Groundwork Coffee Co.",
+            "rank": 13,
+            "score": 0.40826287865638733,
+            "state": "California"
+        },
+        {
+            "address": "Caff\u00e9 Etc, 6371 Selma Ave, Los Angeles, CA 90028",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bf3a31d9fad5:0xb3eaf3e7006a3ef0",
+            "iid": 7446,
+            "name": "Caff\u00e9 Etc",
+            "rank": 14,
+            "score": 0.4061375856399536,
+            "state": "California"
+        },
+        {
+            "address": "Andante, 7623 Beverly Blvd, Los Angeles, CA 90036",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b92ddcd12ef9:0xd9d0b13f5d2aeeb2",
+            "iid": 6867,
+            "name": "Andante",
+            "rank": 15,
+            "score": 0.39645761251449585,
+            "state": "California"
+        },
+        {
+            "address": "La Creme Cafe, 7376 Melrose Ave, Los Angeles, CA 90046",
+            "category": "['Cafe', 'Coffee shop', 'Cr\u00eaperie', 'French restaurant']",
+            "gmap_id": "0x80c2bed49590927b:0x7da3e29f0afc2009",
+            "iid": 7393,
+            "name": "La Creme Cafe",
+            "rank": 16,
+            "score": 0.39497578144073486,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Commissary, 6087 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2bf483dcdd163:0xe00e8a55e580a7b9",
+            "iid": 7459,
+            "name": "Coffee Commissary",
+            "rank": 17,
+            "score": 0.39316731691360474,
+            "state": "California"
+        },
+        {
+            "address": "Pho Saigon Pearl | Los Angeles, 519 S Fairfax Ave, Los Angeles, CA 90036",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Cafe', 'Dessert shop', 'Family restaurant', 'Noodle shop', 'Pho restaurant', 'Tea house', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2b93a4ebe6c19:0x74a484b36c794da2",
+            "iid": 6890,
+            "name": "Pho Saigon Pearl | Los Angeles",
+            "rank": 18,
+            "score": 0.39126041531562805,
+            "state": "California"
+        },
+        {
+            "address": "CAFE IF, 7962 Fountain Ave, Los Angeles, CA 90046",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2bec3ffbadafb:0x356d2a7efc20a98d",
+            "iid": 7375,
+            "name": "CAFE IF",
+            "rank": 19,
+            "score": 0.3879826068878174,
+            "state": "California"
+        },
+        {
+            "address": "Madison & Park Coffee, 7494 Santa Monica Blvd, West Hollywood, CA 90046",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80c2bed0c7b8bbbb:0xa14c12a60fff624c",
+            "iid": 7390,
+            "name": "Madison & Park Coffee",
+            "rank": 20,
+            "score": 0.3832046091556549,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Kim R",
+        "uid": 83719,
+        "user_id": 111028578734993624708
+    }
+}

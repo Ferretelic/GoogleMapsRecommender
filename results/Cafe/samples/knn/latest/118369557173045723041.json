@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Groundwork Coffee Co., 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80c295ee3084ae23:0x8c9cf421dbc876c9",
+            "iid": 6097,
+            "name": "Groundwork Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535585730204
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634841758
+        },
+        {
+            "address": "Arizmendi Bakery, 3265 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x808f874190045807:0x2eeb5a2233b2e795",
+            "iid": 3098,
+            "name": "Arizmendi Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634879130
+        },
+        {
+            "address": "Yum Yum Donuts, 11699 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c295fcad40fe95:0x64a60cef1a0f6da2",
+            "iid": 6109,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575431639513
+        },
+        {
+            "address": "Idle Hour, 4824 Vineland Ave, Los Angeles, CA 91601",
+            "category": "['Cocktail bar', 'American restaurant', 'Cafe']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1ff11986bd:0xcc42bc2563a5e06f",
+            "iid": 7317,
+            "name": "Idle Hour",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432342486
+        },
+        {
+            "address": "Tribal Cafe, 1651 W Temple St, Los Angeles, CA 90026",
+            "category": "['Health food restaurant', 'Espresso bar', 'Juice shop', 'Salad shop', 'Sandwich shop', 'Traditional restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c705de85656b:0x859d68549af844c5",
+            "iid": 7930,
+            "name": "Tribal Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432632193
+        },
+        {
+            "address": "Boba Guys - Rideback Ranch, 1670 Beverly Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Bubble tea store']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c70ea768c6cb:0x431659f4f8a3f779",
+            "iid": 7939,
+            "name": "Boba Guys - Rideback Ranch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432639051
+        },
+        {
+            "address": "Tierra Mia Coffee, 653 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c635502a0037:0x419fb186110d7a32",
+            "iid": 7836,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432914813
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1575432958758
+        },
+        {
+            "address": "Patys Restaurant, 10001 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Diner', 'Gluten-free restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be325c7d3801:0xc4272e5c703640a",
+            "iid": 7323,
+            "name": "Patys Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575433047692
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Little Fluffy Head Cafe, 203 W 7th St, Los Angeles, CA 90014",
+            "category": "['Bubble tea store', 'Cafe', 'Dessert shop', 'Tea house']",
+            "gmap_id": "0x80c2c6355306c7c3:0x55bb36a494891c9f",
+            "iid": 7837,
+            "name": "Little Fluffy Head Cafe",
+            "rank": 1,
+            "score": -0.017722608521580696,
+            "state": "California"
+        },
+        {
+            "address": "L.A. Cafe, 639 S Spring St, Los Angeles, CA 90014",
+            "category": "['Cafe', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee store', 'Diner', 'Lunch restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2c6355a20a8a9:0x3a90e709fc873d3f",
+            "iid": 7838,
+            "name": "L.A. Cafe",
+            "rank": 2,
+            "score": -0.04603663086891174,
+            "state": "California"
+        },
+        {
+            "address": "Corporation Food Hall, 724 S Spring St, Los Angeles, CA 90014",
+            "category": "['Food court', 'Cafe', 'Hamburger restaurant', 'Italian restaurant', 'Japanese restaurant', 'Mexican restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80c2c63534d67013:0x31648d7e378f9e23",
+            "iid": 7835,
+            "name": "Corporation Food Hall",
+            "rank": 3,
+            "score": -0.11134444177150726,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 603 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c64a9ecfad3b:0x880f198b8eefc7f2",
+            "iid": 7876,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": -0.16356314718723297,
+            "state": "California"
+        },
+        {
+            "address": "Tulip Cafe, 628 St Vincent Ct, Los Angeles, CA 90014",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7b5484f80b9:0xcddd4a92c93e576",
+            "iid": 8107,
+            "name": "Tulip Cafe",
+            "rank": 5,
+            "score": -0.17949026823043823,
+            "state": "California"
+        },
+        {
+            "address": "Bohemian House of Espresso + Chai, 548 S Spring St r110, Los Angeles, CA 90013",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c768fc852d39:0x21102154e5185f87",
+            "iid": 8017,
+            "name": "Bohemian House of Espresso + Chai",
+            "rank": 6,
+            "score": -0.19213558733463287,
+            "state": "California"
+        },
+        {
+            "address": "Springtime Cafe, 557 S Spring St, Los Angeles, CA 90013",
+            "category": "['Cafe', 'American restaurant', 'Breakfast restaurant', 'Dessert restaurant', 'Greek restaurant']",
+            "gmap_id": "0x80c2c64a9bcc7c9b:0x9fadf75d0cac39f6",
+            "iid": 7875,
+            "name": "Springtime Cafe",
+            "rank": 7,
+            "score": -0.19271419942378998,
+            "state": "California"
+        },
+        {
+            "address": "Gizmos Cereal Bar, 215 W 6th St UNIT 109, Los Angeles, CA 90014",
+            "category": "['Breakfast restaurant', 'Cafe']",
+            "gmap_id": "0x80c2c7de6e85f9bd:0x7dc8c4569f4cbcd",
+            "iid": 8140,
+            "name": "Gizmos Cereal Bar",
+            "rank": 8,
+            "score": -0.19711251556873322,
+            "state": "California"
+        },
+        {
+            "address": "Le Cafe Bonjour, 640 S Hill St s4, Los Angeles, CA 90014",
+            "category": "['Cafe', 'Coffee shop', 'Delivery Restaurant']",
+            "gmap_id": "0x80c2c7b5473519c5:0x557740ad9cc6bc40",
+            "iid": 8106,
+            "name": "Le Cafe Bonjour",
+            "rank": 9,
+            "score": -0.21297404170036316,
+            "state": "California"
+        },
+        {
+            "address": "Spring For Coffee, 548 S Spring St UNIT 106, Los Angeles, CA 90013",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c64a9adf74f7:0xeb3fb34a9e9a4c09",
+            "iid": 7874,
+            "name": "Spring For Coffee",
+            "rank": 10,
+            "score": -0.21450310945510864,
+            "state": "California"
+        },
+        {
+            "address": "Amandine Patisserie Cafe-DTLA, 650 S Hill St k10, Los Angeles, CA 90014",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7b541400001:0xb3f3cce926f4ff07",
+            "iid": 8105,
+            "name": "Amandine Patisserie Cafe-DTLA",
+            "rank": 11,
+            "score": -0.22089825570583344,
+            "state": "California"
+        },
+        {
+            "address": "HASHTAG Coffee & Tea, 227 W 8th St, Los Angeles, CA 90014",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2c7ecf773af1d:0xcbd5e3d53399025d",
+            "iid": 8157,
+            "name": "HASHTAG Coffee & Tea",
+            "rank": 12,
+            "score": -0.22709858417510986,
+            "state": "California"
+        },
+        {
+            "address": "Gelateria Uli, 541 S Spring St #104, Los Angeles, CA 90013",
+            "category": "['Ice cream shop', 'Cafe', 'Coffee shop', 'Dessert restaurant', 'Espresso bar', 'Restaurant']",
+            "gmap_id": "0x80c2c64a9154a145:0xe472cc3eaa0357d3",
+            "iid": 7872,
+            "name": "Gelateria Uli",
+            "rank": 13,
+            "score": -0.240756094455719,
+            "state": "California"
+        },
+        {
+            "address": "Gourmet LA Bakery, 548 S Broadway, Los Angeles, CA 90013",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Takeout Restaurant', 'Sandwich shop', 'Wedding bakery']",
+            "gmap_id": "0x80c2c64ac7ab519f:0x5b9f4740e032770",
+            "iid": 7878,
+            "name": "Gourmet LA Bakery",
+            "rank": 14,
+            "score": -0.2410554587841034,
+            "state": "California"
+        },
+        {
+            "address": "Don Francisco's Coffee Casa Cubana, 541 S Spring St, Los Angeles, CA 90013",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c64a9166f355:0x78416d379fb2ed04",
+            "iid": 7873,
+            "name": "Don Francisco's Coffee Casa Cubana",
+            "rank": 15,
+            "score": -0.2448512762784958,
+            "state": "California"
+        },
+        {
+            "address": "Le Macaron French Pastries Los Angeles, 541 S Spring St Suite 127, Los Angeles, CA 90013",
+            "category": "['Pastry shop', 'Bakery', 'Cafe', 'Chocolate artisan', 'Chocolate shop', 'Coffee shop', 'Dessert shop', 'Tea house']",
+            "gmap_id": "0x80c2c7071501e98f:0x198e00e8e042e6da",
+            "iid": 7932,
+            "name": "Le Macaron French Pastries Los Angeles",
+            "rank": 16,
+            "score": -0.24650828540325165,
+            "state": "California"
+        },
+        {
+            "address": "Gar\u00e7ons de Caf\u00e9, 541 S Spring St UNIT 114, Los Angeles, CA 90013",
+            "category": "['Wine bar', 'Brunch restaurant', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2c64ac1038f19:0x5936a91f68259e83",
+            "iid": 7877,
+            "name": "Gar\u00e7ons de Caf\u00e9",
+            "rank": 17,
+            "score": -0.2574775218963623,
+            "state": "California"
+        },
+        {
+            "address": "Elabrew Coffee, 127 E 6th St, Los Angeles, CA 90014",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2c63598a6d475:0x4681426c455a346e",
+            "iid": 7839,
+            "name": "Elabrew Coffee",
+            "rank": 18,
+            "score": -0.28980377316474915,
+            "state": "California"
+        },
+        {
+            "address": "Installation Coffee, 421 W 7th St, Los Angeles, CA 90014",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c72cdec82891:0x181b0dcd5d3294f3",
+            "iid": 7963,
+            "name": "Installation Coffee",
+            "rank": 19,
+            "score": -0.2927634119987488,
+            "state": "California"
+        },
+        {
+            "address": "Stumptown Coffee Roasters, 120 E 8th St, Los Angeles, CA 90014",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c72d7e8de0ab:0x6d1c32d2ebc78315",
+            "iid": 7964,
+            "name": "Stumptown Coffee Roasters",
+            "rank": 20,
+            "score": -0.31630778312683105,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dayan Romero",
+        "uid": 139315,
+        "user_id": 118369557173045723041
+    }
+}

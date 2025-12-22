@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Groundwork Coffee Co., 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80c295ee3084ae23:0x8c9cf421dbc876c9",
+            "iid": 6097,
+            "name": "Groundwork Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535585730204
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634841758
+        },
+        {
+            "address": "Arizmendi Bakery, 3265 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x808f874190045807:0x2eeb5a2233b2e795",
+            "iid": 3098,
+            "name": "Arizmendi Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634879130
+        },
+        {
+            "address": "Yum Yum Donuts, 11699 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c295fcad40fe95:0x64a60cef1a0f6da2",
+            "iid": 6109,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575431639513
+        },
+        {
+            "address": "Idle Hour, 4824 Vineland Ave, Los Angeles, CA 91601",
+            "category": "['Cocktail bar', 'American restaurant', 'Cafe']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1ff11986bd:0xcc42bc2563a5e06f",
+            "iid": 7317,
+            "name": "Idle Hour",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432342486
+        },
+        {
+            "address": "Tribal Cafe, 1651 W Temple St, Los Angeles, CA 90026",
+            "category": "['Health food restaurant', 'Espresso bar', 'Juice shop', 'Salad shop', 'Sandwich shop', 'Traditional restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c705de85656b:0x859d68549af844c5",
+            "iid": 7930,
+            "name": "Tribal Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432632193
+        },
+        {
+            "address": "Boba Guys - Rideback Ranch, 1670 Beverly Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Bubble tea store']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c70ea768c6cb:0x431659f4f8a3f779",
+            "iid": 7939,
+            "name": "Boba Guys - Rideback Ranch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432639051
+        },
+        {
+            "address": "Tierra Mia Coffee, 653 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c635502a0037:0x419fb186110d7a32",
+            "iid": 7836,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432914813
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1575432958758
+        },
+        {
+            "address": "Patys Restaurant, 10001 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Diner', 'Gluten-free restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be325c7d3801:0xc4272e5c703640a",
+            "iid": 7323,
+            "name": "Patys Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575433047692
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7537,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 1,
+            "score": 5.480929851531982,
+            "state": "California"
+        },
+        {
+            "address": "House of Pies, 1869 N Vermont Ave, Los Angeles, CA 90027, United States",
+            "category": "['Diner', 'American restaurant', 'Bakery', 'Coffee shop', 'Fine dining restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c0af1990239d:0x9095e10852602054",
+            "iid": 7554,
+            "name": "House of Pies",
+            "rank": 2,
+            "score": 5.111580848693848,
+            "state": "California"
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "rank": 3,
+            "score": 5.017045974731445,
+            "state": "California"
+        },
+        {
+            "address": "Urth Caffe, 459 S Hewitt St, Los Angeles, CA 90013",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop', 'Sandwich shop', 'Tea house']",
+            "gmap_id": "0x80c2c63b819c5a17:0x560b879100a3bb9f",
+            "iid": 7851,
+            "name": "Urth Caffe",
+            "rank": 4,
+            "score": 5.012364387512207,
+            "state": "California"
+        },
+        {
+            "address": "L.A. Cafe, 639 S Spring St, Los Angeles, CA 90014",
+            "category": "['Cafe', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee store', 'Diner', 'Lunch restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2c6355a20a8a9:0x3a90e709fc873d3f",
+            "iid": 7838,
+            "name": "L.A. Cafe",
+            "rank": 5,
+            "score": 4.915894031524658,
+            "state": "California"
+        },
+        {
+            "address": "Krispy Kreme, 1521 N Victory Pl, Burbank, CA 91504",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "gmap_id": "0x80c2956b30a61cb1:0x6e664cfc0facf0e7",
+            "iid": 6073,
+            "name": "Krispy Kreme",
+            "rank": 6,
+            "score": 4.899439811706543,
+            "state": "California"
+        },
+        {
+            "address": "Bob's Big Boy, 4211 W Riverside Dr, Burbank, CA 91505",
+            "category": "['Hamburger restaurant', 'American restaurant', 'Coffee shop', 'Diner', 'Fast food restaurant', 'Historical landmark']",
+            "gmap_id": "0x80c2bfcd2b263829:0x8d2acdfb878a2f0a",
+            "iid": 7499,
+            "name": "Bob's Big Boy",
+            "rank": 7,
+            "score": 4.891491413116455,
+            "state": "California"
+        },
+        {
+            "address": "Alcove, 1929 Hillhurst Ave, Los Angeles, CA 90027",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c0b028a6fa0d:0xab8e32e3232406ec",
+            "iid": 7556,
+            "name": "Alcove",
+            "rank": 8,
+            "score": 4.864648342132568,
+            "state": "California"
+        },
+        {
+            "address": "Tierra Mia Coffee, 1202 N Alvarado St, Los Angeles, CA 90026",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "gmap_id": "0x80c2c71a1ed798c5:0x61068b1c00694f99",
+            "iid": 7945,
+            "name": "Tierra Mia Coffee",
+            "rank": 9,
+            "score": 4.86015510559082,
+            "state": "California"
+        },
+        {
+            "address": "Blu Jam Cafe, 15045 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Brunch restaurant', 'American restaurant', 'Breakfast restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297c1bbe6108f:0xfc36d0be05b68ab",
+            "iid": 6181,
+            "name": "Blu Jam Cafe",
+            "rank": 10,
+            "score": 4.8081793785095215,
+            "state": "California"
+        },
+        {
+            "address": "The Original Pantry Cafe, 877 S Figueroa St, Los Angeles, CA 90017",
+            "category": "['Restaurant', 'Grill', 'Breakfast restaurant', 'Cafe', 'Dessert restaurant', 'Diner', 'Down home cooking restaurant', 'Hamburger restaurant', 'Lunch restaurant']",
+            "gmap_id": "0x80c2c7b714d5310f:0xf3a421bd8607c90f",
+            "iid": 8116,
+            "name": "The Original Pantry Cafe",
+            "rank": 11,
+            "score": 4.7700982093811035,
+            "state": "California"
+        },
+        {
+            "address": "101 Coffee Shop, 6145 Franklin Ave, Los Angeles, CA 90028",
+            "category": "['Diner', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant']",
+            "gmap_id": "0x80c2bf3f438c1677:0x6320643a129cc366",
+            "iid": 7451,
+            "name": "101 Coffee Shop",
+            "rank": 12,
+            "score": 4.649973392486572,
+            "state": "California"
+        },
+        {
+            "address": "Bottega Louie, 700 S Grand Ave, Los Angeles, CA 90017",
+            "category": "['Italian restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Chocolate shop', 'Coffee shop', 'Pastry shop', 'Patisserie', 'Restaurant']",
+            "gmap_id": "0x80c2c7b44ee125ff:0x189e483154a17e53",
+            "iid": 8099,
+            "name": "Bottega Louie",
+            "rank": 13,
+            "score": 4.570419788360596,
+            "state": "California"
+        },
+        {
+            "address": "Gigis Caf\u00e9 Cubano, 2200 W Temple St, Los Angeles, CA 90026",
+            "category": "['Cuban restaurant', 'Bakery', 'Cafe']",
+            "gmap_id": "0x80c2c70e0d785e0b:0x63caf757f14b7667",
+            "iid": 7937,
+            "name": "Gigis Caf\u00e9 Cubano",
+            "rank": 14,
+            "score": 4.569179534912109,
+            "state": "California"
+        },
+        {
+            "address": "Masa of Echo Park Bakery & Cafe, 1800 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Pizza restaurant', 'Cafe', 'Italian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2c71b91281563:0x1cdcfffd6a3f1a57",
+            "iid": 7949,
+            "name": "Masa of Echo Park Bakery & Cafe",
+            "rank": 15,
+            "score": 4.530240535736084,
+            "state": "California"
+        },
+        {
+            "address": "The Little Jewel of New Orleans, 207 Ord St, Los Angeles, CA 90012",
+            "category": "['Po\u2019 boys restaurant', 'Breakfast restaurant', 'Coffee shop', 'Contemporary Louisiana restaurant', 'Deli', 'Grocery store', 'Market', 'Restaurant', 'Sandwich shop', 'Southern restaurant (US)']",
+            "gmap_id": "0x80c2c65adf56b007:0x3029097586d1a8f8",
+            "iid": 7909,
+            "name": "The Little Jewel of New Orleans",
+            "rank": 16,
+            "score": 4.361310958862305,
+            "state": "California"
+        },
+        {
+            "address": "Nat's Early Bite, 14115 Burbank Blvd, Sherman Oaks, CA 91401",
+            "category": "['Breakfast restaurant', 'Cafe', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x80c297ad58473d0d:0xb6946c34a9222675",
+            "iid": 6174,
+            "name": "Nat's Early Bite",
+            "rank": 17,
+            "score": 4.283240795135498,
+            "state": "California"
+        },
+        {
+            "address": "EAT, 11108 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x80c295f39f46887f:0x7392e764cd8f13a8",
+            "iid": 6104,
+            "name": "EAT",
+            "rank": 18,
+            "score": 4.211410045623779,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 10901 Riverside Dr, North Hollywood, CA 91602",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2be225b910d61:0x16e352feaca68bf2",
+            "iid": 7318,
+            "name": "McDonald's",
+            "rank": 19,
+            "score": 4.178035736083984,
+            "state": "California"
+        },
+        {
+            "address": "Zinc Cafe & Market and Bar, 580 Mateo St, Los Angeles, CA 90013",
+            "category": "['Restaurant', 'Bar', 'Cafe', 'Event venue', 'Market']",
+            "gmap_id": "0x80c2c62328b9818b:0x221e66a24ee08f64",
+            "iid": 7823,
+            "name": "Zinc Cafe & Market and Bar",
+            "rank": 20,
+            "score": 4.160257816314697,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dayan Romero",
+        "uid": 139315,
+        "user_id": 118369557173045723041
+    }
+}

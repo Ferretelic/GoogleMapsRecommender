@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Healthy Creations Cafe, 376 N El Camino Real, Encinitas, CA 92024",
+            "category": "['Organic restaurant', 'Cafe', 'Gluten-free restaurant', 'Health food restaurant', 'Internet cafe', 'Juice shop']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0b88a86b6705:0xf939d51e38dec784",
+            "iid": 10450,
+            "name": "Healthy Creations Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499543736449
+        },
+        {
+            "address": "Kay's Coffee Shop, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x80e836191df3118f:0xf03d14fe2d196794",
+            "iid": 12823,
+            "name": "Kay's Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536602539368
+        },
+        {
+            "address": "Palisades Garden Cafe, 15231 La Cruz Dr, Pacific Palisades, CA 90272",
+            "category": "['Restaurant', 'Cafe']",
+            "date": "2019/03/17",
+            "gmap_id": "0x80c2a37bb2010929:0x42429785171d881e",
+            "iid": 6384,
+            "name": "Palisades Garden Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552855690340
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Glendale, 201 N Brand Blvd #100, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "date": "2019/06/02",
+            "gmap_id": "0x80c2c05573175dc3:0xd2391dff78f0f2f2",
+            "iid": 7540,
+            "name": "85\u00b0C Bakery Cafe - Glendale",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559445688286
+        },
+        {
+            "address": "Beech Street Cafe, 863 N Swarthmore Ave, Pacific Palisades, CA 90272",
+            "category": "['Italian restaurant', 'Cafe', 'Pizza restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2a37a398a2a21:0xb99fb1f1685f9d25",
+            "iid": 6379,
+            "name": "Beech Street Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840786953
+        },
+        {
+            "address": "Simpang Asia, 10433 National Blvd #2, Los Angeles, CA 90034",
+            "category": "['Indonesian restaurant', 'Cafe', 'Halal restaurant', 'Restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2bbcb99c2200f:0xc6b3dfc7ed3fbab2",
+            "iid": 7200,
+            "name": "Simpang Asia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840831242
+        },
+        {
+            "address": "Blu Jam Cafe, 18700 Ventura Blvd #140, Tarzana, CA 91356",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Brunch restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x80c2990ef06da427:0x2067459e2bc3d0ff",
+            "iid": 6208,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567310914149
+        },
+        {
+            "address": "Bourgeois Pig, 5931 Franklin Ave, Los Angeles, CA 90028",
+            "category": "['Coffee shop']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2bf46cd1f2813:0xbd8fa81754545ffd",
+            "iid": 7456,
+            "name": "Bourgeois Pig",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567453833671
+        },
+        {
+            "address": "It's Boba Time, 136 S Brand Blvd, Glendale, CA 91205",
+            "category": "['Cafe']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2c0ffbbb20935:0x313a90c687135817",
+            "iid": 7588,
+            "name": "It's Boba Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568135575973
+        },
+        {
+            "address": "M Caf\u00e9 Melrose, 7119 Melrose Ave, Hollywood, CA 90046",
+            "category": "['Macrobiotic restaurant', 'Breakfast restaurant', 'Cafe', 'Deli', 'Health food restaurant', 'Vegan restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "date": "2020/01/21",
+            "gmap_id": "0x80c2bf2ab53f14c5:0x8bf2eebea5c0db8a",
+            "iid": 7426,
+            "name": "M Caf\u00e9 Melrose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1579586097431
+        },
+        {
+            "address": "It's Boba Time (St. Andrews + Sunset), 5549 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Bubble tea store', 'Cafe']",
+            "date": "2021/02/14",
+            "gmap_id": "0x80c2bf9349b8ef0b:0xdf82b083745a5541",
+            "iid": 7481,
+            "name": "It's Boba Time (St. Andrews + Sunset)",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613345298646
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Hilltop Coffee + Kitchen View Park, 4427 W Slauson Ave, Los Angeles, CA 90043",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b7bb28ae5aed:0x8d432fd39cb0e13b",
+            "iid": 6705,
+            "name": "Hilltop Coffee + Kitchen View Park",
+            "rank": 1,
+            "score": -0.826812207698822,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4292 Crenshaw Blvd, Los Angeles, CA 90008",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b827e77c2699:0x91b2865678580bdb",
+            "iid": 6710,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": -1.7372990846633911,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5015 W Slauson Ave, Los Angeles, CA 90056, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b76640d5e567:0xc912c3212db7dc16",
+            "iid": 6699,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": -1.8007454872131348,
+            "state": "California"
+        },
+        {
+            "address": "Hot and Cool Cafe, 4331 Degnan Blvd, Los Angeles, CA 90008",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b74943344a5b:0x88fb3b5f6d188c86",
+            "iid": 6692,
+            "name": "Hot and Cool Cafe",
+            "rank": 4,
+            "score": -1.8413928747177124,
+            "state": "California"
+        },
+        {
+            "address": "Harun coffee, 4336 Degnan Blvd, Los Angeles, CA 90008",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b7a5256bf2c3:0xffc9fcae85a5a91f",
+            "iid": 6702,
+            "name": "Harun coffee",
+            "rank": 5,
+            "score": -1.8560633659362793,
+            "state": "California"
+        },
+        {
+            "address": "CoffeeWalk YogurtTalk, 3650 W Martin Luther King Jr Blvd, Los Angeles, CA 90008",
+            "category": "['Frozen yogurt shop', 'Bubble tea store', 'Coffee shop', 'Ice cream shop', 'Pastry shop', 'Tea house']",
+            "gmap_id": "0x80c2b82f0e0a15c7:0xef679573c689dfc9",
+            "iid": 6711,
+            "name": "CoffeeWalk YogurtTalk",
+            "rank": 6,
+            "score": -2.004344940185547,
+            "state": "California"
+        },
+        {
+            "address": "Puerto Nuevo Coffee & Tacos, 1220 N La Brea Ave, Inglewood, CA 90302",
+            "category": "['Mexican restaurant', 'Coffee shop', 'Taco restaurant']",
+            "gmap_id": "0x80c2b772a1729ba1:0x251909a81cd67485",
+            "iid": 6701,
+            "name": "Puerto Nuevo Coffee & Tacos",
+            "rank": 7,
+            "score": -2.052255392074585,
+            "state": "California"
+        },
+        {
+            "address": "Krispy Kreme, 4034 Crenshaw Blvd, Los Angeles, CA 90008",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "gmap_id": "0x80c2b82f62c17987:0xf2d97e3acb9fcd29",
+            "iid": 6712,
+            "name": "Krispy Kreme",
+            "rank": 8,
+            "score": -2.1327805519104004,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 941 N La Brea Ave, Inglewood, CA 90302",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b71281e1d065:0x587cc495b1d994be",
+            "iid": 6684,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -2.430912494659424,
+            "state": "California"
+        },
+        {
+            "address": "Rose Donuts And Ice Cream, 917 N La Brea Ave #2207, Inglewood, CA 90302",
+            "category": "['Donut shop', 'Coffee shop', 'Ice cream shop']",
+            "gmap_id": "0x80c2b70d7f1d09e9:0x8905d053c2cbf76c",
+            "iid": 6682,
+            "name": "Rose Donuts And Ice Cream",
+            "rank": 10,
+            "score": -2.489851474761963,
+            "state": "California"
+        },
+        {
+            "address": "Tak's Coffee Shop, 3870 Crenshaw Blvd #101, Los Angeles, CA 90008",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b8300e7b7c07:0xa6ea73e8a0eb3b07",
+            "iid": 6713,
+            "name": "Tak's Coffee Shop",
+            "rank": 11,
+            "score": -2.4975433349609375,
+            "state": "California"
+        },
+        {
+            "address": "CJ's Cafe, 3655 South La Brea Ave, Los Angeles, CA 90016",
+            "category": "['Cafe', 'Soul food restaurant']",
+            "gmap_id": "0x80c2b9b7dca07ecb:0x6593a9e50af55b10",
+            "iid": 6954,
+            "name": "CJ's Cafe",
+            "rank": 12,
+            "score": -2.7766880989074707,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 7123 Crenshaw Blvd, Los Angeles, CA 90043",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b7ba6509ce21:0xfd15cfcc8b0a4bf9",
+            "iid": 6704,
+            "name": "McDonald's",
+            "rank": 13,
+            "score": -2.781240940093994,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5080 Obama Blvd, Los Angeles, CA 90016",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2b9b62d141261:0xf0d16d59325e4b27",
+            "iid": 6952,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.7972912788391113,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1740 Centinela Ave, Inglewood, CA 90302",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b7402b415d31:0x4da6f37475691cf7",
+            "iid": 6689,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -2.8411459922790527,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5245 W Centinela Ave, Los Angeles, CA 90045",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2b7103f2e1c8f:0xd7ac87433413565b",
+            "iid": 6683,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -2.858869791030884,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3722 Crenshaw Blvd, Los Angeles, CA 90016",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b830a9618bad:0xc58d38c572bdc1f8",
+            "iid": 6714,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -2.8739025592803955,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3602 South La Brea Ave, Los Angeles, CA 90016",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b9b7b1a50c77:0xa73327561f395668",
+            "iid": 6953,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": -2.8952062129974365,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5301 W Centinela Ave, Los Angeles, CA 90045",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2b7411136e343:0xfb4ff8faa0c33d22",
+            "iid": 6691,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.9860713481903076,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 3023 W Florence Ave, Los Angeles, CA 90043",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b7b771a5baf3:0x83bf2370ddf53320",
+            "iid": 6703,
+            "name": "Winchell's Donut House",
+            "rank": 20,
+            "score": -3.0876221656799316,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dylan Furlong",
+        "uid": 20199,
+        "user_id": 102669031390723476632
+    }
+}

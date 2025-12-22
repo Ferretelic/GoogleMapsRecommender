@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Basecamp Cafe and Info Lounge, 16311 Askin Dr, Pine Mountain Club, CA 93222",
+            "category": "['Cafe']",
+            "date": "2016/12/28",
+            "gmap_id": "0x80e98934d1002ff9:0x349d05422895b8d6",
+            "iid": 13035,
+            "name": "Basecamp Cafe and Info Lounge",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1482954684288
+        },
+        {
+            "address": "Jakes Original Tex Mex Cafe, 1710 Oak St, Bakersfield, CA 93301",
+            "category": "['Tex-Mex restaurant', 'Cafe', 'Restaurant']",
+            "date": "2019/10/05",
+            "gmap_id": "0x80ea69fb096e3c8b:0x916cfd2ddc2c266c",
+            "iid": 13193,
+            "name": "Jakes Original Tex Mex Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570297768668
+        },
+        {
+            "address": "Blu Jam Cafe, 15045 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Brunch restaurant', 'American restaurant', 'Breakfast restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "date": "2019/10/10",
+            "gmap_id": "0x80c297c1bbe6108f:0xfc36d0be05b68ab",
+            "iid": 6181,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570668094189
+        },
+        {
+            "address": "Spencer's Cafe, 3401 Mall View Rd, Bakersfield, CA 93306",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2020/03/13",
+            "gmap_id": "0x80ea695344607ed9:0x9bd447ea4aa5e7f3",
+            "iid": 13165,
+            "name": "Spencer's Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1584140262093
+        },
+        {
+            "address": "Reading Cinemas Valley Plaza with IMAX, Reading Cinemas Valley Plaza, 2000 Wible Rd, Bakersfield, CA 93304",
+            "category": "['Movie theater', 'Cafe', 'Takeout Restaurant']",
+            "date": "2020/05/18",
+            "gmap_id": "0x80ea6a701d417e29:0x95801791086f3e45",
+            "iid": 13205,
+            "name": "Reading Cinemas Valley Plaza with IMAX",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1589769255836
+        },
+        {
+            "address": "Blu Jam Cafe, 12400 Wilshire Blvd, Los Angeles, CA 90025",
+            "category": "['Cafe', 'Breakfast restaurant', 'New American restaurant']",
+            "date": "2020/05/18",
+            "gmap_id": "0x80c2bb44b3d6c71b:0x952235020431d19d",
+            "iid": 7117,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1589770592340
+        },
+        {
+            "address": "Cunha's Country Store, 448 Main St, Half Moon Bay, CA 94019",
+            "category": "['Grocery store', 'Chocolate shop', 'Coffee shop', 'Deli', \"Farmers' market\", 'Liquor store', 'Notary public', 'Sandwich shop', 'Souvenir store', 'Wine store']",
+            "date": "2020/06/29",
+            "gmap_id": "0x808f74b4abde36c7:0xcf994874cd7e8d86",
+            "iid": 2526,
+            "name": "Cunha's Country Store",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593397717987
+        },
+        {
+            "address": "Seven Suns Coffee & Cafe, 1011 S Mt Shasta Blvd, Mt Shasta, CA 96067",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Californian restaurant', 'Coffee store', 'Espresso bar', 'Lunch restaurant', 'Pastry shop', 'Restaurant', 'Tea house']",
+            "date": "2020/08/10",
+            "gmap_id": "0x54cde6e09b615a7b:0x98358c92bc36fab3",
+            "iid": 24,
+            "name": "Seven Suns Coffee & Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1597092085542
+        },
+        {
+            "address": "McDonald's, 35102 Merle Haggard Dr, Bakersfield, CA 93308",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/11/09",
+            "gmap_id": "0x80ea5d33f028919d:0x1fb50337dd6a3738",
+            "iid": 13159,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604955942409
+        },
+        {
+            "address": "Starbucks, 31777 Castaic Rd, Castaic, CA 91384",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/12/07",
+            "gmap_id": "0x80c27ed725cdd3f3:0x17c4a9b8cc5258e0",
+            "iid": 5912,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1607305651738
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Bonibi Coffee, 32123 Lindero Canyon Rd STE 111, Westlake Village, CA 91361",
+            "category": "['Coffee shop', 'Bakery', 'Gift shop', 'Pastry shop', 'Tea house']",
+            "gmap_id": "0x80e82538e483969b:0xb8cf9aec4d482d22",
+            "iid": 12735,
+            "name": "Bonibi Coffee",
+            "rank": 1,
+            "score": -2.5040695667266846,
+            "state": "California"
+        },
+        {
+            "address": "Flavors from Afar, 1046 S Fairfax Ave, Los Angeles, CA 90019",
+            "category": "['Ethnic restaurant', 'Boutique', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2b90b8054b0e1:0x2acc0d2ca2d97805",
+            "iid": 6845,
+            "name": "Flavors from Afar",
+            "rank": 2,
+            "score": -2.534843921661377,
+            "state": "California"
+        },
+        {
+            "address": "Ming Chevron, 6601 Ming Ave, Bakersfield, CA 93309",
+            "category": "['Gas station', 'Beer store', 'Cell phone accessory store', 'Coffee store', 'Convenience store', 'Tobacco shop']",
+            "gmap_id": "0x80ea41be7efe017b:0x71c38d5d8f818347",
+            "iid": 13107,
+            "name": "Ming Chevron",
+            "rank": 3,
+            "score": -2.6019208431243896,
+            "state": "California"
+        },
+        {
+            "address": "Hwy 155 Market & Cafe, 10675 CA-155, Glennville, CA 93226",
+            "category": "['Cafe']",
+            "gmap_id": "0x80ea81f4b1d26d85:0xe5fa1e96d4d7bf54",
+            "iid": 13226,
+            "name": "Hwy 155 Market & Cafe",
+            "rank": 4,
+            "score": -2.604407548904419,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7145 Redwood Blvd, Novato, CA 94945",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8085bdc1cf149f47:0xa4e902053fd79988",
+            "iid": 2021,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -2.6384458541870117,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3711 E Shaw Ave Suite 101, Clovis, CA 93619",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80945b6798778b57:0xe04dbb89bd457e0f",
+            "iid": 4604,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.688408374786377,
+            "state": "California"
+        },
+        {
+            "address": "Original Barista, 1920 Harbor Blvd, Costa Mesa, CA 92627",
+            "category": "['Coffee store']",
+            "gmap_id": "0x80dcdfd5e5a0655f:0x9fb433deffc6fc29",
+            "iid": 11529,
+            "name": "Original Barista",
+            "rank": 7,
+            "score": -2.718946695327759,
+            "state": "California"
+        },
+        {
+            "address": "Tea Lyfe Saratoga, 14554 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e4b21ccbdf3f5:0x92d5b8e58ffd703c",
+            "iid": 2471,
+            "name": "Tea Lyfe Saratoga",
+            "rank": 8,
+            "score": -2.734919309616089,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 9300 Culver Blvd #113, Culver City, CA 90232",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2ba29e891b445:0x87507c270d2cd0b3",
+            "iid": 6977,
+            "name": "Philz Coffee",
+            "rank": 9,
+            "score": -2.740892171859741,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.741964101791382,
+            "state": "California"
+        },
+        {
+            "address": "Chant\u2019el Cafe, 1750 Prairie City Rd Ste 150, Folsom, CA 95630",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ae58feefb1791:0xceb210acdf8785ed",
+            "iid": 5484,
+            "name": "Chant\u2019el Cafe",
+            "rank": 11,
+            "score": -2.746011734008789,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 12,
+            "score": -2.746800661087036,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6597 Collins Dr, Moorpark, CA 93021",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e82d56ebdc28b3:0x9b8c6beaf817c757",
+            "iid": 12773,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -2.747854709625244,
+            "state": "California"
+        },
+        {
+            "address": "Stirred Roasters Coffee House, 13295 South St, Cerritos, CA 90703",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd2d31491d6d29:0x5c462ae7b1afc36e",
+            "iid": 12165,
+            "name": "Stirred Roasters Coffee House",
+            "rank": 14,
+            "score": -2.753354549407959,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 73 Lee Rd, Watsonville, CA 95076",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808e1b3d123f3b59:0xaf41c5a735856949",
+            "iid": 2215,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -2.7538154125213623,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5411 Diablo Dr, Sacramento, CA 95842",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adfb5618d5a87:0x32b1b6e2249a524d",
+            "iid": 5435,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -2.754124164581299,
+            "state": "California"
+        },
+        {
+            "address": "Cafe De Mama, 1102 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b9506215aeab:0xf6fe0f900a73fd73",
+            "iid": 6907,
+            "name": "Cafe De Mama",
+            "rank": 17,
+            "score": -2.754826545715332,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.7573413848876953,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 8001 Eastern Ave, Bell Gardens, CA 90201",
+            "category": "['Donut shop', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2cdb2a8235cfd:0xc0c5bc8eb4f2c7b3",
+            "iid": 8310,
+            "name": "Winchell's Donut House",
+            "rank": 19,
+            "score": -2.7594733238220215,
+            "state": "California"
+        },
+        {
+            "address": "Sharetea, 2010 Birch Rd, Chula Vista, CA 91915",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d94558432d8119:0xe042877e396a09eb",
+            "iid": 9240,
+            "name": "Sharetea",
+            "rank": 20,
+            "score": -2.7616872787475586,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "laurie Obrien",
+        "uid": 23302,
+        "user_id": 103084260355135762041
+    }
+}

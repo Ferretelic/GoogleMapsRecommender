@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Betty Faye's Cafe, 718 N Main St # 101, Corona, CA 92880",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Cafe', 'Hamburger restaurant', 'Sandwich shop']",
+            "date": "2017/01/03",
+            "gmap_id": "0x80dcc83b77b67211:0x1cef392a52d454d6",
+            "iid": 10963,
+            "name": "Betty Faye's Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483432599823
+        },
+        {
+            "address": "Chubby's Diner, 855 N Lemoore Ave #170, Lemoore, CA 93245",
+            "category": "['Diner', 'Breakfast restaurant', 'Coffee shop', 'Family restaurant', 'Fine dining restaurant']",
+            "date": "2017/06/11",
+            "gmap_id": "0x8094c0990dd9a0c9:0x287526c1c09bbbe7",
+            "iid": 4752,
+            "name": "Chubby's Diner",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497211292477
+        },
+        {
+            "address": "The Shoppe @ Bravoland, 33341 Bernard Dr ste a, Kettleman City, CA 93239",
+            "category": "['Gift shop', 'Antique store', 'Cheese shop', 'Coffee shop', 'Dog park', 'Event venue', 'Ice cream shop', 'Playground', 'Public bathroom', 'Wine bar']",
+            "date": "2017/06/26",
+            "gmap_id": "0x80eb4d45ed1deca5:0xf6d9cdd23ff90393",
+            "iid": 13260,
+            "name": "The Shoppe @ Bravoland",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498498994134
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 3545 Central Ave, Riverside, CA 92506",
+            "category": "['Coffee shop', 'Tea house']",
+            "date": "2017/07/17",
+            "gmap_id": "0x80dcb1b697b43613:0xb6249e09ae4bba8",
+            "iid": 10879,
+            "name": "The Coffee Bean & Tea Leaf",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500253287618
+        },
+        {
+            "address": "Le Rendez-Vous Cafe, 201 E Valley Blvd, Colton, CA 92324",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2017/07/27",
+            "gmap_id": "0x80dcad189e9bec5f:0x260bb85cbb8eea12",
+            "iid": 10822,
+            "name": "Le Rendez-Vous Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501177576835
+        },
+        {
+            "address": "McDonald's, 100 N Azusa Ave, West Covina, CA 91791",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/02/11",
+            "gmap_id": "0x80c32824a4460ba5:0x96bae177bdd69e52",
+            "iid": 8725,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518313786462
+        },
+        {
+            "address": "McDonald's, 10952 Magnolia Ave, Riverside, CA 92505",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/02/11",
+            "gmap_id": "0x80dcb740d49dec7f:0x88f5b5446949acbf",
+            "iid": 10917,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518322855336
+        },
+        {
+            "address": "McDonald's, 7474 Indiana Ave, Riverside, CA 92504",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/03/13",
+            "gmap_id": "0x80dcb0574e86208d:0xf23a3c041a630cf9",
+            "iid": 10861,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1520921137087
+        },
+        {
+            "address": "Starbucks, 120 E Ramona Expy, Perris, CA 92571",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/03/13",
+            "gmap_id": "0x80dca121af859e73:0x874d3dbdbeabd08d",
+            "iid": 10731,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1520921206470
+        },
+        {
+            "address": "McDonald's, 64 Ramona Expy, Perris, CA 92571, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/03/18",
+            "gmap_id": "0x80dca1218492a949:0x7a939459b13fa57a",
+            "iid": 10730,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1521405750854
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 2242 University Ave, Riverside, CA 92507",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcae202d05d22d:0x9d979fe16cc23b4b",
+            "iid": 10835,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": 9.778717041015625,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2246 Iowa Ave, Riverside, CA 92507",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcae0d61b10eaf:0xeaac54451d14e2e3",
+            "iid": 10830,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": 8.960600852966309,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1280 W Blaine St A, Riverside, CA 92507, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcae1521fe2f15:0xb438545cd0c29102",
+            "iid": 10833,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 8.920100212097168,
+            "state": "California"
+        },
+        {
+            "address": "Goodfellas Cafe, 1090 Pomona Rd, Corona, CA 92882",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Cafe', 'Chinese tea house', 'Restaurant']",
+            "gmap_id": "0x80dcc842fe463e9f:0xbc680b4481f033ea",
+            "iid": 10964,
+            "name": "Goodfellas Cafe",
+            "rank": 4,
+            "score": 8.695878028869629,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2891 Canyon Springs Pkwy, Riverside, CA 92507",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcaf5a0acc11bd:0xbd02af3910f14dca",
+            "iid": 10850,
+            "name": "McDonald's",
+            "rank": 5,
+            "score": 8.557320594787598,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 10141 Magnolia Ave, Riverside, CA 92503",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcb734582b8dd5:0xd158883511a1ee7b",
+            "iid": 10915,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 8.516592025756836,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 3560 Riverside Plaza Dr Ste 410, Riverside, CA 92506",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80dcb1b6c44618ab:0x3e74ce2a5efaa1a1",
+            "iid": 10881,
+            "name": "Panera Bread",
+            "rank": 7,
+            "score": 8.163802146911621,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4718 Green River Rd, Corona, CA 92880",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dccf26a1ccf77f:0x220e8a784ec1a3f3",
+            "iid": 11011,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 8.08478832244873,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1181 S Mt Vernon Ave, Colton, CA 92324, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcac55f74e4cc7:0xf274251729ff5760",
+            "iid": 10811,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 7.957380294799805,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3782 Tyler St C, Riverside, CA 92503",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcb735e0015547:0xea7fb22903ed67e4",
+            "iid": 10916,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 7.913501739501953,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5425 Arlington Ave, Riverside, CA 92504",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcb11b451ab0a7:0x75ae0103a87f9b70",
+            "iid": 10866,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": 7.858095645904541,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 22257 Barton Rd, Grand Terrace, CA 92313",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcadb3bf35ef93:0xa5ff75ec36f04c1d",
+            "iid": 10827,
+            "name": "McDonald's",
+            "rank": 12,
+            "score": 7.857812881469727,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3504 Madison St, Riverside, CA 92504",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcb056ffa8466f:0xe85af63475b5a350",
+            "iid": 10860,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": 7.844736099243164,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3707 Arlington Ave, Riverside, CA 92506",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcb1ad55dd4619:0x97799bd0e02011f4",
+            "iid": 10877,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 7.837347030639648,
+            "state": "California"
+        },
+        {
+            "address": "Mimi's Cafe, 12590 Day St, Moreno Valley, CA 92553",
+            "category": "['Bistro', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Caterer', 'French restaurant', 'Takeout Restaurant', 'Wine bar']",
+            "gmap_id": "0x80dcaf55e97fd101:0x3a564226abdceb49",
+            "iid": 10848,
+            "name": "Mimi's Cafe",
+            "rank": 15,
+            "score": 7.8154706954956055,
+            "state": "California"
+        },
+        {
+            "address": "Flo's Farmhouse Cafe, 5620 Van Buren Boulevard #2080, Riverside, CA 92503",
+            "category": "['Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcb12cdc3bcd7d:0xc81064a5e91dae7f",
+            "iid": 10870,
+            "name": "Flo's Farmhouse Cafe",
+            "rank": 16,
+            "score": 7.733457088470459,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 2905 Van Buren Boulevard, Riverside, CA 92503",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcb0bc5f6714cf:0xee1d168588d7fd8a",
+            "iid": 10862,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 7.684723854064941,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3311 Market Street, Riverside, CA 92501",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcb1fa119319bb:0x168c362b81f8f4a5",
+            "iid": 10891,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 7.664687156677246,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 310 S Lincoln Ave, Corona, CA 92882",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcc86816223095:0x8758497e7501a7f0",
+            "iid": 10966,
+            "name": "McDonald's",
+            "rank": 19,
+            "score": 7.6317362785339355,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 27774 Base Line St, Highland, CA 92346, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c3552850adce17:0x69d6bd871f63b902",
+            "iid": 9097,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 7.629965782165527,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Tony Gonzalez",
+        "uid": 99674,
+        "user_id": 113155173178876530182
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Healthy Creations Cafe, 376 N El Camino Real, Encinitas, CA 92024",
+            "category": "['Organic restaurant', 'Cafe', 'Gluten-free restaurant', 'Health food restaurant', 'Internet cafe', 'Juice shop']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0b88a86b6705:0xf939d51e38dec784",
+            "iid": 10450,
+            "name": "Healthy Creations Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499543736449
+        },
+        {
+            "address": "Kay's Coffee Shop, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x80e836191df3118f:0xf03d14fe2d196794",
+            "iid": 12823,
+            "name": "Kay's Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536602539368
+        },
+        {
+            "address": "Palisades Garden Cafe, 15231 La Cruz Dr, Pacific Palisades, CA 90272",
+            "category": "['Restaurant', 'Cafe']",
+            "date": "2019/03/17",
+            "gmap_id": "0x80c2a37bb2010929:0x42429785171d881e",
+            "iid": 6384,
+            "name": "Palisades Garden Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552855690340
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Glendale, 201 N Brand Blvd #100, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "date": "2019/06/02",
+            "gmap_id": "0x80c2c05573175dc3:0xd2391dff78f0f2f2",
+            "iid": 7540,
+            "name": "85\u00b0C Bakery Cafe - Glendale",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559445688286
+        },
+        {
+            "address": "Beech Street Cafe, 863 N Swarthmore Ave, Pacific Palisades, CA 90272",
+            "category": "['Italian restaurant', 'Cafe', 'Pizza restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2a37a398a2a21:0xb99fb1f1685f9d25",
+            "iid": 6379,
+            "name": "Beech Street Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840786953
+        },
+        {
+            "address": "Simpang Asia, 10433 National Blvd #2, Los Angeles, CA 90034",
+            "category": "['Indonesian restaurant', 'Cafe', 'Halal restaurant', 'Restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2bbcb99c2200f:0xc6b3dfc7ed3fbab2",
+            "iid": 7200,
+            "name": "Simpang Asia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840831242
+        },
+        {
+            "address": "Blu Jam Cafe, 18700 Ventura Blvd #140, Tarzana, CA 91356",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Brunch restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x80c2990ef06da427:0x2067459e2bc3d0ff",
+            "iid": 6208,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567310914149
+        },
+        {
+            "address": "Bourgeois Pig, 5931 Franklin Ave, Los Angeles, CA 90028",
+            "category": "['Coffee shop']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2bf46cd1f2813:0xbd8fa81754545ffd",
+            "iid": 7456,
+            "name": "Bourgeois Pig",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567453833671
+        },
+        {
+            "address": "It's Boba Time, 136 S Brand Blvd, Glendale, CA 91205",
+            "category": "['Cafe']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2c0ffbbb20935:0x313a90c687135817",
+            "iid": 7588,
+            "name": "It's Boba Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568135575973
+        },
+        {
+            "address": "M Caf\u00e9 Melrose, 7119 Melrose Ave, Hollywood, CA 90046",
+            "category": "['Macrobiotic restaurant', 'Breakfast restaurant', 'Cafe', 'Deli', 'Health food restaurant', 'Vegan restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "date": "2020/01/21",
+            "gmap_id": "0x80c2bf2ab53f14c5:0x8bf2eebea5c0db8a",
+            "iid": 7426,
+            "name": "M Caf\u00e9 Melrose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1579586097431
+        },
+        {
+            "address": "It's Boba Time (St. Andrews + Sunset), 5549 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Bubble tea store', 'Cafe']",
+            "date": "2021/02/14",
+            "gmap_id": "0x80c2bf9349b8ef0b:0xdf82b083745a5541",
+            "iid": 7481,
+            "name": "It's Boba Time (St. Andrews + Sunset)",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613345298646
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Paderia Bakehouse, 3032 Wilshire Blvd Suite E, Santa Monica, CA 90403",
+            "category": "['Bakery', 'Coffee shop', 'Dessert restaurant']",
+            "gmap_id": "0x80c2bbc354788743:0xdb7088f2d792724c",
+            "iid": 7195,
+            "name": "Paderia Bakehouse",
+            "rank": 1,
+            "score": -1.973618745803833,
+            "state": "California"
+        },
+        {
+            "address": "Ideology Coffee, 312 N Central Ave, Glendale, CA 91203",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c103c70144d7:0x708f5ea89ad6a8c6",
+            "iid": 7592,
+            "name": "Ideology Coffee",
+            "rank": 2,
+            "score": -2.018991708755493,
+            "state": "California"
+        },
+        {
+            "address": "Boba Guys NoHo, 11135 W Magnolia Blvd Unit 170, North Hollywood, CA 91601",
+            "category": "['Cafe', 'Bubble tea store']",
+            "gmap_id": "0x80c2959e6854b019:0x806a04d80be5c01a",
+            "iid": 6084,
+            "name": "Boba Guys NoHo",
+            "rank": 3,
+            "score": -2.0541906356811523,
+            "state": "California"
+        },
+        {
+            "address": "Love You Latte, 275 W Lexington Dr, Glendale, CA 91203",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c1e0a9b267bf:0xb7d0a231eb274353",
+            "iid": 7628,
+            "name": "Love You Latte",
+            "rank": 4,
+            "score": -2.055171489715576,
+            "state": "California"
+        },
+        {
+            "address": "Ladur\u00e9e, 889 Americana Way, Glendale, CA 91210",
+            "category": "['Pastry shop', 'Cafe']",
+            "gmap_id": "0x80c2c0ffaac77f81:0x190524a308a21bf5",
+            "iid": 7587,
+            "name": "Ladur\u00e9e",
+            "rank": 5,
+            "score": -2.0994532108306885,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 12697,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.101477861404419,
+            "state": "California"
+        },
+        {
+            "address": "Joules & Watts Coffee, 3888 Cross Creek Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e81f2f83920669:0xf2d3cc79dcede38e",
+            "iid": 12704,
+            "name": "Joules & Watts Coffee",
+            "rank": 7,
+            "score": -2.1398141384124756,
+            "state": "California"
+        },
+        {
+            "address": "Pure Energy Cafe, 17383 Sunset Blvd #380c, Pacific Palisades, CA 90272",
+            "category": "['Cafe', 'Health food restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2a38d24b48705:0x71117f2632bc98dc",
+            "iid": 6386,
+            "name": "Pure Energy Cafe",
+            "rank": 8,
+            "score": -2.1470398902893066,
+            "state": "California"
+        },
+        {
+            "address": "Famous Cafe Restaurant, 5150 N Sepulveda Blvd, Sherman Oaks, CA 91411",
+            "category": "['Cafe', 'American restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2979709a792df:0x91b92aa70ec83525",
+            "iid": 6171,
+            "name": "Famous Cafe Restaurant",
+            "rank": 9,
+            "score": -2.158642530441284,
+            "state": "California"
+        },
+        {
+            "address": "Cha Cha Matcha, 1401 Abbot Kinney Blvd, Venice, CA 90291",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2bb8b9072fd09:0xec054dcbaf028514",
+            "iid": 7164,
+            "name": "Cha Cha Matcha",
+            "rank": 10,
+            "score": -2.1837165355682373,
+            "state": "California"
+        },
+        {
+            "address": "Alpaca Cafe, 1600 S Azusa Ave #162, City of Industry, CA 91748",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d59563d37251:0xfa05272978ecee2f",
+            "iid": 8491,
+            "name": "Alpaca Cafe",
+            "rank": 11,
+            "score": -2.1873815059661865,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 2211 Galleria Way #J005, Glendale, CA 91210",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2c0f8b87ebc09:0x643ca995338a0058",
+            "iid": 7577,
+            "name": "Peet's Coffee",
+            "rank": 12,
+            "score": -2.1882100105285645,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 21850 W Oxnard St, Woodland Hills, CA 91367",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c29e9f6698edc3:0xcad1143dc6f5908f",
+            "iid": 6357,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": -2.189089059829712,
+            "state": "California"
+        },
+        {
+            "address": "Hayk's Cake House, 13521 Sherman Way Unit A, Van Nuys, CA 91405",
+            "category": "['Bakery', 'Cafe', 'Cake shop', 'Coffee shop', 'Pastry shop', 'Restaurant', 'Sandwich shop', 'Wedding bakery']",
+            "gmap_id": "0x80c296e8a9ce2ef3:0x32588a63d9842e93",
+            "iid": 6143,
+            "name": "Hayk's Cake House",
+            "rank": 14,
+            "score": -2.204716920852661,
+            "state": "California"
+        },
+        {
+            "address": "La Goccia Espresso Bar, 101 N Brand Blvd UNIT 130, Glendale, CA 91203",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2c05587ac2b1f:0x3eb5e644ddf3e861",
+            "iid": 7541,
+            "name": "La Goccia Espresso Bar",
+            "rank": 15,
+            "score": -2.2064971923828125,
+            "state": "California"
+        },
+        {
+            "address": "Ain't Normal Cafe, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d9ed6e3a86b:0x691165ec6ef61201",
+            "iid": 1020,
+            "name": "Ain't Normal Cafe",
+            "rank": 16,
+            "score": -2.2126529216766357,
+            "state": "California"
+        },
+        {
+            "address": "Tr\u00e0 Space, 4012 Tilden Ave, Culver City, CA 90232",
+            "category": "['Bubble tea store', 'Cafe', 'Tea house']",
+            "gmap_id": "0x80c2bb27dba4dddf:0x485009d9dec27e7a",
+            "iid": 7097,
+            "name": "Tr\u00e0 Space",
+            "rank": 17,
+            "score": -2.2206997871398926,
+            "state": "California"
+        },
+        {
+            "address": "Shahreza Confictionary, 537 E Colorado St, Glendale, CA 91205",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c103c28c3b8d:0xbb473aa0f11d29cc",
+            "iid": 7591,
+            "name": "Shahreza Confictionary",
+            "rank": 18,
+            "score": -2.2284603118896484,
+            "state": "California"
+        },
+        {
+            "address": "The Waves Caf\u00e9, Malibu, CA 90265",
+            "category": "['Cafe']",
+            "gmap_id": "0x80e81fb21cd53ceb:0xba00e490b70b3846",
+            "iid": 12706,
+            "name": "The Waves Caf\u00e9",
+            "rank": 19,
+            "score": -2.2312827110290527,
+            "state": "California"
+        },
+        {
+            "address": "BonTea, 7275 Melrose Ave # C, Los Angeles, CA 90046",
+            "category": "['Bubble tea store', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2bf9935f618f7:0x3ce2f24ffd0f3111",
+            "iid": 7483,
+            "name": "BonTea",
+            "rank": 20,
+            "score": -2.233682870864868,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dylan Furlong",
+        "uid": 20199,
+        "user_id": 102669031390723476632
+    }
+}

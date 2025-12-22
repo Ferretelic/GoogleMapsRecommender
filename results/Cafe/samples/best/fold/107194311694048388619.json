@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hangar, 26140 Enterprise Way, Lake Forest, CA 92630",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x80dce9dbeedd7225:0xc2e0ef837b736d65",
+            "iid": 11682,
+            "name": "The Hangar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1469116346338
+        },
+        {
+            "address": "Specialty's Caf\u00e9 & Bakery, 20 Pacifica, Irvine, CA 92618",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Cookie shop', 'Lunch restaurant', 'Pastry shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/02/18",
+            "gmap_id": "0x80dce7f73947694b:0x72d52e376a0b18b0",
+            "iid": 11611,
+            "name": "Specialty's Caf\u00e9 & Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1487438829213
+        },
+        {
+            "address": "Bagels & Brew, 21771 Lake Forest Dr #100, Lake Forest, CA 92630",
+            "category": "['Bagel shop', 'Cafe', 'Coffee shop', 'Takeout Restaurant', 'Sandwich shop']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dce9b519297135:0xb26931540da1e6bc",
+            "iid": 11679,
+            "name": "Bagels & Brew",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517305468
+        },
+        {
+            "address": "Starbucks, 5365-B Alton Pkwy, Irvine, CA 92604",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dcdda6afe4773f:0x8f6699c170108092",
+            "iid": 11386,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517405494
+        },
+        {
+            "address": "Native Foods, 26705 Aliso Creek Rd, Aliso Viejo, CA 92656",
+            "category": "['Cafe', 'Takeout Restaurant', 'Restaurant', 'Vegan restaurant']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dcef5291b937d9:0x238a9cb328cc382c",
+            "iid": 11747,
+            "name": "Native Foods",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517466503
+        },
+        {
+            "address": "McDonald's, 23742 Rockfield Blvd, Lake Forest, CA 92630",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dce86724a652d9:0xef928c44e2c0f55a",
+            "iid": 11635,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517490981
+        },
+        {
+            "address": "McDonald's, 1011 17th St, Santa Ana, CA 92706",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dcd9a25ee7a52b:0x2db75a8e2387ebf4",
+            "iid": 11245,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517506291
+        },
+        {
+            "address": "Krispy Kreme, 25802 El Paseo, Mission Viejo, CA 92691",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2019/09/08",
+            "gmap_id": "0x80dceecc008d0799:0xaf601c11cfcf8fca",
+            "iid": 11726,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567903121845
+        },
+        {
+            "address": "Barnes & Noble, 401 Newport Center Dr Suite A215, Newport Beach, CA 92660",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "date": "2020/07/21",
+            "gmap_id": "0x80dce08603ea677b:0x8ba4cd35d2a908bd",
+            "iid": 11560,
+            "name": "Barnes & Noble",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1595297899829
+        },
+        {
+            "address": "Pengo Drink Station, 22367 El Toro Rd, Lake Forest, CA 92630",
+            "category": "['Juice shop', 'Coffee shop', 'Dessert shop', 'Tea house']",
+            "date": "2020/07/21",
+            "gmap_id": "0x80dce9ffcacf10df:0xb1926359b479277f",
+            "iid": 11692,
+            "name": "Pengo Drink Station",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1595297945963
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 20790 Lake Forest Dr, Lake Forest, CA 92630",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce9b4c283967b:0xf8664f7e0f868555",
+            "iid": 11678,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 4.366173267364502,
+            "state": "California"
+        },
+        {
+            "address": "Mimi's Cafe, 22651 Lake Forest Dr, Lake Forest, CA 92630",
+            "category": "['Bistro', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Caterer', 'French restaurant', 'Takeout Restaurant', 'Wine bar']",
+            "gmap_id": "0x80dce84bdce447db:0xfb10f740bcb6c9e3",
+            "iid": 11630,
+            "name": "Mimi's Cafe",
+            "rank": 2,
+            "score": 4.349948883056641,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 24511 Trabuco Rd, Lake Forest, CA 92630",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dce83aa6357061:0x682661df2e473d46",
+            "iid": 11628,
+            "name": "McDonald's",
+            "rank": 3,
+            "score": 4.292721748352051,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 23612 Rockfield Blvd, Lake Forest, CA 92630",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80dce86617b5bc75:0x883001951d935f58",
+            "iid": 11632,
+            "name": "Panera Bread",
+            "rank": 4,
+            "score": 4.160645484924316,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 20451 Alton Pkwy, Foothill Ranch, CA 92610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcc270ce50c1d7:0x25e8ff7a003eb3ab",
+            "iid": 10948,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": 3.935476064682007,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 23622 Rockfield Blvd A, Lake Forest, CA 92630",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce86644203fd9:0x2e65ae0873fc7839",
+            "iid": 11633,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": 3.8454933166503906,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 23861 Bridger Rd, Lake Forest, CA 92630",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dce8f17f8d0127:0x82184397bd96e7a6",
+            "iid": 11652,
+            "name": "McDonald's",
+            "rank": 7,
+            "score": 3.8034372329711914,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, Town Center, 26751 Aliso Creek Rd, Aliso Viejo, CA 92656",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x80dcef4d1969ae73:0x291a0cb64e726537",
+            "iid": 11742,
+            "name": "Barnes & Noble",
+            "rank": 8,
+            "score": 3.698958396911621,
+            "state": "California"
+        },
+        {
+            "address": "Einstein Bros. Bagels, 27695 Santa Margarita Pkwy A, Mission Viejo, CA 92691",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80dce98bd82ef1f9:0x78abbb40e616b2a0",
+            "iid": 11674,
+            "name": "Einstein Bros. Bagels",
+            "rank": 9,
+            "score": 3.6216275691986084,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 24531-A, Trabuco Rd, Lake Forest, CA 92630",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce8300f8dc7c1:0x30bb574eca764899",
+            "iid": 11627,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 3.615525484085083,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5445 Alton Pkwy, Irvine, CA 92614",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dcdda1527b921d:0x2917014214ca3a5f",
+            "iid": 11385,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": 3.5714612007141113,
+            "state": "California"
+        },
+        {
+            "address": "Corner Bakery, 23702 El Toro Rd, Lake Forest, CA 92630",
+            "category": "['Sandwich shop', 'American restaurant', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "gmap_id": "0x80dce8f091318327:0x77d9d4b7bbfc5876",
+            "iid": 11650,
+            "name": "Corner Bakery",
+            "rank": 12,
+            "score": 3.5509274005889893,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, 728 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x80dce7fbbf33ee07:0x856748e48e69b29f",
+            "iid": 11618,
+            "name": "Barnes & Noble",
+            "rank": 13,
+            "score": 3.5506203174591064,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 16231 Lake Forest Dr, Irvine, CA 92618",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dce870081a7ee3:0x712e8fbb94db6b8e",
+            "iid": 11636,
+            "name": "McDonald's",
+            "rank": 14,
+            "score": 3.5008459091186523,
+            "state": "California"
+        },
+        {
+            "address": "The Bagel Shack, 23653 El Toro Rd C, Lake Forest, CA 92630",
+            "category": "['Bagel shop', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80dce8fa072db4ad:0x85e55d06fd217ad2",
+            "iid": 11655,
+            "name": "The Bagel Shack",
+            "rank": 15,
+            "score": 3.469972610473633,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 25242 McIntyre St, Laguna Hills, CA 92653",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dce92e1cd30a33:0xcd0e6f0b487ac8d1",
+            "iid": 11660,
+            "name": "Dunkin'",
+            "rank": 16,
+            "score": 3.4477806091308594,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 26902 Trabuco Rd, Mission Viejo, CA 92691",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dce96e84907027:0xd009c816fc558b42",
+            "iid": 11668,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 3.4458553791046143,
+            "state": "California"
+        },
+        {
+            "address": "Corner Bakery, 771 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "gmap_id": "0x80dce7fc1540a915:0x4f577342bbf4a3ed",
+            "iid": 11621,
+            "name": "Corner Bakery",
+            "rank": 18,
+            "score": 3.4320077896118164,
+            "state": "California"
+        },
+        {
+            "address": "Lollicup, 14805 Jeffrey Rd A, Irvine, CA 92618",
+            "category": "['Tea house', 'Coffee shop', 'Fast food restaurant']",
+            "gmap_id": "0x80dcdd1cd8d74d2d:0xfe43ec7f872784ad",
+            "iid": 11366,
+            "name": "Lollicup",
+            "rank": 19,
+            "score": 3.413213014602661,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 27700 Santa Margarita Pkwy, Mission Viejo, CA 92691",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dce98976b6fd19:0xde27dc0203d4cb2b",
+            "iid": 11673,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 3.402926445007324,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jera F",
+        "uid": 54582,
+        "user_id": 107194311694048388619
+    }
+}
