@@ -85,7 +85,8 @@ def main(cfg):
     run_inference(cfg)
 
     print("Adding new user for inference...")
-    add_new_user(cfg)
+    if cfg.inference.add_user:
+        add_new_user(cfg)
 
     print("Running recommenders on new users...")
     recommend_new_users(cfg)

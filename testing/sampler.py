@@ -216,6 +216,8 @@ class NewUserSampler(UserSampler):
         return history
 
     def sample(self, model_info, users, log):
+        print(f"  Start running recommender {model_info["name"]}")
+
         for user in users:
             user_info = self.get_user_information(user)
             topk_scores, topk_indices = self.run_recommender(model_info, user)
