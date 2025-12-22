@@ -69,10 +69,6 @@ def analyze_models(cfg):
 def main(cfg):
     seed_everything()
 
-    if not check_training_completed(cfg):
-        print("Training has not been completed...")
-        return
-
     print("Plotting training history...")
     plot_training_history(cfg)
 

@@ -48,21 +48,6 @@ def check_process_complete(cfg):
 def check_training_started(cfg):
     return os.path.exists(f"{cfg.paths.logs}/{cfg.name}.json")
 
-def check_training_completed(cfg):
-    with open(f"{cfg.paths.logs}/{cfg.name}.json", "r") as f:
-        logs = json.load(f)
-
-    early_stopping = cfg.training.early_stopping
-    ndcgs = np.array(logs["valid"]["ndcg"])
-    n_patience = ndcgs.shape[0] - (np.argmax(ndcgs) + 1)
-
-    if early_stopping == n_patience:
-        print("    Training has been already completed.")
-        return True
-
-    else:
-        print(f"    Training is still in progress with patience {n_patience}.")
-
 
 def load_hydra_config(config_name):
     if GlobalHydra.instance().is_initialized():
