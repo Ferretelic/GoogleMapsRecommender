@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Express, 7685 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/08/07",
+            "gmap_id": "0x8094681dc5ff5af1:0x1fd48ff19f21d424",
+            "iid": 11841,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470607715598
+        },
+        {
+            "address": "Panda Express, 5347 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/01/05",
+            "gmap_id": "0x8094678ac5c7c31f:0x69c1b1750cfe6c56",
+            "iid": 11824,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483593659419
+        },
+        {
+            "address": "New City Chinese Cuisine Dim Sum, 1484 E Shaw Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Traditional restaurant']",
+            "date": "2017/04/08",
+            "gmap_id": "0x80945d0c3fdf070f:0xe297e4fae857d423",
+            "iid": 11708,
+            "name": "New City Chinese Cuisine Dim Sum",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491670753921
+        },
+        {
+            "address": "Grand Star Buffet, 1167 N Cherry St, Tulare, CA 93274",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "date": "2017/08/22",
+            "gmap_id": "0x80952b929cb5249f:0x21fb4a97b7909ff7",
+            "iid": 11919,
+            "name": "Grand Star Buffet",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503433857292
+        },
+        {
+            "address": "Panda Express, 3698 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x809466193f1067bd:0xb2aaffbdc6da743c",
+            "iid": 11793,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552141217760
+        },
+        {
+            "address": "Imperial Garden Restaurant, 6640 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8094680005a55b09:0xe0052341cfc4a4d",
+            "iid": 11838,
+            "name": "Imperial Garden Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564455212891
+        },
+        {
+            "address": "Panda Express, 1987 W Clinton Ave, Fresno, CA 93705",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/12/02",
+            "gmap_id": "0x8094671d41967db5:0x11a7a33021e342d2",
+            "iid": 11812,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575326704310
+        },
+        {
+            "address": "Tokyo Steak House, 6163 1865 Herndon Ave # H, Clovis, CA 93611",
+            "category": "['Teppanyaki restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2020/02/01",
+            "gmap_id": "0x80945b6efa80506d:0x64c5d1f56488a7b2",
+            "iid": 11682,
+            "name": "Tokyo Steak House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580587535584
+        },
+        {
+            "address": "Lee Kitchen, 37357 Ave 12, Madera, CA 93636",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x80946b9b327950d3:0xf7cfb76893117aeb",
+            "iid": 11856,
+            "name": "Lee Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582573666163
+        },
+        {
+            "address": "Four Seasons Chinese Restaurant, 342 N Clovis Ave #0300, Clovis, CA 93612",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2020/02/28",
+            "gmap_id": "0x80945c9ee7e5d37f:0x1c79a8c74f64fe7a",
+            "iid": 11702,
+            "name": "Four Seasons Chinese Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1582912202009
+        },
+        {
+            "address": "Panda Express, 2045 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/03/03",
+            "gmap_id": "0x80945d8a3f99e819:0xae1658550ae922ac",
+            "iid": 11738,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583269061354
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Lotus Kitchen, 1432 N Cedar Ave UNIT 106, Fresno, CA 93703, United States",
+            "category": "['Restaurant', 'Asian restaurant', 'Cajun restaurant', 'Laotian restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80945e79deb54f77:0x4b1d24a72d1435b5",
+            "iid": 11760,
+            "name": "Lotus Kitchen",
+            "rank": 1,
+            "score": -0.658504068851471,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Shophouse Restaurant, 1432 N Cedar Ave, Fresno, CA 93703",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Takeout Restaurant', 'Restaurant', 'Soup shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80945e7762e282b7:0x3bcbb21d7a8d9cbf",
+            "iid": 11759,
+            "name": "Saigon Shophouse Restaurant",
+            "rank": 2,
+            "score": -0.7077571749687195,
+            "state": "California"
+        },
+        {
+            "address": "Mama\u2019s Asian Noodle House, 4787 E McKinley Ave, Fresno, CA 93703, United States",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80945e81584b82d5:0xae341f06662a44ca",
+            "iid": 11761,
+            "name": "Mama\u2019s Asian Noodle House",
+            "rank": 3,
+            "score": -0.9212425947189331,
+            "state": "California"
+        },
+        {
+            "address": "Chop Sticks, 4783 E Olive Ave, Fresno, CA 93702",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945e88d505bc1d:0xb708584148b8e7e3",
+            "iid": 11763,
+            "name": "Chop Sticks",
+            "rank": 4,
+            "score": -1.0581319332122803,
+            "state": "California"
+        },
+        {
+            "address": "Great Moon Buffet, 4845 E McKinley Ave, Fresno, CA 93703",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945e846383d1ef:0xe30be86549f1e1f",
+            "iid": 11762,
+            "name": "Great Moon Buffet",
+            "rank": 5,
+            "score": -1.1404086351394653,
+            "state": "California"
+        },
+        {
+            "address": "Mark's Kitchen, 4828 E Belmont Ave, Fresno, CA 93727",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Hamburger restaurant', 'Restaurant']",
+            "gmap_id": "0x80945ef3488fb49f:0x7b4e62cc372fb9e4",
+            "iid": 11766,
+            "name": "Mark's Kitchen",
+            "rank": 6,
+            "score": -1.791675090789795,
+            "state": "California"
+        },
+        {
+            "address": "Chan's Chinese Food, 3333 N Cedar Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945dc6162c8893:0x9ad3911712ebcddd",
+            "iid": 11740,
+            "name": "Chan's Chinese Food",
+            "rank": 7,
+            "score": -2.0970962047576904,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf 99, 3141 E McKinley Ave, Fresno, CA 93703",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80945de3fc5a7221:0x6c86873c87a6de89",
+            "iid": 11743,
+            "name": "Ph\u1edf 99",
+            "rank": 8,
+            "score": -2.20715594291687,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf 75 Oriental Restaurant, 3127 E McKinley Ave, Fresno, CA 93703",
+            "category": "['Vietnamese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80945de3fc5a7221:0x4bb825a2bd33e259",
+            "iid": 11742,
+            "name": "Ph\u1edf 75 Oriental Restaurant",
+            "rank": 9,
+            "score": -2.256340265274048,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf #1, 1656 N First St, Fresno, CA 93703",
+            "category": "['Vietnamese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80945de40fa4a207:0x5587e07e255dc138",
+            "iid": 11744,
+            "name": "Ph\u1edf #1",
+            "rank": 10,
+            "score": -2.2873833179473877,
+            "state": "California"
+        },
+        {
+            "address": "Fong's Chinese Restaurant, 4608 E Tulare Ave, Fresno, CA 93702",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945e58d44e5557:0x19732f996531a6b5",
+            "iid": 11758,
+            "name": "Fong's Chinese Restaurant",
+            "rank": 11,
+            "score": -2.2908854484558105,
+            "state": "California"
+        },
+        {
+            "address": "Pho Paradise Restaurant, 1848 N First St, Fresno, CA 93703",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80945de42e4c6a4d:0x7a924feed4b6b8f7",
+            "iid": 11745,
+            "name": "Pho Paradise Restaurant",
+            "rank": 12,
+            "score": -2.3068199157714844,
+            "state": "California"
+        },
+        {
+            "address": "Thai Phuket, 1830 N First St, Fresno, CA 93703",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80945de43a542efb:0x516eacc2a97406f8",
+            "iid": 11746,
+            "name": "Thai Phuket",
+            "rank": 13,
+            "score": -2.306849956512451,
+            "state": "California"
+        },
+        {
+            "address": "Asian Cafe Thai, 1244 N First St, Fresno, CA 93703",
+            "category": "['Laotian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80945e09904aa5a7:0x3775272f897f6012",
+            "iid": 11752,
+            "name": "Asian Cafe Thai",
+            "rank": 14,
+            "score": -2.332702875137329,
+            "state": "California"
+        },
+        {
+            "address": "Jim's Chinese Restaurant, 2441 N First St, Fresno, CA 93703",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945deed95f2321:0x8f33173fc8b89c1b",
+            "iid": 11749,
+            "name": "Jim's Chinese Restaurant",
+            "rank": 15,
+            "score": -2.557248592376709,
+            "state": "California"
+        },
+        {
+            "address": "Flower Cafe, 635 N First St, Fresno, CA 93702",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80945e0e6914ffeb:0x9a214890b64e47e0",
+            "iid": 11753,
+            "name": "Flower Cafe",
+            "rank": 16,
+            "score": -2.662567138671875,
+            "state": "California"
+        },
+        {
+            "address": "Golden Dynasty Restaurant, 3201 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945deb2e4d83c5:0x26d89814e3cf6357",
+            "iid": 11747,
+            "name": "Golden Dynasty Restaurant",
+            "rank": 17,
+            "score": -2.8132405281066895,
+            "state": "California"
+        },
+        {
+            "address": "Apni mandi indian market and restaurant, 5187 E Belmont Ave, Fresno, CA 93727",
+            "category": "['Indian grocery store', 'Fast food restaurant', 'Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x80945ec203249bc3:0xd7ae30c9f85b6a04",
+            "iid": 11764,
+            "name": "Apni mandi indian market and restaurant",
+            "rank": 18,
+            "score": -2.818307638168335,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 3910 N Cedar Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80945db760795e81:0xf7d929c39ee0a900",
+            "iid": 11739,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": -2.8806893825531006,
+            "state": "California"
+        },
+        {
+            "address": "China City, 3085 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80945decb10e133d:0xeac64ba1d51f080a",
+            "iid": 11748,
+            "name": "China City",
+            "rank": 20,
+            "score": -3.0308284759521484,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Felix G. Angulo",
+        "uid": 109558,
+        "user_id": 103675103588736265985
+    }
+}

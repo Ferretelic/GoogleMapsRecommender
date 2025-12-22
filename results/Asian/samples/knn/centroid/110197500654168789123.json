@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Ginger Gourmet, 265 Main St, North Reading, MA 01864",
+            "category": "['Chinese restaurant', 'Sushi restaurant']",
+            "date": "2017/07/03",
+            "gmap_id": "0x89e3095f0eda9f25:0x3a239d261f606480",
+            "iid": 69094,
+            "name": "The Ginger Gourmet",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1499041153860
+        },
+        {
+            "address": "Crave Chinatown, 75 Kneeland St, Boston, MA 02111",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Korean barbecue restaurant', 'Korean restaurant', 'Lounge']",
+            "date": "2017/07/27",
+            "gmap_id": "0x89e37a79cdb905e5:0xd2348862e3506459",
+            "iid": 69810,
+            "name": "Crave Chinatown",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1501127535301
+        },
+        {
+            "address": "Yang Ming, 341 S Broadway, Salem, NH 03079",
+            "category": "['Chinese restaurant', 'Japanese restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a9f65872b6c9:0xc1986bf64e41907c",
+            "iid": 70183,
+            "name": "Yang Ming",
+            "split": "train",
+            "state": "New_Hampshire",
+            "unix_time": 1513348338337
+        },
+        {
+            "address": "Bonchon Lowell, 1075 Westford St, Lowell, MA 01851",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a361e3805ccf:0x3917cec55629fd77",
+            "iid": 70134,
+            "name": "Bonchon Lowell",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1513348384668
+        },
+        {
+            "address": "Hokkaido Restaurant, 1250 Osgood St, North Andover, MA 01845",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "date": "2018/12/01",
+            "gmap_id": "0x89e30697b6545cf5:0xb0573da95d9d656b",
+            "iid": 69070,
+            "name": "Hokkaido Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1543697382034
+        },
+        {
+            "address": "Jade North Andover, 24 High St, North Andover, MA 01845",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3065ec70d6ceb:0x7ea6193aceb3cf45",
+            "iid": 69068,
+            "name": "Jade North Andover",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821529147
+        },
+        {
+            "address": "Kowloon Restaurant, 948 Broadway, Saugus, MA 01906",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Function room facility', 'Restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3728d2752944b:0x33e0cbd51bccb077",
+            "iid": 69362,
+            "name": "Kowloon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821608462
+        },
+        {
+            "address": "Fusion House Restaurant, 301 Merrimack St, Methuen, MA 01844",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Lunch restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e306cd3e26fa03:0x444030ed1f4d94c",
+            "iid": 69071,
+            "name": "Fusion House Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821694181
+        },
+        {
+            "address": "Sakeba Sushi & Grill, 5349 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+            "category": "['Japanese restaurant', 'Bar & grill', 'Sushi restaurant']",
+            "date": "2020/08/29",
+            "gmap_id": "0x88dd8153ae47ba97:0xd1c941047950879d",
+            "iid": 49310,
+            "name": "Sakeba Sushi & Grill",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1598667634826
+        },
+        {
+            "address": "Oriental Garden, 400 Lowell Ave, Haverhill, MA 01832",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x89e301741a279d19:0x9e656adbea052d3f",
+            "iid": 69053,
+            "name": "Oriental Garden",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1619395485037
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Tokyo Steakhouse, 560 S Main St, Andover, MA 01810",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e309682adaa339:0x1ddeb88b38256cb0",
+            "iid": 69095,
+            "name": "Tokyo Steakhouse",
+            "rank": 1,
+            "score": -2.5182011127471924,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Origin Thai Bistro, 1699 Shawsheen St STE 2, Tewksbury, MA 01876",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e309dd09f90a47:0x2efd18f523752de7",
+            "iid": 69096,
+            "name": "Origin Thai Bistro",
+            "rank": 2,
+            "score": -3.4225382804870605,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "China Cuisine, 235 Main St, North Reading, MA 01864",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e30be1f11fd589:0xa100d2bff2c1c5a5",
+            "iid": 69103,
+            "name": "China Cuisine",
+            "rank": 3,
+            "score": -4.01055908203125,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Gati Thai Bistro, 12 Post Office Ave, Andover, MA 01810",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Cocktail bar', 'Gluten-free restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89e308893cec5651:0xf8a9b3abb3a107ae",
+            "iid": 69091,
+            "name": "Gati Thai Bistro",
+            "rank": 4,
+            "score": -4.149160861968994,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Peking Garden, 36 Park St #3616, Andover, MA 01810",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e3088ed2ddc457:0xe28d0d2b9396c9ff",
+            "iid": 69093,
+            "name": "Peking Garden",
+            "rank": 5,
+            "score": -4.194236755371094,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Mootone Fine Japanese Cuisine, 15 Railroad St #3, Andover, MA 01810",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e30889d4fb24cd:0xe872f6a498fb4233",
+            "iid": 69092,
+            "name": "Mootone Fine Japanese Cuisine",
+            "rank": 6,
+            "score": -4.337414264678955,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Teatone, 17 Railroad St #3516, Andover, MA 01810",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e308882be2adef:0x5815f9c2e43c49bb",
+            "iid": 69090,
+            "name": "Teatone",
+            "rank": 7,
+            "score": -4.362008094787598,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Thai Sweet Basil, 209 N Main St, Andover, MA 01810",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e308875d5b8541:0xf2d234288aec27fe",
+            "iid": 69089,
+            "name": "Thai Sweet Basil",
+            "rank": 8,
+            "score": -4.985579490661621,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Karma Andover, 209 N Main St, Andover, MA 01810",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e308875d115e07:0xb4f523ae29845738",
+            "iid": 69087,
+            "name": "Karma Andover",
+            "rank": 9,
+            "score": -5.043154716491699,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Raagini Indian Bistro, 209 N Main St, Andover, MA 01810",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89e308875d5b8541:0x7de1d16e22202288",
+            "iid": 69088,
+            "name": "Raagini Indian Bistro",
+            "rank": 10,
+            "score": -5.060173034667969,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Mango 2 Thai Cuisine, 2171 Main St, Tewksbury, MA 01876",
+            "category": "['Asian restaurant', 'Family restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89e3a09f4501aca3:0x4dffd4b5f3ab8fd0",
+            "iid": 70113,
+            "name": "Mango 2 Thai Cuisine",
+            "rank": 11,
+            "score": -6.068878173828125,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Hunan Wok, 2290 Main St, Tewksbury, MA 01876",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e3a09e4141c5cd:0x85992d11cf32c555",
+            "iid": 70112,
+            "name": "Hunan Wok",
+            "rank": 12,
+            "score": -6.073032379150391,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Saffron Indian Grill, 1921 Main St, Tewksbury, MA 01876",
+            "category": "['Indian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89e3a0bca5b2c2c1:0x3cf83d1e59c2ece8",
+            "iid": 70116,
+            "name": "Saffron Indian Grill",
+            "rank": 13,
+            "score": -6.115513324737549,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Long's Kitchen, 1866 Main St, Tewksbury, MA 01876",
+            "category": "['Takeout Restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e3a0bb7ad3d5eb:0xbde77cdc22f83e7b",
+            "iid": 70114,
+            "name": "Long's Kitchen",
+            "rank": 14,
+            "score": -6.149938583374023,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Thyme, 97 Turnpike St, North Andover, MA 01845",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e30625208ff245:0xaf25e8d0c3610f5c",
+            "iid": 69066,
+            "name": "Thyme",
+            "rank": 15,
+            "score": -6.326424598693848,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Mehfil Indian Cuisine & Function Hall, 1777 Main St, Tewksbury, MA 01876",
+            "category": "['Indian restaurant', 'Function room facility']",
+            "gmap_id": "0x89e3a0bc095c13bb:0x5dc423cf37436f6",
+            "iid": 70115,
+            "name": "Mehfil Indian Cuisine & Function Hall",
+            "rank": 16,
+            "score": -6.356558799743652,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Kyoto Japanese Steak House, 1487 Main St, Tewksbury, MA 01876",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e3a0c8b855e0fb:0x694e8ad5e429c13d",
+            "iid": 70117,
+            "name": "Kyoto Japanese Steak House",
+            "rank": 17,
+            "score": -6.91140079498291,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Bollywood Grill, 350 Winthrop Ave, North Andover, MA 01845",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Catering food and drink supplier', 'Caterer', 'Restaurant']",
+            "gmap_id": "0x89e3063135bc8de5:0xe17363010e1146eb",
+            "iid": 69067,
+            "name": "Bollywood Grill",
+            "rank": 18,
+            "score": -7.034918308258057,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Lee Chen Chinese Cuisine, 230 Winthrop Ave, Lawrence, MA 01843",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e307cac6a5bed9:0xc513907d7d69116f",
+            "iid": 69084,
+            "name": "Lee Chen Chinese Cuisine",
+            "rank": 19,
+            "score": -7.266716957092285,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Rega's Grill, 609 S Union St, Lawrence, MA 01843",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e307ce4a468b81:0xe3cc9f4b880e0417",
+            "iid": 69085,
+            "name": "Rega's Grill",
+            "rank": 20,
+            "score": -7.406245231628418,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Wes Scribner",
+        "uid": 304425,
+        "user_id": 110197500654168789123
+    }
+}

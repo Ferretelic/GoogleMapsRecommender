@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Chinese Kitchen, 1056 Market St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2016/04/28",
+            "gmap_id": "0x8835d987c0f55e3d:0xe4ea0910fe119fb2",
+            "iid": 40523,
+            "name": "Panda Chinese Kitchen",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1461867611388
+        },
+        {
+            "address": "Golden Chopsticks, 329 N York St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2017/11/26",
+            "gmap_id": "0x8835d99207a149d7:0x121798349570bfb",
+            "iid": 40524,
+            "name": "Golden Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1511658037811
+        },
+        {
+            "address": "Silver Chopsticks, 2135 National Rd, Elm Grove, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835db1a2e01d9c1:0x1e1b3cedebab275f",
+            "iid": 40527,
+            "name": "Silver Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571416096
+        },
+        {
+            "address": "A.C. Buffet, 836 National Rd, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835da41c86bb3f7:0x48bc06a620f7b465",
+            "iid": 40525,
+            "name": "A.C. Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571557351
+        },
+        {
+            "address": "Saigon Restaurant, 9530 179th St, Tinley Park, IL 60487",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/03/18",
+            "gmap_id": "0x880e154bfb8164a1:0x2321b3b7dd3db3d",
+            "iid": 36052,
+            "name": "Saigon Restaurant",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1552880878046
+        },
+        {
+            "address": "Pho Express, 241 Three Springs Dr, Weirton, WV 26062",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88343a8748647f8b:0x840be38bd3893c84",
+            "iid": 40158,
+            "name": "Pho Express",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879419016
+        },
+        {
+            "address": "China House, 5636 US-60 #6, Huntington, WV 25705",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88460779cec01437:0xce76270a32c86802",
+            "iid": 42137,
+            "name": "China House",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879646323
+        },
+        {
+            "address": "Super China Buffet, 200 Mall Rd, Barboursville, WV 25504",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600f13d4398d7:0x87a484e8030a4774",
+            "iid": 42133,
+            "name": "Super China Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879653573
+        },
+        {
+            "address": "Shogun, 3420 US-60, Barboursville, WV 25504",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Brewpub', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600895cc5842f:0xeae90622517386b6",
+            "iid": 42131,
+            "name": "Shogun",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879685270
+        },
+        {
+            "address": "New China Garden Buffet, 804 6th Ave, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884609daf10d286b:0xb3efbee883dda54f",
+            "iid": 42143,
+            "name": "New China Garden Buffet",
+            "split": "valid",
+            "state": "West_Virginia",
+            "unix_time": 1565879727013
+        },
+        {
+            "address": "No. 1 Kitchen, 1669 Washington Ave, Huntington, WV 25704",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x8845e1fd66caec4d:0x1e13d3af7eac55d4",
+            "iid": 42130,
+            "name": "No. 1 Kitchen",
+            "split": "test",
+            "state": "West_Virginia",
+            "unix_time": 1565879871530
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Asahi All You Can Eat, 16 Old Mill Blvd, Washington, PA 15301",
+            "category": "['Sushi restaurant', 'Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x8835acfa9fec164b:0x54d1e78166d9f3f2",
+            "iid": 40516,
+            "name": "Asahi All You Can Eat",
+            "rank": 1,
+            "score": 9.894268989562988,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Grand China buffet Sushi & Grill, 301 Oak Spring Rd, Washington, PA 15301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Buffet restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8835ad01b98826eb:0x478a6c6ce8d769ac",
+            "iid": 40517,
+            "name": "Grand China buffet Sushi & Grill",
+            "rank": 2,
+            "score": 9.426812171936035,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ogawa, 2920 University Ave, Morgantown, WV 26505",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88357b0aada40307:0xf5ded389fcaa7d11",
+            "iid": 40489,
+            "name": "Ogawa",
+            "rank": 3,
+            "score": 9.322136878967285,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Benihana, 2100 Greentree Rd, Pittsburgh, PA 15220",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x8834f7be7f8bb0a5:0x46e78ba3764aac86",
+            "iid": 40451,
+            "name": "Benihana",
+            "rank": 4,
+            "score": 8.876611709594727,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Fusion Japanese Steakhouse, 201 Fusion St, Granville, WV 26534",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88357bf03c922741:0xc15bb136dcf44ac6",
+            "iid": 40508,
+            "name": "Fusion Japanese Steakhouse",
+            "rank": 5,
+            "score": 8.792423248291016,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Taste of Asia, 821 3rd Ave, Huntington, WV 25701",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x884609c519245525:0xb6e80745edfdfe38",
+            "iid": 42140,
+            "name": "Taste of Asia",
+            "rank": 6,
+            "score": 8.549894332885742,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Volcano Japanese Restaurant, 372 Patteson Drive, Morgantown, WV 26505",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88357ba220018391:0xc504b314dc2a43fa",
+            "iid": 40503,
+            "name": "Volcano Japanese Restaurant",
+            "rank": 7,
+            "score": 8.541959762573242,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Yama Japanese Restaurant, 387 1/2 High St, Morgantown, WV 26505",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88357b7cfb741ce3:0xd620c643bb9bd89e",
+            "iid": 40498,
+            "name": "Yama Japanese Restaurant",
+            "rank": 8,
+            "score": 8.441606521606445,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Fujiyama, 849 Venture Dr, Morgantown, WV 26508",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x883564c20b3d1cc9:0x2abe334172426982",
+            "iid": 40486,
+            "name": "Fujiyama",
+            "rank": 9,
+            "score": 8.426897048950195,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Jumbo Buffet&Grill, 2903 Pike St, Parkersburg, WV 26101",
+            "category": "['Chinese restaurant', 'American restaurant', 'Buffet restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88484ce6e7b5e7b9:0x8d64fd45510366f9",
+            "iid": 42185,
+            "name": "Jumbo Buffet&Grill",
+            "rank": 10,
+            "score": 8.401238441467285,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China Gourmet, 34 RHL Blvd, South Charleston, WV 25309",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884f3292c9f02bab:0x82529af5201c1f1a",
+            "iid": 42353,
+            "name": "China Gourmet",
+            "rank": 11,
+            "score": 8.261480331420898,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Nawab Indian Cuisine, 600 4th Ave, Huntington, WV 25701",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x884609dcad1143f1:0x80b75d452ef4780f",
+            "iid": 42144,
+            "name": "Nawab Indian Cuisine",
+            "rank": 12,
+            "score": 8.160418510437012,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Main Kwong | Chinese Restaurant, 1407 Washington St E, Charleston, WV 25301",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x884f2cb7c30fcca1:0x5367e20e6d5046de",
+            "iid": 42345,
+            "name": "Main Kwong | Chinese Restaurant",
+            "rank": 13,
+            "score": 8.150238037109375,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Thai Valley Kitchen, 26 Putnam Village Dr, Hurricane, WV 25526",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x8848b4200eed4933:0x49cb8745f1bcd627",
+            "iid": 42202,
+            "name": "Thai Valley Kitchen",
+            "rank": 14,
+            "score": 8.145861625671387,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Pho Kim 88, 4100 Library Rd #3, Pittsburgh, PA 15234",
+            "category": "['Vietnamese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8834f9e72fda9ec3:0x93ca30e4d1437b0a",
+            "iid": 40463,
+            "name": "Pho Kim 88",
+            "rank": 15,
+            "score": 8.134794235229492,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Von Son Asian Market, 1389 University Ave, Morgantown, WV 26505",
+            "category": "['Chinese supermarket', 'Asian grocery store', 'Grocery store']",
+            "gmap_id": "0x88357b7c4074e1d1:0xa902589b7e393ff5",
+            "iid": 40497,
+            "name": "Von Son Asian Market",
+            "rank": 16,
+            "score": 8.076661109924316,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Fusion Japanese Steakhouse, 4124 Buckeye Pkwy, Grove City, OH 43123",
+            "category": "['Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x88388495415a9419:0x18551c54b7a48543",
+            "iid": 40694,
+            "name": "Fusion Japanese Steakhouse",
+            "rank": 17,
+            "score": 8.076346397399902,
+            "state": "Ohio"
+        },
+        {
+            "address": "Taste of Asia, 236 7th Ave, South Charleston, WV 25303",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8848cd50b6959dd3:0x2d23e20035c68fdc",
+            "iid": 42209,
+            "name": "Taste of Asia",
+            "rank": 18,
+            "score": 8.06333065032959,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Jimmy Wan's Restaurant and Lounge, 1686 PA-228, Cranberry Twp, PA 16066",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Caterer', 'Chinese restaurant', 'Fine dining restaurant', 'Lounge', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x88348804fad7fe55:0x2ad777f16bf88e0d",
+            "iid": 40213,
+            "name": "Jimmy Wan's Restaurant and Lounge",
+            "rank": 19,
+            "score": 8.013154983520508,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "New Orient Buffet & Grill, 1230 National Hwy, Cumberland, MD 21502",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89ca8fd82f5404c3:0xded1928c450bf280",
+            "iid": 67595,
+            "name": "New Orient Buffet & Grill",
+            "rank": 20,
+            "score": 7.925073623657227,
+            "state": "Maryland"
+        }
+    ],
+    "user": {
+        "name": "the Tarantula Collective",
+        "uid": 22059,
+        "user_id": 100739749516787520567
+    }
+}

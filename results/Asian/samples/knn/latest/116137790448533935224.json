@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sasa, 1432 N Main St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Bar', 'Izakaya restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x808561c019aaf7c9:0x503b382abd3b3cab",
+            "iid": 7048,
+            "name": "Sasa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570131566434
+        },
+        {
+            "address": "Great Wall Restaurant, 3500 Golden Gate Way, Lafayette, CA 94549",
+            "category": "['Chinese restaurant']",
+            "date": "2019/11/24",
+            "gmap_id": "0x808562453d5d3caf:0x56df0b7915ed8318",
+            "iid": 7069,
+            "name": "Great Wall Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574630036258
+        },
+        {
+            "address": "Yuyu Za Zang, 4871 Telegraph Ave, Oakland, CA 94609",
+            "category": "['Korean restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x80857de198fba45b:0x76f8eba724b17039",
+            "iid": 7365,
+            "name": "Yuyu Za Zang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574823243137
+        },
+        {
+            "address": "Ramen Hiroshi, 1633 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808561eac4487559:0xdd619e9c17acc7b5",
+            "iid": 7067,
+            "name": "Ramen Hiroshi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575834621859
+        },
+        {
+            "address": "SAFFRON Indian Restaurant & Bar, 2 Orinda Theatre Square #153, Orinda, CA 94563",
+            "category": "['Indian restaurant']",
+            "date": "2019/12/15",
+            "gmap_id": "0x80857d10c65ac825:0x39e10e92072830e",
+            "iid": 7329,
+            "name": "SAFFRON Indian Restaurant & Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576445604337
+        },
+        {
+            "address": "Ohgane Korean BBQ Concord, 1671 Willow Pass Rd, Concord, CA 94520",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2020/01/25",
+            "gmap_id": "0x808566d9fb182983:0x98198607270a70b0",
+            "iid": 7109,
+            "name": "Ohgane Korean BBQ Concord",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1579917268789
+        },
+        {
+            "address": "Honey Cuisine, 1712 E Cotati Ave, Rohnert Park, CA 94928",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80844aff4f181bd9:0x776cc0c61f3eaf1a",
+            "iid": 6771,
+            "name": "Honey Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580244895386
+        },
+        {
+            "address": "Gangnam Tofu Korean Cuisine, 11740 San Pablo Ave Suite C, El Cerrito, CA 94530",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/01/17",
+            "gmap_id": "0x8085784fcd4dff69:0xbf719043bd378586",
+            "iid": 7233,
+            "name": "Gangnam Tofu Korean Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1610926418410
+        },
+        {
+            "address": "EM Deli Catering, 6119 La Salle Ave, Oakland, CA 94611",
+            "category": "['Caterer', 'Deli', 'Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808f80b4608d1aaf:0x7b67da2184c93e4a",
+            "iid": 9311,
+            "name": "EM Deli Catering",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616898763302
+        },
+        {
+            "address": "Mixed Grain, 1546 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808561eab0bcc089:0xbea61b5d55259bac",
+            "iid": 7066,
+            "name": "Mixed Grain",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1616898773196
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Uncle Wong's, 11760 San Pablo Ave C, El Cerrito, CA 94530",
+            "category": "['Chinese restaurant', 'Cantonese restaurant', 'Mandarin restaurant']",
+            "gmap_id": "0x8085784fc8e65943:0x48df15e200b7317f",
+            "iid": 7232,
+            "name": "Uncle Wong's",
+            "rank": 1,
+            "score": -0.023654799908399582,
+            "state": "California"
+        },
+        {
+            "address": "FRANNIE EXPRESS, 11775 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Barbecue restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8085784fc3ef3caf:0xb888652eef4aad57",
+            "iid": 7231,
+            "name": "FRANNIE EXPRESS",
+            "rank": 2,
+            "score": -0.09704787284135818,
+            "state": "California"
+        },
+        {
+            "address": "Banana Leaf Thai Cuisine, 11880 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8085784f6c5700c9:0x7ca9af17d64ab32a",
+            "iid": 7230,
+            "name": "Banana Leaf Thai Cuisine",
+            "rank": 3,
+            "score": -0.2721351981163025,
+            "state": "California"
+        },
+        {
+            "address": "Sa Wad Dee Thai Restaurant, 12200 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x8085784796c549ed:0xf292903fd513479",
+            "iid": 7229,
+            "name": "Sa Wad Dee Thai Restaurant",
+            "rank": 4,
+            "score": -0.8394438624382019,
+            "state": "California"
+        },
+        {
+            "address": "Happy Garden, 11265 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80857855b8c02ccb:0x98062cdb1634da89",
+            "iid": 7234,
+            "name": "Happy Garden",
+            "rank": 5,
+            "score": -0.8891266584396362,
+            "state": "California"
+        },
+        {
+            "address": "Tashi Delek Cuisine, 11224 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Nepalese restaurant', 'Indian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant', 'Tibetan restaurant']",
+            "gmap_id": "0x808579ee7fb5c70d:0xeaf61a6bdbd919f8",
+            "iid": 7293,
+            "name": "Tashi Delek Cuisine",
+            "rank": 6,
+            "score": -0.9248637557029724,
+            "state": "California"
+        },
+        {
+            "address": "Huong Tra Restaurant, 12221 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Deli', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808578478020b3d7:0xa19f9522070a323b",
+            "iid": 7228,
+            "name": "Huong Tra Restaurant",
+            "rank": 7,
+            "score": -0.9477555751800537,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 4250 Macdonald Ave, Richmond, CA 94805",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808578409eddb35f:0xbd39c138ec2dda67",
+            "iid": 7227,
+            "name": "Panda Express",
+            "rank": 8,
+            "score": -1.1148006916046143,
+            "state": "California"
+        },
+        {
+            "address": "Tsing Tao, 12372 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80857838fd87d2c1:0x4dc25d807f90f5c9",
+            "iid": 7226,
+            "name": "Tsing Tao",
+            "rank": 9,
+            "score": -1.1730977296829224,
+            "state": "California"
+        },
+        {
+            "address": "Yoshio Sushi, 10889 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808578fe0e380fc7:0xe3730bdd38aecd6c",
+            "iid": 7237,
+            "name": "Yoshio Sushi",
+            "rank": 10,
+            "score": -1.4966816902160645,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Sho, 10749 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8085794b6a1c7e05:0xe1dea5bf8f33d584",
+            "iid": 7286,
+            "name": "Sushi Sho",
+            "rank": 11,
+            "score": -1.7926230430603027,
+            "state": "California"
+        },
+        {
+            "address": "China Wok, 3047 Cutting Blvd, Richmond, CA 94804",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8085786c03850ba7:0x6ef2e3a751f9ecb8",
+            "iid": 7235,
+            "name": "China Wok",
+            "rank": 12,
+            "score": -1.7929880619049072,
+            "state": "California"
+        },
+        {
+            "address": "yunnan style rice noodle, 10675 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808579d571c50e6f:0xd076015f682c6314",
+            "iid": 7292,
+            "name": "yunnan style rice noodle",
+            "rank": 13,
+            "score": -1.9173976182937622,
+            "state": "California"
+        },
+        {
+            "address": "Happy Golden Bowl, 10675 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085790295140e61:0xc699d1c3db64b29e",
+            "iid": 7238,
+            "name": "Happy Golden Bowl",
+            "rank": 14,
+            "score": -1.9173976182937622,
+            "state": "California"
+        },
+        {
+            "address": "Sa-Wooei, 10621 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80857902c0bed619:0xb3557114a5e52133",
+            "iid": 7239,
+            "name": "Sa-Wooei",
+            "rank": 15,
+            "score": -1.9462586641311646,
+            "state": "California"
+        },
+        {
+            "address": "Yaoya-San, 10566 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x8085791d2bcf4237:0xdb6c0f70c84abf12",
+            "iid": 7247,
+            "name": "Yaoya-San",
+            "rank": 16,
+            "score": -2.0741541385650635,
+            "state": "California"
+        },
+        {
+            "address": "Atcha Thai Bistro, 10558 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Restaurant', 'Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8085791cd809fb09:0x78b3a1413b87b341",
+            "iid": 7246,
+            "name": "Atcha Thai Bistro",
+            "rank": 17,
+            "score": -2.100297689437866,
+            "state": "California"
+        },
+        {
+            "address": "AZN Star Bistro, 10558 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808579ef272e8713:0x82443b6ed2cd6250",
+            "iid": 7294,
+            "name": "AZN Star Bistro",
+            "rank": 18,
+            "score": -2.1048543453216553,
+            "state": "California"
+        },
+        {
+            "address": "Little Hong Kong, 10443 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8085791c57c7d9fb:0x5fa668df43f56dba",
+            "iid": 7245,
+            "name": "Little Hong Kong",
+            "rank": 19,
+            "score": -2.291250228881836,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf Th\u00e1i H\u00f9ng, 12860 San Pablo Ave, Richmond, CA 94805",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80857823d030f03b:0x9041d4a4f05a32c3",
+            "iid": 7225,
+            "name": "Ph\u1edf Th\u00e1i H\u00f9ng",
+            "rank": 20,
+            "score": -2.3515946865081787,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Francisco Gamez",
+        "uid": 480875,
+        "user_id": 116137790448533935224
+    }
+}

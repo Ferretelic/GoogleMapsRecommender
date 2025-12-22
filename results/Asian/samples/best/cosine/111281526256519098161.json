@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai 9, 11 Brown St, Dayton, OH 45402",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2017/03/20",
+            "gmap_id": "0x8840815587d92029:0x5d1f72c545e103b4",
+            "iid": 41719,
+            "name": "Thai 9",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1490000255667
+        },
+        {
+            "address": "Le Thai, 523 E Fremont St, Las Vegas, NV 89101",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Southeast Asian restaurant']",
+            "date": "2017/08/03",
+            "gmap_id": "0x80c8c3750b1dc3e5:0xf4bbaf8949e0cc14",
+            "iid": 16999,
+            "name": "Le Thai",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1501755111337
+        },
+        {
+            "address": "Yi-Shen, 1915 W 11th Ave, Eugene, OR 97402",
+            "category": "['Asian restaurant', 'Asian grocery store', 'Vietnamese restaurant']",
+            "date": "2017/11/06",
+            "gmap_id": "0x54c11e7d1f2156bd:0x3d31fea98e786aa9",
+            "iid": 5421,
+            "name": "Yi-Shen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1510009195641
+        },
+        {
+            "address": "Sushi Island Japanese Restaurant, 3215 W 11th Ave, Eugene, OR 97402",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/01/19",
+            "gmap_id": "0x54c11e3f179ae2bb:0x80e6b9206d283e5a",
+            "iid": 5406,
+            "name": "Sushi Island Japanese Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1516396221131
+        },
+        {
+            "address": "Lemongrass Noodle House, 1603 NW Monroe Ave, Corvallis, OR 97330",
+            "category": "['Thai restaurant']",
+            "date": "2018/02/05",
+            "gmap_id": "0x54c040bde9b5e81d:0xae00a5b32500b2aa",
+            "iid": 5290,
+            "name": "Lemongrass Noodle House",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1517793643420
+        },
+        {
+            "address": "King Egg Roll, 980 Lundy Ave, San Jose, CA 95133",
+            "category": "['Chinese restaurant']",
+            "date": "2018/04/24",
+            "gmap_id": "0x808fcc44b2b6c935:0xa497825ed94a4276",
+            "iid": 10944,
+            "name": "King Egg Roll",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524605231313
+        },
+        {
+            "address": "Sada Sushi & Izakaya, 151 NW Monroe Ave, Corvallis, OR 97330",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/12/29",
+            "gmap_id": "0x54c040eb832034af:0x816b1661de3d30f8",
+            "iid": 5298,
+            "name": "Sada Sushi & Izakaya",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1577593766382
+        },
+        {
+            "address": "Sushi Ya, 5 E 8th Ave, Eugene, OR 97401",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/01/11",
+            "gmap_id": "0x54c11e135fbb1edd:0x4c424dcc3ebc93b5",
+            "iid": 5382,
+            "name": "Sushi Ya",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1578714761042
+        },
+        {
+            "address": "Dok Khao Thai Eatery, 15200 Potomac Town Pl #110, Woodbridge, VA 22191",
+            "category": "['Thai restaurant']",
+            "date": "2020/08/17",
+            "gmap_id": "0x89b657c0c047e91b:0x63b87be4b1bf7e67",
+            "iid": 55680,
+            "name": "Dok Khao Thai Eatery",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1597697138198
+        },
+        {
+            "address": "Sushi Jin Next Door, 14901 Potomac Town Pl #135, Woodbridge, VA 22191",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "date": "2020/08/26",
+            "gmap_id": "0x89b65600c9ed58db:0x3db144088fc185e3",
+            "iid": 55654,
+            "name": "Sushi Jin Next Door",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1598413316852
+        },
+        {
+            "address": "Shin-La Restaurant & Sushi Bar, 57 Main St, Brattleboro, VT 05301",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2021/04/03",
+            "gmap_id": "0x89e11a4fa044ecaf:0xf14bddf7e25d1e58",
+            "iid": 68846,
+            "name": "Shin-La Restaurant & Sushi Bar",
+            "split": "test",
+            "state": "Vermont",
+            "unix_time": 1617488650545
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Bazaar International Market, 2240 SW 3rd St, Corvallis, OR 97333",
+            "category": "['Grocery store', 'Indian grocery store', 'Lebanese restaurant', 'Market', 'Middle Eastern restaurant']",
+            "gmap_id": "0x54c040d604808c61:0xda18bb470ba7558a",
+            "iid": 5293,
+            "name": "Bazaar International Market",
+            "rank": 1,
+            "score": 0.5337477922439575,
+            "state": "Oregon"
+        },
+        {
+            "address": "Legend of Szechuan, 207 E 5th Ave, Eugene, OR 97401",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c11e119d4f766f:0x4e646c5983cb27cc",
+            "iid": 5381,
+            "name": "Legend of Szechuan",
+            "rank": 2,
+            "score": 0.5038025379180908,
+            "state": "Oregon"
+        },
+        {
+            "address": "Shanghai Wok, 1104 NW Van Buren Ave, Corvallis, OR 97330",
+            "category": "['Chinese takeaway', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x54c04095d3ec27a1:0xbdfe36247e5a441f",
+            "iid": 5284,
+            "name": "Shanghai Wok",
+            "rank": 3,
+            "score": 0.5006982684135437,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chaiyo Food Truck, 44 E 7th Ave, Eugene, OR 97401",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54c11e137233392d:0x5025048927928d62",
+            "iid": 5383,
+            "name": "Chaiyo Food Truck",
+            "rank": 4,
+            "score": 0.49066850543022156,
+            "state": "Oregon"
+        },
+        {
+            "address": "Four Plus 3 Korean BBQ Restaurant, 2130 W 11th Ave, Eugene, OR 97402",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x54c11e8780bfa415:0xd69ec365d44456f8",
+            "iid": 5424,
+            "name": "Four Plus 3 Korean BBQ Restaurant",
+            "rank": 5,
+            "score": 0.48596373200416565,
+            "state": "Oregon"
+        },
+        {
+            "address": "221 BCE, 1301 Patterson St, Eugene, OR 97401",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c11e3f1b8f5e0f:0x60b0f853c01bc037",
+            "iid": 5407,
+            "name": "221 BCE",
+            "rank": 6,
+            "score": 0.48510339856147766,
+            "state": "Oregon"
+        },
+        {
+            "address": "Hong Kong Restaurant, 1799 Willamette St, Eugene, OR 97401",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c11e44706e7495:0xbab2882e8e1c63e7",
+            "iid": 5408,
+            "name": "Hong Kong Restaurant",
+            "rank": 7,
+            "score": 0.4834476113319397,
+            "state": "Oregon"
+        },
+        {
+            "address": "Evergreen Indian Restaurant, 136 SW 3rd St, Corvallis, OR 97333",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x54c040eb06be1a1b:0xfca1b941d7d97574",
+            "iid": 5296,
+            "name": "Evergreen Indian Restaurant",
+            "rank": 8,
+            "score": 0.4779796600341797,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thai Time Kitchen, 670 State Hwy 99 N, Eugene, OR 97402",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54c11d76cad4b1b7:0x64e991745b8f1c8b",
+            "iid": 5361,
+            "name": "Thai Time Kitchen",
+            "rank": 9,
+            "score": 0.47048163414001465,
+            "state": "Oregon"
+        },
+        {
+            "address": "Japanese cuisine Masa's YATAI, 2758 Friendly St, Eugene, OR 97405",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54c11e6b20b704cd:0x265a5b0847985ddb",
+            "iid": 5414,
+            "name": "Japanese cuisine Masa's YATAI",
+            "rank": 10,
+            "score": 0.46906450390815735,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sushi Domo Oak St, 2835 Oak St, Eugene, OR 97405",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54c11e5359cfb18d:0x2bd8f5d9ec8f3b9b",
+            "iid": 5411,
+            "name": "Sushi Domo Oak St",
+            "rank": 11,
+            "score": 0.4672500491142273,
+            "state": "Oregon"
+        },
+        {
+            "address": "Aomatsu Sushi & Grill, 122 NW 3rd St, Corvallis, OR 97330",
+            "category": "['Sushi restaurant', 'Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x54c040eb6ba31c0d:0x2b0600d139975e8c",
+            "iid": 5297,
+            "name": "Aomatsu Sushi & Grill",
+            "rank": 12,
+            "score": 0.46128496527671814,
+            "state": "Oregon"
+        },
+        {
+            "address": "Makoto Japanese Restaurant, 1167 Willamette St, Eugene, OR 97401",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54c11e6a92c16603:0xd8c2c1acb575e237",
+            "iid": 5412,
+            "name": "Makoto Japanese Restaurant",
+            "rank": 13,
+            "score": 0.4610788822174072,
+            "state": "Oregon"
+        },
+        {
+            "address": "Poppi's Anatolia, 992 Willamette St, Eugene, OR 97401",
+            "category": "['Greek restaurant', 'Indian restaurant']",
+            "gmap_id": "0x54c11e6b3a87a29d:0x7eee7f91becd76c4",
+            "iid": 5415,
+            "name": "Poppi's Anatolia",
+            "rank": 14,
+            "score": 0.4602760672569275,
+            "state": "Oregon"
+        },
+        {
+            "address": "Evergreen Indian Cuisine, 906 W 7th Ave, Eugene, OR 97402",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x54c11e24b78e4fe1:0xdcad37621d95100c",
+            "iid": 5391,
+            "name": "Evergreen Indian Cuisine",
+            "rank": 15,
+            "score": 0.4594663977622986,
+            "state": "Oregon"
+        },
+        {
+            "address": "Baguette Vietnamese Sandwiches, 121 SW 3rd St, Corvallis, OR 97333",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Takeout Restaurant', 'Sandwich shop', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54c040e9e20f8427:0x1374d1b8836bca53",
+            "iid": 5294,
+            "name": "Baguette Vietnamese Sandwiches",
+            "rank": 16,
+            "score": 0.4559212923049927,
+            "state": "Oregon"
+        },
+        {
+            "address": "Kkoki Korean BBQ Eugene, 65 Division Ave Suite M, Eugene, OR 97404",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x54c11d97eea36e59:0xb6cc56e7450b0d41",
+            "iid": 5368,
+            "name": "Kkoki Korean BBQ Eugene",
+            "rank": 17,
+            "score": 0.4536905586719513,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thai Chili, 1425 NW Monroe Ave, Corvallis, OR 97330",
+            "category": "['Restaurant', 'Asian restaurant', 'Catering', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x54c040be0762fad3:0xf36d82a8ba27f9bb",
+            "iid": 5291,
+            "name": "Thai Chili",
+            "rank": 18,
+            "score": 0.4535903334617615,
+            "state": "Oregon"
+        },
+        {
+            "address": "Flame Mountain BBQ, 1857 NW 9th St, Corvallis, OR 97330",
+            "category": "['Asian fusion restaurant', 'Barbecue restaurant', 'Buffet restaurant', 'Korean barbecue restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x54c0411d3cffaf1f:0x6214362a0025e03",
+            "iid": 5300,
+            "name": "Flame Mountain BBQ",
+            "rank": 19,
+            "score": 0.45258650183677673,
+            "state": "Oregon"
+        },
+        {
+            "address": "Vietnam Restaurant, 2355 W 11th Ave, Eugene, OR 97402",
+            "category": "['Vietnamese restaurant', 'Bar & grill']",
+            "gmap_id": "0x54c11e87151c8edd:0x17c15a17596f7003",
+            "iid": 5423,
+            "name": "Vietnam Restaurant",
+            "rank": 20,
+            "score": 0.45157501101493835,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "Ava Everett",
+        "uid": 336718,
+        "user_id": 111281526256519098161
+    }
+}

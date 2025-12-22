@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sasa, 1432 N Main St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Bar', 'Izakaya restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x808561c019aaf7c9:0x503b382abd3b3cab",
+            "iid": 7048,
+            "name": "Sasa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570131566434
+        },
+        {
+            "address": "Great Wall Restaurant, 3500 Golden Gate Way, Lafayette, CA 94549",
+            "category": "['Chinese restaurant']",
+            "date": "2019/11/24",
+            "gmap_id": "0x808562453d5d3caf:0x56df0b7915ed8318",
+            "iid": 7069,
+            "name": "Great Wall Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574630036258
+        },
+        {
+            "address": "Yuyu Za Zang, 4871 Telegraph Ave, Oakland, CA 94609",
+            "category": "['Korean restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x80857de198fba45b:0x76f8eba724b17039",
+            "iid": 7365,
+            "name": "Yuyu Za Zang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574823243137
+        },
+        {
+            "address": "Ramen Hiroshi, 1633 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808561eac4487559:0xdd619e9c17acc7b5",
+            "iid": 7067,
+            "name": "Ramen Hiroshi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575834621859
+        },
+        {
+            "address": "SAFFRON Indian Restaurant & Bar, 2 Orinda Theatre Square #153, Orinda, CA 94563",
+            "category": "['Indian restaurant']",
+            "date": "2019/12/15",
+            "gmap_id": "0x80857d10c65ac825:0x39e10e92072830e",
+            "iid": 7329,
+            "name": "SAFFRON Indian Restaurant & Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576445604337
+        },
+        {
+            "address": "Ohgane Korean BBQ Concord, 1671 Willow Pass Rd, Concord, CA 94520",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2020/01/25",
+            "gmap_id": "0x808566d9fb182983:0x98198607270a70b0",
+            "iid": 7109,
+            "name": "Ohgane Korean BBQ Concord",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1579917268789
+        },
+        {
+            "address": "Honey Cuisine, 1712 E Cotati Ave, Rohnert Park, CA 94928",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80844aff4f181bd9:0x776cc0c61f3eaf1a",
+            "iid": 6771,
+            "name": "Honey Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580244895386
+        },
+        {
+            "address": "Gangnam Tofu Korean Cuisine, 11740 San Pablo Ave Suite C, El Cerrito, CA 94530",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/01/17",
+            "gmap_id": "0x8085784fcd4dff69:0xbf719043bd378586",
+            "iid": 7233,
+            "name": "Gangnam Tofu Korean Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1610926418410
+        },
+        {
+            "address": "EM Deli Catering, 6119 La Salle Ave, Oakland, CA 94611",
+            "category": "['Caterer', 'Deli', 'Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808f80b4608d1aaf:0x7b67da2184c93e4a",
+            "iid": 9311,
+            "name": "EM Deli Catering",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616898763302
+        },
+        {
+            "address": "Mixed Grain, 1546 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808561eab0bcc089:0xbea61b5d55259bac",
+            "iid": 7066,
+            "name": "Mixed Grain",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1616898773196
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Plearn Thai Palace, 1510 N Main St, Walnut Creek, CA 94596",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x808561eaa838f153:0xa2d479d9b6be0b1c",
+            "iid": 7064,
+            "name": "Plearn Thai Palace",
+            "rank": 1,
+            "score": 0.5444631576538086,
+            "state": "California"
+        },
+        {
+            "address": "Siam Orchid, 23 Orinda Way, Orinda, CA 94563",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80857cd8656bfbcf:0xbe0a99a81fe1f716",
+            "iid": 7324,
+            "name": "Siam Orchid",
+            "rank": 2,
+            "score": 0.5374898314476013,
+            "state": "California"
+        },
+        {
+            "address": "Concord Korean Market, 1450 Monument Blvd # D, Concord, CA 94520",
+            "category": "['Korean grocery store', 'Grocery store']",
+            "gmap_id": "0x80856125db7a2ba1:0x4af75a21857a34c",
+            "iid": 7007,
+            "name": "Concord Korean Market",
+            "rank": 3,
+            "score": 0.5304646492004395,
+            "state": "California"
+        },
+        {
+            "address": "Yu Bistro, 1 Orinda Way UNIT 1, Orinda, CA 94563",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Cantonese restaurant', 'Takeout Restaurant', 'Rice restaurant']",
+            "gmap_id": "0x80857d82f96eba9b:0x99ad166c3d5fe19a",
+            "iid": 7339,
+            "name": "Yu Bistro",
+            "rank": 4,
+            "score": 0.5268296003341675,
+            "state": "California"
+        },
+        {
+            "address": "Swad Indian Cuisine, 960 Moraga Rd #1, Lafayette, CA 94549",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808563780c2221d1:0xec67420232399b1e",
+            "iid": 7078,
+            "name": "Swad Indian Cuisine",
+            "rank": 5,
+            "score": 0.5080756545066833,
+            "state": "California"
+        },
+        {
+            "address": "Szechwan Restaurant, 79 Orinda Way, Orinda, CA 94563",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80857cdc0e569559:0x340e8e40804468da",
+            "iid": 7325,
+            "name": "Szechwan Restaurant",
+            "rank": 6,
+            "score": 0.5019629597663879,
+            "state": "California"
+        },
+        {
+            "address": "Hanazen, 87 Orinda Way, Orinda, CA 94563",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80857cdc1243d337:0x332010b4c29101",
+            "iid": 7326,
+            "name": "Hanazen",
+            "rank": 7,
+            "score": 0.4997255206108093,
+            "state": "California"
+        },
+        {
+            "address": "Oishi Sushi & Grill, 1542 Newell Ave, Walnut Creek, CA 94596",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808561c294dd9577:0xa213f85a511a971",
+            "iid": 7054,
+            "name": "Oishi Sushi & Grill",
+            "rank": 8,
+            "score": 0.48696884512901306,
+            "state": "California"
+        },
+        {
+            "address": "MANGOSTEEN BISTRO, 1518 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085619e19a8445f:0x50a4f134742cb5c0",
+            "iid": 7042,
+            "name": "MANGOSTEEN BISTRO",
+            "rank": 9,
+            "score": 0.4867391586303711,
+            "state": "California"
+        },
+        {
+            "address": "Amarin Thai Cuisine, 3555 Mt Diablo Blvd, Lafayette, CA 94549",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8085625a879d202b:0xd572a54bc0be2b90",
+            "iid": 7076,
+            "name": "Amarin Thai Cuisine",
+            "rank": 10,
+            "score": 0.4840441346168518,
+            "state": "California"
+        },
+        {
+            "address": "Tozai Izakaya, 1523 Giammona Dr, Walnut Creek, CA 94596",
+            "category": "['Authentic Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808561567d225835:0x398f215de4758b79",
+            "iid": 7030,
+            "name": "Tozai Izakaya",
+            "rank": 11,
+            "score": 0.47666728496551514,
+            "state": "California"
+        },
+        {
+            "address": "Mandarin Garden, 1740 Monument Blvd, Concord, CA 94520",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80856128793202ab:0x4acacc27f4025128",
+            "iid": 7012,
+            "name": "Mandarin Garden",
+            "rank": 12,
+            "score": 0.4685019552707672,
+            "state": "California"
+        },
+        {
+            "address": "Kane Sushi, 3474 Mt Diablo Blvd, Lafayette, CA 94549",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8085624573d1be23:0x6acec3ef14fae027",
+            "iid": 7071,
+            "name": "Kane Sushi",
+            "rank": 13,
+            "score": 0.46617135405540466,
+            "state": "California"
+        },
+        {
+            "address": "Blue Gingko, 3518 Mt Diablo Blvd, Lafayette, CA 94549",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808562455477db39:0xcde7c09509e7c526",
+            "iid": 7070,
+            "name": "Blue Gingko",
+            "rank": 14,
+            "score": 0.4634471833705902,
+            "state": "California"
+        },
+        {
+            "address": "Niwa Restaurant, 1 Camino Sobrante, Orinda, CA 94563",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80857cdeb280133b:0x9be8651fa6fee226",
+            "iid": 7328,
+            "name": "Niwa Restaurant",
+            "rank": 15,
+            "score": 0.45396488904953003,
+            "state": "California"
+        },
+        {
+            "address": "kibi's Cafe, 1981 N Broadway STE 115, Walnut Creek, CA 94596",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808561f3703b1af5:0xb4f3daf1a0ad7b76",
+            "iid": 7068,
+            "name": "kibi's Cafe",
+            "rank": 16,
+            "score": 0.4486410915851593,
+            "state": "California"
+        },
+        {
+            "address": "Vanda Thai, 1250 Newell Ave, Walnut Creek, CA 94596",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x808561c4b94d5b6d:0xef00850919f45b4c",
+            "iid": 7055,
+            "name": "Vanda Thai",
+            "rank": 17,
+            "score": 0.44752228260040283,
+            "state": "California"
+        },
+        {
+            "address": "Pho Huynh Hiep 6 - Kevin's Noodle House, 2034 N Main St, Walnut Creek, CA 94596",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808561970cb8073d:0x43c8b45a08a58a84",
+            "iid": 7040,
+            "name": "Pho Huynh Hiep 6 - Kevin's Noodle House",
+            "rank": 18,
+            "score": 0.4473840296268463,
+            "state": "California"
+        },
+        {
+            "address": "Uncle Yu's, 999 Oak Hill Rd, Lafayette, CA 94549",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808562507e0444dd:0xf231535ecbec9fb4",
+            "iid": 7072,
+            "name": "Uncle Yu's",
+            "rank": 19,
+            "score": 0.444620817899704,
+            "state": "California"
+        },
+        {
+            "address": "Changes Salon & Day Spa, 1475 N Broadway STE 195, Walnut Creek, CA 94596",
+            "category": "['Hair salon', 'Beauty salon', 'Hair extension technician', 'Health and beauty shop', 'Massage therapist', 'Nail salon', 'Skin care clinic', 'Spa', 'Thai massage therapist', 'Waxing hair removal service']",
+            "gmap_id": "0x808561c004540a81:0x6939f68cdf804d95",
+            "iid": 7047,
+            "name": "Changes Salon & Day Spa",
+            "rank": 20,
+            "score": 0.4420379102230072,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Francisco Gamez",
+        "uid": 480875,
+        "user_id": 116137790448533935224
+    }
+}

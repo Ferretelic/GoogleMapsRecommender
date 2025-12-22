@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Ginger Gourmet, 265 Main St, North Reading, MA 01864",
+            "category": "['Chinese restaurant', 'Sushi restaurant']",
+            "date": "2017/07/03",
+            "gmap_id": "0x89e3095f0eda9f25:0x3a239d261f606480",
+            "iid": 69094,
+            "name": "The Ginger Gourmet",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1499041153860
+        },
+        {
+            "address": "Crave Chinatown, 75 Kneeland St, Boston, MA 02111",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Korean barbecue restaurant', 'Korean restaurant', 'Lounge']",
+            "date": "2017/07/27",
+            "gmap_id": "0x89e37a79cdb905e5:0xd2348862e3506459",
+            "iid": 69810,
+            "name": "Crave Chinatown",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1501127535301
+        },
+        {
+            "address": "Yang Ming, 341 S Broadway, Salem, NH 03079",
+            "category": "['Chinese restaurant', 'Japanese restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a9f65872b6c9:0xc1986bf64e41907c",
+            "iid": 70183,
+            "name": "Yang Ming",
+            "split": "train",
+            "state": "New_Hampshire",
+            "unix_time": 1513348338337
+        },
+        {
+            "address": "Bonchon Lowell, 1075 Westford St, Lowell, MA 01851",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a361e3805ccf:0x3917cec55629fd77",
+            "iid": 70134,
+            "name": "Bonchon Lowell",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1513348384668
+        },
+        {
+            "address": "Hokkaido Restaurant, 1250 Osgood St, North Andover, MA 01845",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "date": "2018/12/01",
+            "gmap_id": "0x89e30697b6545cf5:0xb0573da95d9d656b",
+            "iid": 69070,
+            "name": "Hokkaido Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1543697382034
+        },
+        {
+            "address": "Jade North Andover, 24 High St, North Andover, MA 01845",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3065ec70d6ceb:0x7ea6193aceb3cf45",
+            "iid": 69068,
+            "name": "Jade North Andover",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821529147
+        },
+        {
+            "address": "Kowloon Restaurant, 948 Broadway, Saugus, MA 01906",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Function room facility', 'Restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3728d2752944b:0x33e0cbd51bccb077",
+            "iid": 69362,
+            "name": "Kowloon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821608462
+        },
+        {
+            "address": "Fusion House Restaurant, 301 Merrimack St, Methuen, MA 01844",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Lunch restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e306cd3e26fa03:0x444030ed1f4d94c",
+            "iid": 69071,
+            "name": "Fusion House Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821694181
+        },
+        {
+            "address": "Sakeba Sushi & Grill, 5349 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+            "category": "['Japanese restaurant', 'Bar & grill', 'Sushi restaurant']",
+            "date": "2020/08/29",
+            "gmap_id": "0x88dd8153ae47ba97:0xd1c941047950879d",
+            "iid": 49310,
+            "name": "Sakeba Sushi & Grill",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1598667634826
+        },
+        {
+            "address": "Oriental Garden, 400 Lowell Ave, Haverhill, MA 01832",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x89e301741a279d19:0x9e656adbea052d3f",
+            "iid": 69053,
+            "name": "Oriental Garden",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1619395485037
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Mootone Fine Japanese Cuisine, 15 Railroad St #3, Andover, MA 01810",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e30889d4fb24cd:0xe872f6a498fb4233",
+            "iid": 69092,
+            "name": "Mootone Fine Japanese Cuisine",
+            "rank": 1,
+            "score": 0.6854484677314758,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Chung King Rick's Cafe, 446 Boston Rd, Billerica, MA 01821",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Caterer']",
+            "gmap_id": "0x89e3a1eb467239ab:0x291cf4b8e2609026",
+            "iid": 70122,
+            "name": "Chung King Rick's Cafe",
+            "rank": 2,
+            "score": 0.6781191229820251,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Japu Restaurant, 4 Union St, Lawrence, MA 01840",
+            "category": "['Peruvian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89e30709c0ecf8b9:0xcf5908d7489e93e4",
+            "iid": 69073,
+            "name": "Japu Restaurant",
+            "rank": 3,
+            "score": 0.6593571901321411,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Iron Chef, 435 Newbury St # 107, Danvers, MA 01923",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89e311ab3f34690f:0x533127f8d3f415b4",
+            "iid": 69115,
+            "name": "Iron Chef",
+            "rank": 4,
+            "score": 0.6571384072303772,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Origin Thai Bistro, 1699 Shawsheen St STE 2, Tewksbury, MA 01876",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e309dd09f90a47:0x2efd18f523752de7",
+            "iid": 69096,
+            "name": "Origin Thai Bistro",
+            "rank": 5,
+            "score": 0.6515420079231262,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Thai Sweet Basil, 209 N Main St, Andover, MA 01810",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e308875d5b8541:0xf2d234288aec27fe",
+            "iid": 69089,
+            "name": "Thai Sweet Basil",
+            "rank": 6,
+            "score": 0.6471371054649353,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Tokyo Japanese Steakhouse, 291 S Broadway, Salem, NH 03079",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e3aa1e18be6c53:0xcd7f3ccc588f7d82",
+            "iid": 70187,
+            "name": "Tokyo Japanese Steakhouse",
+            "rank": 7,
+            "score": 0.6456003189086914,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "Kyoto Japanese Steak House, 1487 Main St, Tewksbury, MA 01876",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e3a0c8b855e0fb:0x694e8ad5e429c13d",
+            "iid": 70117,
+            "name": "Kyoto Japanese Steak House",
+            "rank": 8,
+            "score": 0.6328784823417664,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "China Cuisine, 235 Main St, North Reading, MA 01864",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e30be1f11fd589:0xa100d2bff2c1c5a5",
+            "iid": 69103,
+            "name": "China Cuisine",
+            "rank": 9,
+            "score": 0.6277092099189758,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sushi Time, 5 Plaistow Rd, Plaistow, NH 03865",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89e2fe018c8148cb:0x30385d7c8f012c84",
+            "iid": 69047,
+            "name": "Sushi Time",
+            "rank": 10,
+            "score": 0.624485194683075,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "Thyme, 97 Turnpike St, North Andover, MA 01845",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e30625208ff245:0xaf25e8d0c3610f5c",
+            "iid": 69066,
+            "name": "Thyme",
+            "rank": 11,
+            "score": 0.6237143874168396,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pho Da Lat, 131 Drum Hill Rd, Chelmsford, MA 01824",
+            "category": "['Vietnamese restaurant', 'Bar', 'Chinese restaurant', 'Cocktail bar', 'Restaurant']",
+            "gmap_id": "0x89e3a35c8d2e717b:0xa5053437b8853253",
+            "iid": 70130,
+            "name": "Pho Da Lat",
+            "rank": 12,
+            "score": 0.6231462955474854,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "TOMO Japanese Steakhouse, 368 S Broadway, Salem, NH 03079",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e3a9f7304a4c9b:0xa1a0ba07f80fb16e",
+            "iid": 70186,
+            "name": "TOMO Japanese Steakhouse",
+            "rank": 13,
+            "score": 0.6222124099731445,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "Mandarin Lowell, 1590 Middlesex St #1149, Lowell, MA 01851",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e3a49ae10e6717:0x3d85f33397d0d7e1",
+            "iid": 70160,
+            "name": "Mandarin Lowell",
+            "rank": 14,
+            "score": 0.6155245304107666,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Mommy's Pho Vietnamese Noodle and Bar, 7 Ayers Village Rd, Methuen, MA 01844",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e3013d504ed5c1:0xe5b3d298bf7c3c81",
+            "iid": 69052,
+            "name": "Mommy's Pho Vietnamese Noodle and Bar",
+            "rank": 15,
+            "score": 0.6150584816932678,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Thai Chili, 473 S Broadway, Salem, NH 03079",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e3a9e52823e37f:0x4372c884de0d63df",
+            "iid": 70181,
+            "name": "Thai Chili",
+            "rank": 16,
+            "score": 0.6127785444259644,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "Peking Garden, 36 Park St #3616, Andover, MA 01810",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89e3088ed2ddc457:0xe28d0d2b9396c9ff",
+            "iid": 69093,
+            "name": "Peking Garden",
+            "rank": 17,
+            "score": 0.6120694875717163,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "China Buffet, 199 Plain St Unit 4, Lowell, MA 01852",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e3a4760f12f745:0x7278a7453ce26a2f",
+            "iid": 70155,
+            "name": "China Buffet",
+            "rank": 18,
+            "score": 0.612060010433197,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Thai Choice Restaurant, 272 E Main St, Gloucester, MA 01930",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89e3250548459159:0x3f7f7be972fd707f",
+            "iid": 69167,
+            "name": "Thai Choice Restaurant",
+            "rank": 19,
+            "score": 0.6112502217292786,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Bangkok Thai Food, 44 Nashua Rd, Londonderry, NH 03053",
+            "category": "['Thai restaurant', 'Hot pot restaurant']",
+            "gmap_id": "0x89e252c572f10f4d:0xbc41fc794042f2c7",
+            "iid": 68948,
+            "name": "Bangkok Thai Food",
+            "rank": 20,
+            "score": 0.6106100678443909,
+            "state": "New_Hampshire"
+        }
+    ],
+    "user": {
+        "name": "Wes Scribner",
+        "uid": 304425,
+        "user_id": 110197500654168789123
+    }
+}

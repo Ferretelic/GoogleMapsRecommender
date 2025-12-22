@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Zushi Japanese Bistro, 6727 E McDowell Rd, Mesa, AZ 85215",
+            "category": "['Teppanyaki restaurant', 'Bar', 'Chinese restaurant', 'Sushi restaurant']",
+            "date": "2017/07/28",
+            "gmap_id": "0x872ba523c0ac5959:0xee383a3409061175",
+            "iid": 29606,
+            "name": "Zushi Japanese Bistro",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1501273891119
+        },
+        {
+            "address": "Lee Lee International Supermarkets, 2025 N Dobson Rd, Chandler, AZ 85224",
+            "category": "['Asian grocery store', 'Grocery store', 'Indian grocery store', 'Japanese grocery store', 'Korean grocery store', 'Produce market', 'Seafood market', 'Supermarket']",
+            "date": "2017/08/01",
+            "gmap_id": "0x872b076950ae541b:0x8796e7750e2e9ee9",
+            "iid": 28925,
+            "name": "Lee Lee International Supermarkets",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1501628970440
+        },
+        {
+            "address": "Tum Nak Thai, 2060 S Power Rd # 102, Mesa, AZ 85209",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2017/12/30",
+            "gmap_id": "0x872bae37b0cec4d5:0x65178bb53eda9f75",
+            "iid": 29715,
+            "name": "Tum Nak Thai",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1514676031445
+        },
+        {
+            "address": "Tum Nak Thai, 2060 S Power Rd # 102, Mesa, AZ 85209",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2017/12/30",
+            "gmap_id": "0x872bae37b0cec4d5:0x65178bb53eda9f75",
+            "iid": 29715,
+            "name": "Tum Nak Thai",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1514676031445
+        },
+        {
+            "address": "India Oven, 1315 S Gilbert Rd #5204, Mesa, AZ 85204",
+            "category": "['Indian restaurant', 'Family restaurant', 'Restaurant']",
+            "date": "2018/01/25",
+            "gmap_id": "0x872babdee7e1b651:0xeed2e36826ecf86d",
+            "iid": 29695,
+            "name": "India Oven",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1516847995099
+        },
+        {
+            "address": "WooChi Super Buffet, 1901 S Signal Butte Rd, Mesa, AZ 85209",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/03/19",
+            "gmap_id": "0x872bb16b3130e9b1:0xe8fbf79a88264fbd",
+            "iid": 29746,
+            "name": "WooChi Super Buffet",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1521475678199
+        },
+        {
+            "address": "Got Sushi?, 6744 E McDowell Rd #102, Mesa, AZ 85215",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "date": "2018/12/11",
+            "gmap_id": "0x872ba5247457e641:0xeadf4e3edd99d78",
+            "iid": 29607,
+            "name": "Got Sushi?",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1544568685118
+        },
+        {
+            "address": "Kabuki Japanese Restaurant, 2000 E Rio Salado Pkwy, Tempe, AZ 85281",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/02/08",
+            "gmap_id": "0x872b09001a4740bb:0x54515c0411d42739",
+            "iid": 29041,
+            "name": "Kabuki Japanese Restaurant",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1549585484567
+        },
+        {
+            "address": "Sushi Creek, 21805 S Ellsworth Rd #103, Queen Creek, AZ 85142",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/10/02",
+            "gmap_id": "0x872a4d3c4b385243:0xd45a6095aa74ff4d",
+            "iid": 28798,
+            "name": "Sushi Creek",
+            "split": "valid",
+            "state": "Arizona",
+            "unix_time": 1570055602566
+        },
+        {
+            "address": "Kabuki Japanese Restaurant, 6770 N Sunrise Blvd, Glendale, AZ 85305",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/12/30",
+            "gmap_id": "0x872b4035f7810081:0x5826fb01796d4ac6",
+            "iid": 29263,
+            "name": "Kabuki Japanese Restaurant",
+            "split": "test",
+            "state": "Arizona",
+            "unix_time": 1609301517099
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Globe Indian Food - Lawrence, KS, 619 Massachusetts St, Lawrence, KS 66044",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87bf6f05bc3bf559:0x6f1b553e1bbaa60c",
+            "iid": 32859,
+            "name": "Globe Indian Food - Lawrence, KS",
+            "rank": 1,
+            "score": -1.8617305755615234,
+            "state": "Kansas"
+        },
+        {
+            "address": "Stone Korean Restaurant, 24032 Bothell Everett Hwy #400, Bothell, WA 98021",
+            "category": "['Restaurant', 'Korean restaurant']",
+            "gmap_id": "0x54900f9505da718d:0x9c4b82deab722459",
+            "iid": 1769,
+            "name": "Stone Korean Restaurant",
+            "rank": 2,
+            "score": -1.863977313041687,
+            "state": "Washington"
+        },
+        {
+            "address": "Bao Bao Cafe, 214 W 39th St, New York, NY 10018",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x89c2598529cd6bc3:0x4337804cb04b5d10",
+            "iid": 59615,
+            "name": "Bao Bao Cafe",
+            "rank": 3,
+            "score": -1.864595890045166,
+            "state": "New_York"
+        },
+        {
+            "address": "Mercantile on Main, 240 E Main St, Rochester, NY 14604",
+            "category": "['Food court', 'Cafe', 'Food producer', 'Indian takeaway', 'Meat dish restaurant', 'Pasta shop', 'Restaurant', 'Salad shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89d6b515dddd6de1:0x6c2317dad013fe38",
+            "iid": 68119,
+            "name": "Mercantile on Main",
+            "rank": 4,
+            "score": -1.8650093078613281,
+            "state": "New_York"
+        },
+        {
+            "address": "forbidden city, 12151 Pacific Ave S, Tacoma, WA 98444",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x549101e97443d5ad:0xe3e0f3768f3faa93",
+            "iid": 3430,
+            "name": "forbidden city",
+            "rank": 5,
+            "score": -1.8650414943695068,
+            "state": "Washington"
+        },
+        {
+            "address": "Taj Mahal Cuisine, 142 S Tennessee Ave, Atlantic City, NJ 08401",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x89c0ef3c8a953b11:0xf40e9e406d725fac",
+            "iid": 57717,
+            "name": "Taj Mahal Cuisine",
+            "rank": 6,
+            "score": -1.8663897514343262,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 7,
+            "score": -1.869579792022705,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Panda Express, 4106 S Garnett Rd, Tulsa, OK 74146",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x87b68d17568d5345:0x6c6ab0819c4df5ad",
+            "iid": 32502,
+            "name": "Panda Express",
+            "rank": 8,
+            "score": -1.8698257207870483,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "China Kitchen, 12100 Veterans Memorial Dr ste j, Houston, TX 77067",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640cde40ad7ab47:0x2917d087cc1b39f9",
+            "iid": 23550,
+            "name": "China Kitchen",
+            "rank": 9,
+            "score": -1.8702596426010132,
+            "state": "Texas"
+        },
+        {
+            "address": "Ginza Japanese Grill - North Charleston, 5647 Rivers Ave, North Charleston, SC 29406",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fe6397576378ab:0x10b1e3a09d6166f7",
+            "iid": 53203,
+            "name": "Ginza Japanese Grill - North Charleston",
+            "rank": 10,
+            "score": -1.873059868812561,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Elephant Thai, 3408 N Academy Blvd, Colorado Springs, CO 80917",
+            "category": "['Thai restaurant', 'Gluten-free restaurant', 'Pho restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x87134f20589c95ed:0x82b46084c5faa1fd",
+            "iid": 28459,
+            "name": "Elephant Thai",
+            "rank": 11,
+            "score": -1.873184084892273,
+            "state": "Colorado"
+        },
+        {
+            "address": "Yellowtail Ramen & Aburi, 220 Tiny Town Rd Suite 106, Clarksville, TN 37042",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886529564a5acac7:0x43bff74ba09b402f",
+            "iid": 44658,
+            "name": "Yellowtail Ramen & Aburi",
+            "rank": 12,
+            "score": -1.873958945274353,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Hibachi Express New Port Richey, 5308 Little Rd, New Port Richey, FL 34655",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c291045966164b:0x53c7390beec6ac9",
+            "iid": 46850,
+            "name": "Hibachi Express New Port Richey",
+            "rank": 13,
+            "score": -1.8763831853866577,
+            "state": "Florida"
+        },
+        {
+            "address": "Ten Ichi Mart & Deli, 188 Berry St, Brooklyn, NY 11249",
+            "category": "['Japanese grocery store', 'Sushi takeaway']",
+            "gmap_id": "0x89c2590e6a2dd07d:0x81e0c88307e1fd6",
+            "iid": 59320,
+            "name": "Ten Ichi Mart & Deli",
+            "rank": 14,
+            "score": -1.8778679370880127,
+            "state": "New_York"
+        },
+        {
+            "address": "Bangkok Street, 608 Main St, Dallas, OR 97338",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54eaa9a0738deea3:0xdaef7b4ccd5b1cdc",
+            "iid": 5651,
+            "name": "Bangkok Street",
+            "rank": 15,
+            "score": -1.8794280290603638,
+            "state": "Oregon"
+        },
+        {
+            "address": "Miyake Sushi, 8419 S 73rd Plaza #105, Papillion, NE 68046",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87938be5ba0dc461:0xdce323325aa1e8f8",
+            "iid": 31817,
+            "name": "Miyake Sushi",
+            "rank": 16,
+            "score": -1.8795064687728882,
+            "state": "Nebraska"
+        },
+        {
+            "address": "Bao Dumplings & Bao Tea \u5bf6\u9903\u5bf6\u8336, 1358 NJ-36, Hazlet, NJ 07730",
+            "category": "['Dumpling restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x89c235d3eeed285d:0x858b6bd3976311ef",
+            "iid": 58075,
+            "name": "Bao Dumplings & Bao Tea \u5bf6\u9903\u5bf6\u8336",
+            "rank": 17,
+            "score": -1.8795971870422363,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Tako Sushi, 17630 Collins Ave, Sunny Isles Beach, FL 33160",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store', 'Japanese restaurant', 'Ramen restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88d9ad90c9d61767:0xb14ef4a3776d4e53",
+            "iid": 48439,
+            "name": "Tako Sushi",
+            "rank": 18,
+            "score": -1.8797869682312012,
+            "state": "Florida"
+        },
+        {
+            "address": "Rib No. 7, 32 W 33rd St, New York, NY 10001",
+            "category": "['Korean restaurant', 'Fine dining restaurant', 'Korean barbecue restaurant', 'Korean rib restaurant']",
+            "gmap_id": "0x89c259c3721519f3:0xd82597f8e194c4b4",
+            "iid": 60201,
+            "name": "Rib No. 7",
+            "rank": 19,
+            "score": -1.8800647258758545,
+            "state": "New_York"
+        },
+        {
+            "address": "Thai Nine Restaurant, 9873 N Michigan Rd, Carmel, IN 46032",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8814abd7c63ff377:0xafc4fab408ec49e2",
+            "iid": 38309,
+            "name": "Thai Nine Restaurant",
+            "rank": 20,
+            "score": -1.8800777196884155,
+            "state": "Indiana"
+        }
+    ],
+    "user": {
+        "name": "Corey Stillwell",
+        "uid": 120867,
+        "user_id": 104054785390170152157
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Yokohama Yakitori Koubou, 3904 Convoy St Consumer Studies, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x80dbffe941bbe10b:0x5b068aa93e669bc2",
+            "iid": 18622,
+            "name": "Yokohama Yakitori Koubou",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498932034802
+        },
+        {
+            "address": "Pokewaii, 1158 W San Marcos Blvd #4080, San Marcos, CA 92078",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x80dc7548be3fdb19:0xfcaf7bff8138bcff",
+            "iid": 18892,
+            "name": "Pokewaii",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498937050812
+        },
+        {
+            "address": "Sushi Ota, 4529 Mission Bay Dr, San Diego, CA 92109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Kyoto style Japanese restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0034529b4873:0x8bc55af4512dcaf3",
+            "iid": 18646,
+            "name": "Sushi Ota",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499555919369
+        },
+        {
+            "address": "Sam Woo BBQ Restaurant, 7330 Clairemont Mesa Blvd #A103, San Diego, CA 92111",
+            "category": "['Chinese restaurant', 'Barbecue restaurant', 'Bubble tea store', 'Cantonese restaurant']",
+            "date": "2017/07/31",
+            "gmap_id": "0x80dbff9b29249677:0x6c0b783b7e1d8a9d",
+            "iid": 18581,
+            "name": "Sam Woo BBQ Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501484612397
+        },
+        {
+            "address": "Thang Thang, 7905 Engineer Rd, San Diego, CA 92111",
+            "category": "['Korean restaurant']",
+            "date": "2017/08/27",
+            "gmap_id": "0x80dbff95d3189f2b:0x745485b7f6b590e3",
+            "iid": 18565,
+            "name": "Thang Thang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503813290623
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 4609 Convoy St STE F, San Diego, CA 92111",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/10/03",
+            "gmap_id": "0x80dbff94661282a1:0x739a3a4c8001f2f3",
+            "iid": 18558,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507001051503
+        },
+        {
+            "address": "Serenitea, 940 W San Marcos Blvd, San Marcos, CA 92078",
+            "category": "['Bubble tea store', 'Chinese tea house', 'Traditional teahouse']",
+            "date": "2017/10/07",
+            "gmap_id": "0x80dc754ff27d0bab:0x24d643b10221d317",
+            "iid": 18899,
+            "name": "Serenitea",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507414927742
+        },
+        {
+            "address": "Siam Nara Thai Cuisine, 8993 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2018/01/26",
+            "gmap_id": "0x80dbf8e158262e27:0xf29feaa605eb53dd",
+            "iid": 18430,
+            "name": "Siam Nara Thai Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516994309238
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "date": "2018/02/16",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1518755482185
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "date": "2018/02/16",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1518755482185
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "PhoHolic 2, 12829 Beach Blvd, Stanton, CA 90680",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd29f1d4acb9b5:0x578b33bc2adadec2",
+            "iid": 20469,
+            "name": "PhoHolic 2",
+            "rank": 1,
+            "score": -2.0040435791015625,
+            "state": "California"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 801 Fifth Ave, San Diego, CA 92101",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x80d953886169c6c9:0x2feba55766d306db",
+            "iid": 17897,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 2,
+            "score": -2.0357706546783447,
+            "state": "California"
+        },
+        {
+            "address": "Pho House, 3675 W Florida Ave, Hemet, CA 92545",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80db6580b21794db:0x13f93cdf47e1510b",
+            "iid": 18259,
+            "name": "Pho House",
+            "rank": 3,
+            "score": -2.12113618850708,
+            "state": "California"
+        },
+        {
+            "address": "Pho Q Nha, 5742 Kathy Run Ln, Columbus, OH 43229",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88388be9cb6eabb7:0x66c430de68679235",
+            "iid": 40749,
+            "name": "Pho Q Nha",
+            "rank": 4,
+            "score": -2.151679515838623,
+            "state": "Ohio"
+        },
+        {
+            "address": "Ustaad da dhaba, 935 US-42, London, OH 43140",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8838a513c5d29d5b:0x3513d804c5559b48",
+            "iid": 40917,
+            "name": "Ustaad da dhaba",
+            "rank": 5,
+            "score": -2.162001609802246,
+            "state": "Ohio"
+        },
+        {
+            "address": "Panda Express, 1422 W Colony Rd, Ripon, CA 95366",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8090459c7ded5b35:0x3a834dbb65cda5b1",
+            "iid": 11459,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -2.167128801345825,
+            "state": "California"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 7,
+            "score": -2.167228937149048,
+            "state": "Nevada"
+        },
+        {
+            "address": "Honest Indian Restaurant, Honest Restaurant, 97 US 206 North, Somerville, NJ 08876",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c395b83d5efd19:0xff6a135cb99c47b1",
+            "iid": 64198,
+            "name": "Honest Indian Restaurant",
+            "rank": 8,
+            "score": -2.1695666313171387,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Teriyaki Madness, 6409 Grand Ave Unit B1, Gurnee, IL 60031",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x880f8f2d3efc9b33:0x475966cd277b5021",
+            "iid": 37005,
+            "name": "Teriyaki Madness",
+            "rank": 9,
+            "score": -2.1758530139923096,
+            "state": "Illinois"
+        },
+        {
+            "address": "Oregon, Grants Pass, NE D St, Hunan Garden\u90ae\u653f\u7f16\u7801: 97526",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c57b7d82f40285:0xc47f276ef1f47800",
+            "iid": 5487,
+            "name": "Hunan Garden",
+            "rank": 10,
+            "score": -2.1804540157318115,
+            "state": "Oregon"
+        },
+        {
+            "address": "Fresh India Grocery and Eatery, 441 Commerce Dr, Woodbury, MN 55125",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "gmap_id": "0x87f7d905ae8ddaf7:0x3f2a456bd99a094c",
+            "iid": 35169,
+            "name": "Fresh India Grocery and Eatery",
+            "rank": 11,
+            "score": -2.184842348098755,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Gotji's Kitchen, 400 Main St, Buda, TX 78610",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865b5391f8ab7e21:0x50276f6f719071f8",
+            "iid": 27140,
+            "name": "Gotji's Kitchen",
+            "rank": 12,
+            "score": -2.185032844543457,
+            "state": "Texas"
+        },
+        {
+            "address": "Great India, 752 Blue Vista Ln #400, Midvale, UT 84047",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87528971c6afead3:0x679fb662b8237409",
+            "iid": 30249,
+            "name": "Great India",
+            "rank": 13,
+            "score": -2.186581611633301,
+            "state": "Utah"
+        },
+        {
+            "address": "China Wok, 1005 Summit St, Crescent City, FL 32112",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88e6f5f4609f0883:0xc391162ef6c1ec8c",
+            "iid": 50086,
+            "name": "China Wok",
+            "rank": 14,
+            "score": -2.188474416732788,
+            "state": "Florida"
+        },
+        {
+            "address": "Panda Express, 6167 East Sam Houston Pkwy N, Houston, TX 77049",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640a59db4100c4d:0x20e1dc5125432944",
+            "iid": 22828,
+            "name": "Panda Express",
+            "rank": 15,
+            "score": -2.1885955333709717,
+            "state": "Texas"
+        },
+        {
+            "address": "FUSIAN, 7721 Sawmill Rd, Dublin, OH 43016",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8838ed1769136129:0xde34c0370308822b",
+            "iid": 40925,
+            "name": "FUSIAN",
+            "rank": 16,
+            "score": -2.18935489654541,
+            "state": "Ohio"
+        },
+        {
+            "address": "Poke & More, 12892 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Health food restaurant', 'Bubble tea store', 'Hawaiian restaurant', 'Japanese restaurant', 'Salad shop', 'Sushi takeaway', 'Tea house']",
+            "gmap_id": "0x88d9ad81428cb5fd:0x4248f353aaeebc2f",
+            "iid": 48436,
+            "name": "Poke & More",
+            "rank": 17,
+            "score": -2.189960479736328,
+            "state": "Florida"
+        },
+        {
+            "address": "Asian American Food Company, 2048 Taraval St, San Francisco, CA 94116",
+            "category": "['Dumpling restaurant', 'Chinese restaurant', 'Fresh food market']",
+            "gmap_id": "0x808f7d833dbf1633:0x4614d2979d40f025",
+            "iid": 9018,
+            "name": "Asian American Food Company",
+            "rank": 18,
+            "score": -2.1910746097564697,
+            "state": "California"
+        },
+        {
+            "address": "Ginza Japanese Grill - North Charleston, 5647 Rivers Ave, North Charleston, SC 29406",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fe6397576378ab:0x10b1e3a09d6166f7",
+            "iid": 53203,
+            "name": "Ginza Japanese Grill - North Charleston",
+            "rank": 19,
+            "score": -2.192107677459717,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Jasmine at Belden, 4695 Dressler Rd NW, Canton, OH 44718",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8836d703ba30f571:0x1252196718c989ca",
+            "iid": 40566,
+            "name": "Jasmine at Belden",
+            "rank": 20,
+            "score": -2.193000316619873,
+            "state": "Ohio"
+        }
+    ],
+    "user": {
+        "name": "San Diego Food",
+        "uid": 100216,
+        "user_id": 103364014986488443499
+    }
+}

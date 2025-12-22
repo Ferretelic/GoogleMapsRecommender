@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "U Lin Asian Bistro, 1120 164th St SW STE F, Lynnwood, WA 98087",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Restaurant']",
+            "date": "2018/03/15",
+            "gmap_id": "0x549005c8076a90c9:0xd4fb1be33f986b4e",
+            "iid": 1626,
+            "name": "U Lin Asian Bistro",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1521093750041
+        },
+        {
+            "address": "Bento Time, 11802 Evergreen Way #102, Everett, WA 98204",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "date": "2018/04/20",
+            "gmap_id": "0x549006a8a2cd6cbb:0x6c97de8b67a6ec63",
+            "iid": 1659,
+            "name": "Bento Time",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1524252885434
+        },
+        {
+            "address": "Town Story, 6211 Evergreen Way, Everett, WA 98203",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "date": "2018/08/17",
+            "gmap_id": "0x549000ec9d4017b9:0xe4169e217c64672a",
+            "iid": 1519,
+            "name": "Town Story",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1534473974811
+        },
+        {
+            "address": "Ph\u1edf H\u00e0, 2930 Colby Ave, Everett, WA 98201",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/08/18",
+            "gmap_id": "0x549aaa9974f1bcf5:0xb39d5e5bae0763af",
+            "iid": 4812,
+            "name": "Ph\u1edf H\u00e0",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1534557687276
+        },
+        {
+            "address": "Golden House Chinese Cuisine, 12030 Mukilteo Speedway, Mukilteo, WA 98275",
+            "category": "['Chinese restaurant']",
+            "date": "2018/09/03",
+            "gmap_id": "0x54900408f1496c3b:0x26d7498bf31f8092",
+            "iid": 1546,
+            "name": "Golden House Chinese Cuisine",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1535948715813
+        },
+        {
+            "address": "Tasty Indian Bistro, 510 W Casino Rd ste a, Everett, WA 98204",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2018/09/30",
+            "gmap_id": "0x54900124f5cd2be5:0x41ee54dd9ffae4ef",
+            "iid": 1530,
+            "name": "Tasty Indian Bistro",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1538277287622
+        },
+        {
+            "address": "Panda Express, 11610 Evergreen Way, Everett, WA 98204",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/11/12",
+            "gmap_id": "0x549006a8b5060dc1:0xa731e712700f683f",
+            "iid": 1661,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1542001981639
+        },
+        {
+            "address": "Silver Dragon, 10730 19th Ave SE C, Everett, WA 98208",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x549006deb4c95c2f:0x9d17bda4cc38fe28",
+            "iid": 1675,
+            "name": "Silver Dragon",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1543200509208
+        },
+        {
+            "address": "Curries, 7318 Evergreen Way #101, Everett, WA 98204",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2018/12/16",
+            "gmap_id": "0x549000c2d5ef5c3d:0x986578aa90a40745",
+            "iid": 1514,
+            "name": "Curries",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1544931278748
+        },
+        {
+            "address": "Toyama Sushi, 10121 Evergreen Way, Everett, WA 98204",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x549006cada3c2cfb:0xa2297994ace9227a",
+            "iid": 1665,
+            "name": "Toyama Sushi",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1576216390118
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Pasteur's Noodle Soup, 12025 Hwy 99 # D, Everett, WA 98204",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x549006a7bf28fccf:0x2d005fee4b1a025e",
+            "iid": 1658,
+            "name": "Pasteur's Noodle Soup",
+            "rank": 1,
+            "score": 0.7962665557861328,
+            "state": "Washington"
+        },
+        {
+            "address": "Hunan Palace, 2821 Pacific Ave, Everett, WA 98201",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar']",
+            "gmap_id": "0x549aaa91f774dd37:0xbf21ee7eaebffd7e",
+            "iid": 4805,
+            "name": "Hunan Palace",
+            "rank": 2,
+            "score": 0.7961671948432922,
+            "state": "Washington"
+        },
+        {
+            "address": "Beijing Garden, 3719 Rucker Ave, Everett, WA 98201",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x549000788c07dcd1:0x31eeaed79d633859",
+            "iid": 1510,
+            "name": "Beijing Garden",
+            "rank": 3,
+            "score": 0.7909808158874512,
+            "state": "Washington"
+        },
+        {
+            "address": "Oishi Teriyaki, 2030 Broadway, Everett, WA 98201",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x549aaabf49945b8d:0xf0fc0302dd74dc91",
+            "iid": 4820,
+            "name": "Oishi Teriyaki",
+            "rank": 4,
+            "score": 0.7897793650627136,
+            "state": "Washington"
+        },
+        {
+            "address": "Janbo Cafe, 6125 Evergreen Way, Everett, WA 98203",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x549000ecbcfe1999:0xf7587341b248540d",
+            "iid": 1520,
+            "name": "Janbo Cafe",
+            "rank": 5,
+            "score": 0.7640343904495239,
+            "state": "Washington"
+        },
+        {
+            "address": "Toshi's Teriyaki, 3101 Hoyt Ave, Everett, WA 98201",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x549aaa9bfa3b3ba1:0xde37a1c4ceaa24ea",
+            "iid": 4815,
+            "name": "Toshi's Teriyaki",
+            "rank": 6,
+            "score": 0.7470154166221619,
+            "state": "Washington"
+        },
+        {
+            "address": "Than Brothers, 500 SE Everett Mall Way a1, Everett, WA 98208",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x549006d25a33baf3:0xcf64d76dc21a512f",
+            "iid": 1668,
+            "name": "Than Brothers",
+            "rank": 7,
+            "score": 0.7392972707748413,
+            "state": "Washington"
+        },
+        {
+            "address": "V Star Buffet, 620 SE Everett Mall Way, Everett, WA 98208",
+            "category": "['Buffet restaurant', 'Chinese food', 'Chinese restaurant']",
+            "gmap_id": "0x549006d252b07021:0x34a1aef6e5cfdcd1",
+            "iid": 1667,
+            "name": "V Star Buffet",
+            "rank": 8,
+            "score": 0.7326763868331909,
+            "state": "Washington"
+        },
+        {
+            "address": "Lanna Thai Restaurant, 7825 Evergreen Way, Everett, WA 98203",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x549000dbc2bbb17f:0x3163d92e9661f71b",
+            "iid": 1516,
+            "name": "Lanna Thai Restaurant",
+            "rank": 9,
+            "score": 0.7241030335426331,
+            "state": "Washington"
+        },
+        {
+            "address": "Niko Teriyaki, 12926 Mukilteo Speedway # 9, Lynnwood, WA 98087",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x549004115de079fb:0x63010b3ca21422d8",
+            "iid": 1549,
+            "name": "Niko Teriyaki",
+            "rank": 10,
+            "score": 0.7240636944770813,
+            "state": "Washington"
+        },
+        {
+            "address": "Teriyaki Town, 4615 196th St SW #128, Lynnwood, WA 98036, United States",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54900540659114d5:0xbf255f0cc1cbfd44",
+            "iid": 1594,
+            "name": "Teriyaki Town",
+            "rank": 11,
+            "score": 0.7133392095565796,
+            "state": "Washington"
+        },
+        {
+            "address": "Terracotta Red, 2820 Hewitt Ave, Everett, WA 98201",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Bistro', 'Chinese restaurant', 'Lounge', 'Restaurant']",
+            "gmap_id": "0x549aaa9237296005:0xa39a3c775cb5851a",
+            "iid": 4806,
+            "name": "Terracotta Red",
+            "rank": 12,
+            "score": 0.7092286944389343,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho To Liem, 209 E Casino Rd, Everett, WA 98208",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54900127f47daf3b:0xec128889dc48feba",
+            "iid": 1531,
+            "name": "Pho To Liem",
+            "rank": 13,
+            "score": 0.7006198763847351,
+            "state": "Washington"
+        },
+        {
+            "address": "Toyama Sushi, 10121 Evergreen Way, Everett, WA 98204",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x549006cada3c2cfb:0xa2297994ace9227a",
+            "iid": 1665,
+            "name": "Toyama Sushi",
+            "rank": 14,
+            "score": 0.7004059553146362,
+            "state": "Washington"
+        },
+        {
+            "address": "Sampaguita Fil-Am Cuisine, 9317 State Ave # D, Marysville, WA 98270",
+            "category": "['Filipino restaurant', 'Restaurant']",
+            "gmap_id": "0x548553933c0bccc1:0xb1eb950a3e37acdf",
+            "iid": 1361,
+            "name": "Sampaguita Fil-Am Cuisine",
+            "rank": 15,
+            "score": 0.6981331706047058,
+            "state": "Washington"
+        },
+        {
+            "address": "KYO Teriyaki, 9925 Old Highway 99, Marysville, WA 98270",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x548553eaffa060e5:0xdc5d47be70315bc6",
+            "iid": 1369,
+            "name": "KYO Teriyaki",
+            "rank": 16,
+            "score": 0.6938057541847229,
+            "state": "Washington"
+        },
+        {
+            "address": "Noble Palace II, 1912 Broadway, Everett, WA 98201",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x549aaac7602981d7:0x15835b6dec912dda",
+            "iid": 4821,
+            "name": "Noble Palace II",
+            "rank": 17,
+            "score": 0.6928687691688538,
+            "state": "Washington"
+        },
+        {
+            "address": "Hua Hin Thai Cuisine Everett, 6100 Evergreen Way, Everett, WA 98203",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x549000eceab25795:0xdf0f9266fb21e7d4",
+            "iid": 1521,
+            "name": "Hua Hin Thai Cuisine Everett",
+            "rank": 18,
+            "score": 0.6913107633590698,
+            "state": "Washington"
+        },
+        {
+            "address": "Tokyo Teriyaki & Wok, 7405 Hardeson Rd STE D, Everett, WA 98203",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x549001194c17ef09:0x2f91dacbcb9ee8b5",
+            "iid": 1525,
+            "name": "Tokyo Teriyaki & Wok",
+            "rank": 19,
+            "score": 0.6894441246986389,
+            "state": "Washington"
+        },
+        {
+            "address": "Miyako's Teriyaki & Wok, 13112 39th Ave SE D, Everett, WA 98208",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54900655d18d069f:0x1de72ae5503504b0",
+            "iid": 1643,
+            "name": "Miyako's Teriyaki & Wok",
+            "rank": 20,
+            "score": 0.6884926557540894,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "vlad taltos",
+        "uid": 149734,
+        "user_id": 105015875878854075340
+    }
+}

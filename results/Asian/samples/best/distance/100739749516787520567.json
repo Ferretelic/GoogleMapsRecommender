@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Chinese Kitchen, 1056 Market St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2016/04/28",
+            "gmap_id": "0x8835d987c0f55e3d:0xe4ea0910fe119fb2",
+            "iid": 40523,
+            "name": "Panda Chinese Kitchen",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1461867611388
+        },
+        {
+            "address": "Golden Chopsticks, 329 N York St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2017/11/26",
+            "gmap_id": "0x8835d99207a149d7:0x121798349570bfb",
+            "iid": 40524,
+            "name": "Golden Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1511658037811
+        },
+        {
+            "address": "Silver Chopsticks, 2135 National Rd, Elm Grove, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835db1a2e01d9c1:0x1e1b3cedebab275f",
+            "iid": 40527,
+            "name": "Silver Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571416096
+        },
+        {
+            "address": "A.C. Buffet, 836 National Rd, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835da41c86bb3f7:0x48bc06a620f7b465",
+            "iid": 40525,
+            "name": "A.C. Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571557351
+        },
+        {
+            "address": "Saigon Restaurant, 9530 179th St, Tinley Park, IL 60487",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/03/18",
+            "gmap_id": "0x880e154bfb8164a1:0x2321b3b7dd3db3d",
+            "iid": 36052,
+            "name": "Saigon Restaurant",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1552880878046
+        },
+        {
+            "address": "Pho Express, 241 Three Springs Dr, Weirton, WV 26062",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88343a8748647f8b:0x840be38bd3893c84",
+            "iid": 40158,
+            "name": "Pho Express",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879419016
+        },
+        {
+            "address": "China House, 5636 US-60 #6, Huntington, WV 25705",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88460779cec01437:0xce76270a32c86802",
+            "iid": 42137,
+            "name": "China House",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879646323
+        },
+        {
+            "address": "Super China Buffet, 200 Mall Rd, Barboursville, WV 25504",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600f13d4398d7:0x87a484e8030a4774",
+            "iid": 42133,
+            "name": "Super China Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879653573
+        },
+        {
+            "address": "Shogun, 3420 US-60, Barboursville, WV 25504",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Brewpub', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600895cc5842f:0xeae90622517386b6",
+            "iid": 42131,
+            "name": "Shogun",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879685270
+        },
+        {
+            "address": "New China Garden Buffet, 804 6th Ave, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884609daf10d286b:0xb3efbee883dda54f",
+            "iid": 42143,
+            "name": "New China Garden Buffet",
+            "split": "valid",
+            "state": "West_Virginia",
+            "unix_time": 1565879727013
+        },
+        {
+            "address": "No. 1 Kitchen, 1669 Washington Ave, Huntington, WV 25704",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x8845e1fd66caec4d:0x1e13d3af7eac55d4",
+            "iid": 42130,
+            "name": "No. 1 Kitchen",
+            "split": "test",
+            "state": "West_Virginia",
+            "unix_time": 1565879871530
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Wen Wu Buffet, 107 Plaza Dr ste q, St Clairsville, OH 43950",
+            "category": "['Buffet restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x883671517247482f:0x34b3cab9c2f48bcd",
+            "iid": 40530,
+            "name": "Wen Wu Buffet",
+            "rank": 1,
+            "score": -2.1087398529052734,
+            "state": "Ohio"
+        },
+        {
+            "address": "East Flavor Restaurant, 322 10th St, Huntington, WV 25701",
+            "category": "['Restaurant', 'Chinese restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x884609f16e930f1b:0xf8ffabe18ad8c983",
+            "iid": 42145,
+            "name": "East Flavor Restaurant",
+            "rank": 2,
+            "score": -2.1252195835113525,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China Wok, 103 Bridge St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8835db111d6dbae7:0x7e23f2440827aa25",
+            "iid": 40526,
+            "name": "China Wok",
+            "rank": 3,
+            "score": -2.155442237854004,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Bridgelin Chinese Restaurant, 76 29th St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8835d97cfd9b4219:0x7df91a0dfb6a1b22",
+            "iid": 40522,
+            "name": "Bridgelin Chinese Restaurant",
+            "rank": 4,
+            "score": -2.2165238857269287,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Great Chinese Buffet, 1226 Lafayette Ave, Moundsville, WV 26041",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8835e0e96aeacefd:0x8dcf031f1835bc0e",
+            "iid": 40528,
+            "name": "Great Chinese Buffet",
+            "rank": 5,
+            "score": -2.2311654090881348,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Moon Buffet, 101D Roosevelt Blvd, Eleanor, WV 25070",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8848b79dceb19e57:0xd89e1483cc2aa085",
+            "iid": 42203,
+            "name": "Moon Buffet",
+            "rank": 6,
+            "score": -2.281498432159424,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "No. 1 Kitchen, 4341 US-60 Unit 99, Huntington, WV 25705",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8846008a677434a5:0x71ca5121aad719f5",
+            "iid": 42132,
+            "name": "No. 1 Kitchen",
+            "rank": 7,
+            "score": -2.3850035667419434,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Hibachi Master, 375 Mall Rd, Barboursville, WV 25504",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x884600f40021cf35:0x279ef6aa415e773f",
+            "iid": 42134,
+            "name": "Hibachi Master",
+            "rank": 8,
+            "score": -2.387139081954956,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Number 1 Chinese Restaurant, 2132 Sunset Blvd, Steubenville, OH 43952",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88342e5760378cff:0x3f52da222cc3aa2d",
+            "iid": 40155,
+            "name": "Number 1 Chinese Restaurant",
+            "rank": 9,
+            "score": -2.3888444900512695,
+            "state": "Ohio"
+        },
+        {
+            "address": "Little Saigon Oriental Market, 5636 Co Rd 60/67 #2, Huntington, WV 25705",
+            "category": "['Asian grocery store', 'Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x884607679f41010f:0x3500794bff0f6934",
+            "iid": 42136,
+            "name": "Little Saigon Oriental Market",
+            "rank": 10,
+            "score": -2.4167637825012207,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Shangri-La Chinese Restaurant, 322 10th St, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884609cf9a163273:0x5d65b643f9d1746",
+            "iid": 42142,
+            "name": "Shangri-La Chinese Restaurant",
+            "rank": 11,
+            "score": -2.4267873764038086,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Bombay Bazaar Springfield, 1915 S Glenstone Ave, Springfield, MO 65804",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x87cf633a43c479a7:0xe58332b2e9c4f60e",
+            "iid": 33583,
+            "name": "Bombay Bazaar Springfield",
+            "rank": 12,
+            "score": -2.4643704891204834,
+            "state": "Missouri"
+        },
+        {
+            "address": "Cedar Market, 4640 US-60, Huntington, WV 25705",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x8846078fb7a6aed3:0x9754972703a1cb9a",
+            "iid": 42138,
+            "name": "Cedar Market",
+            "rank": 13,
+            "score": -2.466446876525879,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Kin Thai Street Eatery, 1050 20th St Suite 180, Sacramento, CA 95811",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x809ad1afcc0eb341:0x22fa22acd60fa947",
+            "iid": 12416,
+            "name": "Kin Thai Street Eatery",
+            "rank": 14,
+            "score": -2.4752514362335205,
+            "state": "California"
+        },
+        {
+            "address": "The Monk's Heights, 126 Heights Blvd Unit #110, Houston, TX 77007",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8640c19abdf11311:0xd74a8cb7a3e564a7",
+            "iid": 23113,
+            "name": "The Monk's Heights",
+            "rank": 15,
+            "score": -2.478254795074463,
+            "state": "Texas"
+        },
+        {
+            "address": "Fresh Vietnamese Bistro & Teahouse, 3840 Promenade Pkwy STE A, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889c0d9661e03b47:0xeb5e97144e7bada9",
+            "iid": 46727,
+            "name": "Fresh Vietnamese Bistro & Teahouse",
+            "rank": 16,
+            "score": -2.4795806407928467,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Panda Express, 133 Falcon Ridge Pkwy, Mesquite, NV 89027",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80ca2b22efdd26ad:0xee723ae6313f37e4",
+            "iid": 17625,
+            "name": "Panda Express",
+            "rank": 17,
+            "score": -2.479750633239746,
+            "state": "Nevada"
+        },
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 18,
+            "score": -2.4810545444488525,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pora Foods, 1 American Dream Way, East Rutherford, NJ 07073",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2f95b1abb51b5:0xc58f2ed7901b313c",
+            "iid": 63747,
+            "name": "Pora Foods",
+            "rank": 19,
+            "score": -2.4818105697631836,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kiko Rice & Noodle, 758 W North St, Fayetteville, AR 72701",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x87c96f067f0e30e9:0xc21795c61a9e03a2",
+            "iid": 33426,
+            "name": "Kiko Rice & Noodle",
+            "rank": 20,
+            "score": -2.4818220138549805,
+            "state": "Arkansas"
+        }
+    ],
+    "user": {
+        "name": "the Tarantula Collective",
+        "uid": 22059,
+        "user_id": 100739749516787520567
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thali of India, 28 E Market St, Corning, NY 14830",
+            "category": "['Indian restaurant']",
+            "date": "2016/05/02",
+            "gmap_id": "0x89d049c4117d2503:0x209ea3c7aee34c71",
+            "iid": 67729,
+            "name": "Thali of India",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462212909963
+        },
+        {
+            "address": "En En, 9 S Buffalo St, Corning, NY 14830",
+            "category": "['Chinese restaurant']",
+            "date": "2016/05/02",
+            "gmap_id": "0x89d049bfd2631a7b:0x1cf19796054103c0",
+            "iid": 67728,
+            "name": "En En",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462229606248
+        },
+        {
+            "address": "Ling Ling, 348 W Morris St, Bath, NY 14810",
+            "category": "['Chinese restaurant']",
+            "date": "2017/06/14",
+            "gmap_id": "0x89d1afb4b92277bf:0xd6c42aefc21cc414",
+            "iid": 67853,
+            "name": "Ling Ling",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1497416589262
+        },
+        {
+            "address": "QQ Buffet, 3115 NY-417, Olean, NY 14760",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "date": "2017/06/15",
+            "gmap_id": "0x89d2709b2abcac07:0xdb3afc47bef6e5c3",
+            "iid": 67858,
+            "name": "QQ Buffet",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1497489668300
+        },
+        {
+            "address": "Four Seasons, 404 Eddy St # A, Ithaca, NY 14850",
+            "category": "['Korean barbecue restaurant', 'Korean restaurant', 'Restaurant']",
+            "date": "2017/06/15",
+            "gmap_id": "0x89d0818e483db2c1:0x930fd9461ace42d3",
+            "iid": 67753,
+            "name": "Four Seasons",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1497500813361
+        },
+        {
+            "address": "Best Wok, 241 Main St, Cairo, NY 12413",
+            "category": "['Chinese restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x89ddb9bebdefc80d:0x5a4db7cb082577ec",
+            "iid": 68579,
+            "name": "Best Wok",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1506265203216
+        },
+        {
+            "address": "Fortune Buffet, 1645 Elmira St, Sayre, PA 18840",
+            "category": "['Chinese restaurant']",
+            "date": "2018/04/14",
+            "gmap_id": "0x89d00955215f12b5:0x17852f00ba91b557",
+            "iid": 67717,
+            "name": "Fortune Buffet",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1523737927207
+        },
+        {
+            "address": "Gangnam Station, 104 Dryden Rd, Ithaca, NY 14850",
+            "category": "['Korean restaurant', 'Chinese restaurant']",
+            "date": "2018/04/14",
+            "gmap_id": "0x89d0818e6b404c1f:0x7725bff62ec095cd",
+            "iid": 67756,
+            "name": "Gangnam Station",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1523746237534
+        },
+        {
+            "address": "Sangam Indian Cuisine, 424 Eddy St, Ithaca, NY 14850",
+            "category": "['Indian restaurant', 'Chicken restaurant', 'Dessert restaurant', 'Soup restaurant', 'Vegetarian restaurant']",
+            "date": "2018/04/14",
+            "gmap_id": "0x89d0818e48c8cc23:0x8a5027c5ac682fd9",
+            "iid": 67755,
+            "name": "Sangam Indian Cuisine",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1523746563058
+        },
+        {
+            "address": "Secret Garden, 2731 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "date": "2018/06/11",
+            "gmap_id": "0x89d9f32801a09419:0xf56eee4f8cd060d5",
+            "iid": 68292,
+            "name": "Secret Garden",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1528702250944
+        },
+        {
+            "address": "Spring Buffet, 106 Fairgrounds Memorial Pkwy, Ithaca, NY 14850",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/12",
+            "gmap_id": "0x89d0810e0ed09477:0x2a5b0e84672a13b4",
+            "iid": 67740,
+            "name": "Spring Buffet",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1544615376716
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Hamilton Mini Mart, 305 S Hamilton St, Painted Post, NY 14870",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x89d04a1c76fc7b11:0xb6bc2b0996fb7d5f",
+            "iid": 67730,
+            "name": "Hamilton Mini Mart",
+            "rank": 1,
+            "score": -2.041273355484009,
+            "state": "New_York"
+        },
+        {
+            "address": "Asia Food Market, 701 W Buffalo St, Ithaca, NY 14850",
+            "category": "['Chinese supermarket']",
+            "gmap_id": "0x89d081ed964a4d87:0xad405c6f89a6ae9e",
+            "iid": 67765,
+            "name": "Asia Food Market",
+            "rank": 2,
+            "score": -2.218585729598999,
+            "state": "New_York"
+        },
+        {
+            "address": "Miyake Japanese Restaurant, 416 Eddy St, Ithaca, NY 14850",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89d0818e48c8b17f:0x31132250cc89ad91",
+            "iid": 67754,
+            "name": "Miyake Japanese Restaurant",
+            "rank": 3,
+            "score": -2.2489686012268066,
+            "state": "New_York"
+        },
+        {
+            "address": "Jade Garden, 108 S Meadow St, Ithaca, NY 14850",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d0819b6b77dacf:0xdd477bf3f3312a7e",
+            "iid": 67758,
+            "name": "Jade Garden",
+            "rank": 4,
+            "score": -2.299928665161133,
+            "state": "New_York"
+        },
+        {
+            "address": "Bento ya Masako, Look For The Green Door. It\u2019s Up The Stairs 31 1, 2 E Market St, Corning, NY 14830",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Yakiniku restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x89d04833819a22c5:0x715d7d11478c6854",
+            "iid": 67725,
+            "name": "Bento ya Masako",
+            "rank": 5,
+            "score": -2.3006715774536133,
+            "state": "New_York"
+        },
+        {
+            "address": "Shanghai Express, 84 Canal St, Big Flats, NY 14814",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d0473c0c196bc3:0x361a86ce1deffe5c",
+            "iid": 67724,
+            "name": "Shanghai Express",
+            "rank": 6,
+            "score": -2.301865339279175,
+            "state": "New_York"
+        },
+        {
+            "address": "U Like, 407 S Main St, Athens, PA 18810",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d0091b97be0a89:0xdd01076b5f76ada2",
+            "iid": 67716,
+            "name": "U Like",
+            "rank": 7,
+            "score": -2.34686279296875,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Yee Olde Hickory House, 3543 Watkins Rd, Horseheads, NY 14845",
+            "category": "['American restaurant', 'Chinese restaurant', 'Italian restaurant']",
+            "gmap_id": "0x89d04260b34db8c1:0x1282f88eb1db9f2e",
+            "iid": 67723,
+            "name": "Yee Olde Hickory House",
+            "rank": 8,
+            "score": -2.357185125350952,
+            "state": "New_York"
+        },
+        {
+            "address": "Dragon Wok, 2898 Westinghouse Rd, Horseheads, NY 14845",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89d041fa17073483:0xc6d8fbb0d595f8b6",
+            "iid": 67722,
+            "name": "Dragon Wok",
+            "rank": 9,
+            "score": -2.3833022117614746,
+            "state": "New_York"
+        },
+        {
+            "address": "Tianjin Foods, 171 E State St # 136, Ithaca, NY 14850",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d0819c807c787f:0xfb67c39d4a6bfbb5",
+            "iid": 67762,
+            "name": "Tianjin Foods",
+            "rank": 10,
+            "score": -2.390629291534424,
+            "state": "New_York"
+        },
+        {
+            "address": "Kimchi, 124 E State St, Ithaca, NY 14850",
+            "category": "['Korean restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89d08190d621e79b:0xf8af845b71c24262",
+            "iid": 67757,
+            "name": "Kimchi",
+            "rank": 11,
+            "score": -2.4229350090026855,
+            "state": "New_York"
+        },
+        {
+            "address": "New York Garden Chinese Restaurant, 144 Main St, Groton, NY 13073",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89da76aa75de26ed:0xd06971c5b2c520d9",
+            "iid": 68322,
+            "name": "New York Garden Chinese Restaurant",
+            "rank": 12,
+            "score": -2.4468441009521484,
+            "state": "New_York"
+        },
+        {
+            "address": "Evergreen, 83 E Market St, Corning, NY 14830",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d04833e1a2a9f7:0x95cec4ce2caeaee5",
+            "iid": 67726,
+            "name": "Evergreen",
+            "rank": 13,
+            "score": -2.451554775238037,
+            "state": "New_York"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 14,
+            "score": -2.5313003063201904,
+            "state": "Texas"
+        },
+        {
+            "address": "Teriyaki Madness, 2535 Otay Center Dr Ste C, San Diego, CA 92154",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80d947f9ff16dfd9:0x88deafec802a258f",
+            "iid": 17750,
+            "name": "Teriyaki Madness",
+            "rank": 15,
+            "score": -2.5330312252044678,
+            "state": "California"
+        },
+        {
+            "address": "Dup Bap, 691 Bloomfield Ave, West Caldwell, NJ 07006",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c30163715debe1:0x52f5d907843e5992",
+            "iid": 63946,
+            "name": "Dup Bap",
+            "rank": 16,
+            "score": -2.534045696258545,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Teriyaki Madness, 16955 N 75th Ave Ste 115, Peoria, AZ 85382",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x872b69a2e8e9c817:0xc4d37ae230d7bcae",
+            "iid": 29373,
+            "name": "Teriyaki Madness",
+            "rank": 17,
+            "score": -2.536574602127075,
+            "state": "Arizona"
+        },
+        {
+            "address": "Paradise Dynasty, 3333 Bristol St Suite A, Costa Mesa, CA 92626",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dcdf65ec616e97:0xb3c61ceedd6ce0e8",
+            "iid": 19781,
+            "name": "Paradise Dynasty",
+            "rank": 18,
+            "score": -2.5372841358184814,
+            "state": "California"
+        },
+        {
+            "address": "Pho Hoa + Jazen Tea, 3205 Crow Canyon Pl, San Ramon, CA 94583",
+            "category": "['Vietnamese restaurant', 'Bubble tea store', 'Pho restaurant']",
+            "gmap_id": "0x808ff3e20c190df7:0x21e3d9f469630a3a",
+            "iid": 11290,
+            "name": "Pho Hoa + Jazen Tea",
+            "rank": 19,
+            "score": -2.5415289402008057,
+            "state": "California"
+        },
+        {
+            "address": "J SAN RAMEN FULLERTON, 1309 S Harbor Blvd, Fullerton, CA 92832",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80dcd7a5d5a2ca8b:0x350113f42cc91f2",
+            "iid": 19408,
+            "name": "J SAN RAMEN FULLERTON",
+            "rank": 20,
+            "score": -2.5416717529296875,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Chum Lee",
+        "uid": 294766,
+        "user_id": 109876496820108881978
+    }
+}

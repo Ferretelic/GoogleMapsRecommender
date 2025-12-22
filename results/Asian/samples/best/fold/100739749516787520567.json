@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Chinese Kitchen, 1056 Market St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2016/04/28",
+            "gmap_id": "0x8835d987c0f55e3d:0xe4ea0910fe119fb2",
+            "iid": 40523,
+            "name": "Panda Chinese Kitchen",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1461867611388
+        },
+        {
+            "address": "Golden Chopsticks, 329 N York St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2017/11/26",
+            "gmap_id": "0x8835d99207a149d7:0x121798349570bfb",
+            "iid": 40524,
+            "name": "Golden Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1511658037811
+        },
+        {
+            "address": "Silver Chopsticks, 2135 National Rd, Elm Grove, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835db1a2e01d9c1:0x1e1b3cedebab275f",
+            "iid": 40527,
+            "name": "Silver Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571416096
+        },
+        {
+            "address": "A.C. Buffet, 836 National Rd, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835da41c86bb3f7:0x48bc06a620f7b465",
+            "iid": 40525,
+            "name": "A.C. Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571557351
+        },
+        {
+            "address": "Saigon Restaurant, 9530 179th St, Tinley Park, IL 60487",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/03/18",
+            "gmap_id": "0x880e154bfb8164a1:0x2321b3b7dd3db3d",
+            "iid": 36052,
+            "name": "Saigon Restaurant",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1552880878046
+        },
+        {
+            "address": "Pho Express, 241 Three Springs Dr, Weirton, WV 26062",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88343a8748647f8b:0x840be38bd3893c84",
+            "iid": 40158,
+            "name": "Pho Express",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879419016
+        },
+        {
+            "address": "China House, 5636 US-60 #6, Huntington, WV 25705",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88460779cec01437:0xce76270a32c86802",
+            "iid": 42137,
+            "name": "China House",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879646323
+        },
+        {
+            "address": "Super China Buffet, 200 Mall Rd, Barboursville, WV 25504",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600f13d4398d7:0x87a484e8030a4774",
+            "iid": 42133,
+            "name": "Super China Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879653573
+        },
+        {
+            "address": "Shogun, 3420 US-60, Barboursville, WV 25504",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Brewpub', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600895cc5842f:0xeae90622517386b6",
+            "iid": 42131,
+            "name": "Shogun",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879685270
+        },
+        {
+            "address": "New China Garden Buffet, 804 6th Ave, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884609daf10d286b:0xb3efbee883dda54f",
+            "iid": 42143,
+            "name": "New China Garden Buffet",
+            "split": "valid",
+            "state": "West_Virginia",
+            "unix_time": 1565879727013
+        },
+        {
+            "address": "No. 1 Kitchen, 1669 Washington Ave, Huntington, WV 25704",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x8845e1fd66caec4d:0x1e13d3af7eac55d4",
+            "iid": 42130,
+            "name": "No. 1 Kitchen",
+            "split": "test",
+            "state": "West_Virginia",
+            "unix_time": 1565879871530
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Nawab Indian Cuisine, 600 4th Ave, Huntington, WV 25701",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x884609dcad1143f1:0x80b75d452ef4780f",
+            "iid": 42144,
+            "name": "Nawab Indian Cuisine",
+            "rank": 1,
+            "score": 5.1682820320129395,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Taste of Asia, 821 3rd Ave, Huntington, WV 25701",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x884609c519245525:0xb6e80745edfdfe38",
+            "iid": 42140,
+            "name": "Taste of Asia",
+            "rank": 2,
+            "score": 4.894643783569336,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Thai Valley Kitchen, 26 Putnam Village Dr, Hurricane, WV 25526",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x8848b4200eed4933:0x49cb8745f1bcd627",
+            "iid": 42202,
+            "name": "Thai Valley Kitchen",
+            "rank": 3,
+            "score": 4.435657978057861,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Taste of Asia, 236 7th Ave, South Charleston, WV 25303",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8848cd50b6959dd3:0x2d23e20035c68fdc",
+            "iid": 42209,
+            "name": "Taste of Asia",
+            "rank": 4,
+            "score": 4.40724515914917,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China Wok, 103 Bridge St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8835db111d6dbae7:0x7e23f2440827aa25",
+            "iid": 40526,
+            "name": "China Wok",
+            "rank": 5,
+            "score": 4.400567054748535,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Pho Vinh Long, 601 D St, South Charleston, WV 25303",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8848cd5738283705:0xe41af7711264a3fe",
+            "iid": 42210,
+            "name": "Pho Vinh Long",
+            "rank": 6,
+            "score": 4.393058776855469,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China Buffet, 5707 MacCorkle Ave SE, Charleston, WV 25304",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884f2b06f1b0a0eb:0xd2b796e9e08f9cb2",
+            "iid": 42340,
+            "name": "China Buffet",
+            "rank": 7,
+            "score": 4.271844863891602,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Main Kwong | Chinese Restaurant, 1407 Washington St E, Charleston, WV 25301",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x884f2cb7c30fcca1:0x5367e20e6d5046de",
+            "iid": 42345,
+            "name": "Main Kwong | Chinese Restaurant",
+            "rank": 8,
+            "score": 4.251800537109375,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Chow Thai, 426 1/2 B Shrewsbury St, Charleston, WV 25301",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x884f2ccb9668039f:0xf2a4379c2d77efbd",
+            "iid": 42348,
+            "name": "Chow Thai",
+            "rank": 9,
+            "score": 4.239880561828613,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "New China Garden Buffet, 804 6th Ave, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884609daf10d286b:0xb3efbee883dda54f",
+            "iid": 42143,
+            "name": "New China Garden Buffet",
+            "rank": 10,
+            "score": 4.226471424102783,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Surin of Thailand, 912 3rd Ave, Huntington, WV 25701",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x884609c573dddcb9:0x10c83222de685baf",
+            "iid": 42141,
+            "name": "Surin of Thailand",
+            "rank": 11,
+            "score": 4.2044548988342285,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China Gourmet, 34 RHL Blvd, South Charleston, WV 25309",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884f3292c9f02bab:0x82529af5201c1f1a",
+            "iid": 42353,
+            "name": "China Gourmet",
+            "rank": 12,
+            "score": 4.141458988189697,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "No. 1 Kitchen, 1669 Washington Ave, Huntington, WV 25704",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x8845e1fd66caec4d:0x1e13d3af7eac55d4",
+            "iid": 42130,
+            "name": "No. 1 Kitchen",
+            "rank": 13,
+            "score": 4.077413558959961,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Asahi All You Can Eat, 16 Old Mill Blvd, Washington, PA 15301",
+            "category": "['Sushi restaurant', 'Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x8835acfa9fec164b:0x54d1e78166d9f3f2",
+            "iid": 40516,
+            "name": "Asahi All You Can Eat",
+            "rank": 14,
+            "score": 3.962932825088501,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Pho U & Mi, 1451 3rd Ave, Huntington, WV 25701",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8846097e9af39cd1:0xa074826f5a532bba",
+            "iid": 42139,
+            "name": "Pho U & Mi",
+            "rank": 15,
+            "score": 3.959045171737671,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Bridgelin Chinese Restaurant, 76 29th St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8835d97cfd9b4219:0x7df91a0dfb6a1b22",
+            "iid": 40522,
+            "name": "Bridgelin Chinese Restaurant",
+            "rank": 16,
+            "score": 3.9315035343170166,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Sitar of India, 702 Lee St E, Charleston, WV 25311",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Punjabi restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x884f2ccdab1ef5db:0xf0b850219c07da15",
+            "iid": 42349,
+            "name": "Sitar of India",
+            "rank": 17,
+            "score": 3.918961524963379,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China chef, 200-5 Great Teays Blvd, Scott Depot, WV 25560",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8848b419bd98dd13:0x9f19ee1b41cd19fc",
+            "iid": 42200,
+            "name": "China chef",
+            "rank": 18,
+            "score": 3.868589162826538,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Hibachi Japanese Steakhouse, 48 RHL Blvd, South Charleston, WV 25309",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x884f3292c9f02bab:0xf390d606798b2e98",
+            "iid": 42354,
+            "name": "Hibachi Japanese Steakhouse",
+            "rank": 19,
+            "score": 3.8483388423919678,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Grand China buffet Sushi & Grill, 301 Oak Spring Rd, Washington, PA 15301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Buffet restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8835ad01b98826eb:0x478a6c6ce8d769ac",
+            "iid": 40517,
+            "name": "Grand China buffet Sushi & Grill",
+            "rank": 20,
+            "score": 3.79689359664917,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "the Tarantula Collective",
+        "uid": 22059,
+        "user_id": 100739749516787520567
+    }
+}

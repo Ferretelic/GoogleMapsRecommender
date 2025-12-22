@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Express, 7685 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/08/07",
+            "gmap_id": "0x8094681dc5ff5af1:0x1fd48ff19f21d424",
+            "iid": 11841,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470607715598
+        },
+        {
+            "address": "Panda Express, 5347 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/01/05",
+            "gmap_id": "0x8094678ac5c7c31f:0x69c1b1750cfe6c56",
+            "iid": 11824,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483593659419
+        },
+        {
+            "address": "New City Chinese Cuisine Dim Sum, 1484 E Shaw Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Traditional restaurant']",
+            "date": "2017/04/08",
+            "gmap_id": "0x80945d0c3fdf070f:0xe297e4fae857d423",
+            "iid": 11708,
+            "name": "New City Chinese Cuisine Dim Sum",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491670753921
+        },
+        {
+            "address": "Grand Star Buffet, 1167 N Cherry St, Tulare, CA 93274",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "date": "2017/08/22",
+            "gmap_id": "0x80952b929cb5249f:0x21fb4a97b7909ff7",
+            "iid": 11919,
+            "name": "Grand Star Buffet",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503433857292
+        },
+        {
+            "address": "Panda Express, 3698 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x809466193f1067bd:0xb2aaffbdc6da743c",
+            "iid": 11793,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552141217760
+        },
+        {
+            "address": "Imperial Garden Restaurant, 6640 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8094680005a55b09:0xe0052341cfc4a4d",
+            "iid": 11838,
+            "name": "Imperial Garden Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564455212891
+        },
+        {
+            "address": "Panda Express, 1987 W Clinton Ave, Fresno, CA 93705",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/12/02",
+            "gmap_id": "0x8094671d41967db5:0x11a7a33021e342d2",
+            "iid": 11812,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575326704310
+        },
+        {
+            "address": "Tokyo Steak House, 6163 1865 Herndon Ave # H, Clovis, CA 93611",
+            "category": "['Teppanyaki restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2020/02/01",
+            "gmap_id": "0x80945b6efa80506d:0x64c5d1f56488a7b2",
+            "iid": 11682,
+            "name": "Tokyo Steak House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580587535584
+        },
+        {
+            "address": "Lee Kitchen, 37357 Ave 12, Madera, CA 93636",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x80946b9b327950d3:0xf7cfb76893117aeb",
+            "iid": 11856,
+            "name": "Lee Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582573666163
+        },
+        {
+            "address": "Four Seasons Chinese Restaurant, 342 N Clovis Ave #0300, Clovis, CA 93612",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2020/02/28",
+            "gmap_id": "0x80945c9ee7e5d37f:0x1c79a8c74f64fe7a",
+            "iid": 11702,
+            "name": "Four Seasons Chinese Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1582912202009
+        },
+        {
+            "address": "Panda Express, 2045 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/03/03",
+            "gmap_id": "0x80945d8a3f99e819:0xae1658550ae922ac",
+            "iid": 11738,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583269061354
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Edo-Ya Tokyo Cuisine, 3050 W Shaw Ave UNIT 112, Fresno, CA 93711",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8094662fdfd6bb9b:0x7b77b498175745ed",
+            "iid": 11801,
+            "name": "Edo-Ya Tokyo Cuisine",
+            "rank": 1,
+            "score": 4.3420891761779785,
+            "state": "California"
+        },
+        {
+            "address": "Central Fish Company, 1535 Kern St, Fresno, CA 93706",
+            "category": "['Seafood restaurant', 'Fish store', 'Japanese grocery store', 'Market']",
+            "gmap_id": "0x8094609c20932245:0x46677168d00637d",
+            "iid": 11778,
+            "name": "Central Fish Company",
+            "rank": 2,
+            "score": 4.046181678771973,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Don - Fresno, 6731 N Cedar Ave, Fresno, CA 93710",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80945d3028415ab3:0xdcaa0f554dac68b8",
+            "iid": 11716,
+            "name": "Teriyaki Don - Fresno",
+            "rank": 3,
+            "score": 3.837728261947632,
+            "state": "California"
+        },
+        {
+            "address": "Huong Lan 9, 4965 N Fresno St, Fresno, CA 93726",
+            "category": "['Vietnamese restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80945d64b06b3d4d:0xbfdc9a82e6e15cdc",
+            "iid": 11729,
+            "name": "Huong Lan 9",
+            "rank": 4,
+            "score": 3.7513158321380615,
+            "state": "California"
+        },
+        {
+            "address": "Shanghai Chinese Cuisine, 4011 N Blackstone Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8094677e6bf28521:0x53fda3957f68dcce",
+            "iid": 11822,
+            "name": "Shanghai Chinese Cuisine",
+            "rank": 5,
+            "score": 3.7155816555023193,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 3910 N Cedar Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80945db760795e81:0xf7d929c39ee0a900",
+            "iid": 11739,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": 3.664693593978882,
+            "state": "California"
+        },
+        {
+            "address": "Yoshino River Park, 110 E Paseo Del Centro, Fresno, CA 93720",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8094681e6bf6ebb1:0xd891b67ea8514a2a",
+            "iid": 11843,
+            "name": "Yoshino River Park",
+            "rank": 7,
+            "score": 3.588681936264038,
+            "state": "California"
+        },
+        {
+            "address": "Four Seasons Chinese Restaurant, 342 N Clovis Ave #0300, Clovis, CA 93612",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80945c9ee7e5d37f:0x1c79a8c74f64fe7a",
+            "iid": 11702,
+            "name": "Four Seasons Chinese Restaurant",
+            "rank": 8,
+            "score": 3.587843656539917,
+            "state": "California"
+        },
+        {
+            "address": "Yoshino Japanese Restaurant, 6226 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x809467f88bf2b0e9:0xc22bb3fdce6d5c95",
+            "iid": 11836,
+            "name": "Yoshino Japanese Restaurant",
+            "rank": 9,
+            "score": 3.5550501346588135,
+            "state": "California"
+        },
+        {
+            "address": "Island Pacific Seafood Market, 6048 N First St, Fresno, CA 93710",
+            "category": "['Supermarket', 'Asian grocery store', 'Asian restaurant', 'Filipino restaurant', 'Restaurant', 'Seafood market', 'Seafood restaurant']",
+            "gmap_id": "0x80945d414f652ae7:0x44e84c4566eeac96",
+            "iid": 11720,
+            "name": "Island Pacific Seafood Market",
+            "rank": 10,
+            "score": 3.542585849761963,
+            "state": "California"
+        },
+        {
+            "address": "Takumi Japanese Restaurant, 3486 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Teppanyaki restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80946623018fa325:0x5523a63b69736c8a",
+            "iid": 11794,
+            "name": "Takumi Japanese Restaurant",
+            "rank": 11,
+            "score": 3.4943172931671143,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf 75 Oriental Restaurant, 3127 E McKinley Ave, Fresno, CA 93703",
+            "category": "['Vietnamese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80945de3fc5a7221:0x4bb825a2bd33e259",
+            "iid": 11742,
+            "name": "Ph\u1edf 75 Oriental Restaurant",
+            "rank": 12,
+            "score": 3.4727516174316406,
+            "state": "California"
+        },
+        {
+            "address": "KoJa Kitchen, 7785 N Palm Ave #101, Fresno, CA 93711",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x8094683e12ea52ab:0xcd3f23b56fc0c569",
+            "iid": 11848,
+            "name": "KoJa Kitchen",
+            "rank": 13,
+            "score": 3.462841272354126,
+            "state": "California"
+        },
+        {
+            "address": "P.F. Chang's, 7894 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8094681fcada4e15:0x1122f28c1967aa02",
+            "iid": 11846,
+            "name": "P.F. Chang's",
+            "rank": 14,
+            "score": 3.4359161853790283,
+            "state": "California"
+        },
+        {
+            "address": "Wassabi Off the Hook, 752 W Shaw Ave, Fresno, CA 93704",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fish and seafood restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x809467eca0cba83d:0x540c1500dfa36a44",
+            "iid": 11834,
+            "name": "Wassabi Off the Hook",
+            "rank": 15,
+            "score": 3.423063278198242,
+            "state": "California"
+        },
+        {
+            "address": "Wassabi On Fire, 2920 E Nees Ave, Fresno, CA 93720",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8094432d77a27049:0x16d7e981777f903d",
+            "iid": 11672,
+            "name": "Wassabi On Fire",
+            "rank": 16,
+            "score": 3.399869441986084,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 6733 N Riverside Dr Suite 111, Fresno, CA 93722",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80946f190810151f:0x99835e234413b103",
+            "iid": 11857,
+            "name": "Panda Express",
+            "rank": 17,
+            "score": 3.3708181381225586,
+            "state": "California"
+        },
+        {
+            "address": "Shila Korean BBQ, 2760 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x80946631d53cb523:0xf4719719414c59d7",
+            "iid": 11805,
+            "name": "Shila Korean BBQ",
+            "rank": 18,
+            "score": 3.3644425868988037,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 2045 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80945d8a3f99e819:0xae1658550ae922ac",
+            "iid": 11738,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": 3.3012845516204834,
+            "state": "California"
+        },
+        {
+            "address": "Pete's Teriyaki House, 2738 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80946631bb8559f7:0xf395e08947edba18",
+            "iid": 11804,
+            "name": "Pete's Teriyaki House",
+            "rank": 20,
+            "score": 3.3004136085510254,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Felix G. Angulo",
+        "uid": 109558,
+        "user_id": 103675103588736265985
+    }
+}

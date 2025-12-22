@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Express, 7685 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/08/07",
+            "gmap_id": "0x8094681dc5ff5af1:0x1fd48ff19f21d424",
+            "iid": 11841,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470607715598
+        },
+        {
+            "address": "Panda Express, 5347 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/01/05",
+            "gmap_id": "0x8094678ac5c7c31f:0x69c1b1750cfe6c56",
+            "iid": 11824,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483593659419
+        },
+        {
+            "address": "New City Chinese Cuisine Dim Sum, 1484 E Shaw Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Traditional restaurant']",
+            "date": "2017/04/08",
+            "gmap_id": "0x80945d0c3fdf070f:0xe297e4fae857d423",
+            "iid": 11708,
+            "name": "New City Chinese Cuisine Dim Sum",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491670753921
+        },
+        {
+            "address": "Grand Star Buffet, 1167 N Cherry St, Tulare, CA 93274",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "date": "2017/08/22",
+            "gmap_id": "0x80952b929cb5249f:0x21fb4a97b7909ff7",
+            "iid": 11919,
+            "name": "Grand Star Buffet",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503433857292
+        },
+        {
+            "address": "Panda Express, 3698 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x809466193f1067bd:0xb2aaffbdc6da743c",
+            "iid": 11793,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552141217760
+        },
+        {
+            "address": "Imperial Garden Restaurant, 6640 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8094680005a55b09:0xe0052341cfc4a4d",
+            "iid": 11838,
+            "name": "Imperial Garden Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564455212891
+        },
+        {
+            "address": "Panda Express, 1987 W Clinton Ave, Fresno, CA 93705",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/12/02",
+            "gmap_id": "0x8094671d41967db5:0x11a7a33021e342d2",
+            "iid": 11812,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575326704310
+        },
+        {
+            "address": "Tokyo Steak House, 6163 1865 Herndon Ave # H, Clovis, CA 93611",
+            "category": "['Teppanyaki restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2020/02/01",
+            "gmap_id": "0x80945b6efa80506d:0x64c5d1f56488a7b2",
+            "iid": 11682,
+            "name": "Tokyo Steak House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580587535584
+        },
+        {
+            "address": "Lee Kitchen, 37357 Ave 12, Madera, CA 93636",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x80946b9b327950d3:0xf7cfb76893117aeb",
+            "iid": 11856,
+            "name": "Lee Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582573666163
+        },
+        {
+            "address": "Four Seasons Chinese Restaurant, 342 N Clovis Ave #0300, Clovis, CA 93612",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2020/02/28",
+            "gmap_id": "0x80945c9ee7e5d37f:0x1c79a8c74f64fe7a",
+            "iid": 11702,
+            "name": "Four Seasons Chinese Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1582912202009
+        },
+        {
+            "address": "Panda Express, 2045 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/03/03",
+            "gmap_id": "0x80945d8a3f99e819:0xae1658550ae922ac",
+            "iid": 11738,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583269061354
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "China Hut Express, 2732 Whitson St, Selma, CA 93662",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8094f019e0c44603:0x3a2364b2fbbf18d6",
+            "iid": 11896,
+            "name": "China Hut Express",
+            "rank": 1,
+            "score": -1.543485403060913,
+            "state": "California"
+        },
+        {
+            "address": "Jollibee, 491 Woollomes Ave #101, Delano, CA 93215",
+            "category": "['Chicken restaurant', 'Family restaurant', 'Filipino restaurant', 'Hamburger restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80eae5d3dbc828cb:0x2b62441e4ed9f16",
+            "iid": 21635,
+            "name": "Jollibee",
+            "rank": 2,
+            "score": -2.0008351802825928,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 5280 N Jackson Ave, Fresno, CA 93740",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80945d00da4b605b:0xaebecee3b825c1ba",
+            "iid": 11707,
+            "name": "Panda Express",
+            "rank": 3,
+            "score": -2.0208933353424072,
+            "state": "California"
+        },
+        {
+            "address": "Zipangu Japanese Restaurant, 5090 N West Ave, Fresno, CA 93711",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x809467cf3246a297:0xad14e36cc5a9a4",
+            "iid": 11828,
+            "name": "Zipangu Japanese Restaurant",
+            "rank": 4,
+            "score": -2.0616860389709473,
+            "state": "California"
+        },
+        {
+            "address": "Sun Wah Kitchen, 7078 N West Ave, Fresno, CA 93711",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80946865cd069427:0xaae3958d8c605988",
+            "iid": 11849,
+            "name": "Sun Wah Kitchen",
+            "rank": 5,
+            "score": -2.139535427093506,
+            "state": "California"
+        },
+        {
+            "address": "Sumo steakhouse &sushi, 2350 E State St, Salem, OH 44460",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8836ab9e029c6dfd:0x38bff251229bc95a",
+            "iid": 40536,
+            "name": "Sumo steakhouse &sushi",
+            "rank": 6,
+            "score": -2.1542959213256836,
+            "state": "Ohio"
+        },
+        {
+            "address": "Kolachi Restaurant, 20 Meacham Ave, Elmont, NY 11003",
+            "category": "['Indian restaurant', 'Afghani restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Middle Eastern restaurant', 'Pakistani restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89c263d8fce573f7:0x3a7b32a31de5fa50",
+            "iid": 61995,
+            "name": "Kolachi Restaurant",
+            "rank": 7,
+            "score": -2.158346176147461,
+            "state": "New_York"
+        },
+        {
+            "address": "Taichi Bubble Tea, 2460 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Restaurant', 'Bubble tea store', 'Chinese takeaway', 'Ramen restaurant']",
+            "gmap_id": "0x89e839035dc18483:0x754aa3f4a8c2094c",
+            "iid": 71987,
+            "name": "Taichi Bubble Tea",
+            "rank": 8,
+            "score": -2.159329891204834,
+            "state": "New_York"
+        },
+        {
+            "address": "Chinn's Garden, 8048 N Cedar Ave, Fresno, CA 93720",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x809442c57de8a6f9:0x9dbfc506d66cc080",
+            "iid": 11667,
+            "name": "Chinn's Garden",
+            "rank": 9,
+            "score": -2.1602540016174316,
+            "state": "California"
+        },
+        {
+            "address": "Golden Kitchen Chinese Restaurant, 820 Surfside Dr, Surfside Beach, SC 29575",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x890041e9d4e26387:0xb40b7d2a0ab61f1e",
+            "iid": 53418,
+            "name": "Golden Kitchen Chinese Restaurant",
+            "rank": 10,
+            "score": -2.1621408462524414,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Hong Kong Ban Jum \ud64d\ucf69\ubc18\uc810, 1475 Bergen Blvd, Fort Lee, NJ 07024",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c2f7a85ac939e9:0xdc4af0309ba83e12",
+            "iid": 63675,
+            "name": "Hong Kong Ban Jum \ud64d\ucf69\ubc18\uc810",
+            "rank": 11,
+            "score": -2.1630046367645264,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "K brothers, 2058 8th St, Coralville, IA 52241",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x87e4437d04dde4bb:0x5923ef9c26e6dc15",
+            "iid": 34535,
+            "name": "K brothers",
+            "rank": 12,
+            "score": -2.1634328365325928,
+            "state": "Iowa"
+        },
+        {
+            "address": "Viet-Thai, 8451 Davis Lake Pkwy, Charlotte, NC 28269",
+            "category": "['Pho restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8856a78c93df353b:0x97e16cf253b266d1",
+            "iid": 43342,
+            "name": "Viet-Thai",
+            "rank": 13,
+            "score": -2.1661410331726074,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "TaiPei Asian Cuisine, 5912 N Davis Hwy Suite C, Pensacola, FL 32503",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8890c1f26265d4a5:0xb78c76d16905d2c5",
+            "iid": 46371,
+            "name": "TaiPei Asian Cuisine",
+            "rank": 14,
+            "score": -2.1672470569610596,
+            "state": "Florida"
+        },
+        {
+            "address": "Paisley, 429 Greenwich St, New York, NY 10013",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c2596d5783c191:0xaa7dd02ec324640e",
+            "iid": 59532,
+            "name": "Paisley",
+            "rank": 15,
+            "score": -2.167520523071289,
+            "state": "New_York"
+        },
+        {
+            "address": "Bombaywala & CO., 440 Forest Ave, Paramus, NJ 07652",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x89c2fabf1bf402fd:0xe1c35c5ba85e8ea3",
+            "iid": 63808,
+            "name": "Bombaywala & CO.",
+            "rank": 16,
+            "score": -2.168088436126709,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho Yummy, 1731 Quentin Rd, Lebanon, PA 17042",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c61d9af5b9c64d:0x89f91b661505d84e",
+            "iid": 65416,
+            "name": "Pho Yummy",
+            "rank": 17,
+            "score": -2.168285369873047,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Seoul food, 7875 Memorial Blvd, Port Arthur, TX 77640",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x863eb1205b752641:0x394ee283cbba123f",
+            "iid": 22569,
+            "name": "Seoul food",
+            "rank": 18,
+            "score": -2.1700527667999268,
+            "state": "Texas"
+        },
+        {
+            "address": "YUBU, 86 E 7th St, New York, NY 10003",
+            "category": "['Korean restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259cfbaa63c0b:0xa570face20d149c1",
+            "iid": 60218,
+            "name": "YUBU",
+            "rank": 19,
+            "score": -2.1708126068115234,
+            "state": "New_York"
+        },
+        {
+            "address": "Suggi Oota, 949 Ruff Dr, San Jose, CA 95110",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fcbeb9bd195dd:0x5c512b6315d54596",
+            "iid": 10903,
+            "name": "Suggi Oota",
+            "rank": 20,
+            "score": -2.1708638668060303,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Felix G. Angulo",
+        "uid": 109558,
+        "user_id": 103675103588736265985
+    }
+}

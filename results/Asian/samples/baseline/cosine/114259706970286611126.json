@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Pearl Cafe, 8416 N Lindbergh Blvd, Florissant, MO 63031",
+            "category": "['Thai restaurant']",
+            "date": "2018/06/26",
+            "gmap_id": "0x87df370ebb10ce8b:0x5eaec0c536eeb22a",
+            "iid": 34346,
+            "name": "Pearl Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1529973078452
+        },
+        {
+            "address": "Thai Kitchen - Florissant, 8458 N Lindbergh Blvd, Florissant, MO 63031",
+            "category": "['Thai restaurant']",
+            "date": "2018/08/04",
+            "gmap_id": "0x87df370be2c6242f:0xd5bedfb40a670cb6",
+            "iid": 34344,
+            "name": "Thai Kitchen - Florissant",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1533347229577
+        },
+        {
+            "address": "Dao Tien - U. City, 8600 Olive Blvd, St. Louis, MO 63132, United States",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/01/20",
+            "gmap_id": "0x87df34955ad52f2d:0x5c42a8942dabab58",
+            "iid": 34299,
+            "name": "Dao Tien - U. City",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1548022963356
+        },
+        {
+            "address": "Tajima Ramen Bar Hillcrest, 3739 Sixth Ave, San Diego, CA 92103, United States",
+            "category": "['Authentic Japanese restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/09/14",
+            "gmap_id": "0x80d954c52f4b50af:0x34cc2f1d3eae5594",
+            "iid": 17959,
+            "name": "Tajima Ramen Bar Hillcrest",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568422384704
+        },
+        {
+            "address": "MJ's Pinoy Fiesta, 2806 W Ball Rd, Anaheim, CA 92804",
+            "category": "['Filipino restaurant']",
+            "date": "2020/01/27",
+            "gmap_id": "0x80dd2911c096108d:0x7b577470d7a74892",
+            "iid": 20390,
+            "name": "MJ's Pinoy Fiesta",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580091555755
+        },
+        {
+            "address": "Masala Craft Indian Cuisine, 2 Hutton Centre Dr, Santa Ana, CA 92707",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/03/10",
+            "gmap_id": "0x80dcdecff1efe047:0x8e6c7994605c85b3",
+            "iid": 19723,
+            "name": "Masala Craft Indian Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1583804367438
+        },
+        {
+            "address": "Bangkok Kitchen, 136 W MacArthur Blvd, Santa Ana, CA 92707",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Caterer', 'Chicken wings restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2020/05/19",
+            "gmap_id": "0x80dcdf737b605af1:0x9c75f66383f0782e",
+            "iid": 19782,
+            "name": "Bangkok Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1589848772896
+        },
+        {
+            "address": "Kapamilya Restaurant, 10964 Warner Ave, Fountain Valley, CA 92708",
+            "category": "['Filipino restaurant']",
+            "date": "2020/05/19",
+            "gmap_id": "0x80dd2768b938580d:0x3e2150c4782076b6",
+            "iid": 20149,
+            "name": "Kapamilya Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1589931957883
+        },
+        {
+            "address": "Curry And Kabab Bistro, 7114 Edinger Ave, Huntington Beach, CA 92647",
+            "category": "['Indian restaurant']",
+            "date": "2020/12/19",
+            "gmap_id": "0x80dd266fb0d970e7:0x713a04ce98fb9d24",
+            "iid": 20090,
+            "name": "Curry And Kabab Bistro",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1608336407700
+        },
+        {
+            "address": "Ramen Hajime Tustin, 14071 Newport Ave #91, Tustin, CA 92780",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2021/04/04",
+            "gmap_id": "0x80dcdbb89e19496b:0xfc74245cfd9d4436",
+            "iid": 19535,
+            "name": "Ramen Hajime Tustin",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1617506820762
+        },
+        {
+            "address": "Ramenos, 1945 17th St STE 109, Santa Ana, CA 92705",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "date": "2021/05/30",
+            "gmap_id": "0x80dcd9ed7c1fb83f:0x9f1fd270e2cd72ed",
+            "iid": 19515,
+            "name": "Ramenos",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1622407834756
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ajisen Ramen, 2700 Alton Pkwy, Irvine, CA 92606",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80dcde9d02014b2d:0x5650562681535513",
+            "iid": 19707,
+            "name": "Ajisen Ramen",
+            "rank": 1,
+            "score": 0.619879961013794,
+            "state": "California"
+        },
+        {
+            "address": "AYCE Sushi SCM, 3392 S Bristol St, Santa Ana, CA 92704",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80dcdfaa84d4c4b3:0xf72825db3176637a",
+            "iid": 19803,
+            "name": "AYCE Sushi SCM",
+            "rank": 2,
+            "score": 0.6084608435630798,
+            "state": "California"
+        },
+        {
+            "address": "Benihana, 4250 Birch St, Newport Beach, CA 92660",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x80dcde57e6b2bd4f:0xcde7e7436a40131d",
+            "iid": 19689,
+            "name": "Benihana",
+            "rank": 3,
+            "score": 0.6076849102973938,
+            "state": "California"
+        },
+        {
+            "address": "Halves Boiling Pot + Grill | Shabu + Yakiniku, 45 Auto Center Dr ste #116, Foothill Ranch, CA 92610",
+            "category": "['Shabu-shabu restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Yakiniku restaurant']",
+            "gmap_id": "0x80dce9e1d98cbcc7:0x8a5d5782e4433139",
+            "iid": 19919,
+            "name": "Halves Boiling Pot + Grill | Shabu + Yakiniku",
+            "rank": 4,
+            "score": 0.5899670124053955,
+            "state": "California"
+        },
+        {
+            "address": "New Mandarin Garden, 111 W Avenida Palizada, San Clemente, CA 92672",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Restaurant']",
+            "gmap_id": "0x80dcf4720b239b5d:0xc4cdd028a0682509",
+            "iid": 20007,
+            "name": "New Mandarin Garden",
+            "rank": 5,
+            "score": 0.58216392993927,
+            "state": "California"
+        },
+        {
+            "address": "Wasabi Sushi Bars, 1228 Washington Ave, St. Louis, MO 63103, United States",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x87d8b33d62604acb:0xde013b6542b7957b",
+            "iid": 33877,
+            "name": "Wasabi Sushi Bars",
+            "rank": 6,
+            "score": 0.5756349563598633,
+            "state": "Missouri"
+        },
+        {
+            "address": "Stir Crazy Fresh Asian Grill, 10598 Old Olive Street Rd, Creve Coeur, MO 63141",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Caterer', 'Chinese restaurant', 'Event venue', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x87df331ffb30cb0b:0xf4906eef607e870f",
+            "iid": 34282,
+            "name": "Stir Crazy Fresh Asian Grill",
+            "rank": 7,
+            "score": 0.5696462988853455,
+            "state": "Missouri"
+        },
+        {
+            "address": "Golden Dragon Restaurant, 2023 Harbor Blvd A, Costa Mesa, CA 92627",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dcdf86977db861:0x178dd4857291e5fe",
+            "iid": 19789,
+            "name": "Golden Dragon Restaurant",
+            "rank": 8,
+            "score": 0.5667108297348022,
+            "state": "California"
+        },
+        {
+            "address": "Enzo's Way Pinoy, 1715 W Chapman Ave, Orange, CA 92868",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x80dcd9d668d3be21:0x5e52871a63e2bfd7",
+            "iid": 19506,
+            "name": "Enzo's Way Pinoy",
+            "rank": 9,
+            "score": 0.5652855038642883,
+            "state": "California"
+        },
+        {
+            "address": "Wang Cho BBQ All You Can Eat, 3608 S Bristol St, Santa Ana, CA 92704",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Buffet restaurant', 'Chicken restaurant', 'Down home cooking restaurant', 'Seafood restaurant', 'Soul food restaurant', 'Soup restaurant', 'Steak house']",
+            "gmap_id": "0x80dcdf58eb57707f:0x91bcb78f06c58a9e",
+            "iid": 19771,
+            "name": "Wang Cho BBQ All You Can Eat",
+            "rank": 10,
+            "score": 0.5640739798545837,
+            "state": "California"
+        },
+        {
+            "address": "Thai Avenue, 10130 Garden Grove Blvd #121, Garden Grove, CA 92844",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80dd2876e9e182b9:0x505cb91b7a877590",
+            "iid": 20319,
+            "name": "Thai Avenue",
+            "rank": 11,
+            "score": 0.5568670630455017,
+            "state": "California"
+        },
+        {
+            "address": "Thai on Main, 117 Main St, Seal Beach, CA 90740",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Wine bar']",
+            "gmap_id": "0x80dd2ffb7a15d82b:0x20b8cbe6c139a5c9",
+            "iid": 20837,
+            "name": "Thai on Main",
+            "rank": 12,
+            "score": 0.5534911751747131,
+            "state": "California"
+        },
+        {
+            "address": "India Grill, 5373 Katella Ave Suite E, Los Alamitos, CA 90720",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x80dd2ec25452162f:0x77ff5fe65e68cfcb",
+            "iid": 20809,
+            "name": "India Grill",
+            "rank": 13,
+            "score": 0.5533043742179871,
+            "state": "California"
+        },
+        {
+            "address": "Bangkok Corner, 2360 Newport Blvd # B, Costa Mesa, CA 92627",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80dcdf9fa0ea286d:0xc9e8d4d449031e0b",
+            "iid": 19801,
+            "name": "Bangkok Corner",
+            "rank": 14,
+            "score": 0.5530431270599365,
+            "state": "California"
+        },
+        {
+            "address": "Thai Cafe, 14715 Jeffrey Rd, Irvine, CA 92618",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Cosplay cafe', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80dcdd1d19a3a8ff:0x1b7e62d5a411f83c",
+            "iid": 19647,
+            "name": "Thai Cafe",
+            "rank": 15,
+            "score": 0.5474865436553955,
+            "state": "California"
+        },
+        {
+            "address": "H2O Sushi & Izakaya, 1870 Harbor Blvd #100, Costa Mesa, CA 92627",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Izakaya restaurant', 'Japanese restaurant', 'Lounge']",
+            "gmap_id": "0x80dcdf8f25edefe7:0x71ed4c2bd9f073e4",
+            "iid": 19796,
+            "name": "H2O Sushi & Izakaya",
+            "rank": 16,
+            "score": 0.540245532989502,
+            "state": "California"
+        },
+        {
+            "address": "Capital Noodle Bar, 3850 Barranca Pkwy Suite E, Irvine, CA 92606",
+            "category": "['Noodle shop', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80dcdc3442c6b7d5:0xafaa452cab42b2f1",
+            "iid": 19586,
+            "name": "Capital Noodle Bar",
+            "rank": 17,
+            "score": 0.5386432409286499,
+            "state": "California"
+        },
+        {
+            "address": "Street Thai Cafe, 15887 Gothard St, Huntington Beach, CA 92647",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd26693217f653:0xd04aee55856189c3",
+            "iid": 20089,
+            "name": "Street Thai Cafe",
+            "rank": 18,
+            "score": 0.5353173613548279,
+            "state": "California"
+        },
+        {
+            "address": "Bhan Baitong, 23808 Mercury Rd, Lake Forest, CA 92630",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80dce85e209e5349:0xe47451ac3371dc9c",
+            "iid": 19860,
+            "name": "Bhan Baitong",
+            "rank": 19,
+            "score": 0.5341804027557373,
+            "state": "California"
+        },
+        {
+            "address": "Thai Spice, 13254 Jamboree Rd, Irvine, CA 92602",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dcdc7f5fa3803b:0x30f6b1d65bc902cd",
+            "iid": 19606,
+            "name": "Thai Spice",
+            "rank": 20,
+            "score": 0.5332478880882263,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jesse Thomas",
+        "uid": 424599,
+        "user_id": 114259706970286611126
+    }
+}

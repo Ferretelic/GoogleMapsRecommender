@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Chinese Kitchen, 1056 Market St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2016/04/28",
+            "gmap_id": "0x8835d987c0f55e3d:0xe4ea0910fe119fb2",
+            "iid": 40523,
+            "name": "Panda Chinese Kitchen",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1461867611388
+        },
+        {
+            "address": "Golden Chopsticks, 329 N York St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2017/11/26",
+            "gmap_id": "0x8835d99207a149d7:0x121798349570bfb",
+            "iid": 40524,
+            "name": "Golden Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1511658037811
+        },
+        {
+            "address": "Silver Chopsticks, 2135 National Rd, Elm Grove, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835db1a2e01d9c1:0x1e1b3cedebab275f",
+            "iid": 40527,
+            "name": "Silver Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571416096
+        },
+        {
+            "address": "A.C. Buffet, 836 National Rd, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835da41c86bb3f7:0x48bc06a620f7b465",
+            "iid": 40525,
+            "name": "A.C. Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571557351
+        },
+        {
+            "address": "Saigon Restaurant, 9530 179th St, Tinley Park, IL 60487",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/03/18",
+            "gmap_id": "0x880e154bfb8164a1:0x2321b3b7dd3db3d",
+            "iid": 36052,
+            "name": "Saigon Restaurant",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1552880878046
+        },
+        {
+            "address": "Pho Express, 241 Three Springs Dr, Weirton, WV 26062",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88343a8748647f8b:0x840be38bd3893c84",
+            "iid": 40158,
+            "name": "Pho Express",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879419016
+        },
+        {
+            "address": "China House, 5636 US-60 #6, Huntington, WV 25705",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88460779cec01437:0xce76270a32c86802",
+            "iid": 42137,
+            "name": "China House",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879646323
+        },
+        {
+            "address": "Super China Buffet, 200 Mall Rd, Barboursville, WV 25504",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600f13d4398d7:0x87a484e8030a4774",
+            "iid": 42133,
+            "name": "Super China Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879653573
+        },
+        {
+            "address": "Shogun, 3420 US-60, Barboursville, WV 25504",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Brewpub', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600895cc5842f:0xeae90622517386b6",
+            "iid": 42131,
+            "name": "Shogun",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879685270
+        },
+        {
+            "address": "New China Garden Buffet, 804 6th Ave, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884609daf10d286b:0xb3efbee883dda54f",
+            "iid": 42143,
+            "name": "New China Garden Buffet",
+            "split": "valid",
+            "state": "West_Virginia",
+            "unix_time": 1565879727013
+        },
+        {
+            "address": "No. 1 Kitchen, 1669 Washington Ave, Huntington, WV 25704",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x8845e1fd66caec4d:0x1e13d3af7eac55d4",
+            "iid": 42130,
+            "name": "No. 1 Kitchen",
+            "split": "test",
+            "state": "West_Virginia",
+            "unix_time": 1565879871530
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "China King, 1383 Earl L Core Rd, Morgantown, WV 26505",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x88357b59d122c4af:0x7379bebe2db62dd0",
+            "iid": 40492,
+            "name": "China King",
+            "rank": 1,
+            "score": -2.5364909172058105,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Hunan Wok, 1822 Homeville Rd, West Mifflin, PA 15122",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8834ef0abca5a31b:0xc5eb718aa9c0e829",
+            "iid": 40301,
+            "name": "Hunan Wok",
+            "rank": 2,
+            "score": -2.633446455001831,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "No. 1 Kitchen, 4341 US-60 Unit 99, Huntington, WV 25705",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8846008a677434a5:0x71ca5121aad719f5",
+            "iid": 42132,
+            "name": "No. 1 Kitchen",
+            "rank": 3,
+            "score": -2.656052827835083,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Dragon, 101 Clearview Cir #800, Butler, PA 16001",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x883363a0d52d5427:0x7cd66d59281a5183",
+            "iid": 40103,
+            "name": "Dragon",
+            "rank": 4,
+            "score": -2.7666237354278564,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Wai Wai Buffet & Grill, 113 Cavasina Dr, Canonsburg, PA 15317",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x883454646217b3b5:0xd4ff24b62e6f3f18",
+            "iid": 40162,
+            "name": "Wai Wai Buffet & Grill",
+            "rank": 5,
+            "score": -2.777641773223877,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Panda China, 1201 Julian R Allsbrook Hwy, Roanoke Rapids, NC 27870",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89ae16d9e7f64bbb:0xb45cfd6db7cd43d1",
+            "iid": 54367,
+            "name": "Panda China",
+            "rank": 6,
+            "score": -2.7782726287841797,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Peking Chinese Buffet, 205 N Main St, Petersburg, WV 26847",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89b53b4242b77377:0x12486fed5577b448",
+            "iid": 54983,
+            "name": "Peking Chinese Buffet",
+            "rank": 7,
+            "score": -2.7890429496765137,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Golden China Buffet, 475 Greenbrier Valley Mall Dr, Lewisburg, WV 24901",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884c47f2f0ad1a1f:0xf784b4c3dfee649",
+            "iid": 42242,
+            "name": "Golden China Buffet",
+            "rank": 8,
+            "score": -2.7905144691467285,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Taj Mahal Indian Grill, 607 central center, Chillicothe, OH 45601",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8847096850e3cb93:0x3cf9b01a453612c1",
+            "iid": 42162,
+            "name": "Taj Mahal Indian Grill",
+            "rank": 9,
+            "score": -2.811121940612793,
+            "state": "Ohio"
+        },
+        {
+            "address": "Number 1 Chinese Restaurant, 2132 Sunset Blvd, Steubenville, OH 43952",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88342e5760378cff:0x3f52da222cc3aa2d",
+            "iid": 40155,
+            "name": "Number 1 Chinese Restaurant",
+            "rank": 10,
+            "score": -2.81833815574646,
+            "state": "Ohio"
+        },
+        {
+            "address": "East Flavor Restaurant, 322 10th St, Huntington, WV 25701",
+            "category": "['Restaurant', 'Chinese restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x884609f16e930f1b:0xf8ffabe18ad8c983",
+            "iid": 42145,
+            "name": "East Flavor Restaurant",
+            "rank": 11,
+            "score": -2.851137161254883,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Honey Moon, 2021 Clay Pike, Irwin, PA 15642",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8834dd77344c05d9:0x85f1a43c9dbceb41",
+            "iid": 40266,
+            "name": "Honey Moon",
+            "rank": 12,
+            "score": -2.8516159057617188,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "China One, 326 S Main St, Butler, PA 16001",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x883362eab7085fff:0x5bf0dddcec1f9a69",
+            "iid": 40102,
+            "name": "China One",
+            "rank": 13,
+            "score": -2.869720935821533,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Fortune Cookie, 402 E Pittsburgh St, Greensburg, PA 15601",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x8834d03fe98c4cf1:0xc726383d466a86a5",
+            "iid": 40258,
+            "name": "Fortune Cookie",
+            "rank": 14,
+            "score": -2.8753774166107178,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Moon Buffet, 101D Roosevelt Blvd, Eleanor, WV 25070",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8848b79dceb19e57:0xd89e1483cc2aa085",
+            "iid": 42203,
+            "name": "Moon Buffet",
+            "rank": 15,
+            "score": -2.8946213722229004,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China One, 638 W Pike St, Clarksburg, WV 26301",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x884a699828cf0ca1:0x559a7dacb37f94d5",
+            "iid": 42231,
+            "name": "China One",
+            "rank": 16,
+            "score": -2.8957748413085938,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Grandma Thuy's, 8728 W Maple St, Wichita, KS 67209",
+            "category": "['Takeout Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x87badf42a1db5c75:0xc7d1631aad440a8e",
+            "iid": 32650,
+            "name": "Grandma Thuy's",
+            "rank": 17,
+            "score": -2.899099588394165,
+            "state": "Kansas"
+        },
+        {
+            "address": "Peking Dragon Chinese Restaurant, 507 S Mayo Trail, Paintsville, KY 41240",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8845a90b5d59c529:0x410ba99d37b0bff6",
+            "iid": 42129,
+            "name": "Peking Dragon Chinese Restaurant",
+            "rank": 18,
+            "score": -2.901810646057129,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Castle Place Chinese Restaurant, 331 Mt Lebanon Blvd, Pittsburgh, PA 15234",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x8834f7610881d83b:0x588895021ca097d",
+            "iid": 40444,
+            "name": "Castle Place Chinese Restaurant",
+            "rank": 19,
+            "score": -2.91335129737854,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Evergreen Chinese Restaurant, 813 Target Way, Morgantown, WV 26501",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88357be72c81d4ab:0xe405fa8975ae2d26",
+            "iid": 40507,
+            "name": "Evergreen Chinese Restaurant",
+            "rank": 20,
+            "score": -2.918445348739624,
+            "state": "West_Virginia"
+        }
+    ],
+    "user": {
+        "name": "the Tarantula Collective",
+        "uid": 22059,
+        "user_id": 100739749516787520567
+    }
+}

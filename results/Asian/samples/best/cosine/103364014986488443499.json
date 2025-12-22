@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Yokohama Yakitori Koubou, 3904 Convoy St Consumer Studies, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x80dbffe941bbe10b:0x5b068aa93e669bc2",
+            "iid": 18622,
+            "name": "Yokohama Yakitori Koubou",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498932034802
+        },
+        {
+            "address": "Pokewaii, 1158 W San Marcos Blvd #4080, San Marcos, CA 92078",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x80dc7548be3fdb19:0xfcaf7bff8138bcff",
+            "iid": 18892,
+            "name": "Pokewaii",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498937050812
+        },
+        {
+            "address": "Sushi Ota, 4529 Mission Bay Dr, San Diego, CA 92109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Kyoto style Japanese restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0034529b4873:0x8bc55af4512dcaf3",
+            "iid": 18646,
+            "name": "Sushi Ota",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499555919369
+        },
+        {
+            "address": "Sam Woo BBQ Restaurant, 7330 Clairemont Mesa Blvd #A103, San Diego, CA 92111",
+            "category": "['Chinese restaurant', 'Barbecue restaurant', 'Bubble tea store', 'Cantonese restaurant']",
+            "date": "2017/07/31",
+            "gmap_id": "0x80dbff9b29249677:0x6c0b783b7e1d8a9d",
+            "iid": 18581,
+            "name": "Sam Woo BBQ Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501484612397
+        },
+        {
+            "address": "Thang Thang, 7905 Engineer Rd, San Diego, CA 92111",
+            "category": "['Korean restaurant']",
+            "date": "2017/08/27",
+            "gmap_id": "0x80dbff95d3189f2b:0x745485b7f6b590e3",
+            "iid": 18565,
+            "name": "Thang Thang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503813290623
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 4609 Convoy St STE F, San Diego, CA 92111",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/10/03",
+            "gmap_id": "0x80dbff94661282a1:0x739a3a4c8001f2f3",
+            "iid": 18558,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507001051503
+        },
+        {
+            "address": "Serenitea, 940 W San Marcos Blvd, San Marcos, CA 92078",
+            "category": "['Bubble tea store', 'Chinese tea house', 'Traditional teahouse']",
+            "date": "2017/10/07",
+            "gmap_id": "0x80dc754ff27d0bab:0x24d643b10221d317",
+            "iid": 18899,
+            "name": "Serenitea",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507414927742
+        },
+        {
+            "address": "Siam Nara Thai Cuisine, 8993 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2018/01/26",
+            "gmap_id": "0x80dbf8e158262e27:0xf29feaa605eb53dd",
+            "iid": 18430,
+            "name": "Siam Nara Thai Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516994309238
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "date": "2018/02/16",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1518755482185
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "date": "2018/02/16",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1518755482185
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Chan's Chinese Restaurant, 1650 Descanso Ave, San Marcos, CA 92078",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dc7514a557d23d:0x9d62936ff0e06660",
+            "iid": 18882,
+            "name": "Chan's Chinese Restaurant",
+            "rank": 1,
+            "score": 0.4771588146686554,
+            "state": "California"
+        },
+        {
+            "address": "Manna BBQ, 740 Nordahl Rd, San Marcos, CA 92069",
+            "category": "['Korean barbecue restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x80dbf4d139210b3d:0x4e752c151ac2169a",
+            "iid": 18403,
+            "name": "Manna BBQ",
+            "rank": 2,
+            "score": 0.4666607677936554,
+            "state": "California"
+        },
+        {
+            "address": "Love Boat Sushi - San Marcos, 121 S Las Posas Rd APT 120, San Marcos, CA 92078",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Family restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x80dc7541656c2f1d:0xed069a0d5010b9db",
+            "iid": 18891,
+            "name": "Love Boat Sushi - San Marcos",
+            "rank": 3,
+            "score": 0.43534278869628906,
+            "state": "California"
+        },
+        {
+            "address": "Pho San Marcos, 700 S Rancho Santa Fe Rd # D, San Marcos, CA 92078",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dc753ac6c32ed1:0x9205aede61d44d3e",
+            "iid": 18888,
+            "name": "Pho San Marcos",
+            "rank": 4,
+            "score": 0.43454426527023315,
+            "state": "California"
+        },
+        {
+            "address": "Katsu Sushi and Teppan Grill, 1020 W San Marcos Blvd #150, San Marcos, CA 92078",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80dc754f6c9acc13:0x723c395c3e43eeb7",
+            "iid": 18895,
+            "name": "Katsu Sushi and Teppan Grill",
+            "rank": 5,
+            "score": 0.43085017800331116,
+            "state": "California"
+        },
+        {
+            "address": "Max's Restaurant, Cuisine of the Philippines, San Diego, 8285 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Filipino restaurant', 'Chicken restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf9ed03a73e21:0x16361ac9e8de69a1",
+            "iid": 18483,
+            "name": "Max's Restaurant, Cuisine of the Philippines, San Diego",
+            "rank": 6,
+            "score": 0.42873653769493103,
+            "state": "California"
+        },
+        {
+            "address": "Spicy King, 1233 E Vista Way #4039, Vista, CA 92084",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dc768b9080a8b9:0xa3cf2c8555656a7d",
+            "iid": 18906,
+            "name": "Spicy King",
+            "rank": 7,
+            "score": 0.4286288022994995,
+            "state": "California"
+        },
+        {
+            "address": "Joyee's Dumpling House, 7330 Clairemont Mesa Blvd a110, San Diego, CA 92111",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dbffe9e1004173:0xc83d781cf098e748",
+            "iid": 18627,
+            "name": "Joyee's Dumpling House",
+            "rank": 8,
+            "score": 0.4271734654903412,
+            "state": "California"
+        },
+        {
+            "address": "Onny's Thai Restaurant, 1903 W San Marcos Blvd #100, San Marcos, CA 92078",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Gluten-free restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80dc75255595b2a3:0x2e0c0e32f33e0e4",
+            "iid": 18884,
+            "name": "Onny's Thai Restaurant",
+            "rank": 9,
+            "score": 0.4237944483757019,
+            "state": "California"
+        },
+        {
+            "address": "Umami Japanese Restaurant, 251 N City Dr Suite 122, San Marcos, CA 92078",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80db8b4e26e13edb:0xa28edc7933578a7c",
+            "iid": 18346,
+            "name": "Umami Japanese Restaurant",
+            "rank": 10,
+            "score": 0.4201194643974304,
+            "state": "California"
+        },
+        {
+            "address": "LIUYISHOU Hotpot (San Diego), 4690 Convoy St Ste B105-B106, San Diego, CA 92111",
+            "category": "['Hot pot restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x80dbffeb1eef7d09:0xeef2162dd132dc73",
+            "iid": 18631,
+            "name": "LIUYISHOU Hotpot (San Diego)",
+            "rank": 11,
+            "score": 0.4195932149887085,
+            "state": "California"
+        },
+        {
+            "address": "Pho 4 Queen, 159 Rancho Santa Fe Rd, San Marcos, CA 92078",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dc7514f7270c79:0x475a0d75f0226f94",
+            "iid": 18883,
+            "name": "Pho 4 Queen",
+            "rank": 12,
+            "score": 0.4182721972465515,
+            "state": "California"
+        },
+        {
+            "address": "Pick Up Stix Fresh Asian Flavors, 595 Grand Ave Suite 105, San Marcos, CA 92069",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dc755723f00283:0xfb2541f23e44fbf1",
+            "iid": 18900,
+            "name": "Pick Up Stix Fresh Asian Flavors",
+            "rank": 13,
+            "score": 0.41629618406295776,
+            "state": "California"
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "rank": 14,
+            "score": 0.41238415241241455,
+            "state": "California"
+        },
+        {
+            "address": "Chef's Ph\u1edf & Grill, 324 S Twin Oaks Valley Rd STE 130, San Marcos, CA 92078",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf55310aec837:0x57f446d07638b5ee",
+            "iid": 18407,
+            "name": "Chef's Ph\u1edf & Grill",
+            "rank": 15,
+            "score": 0.41163480281829834,
+            "state": "California"
+        },
+        {
+            "address": "Kinaly Thai Restaurant, 1220 E Mission Rd #3036, San Marcos, CA 92069",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80dbf52b734371e9:0x5fc4233ec89e5594",
+            "iid": 18405,
+            "name": "Kinaly Thai Restaurant",
+            "rank": 16,
+            "score": 0.41001707315444946,
+            "state": "California"
+        },
+        {
+            "address": "Min Sok Chon, 4620 Convoy St Exam, San Diego, CA 92111",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbff9475017fd7:0x38370e5a77e2d7a6",
+            "iid": 18560,
+            "name": "Min Sok Chon",
+            "rank": 17,
+            "score": 0.40577003359794617,
+            "state": "California"
+        },
+        {
+            "address": "Pearl Chinese Cuisine, 11666 Avena Pl, San Diego, CA 92128",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf0d293ef4a9b:0xba5f6395867ba152",
+            "iid": 18367,
+            "name": "Pearl Chinese Cuisine",
+            "rank": 18,
+            "score": 0.40188050270080566,
+            "state": "California"
+        },
+        {
+            "address": "Kung Fu Noodle, 1233 E Vista Way, Vista, CA 92084",
+            "category": "['Restaurant', 'Chinese noodle restaurant', 'Delivery Chinese restaurant', 'Noodle shop']",
+            "gmap_id": "0x80dc777152466659:0xba0dd47b290a16c9",
+            "iid": 18916,
+            "name": "Kung Fu Noodle",
+            "rank": 19,
+            "score": 0.40178877115249634,
+            "state": "California"
+        },
+        {
+            "address": "Pho Ca Dao & Grill, 11808 Rancho Bernardo Rd #100, San Diego, CA 92128",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80dbf0d45f6ac03f:0x9b7722d4163d0227",
+            "iid": 18368,
+            "name": "Pho Ca Dao & Grill",
+            "rank": 20,
+            "score": 0.3979233205318451,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "San Diego Food",
+        "uid": 100216,
+        "user_id": 103364014986488443499
+    }
+}

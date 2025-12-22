@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Kang Ho Dong Baekjeong, 3465 W 6th St #20, Los Angeles, CA 90020",
+            "category": "['Korean restaurant', 'Korean barbecue restaurant', 'Restaurant']",
+            "date": "2014/08/12",
+            "gmap_id": "0x80c2c77d3cd03da3:0x2ca2b2db0c50e401",
+            "iid": 15286,
+            "name": "Kang Ho Dong Baekjeong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407884787754
+        },
+        {
+            "address": "Samosa House, 11510 Washington Blvd, Los Angeles, CA 90066",
+            "category": "['Indian restaurant', 'Indian grocery store', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "date": "2014/08/12",
+            "gmap_id": "0x80c2ba14cc699c45:0xad9f5c9007eda78",
+            "iid": 14152,
+            "name": "Samosa House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407885216777
+        },
+        {
+            "address": "Ham Ji Park, 3407 W 6th St #101, Los Angeles, CA 90020",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2014/08/13",
+            "gmap_id": "0x80c2c77ce66e784b:0x893df629325f95c2",
+            "iid": 15272,
+            "name": "Ham Ji Park",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407902710570
+        },
+        {
+            "address": "Okrumong, 3801 W 6th St, Los Angeles, CA 90020",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2014/08/13",
+            "gmap_id": "0x80c2b89b5d257c8f:0x479d63448155f4bc",
+            "iid": 13967,
+            "name": "Okrumong",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407903169872
+        },
+        {
+            "address": "Hae Jang Chon Korean BBQ Restaurant, 3821 W 6th St, Los Angeles, CA 90020",
+            "category": "['Asian restaurant', 'Korean restaurant']",
+            "date": "2014/08/13",
+            "gmap_id": "0x80c2b89b437ecda9:0xc6e1364fd48e3303",
+            "iid": 13964,
+            "name": "Hae Jang Chon Korean BBQ Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407903308026
+        },
+        {
+            "address": "Feng Mao BBQ Lamb Kebab Western, 414 S Western Ave, Los Angeles, CA 90020",
+            "category": "['Korean restaurant', 'Barbecue restaurant', 'Chinese restaurant', 'Korean barbecue restaurant']",
+            "date": "2014/08/13",
+            "gmap_id": "0x80c2b89a25dd53e5:0x99f471229cc33d8d",
+            "iid": 13939,
+            "name": "Feng Mao BBQ Lamb Kebab Western",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407903602882
+        },
+        {
+            "address": "BADMAASH Downtown LA, 108 W 2nd St #104, Los Angeles, CA 90012",
+            "category": "['Indian restaurant', 'American restaurant']",
+            "date": "2014/08/13",
+            "gmap_id": "0x80c2c70c7b0742ab:0x56164f85adb8c160",
+            "iid": 15134,
+            "name": "BADMAASH Downtown LA",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1407905433980
+        },
+        {
+            "address": "Dha Rae Oak, 1106 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2014/10/17",
+            "gmap_id": "0x80c2b87d727f8513:0xc5eea736ddbcb58",
+            "iid": 13841,
+            "name": "Dha Rae Oak",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1413588422566
+        },
+        {
+            "address": "Lan Noodle\u5170\u5dde\u725b\u8089\u62c9\u9762, 411 E Huntington Dr UNIT 102, Arcadia, CA 91006",
+            "category": "['Chinese noodle restaurant']",
+            "date": "2020/02/22",
+            "gmap_id": "0x80c2db5d78a67385:0x489dfc8c4eb96420",
+            "iid": 16046,
+            "name": "Lan Noodle\u5170\u5dde\u725b\u8089\u62c9\u9762",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1582337147061
+        },
+        {
+            "address": "Little Sister, 523 W 7th St, Los Angeles, CA 90017",
+            "category": "['Southeast Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2020/02/22",
+            "gmap_id": "0x80c2c7b453c50f7b:0xf6860a1aeb1c11ad",
+            "iid": 15383,
+            "name": "Little Sister",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1582338705705
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Ever, 319 E 2nd St #205, Los Angeles, CA 90012",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80c2c7a9904d7399:0x2a474860834d5036",
+            "iid": 15364,
+            "name": "Pho Ever",
+            "rank": 1,
+            "score": -2.0172207355499268,
+            "state": "California"
+        },
+        {
+            "address": "Kyodai Handroll & Seafood Bar, 2626 N Josey Ln, Carrollton, TX 75007",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864c25771a20dd01:0x717e3ff17048c765",
+            "iid": 25575,
+            "name": "Kyodai Handroll & Seafood Bar",
+            "rank": 2,
+            "score": -2.1530656814575195,
+            "state": "Texas"
+        },
+        {
+            "address": "LA Number 1 Chueotang, 4251 W 3rd St, Los Angeles, CA 90020",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b917d918b291:0xc985a07af934b21f",
+            "iid": 14041,
+            "name": "LA Number 1 Chueotang",
+            "rank": 3,
+            "score": -2.1869051456451416,
+            "state": "California"
+        },
+        {
+            "address": "Waikiki Gangnam Style, 1830 Ala Moana Blvd #1, Honolulu, HI 96815",
+            "category": "['Asian fusion restaurant', 'Korean barbecue restaurant']",
+            "gmap_id": "0x7c006d962b1ac8e7:0xe6b0aa812e9c8de4",
+            "iid": 6220,
+            "name": "Waikiki Gangnam Style",
+            "rank": 4,
+            "score": -2.1908578872680664,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Choong Hyun Mission Church, 5005 Edenhurst Ave, Los Angeles, CA 90039",
+            "category": "['Korean church', 'Christian church']",
+            "gmap_id": "0x80c2c05ff6c6a289:0x19348be22960450f",
+            "iid": 14672,
+            "name": "Choong Hyun Mission Church",
+            "rank": 5,
+            "score": -2.316258192062378,
+            "state": "California"
+        },
+        {
+            "address": "PHO KIM ANH, 75-5660 Kopiko St #D1, Kailua-Kona, HI 96740",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x79540f6ed4418d81:0x4ba51cd08b8937a1",
+            "iid": 5864,
+            "name": "PHO KIM ANH",
+            "rank": 6,
+            "score": -2.339275360107422,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 7,
+            "score": -2.339808225631714,
+            "state": "Florida"
+        },
+        {
+            "address": "Suggi Oota, 949 Ruff Dr, San Jose, CA 95110",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fcbeb9bd195dd:0x5c512b6315d54596",
+            "iid": 10903,
+            "name": "Suggi Oota",
+            "rank": 8,
+            "score": -2.3430447578430176,
+            "state": "California"
+        },
+        {
+            "address": "Tabla, 3005 Peachtree Rd #400, Atlanta, GA 30305",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88f505e58fc767e3:0x2200c51785c808dc",
+            "iid": 51431,
+            "name": "Tabla",
+            "rank": 9,
+            "score": -2.346625328063965,
+            "state": "Georgia"
+        },
+        {
+            "address": "California, San Francisco, Cortland Ave, Shokudou\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7fa3e5e7731f:0x61a2a36642107cb7",
+            "iid": 9254,
+            "name": "Shokudou",
+            "rank": 10,
+            "score": -2.3487799167633057,
+            "state": "California"
+        },
+        {
+            "address": "teriyaki express, 2610 S Horner Blvd, Sanford, NC 27332",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Fast food restaurant', 'Restaurant', 'Rice restaurant']",
+            "gmap_id": "0x89aca7b623904985:0x7dfc9422e240e6ff",
+            "iid": 54019,
+            "name": "teriyaki express",
+            "rank": 11,
+            "score": -2.350613832473755,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Vietnam Central DT, 108 Main St, Nyack, NY 10960",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2ebf8dbb6d23d:0x6d8bc334c02db10c",
+            "iid": 63043,
+            "name": "Vietnam Central DT",
+            "rank": 12,
+            "score": -2.3530123233795166,
+            "state": "New_York"
+        },
+        {
+            "address": "Nagoya Japanese Restaurant, 2915 28th St SE, Grand Rapids, MI 49512",
+            "category": "['Japanese restaurant', 'Children hall', 'Rice restaurant', 'Soup restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88184d7666c51da9:0x72bf8f923723ea80",
+            "iid": 38607,
+            "name": "Nagoya Japanese Restaurant",
+            "rank": 13,
+            "score": -2.3534250259399414,
+            "state": "Michigan"
+        },
+        {
+            "address": "Land of Thai, 350 E Main St, Clinton, CT 06413",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e627844a3911b9:0x2ec12fc0566ed1da",
+            "iid": 70996,
+            "name": "Land of Thai",
+            "rank": 14,
+            "score": -2.356036901473999,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Fuhu, 3000 S Las Vegas Blvd, Las Vegas, NV 89109",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c8c535aec72b49:0x3fcd544da15b5898",
+            "iid": 17135,
+            "name": "Fuhu",
+            "rank": 15,
+            "score": -2.3563928604125977,
+            "state": "Nevada"
+        },
+        {
+            "address": "Magic Noodle, 8013 W 159th St, Overland Park, KS 66223",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x87c0c1572fbb05b3:0xd972a645c8e99927",
+            "iid": 32977,
+            "name": "Magic Noodle",
+            "rank": 16,
+            "score": -2.357257843017578,
+            "state": "Kansas"
+        },
+        {
+            "address": "Desi Bites, 16165 SW Regatta Ln # 300, Beaverton, OR 97006",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54950fe83c8441ad:0x6b6a2e36f9b39405",
+            "iid": 4011,
+            "name": "Desi Bites",
+            "rank": 17,
+            "score": -2.357401132583618,
+            "state": "Oregon"
+        },
+        {
+            "address": "Kanji Goose Creek, 119 Plantation N Blvd #2A, Goose Creek, SC 29445",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88fe6182c397d121:0xe5cefcb52509df03",
+            "iid": 53186,
+            "name": "Kanji Goose Creek",
+            "rank": 18,
+            "score": -2.3574466705322266,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Thai Nine Restaurant, 9873 N Michigan Rd, Carmel, IN 46032",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8814abd7c63ff377:0xafc4fab408ec49e2",
+            "iid": 38309,
+            "name": "Thai Nine Restaurant",
+            "rank": 19,
+            "score": -2.3579094409942627,
+            "state": "Indiana"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -2.358100175857544,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Gwen Fred",
+        "uid": 31537,
+        "user_id": 101057099774948467959
+    }
+}

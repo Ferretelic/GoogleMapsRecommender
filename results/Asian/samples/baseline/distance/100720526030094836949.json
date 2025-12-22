@@ -1,0 +1,348 @@
+{
+    "history": [
+        {
+            "address": "Lucky Star, 107 S Robinson Ave, Newburgh, NY 12550",
+            "category": "['Chinese restaurant']",
+            "date": "2017/04/30",
+            "gmap_id": "0x89dd320f709dcd8d:0xc7cb4ea51788c7f5",
+            "iid": 68479,
+            "name": "Lucky Star",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1493594801278
+        },
+        {
+            "address": "Tin-Tin, 68 Millpond Pkwy, Monroe, NY 10950",
+            "category": "['Chinese restaurant']",
+            "date": "2017/10/06",
+            "gmap_id": "0x89c2d7b41b901741:0x43d939718a1fcb91",
+            "iid": 62876,
+            "name": "Tin-Tin",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1507322904434
+        },
+        {
+            "address": "Ming Hing, 16 S Main St # 1, Florida, NY 10921",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/03/21",
+            "gmap_id": "0x89c32f764142d0a5:0x293520bed59c9269",
+            "iid": 64098,
+            "name": "Ming Hing",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1521597179682
+        },
+        {
+            "address": "Ming Moon, 187 Kingston Ave, Wurtsboro, NY 12790",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/21",
+            "gmap_id": "0x89dccfa7f807407f:0xd8d8a724c5378f3",
+            "iid": 68399,
+            "name": "Ming Moon",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1521597197544
+        },
+        {
+            "address": "Hong Kong Garden, 1760 Easton Ave # 4, Somerset, NJ 08873",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/21",
+            "gmap_id": "0x89c3c0b6bab47a69:0x6ce0ba53fc9a47df",
+            "iid": 64670,
+            "name": "Hong Kong Garden",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1521597347414
+        },
+        {
+            "address": "China Kitchen, 6 Wallkill Ave, Wallkill, NY 12589",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/29",
+            "gmap_id": "0x89dd27d8e462a045:0x61b9158dfc240c69",
+            "iid": 68454,
+            "name": "China Kitchen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1582985729907
+        },
+        {
+            "address": "Chinatown Kitchen, 466 Broadway #2, Monticello, NY 12701",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2020/02/29",
+            "gmap_id": "0x89dcb0cae14c3817:0xd91dd4911a56d85c",
+            "iid": 68393,
+            "name": "Chinatown Kitchen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1582985792197
+        },
+        {
+            "address": "Great Wall, 39 N Plank Rd #17, Newburgh, NY 12550",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/29",
+            "gmap_id": "0x89dd31e26b7fe18d:0x58cc4d62db1fa6e3",
+            "iid": 68477,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1582985795017
+        },
+        {
+            "address": "Yune's Sushi, 371 NY-17M, Monroe, NY 10950",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Korean restaurant', 'Wine bar']",
+            "date": "2020/02/29",
+            "gmap_id": "0x89c2d70baeb2c6a5:0x811368dddc0eee08",
+            "iid": 62870,
+            "name": "Yune's Sushi",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1582985864507
+        },
+        {
+            "address": "New China, 1148 NY-52, Loch Sheldrake, NY 12759",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/29",
+            "gmap_id": "0x89dcbfca5a108927:0x1d8f7930578fc960",
+            "iid": 68397,
+            "name": "New China",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1582986032861
+        },
+        {
+            "address": "Yuan Fu, 251 Highland Ave Ext, Middletown, NY 10940",
+            "category": "['Chinese takeaway', 'Takeout Restaurant']",
+            "date": "2020/10/06",
+            "gmap_id": "0x89c33298c34b76b7:0x8c5c0d3138fcff8a",
+            "iid": 64110,
+            "name": "Yuan Fu",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1601954109699
+        },
+        {
+            "address": "Wing Hing, 2 E Main St, Middletown, NY 10940",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2020/10/06",
+            "gmap_id": "0x89c33262838944ed:0xe961eb93b03aea79",
+            "iid": 64101,
+            "name": "Wing Hing",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1601954271165
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Great Wall, 115 Temple Hill Rd, New Windsor, NY 12553",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89dd2d16748c69eb:0x9c5e749289b8858b",
+            "iid": 68463,
+            "name": "Great Wall",
+            "rank": 1,
+            "score": -2.7780187129974365,
+            "state": "New_York"
+        },
+        {
+            "address": "Wan Bo Buffet, 36 Forestburgh Rd #1833, Monticello, NY 12701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89dcb0c8c670d8cf:0x471aacfe12ebd318",
+            "iid": 68392,
+            "name": "Wan Bo Buffet",
+            "rank": 2,
+            "score": -3.3416619300842285,
+            "state": "New_York"
+        },
+        {
+            "address": "Happy Peking House, 19 Quaker Ave, Cornwall, NY 12518, United States",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89dd2d53c7221b75:0xf4bcfe4c65284ac5",
+            "iid": 68465,
+            "name": "Happy Peking House",
+            "rank": 3,
+            "score": -3.3611629009246826,
+            "state": "New_York"
+        },
+        {
+            "address": "Goshen Chinese Kitchen, 142 W Main St, Goshen, NY 10924",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c32c1a5dce02ed:0x13d9f29c4904442c",
+            "iid": 64089,
+            "name": "Goshen Chinese Kitchen",
+            "rank": 4,
+            "score": -3.3896284103393555,
+            "state": "New_York"
+        },
+        {
+            "address": "Sweet Rice, 80-21 Myrtle Ave, Glendale, NY 11385",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c25e743ec5de35:0x1e6e2d11b3c584b3",
+            "iid": 61120,
+            "name": "Sweet Rice",
+            "rank": 5,
+            "score": -3.390636682510376,
+            "state": "New_York"
+        },
+        {
+            "address": "Norwich Buffet, 37-39 N Broad St, Norwich, NY 13815",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89dbb8288586637d:0xad078752b6f74dbb",
+            "iid": 68383,
+            "name": "Norwich Buffet",
+            "rank": 6,
+            "score": -3.429792881011963,
+            "state": "New_York"
+        },
+        {
+            "address": "No 1, 11663 Sutphin Blvd, Jamaica, NY 11434",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c266d7aad5d0b1:0x792e3a44fb22974",
+            "iid": 62063,
+            "name": "No 1",
+            "rank": 7,
+            "score": -3.441575527191162,
+            "state": "New_York"
+        },
+        {
+            "address": "China Delight, 1831 PA-739, Dingmans Ferry, PA 18328",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c35e16ebfb9add:0x68412bd3aa41781",
+            "iid": 64128,
+            "name": "China Delight",
+            "rank": 8,
+            "score": -3.4462170600891113,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "San Ho Chinese Kitchen, 23 S Broad St, Norwich, NY 13815",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89dbb8288d0ac015:0x86e187b906d0babe",
+            "iid": 68384,
+            "name": "San Ho Chinese Kitchen",
+            "rank": 9,
+            "score": -3.4655747413635254,
+            "state": "New_York"
+        },
+        {
+            "address": "Golden Chopsticks, 8720 Lefferts Blvd, Jamaica, NY 11418",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c260ae1ab5ba15:0xfb9df8082697c74e",
+            "iid": 61690,
+            "name": "Golden Chopsticks",
+            "rank": 10,
+            "score": -3.4722907543182373,
+            "state": "New_York"
+        },
+        {
+            "address": "East Meets West, 65-07 Woodhaven Blvd, Rego Park, NY 11374",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25e3f8e721ea5:0xe76c904f87ffc9bc",
+            "iid": 61094,
+            "name": "East Meets West",
+            "rank": 11,
+            "score": -3.4771432876586914,
+            "state": "New_York"
+        },
+        {
+            "address": "Long Hing Kitchen, 10422 Liberty Ave, Jamaica, NY 11417",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c267597f657555:0xa1708e41306d1fc3",
+            "iid": 62115,
+            "name": "Long Hing Kitchen",
+            "rank": 12,
+            "score": -3.508070707321167,
+            "state": "New_York"
+        },
+        {
+            "address": "Number One Chinese Restaurant, 511 Main St, Oneonta, NY 13820",
+            "category": "['Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89db8b9e909098e7:0x7baf2d8322b27f33",
+            "iid": 68377,
+            "name": "Number One Chinese Restaurant",
+            "rank": 13,
+            "score": -3.512037515640259,
+            "state": "New_York"
+        },
+        {
+            "address": "Flaming Grill and Buffet, 1399 Union Ave, Newburgh, NY 12550",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89dd2e790c3c029f:0xa6581d4dd3579835",
+            "iid": 68471,
+            "name": "Flaming Grill and Buffet",
+            "rank": 14,
+            "score": -3.512284278869629,
+            "state": "New_York"
+        },
+        {
+            "address": "Tao's, 633 NY-17M, Middletown, NY 10940",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c333394975dd45:0xe59953cf8f7611e9",
+            "iid": 64114,
+            "name": "Tao's",
+            "rank": 15,
+            "score": -3.5248615741729736,
+            "state": "New_York"
+        },
+        {
+            "address": "Ming Jie's House, 1824 47 Main Street, Walden, NY 12586",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89dd29b7343aa6f9:0xc0647ff960120446",
+            "iid": 68457,
+            "name": "Ming Jie's House",
+            "rank": 16,
+            "score": -3.5252773761749268,
+            "state": "New_York"
+        },
+        {
+            "address": "New China House, 13 Orangetown Shopping Center, Orangeburg, NY 10962",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c2e943d4d30f2f:0x82700d3a16cc6233",
+            "iid": 62996,
+            "name": "New China House",
+            "rank": 17,
+            "score": -3.5381665229797363,
+            "state": "New_York"
+        },
+        {
+            "address": "New China Restaurant, 77 N Plank Rd, Newburgh, NY 12550",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89dd2e30fd072321:0x8fea47ab395c444d",
+            "iid": 68469,
+            "name": "New China Restaurant",
+            "rank": 18,
+            "score": -3.539980411529541,
+            "state": "New_York"
+        },
+        {
+            "address": "Moon Palace Kitchen, 6312 Flushing Ave, Maspeth, NY 11378",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c25e92915224f5:0xa3708d6946ee7083",
+            "iid": 61128,
+            "name": "Moon Palace Kitchen",
+            "rank": 19,
+            "score": -3.5764472484588623,
+            "state": "New_York"
+        },
+        {
+            "address": "Family Kitchen, 107-56 Sutphin Blvd, Jamaica, NY 11435",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c260d413b934c1:0xde48dbf8314d0bdc",
+            "iid": 61711,
+            "name": "Family Kitchen",
+            "rank": 20,
+            "score": -3.578234910964966,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Jordan E Ponce",
+        "uid": 21485,
+        "user_id": 100720526030094836949
+    }
+}

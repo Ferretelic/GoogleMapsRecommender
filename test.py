@@ -81,7 +81,7 @@ def main(cfg):
     print("Calculating metrics on test dataset...")
     calculate_metrics(cfg)
 
-    print("Running inference on sampled users...")
+    print("Running inference on test users...")
     run_inference(cfg)
 
     print("Adding new user for inference...")
