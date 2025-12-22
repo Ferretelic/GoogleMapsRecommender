@@ -28,7 +28,11 @@ def get_gmap2category_mappings(cfg, gmap_ids):
     targets = {"gmap_id": gmap_ids}
     for category in cfg.analysis.item_category:
         if category == "state":
-            numerical_mapping = {c:i for i, c in enumerate(np.sort(meta[category].unique()))}
+            top_states = meta["state"].value_counts().nlargest(10).index.tolist()
+            meta["state"] = meta["state"].where(meta["state"].isin(top_states), "Other")
+
+            numerical_mapping = {city: i for i, city in enumerate(top_states)}
+            numerical_mapping["Other"] = None
             gmap2category = {gmap_id: (c, numerical_mapping[c]) for (gmap_id, c) in meta[["gmap_id", category]].values}
 
         elif category == "rating":
@@ -44,12 +48,18 @@ def get_gmap2category_mappings(cfg, gmap_ids):
         elif category == "chain":
             gmap2category = {}
             for gmap_id, name in meta[["gmap_id", "name"]].values:
-                if "starbucks" in name.lower():
-                    gmap2category[gmap_id] = ("Starbucks", 1)
-                elif "mcdonald" in name.lower():
-                    gmap2category[gmap_id] = ("McDonald's", 2)
-                else:
-                    gmap2category[gmap_id] = ("Other", 0)
+                if cfg.dataset.category == "Cafe":
+                    if "starbucks" in name.lower():
+                        gmap2category[gmap_id] = ("Starbucks", 1)
+                    elif "mcdonald" in name.lower():
+                        gmap2category[gmap_id] = ("McDonald's", 2)
+                    else:
+                        gmap2category[gmap_id] = ("Other", 0)
+                elif cfg.dataset.category == "Asian":
+                    if "panda express" in name.lower():
+                        gmap2category[gmap_id] = ("Panda Express", 1)
+                    else:
+                        gmap2category[gmap_id] = ("Other", 0)
 
         elif category == "popularity":
             for gmap_id, num_reviews in meta[["gmap_id", "num_of_reviews"]].values:
@@ -73,7 +83,7 @@ def get_gmap2category_mappings(cfg, gmap_ids):
         elif category == "city":
             pattern = r",\s+([^,]+),\s+CA"
             meta["city"] = meta["address"].str.extract(pattern)
-            top_cities = meta["city"].value_counts().nlargest(5).index.tolist()
+            top_cities = meta["city"].value_counts().nlargest(10).index.tolist()
             meta["city"] = meta["city"].where(meta["city"].isin(top_cities), "Other")
 
             numerical_mapping = {city: i for i, city in enumerate(top_cities)}
@@ -114,8 +124,8 @@ def plot_item_distribution(cfg, df, model, method, category):
 
         sns.scatterplot(df, x=f"component_{i}", y=f"component_{j}", ax=ax, hue=category)
 
-        ax.set_xlabel(f"{i+1}-th component")
-        ax.set_ylabel(f"{j+1}-th component")
+        ax.set_xlabel(f"component {i+1}")
+        ax.set_ylabel(f"component {j+1}")
 
     plt.tight_layout()
     folder_path = f"{cfg.paths.result}/plots/dim_reduction/{model}/{method}"
@@ -146,6 +156,15 @@ def analyze_item_embeddings(cfg, item_embs, index2gmap, model):
 
     for method in cfg.analysis.methods:
         for category in cfg.analysis.item_category:
+            file_path = f"{cfg.paths.result}/plots/dim_reduction/{model}/{method}/{category}.png"
+            if os.path.exists(file_path):
+                continue
+
+            if category == "state" and len(cfg.dataset.get("states", [])) == 1:
+                continue
+            if category == "chain" and cfg.dataset.category not in ["Asian", "Cafe"]:
+                continue
+
             target_col = f"{category}_numerical"
             masked_embs, category_df = mask_out_embeddings(item_embs, df, target_col)
 
