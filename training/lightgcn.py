@@ -34,6 +34,8 @@ class LightGCN(nn.Module):
         self.gcl_eps = cfg.training.get("gcl_eps", 0.0)
         self.gcl_temp = cfg.training.get("gcl_temp", 0.0)
 
+        self.mix_alpha = cfg.training.get("mix_alpha", 0.0)
+
     def forward(self, graph):
         weights = self.layer_weights.view(-1)
         x = self.embedding.weight
@@ -100,13 +102,31 @@ class LightGCN(nn.Module):
         user_idx, pos_idx, neg_idx = indices
         u_e = users_emb[user_idx]
         p_e = items_emb[pos_idx]
-        n_e = items_emb[neg_idx]
+
+        if self.mix_alpha > 0:
+            n_e_candidates = items_emb[neg_idx]
+
+            p_e_expanded = p_e.unsqueeze(1)
+            u_e_expanded = u_e.unsqueeze(1)
+
+            mixed_negs = self.mix_alpha * p_e_expanded + (1 - self.mix_alpha) * n_e_candidates
+            scores = (u_e_expanded * mixed_negs).sum(dim=-1)
+            hard_indices = torch.argmax(scores, dim=1)
+
+            batch_range = torch.arange(mixed_negs.size(0), device=mixed_negs.device)
+            n_e = mixed_negs[batch_range, hard_indices]
+            selected_orig_negs = n_e_candidates[torch.arange(n_e_candidates.size(0)), hard_indices]
+
+            reg_loss = 0.5 * (u_e.norm(2).pow(2) + p_e.norm(2).pow(2) + selected_orig_negs.norm(2).pow(2)) / float(len(user_idx))
+
+        else:
+            n_e = items_emb[neg_idx]
+            reg_loss = 0.5 * (u_e.norm(2).pow(2) + p_e.norm(2).pow(2) + n_e.norm(2).pow(2)) / float(len(user_idx))
 
         pos_scores = torch.mul(u_e, p_e).sum(dim=1)
         neg_scores = torch.mul(u_e, n_e).sum(dim=1)
 
         loss = torch.mean(F.softplus(neg_scores - pos_scores))
-        reg_loss = 0.5 * (u_e.norm(2).pow(2) + p_e.norm(2).pow(2) + n_e.norm(2).pow(2)) / float(len(user_idx))
         reg_loss = self.reg_weight * reg_loss
 
         if self.gcl_reg > 0 and graph is not None:
