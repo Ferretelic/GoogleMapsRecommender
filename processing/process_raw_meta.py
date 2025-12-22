@@ -1,6 +1,7 @@
 import os
 
 import pandas as pd
+import tqdm
 
 from utils import *
 
@@ -27,7 +28,8 @@ def filter_raw_state_meta_data(cfg, state, filters):
     print(f"Start filtering {state}")
 
     meta_list = []
-    for meta in parse(raw_file):
+    total = count_lines(raw_file)
+    for meta in tqdm.tqdm(parse(raw_file), total=total):
         if all([f(data=meta) for f in filters]):
             meta = {key: meta.get(key, None) for key in cfg.dataset.meta_keys}
             meta_list.append(meta)

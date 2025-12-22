@@ -1,0 +1,27 @@
+name: best
+
+defaults:
+  - base
+  - _self_
+
+training:
+  batch_size: 1024
+  n_epochs: 1000
+  early_stopping: 3
+  lr: 0.001
+  reg_weight: 0.001
+
+  gcl_reg: 0.1
+  gcl_eps: 0.1
+  gcl_temp: 0.2
+
+evaluation:
+  batch_size: 1024
+  rank: 20
+
+model:
+  embedding_dim: 512
+  n_layers: 4
+
+  geo_k_neighbors: 4
+  geo_weight: 1.0

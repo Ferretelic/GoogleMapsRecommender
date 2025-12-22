@@ -1,12 +1,12 @@
 from collections import Counter
 
-import torch
-import torch.nn.functional as F
-import pandas as pd
 import numpy as np
 import tqdm
-from torch.utils.data import DataLoader
 from scipy.stats import spearmanr, entropy
+
+import torch
+import torch.nn.functional as F
+from torch.utils.data import DataLoader
 
 from testing.recommender import *
 
@@ -15,14 +15,14 @@ class Tester:
         self.recommender = recommender
         self.rank = cfg.test.rank
 
-        self.device = torch.device(cfg.test.device)
+        self.device = torch.device(cfg.device)
         self.user_loader, self.test_user_pos = self.prepare_dataset(cfg)
 
         self.info_dict, self.counts_dict = self.compute_dataset_metrics(cfg)
         self.n_items = self.load_item_size(cfg)
 
     def prepare_dataset(self, cfg):
-        test_df = pd.read_csv(f"{cfg.paths.splits}/test.csv")
+        test_df = load_split_dataset(cfg, "test")
 
         test_users = list(test_df["uid"].unique())
         user_loader = DataLoader(test_users, batch_size=cfg.test.batch_size, shuffle=False)
@@ -32,7 +32,7 @@ class Tester:
         return user_loader, test_user_pos
 
     def compute_dataset_metrics(self, cfg):
-        train_df = pd.read_csv(f"{cfg.paths.splits}/train.csv")
+        train_df = load_split_dataset(cfg, "train")
         item_counts = train_df["iid"].value_counts()
         total_interactions = len(train_df)
 
@@ -201,10 +201,10 @@ class Tester:
 
         return metrics
 
-def test_recommender(cfg, type, name):
-    recommender = load_recommender(cfg, type, name)
+def test_recommender(cfg, model_info):
+    recommender = load_recommender(cfg, model_info)
     tester = Tester(cfg, recommender)
-    print(f"    Start evaluating {name}")
+    print(f"    Start evaluating {model_info["name"]}")
     metric = tester.test()
 
     return metric

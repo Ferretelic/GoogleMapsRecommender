@@ -1,169 +1,110 @@
-
 import os
 import json
 
-import pandas as pd
-import numpy as np
-
-from testing.recommender import *
+from utils import *
 
 def load_new_users(cfg):
     users = []
     for file_name in os.listdir(cfg.paths.users):
         with open(f"{cfg.paths.users}/{file_name}", "r") as f:
             user = json.load(f)
-
         users.append(user)
 
     return users
 
-def load_dataset(cfg):
-    train_df = pd.read_csv(f"{cfg.paths.splits}/train.csv")
-    train_df["split"] = train_df["uid"].apply(lambda x: "train")
+def search_and_select_places(meta):
+    selected_gmap_ids = set()
 
-    valid_df = pd.read_csv(f"{cfg.paths.splits}/valid.csv")
-    valid_df["split"] = valid_df["uid"].apply(lambda x: "valid")
+    while True:
+        print("\n--- Search Places ---")
+        query = input("Enter place name to search (or 'q' to finish): ").strip()
 
-    test_df = pd.read_csv(f"{cfg.paths.splits}/test.csv")
-    test_df["split"] = test_df["uid"].apply(lambda x: "test")
+        if not query or query.lower() == "q":
+            break
 
-    df = pd.concat([train_df, valid_df, test_df], axis=0)
+        results = meta[meta["name"].str.contains(query, case=False, na=False)].reset_index(drop=True)
 
-    return test_df, df
+        if results.empty:
+            print("No results found.")
+            continue
 
-class NewUserSampler():
-    def __init__(self, cfg):
-        self.cfg = cfg
+        print(f"\nResults for '{query}':")
+        for index, row in results.iterrows():
+            category_list = row["category"].replace("'", "").replace("]", "").replace("[", "").split(",")
+            print(f"[{index}] {row["name"]} ({row["state"]})")
+            print(f"    Address: {row["address"]}")
+            print(f"    Category: {",".join(category_list)}")
 
-        self.index2gmap, self.gmap2index = self.load_mappings()
-        self.gmap2info = self.load_item_information()
+        selection = input("\nEnter indices to add (e.g., 0, 2 / Enter to skip): ").strip()
 
-    def load_mappings(self):
-        with open(f"{self.cfg.paths.combined}/mappings.json", "r") as f:
-            mappings = json.load(f)
+        if not selection:
+            continue
 
-        return mappings["index2gmap"], mappings["gmap2index"]
+        try:
+            indices = [int(x.strip()) for x in selection.split(",") if x.strip().isdigit()]
+            for idx in indices:
+                if 0 <= idx < len(results):
+                    target_id = results.loc[idx, "gmap_id"]
+                    target_name = results.loc[idx, "name"]
 
-    def load_item_information(self):
-        meta = pd.read_csv(f"{self.cfg.paths.combined}/meta.csv")[["gmap_id", "name", "state", "address", "category"]]
+                    selected_gmap_ids.add(target_id)
+                    print(f"Added: {target_name}")
+                else:
+                    print(f"Invalid index: {idx}")
+        except ValueError:
+            print("Invalid input format.")
 
-        gmap2info = {gmap_id: (name, state, address, category) for (gmap_id, name, state, address, category) in meta.values}
-        return gmap2info
+    return list(selected_gmap_ids)
 
-    def get_user_information(self, user):
-        return {"name": user["name"], "user_id": user["user_id"]}
+def add_new_user(cfg):
+    meta = load_combined_datast(cfg, "meta")
+    index2gmap = load_mappings(cfg)["index2gmap"]
+    iids = [index2gmap[str(iid)] for iid in load_splits_dataset(cfg)["iid"].unique()]
+    meta = meta[meta["gmap_id"].isin(iids)]
 
-    def get_model_information(self, model):
-        name, type, model_name = model
-        model_info = {"name": name, "type": type, "model_name": model_name}
+    os.makedirs(cfg.paths.users, exist_ok=True)
 
-        return model_info
+    print("-" * 80)
+    print("Current Users")
+    for user in load_new_users(cfg):
+        print(f"  [{user["user_id"]:2d}] {user["name"]}")
 
-    def recommend_new_users(self, model_info, user):
-        recommender = load_recommender(self.cfg, model_info["type"], model_info["model_name"])
-        iids = [self.gmap2index[gmap_id] for gmap_id in user["gmap_ids"]]
-        iids = torch.tensor(iids, dtype=torch.long).to(recommender.device)
+    while True:
+        print("\n" + "=" * 20)
+        print("   Create New User")
+        print("=" * 20)
 
-        user_emb = torch.mean(recommender.item_embs[iids], dim=0, keepdim=True)
+        current_count = len(os.listdir(cfg.paths.users))
+        new_user_id = current_count
 
-        if model_info["type"] == "dot":
-            scores = torch.matmul(user_emb, recommender.item_embs.t())
-        elif model_info["type"] == "cosine":
-            norm_user_embs = F.normalize(user_emb, p=2, dim=1)
-            norm_item_embs = F.normalize(recommender.item_embs, p=2, dim=1)
-            scores = torch.matmul(norm_user_embs, norm_item_embs.t())
-        else:
-            dists = torch.cdist(user_emb, recommender.item_embs, p=2)
-            scores = -dists
+        print(f"New User ID: {new_user_id}")
 
-        scores[:, iids] = -float("inf")
+        user_name = input("Enter User Name (or 'q' to quit): ").strip()
+        if user_name.lower() == "q":
+            print("Exiting...")
+            break
 
-        topk_items = torch.topk(scores, k=self.cfg.inference.topk, dim=1)
-        topk_scores = topk_items.values.detach().cpu().numpy()
-        topk_indices = topk_items.indices.detach().cpu().numpy()
+        if not user_name:
+            print("Name is required. Skipping...")
+            continue
 
-        return topk_scores, topk_indices
+        gmap_ids = search_and_select_places(meta)
 
-    def get_user_history(self, user):
-        history = []
-        for gmap_id in user["gmap_ids"]:
-            item_dict = {}
+        new_user = {
+            "user_id": new_user_id,
+            "name": user_name,
+            "gmap_ids": gmap_ids
+        }
 
-            iid = self.gmap2index[gmap_id]
-            name, state, address, category = self.gmap2info[gmap_id]
+        save_path = f"{cfg.paths.users}/{new_user_id}.json"
+        with open(save_path, "w") as f:
+            json.dump(new_user, f, indent=4)
 
-            item_dict["iid"] = iid
-            item_dict["gmap_id"] = gmap_id
-            item_dict["name"] = name
-            item_dict["state"] = state
-            item_dict["address"] = address
-            item_dict["category"] = category
-            history.append(item_dict)
+        print(f"\nSuccessfully saved user '{user_name}' (ID: {new_user_id}) to {save_path}")
 
-        return history
+        cont = input("\nCreate another user? (y/n): ").strip().lower()
+        if cont != "y":
+            print("Finished.")
+            break
 
-    def get_user_recommendations(self, topk_scores, topk_indices):
-        items = []
-
-        topk_gmaps = [self.index2gmap[str(item)] for item in topk_indices]
-        for index in range(topk_scores.shape[0]):
-            gmap_id = topk_gmaps[index]
-            score = topk_scores[index]
-            iid = topk_indices[index]
-
-            name, state, address, category = self.gmap2info[gmap_id]
-
-            item_info = {
-                "rank": index + 1,
-                "iid": int(iid),
-                "gmap_id": str(gmap_id),
-                "score": float(score),
-                "name": name,
-                "state": state,
-                "address": address,
-                "category": category
-            }
-            items.append(item_info)
-
-        return items
-
-    def sample(self, model, users):
-        for user in users:
-            user["gmap_ids"] = [gmap_id for gmap_id in user["gmap_ids"] if gmap_id in self.gmap2index.keys()]
-            user_info = self.get_user_information(user)
-            model_info = self.get_model_information(model)
-            topk_scores, topk_indices = self.recommend_new_users(model_info, user)
-
-            results_path = f"{self.cfg.paths.result}/new_users/{model_info["model_name"]}/{model_info["type"]}"
-            os.makedirs(results_path, exist_ok=True)
-            file_path = f"{results_path}/{user_info["user_id"]}.json"
-
-            user_history = self.get_user_history(user)
-            user_recommendations = self.get_user_recommendations(topk_scores[0], topk_indices[0])
-
-            results = {"user": user_info, "model": model_info, "history": user_history, "recommendations": user_recommendations}
-
-            with open(file_path, "w") as f:
-                json.dump(results, f, indent=4, sort_keys=True)
-
-            self.log_recommendation(results)
-
-    def log_recommendation(self, results):
-        model_info = results["model"]
-        user_info = results["user"]
-        user_history = results["history"]
-        user_recommendations = results["recommendations"]
-
-        print("=" * 80)
-        print(f"Recommendations for user {user_info["name"]} with {model_info["name"]}")
-        print("  History")
-        for item in user_history:
-            print(f"    [{item["iid"]:5d}] [{item["state"]:15s}] {item["name"]}")
-
-        print("-" * 80)
-        print("  Recommendations")
-        for item in user_recommendations:
-            print(f"    [{item["iid"]:5d}] {item["rank"]:2d} [{item["state"]:15s}] {item["name"]} | {item["score"]:.3f}")
-
-        print("=" * 80)
-        print()
+    print("-" * 80)

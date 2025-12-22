@@ -7,11 +7,11 @@ import tqdm
 from training.dataset import *
 from training.evaluation import *
 
-class Trainer():
+class Trainer:
     def __init__(self, cfg, model):
         self.cfg = cfg
 
-        self.device = torch.device(cfg.training.device)
+        self.device = torch.device(cfg.device)
         self.n_epochs = cfg.training.n_epochs
 
         self.model = model.to(self.device)
