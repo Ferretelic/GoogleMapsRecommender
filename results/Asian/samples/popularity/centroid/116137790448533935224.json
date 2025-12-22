@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sasa, 1432 N Main St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Bar', 'Izakaya restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x808561c019aaf7c9:0x503b382abd3b3cab",
+            "iid": 7048,
+            "name": "Sasa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570131566434
+        },
+        {
+            "address": "Great Wall Restaurant, 3500 Golden Gate Way, Lafayette, CA 94549",
+            "category": "['Chinese restaurant']",
+            "date": "2019/11/24",
+            "gmap_id": "0x808562453d5d3caf:0x56df0b7915ed8318",
+            "iid": 7069,
+            "name": "Great Wall Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574630036258
+        },
+        {
+            "address": "Yuyu Za Zang, 4871 Telegraph Ave, Oakland, CA 94609",
+            "category": "['Korean restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x80857de198fba45b:0x76f8eba724b17039",
+            "iid": 7365,
+            "name": "Yuyu Za Zang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574823243137
+        },
+        {
+            "address": "Ramen Hiroshi, 1633 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808561eac4487559:0xdd619e9c17acc7b5",
+            "iid": 7067,
+            "name": "Ramen Hiroshi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575834621859
+        },
+        {
+            "address": "SAFFRON Indian Restaurant & Bar, 2 Orinda Theatre Square #153, Orinda, CA 94563",
+            "category": "['Indian restaurant']",
+            "date": "2019/12/15",
+            "gmap_id": "0x80857d10c65ac825:0x39e10e92072830e",
+            "iid": 7329,
+            "name": "SAFFRON Indian Restaurant & Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576445604337
+        },
+        {
+            "address": "Ohgane Korean BBQ Concord, 1671 Willow Pass Rd, Concord, CA 94520",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2020/01/25",
+            "gmap_id": "0x808566d9fb182983:0x98198607270a70b0",
+            "iid": 7109,
+            "name": "Ohgane Korean BBQ Concord",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1579917268789
+        },
+        {
+            "address": "Honey Cuisine, 1712 E Cotati Ave, Rohnert Park, CA 94928",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80844aff4f181bd9:0x776cc0c61f3eaf1a",
+            "iid": 6771,
+            "name": "Honey Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580244895386
+        },
+        {
+            "address": "Gangnam Tofu Korean Cuisine, 11740 San Pablo Ave Suite C, El Cerrito, CA 94530",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/01/17",
+            "gmap_id": "0x8085784fcd4dff69:0xbf719043bd378586",
+            "iid": 7233,
+            "name": "Gangnam Tofu Korean Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1610926418410
+        },
+        {
+            "address": "EM Deli Catering, 6119 La Salle Ave, Oakland, CA 94611",
+            "category": "['Caterer', 'Deli', 'Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808f80b4608d1aaf:0x7b67da2184c93e4a",
+            "iid": 9311,
+            "name": "EM Deli Catering",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616898763302
+        },
+        {
+            "address": "Mixed Grain, 1546 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808561eab0bcc089:0xbea61b5d55259bac",
+            "iid": 7066,
+            "name": "Mixed Grain",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1616898773196
+        }
+    ],
+    "model": {
+        "model": "popularity",
+        "name": "Popularity (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Viks Chaat, 2390 Fourth St, Berkeley, CA 94710, United States",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80857ee873ccbc7d:0x155df5665e04771b",
+            "iid": 7480,
+            "name": "Viks Chaat",
+            "rank": 1,
+            "score": 78.6146011352539,
+            "state": "California"
+        },
+        {
+            "address": "Great China, 2190 Bancroft Way, Berkeley, CA 94704",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80857e9d0ba3811b:0x8eb009586964780e",
+            "iid": 7433,
+            "name": "Great China",
+            "rank": 2,
+            "score": 42.519535064697266,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Fish Market, 1220 San Pablo Ave, Berkeley, CA 94706",
+            "category": "['Fish store', 'Grocery store', 'Japanese grocery store', 'Market', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x80857ecc2be69b7b:0x38cec32013162bd5",
+            "iid": 7473,
+            "name": "Tokyo Fish Market",
+            "rank": 3,
+            "score": 36.50611877441406,
+            "state": "California"
+        },
+        {
+            "address": "Koreana Plaza, 2370 Telegraph Ave, Oakland, CA 94612",
+            "category": "['Korean grocery store']",
+            "gmap_id": "0x808f80ab80541c8f:0xc3f3d13abd4446c5",
+            "iid": 9280,
+            "name": "Koreana Plaza",
+            "rank": 4,
+            "score": 33.558231353759766,
+            "state": "California"
+        },
+        {
+            "address": "Imm Thai Street Food, 2068 University Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80857e9eec4f1e63:0x5f54d96f0dccdb72",
+            "iid": 7452,
+            "name": "Imm Thai Street Food",
+            "rank": 5,
+            "score": 31.83485221862793,
+            "state": "California"
+        },
+        {
+            "address": "Madras Caf\u00e9, 1177 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Indian restaurant', 'Coffee shop', 'Restaurant']",
+            "gmap_id": "0x808fb6e8d40eb295:0x7990316e7fd45ea7",
+            "iid": 10209,
+            "name": "Madras Caf\u00e9",
+            "rank": 6,
+            "score": 30.995920181274414,
+            "state": "California"
+        },
+        {
+            "address": "Ohgane Oakland, 3915 Broadway, Oakland, CA 94611",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x80857dfbcd78b387:0xfe5c9d3ef455543d",
+            "iid": 7399,
+            "name": "Ohgane Oakland",
+            "rank": 7,
+            "score": 28.9987735748291,
+            "state": "California"
+        },
+        {
+            "address": "R & G Lounge, 631 Kearny St, San Francisco, CA 94108",
+            "category": "['Chinese restaurant', 'Cantonese restaurant']",
+            "gmap_id": "0x8085808b1bd80155:0x89a88d9eefd494cb",
+            "iid": 7610,
+            "name": "R & G Lounge",
+            "rank": 8,
+            "score": 28.844486236572266,
+            "state": "California"
+        },
+        {
+            "address": "DOSA on Fillmore, 1700 Fillmore St, San Francisco, CA 94115",
+            "category": "['Indian restaurant', 'Caterer', 'Cocktail bar', 'Fine dining restaurant', 'Organic restaurant', 'Restaurant', 'South Asian restaurant', 'Wine bar']",
+            "gmap_id": "0x808580b859984f57:0xdd5396cdb3a4d404",
+            "iid": 7769,
+            "name": "DOSA on Fillmore",
+            "rank": 9,
+            "score": 26.182979583740234,
+            "state": "California"
+        },
+        {
+            "address": "Shan Dong, 328 10th St #101, Oakland, CA 94607",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808f80b5c6d4610d:0x410ae1ade597863f",
+            "iid": 9317,
+            "name": "Shan Dong",
+            "rank": 10,
+            "score": 24.335493087768555,
+            "state": "California"
+        },
+        {
+            "address": "San Tung, 1031 Irving St, San Francisco, CA 94122",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085875d83e10257:0x131f778c0e458770",
+            "iid": 8139,
+            "name": "San Tung",
+            "rank": 11,
+            "score": 24.233564376831055,
+            "state": "California"
+        },
+        {
+            "address": "Berkeley Social Club, 2050 University Ave, Berkeley, CA 94704",
+            "category": "['Korean restaurant', 'Breakfast restaurant', 'Restaurant']",
+            "gmap_id": "0x80857e9eeafe6dc1:0xa4d7dde2d82e1483",
+            "iid": 7451,
+            "name": "Berkeley Social Club",
+            "rank": 12,
+            "score": 23.856534957885742,
+            "state": "California"
+        },
+        {
+            "address": "Gogi Time, 2600 Telegraph Ave, Oakland, CA 94612",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x808f80ab0f1348a9:0x4923b85dffacff92",
+            "iid": 9279,
+            "name": "Gogi Time",
+            "rank": 13,
+            "score": 23.733135223388672,
+            "state": "California"
+        },
+        {
+            "address": "Z & Y Restaurant, 655 Jackson St, San Francisco, CA 94133",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x808580f4bbcfeb99:0x3e467f1b1d256432",
+            "iid": 7934,
+            "name": "Z & Y Restaurant",
+            "rank": 14,
+            "score": 23.542984008789062,
+            "state": "California"
+        },
+        {
+            "address": "Bowl'd Korean Rice Bar, 1479 Solano Ave, Albany, CA 94706",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x808579358104f907:0x276b9fdf3f85033",
+            "iid": 7277,
+            "name": "Bowl'd Korean Rice Bar",
+            "rank": 15,
+            "score": 23.318931579589844,
+            "state": "California"
+        },
+        {
+            "address": "IPPUDO, 2015 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "gmap_id": "0x80857e9e66610011:0xf04f0fe6bec72b19",
+            "iid": 7441,
+            "name": "IPPUDO",
+            "rank": 16,
+            "score": 22.989337921142578,
+            "state": "California"
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 10804,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "rank": 17,
+            "score": 21.87273406982422,
+            "state": "California"
+        },
+        {
+            "address": "Mensho Tokyo SF, 672 Geary St, San Francisco, CA 94102",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80858091bfcba4f3:0xef6d15db707c1776",
+            "iid": 7695,
+            "name": "Mensho Tokyo SF",
+            "rank": 18,
+            "score": 21.538145065307617,
+            "state": "California"
+        },
+        {
+            "address": "Yank Sing (Rincon), 101 Spear St, San Francisco, CA 94105",
+            "category": "['Dim sum restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x808580645476fc13:0x428ed44ba1d270a1",
+            "iid": 7520,
+            "name": "Yank Sing (Rincon)",
+            "rank": 19,
+            "score": 21.221450805664062,
+            "state": "California"
+        },
+        {
+            "address": "Farmhouse Kitchen Thai Cuisine, 710 Florida St, San Francisco, CA 94110",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x808f7e3735689935:0xf2297b9a5d0e63c4",
+            "iid": 9149,
+            "name": "Farmhouse Kitchen Thai Cuisine",
+            "rank": 20,
+            "score": 21.11780548095703,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Francisco Gamez",
+        "uid": 480875,
+        "user_id": 116137790448533935224
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Diamond Palace Chinese Seafood, 225 Gentle Springs Ln, Diamond Bar, CA 91765",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/02",
+            "gmap_id": "0x80c32c68952e1ccb:0x80bbedd091fb1fe1",
+            "iid": 16448,
+            "name": "Diamond Palace Chinese Seafood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535861382865
+        },
+        {
+            "address": "Bambu, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Dessert shop', 'Bubble tea store', 'Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e838efd3ee268f:0xfb0304dcd499d8a7",
+            "iid": 71986,
+            "name": "Bambu",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579577633
+        },
+        {
+            "address": "The Rolling Spring Roll (Syosset), 228 W Jericho Turnpike, Syosset, NY 11791",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89c2817d75bbe41b:0x1f6037e607a9b672",
+            "iid": 62367,
+            "name": "The Rolling Spring Roll (Syosset)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579610353
+        },
+        {
+            "address": "World Seafood Restaurant, 1412 S Garfield Ave, Alhambra, CA 91801",
+            "category": "['Chinese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c2c537e6f01e17:0x155a986680dc0a5b",
+            "iid": 14893,
+            "name": "World Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579643737
+        },
+        {
+            "address": "Chamsutgol BBQ, 18722 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c32af68391bbdf:0x5d0d9dc40bf8e3a4",
+            "iid": 16373,
+            "name": "Chamsutgol BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579674033
+        },
+        {
+            "address": "The Rolling Spring Roll (Farmingdale), 189 Main St, Farmingdale, NY 11735",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e82abe60ea794f:0xb23c2aa6936bfb4d",
+            "iid": 71860,
+            "name": "The Rolling Spring Roll (Farmingdale)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579695606
+        },
+        {
+            "address": "Splendid Noodle, 1320 Stony Brook Rd, Stony Brook, NY 11790",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese takeaway', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/09/23",
+            "gmap_id": "0x89e838ee364abfff:0x33ca03f14def7cab",
+            "iid": 71982,
+            "name": "Splendid Noodle",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537673206139
+        },
+        {
+            "address": "Phayathai, 735 Hawkins Ave, Lake Ronkonkoma, NY 11779",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x89e8381795858023:0x8a3695b5953f51e9",
+            "iid": 71968,
+            "name": "Phayathai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1547661527620
+        },
+        {
+            "address": "Thai Fresh, 106 5th St SE, Charlottesville, VA 22902",
+            "category": "['Thai restaurant']",
+            "date": "2019/04/18",
+            "gmap_id": "0x89b38626e692f469:0x74166e45c2b6ebf4",
+            "iid": 54895,
+            "name": "Thai Fresh",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1555548997455
+        },
+        {
+            "address": "Oriental Sushi, 600 Portion Rd, Ronkonkoma, NY 11779",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/05/14",
+            "gmap_id": "0x89e83807f9672919:0xe418095ce9a4f43a",
+            "iid": 71967,
+            "name": "Oriental Sushi",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1557852839852
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "China King, 120 E Shiloh Dr, Red Bud, IL 62278",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88762764cd1d6667:0x6ce925c0c60dff1e",
+            "iid": 45499,
+            "name": "China King",
+            "rank": 1,
+            "score": -8.789199829101562,
+            "state": "Illinois"
+        },
+        {
+            "address": "Ja Bowl Asian Express, 101 N Market St, Waterloo, IL 62298",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8a2b54d05910d:0xe92c05fc7e61e67c",
+            "iid": 33857,
+            "name": "Ja Bowl Asian Express",
+            "rank": 2,
+            "score": -13.247176170349121,
+            "state": "Illinois"
+        },
+        {
+            "address": "Thai House, 109 S Main St, Columbia, IL 62236",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8bbb33448e451:0x2e600b2f51a1ad93",
+            "iid": 33934,
+            "name": "Thai House",
+            "rank": 3,
+            "score": -24.2790470123291,
+            "state": "Illinois"
+        },
+        {
+            "address": "China Star, 1240 Columbia Center, Columbia, IL 62236",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8ba2b83e1df13:0x46850a3c0f4a5baf",
+            "iid": 33933,
+            "name": "China Star",
+            "rank": 4,
+            "score": -25.734539031982422,
+            "state": "Illinois"
+        },
+        {
+            "address": "Golden Dragon Chop Suey, 128 W Main St, Belleville, IL 62220",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x88760291705e9257:0x841a9525e54bb40",
+            "iid": 45486,
+            "name": "Golden Dragon Chop Suey",
+            "rank": 5,
+            "score": -26.442394256591797,
+            "state": "Illinois"
+        },
+        {
+            "address": "China Town Restaurant, 52 Carlyle Plaza Dr, Belleville, IL 62221",
+            "category": "['Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x887603100caf69df:0x3a3cc8d69fe3b4e3",
+            "iid": 45490,
+            "name": "China Town Restaurant",
+            "rank": 6,
+            "score": -27.077072143554688,
+            "state": "Illinois"
+        },
+        {
+            "address": "China King, 651 Carlyle Ave, Belleville, IL 62221",
+            "category": "['Chicken restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x887603052643f68f:0x5209b3c2e0b885e9",
+            "iid": 45488,
+            "name": "China King",
+            "rank": 7,
+            "score": -27.264095306396484,
+            "state": "Illinois"
+        },
+        {
+            "address": "Bamboo Valley Buffet, 653 Carlyle Ave, Belleville, IL 62221",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Mandarin restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x887603051ec8bda3:0xa63873314987b604",
+            "iid": 45487,
+            "name": "Bamboo Valley Buffet",
+            "rank": 8,
+            "score": -27.37308692932129,
+            "state": "Illinois"
+        },
+        {
+            "address": "China Quick, 940 Carlyle Ave, Belleville, IL 62221",
+            "category": "['Chinese takeaway', 'Delivery Restaurant']",
+            "gmap_id": "0x8876030d9577bad7:0x9311889164cd4dc9",
+            "iid": 45489,
+            "name": "China Quick",
+            "rank": 9,
+            "score": -27.493511199951172,
+            "state": "Illinois"
+        },
+        {
+            "address": "Illinois, Belleville, Carlyle Ave, Hi Tokyo\u90ae\u653f\u7f16\u7801: 62221",
+            "category": "['Japanese restaurant', 'Diner']",
+            "gmap_id": "0x887603e95c456eb7:0x444a35ff0d70f559",
+            "iid": 45492,
+            "name": "Hi Tokyo",
+            "rank": 10,
+            "score": -27.828968048095703,
+            "state": "Illinois"
+        },
+        {
+            "address": "Easy Buffet & Grill, 2524 Green Mt Commons Dr, Belleville, IL 62221",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8876037d896ebb3b:0xacc1f3ee22651b14",
+            "iid": 45491,
+            "name": "Easy Buffet & Grill",
+            "rank": 11,
+            "score": -28.22167205810547,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sala Thai, 1229 Lebanon Ave, Belleville, IL 62221",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x8876025707004b6d:0x635b110e75a46f1",
+            "iid": 45484,
+            "name": "Sala Thai",
+            "rank": 12,
+            "score": -28.446617126464844,
+            "state": "Illinois"
+        },
+        {
+            "address": "Saigon Vietnamese & Chinese Cuisine, 1636 Lebanon Ave, Belleville, IL 62221",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88760253161310a3:0xcb8815f5514b1626",
+            "iid": 45483,
+            "name": "Saigon Vietnamese & Chinese Cuisine",
+            "rank": 13,
+            "score": -29.010038375854492,
+            "state": "Illinois"
+        },
+        {
+            "address": "Wing China, 9 Bellevue Park Plaza, Belleville, IL 62226",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8a9bbef2125d1:0xc0c4e1d9838d1d40",
+            "iid": 33858,
+            "name": "Wing China",
+            "rank": 14,
+            "score": -29.46170997619629,
+            "state": "Illinois"
+        },
+        {
+            "address": "India's Oven Cuisine of India, 2625 N Illinois St, Swansea, IL 62226",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x887602695b46309b:0x95850b81f2baf66a",
+            "iid": 45485,
+            "name": "India's Oven Cuisine of India",
+            "rank": 15,
+            "score": -29.604496002197266,
+            "state": "Illinois"
+        },
+        {
+            "address": "Twin Dragons, 210 E Harnett St, Mascoutah, IL 62258",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88760e3d5a22fe41:0xd6d0eb6260ad19ae",
+            "iid": 45498,
+            "name": "Twin Dragons",
+            "rank": 16,
+            "score": -31.199970245361328,
+            "state": "Illinois"
+        },
+        {
+            "address": "Rice & Fries, 1321 Sparta Centre Dr, Sparta, IL 62286",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x887637ff1a05c07b:0xb68b7de8ff3607db",
+            "iid": 45500,
+            "name": "Rice & Fries",
+            "rank": 17,
+            "score": -31.31903648376465,
+            "state": "Illinois"
+        },
+        {
+            "address": "China King, 6051 Telegraph Rd, St. Louis, MO 63129",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8c78ef3431539:0xe2f9cd9819efc6cf",
+            "iid": 33950,
+            "name": "China King",
+            "rank": 18,
+            "score": -32.217308044433594,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thai Rama, 606 N Truman Blvd, Crystal City, MO 63019",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87d8eeb2520d62c7:0x9c888e2c790c2bdf",
+            "iid": 34067,
+            "name": "Thai Rama",
+            "rank": 19,
+            "score": -32.51791000366211,
+            "state": "Missouri"
+        },
+        {
+            "address": "Hunan Peking, 5638 Telegraph Rd, St. Louis, MO 63129",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87d8c7f15c6485e1:0xc1ac8a34f0b80620",
+            "iid": 33952,
+            "name": "Hunan Peking",
+            "rank": 20,
+            "score": -32.67643737792969,
+            "state": "Missouri"
+        }
+    ],
+    "user": {
+        "name": "York Moy",
+        "uid": 510513,
+        "user_id": 117136200714711698429
+    }
+}

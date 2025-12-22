@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai 9, 11 Brown St, Dayton, OH 45402",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2017/03/20",
+            "gmap_id": "0x8840815587d92029:0x5d1f72c545e103b4",
+            "iid": 41719,
+            "name": "Thai 9",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1490000255667
+        },
+        {
+            "address": "Le Thai, 523 E Fremont St, Las Vegas, NV 89101",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Southeast Asian restaurant']",
+            "date": "2017/08/03",
+            "gmap_id": "0x80c8c3750b1dc3e5:0xf4bbaf8949e0cc14",
+            "iid": 16999,
+            "name": "Le Thai",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1501755111337
+        },
+        {
+            "address": "Yi-Shen, 1915 W 11th Ave, Eugene, OR 97402",
+            "category": "['Asian restaurant', 'Asian grocery store', 'Vietnamese restaurant']",
+            "date": "2017/11/06",
+            "gmap_id": "0x54c11e7d1f2156bd:0x3d31fea98e786aa9",
+            "iid": 5421,
+            "name": "Yi-Shen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1510009195641
+        },
+        {
+            "address": "Sushi Island Japanese Restaurant, 3215 W 11th Ave, Eugene, OR 97402",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/01/19",
+            "gmap_id": "0x54c11e3f179ae2bb:0x80e6b9206d283e5a",
+            "iid": 5406,
+            "name": "Sushi Island Japanese Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1516396221131
+        },
+        {
+            "address": "Lemongrass Noodle House, 1603 NW Monroe Ave, Corvallis, OR 97330",
+            "category": "['Thai restaurant']",
+            "date": "2018/02/05",
+            "gmap_id": "0x54c040bde9b5e81d:0xae00a5b32500b2aa",
+            "iid": 5290,
+            "name": "Lemongrass Noodle House",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1517793643420
+        },
+        {
+            "address": "King Egg Roll, 980 Lundy Ave, San Jose, CA 95133",
+            "category": "['Chinese restaurant']",
+            "date": "2018/04/24",
+            "gmap_id": "0x808fcc44b2b6c935:0xa497825ed94a4276",
+            "iid": 10944,
+            "name": "King Egg Roll",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524605231313
+        },
+        {
+            "address": "Sada Sushi & Izakaya, 151 NW Monroe Ave, Corvallis, OR 97330",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/12/29",
+            "gmap_id": "0x54c040eb832034af:0x816b1661de3d30f8",
+            "iid": 5298,
+            "name": "Sada Sushi & Izakaya",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1577593766382
+        },
+        {
+            "address": "Sushi Ya, 5 E 8th Ave, Eugene, OR 97401",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2020/01/11",
+            "gmap_id": "0x54c11e135fbb1edd:0x4c424dcc3ebc93b5",
+            "iid": 5382,
+            "name": "Sushi Ya",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1578714761042
+        },
+        {
+            "address": "Dok Khao Thai Eatery, 15200 Potomac Town Pl #110, Woodbridge, VA 22191",
+            "category": "['Thai restaurant']",
+            "date": "2020/08/17",
+            "gmap_id": "0x89b657c0c047e91b:0x63b87be4b1bf7e67",
+            "iid": 55680,
+            "name": "Dok Khao Thai Eatery",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1597697138198
+        },
+        {
+            "address": "Sushi Jin Next Door, 14901 Potomac Town Pl #135, Woodbridge, VA 22191",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "date": "2020/08/26",
+            "gmap_id": "0x89b65600c9ed58db:0x3db144088fc185e3",
+            "iid": 55654,
+            "name": "Sushi Jin Next Door",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1598413316852
+        },
+        {
+            "address": "Shin-La Restaurant & Sushi Bar, 57 Main St, Brattleboro, VT 05301",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2021/04/03",
+            "gmap_id": "0x89e11a4fa044ecaf:0xf14bddf7e25d1e58",
+            "iid": 68846,
+            "name": "Shin-La Restaurant & Sushi Bar",
+            "split": "test",
+            "state": "Vermont",
+            "unix_time": 1617488650545
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "China Express, 140 E Main St #3, Tremonton, UT 84337",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87549975a816702b:0x67aeec2bebd66451",
+            "iid": 30606,
+            "name": "China Express",
+            "rank": 1,
+            "score": -52.7948112487793,
+            "state": "Utah"
+        },
+        {
+            "address": "Hunan Village, 1149 450 W suite 109 & 110, Brigham City, UT 84302",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8753700b9de7f1c7:0x83d1a50afd36000a",
+            "iid": 30587,
+            "name": "Hunan Village",
+            "rank": 2,
+            "score": -57.10005569458008,
+            "state": "Utah"
+        },
+        {
+            "address": "Beijing Buffet, 680 S Main St, Brigham City, UT 84302",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x87537aecc879b925:0x48ceb30781dc8b78",
+            "iid": 30588,
+            "name": "Beijing Buffet",
+            "rank": 3,
+            "score": -57.676414489746094,
+            "state": "Utah"
+        },
+        {
+            "address": "Takumi Japanese Grill, 15 E 500 N, Brigham City, UT 84302",
+            "category": "['Restaurant', 'Japanese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x87537bb6e3125bdf:0x9261e40514eb8372",
+            "iid": 30589,
+            "name": "Takumi Japanese Grill",
+            "rank": 4,
+            "score": -58.03753662109375,
+            "state": "Utah"
+        },
+        {
+            "address": "Zhang's Chinese Kitchen, 380 N 2000 W, Ogden, UT 84404",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87530d9423c69697:0x5679f076b473c251",
+            "iid": 30552,
+            "name": "Zhang's Chinese Kitchen",
+            "rank": 5,
+            "score": -61.01799392700195,
+            "state": "Utah"
+        },
+        {
+            "address": "Rice King Express, 3408 W 4800 S, Roy, UT 84067",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x875310172a3949bf:0x424fbe1bcac418eb",
+            "iid": 30578,
+            "name": "Rice King Express",
+            "rank": 6,
+            "score": -62.905094146728516,
+            "state": "Utah"
+        },
+        {
+            "address": "Aroy-D Thai Cuisine, 1167 W 12th St, Ogden, UT 84404",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87530e7bd7c28ffb:0xc0e7dd21c5efdd44",
+            "iid": 30553,
+            "name": "Aroy-D Thai Cuisine",
+            "rank": 7,
+            "score": -63.46064376831055,
+            "state": "Utah"
+        },
+        {
+            "address": "Naturally Chinese LLC, 5647 S 3500 W, Roy, UT 84067",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87531aa753275b39:0x25580886ede01807",
+            "iid": 30579,
+            "name": "Naturally Chinese LLC",
+            "rank": 8,
+            "score": -63.63687515258789,
+            "state": "Utah"
+        },
+        {
+            "address": "Zhang's Chinese Kitchen, 2586 N 400 E St, North Ogden, UT 84414",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87530c8e6726ad51:0x75ed5962e0399cc3",
+            "iid": 30550,
+            "name": "Zhang's Chinese Kitchen",
+            "rank": 9,
+            "score": -64.37071228027344,
+            "state": "Utah"
+        },
+        {
+            "address": "Hello China, 1933 N 2000 W, Clinton, UT 84015",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x87531ac7449f1a33:0xb419a2ef746606f1",
+            "iid": 30582,
+            "name": "Hello China",
+            "rank": 10,
+            "score": -64.74551391601562,
+            "state": "Utah"
+        },
+        {
+            "address": "Pho Banh Harrisville, 539 N Harrisville Rd STE A, Harrisville, UT 84404",
+            "category": "['Restaurant', 'Diner', 'Lunch restaurant', 'Pho restaurant', 'Sandwich shop', 'Vietnamese restaurant']",
+            "gmap_id": "0x87530d43bd5782df:0xd23766a12061a096",
+            "iid": 30551,
+            "name": "Pho Banh Harrisville",
+            "rank": 11,
+            "score": -64.96073913574219,
+            "state": "Utah"
+        },
+        {
+            "address": "Hibachi House of Clinton, 1912 W 1800 N, Clinton, UT 84015",
+            "category": "['Grill', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87531ac654ed9acb:0x4cebaeb1967eff24",
+            "iid": 30580,
+            "name": "Hibachi House of Clinton",
+            "rank": 12,
+            "score": -65.03109741210938,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 1649 N 2000 W, Clinton, UT 84015",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87531ac6a4f29841:0x59ce4ee0523f239a",
+            "iid": 30581,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": -65.05396270751953,
+            "state": "Utah"
+        },
+        {
+            "address": "Ruan Thai Restaurant, 215 W 12th St, Ogden, UT 84404",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87530e974e9840b1:0x680c29dcb22c6822",
+            "iid": 30554,
+            "name": "Ruan Thai Restaurant",
+            "rank": 14,
+            "score": -65.5291748046875,
+            "state": "Utah"
+        },
+        {
+            "address": "Bibop Korean BBQ LLC, 333 2nd St #10, Ogden, UT 84404",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x87530c1e6178d57f:0x14134bad410f742f",
+            "iid": 30548,
+            "name": "Bibop Korean BBQ LLC",
+            "rank": 15,
+            "score": -65.71444702148438,
+            "state": "Utah"
+        },
+        {
+            "address": "Dragon Restaurant, 303 Washington Blvd, Ogden, UT 84404",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87530c1e75ed66e1:0x67639217827cb70d",
+            "iid": 30549,
+            "name": "Dragon Restaurant",
+            "rank": 16,
+            "score": -65.85267639160156,
+            "state": "Utah"
+        },
+        {
+            "address": "Bamboo Japanese Cuisine, 141 12th St #5601, Ogden, UT 84404",
+            "category": "['Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant', 'Sushi restaurant', 'Tempura restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x87530e97c6070585:0xd86dd8d21a7e54e8",
+            "iid": 30555,
+            "name": "Bamboo Japanese Cuisine",
+            "rank": 17,
+            "score": -65.88031768798828,
+            "state": "Utah"
+        },
+        {
+            "address": "ABC Mandarin, 5260 S 1900 W, Roy, UT 84067",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8753055fc6db0989:0x1577f397a6c619cb",
+            "iid": 30537,
+            "name": "ABC Mandarin",
+            "rank": 18,
+            "score": -65.99479675292969,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 206 East 12th Street Suite D, Ogden, UT 84404",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87530ebd656326d3:0x82ba474baf78a623",
+            "iid": 30558,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": -66.00731658935547,
+            "state": "Utah"
+        },
+        {
+            "address": "Thai Khao Kaeng Express & Pizzeria, 5357 S 1900 W, Roy, UT 84067",
+            "category": "['Thai restaurant', 'Pizza restaurant']",
+            "gmap_id": "0x8753055e564b0a95:0x700b5aef8e87d63e",
+            "iid": 30534,
+            "name": "Thai Khao Kaeng Express & Pizzeria",
+            "rank": 20,
+            "score": -66.06861114501953,
+            "state": "Utah"
+        }
+    ],
+    "user": {
+        "name": "Ava Everett",
+        "uid": 336718,
+        "user_id": 111281526256519098161
+    }
+}

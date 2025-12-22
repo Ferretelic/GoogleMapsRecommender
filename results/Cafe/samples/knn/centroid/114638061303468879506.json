@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "McDonald's, 23989 Watkins St, Hayward, CA 94544",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/04/15",
+            "gmap_id": "0x808f93de4c9caa2d:0xecedbcae1da4c541",
+            "iid": 3220,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492285138984
+        },
+        {
+            "address": "Starbucks, 3300 San Pablo Dam Rd # 100, San Pablo, CA 94803",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/05/07",
+            "gmap_id": "0x8085778fd515cde9:0x584273aa47738ee9",
+            "iid": 930,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1494117844008
+        },
+        {
+            "address": "Starbucks, 454 Appian Way G, El Sobrante, CA 94803",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/07/02",
+            "gmap_id": "0x8085776c67a0976d:0x2215b5f08645e65b",
+            "iid": 928,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498958170740
+        },
+        {
+            "address": "Rudy's Can't Fail Cafe, 1805 Telegraph Ave, Oakland, CA 94612",
+            "category": "['Brunch restaurant', 'Breakfast restaurant', 'Cafe']",
+            "date": "2017/12/08",
+            "gmap_id": "0x808f80b20975de1d:0xd074353dc12dcf91",
+            "iid": 2979,
+            "name": "Rudy's Can't Fail Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1512747266873
+        },
+        {
+            "address": "Starbucks, 22288 Foothill Blvd, Hayward, CA 94541",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/03/16",
+            "gmap_id": "0x808f917e04518c51:0xd4495e37031e50e1",
+            "iid": 3195,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1521218786616
+        },
+        {
+            "address": "Starbucks, 30-A San Pablo Towne Center, San Pablo, CA 94806",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/04/14",
+            "gmap_id": "0x8085778b1816da2d:0xa595a0a9704975f6",
+            "iid": 929,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523748195349
+        },
+        {
+            "address": "Starbucks, 799 A St, Hayward, CA 94541",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/05/31",
+            "gmap_id": "0x808f9162dbf614f1:0xfd74d317d9163b5c",
+            "iid": 3192,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1527772838486
+        },
+        {
+            "address": "Starbucks, 1540 Fitzgerald Dr, Pinole, CA 94564",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/06/13",
+            "gmap_id": "0x8085770454f08167:0xf32282cd4aadd73c",
+            "iid": 922,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528853775110
+        },
+        {
+            "address": "Starbucks, 3090 El Cerrito Plaza, El Cerrito, CA 94530",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/16",
+            "gmap_id": "0x808579232c3bd49d:0xea5b621bc146ec8b",
+            "iid": 957,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1547614373168
+        },
+        {
+            "address": "Starbucks, 2128 Oxford St, Berkeley, CA 94704",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/06/21",
+            "gmap_id": "0x80857e9df29711c5:0xa894966adb0fb906",
+            "iid": 1133,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1561124328401
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Terrace Gifts & Coffee, 5891 Broadway Terrace, Oakland, CA 94618",
+            "category": "['Cafe', 'Gift shop']",
+            "gmap_id": "0x80857d91640c0acb:0x8db9ae6e9583ea61",
+            "iid": 1019,
+            "name": "Terrace Gifts & Coffee",
+            "rank": 1,
+            "score": -1.291404366493225,
+            "state": "California"
+        },
+        {
+            "address": "HL's Cafe, 1952 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f878511894aff:0x64491ed85a93d891",
+            "iid": 3126,
+            "name": "HL's Cafe",
+            "rank": 2,
+            "score": -1.5855581760406494,
+            "state": "California"
+        },
+        {
+            "address": "Highwire Coffee Roasters, 2059 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f877f58d94313:0xd48a4eaa23db575f",
+            "iid": 3125,
+            "name": "Highwire Coffee Roasters",
+            "rank": 3,
+            "score": -1.7972948551177979,
+            "state": "California"
+        },
+        {
+            "address": "Noah's NY Bagels, 2060 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x808f879aaf9c35a7:0xaa972ef526f8ee2f",
+            "iid": 3128,
+            "name": "Noah's NY Bagels",
+            "rank": 4,
+            "score": -1.814932107925415,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 2066 Antioch Ct, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x808f879aa4290a6d:0xa273324ff2b7d255",
+            "iid": 3127,
+            "name": "Peet's Coffee",
+            "rank": 5,
+            "score": -1.8337643146514893,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2080 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f879ab1770187:0x95a6580fed6196c8",
+            "iid": 3129,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -1.8559036254882812,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1982 Pleasant Valley Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80857dee3b83c63f:0x852ffaa7044c288a",
+            "iid": 1057,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": -2.4850409030914307,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5130 Broadway, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80857dee0636e977:0x744f460eab3ab630",
+            "iid": 1056,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": -2.5488064289093018,
+            "state": "California"
+        },
+        {
+            "address": "Shadowlands Bookstore & Cafe, 5254 College Ave, Oakland, CA 94618",
+            "category": "['Cafe']",
+            "gmap_id": "0x80857d392f875c05:0xab223e9e993026fd",
+            "iid": 1015,
+            "name": "Shadowlands Bookstore & Cafe",
+            "rank": 9,
+            "score": -2.5624196529388428,
+            "state": "California"
+        },
+        {
+            "address": "Hudson Bay Cafe, 5401 College Ave, Oakland, CA 94618",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80857de8ff1603ad:0x2656131ca0c68f62",
+            "iid": 1055,
+            "name": "Hudson Bay Cafe",
+            "rank": 10,
+            "score": -2.582811117172241,
+            "state": "California"
+        },
+        {
+            "address": "The Chocolate Dragon Bittersweet Cafe and Bakery, 5427 College Ave, Oakland, CA 94618",
+            "category": "['Restaurant', 'Bakery', 'Chocolate shop', 'Coffee shop']",
+            "gmap_id": "0x80857de84e2d05e3:0xff54e6b36e095cbe",
+            "iid": 1054,
+            "name": "The Chocolate Dragon Bittersweet Cafe and Bakery",
+            "rank": 11,
+            "score": -2.59255051612854,
+            "state": "California"
+        },
+        {
+            "address": "Rockridge Cafe, 5492 College Ave, Oakland, CA 94618, United States",
+            "category": "['Restaurant', 'Breakfast restaurant', 'Cafe', 'Hamburger restaurant']",
+            "gmap_id": "0x80857de82ea86dc7:0x205107e7c902f3f0",
+            "iid": 1053,
+            "name": "Rockridge Cafe",
+            "rank": 12,
+            "score": -2.6015124320983887,
+            "state": "California"
+        },
+        {
+            "address": "Highwire Coffee Roasters, Rockridge Market Hall, 5655 College Ave, Oakland, CA 94618",
+            "category": "['Coffee roasters', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80857dc28d5117f3:0xee21efa8e0094b33",
+            "iid": 1022,
+            "name": "Highwire Coffee Roasters",
+            "rank": 13,
+            "score": -2.6627581119537354,
+            "state": "California"
+        },
+        {
+            "address": "Bica Coffeehouse, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857dc3033a9cfd:0xb87b9ae8521fc4f5",
+            "iid": 1023,
+            "name": "Bica Coffeehouse",
+            "rank": 14,
+            "score": -2.7150180339813232,
+            "state": "California"
+        },
+        {
+            "address": "Ain't Normal Cafe, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d9ed6e3a86b:0x691165ec6ef61201",
+            "iid": 1020,
+            "name": "Ain't Normal Cafe",
+            "rank": 15,
+            "score": -2.715209722518921,
+            "state": "California"
+        },
+        {
+            "address": "Timeless Coffee, 4252 Piedmont Ave, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Bakery', 'Vegan restaurant']",
+            "gmap_id": "0x80857df6c7e27317:0xf25f018ec0b75f12",
+            "iid": 1058,
+            "name": "Timeless Coffee",
+            "rank": 16,
+            "score": -2.7187347412109375,
+            "state": "California"
+        },
+        {
+            "address": "Old Brooklyn Bagels & Deli, 6000 College Ave, Oakland, CA 94618",
+            "category": "['Sandwich shop', 'Cafe']",
+            "gmap_id": "0x80857dc4929fbfd7:0x5b6ea6189aea27a2",
+            "iid": 1024,
+            "name": "Old Brooklyn Bagels & Deli",
+            "rank": 17,
+            "score": -2.8131778240203857,
+            "state": "California"
+        },
+        {
+            "address": "1951 Coffee Company, 6021 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d1bb26c61bf:0xc3d831584107bea",
+            "iid": 1012,
+            "name": "1951 Coffee Company",
+            "rank": 18,
+            "score": -2.8571693897247314,
+            "state": "California"
+        },
+        {
+            "address": "Souvenir Coffee Co., 3084 Claremont Ave, Berkeley, CA 94705",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857dcf335f5c1b:0x32d4ee8f875bc7e",
+            "iid": 1037,
+            "name": "Souvenir Coffee Co.",
+            "rank": 19,
+            "score": -2.8806710243225098,
+            "state": "California"
+        },
+        {
+            "address": "Rick & Ann's Restaurant, 2922 Domingo Ave, Berkeley, CA 94705",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Lunch restaurant']",
+            "gmap_id": "0x80857dc9f25e11e1:0xf18a20c8e0024204",
+            "iid": 1032,
+            "name": "Rick & Ann's Restaurant",
+            "rank": 20,
+            "score": -2.8930351734161377,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jeff Jensen",
+        "uid": 110815,
+        "user_id": 114638061303468879506
+    }
+}

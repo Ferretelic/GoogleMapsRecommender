@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hansol Young Yang Center, 160-26 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c2602f11996ead:0x216aa138a3eebeac",
+            "iid": 61622,
+            "name": "Hansol Young Yang Center",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571086972388
+        },
+        {
+            "address": "Guh Sung Chinese Restuarant, 45-46 Bell Blvd, Queens, NY 11361",
+            "category": "['Chinese restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c261e657399437:0xa6975b27f500d6a",
+            "iid": 61885,
+            "name": "Guh Sung Chinese Restuarant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571087010288
+        },
+        {
+            "address": "\u6566\u714c\u70e4\u8089Dunhuang BBQ, 133-51 37th Avenue, Flushing, NY 11354",
+            "category": "['Chinese restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c26138130c4beb:0xea60d98846bffa0c",
+            "iid": 61771,
+            "name": "\u6566\u714c\u70e4\u8089Dunhuang BBQ",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571087034023
+        },
+        {
+            "address": "Coco Rooster \u7687\u6930\u9e21, 59-14 Main St, Queens, NY 11355",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c26102f5b45123:0xd5fc757d4d5650ec",
+            "iid": 61740,
+            "name": "Coco Rooster \u7687\u6930\u9e21",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571087066887
+        },
+        {
+            "address": "Ani Ramen, 218 Newark Ave, Jersey City, NJ 07302",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Soup restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c250b37841984b:0xf596e10cfb89a050",
+            "iid": 58493,
+            "name": "Ani Ramen",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1571087072991
+        },
+        {
+            "address": "Haki, 160-30 Northern Blvd, Flushing, NY 11358",
+            "category": "['Korean restaurant']",
+            "date": "2020/12/04",
+            "gmap_id": "0x89c2616cf60d7c83:0xbf9e03b7e8756961",
+            "iid": 61794,
+            "name": "Haki",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1607125590482
+        },
+        {
+            "address": "Chef Wang, 1902 Jericho Turnpike, New Hyde Park, NY 11040",
+            "category": "['Sichuan restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2021/03/16",
+            "gmap_id": "0x89c262be3dd7ffef:0xfaf743a7b8166b81",
+            "iid": 61954,
+            "name": "Chef Wang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1615880426725
+        },
+        {
+            "address": "Little Pepper, 18-24 College Point Blvd, College Point, NY 11356",
+            "category": "['Chinese restaurant', 'Restaurant', 'Sichuan restaurant']",
+            "date": "2021/03/16",
+            "gmap_id": "0x89c2f553b338e7d5:0xadd2506de1fbaf50",
+            "iid": 63347,
+            "name": "Little Pepper",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1615881722213
+        },
+        {
+            "address": "Mitsuwa Marketplace - New Jersey, 595 River Rd, Edgewater, NJ 07020",
+            "category": "['Supermarket', 'Food court', 'Japanese grocery store', 'Japanese restaurant']",
+            "date": "2021/03/16",
+            "gmap_id": "0x89c2f64a5606cb39:0x9d3e2d129ac7672e",
+            "iid": 63461,
+            "name": "Mitsuwa Marketplace - New Jersey",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1615882015477
+        },
+        {
+            "address": "H.K. Cafe, 42-96 Main St, Queens, NY 11355",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2021/04/19",
+            "gmap_id": "0x89c2606d2ae55463:0x90f0a2ddcd0c03bd",
+            "iid": 61657,
+            "name": "H.K. Cafe",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1618821991729
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "BapBap, 160-06 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c2615f28321415:0x1f225756e8b08732",
+            "iid": 61787,
+            "name": "BapBap",
+            "rank": 1,
+            "score": -1.9580916166305542,
+            "state": "New_York"
+        },
+        {
+            "address": "Beat Mazesoba, 161-23 Crocheron Ave, Queens, NY 11358",
+            "category": "['Japanese restaurant', 'Bar']",
+            "gmap_id": "0x89c2613ffec3c66f:0x690d5ad83f1ec831",
+            "iid": 61772,
+            "name": "Beat Mazesoba",
+            "rank": 2,
+            "score": -2.250805616378784,
+            "state": "New_York"
+        },
+        {
+            "address": "Saranrom Thai, 8110 Broadway, Queens, NY 11373",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25fde77074d51:0xfb0ee9f3a909d0de",
+            "iid": 61429,
+            "name": "Saranrom Thai",
+            "rank": 3,
+            "score": -2.252368688583374,
+            "state": "New_York"
+        },
+        {
+            "address": "Nai Brother x YanYan Tea (\u5948\u54e5\u9178\u83dc\u9c7c x \u7814\u76d0\u5c0f\u65b9\u5976\u8336), 135-03A Roosevelt Ave, Queens, NY 11354",
+            "category": "['Bubble tea store', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x89c26199b8ab6c79:0x3b8be9dc16ac377c",
+            "iid": 61819,
+            "name": "Nai Brother x YanYan Tea (\u5948\u54e5\u9178\u83dc\u9c7c x \u7814\u76d0\u5c0f\u65b9\u5976\u8336)",
+            "rank": 4,
+            "score": -2.2596752643585205,
+            "state": "New_York"
+        },
+        {
+            "address": NaN,
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89c26023a99bd169:0xc5a02edce53138c2",
+            "iid": 61586,
+            "name": "Solbaat",
+            "rank": 5,
+            "score": -2.2859177589416504,
+            "state": "Oregon"
+        },
+        {
+            "address": "Barn Joo Nomad, 816 6th Ave, New York, NY 10001",
+            "category": "['Gastropub', 'Bar', 'Cocktail bar', 'Korean restaurant', 'Restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x89c259c6b11ba8fd:0xf5871a3bb878d505",
+            "iid": 60210,
+            "name": "Barn Joo Nomad",
+            "rank": 6,
+            "score": -2.3867673873901367,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi On Me, 71-26 Roosevelt Ave, Queens, NY 11372",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c25f469052afc9:0xb652a1263ab61d11",
+            "iid": 61307,
+            "name": "Sushi On Me",
+            "rank": 7,
+            "score": -2.403437614440918,
+            "state": "New_York"
+        },
+        {
+            "address": "Peace Luke Acupuncture, 171-13 Northern Blvd, Flushing, NY 11358",
+            "category": "['Oriental medicine clinic', 'Acupuncture clinic', 'Acupuncturist', 'Chinese medicine clinic', 'Oriental medicine store']",
+            "gmap_id": "0x89c260269c34a2eb:0xe5d08942bf6e153c",
+            "iid": 61607,
+            "name": "Peace Luke Acupuncture",
+            "rank": 8,
+            "score": -2.4123363494873047,
+            "state": "New_York"
+        },
+        {
+            "address": "Jook Sing, 135B N 5th St, Brooklyn, NY 11249",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Hamburger restaurant', 'Restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x89c25913f2e11733:0x1cdbbd3e3e03df37",
+            "iid": 59327,
+            "name": "Jook Sing",
+            "rank": 9,
+            "score": -2.42989182472229,
+            "state": "New_York"
+        },
+        {
+            "address": "Emperor Seafood, 136-59 37th Avenue #2/F, Queens, NY 11354",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c26179efebb81d:0x10f52e0bd47c824a",
+            "iid": 61802,
+            "name": "Emperor Seafood",
+            "rank": 10,
+            "score": -2.4518139362335205,
+            "state": "New_York"
+        },
+        {
+            "address": "The Legend Cafe House, 8140 New Utrecht Ave, Brooklyn, NY 11214",
+            "category": "['Hong Kong style fast food restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c245153d03b91d:0x1fef9335276bcc1",
+            "iid": 58220,
+            "name": "The Legend Cafe House",
+            "rank": 11,
+            "score": -2.477266550064087,
+            "state": "New_York"
+        },
+        {
+            "address": "\u674f\u2022\u80e1\u2022\u91cc-\u597d\u4e45\u4e0d\u89c1 Hope To See You, 39-16 Prince St #210 Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Bar', 'Hot pot restaurant', 'Kebab shop', 'Mandarin restaurant']",
+            "gmap_id": "0x89c261c92ff46dd5:0x3e03d4ff013d4a41",
+            "iid": 61847,
+            "name": "\u674f\u2022\u80e1\u2022\u91cc-\u597d\u4e45\u4e0d\u89c1 Hope To See You",
+            "rank": 12,
+            "score": -2.5049378871917725,
+            "state": "New_York"
+        },
+        {
+            "address": "Chef Papa Vietnamese Kitchen, 42-05 162nd St, Queens, NY 11358",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c261ca03dd8981:0xe946bf6840523c82",
+            "iid": 61848,
+            "name": "Chef Papa Vietnamese Kitchen",
+            "rank": 13,
+            "score": -2.5050747394561768,
+            "state": "New_York"
+        },
+        {
+            "address": "Silky Kitchen, 138 W 46th St, New York, NY 10036",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x89c259df671df0d1:0xc7ef4e323a1d6e1b",
+            "iid": 60238,
+            "name": "Silky Kitchen",
+            "rank": 14,
+            "score": -2.5456314086914062,
+            "state": "New_York"
+        },
+        {
+            "address": "Bao Ding CFC, 162nd St, Flushing, NY 11358",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Mandarin restaurant', 'Delivery Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89c2602fccf22cf1:0x5769767af0183b83",
+            "iid": 61629,
+            "name": "Bao Ding CFC",
+            "rank": 15,
+            "score": -2.5683860778808594,
+            "state": "New_York"
+        },
+        {
+            "address": "New Asian, 41-24 162nd St, Queens, NY 11358",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c2602fb6b72919:0xc1d272e1fac80126",
+            "iid": 61628,
+            "name": "New Asian",
+            "rank": 16,
+            "score": -2.588200807571411,
+            "state": "New_York"
+        },
+        {
+            "address": "New York, Hanover Square, Umami Ramen\u90ae\u653f\u7f16\u7801: 10005",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Noodle shop', 'Vegan restaurant']",
+            "gmap_id": "0x89c25b9df554a209:0x2dbf7fa9ac416d9d",
+            "iid": 60741,
+            "name": "Umami Ramen",
+            "rank": 17,
+            "score": -2.6221859455108643,
+            "state": "New_York"
+        },
+        {
+            "address": "SONA, 36 E 20th St, New York, NY 10003",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2597bdf202ebb:0x873f4d2aca72121e",
+            "iid": 59566,
+            "name": "SONA",
+            "rank": 18,
+            "score": -2.635511636734009,
+            "state": "New_York"
+        },
+        {
+            "address": "Grand Street Skewer Cart, Chrystie St, New York, NY 10002",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c25987eb9a8bd9:0xfc6e7f366e91771",
+            "iid": 59650,
+            "name": "Grand Street Skewer Cart",
+            "rank": 19,
+            "score": -2.6511590480804443,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Viet USA, 333 H St NE, Washington, DC 20002",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89b7b91b68cb3a21:0x3181b14c497d7c0c",
+            "iid": 56485,
+            "name": "Pho Viet USA",
+            "rank": 20,
+            "score": -2.6541004180908203,
+            "state": "District_of_Columbia"
+        }
+    ],
+    "user": {
+        "name": "Emily and Gordon",
+        "uid": 252530,
+        "user_id": 108454710069020163965
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3347 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/10",
+            "gmap_id": "0x808f8741f007ded5:0x119abe407bf46103",
+            "iid": 3100,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549785043032
+        },
+        {
+            "address": "Starbucks, 3550 Fruitvale Ave, Oakland, CA 94602",
+            "category": "['Coffee shop']",
+            "date": "2019/02/10",
+            "gmap_id": "0x808f87a95f922279:0x3c59a2b01affe31d",
+            "iid": 3131,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1549785046620
+        },
+        {
+            "address": "Tierra Mia Coffee, 2001 Broadway, Oakland, CA 94612",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808f80ad8059c441:0xc218b9ded06f739d",
+            "iid": 2965,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550479502082
+        },
+        {
+            "address": "Starbucks, 1900 Contra Costa Blvd, Pleasant Hill, CA 94523",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808561381fdd6fd1:0x50d274112ac2f53f",
+            "iid": 775,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550479525804
+        },
+        {
+            "address": "Starbucks, 1701 Willow Pass Rd Suite C, Concord, CA 94520",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808566d9cf233303:0x1a11f4d7bcb87fa",
+            "iid": 850,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550479537811
+        },
+        {
+            "address": "Starbucks, 3013 Broadway, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808f8755a028f48d:0x8155eee86567c80b",
+            "iid": 3122,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550479596636
+        },
+        {
+            "address": "Starbucks, 1364 Park St, Alameda, CA 94501",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808f86bdff545a0f:0x60a24a610e77deb5",
+            "iid": 3068,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550479612704
+        },
+        {
+            "address": "Starbucks, 8450-D, Edgewater Dr, Oakland, CA 94621",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/05/23",
+            "gmap_id": "0x808f85bd83aa3945:0x70f0ca629c598740",
+            "iid": 3041,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1558649337552
+        },
+        {
+            "address": "Starbucks, 720 Atlantic Ave, Alameda, CA 94501",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808f80d796b33395:0x1715fb75a4665bc5",
+            "iid": 3014,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616923297114
+        },
+        {
+            "address": "McDonald's, 7300 Bancroft Ave, Oakland, CA 94605",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808f85fe546ce337:0xcff705cf100058ee",
+            "iid": 3043,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1616923315712
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Noah's NY Bagels, 2060 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x808f879aaf9c35a7:0xaa972ef526f8ee2f",
+            "iid": 3128,
+            "name": "Noah's NY Bagels",
+            "rank": 1,
+            "score": -1.7203412055969238,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 2066 Antioch Ct, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x808f879aa4290a6d:0xa273324ff2b7d255",
+            "iid": 3127,
+            "name": "Peet's Coffee",
+            "rank": 2,
+            "score": -1.7263826131820679,
+            "state": "California"
+        },
+        {
+            "address": "Highwire Coffee Roasters, 2059 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f877f58d94313:0xd48a4eaa23db575f",
+            "iid": 3125,
+            "name": "Highwire Coffee Roasters",
+            "rank": 3,
+            "score": -1.752488374710083,
+            "state": "California"
+        },
+        {
+            "address": "HL's Cafe, 1952 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f878511894aff:0x64491ed85a93d891",
+            "iid": 3126,
+            "name": "HL's Cafe",
+            "rank": 4,
+            "score": -1.7568669319152832,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2080 Mountain Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f879ab1770187:0x95a6580fed6196c8",
+            "iid": 3129,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -1.768821358680725,
+            "state": "California"
+        },
+        {
+            "address": "L'ACAJOU Bakery and Cafe, 5020 Woodminster Ln, Oakland, CA 94602",
+            "category": "['Cafe', 'Bakery', 'Restaurant']",
+            "gmap_id": "0x808f87c801067b4f:0xec0904b062f3d2a0",
+            "iid": 3136,
+            "name": "L'ACAJOU Bakery and Cafe",
+            "rank": 6,
+            "score": -2.468796730041504,
+            "state": "California"
+        },
+        {
+            "address": "Paulista Brazilian Kitchen and Taproom, 4239 Park Blvd, Oakland, CA 94602",
+            "category": "['Brazilian restaurant', 'Bar', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Juice shop']",
+            "gmap_id": "0x808f870999f9b0c7:0x5fe06ee429655947",
+            "iid": 3083,
+            "name": "Paulista Brazilian Kitchen and Taproom",
+            "rank": 7,
+            "score": -3.9061439037323,
+            "state": "California"
+        },
+        {
+            "address": "Ultimate Grounds Et Al, 4225 Park Blvd, Oakland, CA 94602",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f8709a2a77ed1:0xa034f493242aaa6b",
+            "iid": 3084,
+            "name": "Ultimate Grounds Et Al",
+            "rank": 8,
+            "score": -3.93149995803833,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 4100 Redwood Rd Suite 20B, Oakland, CA 94619",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x808f8761a4aa85ab:0xbd89bb2cef0605b8",
+            "iid": 3123,
+            "name": "Peet's Coffee",
+            "rank": 9,
+            "score": -4.029063701629639,
+            "state": "California"
+        },
+        {
+            "address": "Terrace Gifts & Coffee, 5891 Broadway Terrace, Oakland, CA 94618",
+            "category": "['Cafe', 'Gift shop']",
+            "gmap_id": "0x80857d91640c0acb:0x8db9ae6e9583ea61",
+            "iid": 1019,
+            "name": "Terrace Gifts & Coffee",
+            "rank": 10,
+            "score": -4.062576770782471,
+            "state": "California"
+        },
+        {
+            "address": "Cafe 3016, 3016 MacArthur Blvd, Oakland, CA 94602",
+            "category": "['Cafe', 'Bagel shop', 'Coffee shop', 'Dessert shop', 'Tea house']",
+            "gmap_id": "0x808f864c5e673259:0x20456a43f75562d9",
+            "iid": 3047,
+            "name": "Cafe 3016",
+            "rank": 11,
+            "score": -4.152942657470703,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Umami, 2224 MacArthur Blvd, Oakland, CA 94602",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Cafe']",
+            "gmap_id": "0x808f87abe94060c5:0x29e39da3a59ea91a",
+            "iid": 3134,
+            "name": "Cafe Umami",
+            "rank": 12,
+            "score": -4.211093902587891,
+            "state": "California"
+        },
+        {
+            "address": "Hive, 2139 MacArthur Blvd, Oakland, CA 94602",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808f87abd0045371:0x9f4b7862dbd64cf9",
+            "iid": 3133,
+            "name": "Hive",
+            "rank": 13,
+            "score": -4.2642412185668945,
+            "state": "California"
+        },
+        {
+            "address": "Dimond Cafe, 3430 Fruitvale Ave, Oakland, CA 94602",
+            "category": "['Cafe', 'Bakery']",
+            "gmap_id": "0x808f87abb0697201:0x4774f356769faa1d",
+            "iid": 3132,
+            "name": "Dimond Cafe",
+            "rank": 14,
+            "score": -4.302363395690918,
+            "state": "California"
+        },
+        {
+            "address": "World Ground Cafe, 3726 MacArthur Blvd, Oakland, CA 94619",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x808f864875c7b411:0x4b310d3319ff9e26",
+            "iid": 3046,
+            "name": "World Ground Cafe",
+            "rank": 15,
+            "score": -4.610252380371094,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Santana Roasting Company, 4100 MacArthur Blvd, Oakland, CA 94619",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808f86389019121b:0xfab3e5db45025508",
+            "iid": 3045,
+            "name": "Cafe Santana Roasting Company",
+            "rank": 16,
+            "score": -4.861311912536621,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1982 Pleasant Valley Blvd, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80857dee3b83c63f:0x852ffaa7044c288a",
+            "iid": 1057,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -5.095126628875732,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 63 Moraga Way, Orinda, CA 94563",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80857d2ead65a60f:0x797dc3c700eef75f",
+            "iid": 1014,
+            "name": "Peet's Coffee",
+            "rank": 18,
+            "score": -5.131560802459717,
+            "state": "California"
+        },
+        {
+            "address": "Timeless Coffee, 4252 Piedmont Ave, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Bakery', 'Vegan restaurant']",
+            "gmap_id": "0x80857df6c7e27317:0xf25f018ec0b75f12",
+            "iid": 1058,
+            "name": "Timeless Coffee",
+            "rank": 19,
+            "score": -5.15321683883667,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2 Orinda Theatre Square #106, Orinda, CA 94563",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80857d293cf558ff:0x2ef094104412cd7",
+            "iid": 1013,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -5.153672218322754,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Erika Martinez",
+        "uid": 14536,
+        "user_id": 101913489852573224866
+    }
+}

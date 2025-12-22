@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Persis Biryani Indian Grill, 1451 Woodruff Rd Suite D, Greenville, SC 29607",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2017/11/27",
+            "gmap_id": "0x885828ea13f64afb:0xe5b25d3448227728",
+            "iid": 43545,
+            "name": "Persis Biryani Indian Grill",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1511741234784
+        },
+        {
+            "address": "Krishna Grocery, 1288 Woodruff Rd, Greenville, SC 29607",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Grocery store']",
+            "date": "2017/11/27",
+            "gmap_id": "0x88582f01d46a55e1:0x3d2945be639b6476",
+            "iid": 43587,
+            "name": "Krishna Grocery",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1511741560228
+        },
+        {
+            "address": "Yao buffet-sushi-grill, 153 Smokey Park Hwy, Asheville, NC 28806",
+            "category": "['Asian restaurant', 'Thai restaurant']",
+            "date": "2017/11/29",
+            "gmap_id": "0x88598c36840059f3:0x17cf58862a70d327",
+            "iid": 43710,
+            "name": "Yao buffet-sushi-grill",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1511915389395
+        },
+        {
+            "address": "Radha Indian Grocers, 9 Hendrix Dr, Greenville, SC 29607",
+            "category": "['Indian grocery store', 'Grocery store']",
+            "date": "2017/12/04",
+            "gmap_id": "0x885828c1cfbcdd29:0x359f3a8f0f749458",
+            "iid": 43536,
+            "name": "Radha Indian Grocers",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1512348356901
+        },
+        {
+            "address": "Rasoi Indian Kitchen, 1810 K Street NW K Street Entrance, Washington, DC 20006",
+            "category": "['Indian restaurant', 'Bar & grill', 'Caterer']",
+            "date": "2017/12/22",
+            "gmap_id": "0x89b7b7b986d4b259:0xcda7159330e77d8c",
+            "iid": 56361,
+            "name": "Rasoi Indian Kitchen",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1513904533616
+        },
+        {
+            "address": "Super G Mart Charlotte, 7323 E Independence Blvd, Charlotte, NC 28227",
+            "category": "['Supermarket', 'Asian grocery store', 'Fresh food market', 'Grocery store', 'Indian grocery store', 'Korean grocery store', 'Mexican grocery store', 'Produce market']",
+            "date": "2018/08/08",
+            "gmap_id": "0x88542176a3ea3e03:0xab7f71a2248cb723",
+            "iid": 42968,
+            "name": "Super G Mart Charlotte",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1533689627202
+        },
+        {
+            "address": "Botiwalla, 24 S Main St, Alpharetta, GA 30009",
+            "category": "['Indian restaurant', 'South Asian restaurant']",
+            "date": "2019/07/14",
+            "gmap_id": "0x88f575bea1bde709:0x21327d4833becb35",
+            "iid": 52003,
+            "name": "Botiwalla",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1563107563989
+        },
+        {
+            "address": "Hong Kong Supermarket, 5495 Jimmy Carter Blvd, Norcross, GA 30093, United States",
+            "category": "['Grocery store', 'Asian grocery store', 'Korean grocery store', 'Supermarket']",
+            "date": "2019/07/14",
+            "gmap_id": "0x88f5a6bf02b90cb5:0x230c1c835629f168",
+            "iid": 52399,
+            "name": "Hong Kong Supermarket",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1563107667587
+        },
+        {
+            "address": "Thai Restaurant, 3012 Augusta St, Greenville, SC 29605",
+            "category": "['Thai restaurant']",
+            "date": "2019/07/14",
+            "gmap_id": "0x88582ffb48df001d:0xe5dbe8556f298471",
+            "iid": 43595,
+            "name": "Thai Restaurant",
+            "split": "train",
+            "state": "South_Carolina",
+            "unix_time": 1563107856407
+        },
+        {
+            "address": "Tuk Tuk Thai and Vietnamese Kitchen, 5010 Old Spartanburg Rd, Taylors, SC 29687",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Pho restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2019/07/29",
+            "gmap_id": "0x88582bf9ce7fe847:0x952e51af271b6fae",
+            "iid": 43564,
+            "name": "Tuk Tuk Thai and Vietnamese Kitchen",
+            "split": "valid",
+            "state": "South_Carolina",
+            "unix_time": 1564360685194
+        },
+        {
+            "address": "Menkoi, 241B N Main St, Greenville, SC 29601",
+            "category": "['Japanese restaurant']",
+            "date": "2020/12/25",
+            "gmap_id": "0x885831d04a3ffffd:0xfa74e08207d034b4",
+            "iid": 43606,
+            "name": "Menkoi",
+            "split": "test",
+            "state": "South_Carolina",
+            "unix_time": 1608861480913
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Kannika's Thai Kitchen, 430 Haywood Rd suite B, Greenville, SC 29607",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88582f002adfba45:0xc63f274bb7dcad5a",
+            "iid": 43586,
+            "name": "Kannika's Thai Kitchen",
+            "rank": 1,
+            "score": 0.4804631471633911,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Saffron Indian Cuisine, 1178 Woodruff Rd #16, Greenville, SC 29607",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x885828ce896cda03:0x92b26e34631601c4",
+            "iid": 43544,
+            "name": "Saffron Indian Cuisine",
+            "rank": 2,
+            "score": 0.44981175661087036,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Swad Restaurant, 2348, 1421 Laurens Rd A, Greenville, SC 29607",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88582e4b231cfa93:0x63ff39915c17c794",
+            "iid": 43571,
+            "name": "Swad Restaurant",
+            "rank": 3,
+            "score": 0.4457516670227051,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "rank": 4,
+            "score": 0.42985931038856506,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Spice of India, 15 Market Point Dr, Greenville, SC 29607",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x885828cc85613779:0x7f55bb54df1f5c7c",
+            "iid": 43539,
+            "name": "Spice of India",
+            "rank": 5,
+            "score": 0.40456175804138184,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "P.F. Chang's, 1127 Woodruff Rd, Greenville, SC 29607",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x885828cdbfb8a07b:0x7e15b098790457ef",
+            "iid": 43541,
+            "name": "P.F. Chang's",
+            "rank": 6,
+            "score": 0.40230506658554077,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Bake & Cook Thai Restaurant, 133 W Main St, Central, SC 29630",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x88585e643462922d:0x842cd09799d0a508",
+            "iid": 43645,
+            "name": "Bake & Cook Thai Restaurant",
+            "rank": 7,
+            "score": 0.40190157294273376,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Handi Indian Cuisine, 18 N Main St UNIT 100, Greenville, SC 29601",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x885831d1f47d6579:0xa8d7301bed471675",
+            "iid": 43609,
+            "name": "Handi Indian Cuisine",
+            "rank": 8,
+            "score": 0.3939347267150879,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Korean BBQ, 1170 Woodruff Rd, Greenville, SC 29607",
+            "category": "['Korean restaurant', 'Barbecue restaurant', 'Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x885828ce8770da1b:0x8b3ad70d1fea97dc",
+            "iid": 43543,
+            "name": "Korean BBQ",
+            "rank": 9,
+            "score": 0.3918178081512451,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Genghis Grill, 1140 Woodruff Rd, Greenville, SC 29607",
+            "category": "['Mongolian barbecue restaurant', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Pan-Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x885828cd433cadcf:0x5c39fab548eae0f8",
+            "iid": 43540,
+            "name": "Genghis Grill",
+            "rank": 10,
+            "score": 0.38741037249565125,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Rasoi Vegetarian Thali, 3230 Caliber St A104, Suwanee, GA 30024",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Vegetarian restaurant']",
+            "gmap_id": "0x88f599d58f1bb7bb:0x5bbd0229bc98d9cc",
+            "iid": 52141,
+            "name": "Rasoi Vegetarian Thali",
+            "rank": 11,
+            "score": 0.3850846290588379,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sweet Basil Thai Cuisine, 8590 Pelham Rd #15, Greenville, SC 29615",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x885829c6b290b799:0x455fde1e08841d53",
+            "iid": 43552,
+            "name": "Sweet Basil Thai Cuisine",
+            "rank": 12,
+            "score": 0.3766650855541229,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Padthai Asheville, 18 Sardis Rd, Asheville, NC 28806",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88598d9ce9f09fa7:0xd37564caae479c41",
+            "iid": 43721,
+            "name": "Padthai Asheville",
+            "rank": 13,
+            "score": 0.3733082413673401,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Saigon Fast Food, 1011 N Pleasantburg Dr unit A, Greenville, SC 29607",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88582e68d9c64c31:0x4c4f94503f0c0189",
+            "iid": 43574,
+            "name": "Saigon Fast Food",
+            "rank": 14,
+            "score": 0.3719775080680847,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Tamarind Thai Cuisine, 330 Rockwood Rd #112, Arden, NC 28704",
+            "category": "['Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8859ec94cd7511c1:0xfa7c6554a1e9668",
+            "iid": 43746,
+            "name": "Tamarind Thai Cuisine",
+            "rank": 15,
+            "score": 0.37087246775627136,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "New Happy Garden Chinese Restaurant, 1655 Acquoni Rd, Cherokee, NC 28719",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885943bae35fb601:0xf68403c1ea7dbb6d",
+            "iid": 43696,
+            "name": "New Happy Garden Chinese Restaurant",
+            "rank": 16,
+            "score": 0.3664911985397339,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Masti - Indian Street Eats, 9700 Medlock Bridge Rd #100, Johns Creek, GA 30022",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88f59ff840e1c44f:0xc5cdfeba05c8d9dc",
+            "iid": 52218,
+            "name": "Masti - Indian Street Eats",
+            "rank": 17,
+            "score": 0.36612969636917114,
+            "state": "Georgia"
+        },
+        {
+            "address": "India Garden Restaurant, 80 S Tunnel Rd, Asheville, NC 28805",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8859f375bc35df0f:0x9d6af8e85b96b609",
+            "iid": 43782,
+            "name": "India Garden Restaurant",
+            "rank": 18,
+            "score": 0.36116787791252136,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "India Palace restaurant, 59 Liberty Ln, Greenville, SC 29607",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Caterer', 'Fine dining restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x88582fb4d6b6f78f:0x8bfa150cf3c1ddf7",
+            "iid": 43591,
+            "name": "India Palace restaurant",
+            "rank": 19,
+            "score": 0.3570975065231323,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Basil, 9 N Laurens St, Greenville, SC 29601",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8858318ff4100ef7:0x1d22f0029a91b93f",
+            "iid": 43604,
+            "name": "Basil",
+            "rank": 20,
+            "score": 0.3561449348926544,
+            "state": "South_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Heather Cazarin",
+        "uid": 533835,
+        "user_id": 117921281820563030604
+    }
+}

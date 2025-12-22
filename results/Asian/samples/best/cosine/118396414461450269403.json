@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Shangri La, 50 Front St, Worcester, MA 01608",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Family restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2017/08/05",
+            "gmap_id": "0x89e4066661695307:0x8d774b9867cef7bc",
+            "iid": 70333,
+            "name": "Shangri La",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1501975827779
+        },
+        {
+            "address": "House of Teriyaki, 1177 N Pleasant St, Amherst, MA 01002",
+            "category": "['Japanese restaurant', 'Korean restaurant']",
+            "date": "2018/03/18",
+            "gmap_id": "0x89e6d285bcd10855:0xc0c2ee566a9f8a4d",
+            "iid": 71200,
+            "name": "House of Teriyaki",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1521332766236
+        },
+        {
+            "address": "Gohyang Korean Restaurant, 113 Russell St, Hadley, MA 01035",
+            "category": "['Korean restaurant']",
+            "date": "2018/07/13",
+            "gmap_id": "0x89e6d12230a0b0b1:0x8c6f637dc8814034",
+            "iid": 71199,
+            "name": "Gohyang Korean Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1531521294586
+        },
+        {
+            "address": "Miss Saigon, 96 N Pleasant St, Amherst, MA 01002",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/07/19",
+            "gmap_id": "0x89e6cdf6020ba50d:0xaa0f2b78383f8073",
+            "iid": 71191,
+            "name": "Miss Saigon",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1531967199481
+        },
+        {
+            "address": "India House, 45 State St, Northampton, MA 01060",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "date": "2018/08/26",
+            "gmap_id": "0x89e6d7415e9c1dbd:0x2ad646ef09333958",
+            "iid": 71204,
+            "name": "India House",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1535316236525
+        },
+        {
+            "address": "Oriental Taste, 41 Main St, Northampton, MA 01060",
+            "category": "['Restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Sushi restaurant']",
+            "date": "2018/10/15",
+            "gmap_id": "0x89e6d74651ae32e5:0x3f59a46fe8d4f762",
+            "iid": 71210,
+            "name": "Oriental Taste",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1539645806119
+        },
+        {
+            "address": "Arigato Japanese Restaurant, 11 N Pleasant St, Amherst, MA 01002",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/10/17",
+            "gmap_id": "0x89e6cdf624a21733:0xc630bd03e5e737ee",
+            "iid": 71193,
+            "name": "Arigato Japanese Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1539745884129
+        },
+        {
+            "address": "Basil n' Spice Thai Cuisine, 299 Shrewsbury St, Worcester, MA 01604",
+            "category": "['Thai restaurant', 'Fine dining restaurant', 'Gluten-free restaurant', 'Takeout Restaurant', 'Restaurant', 'Vegetarian restaurant']",
+            "date": "2018/11/04",
+            "gmap_id": "0x89e4063bf85728e3:0x288500baa246da38",
+            "iid": 70324,
+            "name": "Basil n' Spice Thai Cuisine",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1541352753542
+        },
+        {
+            "address": "Lili's Restaurant, 197 N Pleasant St, Amherst, MA 01002",
+            "category": "['Chinese restaurant']",
+            "date": "2019/02/01",
+            "gmap_id": "0x89e6cdf592b23b43:0x1f6cfe932e7f0b1b",
+            "iid": 71190,
+            "name": "Lili's Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1548991586097
+        },
+        {
+            "address": "Osaka, 7 Old S St, Northampton, MA 01060",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x89e6d7443dad6d17:0x25eb6cff7fb52b4d",
+            "iid": 71205,
+            "name": "Osaka",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1567299613247
+        },
+        {
+            "address": "Panda East, 103 N Pleasant St, Amherst, MA 01002",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/11/21",
+            "gmap_id": "0x89e6cdf60af2003b:0xe930ffa0bcdadf6b",
+            "iid": 71192,
+            "name": "Panda East",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1574301518022
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Panda East, 103 N Pleasant St, Amherst, MA 01002",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e6cdf60af2003b:0xe930ffa0bcdadf6b",
+            "iid": 71192,
+            "name": "Panda East",
+            "rank": 1,
+            "score": 0.7853874564170837,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Honeycrisp Chicken, 1 Boltwood Walk, Amherst, MA 01002",
+            "category": "['Fried chicken takeaway', 'Asian restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89e6cd8c1d3f8d35:0xe06c91944c3ca14e",
+            "iid": 71189,
+            "name": "Honeycrisp Chicken",
+            "rank": 2,
+            "score": 0.7422541975975037,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Goten of Japan, 104 Old Amherst Rd, Sunderland, MA 01375",
+            "category": "['Asian restaurant', 'Banquet hall', 'Bar', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x89e12cd9f34069cf:0xcfc025e65bcae333",
+            "iid": 68856,
+            "name": "Goten of Japan",
+            "rank": 3,
+            "score": 0.7082887887954712,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Himalaya Friends Corner, 61 Main St, Amherst, MA 01002",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e6cdf64443c6e5:0x33172386d488d182",
+            "iid": 71197,
+            "name": "Himalaya Friends Corner",
+            "rank": 4,
+            "score": 0.6969805955886841,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "The Taste Thai Cuisine, 25 N Pleasant St, Amherst, MA 01002",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89e6cdf63d797401:0xab46f40540d4e441",
+            "iid": 71195,
+            "name": "The Taste Thai Cuisine",
+            "rank": 5,
+            "score": 0.6936187744140625,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Thai Garden, 2 Bridge St, Northampton, MA 01060",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e6d747b5d8895b:0x76a0ef8a6a02c27a",
+            "iid": 71212,
+            "name": "Thai Garden",
+            "rank": 6,
+            "score": 0.6926299929618835,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Oriental Flavor, 25 S Pleasant St, Amherst, MA 01002",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x89e6cd2195c9257f:0x4d8a35b9486211d4",
+            "iid": 71188,
+            "name": "Oriental Flavor",
+            "rank": 7,
+            "score": 0.6925519704818726,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Great Wall Restaurant, 178 Pine St, Northampton, MA 01062",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e6d7bd7a4d0685:0x4155fa074bd5fd91",
+            "iid": 71213,
+            "name": "Great Wall Restaurant",
+            "rank": 8,
+            "score": 0.6779839396476746,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Taipei & Tokyo, 16 Crafts Ave, Northampton, MA 01060",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x89e6d730ff8d6a43:0xec81ee8773eb25d",
+            "iid": 71202,
+            "name": "Taipei & Tokyo",
+            "rank": 9,
+            "score": 0.6742473244667053,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "India Palace, 28 Main St, Northampton, MA 01060",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89e6d7464f7b4d4b:0xaa7ccec652e0eeb5",
+            "iid": 71209,
+            "name": "India Palace",
+            "rank": 10,
+            "score": 0.6681647896766663,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "The Bahn Mi Spot, 18 Main St, Northampton, MA 01060",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Restaurant', 'Sandwich shop', 'Soup shop']",
+            "gmap_id": "0x89e6d10f94354f47:0x153cdc550eec85a6",
+            "iid": 71198,
+            "name": "The Bahn Mi Spot",
+            "rank": 11,
+            "score": 0.6658782958984375,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Osaka, 7 Old S St, Northampton, MA 01060",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e6d7443dad6d17:0x25eb6cff7fb52b4d",
+            "iid": 71205,
+            "name": "Osaka",
+            "rank": 12,
+            "score": 0.6588953733444214,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Amherst Chinese Food, 62 Main St, Amherst, MA 01002",
+            "category": "['Chinese restaurant', 'Cantonese restaurant', 'Mandarin restaurant']",
+            "gmap_id": "0x89e6cdf638999ed9:0x26521f32f10d6b97",
+            "iid": 71194,
+            "name": "Amherst Chinese Food",
+            "rank": 13,
+            "score": 0.6561479568481445,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Bombay Royale, 1 Roundhouse Plaza #4, Northampton, MA 01060",
+            "category": "['Indian restaurant', 'Caterer', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89e6d7446f6e36ef:0xdc72e979cb9d147",
+            "iid": 71206,
+            "name": "Bombay Royale",
+            "rank": 14,
+            "score": 0.6527842283248901,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Glory of India, 29 Union St, Easthampton, MA 01027",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89e6d8f9aa3a8899:0x5d3af1ab0fa83757",
+            "iid": 71215,
+            "name": "Glory of India",
+            "rank": 15,
+            "score": 0.6480910778045654,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Paradise of India, 87 Main St, Amherst, MA 01002",
+            "category": "['Indian restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89e6cdf64367abe7:0x92672160da71a866",
+            "iid": 71196,
+            "name": "Paradise of India",
+            "rank": 16,
+            "score": 0.6354584097862244,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Moshi Moshi, 4 Main St, Northampton, MA 01060",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e6d7464a6123b9:0xf87ea115d2eadfd3",
+            "iid": 71208,
+            "name": "Moshi Moshi",
+            "rank": 17,
+            "score": 0.6308984160423279,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "China Wok Express, 150 King St, Northampton, MA 01060",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e6d73f3a6d0625:0x3b33bf546801693a",
+            "iid": 71203,
+            "name": "China Wok Express",
+            "rank": 18,
+            "score": 0.6291787624359131,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Golden China Pan, 98 Union St, Easthampton, MA 01027",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89e6d8fbc53af75d:0x5e7303c05b81641",
+            "iid": 71216,
+            "name": "Golden China Pan",
+            "rank": 19,
+            "score": 0.6224138140678406,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Teapot, 116 Main St, Northampton, MA 01060",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e6d746858223e9:0x8e9b1d15ba311460",
+            "iid": 71211,
+            "name": "Teapot",
+            "rank": 20,
+            "score": 0.614203929901123,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "K AR",
+        "uid": 547756,
+        "user_id": 118396414461450269403
+    }
+}

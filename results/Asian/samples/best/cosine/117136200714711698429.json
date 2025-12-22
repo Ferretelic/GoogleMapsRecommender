@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Diamond Palace Chinese Seafood, 225 Gentle Springs Ln, Diamond Bar, CA 91765",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/02",
+            "gmap_id": "0x80c32c68952e1ccb:0x80bbedd091fb1fe1",
+            "iid": 16448,
+            "name": "Diamond Palace Chinese Seafood",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535861382865
+        },
+        {
+            "address": "Bambu, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Dessert shop', 'Bubble tea store', 'Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e838efd3ee268f:0xfb0304dcd499d8a7",
+            "iid": 71986,
+            "name": "Bambu",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579577633
+        },
+        {
+            "address": "The Rolling Spring Roll (Syosset), 228 W Jericho Turnpike, Syosset, NY 11791",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89c2817d75bbe41b:0x1f6037e607a9b672",
+            "iid": 62367,
+            "name": "The Rolling Spring Roll (Syosset)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579610353
+        },
+        {
+            "address": "World Seafood Restaurant, 1412 S Garfield Ave, Alhambra, CA 91801",
+            "category": "['Chinese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c2c537e6f01e17:0x155a986680dc0a5b",
+            "iid": 14893,
+            "name": "World Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579643737
+        },
+        {
+            "address": "Chamsutgol BBQ, 18722 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x80c32af68391bbdf:0x5d0d9dc40bf8e3a4",
+            "iid": 16373,
+            "name": "Chamsutgol BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537579674033
+        },
+        {
+            "address": "The Rolling Spring Roll (Farmingdale), 189 Main St, Farmingdale, NY 11735",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/09/22",
+            "gmap_id": "0x89e82abe60ea794f:0xb23c2aa6936bfb4d",
+            "iid": 71860,
+            "name": "The Rolling Spring Roll (Farmingdale)",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537579695606
+        },
+        {
+            "address": "Splendid Noodle, 1320 Stony Brook Rd, Stony Brook, NY 11790",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese takeaway', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/09/23",
+            "gmap_id": "0x89e838ee364abfff:0x33ca03f14def7cab",
+            "iid": 71982,
+            "name": "Splendid Noodle",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1537673206139
+        },
+        {
+            "address": "Phayathai, 735 Hawkins Ave, Lake Ronkonkoma, NY 11779",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x89e8381795858023:0x8a3695b5953f51e9",
+            "iid": 71968,
+            "name": "Phayathai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1547661527620
+        },
+        {
+            "address": "Thai Fresh, 106 5th St SE, Charlottesville, VA 22902",
+            "category": "['Thai restaurant']",
+            "date": "2019/04/18",
+            "gmap_id": "0x89b38626e692f469:0x74166e45c2b6ebf4",
+            "iid": 54895,
+            "name": "Thai Fresh",
+            "split": "valid",
+            "state": "Virginia",
+            "unix_time": 1555548997455
+        },
+        {
+            "address": "Oriental Sushi, 600 Portion Rd, Ronkonkoma, NY 11779",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/05/14",
+            "gmap_id": "0x89e83807f9672919:0xe418095ce9a4f43a",
+            "iid": 71967,
+            "name": "Oriental Sushi",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1557852839852
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ssambap Korean BBQ, 2350 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Korean barbecue restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89e838ee32cb3baf:0x4f9ca1d2fd4464b3",
+            "iid": 71981,
+            "name": "Ssambap Korean BBQ",
+            "rank": 1,
+            "score": 0.536348819732666,
+            "state": "New_York"
+        },
+        {
+            "address": "Pho Fans, 36 E Main St, Smithtown, NY 11787",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Pho restaurant']",
+            "gmap_id": "0x89e83bf6e95995ef:0xd87a4c888bd5d110",
+            "iid": 72006,
+            "name": "Pho Fans",
+            "rank": 2,
+            "score": 0.5324201583862305,
+            "state": "New_York"
+        },
+        {
+            "address": "Hoshi Sushi, 1320 Stony Brook Rd, Stony Brook, NY 11790",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e838ee66e5b843:0x7cd112c54a631517",
+            "iid": 71983,
+            "name": "Hoshi Sushi",
+            "rank": 3,
+            "score": 0.5293923616409302,
+            "state": "New_York"
+        },
+        {
+            "address": "Saigon Casa, 4747 Nesconset Hwy, Port Jefferson Station, NY 11776",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89e840e85d6a424b:0xdba724d0e94396bc",
+            "iid": 72023,
+            "name": "Saigon Casa",
+            "rank": 4,
+            "score": 0.5009676814079285,
+            "state": "New_York"
+        },
+        {
+            "address": "China Station \u8001\u5317\u65b9\u9eb5\u98df\u9928, 1015 NY-25A, Stony Brook, NY 11790",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e83f23c768517f:0xa4cc29813ea818f1",
+            "iid": 72013,
+            "name": "China Station \u8001\u5317\u65b9\u9eb5\u98df\u9928",
+            "rank": 5,
+            "score": 0.4747758209705353,
+            "state": "New_York"
+        },
+        {
+            "address": "Red Tiger Dumpling House, 1320 Stony Brook Rd, Stony Brook, NY 11790",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e838ee672b3487:0x5bdb3fabf65ac5e4",
+            "iid": 71984,
+            "name": "Red Tiger Dumpling House",
+            "rank": 6,
+            "score": 0.4524339735507965,
+            "state": "New_York"
+        },
+        {
+            "address": "4 Fires Grill/LOL Kitchen, 2545 Middle Country Rd, Centereach, NY 11720",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e838639d630697:0x9204f6c2696fdbfb",
+            "iid": 71976,
+            "name": "4 Fires Grill/LOL Kitchen",
+            "rank": 7,
+            "score": 0.4455466568470001,
+            "state": "New_York"
+        },
+        {
+            "address": "New York, Smithtown, NY-111, Hotoke\u90ae\u653f\u7f16\u7801: 11787",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x89e83a1ed6276079:0xfae9ae032904d8bd",
+            "iid": 72002,
+            "name": "Hotoke",
+            "rank": 8,
+            "score": 0.4432927370071411,
+            "state": "New_York"
+        },
+        {
+            "address": "Aji 53, 1 Miller Pl, Smithtown, NY 11787",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e83a186684c091:0x8eaea317d45a6dc0",
+            "iid": 72001,
+            "name": "Aji 53",
+            "rank": 9,
+            "score": 0.44272273778915405,
+            "state": "New_York"
+        },
+        {
+            "address": "Kotobuki, 377 Nesconset Hwy, Hauppauge, NY 11788",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e830bd277fe1d9:0x8f11eb577ff9d562",
+            "iid": 71925,
+            "name": "Kotobuki",
+            "rank": 10,
+            "score": 0.44253116846084595,
+            "state": "New_York"
+        },
+        {
+            "address": "Empire Restaurant, 769 Middle Country Rd, St James, NY 11780",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e839a4e1024f41:0xf71bbeb4afccf746",
+            "iid": 71992,
+            "name": "Empire Restaurant",
+            "rank": 11,
+            "score": 0.4417229890823364,
+            "state": "New_York"
+        },
+        {
+            "address": "Wing Wah Kitchen, 695 Old Town Rd, Port Jefferson Station, NY 11776",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e840d468be1641:0x66f44d59d22ca208",
+            "iid": 72020,
+            "name": "Wing Wah Kitchen",
+            "rank": 12,
+            "score": 0.44068455696105957,
+            "state": "New_York"
+        },
+        {
+            "address": "juyouge \u805a\u5fb7\u697c, 1310 Middle Country Rd, Selden, NY 11784",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e8470eaec4b5d9:0x74a239c7064a75b",
+            "iid": 72055,
+            "name": "juyouge \u805a\u5fb7\u697c",
+            "rank": 13,
+            "score": 0.43538370728492737,
+            "state": "New_York"
+        },
+        {
+            "address": "Tao's Bakery & Dim Sum, 2460 NY-347, Stony Brook, NY 11790",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e838ec27fed5cb:0xc8c9bd93ea84fe08",
+            "iid": 71980,
+            "name": "Tao's Bakery & Dim Sum",
+            "rank": 14,
+            "score": 0.4353112280368805,
+            "state": "New_York"
+        },
+        {
+            "address": "Spicy Home Tasty\uff5cSichuan Cuisine\uff5c\u5ddd\u8aaa\u4eba\u5bb6\u5ddd\u83dc\u9928\uff5cNY Long Island, 1087 Jericho Turnpike, Commack, NY 11725",
+            "category": "['Sichuan restaurant', 'Chinese takeaway', 'Family restaurant', 'Mandarin restaurant']",
+            "gmap_id": "0x89e83aa754fb7cad:0x51098c0f24e98709",
+            "iid": 72003,
+            "name": "Spicy Home Tasty\uff5cSichuan Cuisine\uff5c\u5ddd\u8aaa\u4eba\u5bb6\u5ddd\u83dc\u9928\uff5cNY Long Island",
+            "rank": 15,
+            "score": 0.434593141078949,
+            "state": "New_York"
+        },
+        {
+            "address": "King Wah Kitchen, 2166 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x40660fb9f24448c5:0x6f2f53376a16898c",
+            "iid": 59,
+            "name": "King Wah Kitchen",
+            "rank": 16,
+            "score": 0.4343106746673584,
+            "state": "New_York"
+        },
+        {
+            "address": "Kumo Japanese of Stony Brook, 2548 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e838ee7ba133ab:0x7da07c346bbfc7c3",
+            "iid": 71985,
+            "name": "Kumo Japanese of Stony Brook",
+            "rank": 17,
+            "score": 0.43200135231018066,
+            "state": "New_York"
+        },
+        {
+            "address": "Rakkii Ramen, 97 E Main St, Smithtown, NY 11787",
+            "category": "['Restaurant', 'Ice cream shop', 'Japanese restaurant', 'Noodle shop', 'Ramen restaurant', 'Tonkatsu restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x89e83be64d9d6117:0x9985760c0763c88a",
+            "iid": 72005,
+            "name": "Rakkii Ramen",
+            "rank": 18,
+            "score": 0.43075647950172424,
+            "state": "New_York"
+        },
+        {
+            "address": "Jade Garden Chinese Restaurant, 4359 555, NY-111, Hauppauge, NY 11788",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e830bc879a8751:0xdc05dcf8fe4efea5",
+            "iid": 71924,
+            "name": "Jade Garden Chinese Restaurant",
+            "rank": 19,
+            "score": 0.43056246638298035,
+            "state": "New_York"
+        },
+        {
+            "address": "Ichi sushi ramen, 700 N Country Rd, Setauket- East Setauket, NY 11733",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e83f67401bf0b7:0xa4801fd8fad8aac6",
+            "iid": 72014,
+            "name": "Ichi sushi ramen",
+            "rank": 20,
+            "score": 0.4265943765640259,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "York Moy",
+        "uid": 510513,
+        "user_id": 117136200714711698429
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Yokohama Yakitori Koubou, 3904 Convoy St Consumer Studies, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x80dbffe941bbe10b:0x5b068aa93e669bc2",
+            "iid": 18622,
+            "name": "Yokohama Yakitori Koubou",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498932034802
+        },
+        {
+            "address": "Pokewaii, 1158 W San Marcos Blvd #4080, San Marcos, CA 92078",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x80dc7548be3fdb19:0xfcaf7bff8138bcff",
+            "iid": 18892,
+            "name": "Pokewaii",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498937050812
+        },
+        {
+            "address": "Sushi Ota, 4529 Mission Bay Dr, San Diego, CA 92109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Kyoto style Japanese restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0034529b4873:0x8bc55af4512dcaf3",
+            "iid": 18646,
+            "name": "Sushi Ota",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499555919369
+        },
+        {
+            "address": "Sam Woo BBQ Restaurant, 7330 Clairemont Mesa Blvd #A103, San Diego, CA 92111",
+            "category": "['Chinese restaurant', 'Barbecue restaurant', 'Bubble tea store', 'Cantonese restaurant']",
+            "date": "2017/07/31",
+            "gmap_id": "0x80dbff9b29249677:0x6c0b783b7e1d8a9d",
+            "iid": 18581,
+            "name": "Sam Woo BBQ Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501484612397
+        },
+        {
+            "address": "Thang Thang, 7905 Engineer Rd, San Diego, CA 92111",
+            "category": "['Korean restaurant']",
+            "date": "2017/08/27",
+            "gmap_id": "0x80dbff95d3189f2b:0x745485b7f6b590e3",
+            "iid": 18565,
+            "name": "Thang Thang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503813290623
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 4609 Convoy St STE F, San Diego, CA 92111",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/10/03",
+            "gmap_id": "0x80dbff94661282a1:0x739a3a4c8001f2f3",
+            "iid": 18558,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507001051503
+        },
+        {
+            "address": "Serenitea, 940 W San Marcos Blvd, San Marcos, CA 92078",
+            "category": "['Bubble tea store', 'Chinese tea house', 'Traditional teahouse']",
+            "date": "2017/10/07",
+            "gmap_id": "0x80dc754ff27d0bab:0x24d643b10221d317",
+            "iid": 18899,
+            "name": "Serenitea",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507414927742
+        },
+        {
+            "address": "Siam Nara Thai Cuisine, 8993 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2018/01/26",
+            "gmap_id": "0x80dbf8e158262e27:0xf29feaa605eb53dd",
+            "iid": 18430,
+            "name": "Siam Nara Thai Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1516994309238
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "date": "2018/02/16",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1518755482185
+        },
+        {
+            "address": "Yakyudori, 4898 Convoy St #101, San Diego, CA 92111",
+            "category": "['Japanese restaurant', 'Bar & grill']",
+            "date": "2018/02/16",
+            "gmap_id": "0x80dbff976fb4bca9:0xd24bfc7d71d4012b",
+            "iid": 18576,
+            "name": "Yakyudori",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1518755482185
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Spices Thai Cafe, Plaza Sorrento Shopping Center, 6785 Mira Mesa Blvd #143, San Diego, CA 92121",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf89dd086f537:0xbc7767356a5bba5",
+            "iid": 18417,
+            "name": "Spices Thai Cafe",
+            "rank": 1,
+            "score": -0.5461692810058594,
+            "state": "California"
+        },
+        {
+            "address": "Indian Tandoor, 6755 Mira Mesa Blvd STE 110, San Diego, CA 92121",
+            "category": "['Restaurant', 'Asian restaurant', 'Indian restaurant', 'Takeout Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80dbf89dec2f0ea3:0x32e83554342b387",
+            "iid": 18418,
+            "name": "Indian Tandoor",
+            "rank": 2,
+            "score": -0.7071371078491211,
+            "state": "California"
+        },
+        {
+            "address": "Charminar Indian Restaurant & Catering, 6755 Mira Mesa Blvd #113, San Diego, CA 92121",
+            "category": "['Indian restaurant', 'Biryani restaurant', 'Caterer', 'Gluten-free restaurant', 'Halal restaurant', 'Lunch restaurant', 'Takeout Restaurant', 'Pakistani restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80dc071b134d1779:0xeaef69a79ba5983",
+            "iid": 18735,
+            "name": "Charminar Indian Restaurant & Catering",
+            "rank": 3,
+            "score": -0.7108295559883118,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 8118 Mira Mesa Blvd space a, San Diego, CA 92126",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf8ece781a9eb:0x82e8e2ec58acffc4",
+            "iid": 18441,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -1.8882198333740234,
+            "state": "California"
+        },
+        {
+            "address": "Manna BBQ, 8188 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf8ecf41636bb:0x4e5935d0762eb2b7",
+            "iid": 18442,
+            "name": "Manna BBQ",
+            "rank": 5,
+            "score": -1.961424469947815,
+            "state": "California"
+        },
+        {
+            "address": "Tandoori Tadka Indian Kitchen, 8240e Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80dbf99321b114bb:0x2eda61832314dc76",
+            "iid": 18475,
+            "name": "Tandoori Tadka Indian Kitchen",
+            "rank": 6,
+            "score": -2.071571111679077,
+            "state": "California"
+        },
+        {
+            "address": "Inchin's Bamboo Garden, 8242 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Pan-Asian restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Halal restaurant', 'Indian restaurant']",
+            "gmap_id": "0x80dbf8eda56db545:0x252d0e213328b469",
+            "iid": 18443,
+            "name": "Inchin's Bamboo Garden",
+            "rank": 7,
+            "score": -2.101912021636963,
+            "state": "California"
+        },
+        {
+            "address": "The Waiting Corner, 10550 Camino Ruiz, San Diego, CA 92126",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dbf8ebcd03a1ab:0x3d8a5d2ec0a06902",
+            "iid": 18438,
+            "name": "The Waiting Corner",
+            "rank": 8,
+            "score": -2.1390841007232666,
+            "state": "California"
+        },
+        {
+            "address": "Hong Kong BBQ & Dimsum, 10550 Camino Ruiz, San Diego, CA 92126",
+            "category": "['Barbecue restaurant', 'Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x80dbf8ebcd03a1ab:0x6801d958fdb3e475",
+            "iid": 18439,
+            "name": "Hong Kong BBQ & Dimsum",
+            "rank": 9,
+            "score": -2.147753953933716,
+            "state": "California"
+        },
+        {
+            "address": "Max's Restaurant, Cuisine of the Philippines, San Diego, 8285 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Filipino restaurant', 'Chicken restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf9ed03a73e21:0x16361ac9e8de69a1",
+            "iid": 18483,
+            "name": "Max's Restaurant, Cuisine of the Philippines, San Diego",
+            "rank": 10,
+            "score": -2.1745424270629883,
+            "state": "California"
+        },
+        {
+            "address": "Luong Hai Ky, 10606 Camino Ruiz #2, San Diego, CA 92126",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dbf8ebc3005ced:0x92965c2439d16914",
+            "iid": 18437,
+            "name": "Luong Hai Ky",
+            "rank": 11,
+            "score": -2.206043243408203,
+            "state": "California"
+        },
+        {
+            "address": "Annapurna Indian Cuisine, 10606 Camino Ruiz #6, San Diego, CA 92126",
+            "category": "['Indian restaurant', 'Halal restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80dbf8ebc3005ced:0x7326f8ad5e0ff5cf",
+            "iid": 18436,
+            "name": "Annapurna Indian Cuisine",
+            "rank": 12,
+            "score": -2.2061729431152344,
+            "state": "California"
+        },
+        {
+            "address": "Trining's Bakery & Cafe, 10606 Camino Ruiz, San Diego, CA 92126",
+            "category": "['Bakery', 'Filipino restaurant']",
+            "gmap_id": "0x80dbf8ebdc955555:0xcfdd0d8e6e75c203",
+            "iid": 18440,
+            "name": "Trining's Bakery & Cafe",
+            "rank": 13,
+            "score": -2.215989112854004,
+            "state": "California"
+        },
+        {
+            "address": "Pho Ca Dao Restaurant, 8373 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dbf8eeb16696b5:0xe24753798bbf657a",
+            "iid": 18444,
+            "name": "Pho Ca Dao Restaurant",
+            "rank": 14,
+            "score": -2.3764431476593018,
+            "state": "California"
+        },
+        {
+            "address": "Jollibee, 8436 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Chicken restaurant', 'Family restaurant', 'Filipino restaurant', 'Hamburger restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dbf9774e3dc13d:0xb5767372c9ff5331",
+            "iid": 18472,
+            "name": "Jollibee",
+            "rank": 15,
+            "score": -2.4574859142303467,
+            "state": "California"
+        },
+        {
+            "address": "Mr Holy Gao, 10066 Pacific Heights Blvd, San Diego, CA 92121",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dc076c70d93fd5:0xccd177062b7b4c75",
+            "iid": 18743,
+            "name": "Mr Holy Gao",
+            "rank": 16,
+            "score": -2.515096664428711,
+            "state": "California"
+        },
+        {
+            "address": "Taj Mahal, 10066 Pacific Heights Blvd #106, San Diego, CA 92121",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80dc07f47c2259b7:0xbef8a60f659a7a09",
+            "iid": 18748,
+            "name": "Taj Mahal",
+            "rank": 17,
+            "score": -2.5249598026275635,
+            "state": "California"
+        },
+        {
+            "address": "Bawarchi Biryani's & Dosa's - Indian Cuisine, 10066 Pacific Heights Blvd #106, San Diego, CA 92121",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Halal restaurant']",
+            "gmap_id": "0x80dbf9298614bbcb:0x554d2310d3c9b9f4",
+            "iid": 18461,
+            "name": "Bawarchi Biryani's & Dosa's - Indian Cuisine",
+            "rank": 18,
+            "score": -2.5369982719421387,
+            "state": "California"
+        },
+        {
+            "address": "Chef's Restaurant, 10066 Pacific Heights Blvd, San Diego, CA 92121",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dc076c70d93fa5:0x247dfc98273befa3",
+            "iid": 18742,
+            "name": "Chef's Restaurant",
+            "rank": 19,
+            "score": -2.5683486461639404,
+            "state": "California"
+        },
+        {
+            "address": "R & B Filipino Cuisine, 11257 Camino Ruiz, San Diego, CA 92126",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x80dbf8f60b49b72b:0xc16ab6bcd9878715",
+            "iid": 18446,
+            "name": "R & B Filipino Cuisine",
+            "rank": 20,
+            "score": -2.921666145324707,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "San Diego Food",
+        "uid": 100216,
+        "user_id": 103364014986488443499
+    }
+}

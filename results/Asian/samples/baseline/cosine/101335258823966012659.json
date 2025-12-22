@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Seafood Cove 2, 9211 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2015/11/27",
+            "gmap_id": "0x80dd27b5907083c5:0x56d690f19753ab05",
+            "iid": 20193,
+            "name": "Seafood Cove 2",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448639271699
+        },
+        {
+            "address": "Sushi Murasaki, 2901 W MacArthur Blvd #108, Santa Ana, CA 92704",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2016/03/13",
+            "gmap_id": "0x80dcd8b36870be27:0x1837887ad4f3adb5",
+            "iid": 19463,
+            "name": "Sushi Murasaki",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1457838727377
+        },
+        {
+            "address": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y, 14370 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/03/19",
+            "gmap_id": "0x80dd27c6a923d2e1:0x7b7c51197d0a02d3",
+            "iid": 20254,
+            "name": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1489957576634
+        },
+        {
+            "address": "Bangkok Avenue, 17221 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Thai restaurant', 'Asian fusion restaurant']",
+            "date": "2017/07/19",
+            "gmap_id": "0x80dd26f22ad56a69:0x4d84310ad52cd569",
+            "iid": 20107,
+            "name": "Bangkok Avenue",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500442750213
+        },
+        {
+            "address": "Hue Oi Vietnamese Cuisine, 16537 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "date": "2018/03/01",
+            "gmap_id": "0x80dd270ea58dc8b7:0x29a28bc803d4a031",
+            "iid": 20116,
+            "name": "Hue Oi Vietnamese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519868028711
+        },
+        {
+            "address": "\u301292708 California, Fountain Valley, Brookhurst St, Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "date": "2018/07/10",
+            "gmap_id": "0x80dd2730b1427af7:0x49529432dcdc7b62",
+            "iid": 20129,
+            "name": "Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531198624894
+        },
+        {
+            "address": "Hwang Hae Doh, 3010 W Lincoln Ave, Anaheim, CA 92801",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/07/23",
+            "gmap_id": "0x80dd287c684f247f:0xe661c6d3a58d39b2",
+            "iid": 20340,
+            "name": "Hwang Hae Doh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532367126416
+        },
+        {
+            "address": "Tasty Kitchen, 1324 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Chinese restaurant']",
+            "date": "2018/12/24",
+            "gmap_id": "0x80c2ca9e49f223c9:0xca2aa7b8452e3f19",
+            "iid": 15492,
+            "name": "Tasty Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545669038154
+        },
+        {
+            "address": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80, 8895 Garden Grove Blvd, Garden Grove, CA 92844",
+            "category": "['Korean restaurant', 'Korean barbecue restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80dd288605040983:0xc09343ebb49c98c0",
+            "iid": 20351,
+            "name": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546362964239
+        },
+        {
+            "address": "Lotus of Siam, 953 E Sahara Ave Ste A5, Las Vegas, NV 89104",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/03/10",
+            "gmap_id": "0x80c8c47decbe13bf:0x601671d9c1b61a37",
+            "iid": 17091,
+            "name": "Lotus of Siam",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1552214214972
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ph\u1edf Th\u0103ng Long Restaurant & King Crab, 9550 Bolsa Ave # 115F, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27b7a87f956f:0xe34e6faf9f40962c",
+            "iid": 20216,
+            "name": "Ph\u1edf Th\u0103ng Long Restaurant & King Crab",
+            "rank": 1,
+            "score": 0.6960888504981995,
+            "state": "California"
+        },
+        {
+            "address": "T.P. Banh Bao 2, 13067 S Euclid St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27e29ca3f759:0x5e5761f3f791b857",
+            "iid": 20277,
+            "name": "T.P. Banh Bao 2",
+            "rank": 2,
+            "score": 0.6871475577354431,
+            "state": "California"
+        },
+        {
+            "address": "Thanh H\u00e0 Restaurant, 9060 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27b5431036f7:0xc6a446466df72d25",
+            "iid": 20187,
+            "name": "Thanh H\u00e0 Restaurant",
+            "rank": 3,
+            "score": 0.678181529045105,
+            "state": "California"
+        },
+        {
+            "address": "C\u00f4 Ba, 10642 Westminster Ave, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27e926a9ed4b:0xf98783b331a321bc",
+            "iid": 20281,
+            "name": "C\u00f4 Ba",
+            "rank": 4,
+            "score": 0.6703063249588013,
+            "state": "California"
+        },
+        {
+            "address": "Pho Tau Bay Ltt Restaurant, 3610 W 1st St C, Santa Ana, CA 92703",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x80dcd87bc7d8c507:0xa295b76a0f2938d2",
+            "iid": 19450,
+            "name": "Pho Tau Bay Ltt Restaurant",
+            "rank": 5,
+            "score": 0.6629118323326111,
+            "state": "California"
+        },
+        {
+            "address": "Happy Pho, 3013 Harbor Blvd, Costa Mesa, CA 92626",
+            "category": "['Vietnamese restaurant', 'Bubble tea store', 'Pho restaurant']",
+            "gmap_id": "0x80dcdfa09a07f157:0xa956b5e2cbe678e7",
+            "iid": 19802,
+            "name": "Happy Pho",
+            "rank": 6,
+            "score": 0.6608932614326477,
+            "state": "California"
+        },
+        {
+            "address": "B\u00e1nh Cu\u1ed1n Thanh Tr\u00ec, 9240 Garden Grove Blvd #11, Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd287d762b9125:0x4ad09b7bc4a7ca06",
+            "iid": 20345,
+            "name": "B\u00e1nh Cu\u1ed1n Thanh Tr\u00ec",
+            "rank": 7,
+            "score": 0.6532801985740662,
+            "state": "California"
+        },
+        {
+            "address": "My Vi Mi Gia Restaurant, 9790 Westminster Blvd, Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd27dac73ae617:0x50d0444fd719d2dc",
+            "iid": 20266,
+            "name": "My Vi Mi Gia Restaurant",
+            "rank": 8,
+            "score": 0.6410411596298218,
+            "state": "California"
+        },
+        {
+            "address": "Bo Ne Phu Yen, 1818 Tully Rd, San Jose, CA 95122",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808e32bd4713d58d:0x86295fd74077cdc3",
+            "iid": 8606,
+            "name": "Bo Ne Phu Yen",
+            "rank": 9,
+            "score": 0.6351775527000427,
+            "state": "California"
+        },
+        {
+            "address": "Com Tam Thien Hao, 13531 Beach Blvd, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd28994ad2005f:0x60e5932463966850",
+            "iid": 20368,
+            "name": "Com Tam Thien Hao",
+            "rank": 10,
+            "score": 0.6317873597145081,
+            "state": "California"
+        },
+        {
+            "address": "A.R. Supermarket, 9580 W Garden Grove Blvd #300, Garden Grove, CA 92844",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x80dd287b892c56d5:0x9d657b42b461fed9",
+            "iid": 20335,
+            "name": "A.R. Supermarket",
+            "rank": 11,
+            "score": 0.6314147710800171,
+            "state": "California"
+        },
+        {
+            "address": "Phuong Restaurant (#1 H\u1ee7 Ti\u1ebfu- B\u00e1nh Canh -B\u00fan C\u00e1), 10722 Westminster Ave, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant', 'Noodle shop', 'Rice restaurant', 'Soup kitchen']",
+            "gmap_id": "0x80dd27eecd70decb:0x8a69d3ec0548701f",
+            "iid": 20287,
+            "name": "Phuong Restaurant (#1 H\u1ee7 Ti\u1ebfu- B\u00e1nh Canh -B\u00fan C\u00e1)",
+            "rank": 12,
+            "score": 0.6308147311210632,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf 54 Restaurant, 10240 Westminster Ave, Garden Grove, CA 92843",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd27c2c2d8a8bf:0x8d2ee3c7e3d2842c",
+            "iid": 20232,
+            "name": "Ph\u1edf 54 Restaurant",
+            "rank": 13,
+            "score": 0.6306922435760498,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf House 99, 8851 Garden Grove Blvd, Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80dd2885ff1b60b1:0x58615615c47940ea",
+            "iid": 20348,
+            "name": "Ph\u1edf House 99",
+            "rank": 14,
+            "score": 0.6302487254142761,
+            "state": "California"
+        },
+        {
+            "address": "Peach Garden Restaurant (C\u01a1m T\u1ea5m \u0110\u00e0o Vi\u00ean), 8461 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd2628eda6365b:0xeeb08104952a14a",
+            "iid": 20058,
+            "name": "Peach Garden Restaurant (C\u01a1m T\u1ea5m \u0110\u00e0o Vi\u00ean)",
+            "rank": 15,
+            "score": 0.6300185322761536,
+            "state": "California"
+        },
+        {
+            "address": "Qu\u00e1n Ngon, 8851 Garden Grove Blvd Ste 115, Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd2961970423fd:0x23093766b84fd78c",
+            "iid": 20422,
+            "name": "Qu\u00e1n Ngon",
+            "rank": 16,
+            "score": 0.6276123523712158,
+            "state": "California"
+        },
+        {
+            "address": "Ga Bistro, 13123 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd287689b6fba9:0x2fc5d17bae872a02",
+            "iid": 20317,
+            "name": "Ga Bistro",
+            "rank": 17,
+            "score": 0.627129316329956,
+            "state": "California"
+        },
+        {
+            "address": "Trieu Chau Restaurant, 4401 W 1st St #4016, Santa Ana, CA 92703",
+            "category": "['Vietnamese restaurant', 'Chinese noodle restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x80dd278883e35b65:0x16f648fd27483226",
+            "iid": 20156,
+            "name": "Trieu Chau Restaurant",
+            "rank": 18,
+            "score": 0.6256593465805054,
+            "state": "California"
+        },
+        {
+            "address": "New Trieu Chau Restaurant, 9918 Westminster Ave, Garden Grove, CA 92844",
+            "category": "['Vietnamese restaurant', 'Noodle shop']",
+            "gmap_id": "0x80dd2886177b4f29:0xfbbe7226fc3164b",
+            "iid": 20355,
+            "name": "New Trieu Chau Restaurant",
+            "rank": 19,
+            "score": 0.6226395964622498,
+            "state": "California"
+        },
+        {
+            "address": "Luc Dinh Ky 1 Restaurant, 9812 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80dd27b770f01aa7:0x764f1b5769241a70",
+            "iid": 20209,
+            "name": "Luc Dinh Ky 1 Restaurant",
+            "rank": 20,
+            "score": 0.6193801760673523,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Vince Dang",
+        "uid": 39865,
+        "user_id": 101335258823966012659
+    }
+}

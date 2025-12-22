@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Eightfold Coffee, 1294 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Coffee shop']",
+            "date": "2016/10/24",
+            "gmap_id": "0x80c2c6fdc146108f:0xa8b0ec996dcdcc6a",
+            "iid": 7927,
+            "name": "Eightfold Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1477283273295
+        },
+        {
+            "address": "Dunkin', 4920 Balboa Blvd, Encino, CA 91316",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "date": "2017/06/07",
+            "gmap_id": "0x80c29831a9b66013:0xcb06c1627ba94e7b",
+            "iid": 6195,
+            "name": "Dunkin'",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1496852580650
+        },
+        {
+            "address": "Cafe de Leche, 5000 York Blvd, Los Angeles, CA 90042",
+            "category": "['Coffee shop']",
+            "date": "2017/06/18",
+            "gmap_id": "0x80c2c1559081b8ed:0x4ac70b5c1fa4d9b7",
+            "iid": 7613,
+            "name": "Cafe de Leche",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497749211924
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2017/10/11",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7537,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507759583823
+        },
+        {
+            "address": "\u00e0 bloc LA - coffee / food / love, 5025 York Blvd, Los Angeles, CA 90042",
+            "category": "['Coffee shop', 'Bakery', 'Bicycle repair shop', 'Breakfast restaurant', 'Caterer', 'Event venue', 'Lunch restaurant', 'Sportswear store', 'Vegan restaurant', 'Vegetarian cafe and deli']",
+            "date": "2017/11/02",
+            "gmap_id": "0x80c2c1558790d8dd:0xa8e3015c6ff76a53",
+            "iid": 7612,
+            "name": "\u00e0 bloc LA - coffee / food / love",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1509644622882
+        },
+        {
+            "address": "Little Ripper Coffee, 4155 Verdugo Rd, Los Angeles, CA 90065",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2018/01/14",
+            "gmap_id": "0x80c2c13928116679:0x4116f650c4f7f76",
+            "iid": 7606,
+            "name": "Little Ripper Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515956040345
+        },
+        {
+            "address": "Momed, 3245 Casitas Ave, Los Angeles, CA 90039",
+            "category": "['Mediterranean restaurant', 'Bar', 'Brunch restaurant', 'Cafe', 'Caterer', 'Event venue', 'Vegetarian restaurant']",
+            "date": "2018/04/19",
+            "gmap_id": "0x80c2c1283fde82bf:0xb4372707174943b4",
+            "iid": 7601,
+            "name": "Momed",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524167541068
+        },
+        {
+            "address": "Habitat Coffee, 3708 N Eagle Rock Blvd, Los Angeles, CA 90065",
+            "category": "['Cafe']",
+            "date": "2018/04/19",
+            "gmap_id": "0x80c2c136951733b1:0x5cf1ba1bb59f6e0a",
+            "iid": 7604,
+            "name": "Habitat Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524168641061
+        },
+        {
+            "address": "Alcove, 1929 Hillhurst Ave, Los Angeles, CA 90027",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Restaurant']",
+            "date": "2018/06/26",
+            "gmap_id": "0x80c2c0b028a6fa0d:0xab8e32e3232406ec",
+            "iid": 7556,
+            "name": "Alcove",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1530039192109
+        },
+        {
+            "address": "Masa of Echo Park Bakery & Cafe, 1800 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Pizza restaurant', 'Cafe', 'Italian restaurant', 'Vegan restaurant']",
+            "date": "2018/10/15",
+            "gmap_id": "0x80c2c71b91281563:0x1cdcfffd6a3f1a57",
+            "iid": 7949,
+            "name": "Masa of Echo Park Bakery & Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1539625121073
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Spoke Bicycle Cafe, 3050 N Coolidge Ave, Los Angeles, CA 90039",
+            "category": "['Cafe', 'Bicycle repair shop', 'Live music venue', 'Restaurant']",
+            "gmap_id": "0x80c2c6d3c4b49627:0xea25d54edfd9ce24",
+            "iid": 7925,
+            "name": "Spoke Bicycle Cafe",
+            "rank": 1,
+            "score": 12.060365676879883,
+            "state": "California"
+        },
+        {
+            "address": "Civil Coffee, 5629 N Figueroa St, Los Angeles, CA 90042",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80c2c4106fffe291:0x75d77643115b0800",
+            "iid": 7726,
+            "name": "Civil Coffee",
+            "rank": 2,
+            "score": 11.859650611877441,
+            "state": "California"
+        },
+        {
+            "address": "Found Coffee, 1355 Colorado Blvd, Los Angeles, CA 90041",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80c2c3e7da91f719:0xafc287e1d4968c2a",
+            "iid": 7715,
+            "name": "Found Coffee",
+            "rank": 3,
+            "score": 11.682950019836426,
+            "state": "California"
+        },
+        {
+            "address": "Swork Coffee, 2160 Colorado Blvd, Los Angeles, CA 90041",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c1671a978c7b:0x689b953546e7d289",
+            "iid": 7619,
+            "name": "Swork Coffee",
+            "rank": 4,
+            "score": 11.457256317138672,
+            "state": "California"
+        },
+        {
+            "address": "Kindness & Mischief Coffee, 5537 N Figueroa St, Los Angeles, CA 90042",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80c2c41a84b05585:0x4ce0266ac9cf5ee1",
+            "iid": 7727,
+            "name": "Kindness & Mischief Coffee",
+            "rank": 5,
+            "score": 10.72231388092041,
+            "state": "California"
+        },
+        {
+            "address": "Black Cow Cafe, 2219 Honolulu Ave, Montrose, CA 91020",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Ice cream shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2ea0d86c2ff4d:0x4a6b7b6db827443d",
+            "iid": 8671,
+            "name": "Black Cow Cafe",
+            "rank": 6,
+            "score": 10.591601371765137,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Commissary, 3121 W Olive Ave, Burbank, CA 91505",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2bfcf8e0a3c9b:0x6b485dab9cd64155",
+            "iid": 7501,
+            "name": "Coffee Commissary",
+            "rank": 7,
+            "score": 10.515528678894043,
+            "state": "California"
+        },
+        {
+            "address": "La Colombe Frogtown Cafe and Roastery, 2828 Newell St #4, Los Angeles, CA 90039",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c6d1b0232201:0xea89b6895d0a523f",
+            "iid": 7924,
+            "name": "La Colombe Frogtown Cafe and Roastery",
+            "rank": 8,
+            "score": 10.467023849487305,
+            "state": "California"
+        },
+        {
+            "address": "LAMILL Coffee - Silverlake, 1636 Silver Lake Blvd, Los Angeles, CA 90026",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c73bc7571135:0x4f635800aafb2b34",
+            "iid": 7973,
+            "name": "LAMILL Coffee - Silverlake",
+            "rank": 9,
+            "score": 10.135322570800781,
+            "state": "California"
+        },
+        {
+            "address": "GameH\u00e4us Caf\u00e9, 1800 S Brand Blvd #107, Glendale, CA 91204",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c0df052ff1e7:0x27a63efbdedb0a6",
+            "iid": 7570,
+            "name": "GameH\u00e4us Caf\u00e9",
+            "rank": 10,
+            "score": 9.877915382385254,
+            "state": "California"
+        },
+        {
+            "address": "Little Flower, 1424 W Colorado Blvd, Pasadena, CA 91105",
+            "category": "['Cafe', 'Breakfast restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c39476add441:0xfbb7c77c6df53b67",
+            "iid": 7705,
+            "name": "Little Flower",
+            "rank": 11,
+            "score": 9.847611427307129,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Commissary, 1419 W Kenneth Rd, Glendale, CA 91201",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c019b8ce69f5:0xec6a5dd77adf9905",
+            "iid": 7519,
+            "name": "Coffee Commissary",
+            "rank": 12,
+            "score": 9.719389915466309,
+            "state": "California"
+        },
+        {
+            "address": "Zweet Cafe, 4682 Eagle Rock Blvd, Los Angeles, CA 90041",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2c15b3885d131:0x17e6f7f1c32d94a9",
+            "iid": 7614,
+            "name": "Zweet Cafe",
+            "rank": 13,
+            "score": 9.699350357055664,
+            "state": "California"
+        },
+        {
+            "address": "Wild Oak Cafe, 3111 E Chevy Chase Dr, Glendale, CA 91206",
+            "category": "['Cafe', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Lunch restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2c22881a3eecd:0x833711ea797a0a4",
+            "iid": 7633,
+            "name": "Wild Oak Cafe",
+            "rank": 14,
+            "score": 9.694209098815918,
+            "state": "California"
+        },
+        {
+            "address": "Stories, 1716 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Book store']",
+            "gmap_id": "0x80c2c71b8369099d:0x6a710a4078636fe5",
+            "iid": 7947,
+            "name": "Stories",
+            "rank": 15,
+            "score": 9.538121223449707,
+            "state": "California"
+        },
+        {
+            "address": "Constellation Coffee, 468 Foothill Blvd suite b, La Ca\u00f1ada Flintridge, CA 91011",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c20eaf1d8c5d:0xaf2a8e87473aad86",
+            "iid": 7632,
+            "name": "Constellation Coffee",
+            "rank": 16,
+            "score": 9.472528457641602,
+            "state": "California"
+        },
+        {
+            "address": "Kaldi Coffee, 3147 Glendale Blvd, Los Angeles, CA 90039",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c0db02ac9aa1:0x8b215f09230fd053",
+            "iid": 7567,
+            "name": "Kaldi Coffee",
+            "rank": 17,
+            "score": 9.385587692260742,
+            "state": "California"
+        },
+        {
+            "address": "Tierra Mia Coffee, 5528 Monte Vista St, Los Angeles, CA 90042",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c40531f3b4c3:0xf4ea63531169e6af",
+            "iid": 7721,
+            "name": "Tierra Mia Coffee",
+            "rank": 18,
+            "score": 9.165361404418945,
+            "state": "California"
+        },
+        {
+            "address": "Tickle Tree Caf\u00e9, 2853 Foothill Blvd, La Crescenta-Montrose, CA 91214",
+            "category": "['Cafe', 'Traditional American restaurant']",
+            "gmap_id": "0x80c2ea51d76118e7:0xdf3333e3d92f59e8",
+            "iid": 8679,
+            "name": "Tickle Tree Caf\u00e9",
+            "rank": 19,
+            "score": 9.11878490447998,
+            "state": "California"
+        },
+        {
+            "address": "Amara Kitchen, 519 N Avenue 64, Los Angeles, CA 90042",
+            "category": "['Organic restaurant', 'American restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Gluten-free restaurant', 'Health food restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c473992029dd:0xc973547ee6f0a152",
+            "iid": 7734,
+            "name": "Amara Kitchen",
+            "rank": 20,
+            "score": 9.029182434082031,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Julian Stone-Kronberg",
+        "uid": 66821,
+        "user_id": 108802559750351053554
+    }
+}

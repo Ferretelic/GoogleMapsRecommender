@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Eightfold Coffee, 1294 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Coffee shop']",
+            "date": "2016/10/24",
+            "gmap_id": "0x80c2c6fdc146108f:0xa8b0ec996dcdcc6a",
+            "iid": 7927,
+            "name": "Eightfold Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1477283273295
+        },
+        {
+            "address": "Dunkin', 4920 Balboa Blvd, Encino, CA 91316",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "date": "2017/06/07",
+            "gmap_id": "0x80c29831a9b66013:0xcb06c1627ba94e7b",
+            "iid": 6195,
+            "name": "Dunkin'",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1496852580650
+        },
+        {
+            "address": "Cafe de Leche, 5000 York Blvd, Los Angeles, CA 90042",
+            "category": "['Coffee shop']",
+            "date": "2017/06/18",
+            "gmap_id": "0x80c2c1559081b8ed:0x4ac70b5c1fa4d9b7",
+            "iid": 7613,
+            "name": "Cafe de Leche",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497749211924
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2017/10/11",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7537,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1507759583823
+        },
+        {
+            "address": "\u00e0 bloc LA - coffee / food / love, 5025 York Blvd, Los Angeles, CA 90042",
+            "category": "['Coffee shop', 'Bakery', 'Bicycle repair shop', 'Breakfast restaurant', 'Caterer', 'Event venue', 'Lunch restaurant', 'Sportswear store', 'Vegan restaurant', 'Vegetarian cafe and deli']",
+            "date": "2017/11/02",
+            "gmap_id": "0x80c2c1558790d8dd:0xa8e3015c6ff76a53",
+            "iid": 7612,
+            "name": "\u00e0 bloc LA - coffee / food / love",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1509644622882
+        },
+        {
+            "address": "Little Ripper Coffee, 4155 Verdugo Rd, Los Angeles, CA 90065",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2018/01/14",
+            "gmap_id": "0x80c2c13928116679:0x4116f650c4f7f76",
+            "iid": 7606,
+            "name": "Little Ripper Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515956040345
+        },
+        {
+            "address": "Momed, 3245 Casitas Ave, Los Angeles, CA 90039",
+            "category": "['Mediterranean restaurant', 'Bar', 'Brunch restaurant', 'Cafe', 'Caterer', 'Event venue', 'Vegetarian restaurant']",
+            "date": "2018/04/19",
+            "gmap_id": "0x80c2c1283fde82bf:0xb4372707174943b4",
+            "iid": 7601,
+            "name": "Momed",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524167541068
+        },
+        {
+            "address": "Habitat Coffee, 3708 N Eagle Rock Blvd, Los Angeles, CA 90065",
+            "category": "['Cafe']",
+            "date": "2018/04/19",
+            "gmap_id": "0x80c2c136951733b1:0x5cf1ba1bb59f6e0a",
+            "iid": 7604,
+            "name": "Habitat Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524168641061
+        },
+        {
+            "address": "Alcove, 1929 Hillhurst Ave, Los Angeles, CA 90027",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Restaurant']",
+            "date": "2018/06/26",
+            "gmap_id": "0x80c2c0b028a6fa0d:0xab8e32e3232406ec",
+            "iid": 7556,
+            "name": "Alcove",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1530039192109
+        },
+        {
+            "address": "Masa of Echo Park Bakery & Cafe, 1800 Sunset Blvd, Los Angeles, CA 90026",
+            "category": "['Pizza restaurant', 'Cafe', 'Italian restaurant', 'Vegan restaurant']",
+            "date": "2018/10/15",
+            "gmap_id": "0x80c2c71b91281563:0x1cdcfffd6a3f1a57",
+            "iid": 7949,
+            "name": "Masa of Echo Park Bakery & Cafe",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1539625121073
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Cafecito Organico Atwater, 2985 Glendale Blvd, Los Angeles, CA 90039",
+            "category": "['Coffee shop', 'Coffee roasters']",
+            "gmap_id": "0x80c2c1c7014b4145:0xa05f153eca3a42d9",
+            "iid": 7627,
+            "name": "Cafecito Organico Atwater",
+            "rank": 1,
+            "score": -1.9973022937774658,
+            "state": "California"
+        },
+        {
+            "address": "ROCK Coffee House, 4808 Townsend Ave, Los Angeles, CA 90041",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c3e3ea820f61:0x923120f959e088c2",
+            "iid": 7714,
+            "name": "ROCK Coffee House",
+            "rank": 2,
+            "score": -2.090306043624878,
+            "state": "California"
+        },
+        {
+            "address": "Supersweet Tattoos and Coffee, 1345-1347, Glendale Blvd, Los Angeles, CA 90026",
+            "category": "['Tattoo shop', 'Cafe', 'Coffee shop', 'Permanent make-up clinic', 'Tattoo and piercing shop', 'Tattoo artist']",
+            "gmap_id": "0x80c2c71a85aee9c3:0xd93bf853452b682f",
+            "iid": 7946,
+            "name": "Supersweet Tattoos and Coffee",
+            "rank": 3,
+            "score": -2.24688982963562,
+            "state": "California"
+        },
+        {
+            "address": "Lucky 7 Coffee, 1112 Hermosa Ave, Hermosa Beach, CA 90254",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b38590e2759f:0x1c1effd9ae737df0",
+            "iid": 6528,
+            "name": "Lucky 7 Coffee",
+            "rank": 4,
+            "score": -2.4247872829437256,
+            "state": "California"
+        },
+        {
+            "address": "Hilltop Coffee + Kitchen, 4247 Eagle Rock Blvd, Los Angeles, CA 90065",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c1fb925bb721:0xcf79425fc77001d",
+            "iid": 7629,
+            "name": "Hilltop Coffee + Kitchen",
+            "rank": 5,
+            "score": -2.443760633468628,
+            "state": "California"
+        },
+        {
+            "address": "Highlight Coffee - Pasadena, 2071 Lincoln Ave, Pasadena, CA 91103",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c3eabcf0d595:0x514ceae8ea08d75a",
+            "iid": 7716,
+            "name": "Highlight Coffee - Pasadena",
+            "rank": 6,
+            "score": -2.517644166946411,
+            "state": "California"
+        },
+        {
+            "address": "Original Barista, 1920 Harbor Blvd, Costa Mesa, CA 92627",
+            "category": "['Coffee store']",
+            "gmap_id": "0x80dcdfd5e5a0655f:0x9fb433deffc6fc29",
+            "iid": 11529,
+            "name": "Original Barista",
+            "rank": 7,
+            "score": -2.521049737930298,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Integral at Freehand Los Angeles, 416 W 8th St, Los Angeles, CA 90014",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c7b592400a97:0xdfe02b2bec0cba51",
+            "iid": 8108,
+            "name": "Cafe Integral at Freehand Los Angeles",
+            "rank": 8,
+            "score": -2.5522894859313965,
+            "state": "California"
+        },
+        {
+            "address": "Blue Ox Coffee, 313 Birch St, Westwood, CA 96137",
+            "category": "['Coffee shop', 'Bakery', 'Restaurant']",
+            "gmap_id": "0x809d0d5a5ba34ae3:0x5489de466ba3e9ab",
+            "iid": 5776,
+            "name": "Blue Ox Coffee",
+            "rank": 9,
+            "score": -2.6090352535247803,
+            "state": "California"
+        },
+        {
+            "address": "Milk Tea Lab, 1175 E Julian St Ste 40, San Jose, CA 95116",
+            "category": "['Bubble tea store', 'Cafe', 'Chinese takeaway', 'Dessert shop', 'Taiwanese restaurant', 'Tea house']",
+            "gmap_id": "0x808fcd559742fe65:0x87ece7675b00d558",
+            "iid": 3972,
+            "name": "Milk Tea Lab",
+            "rank": 10,
+            "score": -2.7189180850982666,
+            "state": "California"
+        },
+        {
+            "address": "Amandine Patisserie Cafe-DTLA, 650 S Hill St k10, Los Angeles, CA 90014",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7b541400001:0xb3f3cce926f4ff07",
+            "iid": 8105,
+            "name": "Amandine Patisserie Cafe-DTLA",
+            "rank": 11,
+            "score": -2.727802276611328,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 470 Lake Park Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f87118ebdb817:0x94ad97c3591e4a72",
+            "iid": 3085,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -2.7322306632995605,
+            "state": "California"
+        },
+        {
+            "address": "Coffea, 10107 Camarillo St, Los Angeles, CA 91601",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2bfb4514a87d9:0xf2e61c6609ff02bb",
+            "iid": 7488,
+            "name": "Coffea",
+            "rank": 13,
+            "score": -2.732434034347534,
+            "state": "California"
+        },
+        {
+            "address": "Yonder Coffee, 9028 Balboa Blvd, Northridge, CA 91325",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c29b6e9606301f:0x6e89b800c7be44b5",
+            "iid": 6267,
+            "name": "Yonder Coffee",
+            "rank": 14,
+            "score": -2.734034538269043,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 73 Lee Rd, Watsonville, CA 95076",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808e1b3d123f3b59:0xaf41c5a735856949",
+            "iid": 2215,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -2.7346129417419434,
+            "state": "California"
+        },
+        {
+            "address": "Tia Maria Panaderia y Pasteleria, 44 Sebastopol Ave, Santa Rosa, CA 95407",
+            "category": "['Bakery', 'Cafe']",
+            "gmap_id": "0x8084374c4008b915:0xe8e83c12c513978f",
+            "iid": 394,
+            "name": "Tia Maria Panaderia y Pasteleria",
+            "rank": 16,
+            "score": -2.740630865097046,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, Newport FS Town Center, Menifee, CA 92584",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc9dcbf3081853:0x431bcc44582ddf42",
+            "iid": 10723,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -2.7436869144439697,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.7437663078308105,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.7471694946289062,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3194 Kendall Dr, San Bernardino, CA 92407",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c351a61c05fba1:0x6e8cd189b981ef62",
+            "iid": 9075,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -2.749948740005493,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Julian Stone-Kronberg",
+        "uid": 66821,
+        "user_id": 108802559750351053554
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Bamboo Restaurant, 5406 N Division St, Spokane, WA 99207",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/09/12",
+            "gmap_id": "0x549e194827cf29a9:0x2060d4fcdcb90816",
+            "iid": 4891,
+            "name": "Thai Bamboo Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1505248194601
+        },
+        {
+            "address": "Red Dragon Chinese Delivery, 3011 E Diamond Ave, Spokane, WA 99217",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2017/11/10",
+            "gmap_id": "0x549e1edd26a25aab:0xf71773f51b9f3d4",
+            "iid": 4904,
+            "name": "Red Dragon Chinese Delivery",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1510345455778
+        },
+        {
+            "address": "Thai Nigiri Restaurant, 209 N First Ave, Sandpoint, ID 83864",
+            "category": "['Thai restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x5363d6c5c2c57dbb:0x176c0cd7db919202",
+            "iid": 1308,
+            "name": "Thai Nigiri Restaurant",
+            "split": "train",
+            "state": "Idaho",
+            "unix_time": 1517546327885
+        },
+        {
+            "address": "Peking North Chinese Restaurant, 4120 N Division St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Karaoke bar']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e193b4172eba5:0x96c7759382efe0f8",
+            "iid": 4889,
+            "name": "Peking North Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723587173
+        },
+        {
+            "address": "Mr Wok Restaurant, 9222 N Newport Hwy C, Spokane, WA 99218",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e1c11388c5b19:0x82127319a2d850e1",
+            "iid": 4895,
+            "name": "Mr Wok Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723656021
+        },
+        {
+            "address": "Hunan Chinese Restaurant, 16 NE A St, Madras, OR 97741",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/04/12",
+            "gmap_id": "0x54beea2c34b78b67:0x87862eff37971722",
+            "iid": 5184,
+            "name": "Hunan Chinese Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1523565303075
+        },
+        {
+            "address": "Panda Chinese Restaurant, 605 E Northern Lights Blvd, Anchorage, AK 99503",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2018/09/16",
+            "gmap_id": "0x56c897c9d2127e65:0x67073d9b8e5951be",
+            "iid": 5719,
+            "name": "Panda Chinese Restaurant",
+            "split": "train",
+            "state": "Alaska",
+            "unix_time": 1537059356254
+        },
+        {
+            "address": "Grace Su's China Gorge Restaurant, 2680 Old Columbia River Dr, Hood River, OR 97031",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x54960e6a63804ecf:0xf5a67bf98c90106d",
+            "iid": 4660,
+            "name": "Grace Su's China Gorge Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1543194115233
+        },
+        {
+            "address": "Vien Dong Restaurant, 3435 E Trent Ave, Spokane, WA 99202",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/11/28",
+            "gmap_id": "0x549e19fb11e93d11:0xd9bd04909d9c58a6",
+            "iid": 4894,
+            "name": "Vien Dong Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1543441611608
+        },
+        {
+            "address": "J&J Chinese Restaurant, 1025 NW Gilman Blvd E-8, Issaquah, WA 98027",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/09/28",
+            "gmap_id": "0x54906f9e33459e03:0x2d329571304f8990",
+            "iid": 3216,
+            "name": "J&J Chinese Restaurant",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1569640366831
+        },
+        {
+            "address": "99352 Washington, Richland, George Washington Way, Ara Sushi & Grill",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2021/05/09",
+            "gmap_id": "0x54987b4d8966e4b7:0x8fc10a9ff2fd3a1b",
+            "iid": 4726,
+            "name": "Ara Sushi & Grill",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1620522646085
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Le 1, 2360 N Old Mill Loop Suite J101, Coeur d'Alene, ID 83814",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5361c72a961f853d:0xd7b0ca358b3d3a14",
+            "iid": 1293,
+            "name": "Pho Le 1",
+            "rank": 1,
+            "score": -2.2397477626800537,
+            "state": "Idaho"
+        },
+        {
+            "address": "Happiness Chinese Restaurant, 3420 E Sprague Ave, Spokane, WA 99202",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x549e190c2aa39cbf:0x8be3406a891668b5",
+            "iid": 4883,
+            "name": "Happiness Chinese Restaurant",
+            "rank": 2,
+            "score": -2.297940254211426,
+            "state": "Washington"
+        },
+        {
+            "address": "Panda Express, 6167 East Sam Houston Pkwy N, Houston, TX 77049",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640a59db4100c4d:0x20e1dc5125432944",
+            "iid": 22828,
+            "name": "Panda Express",
+            "rank": 3,
+            "score": -2.411900520324707,
+            "state": "Texas"
+        },
+        {
+            "address": "IZUMI, 228 Washington St, U-A130, South Attleboro, MA 02703",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e45da993c68df1:0xc58cd5c7b3831f98",
+            "iid": 70607,
+            "name": "IZUMI",
+            "rank": 4,
+            "score": -2.412771224975586,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Mughlai Grill Indian Cuisine, 6 Clinton St, New York, NY 10002",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25999a9826151:0x69731c4c31cf8f46",
+            "iid": 59802,
+            "name": "Mughlai Grill Indian Cuisine",
+            "rank": 5,
+            "score": -2.4237775802612305,
+            "state": "New_York"
+        },
+        {
+            "address": "INDIA HOUSE AUTHENTIC CUISINE, 740 N Cecil Rd STE 110, Post Falls, ID 83854",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x5361c316f88d78e3:0xaa1c588174af44f0",
+            "iid": 1283,
+            "name": "INDIA HOUSE AUTHENTIC CUISINE",
+            "rank": 6,
+            "score": -2.4245333671569824,
+            "state": "Idaho"
+        },
+        {
+            "address": "Ombu Grill, 6930 S State St, Midvale, UT 84047",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x875289c7b8a6cc17:0x9bb54eabe4089af9",
+            "iid": 30267,
+            "name": "Ombu Grill",
+            "rank": 7,
+            "score": -2.4262876510620117,
+            "state": "Utah"
+        },
+        {
+            "address": "Honkaku Sushi, 19 E North Ave., Glendale Heights, IL 60139",
+            "category": "['Restaurant', 'Caterer', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e53c0a74886cb:0x27b2b49155af5629",
+            "iid": 36635,
+            "name": "Honkaku Sushi",
+            "rank": 8,
+            "score": -2.4278180599212646,
+            "state": "Illinois"
+        },
+        {
+            "address": "Ming's Asian Cuisine, 1045 Hamilton Pl Dr, Johnson City, TN 37604",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a63874bd9f1b3:0x6324bdb79866ff4b",
+            "iid": 43810,
+            "name": "Ming's Asian Cuisine",
+            "rank": 9,
+            "score": -2.429351568222046,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Cupbop - Korean BBQ & Ramen 930, 7450 W 52nd Ave Unit 300, Arvada, CO 80002",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x876b878b32e74c9b:0x43404ea58ad9ee7c",
+            "iid": 30850,
+            "name": "Cupbop - Korean BBQ & Ramen 930",
+            "rank": 10,
+            "score": -2.4300928115844727,
+            "state": "Colorado"
+        },
+        {
+            "address": "Golden Kitchen Chinese Restaurant, 820 Surfside Dr, Surfside Beach, SC 29575",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x890041e9d4e26387:0xb40b7d2a0ab61f1e",
+            "iid": 53418,
+            "name": "Golden Kitchen Chinese Restaurant",
+            "rank": 11,
+            "score": -2.43011212348938,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Hurry Curry of Tokyo - Bellevue, 15015 Main St #114, Bellevue, WA 98007",
+            "category": "['Japanese restaurant', 'Japanese curry restaurant']",
+            "gmap_id": "0x54906ddc960d1a33:0x8b9d4d43cbd106de",
+            "iid": 3171,
+            "name": "Hurry Curry of Tokyo - Bellevue",
+            "rank": 12,
+            "score": -2.4312984943389893,
+            "state": "Washington"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 54334,
+            "name": "Chopstix",
+            "rank": 13,
+            "score": -2.4319863319396973,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Uncle Ten's Pho, 602 W Union Hills Dr STE 10, Phoenix, AZ 85027",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x872b6f172c7b776b:0xfd9ac83acbb1c86d",
+            "iid": 29462,
+            "name": "Uncle Ten's Pho",
+            "rank": 14,
+            "score": -2.4324076175689697,
+            "state": "Arizona"
+        },
+        {
+            "address": "Arigato Steak House, 1401 Citrus Blvd, Leesburg, FL 34748",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x88e7c1a71b6b0f27:0x7c9dc840c4aea7bb",
+            "iid": 50667,
+            "name": "Arigato Steak House",
+            "rank": 15,
+            "score": -2.4331648349761963,
+            "state": "Florida"
+        },
+        {
+            "address": "Thai Time, 9313 Anderson Mill Rd, Austin, TX 78729",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8644cd974a81d535:0x771b106730dcc920",
+            "iid": 24599,
+            "name": "Thai Time",
+            "rank": 16,
+            "score": -2.433281898498535,
+            "state": "Texas"
+        },
+        {
+            "address": "Surina Thai, 2390 Chamblee Tucker Rd, Chamblee, GA 30341",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f509868d67cd2d:0xf9b5fa0ecc662587",
+            "iid": 51589,
+            "name": "Surina Thai",
+            "rank": 17,
+            "score": -2.4334535598754883,
+            "state": "Georgia"
+        },
+        {
+            "address": "Tum Pok Pok, 5000 Buford Hwy NE, Chamblee, GA 30341",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f509de908f9261:0xa891d09a6dd47e8d",
+            "iid": 51628,
+            "name": "Tum Pok Pok",
+            "rank": 18,
+            "score": -2.4342265129089355,
+            "state": "Georgia"
+        },
+        {
+            "address": "Teriyaki Madness, 1653 W Island Green Dr Ste 130, Meridian, ID 83646",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55cae7f4fa65:0x225b2adc029f2e05",
+            "iid": 5059,
+            "name": "Teriyaki Madness",
+            "rank": 19,
+            "score": -2.43467116355896,
+            "state": "Idaho"
+        },
+        {
+            "address": "Razia Indian Restaurant, 28112 Bouquet Canyon Rd, Santa Clarita, CA 91350",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80c287454bd7dab7:0xd5d3dd6fc893da42",
+            "iid": 13030,
+            "name": "Razia Indian Restaurant",
+            "rank": 20,
+            "score": -2.434907913208008,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Natasha Martushoff",
+        "uid": 89781,
+        "user_id": 103011314750792201674
+    }
+}

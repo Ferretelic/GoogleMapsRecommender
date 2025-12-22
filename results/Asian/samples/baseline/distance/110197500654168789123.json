@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Ginger Gourmet, 265 Main St, North Reading, MA 01864",
+            "category": "['Chinese restaurant', 'Sushi restaurant']",
+            "date": "2017/07/03",
+            "gmap_id": "0x89e3095f0eda9f25:0x3a239d261f606480",
+            "iid": 69094,
+            "name": "The Ginger Gourmet",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1499041153860
+        },
+        {
+            "address": "Crave Chinatown, 75 Kneeland St, Boston, MA 02111",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Korean barbecue restaurant', 'Korean restaurant', 'Lounge']",
+            "date": "2017/07/27",
+            "gmap_id": "0x89e37a79cdb905e5:0xd2348862e3506459",
+            "iid": 69810,
+            "name": "Crave Chinatown",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1501127535301
+        },
+        {
+            "address": "Yang Ming, 341 S Broadway, Salem, NH 03079",
+            "category": "['Chinese restaurant', 'Japanese restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a9f65872b6c9:0xc1986bf64e41907c",
+            "iid": 70183,
+            "name": "Yang Ming",
+            "split": "train",
+            "state": "New_Hampshire",
+            "unix_time": 1513348338337
+        },
+        {
+            "address": "Bonchon Lowell, 1075 Westford St, Lowell, MA 01851",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a361e3805ccf:0x3917cec55629fd77",
+            "iid": 70134,
+            "name": "Bonchon Lowell",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1513348384668
+        },
+        {
+            "address": "Hokkaido Restaurant, 1250 Osgood St, North Andover, MA 01845",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "date": "2018/12/01",
+            "gmap_id": "0x89e30697b6545cf5:0xb0573da95d9d656b",
+            "iid": 69070,
+            "name": "Hokkaido Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1543697382034
+        },
+        {
+            "address": "Jade North Andover, 24 High St, North Andover, MA 01845",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3065ec70d6ceb:0x7ea6193aceb3cf45",
+            "iid": 69068,
+            "name": "Jade North Andover",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821529147
+        },
+        {
+            "address": "Kowloon Restaurant, 948 Broadway, Saugus, MA 01906",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Function room facility', 'Restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3728d2752944b:0x33e0cbd51bccb077",
+            "iid": 69362,
+            "name": "Kowloon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821608462
+        },
+        {
+            "address": "Fusion House Restaurant, 301 Merrimack St, Methuen, MA 01844",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Lunch restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e306cd3e26fa03:0x444030ed1f4d94c",
+            "iid": 69071,
+            "name": "Fusion House Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821694181
+        },
+        {
+            "address": "Sakeba Sushi & Grill, 5349 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+            "category": "['Japanese restaurant', 'Bar & grill', 'Sushi restaurant']",
+            "date": "2020/08/29",
+            "gmap_id": "0x88dd8153ae47ba97:0xd1c941047950879d",
+            "iid": 49310,
+            "name": "Sakeba Sushi & Grill",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1598667634826
+        },
+        {
+            "address": "Oriental Garden, 400 Lowell Ave, Haverhill, MA 01832",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x89e301741a279d19:0x9e656adbea052d3f",
+            "iid": 69053,
+            "name": "Oriental Garden",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1619395485037
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Nagoya Japanese Restaurant, 2915 28th St SE, Grand Rapids, MI 49512",
+            "category": "['Japanese restaurant', 'Children hall', 'Rice restaurant', 'Soup restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88184d7666c51da9:0x72bf8f923723ea80",
+            "iid": 38607,
+            "name": "Nagoya Japanese Restaurant",
+            "rank": 1,
+            "score": -2.388042688369751,
+            "state": "Michigan"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 7479 Tidewater Dr, Norfolk, VA 23505",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89ba97ebd0f792bd:0x156084d0d8bd74b4",
+            "iid": 57390,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 2,
+            "score": -2.389091730117798,
+            "state": "Virginia"
+        },
+        {
+            "address": "Chao Phraya Thai Cuisine, 328 Curry Hollow Rd, Pleasant Hills, PA 15236",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8834fb9ed2de39b9:0xd33b839a7055d98c",
+            "iid": 40469,
+            "name": "Chao Phraya Thai Cuisine",
+            "rank": 3,
+            "score": -2.3953640460968018,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sochi Saigonese Kitchen, 1358 W Belmont Ave, Chicago, IL 60657",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x880fd393b3c1998f:0x22aaa8a317598e7a",
+            "iid": 38028,
+            "name": "Sochi Saigonese Kitchen",
+            "rank": 4,
+            "score": -2.3989484310150146,
+            "state": "Illinois"
+        },
+        {
+            "address": "Pho Yummy, 1731 Quentin Rd, Lebanon, PA 17042",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c61d9af5b9c64d:0x89f91b661505d84e",
+            "iid": 65416,
+            "name": "Pho Yummy",
+            "rank": 5,
+            "score": -2.405946731567383,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bangkok Kitchen, 1207 Troy Schenectady Rd, Latham, NY 12110",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89de0dec1f6d0883:0x3c536f958508101f",
+            "iid": 68691,
+            "name": "Bangkok Kitchen",
+            "rank": 6,
+            "score": -2.406696319580078,
+            "state": "New_York"
+        },
+        {
+            "address": "Sakura Japanese restaurant, 1071 Wayne Ave, Chambersburg, PA 17201",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c99f639388b889:0x9bc9d5b5ad3e398c",
+            "iid": 67487,
+            "name": "Sakura Japanese restaurant",
+            "rank": 7,
+            "score": -2.4070675373077393,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kobe Sushi and Teriyaki, 1905 S 1st St, Yakima, WA 98903",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x5499d7b7b1b45887:0x861e2f0927153bb4",
+            "iid": 4760,
+            "name": "Kobe Sushi and Teriyaki",
+            "rank": 8,
+            "score": -2.4097931385040283,
+            "state": "Washington"
+        },
+        {
+            "address": "Gogi 92, 1602 Village Market Blvd SE, Leesburg, VA 20175",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89b63dfa5ba73ca9:0x4363f8250bc51ac2",
+            "iid": 55232,
+            "name": "Gogi 92",
+            "rank": 9,
+            "score": -2.411635637283325,
+            "state": "Virginia"
+        },
+        {
+            "address": "MamaMi Vietnamese Kitchen, 324 Berlin - Cross Keys Rd, Williamstown, NJ 08094",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c6d55120b892e3:0xcdfd947a4f6b32d8",
+            "iid": 66556,
+            "name": "MamaMi Vietnamese Kitchen",
+            "rank": 10,
+            "score": -2.4132769107818604,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Curry House #2, 4277 N West Ave, Fresno, CA 93705",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80946768248f0f8b:0x583c680ff2d61d9a",
+            "iid": 11819,
+            "name": "Curry House #2",
+            "rank": 11,
+            "score": -2.4135193824768066,
+            "state": "California"
+        },
+        {
+            "address": "White Jasmin Thai Cuisine, 5 W Main St, Lansdale, PA 19446",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c6a34f4a06214f:0x7947e9e32bc9dd9b",
+            "iid": 65632,
+            "name": "White Jasmin Thai Cuisine",
+            "rank": 12,
+            "score": -2.415203094482422,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "251 Ginza Sushi, 251 E 35th St, New York, NY 10016",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259fb756f6245:0x938ddb51aca71a34",
+            "iid": 60296,
+            "name": "251 Ginza Sushi",
+            "rank": 13,
+            "score": -2.4152634143829346,
+            "state": "New_York"
+        },
+        {
+            "address": "Land of Thai, 350 E Main St, Clinton, CT 06413",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e627844a3911b9:0x2ec12fc0566ed1da",
+            "iid": 70996,
+            "name": "Land of Thai",
+            "rank": 14,
+            "score": -2.416168212890625,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Dup Bap, 691 Bloomfield Ave, West Caldwell, NJ 07006",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c30163715debe1:0x52f5d907843e5992",
+            "iid": 63946,
+            "name": "Dup Bap",
+            "rank": 15,
+            "score": -2.4166455268859863,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Mercantile on Main, 240 E Main St, Rochester, NY 14604",
+            "category": "['Food court', 'Cafe', 'Food producer', 'Indian takeaway', 'Meat dish restaurant', 'Pasta shop', 'Restaurant', 'Salad shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89d6b515dddd6de1:0x6c2317dad013fe38",
+            "iid": 68119,
+            "name": "Mercantile on Main",
+            "rank": 16,
+            "score": -2.4193317890167236,
+            "state": "New_York"
+        },
+        {
+            "address": "Am Noodle, 4744 Telephone Rd, Ventura, CA 93003",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80e853ef2825140f:0xb6da6722e07c4248",
+            "iid": 21430,
+            "name": "Am Noodle",
+            "rank": 17,
+            "score": -2.4200448989868164,
+            "state": "California"
+        },
+        {
+            "address": "Blazing Brute BBQ, 4526 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Sichuan restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Family restaurant']",
+            "gmap_id": "0x8640e78b3e1b6cc3:0x909ee719b86d000d",
+            "iid": 24063,
+            "name": "Blazing Brute BBQ",
+            "rank": 18,
+            "score": -2.4200730323791504,
+            "state": "Texas"
+        },
+        {
+            "address": "Little Peach's, 39119 Cedar Blvd, Newark, CA 94560",
+            "category": "['Restaurant', 'Bubble tea store', 'Catering food and drink supplier', 'Chicken wings restaurant', 'Chinese restaurant', 'Dessert restaurant', 'Rice restaurant', 'Tea house']",
+            "gmap_id": "0x808fbf6da9a36395:0xa5d069b2ed3ab07c",
+            "iid": 10442,
+            "name": "Little Peach's",
+            "rank": 19,
+            "score": -2.420438528060913,
+            "state": "California"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 67763,
+            "name": "Fusia Bento Bar",
+            "rank": 20,
+            "score": -2.420968532562256,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Wes Scribner",
+        "uid": 304425,
+        "user_id": 110197500654168789123
+    }
+}

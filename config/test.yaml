@@ -2,35 +2,70 @@ defaults:
   - base
   - _self_
 
+embeddings:
+  - name: LightGCN Baseline (Dot)
+    type: dot
+    model: baseline
+
+  - name: LightGCN Baseline (Cosine)
+    type: cosine
+    model: baseline
+
+  - name: LightGCN Baseline (Distance)
+    type: distance
+    model: baseline
+
+  - name: LightGCN Baseline (Fold)
+    type: fold
+    model: baseline
+
+  - name: LightGCN Best (Dot)
+    type: dot
+    model: best
+
+  - name: LightGCN Best (Cosine)
+    type: cosine
+    model: best
+
+  - name: LightGCN Best (Distance)
+    type: distance
+    model: best
+
+  - name: LightGCN Best (Fold)
+    type: fold
+    model: best
+
+baselines:
+  - name: "KNN (Centroid)"
+    type: centroid
+    model: knn
+
+  - name: "KNN (Latest)"
+    type: latest
+    model: knn
+
+  - name: "Popularity (Centroid)"
+    type: centroid
+    model: popularity
+
+  - name: "Popularity (Latest)"
+    type: latest
+    model: popularity
+
 test:
-  device: cpu
   batch_size: 1024
   rank: 20
-  embeddings: [
-    # [LightGCN Baseline (Dot), dot, baseline],
-    # [LightGCN Baseline (Cosine), cosine, baseline],
-    # [LightGCN Baseline (Distance), distance, baseline],
-    [LightGCN Best (Dot), dot, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Cosine), cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Distance), distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-  ]
-  baselines: ["KNN", "Popularity"]
 
 inference:
-  device: cuda
+  add_user: False
   min_num_reviews: 10
   num_samples: 50
   topk: 20
-  embeddings: [
-    # [LightGCN Baseline (Dot), dot, baseline],
-    # [LightGCN Baseline (Cosine), cosine, baseline],
-    # [LightGCN Baseline (Distance), distance, baseline],
-    [LightGCN Best (Dot), dot, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Cosine), cosine, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-    [LightGCN Best (Distance), distance, emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0],
-  ]
-  baselines: ["KNN", "Popularity"]
   log:
-    type: dot
-    model_name: emb_512_n_layers_4_reg_0.001_gcl_temp_0.2_geo_distance_neighbors_4_weight_1.0
-    user_ids: []
+    type: fold
+    model: best
+
+analysis:
+  n_components: 4
+  methods: [pca, umap]
+  item_category: [city, state, chain, rating, popularity, price]

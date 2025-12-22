@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sasa, 1432 N Main St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Bar', 'Izakaya restaurant', 'Sushi restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x808561c019aaf7c9:0x503b382abd3b3cab",
+            "iid": 7048,
+            "name": "Sasa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1570131566434
+        },
+        {
+            "address": "Great Wall Restaurant, 3500 Golden Gate Way, Lafayette, CA 94549",
+            "category": "['Chinese restaurant']",
+            "date": "2019/11/24",
+            "gmap_id": "0x808562453d5d3caf:0x56df0b7915ed8318",
+            "iid": 7069,
+            "name": "Great Wall Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574630036258
+        },
+        {
+            "address": "Yuyu Za Zang, 4871 Telegraph Ave, Oakland, CA 94609",
+            "category": "['Korean restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x80857de198fba45b:0x76f8eba724b17039",
+            "iid": 7365,
+            "name": "Yuyu Za Zang",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574823243137
+        },
+        {
+            "address": "Ramen Hiroshi, 1633 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x808561eac4487559:0xdd619e9c17acc7b5",
+            "iid": 7067,
+            "name": "Ramen Hiroshi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575834621859
+        },
+        {
+            "address": "SAFFRON Indian Restaurant & Bar, 2 Orinda Theatre Square #153, Orinda, CA 94563",
+            "category": "['Indian restaurant']",
+            "date": "2019/12/15",
+            "gmap_id": "0x80857d10c65ac825:0x39e10e92072830e",
+            "iid": 7329,
+            "name": "SAFFRON Indian Restaurant & Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1576445604337
+        },
+        {
+            "address": "Ohgane Korean BBQ Concord, 1671 Willow Pass Rd, Concord, CA 94520",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2020/01/25",
+            "gmap_id": "0x808566d9fb182983:0x98198607270a70b0",
+            "iid": 7109,
+            "name": "Ohgane Korean BBQ Concord",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1579917268789
+        },
+        {
+            "address": "Honey Cuisine, 1712 E Cotati Ave, Rohnert Park, CA 94928",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80844aff4f181bd9:0x776cc0c61f3eaf1a",
+            "iid": 6771,
+            "name": "Honey Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580244895386
+        },
+        {
+            "address": "Gangnam Tofu Korean Cuisine, 11740 San Pablo Ave Suite C, El Cerrito, CA 94530",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/01/17",
+            "gmap_id": "0x8085784fcd4dff69:0xbf719043bd378586",
+            "iid": 7233,
+            "name": "Gangnam Tofu Korean Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1610926418410
+        },
+        {
+            "address": "EM Deli Catering, 6119 La Salle Ave, Oakland, CA 94611",
+            "category": "['Caterer', 'Deli', 'Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808f80b4608d1aaf:0x7b67da2184c93e4a",
+            "iid": 9311,
+            "name": "EM Deli Catering",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616898763302
+        },
+        {
+            "address": "Mixed Grain, 1546 Bonanza St, Walnut Creek, CA 94596",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x808561eab0bcc089:0xbea61b5d55259bac",
+            "iid": 7066,
+            "name": "Mixed Grain",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1616898773196
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Sue's Kitchen, 448 Valley View Rd suite h, El Sobrante, CA 94803",
+            "category": "['Laotian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8085776c6dde43bd:0xe621b089caf42ea7",
+            "iid": 7199,
+            "name": "Sue's Kitchen",
+            "rank": 1,
+            "score": -7.414644718170166,
+            "state": "California"
+        },
+        {
+            "address": "Happy Chin Eating, 454 Appian Way D, El Sobrante, CA 94803",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80857727b63afd73:0x91ca1dd59916d605",
+            "iid": 7195,
+            "name": "Happy Chin Eating",
+            "rank": 2,
+            "score": -7.450293064117432,
+            "state": "California"
+        },
+        {
+            "address": "Pho Saigon & Grill 2, 5047 Appian Way, El Sobrante, CA 94803",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085776c2c4ed041:0x390b3aaad85d4119",
+            "iid": 7198,
+            "name": "Pho Saigon & Grill 2",
+            "rank": 3,
+            "score": -7.49155330657959,
+            "state": "California"
+        },
+        {
+            "address": "Thai Spice, 2701 Pinole Valley Rd suite b, Pinole, CA 94564",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80857722dfc23dd9:0x8637a187a5cc32d9",
+            "iid": 7193,
+            "name": "Thai Spice",
+            "rank": 4,
+            "score": -7.569925785064697,
+            "state": "California"
+        },
+        {
+            "address": "Cabalen, 1572 Sycamore Ave # F, Hercules, CA 94547",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x808576d5f7b16ed9:0xd60c86bed8967695",
+            "iid": 7184,
+            "name": "Cabalen",
+            "rank": 5,
+            "score": -7.641446113586426,
+            "state": "California"
+        },
+        {
+            "address": "Happy Sashimi, 2714 Pinole Valley Rd, Pinole, CA 94564",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80857722f2e7fc1f:0xbf1b00982fe3f945",
+            "iid": 7194,
+            "name": "Happy Sashimi",
+            "rank": 6,
+            "score": -7.680438995361328,
+            "state": "California"
+        },
+        {
+            "address": "Dragon Terrace, 1581 Sycamore Ave, Hercules, CA 94547",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808576d5dbed08db:0x393881caeed7e7f3",
+            "iid": 7182,
+            "name": "Dragon Terrace",
+            "rank": 7,
+            "score": -7.741433620452881,
+            "state": "California"
+        },
+        {
+            "address": "Genki House Japanese Restaurant, 1581 Sycamore Ave #8, Hercules, CA 94547",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808576d5dbed08db:0x3b2bb5cf72a4c3da",
+            "iid": 7183,
+            "name": "Genki House Japanese Restaurant",
+            "rank": 8,
+            "score": -7.783908843994141,
+            "state": "California"
+        },
+        {
+            "address": "Curry Me Up, 1511 Sycamore Ave K, Hercules, CA 94547",
+            "category": "['Indian restaurant', 'Organic restaurant']",
+            "gmap_id": "0x808576d431e683fb:0xc381f5dd61f41209",
+            "iid": 7181,
+            "name": "Curry Me Up",
+            "rank": 9,
+            "score": -7.8674492835998535,
+            "state": "California"
+        },
+        {
+            "address": "RSM Oriental Food Mart and Restaurant, 1500 Sycamore Ave B6, Hercules, CA 94547",
+            "category": "['Filipino restaurant', 'Grocery store']",
+            "gmap_id": "0x808576d6f4117bcb:0x8d8a57cd4e836640",
+            "iid": 7185,
+            "name": "RSM Oriental Food Mart and Restaurant",
+            "rank": 10,
+            "score": -7.887131214141846,
+            "state": "California"
+        },
+        {
+            "address": "Baan Thai Restaurant, 99 Orinda Way, Orinda, CA 94563",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x80857cdc42e431ef:0xae35d5f1a805952c",
+            "iid": 7327,
+            "name": "Baan Thai Restaurant",
+            "rank": 11,
+            "score": -7.968346118927002,
+            "state": "California"
+        },
+        {
+            "address": "Hanazen, 87 Orinda Way, Orinda, CA 94563",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80857cdc1243d337:0x332010b4c29101",
+            "iid": 7326,
+            "name": "Hanazen",
+            "rank": 12,
+            "score": -7.991218090057373,
+            "state": "California"
+        },
+        {
+            "address": "Szechwan Restaurant, 79 Orinda Way, Orinda, CA 94563",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80857cdc0e569559:0x340e8e40804468da",
+            "iid": 7325,
+            "name": "Szechwan Restaurant",
+            "rank": 13,
+            "score": -8.017656326293945,
+            "state": "California"
+        },
+        {
+            "address": "Niwa Restaurant, 1 Camino Sobrante, Orinda, CA 94563",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80857cdeb280133b:0x9be8651fa6fee226",
+            "iid": 7328,
+            "name": "Niwa Restaurant",
+            "rank": 14,
+            "score": -8.140077590942383,
+            "state": "California"
+        },
+        {
+            "address": "China Kitchen, 4247 Appian Way, El Sobrante, CA 94803",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80857777908b05b9:0xcde6253e9e4216ac",
+            "iid": 7200,
+            "name": "China Kitchen",
+            "rank": 15,
+            "score": -8.306830406188965,
+            "state": "California"
+        },
+        {
+            "address": "Tandoor Restaurant - Nepalese & Indian Cuisine, 2554 Appian Way, Pinole, CA 94564",
+            "category": "['Indian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x8085771aaa2fd013:0x44e327af9e4feab6",
+            "iid": 7192,
+            "name": "Tandoor Restaurant - Nepalese & Indian Cuisine",
+            "rank": 16,
+            "score": -8.346583366394043,
+            "state": "California"
+        },
+        {
+            "address": "Won Thai Cuisine, 844 Willow Ave # A1a, Hercules, CA 94547",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x808571326ea98813:0xf3db0f609b398f9e",
+            "iid": 7139,
+            "name": "Won Thai Cuisine",
+            "rank": 17,
+            "score": -8.348849296569824,
+            "state": "California"
+        },
+        {
+            "address": "Cam Hong Deli, 4068 San Pablo Dam Rd, El Sobrante, CA 94803",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80857778701de0ad:0x2db13a92b7281479",
+            "iid": 7201,
+            "name": "Cam Hong Deli",
+            "rank": 18,
+            "score": -8.357216835021973,
+            "state": "California"
+        },
+        {
+            "address": "Anh's Kitchen, 844 Willow Ave Suite A3, Hercules, CA 94547",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8085713270900005:0xe3371b252fd6165d",
+            "iid": 7140,
+            "name": "Anh's Kitchen",
+            "rank": 19,
+            "score": -8.372812271118164,
+            "state": "California"
+        },
+        {
+            "address": "Willow Garden, 844 Willow Ave a8, Hercules, CA 94547",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808571326ea98813:0xc480057d54cf0f9f",
+            "iid": 7138,
+            "name": "Willow Garden",
+            "rank": 20,
+            "score": -8.384440422058105,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Francisco Gamez",
+        "uid": 480875,
+        "user_id": 116137790448533935224
+    }
+}

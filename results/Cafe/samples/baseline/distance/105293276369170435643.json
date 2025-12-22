@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 114 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2016/09/04",
+            "gmap_id": "0x80c2c0ff8f7d53b5:0xcdc3757c74d24987",
+            "iid": 7586,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473022536700
+        },
+        {
+            "address": "McDonald's, 612 E Redlands Blvd, Redlands, CA 92374",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/11/21",
+            "gmap_id": "0x80dcaa0997755113:0xd20504aff57ecd04",
+            "iid": 10766,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511222878319
+        },
+        {
+            "address": "McDonald's, 20700 Tracy Ave, Buttonwillow, CA 93206",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/11/29",
+            "gmap_id": "0x80ea533c9da2fda7:0xc0124c5a6585d7b1",
+            "iid": 13155,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511983754916
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 100 N Palm Canyon Dr, Palm Springs, CA 92262, United States",
+            "category": "['Coffee shop', 'Tea house']",
+            "date": "2017/11/29",
+            "gmap_id": "0x80db1ba5a8573b11:0x9c7f99cfc2570544",
+            "iid": 9890,
+            "name": "The Coffee Bean & Tea Leaf",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511983775555
+        },
+        {
+            "address": "McDonald's, 4550 Clayton Rd, Concord, CA 94521",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/11/01",
+            "gmap_id": "0x80855e18b1728537:0x342d5928676c88b0",
+            "iid": 747,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541092913775
+        },
+        {
+            "address": "Starbucks, 103 Broadway Ln, Walnut Creek, CA 94596",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/11/01",
+            "gmap_id": "0x808561c3ba8bb973:0xc8e6861e3466032a",
+            "iid": 804,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541092935039
+        },
+        {
+            "address": "Boudin Bakery Cafe, 160 Jefferson St Baker's Hall, San Francisco, CA 94133",
+            "category": "['Bakery', 'Cafe', 'Salad shop', 'Sandwich shop']",
+            "date": "2019/08/01",
+            "gmap_id": "0x808580e311fa8115:0x3f44089a41e5ac6e",
+            "iid": 1592,
+            "name": "Boudin Bakery Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564634719949
+        },
+        {
+            "address": "Peet's Coffee, 5458 Ygnacio Valley Rd #10, Concord, CA 94521",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "date": "2019/09/28",
+            "gmap_id": "0x80855fad33b2c7bf:0xe2960591bf78e865",
+            "iid": 755,
+            "name": "Peet's Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569707930996
+        },
+        {
+            "address": "McDonald's, 7145 Dublin Blvd, Dublin, CA 94568",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/09/28",
+            "gmap_id": "0x808fec13320929bb:0xd7a6c7eecc31602c",
+            "iid": 4069,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569707972876
+        },
+        {
+            "address": "Starbucks, 569 W Clover Rd, Tracy, CA 95376",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/09/28",
+            "gmap_id": "0x80903d57862351f3:0xa0cebabc4895c18f",
+            "iid": 4241,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1569708110562
+        },
+        {
+            "address": "The Mad Greek, 72112 Baker Blvd, Baker, CA 92309",
+            "category": "['Greek restaurant', 'Cafe', 'Restaurant']",
+            "date": "2019/09/28",
+            "gmap_id": "0x80c5bdc7972b02c3:0x927d0968eafccbc4",
+            "iid": 9202,
+            "name": "The Mad Greek",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1569709086718
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 1,
+            "score": -2.5816221237182617,
+            "state": "California"
+        },
+        {
+            "address": "Lucky 7 Coffee, 1112 Hermosa Ave, Hermosa Beach, CA 90254",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b38590e2759f:0x1c1effd9ae737df0",
+            "iid": 6528,
+            "name": "Lucky 7 Coffee",
+            "rank": 2,
+            "score": -2.5914247035980225,
+            "state": "California"
+        },
+        {
+            "address": "Hilltop Coffee + Kitchen, 4247 Eagle Rock Blvd, Los Angeles, CA 90065",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c1fb925bb721:0xcf79425fc77001d",
+            "iid": 7629,
+            "name": "Hilltop Coffee + Kitchen",
+            "rank": 3,
+            "score": -2.593276023864746,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": -2.6416637897491455,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 5,
+            "score": -2.661459445953369,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5411 Diablo Dr, Sacramento, CA 95842",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adfb5618d5a87:0x32b1b6e2249a524d",
+            "iid": 5435,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.686459541320801,
+            "state": "California"
+        },
+        {
+            "address": "Moni Coffee & Tea, 1522 Geary Rd, Walnut Creek, CA 94597",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x808561f41fe3a2df:0x18cf3ab7d9472a5",
+            "iid": 814,
+            "name": "Moni Coffee & Tea",
+            "rank": 7,
+            "score": -2.686781883239746,
+            "state": "California"
+        },
+        {
+            "address": "MudLab, 440 Grand Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Artist', 'Bakery', 'Coworking space', 'Event venue', 'Grocery store', 'Pasta shop']",
+            "gmap_id": "0x80857d0750490b69:0xad3394d0ef19731b",
+            "iid": 1010,
+            "name": "MudLab",
+            "rank": 8,
+            "score": -2.6882455348968506,
+            "state": "California"
+        },
+        {
+            "address": "Tea Lyfe Saratoga, 14554 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e4b21ccbdf3f5:0x92d5b8e58ffd703c",
+            "iid": 2471,
+            "name": "Tea Lyfe Saratoga",
+            "rank": 9,
+            "score": -2.689409017562866,
+            "state": "California"
+        },
+        {
+            "address": "Yonder Coffee, 9028 Balboa Blvd, Northridge, CA 91325",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c29b6e9606301f:0x6e89b800c7be44b5",
+            "iid": 6267,
+            "name": "Yonder Coffee",
+            "rank": 10,
+            "score": -2.69193434715271,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6597 Collins Dr, Moorpark, CA 93021",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e82d56ebdc28b3:0x9b8c6beaf817c757",
+            "iid": 12773,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -2.6925268173217773,
+            "state": "California"
+        },
+        {
+            "address": "Spot Brazil, 1344 Garnet Ave, San Diego, CA 92109",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc010a69c5d08d:0x72739f93a73df55b",
+            "iid": 10281,
+            "name": "Spot Brazil",
+            "rank": 12,
+            "score": -2.6932320594787598,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 14788 Bear Valley Rd, Victorville, CA 92395",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80c367ba222e446f:0x1056d19a9bc484da",
+            "iid": 9158,
+            "name": "Dutch Bros Coffee",
+            "rank": 13,
+            "score": -2.69504714012146,
+            "state": "California"
+        },
+        {
+            "address": "Grain Traders, 1010 N Fairfax Ave, West Hollywood, CA 90046",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c2bf36af08dbaf:0x2aa83e8894294289",
+            "iid": 7432,
+            "name": "Grain Traders",
+            "rank": 14,
+            "score": -2.6956334114074707,
+            "state": "California"
+        },
+        {
+            "address": "Ocean View Cafe, 1400 Main St, Montara, CA 94037",
+            "category": "['Cafe']",
+            "gmap_id": "0x808f71c150f69f33:0xc6603b69938a6c84",
+            "iid": 2505,
+            "name": "Ocean View Cafe",
+            "rank": 15,
+            "score": -2.696902275085449,
+            "state": "California"
+        },
+        {
+            "address": "IT'S BOBA TIME- BELL, 6515 Atlantic Ave Suite A, Bell, CA 90201",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2cebed91af3ad:0x7034a31859fe20f2",
+            "iid": 8332,
+            "name": "IT'S BOBA TIME- BELL",
+            "rank": 16,
+            "score": -2.700265645980835,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 8001 Eastern Ave, Bell Gardens, CA 90201",
+            "category": "['Donut shop', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2cdb2a8235cfd:0xc0c5bc8eb4f2c7b3",
+            "iid": 8310,
+            "name": "Winchell's Donut House",
+            "rank": 17,
+            "score": -2.7004904747009277,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2059 Cadenasso Dr, Fairfield, CA 94533, United States",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x808515171b1f4553:0xbd71222bf5efa127",
+            "iid": 624,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.7029685974121094,
+            "state": "California"
+        },
+        {
+            "address": "Sharetea, 2010 Birch Rd, Chula Vista, CA 91915",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d94558432d8119:0xe042877e396a09eb",
+            "iid": 9240,
+            "name": "Sharetea",
+            "rank": 19,
+            "score": -2.704742193222046,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7040 Sepulveda Blvd, Van Nuys, CA 91405",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c297ba9769c4ff:0x33775ad178835a1a",
+            "iid": 6178,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": -2.705332040786743,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Ardavan Pakbaz",
+        "uid": 40034,
+        "user_id": 105293276369170435643
+    }
+}

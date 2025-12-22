@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Ayothaya Thai Cafe, 404 E, AZ-260, Payson, AZ 85541",
+            "category": "['Thai restaurant']",
+            "date": "2017/02/16",
+            "gmap_id": "0x872c11d8d49fbd2d:0x35a17be16fdd07c2",
+            "iid": 29755,
+            "name": "Ayothaya Thai Cafe",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1487284849660
+        },
+        {
+            "address": "Thai Spicy Basil, 10 N Main St, Lamar, CO 81052",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/10/25",
+            "gmap_id": "0x870c2587221de8fd:0x4615cb221e3b5667",
+            "iid": 28335,
+            "name": "Thai Spicy Basil",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1508932308132
+        },
+        {
+            "address": "Motomaki - Sushi Burritos and Bowls, 14650 W Colfax Ave, Lakewood, CO 80401",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b84665f99e75f:0xea0229fe3769a62a",
+            "iid": 30801,
+            "name": "Motomaki - Sushi Burritos and Bowls",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512956261682
+        },
+        {
+            "address": "Ph\u1edf H\u1eadu Restaurant, 12089 W Alameda Pkwy, Lakewood, CO 80228",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/12/11",
+            "gmap_id": "0x876b83e4d518e4b5:0xd03cba1a808c0a2e",
+            "iid": 30793,
+            "name": "Ph\u1edf H\u1eadu Restaurant",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1512957314918
+        },
+        {
+            "address": "Zheng Asian Bistro, 35 Market St Unit C, Glenwood Springs, CO 81601",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/06/24",
+            "gmap_id": "0x8741097a020db14b:0xcb5907c691a18a07",
+            "iid": 29895,
+            "name": "Zheng Asian Bistro",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1529862306738
+        },
+        {
+            "address": "Hana Matsuri Sushi, 150 S Union Blvd #103, Lakewood, CO 80228",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Health food restaurant', 'Japanese restaurant', 'Raw food restaurant']",
+            "date": "2018/08/01",
+            "gmap_id": "0x876b83f958b130ff:0x8a76ed2bfe115c37",
+            "iid": 30797,
+            "name": "Hana Matsuri Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1533098630552
+        },
+        {
+            "address": "Thai Cortez & Sushi, 1430 E Main St, Cortez, CO 81321",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "date": "2019/05/16",
+            "gmap_id": "0x87396f767e54ef91:0x100548e7215905ea",
+            "iid": 29837,
+            "name": "Thai Cortez & Sushi",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1558033112595
+        },
+        {
+            "address": "Stonefish Sushi & More, 16 W Main St, Cortez, CO 81321",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x87396f96f0b35ca7:0xe4079216f2080a23",
+            "iid": 29839,
+            "name": "Stonefish Sushi & More",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1562759921606
+        },
+        {
+            "address": "P.F. Chang's, 7210 W Alameda Ave, Lakewood, CO 80226",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/08/29",
+            "gmap_id": "0x876b8120ad789d8f:0xa59ebc3f5e01559f",
+            "iid": 30777,
+            "name": "P.F. Chang's",
+            "split": "valid",
+            "state": "Colorado",
+            "unix_time": 1567110179176
+        },
+        {
+            "address": "Baan Thai, 9386 Huebner Rd suite 101, San Antonio, TX 78240",
+            "category": "['Thai restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x865c6741ea055555:0x62d90e7340b6e667",
+            "iid": 27381,
+            "name": "Baan Thai",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1576196963658
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Sherpa Cafe, 323 E Tomichi Ave, Gunnison, CO 81230, United States",
+            "category": "['Indian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x873f92cffce5f90d:0x3bcf0d2517952a70",
+            "iid": 29881,
+            "name": "Sherpa Cafe",
+            "rank": 1,
+            "score": -39.94113540649414,
+            "state": "Colorado"
+        },
+        {
+            "address": "Double Dragon, 113 W Tomichi Ave, Gunnison, CO 81230",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873f92c4db839e49:0xbb4af0afb98b5414",
+            "iid": 29880,
+            "name": "Double Dragon",
+            "rank": 2,
+            "score": -40.09782028198242,
+            "state": "Colorado"
+        },
+        {
+            "address": "House of China, 405 W Tomichi Ave # 1, Gunnison, CO 81230",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873f92c314bdf13d:0x1ba6cd6f62550a71",
+            "iid": 29879,
+            "name": "House of China",
+            "rank": 3,
+            "score": -40.25080108642578,
+            "state": "Colorado"
+        },
+        {
+            "address": "Thai Mini Caf\u00e9 LLC, 11150 US-50, Poncha Springs, CO 81242",
+            "category": "['Thai restaurant', 'Cafe']",
+            "gmap_id": "0x871515ed9afff643:0x42c7dca50213459c",
+            "iid": 28525,
+            "name": "Thai Mini Caf\u00e9 LLC",
+            "rank": 4,
+            "score": -66.0732192993164,
+            "state": "Colorado"
+        },
+        {
+            "address": "Great Wall, 139 W 3rd St, Salida, CO 81201",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x871517dd4e3add4f:0xfd145ea41b883291",
+            "iid": 28527,
+            "name": "Great Wall",
+            "rank": 5,
+            "score": -73.50126647949219,
+            "state": "Colorado"
+        },
+        {
+            "address": "Bunny and Clyde's Corner Cafe and Market, 203 W 1st St, Salida, CO 81201",
+            "category": "['Coffee shop', 'Bakery', 'Grocery store', 'Indian takeaway', 'Market']",
+            "gmap_id": "0x871517b302c6f5d9:0xb8051afca1f0d397",
+            "iid": 28526,
+            "name": "Bunny and Clyde's Corner Cafe and Market",
+            "rank": 6,
+            "score": -73.68589782714844,
+            "state": "Colorado"
+        },
+        {
+            "address": "Ginger Cafe, 425 Elk Ave, Crested Butte, CO 81224",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8740723ff29a7ea5:0xd59c60d2fda4eddb",
+            "iid": 29892,
+            "name": "Ginger Cafe",
+            "rank": 7,
+            "score": -75.75114440917969,
+            "state": "Colorado"
+        },
+        {
+            "address": "Sherpa Cafe, 313 3rd St, Crested Butte, CO 81224",
+            "category": "['Nepalese restaurant', 'Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8740723fd577cebd:0x8a38c9247a430bf6",
+            "iid": 29891,
+            "name": "Sherpa Cafe",
+            "rank": 8,
+            "score": -75.8395767211914,
+            "state": "Colorado"
+        },
+        {
+            "address": "Ryce Asian Bistro, 120 Elk Ave, Crested Butte, CO 81224",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8740723e1ad10787:0xc1bf85adf7ea072e",
+            "iid": 29890,
+            "name": "Ryce Asian Bistro",
+            "rank": 9,
+            "score": -75.8436279296875,
+            "state": "Colorado"
+        },
+        {
+            "address": "Thai Chili Restaurant Ouray Colorado, 740 Main St, Ouray, CO 81427",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x873f21d8e17404ed:0x9a70ce8255ee9966",
+            "iid": 29869,
+            "name": "Thai Chili Restaurant Ouray Colorado",
+            "rank": 10,
+            "score": -84.80956268310547,
+            "state": "Colorado"
+        },
+        {
+            "address": "Colorado, Buena Vista, US CO Buena Vista 505 U.S Highway 24 N Jade Garden",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8715354a1bf260e7:0x8e2035bea8ac5739",
+            "iid": 28528,
+            "name": "Jade Garden",
+            "rank": 11,
+            "score": -87.18063354492188,
+            "state": "Colorado"
+        },
+        {
+            "address": "Hunan Chinese Restaurant, 819 1st Ave, Monte Vista, CO 81144",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8715de2e0d88786b:0x30ece9bb64e16d9e",
+            "iid": 28529,
+            "name": "Hunan Chinese Restaurant",
+            "rank": 12,
+            "score": -87.48146057128906,
+            "state": "Colorado"
+        },
+        {
+            "address": "China Garden Chinese Restaurant, 819 1st Ave, Monte Vista, CO 81144",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8715de2e127cfff1:0x170b0624a4edac30",
+            "iid": 28530,
+            "name": "China Garden Chinese Restaurant",
+            "rank": 13,
+            "score": -87.48445892333984,
+            "state": "Colorado"
+        },
+        {
+            "address": "Oriental Chinese Restaurant, 565 Sherman St # 3, Ridgway, CO 81432",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x873f3c84ac62694d:0x9fc59af37344dad3",
+            "iid": 29871,
+            "name": "Oriental Chinese Restaurant",
+            "rank": 14,
+            "score": -89.74639892578125,
+            "state": "Colorado"
+        },
+        {
+            "address": "Thai Paradise, 146/1North, 146 N Cora St, Ridgway, CO 81432",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x873f3c84a92f5e9b:0xad4da107d41a6dd1",
+            "iid": 29870,
+            "name": "Thai Paradise",
+            "rank": 15,
+            "score": -89.77436828613281,
+            "state": "Colorado"
+        },
+        {
+            "address": "Pescado Sushi, 115 W Colorado Ave, Telluride, CO 81435",
+            "category": "['Sushi restaurant', 'Indian restaurant']",
+            "gmap_id": "0x873ed8881dcbfed1:0xc3e4e1e654868386",
+            "iid": 29868,
+            "name": "Pescado Sushi",
+            "rank": 16,
+            "score": -99.30656433105469,
+            "state": "Colorado"
+        },
+        {
+            "address": "Siam, 200 S Davis St, Telluride, CO 81435",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x873ed87b45ec61e9:0x5a1638bc12a51b5a",
+            "iid": 29867,
+            "name": "Siam",
+            "rank": 17,
+            "score": -99.83686828613281,
+            "state": "Colorado"
+        },
+        {
+            "address": "Siam Talay Grille, 119 Lost Creek Ln, Mountain Village, CO 81435",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x873ed805888c2b2f:0xd2f12c259f012eda",
+            "iid": 29866,
+            "name": "Siam Talay Grille",
+            "rank": 18,
+            "score": -102.33235931396484,
+            "state": "Colorado"
+        },
+        {
+            "address": "Chang Thai Montrose Cuisine, 1015 S Townsend Ave, Montrose, CO 81401, United States",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x873f507d67ac7ef1:0x71586fd5eb216be8",
+            "iid": 29872,
+            "name": "Chang Thai Montrose Cuisine",
+            "rank": 19,
+            "score": -102.88776397705078,
+            "state": "Colorado"
+        },
+        {
+            "address": "Panda Palace, 531 S Townsend Ave, Montrose, CO 81401, United States",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x873f5088db77cf91:0xafcf63f5e4cf59b1",
+            "iid": 29873,
+            "name": "Panda Palace",
+            "rank": 20,
+            "score": -103.38019561767578,
+            "state": "Colorado"
+        }
+    ],
+    "user": {
+        "name": "Joel Ragan Young",
+        "uid": 82897,
+        "user_id": 102784077860317903664
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Healthy Creations Cafe, 376 N El Camino Real, Encinitas, CA 92024",
+            "category": "['Organic restaurant', 'Cafe', 'Gluten-free restaurant', 'Health food restaurant', 'Internet cafe', 'Juice shop']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80dc0b88a86b6705:0xf939d51e38dec784",
+            "iid": 10450,
+            "name": "Healthy Creations Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499543736449
+        },
+        {
+            "address": "Kay's Coffee Shop, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "date": "2018/09/10",
+            "gmap_id": "0x80e836191df3118f:0xf03d14fe2d196794",
+            "iid": 12823,
+            "name": "Kay's Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536602539368
+        },
+        {
+            "address": "Palisades Garden Cafe, 15231 La Cruz Dr, Pacific Palisades, CA 90272",
+            "category": "['Restaurant', 'Cafe']",
+            "date": "2019/03/17",
+            "gmap_id": "0x80c2a37bb2010929:0x42429785171d881e",
+            "iid": 6384,
+            "name": "Palisades Garden Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552855690340
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Glendale, 201 N Brand Blvd #100, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "date": "2019/06/02",
+            "gmap_id": "0x80c2c05573175dc3:0xd2391dff78f0f2f2",
+            "iid": 7540,
+            "name": "85\u00b0C Bakery Cafe - Glendale",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559445688286
+        },
+        {
+            "address": "Beech Street Cafe, 863 N Swarthmore Ave, Pacific Palisades, CA 90272",
+            "category": "['Italian restaurant', 'Cafe', 'Pizza restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2a37a398a2a21:0xb99fb1f1685f9d25",
+            "iid": 6379,
+            "name": "Beech Street Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840786953
+        },
+        {
+            "address": "Simpang Asia, 10433 National Blvd #2, Los Angeles, CA 90034",
+            "category": "['Indonesian restaurant', 'Cafe', 'Halal restaurant', 'Restaurant']",
+            "date": "2019/06/18",
+            "gmap_id": "0x80c2bbcb99c2200f:0xc6b3dfc7ed3fbab2",
+            "iid": 7200,
+            "name": "Simpang Asia",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560840831242
+        },
+        {
+            "address": "Blu Jam Cafe, 18700 Ventura Blvd #140, Tarzana, CA 91356",
+            "category": "['Breakfast restaurant', 'American restaurant', 'Brunch restaurant', 'Cafe', 'European restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x80c2990ef06da427:0x2067459e2bc3d0ff",
+            "iid": 6208,
+            "name": "Blu Jam Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567310914149
+        },
+        {
+            "address": "Bourgeois Pig, 5931 Franklin Ave, Los Angeles, CA 90028",
+            "category": "['Coffee shop']",
+            "date": "2019/09/02",
+            "gmap_id": "0x80c2bf46cd1f2813:0xbd8fa81754545ffd",
+            "iid": 7456,
+            "name": "Bourgeois Pig",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567453833671
+        },
+        {
+            "address": "It's Boba Time, 136 S Brand Blvd, Glendale, CA 91205",
+            "category": "['Cafe']",
+            "date": "2019/09/10",
+            "gmap_id": "0x80c2c0ffbbb20935:0x313a90c687135817",
+            "iid": 7588,
+            "name": "It's Boba Time",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1568135575973
+        },
+        {
+            "address": "M Caf\u00e9 Melrose, 7119 Melrose Ave, Hollywood, CA 90046",
+            "category": "['Macrobiotic restaurant', 'Breakfast restaurant', 'Cafe', 'Deli', 'Health food restaurant', 'Vegan restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "date": "2020/01/21",
+            "gmap_id": "0x80c2bf2ab53f14c5:0x8bf2eebea5c0db8a",
+            "iid": 7426,
+            "name": "M Caf\u00e9 Melrose",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1579586097431
+        },
+        {
+            "address": "It's Boba Time (St. Andrews + Sunset), 5549 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Bubble tea store', 'Cafe']",
+            "date": "2021/02/14",
+            "gmap_id": "0x80c2bf9349b8ef0b:0xdf82b083745a5541",
+            "iid": 7481,
+            "name": "It's Boba Time (St. Andrews + Sunset)",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1613345298646
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Cafe Vida, 15317 Antioch St, Pacific Palisades, CA 90272",
+            "category": "['Latin American restaurant', 'Cafe', 'Health food restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2a37a3e11fb6f:0x867df870c291c8ea",
+            "iid": 6381,
+            "name": "Cafe Vida",
+            "rank": 1,
+            "score": 0.525768518447876,
+            "state": "California"
+        },
+        {
+            "address": "Caffe Luxxe, 15200 Sunset Blvd, Pacific Palisades, CA 90272",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2a37bacc00001:0x4453a3142c921449",
+            "iid": 6383,
+            "name": "Caffe Luxxe",
+            "rank": 2,
+            "score": 0.5163214206695557,
+            "state": "California"
+        },
+        {
+            "address": "MATTHEWS GARDEN CAFE, 859 N Swarthmore Ave, Pacific Palisades, CA 90272",
+            "category": "['Cafe', 'Breakfast restaurant', 'Health food restaurant']",
+            "gmap_id": "0x80c2a37a3a00f6cf:0x8944f9e6334a9018",
+            "iid": 6380,
+            "name": "MATTHEWS GARDEN CAFE",
+            "rank": 3,
+            "score": 0.49523937702178955,
+            "state": "California"
+        },
+        {
+            "address": "Noah's NY Bagels, 15270 Antioch St #15276, Pacific Palisades, CA 90272",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2a37a466af971:0x29de0d44e16465ab",
+            "iid": 6382,
+            "name": "Noah's NY Bagels",
+            "rank": 4,
+            "score": 0.47002673149108887,
+            "state": "California"
+        },
+        {
+            "address": "Cauldron Ice Cream, 204 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c2c0550d39f35b:0xbe6a61557b065605",
+            "iid": 7539,
+            "name": "Cauldron Ice Cream",
+            "rank": 5,
+            "score": 0.45893916487693787,
+            "state": "California"
+        },
+        {
+            "address": "Pure Energy Cafe, 17383 Sunset Blvd #380c, Pacific Palisades, CA 90272",
+            "category": "['Cafe', 'Health food restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2a38d24b48705:0x71117f2632bc98dc",
+            "iid": 6386,
+            "name": "Pure Energy Cafe",
+            "rank": 6,
+            "score": 0.454568088054657,
+            "state": "California"
+        },
+        {
+            "address": "Alfred Coffee Palisades Village, 15217 Palisades Village Ln, Pacific Palisades, CA 90272",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80c2a3a9e032e27d:0x3ac655a27abe342",
+            "iid": 6388,
+            "name": "Alfred Coffee Palisades Village",
+            "rank": 7,
+            "score": 0.4480608105659485,
+            "state": "California"
+        },
+        {
+            "address": "Erewhon Market, 15285 Sunset Blvd, Pacific Palisades, CA 90272",
+            "category": "['Grocery store', 'Cafe', 'Gourmet grocery store', 'Health food store']",
+            "gmap_id": "0x80c2a3132c886ee5:0xc29674589ad9a6e",
+            "iid": 6375,
+            "name": "Erewhon Market",
+            "rank": 8,
+            "score": 0.43485206365585327,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 15300 Sunset Blvd, Pacific Palisades, CA 90272",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2a37a15ab8471:0xee3f2158172feb7c",
+            "iid": 6378,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 0.40116432309150696,
+            "state": "California"
+        },
+        {
+            "address": "Kiddos Creamery, 818 N Pacific Ave j, Glendale, CA 91203",
+            "category": "['Ice cream shop', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2c04f708686d7:0xfc72cb153a8049bd",
+            "iid": 7527,
+            "name": "Kiddos Creamery",
+            "rank": 10,
+            "score": 0.39452627301216125,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 2211 Galleria Way #J005, Glendale, CA 91210",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c2c0f8b87ebc09:0x643ca995338a0058",
+            "iid": 7577,
+            "name": "Peet's Coffee",
+            "rank": 11,
+            "score": 0.39434701204299927,
+            "state": "California"
+        },
+        {
+            "address": "Element Coffee, 2364 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e83618e2051fc1:0xdd58b12cd5bbde6c",
+            "iid": 12822,
+            "name": "Element Coffee",
+            "rank": 12,
+            "score": 0.37834814190864563,
+            "state": "California"
+        },
+        {
+            "address": "La Goccia Espresso Bar, 101 N Brand Blvd UNIT 130, Glendale, CA 91203",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2c05587ac2b1f:0x3eb5e644ddf3e861",
+            "iid": 7541,
+            "name": "La Goccia Espresso Bar",
+            "rank": 13,
+            "score": 0.3759779930114746,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 763 Americana Way, Glendale, CA 91210",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2c0ff1cb0cd5f:0xa4e373b57e07afe6",
+            "iid": 7584,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 14,
+            "score": 0.3749106228351593,
+            "state": "California"
+        },
+        {
+            "address": "Nespresso Boutique Glendale, 718 Americana Way, Glendale, CA 91210",
+            "category": "['Coffee store', 'Coffee machine supplier']",
+            "gmap_id": "0x80c2c0fefe64b265:0x251d1e2f94370778",
+            "iid": 7581,
+            "name": "Nespresso Boutique Glendale",
+            "rank": 15,
+            "score": 0.36980462074279785,
+            "state": "California"
+        },
+        {
+            "address": "Old Town Cafe, 2050 Ventura Blvd, Camarillo, CA 93010",
+            "category": "['Breakfast restaurant', 'Brunch restaurant', 'Cafe']",
+            "gmap_id": "0x80e8361e89a0ea79:0xb073b1e620ea80e1",
+            "iid": 12828,
+            "name": "Old Town Cafe",
+            "rank": 16,
+            "score": 0.3663288652896881,
+            "state": "California"
+        },
+        {
+            "address": "GRANVILLE, 807 Americana Way, Glendale, CA 91210",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Cafe', 'Cocktail bar', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c0ff19636af1:0x79bb0414a05ba5c7",
+            "iid": 7583,
+            "name": "GRANVILLE",
+            "rank": 17,
+            "score": 0.364866703748703,
+            "state": "California"
+        },
+        {
+            "address": "Posh Caf\u00e9, 1620 Wilshire Blvd, Santa Monica, CA 90403",
+            "category": "['Coffee shop', 'Gluten-free restaurant', 'Modern French restaurant', 'Moroccan restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2bb4ab4d2904d:0xac5104e14020c6df",
+            "iid": 7122,
+            "name": "Posh Caf\u00e9",
+            "rank": 18,
+            "score": 0.3630131781101227,
+            "state": "California"
+        },
+        {
+            "address": "Project M - Matcha Cafe, 11301 W Olympic Blvd UNIT 122, Los Angeles, CA 90064",
+            "category": "['Cafe', 'Coffee shop', 'Ice cream shop']",
+            "gmap_id": "0x80c2bb0ad15aaaab:0x47cce87e10487a6c",
+            "iid": 7077,
+            "name": "Project M - Matcha Cafe",
+            "rank": 19,
+            "score": 0.36179354786872864,
+            "state": "California"
+        },
+        {
+            "address": "Mary and Robbs Westwood Cafe, 1453 Westwood Blvd, Los Angeles, CA 90024",
+            "category": "['Traditional American restaurant', 'American restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Restaurant', 'Wine bar']",
+            "gmap_id": "0x80c2bb78caa2a3b9:0xedba271f70baad79",
+            "iid": 7158,
+            "name": "Mary and Robbs Westwood Cafe",
+            "rank": 20,
+            "score": 0.35979846119880676,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dylan Furlong",
+        "uid": 20199,
+        "user_id": 102669031390723476632
+    }
+}

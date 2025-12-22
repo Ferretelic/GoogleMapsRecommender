@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Seafood Cove 2, 9211 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2015/11/27",
+            "gmap_id": "0x80dd27b5907083c5:0x56d690f19753ab05",
+            "iid": 20193,
+            "name": "Seafood Cove 2",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448639271699
+        },
+        {
+            "address": "Sushi Murasaki, 2901 W MacArthur Blvd #108, Santa Ana, CA 92704",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2016/03/13",
+            "gmap_id": "0x80dcd8b36870be27:0x1837887ad4f3adb5",
+            "iid": 19463,
+            "name": "Sushi Murasaki",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1457838727377
+        },
+        {
+            "address": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y, 14370 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/03/19",
+            "gmap_id": "0x80dd27c6a923d2e1:0x7b7c51197d0a02d3",
+            "iid": 20254,
+            "name": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1489957576634
+        },
+        {
+            "address": "Bangkok Avenue, 17221 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Thai restaurant', 'Asian fusion restaurant']",
+            "date": "2017/07/19",
+            "gmap_id": "0x80dd26f22ad56a69:0x4d84310ad52cd569",
+            "iid": 20107,
+            "name": "Bangkok Avenue",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500442750213
+        },
+        {
+            "address": "Hue Oi Vietnamese Cuisine, 16537 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "date": "2018/03/01",
+            "gmap_id": "0x80dd270ea58dc8b7:0x29a28bc803d4a031",
+            "iid": 20116,
+            "name": "Hue Oi Vietnamese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519868028711
+        },
+        {
+            "address": "\u301292708 California, Fountain Valley, Brookhurst St, Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "date": "2018/07/10",
+            "gmap_id": "0x80dd2730b1427af7:0x49529432dcdc7b62",
+            "iid": 20129,
+            "name": "Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531198624894
+        },
+        {
+            "address": "Hwang Hae Doh, 3010 W Lincoln Ave, Anaheim, CA 92801",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/07/23",
+            "gmap_id": "0x80dd287c684f247f:0xe661c6d3a58d39b2",
+            "iid": 20340,
+            "name": "Hwang Hae Doh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532367126416
+        },
+        {
+            "address": "Tasty Kitchen, 1324 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Chinese restaurant']",
+            "date": "2018/12/24",
+            "gmap_id": "0x80c2ca9e49f223c9:0xca2aa7b8452e3f19",
+            "iid": 15492,
+            "name": "Tasty Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545669038154
+        },
+        {
+            "address": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80, 8895 Garden Grove Blvd, Garden Grove, CA 92844",
+            "category": "['Korean restaurant', 'Korean barbecue restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80dd288605040983:0xc09343ebb49c98c0",
+            "iid": 20351,
+            "name": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546362964239
+        },
+        {
+            "address": "Lotus of Siam, 953 E Sahara Ave Ste A5, Las Vegas, NV 89104",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/03/10",
+            "gmap_id": "0x80c8c47decbe13bf:0x601671d9c1b61a37",
+            "iid": 17091,
+            "name": "Lotus of Siam",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1552214214972
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Mama Tofu, 1425 Artesia Blvd UNIT 17, Gardena, CA 90248",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x80c2b5618e37142f:0x9a12fed17917e782",
+            "iid": 13718,
+            "name": "Mama Tofu",
+            "rank": 1,
+            "score": -0.40288853645324707,
+            "state": "California"
+        },
+        {
+            "address": "Curry House Japanese Curry & Spaghetti, 1425 Artesia Blvd UNIT 24, Gardena, CA 90248",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2ca9e519bf875:0x73d149ca0e1caabf",
+            "iid": 15493,
+            "name": "Curry House Japanese Curry & Spaghetti",
+            "rank": 2,
+            "score": -0.4351968467235565,
+            "state": "California"
+        },
+        {
+            "address": "Torimatsu, 1425 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2b561ea9daf01:0xf1152aa7786adf9b",
+            "iid": 13720,
+            "name": "Torimatsu",
+            "rank": 3,
+            "score": -0.4499242901802063,
+            "state": "California"
+        },
+        {
+            "address": "Teriyaki Hawaii, 1425 Artesia Blvd #34, Gardena, CA 90248",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Ice cream shop', 'Japanese restaurant']",
+            "gmap_id": "0x80c2b561761fc3c9:0xcd8bb7de6bfbce17",
+            "iid": 13717,
+            "name": "Teriyaki Hawaii",
+            "rank": 4,
+            "score": -0.47355493903160095,
+            "state": "California"
+        },
+        {
+            "address": "Gatten Sushi, 1530 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2b5616ed82069:0x4ac1cddafa0c1239",
+            "iid": 13716,
+            "name": "Gatten Sushi",
+            "rank": 5,
+            "score": -0.6303133368492126,
+            "state": "California"
+        },
+        {
+            "address": "Rascal's Teriyaki Grill, 1540 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Japanese restaurant', 'American restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b561683ba8a7:0xe869c265ef414167",
+            "iid": 13715,
+            "name": "Rascal's Teriyaki Grill",
+            "rank": 6,
+            "score": -0.6630451083183289,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 1689 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b4f9b6ba63d9:0x7108c76b438cbdc6",
+            "iid": 13692,
+            "name": "Panda Express",
+            "rank": 7,
+            "score": -0.852817714214325,
+            "state": "California"
+        },
+        {
+            "address": "O-Top Thai Restaurant, 16822 Vermont Ave, Gardena, CA 90247",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80c2ca9bb1a3ffd1:0xfeb136fc0d3f8d3d",
+            "iid": 15491,
+            "name": "O-Top Thai Restaurant",
+            "rank": 8,
+            "score": -0.8986988067626953,
+            "state": "California"
+        },
+        {
+            "address": "Pitburger, 16602 Normandie Ave, Gardena, CA 90247",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2b57d55819ee5:0x33fd234abab34f63",
+            "iid": 13738,
+            "name": "Pitburger",
+            "rank": 9,
+            "score": -0.917403519153595,
+            "state": "California"
+        },
+        {
+            "address": "N Caf\u00e9, 16814 Vermont Ave, Gardena, CA 90247",
+            "category": "['Restaurant', 'American restaurant', 'Asian restaurant', 'Family restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Salad shop', 'Seafood restaurant']",
+            "gmap_id": "0x80c2cbe7bf78654b:0xc64d29b6445478a4",
+            "iid": 15511,
+            "name": "N Caf\u00e9",
+            "rank": 10,
+            "score": -0.9192631244659424,
+            "state": "California"
+        },
+        {
+            "address": "Shin-Sen-Gumi Shabu-Shabu, 1695 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Japanese restaurant', 'Hot pot restaurant', 'Sukiyaki and Shabu Shabu restaurant']",
+            "gmap_id": "0x80c2b5641faffbb5:0x3d11e33453aaa151",
+            "iid": 13721,
+            "name": "Shin-Sen-Gumi Shabu-Shabu",
+            "rank": 11,
+            "score": -0.9215103983879089,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Central, 1740 Artesia Blvd, Gardena, CA 90248, United States",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "gmap_id": "0x80c2b56685ac2169:0xae5fe05abe26b2",
+            "iid": 13724,
+            "name": "Tokyo Central",
+            "rank": 12,
+            "score": -1.0064632892608643,
+            "state": "California"
+        },
+        {
+            "address": "Tenkatori USA, 1740 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Japanese restaurant', 'Fried chicken takeaway']",
+            "gmap_id": "0x80c2b56684d7a55f:0xf17de56c87628938",
+            "iid": 13723,
+            "name": "Tenkatori USA",
+            "rank": 13,
+            "score": -1.017776370048523,
+            "state": "California"
+        },
+        {
+            "address": "Kagura Gardena, 1740 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Tonkatsu restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2b5cae73f8bc3:0x39932a4bd20f7d56",
+            "iid": 13786,
+            "name": "Kagura Gardena",
+            "rank": 14,
+            "score": -1.0177781581878662,
+            "state": "California"
+        },
+        {
+            "address": "Hong Kong Express, 1745 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c2b561af5edaa5:0x24ef30a92e21225a",
+            "iid": 13719,
+            "name": "Hong Kong Express",
+            "rank": 15,
+            "score": -1.1023781299591064,
+            "state": "California"
+        },
+        {
+            "address": "No 1 Chef Chinese Food, 843 W Gardena Blvd, Gardena, CA 90247",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c2cb3e7ccaba79:0xe6842dcb125a525a",
+            "iid": 15501,
+            "name": "No 1 Chef Chinese Food",
+            "rank": 16,
+            "score": -1.2234580516815186,
+            "state": "California"
+        },
+        {
+            "address": "Little China Restaurant, 18026 S Western Ave, Gardena, CA 90248",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b55d6263f26f:0x14cc84ab882c697e",
+            "iid": 13714,
+            "name": "Little China Restaurant",
+            "rank": 17,
+            "score": -1.247873067855835,
+            "state": "California"
+        },
+        {
+            "address": "Western Matjib, 17905 S Western Ave, Gardena, CA 90248",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x80c2b567957bfedf:0xefe08987143e2f25",
+            "iid": 13725,
+            "name": "Western Matjib",
+            "rank": 18,
+            "score": -1.2543514966964722,
+            "state": "California"
+        },
+        {
+            "address": "Shilla Restaurant, 16944 S Western Ave, Gardena, CA 90247",
+            "category": "['Korean barbecue restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b5652d073c41:0x8d51e043de839aa8",
+            "iid": 13722,
+            "name": "Shilla Restaurant",
+            "rank": 19,
+            "score": -1.255753993988037,
+            "state": "California"
+        },
+        {
+            "address": "Tanuki no Sato, 18206 S Western Ave, Gardena, CA 90248",
+            "category": "['Japanese restaurant', 'Noodle shop', 'Soba noodle shop', 'Udon noodle restaurant']",
+            "gmap_id": "0x80c2b5235972d249:0x15be49fc3809a664",
+            "iid": 13696,
+            "name": "Tanuki no Sato",
+            "rank": 20,
+            "score": -1.3145718574523926,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Vince Dang",
+        "uid": 39865,
+        "user_id": 101335258823966012659
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 39570 Lowes Dr, Palmdale, CA 93551",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/01/11",
+            "gmap_id": "0x80c259bc4c6470f7:0x644941cad94c633b",
+            "iid": 5863,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515645610158
+        },
+        {
+            "address": "Starbucks, 4631 E Ave S, Palmdale, CA 93552",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/01/11",
+            "gmap_id": "0x80c2f899dd9d1a1b:0x722f51e2958c0f12",
+            "iid": 8695,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1515645711248
+        },
+        {
+            "address": "Starbucks, 11850 Balboa Blvd B-102, Granada Hills, CA 91344",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/02/03",
+            "gmap_id": "0x80c29ab3c7038217:0x3a2f7ce6aeaca3ed",
+            "iid": 6244,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517621239832
+        },
+        {
+            "address": "Starbucks, 26480 Bouquet Canyon Rd, Santa Clarita, CA 91350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/02/24",
+            "gmap_id": "0x80c287747828b62f:0xaf452db188fa9eee",
+            "iid": 5961,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519458989689
+        },
+        {
+            "address": "Maria Bonita Mexican Restaurant, 20655 Soledad Canyon Rd #6, Canyon Country, CA 91351",
+            "category": "['Cafe']",
+            "date": "2018/11/01",
+            "gmap_id": "0x80c287d02e537241:0xcd43f760e99896c2",
+            "iid": 5970,
+            "name": "Maria Bonita Mexican Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541111705499
+        },
+        {
+            "address": "Starbucks, 23790 Newhall Ave, Santa Clarita, CA 91321",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/25",
+            "gmap_id": "0x80c28676ae31efdf:0x3566b4b710fdcab1",
+            "iid": 5927,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1548393707699
+        },
+        {
+            "address": "Starbucks, 9157 De Soto Ave, Chatsworth, CA 91311",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/01/25",
+            "gmap_id": "0x80c29c9ad6007341:0xfe59e912a7c668ba",
+            "iid": 6324,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1548393771911
+        },
+        {
+            "address": "Starbucks, 26585 Golden Valley Rd, Santa Clarita, CA 91350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/13",
+            "gmap_id": "0x80c287cec4eddebd:0x9319a37bc9c06696",
+            "iid": 5968,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550025384146
+        },
+        {
+            "address": "Starbucks, 26925 Sierra Hwy, Santa Clarita, CA 91321",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/02/13",
+            "gmap_id": "0x80c2889465ccb8eb:0x52c9d26e32089d5d",
+            "iid": 5975,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1550025441442
+        },
+        {
+            "address": "Starbucks, 19345 Plum Canyon Rd, Santa Clarita, CA 91350",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2020/12/01",
+            "gmap_id": "0x80c2895f8c92a905:0x79dde27457e8e700",
+            "iid": 5987,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1606867095388
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 26925 Sierra Hwy, Santa Clarita, CA 91321",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2889465ccb8eb:0x52c9d26e32089d5d",
+            "iid": 5975,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.8026026487350464,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 27737 Bouquet Canyon Rd #135, Santa Clarita, CA 91350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2878cdaccaa43:0xa8261eab6bee45e2",
+            "iid": 5964,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 0.752385675907135,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 27984 Seco Canyon Rd UNIT 301, Santa Clarita, CA 91350",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27d9e09905a11:0xe849fa6d0d1f469e",
+            "iid": 5902,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.7135240435600281,
+            "state": "California"
+        },
+        {
+            "address": "Brother's Burgers, 20655 Soledad Canyon Rd, Santa Clarita, CA 91351",
+            "category": "['Breakfast restaurant', 'Cafe', 'Hamburger restaurant']",
+            "gmap_id": "0x80c287d02e537241:0x3300996901c48492",
+            "iid": 5969,
+            "name": "Brother's Burgers",
+            "rank": 4,
+            "score": 0.7053980827331543,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 16548 Soledad Canyon Rd, Santa Clarita, CA 91387",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c28908d640ba17:0xdcac66d7a362a472",
+            "iid": 5983,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": 0.6989251375198364,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 16530 Soledad Canyon Rd, Canyon Country, CA 91351",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c28908d9cf5841:0xf87f2355a0e4d9d8",
+            "iid": 5984,
+            "name": "Yum Yum Donuts",
+            "rank": 6,
+            "score": 0.6988158226013184,
+            "state": "California"
+        },
+        {
+            "address": "Corner Bakery, 24290 Valencia Blvd, Valencia, CA 91355",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "gmap_id": "0x80c2873e87c446fd:0x44b7a183cf75b842",
+            "iid": 5945,
+            "name": "Corner Bakery",
+            "rank": 7,
+            "score": 0.6955458521842957,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 19185 Golden Valley Rd, Santa Clarita, CA 91387",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80c288b857ba8b8d:0x119ae92962cd47c9",
+            "iid": 5978,
+            "name": "Panera Bread",
+            "rank": 8,
+            "score": 0.6908015012741089,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 19105 Golden Valley Rd, Santa Clarita, CA 91387",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c288b894a16517:0xb47336b0456dd444",
+            "iid": 5979,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 0.6845352053642273,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 19439 Soledad Canyon Rd, Canyon Country, CA 91351",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c288862a5b973f:0x8e843de9f72397ef",
+            "iid": 5972,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.6829412579536438,
+            "state": "California"
+        },
+        {
+            "address": "Mimi's Cafe, 24201 Magic Mountain Pkwy, Santa Clarita, CA 91355",
+            "category": "['Bistro', 'Bakery', 'Bar', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Caterer', 'French restaurant', 'Takeout Restaurant', 'Wine bar']",
+            "gmap_id": "0x80c28746892e8c1b:0x4bea092c94cdf89",
+            "iid": 5952,
+            "name": "Mimi's Cafe",
+            "rank": 11,
+            "score": 0.6818649768829346,
+            "state": "California"
+        },
+        {
+            "address": "California Bakery & Cafe, 23021 Soledad Canyon Rd, Santa Clarita, CA 91350",
+            "category": "['Bakery', 'Coffee shop']",
+            "gmap_id": "0x80c2870cac6dd83f:0x238df9627d9c50b0",
+            "iid": 5939,
+            "name": "California Bakery & Cafe",
+            "rank": 12,
+            "score": 0.6733521819114685,
+            "state": "California"
+        },
+        {
+            "address": "Manoushee Mediterranean Cafe (Plant Based), 27131 Sierra Hwy UNIT 100, Santa Clarita, CA 91351",
+            "category": "['Vegan restaurant', 'Armenian restaurant', 'Californian restaurant', 'Health food store', 'Lebanese restaurant', 'Mediterranean restaurant', 'Middle Eastern restaurant', 'Vegetarian cafe and deli', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c288ecedbf8397:0xace276c8956f6ce0",
+            "iid": 5981,
+            "name": "Manoushee Mediterranean Cafe (Plant Based)",
+            "rank": 13,
+            "score": 0.6588618755340576,
+            "state": "California"
+        },
+        {
+            "address": "Cozy Tea & Juice, 23360 Valencia Blvd b, Valencia, CA 91355, United States",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2876d3137ccb3:0xaddf2e69086a6e4b",
+            "iid": 5958,
+            "name": "Cozy Tea & Juice",
+            "rank": 14,
+            "score": 0.658037543296814,
+            "state": "California"
+        },
+        {
+            "address": "Way Station Coffee Shop, 24377 Main St, Santa Clarita, CA 91321",
+            "category": "['Diner', 'Breakfast restaurant', 'Coffee shop']",
+            "gmap_id": "0x80c286616c26d14b:0xb0445c2b5b113faf",
+            "iid": 5923,
+            "name": "Way Station Coffee Shop",
+            "rank": 15,
+            "score": 0.6556208729743958,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 27125 Sierra Hwy, Santa Clarita, CA 91351",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80c288ece935bd55:0x28cfbb1772014398",
+            "iid": 5980,
+            "name": "Dunkin'",
+            "rank": 16,
+            "score": 0.6532888412475586,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 18850 Soledad Canyon Rd, Santa Clarita, CA 91351",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2888c986105db:0x4d969d459e779e62",
+            "iid": 5974,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 0.64185631275177,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 26518 Bouquet Canyon Rd, Saugus, CA 91350",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c28775c6c5923b:0xe7b456933cd824df",
+            "iid": 5962,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.6400357484817505,
+            "state": "California"
+        },
+        {
+            "address": "Luv'n Donuts, 27051 McBean Pkwy #103, Valencia, CA 91355",
+            "category": "['Donut shop', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2874420810a85:0x92b2d10aa716a687",
+            "iid": 5950,
+            "name": "Luv'n Donuts",
+            "rank": 19,
+            "score": 0.6399003863334656,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 24251 Town Center Dr, Valencia, CA 91355",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2873f82a6ce6f:0x319b6a245bd68070",
+            "iid": 5946,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": 0.6298427581787109,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "teri hauck",
+        "uid": 117736,
+        "user_id": 115562796514357995717
+    }
+}

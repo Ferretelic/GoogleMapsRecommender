@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Makoto Japanese Steak House, 297 NJ-72, Manahawkin, NJ 08050, United States",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/10/30",
+            "gmap_id": "0x89c1064a0c0f7829:0x52807753e79c9def",
+            "iid": 57723,
+            "name": "Makoto Japanese Steak House",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1477793615721
+        },
+        {
+            "address": "Harvest Buffet, 501 U.S. 9, Waretown, NJ 08758",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "date": "2017/07/04",
+            "gmap_id": "0x89c10a0435fc2a21:0x2cd4f9e0a4bee8d5",
+            "iid": 57729,
+            "name": "Harvest Buffet",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1499175164830
+        },
+        {
+            "address": "Xina Restaurant, 3430 NJ-37, Toms River, NJ 08753",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Oyster bar restaurant', 'Sushi restaurant']",
+            "date": "2017/07/17",
+            "gmap_id": "0x89c19bf05a96636d:0x3a47da5f563250f4",
+            "iid": 57986,
+            "name": "Xina Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1500295765183
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi, 26 Union Ave, Lakehurst, NJ 08733",
+            "category": "['Chinese restaurant', 'Kyoto style Japanese restaurant', 'Restaurant']",
+            "date": "2017/12/13",
+            "gmap_id": "0x89c1772ccd9904b5:0x2c63200c7e31897b",
+            "iid": 57939,
+            "name": "Tokyo Sushi & Hibachi",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1513173993334
+        },
+        {
+            "address": "Namaste JALSA, 1504 King St, Alexandria, VA 22314",
+            "category": "['Indian restaurant', 'Bar', 'Nepalese restaurant']",
+            "date": "2017/12/28",
+            "gmap_id": "0x89b7b0fff9244c67:0x500fcca4be7704af",
+            "iid": 55997,
+            "name": "Namaste JALSA",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1514428159761
+        },
+        {
+            "address": "Li's Garden, 700 NJ-70, Lakewood, NJ 08701",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/01/22",
+            "gmap_id": "0x89c182eaef1009bd:0x9ff6185673edbea1",
+            "iid": 57957,
+            "name": "Li's Garden",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1516587157172
+        },
+        {
+            "address": "P.F. Chang's, 3710 U.S. 9 Ste 2817, Freehold Township, NJ 07728",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x89c3d5750027851f:0x25716ea4ac2e93e8",
+            "iid": 64950,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1523322743645
+        },
+        {
+            "address": "Tan's Garden Chinese Restaurant, 297 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/16",
+            "gmap_id": "0x89c10635e8dfc0b9:0x9bd10f8a6d1e4f5f",
+            "iid": 57722,
+            "name": "Tan's Garden Chinese Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1542391380503
+        },
+        {
+            "address": "Fuji72 Hibachi & Sushi (Manahawkin), 626 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/01/29",
+            "gmap_id": "0x89c10791bef2ca9d:0x95f5ba933b50770a",
+            "iid": 57725,
+            "name": "Fuji72 Hibachi & Sushi (Manahawkin)",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1548727032034
+        },
+        {
+            "address": "Golden Gate Express, 1851 NJ-35, Seaside Heights, NJ 08751",
+            "category": "['Chinese restaurant']",
+            "date": "2021/01/26",
+            "gmap_id": "0x89c19a4c9743b777:0xc6ac9b7a3ed578b9",
+            "iid": 57985,
+            "name": "Golden Gate Express",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1611666820695
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Pho Viet Express, 1222 NJ-166, Toms River, NJ 08753",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80d951c96859fd0f:0x48d97f4f75ccefc2",
+            "iid": 17829,
+            "name": "Pho Viet Express",
+            "rank": 1,
+            "score": 6.097964763641357,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Aamantran, 1594 U.S. 9 #3, Toms River, NJ 08755",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c19d619057c93b:0xd332607df5ddf3ff",
+            "iid": 57993,
+            "name": "Aamantran",
+            "rank": 2,
+            "score": 6.021302700042725,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Ichiban Toms River Japanese Hibachi Steakhouse & Sushi, 1201 Hooper Ave Unit 1096A, Toms River, NJ 08753",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x89c19daf89f0ed6f:0x6ce8a566a7db7fbd",
+            "iid": 57997,
+            "name": "Ichiban Toms River Japanese Hibachi Steakhouse & Sushi",
+            "rank": 3,
+            "score": 5.953911304473877,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Siam Spice Thai Cuisine, 1174 Fischer Blvd, Toms River, NJ 08753",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89c19cf2e702896b:0x5754c2191b7b8877",
+            "iid": 57991,
+            "name": "Siam Spice Thai Cuisine",
+            "rank": 4,
+            "score": 5.670709133148193,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pan Asia, 416 S Main St, Forked River, NJ 08731",
+            "category": "['Pan-Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x89c1a060d1e0a5d3:0x783e8d010b339be1",
+            "iid": 58008,
+            "name": "Pan Asia",
+            "rank": 5,
+            "score": 5.658468246459961,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Koi Asian Fusion Lounge (25 Brick Blvd, Brick Location, NJ), 25 Brick Blvd, Brick Township, NJ 08723, United States",
+            "category": "['Sushi restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c1834b2c6c7ea5:0xbe6ff0e1f17d4c7c",
+            "iid": 57958,
+            "name": "Koi Asian Fusion Lounge (25 Brick Blvd, Brick Location, NJ)",
+            "rank": 6,
+            "score": 5.446132659912109,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Fuji Japanese Steakhouse Hibachi & Sushi (Forked River), 131 U.S. 9, Forked River, NJ 08731",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c1a0431dd856eb:0x922aa70ff9be402e",
+            "iid": 58007,
+            "name": "Fuji Japanese Steakhouse Hibachi & Sushi (Forked River)",
+            "rank": 7,
+            "score": 5.43750524520874,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Uminoya Sushi & Hibachi Restaurant, 1830 Hooper Ave, Toms River, NJ 08753",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c19cc78a8e0311:0x469d514e258d487f",
+            "iid": 57990,
+            "name": "Uminoya Sushi & Hibachi Restaurant",
+            "rank": 8,
+            "score": 5.401610374450684,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Ikko Japanese steakhouse, 107 Brick Plaza, Brick Township, NJ 08723",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c18376966dc751:0x490b8e87aa69809c",
+            "iid": 57961,
+            "name": "Ikko Japanese steakhouse",
+            "rank": 9,
+            "score": 5.3015217781066895,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Teresa's Osaka Japanese Restaurant, 7165, 1801 NJ-37, Toms River, NJ 08753",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c19c1873afd17f:0x6e6fbac2fd52e611",
+            "iid": 57987,
+            "name": "Teresa's Osaka Japanese Restaurant",
+            "rank": 10,
+            "score": 5.2466583251953125,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Herbs Thai Kitchen, 1789 NJ-88, Brick Township, NJ 08724",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c18385e0667ced:0xd06cd42fff80d747",
+            "iid": 57963,
+            "name": "Herbs Thai Kitchen",
+            "rank": 11,
+            "score": 5.187994956970215,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Koi Hibachi & Kitchen (Indian Head Road, Toms River, NJ), 1256 Indian Head Rd, Toms River, NJ 08755",
+            "category": "['Japanese restaurant', 'Art gallery', 'Chinese restaurant', 'Museum', 'Thai restaurant']",
+            "gmap_id": "0x89c19d73d88dac21:0xf8565c9146e10e4",
+            "iid": 57995,
+            "name": "Koi Hibachi & Kitchen (Indian Head Road, Toms River, NJ)",
+            "rank": 12,
+            "score": 4.987370491027832,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Pho Tastic Vietnamese Restaurant, 905 NJ-70 E, Brick Township, NJ 08724",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c185020e0f6ebf:0x26db220d28572963",
+            "iid": 57971,
+            "name": "Pho Tastic Vietnamese Restaurant",
+            "rank": 13,
+            "score": 4.973341464996338,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Siam Basil Thai Restaurant, 2161 NJ-35, Sea Girt, NJ 08750",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89c187b1ab9d1f65:0x11f3ac1eb4e2af3f",
+            "iid": 57983,
+            "name": "Siam Basil Thai Restaurant",
+            "rank": 14,
+            "score": 4.95357608795166,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Koto Japanese Restaurant, 21 S Hope Chapel Rd, Jackson Township, NJ 08527",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c17901c1535c4d:0x1d1899cf3c76d209",
+            "iid": 57943,
+            "name": "Koto Japanese Restaurant",
+            "rank": 15,
+            "score": 4.952531337738037,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Dream Sushi Asian Fusion, 43 NJ-37, Toms River, NJ 08753",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c19dc5e01c311f:0x5221fbcdba6f93b8",
+            "iid": 57998,
+            "name": "Dream Sushi Asian Fusion",
+            "rank": 16,
+            "score": 4.785635471343994,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China Wok, 1636 Route 72 W, Manahawkin, NJ 08050",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c108ba4eff1167:0xe641ea4fb7831db0",
+            "iid": 57727,
+            "name": "China Wok",
+            "rank": 17,
+            "score": 4.777029991149902,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Asian Gourmet, 25 S Main St, Manahawkin, NJ 08050",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Gourmet grocery store', 'Japanese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c107b5cdeb98ef:0x9f984a1f394cb8f0",
+            "iid": 57726,
+            "name": "Asian Gourmet",
+            "rank": 18,
+            "score": 4.72426176071167,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Fuji72 Hibachi & Sushi (Manahawkin), 626 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c10791bef2ca9d:0x95f5ba933b50770a",
+            "iid": 57725,
+            "name": "Fuji72 Hibachi & Sushi (Manahawkin)",
+            "rank": 19,
+            "score": 4.580419540405273,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Ichiban Oakhurst Japanese Hibachi Steakhouse & Sushi, 2132 NJ-35, Oakhurst, NJ 07755",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c22f687b6ebfc1:0x3a792d461deae7c0",
+            "iid": 58037,
+            "name": "Ichiban Oakhurst Japanese Hibachi Steakhouse & Sushi",
+            "rank": 20,
+            "score": 4.573545455932617,
+            "state": "New_Jersey"
+        }
+    ],
+    "user": {
+        "name": "Jerry Thompson",
+        "uid": 99104,
+        "user_id": 103328603639559535202
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Taste of india, 902 E Brandon Blvd, Brandon, FL 33511",
+            "category": "['Indian restaurant', 'Indian grocery store']",
+            "date": "2016/10/16",
+            "gmap_id": "0x88c2cdb246f322fd:0xe368a07222e41157",
+            "iid": 47136,
+            "name": "Taste of india",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1476642381111
+        },
+        {
+            "address": "Lotus Vegetarian, 13872 Metrotech Dr, Chantilly, VA 20151",
+            "category": "['Vegetarian restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Vegan restaurant']",
+            "date": "2016/10/18",
+            "gmap_id": "0x89b6468749d700e1:0x99b9d77482d31a2f",
+            "iid": 55362,
+            "name": "Lotus Vegetarian",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1476818006131
+        },
+        {
+            "address": "Bowl of Pho, 5626 Grape Rd, Mishawaka, IN 46545",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/11/05",
+            "gmap_id": "0x8816d210deac46a9:0x603e0f679f7af740",
+            "iid": 38521,
+            "name": "Bowl of Pho",
+            "split": "train",
+            "state": "Indiana",
+            "unix_time": 1478368377164
+        },
+        {
+            "address": "Bowl of Pho, 5626 Grape Rd, Mishawaka, IN 46545",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2016/11/05",
+            "gmap_id": "0x8816d210deac46a9:0x603e0f679f7af740",
+            "iid": 38521,
+            "name": "Bowl of Pho",
+            "split": "train",
+            "state": "Indiana",
+            "unix_time": 1478368377164
+        },
+        {
+            "address": "Ginger Thai Cuisine, 111 W 2nd St, Cedar Falls, IA 50613",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2016/11/23",
+            "gmap_id": "0x87faaaba298ee991:0x3698cc57ec2c7742",
+            "iid": 35232,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Iowa",
+            "unix_time": 1479914356933
+        },
+        {
+            "address": "Pei Wei Asian Kitchen, 1816 N Westshore Blvd, Tampa, FL 33607",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant']",
+            "date": "2017/02/03",
+            "gmap_id": "0x88c2c25677037d3b:0x906330849524100",
+            "iid": 46998,
+            "name": "Pei Wei Asian Kitchen",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486146320012
+        },
+        {
+            "address": "Thai Jasmine Restaurant, 10900 Kingspoint Rd, Houston, TX 77075",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/09/28",
+            "gmap_id": "0x864097602af8aea1:0x8a2cab11274e3e29",
+            "iid": 22710,
+            "name": "Thai Jasmine Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506557465116
+        },
+        {
+            "address": "Thai\ud83c\udf36Hot, 921 Lithia Pinecrest Rd, Brandon, FL 33511",
+            "category": "['Thai restaurant', 'Family restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x88c2cdbc9877a22b:0xb1d03567a398d6a5",
+            "iid": 47139,
+            "name": "Thai\ud83c\udf36Hot",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1510776960363
+        },
+        {
+            "address": "Zen Bistro, 223 Magnolia Ave, Daytona Beach, FL 32114",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x88e6da28b1c6f0dd:0xd21a52fe01bfb84c",
+            "iid": 50053,
+            "name": "Zen Bistro",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1532748797112
+        },
+        {
+            "address": "Blu Basil Wine and Grill, 5451 Johnston St, Lafayette, LA 70503",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Cocktail bar', 'Pho restaurant', 'Seafood restaurant', 'Steak house', 'Wine bar']",
+            "date": "2020/11/13",
+            "gmap_id": "0x86249e7a2c68980b:0xbfd4f4828c5ef919",
+            "iid": 22046,
+            "name": "Blu Basil Wine and Grill",
+            "split": "valid",
+            "state": "Louisiana",
+            "unix_time": 1605235256710
+        },
+        {
+            "address": "Thai Spice, 1514 E Commercial Blvd, Fort Lauderdale, FL 33334",
+            "category": "['Seafood restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Fine dining restaurant', 'Restaurant', 'Steak house', 'Thai restaurant', 'Wine bar']",
+            "date": "2020/11/13",
+            "gmap_id": "0x88d9023b9b3270cf:0x21b6fe52d9eb7da",
+            "iid": 47847,
+            "name": "Thai Spice",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1605294643786
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 1421 Turner McCall Blvd, Rome, GA 30161",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x888aa51a55bc4677:0x3acba75708a2ee45",
+            "iid": 46109,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": -13.177042007446289,
+            "state": "Georgia"
+        },
+        {
+            "address": "Yummy Thai, 526 Broad St, Rome, GA 30161",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x888aa4bf82d152e5:0xfe53ffe96713add8",
+            "iid": 46108,
+            "name": "Yummy Thai",
+            "rank": 2,
+            "score": -14.022698402404785,
+            "state": "Georgia"
+        },
+        {
+            "address": "Ichiban Japanese Steak and Sushi, 481 Turner McCall Blvd NE, Rome, GA 30165",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x888aa497ae64dc33:0x23ce1e29009dc929",
+            "iid": 46106,
+            "name": "Ichiban Japanese Steak and Sushi",
+            "rank": 3,
+            "score": -14.873676300048828,
+            "state": "Georgia"
+        },
+        {
+            "address": "Happy Wok, 467 Turner McCall Blvd NE, Rome, GA 30165",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x888aa497a813a771:0x5086ff4f5da3cb4d",
+            "iid": 46105,
+            "name": "Happy Wok",
+            "rank": 4,
+            "score": -14.976946830749512,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sumo Japanese Steak House, 1301 Martha Berry Blvd NE, Rome, GA 30165",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x888aa49a59287f11:0x63e6a72805683d0f",
+            "iid": 46107,
+            "name": "Sumo Japanese Steak House",
+            "rank": 5,
+            "score": -15.638211250305176,
+            "state": "Georgia"
+        },
+        {
+            "address": "China City Restaurant, 1803 Martha Berry Blvd NE #1, Rome, GA 30165",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x888aa48427e40aed:0x97048c7d9d9f5871",
+            "iid": 46104,
+            "name": "China City Restaurant",
+            "rank": 6,
+            "score": -16.39842414855957,
+            "state": "Georgia"
+        },
+        {
+            "address": "SoHo Hibachi, 1505 Shorter Ave NW, Rome, GA 30165",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x888aa312544f4487:0xab085f6e00b8911",
+            "iid": 46102,
+            "name": "SoHo Hibachi",
+            "rank": 7,
+            "score": -17.949851989746094,
+            "state": "Georgia"
+        },
+        {
+            "address": "Tang's Garden, 1803 Shorter Ave, Rome, GA 30165",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x888aa3119a36108b:0xb2a4dda46a788575",
+            "iid": 46101,
+            "name": "Tang's Garden",
+            "rank": 8,
+            "score": -18.241474151611328,
+            "state": "Georgia"
+        },
+        {
+            "address": "House of China, 636 E Elm St, Rockmart, GA 30153",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x888ac96d6cd82737:0x67867ce4f08f5f86",
+            "iid": 46113,
+            "name": "House of China",
+            "rank": 9,
+            "score": -19.02312660217285,
+            "state": "Georgia"
+        },
+        {
+            "address": "New China Buffet, 2529 Redmond Cir NW, Rome, GA 30165",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x888aa302c2cd32a5:0x47614acd861e130",
+            "iid": 46100,
+            "name": "New China Buffet",
+            "rank": 10,
+            "score": -19.25641632080078,
+            "state": "Georgia"
+        },
+        {
+            "address": "Jasmine Thai Cuisine, 1800 Redmond Cir, Rome, GA 30165",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x888aa3a6db85146d:0xb3a2ba2caab96dd9",
+            "iid": 46103,
+            "name": "Jasmine Thai Cuisine",
+            "rank": 11,
+            "score": -19.45749282836914,
+            "state": "Georgia"
+        },
+        {
+            "address": "Golden Crown Chinese Restaurant, 1850 Redmond Cir, Rome, GA 30165",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x888abb37f53a8e5d:0x3b8ef35c290b4f8d",
+            "iid": 46110,
+            "name": "Golden Crown Chinese Restaurant",
+            "rank": 12,
+            "score": -19.66309928894043,
+            "state": "Georgia"
+        },
+        {
+            "address": "Best China Chinese Restaurant, 12 Euharlee Rd ste i, Cartersville, GA 30120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f54ec6508cf387:0x427bf2b966846c40",
+            "iid": 51895,
+            "name": "Best China Chinese Restaurant",
+            "rank": 13,
+            "score": -21.12578773498535,
+            "state": "Georgia"
+        },
+        {
+            "address": "China One, 1569 Rome Hwy, Cedartown, GA 30125",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x888ac0637a9c67ab:0x9d41883b05cdb2dc",
+            "iid": 46112,
+            "name": "China One",
+            "rank": 14,
+            "score": -21.324703216552734,
+            "state": "Georgia"
+        },
+        {
+            "address": "Mr.Eggroll, 267 Cassville Rd, Cartersville, GA 30120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f54e54ca7a1685:0x648c469102f7ef5",
+            "iid": 51894,
+            "name": "Mr.Eggroll",
+            "rank": 15,
+            "score": -22.680660247802734,
+            "state": "Georgia"
+        },
+        {
+            "address": "Grand China, 416 Grassdale Rd, Cartersville, GA 30121",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x88f54e33cc1306a7:0x329c326c3c5fd04",
+            "iid": 51893,
+            "name": "Grand China",
+            "rank": 16,
+            "score": -22.71284294128418,
+            "state": "Georgia"
+        },
+        {
+            "address": "Chef Chen Buffet, Town Plaza, 310 N Main St, Cedartown, GA 30125",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x888ac0352e90362d:0xf8917ef37533111d",
+            "iid": 46111,
+            "name": "Chef Chen Buffet",
+            "rank": 17,
+            "score": -24.140913009643555,
+            "state": "Georgia"
+        },
+        {
+            "address": "Okinawa Hibachi & Sushi, 5134 Joe Frank Harris Pkwy NW, Adairsville, GA 30103",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f554efd32b8ab5:0x194b58ed94be86",
+            "iid": 51904,
+            "name": "Okinawa Hibachi & Sushi",
+            "rank": 18,
+            "score": -24.189546585083008,
+            "state": "Georgia"
+        },
+        {
+            "address": "Okinawa -Cartersville, 1010 N Tennessee St, Cartersville, GA 30120",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f54fbce2456a61:0xd7f9707d92c4298b",
+            "iid": 51902,
+            "name": "Okinawa -Cartersville",
+            "rank": 19,
+            "score": -24.382810592651367,
+            "state": "Georgia"
+        },
+        {
+            "address": "OEC CHINESE EXPRESS, 959 Joe Frank Harris Pkwy SE, Cartersville, GA 30120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f54f0501581fcf:0xcaffa56eb659b697",
+            "iid": 51896,
+            "name": "OEC CHINESE EXPRESS",
+            "rank": 20,
+            "score": -24.74310302734375,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Marc Salveson",
+        "uid": 304102,
+        "user_id": 110187390938213596410
+    }
+}

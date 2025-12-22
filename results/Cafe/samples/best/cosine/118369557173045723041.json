@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Groundwork Coffee Co., 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80c295ee3084ae23:0x8c9cf421dbc876c9",
+            "iid": 6097,
+            "name": "Groundwork Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535585730204
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634841758
+        },
+        {
+            "address": "Arizmendi Bakery, 3265 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x808f874190045807:0x2eeb5a2233b2e795",
+            "iid": 3098,
+            "name": "Arizmendi Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634879130
+        },
+        {
+            "address": "Yum Yum Donuts, 11699 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c295fcad40fe95:0x64a60cef1a0f6da2",
+            "iid": 6109,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575431639513
+        },
+        {
+            "address": "Idle Hour, 4824 Vineland Ave, Los Angeles, CA 91601",
+            "category": "['Cocktail bar', 'American restaurant', 'Cafe']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1ff11986bd:0xcc42bc2563a5e06f",
+            "iid": 7317,
+            "name": "Idle Hour",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432342486
+        },
+        {
+            "address": "Tribal Cafe, 1651 W Temple St, Los Angeles, CA 90026",
+            "category": "['Health food restaurant', 'Espresso bar', 'Juice shop', 'Salad shop', 'Sandwich shop', 'Traditional restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c705de85656b:0x859d68549af844c5",
+            "iid": 7930,
+            "name": "Tribal Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432632193
+        },
+        {
+            "address": "Boba Guys - Rideback Ranch, 1670 Beverly Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Bubble tea store']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c70ea768c6cb:0x431659f4f8a3f779",
+            "iid": 7939,
+            "name": "Boba Guys - Rideback Ranch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432639051
+        },
+        {
+            "address": "Tierra Mia Coffee, 653 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c635502a0037:0x419fb186110d7a32",
+            "iid": 7836,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432914813
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1575432958758
+        },
+        {
+            "address": "Patys Restaurant, 10001 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Diner', 'Gluten-free restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be325c7d3801:0xc4272e5c703640a",
+            "iid": 7323,
+            "name": "Patys Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575433047692
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Chokolatta, 5264 Tujunga Ave, North Hollywood, CA 91601",
+            "category": "['Chocolate cafe', 'Chocolate shop', 'Cr\u00eaperie']",
+            "gmap_id": "0x80c295f02e658f75:0x8fbfeba66fcb4478",
+            "iid": 6099,
+            "name": "Chokolatta",
+            "rank": 1,
+            "score": 0.549116849899292,
+            "state": "California"
+        },
+        {
+            "address": "Lankershim Train Depot, 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop', 'Tourist attraction']",
+            "gmap_id": "0x80c295ee3af4753d:0x561bcd30c997e22e",
+            "iid": 6098,
+            "name": "Lankershim Train Depot",
+            "rank": 2,
+            "score": 0.5176073312759399,
+            "state": "California"
+        },
+        {
+            "address": "EAT, 11108 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x80c295f39f46887f:0x7392e764cd8f13a8",
+            "iid": 6104,
+            "name": "EAT",
+            "rank": 3,
+            "score": 0.49386921525001526,
+            "state": "California"
+        },
+        {
+            "address": "Black Bottom Southern Kitchen, 4806 Vineland Ave, North Hollywood, CA 91601",
+            "category": "['Cafe', 'Takeout Restaurant', 'Restaurant', 'Soul food restaurant', 'Southern restaurant (US)']",
+            "gmap_id": "0x80c2be1f8b6e3497:0x302c1f7eb1f9bfa7",
+            "iid": 7315,
+            "name": "Black Bottom Southern Kitchen",
+            "rank": 4,
+            "score": 0.489685982465744,
+            "state": "California"
+        },
+        {
+            "address": "City Kitchen Cafe, 5225 Lankershim Blvd, Los Angeles, CA 91601",
+            "category": "['Restaurant', 'Cafe']",
+            "gmap_id": "0x80c295f1807c0105:0x63750eea3350f399",
+            "iid": 6100,
+            "name": "City Kitchen Cafe",
+            "rank": 5,
+            "score": 0.4787273406982422,
+            "state": "California"
+        },
+        {
+            "address": "Joe Coffee - TEMPORARILY CLOSED, 5251 Lankershim Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c295f188238aa1:0x8b15030fcac0793f",
+            "iid": 6101,
+            "name": "Joe Coffee - TEMPORARILY CLOSED",
+            "rank": 6,
+            "score": 0.4759872853755951,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 5300 Lankershim Blvd, North Hollywood, CA 91601",
+            "category": "['Sandwich shop', 'Bakery', 'Cafe', 'Caterer', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80c295f1f8e322ed:0x5a0200dd107ed978",
+            "iid": 6103,
+            "name": "Panera Bread",
+            "rank": 7,
+            "score": 0.4497282803058624,
+            "state": "California"
+        },
+        {
+            "address": "Bloom & Plume Coffee, 1638 W Temple St, Los Angeles, CA 90026",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c706772172dd:0xea534a2e1e0251fc",
+            "iid": 7931,
+            "name": "Bloom & Plume Coffee",
+            "rank": 8,
+            "score": 0.43610453605651855,
+            "state": "California"
+        },
+        {
+            "address": "Wake & Bake, 5038 Vineland Ave, North Hollywood, CA 91601",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Event venue', 'Local medical services']",
+            "gmap_id": "0x80c295f4d1c2a3e7:0xb8ac866b96df4769",
+            "iid": 6107,
+            "name": "Wake & Bake",
+            "rank": 9,
+            "score": 0.4341139495372772,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 11055 Burbank Blvd, North Hollywood, CA 91601",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c295ecf089eae9:0x63e3c1f5ba1bd977",
+            "iid": 6096,
+            "name": "McDonald's",
+            "rank": 10,
+            "score": 0.43313491344451904,
+            "state": "California"
+        },
+        {
+            "address": "Moby's Coffee & Tea Co., 5668 Cahuenga Blvd, North Hollywood, CA 91601",
+            "category": "['Cafe', 'Espresso bar']",
+            "gmap_id": "0x80c29591a61edf49:0xedda6459573e38da",
+            "iid": 6082,
+            "name": "Moby's Coffee & Tea Co.",
+            "rank": 11,
+            "score": 0.4285699427127838,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4853 Lankershim Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2be1fdfce307d:0x4f0022c3194f200b",
+            "iid": 7316,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.41976410150527954,
+            "state": "California"
+        },
+        {
+            "address": "Brooklyn Bagel Bakery, 2223 Beverly Blvd, Los Angeles, CA 90057",
+            "category": "['Bagel shop', 'Bakery', 'Cafe', 'Catering food and drink supplier', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2c70c410288dd:0xfb1d08a049af647",
+            "iid": 7936,
+            "name": "Brooklyn Bagel Bakery",
+            "rank": 13,
+            "score": 0.4183475077152252,
+            "state": "California"
+        },
+        {
+            "address": "SteamPunk Coffeebar And Kitchen, 12526 Burbank Blvd, Valley Village, CA 91607",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Restaurant']",
+            "gmap_id": "0x80c2966d14e0c2a5:0x3d8f80173a253349",
+            "iid": 6129,
+            "name": "SteamPunk Coffeebar And Kitchen",
+            "rank": 14,
+            "score": 0.4146760404109955,
+            "state": "California"
+        },
+        {
+            "address": "TEAPOP, 5050 Vineland Ave, North Hollywood, CA 91601",
+            "category": "['Tea house', 'Bubble tea store', 'Cafe', 'Event venue']",
+            "gmap_id": "0x80c295f4ce713415:0x76e8e7711378c0f0",
+            "iid": 6106,
+            "name": "TEAPOP",
+            "rank": 15,
+            "score": 0.41390928626060486,
+            "state": "California"
+        },
+        {
+            "address": "Clark Street Echo Park, 331 Glendale Blvd, Los Angeles, CA 90026",
+            "category": "['Bakery', 'Breakfast restaurant', 'Coffee shop', 'Lunch restaurant', 'Pastry shop']",
+            "gmap_id": "0x80c2c76472557fc3:0xcde35f4f34c95fe3",
+            "iid": 8010,
+            "name": "Clark Street Echo Park",
+            "rank": 16,
+            "score": 0.4137393534183502,
+            "state": "California"
+        },
+        {
+            "address": "Crave Cafe, 11992 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2bdfd4fc1d6c7:0x13b7ee84fe884945",
+            "iid": 7306,
+            "name": "Crave Cafe",
+            "rank": 17,
+            "score": 0.4045504629611969,
+            "state": "California"
+        },
+        {
+            "address": "Boba Guys NoHo, 11135 W Magnolia Blvd Unit 170, North Hollywood, CA 91601",
+            "category": "['Cafe', 'Bubble tea store']",
+            "gmap_id": "0x80c2959e6854b019:0x806a04d80be5c01a",
+            "iid": 6084,
+            "name": "Boba Guys NoHo",
+            "rank": 18,
+            "score": 0.39486196637153625,
+            "state": "California"
+        },
+        {
+            "address": "Chill Frozen Yogurt, Crepes and Coffee, 11706 Moorpark St, Studio City, CA 91604",
+            "category": "['Cafe', 'Coffee shop', 'Cr\u00eaperie', 'Frozen yogurt shop', 'Tea house']",
+            "gmap_id": "0x80c2be01458e4739:0x5df50eb4e4bc2e19",
+            "iid": 7307,
+            "name": "Chill Frozen Yogurt, Crepes and Coffee",
+            "rank": 19,
+            "score": 0.3829001784324646,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 5300 Lankershim Blvd #115, Los Angeles, CA 91601",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c295f1f8e322ed:0x404a1f406c4d0b6b",
+            "iid": 6102,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 20,
+            "score": 0.38058561086654663,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dayan Romero",
+        "uid": 139315,
+        "user_id": 118369557173045723041
+    }
+}

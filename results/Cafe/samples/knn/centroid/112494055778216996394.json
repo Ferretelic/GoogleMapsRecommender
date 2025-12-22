@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Rooster Cafe, 750 St Clair St, Costa Mesa, CA 92626",
+            "category": "['Cafe', 'American restaurant', 'Restaurant']",
+            "date": "2020/02/08",
+            "gmap_id": "0x80dcdf1a21233cb3:0x34789a8695fb213c",
+            "iid": 11463,
+            "name": "Rooster Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581191656788
+        },
+        {
+            "address": "Bruegger's Bagels, 4678 Campus Dr, Newport Beach, CA 92660",
+            "category": "['Bagel shop', 'Breakfast restaurant', 'Cafe', 'Caterer', 'Coffee shop', 'Sandwich shop']",
+            "date": "2020/02/08",
+            "gmap_id": "0x80dcdef70d89379d:0x38b67d6a60bde03c",
+            "iid": 11451,
+            "name": "Bruegger's Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581191709068
+        },
+        {
+            "address": "Sidecar Doughnuts & Coffee, 270 E 17th St #18, Costa Mesa, CA 92627",
+            "category": "['Donut shop', 'Coffee shop']",
+            "date": "2020/02/08",
+            "gmap_id": "0x80dcdff3211860d1:0x505cfce220d4d5b8",
+            "iid": 11546,
+            "name": "Sidecar Doughnuts & Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581191757142
+        },
+        {
+            "address": "Cafe Mimosa, 243 Avenida Del Mar, San Clemente, CA 92672",
+            "category": "['French restaurant', 'Bistro', 'Brunch restaurant', 'Cafe', 'Charcuterie', 'Coffee shop', 'Lunch restaurant', 'Restaurant']",
+            "date": "2020/02/08",
+            "gmap_id": "0x80dcf46c61d8f525:0xe38ed70eb5a15081",
+            "iid": 11815,
+            "name": "Cafe Mimosa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581191804502
+        },
+        {
+            "address": "Corner Bakery, 1040 W Imperial Hwy Ste B111, La Habra, CA 90631",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "date": "2020/02/19",
+            "gmap_id": "0x80dd2ac35a8ad52d:0x6c23d658bbf19c1c",
+            "iid": 12075,
+            "name": "Corner Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582079762965
+        },
+        {
+            "address": "Bodhi Leaf Coffee Traders, 20025 Lake Forest Dr STE 101, Lake Forest, CA 92630",
+            "category": "['Coffee shop']",
+            "date": "2020/02/27",
+            "gmap_id": "0x80dce9e6ac4a56a1:0x6e2dd7a5ec74c0f0",
+            "iid": 11686,
+            "name": "Bodhi Leaf Coffee Traders",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582772915153
+        },
+        {
+            "address": "Spill the Beans Coffee and Bagels, 555 Market St, San Diego, CA 92101",
+            "category": "['Coffee shop']",
+            "date": "2020/07/09",
+            "gmap_id": "0x80d95359bce1b455:0x19c0ac0f5e37590d",
+            "iid": 9406,
+            "name": "Spill the Beans Coffee and Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1594323960744
+        },
+        {
+            "address": "Kitchen In The Canyon, 845 Laguna Canyon Rd, Laguna Beach, CA 92651",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2020/10/27",
+            "gmap_id": "0x80dce5b540d02ed1:0x40e503f87103df05",
+            "iid": 11599,
+            "name": "Kitchen In The Canyon",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1603768740922
+        },
+        {
+            "address": "Starbucks, 137 Newport Center Dr, Newport Beach, CA 92660",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2021/01/24",
+            "gmap_id": "0x80dce08671372f15:0x2e1048d24ef098e3",
+            "iid": 11562,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1611460963135
+        },
+        {
+            "address": "Corner Bakery, 23702 El Toro Rd, Lake Forest, CA 92630",
+            "category": "['Sandwich shop', 'American restaurant', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "date": "2021/03/24",
+            "gmap_id": "0x80dce8f091318327:0x77d9d4b7bbfc5876",
+            "iid": 11650,
+            "name": "Corner Bakery",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616619169578
+        },
+        {
+            "address": "Noble Folk Ice Cream & Pie Bar, 116 Matheson St, Healdsburg, CA 95448",
+            "category": "['Ice cream shop', 'Coffee shop', 'Pie shop', 'Restaurant']",
+            "date": "2021/04/04",
+            "gmap_id": "0x808417315b3b7f13:0x487cc7fbcd3c8a23",
+            "iid": 360,
+            "name": "Noble Folk Ice Cream & Pie Bar",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1617505051858
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Pearl St. General, 1796 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Coffee shop', 'Bar', 'Grocery store']",
+            "gmap_id": "0x80dce5a6385ecd03:0xcad3025cb1bebaac",
+            "iid": 11591,
+            "name": "Pearl St. General",
+            "rank": 1,
+            "score": -2.6577138900756836,
+            "state": "California"
+        },
+        {
+            "address": "Koffee Klatch, 1440 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dce5af16e2a717:0x8d655b9924d01a68",
+            "iid": 11594,
+            "name": "Koffee Klatch",
+            "rank": 2,
+            "score": -2.792558431625366,
+            "state": "California"
+        },
+        {
+            "address": "Aliso Coffee & Donut, 27782 Aliso Creek Rd # B, Aliso Viejo, CA 92656",
+            "category": "['Donut shop', 'Breakfast restaurant', 'Cafe']",
+            "gmap_id": "0x80dcef42d1f6c56f:0x637f66f441218fe5",
+            "iid": 11740,
+            "name": "Aliso Coffee & Donut",
+            "rank": 3,
+            "score": -2.8423819541931152,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Heidelberg, 1100 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Coffee shop', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x80dce5ae189b5089:0x1c21b2c7be747666",
+            "iid": 11592,
+            "name": "Cafe Heidelberg",
+            "rank": 4,
+            "score": -2.8924922943115234,
+            "state": "California"
+        },
+        {
+            "address": "Banzai Bowls, 1100 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Health food restaurant', 'Brazilian restaurant', 'Breakfast restaurant', 'Cafe', 'Juice shop']",
+            "gmap_id": "0x80dce5ae189b5089:0x54e4ee30e32751bc",
+            "iid": 11593,
+            "name": "Banzai Bowls",
+            "rank": 5,
+            "score": -2.9107251167297363,
+            "state": "California"
+        },
+        {
+            "address": "Laguna Coffee Company, 1050 S Coast Hwy St B, Laguna Beach, CA 92651",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dce5b1e0464265:0x6af613fd45b07041",
+            "iid": 11595,
+            "name": "Laguna Coffee Company",
+            "rank": 6,
+            "score": -2.9240124225616455,
+            "state": "California"
+        },
+        {
+            "address": "Active Culture, 1006 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Cafe', 'Frozen yogurt shop']",
+            "gmap_id": "0x80dce5b1e5d0c241:0x33a145e94f4b264a",
+            "iid": 11596,
+            "name": "Active Culture",
+            "rank": 7,
+            "score": -2.9418022632598877,
+            "state": "California"
+        },
+        {
+            "address": "Penguin Cafe, 981 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Breakfast restaurant', 'Cafe', 'Diner', 'Lunch restaurant']",
+            "gmap_id": "0x80dce5b1f125a4b1:0x2ee47255229f23f",
+            "iid": 11597,
+            "name": "Penguin Cafe",
+            "rank": 8,
+            "score": -2.995620012283325,
+            "state": "California"
+        },
+        {
+            "address": "Orange Inn, 703 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Hamburger restaurant', 'Juice shop', 'Sandwich shop', 'Vegetarian restaurant']",
+            "gmap_id": "0x80dce5b3c72186db:0x94ef3d5eb06d26f4",
+            "iid": 11598,
+            "name": "Orange Inn",
+            "rank": 9,
+            "score": -3.1011106967926025,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 30065 Alicia Pkwy, Laguna Niguel, CA 92677",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcef970bd30c1f:0x5d3686d5879fae1",
+            "iid": 11752,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -3.167487621307373,
+            "state": "California"
+        },
+        {
+            "address": "The Grove on Forest, 384 Forest Ave #4, Laguna Beach, CA 92651",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dce5ca8fcb195b:0xed7473ce3472c2ae",
+            "iid": 11602,
+            "name": "The Grove on Forest",
+            "rank": 11,
+            "score": -3.311866521835327,
+            "state": "California"
+        },
+        {
+            "address": "Anastasia Cafe, 460 Ocean Ave, Laguna Beach, CA 92651",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dce5cae4d80553:0xd00b8e48b5fe8a7d",
+            "iid": 11604,
+            "name": "Anastasia Cafe",
+            "rank": 12,
+            "score": -3.3245022296905518,
+            "state": "California"
+        },
+        {
+            "address": "Harmony Tea Bar, 305 Forest Ave #103, Laguna Beach, CA 92651",
+            "category": "['Bubble tea store', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x80dce5b56473476d:0xf373ec2c7666aa00",
+            "iid": 11601,
+            "name": "Harmony Tea Bar",
+            "rank": 13,
+            "score": -3.3245437145233154,
+            "state": "California"
+        },
+        {
+            "address": "Zinc Cafe & Market, 350 Ocean Ave, Laguna Beach, CA 92651",
+            "category": "['Californian restaurant', 'Cafe', 'Market', 'Restaurant', 'Wine bar']",
+            "gmap_id": "0x80dce5cac0005007:0xcf7497aa7f69c703",
+            "iid": 11603,
+            "name": "Zinc Cafe & Market",
+            "rank": 14,
+            "score": -3.387852191925049,
+            "state": "California"
+        },
+        {
+            "address": "230 Forest Avenue, 230 Forest Ave, Laguna Beach, CA 92651",
+            "category": "['Californian restaurant', 'American restaurant', 'Cafe', 'New American restaurant']",
+            "gmap_id": "0x80dce5b544b701b9:0x12e8281ce6b45d31",
+            "iid": 11600,
+            "name": "230 Forest Avenue",
+            "rank": 15,
+            "score": -3.4082658290863037,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 23904 Aliso Creek Rd, Laguna Niguel, CA 92677",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80dcef6b519f4ccf:0x3df1903e255976af",
+            "iid": 11750,
+            "name": "Peet's Coffee",
+            "rank": 16,
+            "score": -3.437492847442627,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 184 S Coast Hwy, Laguna Beach, CA 92651",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce44aad83d2dd:0xf2d18082348ea3ed",
+            "iid": 11588,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -3.518322467803955,
+            "state": "California"
+        },
+        {
+            "address": "Boba Me Baby!, 272 Broadway St, Laguna Beach, CA 92651",
+            "category": "['Cafe', 'Bubble tea store', 'Espresso bar']",
+            "gmap_id": "0x80dce4354c3b964d:0x81e80cfcc7c6d5fa",
+            "iid": 11584,
+            "name": "Boba Me Baby!",
+            "rank": 18,
+            "score": -3.532073736190796,
+            "state": "California"
+        },
+        {
+            "address": "Signature Sports Bar & Restaurant, 30100 Town Center Dr, Laguna Niguel, CA 92677",
+            "category": "['Sports bar', 'American restaurant', 'Cafe', 'Pool billard club']",
+            "gmap_id": "0x80dcefbd8b966b9b:0xb8b70d616fbb16c1",
+            "iid": 11756,
+            "name": "Signature Sports Bar & Restaurant",
+            "rank": 19,
+            "score": -3.5375001430511475,
+            "state": "California"
+        },
+        {
+            "address": "Tippy's, 272 Broadway St, Laguna Beach, CA 92651",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dce5db7f72156b:0x97a61b0375f3072d",
+            "iid": 11605,
+            "name": "Tippy's",
+            "rank": 20,
+            "score": -3.5387988090515137,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jasmine Nguyen",
+        "uid": 94676,
+        "user_id": 112494055778216996394
+    }
+}

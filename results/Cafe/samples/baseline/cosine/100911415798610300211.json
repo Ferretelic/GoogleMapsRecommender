@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Dutch Bros Coffee, 8841 Sheldon Rd, Elk Grove, CA 95624",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2018/11/13",
+            "gmap_id": "0x809ac6dc7d3d1891:0x9381a0aac6e159e8",
+            "iid": 5071,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542068815715
+        },
+        {
+            "address": "Starbucks, 6013 Florin Rd P, Sacramento, CA 95823",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/11/19",
+            "gmap_id": "0x809ac57aed7af27d:0x2328ecc9f6439bd8",
+            "iid": 5051,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542647106455
+        },
+        {
+            "address": "La Bou, 8887 Folsom Blvd, Sacramento, CA 95826",
+            "category": "['Cafe']",
+            "date": "2018/11/20",
+            "gmap_id": "0x809adb4627a00b5b:0x2665cc21f03f3fc5",
+            "iid": 5340,
+            "name": "La Bou",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542744800926
+        },
+        {
+            "address": "Starbucks, 2095 Fair Oaks Blvd, Sacramento, CA 95825",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/12/06",
+            "gmap_id": "0x809ada5bf9db4e19:0x61352911ec87546a",
+            "iid": 5313,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544056680093
+        },
+        {
+            "address": "Dutch Bros Coffee, 7445 Madison Ave, Citrus Heights, CA 95610",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2018/12/06",
+            "gmap_id": "0x809ade6a0488fa77:0x26eba428e28ab77c",
+            "iid": 5404,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544056740869
+        },
+        {
+            "address": "Dutch Bros Coffee, 4625 Manzanita Ave, Carmichael, CA 95608",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2018/12/08",
+            "gmap_id": "0x809ade942bd42a57:0x7ae4e0924fb75a20",
+            "iid": 5406,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544242597204
+        },
+        {
+            "address": "Dutch Bros Coffee, 411 Colusa Ave, Yuba City, CA 95991",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2019/11/25",
+            "gmap_id": "0x809b537a65cfe37b:0x2a52f83b5c603bc3",
+            "iid": 5701,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574640691387
+        },
+        {
+            "address": "Dutch Bros Coffee, 4750 Florin Rd, Sacramento, CA 95823, United States",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2020/01/31",
+            "gmap_id": "0x809acffd3cb483eb:0x67627e32c30bf7e2",
+            "iid": 5117,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580431058439
+        },
+        {
+            "address": "Yum Yum Donuts, 3671 Franklin Blvd, Sacramento, CA 95818",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/09/04",
+            "gmap_id": "0x809ad04492a32a91:0x2a4aea5c0dcebd66",
+            "iid": 5118,
+            "name": "Yum Yum Donuts",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1599187603169
+        },
+        {
+            "address": "Vic's Caf\u00e9, 3193 Riverside Blvd, Sacramento, CA 95818",
+            "category": "['Coffee shop']",
+            "date": "2021/04/18",
+            "gmap_id": "0x809ad10f02b88757:0xe457cf91150d3001",
+            "iid": 5183,
+            "name": "Vic's Caf\u00e9",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1618774930020
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 2104 Sutterville Rd, Sacramento, CA 95822",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809ad18618dbb80f:0xe1cd671282647d54",
+            "iid": 5214,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.6611825227737427,
+            "state": "California"
+        },
+        {
+            "address": "Noah's NY Bagels, 2559 Fair Oaks Blvd, Sacramento, CA 95825",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x809ada557a5a40ef:0x1fd0b9429beb913b",
+            "iid": 5306,
+            "name": "Noah's NY Bagels",
+            "rank": 2,
+            "score": 0.6579083800315857,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 458 Howe Ave #8, Sacramento, CA 95825",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809ada5903a6de61:0xf046011a854a70d7",
+            "iid": 5311,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.6514074206352234,
+            "state": "California"
+        },
+        {
+            "address": "Elk Cafe & Crepes, 8698 Elk Grove Blvd #5, Elk Grove, CA 95624",
+            "category": "['Breakfast restaurant', 'Cafe', 'Cr\u00eaperie', 'Lunch restaurant']",
+            "gmap_id": "0x809ac7238cd0110d:0x18684a94e5cbfc45",
+            "iid": 5080,
+            "name": "Elk Cafe & Crepes",
+            "rank": 4,
+            "score": 0.6442223191261292,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8377 Elk Grove Florin Rd, Sacramento, CA 95829",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ac6b94ddfa78b:0x9ea3dfff4d3ec110",
+            "iid": 5069,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": 0.64382004737854,
+            "state": "California"
+        },
+        {
+            "address": "Noah's NY Bagels, 1901 J St Ste B, Sacramento, CA 95811",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x809ad0dad8c39925:0xf470b8f026fe2c3",
+            "iid": 5155,
+            "name": "Noah's NY Bagels",
+            "rank": 6,
+            "score": 0.6401923298835754,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8393 Folsom Blvd, Sacramento, CA 95826",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adb2f387b2e29:0x4f3110e4b7820cb2",
+            "iid": 5335,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 0.6401582360267639,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 390 Bicentennial Cir, Sacramento, CA 95826",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adb388af9a227:0x761c92f1b5e5224d",
+            "iid": 5337,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 0.6278298497200012,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2992 65th St #100, Sacramento, CA 95817",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adabe06121007:0xaaaf18c963156fa9",
+            "iid": 5329,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 0.6222443580627441,
+            "state": "California"
+        },
+        {
+            "address": "Bridge Coffee Co., 213 3rd St, Marysville, CA 95901",
+            "category": "['Coffee roasters', 'Coffee store', 'Coffee wholesaler']",
+            "gmap_id": "0x8084acbc675c755d:0x7f3856d2c1513aef",
+            "iid": 548,
+            "name": "Bridge Coffee Co.",
+            "rank": 10,
+            "score": 0.6150839924812317,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 3711 J St A, Sacramento, CA 95816",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ad09a7aee7a6d:0x9894b418a150e5d3",
+            "iid": 5137,
+            "name": "Peet's Coffee",
+            "rank": 11,
+            "score": 0.6126883029937744,
+            "state": "California"
+        },
+        {
+            "address": "Lincoln Plaza Cafe (CalPERS), 400 P St UNIT 1204, Sacramento, CA 95814",
+            "category": "['Cafe']",
+            "gmap_id": "0x809ad131a72f5c4b:0xb7f7a6d1c7d4ae8a",
+            "iid": 5204,
+            "name": "Lincoln Plaza Cafe (CalPERS)",
+            "rank": 12,
+            "score": 0.6120423078536987,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, Riverfront Center, 6000 J St, Sacramento, CA 95819",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x809ada8b5bfec091:0x19e2bfbd06283115",
+            "iid": 5320,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": 0.6047325730323792,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 4250 El Camino Ave, Sacramento, CA 95821",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809adb3f3420d57f:0xb05cbee50efa8c8a",
+            "iid": 5338,
+            "name": "Dutch Bros Coffee",
+            "rank": 14,
+            "score": 0.6034384965896606,
+            "state": "California"
+        },
+        {
+            "address": "Krispy Kreme, 5900 Florin Rd, Sacramento, CA 95823",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "gmap_id": "0x809ac57af0b0325b:0x62a83905ebf31483",
+            "iid": 5052,
+            "name": "Krispy Kreme",
+            "rank": 15,
+            "score": 0.5958720445632935,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6000 J STREET Sac State University Union, Sacramento, CA 95819",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x809adb46b57d273f:0xda977e50477e59e",
+            "iid": 5341,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": 0.5929893255233765,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1025 Alhambra Blvd, Sacramento, CA 95816",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x809ad09445701b29:0xdea6c5e87732ed30",
+            "iid": 5130,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": 0.5903298258781433,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 5140 Stockton Blvd, Sacramento, CA 95820",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809adb5aa44fb7e9:0x3c5272c33bac1204",
+            "iid": 5342,
+            "name": "Dutch Bros Coffee",
+            "rank": 18,
+            "score": 0.5890881419181824,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 7901 College Town Dr, Sacramento, CA 95826",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809adae637eb1a21:0x7193dda24b1ab537",
+            "iid": 5330,
+            "name": "McDonald's",
+            "rank": 19,
+            "score": 0.5875607132911682,
+            "state": "California"
+        },
+        {
+            "address": "Vampire Penguin Shaved Snow and Desserts, 9135 W Stockton Blvd, Elk Grove, CA 95758",
+            "category": "['Dessert shop', 'Coffee shop']",
+            "gmap_id": "0x809ac6ffa25970bd:0xc9ba256380d6ae16",
+            "iid": 5074,
+            "name": "Vampire Penguin Shaved Snow and Desserts",
+            "rank": 20,
+            "score": 0.5866246223449707,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Cassandra Hearns",
+        "uid": 7062,
+        "user_id": 100911415798610300211
+    }
+}

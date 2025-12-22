@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Lao Orchid, 636 TX-46, New Braunfels, TX 78130",
+            "category": "['Thai restaurant']",
+            "date": "2018/02/26",
+            "gmap_id": "0x865cbce208382623:0xab7196cb737f79ab",
+            "iid": 27514,
+            "name": "Thai Lao Orchid",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1519662836526
+        },
+        {
+            "address": "Taste of China Chinese Restaurant, 8720 NE Centerpointe Dr STE 101, Vancouver, WA 98665",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2018/05/27",
+            "gmap_id": "0x5495ae2e5a15d31d:0x1cb14c8d203bd5bf",
+            "iid": 4584,
+            "name": "Taste of China Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1527453297057
+        },
+        {
+            "address": "Zien Hong, 5314 NE Sandy Blvd, Portland, OR 97213",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/06/25",
+            "gmap_id": "0x5495a12f3efcb58f:0xdd04b30546b713e2",
+            "iid": 4377,
+            "name": "Zien Hong",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1529892981203
+        },
+        {
+            "address": "Panda Express, 526 SE 192nd Ave, Vancouver, WA 98683",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x5495bb397cb9e49f:0x130665b13b87f20c",
+            "iid": 4647,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531330973739
+        },
+        {
+            "address": "Pho Van 82nd, 1919 SE 82nd Ave, Portland, OR 97216",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/17",
+            "gmap_id": "0x5495a1acd647d3bb:0x421632c4034abc13",
+            "iid": 4423,
+            "name": "Pho Van 82nd",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1539801757659
+        },
+        {
+            "address": "Tan Tan Cafe & Delicatessen, 12675 SW Broadway St, Beaverton, OR 97005",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x54950e9f8f090565:0x9e29719d738b0235",
+            "iid": 3931,
+            "name": "Tan Tan Cafe & Delicatessen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1555268477440
+        },
+        {
+            "address": "Bon Teriyaki, 1935 NE Division St, Gresham, OR 97030",
+            "category": "['Japanese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x5495985d251883cb:0xe9b6f660ffffd740",
+            "iid": 4196,
+            "name": "Bon Teriyaki",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563546586758
+        },
+        {
+            "address": "Ph\u1edf Vietnam Restaurant, 5440 SE 82nd Ave, Portland, OR 97266, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/05",
+            "gmap_id": "0x5495a04bf5e00a1d:0x54aca66769ec13a",
+            "iid": 4250,
+            "name": "Ph\u1edf Vietnam Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1567726861581
+        },
+        {
+            "address": "Best Baguette, 8308 SE Powell Blvd, Portland, OR 97266",
+            "category": "['Sandwich shop', 'Asian restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant', 'Store', 'Vietnamese restaurant']",
+            "date": "2019/09/25",
+            "gmap_id": "0x5495a049d1ade44d:0xae5a29db0fc24304",
+            "iid": 4249,
+            "name": "Best Baguette",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1569375804123
+        },
+        {
+            "address": "Kung Food Restaurant, 8071 N Lombard Way, Portland, OR 97203",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x5495a8009146a083:0x1f8daf918d2799f4",
+            "iid": 4566,
+            "name": "Kung Food Restaurant",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1570139026322
+        },
+        {
+            "address": "Yu's Garden, 366 NW Frontage Rd, Troutdale, OR 97060",
+            "category": "['Chinese restaurant', 'Family restaurant', 'Lounge', 'Restaurant']",
+            "date": "2021/04/10",
+            "gmap_id": "0x5495bd50467fe469:0xf3974197a2cfff20",
+            "iid": 4655,
+            "name": "Yu's Garden",
+            "split": "test",
+            "state": "Oregon",
+            "unix_time": 1618022388511
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Thien Hong Restaurant, 6749 NE Sandy Blvd, Portland, OR 97213",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x5495a1364a2fa79f:0xab2701f3566fcbc",
+            "iid": 4385,
+            "name": "Thien Hong Restaurant",
+            "rank": 1,
+            "score": 0.5026506781578064,
+            "state": "Oregon"
+        },
+        {
+            "address": "Imm Dee Thai Restaurant & Bar, 2009 NE Burnside Rd, Gresham, OR 97030",
+            "category": "['Thai restaurant', 'Bar', 'Gluten-free restaurant', 'Sports bar', 'Vegan restaurant']",
+            "gmap_id": "0x5495997e6c5d5ff7:0xd8d7c59bf6925e1c",
+            "iid": 4211,
+            "name": "Imm Dee Thai Restaurant & Bar",
+            "rank": 2,
+            "score": 0.4802074730396271,
+            "state": "Oregon"
+        },
+        {
+            "address": "Good Taste Noodle House, 8220 SE Harrison St, Portland, OR 97216",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x5495a1ad33790579:0x439c109c9acd560e",
+            "iid": 4425,
+            "name": "Good Taste Noodle House",
+            "rank": 3,
+            "score": 0.4784033000469208,
+            "state": "Oregon"
+        },
+        {
+            "address": "Ph\u1edf Kim, 2204 SE 82nd Ave, Portland, OR 97216",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x5495a052a797d751:0x410c2eac26a746ad",
+            "iid": 4261,
+            "name": "Ph\u1edf Kim",
+            "rank": 4,
+            "score": 0.4753021001815796,
+            "state": "Oregon"
+        },
+        {
+            "address": "BAMB\u016a Desserts & Drinks, 8001 SE Powell Blvd Suite M, Portland, OR 97206",
+            "category": "['Dessert shop', 'Bubble tea store', 'Vietnamese restaurant']",
+            "gmap_id": "0x5495a048ec4895c3:0xa69924070fe48617",
+            "iid": 4245,
+            "name": "BAMB\u016a Desserts & Drinks",
+            "rank": 5,
+            "score": 0.47367554903030396,
+            "state": "Oregon"
+        },
+        {
+            "address": "Makoto Japanese Buffet, 1119 SE 163rd Pl, Vancouver, WA 98683",
+            "category": "['Japanese restaurant', 'Buffet restaurant', 'Caterer', 'Family restaurant', 'Authentic Japanese restaurant', 'Takeout Restaurant', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x5495a4ce0e16bfbd:0xce38de1b82f13767",
+            "iid": 4473,
+            "name": "Makoto Japanese Buffet",
+            "rank": 6,
+            "score": 0.4722232222557068,
+            "state": "Washington"
+        },
+        {
+            "address": "Kuya Fred's Cuisine, 2220J NW Burnside Rd, Gresham, OR 97030",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x5495a3dd7645a731:0x5ecad2639e3b4976",
+            "iid": 4458,
+            "name": "Kuya Fred's Cuisine",
+            "rank": 7,
+            "score": 0.4599415957927704,
+            "state": "Oregon"
+        },
+        {
+            "address": "EC Kitchen Taiwanese Food, 6335 SE 82nd Ave, Portland, OR 97266",
+            "category": "['Restaurant', 'Chinese restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x5495a01e53cf5105:0xb07af26a5fd79dca",
+            "iid": 4236,
+            "name": "EC Kitchen Taiwanese Food",
+            "rank": 8,
+            "score": 0.457869291305542,
+            "state": "Oregon"
+        },
+        {
+            "address": "Good World | Chinese Restaurant, 5055 NE 122nd Ave, Portland, OR 97230",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x5495a3f076035b85:0xac0c099453e9da1f",
+            "iid": 4461,
+            "name": "Good World | Chinese Restaurant",
+            "rank": 9,
+            "score": 0.45094671845436096,
+            "state": "Oregon"
+        },
+        {
+            "address": "Fubonn Supermarket, 2850 SE 82nd Ave, Portland, OR 97266",
+            "category": "['Chinese supermarket']",
+            "gmap_id": "0x5495a11f35c1d8a5:0x8bebd882776f365",
+            "iid": 4372,
+            "name": "Fubonn Supermarket",
+            "rank": 10,
+            "score": 0.44899559020996094,
+            "state": "Oregon"
+        },
+        {
+            "address": "Jin Jin Deli, 8220 SE Harrison St #138, Portland, OR 97216",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x5495a1ad33790579:0x1933f7542b0f97c3",
+            "iid": 4424,
+            "name": "Jin Jin Deli",
+            "rank": 11,
+            "score": 0.447421669960022,
+            "state": "Oregon"
+        },
+        {
+            "address": "Kkoki Korean BBQ, 8001 SE Powell Blvd ste o, Portland, OR 97206",
+            "category": "['Restaurant', 'Grill', 'Barbecue restaurant', 'Korean restaurant']",
+            "gmap_id": "0x5495a1c167b1b09f:0xc52925d23e3c135f",
+            "iid": 4428,
+            "name": "Kkoki Korean BBQ",
+            "rank": 12,
+            "score": 0.44543206691741943,
+            "state": "Oregon"
+        },
+        {
+            "address": "B\u00ecnh Minh Sandwiches, 7821 SE Powell Blvd, Portland, OR 97206",
+            "category": "['Vietnamese restaurant', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x5495a0488083e0b1:0x8ac1cc67902bf4b6",
+            "iid": 4244,
+            "name": "B\u00ecnh Minh Sandwiches",
+            "rank": 13,
+            "score": 0.44200965762138367,
+            "state": "Oregon"
+        },
+        {
+            "address": "Gold Garden, 1818 SE 122nd Ave, Portland, OR 97233",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5495a19497bb9275:0xcf86dad0b921d27",
+            "iid": 4417,
+            "name": "Gold Garden",
+            "rank": 14,
+            "score": 0.4401272237300873,
+            "state": "Oregon"
+        },
+        {
+            "address": "Ph\u1edf Zen, 15936 SE Happy Valley Town Center Dr, Happy Valley, OR 97086",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54959e6e268947ff:0xc566f0e593851f6b",
+            "iid": 4217,
+            "name": "Ph\u1edf Zen",
+            "rank": 15,
+            "score": 0.43812015652656555,
+            "state": "Oregon"
+        },
+        {
+            "address": "Ph\u1edf Sen 2, 9757 SE Sunnyside Rd, Clackamas, OR 97015",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x5495757143175a37:0xd4fb01b101bb738c",
+            "iid": 4163,
+            "name": "Ph\u1edf Sen 2",
+            "rank": 16,
+            "score": 0.431338369846344,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thi\u00ean Ho\u00e0ng | Vietnamese & Chinese Restaurant, 8001 SE Powell Blvd, Portland, OR 97206",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x5495a048f08746d5:0x9121a81bf82c9649",
+            "iid": 4246,
+            "name": "Thi\u00ean Ho\u00e0ng | Vietnamese & Chinese Restaurant",
+            "rank": 17,
+            "score": 0.4310349225997925,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 2402 SE Burnside Rd, Gresham, OR 97080",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54959850c84f17f3:0xa7dff1db5988273a",
+            "iid": 4194,
+            "name": "Panda Express",
+            "rank": 18,
+            "score": 0.428303062915802,
+            "state": "Oregon"
+        },
+        {
+            "address": "Utopia Restaurant & Lounge, 1125 NE 82nd Ave, Portland, OR 97220",
+            "category": "['Vietnamese restaurant', 'Bar', 'Lottery retailer']",
+            "gmap_id": "0x5495a113e85d9cd1:0x939a84098dd222bc",
+            "iid": 4366,
+            "name": "Utopia Restaurant & Lounge",
+            "rank": 19,
+            "score": 0.4274877905845642,
+            "state": "Oregon"
+        },
+        {
+            "address": "Best Taste Chinese BBQ Restaurant, 8350 SE Division St, Portland, OR 97266",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x5495a04d035db847:0x5b7ca4f123b7067b",
+            "iid": 4257,
+            "name": "Best Taste Chinese BBQ Restaurant",
+            "rank": 20,
+            "score": 0.42648136615753174,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "CRAZYROBSTA",
+        "uid": 425158,
+        "user_id": 114279048308938269329
+    }
+}

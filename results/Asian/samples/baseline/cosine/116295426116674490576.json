@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sam City Pho & Grill, 2180 Pacific Blvd SE, Albany, OR 97321",
+            "category": "['Pho restaurant', 'American restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "date": "2018/03/08",
+            "gmap_id": "0x54c06cb9d137dd79:0x3f6852d9f88b30c9",
+            "iid": 5317,
+            "name": "Sam City Pho & Grill",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1520520740892
+        },
+        {
+            "address": "Tasty Thai Campus, 1308 Hilyard St, Eugene, OR 97401",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x54c11e3edebd15c3:0x898f2236850ff926",
+            "iid": 5403,
+            "name": "Tasty Thai Campus",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1536712047844
+        },
+        {
+            "address": "Great Wall Buffet, 2875 Commercial St SE, Salem, OR 97302",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/14",
+            "gmap_id": "0x54c000a915f46cbf:0x9469d1c07f498833",
+            "iid": 5256,
+            "name": "Great Wall Buffet",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563146414136
+        },
+        {
+            "address": "Maple Garden, 1275 Alder St, Eugene, OR 97401",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x54c11e3ea349bc21:0x936878db0e373305",
+            "iid": 5398,
+            "name": "Maple Garden",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563155257211
+        },
+        {
+            "address": "UFO Thai Food, 63 W Oak St, Lebanon, OR 97355",
+            "category": "['Thai restaurant']",
+            "date": "2019/08/06",
+            "gmap_id": "0x54c06f800999f359:0xa0721b6a2541788e",
+            "iid": 5325,
+            "name": "UFO Thai Food",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1565126259648
+        },
+        {
+            "address": "Bon Mi, 153 E Broadway, Eugene, OR 97401",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2020/09/23",
+            "gmap_id": "0x54c11e14ee8ee793:0x778ce63c71c8b22a",
+            "iid": 5385,
+            "name": "Bon Mi",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1600822111104
+        },
+        {
+            "address": "KKOKI Korean BBQ, 3610 Center St NE, Salem, OR 97301",
+            "category": "['Korean restaurant']",
+            "date": "2020/09/23",
+            "gmap_id": "0x54bfff703456e9d3:0xc7266070b8b1c193",
+            "iid": 5249,
+            "name": "KKOKI Korean BBQ",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1600871786415
+        },
+        {
+            "address": "Panda Express, 1310 SE Geary St, Albany, OR 97322",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/10/08",
+            "gmap_id": "0x54c06ca351f34f2b:0xb7911f44db13499",
+            "iid": 5312,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1602199281701
+        },
+        {
+            "address": "Swan, 658 Main St, Sweet Home, OR 97386",
+            "category": "['Chinese restaurant']",
+            "date": "2021/01/03",
+            "gmap_id": "0x54c089b21532bab9:0xe4ae84a59e09bb2b",
+            "iid": 5327,
+            "name": "Swan",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1609713344374
+        },
+        {
+            "address": "Spice N Steam, 165 W 11th Ave, Eugene, OR 97401",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Chinese noodle restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Dumpling restaurant', 'Takeout Restaurant']",
+            "date": "2021/05/27",
+            "gmap_id": "0x54c11fd6a60813b7:0x6fe2f70eb74fd1ca",
+            "iid": 5434,
+            "name": "Spice N Steam",
+            "split": "test",
+            "state": "Oregon",
+            "unix_time": 1622082287963
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Lebanon Teriyaki, 1250 E Grant St, Lebanon, OR 97355",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54c0657cb52c0f9f:0x23d9927991ff98e3",
+            "iid": 5306,
+            "name": "Lebanon Teriyaki",
+            "rank": 1,
+            "score": 0.7865431904792786,
+            "state": "Oregon"
+        },
+        {
+            "address": "Mashita Teriyaki Restaurant, 110 E Washington St, Stayton, OR 97383",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x54bff440a6122a51:0x8e3f90400657c711",
+            "iid": 5198,
+            "name": "Mashita Teriyaki Restaurant",
+            "rank": 2,
+            "score": 0.7604329586029053,
+            "state": "Oregon"
+        },
+        {
+            "address": "Gold Dragon Restaurant, 4645 Commercial St SE, Salem, OR 97302",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c0076a2a23722b:0x8690f5879a1107c0",
+            "iid": 5271,
+            "name": "Gold Dragon Restaurant",
+            "rank": 3,
+            "score": 0.7573981285095215,
+            "state": "Oregon"
+        },
+        {
+            "address": "Swan, 658 Main St, Sweet Home, OR 97386",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c089b21532bab9:0xe4ae84a59e09bb2b",
+            "iid": 5327,
+            "name": "Swan",
+            "rank": 4,
+            "score": 0.7540763020515442,
+            "state": "Oregon"
+        },
+        {
+            "address": "China Faith Restaurant, 1812 Lancaster Dr NE, Salem, OR 97305",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bffeeb4278fe97:0x4dd9be6fa8d9e630",
+            "iid": 5228,
+            "name": "China Faith Restaurant",
+            "rank": 5,
+            "score": 0.7369289398193359,
+            "state": "Oregon"
+        },
+        {
+            "address": "Momiji Sushi Bar & Restaurant, 1755 S Main St, Lebanon, OR 97355",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54c06583bc7a4805:0x7c123f289f946947",
+            "iid": 5309,
+            "name": "Momiji Sushi Bar & Restaurant",
+            "rank": 6,
+            "score": 0.734154224395752,
+            "state": "Oregon"
+        },
+        {
+            "address": "Zen Thai & Sushi, 184 SE Washington St, Dallas, OR 97338",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54eaa812f803411d:0x2b450255b3d7e9ea",
+            "iid": 5650,
+            "name": "Zen Thai & Sushi",
+            "rank": 7,
+            "score": 0.7311724424362183,
+            "state": "Oregon"
+        },
+        {
+            "address": "Teriyaki Diner, 1895 25th St SE, Salem, OR 97302, United States",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54bfff357347247d:0xdec97d54863ad0c0",
+            "iid": 5242,
+            "name": "Teriyaki Diner",
+            "rank": 8,
+            "score": 0.7204902172088623,
+            "state": "Oregon"
+        },
+        {
+            "address": "Queen's Chopstick Asian Restaurant, 2329 NW Kings Blvd, Corvallis, OR 97330",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x54c03f7a3131fcdf:0x168d8e29cc2e5694",
+            "iid": 5278,
+            "name": "Queen's Chopstick Asian Restaurant",
+            "rank": 9,
+            "score": 0.7176082134246826,
+            "state": "Oregon"
+        },
+        {
+            "address": "Fresh Elements Restaurant, 364 Center St NE, Salem, OR 97301",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54bfff0c606b3dc5:0xb576587bf1ff070a",
+            "iid": 5233,
+            "name": "Fresh Elements Restaurant",
+            "rank": 10,
+            "score": 0.7139053344726562,
+            "state": "Oregon"
+        },
+        {
+            "address": "Vietnam Restaurant, 2355 W 11th Ave, Eugene, OR 97402",
+            "category": "['Vietnamese restaurant', 'Bar & grill']",
+            "gmap_id": "0x54c11e87151c8edd:0x17c15a17596f7003",
+            "iid": 5423,
+            "name": "Vietnam Restaurant",
+            "rank": 11,
+            "score": 0.7113257050514221,
+            "state": "Oregon"
+        },
+        {
+            "address": "Super Pho Beef Noodle Soup Vietnamese Cuisine, 1630 Lancaster Dr NE, Salem, OR 97301",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54bffeea5bdcd915:0xfaa1aabedd1060b",
+            "iid": 5226,
+            "name": "Super Pho Beef Noodle Soup Vietnamese Cuisine",
+            "rank": 12,
+            "score": 0.7083837985992432,
+            "state": "Oregon"
+        },
+        {
+            "address": "John's | Chinese Restaurant, 4842 River Rd N, Keizer, OR 97303",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bffe1ddaf8ed89:0x8870d18a7459aab3",
+            "iid": 5206,
+            "name": "John's | Chinese Restaurant",
+            "rank": 13,
+            "score": 0.7065654993057251,
+            "state": "Oregon"
+        },
+        {
+            "address": "The Jail, 490 E Broadway, Eugene, OR 97401",
+            "category": "['Chinese restaurant', 'Asturian restaurant', 'Fast food restaurant', 'Korean restaurant']",
+            "gmap_id": "0x54c11e15dce23c05:0xf4c1444ec9b101af",
+            "iid": 5388,
+            "name": "The Jail",
+            "rank": 14,
+            "score": 0.7056662440299988,
+            "state": "Oregon"
+        },
+        {
+            "address": "Happy Dragon, 951 N First Ave, Stayton, OR 97383",
+            "category": "['Chinese restaurant', 'Lounge']",
+            "gmap_id": "0x54bff43f148029d3:0x7c01c3ef52e9cbd8",
+            "iid": 5196,
+            "name": "Happy Dragon",
+            "rank": 15,
+            "score": 0.7036387920379639,
+            "state": "Oregon"
+        },
+        {
+            "address": "Flame Mountain BBQ, 1857 NW 9th St, Corvallis, OR 97330",
+            "category": "['Asian fusion restaurant', 'Barbecue restaurant', 'Buffet restaurant', 'Korean barbecue restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x54c0411d3cffaf1f:0x6214362a0025e03",
+            "iid": 5300,
+            "name": "Flame Mountain BBQ",
+            "rank": 16,
+            "score": 0.7034927010536194,
+            "state": "Oregon"
+        },
+        {
+            "address": "The Original Momiji Sushi Restaurant, 4590 Silverton Rd NE, Salem, OR 97305, United States",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54bffe8033cd42c5:0x91890513913741ef",
+            "iid": 5215,
+            "name": "The Original Momiji Sushi Restaurant",
+            "rank": 17,
+            "score": 0.7029047012329102,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sarku Japan, 293 Valley River Center Unit G-13, Eugene, OR 97401",
+            "category": "['Japanese restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x54c11de4153b16a1:0x8d2bb16b9a7e350c",
+            "iid": 5371,
+            "name": "Sarku Japan",
+            "rank": 18,
+            "score": 0.7025974988937378,
+            "state": "Oregon"
+        },
+        {
+            "address": "Love Love Teriyaki, 2195 14th Ave SE #102, Albany, OR 97322",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54c06cbcfbe121c1:0x3ff9493a63dfc69a",
+            "iid": 5320,
+            "name": "Love Love Teriyaki",
+            "rank": 19,
+            "score": 0.7000401020050049,
+            "state": "Oregon"
+        },
+        {
+            "address": "Big Blue Thai BBQ, 2679 Commercial St SE, Salem, OR 97302",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54c000a856656fe1:0xe0dab9297611012d",
+            "iid": 5255,
+            "name": "Big Blue Thai BBQ",
+            "rank": 20,
+            "score": 0.6992972493171692,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "Tiffany Martinez",
+        "uid": 485561,
+        "user_id": 116295426116674490576
+    }
+}

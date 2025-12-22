@@ -1,5 +1,10 @@
+import json
+import os
+
 import numpy as np
 import tqdm
+import matplotlib.pyplot as plt
+import seaborn as sns
 import torch
 from torch.utils.data import DataLoader
 
@@ -71,7 +76,6 @@ class Evaluator():
         user_embs = user_embs.detach()
         item_embs = item_embs.detach()
 
-        num_items = item_embs.shape[0]
         device = user_embs.device
 
         recall_sum, ndcg_sum, n_users = 0.0, 0.0, 0

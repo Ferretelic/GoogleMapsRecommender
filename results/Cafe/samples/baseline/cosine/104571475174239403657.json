@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Coliseum Public Market, 5401 Coliseum Way, Oakland, CA 94601, United States",
+            "category": "['Flea market', 'Cafe', 'Concert hall', 'Produce market']",
+            "date": "2020/08/23",
+            "gmap_id": "0x808f8678f3d2b439:0x443df37a6a0a92b3",
+            "iid": 3049,
+            "name": "Coliseum Public Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1598208826741
+        },
+        {
+            "address": "Starbucks, 10602 Trinity Pkwy, Stockton, CA 95219",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/08/29",
+            "gmap_id": "0x8090099f142f3bd9:0x364e2683e9c40d8e",
+            "iid": 4146,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1598727914861
+        },
+        {
+            "address": "Starbucks, 1799 Solano Ave, Berkeley, CA 94707",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/08/29",
+            "gmap_id": "0x8085794cd148e24b:0x127f1b947098c451",
+            "iid": 970,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1598728071105
+        },
+        {
+            "address": "Rustic Bakery, 2017 Larkspur Landing Cir, Larkspur, CA 94939",
+            "category": "['Bakery', 'Cafe']",
+            "date": "2020/09/24",
+            "gmap_id": "0x80859a446dfb4fd5:0xc86b1f52f838bed0",
+            "iid": 1919,
+            "name": "Rustic Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1600967028827
+        },
+        {
+            "address": "McDonald's, 14480 San Pablo Ave, San Pablo, CA 94806",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/10/17",
+            "gmap_id": "0x808577c2a64c97e3:0xddaae98c1ae37c47",
+            "iid": 934,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1602970643546
+        },
+        {
+            "address": "Gran Milan, 5327 Jacuzzi St, Richmond, CA 94804",
+            "category": "['Cafe', 'Bakery', 'Coffee shop', 'Restaurant']",
+            "date": "2020/10/18",
+            "gmap_id": "0x808578df80fccc3d:0x466b1034341a62e8",
+            "iid": 948,
+            "name": "Gran Milan",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1603061532751
+        },
+        {
+            "address": "Caff\u00e8 Chiave, 2500 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Coffee shop']",
+            "date": "2020/11/05",
+            "gmap_id": "0x80857eed14233c3b:0xeb87e695472a078c",
+            "iid": 1183,
+            "name": "Caff\u00e8 Chiave",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1604608665467
+        },
+        {
+            "address": "Starbucks, 390 Stockton St, San Francisco, CA 94108",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/11/28",
+            "gmap_id": "0x808580894b8b41b9:0xf9f132c219260dd6",
+            "iid": 1363,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1606532429701
+        },
+        {
+            "address": "McDonald's, 1198 San Pablo Ave, Berkeley, CA 94706",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/02/03",
+            "gmap_id": "0x80857ecdb434744b:0x89362b570fa54baf",
+            "iid": 1165,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1612395330691
+        },
+        {
+            "address": "Katrina's Cafe, 456 Grass Valley Hwy, Auburn, CA 95603",
+            "category": "['American restaurant', 'Cafe', 'Restaurant']",
+            "date": "2021/02/03",
+            "gmap_id": "0x809b052daa9aaa13:0xd6634e23d03c12bc",
+            "iid": 5539,
+            "name": "Katrina's Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1612395348558
+        },
+        {
+            "address": "McDonald's, 6623 San Pablo Ave, Oakland, CA 94608",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/13",
+            "gmap_id": "0x80857e604fe1e3bf:0x6cf3965dde7edc1a",
+            "iid": 1091,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1615612758854
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 15521 San Pablo Ave a1, Richmond, CA 94806",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808576350d1a3ba1:0x8636f32ab0e2ee44",
+            "iid": 913,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.7230508327484131,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3700 San Pablo Ave #8, Hercules, CA 94547",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808576d09f321199:0x6e341c4aef70534a",
+            "iid": 915,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 0.6948678493499756,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3300 San Pablo Dam Rd # 100, San Pablo, CA 94803",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8085778fd515cde9:0x584273aa47738ee9",
+            "iid": 930,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.6874639391899109,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 454 Appian Way G, El Sobrante, CA 94803",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8085776c67a0976d:0x2215b5f08645e65b",
+            "iid": 928,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": 0.6863571405410767,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1376 Fitzgerald Dr, Pinole, CA 94564",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x808577a82179c6a5:0x7b4c074a2fda37b9",
+            "iid": 932,
+            "name": "Panera Bread",
+            "rank": 5,
+            "score": 0.6801599264144897,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1400 Fitzgerald Dr, Pinole, CA 94564",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857706ef59e5b5:0xd7f2779990a5de93",
+            "iid": 923,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": 0.6725770831108093,
+            "state": "California"
+        },
+        {
+            "address": "Cafe McBryde, 4925 McBryde Ave, Richmond, CA 94805",
+            "category": "['Restaurant', 'Coffee shop', 'Deli', 'Tea house']",
+            "gmap_id": "0x808578217b6d1963:0x9a26228f72244f5e",
+            "iid": 939,
+            "name": "Cafe McBryde",
+            "rank": 7,
+            "score": 0.6699479222297668,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 133 Park Pl, Richmond, CA 94801",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808582cf4ed3698f:0x7ac2bf8470c096e9",
+            "iid": 1718,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 0.6562845706939697,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3013 Broadway, Oakland, CA 94611",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f8755a028f48d:0x8155eee86567c80b",
+            "iid": 3122,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": 0.6471081972122192,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 11861 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8085784f77485731:0x83b618d3a95fcd2e",
+            "iid": 941,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.6360580921173096,
+            "state": "California"
+        },
+        {
+            "address": "Little Louie\u2019s Caf\u00e9 & Catering, 49 Washington Ave, Richmond, CA 94801",
+            "category": "['Cafe', 'Breakfast restaurant', 'Caterer', 'Deli', 'Lunch restaurant', 'Wine bar']",
+            "gmap_id": "0x808582cf33755d87:0xe06bebec8db992ad",
+            "iid": 1716,
+            "name": "Little Louie\u2019s Caf\u00e9 & Catering",
+            "rank": 11,
+            "score": 0.6194683313369751,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1540 Fitzgerald Dr, Pinole, CA 94564",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x8085770454f08167:0xf32282cd4aadd73c",
+            "iid": 922,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.6113986968994141,
+            "state": "California"
+        },
+        {
+            "address": "Bette's To Go, 1807 Fourth St, Berkeley, CA 94710",
+            "category": "['Cafe', 'Bakery', 'Pizza Takeout']",
+            "gmap_id": "0x80857edcbb13c81d:0x6453584ee8360114",
+            "iid": 1174,
+            "name": "Bette's To Go",
+            "rank": 13,
+            "score": 0.6089344024658203,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 1615 Broadway, Oakland, CA 94612",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x808f81436203adb7:0x29adeaf3936640a0",
+            "iid": 3026,
+            "name": "Peet's Coffee",
+            "rank": 14,
+            "score": 0.6066135168075562,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 801 Broadway, Oakland, CA 94607",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f80b6fdb7170f:0x8faeb369343052c2",
+            "iid": 3002,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": 0.6062979698181152,
+            "state": "California"
+        },
+        {
+            "address": "Joy Cafe 94801, 1400 Macdonald Ave, Richmond, CA 94801",
+            "category": "['Chinese restaurant', 'Cafe', 'Diner']",
+            "gmap_id": "0x80857807f45d0e29:0x4bb102d1080fc064",
+            "iid": 937,
+            "name": "Joy Cafe 94801",
+            "rank": 16,
+            "score": 0.6040997505187988,
+            "state": "California"
+        },
+        {
+            "address": "Tala Coffee & Tea, 10734 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Cafe']",
+            "gmap_id": "0x808579026fd579d3:0xf137bc64385852bf",
+            "iid": 951,
+            "name": "Tala Coffee & Tea",
+            "rank": 17,
+            "score": 0.6032230257987976,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 14330 San Pablo Ave A, San Pablo, CA 94806",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808577e80ba8a0bb:0x62c4de23eabdf6c5",
+            "iid": 935,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.5955891013145447,
+            "state": "California"
+        },
+        {
+            "address": "El Cerrito Natural Grocery - Prepared Food Annex, 10387 San Pablo Ave, El Cerrito, CA 94530",
+            "category": "['Deli', 'Bakery', 'Beer store', 'Cafe', 'Florist', 'Wine store']",
+            "gmap_id": "0x8085791c160edbe9:0x4a54c304f6ae9dec",
+            "iid": 955,
+            "name": "El Cerrito Natural Grocery - Prepared Food Annex",
+            "rank": 19,
+            "score": 0.5948856472969055,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3090 El Cerrito Plaza, El Cerrito, CA 94530",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808579232c3bd49d:0xea5b621bc146ec8b",
+            "iid": 957,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": 0.5914283394813538,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Vivian Camargo",
+        "uid": 34514,
+        "user_id": 104571475174239403657
+    }
+}

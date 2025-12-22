@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3503 E South St, Long Beach, CA 90805",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/04/13",
+            "gmap_id": "0x80dd32e680998b1b:0x5c411c3b4534cd26",
+            "iid": 12389,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523589811983
+        },
+        {
+            "address": "Aroma Di Roma, 4708 2nd St, Long Beach, CA 90803",
+            "category": "['Cafe', 'Bakery', 'Bar', 'Breakfast restaurant', 'Coffee shop', 'Ice cream shop', 'Italian restaurant', 'Wine bar']",
+            "date": "2018/06/10",
+            "gmap_id": "0x80dd304a35305873:0x15d6dfc1b8707db7",
+            "iid": 12266,
+            "name": "Aroma Di Roma",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528633454553
+        },
+        {
+            "address": "McDonald's, 3037 Niles St, Bakersfield, CA 93306",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/09/15",
+            "gmap_id": "0x80ea6c09995b8925:0xcc59f788d7d268f2",
+            "iid": 13218,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537040526407
+        },
+        {
+            "address": "McDonald's, 1000 E 4th St, Long Beach, CA 90802",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/10/26",
+            "gmap_id": "0x80dd3115cd157833:0x783a147875576f91",
+            "iid": 12279,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540594106280
+        },
+        {
+            "address": "Maru Coffee, 1019 S Santa Fe Ave, Los Angeles, CA 90021",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2018/12/14",
+            "gmap_id": "0x80c2c62011fa30ff:0x2ac90042413608fb",
+            "iid": 7818,
+            "name": "Maru Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748614807
+        },
+        {
+            "address": "Winchell's Donut House, 1300 E Alondra Blvd, Compton, CA 90221",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/06/01",
+            "gmap_id": "0x80c2cb5f3b70bbc7:0x76e71218cc8b3829",
+            "iid": 8233,
+            "name": "Winchell's Donut House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559386729388
+        },
+        {
+            "address": "Starbucks, 500 Long Beach Blvd, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80dd3138bad0bd25:0x35c79ad2f073586b",
+            "iid": 12295,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581482435045
+        },
+        {
+            "address": "Starbucks, 2701 Ming Ave #102, Bakersfield, CA 93304",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80ea6a70304d5039:0xd7a4736daee863dd",
+            "iid": 13207,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581482792882
+        },
+        {
+            "address": "McDonald's, 5223 W Century Blvd, Los Angeles, CA 90045",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80c2b6dd6b98fea7:0x88bef9bbc7879dd4",
+            "iid": 6673,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1581482845376
+        },
+        {
+            "address": "Starbucks, 999 E Spring St, Signal Hill, CA 90755",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80dd33c1e539c0a5:0x5e9e123f94bff806",
+            "iid": 12427,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1581482903209
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Coffee Drunk, 2701 E 4th St, Long Beach, CA 90814",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd31211ac03a5d:0xd4949b4f174e0e22",
+            "iid": 12282,
+            "name": "Coffee Drunk",
+            "rank": 1,
+            "score": -2.476512908935547,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 2739 Santa Rosa Ave, Santa Rosa, CA 95407",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808449558b8a1231:0x9880135b7b2409e",
+            "iid": 488,
+            "name": "Dunkin'",
+            "rank": 2,
+            "score": -2.4979324340820312,
+            "state": "California"
+        },
+        {
+            "address": "Flavors from Afar, 1046 S Fairfax Ave, Los Angeles, CA 90019",
+            "category": "['Ethnic restaurant', 'Boutique', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80c2b90b8054b0e1:0x2acc0d2ca2d97805",
+            "iid": 6845,
+            "name": "Flavors from Afar",
+            "rank": 3,
+            "score": -2.4994328022003174,
+            "state": "California"
+        },
+        {
+            "address": "Tea Lyfe Saratoga, 14554 Big Basin Way, Saratoga, CA 95070",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e4b21ccbdf3f5:0x92d5b8e58ffd703c",
+            "iid": 2471,
+            "name": "Tea Lyfe Saratoga",
+            "rank": 4,
+            "score": -2.510206460952759,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -2.5129623413085938,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 6892,
+            "name": "CAFE5",
+            "rank": 6,
+            "score": -2.5219600200653076,
+            "state": "California"
+        },
+        {
+            "address": "Pink Rose Cafe, 8209 La Mesa Blvd, La Mesa, CA 91942",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d957a709f303e9:0xe8ae4abe76947444",
+            "iid": 9705,
+            "name": "Pink Rose Cafe",
+            "rank": 7,
+            "score": -2.525738477706909,
+            "state": "California"
+        },
+        {
+            "address": "Lucky 7 Coffee, 1112 Hermosa Ave, Hermosa Beach, CA 90254",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b38590e2759f:0x1c1effd9ae737df0",
+            "iid": 6528,
+            "name": "Lucky 7 Coffee",
+            "rank": 8,
+            "score": -2.528815984725952,
+            "state": "California"
+        },
+        {
+            "address": "Stoble Coffee, 418 Broadway St, Chico, CA 95928",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x8083276f3be27437:0xdb025d436f754f4e",
+            "iid": 282,
+            "name": "Stoble Coffee",
+            "rank": 9,
+            "score": -2.5323703289031982,
+            "state": "California"
+        },
+        {
+            "address": "Cafe De Mama, 1102 S Western Ave, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b9506215aeab:0xf6fe0f900a73fd73",
+            "iid": 6907,
+            "name": "Cafe De Mama",
+            "rank": 10,
+            "score": -2.5326290130615234,
+            "state": "California"
+        },
+        {
+            "address": "The Hall Coffee House, 600 N Avalon Blvd unit C, Wilmington, CA 90744",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd352b28a9d14d:0xb9fdaf27185928aa",
+            "iid": 12449,
+            "name": "The Hall Coffee House",
+            "rank": 11,
+            "score": -2.5369277000427246,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 14788 Bear Valley Rd, Victorville, CA 92395",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80c367ba222e446f:0x1056d19a9bc484da",
+            "iid": 9158,
+            "name": "Dutch Bros Coffee",
+            "rank": 12,
+            "score": -2.538102388381958,
+            "state": "California"
+        },
+        {
+            "address": "Milk Tea Lab, 1175 E Julian St Ste 40, San Jose, CA 95116",
+            "category": "['Bubble tea store', 'Cafe', 'Chinese takeaway', 'Dessert shop', 'Taiwanese restaurant', 'Tea house']",
+            "gmap_id": "0x808fcd559742fe65:0x87ece7675b00d558",
+            "iid": 3972,
+            "name": "Milk Tea Lab",
+            "rank": 13,
+            "score": -2.5415713787078857,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5411 Diablo Dr, Sacramento, CA 95842",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809adfb5618d5a87:0x32b1b6e2249a524d",
+            "iid": 5435,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.5425353050231934,
+            "state": "California"
+        },
+        {
+            "address": "Be True Cafe, 330 Tres Pinos Rd E, Hollister, CA 95023",
+            "category": "['Coffee shop', 'Brunch restaurant']",
+            "gmap_id": "0x80921de091b47ad1:0x75a371d8d9b95d8f",
+            "iid": 4533,
+            "name": "Be True Cafe",
+            "rank": 15,
+            "score": -2.5445985794067383,
+            "state": "California"
+        },
+        {
+            "address": "Twisted St. Cafe, 2320 Lombard St, San Francisco, CA 94123",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Coffee store', 'Lunch restaurant', 'Pastry shop', 'Snack bar', 'Soft drinks shop']",
+            "gmap_id": "0x80858189021a99f5:0x7722d36a036bc4a9",
+            "iid": 1695,
+            "name": "Twisted St. Cafe",
+            "rank": 16,
+            "score": -2.5446157455444336,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Mei \u7f8e\u800c\u7f8e, 43761 Boscell Rd #5125, Fremont, CA 94538",
+            "category": "['Breakfast restaurant', 'Cafe', 'Lunch restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808fc71d61bcb7d7:0x6cd30ddf8f1b4c8",
+            "iid": 3735,
+            "name": "Cafe Mei \u7f8e\u800c\u7f8e",
+            "rank": 17,
+            "score": -2.5502355098724365,
+            "state": "California"
+        },
+        {
+            "address": "Spot Brazil, 1344 Garnet Ave, San Diego, CA 92109",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc010a69c5d08d:0x72739f93a73df55b",
+            "iid": 10281,
+            "name": "Spot Brazil",
+            "rank": 18,
+            "score": -2.552351713180542,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.5528266429901123,
+            "state": "California"
+        },
+        {
+            "address": "Calavera Coffee, 1709 Airline Hwy, Hollister, CA 95023",
+            "category": "['Cafe']",
+            "gmap_id": "0x80921d41ca0c8ac7:0x2bdfc28a54264cb8",
+            "iid": 4527,
+            "name": "Calavera Coffee",
+            "rank": 20,
+            "score": -2.553036689758301,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Felicita Lara",
+        "uid": 112659,
+        "user_id": 114891739660775700574
+    }
+}

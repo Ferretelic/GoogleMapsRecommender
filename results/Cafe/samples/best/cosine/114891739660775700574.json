@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 3503 E South St, Long Beach, CA 90805",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/04/13",
+            "gmap_id": "0x80dd32e680998b1b:0x5c411c3b4534cd26",
+            "iid": 12389,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523589811983
+        },
+        {
+            "address": "Aroma Di Roma, 4708 2nd St, Long Beach, CA 90803",
+            "category": "['Cafe', 'Bakery', 'Bar', 'Breakfast restaurant', 'Coffee shop', 'Ice cream shop', 'Italian restaurant', 'Wine bar']",
+            "date": "2018/06/10",
+            "gmap_id": "0x80dd304a35305873:0x15d6dfc1b8707db7",
+            "iid": 12266,
+            "name": "Aroma Di Roma",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528633454553
+        },
+        {
+            "address": "McDonald's, 3037 Niles St, Bakersfield, CA 93306",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/09/15",
+            "gmap_id": "0x80ea6c09995b8925:0xcc59f788d7d268f2",
+            "iid": 13218,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537040526407
+        },
+        {
+            "address": "McDonald's, 1000 E 4th St, Long Beach, CA 90802",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/10/26",
+            "gmap_id": "0x80dd3115cd157833:0x783a147875576f91",
+            "iid": 12279,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1540594106280
+        },
+        {
+            "address": "Maru Coffee, 1019 S Santa Fe Ave, Los Angeles, CA 90021",
+            "category": "['Coffee shop', 'Cafe']",
+            "date": "2018/12/14",
+            "gmap_id": "0x80c2c62011fa30ff:0x2ac90042413608fb",
+            "iid": 7818,
+            "name": "Maru Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748614807
+        },
+        {
+            "address": "Winchell's Donut House, 1300 E Alondra Blvd, Compton, CA 90221",
+            "category": "['Donut shop', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/06/01",
+            "gmap_id": "0x80c2cb5f3b70bbc7:0x76e71218cc8b3829",
+            "iid": 8233,
+            "name": "Winchell's Donut House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559386729388
+        },
+        {
+            "address": "Starbucks, 500 Long Beach Blvd, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80dd3138bad0bd25:0x35c79ad2f073586b",
+            "iid": 12295,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581482435045
+        },
+        {
+            "address": "Starbucks, 2701 Ming Ave #102, Bakersfield, CA 93304",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80ea6a70304d5039:0xd7a4736daee863dd",
+            "iid": 13207,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581482792882
+        },
+        {
+            "address": "McDonald's, 5223 W Century Blvd, Los Angeles, CA 90045",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80c2b6dd6b98fea7:0x88bef9bbc7879dd4",
+            "iid": 6673,
+            "name": "McDonald's",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1581482845376
+        },
+        {
+            "address": "Starbucks, 999 E Spring St, Signal Hill, CA 90755",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80dd33c1e539c0a5:0x5e9e123f94bff806",
+            "iid": 12427,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1581482903209
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 600 E Broadway, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80dd313dd690a5b7:0x7eab8f109e3ba353",
+            "iid": 12307,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.5110517740249634,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 111 E Ocean Blvd, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80dd313a2932475d:0x435a151ae7c758db",
+            "iid": 12300,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 0.460893839597702,
+            "state": "California"
+        },
+        {
+            "address": "Revive Juice Bar, 145 Linden Ave, Long Beach, CA 90802, United States",
+            "category": "['Juice shop', 'Coffee store']",
+            "gmap_id": "0x80dd313c2425f0a1:0xed83f9904d233e3f",
+            "iid": 12304,
+            "name": "Revive Juice Bar",
+            "rank": 3,
+            "score": 0.4568209946155548,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 707 E Ocean Blvd # B, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dd313d6efc97c7:0xb8955dedcd49646",
+            "iid": 12306,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": 0.4380931854248047,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 695 E Artesia Blvd, Long Beach, CA 90805",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dd33e2e1c8e617:0x3b1745e9fd0a31b2",
+            "iid": 12432,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": 0.4366469383239746,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 6959 Atlantic Ave, Long Beach, CA 90805",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dd334b062cb619:0xdb91e9d700859166",
+            "iid": 12402,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 0.4300305247306824,
+            "state": "California"
+        },
+        {
+            "address": "Teazo Lounge, 147 E 6th St, Long Beach, CA 90802",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dd31ab9fe72a4d:0x22acb6f0d454fe43",
+            "iid": 12334,
+            "name": "Teazo Lounge",
+            "rank": 7,
+            "score": 0.42853206396102905,
+            "state": "California"
+        },
+        {
+            "address": "Confidential Coffee, 137 W 6th St, Long Beach, CA 90802",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dd314b1e55c94b:0x62668d8a4e5b70fd",
+            "iid": 12312,
+            "name": "Confidential Coffee",
+            "rank": 8,
+            "score": 0.4240210950374603,
+            "state": "California"
+        },
+        {
+            "address": "Crepe Crafters, 480 Pine Ave #2348, Long Beach, CA 90802",
+            "category": "['Restaurant', 'Coffee shop', 'Dessert restaurant']",
+            "gmap_id": "0x80dd313876493559:0x9086f7629e490781",
+            "iid": 12294,
+            "name": "Crepe Crafters",
+            "rank": 9,
+            "score": 0.4236551821231842,
+            "state": "California"
+        },
+        {
+            "address": "Saints and Sinners Bakeshop, 595 Pine Ave, Long Beach, CA 90802",
+            "category": "['Bakery', 'Coffee shop']",
+            "gmap_id": "0x80dd3147951d9779:0xefcb42652fbf5598",
+            "iid": 12311,
+            "name": "Saints and Sinners Bakeshop",
+            "rank": 10,
+            "score": 0.42196792364120483,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 640 Long Beach Blvd, Long Beach, CA 90813",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dd314737fb34a1:0x8bc0e9f3cfd0ea31",
+            "iid": 12310,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": 0.42027440667152405,
+            "state": "California"
+        },
+        {
+            "address": "Recreational Coffee, 237 Long Beach Blvd suite a, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dd31393db142fd:0x23281d4699c851c3",
+            "iid": 12297,
+            "name": "Recreational Coffee",
+            "rank": 12,
+            "score": 0.4177019000053406,
+            "state": "California"
+        },
+        {
+            "address": "Collaborative Coffee Bar, 4836 Paramount Blvd, Lakewood, CA 90712",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dd3301df874a7f:0x262e8cd106eb3c84",
+            "iid": 12396,
+            "name": "Collaborative Coffee Bar",
+            "rank": 13,
+            "score": 0.412986159324646,
+            "state": "California"
+        },
+        {
+            "address": "Linden Public, 149 Linden Ave ste c, Long Beach, CA 90802",
+            "category": "['Restaurant', 'Bar', 'Coffee shop']",
+            "gmap_id": "0x80dd313c20befd9d:0x2a2b089607f23640",
+            "iid": 12303,
+            "name": "Linden Public",
+            "rank": 14,
+            "score": 0.4102446138858795,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 100 Brundage Ln, Bakersfield, CA 93304",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80ea6a4a44727f6f:0xc638fa0a64d2397d",
+            "iid": 13202,
+            "name": "Yum Yum Donuts",
+            "rank": 15,
+            "score": 0.4067367911338806,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean and Tea Leaf, 275 Magnolia Ave, Long Beach, CA 90802",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd313614b47133:0x5994c8dfd58308ba",
+            "iid": 12287,
+            "name": "The Coffee Bean and Tea Leaf",
+            "rank": 16,
+            "score": 0.4049595594406128,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 5860 Cherry Ave, Long Beach, CA 90805",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80dd332284a122f9:0x9fec710d922704c0",
+            "iid": 12399,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 0.40338802337646484,
+            "state": "California"
+        },
+        {
+            "address": "the corner 10th\u2019s BBQ, 3200 E 10th St, Long Beach, CA 90804",
+            "category": "['Barbecue restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee store']",
+            "gmap_id": "0x80dd31a16c4d060b:0x51f5158d26d8bf92",
+            "iid": 12330,
+            "name": "the corner 10th\u2019s BBQ",
+            "rank": 18,
+            "score": 0.4027012288570404,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 999 E Spring St, Signal Hill, CA 90755",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dd33c1e539c0a5:0x5e9e123f94bff806",
+            "iid": 12427,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 0.4022158980369568,
+            "state": "California"
+        },
+        {
+            "address": "Doly's Delectables, 245 E Broadway, Long Beach, CA 90802",
+            "category": "['Coffee shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Deli', 'Espresso bar', 'Wi-Fi spot']",
+            "gmap_id": "0x80dd31396a112821:0x95e4c0d59a6be2",
+            "iid": 12298,
+            "name": "Doly's Delectables",
+            "rank": 20,
+            "score": 0.40070322155952454,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Felicita Lara",
+        "uid": 112659,
+        "user_id": 114891739660775700574
+    }
+}

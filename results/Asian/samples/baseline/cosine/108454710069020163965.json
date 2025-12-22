@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hansol Young Yang Center, 160-26 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c2602f11996ead:0x216aa138a3eebeac",
+            "iid": 61622,
+            "name": "Hansol Young Yang Center",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571086972388
+        },
+        {
+            "address": "Guh Sung Chinese Restuarant, 45-46 Bell Blvd, Queens, NY 11361",
+            "category": "['Chinese restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c261e657399437:0xa6975b27f500d6a",
+            "iid": 61885,
+            "name": "Guh Sung Chinese Restuarant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571087010288
+        },
+        {
+            "address": "\u6566\u714c\u70e4\u8089Dunhuang BBQ, 133-51 37th Avenue, Flushing, NY 11354",
+            "category": "['Chinese restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c26138130c4beb:0xea60d98846bffa0c",
+            "iid": 61771,
+            "name": "\u6566\u714c\u70e4\u8089Dunhuang BBQ",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571087034023
+        },
+        {
+            "address": "Coco Rooster \u7687\u6930\u9e21, 59-14 Main St, Queens, NY 11355",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c26102f5b45123:0xd5fc757d4d5650ec",
+            "iid": 61740,
+            "name": "Coco Rooster \u7687\u6930\u9e21",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1571087066887
+        },
+        {
+            "address": "Ani Ramen, 218 Newark Ave, Jersey City, NJ 07302",
+            "category": "['Ramen restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Soup restaurant']",
+            "date": "2019/10/14",
+            "gmap_id": "0x89c250b37841984b:0xf596e10cfb89a050",
+            "iid": 58493,
+            "name": "Ani Ramen",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1571087072991
+        },
+        {
+            "address": "Haki, 160-30 Northern Blvd, Flushing, NY 11358",
+            "category": "['Korean restaurant']",
+            "date": "2020/12/04",
+            "gmap_id": "0x89c2616cf60d7c83:0xbf9e03b7e8756961",
+            "iid": 61794,
+            "name": "Haki",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1607125590482
+        },
+        {
+            "address": "Chef Wang, 1902 Jericho Turnpike, New Hyde Park, NY 11040",
+            "category": "['Sichuan restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2021/03/16",
+            "gmap_id": "0x89c262be3dd7ffef:0xfaf743a7b8166b81",
+            "iid": 61954,
+            "name": "Chef Wang",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1615880426725
+        },
+        {
+            "address": "Little Pepper, 18-24 College Point Blvd, College Point, NY 11356",
+            "category": "['Chinese restaurant', 'Restaurant', 'Sichuan restaurant']",
+            "date": "2021/03/16",
+            "gmap_id": "0x89c2f553b338e7d5:0xadd2506de1fbaf50",
+            "iid": 63347,
+            "name": "Little Pepper",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1615881722213
+        },
+        {
+            "address": "Mitsuwa Marketplace - New Jersey, 595 River Rd, Edgewater, NJ 07020",
+            "category": "['Supermarket', 'Food court', 'Japanese grocery store', 'Japanese restaurant']",
+            "date": "2021/03/16",
+            "gmap_id": "0x89c2f64a5606cb39:0x9d3e2d129ac7672e",
+            "iid": 63461,
+            "name": "Mitsuwa Marketplace - New Jersey",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1615882015477
+        },
+        {
+            "address": "H.K. Cafe, 42-96 Main St, Queens, NY 11355",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2021/04/19",
+            "gmap_id": "0x89c2606d2ae55463:0x90f0a2ddcd0c03bd",
+            "iid": 61657,
+            "name": "H.K. Cafe",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1618821991729
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Beat Mazesoba, 161-23 Crocheron Ave, Queens, NY 11358",
+            "category": "['Japanese restaurant', 'Bar']",
+            "gmap_id": "0x89c2613ffec3c66f:0x690d5ad83f1ec831",
+            "iid": 61772,
+            "name": "Beat Mazesoba",
+            "rank": 1,
+            "score": 0.772709310054779,
+            "state": "New_York"
+        },
+        {
+            "address": "Cafe Originale, 160-28 Northern Blvd, Flushing, NY 11358",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2602f11fc38a3:0x9160214fa85ef901",
+            "iid": 61623,
+            "name": "Cafe Originale",
+            "rank": 2,
+            "score": 0.7707968950271606,
+            "state": "New_York"
+        },
+        {
+            "address": "Rolly Kimbab, 16316 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c2602e5c951309:0x145d2bbdc10c7613",
+            "iid": 61615,
+            "name": "Rolly Kimbab",
+            "rank": 3,
+            "score": 0.7495327591896057,
+            "state": "New_York"
+        },
+        {
+            "address": "Kyedong KONO Chicken, 171-02 Northern Blvd, Flushing, NY 11354",
+            "category": "['Korean restaurant', 'Chicken restaurant']",
+            "gmap_id": "0x89c26023faccfcb1:0xd5681b13190a3096",
+            "iid": 61589,
+            "name": "Kyedong KONO Chicken",
+            "rank": 4,
+            "score": 0.7443393468856812,
+            "state": "New_York"
+        },
+        {
+            "address": NaN,
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2602fb49854c1:0xa6c2403443406960",
+            "iid": 61627,
+            "name": "DABIN",
+            "rank": 5,
+            "score": 0.7435441017150879,
+            "state": "New_York"
+        },
+        {
+            "address": "Chef Papa Vietnamese Kitchen, 42-05 162nd St, Queens, NY 11358",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89c261ca03dd8981:0xe946bf6840523c82",
+            "iid": 61848,
+            "name": "Chef Papa Vietnamese Kitchen",
+            "rank": 6,
+            "score": 0.7403234243392944,
+            "state": "New_York"
+        },
+        {
+            "address": "Parksanbal, 41-10 162nd St, Queens, NY 11358",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c2602fade05f2f:0xda3ff99d37de901b",
+            "iid": 61624,
+            "name": "Parksanbal",
+            "rank": 7,
+            "score": 0.7396678328514099,
+            "state": "New_York"
+        },
+        {
+            "address": "Nolbu Nolbu New York, 16425 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2602e705c4509:0xd1fd6328c7037b48",
+            "iid": 61616,
+            "name": "Nolbu Nolbu New York",
+            "rank": 8,
+            "score": 0.7389090657234192,
+            "state": "New_York"
+        },
+        {
+            "address": "BapBap, 160-06 Northern Blvd, Queens, NY 11358",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c2615f28321415:0x1f225756e8b08732",
+            "iid": 61787,
+            "name": "BapBap",
+            "rank": 9,
+            "score": 0.7379428148269653,
+            "state": "New_York"
+        },
+        {
+            "address": NaN,
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89c26023a99bd169:0xc5a02edce53138c2",
+            "iid": 61586,
+            "name": "Solbaat",
+            "rank": 10,
+            "score": 0.7373893857002258,
+            "state": "Oregon"
+        },
+        {
+            "address": "Pho Che, 193-16 Northern Blvd, Flushing, NY 11358",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c261d1ee362f8f:0xeeafe06d94764d61",
+            "iid": 61855,
+            "name": "Pho Che",
+            "rank": 11,
+            "score": 0.7331672310829163,
+            "state": "New_York"
+        },
+        {
+            "address": "Dadam, 152-24 Northern Blvd, Flushing, NY 11354",
+            "category": "['Restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89c2602406046ca1:0xc0f27f5163f5bfb4",
+            "iid": 61590,
+            "name": "Dadam",
+            "rank": 12,
+            "score": 0.728303074836731,
+            "state": "New_York"
+        },
+        {
+            "address": "Yuk Jun Gui, 4105 150th St, Flushing, NY 11355",
+            "category": "['Korean restaurant', 'BBQ area']",
+            "gmap_id": "0x89c26023734d58e5:0x255903c2fc5ee03e",
+            "iid": 61585,
+            "name": "Yuk Jun Gui",
+            "rank": 13,
+            "score": 0.726730465888977,
+            "state": "New_York"
+        },
+        {
+            "address": "Arirang, 41-04 163rd St, Flushing, NY 11358",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c2602e56c6291d:0xd660732b19e40072",
+            "iid": 61614,
+            "name": "Arirang",
+            "rank": 14,
+            "score": 0.7260453701019287,
+            "state": "New_York"
+        },
+        {
+            "address": "H Mart Northern 141, 141-40 Northern Blvd, Queens, NY 11354",
+            "category": "['Asian grocery store', 'Convenience store', 'Korean grocery store', 'Supermarket']",
+            "gmap_id": "0x89c2601a2c6e0995:0x49c6ccaf3fa5ca9",
+            "iid": 61557,
+            "name": "H Mart Northern 141",
+            "rank": 15,
+            "score": 0.7259998321533203,
+            "state": "New_York"
+        },
+        {
+            "address": "8 Pots135-23 40th Rd, Flushing, NY 11354",
+            "category": "['Hot pot restaurant', 'Chinese restaurant', 'Restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x89c26127089dca87:0x88de6518aed9536d",
+            "iid": 61764,
+            "name": "8 Pots",
+            "rank": 16,
+            "score": 0.7181506752967834,
+            "state": "New_York"
+        },
+        {
+            "address": "Rolly Kimbab (Little Neck), 252-01 Northern Blvd, Douglaston, NY 11362",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c289980cdaa00b:0xd70bc9c0d551b392",
+            "iid": 62490,
+            "name": "Rolly Kimbab (Little Neck)",
+            "rank": 17,
+            "score": 0.7122136950492859,
+            "state": "New_York"
+        },
+        {
+            "address": "Daesung, 45-04 162nd St, Flushing, NY 11358",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c26030ec3fe3f5:0x88c622013b5fe48f",
+            "iid": 61633,
+            "name": "Daesung",
+            "rank": 18,
+            "score": 0.7104500532150269,
+            "state": "New_York"
+        },
+        {
+            "address": "DOKDOYA(\ub3c5\ub3c4\uc57c)|\u72ec\u5c9b\u9910\u9986, 161-29 Crocheron Ave, Queens, NY 11358",
+            "category": "['Restaurant', 'Korean restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2614f75aa1f93:0x3683351930b2c42c",
+            "iid": 61784,
+            "name": "DOKDOYA(\ub3c5\ub3c4\uc57c)|\u72ec\u5c9b\u9910\u9986",
+            "rank": 19,
+            "score": 0.7093911170959473,
+            "state": "New_York"
+        },
+        {
+            "address": "Ginger and Lemongrass, 12-53 150th St, Whitestone, NY 11357",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Pho restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c28aeb8251ef35:0xc7286613ceb5f09a",
+            "iid": 62545,
+            "name": "Ginger and Lemongrass",
+            "rank": 20,
+            "score": 0.7092365622520447,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Emily and Gordon",
+        "uid": 252530,
+        "user_id": 108454710069020163965
+    }
+}

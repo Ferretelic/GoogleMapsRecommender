@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Groundwork Coffee Co., 11275 Chandler Blvd, North Hollywood, CA 91601",
+            "category": "['Coffee shop']",
+            "date": "2018/08/29",
+            "gmap_id": "0x80c295ee3084ae23:0x8c9cf421dbc876c9",
+            "iid": 6097,
+            "name": "Groundwork Coffee Co.",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1535585730204
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634841758
+        },
+        {
+            "address": "Arizmendi Bakery, 3265 Lakeshore Ave, Oakland, CA 94610",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop', 'Pizza restaurant', 'Pizza Takeout', 'Restaurant']",
+            "date": "2019/06/04",
+            "gmap_id": "0x808f874190045807:0x2eeb5a2233b2e795",
+            "iid": 3098,
+            "name": "Arizmendi Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559634879130
+        },
+        {
+            "address": "Yum Yum Donuts, 11699 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c295fcad40fe95:0x64a60cef1a0f6da2",
+            "iid": 6109,
+            "name": "Yum Yum Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575431639513
+        },
+        {
+            "address": "Idle Hour, 4824 Vineland Ave, Los Angeles, CA 91601",
+            "category": "['Cocktail bar', 'American restaurant', 'Cafe']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1ff11986bd:0xcc42bc2563a5e06f",
+            "iid": 7317,
+            "name": "Idle Hour",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432342486
+        },
+        {
+            "address": "Tribal Cafe, 1651 W Temple St, Los Angeles, CA 90026",
+            "category": "['Health food restaurant', 'Espresso bar', 'Juice shop', 'Salad shop', 'Sandwich shop', 'Traditional restaurant', 'Vegetarian cafe and deli']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c705de85656b:0x859d68549af844c5",
+            "iid": 7930,
+            "name": "Tribal Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432632193
+        },
+        {
+            "address": "Boba Guys - Rideback Ranch, 1670 Beverly Blvd, Los Angeles, CA 90026",
+            "category": "['Cafe', 'Bubble tea store']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c70ea768c6cb:0x431659f4f8a3f779",
+            "iid": 7939,
+            "name": "Boba Guys - Rideback Ranch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432639051
+        },
+        {
+            "address": "Tierra Mia Coffee, 653 S Spring St, Los Angeles, CA 90014",
+            "category": "['Coffee shop', 'Espresso bar', 'Latin American restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2c635502a0037:0x419fb186110d7a32",
+            "iid": 7836,
+            "name": "Tierra Mia Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575432914813
+        },
+        {
+            "address": "Aroma Coffee & Tea Co, 4360 Tujunga Ave, Studio City, CA 91604",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be1b0259209f:0x77f1aba2ecdbeb16",
+            "iid": 7314,
+            "name": "Aroma Coffee & Tea Co",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1575432958758
+        },
+        {
+            "address": "Patys Restaurant, 10001 Riverside Dr, Toluca Lake, CA 91602",
+            "category": "['Restaurant', 'American restaurant', 'Breakfast restaurant', 'Coffee shop', 'Diner', 'Gluten-free restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2be325c7d3801:0xc4272e5c703640a",
+            "iid": 7323,
+            "name": "Patys Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575433047692
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 27701 Lake Hughes Rd, Castaic, CA 91384",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c27ed678421ec7:0x9744500aac5df714",
+            "iid": 5911,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": -19.738096237182617,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 31777 Castaic Rd, Castaic, CA 91384",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27ed725cdd3f3:0x17c4a9b8cc5258e0",
+            "iid": 5912,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": -19.94403839111328,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 28050 Hasley Canyon Rd, Castaic, CA 91384",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27e4d6bf36b3d:0xbf544aa6681335d1",
+            "iid": 5908,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": -22.531211853027344,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29675 The Old North Rd, Castaic, CA 91384",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c27e5113a79493:0x2846542136cba10d",
+            "iid": 5910,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": -22.536815643310547,
+            "state": "California"
+        },
+        {
+            "address": "It\u2019s A Grind, 29641 The Old Rd, Castaic, CA 91384",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c27e50e31657db:0xd7b3e933e85daa1f",
+            "iid": 5909,
+            "name": "It\u2019s A Grind",
+            "rank": 5,
+            "score": -22.601396560668945,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 650 Ventura St, Fillmore, CA 93015",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e9cc506cdd41c3:0xb0baf47de28f9d9e",
+            "iid": 13086,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -22.64714813232422,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 908 Ventura St, Fillmore, CA 93015",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80e9cc5b51e91ad5:0x9e784ef40055b05d",
+            "iid": 13087,
+            "name": "McDonald's",
+            "rank": 7,
+            "score": -22.972410202026367,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 49714 Gorman School Rd, Gorman, CA 93243",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80e9e58eed80d423:0x705433c7883bae19",
+            "iid": 13089,
+            "name": "McDonald's",
+            "rank": 8,
+            "score": -23.94987678527832,
+            "state": "California"
+        },
+        {
+            "address": "Ranch House Restaurant, 49713 Gorman Post Rd, Gorman, CA 93243",
+            "category": "['Steak house', 'Coffee shop']",
+            "gmap_id": "0x80e9e58e92dd701b:0xa6c67fdaf01343b1",
+            "iid": 13088,
+            "name": "Ranch House Restaurant",
+            "rank": 9,
+            "score": -24.1304988861084,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 28120 The Old Rd, Valencia, CA 91355",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27e0329494961:0x4e1aaa78f427be26",
+            "iid": 5907,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -26.205615997314453,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 28291 Newhall Ranch Rd, Valencia, CA 91355",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80c27dfd36e3ac8f:0x8481c13a39d3f5dc",
+            "iid": 5905,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 11,
+            "score": -26.495086669921875,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 28160 Newhall Ranch Rd, Santa Clarita, CA 91355",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27dfcab8343c5:0x82730a2f061ed512",
+            "iid": 5904,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -26.664308547973633,
+            "state": "California"
+        },
+        {
+            "address": "Havana Savannah, 24050 Copper Hill Dr, Valencia, CA 91354",
+            "category": "['Coffee shop', 'Cafe', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c27dfdda7366b3:0x9572d744cb32319e",
+            "iid": 5906,
+            "name": "Havana Savannah",
+            "rank": 13,
+            "score": -26.67266845703125,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 24575 Copper Hill Dr, Santa Clarita, CA 91354",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27dc1e109bca7:0xf3f73638a8e4ac29",
+            "iid": 5903,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -26.807601928710938,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 27634 The Old Rd, Valencia, CA 91355",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2819455f974f7:0x84daab1829697caa",
+            "iid": 5914,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 15,
+            "score": -27.32213592529297,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 27618 The Old Rd, Valencia, CA 91355",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c281f9666b57ed:0x9b318fa03f7ccdb0",
+            "iid": 5915,
+            "name": "McDonald's",
+            "rank": 16,
+            "score": -27.368249893188477,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 25349 Wayne Mills Pl, Valencia, CA 91355",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c28752a687b72b:0xf165a9863ce1974b",
+            "iid": 5953,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -27.683744430541992,
+            "state": "California"
+        },
+        {
+            "address": "Eat Real Cafe #2, 27530 Newhall Ranch Rd, Santa Clarita, CA 91355",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c28758b6e05329:0xd5ce09bdb8e6d79",
+            "iid": 5954,
+            "name": "Eat Real Cafe #2",
+            "rank": 18,
+            "score": -28.04806137084961,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 27748 West, McBean Pkwy Suite A-6, Valencia, CA 91354",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c27d8c64f6953f:0xf46421ad0aa4d94",
+            "iid": 5900,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -28.3369140625,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 24133 Baywood Ln, Santa Clarita, CA 91355",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80c2875c4678b56f:0xf12ca2c48dc09b36",
+            "iid": 5955,
+            "name": "Panera Bread",
+            "rank": 20,
+            "score": -28.707304000854492,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Dayan Romero",
+        "uid": 139315,
+        "user_id": 118369557173045723041
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Bamboo Restaurant, 5406 N Division St, Spokane, WA 99207",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/09/12",
+            "gmap_id": "0x549e194827cf29a9:0x2060d4fcdcb90816",
+            "iid": 4891,
+            "name": "Thai Bamboo Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1505248194601
+        },
+        {
+            "address": "Red Dragon Chinese Delivery, 3011 E Diamond Ave, Spokane, WA 99217",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2017/11/10",
+            "gmap_id": "0x549e1edd26a25aab:0xf71773f51b9f3d4",
+            "iid": 4904,
+            "name": "Red Dragon Chinese Delivery",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1510345455778
+        },
+        {
+            "address": "Thai Nigiri Restaurant, 209 N First Ave, Sandpoint, ID 83864",
+            "category": "['Thai restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x5363d6c5c2c57dbb:0x176c0cd7db919202",
+            "iid": 1308,
+            "name": "Thai Nigiri Restaurant",
+            "split": "train",
+            "state": "Idaho",
+            "unix_time": 1517546327885
+        },
+        {
+            "address": "Peking North Chinese Restaurant, 4120 N Division St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Karaoke bar']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e193b4172eba5:0x96c7759382efe0f8",
+            "iid": 4889,
+            "name": "Peking North Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723587173
+        },
+        {
+            "address": "Mr Wok Restaurant, 9222 N Newport Hwy C, Spokane, WA 99218",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/04/03",
+            "gmap_id": "0x549e1c11388c5b19:0x82127319a2d850e1",
+            "iid": 4895,
+            "name": "Mr Wok Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522723656021
+        },
+        {
+            "address": "Hunan Chinese Restaurant, 16 NE A St, Madras, OR 97741",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/04/12",
+            "gmap_id": "0x54beea2c34b78b67:0x87862eff37971722",
+            "iid": 5184,
+            "name": "Hunan Chinese Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1523565303075
+        },
+        {
+            "address": "Panda Chinese Restaurant, 605 E Northern Lights Blvd, Anchorage, AK 99503",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2018/09/16",
+            "gmap_id": "0x56c897c9d2127e65:0x67073d9b8e5951be",
+            "iid": 5719,
+            "name": "Panda Chinese Restaurant",
+            "split": "train",
+            "state": "Alaska",
+            "unix_time": 1537059356254
+        },
+        {
+            "address": "Grace Su's China Gorge Restaurant, 2680 Old Columbia River Dr, Hood River, OR 97031",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x54960e6a63804ecf:0xf5a67bf98c90106d",
+            "iid": 4660,
+            "name": "Grace Su's China Gorge Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1543194115233
+        },
+        {
+            "address": "Vien Dong Restaurant, 3435 E Trent Ave, Spokane, WA 99202",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/11/28",
+            "gmap_id": "0x549e19fb11e93d11:0xd9bd04909d9c58a6",
+            "iid": 4894,
+            "name": "Vien Dong Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1543441611608
+        },
+        {
+            "address": "J&J Chinese Restaurant, 1025 NW Gilman Blvd E-8, Issaquah, WA 98027",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/09/28",
+            "gmap_id": "0x54906f9e33459e03:0x2d329571304f8990",
+            "iid": 3216,
+            "name": "J&J Chinese Restaurant",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1569640366831
+        },
+        {
+            "address": "99352 Washington, Richland, George Washington Way, Ara Sushi & Grill",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2021/05/09",
+            "gmap_id": "0x54987b4d8966e4b7:0x8fc10a9ff2fd3a1b",
+            "iid": 4726,
+            "name": "Ara Sushi & Grill",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1620522646085
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Happiness Chinese Restaurant, 3420 E Sprague Ave, Spokane, WA 99202",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x549e190c2aa39cbf:0x8be3406a891668b5",
+            "iid": 4883,
+            "name": "Happiness Chinese Restaurant",
+            "rank": 1,
+            "score": 0.5762487053871155,
+            "state": "Washington"
+        },
+        {
+            "address": "New Harbour Restaurant, 1830 N Division St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x549e18e59668a61f:0x1802a2e19f8da737",
+            "iid": 4880,
+            "name": "New Harbour Restaurant",
+            "rank": 2,
+            "score": 0.5734505653381348,
+            "state": "Washington"
+        },
+        {
+            "address": "A Taste of Thai, 419 W Hastings Rd, Spokane, WA 99218",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x549e1cf5c8b24ee3:0x99ab4bdc3c10409c",
+            "iid": 4898,
+            "name": "A Taste of Thai",
+            "rank": 3,
+            "score": 0.5530620217323303,
+            "state": "Washington"
+        },
+        {
+            "address": "Panda Express, 3901 N Market St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x549e1f27c5f625c1:0x49cc2cd5a077ce8f",
+            "iid": 4905,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": 0.550665557384491,
+            "state": "Washington"
+        },
+        {
+            "address": "Le's Teriyaki & Pho, 2018 N Hamilton St, Spokane, WA 99207",
+            "category": "['Restaurant', 'Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x549e18c326606d61:0x261bc357988d1888",
+            "iid": 4879,
+            "name": "Le's Teriyaki & Pho",
+            "rank": 5,
+            "score": 0.5496107935905457,
+            "state": "Washington"
+        },
+        {
+            "address": "Sushi.Com, 430 W Main Ave, Spokane, WA 99201",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x549e186016220493:0x20b67d26b124f25d",
+            "iid": 4863,
+            "name": "Sushi.Com",
+            "rank": 6,
+            "score": 0.5449896454811096,
+            "state": "Washington"
+        },
+        {
+            "address": "Panda Express, 9522 N Newport Hwy, Spokane, WA 99218",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x549e1c15930523fb:0x1e882bb157fea89b",
+            "iid": 4896,
+            "name": "Panda Express",
+            "rank": 7,
+            "score": 0.5443837642669678,
+            "state": "Washington"
+        },
+        {
+            "address": "HAHA's Teriyaki Grill, 9331 N Division St, Spokane, WA 99218",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x549e1f2835e7a4f1:0xd93d231522e07985",
+            "iid": 4906,
+            "name": "HAHA's Teriyaki Grill",
+            "rank": 8,
+            "score": 0.5421607494354248,
+            "state": "Washington"
+        },
+        {
+            "address": "Three Sisters Food To Go, 4003 E Sprague Ave, Spokane, WA 99202",
+            "category": "['Vietnamese restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Pho restaurant']",
+            "gmap_id": "0x549e18aa7d5ab895:0xeb7c35cf2b2ba1e2",
+            "iid": 4878,
+            "name": "Three Sisters Food To Go",
+            "rank": 9,
+            "score": 0.5376524925231934,
+            "state": "Washington"
+        },
+        {
+            "address": "Ming Wah Restaurant, 1618 W 3rd Ave, Spokane, WA 99201",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x549e18699dc09831:0x35a375dcdf6fb5b8",
+            "iid": 4873,
+            "name": "Ming Wah Restaurant",
+            "rank": 10,
+            "score": 0.5348846912384033,
+            "state": "Washington"
+        },
+        {
+            "address": "Kinja, 7458 N Division St, Spokane, WA 99208",
+            "category": "['Sushi restaurant', 'Korean restaurant']",
+            "gmap_id": "0x549e1eaa0d11790f:0x24bc8a18c38cb10c",
+            "iid": 4901,
+            "name": "Kinja",
+            "rank": 11,
+            "score": 0.5328734517097473,
+            "state": "Washington"
+        },
+        {
+            "address": "Kuni's Thai Cuisine, 101 E Hastings Rd Suite A and B, Spokane, WA 99218",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant', 'South Asian restaurant', 'Southeast Asian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x549e1d43c6c23dd3:0x3027ec53b08f1904",
+            "iid": 4899,
+            "name": "Kuni's Thai Cuisine",
+            "rank": 12,
+            "score": 0.5288668274879456,
+            "state": "Washington"
+        },
+        {
+            "address": "Bangkok Thai, 1003 E Trent Ave, Spokane, WA 99202",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x549e18941b23259b:0x2a383dbd8754d554",
+            "iid": 4877,
+            "name": "Bangkok Thai",
+            "rank": 13,
+            "score": 0.5288651585578918,
+            "state": "Washington"
+        },
+        {
+            "address": "Fai's Noodle House, 100 N Hayford Rd Suite 117, Airway Heights, WA 99001",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Pho restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x549e16e3a99d42f7:0xccc80a84497f97cf",
+            "iid": 4859,
+            "name": "Fai's Noodle House",
+            "rank": 14,
+            "score": 0.5278783440589905,
+            "state": "Washington"
+        },
+        {
+            "address": "Phonthip Style Thai Restaurant, 1006 E Francis Ave, Spokane, WA 99208",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x549e1eb133677ddf:0x7ea679acfd3f93c4",
+            "iid": 4903,
+            "name": "Phonthip Style Thai Restaurant",
+            "rank": 15,
+            "score": 0.5265554785728455,
+            "state": "Washington"
+        },
+        {
+            "address": "Noodle Express, 7514 N Division St, Spokane, WA 99208",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Fast food restaurant', 'Hawaiian restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x549e1eaa0f6b3fed:0xaaf8488d67356b55",
+            "iid": 4902,
+            "name": "Noodle Express",
+            "rank": 16,
+            "score": 0.523085355758667,
+            "state": "Washington"
+        },
+        {
+            "address": "Panda Express, 2223 W. Wellesley Rd space a, Spokane, WA 99205",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x549e1972722285ab:0x7ebb018ceb9a77ab",
+            "iid": 4893,
+            "name": "Panda Express",
+            "rank": 17,
+            "score": 0.5230310559272766,
+            "state": "Washington"
+        },
+        {
+            "address": "Golden China Restaurant, 1596 7th St, Newport, WA 99156",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x53621cba67a6e041:0x7566d9173fdf894c",
+            "iid": 1304,
+            "name": "Golden China Restaurant",
+            "rank": 18,
+            "score": 0.521342933177948,
+            "state": "Washington"
+        },
+        {
+            "address": "Cathay Inn, 3714 N Division St, Spokane, WA 99207",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar']",
+            "gmap_id": "0x549e19230b34f405:0xffe1d9725e6d750a",
+            "iid": 4886,
+            "name": "Cathay Inn",
+            "rank": 19,
+            "score": 0.5203711986541748,
+            "state": "Washington"
+        },
+        {
+            "address": "Ding How, 1332 N Liberty Lake Rd, Liberty Lake, WA 99019",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Korean restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x5361de8e5a32ec55:0x8aaf3e29c5504ede",
+            "iid": 1297,
+            "name": "Ding How",
+            "rank": 20,
+            "score": 0.5191541314125061,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Natasha Martushoff",
+        "uid": 89781,
+        "user_id": 103011314750792201674
+    }
+}

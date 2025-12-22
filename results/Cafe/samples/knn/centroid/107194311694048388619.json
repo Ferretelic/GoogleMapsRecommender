@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hangar, 26140 Enterprise Way, Lake Forest, CA 92630",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x80dce9dbeedd7225:0xc2e0ef837b736d65",
+            "iid": 11682,
+            "name": "The Hangar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1469116346338
+        },
+        {
+            "address": "Specialty's Caf\u00e9 & Bakery, 20 Pacifica, Irvine, CA 92618",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Cookie shop', 'Lunch restaurant', 'Pastry shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/02/18",
+            "gmap_id": "0x80dce7f73947694b:0x72d52e376a0b18b0",
+            "iid": 11611,
+            "name": "Specialty's Caf\u00e9 & Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1487438829213
+        },
+        {
+            "address": "Bagels & Brew, 21771 Lake Forest Dr #100, Lake Forest, CA 92630",
+            "category": "['Bagel shop', 'Cafe', 'Coffee shop', 'Takeout Restaurant', 'Sandwich shop']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dce9b519297135:0xb26931540da1e6bc",
+            "iid": 11679,
+            "name": "Bagels & Brew",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517305468
+        },
+        {
+            "address": "Starbucks, 5365-B Alton Pkwy, Irvine, CA 92604",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dcdda6afe4773f:0x8f6699c170108092",
+            "iid": 11386,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517405494
+        },
+        {
+            "address": "Native Foods, 26705 Aliso Creek Rd, Aliso Viejo, CA 92656",
+            "category": "['Cafe', 'Takeout Restaurant', 'Restaurant', 'Vegan restaurant']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dcef5291b937d9:0x238a9cb328cc382c",
+            "iid": 11747,
+            "name": "Native Foods",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517466503
+        },
+        {
+            "address": "McDonald's, 23742 Rockfield Blvd, Lake Forest, CA 92630",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dce86724a652d9:0xef928c44e2c0f55a",
+            "iid": 11635,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517490981
+        },
+        {
+            "address": "McDonald's, 1011 17th St, Santa Ana, CA 92706",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/03/03",
+            "gmap_id": "0x80dcd9a25ee7a52b:0x2db75a8e2387ebf4",
+            "iid": 11245,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1488517506291
+        },
+        {
+            "address": "Krispy Kreme, 25802 El Paseo, Mission Viejo, CA 92691",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2019/09/08",
+            "gmap_id": "0x80dceecc008d0799:0xaf601c11cfcf8fca",
+            "iid": 11726,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1567903121845
+        },
+        {
+            "address": "Barnes & Noble, 401 Newport Center Dr Suite A215, Newport Beach, CA 92660",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "date": "2020/07/21",
+            "gmap_id": "0x80dce08603ea677b:0x8ba4cd35d2a908bd",
+            "iid": 11560,
+            "name": "Barnes & Noble",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1595297899829
+        },
+        {
+            "address": "Pengo Drink Station, 22367 El Toro Rd, Lake Forest, CA 92630",
+            "category": "['Juice shop', 'Coffee shop', 'Dessert shop', 'Tea house']",
+            "date": "2020/07/21",
+            "gmap_id": "0x80dce9ffcacf10df:0xb1926359b479277f",
+            "iid": 11692,
+            "name": "Pengo Drink Station",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1595297945963
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Blk Dot Coffee, 924 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dce7088c39f8e1:0x14a19bb2bf14e141",
+            "iid": 11606,
+            "name": "Blk Dot Coffee",
+            "rank": 1,
+            "score": -0.6393522620201111,
+            "state": "California"
+        },
+        {
+            "address": "85C Bakery Cafe - Irvine (Spectrum), 915 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x80dce75c2628044f:0x605d1f062afa7ba4",
+            "iid": 11610,
+            "name": "85C Bakery Cafe - Irvine (Spectrum)",
+            "rank": 2,
+            "score": -0.6512027382850647,
+            "state": "California"
+        },
+        {
+            "address": "California, Irvine, Spectrum Center Dr, Hello Kitty Grand Cafe\u90ae\u653f\u7f16\u7801: 92618",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dce71416d1e9f1:0x19f39eb032c6d3a1",
+            "iid": 11607,
+            "name": "Hello Kitty Grand Cafe",
+            "rank": 3,
+            "score": -0.7315559387207031,
+            "state": "California"
+        },
+        {
+            "address": "Nordstrom Ebar Artisan Coffee, 800 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dce7fc79491c29:0x5bec3eda0eaf05c5",
+            "iid": 11623,
+            "name": "Nordstrom Ebar Artisan Coffee",
+            "rank": 4,
+            "score": -0.7753546833992004,
+            "state": "California"
+        },
+        {
+            "address": "Bruegger's Bagels, 15346 Alton Pkwy, Irvine, CA 92612",
+            "category": "['Bagel shop', 'Breakfast restaurant', 'Cafe', 'Caterer', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80dce800a076c267:0x54c45880495af919",
+            "iid": 11625,
+            "name": "Bruegger's Bagels",
+            "rank": 5,
+            "score": -0.7814809679985046,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 15342 Alton Pkwy, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce7fe312b09a5:0xdb668e3a2c03a597",
+            "iid": 11624,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -0.7844463586807251,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 737 Spectrum Center Dr Suite 220, Irvine, CA 92618",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dce7fc72195c67:0x8ba7cd3e02ca059d",
+            "iid": 11622,
+            "name": "Auntie Anne's",
+            "rank": 7,
+            "score": -0.8039782047271729,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, 728 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x80dce7fbbf33ee07:0x856748e48e69b29f",
+            "iid": 11618,
+            "name": "Barnes & Noble",
+            "rank": 8,
+            "score": -0.8238621354103088,
+            "state": "California"
+        },
+        {
+            "address": "Pho Saigon Pearl, 704 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Coffee shop', 'Ethnic restaurant', 'Noodle shop', 'Pho restaurant', 'Restaurant', 'Sandwich shop', 'Seafood restaurant', 'Soup restaurant']",
+            "gmap_id": "0x80dce7fbc76d11bd:0xd98d4aa3dd0820ea",
+            "iid": 11619,
+            "name": "Pho Saigon Pearl",
+            "rank": 9,
+            "score": -0.8551310896873474,
+            "state": "California"
+        },
+        {
+            "address": "Corner Bakery, 771 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "gmap_id": "0x80dce7fc1540a915:0x4f577342bbf4a3ed",
+            "iid": 11621,
+            "name": "Corner Bakery",
+            "rank": 10,
+            "score": -0.902414083480835,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8539 Irvine Center Dr #530, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce7fb5371554b:0xd77fcc29a7f66724",
+            "iid": 11616,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -0.909204363822937,
+            "state": "California"
+        },
+        {
+            "address": "Station Cafe, 15211 Barranca Pkwy, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Restaurant', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x80dce801b27f19c1:0xfcfabf636f6bbc9c",
+            "iid": 11626,
+            "name": "Station Cafe",
+            "rank": 12,
+            "score": -0.93350750207901,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 628 Spectrum Center Dr #844, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80dce7fbe0cac1a7:0x1b53b220e2133ebf",
+            "iid": 11620,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 13,
+            "score": -0.9765975475311279,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 115 Fortune Dr, Irvine, CA 92618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dce7fbbcc50967:0xe088b91d1810947b",
+            "iid": 11617,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -1.0250062942504883,
+            "state": "California"
+        },
+        {
+            "address": "SomiSomi, 640 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Dessert shop', 'Cafe', 'Ice cream shop']",
+            "gmap_id": "0x80dce7f97ae2485d:0xfc7fad8c29359e3b",
+            "iid": 11614,
+            "name": "SomiSomi",
+            "rank": 15,
+            "score": -1.0893079042434692,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 505 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce7f9aeb19203:0x9a2ac5892da12c11",
+            "iid": 11615,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": -1.1079423427581787,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 38 Prism, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dce7f795514759:0xeee8980028463b17",
+            "iid": 11612,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": -1.5884284973144531,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7905 Gateway, Irvine, CA 92618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dcdd5784bf2f81:0xdf886abfc3f529c4",
+            "iid": 11372,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -1.6447951793670654,
+            "state": "California"
+        },
+        {
+            "address": "Triquest Cafe, 15375 Barranca Pkwy. Ste #C101, Irvine, CA 92618",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dcdd54759f81ef:0xb2ee059ee7326e27",
+            "iid": 11371,
+            "name": "Triquest Cafe",
+            "rank": 19,
+            "score": -1.8836147785186768,
+            "state": "California"
+        },
+        {
+            "address": "Le Cafe Du Parc, 12000 Spectrum, Irvine, CA 92618",
+            "category": "['Cafe', 'Cocktail bar', 'Coffee shop']",
+            "gmap_id": "0x80dce7f7dab29d1d:0x64341da6f60a9102",
+            "iid": 11613,
+            "name": "Le Cafe Du Parc",
+            "rank": 20,
+            "score": -1.905839443206787,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jera F",
+        "uid": 54582,
+        "user_id": 107194311694048388619
+    }
+}

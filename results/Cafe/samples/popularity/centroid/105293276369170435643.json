@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 114 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2016/09/04",
+            "gmap_id": "0x80c2c0ff8f7d53b5:0xcdc3757c74d24987",
+            "iid": 7586,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1473022536700
+        },
+        {
+            "address": "McDonald's, 612 E Redlands Blvd, Redlands, CA 92374",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/11/21",
+            "gmap_id": "0x80dcaa0997755113:0xd20504aff57ecd04",
+            "iid": 10766,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511222878319
+        },
+        {
+            "address": "McDonald's, 20700 Tracy Ave, Buttonwillow, CA 93206",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2017/11/29",
+            "gmap_id": "0x80ea533c9da2fda7:0xc0124c5a6585d7b1",
+            "iid": 13155,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511983754916
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 100 N Palm Canyon Dr, Palm Springs, CA 92262, United States",
+            "category": "['Coffee shop', 'Tea house']",
+            "date": "2017/11/29",
+            "gmap_id": "0x80db1ba5a8573b11:0x9c7f99cfc2570544",
+            "iid": 9890,
+            "name": "The Coffee Bean & Tea Leaf",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1511983775555
+        },
+        {
+            "address": "McDonald's, 4550 Clayton Rd, Concord, CA 94521",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2018/11/01",
+            "gmap_id": "0x80855e18b1728537:0x342d5928676c88b0",
+            "iid": 747,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541092913775
+        },
+        {
+            "address": "Starbucks, 103 Broadway Ln, Walnut Creek, CA 94596",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/11/01",
+            "gmap_id": "0x808561c3ba8bb973:0xc8e6861e3466032a",
+            "iid": 804,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1541092935039
+        },
+        {
+            "address": "Boudin Bakery Cafe, 160 Jefferson St Baker's Hall, San Francisco, CA 94133",
+            "category": "['Bakery', 'Cafe', 'Salad shop', 'Sandwich shop']",
+            "date": "2019/08/01",
+            "gmap_id": "0x808580e311fa8115:0x3f44089a41e5ac6e",
+            "iid": 1592,
+            "name": "Boudin Bakery Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564634719949
+        },
+        {
+            "address": "Peet's Coffee, 5458 Ygnacio Valley Rd #10, Concord, CA 94521",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "date": "2019/09/28",
+            "gmap_id": "0x80855fad33b2c7bf:0xe2960591bf78e865",
+            "iid": 755,
+            "name": "Peet's Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569707930996
+        },
+        {
+            "address": "McDonald's, 7145 Dublin Blvd, Dublin, CA 94568",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/09/28",
+            "gmap_id": "0x808fec13320929bb:0xd7a6c7eecc31602c",
+            "iid": 4069,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1569707972876
+        },
+        {
+            "address": "Starbucks, 569 W Clover Rd, Tracy, CA 95376",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/09/28",
+            "gmap_id": "0x80903d57862351f3:0xa0cebabc4895c18f",
+            "iid": 4241,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1569708110562
+        },
+        {
+            "address": "The Mad Greek, 72112 Baker Blvd, Baker, CA 92309",
+            "category": "['Greek restaurant', 'Cafe', 'Restaurant']",
+            "date": "2019/09/28",
+            "gmap_id": "0x80c5bdc7972b02c3:0x927d0968eafccbc4",
+            "iid": 9202,
+            "name": "The Mad Greek",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1569709086718
+        }
+    ],
+    "model": {
+        "model": "popularity",
+        "name": "Popularity (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "McDonald's, 25145 W Dorris Ave, Coalinga, CA 93210",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809360b568c8de7b:0xdd0a37ce7cc7d665",
+            "iid": 4547,
+            "name": "McDonald's",
+            "rank": 1,
+            "score": 34.39606475830078,
+            "state": "California"
+        },
+        {
+            "address": "The Shoppe @ Bravoland, 33341 Bernard Dr ste a, Kettleman City, CA 93239",
+            "category": "['Gift shop', 'Antique store', 'Cheese shop', 'Coffee shop', 'Dog park', 'Event venue', 'Ice cream shop', 'Playground', 'Public bathroom', 'Wine bar']",
+            "gmap_id": "0x80eb4d45ed1deca5:0xf6d9cdd23ff90393",
+            "iid": 13260,
+            "name": "The Shoppe @ Bravoland",
+            "rank": 2,
+            "score": 16.321762084960938,
+            "state": "California"
+        },
+        {
+            "address": "Madonna Inn, 100 Madonna Rd, San Luis Obispo, CA 93405",
+            "category": "['Hotel', 'Boutique', 'Cafe', 'Gift shop', 'Inn', 'Spa', 'Steak house', 'Tourist attraction']",
+            "gmap_id": "0x80ecf0e660039bc7:0x6f2837fd2edba5ec",
+            "iid": 13416,
+            "name": "Madonna Inn",
+            "rank": 3,
+            "score": 7.900563716888428,
+            "state": "California"
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 315 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c2c054f6a8805d:0xe621dcbff857a957",
+            "iid": 7537,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 4,
+            "score": 7.234662055969238,
+            "state": "California"
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 3614 W Magnolia Blvd, Burbank, CA 91505",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c29581d2fc8333:0x2bbe1a28d46a2726",
+            "iid": 6081,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 5,
+            "score": 6.723715305328369,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 1831 E McKinley Ave, Fresno, CA 93703",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80945df807f40ba5:0x80313095f9d3006",
+            "iid": 4658,
+            "name": "Dutch Bros Coffee",
+            "rank": 6,
+            "score": 6.698978424072266,
+            "state": "California"
+        },
+        {
+            "address": "Barnes & Noble, Villagio Retail Center, 7849 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Book store', 'Cafe', 'Childrens book store', 'Hobby store', 'Toy store']",
+            "gmap_id": "0x8094681e51f38973:0xf6b51532399dea47",
+            "iid": 4727,
+            "name": "Barnes & Noble",
+            "rank": 7,
+            "score": 6.316020965576172,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 25246 W Dorris Ave, Coalinga, CA 93210",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809367088df3b1d3:0x920b4115a2b2b99",
+            "iid": 4548,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 6.254302501678467,
+            "state": "California"
+        },
+        {
+            "address": "Porto's Bakery and Cafe, 8233 Firestone Blvd, Downey, CA 90241",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Cuban restaurant', 'Latin American restaurant']",
+            "gmap_id": "0x80c2cd983a64bc8f:0x1ad5d43088e89bed",
+            "iid": 8299,
+            "name": "Porto's Bakery and Cafe",
+            "rank": 9,
+            "score": 6.083724498748779,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 1768 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809467c8c30542cd:0x3ebf59de2cde883f",
+            "iid": 4712,
+            "name": "Dutch Bros Coffee",
+            "rank": 10,
+            "score": 5.3369832038879395,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3115 N Blackstone Ave, Fresno, CA 93703",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80946761966506bd:0xe09cb0dcdefdd997",
+            "iid": 4704,
+            "name": "McDonald's",
+            "rank": 11,
+            "score": 5.102553367614746,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 33300 Bernard Dr, Kettleman City, CA 93239",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80eb4d4584f87f13:0xdbdabc12c2704063",
+            "iid": 13258,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 4.693413734436035,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 4982 E Ashlan Ave, Fresno, CA 93726",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x80945c47a40e9725:0xd2dc410e5359e402",
+            "iid": 4612,
+            "name": "Dutch Bros Coffee",
+            "rank": 13,
+            "score": 4.671335697174072,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 46330 W Panoche Rd, Firebaugh, CA 93622",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x8093bb78c9d4f5b3:0xc1a943c174c32511",
+            "iid": 4550,
+            "name": "McDonald's",
+            "rank": 14,
+            "score": 4.6427836418151855,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1718 W Olive Ave, Fresno, CA 93728",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80946726d0ce0b5f:0xf529c9c0fe1d2322",
+            "iid": 4694,
+            "name": "McDonald's",
+            "rank": 15,
+            "score": 4.554540634155273,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 1739 Divisadero St, Fresno, CA 93701",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809460a79ba8e7c1:0x421408464983248f",
+            "iid": 4681,
+            "name": "McDonald's",
+            "rank": 16,
+            "score": 4.277903079986572,
+            "state": "California"
+        },
+        {
+            "address": "Red Rock Coffee, 201 Castro St, Mountain View, CA 94041",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "gmap_id": "0x808fb734116ac517:0x39773b61b8c262c6",
+            "iid": 3563,
+            "name": "Red Rock Coffee",
+            "rank": 17,
+            "score": 4.152658939361572,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 4803 E McKinley Ave, Fresno, CA 93703",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80945e8408ebbfe9:0xa806415e3d717930",
+            "iid": 4671,
+            "name": "McDonald's",
+            "rank": 18,
+            "score": 4.097437858581543,
+            "state": "California"
+        },
+        {
+            "address": "Tartine Bakery, 600 Guerrero St, San Francisco, CA 94110",
+            "category": "['Bakery', 'Cafe']",
+            "gmap_id": "0x808f7e1807365605:0x601f7a97f0ce6c6b",
+            "iid": 2714,
+            "name": "Tartine Bakery",
+            "rank": 19,
+            "score": 4.081954479217529,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3110 E Jensen Ave, Fresno, CA 93706",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80945fc6ad27a93d:0xcb4bf80b40ec7610",
+            "iid": 4678,
+            "name": "McDonald's",
+            "rank": 20,
+            "score": 4.028513431549072,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Ardavan Pakbaz",
+        "uid": 40034,
+        "user_id": 105293276369170435643
+    }
+}

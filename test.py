@@ -1,81 +1,92 @@
 import os
-import random
 
 import hydra
-from omegaconf import DictConfig
+from omegaconf import OmegaConf
 import pandas as pd
-import numpy as np
-import torch
 
 from testing.tester import *
-from testing.plot_results import *
-from testing.sampling import *
+from testing.sampler import *
 from testing.new_user import *
+from testing.metrics import *
+from testing.dim_reduction import *
 
-def seed_everything(seed=42):
-    random.seed(seed)
-    os.environ["PYTHONHASHSEED"] = str(seed)
-    np.random.seed(seed)
-    torch.manual_seed(seed)
-    torch.cuda.manual_seed(seed)
+from utils import *
+
+def load_models(cfg):
+    models = []
+    for model_info in cfg.baselines:
+        models.append(OmegaConf.to_container(model_info, resolve=True))
+
+    for model_info in cfg.embeddings:
+        models.append(OmegaConf.to_container(model_info, resolve=True))
+
+    return models
+
+def calculate_valid_performances(cfg):
+    update_valid_performances(cfg)
+    plot_validation_results(cfg)
 
 def calculate_metrics(cfg):
-    if os.path.exists(f"{cfg.paths.result}/test_results.csv"):
+    if os.path.exists(f"{cfg.paths.result}/test_performances.csv"):
         return
 
     metrics = []
-
-    sample_users = sample_test_users
-
-    print("Testing baselines...")
-    for baseline in cfg.test.baselines:
-        metric = test_recommender(cfg, "baseline", baseline)
-
-        metric["type"] = "baseline"
-        metric["name"] = baseline
-        metrics.append(metric)
-
-    print("Testing trained embeddings...")
-    for (name, type, embedding) in cfg.test.embeddings:
-        metric = test_recommender(cfg, type, embedding)
-
-        metric["type"] = type
-        metric["name"] = name
+    for model_info in load_models(cfg):
+        metric = test_recommender(cfg, model_info)
+        metric = model_info | metric
         metrics.append(metric)
 
     df = pd.DataFrame(metrics)
     print(df)
-    df.to_csv(f"{cfg.paths.result}/test_results.csv", index=False)
+    df.to_csv(f"{cfg.paths.result}/test_performances.csv", index=False)
 
     plot_test_results(cfg, df)
 
 def run_inference(cfg):
     sample_users = sample_test_users(cfg)
-    sampler = Sampler(cfg, sample_users)
+    sampler = TestUserSampler(cfg, sample_users)
 
-    for baseline in cfg.inference.baselines:
-        model = (baseline, "baseline", baseline)
-        sampler.sample(model, cfg.inference.log)
-
-    for model in cfg.inference.embeddings:
-        sampler.sample(model, cfg.inference.log)
+    for model_info in load_models(cfg):
+        sampler.sample(model_info, cfg.inference.log)
 
 def recommend_new_users(cfg):
     users = load_new_users(cfg)
     sampler = NewUserSampler(cfg)
 
-    for model in cfg.inference.embeddings:
-        sampler.sample(model, users)
+    for model_info in load_models(cfg):
+        sampler.sample(model_info, users, cfg.inference.log)
+
+def analyze_models(cfg):
+    models = []
+    for model_info in load_models(cfg):
+        if model_info["type"] == "dot":
+            models.append(model_info["model"])
+
+    for model in models:
+        analyze_embeddings(cfg, model)
 
 @hydra.main(version_base=None, config_path="config", config_name="test")
-def main(cfg: DictConfig):
+def main(cfg):
     seed_everything()
+
+    print("Plotting training history...")
+    plot_training_history(cfg)
+
+    print("Comparing model performances on validation datast...")
+    calculate_valid_performances(cfg)
+
+    print("Analysing embedding vectors...")
+    analyze_models(cfg)
 
     print("Calculating metrics on test dataset...")
     calculate_metrics(cfg)
 
-    print("Running inference on sampled users...")
+    print("Running inference on test users...")
     run_inference(cfg)
+
+    print("Adding new user for inference...")
+    if cfg.inference.add_user:
+        add_new_user(cfg)
 
     print("Running recommenders on new users...")
     recommend_new_users(cfg)

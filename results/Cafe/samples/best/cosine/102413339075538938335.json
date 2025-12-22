@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 12770 Hawthorne Blvd, Hawthorne, CA 90250",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80c2b429f52ea8a3:0x8b246f56fd334425",
+            "iid": 6559,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573426295144
+        },
+        {
+            "address": "Tea Block, 18311 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Bubble tea store', 'Coffee shop', 'Fried chicken takeaway', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c32a61b2498f9f:0xa785d11ea81265c8",
+            "iid": 8765,
+            "name": "Tea Block",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574485351615
+        },
+        {
+            "address": "McDonald's, 8913 Washington Blvd, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/12/12",
+            "gmap_id": "0x80c2d1f6e3f5a9fd:0xd0b38eaef11cce0b",
+            "iid": 8405,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1607744232789
+        },
+        {
+            "address": "McDonald's, 8715 E Whittier Ave, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/02/24",
+            "gmap_id": "0x80c2d1950dec5457:0x1dfddbffa639c576",
+            "iid": 8401,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1614127612084
+        },
+        {
+            "address": "Krispy Kreme, 1024 W Gladstone St, San Dimas, CA 91773",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2021/02/26",
+            "gmap_id": "0x80c32f4b92890125:0xcc306d19e0f361a5",
+            "iid": 8847,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1614305012133
+        },
+        {
+            "address": "Starbucks, 12693 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2021/03/06",
+            "gmap_id": "0x80c36841f3208617:0x6c2c759229612edd",
+            "iid": 9162,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1615071290699
+        },
+        {
+            "address": "McDonald's, 4015 Phelan Rd, Phelan, CA 92371",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/29",
+            "gmap_id": "0x80c31497c1e0819b:0x2d0f3374354a30c0",
+            "iid": 8698,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1616989357291
+        },
+        {
+            "address": "McDonald's, 14466 Main St Pad G, Hesperia, CA 92345",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/29",
+            "gmap_id": "0x80c367e8bdb8aeab:0x7b51d0ae99fab272",
+            "iid": 9160,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1616989363322
+        },
+        {
+            "address": "La Monarca Bakery & Cafe, 6001 Rosemead Blvd, Pico Rivera, CA 90660",
+            "category": "['Bakery', 'Cafe', 'Catering food and drink supplier', 'Caterer', 'Coffee shop']",
+            "date": "2021/04/11",
+            "gmap_id": "0x80c2d192992ded0b:0xf5459c3de40db2bb",
+            "iid": 8399,
+            "name": "La Monarca Bakery & Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1618181822517
+        },
+        {
+            "address": "McDonald's, 2020 W Olympic Blvd, Los Angeles, CA 90006, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/06/02",
+            "gmap_id": "0x80c2c79853c7f055:0x872dec17aab894d9",
+            "iid": 8065,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1622660823746
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 12795 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c3686c5636fce9:0x2779520a96e6bc9b",
+            "iid": 9164,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.5116164684295654,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 17284 Main St, Hesperia, CA 92345",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c35df3f1a8fa27:0x6819c9def788512",
+            "iid": 9113,
+            "name": "McDonald's",
+            "rank": 2,
+            "score": 0.4825987219810486,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 17050 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c35d8b00bbb5dd:0xb64d7492de342b71",
+            "iid": 9109,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.47966569662094116,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13166 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c3686c5573cfd5:0x157d190d8dfb5600",
+            "iid": 9163,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": 0.45662376284599304,
+            "state": "California"
+        },
+        {
+            "address": "Circle K, 8197 I Ave, Hesperia, CA 92345",
+            "category": "['Convenience store', 'ATM', 'Coffee shop', 'Coffee store', 'Diesel fuel supplier', 'Gas station', 'Public bathroom', 'Snack bar', 'Soft drinks shop']",
+            "gmap_id": "0x80c35dc4be96c989:0xb2f074a56274af91",
+            "iid": 9111,
+            "name": "Circle K",
+            "rank": 5,
+            "score": 0.44109711050987244,
+            "state": "California"
+        },
+        {
+            "address": "Fastrip, 17223 Main St, Hesperia, CA 92345",
+            "category": "['Convenience store', 'ATM', 'Beer store', 'Coffee stand', 'Gas station', 'Grocery store', 'Liquor store', 'Lottery retailer', 'Public bathroom', 'Tobacco shop']",
+            "gmap_id": "0x80c35df390884807:0x9c4c14eac60773d1",
+            "iid": 9112,
+            "name": "Fastrip",
+            "rank": 6,
+            "score": 0.43095090985298157,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8800 Whittier Blvd, Pico Rivera, CA 90660",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2d194f6cab4d3:0x330300d90ce02255",
+            "iid": 8400,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 0.41886085271835327,
+            "state": "California"
+        },
+        {
+            "address": "Cinnabon, 8701 US-395, Hesperia, CA 92344",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80c3683047df653b:0x8bf8b4792aa133ed",
+            "iid": 9161,
+            "name": "Cinnabon",
+            "rank": 8,
+            "score": 0.4184374213218689,
+            "state": "California"
+        },
+        {
+            "address": "Main Street Gas & Mart, 16400 Main St, Hesperia, CA 92345",
+            "category": "['Gas station', 'ATM', 'Beer store', 'Coffee shop', 'Liquor store', 'Lottery retailer', 'Tobacco shop', 'Wine store']",
+            "gmap_id": "0x80c3677d0daf358d:0xa2da6eceae7c8fe",
+            "iid": 9157,
+            "name": "Main Street Gas & Mart",
+            "rank": 9,
+            "score": 0.41375619173049927,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 12146 Mariposa Rd, Victorville, CA 92392",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c3663e638a5f4f:0xb81626d374fea42c",
+            "iid": 9148,
+            "name": "McDonald's",
+            "rank": 10,
+            "score": 0.408514142036438,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9329 Whittier Blvd, Pico Rivera, CA 90660",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2d190f21649ff:0xf07e4f0f453a239e",
+            "iid": 8398,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 0.4073817729949951,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 11412 Fashion Ct, Hesperia, CA 92344",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c3429555555539:0x100ebfea018fdf0f",
+            "iid": 9012,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": 0.4035666584968567,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 9000 Slauson Ave, Pico Rivera, CA 90660",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2d205be5aca13:0x986b2d8c1259ef7f",
+            "iid": 8410,
+            "name": "Yum Yum Donuts",
+            "rank": 13,
+            "score": 0.39812353253364563,
+            "state": "California"
+        },
+        {
+            "address": "Yum Yum Donuts, 10426 Whittier Blvd, Whittier, CA 90606",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Takeout Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2d23447955ad7:0x35c5a80b4ceed73b",
+            "iid": 8415,
+            "name": "Yum Yum Donuts",
+            "rank": 14,
+            "score": 0.39299440383911133,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 3230 Wagon Train Rd, Phelan, CA 92371",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c3414f8224dea5:0x16d8fcd7208f1ad8",
+            "iid": 9011,
+            "name": "McDonald's",
+            "rank": 15,
+            "score": 0.3885131776332855,
+            "state": "California"
+        },
+        {
+            "address": "Molly Brown's Country Cafe, 16575 Smoke Tree St, Hesperia, CA 92345",
+            "category": "['American restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80c367633ee4dde5:0xb6fa03234b793914",
+            "iid": 9156,
+            "name": "Molly Brown's Country Cafe",
+            "rank": 16,
+            "score": 0.3848934769630432,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 9309 Slauson Ave, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2d21042ea50ef:0xfde1bd4543902ecc",
+            "iid": 8413,
+            "name": "McDonald's",
+            "rank": 17,
+            "score": 0.3800053894519806,
+            "state": "California"
+        },
+        {
+            "address": "Six Beans Coffee, 15760 Ranchero Rd, Hesperia, CA 92345",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c35d92ccd0ae8d:0x42894009924e7924",
+            "iid": 9110,
+            "name": "Six Beans Coffee",
+            "rank": 18,
+            "score": 0.37944769859313965,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 8700 Washington Blvd, Pico Rivera, CA 90660",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x80c2d1f9fb68ed3f:0x43355ea10651aa13",
+            "iid": 8407,
+            "name": "Panera Bread",
+            "rank": 19,
+            "score": 0.37609943747520447,
+            "state": "California"
+        },
+        {
+            "address": "La Monarca Bakery & Cafe, 6001 Rosemead Blvd, Pico Rivera, CA 90660",
+            "category": "['Bakery', 'Cafe', 'Catering food and drink supplier', 'Caterer', 'Coffee shop']",
+            "gmap_id": "0x80c2d192992ded0b:0xf5459c3de40db2bb",
+            "iid": 8399,
+            "name": "La Monarca Bakery & Cafe",
+            "rank": 20,
+            "score": 0.3728906810283661,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jesus Flores",
+        "uid": 18267,
+        "user_id": 102413339075538938335
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 12770 Hawthorne Blvd, Hawthorne, CA 90250",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/11/10",
+            "gmap_id": "0x80c2b429f52ea8a3:0x8b246f56fd334425",
+            "iid": 6559,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573426295144
+        },
+        {
+            "address": "Tea Block, 18311 Colima Rd, Rowland Heights, CA 91748",
+            "category": "['Bubble tea store', 'Coffee shop', 'Fried chicken takeaway', 'Tea house']",
+            "date": "2019/11/23",
+            "gmap_id": "0x80c32a61b2498f9f:0xa785d11ea81265c8",
+            "iid": 8765,
+            "name": "Tea Block",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574485351615
+        },
+        {
+            "address": "McDonald's, 8913 Washington Blvd, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/12/12",
+            "gmap_id": "0x80c2d1f6e3f5a9fd:0xd0b38eaef11cce0b",
+            "iid": 8405,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1607744232789
+        },
+        {
+            "address": "McDonald's, 8715 E Whittier Ave, Pico Rivera, CA 90660",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/02/24",
+            "gmap_id": "0x80c2d1950dec5457:0x1dfddbffa639c576",
+            "iid": 8401,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1614127612084
+        },
+        {
+            "address": "Krispy Kreme, 1024 W Gladstone St, San Dimas, CA 91773",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2021/02/26",
+            "gmap_id": "0x80c32f4b92890125:0xcc306d19e0f361a5",
+            "iid": 8847,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1614305012133
+        },
+        {
+            "address": "Starbucks, 12693 Main St, Hesperia, CA 92345",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2021/03/06",
+            "gmap_id": "0x80c36841f3208617:0x6c2c759229612edd",
+            "iid": 9162,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1615071290699
+        },
+        {
+            "address": "McDonald's, 4015 Phelan Rd, Phelan, CA 92371",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/29",
+            "gmap_id": "0x80c31497c1e0819b:0x2d0f3374354a30c0",
+            "iid": 8698,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1616989357291
+        },
+        {
+            "address": "McDonald's, 14466 Main St Pad G, Hesperia, CA 92345",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/03/29",
+            "gmap_id": "0x80c367e8bdb8aeab:0x7b51d0ae99fab272",
+            "iid": 9160,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1616989363322
+        },
+        {
+            "address": "La Monarca Bakery & Cafe, 6001 Rosemead Blvd, Pico Rivera, CA 90660",
+            "category": "['Bakery', 'Cafe', 'Catering food and drink supplier', 'Caterer', 'Coffee shop']",
+            "date": "2021/04/11",
+            "gmap_id": "0x80c2d192992ded0b:0xf5459c3de40db2bb",
+            "iid": 8399,
+            "name": "La Monarca Bakery & Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1618181822517
+        },
+        {
+            "address": "McDonald's, 2020 W Olympic Blvd, Los Angeles, CA 90006, United States",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2021/06/02",
+            "gmap_id": "0x80c2c79853c7f055:0x872dec17aab894d9",
+            "iid": 8065,
+            "name": "McDonald's",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1622660823746
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Alpaca Cafe, 1600 S Azusa Ave #162, City of Industry, CA 91748",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2d59563d37251:0xfa05272978ecee2f",
+            "iid": 8491,
+            "name": "Alpaca Cafe",
+            "rank": 1,
+            "score": -1.8273290395736694,
+            "state": "California"
+        },
+        {
+            "address": "Cinnabon, 8701 US-395, Hesperia, CA 92344",
+            "category": "['Bakery', 'Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x80c3683047df653b:0x8bf8b4792aa133ed",
+            "iid": 9161,
+            "name": "Cinnabon",
+            "rank": 2,
+            "score": -1.9837925434112549,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13473 Telegraph Rd Suite A, Whittier, CA 90605",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2d3720eed5821:0x1a1615416f7b2919",
+            "iid": 8444,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": -2.0801494121551514,
+            "state": "California"
+        },
+        {
+            "address": "MUGS Coffee Roasters, 3557 E 3rd St, Los Angeles, CA 90063",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2cffbeb171e6d:0xc7c8aeeec810638e",
+            "iid": 8374,
+            "name": "MUGS Coffee Roasters",
+            "rank": 4,
+            "score": -2.1151905059814453,
+            "state": "California"
+        },
+        {
+            "address": "Secret Spot, 17200 Pacific Coast Hwy, Huntington Beach, CA 92649",
+            "category": "['Cafe', 'Breakfast restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80dd250fc6a6d2f1:0xe3e584c932901182",
+            "iid": 11865,
+            "name": "Secret Spot",
+            "rank": 5,
+            "score": -2.1294350624084473,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2124 Artesia Blvd, Torrance, CA 90504",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b5f79f79c8dd:0x4da6ebd0c84dcdc6",
+            "iid": 6650,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": -2.1455225944519043,
+            "state": "California"
+        },
+        {
+            "address": "Auntie Anne's, 2626 E Katella Ave, Anaheim, CA 92806",
+            "category": "['Pretzel store', 'Bakery', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80dcd7760f769187:0xf1635cca68b2880",
+            "iid": 11147,
+            "name": "Auntie Anne's",
+            "rank": 7,
+            "score": -2.15222430229187,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5359 University Dr, Irvine, CA 92612",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dcddcdbd920acd:0x7a027b99809e5014",
+            "iid": 11391,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": -2.154834270477295,
+            "state": "California"
+        },
+        {
+            "address": "CAKED LA, 4200 Chino Hills Pkwy #315, Chino Hills, CA 91709",
+            "category": "['Cafe', 'Bubble tea store', 'Cake shop']",
+            "gmap_id": "0x80dccd4803622e0f:0x829b00107bb8171b",
+            "iid": 11004,
+            "name": "CAKED LA",
+            "rank": 9,
+            "score": -2.1558339595794678,
+            "state": "California"
+        },
+        {
+            "address": "Figueroa & 28th, 2735 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7e7a1d95555:0xe09de2e71f39c16c",
+            "iid": 8151,
+            "name": "Figueroa & 28th",
+            "rank": 10,
+            "score": -2.1618285179138184,
+            "state": "California"
+        },
+        {
+            "address": "Ding Tea, 17110 Colima Rd E, Hacienda Heights, CA 91745",
+            "category": "['Tea house', 'Cafe']",
+            "gmap_id": "0x80c2d56f413f216f:0xe51d93cd6d99bb70",
+            "iid": 8486,
+            "name": "Ding Tea",
+            "rank": 11,
+            "score": -2.1677908897399902,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 29211 Heathercliff Rd, Malibu, CA 90265",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80e818f6f5dca5ab:0x9c908aaaf2506a6c",
+            "iid": 12697,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -2.187972068786621,
+            "state": "California"
+        },
+        {
+            "address": "Wilshire's Apple Shed, Yucaipa, CA 92399",
+            "category": "['Cafe']",
+            "gmap_id": "0x80db4f0a77680ffd:0x7f053707fd75a958",
+            "iid": 9947,
+            "name": "Wilshire's Apple Shed",
+            "rank": 13,
+            "score": -2.1937477588653564,
+            "state": "California"
+        },
+        {
+            "address": "CAFE5, 2025 W Jefferson Blvd, Los Angeles, CA 90018",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b93bbc1ccc05:0x291c3221468effd9",
+            "iid": 6892,
+            "name": "CAFE5",
+            "rank": 14,
+            "score": -2.199465274810791,
+            "state": "California"
+        },
+        {
+            "address": "Nazo's Bakery, 810 W 8th St, Los Angeles, CA 90017",
+            "category": "['Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Lunch restaurant', 'Delivery Restaurant', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2c7b6c30b2599:0x3ee450a2374bdc51",
+            "iid": 8115,
+            "name": "Nazo's Bakery",
+            "rank": 15,
+            "score": -2.20078444480896,
+            "state": "California"
+        },
+        {
+            "address": "Black Dog Coffee Roasters, 1390 E Burnett St Suite G, Signal Hill, CA 90755",
+            "category": "['Coffee roasters']",
+            "gmap_id": "0x80dd33d3d3692a25:0xbc57d6d55e9bef66",
+            "iid": 12429,
+            "name": "Black Dog Coffee Roasters",
+            "rank": 16,
+            "score": -2.205723524093628,
+            "state": "California"
+        },
+        {
+            "address": "Kona Koffee Company, 138 International Boardwalk, Redondo Beach, CA 90277",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b4a0cbcfbcf5:0xea12333a8f98ba05",
+            "iid": 6578,
+            "name": "Kona Koffee Company",
+            "rank": 17,
+            "score": -2.2060697078704834,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 14200 Ramona Blvd Unit 10, Baldwin Park, CA 91706",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2d76d6d0ca751:0x5dad6b013b1acf06",
+            "iid": 8518,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.2076728343963623,
+            "state": "California"
+        },
+        {
+            "address": "Ain't Normal Cafe, 5701 College Ave, Oakland, CA 94618",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80857d9ed6e3a86b:0x691165ec6ef61201",
+            "iid": 1020,
+            "name": "Ain't Normal Cafe",
+            "rank": 19,
+            "score": -2.208915948867798,
+            "state": "California"
+        },
+        {
+            "address": "Wrecking Ball Coffee Roasters, 613 York St, San Francisco, CA 94110",
+            "category": "['Coffee store']",
+            "gmap_id": "0x808f7e313123691b:0x5e98605935e293c5",
+            "iid": 2774,
+            "name": "Wrecking Ball Coffee Roasters",
+            "rank": 20,
+            "score": -2.2122385501861572,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jesus Flores",
+        "uid": 18267,
+        "user_id": 102413339075538938335
+    }
+}

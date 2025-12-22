@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Bluefin Sushi & Seafood, 401 NE Northgate Way #463, Seattle, WA 98125",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Dessert restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2017/07/12",
+            "gmap_id": "0x549011541fc59b95:0x9dbe215c412a1de8",
+            "iid": 1830,
+            "name": "Bluefin Sushi & Seafood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1499835536774
+        },
+        {
+            "address": "New Seoul Restaurant, 14007 Hwy 99 # G, Lynnwood, WA 98087",
+            "category": "['Korean restaurant']",
+            "date": "2018/02/27",
+            "gmap_id": "0x5490043f0a9e2daf:0x93b6b91da04c3dd3",
+            "iid": 1555,
+            "name": "New Seoul Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1519771617091
+        },
+        {
+            "address": "Sakuma Japanese Restaurant, 10924 Mukilteo Speedway, Mukilteo, WA 98275",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/06",
+            "gmap_id": "0x549003fa88460135:0x1abdfc9340f6c751",
+            "iid": 1544,
+            "name": "Sakuma Japanese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1522998448076
+        },
+        {
+            "address": "Phoenix Restaurant, 14007 Hwy 99, Lynnwood, WA 98087",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "date": "2018/07/14",
+            "gmap_id": "0x5490043f0a9e2daf:0x82462061da4cf7f4",
+            "iid": 1554,
+            "name": "Phoenix Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531554749003
+        },
+        {
+            "address": "Surah Restaurant, 5333 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2018/07/27",
+            "gmap_id": "0x80dd2b753419c84f:0x9ebe2e5b44cc8a17",
+            "iid": 20555,
+            "name": "Surah Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532658116292
+        },
+        {
+            "address": "H Mart Buena Park, 5111 Beach Blvd, Buena Park, CA 90621",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Seafood market', 'Supermarket']",
+            "date": "2018/07/27",
+            "gmap_id": "0x80dd2b74cb6b5611:0x27ef0453a9b0a05c",
+            "iid": 20548,
+            "name": "H Mart Buena Park",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532658925680
+        },
+        {
+            "address": "Peony Kitchen Bellevue, 10317 Main St #100, Bellevue, WA 98004",
+            "category": "['Chinese restaurant', 'Cocktail bar']",
+            "date": "2018/07/27",
+            "gmap_id": "0x54906c7de537d25b:0x4cf02e0809711fd5",
+            "iid": 3040,
+            "name": "Peony Kitchen Bellevue",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1532660483795
+        },
+        {
+            "address": "H Mart Lynnwood, 3301 184th St SW, Lynnwood, WA 98037",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Supermarket']",
+            "date": "2018/10/01",
+            "gmap_id": "0x5490050c6e597ced:0x85fc7542f82b2377",
+            "iid": 1575,
+            "name": "H Mart Lynnwood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1538431553196
+        },
+        {
+            "address": "Hosoonyi Korean Restaurant, 23830 Hwy 99 #114, Edmonds, WA 98026",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2018/11/02",
+            "gmap_id": "0x5490107927248969:0x616caf51bebce76e",
+            "iid": 1789,
+            "name": "Hosoonyi Korean Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1541124248554
+        },
+        {
+            "address": "Silver Spoon Thai Restaurant & Bar, 3828 196th St SW, Lynnwood, WA 98036",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x5490056980220449:0x1bc59a67faa3bc33",
+            "iid": 1603,
+            "name": "Silver Spoon Thai Restaurant & Bar",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1543264713493
+        },
+        {
+            "address": "Arirang Korean BBQ Lynnwood, 18623 Hwy 99 #150, Lynnwood, WA 98037",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/12/17",
+            "gmap_id": "0x5490053d26125fa3:0x42a3d703b448900e",
+            "iid": 1592,
+            "name": "Arirang Korean BBQ Lynnwood",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1545074671406
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Gangnam Restaurant, 19505 44th Ave W, Lynnwood, WA 98036",
+            "category": "['Korean restaurant', 'Caterer']",
+            "gmap_id": "0x5490056a82044217:0x772fd2d4cf3d2066",
+            "iid": 1605,
+            "name": "Gangnam Restaurant",
+            "rank": 1,
+            "score": 0.8016908168792725,
+            "state": "Washington"
+        },
+        {
+            "address": "SuRa Korean BBQ, 19226 Hwy 99, Lynnwood, WA 98036",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x54900530a140cc81:0x5ce94393da4080a6",
+            "iid": 1585,
+            "name": "SuRa Korean BBQ",
+            "rank": 2,
+            "score": 0.7915919423103333,
+            "state": "Washington"
+        },
+        {
+            "address": "98037 Washington, Lynnwood, Hwy 99, Sam Oh Jung Restaurant",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x5490051cc10bc733:0x106436d71f438185",
+            "iid": 1579,
+            "name": "Sam Oh Jung Restaurant",
+            "rank": 3,
+            "score": 0.7763426899909973,
+            "state": "Washington"
+        },
+        {
+            "address": "Arirang Korean BBQ Lynnwood, 18623 Hwy 99 #150, Lynnwood, WA 98037",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x5490053d26125fa3:0x42a3d703b448900e",
+            "iid": 1592,
+            "name": "Arirang Korean BBQ Lynnwood",
+            "rank": 4,
+            "score": 0.7479150295257568,
+            "state": "Washington"
+        },
+        {
+            "address": "Taste of Korea \ud55c\uc2dd\ub2f9, 3411 184th St SW #160, Lynnwood, WA 98037",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x549005a4ee4fcd05:0x402e740b23a91bc7",
+            "iid": 1622,
+            "name": "Taste of Korea \ud55c\uc2dd\ub2f9",
+            "rank": 5,
+            "score": 0.7155191898345947,
+            "state": "Washington"
+        },
+        {
+            "address": "Ka Won Korean BBQ Restaurant \uac00\uc6d0, 15004 Hwy 99 Ste A, Lynnwood, WA 98087",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x549004452a0718ef:0x8c82e11933e98638",
+            "iid": 1561,
+            "name": "Ka Won Korean BBQ Restaurant \uac00\uc6d0",
+            "rank": 6,
+            "score": 0.7017647624015808,
+            "state": "Washington"
+        },
+        {
+            "address": "Boo Han Oriental Market, 22618 Hwy 99, Edmonds, WA 98026",
+            "category": "['Korean grocery store', 'Asian grocery store']",
+            "gmap_id": "0x54901a992d4d6a13:0x183cd84447d2d843",
+            "iid": 2209,
+            "name": "Boo Han Oriental Market",
+            "rank": 7,
+            "score": 0.6978141665458679,
+            "state": "Washington"
+        },
+        {
+            "address": "G Mart Lynnwood, 174th Pl SW, Lynnwood, WA 98037",
+            "category": "['Grocery store', 'Asian grocery store', 'Korean grocery store']",
+            "gmap_id": "0x5490051ce27ef7a3:0x1eb02ace56390eac",
+            "iid": 1581,
+            "name": "G Mart Lynnwood",
+            "rank": 8,
+            "score": 0.694572389125824,
+            "state": "Washington"
+        },
+        {
+            "address": "Sahm Gook Jih Palace, 21619 Hwy 99, Lynnwood, WA 98036",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x54901abadc01c37b:0x3615825c0460685e",
+            "iid": 2228,
+            "name": "Sahm Gook Jih Palace",
+            "rank": 9,
+            "score": 0.6914777755737305,
+            "state": "Washington"
+        },
+        {
+            "address": "Community Church of Seattle, 3727 240th St SE, Bothell, WA 98021",
+            "category": "['Church', 'Korean church']",
+            "gmap_id": "0x54900eefe2bece29:0xdc58ca6bbea776b0",
+            "iid": 1745,
+            "name": "Community Church of Seattle",
+            "rank": 10,
+            "score": 0.6839097738265991,
+            "state": "Washington"
+        },
+        {
+            "address": "Gilson, 22716 Hwy 99, Edmonds, WA 98026",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x54901a9ec51c748f:0x6f908eac778cecfd",
+            "iid": 2215,
+            "name": "Gilson",
+            "rank": 11,
+            "score": 0.6834555268287659,
+            "state": "Washington"
+        },
+        {
+            "address": "bb.q Chicken Lynnwood, 3301 184th St SW STE 220, Lynnwood, WA 98037",
+            "category": "['Fast food restaurant', 'Fried chicken takeaway', 'Korean restaurant']",
+            "gmap_id": "0x549005f6b1279cad:0x330d3888ec5f01b4",
+            "iid": 1639,
+            "name": "bb.q Chicken Lynnwood",
+            "rank": 12,
+            "score": 0.6779448986053467,
+            "state": "Washington"
+        },
+        {
+            "address": "Chung Sol Sottukkeong Korean BBQ Restaurant, 14920 Hwy 99, Lynnwood, WA 98087",
+            "category": "['Korean restaurant', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x54900444da571333:0x4d6b2eeb54ef22a1",
+            "iid": 1558,
+            "name": "Chung Sol Sottukkeong Korean BBQ Restaurant",
+            "rank": 13,
+            "score": 0.6747973561286926,
+            "state": "Washington"
+        },
+        {
+            "address": "Bamboo House Restaurant, 22910 Bothell Everett Hwy #103A, Bothell, WA 98021",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x54900fa91dcd35fb:0x2d873f6595f103b0",
+            "iid": 1773,
+            "name": "Bamboo House Restaurant",
+            "rank": 14,
+            "score": 0.6687928438186646,
+            "state": "Washington"
+        },
+        {
+            "address": "WuJu KBBQ, 19400 36th Ave W UNIT 102, Lynnwood, WA 98036",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fried chicken takeaway', 'Korean barbecue restaurant', 'Korean beef restaurant', 'Korean restaurant', 'Korean rib restaurant', 'Soup restaurant', 'Soup shop']",
+            "gmap_id": "0x5490056c09ef734b:0x66725b515c3180f0",
+            "iid": 1606,
+            "name": "WuJu KBBQ",
+            "rank": 15,
+            "score": 0.6682495474815369,
+            "state": "Washington"
+        },
+        {
+            "address": "Todamgol Korean Restaurant, 1120 164th St SW, Lynnwood, WA 98087",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x549005c806900477:0xa6c519fd058574f0",
+            "iid": 1625,
+            "name": "Todamgol Korean Restaurant",
+            "rank": 16,
+            "score": 0.6678833365440369,
+            "state": "Washington"
+        },
+        {
+            "address": "Kochi Po-Cha (\ucf54\uce58\ud3ec\ucc28), 18623 Hwy 99 #140, Lynnwood, WA 98037",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x5490058f11821d1d:0x19c5e24843f98305",
+            "iid": 1619,
+            "name": "Kochi Po-Cha (\ucf54\uce58\ud3ec\ucc28)",
+            "rank": 17,
+            "score": 0.6615870594978333,
+            "state": "Washington"
+        },
+        {
+            "address": "Katsu Burger, 3333 184th St SW, Lynnwood, WA 98037",
+            "category": "['Hamburger restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x5490050c19774793:0x4295816aa8b585c9",
+            "iid": 1573,
+            "name": "Katsu Burger",
+            "rank": 18,
+            "score": 0.657966673374176,
+            "state": "Washington"
+        },
+        {
+            "address": "98003 Washington, Federal Way, Pacific Hwy S, \uc591\ud3c9\ud574\uc7a5\uad6d",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x54905797ec37cd8d:0xc55fb4c2b5e4a1e",
+            "iid": 2531,
+            "name": "\uc591\ud3c9\ud574\uc7a5\uad6d",
+            "rank": 19,
+            "score": 0.6546536087989807,
+            "state": "Washington"
+        },
+        {
+            "address": "Korea House Restaurant, 20615 Bothell Everett Hwy B, Bothell, WA 98012",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x54900f6a49d4a7e7:0xbeb54fc55a64e679",
+            "iid": 1759,
+            "name": "Korea House Restaurant",
+            "rank": 20,
+            "score": 0.6519082188606262,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Phyllis Nickelson",
+        "uid": 280609,
+        "user_id": 109396508300624253484
+    }
+}

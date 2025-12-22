@@ -1,6 +1,8 @@
 defaults:
-  - cafe
+  - dataset: Asian
   - _self_
+
+device: cpu
 
 paths:
   dataset: ./dataset/
@@ -19,7 +21,6 @@ paths:
   graph: ./graphs/${dataset.category}
   embedding: ./embeddings/${dataset.category}
   logs: ./logs/${dataset.category}
-  plots: ${paths.result}/plots/models/${name}/
 
 hydra:
   run:

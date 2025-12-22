@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Empress Harbor Seafood Restaurant, 111 N Atlantic Blvd #350, Monterey Park, CA 91754",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Cantonese restaurant', 'Chicken restaurant', 'Dim sum restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/07/17",
+            "gmap_id": "0x80c2c55d6a1b9aa3:0x504f163410e84e1a",
+            "iid": 14970,
+            "name": "Empress Harbor Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531787870594
+        },
+        {
+            "address": "China Bistro, 8310 Valley Blvd, Rosemead, CA 91770",
+            "category": "['Chinese restaurant', 'Cantonese restaurant']",
+            "date": "2018/07/17",
+            "gmap_id": "0x80c2da96cedf21c7:0x63964aabc66084c6",
+            "iid": 15907,
+            "name": "China Bistro",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531787985885
+        },
+        {
+            "address": "JIM'S BAKERY \u91d1\u7345\u9905\u5bb6, 400 S Atlantic Blvd #200, Monterey Park, CA 91754",
+            "category": "['Chinese bakery']",
+            "date": "2018/12/17",
+            "gmap_id": "0x80c2c550b432c419:0x348c6917ee448ccd",
+            "iid": 14938,
+            "name": "JIM'S BAKERY \u91d1\u7345\u9905\u5bb6",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545029387651
+        },
+        {
+            "address": "NBC Seafood Restaurant, 404 S Atlantic Blvd, Monterey Park, CA 91754",
+            "category": "['Chinese restaurant', 'Seafood restaurant']",
+            "date": "2019/03/07",
+            "gmap_id": "0x80c2c55e40e9612d:0x82ddd66bf2e659f5",
+            "iid": 14976,
+            "name": "NBC Seafood Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1551944443055
+        },
+        {
+            "address": "Natalee Thai, 998 S Robertson Blvd, Los Angeles, CA 90035",
+            "category": "['Thai restaurant']",
+            "date": "2019/07/31",
+            "gmap_id": "0x80c2b95b6dcabaf5:0x447a04753bb77781",
+            "iid": 14102,
+            "name": "Natalee Thai",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564604273394
+        },
+        {
+            "address": "Happy Harbor Cuisine, 736 E Valley Blvd, Alhambra, CA 91801",
+            "category": "['Chinese restaurant']",
+            "date": "2019/11/04",
+            "gmap_id": "0x80c2c54a7bda13df:0x3ff55aedff5ecdc4",
+            "iid": 14927,
+            "name": "Happy Harbor Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1572848331774
+        },
+        {
+            "address": "New Fusion, 1227 S Baldwin Ave, Arcadia, CA 91007",
+            "category": "['Chinese restaurant']",
+            "date": "2019/11/14",
+            "gmap_id": "0x80c2dba5604fc0d5:0x1f9d4b24ec0929c6",
+            "iid": 16084,
+            "name": "New Fusion",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1573705368643
+        },
+        {
+            "address": "BADMAASH FAIRFAX, 418 N Fairfax Ave, Los Angeles, CA 90036",
+            "category": "['Indian restaurant', 'American restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x80c2b9df0bc17259:0x3e6b38b64d824d24",
+            "iid": 14140,
+            "name": "BADMAASH FAIRFAX",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575763722956
+        },
+        {
+            "address": "Fu's Palace Restaurant, 8751 W Pico Blvd, Los Angeles, CA 90035",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/01",
+            "gmap_id": "0x80c2b95d403183e1:0x29d3db94b07f9de3",
+            "iid": 14104,
+            "name": "Fu's Palace Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580521871276
+        },
+        {
+            "address": "Full Moon House, 960 N Hill St, Los Angeles, CA 90012",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Family restaurant', 'Restaurant']",
+            "date": "2020/02/01",
+            "gmap_id": "0x80c2c6590ec8da79:0x912ed76036ca4daa",
+            "iid": 15075,
+            "name": "Full Moon House",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1580521946288
+        },
+        {
+            "address": "Wing Hop Fung, 725 W Garvey Ave, Monterey Park, CA 91754",
+            "category": "['Chinese supermarket', 'Herb shop', 'Liquor store', 'Tea store', 'Wine store']",
+            "date": "2020/12/03",
+            "gmap_id": "0x80c2c55d1e0f2645:0x9ccb7aba29f6fdde",
+            "iid": 14963,
+            "name": "Wing Hop Fung",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1606957329388
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Mahan Indian Restaurant, 110 W Main St, Alhambra, CA 91801",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80c2c5271e7cf281:0x7a747a6e875ec958",
+            "iid": 14878,
+            "name": "Mahan Indian Restaurant",
+            "rank": 1,
+            "score": 0.6620926856994629,
+            "state": "California"
+        },
+        {
+            "address": "Curry House Japanese Curry & Spaghetti, 500 N Atlantic Blvd, Monterey Park, CA 91754",
+            "category": "['Japanese curry restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2c5422091827f:0xee45aa6464b210ea",
+            "iid": 14913,
+            "name": "Curry House Japanese Curry & Spaghetti",
+            "rank": 2,
+            "score": 0.6496469974517822,
+            "state": "California"
+        },
+        {
+            "address": "Phoenix Food Boutique, 456 Fair Oaks Ave, South Pasadena, CA 91030",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c2c48fa857b391:0x68ba9d4634d38b46",
+            "iid": 14846,
+            "name": "Phoenix Food Boutique",
+            "rank": 3,
+            "score": 0.6471241116523743,
+            "state": "California"
+        },
+        {
+            "address": "Anarbagh, 138 S Beverly Dr, Beverly Hills, CA 90212",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80c2bbf94db7d7d1:0x21b878c7e426d617",
+            "iid": 14407,
+            "name": "Anarbagh",
+            "rank": 4,
+            "score": 0.6188101172447205,
+            "state": "California"
+        },
+        {
+            "address": "Sam Woo Barbeque, 514 Valley Blvd, Alhambra, CA 91803",
+            "category": "['Chinese restaurant', 'Barbecue restaurant', 'Cantonese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c538dc7264d9:0xfaeb9e0c56a3cc43",
+            "iid": 14901,
+            "name": "Sam Woo Barbeque",
+            "rank": 5,
+            "score": 0.6114829182624817,
+            "state": "California"
+        },
+        {
+            "address": "Tasty Garden Restaurant, 288 W Valley Blvd #110, Alhambra, CA 91801",
+            "category": "['Hong Kong style fast food restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c5383f57746f:0x4f3e334a16d44283",
+            "iid": 14899,
+            "name": "Tasty Garden Restaurant",
+            "rank": 6,
+            "score": 0.6102803349494934,
+            "state": "California"
+        },
+        {
+            "address": "Phoenix Food Boutique, 500 N Atlantic Blvd, Monterey Park, CA 91754",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dessert shop']",
+            "gmap_id": "0x80c2c54220e3fa19:0xf3d69c4829d952f8",
+            "iid": 14918,
+            "name": "Phoenix Food Boutique",
+            "rank": 7,
+            "score": 0.6000993251800537,
+            "state": "California"
+        },
+        {
+            "address": "JJ Bakery, 1130 S Baldwin Ave, Arcadia, CA 91007",
+            "category": "['Bakery', 'Cake shop', 'Chinese bakery', 'Chinese restaurant', 'Dessert shop']",
+            "gmap_id": "0x80c2dba53b88f71b:0x4c3cc0907a0c9a63",
+            "iid": 16082,
+            "name": "JJ Bakery",
+            "rank": 8,
+            "score": 0.6000714898109436,
+            "state": "California"
+        },
+        {
+            "address": "Tantawan Thai Kitchen, 9000 Garvey Ave, Rosemead, CA 91770",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80c2d07bbc3fa7f5:0x631a8c91fea10ede",
+            "iid": 15643,
+            "name": "Tantawan Thai Kitchen",
+            "rank": 9,
+            "score": 0.598931074142456,
+            "state": "California"
+        },
+        {
+            "address": "New Delhi Palace, 950 E Colorado Blvd #205, Pasadena, CA 91106",
+            "category": "['Indian restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80c2c35c97ae2705:0x8f36b36dedb2a54b",
+            "iid": 14785,
+            "name": "New Delhi Palace",
+            "rank": 10,
+            "score": 0.5984745025634766,
+            "state": "California"
+        },
+        {
+            "address": "Uniboil Hotpot, 500 N Atlantic Blvd #127, Monterey Park, CA 91754",
+            "category": "['Hot pot restaurant', 'Chinese restaurant', 'Fondue restaurant']",
+            "gmap_id": "0x80c2c5425e44296d:0xc46e40c9940f4aa2",
+            "iid": 14923,
+            "name": "Uniboil Hotpot",
+            "rank": 11,
+            "score": 0.5931252241134644,
+            "state": "California"
+        },
+        {
+            "address": "JJ2 Bakery, 3515, 150 E Main St UNIT 100, Alhambra, CA 91801",
+            "category": "['Bakery', 'Cake shop', 'Chinese bakery', 'Dessert shop']",
+            "gmap_id": "0x80c2c527b85d3e7b:0x6bd901ac17ceb0f9",
+            "iid": 14884,
+            "name": "JJ2 Bakery",
+            "rank": 12,
+            "score": 0.5861650705337524,
+            "state": "California"
+        },
+        {
+            "address": "Phoenix, 208 E Valley Blvd, Alhambra, CA 91801",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c2c5362fa7a6d7:0x6db92b62596ded7e",
+            "iid": 14889,
+            "name": "Phoenix",
+            "rank": 13,
+            "score": 0.5852554440498352,
+            "state": "California"
+        },
+        {
+            "address": "MIAN, 301 W Valley Blvd #114-115, San Gabriel, CA 91776",
+            "category": "['Chinese restaurant', 'Noodle shop']",
+            "gmap_id": "0x80c2dab650970315:0xc4883287dace2398",
+            "iid": 15941,
+            "name": "MIAN",
+            "rank": 14,
+            "score": 0.5828781127929688,
+            "state": "California"
+        },
+        {
+            "address": "Boiling Point, 250 W Valley Blvd UNIT J, San Gabriel, CA 91776",
+            "category": "['Hot pot restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Soup restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x80c2dab70310f067:0xe116facb7ea38a8e",
+            "iid": 15946,
+            "name": "Boiling Point",
+            "rank": 15,
+            "score": 0.5820823907852173,
+            "state": "California"
+        },
+        {
+            "address": "Dip's Grill, 39 W Main St, Alhambra, CA 91801",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar & grill', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80c2c5271072c7e9:0x74253c75ef767160",
+            "iid": 14876,
+            "name": "Dip's Grill",
+            "rank": 16,
+            "score": 0.5777040123939514,
+            "state": "California"
+        },
+        {
+            "address": "Ho Kee Cafe, 533 S Del Mar Ave, San Gabriel, CA 91776",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2dada9a7875f3:0x4db2c26b65bf4b4e",
+            "iid": 15991,
+            "name": "Ho Kee Cafe",
+            "rank": 17,
+            "score": 0.5767977237701416,
+            "state": "California"
+        },
+        {
+            "address": "TS Emporium, 122 W Garvey Ave, Monterey Park, CA 91754",
+            "category": "['Health food store', 'Asian grocery store', 'Chinese supermarket', 'Herb shop']",
+            "gmap_id": "0x80c2c550acb14395:0x19559268059e68f5",
+            "iid": 14935,
+            "name": "TS Emporium",
+            "rank": 18,
+            "score": 0.5712639689445496,
+            "state": "California"
+        },
+        {
+            "address": "Spicy City, 140 W Valley Blvd Ste 208, San Gabriel, CA 91776",
+            "category": "['Chinese restaurant', 'Restaurant', 'Sichuan restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80c2dab74992aaf1:0xe9c76598e1b813f3",
+            "iid": 15956,
+            "name": "Spicy City",
+            "rank": 19,
+            "score": 0.5678074359893799,
+            "state": "California"
+        },
+        {
+            "address": "Ten Ren's Tea Time, 500 N Atlantic Blvd Suite 179, Monterey Park, CA 91754",
+            "category": "['Chinese restaurant', 'Bubble tea store', 'Ramen restaurant', 'Shabu-shabu restaurant']",
+            "gmap_id": "0x80c2c5424217f201:0x79e67c2f88062f0c",
+            "iid": 14922,
+            "name": "Ten Ren's Tea Time",
+            "rank": 20,
+            "score": 0.5673213005065918,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Tony Yip",
+        "uid": 19566,
+        "user_id": 100655264226702227468
+    }
+}

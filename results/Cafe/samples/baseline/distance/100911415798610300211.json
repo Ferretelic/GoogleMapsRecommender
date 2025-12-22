@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Dutch Bros Coffee, 8841 Sheldon Rd, Elk Grove, CA 95624",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2018/11/13",
+            "gmap_id": "0x809ac6dc7d3d1891:0x9381a0aac6e159e8",
+            "iid": 5071,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542068815715
+        },
+        {
+            "address": "Starbucks, 6013 Florin Rd P, Sacramento, CA 95823",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/11/19",
+            "gmap_id": "0x809ac57aed7af27d:0x2328ecc9f6439bd8",
+            "iid": 5051,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542647106455
+        },
+        {
+            "address": "La Bou, 8887 Folsom Blvd, Sacramento, CA 95826",
+            "category": "['Cafe']",
+            "date": "2018/11/20",
+            "gmap_id": "0x809adb4627a00b5b:0x2665cc21f03f3fc5",
+            "iid": 5340,
+            "name": "La Bou",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542744800926
+        },
+        {
+            "address": "Starbucks, 2095 Fair Oaks Blvd, Sacramento, CA 95825",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/12/06",
+            "gmap_id": "0x809ada5bf9db4e19:0x61352911ec87546a",
+            "iid": 5313,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544056680093
+        },
+        {
+            "address": "Dutch Bros Coffee, 7445 Madison Ave, Citrus Heights, CA 95610",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2018/12/06",
+            "gmap_id": "0x809ade6a0488fa77:0x26eba428e28ab77c",
+            "iid": 5404,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544056740869
+        },
+        {
+            "address": "Dutch Bros Coffee, 4625 Manzanita Ave, Carmichael, CA 95608",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2018/12/08",
+            "gmap_id": "0x809ade942bd42a57:0x7ae4e0924fb75a20",
+            "iid": 5406,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544242597204
+        },
+        {
+            "address": "Dutch Bros Coffee, 411 Colusa Ave, Yuba City, CA 95991",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2019/11/25",
+            "gmap_id": "0x809b537a65cfe37b:0x2a52f83b5c603bc3",
+            "iid": 5701,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574640691387
+        },
+        {
+            "address": "Dutch Bros Coffee, 4750 Florin Rd, Sacramento, CA 95823, United States",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "date": "2020/01/31",
+            "gmap_id": "0x809acffd3cb483eb:0x67627e32c30bf7e2",
+            "iid": 5117,
+            "name": "Dutch Bros Coffee",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580431058439
+        },
+        {
+            "address": "Yum Yum Donuts, 3671 Franklin Blvd, Sacramento, CA 95818",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Restaurant', 'Sandwich shop']",
+            "date": "2020/09/04",
+            "gmap_id": "0x809ad04492a32a91:0x2a4aea5c0dcebd66",
+            "iid": 5118,
+            "name": "Yum Yum Donuts",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1599187603169
+        },
+        {
+            "address": "Vic's Caf\u00e9, 3193 Riverside Blvd, Sacramento, CA 95818",
+            "category": "['Coffee shop']",
+            "date": "2021/04/18",
+            "gmap_id": "0x809ad10f02b88757:0xe457cf91150d3001",
+            "iid": 5183,
+            "name": "Vic's Caf\u00e9",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1618774930020
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 14170 Limonite Ave, Eastvale, CA 92880",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80dccb8e2d8e4f69:0x71a00d84104a3a3e",
+            "iid": 10991,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": -2.0224111080169678,
+            "state": "California"
+        },
+        {
+            "address": "Tea Bar & Fusion Cafe, 1477 Hilltop Dr, Redding, CA 96002",
+            "category": "['Cafe']",
+            "gmap_id": "0x54d2edacb4e6e9a5:0x49db039cb8ade1f4",
+            "iid": 158,
+            "name": "Tea Bar & Fusion Cafe",
+            "rank": 2,
+            "score": -2.0281777381896973,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 470 Lake Park Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f87118ebdb817:0x94ad97c3591e4a72",
+            "iid": 3085,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": -2.041454315185547,
+            "state": "California"
+        },
+        {
+            "address": "The Cup, 385 Novel B3, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dcc3818e0c0ff9:0xdd62cdf82b3a2fee",
+            "iid": 10950,
+            "name": "The Cup",
+            "rank": 4,
+            "score": -2.044299840927124,
+            "state": "California"
+        },
+        {
+            "address": "Compton\u2019s Coffee House, 1910 Fillmore St, San Francisco, CA 94115",
+            "category": "['Cafe']",
+            "gmap_id": "0x808581502d318ef3:0xa51ab9e1de16189e",
+            "iid": 1681,
+            "name": "Compton\u2019s Coffee House",
+            "rank": 5,
+            "score": -2.056365489959717,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 6,
+            "score": -2.0567479133605957,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 575 W Olive Ave, Merced, CA 95348",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809143cbb6c58c0f:0x108603f1b6b3174f",
+            "iid": 4462,
+            "name": "Dutch Bros Coffee",
+            "rank": 7,
+            "score": -2.060649871826172,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Racer Coffee Shop, 950 Calimesa Blvd, Calimesa, CA 92320",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80db515568aff829:0xf0ea2fbb7177a6b9",
+            "iid": 9958,
+            "name": "Cafe Racer Coffee Shop",
+            "rank": 8,
+            "score": -2.0607962608337402,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 4040 San Pablo Ave Suite A, Hercules, CA 94547",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80857709a76b652f:0x2d19695d2e5e4019",
+            "iid": 924,
+            "name": "Peet's Coffee",
+            "rank": 9,
+            "score": -2.063129186630249,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.063314437866211,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2955 Alpine Blvd, Alpine, CA 91901",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80d96166be1456fb:0x9d97dc72f483c8b6",
+            "iid": 9760,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": -2.063527822494507,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2059 Cadenasso Dr, Fairfield, CA 94533, United States",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x808515171b1f4553:0xbd71222bf5efa127",
+            "iid": 624,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -2.0645594596862793,
+            "state": "California"
+        },
+        {
+            "address": "Chant\u2019el Cafe, 1750 Prairie City Rd Ste 150, Folsom, CA 95630",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ae58feefb1791:0xceb210acdf8785ed",
+            "iid": 5484,
+            "name": "Chant\u2019el Cafe",
+            "rank": 13,
+            "score": -2.069765567779541,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2746 Marconi Ave, Sacramento, CA 95821",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809ad92286444629:0xf7230ca5d878c0ff",
+            "iid": 5283,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.071337938308716,
+            "state": "California"
+        },
+        {
+            "address": "The Power Plant Coffee, 7990 CA-1, Moss Landing, CA 95039",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808e0736345ea5a5:0xa3898e72629a3cca",
+            "iid": 2157,
+            "name": "The Power Plant Coffee",
+            "rank": 15,
+            "score": -2.0719797611236572,
+            "state": "California"
+        },
+        {
+            "address": "Mundial, 1725 Spruce St, Riverside, CA 92507",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dcaff1a0707007:0xea0e77a0876bb26f",
+            "iid": 10857,
+            "name": "Mundial",
+            "rank": 16,
+            "score": -2.0720059871673584,
+            "state": "California"
+        },
+        {
+            "address": "MudLab, 440 Grand Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Artist', 'Bakery', 'Coworking space', 'Event venue', 'Grocery store', 'Pasta shop']",
+            "gmap_id": "0x80857d0750490b69:0xad3394d0ef19731b",
+            "iid": 1010,
+            "name": "MudLab",
+            "rank": 17,
+            "score": -2.072636127471924,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 13401 Garner Ln, Chico, CA 95973",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x8082d94543beadc7:0x69ecc754b48d033e",
+            "iid": 260,
+            "name": "Dutch Bros Coffee",
+            "rank": 18,
+            "score": -2.07283878326416,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 241 N Central Ave, Glendale, CA 91203",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c10e14b1deff:0xb3e806f82770fd8",
+            "iid": 7596,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.076570510864258,
+            "state": "California"
+        },
+        {
+            "address": "Tellus Coffee, 1410 N Main St, Walnut Creek, CA 94596",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x8085619b28ee8211:0x23b8e2109e5276bd",
+            "iid": 792,
+            "name": "Tellus Coffee",
+            "rank": 20,
+            "score": -2.079124689102173,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Cassandra Hearns",
+        "uid": 7062,
+        "user_id": 100911415798610300211
+    }
+}

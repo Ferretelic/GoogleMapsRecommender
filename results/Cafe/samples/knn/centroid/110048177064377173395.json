@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Coffee To The People, 1206 Masonic Ave, San Francisco, CA 94117",
+            "category": "['Coffee shop']",
+            "date": "2018/12/26",
+            "gmap_id": "0x808580ac956668ab:0xc2f1ec4b2b650174",
+            "iid": 1514,
+            "name": "Coffee To The People",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545858994279
+        },
+        {
+            "address": "Starbucks, 201 Powell St, San Francisco, CA 94102",
+            "category": "['Coffee shop']",
+            "date": "2019/01/01",
+            "gmap_id": "0x8085808f126f966f:0xc0cfef65845dcde0",
+            "iid": 1422,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1546364312991
+        },
+        {
+            "address": "Cafe International, 508 Haight St, San Francisco, CA 94117",
+            "category": "['Cafe']",
+            "date": "2019/04/07",
+            "gmap_id": "0x808580a6c7593ff9:0xa0b133f52e0870e4",
+            "iid": 1505,
+            "name": "Cafe International",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554676788200
+        },
+        {
+            "address": "McDonald's, 1100 Fillmore St, San Francisco, CA 94102",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2019/04/13",
+            "gmap_id": "0x808580bb058365f7:0xfd5ee1b75e539d41",
+            "iid": 1550,
+            "name": "McDonald's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555174580690
+        },
+        {
+            "address": "Fueling Station Cafe, 2436 Polk St, San Francisco, CA 94109",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2019/10/19",
+            "gmap_id": "0x808580e87197a88b:0x51d0b67203265f2f",
+            "iid": 1606,
+            "name": "Fueling Station Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1571524068823
+        },
+        {
+            "address": "Quetzal Internet Cafe, 1234 Polk St, San Francisco, CA 94109",
+            "category": "['Fast food restaurant', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/10/30",
+            "gmap_id": "0x808580945eb50fdb:0xe599fdeb5c0ad45",
+            "iid": 1452,
+            "name": "Quetzal Internet Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1572403738779
+        },
+        {
+            "address": "Chestnut Street Coffee Roastery, 2331 Chestnut St, San Francisco, CA 94123",
+            "category": "['Coffee shop']",
+            "date": "2019/11/03",
+            "gmap_id": "0x808580d43b98eb0d:0x2146c6e1169ea49",
+            "iid": 1569,
+            "name": "Chestnut Street Coffee Roastery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1572797962714
+        },
+        {
+            "address": "Java Beach Cafe, 1396 La Playa St, San Francisco, CA 94122",
+            "category": "['Cafe']",
+            "date": "2020/07/01",
+            "gmap_id": "0x808587969d812a81:0xe153ea7a8d729785",
+            "iid": 1849,
+            "name": "Java Beach Cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593566069741
+        },
+        {
+            "address": "Ashley's Cafe, 4454 California St, San Francisco, CA 94118",
+            "category": "['Cafe', 'Gourmet grocery store']",
+            "date": "2020/11/18",
+            "gmap_id": "0x8085873ce952e711:0x3650d0fc3c002f35",
+            "iid": 1794,
+            "name": "Ashley's Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1605735503456
+        },
+        {
+            "address": "Beacon Coffee & Pantry, 805 Columbus Ave, San Francisco, CA 94133",
+            "category": "['Cafe']",
+            "date": "2021/01/14",
+            "gmap_id": "0x808580effbe0bf5b:0xa1d7d1302c9e8301",
+            "iid": 1623,
+            "name": "Beacon Coffee & Pantry",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1610643248635
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Cool Cravings, 1635 Divisadero St, San Francisco, CA 94115",
+            "category": "['Fast food restaurant', 'Cafe', 'Deli', 'Juice shop']",
+            "gmap_id": "0x808580b61c267d21:0xb23ad28a1a53546a",
+            "iid": 1535,
+            "name": "Cool Cravings",
+            "rank": 1,
+            "score": -0.288553386926651,
+            "state": "California"
+        },
+        {
+            "address": "Mount Zion Cafe - UCSF Medical Center, 1600 Divisadero St, San Francisco, CA 94115",
+            "category": "['American restaurant', 'Cafe', 'Cafeteria', 'Coffee shop']",
+            "gmap_id": "0x808580b628a86067:0xb266c19547a409c9",
+            "iid": 1536,
+            "name": "Mount Zion Cafe - UCSF Medical Center",
+            "rank": 2,
+            "score": -0.31053757667541504,
+            "state": "California"
+        },
+        {
+            "address": "OPA, 2401 Post St, San Francisco, CA 94115",
+            "category": "['Cafe', 'Bagel shop', 'Bakery', 'Beer store', 'Coffee shop', 'Deli', 'Espresso bar', 'Produce market', 'Wine store']",
+            "gmap_id": "0x808580b5fbb0e2f7:0xd5654d639941e7dd",
+            "iid": 1534,
+            "name": "OPA",
+            "rank": 3,
+            "score": -0.32689613103866577,
+            "state": "California"
+        },
+        {
+            "address": "Pete's Deli & Cafe, 1661 Divisadero St, San Francisco, CA 94115",
+            "category": "['Deli', 'Breakfast restaurant', 'Cafe', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x808580c9e1576973:0xf105ac927bb86b2c",
+            "iid": 1563,
+            "name": "Pete's Deli & Cafe",
+            "rank": 4,
+            "score": -0.36077672243118286,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1750 Divisadero St, San Francisco, CA 94115",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808580c9eb1e0e43:0xbda8c24990a2641b",
+            "iid": 1564,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -0.4409552216529846,
+            "state": "California"
+        },
+        {
+            "address": "Oasis Cafe, 901 Divisadero St, San Francisco, CA 94115",
+            "category": "['Ethiopian restaurant', 'Cafe', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x808580b1abdd3f29:0x645107cdbe7775a4",
+            "iid": 1529,
+            "name": "Oasis Cafe",
+            "rank": 6,
+            "score": -0.4697413742542267,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Murano, 1777 Steiner St, San Francisco, CA 94115",
+            "category": "['Cafe']",
+            "gmap_id": "0x808580b81bea50d3:0xb8e1fbbb7d748a8e",
+            "iid": 1538,
+            "name": "Cafe Murano",
+            "rank": 7,
+            "score": -0.49505239725112915,
+            "state": "California"
+        },
+        {
+            "address": "Sweet Maple, 2101 Sutter St, San Francisco, CA 94115",
+            "category": "['Brunch restaurant', 'Breakfast restaurant', 'Cafe', 'Hamburger restaurant', 'Takeout Restaurant', 'Pizza restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808580b81b533e31:0x8849148951243910",
+            "iid": 1537,
+            "name": "Sweet Maple",
+            "rank": 8,
+            "score": -0.5061309933662415,
+            "state": "California"
+        },
+        {
+            "address": "Boba Guys NOPA, 836 Divisadero St, San Francisco, CA 94117",
+            "category": "['Cafe']",
+            "gmap_id": "0x808580b04c6f5f6b:0x65f81861c4f6ace4",
+            "iid": 1528,
+            "name": "Boba Guys NOPA",
+            "rank": 9,
+            "score": -0.5164981484413147,
+            "state": "California"
+        },
+        {
+            "address": "Fillmore Street Cafe, 1301 Fillmore St, San Francisco, CA 94115",
+            "category": "['Cafe', 'Coffee shop', 'Deli']",
+            "gmap_id": "0x808580bbccc16eed:0xf69994eee77bf15d",
+            "iid": 1552,
+            "name": "Fillmore Street Cafe",
+            "rank": 10,
+            "score": -0.5170316100120544,
+            "state": "California"
+        },
+        {
+            "address": "Theorita, 834 Divisadero St, San Francisco, CA 94117",
+            "category": "['Restaurant', 'American restaurant', 'Coffee shop', 'Pastry shop']",
+            "gmap_id": "0x808581f677dff64d:0xf1535c32bfd7d584",
+            "iid": 1711,
+            "name": "Theorita",
+            "rank": 11,
+            "score": -0.5182784199714661,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1501 Fillmore St, San Francisco, CA 94115",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808580b99f50da5d:0x7ac3c845ff6dbab6",
+            "iid": 1548,
+            "name": "Starbucks",
+            "rank": 12,
+            "score": -0.5216259956359863,
+            "state": "California"
+        },
+        {
+            "address": "Boba Guys Fillmore, 1522 Fillmore St, San Francisco, CA 94115",
+            "category": "['Tea house', 'Bubble tea store', 'Cafe']",
+            "gmap_id": "0x808580b9a078b6ef:0x7af978b6467bc694",
+            "iid": 1549,
+            "name": "Boba Guys Fillmore",
+            "rank": 13,
+            "score": -0.5569002628326416,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Abir, 1300 Fulton St, San Francisco, CA 94117",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar']",
+            "gmap_id": "0x808580b1ca9aab5d:0xdc69001a095dc3a4",
+            "iid": 1530,
+            "name": "Cafe Abir",
+            "rank": 14,
+            "score": -0.5654233694076538,
+            "state": "California"
+        },
+        {
+            "address": "The Social Study, 1795 Geary Blvd, San Francisco, CA 94115",
+            "category": "['Cafe', 'Beer store', 'Lounge', 'Wine bar']",
+            "gmap_id": "0x808580b9088aa4ef:0x66f40b4db6d5e7b",
+            "iid": 1545,
+            "name": "The Social Study",
+            "rank": 15,
+            "score": -0.5867475867271423,
+            "state": "California"
+        },
+        {
+            "address": "Matching Half, 1799 McAllister St, San Francisco, CA 94115",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Restaurant', 'Wine bar']",
+            "gmap_id": "0x808580b22ca9a1ad:0x134241c0fa896ab1",
+            "iid": 1531,
+            "name": "Matching Half",
+            "rank": 16,
+            "score": -0.59029620885849,
+            "state": "California"
+        },
+        {
+            "address": "The Mill, 736 Divisadero St, San Francisco, CA 94117",
+            "category": "['Cafe', 'Bakery', 'Coffee shop']",
+            "gmap_id": "0x808580b02db73457:0x185a61a92a363ce8",
+            "iid": 1527,
+            "name": "The Mill",
+            "rank": 17,
+            "score": -0.6267731785774231,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1335 Webster St, San Francisco, CA 94115",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808580b964100673:0xc2e246d56907050",
+            "iid": 1547,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -0.6271812915802002,
+            "state": "California"
+        },
+        {
+            "address": "Kissako Tea, 1581 Webster St Ste 195, San Francisco, CA 94115",
+            "category": "['Tea house', 'Cafe', 'Dessert shop', 'Japanese sweets restaurant']",
+            "gmap_id": "0x808580b8e176c767:0xc6b1975626e73b87",
+            "iid": 1544,
+            "name": "Kissako Tea",
+            "rank": 19,
+            "score": -0.6601537466049194,
+            "state": "California"
+        },
+        {
+            "address": "Folklores Coffee Roasters, 1035 Fillmore St, San Francisco, CA 94115",
+            "category": "['Cafe', 'Bagel shop', 'Coffee shop', 'Coffee store', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x808580bb18783423:0x8e12495e69be03a9",
+            "iid": 1551,
+            "name": "Folklores Coffee Roasters",
+            "rank": 20,
+            "score": -0.6774126887321472,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jordan Aylesworth",
+        "uid": 76234,
+        "user_id": 110048177064377173395
+    }
+}

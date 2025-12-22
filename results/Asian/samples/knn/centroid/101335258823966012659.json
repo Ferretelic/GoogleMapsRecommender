@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Seafood Cove 2, 9211 Bolsa Ave, Westminster, CA 92683",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2015/11/27",
+            "gmap_id": "0x80dd27b5907083c5:0x56d690f19753ab05",
+            "iid": 20193,
+            "name": "Seafood Cove 2",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448639271699
+        },
+        {
+            "address": "Sushi Murasaki, 2901 W MacArthur Blvd #108, Santa Ana, CA 92704",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2016/03/13",
+            "gmap_id": "0x80dcd8b36870be27:0x1837887ad4f3adb5",
+            "iid": 19463,
+            "name": "Sushi Murasaki",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1457838727377
+        },
+        {
+            "address": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y, 14370 Brookhurst St, Garden Grove, CA 92843",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/03/19",
+            "gmap_id": "0x80dd27c6a923d2e1:0x7b7c51197d0a02d3",
+            "iid": 20254,
+            "name": "N\u01b0\u01a1\u0301c Mi\u0301a Vi\u00ea\u0303n T\u00e2y",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1489957576634
+        },
+        {
+            "address": "Bangkok Avenue, 17221 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Thai restaurant', 'Asian fusion restaurant']",
+            "date": "2017/07/19",
+            "gmap_id": "0x80dd26f22ad56a69:0x4d84310ad52cd569",
+            "iid": 20107,
+            "name": "Bangkok Avenue",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500442750213
+        },
+        {
+            "address": "Hue Oi Vietnamese Cuisine, 16537 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "date": "2018/03/01",
+            "gmap_id": "0x80dd270ea58dc8b7:0x29a28bc803d4a031",
+            "iid": 20116,
+            "name": "Hue Oi Vietnamese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519868028711
+        },
+        {
+            "address": "\u301292708 California, Fountain Valley, Brookhurst St, Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant']",
+            "date": "2018/07/10",
+            "gmap_id": "0x80dd2730b1427af7:0x49529432dcdc7b62",
+            "iid": 20129,
+            "name": "Shin-Sen-Gumi Hakata Ramen - Fountain Valley",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531198624894
+        },
+        {
+            "address": "Hwang Hae Doh, 3010 W Lincoln Ave, Anaheim, CA 92801",
+            "category": "['Korean barbecue restaurant']",
+            "date": "2018/07/23",
+            "gmap_id": "0x80dd287c684f247f:0xe661c6d3a58d39b2",
+            "iid": 20340,
+            "name": "Hwang Hae Doh",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1532367126416
+        },
+        {
+            "address": "Tasty Kitchen, 1324 Artesia Blvd, Gardena, CA 90248",
+            "category": "['Chinese restaurant']",
+            "date": "2018/12/24",
+            "gmap_id": "0x80c2ca9e49f223c9:0xca2aa7b8452e3f19",
+            "iid": 15492,
+            "name": "Tasty Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1545669038154
+        },
+        {
+            "address": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80, 8895 Garden Grove Blvd, Garden Grove, CA 92844",
+            "category": "['Korean restaurant', 'Korean barbecue restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80dd288605040983:0xc09343ebb49c98c0",
+            "iid": 20351,
+            "name": "Kaju Soft Tofu Restaurant - \uac00\uc8fc\uc21c\ub450\ubd80",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1546362964239
+        },
+        {
+            "address": "Lotus of Siam, 953 E Sahara Ave Ste A5, Las Vegas, NV 89104",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/03/10",
+            "gmap_id": "0x80c8c47decbe13bf:0x601671d9c1b61a37",
+            "iid": 17091,
+            "name": "Lotus of Siam",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1552214214972
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "K.H Eggrolls, 14115 Goldenwest St, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd28a806027227:0xf28ff46f5d417a98",
+            "iid": 20372,
+            "name": "K.H Eggrolls",
+            "rank": 1,
+            "score": -0.5581966042518616,
+            "state": "California"
+        },
+        {
+            "address": "Quan Bui, 7360 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd28a0a58b5b79:0xfd9aa9bbba6c2501",
+            "iid": 20370,
+            "name": "Quan Bui",
+            "rank": 2,
+            "score": -0.566784143447876,
+            "state": "California"
+        },
+        {
+            "address": "Usmania Halal Restaurant, 7362 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Pakistani restaurant', 'Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd28a0af5772ef:0xe68d6c19d5401aba",
+            "iid": 20371,
+            "name": "Usmania Halal Restaurant",
+            "rank": 3,
+            "score": -0.5674828886985779,
+            "state": "California"
+        },
+        {
+            "address": "Jasmine Thai Cuisine, 14071 Goldenwest St, Westminster, CA 92683",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80dd28a80d3694db:0x1856a806dae34dd7",
+            "iid": 20373,
+            "name": "Jasmine Thai Cuisine",
+            "rank": 4,
+            "score": -0.6175910234451294,
+            "state": "California"
+        },
+        {
+            "address": "Mi La Cay Noodle House, 14041 Goldenwest St, Westminster, CA 92683",
+            "category": "['Chinese restaurant', 'Noodle shop']",
+            "gmap_id": "0x80dd28a8720035ff:0xdd71516e48ad9954",
+            "iid": 20376,
+            "name": "Mi La Cay Noodle House",
+            "rank": 5,
+            "score": -0.6437862515449524,
+            "state": "California"
+        },
+        {
+            "address": "Pho Quyen Restaurant, 6944 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd28a861bd3793:0x422e80ddcc92afd9",
+            "iid": 20374,
+            "name": "Pho Quyen Restaurant",
+            "rank": 6,
+            "score": -0.7079671621322632,
+            "state": "California"
+        },
+        {
+            "address": "Fuji Japan, 1025 Westminster Mall, Westminster, CA 92683",
+            "category": "['Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80dd26067d9e4387:0xc7330f0a88b446b4",
+            "iid": 20048,
+            "name": "Fuji Japan",
+            "rank": 7,
+            "score": -1.0807636976242065,
+            "state": "California"
+        },
+        {
+            "address": "Thailandia Express, 1048 Westminster Mall, Westminster, CA 92683",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80dd273cb1b0ca4d:0x44cb06c11416266e",
+            "iid": 20141,
+            "name": "Thailandia Express",
+            "rank": 8,
+            "score": -1.0867269039154053,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 2105 Westminster Mall, Westminster, CA 92683",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd260f84466fe7:0x3c6fbcd622d8ec0",
+            "iid": 20051,
+            "name": "Panda Express",
+            "rank": 9,
+            "score": -1.1043379306793213,
+            "state": "California"
+        },
+        {
+            "address": "Royal India Grill, 2015 Westminster Mall, Westminster, CA 92683",
+            "category": "['Indian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80dd277d25b37c0b:0x800420cbe192a56b",
+            "iid": 20153,
+            "name": "Royal India Grill",
+            "rank": 10,
+            "score": -1.2525309324264526,
+            "state": "California"
+        },
+        {
+            "address": "Nikko Teriyaki, 14250 Beach Blvd, Westminster, CA 92683",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80dd2623f62c3785:0x125e01de9c5a058",
+            "iid": 20053,
+            "name": "Nikko Teriyaki",
+            "rank": 11,
+            "score": -1.2730255126953125,
+            "state": "California"
+        },
+        {
+            "address": "Nha Hang 1.99, 7971 18th St, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd2620ba29ac9f:0x888b71252d03c4e1",
+            "iid": 20052,
+            "name": "Nha Hang 1.99",
+            "rank": 12,
+            "score": -1.307291030883789,
+            "state": "California"
+        },
+        {
+            "address": "Sumran Thai Cuisine, 6482 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80dd28ab70a887a5:0x41f1188d07644948",
+            "iid": 20377,
+            "name": "Sumran Thai Cuisine",
+            "rank": 13,
+            "score": -1.335455060005188,
+            "state": "California"
+        },
+        {
+            "address": "Kiku Japanese Restaurant, 15059 Goldenwest St, Huntington Beach, CA 92647",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80dd260e28a7cfef:0x9d375247cdfc18e8",
+            "iid": 20050,
+            "name": "Kiku Japanese Restaurant",
+            "rank": 14,
+            "score": -1.3508784770965576,
+            "state": "California"
+        },
+        {
+            "address": "LePho, 6522 Bolsa Ave, Huntington Beach, CA 92647",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd2608830e9c07:0x6ed375efdb583b11",
+            "iid": 20049,
+            "name": "LePho",
+            "rank": 15,
+            "score": -1.5987327098846436,
+            "state": "California"
+        },
+        {
+            "address": "Com Tam Thien Hao, 13531 Beach Blvd, Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd28994ad2005f:0x60e5932463966850",
+            "iid": 20368,
+            "name": "Com Tam Thien Hao",
+            "rank": 16,
+            "score": -1.7193936109542847,
+            "state": "California"
+        },
+        {
+            "address": "The Wok Experience, 13511 Beach Blvd, Westminster, CA 92683, United States",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80dd28994f2248bb:0xe471ae2d61c38edc",
+            "iid": 20369,
+            "name": "The Wok Experience",
+            "rank": 17,
+            "score": -1.751098871231079,
+            "state": "California"
+        },
+        {
+            "address": "Mai Ph\u1ee5ng Restaurant, 8415 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd262890eef67f:0x50ffbc732c7c1033",
+            "iid": 20055,
+            "name": "Mai Ph\u1ee5ng Restaurant",
+            "rank": 18,
+            "score": -1.9565473794937134,
+            "state": "California"
+        },
+        {
+            "address": "The Avenue H\u00e0 N\u1ed9i Ph\u1ed1, 8432 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Vietnamese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80dd26289410b925:0xa83da00aad70b7fc",
+            "iid": 20056,
+            "name": "The Avenue H\u00e0 N\u1ed9i Ph\u1ed1",
+            "rank": 19,
+            "score": -1.9604136943817139,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf Phong H\u1ea3i, 8433 Westminster Blvd., Westminster, CA 92683",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dd26288e4edfad:0x46c69d728665876e",
+            "iid": 20054,
+            "name": "Ph\u1edf Phong H\u1ea3i",
+            "rank": 20,
+            "score": -1.972858190536499,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Vince Dang",
+        "uid": 39865,
+        "user_id": 101335258823966012659
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Thai Lao Orchid, 636 TX-46, New Braunfels, TX 78130",
+            "category": "['Thai restaurant']",
+            "date": "2018/02/26",
+            "gmap_id": "0x865cbce208382623:0xab7196cb737f79ab",
+            "iid": 27514,
+            "name": "Thai Lao Orchid",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1519662836526
+        },
+        {
+            "address": "Taste of China Chinese Restaurant, 8720 NE Centerpointe Dr STE 101, Vancouver, WA 98665",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2018/05/27",
+            "gmap_id": "0x5495ae2e5a15d31d:0x1cb14c8d203bd5bf",
+            "iid": 4584,
+            "name": "Taste of China Chinese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1527453297057
+        },
+        {
+            "address": "Zien Hong, 5314 NE Sandy Blvd, Portland, OR 97213",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/06/25",
+            "gmap_id": "0x5495a12f3efcb58f:0xdd04b30546b713e2",
+            "iid": 4377,
+            "name": "Zien Hong",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1529892981203
+        },
+        {
+            "address": "Panda Express, 526 SE 192nd Ave, Vancouver, WA 98683",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x5495bb397cb9e49f:0x130665b13b87f20c",
+            "iid": 4647,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1531330973739
+        },
+        {
+            "address": "Pho Van 82nd, 1919 SE 82nd Ave, Portland, OR 97216",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/10/17",
+            "gmap_id": "0x5495a1acd647d3bb:0x421632c4034abc13",
+            "iid": 4423,
+            "name": "Pho Van 82nd",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1539801757659
+        },
+        {
+            "address": "Tan Tan Cafe & Delicatessen, 12675 SW Broadway St, Beaverton, OR 97005",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x54950e9f8f090565:0x9e29719d738b0235",
+            "iid": 3931,
+            "name": "Tan Tan Cafe & Delicatessen",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1555268477440
+        },
+        {
+            "address": "Bon Teriyaki, 1935 NE Division St, Gresham, OR 97030",
+            "category": "['Japanese restaurant']",
+            "date": "2019/07/19",
+            "gmap_id": "0x5495985d251883cb:0xe9b6f660ffffd740",
+            "iid": 4196,
+            "name": "Bon Teriyaki",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1563546586758
+        },
+        {
+            "address": "Ph\u1edf Vietnam Restaurant, 5440 SE 82nd Ave, Portland, OR 97266, United States",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/09/05",
+            "gmap_id": "0x5495a04bf5e00a1d:0x54aca66769ec13a",
+            "iid": 4250,
+            "name": "Ph\u1edf Vietnam Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1567726861581
+        },
+        {
+            "address": "Best Baguette, 8308 SE Powell Blvd, Portland, OR 97266",
+            "category": "['Sandwich shop', 'Asian restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant', 'Store', 'Vietnamese restaurant']",
+            "date": "2019/09/25",
+            "gmap_id": "0x5495a049d1ade44d:0xae5a29db0fc24304",
+            "iid": 4249,
+            "name": "Best Baguette",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1569375804123
+        },
+        {
+            "address": "Kung Food Restaurant, 8071 N Lombard Way, Portland, OR 97203",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/10/03",
+            "gmap_id": "0x5495a8009146a083:0x1f8daf918d2799f4",
+            "iid": 4566,
+            "name": "Kung Food Restaurant",
+            "split": "valid",
+            "state": "Oregon",
+            "unix_time": 1570139026322
+        },
+        {
+            "address": "Yu's Garden, 366 NW Frontage Rd, Troutdale, OR 97060",
+            "category": "['Chinese restaurant', 'Family restaurant', 'Lounge', 'Restaurant']",
+            "date": "2021/04/10",
+            "gmap_id": "0x5495bd50467fe469:0xf3974197a2cfff20",
+            "iid": 4655,
+            "name": "Yu's Garden",
+            "split": "test",
+            "state": "Oregon",
+            "unix_time": 1618022388511
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Elkhorn Club & Linda's Thai, 457 N Broadway Ave, Burns, OR 97720",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54b0a832799a9003:0x8245314aa5a069a4",
+            "iid": 5146,
+            "name": "Elkhorn Club & Linda's Thai",
+            "rank": 1,
+            "score": -68.08759307861328,
+            "state": "Oregon"
+        },
+        {
+            "address": "Hilander Restaurant, 195 N Broadway Ave, Burns, OR 97720",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b0a832e22dce2b:0xd8e060b4c2dfc636",
+            "iid": 5147,
+            "name": "Hilander Restaurant",
+            "rank": 2,
+            "score": -68.163330078125,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sora Sushi - Prineville, 234 N Main St Suite B, Prineville, OR 97754",
+            "category": "['Sushi restaurant', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x54b93306548a8437:0x2796b9502bd6a62a",
+            "iid": 5183,
+            "name": "Sora Sushi - Prineville",
+            "rank": 3,
+            "score": -98.01296997070312,
+            "state": "Oregon"
+        },
+        {
+            "address": "Gee's Family Restaurant, 987 NW 2nd St, Prineville, OR 97754",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b93271da8d9355:0xd9d68bce4acf2e43",
+            "iid": 5182,
+            "name": "Gee's Family Restaurant",
+            "rank": 4,
+            "score": -98.89029693603516,
+            "state": "Oregon"
+        },
+        {
+            "address": "China Doll, 547 NE Bellevue Dr # 113, Bend, OR 97701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b8c60a8bbcf9f3:0x1403993911e042",
+            "iid": 5148,
+            "name": "China Doll",
+            "rank": 5,
+            "score": -116.5521240234375,
+            "state": "Oregon"
+        },
+        {
+            "address": "Teriyaki Madness, 2680 NE Hwy 20 Ste 340, Bend, OR 97701",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54b8c7ff444d9a15:0x88466b8d596e321a",
+            "iid": 5163,
+            "name": "Teriyaki Madness",
+            "rank": 6,
+            "score": -116.73057556152344,
+            "state": "Oregon"
+        },
+        {
+            "address": "Double Happiness Chinese Restaurant, 2115 NE Hwy 20 Ste 102, Bend, OR 97701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b8c60c4ac65d41:0x6d0f560f0ad2e987",
+            "iid": 5149,
+            "name": "Double Happiness Chinese Restaurant",
+            "rank": 7,
+            "score": -117.17646789550781,
+            "state": "Oregon"
+        },
+        {
+            "address": "Bend-O Bento Japanese Kitchen, 1375 SE Wilson Ave #105, Bend, OR 97702",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54b8c640dfe5b827:0xa6b9b7e949ad7817",
+            "iid": 5157,
+            "name": "Bend-O Bento Japanese Kitchen",
+            "rank": 8,
+            "score": -118.05970001220703,
+            "state": "Oregon"
+        },
+        {
+            "address": "Pho House, 1604 S Hwy 97, Redmond, OR 97756",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54b8d4d337b044db:0x3da4721bd6b86997",
+            "iid": 5181,
+            "name": "Pho House",
+            "rank": 9,
+            "score": -118.21471405029297,
+            "state": "Oregon"
+        },
+        {
+            "address": "Cindy's Chinese Garden, 1362 S Hwy 97, Redmond, OR 97756",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bf2b2b001e07f5:0x1088392bee93a863",
+            "iid": 5190,
+            "name": "Cindy's Chinese Garden",
+            "rank": 10,
+            "score": -118.23616027832031,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chan's Of Redmond, 704 SW 6th St, Redmond, OR 97756",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54bf2ac2baaae297:0x424bf0c86d6f6f3b",
+            "iid": 5187,
+            "name": "Chan's Of Redmond",
+            "rank": 11,
+            "score": -118.435546875,
+            "state": "Oregon"
+        },
+        {
+            "address": "Oishi, 511 SW 6th St, Redmond, OR 97756",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54bf2ad9fa69d03d:0x9a38808c244d4d8",
+            "iid": 5188,
+            "name": "Oishi",
+            "rank": 12,
+            "score": -118.57722473144531,
+            "state": "Oregon"
+        },
+        {
+            "address": "Thai O Restaurant, 974 SW Veterans Way, Redmond, OR 97756, United States",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54bf2b29a3c9dbff:0x2ae93b23dcfeb4ac",
+            "iid": 5189,
+            "name": "Thai O Restaurant",
+            "rank": 13,
+            "score": -118.60166931152344,
+            "state": "Oregon"
+        },
+        {
+            "address": "Yi's Wok, 615 NW 6th St, Redmond, OR 97756",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54bf2ac2ba9fc17d:0xc8813c942a8aaa7d",
+            "iid": 5186,
+            "name": "Yi's Wok",
+            "rank": 14,
+            "score": -119.02855682373047,
+            "state": "Oregon"
+        },
+        {
+            "address": "Dang's | Vietnamese Restaurant, 1180 SE 3rd St, Bend, OR 97702",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54b8c64b0e0303a3:0xa2737d66fabd2e2b",
+            "iid": 5159,
+            "name": "Dang's | Vietnamese Restaurant",
+            "rank": 15,
+            "score": -119.21924591064453,
+            "state": "Oregon"
+        },
+        {
+            "address": "Taste of Thailand LLC, 696 NE Greenwood Ave, Bend, OR 97701",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x54b8cf51ab739a81:0xcd090ebea2eba02c",
+            "iid": 5180,
+            "name": "Taste of Thailand LLC",
+            "rank": 16,
+            "score": -119.23357391357422,
+            "state": "Oregon"
+        },
+        {
+            "address": "Hong Kong Restaurant Bamboo Room, 530 SE 3rd St, Bend, OR 97702",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54b8c6370499ce67:0xab6413516473ae44",
+            "iid": 5156,
+            "name": "Hong Kong Restaurant Bamboo Room",
+            "rank": 17,
+            "score": -119.28461456298828,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chan's Of Bend, 1005 SE 3rd St, Bend, OR 97702",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x54b8c64a74b2e361:0xaf72f0b50cc51f8b",
+            "iid": 5158,
+            "name": "Chan's Of Bend",
+            "rank": 18,
+            "score": -119.33113861083984,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 455 NW Oak tree Ln, Redmond, OR 97756",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54bf2a8d15a36151:0x381e6ba648699a9d",
+            "iid": 5185,
+            "name": "Panda Express",
+            "rank": 19,
+            "score": -119.50762939453125,
+            "state": "Oregon"
+        },
+        {
+            "address": "Sore No More Massage and Bodywork, 345 NE Greenwood Ave, Bend, OR 97701",
+            "category": "['Massage therapist', 'Aromatherapy service', 'Thai massage therapist']",
+            "gmap_id": "0x54b8c620231d3e4b:0xa366e107fcd97a17",
+            "iid": 5151,
+            "name": "Sore No More Massage and Bodywork",
+            "rank": 20,
+            "score": -119.66529083251953,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "CRAZYROBSTA",
+        "uid": 425158,
+        "user_id": 114279048308938269329
+    }
+}

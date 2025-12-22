@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Chinese Kitchen, 1056 Market St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2016/04/28",
+            "gmap_id": "0x8835d987c0f55e3d:0xe4ea0910fe119fb2",
+            "iid": 40523,
+            "name": "Panda Chinese Kitchen",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1461867611388
+        },
+        {
+            "address": "Golden Chopsticks, 329 N York St, Wheeling, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2017/11/26",
+            "gmap_id": "0x8835d99207a149d7:0x121798349570bfb",
+            "iid": 40524,
+            "name": "Golden Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1511658037811
+        },
+        {
+            "address": "Silver Chopsticks, 2135 National Rd, Elm Grove, WV 26003",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835db1a2e01d9c1:0x1e1b3cedebab275f",
+            "iid": 40527,
+            "name": "Silver Chopsticks",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571416096
+        },
+        {
+            "address": "A.C. Buffet, 836 National Rd, Wheeling, WV 26003",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/03/20",
+            "gmap_id": "0x8835da41c86bb3f7:0x48bc06a620f7b465",
+            "iid": 40525,
+            "name": "A.C. Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1521571557351
+        },
+        {
+            "address": "Saigon Restaurant, 9530 179th St, Tinley Park, IL 60487",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2019/03/18",
+            "gmap_id": "0x880e154bfb8164a1:0x2321b3b7dd3db3d",
+            "iid": 36052,
+            "name": "Saigon Restaurant",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1552880878046
+        },
+        {
+            "address": "Pho Express, 241 Three Springs Dr, Weirton, WV 26062",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88343a8748647f8b:0x840be38bd3893c84",
+            "iid": 40158,
+            "name": "Pho Express",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879419016
+        },
+        {
+            "address": "China House, 5636 US-60 #6, Huntington, WV 25705",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x88460779cec01437:0xce76270a32c86802",
+            "iid": 42137,
+            "name": "China House",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879646323
+        },
+        {
+            "address": "Super China Buffet, 200 Mall Rd, Barboursville, WV 25504",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600f13d4398d7:0x87a484e8030a4774",
+            "iid": 42133,
+            "name": "Super China Buffet",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879653573
+        },
+        {
+            "address": "Shogun, 3420 US-60, Barboursville, WV 25504",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Brewpub', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884600895cc5842f:0xeae90622517386b6",
+            "iid": 42131,
+            "name": "Shogun",
+            "split": "train",
+            "state": "West_Virginia",
+            "unix_time": 1565879685270
+        },
+        {
+            "address": "New China Garden Buffet, 804 6th Ave, Huntington, WV 25701",
+            "category": "['Chinese restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x884609daf10d286b:0xb3efbee883dda54f",
+            "iid": 42143,
+            "name": "New China Garden Buffet",
+            "split": "valid",
+            "state": "West_Virginia",
+            "unix_time": 1565879727013
+        },
+        {
+            "address": "No. 1 Kitchen, 1669 Washington Ave, Huntington, WV 25704",
+            "category": "['Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2019/08/15",
+            "gmap_id": "0x8845e1fd66caec4d:0x1e13d3af7eac55d4",
+            "iid": 42130,
+            "name": "No. 1 Kitchen",
+            "split": "test",
+            "state": "West_Virginia",
+            "unix_time": 1565879871530
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Chinese Gourmet, 108 E Main St, McConnelsville, OH 43756",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884821ce856b7a2d:0x39994d4e8947fbb",
+            "iid": 42177,
+            "name": "Chinese Gourmet",
+            "rank": 1,
+            "score": -15.437889099121094,
+            "state": "Ohio"
+        },
+        {
+            "address": "Mark Pi's China Gate, 2502 Maple Ave #1834, Zanesville, OH 43701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8837edc645e13aeb:0x8d3ad999363cf8d",
+            "iid": 40597,
+            "name": "Mark Pi's China Gate",
+            "rank": 2,
+            "score": -27.615453720092773,
+            "state": "Ohio"
+        },
+        {
+            "address": "T & C Ichiban Japanese Steakhouse, 2542 Maple Ave, Zanesville, OH 43701",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8837edc64c8149ed:0x72475d5e7917a125",
+            "iid": 40598,
+            "name": "T & C Ichiban Japanese Steakhouse",
+            "rank": 3,
+            "score": -27.706615447998047,
+            "state": "Ohio"
+        },
+        {
+            "address": "Panda Express, 2966 Maple Ave, Zanesville, OH 43701",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8837edb7c01a79e7:0x6d3ee3f8a3fa0c36",
+            "iid": 40595,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -28.431798934936523,
+            "state": "Ohio"
+        },
+        {
+            "address": "King Garden, 3265 Maple Ave, Zanesville, OH 43701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8837edbd6504b58d:0x1612a081f9685fa6",
+            "iid": 40596,
+            "name": "King Garden",
+            "rank": 5,
+            "score": -29.004446029663086,
+            "state": "Ohio"
+        },
+        {
+            "address": "Mizu Sushi And Grill, 3517 Maple Ave, Zanesville, OH 43701",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8837ed9966a73d23:0x7293b503b10feeeb",
+            "iid": 40594,
+            "name": "Mizu Sushi And Grill",
+            "rank": 6,
+            "score": -29.610105514526367,
+            "state": "Ohio"
+        },
+        {
+            "address": "Grand China Buffet, 1002 E State St, Athens, OH 45701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8848726166d8ade7:0x269b027e037e6731",
+            "iid": 42188,
+            "name": "Grand China Buffet",
+            "rank": 7,
+            "score": -42.88988494873047,
+            "state": "Ohio"
+        },
+        {
+            "address": "Lam's Garden, 934 E State St, Athens, OH 45701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8848725ef8509ea9:0xe546abe1e1a80557",
+            "iid": 42187,
+            "name": "Lam's Garden",
+            "rank": 8,
+            "score": -42.96269226074219,
+            "state": "Ohio"
+        },
+        {
+            "address": "China Panda, 965 E State St, Athens, OH 45701",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8848725eef1f6199:0xc8a845c69a285761",
+            "iid": 42186,
+            "name": "China Panda",
+            "rank": 9,
+            "score": -43.1463623046875,
+            "state": "Ohio"
+        },
+        {
+            "address": "China Fortune Restaurant, 20 W Stimson Ave, Athens, OH 45701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884873a5577dc2bb:0x9bbc0499f7afe7d9",
+            "iid": 42191,
+            "name": "China Fortune Restaurant",
+            "rank": 10,
+            "score": -43.826622009277344,
+            "state": "Ohio"
+        },
+        {
+            "address": "Peking Express 2, 5 N Court St, Athens, OH 45701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8848732a45e56d45:0xde846219b5e6fc49",
+            "iid": 42189,
+            "name": "Peking Express 2",
+            "rank": 11,
+            "score": -44.25348663330078,
+            "state": "Ohio"
+        },
+        {
+            "address": "Star of India, 128 W Union St, Athens, OH 45701",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x8848739629eace01:0xf5ac9b00613dff11",
+            "iid": 42190,
+            "name": "Star of India",
+            "rank": 12,
+            "score": -44.330142974853516,
+            "state": "Ohio"
+        },
+        {
+            "address": "Thai Paradise, 102 W Union St, Athens, OH 45701",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x884873bd979010b3:0x7a10c61cd30ce9d5",
+            "iid": 42194,
+            "name": "Thai Paradise",
+            "rank": 13,
+            "score": -44.342472076416016,
+            "state": "Ohio"
+        },
+        {
+            "address": "Ginger Asian Kitchen, 28 S Court St, Athens, OH 45701",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x884873bc0d4f07d1:0x834ffb75bedb0b22",
+            "iid": 42192,
+            "name": "Ginger Asian Kitchen",
+            "rank": 14,
+            "score": -44.37857437133789,
+            "state": "Ohio"
+        },
+        {
+            "address": "Fusion Noodle Company, 30 W Union St, Athens, OH 45701",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Noodle shop', 'Restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x884873bc253851af:0x469015bf96a3bd47",
+            "iid": 42193,
+            "name": "Fusion Noodle Company",
+            "rank": 15,
+            "score": -44.45649719238281,
+            "state": "Ohio"
+        },
+        {
+            "address": "Dynasty Restaurant, 498 Richland Ave, Athens, OH 45701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x884873ddcec3ed3d:0x635e3a8d691c528b",
+            "iid": 42195,
+            "name": "Dynasty Restaurant",
+            "rank": 16,
+            "score": -46.7010383605957,
+            "state": "Ohio"
+        },
+        {
+            "address": "Dragon Village of Buckeye Lake, 11097 Hebron Rd, Buckeye Lake, OH 43008",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88381228df290c75:0x6c850017c7f7870c",
+            "iid": 40600,
+            "name": "Dragon Village of Buckeye Lake",
+            "rank": 17,
+            "score": -46.9290771484375,
+            "state": "Ohio"
+        },
+        {
+            "address": "Thai Paradise, 4675 Walnut Rd, Buckeye Lake, OH 43008",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x883811a5c60c1271:0x2689ace2ab0f4e4a",
+            "iid": 40599,
+            "name": "Thai Paradise",
+            "rank": 18,
+            "score": -47.433815002441406,
+            "state": "Ohio"
+        },
+        {
+            "address": "Great Chinese Buffet Inc, 61259 Southgate Rd, Cambridge, OH 43725",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8837ca6ee76d6507:0xf924ea61ec83d523",
+            "iid": 40593,
+            "name": "Great Chinese Buffet Inc",
+            "rank": 19,
+            "score": -47.46199035644531,
+            "state": "Ohio"
+        },
+        {
+            "address": "Yummy Yummy, 620 E Main St, Hebron, OH 43025",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x883813091dc4b1af:0xc777dc50d8b7ed20",
+            "iid": 40601,
+            "name": "Yummy Yummy",
+            "rank": 20,
+            "score": -48.03499221801758,
+            "state": "Ohio"
+        }
+    ],
+    "user": {
+        "name": "the Tarantula Collective",
+        "uid": 22059,
+        "user_id": 100739749516787520567
+    }
+}

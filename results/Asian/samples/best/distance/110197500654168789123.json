@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Ginger Gourmet, 265 Main St, North Reading, MA 01864",
+            "category": "['Chinese restaurant', 'Sushi restaurant']",
+            "date": "2017/07/03",
+            "gmap_id": "0x89e3095f0eda9f25:0x3a239d261f606480",
+            "iid": 69094,
+            "name": "The Ginger Gourmet",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1499041153860
+        },
+        {
+            "address": "Crave Chinatown, 75 Kneeland St, Boston, MA 02111",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Korean barbecue restaurant', 'Korean restaurant', 'Lounge']",
+            "date": "2017/07/27",
+            "gmap_id": "0x89e37a79cdb905e5:0xd2348862e3506459",
+            "iid": 69810,
+            "name": "Crave Chinatown",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1501127535301
+        },
+        {
+            "address": "Yang Ming, 341 S Broadway, Salem, NH 03079",
+            "category": "['Chinese restaurant', 'Japanese restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a9f65872b6c9:0xc1986bf64e41907c",
+            "iid": 70183,
+            "name": "Yang Ming",
+            "split": "train",
+            "state": "New_Hampshire",
+            "unix_time": 1513348338337
+        },
+        {
+            "address": "Bonchon Lowell, 1075 Westford St, Lowell, MA 01851",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2017/12/15",
+            "gmap_id": "0x89e3a361e3805ccf:0x3917cec55629fd77",
+            "iid": 70134,
+            "name": "Bonchon Lowell",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1513348384668
+        },
+        {
+            "address": "Hokkaido Restaurant, 1250 Osgood St, North Andover, MA 01845",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "date": "2018/12/01",
+            "gmap_id": "0x89e30697b6545cf5:0xb0573da95d9d656b",
+            "iid": 69070,
+            "name": "Hokkaido Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1543697382034
+        },
+        {
+            "address": "Jade North Andover, 24 High St, North Andover, MA 01845",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3065ec70d6ceb:0x7ea6193aceb3cf45",
+            "iid": 69068,
+            "name": "Jade North Andover",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821529147
+        },
+        {
+            "address": "Kowloon Restaurant, 948 Broadway, Saugus, MA 01906",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Function room facility', 'Restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e3728d2752944b:0x33e0cbd51bccb077",
+            "iid": 69362,
+            "name": "Kowloon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821608462
+        },
+        {
+            "address": "Fusion House Restaurant, 301 Merrimack St, Methuen, MA 01844",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Lunch restaurant', 'Sushi restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x89e306cd3e26fa03:0x444030ed1f4d94c",
+            "iid": 69071,
+            "name": "Fusion House Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1574821694181
+        },
+        {
+            "address": "Sakeba Sushi & Grill, 5349 W Irlo Bronson Memorial Hwy, Kissimmee, FL 34746",
+            "category": "['Japanese restaurant', 'Bar & grill', 'Sushi restaurant']",
+            "date": "2020/08/29",
+            "gmap_id": "0x88dd8153ae47ba97:0xd1c941047950879d",
+            "iid": 49310,
+            "name": "Sakeba Sushi & Grill",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1598667634826
+        },
+        {
+            "address": "Oriental Garden, 400 Lowell Ave, Haverhill, MA 01832",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x89e301741a279d19:0x9e656adbea052d3f",
+            "iid": 69053,
+            "name": "Oriental Garden",
+            "split": "test",
+            "state": "Massachusetts",
+            "unix_time": 1619395485037
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 1,
+            "score": -2.1481144428253174,
+            "state": "Texas"
+        },
+        {
+            "address": "BaoBao Kitchen, 2403 Battleground Ave # 2, Greensboro, NC 27408",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88531f5e253ebb6b:0x59ab448cb5a35ed4",
+            "iid": 42667,
+            "name": "BaoBao Kitchen",
+            "rank": 2,
+            "score": -2.150604486465454,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Kobe Buddha House, 89 Plaistow Rd, Haverhill, MA 01830",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e2ff595d03b599:0x87ac8b4d11cb0e45",
+            "iid": 69050,
+            "name": "Kobe Buddha House",
+            "rank": 3,
+            "score": -2.1587183475494385,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 4,
+            "score": -2.160916566848755,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Jasmine at Belden, 4695 Dressler Rd NW, Canton, OH 44718",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Bar', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8836d703ba30f571:0x1252196718c989ca",
+            "iid": 40566,
+            "name": "Jasmine at Belden",
+            "rank": 5,
+            "score": -2.161320924758911,
+            "state": "Ohio"
+        },
+        {
+            "address": "Panda Express, 350 Tucker Rd, Tehachapi, CA 93561",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c1f78cd4167551:0xe748a4ee08859ce4",
+            "iid": 12921,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -2.1645877361297607,
+            "state": "California"
+        },
+        {
+            "address": "Suphan Thai Kitchen, 18825 Eureka Rd, Southgate, MI 48195",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x883b3784017768bb:0x6b177fa3afc9e3d3",
+            "iid": 41090,
+            "name": "Suphan Thai Kitchen",
+            "rank": 7,
+            "score": -2.166743516921997,
+            "state": "Michigan"
+        },
+        {
+            "address": "F&F Japanese Grill, 1505 Texas Ave S Ste B, College Station, TX 77840",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86468578955ddeef:0x9e3d190cfa89a2e3",
+            "iid": 24796,
+            "name": "F&F Japanese Grill",
+            "rank": 8,
+            "score": -2.167236804962158,
+            "state": "Texas"
+        },
+        {
+            "address": "sichuan garden, 2347 NW Military Hwy, San Antonio, TX 78231",
+            "category": "['Sichuan restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c6162ec1c3cf9:0xa91320ba029fdfc5",
+            "iid": 27324,
+            "name": "sichuan garden",
+            "rank": 9,
+            "score": -2.167360544204712,
+            "state": "Texas"
+        },
+        {
+            "address": "Ph\u1edf Tran88, 212 N LBJ Dr, San Marcos, TX 78666",
+            "category": "['Vietnamese restaurant', 'Noodle shop']",
+            "gmap_id": "0x865ca990b5237119:0xf5cc71387232c4a9",
+            "iid": 27506,
+            "name": "Ph\u1edf Tran88",
+            "rank": 10,
+            "score": -2.1682097911834717,
+            "state": "Texas"
+        },
+        {
+            "address": "PHO-4-EVER, 701 S Madison St, Webb City, MO 64870",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x87c87fe8f3ce4455:0xe602ec0eb8fd3ee7",
+            "iid": 33328,
+            "name": "PHO-4-EVER",
+            "rank": 11,
+            "score": -2.1682791709899902,
+            "state": "Missouri"
+        },
+        {
+            "address": "BENTO Sarasota, 190 N Cattlemen Rd Unit 5, Sarasota, FL 34243",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c339e01ea2a723:0xdcd77663924fa18d",
+            "iid": 47515,
+            "name": "BENTO Sarasota",
+            "rank": 12,
+            "score": -2.1735055446624756,
+            "state": "Florida"
+        },
+        {
+            "address": "\u798f\u7984\u5bff\u559cFollowsoshi, 135-24 40th Rd, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Breakfast restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Fast food restaurant', 'Lunch restaurant', 'Pancake restaurant']",
+            "gmap_id": "0x89c261612e03981b:0xfa580b5a302811c2",
+            "iid": 61788,
+            "name": "\u798f\u7984\u5bff\u559cFollowsoshi",
+            "rank": 13,
+            "score": -2.1740951538085938,
+            "state": "New_York"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 44215,
+            "name": "Aki Japanese Cuisine",
+            "rank": 14,
+            "score": -2.1742992401123047,
+            "state": "Alabama"
+        },
+        {
+            "address": "Fresh Vietnamese Bistro & Teahouse, 3840 Promenade Pkwy STE A, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889c0d9661e03b47:0xeb5e97144e7bada9",
+            "iid": 46727,
+            "name": "Fresh Vietnamese Bistro & Teahouse",
+            "rank": 15,
+            "score": -2.174419641494751,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 54334,
+            "name": "Chopstix",
+            "rank": 16,
+            "score": -2.175398826599121,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Bhimas Food Truck, 125 Promenade Blvd, Bridgewater Township, NJ 08807",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3bf715420fd6f:0x44f63b21ef3cda9a",
+            "iid": 64660,
+            "name": "Bhimas Food Truck",
+            "rank": 17,
+            "score": -2.1754813194274902,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Empress M, 221 Silverado Trail, Napa, CA 94559",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8085077815065c83:0xedd616eecae2d68d",
+            "iid": 6834,
+            "name": "Empress M",
+            "rank": 18,
+            "score": -2.1756999492645264,
+            "state": "California"
+        },
+        {
+            "address": "Osaka Marketplace, 1655 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fb51c2f05b1d9:0xcfcb32d6226683f3",
+            "iid": 9989,
+            "name": "Osaka Marketplace",
+            "rank": 19,
+            "score": -2.1765482425689697,
+            "state": "California"
+        },
+        {
+            "address": "Pacific East, 186 Union St, Westlake, OH 44145",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88309311b18159cf:0x4fb2998efb68410c",
+            "iid": 39657,
+            "name": "Pacific East",
+            "rank": 20,
+            "score": -2.1780052185058594,
+            "state": "Ohio"
+        }
+    ],
+    "user": {
+        "name": "Wes Scribner",
+        "uid": 304425,
+        "user_id": 110197500654168789123
+    }
+}

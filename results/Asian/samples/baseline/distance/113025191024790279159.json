@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Tin Drum Asian Kitchen - The Collection at Forsyth, 410 Peachtree Pkwy, Cumming, GA 30041",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "date": "2015/11/14",
+            "gmap_id": "0x88f59b7bd317bfab:0x9096d7eace809072",
+            "iid": 52155,
+            "name": "Tin Drum Asian Kitchen - The Collection at Forsyth",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1447459565975
+        },
+        {
+            "address": "Haiku Sushi Steakhouse, 5966 North Point Pkwy, Alpharetta, GA 30022",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2015/11/14",
+            "gmap_id": "0x88f5756f28d9fc5f:0x65c8762c61cb72f9",
+            "iid": 51991,
+            "name": "Haiku Sushi Steakhouse",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1447460308342
+        },
+        {
+            "address": "Volcano Asian Bistro, 5316 Windward Pkwy, Alpharetta, GA 30004",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "date": "2015/11/14",
+            "gmap_id": "0x88f575f50faa2f3f:0x181a58c7904a03de",
+            "iid": 52018,
+            "name": "Volcano Asian Bistro",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1447460668805
+        },
+        {
+            "address": "Chad Thai, 13087 GA-9, Alpharetta, GA 30004",
+            "category": "['Thai restaurant']",
+            "date": "2015/11/14",
+            "gmap_id": "0x88f59e002ddc9309:0xe9ed90f8837c11a4",
+            "iid": 52171,
+            "name": "Chad Thai",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1447462049174
+        },
+        {
+            "address": "Panda Express, 5230 Windward Pkwy, Alpharetta, GA 30004",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2015/11/14",
+            "gmap_id": "0x88f575f476053f7d:0xfb3af57a24f2bdad",
+            "iid": 52016,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1447462941721
+        },
+        {
+            "address": "Green Lotus Thai Cuisine, 875 N Main St #301, Alpharetta, GA 30009",
+            "category": "['Thai restaurant']",
+            "date": "2015/12/04",
+            "gmap_id": "0x88f575f1f19dc6d3:0x66a835463211594d",
+            "iid": 52011,
+            "name": "Green Lotus Thai Cuisine",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1449250396880
+        },
+        {
+            "address": "Chin Chin Chinese Restaurant, 2800 Spring Rd SE, Atlanta, GA 30339",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant', 'Sushi restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x88f510f0894fab2f:0xc1ebdee51cc20985",
+            "iid": 51721,
+            "name": "Chin Chin Chinese Restaurant",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1460047286241
+        },
+        {
+            "address": "Kani House, 1770 Market Pl Blvd, Cumming, GA 30041",
+            "category": "['Japanese steakhouse', 'Bar & grill', 'Family restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2016/11/16",
+            "gmap_id": "0x88f59ace0d78e1d5:0x51195fa78faabebc",
+            "iid": 52146,
+            "name": "Kani House",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1479308585910
+        },
+        {
+            "address": "Heirloom Market BBQ, 2243 Akers Mill Rd SE, Atlanta, GA 30339",
+            "category": "['Barbecue restaurant', 'Korean barbecue restaurant', 'Korean restaurant']",
+            "date": "2018/02/25",
+            "gmap_id": "0x88f511d231ec2c3d:0x3c698e8fff9e8413",
+            "iid": 51742,
+            "name": "Heirloom Market BBQ",
+            "split": "valid",
+            "state": "Georgia",
+            "unix_time": 1519528812443
+        },
+        {
+            "address": "Kuroshio Sushi Bar and Grille at Cumberland, 2700 Cobb Pkwy B3, Smyrna, GA 30080",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar & grill', 'Japanese restaurant']",
+            "date": "2018/07/07",
+            "gmap_id": "0x88f51050e490ce69:0x227f46ae6da6512c",
+            "iid": 51707,
+            "name": "Kuroshio Sushi Bar and Grille at Cumberland",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1530925074204
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Shanghai Chinese Food and Bar, 112 Magnolia St, Roswell, GA 30075",
+            "category": "['Chinese restaurant', 'Bar']",
+            "gmap_id": "0x88f50d53ecd92037:0x3d52219bdf08d1f5",
+            "iid": 51663,
+            "name": "Shanghai Chinese Food and Bar",
+            "rank": 1,
+            "score": -2.36018443107605,
+            "state": "Georgia"
+        },
+        {
+            "address": "Aroma Indian Bistro, 4750 Alabama Rd #114, Roswell, GA 30075",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88f5731754dabb3f:0x25b3c7447bbad30e",
+            "iid": 51962,
+            "name": "Aroma Indian Bistro",
+            "rank": 2,
+            "score": -2.518828868865967,
+            "state": "Georgia"
+        },
+        {
+            "address": "Traditions - Indian Fusion Restaurant, 4120 Old Milton Pkwy, Alpharetta, GA 30005",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88f59fb2860fffff:0xec1d31cab900a871",
+            "iid": 52211,
+            "name": "Traditions - Indian Fusion Restaurant",
+            "rank": 3,
+            "score": -2.5430943965911865,
+            "state": "Georgia"
+        },
+        {
+            "address": "PHO - TASTIC, 10995 State Bridge Rd STE F, Johns Creek, GA 30022",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88f59f061df8336f:0x752bbb22091852b0",
+            "iid": 52189,
+            "name": "PHO - TASTIC",
+            "rank": 4,
+            "score": -2.583620309829712,
+            "state": "Georgia"
+        },
+        {
+            "address": "Super Pho, 12315 Crabapple Rd #144, Alpharetta, GA 30004",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88f57356bb551acb:0x914e10c3d7941c26",
+            "iid": 51964,
+            "name": "Super Pho",
+            "rank": 5,
+            "score": -2.603991746902466,
+            "state": "Georgia"
+        },
+        {
+            "address": "Epicures Of Asia Diner, 885 Woodstock Rd #435, Roswell, GA 30075",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88f5730f8041c6b1:0x36acff71b3c95e09",
+            "iid": 51959,
+            "name": "Epicures Of Asia Diner",
+            "rank": 6,
+            "score": -2.62542986869812,
+            "state": "Georgia"
+        },
+        {
+            "address": "Superior Wok Restaurant, 6480 North Point Pkwy #1100, Alpharetta, GA 30022",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f575152e4a9cd9:0xf5b0e5c03743f564",
+            "iid": 51981,
+            "name": "Superior Wok Restaurant",
+            "rank": 7,
+            "score": -2.627485752105713,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asian Express, 4880 Lower Roswell Rd #110, Marietta, GA 30068",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f50dbbd9c24581:0x3a750230b208dbfd",
+            "iid": 51667,
+            "name": "Asian Express",
+            "rank": 8,
+            "score": -2.633035659790039,
+            "state": "Georgia"
+        },
+        {
+            "address": "Ninja Sushi and Steak, 9820 Hwy 92 STE 170, Woodstock, GA 30188",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f56bb7711132a7:0x4fa64da3ecde8f69",
+            "iid": 51932,
+            "name": "Ninja Sushi and Steak",
+            "rank": 9,
+            "score": -2.6664812564849854,
+            "state": "Georgia"
+        },
+        {
+            "address": "Banana Leaf Thai Restaurant + Bar, 227 Sandy Springs Pl NE Suite 502, Sandy Springs, GA 30328",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88f50f69cd20e20b:0xeb7e2c6bad1137b4",
+            "iid": 51694,
+            "name": "Banana Leaf Thai Restaurant + Bar",
+            "rank": 10,
+            "score": -2.6743993759155273,
+            "state": "Georgia"
+        },
+        {
+            "address": "Letsbap, 5460 Peachtree Blvd b, Chamblee, GA 30341",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x88f5091744ab8b43:0x7ec5fb5b8d3c87e7",
+            "iid": 51557,
+            "name": "Letsbap",
+            "rank": 11,
+            "score": -2.674687385559082,
+            "state": "Georgia"
+        },
+        {
+            "address": "Buddha Original, 170 Tri-County Plaza, Cumming, GA 30040",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f59ad488478459:0xa263b1f39b993267",
+            "iid": 52150,
+            "name": "Buddha Original",
+            "rank": 12,
+            "score": -2.686417579650879,
+            "state": "Georgia"
+        },
+        {
+            "address": "Golden Palace, 2300 Bethelview Rd #108, Cumming, GA 30040",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f583829772ee5f:0xcac2d01afbcb015f",
+            "iid": 52025,
+            "name": "Golden Palace",
+            "rank": 13,
+            "score": -2.69063401222229,
+            "state": "Georgia"
+        },
+        {
+            "address": "Blue Fin Sushi, 2863 Johns Creek Cir, Johns Creek, GA 30097",
+            "category": "['Restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x88f59885ca33dd2f:0x39577af5a4ab39f",
+            "iid": 52103,
+            "name": "Blue Fin Sushi",
+            "rank": 14,
+            "score": -2.692563533782959,
+            "state": "Georgia"
+        },
+        {
+            "address": "Gao Fresh Noodle, 11250 Medlock Bridge Rd #110, Johns Creek, GA 30097",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88f599cd4a4a20d5:0xe02f36e848c16334",
+            "iid": 52140,
+            "name": "Gao Fresh Noodle",
+            "rank": 15,
+            "score": -2.696732997894287,
+            "state": "Georgia"
+        },
+        {
+            "address": "Tikka House, 5270 Peachtree Pkwy #115, Peachtree Corners, GA 30092",
+            "category": "['Modern Indian restaurant']",
+            "gmap_id": "0x88f5a1b372955ca7:0xc1406e40636212c1",
+            "iid": 52240,
+            "name": "Tikka House",
+            "rank": 16,
+            "score": -2.7234175205230713,
+            "state": "Georgia"
+        },
+        {
+            "address": "China Panda, 6746 Covington Hwy #111, Lithonia, GA 30058",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f5adb33b4670ab:0xc9cc36787f6b728b",
+            "iid": 52472,
+            "name": "China Panda",
+            "rank": 17,
+            "score": -2.757631778717041,
+            "state": "Georgia"
+        },
+        {
+            "address": "Great Wall, 8014 Cumming Hwy #406, Canton, GA 30115",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f57bd12935ee37:0xf77f8ef135dda914",
+            "iid": 52023,
+            "name": "Great Wall",
+            "rank": 18,
+            "score": -2.764305591583252,
+            "state": "Georgia"
+        },
+        {
+            "address": "Main Moon, 1501 Hwy 290 E, Brenham, TX 77833",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8646a93483fb312d:0xaa0caee3c9370f9a",
+            "iid": 24804,
+            "name": "Main Moon",
+            "rank": 19,
+            "score": -2.7666335105895996,
+            "state": "Texas"
+        },
+        {
+            "address": "Yummy Top Chinese Restaurant, 8465 Holcomb Bridge Rd #150, Alpharetta, GA 30022",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x88f50a82a88384c3:0xc608e04f10f3ac3d",
+            "iid": 51639,
+            "name": "Yummy Top Chinese Restaurant",
+            "rank": 20,
+            "score": -2.7796149253845215,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Craig Feely",
+        "uid": 388138,
+        "user_id": 113025191024790279159
+    }
+}

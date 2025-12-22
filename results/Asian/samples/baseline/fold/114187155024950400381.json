@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Nan Xiang Xiao Long Bao, 39-16 Prince St #104, Queens, NY 11354",
+            "category": "['Dumpling restaurant', 'Chinese restaurant', 'Shanghainese restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x89c2600e5c0c3e57:0x24af49e7e7726484",
+            "iid": 61468,
+            "name": "Nan Xiang Xiao Long Bao",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1510748947008
+        },
+        {
+            "address": "Hei La Moon Restaurant, 88 Beach St, Boston, MA 02111",
+            "category": "['Dim sum restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89e37a785fd0e5dd:0x9ad4e5f54d53c87a",
+            "iid": 69808,
+            "name": "Hei La Moon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1525700360665
+        },
+        {
+            "address": "750 Myrtle Diner, 750 Myrtle Ave, Brooklyn, NY 11205",
+            "category": "['Japanese grocery store', 'Fried chicken takeaway']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c25bec6e3658e5:0x2eedc5b6d41156e2",
+            "iid": 60879,
+            "name": "750 Myrtle Diner",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700597320
+        },
+        {
+            "address": "Asian Jewels, 133-30 39th Ave, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c2600e8936acd9:0x7186588fb0262c0e",
+            "iid": 61481,
+            "name": "Asian Jewels",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700613463
+        },
+        {
+            "address": "Insa, 328 Douglass St, Brooklyn, NY 11217",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/12/08",
+            "gmap_id": "0x89c25bab362fe1a3:0x29c89c8f51d7998d",
+            "iid": 60792,
+            "name": "Insa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1544295294055
+        },
+        {
+            "address": "Lake Pavilion, 6015 Main St, Queens, NY 11367",
+            "category": "['Dim sum restaurant', 'Cantonese restaurant', 'Chinese restaurant']",
+            "date": "2019/02/11",
+            "gmap_id": "0x89c2606f50d57779:0x340cf570f56be0b",
+            "iid": 61662,
+            "name": "Lake Pavilion",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1549918220926
+        },
+        {
+            "address": "Katsuei, 210 7th Ave, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c25b015e09d89f:0xacbaea5e956adece",
+            "iid": 60596,
+            "name": "Katsuei",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550158663001
+        },
+        {
+            "address": "Jongro BBQ, 155-14 Roosevelt Ave, Flushing, NY 11354",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c26025cb1b859d:0x95d3b37963a5465e",
+            "iid": 61600,
+            "name": "Jongro BBQ",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550159423804
+        },
+        {
+            "address": "OKONOMI // YUJI Ramen, 150 Ainslie St, Brooklyn, NY 11211",
+            "category": "['Japanese restaurant', 'Breakfast restaurant', 'Ramen restaurant', 'Seafood restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x89c2595831328cd9:0xfad5f1be4ddd8e13",
+            "iid": 59477,
+            "name": "OKONOMI // YUJI Ramen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1576091100300
+        },
+        {
+            "address": "Zenith, 7002 Fresh Pond Rd, Ridgewood, NY 11385",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "date": "2020/06/26",
+            "gmap_id": "0x89c25c29f0f4fe79:0x650949e95638e6be",
+            "iid": 60944,
+            "name": "Zenith",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1593141209096
+        },
+        {
+            "address": "Nowon, 507 E 6th St, New York, NY 10009",
+            "category": "['Korean restaurant', 'Gastropub']",
+            "date": "2021/03/22",
+            "gmap_id": "0x89c259ac4080178d:0x5f2796bd79da7a9e",
+            "iid": 60076,
+            "name": "Nowon",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1616417989099
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Mitsuwa Marketplace - New Jersey, 595 River Rd, Edgewater, NJ 07020",
+            "category": "['Supermarket', 'Food court', 'Japanese grocery store', 'Japanese restaurant']",
+            "gmap_id": "0x89c2f64a5606cb39:0x9d3e2d129ac7672e",
+            "iid": 63461,
+            "name": "Mitsuwa Marketplace - New Jersey",
+            "rank": 1,
+            "score": 5.525052070617676,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Ichiran, 374 Johnson Ave, Brooklyn, NY 11206",
+            "category": "['Ramen restaurant', 'Chinese noodle restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x89c25c0034670c0f:0xe65b1b2bc6ad199d",
+            "iid": 60905,
+            "name": "Ichiran",
+            "rank": 2,
+            "score": 5.0095367431640625,
+            "state": "New_York"
+        },
+        {
+            "address": "Sobaya, 229 E 9th St, New York, NY 10003",
+            "category": "['Japanese restaurant', 'Restaurant', 'Soba noodle shop', 'Udon noodle restaurant']",
+            "gmap_id": "0x89c2599c6dda4555:0x52c507cdeee0ef87",
+            "iid": 59852,
+            "name": "Sobaya",
+            "rank": 3,
+            "score": 4.950881481170654,
+            "state": "New_York"
+        },
+        {
+            "address": "Bunker, 99 Scott Ave, Brooklyn, NY 11237",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25f86f67be46f:0xc8cffff79c532af7",
+            "iid": 61337,
+            "name": "Bunker",
+            "rank": 4,
+            "score": 4.9355573654174805,
+            "state": "New_York"
+        },
+        {
+            "address": "Hahm Ji Bach, 40-11 149th Pl, Queens, NY 11354",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89c261de07da996d:0x85d3235a164457e8",
+            "iid": 61868,
+            "name": "Hahm Ji Bach",
+            "rank": 5,
+            "score": 4.925792694091797,
+            "state": "New_York"
+        },
+        {
+            "address": "99 Favor Taste, 285 Grand St, New York, NY 10002",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Barbecue restaurant', 'Buffet restaurant', 'Hot pot restaurant']",
+            "gmap_id": "0x89c259879abcc2e9:0x6cc6e3f681f714c",
+            "iid": 59647,
+            "name": "99 Favor Taste",
+            "rank": 6,
+            "score": 4.900244235992432,
+            "state": "New_York"
+        },
+        {
+            "address": "Japan Village, 934 3rd Ave, Brooklyn, NY 11232",
+            "category": "['Japanese grocery store', 'Bar', 'Coffee shop', 'Food court', 'Liquor store', 'Pastry shop', 'Restaurant', 'Seafood market', 'Supermarket', 'Sushi restaurant']",
+            "gmap_id": "0x89c25abf14eaaaab:0x78530e98b3cc75f2",
+            "iid": 60547,
+            "name": "Japan Village",
+            "rank": 7,
+            "score": 4.84009313583374,
+            "state": "New_York"
+        },
+        {
+            "address": "Izakaya MEW, 53 W 35th St, New York, NY 10001",
+            "category": "['Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c259a97a25fe87:0xdead51ccf7e11827",
+            "iid": 60050,
+            "name": "Izakaya MEW",
+            "rank": 8,
+            "score": 4.76301383972168,
+            "state": "New_York"
+        },
+        {
+            "address": "Baekjeong NYC, 1 E 32nd St, New York, NY 10016",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x89c259a85b87bc19:0x715797ad337b6a20",
+            "iid": 59995,
+            "name": "Baekjeong NYC",
+            "rank": 9,
+            "score": 4.7094502449035645,
+            "state": "New_York"
+        },
+        {
+            "address": "Cocoron, 37 Kenmare St, New York, NY 10012",
+            "category": "['Noodle shop', 'Asian restaurant', 'Health food restaurant', 'Japanese restaurant', 'Soba noodle shop', 'Soup restaurant', 'Soup shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89c259889ec882a9:0x94b396ae47745bc9",
+            "iid": 59675,
+            "name": "Cocoron",
+            "rank": 10,
+            "score": 4.70832633972168,
+            "state": "New_York"
+        },
+        {
+            "address": "Tim Ho Wan, 85 4th Ave, New York, NY 10003",
+            "category": "['Dim sum restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2599958da6bf1:0xb15210bf4d7154a7",
+            "iid": 59801,
+            "name": "Tim Ho Wan",
+            "rank": 11,
+            "score": 4.699243068695068,
+            "state": "New_York"
+        },
+        {
+            "address": "Spring Shabu-Shabu, 136-20 38th Ave 2nd Floor, Queens, NY 11354",
+            "category": "['Shabu-shabu restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c260102909e575:0x380dfc2d14fdc2d7",
+            "iid": 61498,
+            "name": "Spring Shabu-Shabu",
+            "rank": 12,
+            "score": 4.657516002655029,
+            "state": "New_York"
+        },
+        {
+            "address": "5ive Spice Tacos & Banh Mi, 52 5th Ave, Brooklyn, NY 11217",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25bac204b817b:0xbf0d4ac2fddc7ade",
+            "iid": 60796,
+            "name": "5ive Spice Tacos & Banh Mi",
+            "rank": 13,
+            "score": 4.629405975341797,
+            "state": "New_York"
+        },
+        {
+            "address": "Minca, 536 E 5th St, New York, NY 10009",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2597874df74b1:0xc25e55f62818c3f2",
+            "iid": 59564,
+            "name": "Minca",
+            "rank": 14,
+            "score": 4.558921813964844,
+            "state": "New_York"
+        },
+        {
+            "address": "Jongro BBQ, 22 W 32nd St 2nd floor, New York, NY 10001",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89c259a8ef657243:0x9185d801317e2d9d",
+            "iid": 60025,
+            "name": "Jongro BBQ",
+            "rank": 15,
+            "score": 4.541812896728516,
+            "state": "New_York"
+        },
+        {
+            "address": "Happy Lamb, 136-59 37th Avenue, Queens, NY 11354",
+            "category": "['Hot pot restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Family restaurant', 'Soup restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89c260100dd5c2af:0x2952f57b3c7438c8",
+            "iid": 61496,
+            "name": "Happy Lamb",
+            "rank": 16,
+            "score": 4.526412487030029,
+            "state": "New_York"
+        },
+        {
+            "address": "Madame Vo, 212 E 10th St, New York, NY 10003",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2599c4c8416a9:0xde39d305acb04e8a",
+            "iid": 59846,
+            "name": "Madame Vo",
+            "rank": 17,
+            "score": 4.517186164855957,
+            "state": "New_York"
+        },
+        {
+            "address": "Jing Fong, 20 Elizabeth St, New York, NY 10013",
+            "category": "['Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x89c25a27a4786b25:0x1181c2aa6ceec015",
+            "iid": 60447,
+            "name": "Jing Fong",
+            "rank": 18,
+            "score": 4.507890224456787,
+            "state": "New_York"
+        },
+        {
+            "address": "SriPraPhai, 64-13 39th Ave, Woodside, NY 11377",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c25f033daedacf:0x57b960270c3f69e6",
+            "iid": 61187,
+            "name": "SriPraPhai",
+            "rank": 19,
+            "score": 4.486886501312256,
+            "state": "New_York"
+        },
+        {
+            "address": "Mizumi, 23110 Northern Blvd, Queens, NY 11362",
+            "category": "['Buffet restaurant', 'Japanese restaurant', 'Shabu-shabu restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c28a00350b3e29:0x68ca2044245d3cee",
+            "iid": 62523,
+            "name": "Mizumi",
+            "rank": 20,
+            "score": 4.48628568649292,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Brian Quiban",
+        "uid": 422444,
+        "user_id": 114187155024950400381
+    }
+}

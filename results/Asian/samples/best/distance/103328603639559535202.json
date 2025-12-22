@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Makoto Japanese Steak House, 297 NJ-72, Manahawkin, NJ 08050, United States",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/10/30",
+            "gmap_id": "0x89c1064a0c0f7829:0x52807753e79c9def",
+            "iid": 57723,
+            "name": "Makoto Japanese Steak House",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1477793615721
+        },
+        {
+            "address": "Harvest Buffet, 501 U.S. 9, Waretown, NJ 08758",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "date": "2017/07/04",
+            "gmap_id": "0x89c10a0435fc2a21:0x2cd4f9e0a4bee8d5",
+            "iid": 57729,
+            "name": "Harvest Buffet",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1499175164830
+        },
+        {
+            "address": "Xina Restaurant, 3430 NJ-37, Toms River, NJ 08753",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Oyster bar restaurant', 'Sushi restaurant']",
+            "date": "2017/07/17",
+            "gmap_id": "0x89c19bf05a96636d:0x3a47da5f563250f4",
+            "iid": 57986,
+            "name": "Xina Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1500295765183
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi, 26 Union Ave, Lakehurst, NJ 08733",
+            "category": "['Chinese restaurant', 'Kyoto style Japanese restaurant', 'Restaurant']",
+            "date": "2017/12/13",
+            "gmap_id": "0x89c1772ccd9904b5:0x2c63200c7e31897b",
+            "iid": 57939,
+            "name": "Tokyo Sushi & Hibachi",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1513173993334
+        },
+        {
+            "address": "Namaste JALSA, 1504 King St, Alexandria, VA 22314",
+            "category": "['Indian restaurant', 'Bar', 'Nepalese restaurant']",
+            "date": "2017/12/28",
+            "gmap_id": "0x89b7b0fff9244c67:0x500fcca4be7704af",
+            "iid": 55997,
+            "name": "Namaste JALSA",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1514428159761
+        },
+        {
+            "address": "Li's Garden, 700 NJ-70, Lakewood, NJ 08701",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/01/22",
+            "gmap_id": "0x89c182eaef1009bd:0x9ff6185673edbea1",
+            "iid": 57957,
+            "name": "Li's Garden",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1516587157172
+        },
+        {
+            "address": "P.F. Chang's, 3710 U.S. 9 Ste 2817, Freehold Township, NJ 07728",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x89c3d5750027851f:0x25716ea4ac2e93e8",
+            "iid": 64950,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1523322743645
+        },
+        {
+            "address": "Tan's Garden Chinese Restaurant, 297 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/16",
+            "gmap_id": "0x89c10635e8dfc0b9:0x9bd10f8a6d1e4f5f",
+            "iid": 57722,
+            "name": "Tan's Garden Chinese Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1542391380503
+        },
+        {
+            "address": "Fuji72 Hibachi & Sushi (Manahawkin), 626 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/01/29",
+            "gmap_id": "0x89c10791bef2ca9d:0x95f5ba933b50770a",
+            "iid": 57725,
+            "name": "Fuji72 Hibachi & Sushi (Manahawkin)",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1548727032034
+        },
+        {
+            "address": "Golden Gate Express, 1851 NJ-35, Seaside Heights, NJ 08751",
+            "category": "['Chinese restaurant']",
+            "date": "2021/01/26",
+            "gmap_id": "0x89c19a4c9743b777:0xc6ac9b7a3ed578b9",
+            "iid": 57985,
+            "name": "Golden Gate Express",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1611666820695
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Good Taste for Chinese food, 1980 NJ-37, Manchester Township, NJ 08759",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c177b79c455751:0xd43a576126b37304",
+            "iid": 57940,
+            "name": "Good Taste for Chinese food",
+            "rank": 1,
+            "score": -1.6813489198684692,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Best Food In Town, 399 Dover Rd, Toms River, NJ 08757",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c175a94b624e11:0xa9ec881e88525270",
+            "iid": 57936,
+            "name": "Best Food In Town",
+            "rank": 2,
+            "score": -1.752841591835022,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Great Wok, 662 NJ-70, Lakehurst, NJ 08733",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c170da23099f43:0xf7b26375a02c5c5e",
+            "iid": 57933,
+            "name": "Great Wok",
+            "rank": 3,
+            "score": -1.83101487159729,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China Town, 340 U.S. 9, Bayville, NJ 08721",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c19e642ede3bf3:0x82d66459016562aa",
+            "iid": 58001,
+            "name": "China Town",
+            "rank": 4,
+            "score": -1.8783018589019775,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Foo Ho Chinese Restaurant, 584 N Main St, Barnegat, NJ 08005",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c1a76751c5ef9b:0x42b1793d5b42777c",
+            "iid": 58009,
+            "name": "Foo Ho Chinese Restaurant",
+            "rank": 5,
+            "score": -2.014638900756836,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Chinese Gourmet, 44 Manchester Ave # E, Forked River, NJ 08731",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c1a01a666437fb:0xf55e1686ad6bf3e",
+            "iid": 58006,
+            "name": "Chinese Gourmet",
+            "rank": 6,
+            "score": -2.0204124450683594,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Great Wall Chinese Food, 212 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c19e66a618ac75:0x1cc394e981730309",
+            "iid": 58002,
+            "name": "Great Wall Chinese Food",
+            "rank": 7,
+            "score": -2.021590232849121,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Hunan Wok Kitchen, 2010 W County Line Rd, Jackson Township, NJ 08527",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c17f2bb49a5969:0xd8bad44553f0730f",
+            "iid": 57945,
+            "name": "Hunan Wok Kitchen",
+            "rank": 8,
+            "score": -2.0309720039367676,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Good Taste Chinese Restaurant, 242 Atlantic City Blvd, Bayville, NJ 08721",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c19ef4f8295f1f:0xe50f0ed0de10fa13",
+            "iid": 58005,
+            "name": "Good Taste Chinese Restaurant",
+            "rank": 9,
+            "score": -2.0409278869628906,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China Town, 400 Lacey Rd #10, Whiting, NJ 08759",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c172137e466011:0x37364115285463ee",
+            "iid": 57934,
+            "name": "China Town",
+            "rank": 10,
+            "score": -2.0460152626037598,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Golden Garden, 1358 Hooper Ave, Toms River, NJ 08753",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c19d0146ff11a1:0x632069fed8903d75",
+            "iid": 57992,
+            "name": "Golden Garden",
+            "rank": 11,
+            "score": -2.113770008087158,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Banji Japanese Cuisine, 333 Atlantic City Blvd, Bayville, NJ 08721",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c19eed899457a3:0x5248d98cbc57efb3",
+            "iid": 58004,
+            "name": "Banji Japanese Cuisine",
+            "rank": 12,
+            "score": -2.129932165145874,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Five Star Chinese Restaurant, 1580 Lakewood Rd #9, Toms River, NJ 08755",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c19d622a7e8747:0x5565ac69633bcab2",
+            "iid": 57994,
+            "name": "Five Star Chinese Restaurant",
+            "rank": 13,
+            "score": -2.1570634841918945,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Dim Sum Restaurant, 2213 NJ-88, Brick Township, NJ 08724",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c18438d4117a7f:0xe6fc8e840191056d",
+            "iid": 57966,
+            "name": "Dim Sum Restaurant",
+            "rank": 14,
+            "score": -2.1627321243286133,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "China King, 912 W Bay Ave #190, Barnegat, NJ 08005",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c109b40c7d7cb7:0x6ea8c3a55ce4747b",
+            "iid": 57728,
+            "name": "China King",
+            "rank": 15,
+            "score": -2.186532735824585,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Golden Dragon Kitchen, 215 Route 37 West, Toms River, NJ 08755",
+            "category": "['Chinese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c19de940ac0803:0xcddd4f575a082a0",
+            "iid": 57999,
+            "name": "Golden Dragon Kitchen",
+            "rank": 16,
+            "score": -2.2021448612213135,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bombay Foods and International Grocery, 943 NJ-166, Toms River, NJ 08753",
+            "category": "['Grocery store', 'Food store', 'Indian grocery store', 'Mexican grocery store']",
+            "gmap_id": "0x89c19dec46836c5b:0x77e43c6ce2bcb9a6",
+            "iid": 58000,
+            "name": "Bombay Foods and International Grocery",
+            "rank": 17,
+            "score": -2.225996494293213,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Rice N Curry, 601 S 3rd St Suite B C, Renton, WA 98057",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x549043a103bc9edd:0xbb2b0b4d1c16cdf8",
+            "iid": 2393,
+            "name": "Rice N Curry",
+            "rank": 18,
+            "score": -2.23685884475708,
+            "state": "Washington"
+        },
+        {
+            "address": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762, 1428 S Azusa Ave Suite B, West Covina, CA 91791",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x80c329e30a7791d3:0x56b9c0215ff24bd0",
+            "iid": 16259,
+            "name": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762",
+            "rank": 19,
+            "score": -2.2417221069335938,
+            "state": "California"
+        },
+        {
+            "address": "Sushi House and Asian Cuisine, 2682 High Commons Way, West Valley City, UT 84120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8752f3b42fea5d6f:0x4ee3e86117d85c6e",
+            "iid": 30399,
+            "name": "Sushi House and Asian Cuisine",
+            "rank": 20,
+            "score": -2.243166923522949,
+            "state": "Utah"
+        }
+    ],
+    "user": {
+        "name": "Jerry Thompson",
+        "uid": 99104,
+        "user_id": 103328603639559535202
+    }
+}

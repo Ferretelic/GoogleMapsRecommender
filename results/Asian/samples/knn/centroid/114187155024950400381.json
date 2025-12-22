@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Nan Xiang Xiao Long Bao, 39-16 Prince St #104, Queens, NY 11354",
+            "category": "['Dumpling restaurant', 'Chinese restaurant', 'Shanghainese restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x89c2600e5c0c3e57:0x24af49e7e7726484",
+            "iid": 61468,
+            "name": "Nan Xiang Xiao Long Bao",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1510748947008
+        },
+        {
+            "address": "Hei La Moon Restaurant, 88 Beach St, Boston, MA 02111",
+            "category": "['Dim sum restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89e37a785fd0e5dd:0x9ad4e5f54d53c87a",
+            "iid": 69808,
+            "name": "Hei La Moon Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1525700360665
+        },
+        {
+            "address": "750 Myrtle Diner, 750 Myrtle Ave, Brooklyn, NY 11205",
+            "category": "['Japanese grocery store', 'Fried chicken takeaway']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c25bec6e3658e5:0x2eedc5b6d41156e2",
+            "iid": 60879,
+            "name": "750 Myrtle Diner",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700597320
+        },
+        {
+            "address": "Asian Jewels, 133-30 39th Ave, Queens, NY 11354",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2018/05/07",
+            "gmap_id": "0x89c2600e8936acd9:0x7186588fb0262c0e",
+            "iid": 61481,
+            "name": "Asian Jewels",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1525700613463
+        },
+        {
+            "address": "Insa, 328 Douglass St, Brooklyn, NY 11217",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2018/12/08",
+            "gmap_id": "0x89c25bab362fe1a3:0x29c89c8f51d7998d",
+            "iid": 60792,
+            "name": "Insa",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1544295294055
+        },
+        {
+            "address": "Lake Pavilion, 6015 Main St, Queens, NY 11367",
+            "category": "['Dim sum restaurant', 'Cantonese restaurant', 'Chinese restaurant']",
+            "date": "2019/02/11",
+            "gmap_id": "0x89c2606f50d57779:0x340cf570f56be0b",
+            "iid": 61662,
+            "name": "Lake Pavilion",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1549918220926
+        },
+        {
+            "address": "Katsuei, 210 7th Ave, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c25b015e09d89f:0xacbaea5e956adece",
+            "iid": 60596,
+            "name": "Katsuei",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550158663001
+        },
+        {
+            "address": "Jongro BBQ, 155-14 Roosevelt Ave, Flushing, NY 11354",
+            "category": "['Korean barbecue restaurant', 'Restaurant']",
+            "date": "2019/02/14",
+            "gmap_id": "0x89c26025cb1b859d:0x95d3b37963a5465e",
+            "iid": 61600,
+            "name": "Jongro BBQ",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1550159423804
+        },
+        {
+            "address": "OKONOMI // YUJI Ramen, 150 Ainslie St, Brooklyn, NY 11211",
+            "category": "['Japanese restaurant', 'Breakfast restaurant', 'Ramen restaurant', 'Seafood restaurant']",
+            "date": "2019/12/11",
+            "gmap_id": "0x89c2595831328cd9:0xfad5f1be4ddd8e13",
+            "iid": 59477,
+            "name": "OKONOMI // YUJI Ramen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1576091100300
+        },
+        {
+            "address": "Zenith, 7002 Fresh Pond Rd, Ridgewood, NY 11385",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "date": "2020/06/26",
+            "gmap_id": "0x89c25c29f0f4fe79:0x650949e95638e6be",
+            "iid": 60944,
+            "name": "Zenith",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1593141209096
+        },
+        {
+            "address": "Nowon, 507 E 6th St, New York, NY 10009",
+            "category": "['Korean restaurant', 'Gastropub']",
+            "date": "2021/03/22",
+            "gmap_id": "0x89c259ac4080178d:0x5f2796bd79da7a9e",
+            "iid": 60076,
+            "name": "Nowon",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1616417989099
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Chen\u2019s Kitchen, 250 Bayville Ave, Bayville, NY 11709",
+            "category": "['Chinese takeaway']",
+            "gmap_id": "0x89c29d6566ab9b2d:0xc1e5126824a22f5f",
+            "iid": 62737,
+            "name": "Chen\u2019s Kitchen",
+            "rank": 1,
+            "score": -2.4218554496765137,
+            "state": "New_York"
+        },
+        {
+            "address": "China King, 170 Forest Ave, Glen Cove, NY 11542",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c2851a30a531a5:0x1c999bd451cb6c9a",
+            "iid": 62406,
+            "name": "China King",
+            "rank": 2,
+            "score": -4.489151477813721,
+            "state": "New_York"
+        },
+        {
+            "address": "Hazuki Sushi Cuisine, 2028, 207 Forest Ave, Glen Cove, NY 11542",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2851a166f5e0b:0x34b1c6ff70dc709b",
+            "iid": 62405,
+            "name": "Hazuki Sushi Cuisine",
+            "rank": 3,
+            "score": -4.595944881439209,
+            "state": "New_York"
+        },
+        {
+            "address": "China Palace, 183 Forest Ave #2020, Glen Cove, NY 11542",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c28510c3edf14d:0xd8b9e2a70e42234b",
+            "iid": 62404,
+            "name": "China Palace",
+            "rank": 4,
+            "score": -4.658991813659668,
+            "state": "New_York"
+        },
+        {
+            "address": "The Pearl of Oyster Bay, 160 Mill River Rd, Oyster Bay, NY 11771",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c28341dc9f283f:0xf888e5531cb4b4af",
+            "iid": 62401,
+            "name": "The Pearl of Oyster Bay",
+            "rank": 5,
+            "score": -4.939023971557617,
+            "state": "New_York"
+        },
+        {
+            "address": "Nikkei of Peru - Oyster Bay, 94 South St, Oyster Bay, NY 11771",
+            "category": "['Fusion restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Peruvian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c283394d6f54a5:0xf261e6d1d9dacfdb",
+            "iid": 62399,
+            "name": "Nikkei of Peru - Oyster Bay",
+            "rank": 6,
+            "score": -5.421501636505127,
+            "state": "New_York"
+        },
+        {
+            "address": "China Gourmet, 334 Lexington Ave, Oyster Bay, NY 11771",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c28315aedbf5b9:0xf32fdbeddd69a25b",
+            "iid": 62397,
+            "name": "China Gourmet",
+            "rank": 7,
+            "score": -5.779928684234619,
+            "state": "New_York"
+        },
+        {
+            "address": "Sweet Mandarin, 18 Cottage Row, Glen Cove, NY 11542",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x89c2857369e99e49:0x3d1a69760f5cc949",
+            "iid": 62408,
+            "name": "Sweet Mandarin",
+            "rank": 8,
+            "score": -5.846224308013916,
+            "state": "New_York"
+        },
+        {
+            "address": "Thaiana, 63 Glen St, Glen Cove, NY 11542",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2850adcee6641:0x93291bda8db41353",
+            "iid": 62403,
+            "name": "Thaiana",
+            "rank": 9,
+            "score": -6.0313401222229,
+            "state": "New_York"
+        },
+        {
+            "address": "Jade Fortune, 36 Glen St ste a, Glen Cove, NY 11542",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c28575344abb95:0x2964aa613d0424ba",
+            "iid": 62409,
+            "name": "Jade Fortune",
+            "rank": 10,
+            "score": -6.119658946990967,
+            "state": "New_York"
+        },
+        {
+            "address": "Sopah Thai Kitchen, 11 Cedar Swamp Rd, Glen Cove, NY 11542",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x89c285a647cb38f5:0x8c1234bf6c6cd134",
+            "iid": 62410,
+            "name": "Sopah Thai Kitchen",
+            "rank": 11,
+            "score": -6.1197309494018555,
+            "state": "New_York"
+        },
+        {
+            "address": "Mid China, 175 Pine Hollow Rd, Oyster Bay, NY 11771",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c2830d46013ac9:0x428b6696f8d208da",
+            "iid": 62396,
+            "name": "Mid China",
+            "rank": 12,
+            "score": -6.186148166656494,
+            "state": "New_York"
+        },
+        {
+            "address": "Zouji Dumpling House, 188 Glen Cove Ave, Glen Cove, NY 11542",
+            "category": "['Restaurant', 'Chinese restaurant', 'Dumpling restaurant']",
+            "gmap_id": "0x89c2851e088e2989:0xdcdc51eca31749f6",
+            "iid": 62407,
+            "name": "Zouji Dumpling House",
+            "rank": 13,
+            "score": -7.48558235168457,
+            "state": "New_York"
+        },
+        {
+            "address": "Sun Ho Chinese Kitchen, 3 McCouns Ln Suit 2, Glen Head, NY 11545",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c285c56f0a8ff3:0x91ab42b1758d6990",
+            "iid": 62412,
+            "name": "Sun Ho Chinese Kitchen",
+            "rank": 14,
+            "score": -8.357097625732422,
+            "state": "New_York"
+        },
+        {
+            "address": "Kiraku Japanese Restaurant, 127 Glen Head Rd, Glen Head, NY 11545",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c285c479bfd839:0x56f9d688e0679885",
+            "iid": 62411,
+            "name": "Kiraku Japanese Restaurant",
+            "rank": 15,
+            "score": -8.496355056762695,
+            "state": "New_York"
+        },
+        {
+            "address": "Sunrise, 683 Glen Cove Ave, Glen Head, NY 11545",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c285dd57705b35:0xd9383f8d6c4838df",
+            "iid": 62413,
+            "name": "Sunrise",
+            "rank": 16,
+            "score": -9.000452995300293,
+            "state": "New_York"
+        },
+        {
+            "address": "Kam Garden Restaurant, 12 Berry Hill Rd, Syosset, NY 11791",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c28248f108c283:0xc3f51bfdd8f50718",
+            "iid": 62395,
+            "name": "Kam Garden Restaurant",
+            "rank": 17,
+            "score": -10.82390022277832,
+            "state": "New_York"
+        },
+        {
+            "address": "Arata Sushi, 18 Cold Spring Rd, Syosset, NY 11791",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2824868b26853:0xe3ecd6deba755bbe",
+            "iid": 62394,
+            "name": "Arata Sushi",
+            "rank": 18,
+            "score": -10.93117904663086,
+            "state": "New_York"
+        },
+        {
+            "address": "Sarin Thai, 43 Glen Cove Rd, Greenvale, NY 11548",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2866d14667c5f:0xf792300cd255c4ba",
+            "iid": 62420,
+            "name": "Sarin Thai",
+            "rank": 19,
+            "score": -11.027853012084961,
+            "state": "New_York"
+        },
+        {
+            "address": "Zou Ji Northeast China Home Style Cuisine, 19 Ira Rd, Syosset, NY 11791",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c283beea4a7d89:0x69f552f189fe37a9",
+            "iid": 62402,
+            "name": "Zou Ji Northeast China Home Style Cuisine",
+            "rank": 20,
+            "score": -11.106264114379883,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Brian Quiban",
+        "uid": 422444,
+        "user_id": 114187155024950400381
+    }
+}

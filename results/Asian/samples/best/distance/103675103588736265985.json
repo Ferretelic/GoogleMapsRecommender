@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Panda Express, 7685 N Blackstone Ave, Fresno, CA 93720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/08/07",
+            "gmap_id": "0x8094681dc5ff5af1:0x1fd48ff19f21d424",
+            "iid": 11841,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470607715598
+        },
+        {
+            "address": "Panda Express, 5347 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/01/05",
+            "gmap_id": "0x8094678ac5c7c31f:0x69c1b1750cfe6c56",
+            "iid": 11824,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1483593659419
+        },
+        {
+            "address": "New City Chinese Cuisine Dim Sum, 1484 E Shaw Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Traditional restaurant']",
+            "date": "2017/04/08",
+            "gmap_id": "0x80945d0c3fdf070f:0xe297e4fae857d423",
+            "iid": 11708,
+            "name": "New City Chinese Cuisine Dim Sum",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1491670753921
+        },
+        {
+            "address": "Grand Star Buffet, 1167 N Cherry St, Tulare, CA 93274",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "date": "2017/08/22",
+            "gmap_id": "0x80952b929cb5249f:0x21fb4a97b7909ff7",
+            "iid": 11919,
+            "name": "Grand Star Buffet",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1503433857292
+        },
+        {
+            "address": "Panda Express, 3698 W Shaw Ave, Fresno, CA 93711",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x809466193f1067bd:0xb2aaffbdc6da743c",
+            "iid": 11793,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552141217760
+        },
+        {
+            "address": "Imperial Garden Restaurant, 6640 N Blackstone Ave, Fresno, CA 93710",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2019/07/30",
+            "gmap_id": "0x8094680005a55b09:0xe0052341cfc4a4d",
+            "iid": 11838,
+            "name": "Imperial Garden Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564455212891
+        },
+        {
+            "address": "Panda Express, 1987 W Clinton Ave, Fresno, CA 93705",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/12/02",
+            "gmap_id": "0x8094671d41967db5:0x11a7a33021e342d2",
+            "iid": 11812,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1575326704310
+        },
+        {
+            "address": "Tokyo Steak House, 6163 1865 Herndon Ave # H, Clovis, CA 93611",
+            "category": "['Teppanyaki restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2020/02/01",
+            "gmap_id": "0x80945b6efa80506d:0x64c5d1f56488a7b2",
+            "iid": 11682,
+            "name": "Tokyo Steak House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580587535584
+        },
+        {
+            "address": "Lee Kitchen, 37357 Ave 12, Madera, CA 93636",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x80946b9b327950d3:0xf7cfb76893117aeb",
+            "iid": 11856,
+            "name": "Lee Kitchen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1582573666163
+        },
+        {
+            "address": "Four Seasons Chinese Restaurant, 342 N Clovis Ave #0300, Clovis, CA 93612",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2020/02/28",
+            "gmap_id": "0x80945c9ee7e5d37f:0x1c79a8c74f64fe7a",
+            "iid": 11702,
+            "name": "Four Seasons Chinese Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1582912202009
+        },
+        {
+            "address": "Panda Express, 2045 E Shields Ave, Fresno, CA 93726",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/03/03",
+            "gmap_id": "0x80945d8a3f99e819:0xae1658550ae922ac",
+            "iid": 11738,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583269061354
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "China Hut Express, 2732 Whitson St, Selma, CA 93662",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8094f019e0c44603:0x3a2364b2fbbf18d6",
+            "iid": 11896,
+            "name": "China Hut Express",
+            "rank": 1,
+            "score": -2.1470305919647217,
+            "state": "California"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 2,
+            "score": -2.2368218898773193,
+            "state": "Texas"
+        },
+        {
+            "address": "Teriyaki Madness, 4944 Thompson Pkwy, Johnstown, CO 80534",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876ead0f3cec845f:0x74325f6894d97d76",
+            "iid": 31644,
+            "name": "Teriyaki Madness",
+            "rank": 3,
+            "score": -2.2436037063598633,
+            "state": "Colorado"
+        },
+        {
+            "address": "Blazing Brute BBQ, 4526 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Sichuan restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Family restaurant']",
+            "gmap_id": "0x8640e78b3e1b6cc3:0x909ee719b86d000d",
+            "iid": 24063,
+            "name": "Blazing Brute BBQ",
+            "rank": 4,
+            "score": -2.2575676441192627,
+            "state": "Texas"
+        },
+        {
+            "address": "Sapporo, 2800 Marina Bay Dr Suite A, League City, TX 77573",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86409d383b20e3db:0x18d9165940c3445a",
+            "iid": 22789,
+            "name": "Sapporo",
+            "rank": 5,
+            "score": -2.2580106258392334,
+            "state": "Texas"
+        },
+        {
+            "address": "Lucky House, 22 Central St, Peabody, MA 01960",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89e313b4b6747579:0x7d4ce6b1cb30fea7",
+            "iid": 69131,
+            "name": "Lucky House",
+            "rank": 6,
+            "score": -2.258413791656494,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "UDOM Khmer Restaurant, 1223 E Anaheim St, Long Beach, CA 90813",
+            "category": "['Event venue', 'Cambodian restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd31c430139813:0xdd61bd6b42373794",
+            "iid": 20909,
+            "name": "UDOM Khmer Restaurant",
+            "rank": 7,
+            "score": -2.2593300342559814,
+            "state": "California"
+        },
+        {
+            "address": "Q One Teriyaki & Sushi Express, 569 N State St, Lindon, UT 84042",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x874d85be085328a1:0x2f5b4e6312d4ebef",
+            "iid": 29998,
+            "name": "Q One Teriyaki & Sushi Express",
+            "rank": 8,
+            "score": -2.2639801502227783,
+            "state": "Utah"
+        },
+        {
+            "address": "Pho Yummy, 1731 Quentin Rd, Lebanon, PA 17042",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c61d9af5b9c64d:0x89f91b661505d84e",
+            "iid": 65416,
+            "name": "Pho Yummy",
+            "rank": 9,
+            "score": -2.2664637565612793,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "9style ramen, 2017 S El Camino Real, San Clemente, CA 92672",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80dcf5d46ec4338d:0x19f529ccc124ed58",
+            "iid": 20010,
+            "name": "9style ramen",
+            "rank": 10,
+            "score": -2.267087697982788,
+            "state": "California"
+        },
+        {
+            "address": "sichuan garden, 2347 NW Military Hwy, San Antonio, TX 78231",
+            "category": "['Sichuan restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865c6162ec1c3cf9:0xa91320ba029fdfc5",
+            "iid": 27324,
+            "name": "sichuan garden",
+            "rank": 11,
+            "score": -2.2679688930511475,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho King Vietnamese Cuisine, 3608 Market St, Camp Hill, PA 17011",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c8c3400e3736cf:0x4e66c59db6f054db",
+            "iid": 67424,
+            "name": "Pho King Vietnamese Cuisine",
+            "rank": 12,
+            "score": -2.268620014190674,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bombay Bazaar Springfield, 1915 S Glenstone Ave, Springfield, MO 65804",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x87cf633a43c479a7:0xe58332b2e9c4f60e",
+            "iid": 33583,
+            "name": "Bombay Bazaar Springfield",
+            "rank": 13,
+            "score": -2.268643379211426,
+            "state": "Missouri"
+        },
+        {
+            "address": "Rice N Curry, 601 S 3rd St Suite B C, Renton, WA 98057",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x549043a103bc9edd:0xbb2b0b4d1c16cdf8",
+            "iid": 2393,
+            "name": "Rice N Curry",
+            "rank": 14,
+            "score": -2.269943952560425,
+            "state": "Washington"
+        },
+        {
+            "address": "ChiMcKing Chicken & Beer, 1022 N Marshall St, Philadelphia, PA 19123",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c6c8712288e003:0xffa29b8b6fd9df65",
+            "iid": 66343,
+            "name": "ChiMcKing Chicken & Beer",
+            "rank": 15,
+            "score": -2.2712981700897217,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "F&F Japanese Grill, 1505 Texas Ave S Ste B, College Station, TX 77840",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86468578955ddeef:0x9e3d190cfa89a2e3",
+            "iid": 24796,
+            "name": "F&F Japanese Grill",
+            "rank": 16,
+            "score": -2.2714993953704834,
+            "state": "Texas"
+        },
+        {
+            "address": "Z&T Chinese Cafe, 3030 Falcon Landing Blvd, Katy, TX 77494",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x864121e6b6c80e17:0x5dd8139d8138404a",
+            "iid": 24163,
+            "name": "Z&T Chinese Cafe",
+            "rank": 17,
+            "score": -2.2721900939941406,
+            "state": "Texas"
+        },
+        {
+            "address": "Momo Korean Restaurant, 2761 Briargate Blvd, Colorado Springs, CO 80920",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x87134fdfd01c0bd9:0x8519f74ee6428054",
+            "iid": 28474,
+            "name": "Momo Korean Restaurant",
+            "rank": 18,
+            "score": -2.2724335193634033,
+            "state": "Colorado"
+        },
+        {
+            "address": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762, 1428 S Azusa Ave Suite B, West Covina, CA 91791",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x80c329e30a7791d3:0x56b9c0215ff24bd0",
+            "iid": 16259,
+            "name": "LAN NOODLE\u5170\u5dde\u725b\u8089\u62c9\u9762",
+            "rank": 19,
+            "score": -2.2728617191314697,
+            "state": "California"
+        },
+        {
+            "address": "Gogi 92, 1602 Village Market Blvd SE, Leesburg, VA 20175",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89b63dfa5ba73ca9:0x4363f8250bc51ac2",
+            "iid": 55232,
+            "name": "Gogi 92",
+            "rank": 20,
+            "score": -2.2739815711975098,
+            "state": "Virginia"
+        }
+    ],
+    "user": {
+        "name": "Felix G. Angulo",
+        "uid": 109558,
+        "user_id": 103675103588736265985
+    }
+}

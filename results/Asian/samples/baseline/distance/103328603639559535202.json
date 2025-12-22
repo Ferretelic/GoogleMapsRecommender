@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Makoto Japanese Steak House, 297 NJ-72, Manahawkin, NJ 08050, United States",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/10/30",
+            "gmap_id": "0x89c1064a0c0f7829:0x52807753e79c9def",
+            "iid": 57723,
+            "name": "Makoto Japanese Steak House",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1477793615721
+        },
+        {
+            "address": "Harvest Buffet, 501 U.S. 9, Waretown, NJ 08758",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "date": "2017/07/04",
+            "gmap_id": "0x89c10a0435fc2a21:0x2cd4f9e0a4bee8d5",
+            "iid": 57729,
+            "name": "Harvest Buffet",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1499175164830
+        },
+        {
+            "address": "Xina Restaurant, 3430 NJ-37, Toms River, NJ 08753",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Oyster bar restaurant', 'Sushi restaurant']",
+            "date": "2017/07/17",
+            "gmap_id": "0x89c19bf05a96636d:0x3a47da5f563250f4",
+            "iid": 57986,
+            "name": "Xina Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1500295765183
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi, 26 Union Ave, Lakehurst, NJ 08733",
+            "category": "['Chinese restaurant', 'Kyoto style Japanese restaurant', 'Restaurant']",
+            "date": "2017/12/13",
+            "gmap_id": "0x89c1772ccd9904b5:0x2c63200c7e31897b",
+            "iid": 57939,
+            "name": "Tokyo Sushi & Hibachi",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1513173993334
+        },
+        {
+            "address": "Namaste JALSA, 1504 King St, Alexandria, VA 22314",
+            "category": "['Indian restaurant', 'Bar', 'Nepalese restaurant']",
+            "date": "2017/12/28",
+            "gmap_id": "0x89b7b0fff9244c67:0x500fcca4be7704af",
+            "iid": 55997,
+            "name": "Namaste JALSA",
+            "split": "train",
+            "state": "Virginia",
+            "unix_time": 1514428159761
+        },
+        {
+            "address": "Li's Garden, 700 NJ-70, Lakewood, NJ 08701",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/01/22",
+            "gmap_id": "0x89c182eaef1009bd:0x9ff6185673edbea1",
+            "iid": 57957,
+            "name": "Li's Garden",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1516587157172
+        },
+        {
+            "address": "P.F. Chang's, 3710 U.S. 9 Ste 2817, Freehold Township, NJ 07728",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x89c3d5750027851f:0x25716ea4ac2e93e8",
+            "iid": 64950,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1523322743645
+        },
+        {
+            "address": "Tan's Garden Chinese Restaurant, 297 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Chinese restaurant']",
+            "date": "2018/11/16",
+            "gmap_id": "0x89c10635e8dfc0b9:0x9bd10f8a6d1e4f5f",
+            "iid": 57722,
+            "name": "Tan's Garden Chinese Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1542391380503
+        },
+        {
+            "address": "Fuji72 Hibachi & Sushi (Manahawkin), 626 NJ-72, Manahawkin, NJ 08050",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/01/29",
+            "gmap_id": "0x89c10791bef2ca9d:0x95f5ba933b50770a",
+            "iid": 57725,
+            "name": "Fuji72 Hibachi & Sushi (Manahawkin)",
+            "split": "valid",
+            "state": "New_Jersey",
+            "unix_time": 1548727032034
+        },
+        {
+            "address": "Golden Gate Express, 1851 NJ-35, Seaside Heights, NJ 08751",
+            "category": "['Chinese restaurant']",
+            "date": "2021/01/26",
+            "gmap_id": "0x89c19a4c9743b777:0xc6ac9b7a3ed578b9",
+            "iid": 57985,
+            "name": "Golden Gate Express",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1611666820695
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Good Taste for Chinese food, 1980 NJ-37, Manchester Township, NJ 08759",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c177b79c455751:0xd43a576126b37304",
+            "iid": 57940,
+            "name": "Good Taste for Chinese food",
+            "rank": 1,
+            "score": -1.7719345092773438,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Shanghai House Restaurant, 28 E Maryland Ave, Somers Point, NJ 08244",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c0ea7e345ea51b:0xe7fb58d9e8b522e0",
+            "iid": 57694,
+            "name": "Shanghai House Restaurant",
+            "rank": 2,
+            "score": -2.158729076385498,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Hunan Wok Kitchen, 2010 W County Line Rd, Jackson Township, NJ 08527",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c17f2bb49a5969:0xd8bad44553f0730f",
+            "iid": 57945,
+            "name": "Hunan Wok Kitchen",
+            "rank": 3,
+            "score": -2.28836727142334,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Five Star Chinese Restaurant, 1580 Lakewood Rd #9, Toms River, NJ 08755",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c19d622a7e8747:0x5565ac69633bcab2",
+            "iid": 57994,
+            "name": "Five Star Chinese Restaurant",
+            "rank": 4,
+            "score": -2.4056825637817383,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Chen's Asian Bistro, 3338 U.S. 9, Freehold Township, NJ 07728",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Authentic Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89c3d5cbd2acac5f:0x402a166ced691c64",
+            "iid": 64953,
+            "name": "Chen's Asian Bistro",
+            "rank": 5,
+            "score": -2.4368369579315186,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Howell Kitchen, Howell Plaza, 4130 US-9 S, Howell Township, NJ 07731",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c17f780f2bf7a1:0x2300e69eb6036146",
+            "iid": 57948,
+            "name": "Howell Kitchen",
+            "rank": 6,
+            "score": -2.5010550022125244,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Great Wall Chinese Food, 212 Atlantic City Blvd, Pine Beach, NJ 08741",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c19e66a618ac75:0x1cc394e981730309",
+            "iid": 58002,
+            "name": "Great Wall Chinese Food",
+            "rank": 7,
+            "score": -2.506214141845703,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Yumi Sushi Red Bank, 9 Broad St, Red Bank, NJ 07701",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Modern izakaya restaurants', 'Pan-Asian restaurant']",
+            "gmap_id": "0x89c231188f91ffb5:0xd4d93430e7ae26f1",
+            "iid": 58054,
+            "name": "Yumi Sushi Red Bank",
+            "rank": 8,
+            "score": -2.5143237113952637,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Great Wok, 662 NJ-70, Lakehurst, NJ 08733",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c170da23099f43:0xf7b26375a02c5c5e",
+            "iid": 57933,
+            "name": "Great Wok",
+            "rank": 9,
+            "score": -2.5387656688690186,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "New Beijing House Chinese Restaurant, 6167 Harding Hwy, Mays Landing, NJ 08330",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c0c53af602cb7f:0xfec0a960733fbdbd",
+            "iid": 57652,
+            "name": "New Beijing House Chinese Restaurant",
+            "rank": 10,
+            "score": -2.559685468673706,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "PHO\u2022NOM1NAL, 319 S Cedar Crest Blvd, Allentown, PA 18103",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c43b5a62834ecd:0xe9fcca1cc3f76da8",
+            "iid": 65176,
+            "name": "PHO\u2022NOM1NAL",
+            "rank": 11,
+            "score": -2.567896604537964,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "China Town, 340 U.S. 9, Bayville, NJ 08721",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c19e642ede3bf3:0x82d66459016562aa",
+            "iid": 58001,
+            "name": "China Town",
+            "rank": 12,
+            "score": -2.5913994312286377,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Paprikas, 110 Imperial Plaza Dr, Imperial, PA 15126",
+            "category": "['Indian restaurant', 'American restaurant', 'Italian restaurant', 'Pizza restaurant']",
+            "gmap_id": "0x88345b247acb4a49:0x9bbac62ce4c89198",
+            "iid": 40181,
+            "name": "Paprikas",
+            "rank": 13,
+            "score": -2.6095919609069824,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Freedom Food 2Go, 5042 Mobile Hwy, Pensacola, FL 32506",
+            "category": "['Takeout Restaurant', 'Filipino restaurant']",
+            "gmap_id": "0x8890bf6a99691183:0x2897e015e8994539",
+            "iid": 46352,
+            "name": "Freedom Food 2Go",
+            "rank": 14,
+            "score": -2.611085891723633,
+            "state": "Florida"
+        },
+        {
+            "address": "ChoSun Hwaro, 9445 Baltimore National Pike, Ellicott City, MD 21042",
+            "category": "['Korean beef restaurant']",
+            "gmap_id": "0x89c821dc5e14fd37:0x32aa7421dc71dbb1",
+            "iid": 67263,
+            "name": "ChoSun Hwaro",
+            "rank": 15,
+            "score": -2.6169793605804443,
+            "state": "Maryland"
+        },
+        {
+            "address": "FUSIAN, 7721 Sawmill Rd, Dublin, OH 43016",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8838ed1769136129:0xde34c0370308822b",
+            "iid": 40925,
+            "name": "FUSIAN",
+            "rank": 16,
+            "score": -2.6244356632232666,
+            "state": "Ohio"
+        },
+        {
+            "address": "Best Food In Town, 399 Dover Rd, Toms River, NJ 08757",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c175a94b624e11:0xa9ec881e88525270",
+            "iid": 57936,
+            "name": "Best Food In Town",
+            "rank": 17,
+            "score": -2.6360559463500977,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Fuji Express, 401 W Mills St, Columbus, NC 28722",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8857616522374bb5:0x736ee474246af902",
+            "iid": 43445,
+            "name": "Fuji Express",
+            "rank": 18,
+            "score": -2.636699914932251,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Fresh Vietnamese Bistro & Teahouse, 3840 Promenade Pkwy STE A, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889c0d9661e03b47:0xeb5e97144e7bada9",
+            "iid": 46727,
+            "name": "Fresh Vietnamese Bistro & Teahouse",
+            "rank": 19,
+            "score": -2.6377151012420654,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Wing Wok, 7530 S University Blvd, Littleton, CO 80122",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x876c830f3242a585:0xbf314a775cdf84df",
+            "iid": 31429,
+            "name": "Wing Wok",
+            "rank": 20,
+            "score": -2.637890100479126,
+            "state": "Colorado"
+        }
+    ],
+    "user": {
+        "name": "Jerry Thompson",
+        "uid": 99104,
+        "user_id": 103328603639559535202
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Cha-Am, 153 Plaza Dr #107, Vallejo, CA 94591",
+            "category": "['Thai restaurant']",
+            "date": "2016/05/23",
+            "gmap_id": "0x808572d5961d0141:0x104fb9da48fc825e",
+            "iid": 7144,
+            "name": "Cha-Am",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1463971317774
+        },
+        {
+            "address": "Mandarin Restaurant and Lounge, 219 Texas St C, Fairfield, CA 94533",
+            "category": "['Chinese restaurant']",
+            "date": "2017/04/17",
+            "gmap_id": "0x808515b5a84f29fb:0xa5d87007b93c437d",
+            "iid": 6861,
+            "name": "Mandarin Restaurant and Lounge",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492404599054
+        },
+        {
+            "address": "China Wok, 512 Sacramento St, Vallejo, CA 94590",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Brazilian restaurant', 'Caterer']",
+            "date": "2017/04/17",
+            "gmap_id": "0x808573643d47073b:0x615b0ec8bc3072f9",
+            "iid": 7170,
+            "name": "China Wok",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492405511079
+        },
+        {
+            "address": "Sticky Rice Chinese Bistro & Bar, 5030 Business Center Dr, Fairfield, CA 94534",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2017/12/03",
+            "gmap_id": "0x8085124785dc8ccd:0x6a0935a626576e9b",
+            "iid": 6845,
+            "name": "Sticky Rice Chinese Bistro & Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1512269412760
+        },
+        {
+            "address": "C J FUSION, 201 Travis Blvd, Fairfield, CA 94533",
+            "category": "['Chinese restaurant']",
+            "date": "2018/09/07",
+            "gmap_id": "0x808515cc53f20f17:0xd7c51a681ae98eb6",
+            "iid": 6866,
+            "name": "C J FUSION",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1536296920494
+        },
+        {
+            "address": "PHO#1 Noodle House, 3885 Sonoma Blvd, Vallejo, CA 94590",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/03/09",
+            "gmap_id": "0x8085735268d0a2e7:0x122d343d99af9be",
+            "iid": 7168,
+            "name": "PHO#1 Noodle House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1552151492077
+        },
+        {
+            "address": "J's Garden Restaurant, 134 Robles Way, Vallejo, CA 94591",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/31",
+            "gmap_id": "0x808572482980e439:0xe62878f7a910448f",
+            "iid": 7143,
+            "name": "J's Garden Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1559319125102
+        },
+        {
+            "address": "Golden Phoenix, 254-B Sunset Ave, Suisun City, CA 94585",
+            "category": "['Chinese restaurant', 'Mandarin restaurant']",
+            "date": "2019/10/21",
+            "gmap_id": "0x808515a4b7e56e6f:0x50fb475e6c59b0f4",
+            "iid": 6859,
+            "name": "Golden Phoenix",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1571623299310
+        },
+        {
+            "address": "Kumruenthai Restaurant, 1500 Oliver Rd Suite L, Fairfield, CA 94534",
+            "category": "['Thai restaurant']",
+            "date": "2019/11/18",
+            "gmap_id": "0x8085178c9468a289:0x63f60dc0108d5834",
+            "iid": 6879,
+            "name": "Kumruenthai Restaurant",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1574047697639
+        },
+        {
+            "address": "Japanese Blossoms, 2995 Esplanade #104, Chico, CA 95973",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x8082d8926e356663:0x421bfabc1a7a2abe",
+            "iid": 6624,
+            "name": "Japanese Blossoms",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1578805130194
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "The Loft Thai & Sushi Bar, 8308 Bennington Ct, Vallejo, CA 94591",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80850d5ab16c446b:0x75e0196e4ef3f78b",
+            "iid": 6840,
+            "name": "The Loft Thai & Sushi Bar",
+            "rank": 1,
+            "score": -3.9200809001922607,
+            "state": "California"
+        },
+        {
+            "address": "Sushi King, 5089 Business Center Dr #106, Fairfield, CA 94534",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x80851246544a2a6b:0xde902a8a61f6a04",
+            "iid": 6843,
+            "name": "Sushi King",
+            "rank": 2,
+            "score": -4.300192832946777,
+            "state": "California"
+        },
+        {
+            "address": "Palm Thai Bistro, 5089 Business Center Dr #105, Fairfield, CA 94534",
+            "category": "['Thai restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x808512465442fedd:0xa05f6b23fec23af",
+            "iid": 6842,
+            "name": "Palm Thai Bistro",
+            "rank": 3,
+            "score": -4.303127765655518,
+            "state": "California"
+        },
+        {
+            "address": "Happy Garden, 5055 Business Center Dr #106, Fairfield, CA 94534",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80851246333b0625:0x88b56b96149c4ff5",
+            "iid": 6841,
+            "name": "Happy Garden",
+            "rank": 4,
+            "score": -4.389583587646484,
+            "state": "California"
+        },
+        {
+            "address": "Chaats Cuisine, 5085 Business Center Dr #100, Fairfield, CA 94534",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808512470beed879:0xd22525dd77f04d84",
+            "iid": 6844,
+            "name": "Chaats Cuisine",
+            "rank": 5,
+            "score": -4.390037536621094,
+            "state": "California"
+        },
+        {
+            "address": "Suruki's, 145 Plaza Dr #201, Vallejo, CA 94591",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Grill store', 'Authentic Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808572d5edd6532f:0xc7791986e121e73",
+            "iid": 7145,
+            "name": "Suruki's",
+            "rank": 6,
+            "score": -7.913053035736084,
+            "state": "California"
+        },
+        {
+            "address": "Princess Garden, 960 Admiral Callaghan Ln, Vallejo, CA 94591",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8085732bc4f956c1:0xc8e461338c318bc4",
+            "iid": 7157,
+            "name": "Princess Garden",
+            "rank": 7,
+            "score": -8.037702560424805,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 972 Admiral Callaghan Ln, Vallejo, CA 94591",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8085732a23799597:0xa77a784ce4ed2430",
+            "iid": 7156,
+            "name": "Panda Express",
+            "rank": 8,
+            "score": -8.17176628112793,
+            "state": "California"
+        },
+        {
+            "address": "Taj Grill, 758 Admiral Callaghan Ln, Vallejo, CA 94591",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80857325990bfd8f:0x8a039beb487f4802",
+            "iid": 7155,
+            "name": "Taj Grill",
+            "rank": 9,
+            "score": -9.074372291564941,
+            "state": "California"
+        },
+        {
+            "address": "Annie's Panda Garden, 320 Fairgrounds Dr, Vallejo, CA 94589",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808573de7551c223:0x1c43722965759923",
+            "iid": 7176,
+            "name": "Annie's Panda Garden",
+            "rank": 10,
+            "score": -9.15422248840332,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 5075 Main St, American Canyon, CA 94503",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80850c6df19c1fc5:0xd7d7267cd056b89",
+            "iid": 6836,
+            "name": "Panda Express",
+            "rank": 11,
+            "score": -9.316245079040527,
+            "state": "California"
+        },
+        {
+            "address": "Thai Kitchen, 3425 Broadway, American Canyon, CA 94503",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80850c6345a0c66b:0x82c3493105705668",
+            "iid": 6835,
+            "name": "Thai Kitchen",
+            "rank": 12,
+            "score": -9.339110374450684,
+            "state": "California"
+        },
+        {
+            "address": "All Spice, 100 W American Canyon Rd, American Canyon, CA 94503",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80850c7d379dc09f:0x10d1f0207d37c3e9",
+            "iid": 6837,
+            "name": "All Spice",
+            "rank": 13,
+            "score": -9.402019500732422,
+            "state": "California"
+        },
+        {
+            "address": "LV Ph\u1edf | Vietnamese & Chinese Restaurant, 2621 Springs Rd, Vallejo, CA 94591",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x808572f79b91d943:0xb018ba72494b1f7f",
+            "iid": 7146,
+            "name": "LV Ph\u1edf | Vietnamese & Chinese Restaurant",
+            "rank": 14,
+            "score": -9.581576347351074,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf H\u01b0\u01a1ng Vi\u1ec7t, 5201 Sonoma Blvd #37, Vallejo, CA 94589",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x80850c9a9eda8f4b:0x5b9a78d79ed0e6f3",
+            "iid": 6838,
+            "name": "Ph\u1edf H\u01b0\u01a1ng Vi\u1ec7t",
+            "rank": 15,
+            "score": -9.647908210754395,
+            "state": "California"
+        },
+        {
+            "address": "Cabalen, 5201 Sonoma Blvd #3, Vallejo, CA 94589",
+            "category": "['Filipino restaurant', 'Bakery']",
+            "gmap_id": "0x80850c9a9ee83117:0x348901be629128c3",
+            "iid": 6839,
+            "name": "Cabalen",
+            "rank": 16,
+            "score": -9.762402534484863,
+            "state": "California"
+        },
+        {
+            "address": "Ph\u1edf Lee H\u00f2a Ph\u00e1t 3 | Vietamese, 102 Springstowne Center, Vallejo, CA 94591",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x808572febbfb3b5b:0x62f13ee033327626",
+            "iid": 7150,
+            "name": "Ph\u1edf Lee H\u00f2a Ph\u00e1t 3 | Vietamese",
+            "rank": 17,
+            "score": -9.973687171936035,
+            "state": "California"
+        },
+        {
+            "address": "Combo Express, 42 Springstowne Center, Vallejo, CA 94591",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808572fe9771c385:0x80c0f8521fa04ed0",
+            "iid": 7149,
+            "name": "Combo Express",
+            "rank": 18,
+            "score": -10.080198287963867,
+            "state": "California"
+        },
+        {
+            "address": "Ihaw Ihaw Restaurant, 40 Springstowne Center, Vallejo, CA 94591",
+            "category": "['Filipino restaurant', 'Restaurant']",
+            "gmap_id": "0x808572feebba6529:0xb09ba2d9566a6c28",
+            "iid": 7151,
+            "name": "Ihaw Ihaw Restaurant",
+            "rank": 19,
+            "score": -10.08199405670166,
+            "state": "California"
+        },
+        {
+            "address": "Island Pacific Seafood Market, 2110 Springs Rd UNIT 24, Vallejo, CA 94591",
+            "category": "['Asian grocery store', 'Caterer', 'Filipino restaurant', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x808572fdcc411803:0x1b01a6e7a86ecabb",
+            "iid": 7147,
+            "name": "Island Pacific Seafood Market",
+            "rank": 20,
+            "score": -10.105965614318848,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "M.j. DeCaires",
+        "uid": 22772,
+        "user_id": 100765198609237421820
+    }
+}
