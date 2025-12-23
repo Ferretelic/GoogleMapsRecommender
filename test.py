@@ -18,6 +18,9 @@ def load_models(cfg):
         models.append(OmegaConf.to_container(model_info, resolve=True))
 
     for model_info in cfg.embeddings:
+        if not os.path.exists(f"{cfg.paths.embedding}/{model_info.model}.pt"):
+            continue
+
         models.append(OmegaConf.to_container(model_info, resolve=True))
 
     return models

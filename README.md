@@ -116,7 +116,7 @@ $$
 These final embeddings $\mathbf{e}_u^*$ and $\mathbf{e}_i^*$ are used to compute the prediction score via the inner product.
 
 ### 3.4 Layer Weighting
-In our naive model, we take the average of embeddings from different layers. However, as the number of layer increases, the embeddings may become over-smoothed and lose specific information about the original user or business. Therefore, we applied the decaying weighting for layer embedding as follows:
+In our naive model, we take the average of embeddings from different layers. However, as the number of layers increases, the embeddings may become over-smoothed and lose specific information about the original user or business. Therefore, we applied the decaying weighting for layer embedding as follows:
 
 $$
 \mathbf{e}_u^* = \sum_{k=0}^K w_k\mathbf{e}_u^{(k)}, \quad
@@ -432,10 +432,10 @@ Then you can run all the testings as follows
 python test.py dataset=[category]
 ```
 
-If you want to add new user, you can modify `new_user` as `True` in `./config/test.yaml` and the program would allow you to create a new user with a list of `gmap_id`.
+If you want to add a new user, you can modify `new_user` as `True` in `./config/test.yaml` and the program would allow you to create a new user with a list of `gmap_id`.
 
 ### 8.3. Customization
-To custom your own recommender system you have to define category or domain of your recommender system. You can add a new config file in `./configs/dataset/[your own category name].yaml`.
+To customize your own recommender system you have to define the category or domain of your recommender system. You can add a new config file in `./configs/dataset/[your own category name].yaml`.
 
 ``` yaml
 min_num_reviews: 5
@@ -451,11 +451,11 @@ review_keys: [gmap_id, user_id, name, time, rating]
 
 For a larger dataset like `Asian`, it would require huge GPU memory (32GB) and long training time (10 hours). Therefore, it is recommended to specify your domain very specific or choose only states you are interested.
 
-* `min_num_reviews` is how many reviews you want all users and businesses to have. If you use larger value, then you can get dense interecations but smaller user and business size. If you use small value, then you would get sparse interactions and larger user and business size.
+* `min_num_reviews` is how many reviews you want all users and businesses to have. If you use larger value, then you can get dense interactions but smaller user and business size. If you use small value, then you would get sparse interactions and larger user and business size.
 * `min_rating` is how you define positive interaction.
 * `category` is the name of category (every directory would be named after this).
-* `category_list` (optional) is a list of category keyword for filtering businesses. If you do not specify this, only `category` would be used for filtering.
-* `states` (optional) is a list of states you want to filter dataset. If you do not specify this value, then all states would be added to your dataset.
+* `category_list` (optional) is a list of category keywords for filtering businesses. If you do not specify this, only `category` would be used for filtering.
+* `states` (optional) is a list of states you want to filter the dataset. If you do not specify this value, then all states would be added to your dataset.
 
 Then you can create your custom dataset with following command:
 ``` bash
