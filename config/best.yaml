@@ -15,6 +15,9 @@ training:
   gcl_eps: 0.1
   gcl_temp: 0.2
 
+  mix_alpha: 0.6
+  mix_n_candidates: 32
+
 evaluation:
   batch_size: 1024
   rank: 20
