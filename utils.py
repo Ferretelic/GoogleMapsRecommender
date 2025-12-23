@@ -39,7 +39,9 @@ def check_process_complete(cfg):
     if not os.path.exists(cfg.paths.review) or not os.path.exists(cfg.paths.meta):
         return False
 
-    num_states = len(load_states(cfg.paths.dataset))
+
+    states = cfg.dataset.get("states", load_states(cfg.paths.dataset))
+    num_states = len(states)
     num_review_files = len(os.listdir(cfg.paths.review))
     num_meta_files = len(os.listdir(cfg.paths.meta))
 
