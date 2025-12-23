@@ -60,6 +60,8 @@ def get_gmap2category_mappings(cfg, gmap_ids):
                         gmap2category[gmap_id] = ("Panda Express", 1)
                     else:
                         gmap2category[gmap_id] = ("Other", 0)
+                else:
+                    gmap2category[gmap_id] = ("Other", 0)
 
         elif category == "popularity":
             for gmap_id, num_reviews in meta[["gmap_id", "num_of_reviews"]].values:
