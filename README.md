@@ -381,6 +381,72 @@ For the trained LightGCN model, we evaluated four different strategies to comput
     $$\mathbf{e}_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
     where $\mathcal{H}_u$ is the user's history in the training set.
 
+The table below is the summarization of results on `Cafe` test dataset:
+
+| name                         | type     | model      | recall                | ndcg                  | novelty            | diversity            | coverage            | gini                | pop_correlation     | kl_divergence      | head_prr               | tail_prr            |
+|------------------------------|----------|------------|-----------------------|-----------------------|--------------------|----------------------|---------------------|---------------------|---------------------|--------------------|------------------------|---------------------|
+| KNN (Centroid)               | centroid | knn        | 0.08070443885139      | 0.029965223108823023  | 14.419039667095072 | 0.0                  | 0.9998515439429929  | 0.39587843415663915 | 0.09091628611771052 | 0.7531611742526634 | 0.40649700718722825    | 1.772443624089647   |
+| KNN (Latest)                 | latest   | knn        | 0.1108282805171033    | 0.04355408529254955   | 14.467154415936301 | 0.0                  | 0.9996288598574822  | 0.29169240893237386 | 0.07134084986109962 | 0.6339756057918315 | 0.3856880797898012     | 1.7995264248285432  |
+| Popularity (Centroid)        | centroid | popularity | 0.11950148724402242   | 0.04832591542185483   | 11.57775077206134  | 0.0                  | 0.7690766033254157  | 0.8630563202215322  | 0.940913985878973   | 1.4520567751664126 | 1.548638119373491      | 0.28594796930320066 |
+| Popularity (Latest)          | latest   | popularity | 0.14672949319299852   | 0.061056935968263074  | 12.121524536529162 | 0.0                  | 0.7789489311163895  | 0.769174565524013   | 0.8679576644490701  | 1.3176151400421308 | 1.321146567354954      | 0.5820280245328658  |
+| LightGCN Baseline (Dot)      | dot      | baseline   | 0.1988545360942684    | 0.08314586998843561   | 12.4183335855642   | 0.46751039140817163  | 0.7181561757719715  | 0.7441993335344621  | 0.9582693276804775  | 1.2281133589318654 | 1.3138743482496038     | 0.5914928113139541  |
+| LightGCN Baseline (Cosine)   | cosine   | baseline   | 0.1624671090264272    | 0.0657383988587392    | 13.881335798886568 | 0.42881123117609027  | 1.0                 | 0.3555411638321371  | 0.7098025369817464  | 0.3182159054950106 | 0.5804973194663242     | 1.5459823704191116  |
+| LightGCN Baseline (Distance) | distance | baseline   | 0.0036251573046562177 | 0.0018379189980157681 | 2.212691702468223  | 0.1729499873955699   | 0.2958729216152019  | 0.9905502319904002  | -0.7294331759286627 | 27.663992870522605 | 1.7031520707479387e-13 | 2.301499122066252   |
+| LightGCN Baseline (Fold)     | fold     | baseline   | 0.21469225489074475   | 0.08989441411579911   | 12.23348606218732  | 0.42025027271266824  | 0.6097832541567696  | 0.806226859681733   | 0.9326051049258013  | 2.3827897589711813 | 1.4448014768300366     | 0.42109126841183664 |
+| LightGCN Best (Dot)          | dot      | best       | 0.25149439423406933   | 0.10918329371286661   | 12.748088433287384 | 0.6963094535210547   | 0.8373663895486936  | 0.6684359483425062  | 0.899782029450418   | 0.8059163385664677 | 1.121121029335543      | 0.8423610866560036  |
+| LightGCN Best (Cosine)       | cosine   | best       | 0.21830311177210845   | 0.09075475605767204   | 14.10885110727956  | 0.6496916935572348   | 0.9930225653206651  | 0.34004320523879195 | 0.5075813849532154  | 0.4680108823355562 | 0.5305881360122796     | 1.6109391288676052  |
+| LightGCN Best (Distance)     | distance | best       | 0.003753861114288983  | 0.002245046955911707  | 0.2493391745751124 | 0.057068560301009666 | 0.23960807600950118 | 0.995697216097365   | -0.6680823936109712 | 28.05134595183703  | 1.7031520707479387e-13 | 2.301499122066252   |
+| LightGCN Best (Fold)         | fold     | best       | 0.2536895092094726    | 0.10962693974808782   | 12.64764133396928  | 0.68095142952352     | 0.7907511876484561  | 0.702836252990351   | 0.8907573950063261  | 1.1427515180579535 | 1.1849456100535938     | 0.7592934508851997  |
+
+![test_performances](./results/Cafe/test_performances.png)
+
+*You can see more details in `./results/[category]/test_performances.csv` or `./results/[category]/test_performances.png`*
+
+Here is a sample of recommended businesses for a user in the dataset with `best` model trained with `Japanese` dataset whose scores are caculated with `fold` method:
+
+```
+================================================================================
+Recommendations for user S. Toro with LightGCN Best (Fold)
+  History
+    [11272] [Illinois       ] Furious Spoon Logan Square
+    [ 7309] [Texas          ] JINYA Ramen Bar - NASA
+    [10908] [Illinois       ] Furious Spoon Pilsen
+    [10886] [Illinois       ] Sushi Sai
+    [ 7460] [Texas          ] AGU Ramen - Washington Avenue
+    [ 7363] [Texas          ] JINYA Ramen Bar - Houston Mid Town
+    [ 7360] [Texas          ] Osaka
+    [ 7462] [Texas          ] Samurai Noodle - Heights
+    [11347] [Illinois       ] Furious Spoon Wicker Park
+    [10872] [Illinois       ] Slurping Turtle
+    [ 7379] [Texas          ] Ramen Tatsu-ya
+    [ 7400] [Texas          ] Tamashi
+--------------------------------------------------------------------------------
+  Recommendations
+    [11275]  1 [Illinois       ] Ramen Wasabi | 5.515
+    [ 7379]  2 [Texas          ] Ramen Tatsu-ya | 5.093
+    [ 7350]  3 [Texas          ] Gyu-Kaku Japanese BBQ | 4.968
+    [10848]  4 [Illinois       ] Strings Ramen Shop | 4.708
+    [ 7381]  5 [Texas          ] Ninja Ramen | 4.676
+    [ 7421]  6 [Texas          ] Tiger Den | 4.580
+    [ 7362]  7 [Texas          ] Kura Revolving Sushi Bar | 4.416
+    [11346]  8 [Illinois       ] Kizuki Ramen & Izakaya | 4.368
+    [10873]  9 [Illinois       ] RAMEN-SAN | 4.323
+    [ 7391] 10 [Texas          ] Oishii | 4.307
+    [ 7364] 11 [Texas          ] Ono Poke | 4.149
+    [ 7463] 12 [Texas          ] Pokeworks | 4.013
+    [11350] 13 [Illinois       ] Sushi Taku - Wicker Park | 3.992
+    [11342] 14 [Illinois       ] Sushi Para M | 3.844
+    [11345] 15 [Illinois       ] Oiistar | 3.794
+    [10904] 16 [Illinois       ] High Five Ramen | 3.747
+    [ 7351] 17 [Texas          ] Izakaya | 3.731
+    [ 7382] 18 [Texas          ] Miyako | 3.702
+    [ 7384] 19 [Texas          ] Aka Sushi House | 3.655
+    [10855] 20 [Illinois       ] Umai | 3.573
+================================================================================
+```
+
+*Sample recommendations for test users can be found in `./results/[category]/samples`*
+
 ### 7.3. Inductive Inference (New Users)
 We tested the model's ability to recommend items to **New Users (Cold Start)** who were not present during training. Since these users do not have pre-trained embeddings, we infer their embeddings on-the-fly based on their visitation list.
 
@@ -394,7 +460,42 @@ The inference strategy depends on the model type:
         The new user's embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
     $$\mathbf{e}_{new} = \sum_{j \in \mathcal{H}_{new}} \frac{1}{\sqrt{|\mathcal{H}_{new}| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
-*Sample recommendations and qualitative results can be found in* `./results/[category]/samples`.
+Here is a sample of recommended businesses for a new user not in the dataset with `best` model trained with `Japanese` dataset whose scores are caculated with `fold` method:
+
+```
+================================================================================
+Recommendations for user Shouki with LightGCN Best (Fold)
+  History
+    [ 5549] [California     ] BESHOCK Ramen East Village
+    [ 5569] [California     ] RakiRaki Ramen & Tsukemen
+    [ 5808] [California     ] Menya Ultra
+    [ 5810] [California     ] Tajima Ramen Mercury
+--------------------------------------------------------------------------------
+  Recommendations
+    [ 5792]  1 [California     ] RAKIRAKI Ramen & Tsukemen | 6.460
+    [ 5796]  2 [California     ] Tajima Ramen Convoy | 5.567
+    [ 5567]  3 [California     ] Underbelly | 5.234
+    [ 5542]  4 [California     ] Tajima Ramen East Village | 5.120
+    [ 5825]  5 [California     ] Nishiki Ramen | 4.809
+    [ 5557]  6 [California     ] Underbelly North Park | 4.700
+    [ 5802]  7 [California     ] Ajisen Ramen San Diego | 4.651
+    [ 5800]  8 [California     ] Yakyudori | 4.529
+    [ 5797]  9 [California     ] Kura Revolving Sushi Bar | 4.359
+    [ 5576] 10 [California     ] Tajima Ramen Bar Hillcrest | 4.300
+    [ 5812] 11 [California     ] Mitsuwa Marketplace - San Diego | 4.288
+    [ 5798] 12 [California     ] Hinotez | 4.286
+    [ 5817] 13 [California     ] Nijiya Market San Diego Store | 3.988
+    [ 5579] 14 [California     ] Izakaya Masa | 3.981
+    [ 5570] 15 [California     ] HACHI RAMEN | 3.641
+    [ 5819] 16 [California     ] Yokohama Yakitori Koubou | 3.638
+    [ 5566] 17 [California     ] Cloak & Petal | 3.557
+    [ 5831] 18 [California     ] Sushi Ota | 3.547
+    [ 5809] 19 [California     ] Marukai Market | 3.521
+    [ 5758] 20 [California     ] Gyu-Kaku Japanese BBQ | 3.491
+================================================================================
+```
+
+*Sample recommendations for new users can be found in `./results/[category]/new_users`.*
 
 ### 7.4. Qualitative Analysis (Dimensionality Reduction)
 To investigate whether the embeddings implicitly capture semantic and structural features, we visualized the item embeddings using **PCA** and **UMAP** [[6](#ref6)].
@@ -405,7 +506,11 @@ To investigate whether the embeddings implicitly capture semantic and structural
 * `price`: Clustering based on price tiers.
 * `rating`: Alignment based on average ratings.
 
-*Visualizations are available in* `./results/[category]/plots/dim_reduction`.
+The figure below is a result of PCA applied to business embeddings of `best` model from `Asian` dataset colored by cities they are located. (only include top 10 cities)
+
+![states](./results/Asian/plots/dim_reduction/best/pca/city.png)
+
+*Visualizations are available in `./results/[category]/plots/dim_reduction`.*
 
 ## 8. Running Inference and Customization
 
@@ -465,13 +570,13 @@ This will start downloading the entire raw dataset and would take around 30 mins
 
 You can train your model with following command:
 ``` bash
-python train.py --config-name=best dataset=[category]
+python train.py --config-name=best dataset=[category] device=[cpu or cuda]
 ```
 You can replace `best` with `baseline` to train baseline model.
 
 Then finally, you can run testing with following command:
 ``` bash
-python test.py dataset=[category]
+python test.py dataset=[category] device=[cpu or cuda]
 ```
 
 ## 9. References
