@@ -548,7 +548,7 @@ pip install -r requirements.txt
 To run an inference, you need to download the embedding through `DVC` first. You might be asked for sign in to Google Account.
 
 ``` bash
-dvc pull ./embeddings/[category]/best.pt
+dvc pull ./embeddings/[category]/best.pt -r public_store
 ```
 
 Then you can run all the tests as follows
