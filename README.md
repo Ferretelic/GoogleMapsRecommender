@@ -1,5 +1,9 @@
 # Google Maps Recommender System
 
+![Python](https://img.shields.io/badge/python-3.12-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-ee4c2c)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 ## 1. Overview
 
 We developed a recommender system using the Google Maps review dataset to recommend places (POIs) that users are likely to enjoy. We employed **LightGCN (Light Graph Convolutional Network)** [[1]](#ref1), a state-of-the-art graph neural network (GNN) model.
