@@ -246,6 +246,8 @@ The search space was as follows:
         * `geo_k_neighbors` $[5, 10, 15, 20]$: Number of nearest neighbors ($k$-NN).
         * `geo_weight` $[0.1, 1.0]$: Constant weight for item-item edges.
 
+You can check the results of validations in `validations` branch.
+
 ### 5.3. Baseline and Best Configuration
 
 After a series of experiments, we identified the following configuration as the baseline and best performing model:
