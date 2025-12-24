@@ -402,7 +402,7 @@ The table below is the summarization of results on `Cafe` test dataset:
 
 *You can see more details in `./results/[category]/test_performances.csv` or `./results/[category]/test_performances.png`*
 
-Here is a sample of recommended businesses for a user in the dataset with `best` model trained with `Japanese` dataset whose scores are caculated with `fold` method:
+Here is a sample of recommended businesses for a user in the dataset with `best` model trained with `Japanese` dataset whose scores are calculated with the `fold` method:
 
 ```
 ================================================================================
@@ -460,7 +460,7 @@ The inference strategy depends on the model type:
         The new user's embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
     $$\mathbf{e}_{new} = \sum_{j \in \mathcal{H}_{new}} \frac{1}{\sqrt{|\mathcal{H}_{new}| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
-Here is a sample of recommended businesses for a new user not in the dataset with `best` model trained with `Japanese` dataset whose scores are caculated with `fold` method:
+Here is a sample of recommended businesses for a new user not in the dataset with `best` model trained with `Japanese` dataset whose scores are calculated with the `fold` method:
 
 ```
 ================================================================================
@@ -506,7 +506,7 @@ To investigate whether the embeddings implicitly capture semantic and structural
 * `price`: Clustering based on price tiers.
 * `rating`: Alignment based on average ratings.
 
-The figure below is a result of PCA applied to business embeddings of `best` model from `Asian` dataset colored by cities they are located. (only include top 10 cities)
+The figure below is a result of PCA applied to business embeddings of `best` model from `Asian` dataset colored by the cities where they are located. (only include top 10 cities)
 
 ![states](./results/Asian/plots/dim_reduction/best/pca/city.png)
 
@@ -531,7 +531,7 @@ To run an inference, you need to download the embedding through `DVC` first. You
 dvc pull ./embeddings/[category]/best.pt
 ```
 
-Then you can run all the testings as follows
+Then you can run all the tests as follows
 
 ``` bash
 python test.py dataset=[category]
