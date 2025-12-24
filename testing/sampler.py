@@ -14,7 +14,9 @@ def sample_test_users(cfg):
 
     df = df[df["uid"].isin(test_users)]
     user_counts = df["uid"].value_counts().reset_index()
-    user_pools = user_counts[user_counts["count"] >= cfg.inference.min_num_reviews]["uid"].values
+
+    raw_user_pools = user_counts[user_counts["count"] >= cfg.inference.min_num_reviews]["uid"].values
+    user_pools = np.sort(raw_user_pools)
 
     sample_users = np.random.choice(user_pools, replace=False, size=cfg.inference.num_samples)
 
