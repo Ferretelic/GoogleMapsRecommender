@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Garden, 820 Bay Ave, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/04",
+            "gmap_id": "0x808e1570875d3997:0x98f3493c6278462a",
+            "iid": 2634,
+            "name": "Sushi Garden",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522825723821
+        },
+        {
+            "address": "I Love Sushi, 516 Front St, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x808e4027a1421e47:0xb4af237d8bea6224",
+            "iid": 2709,
+            "name": "I Love Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523338884145
+        },
+        {
+            "address": "Shogun Japanese Restaurant, 1123 Pacific Ave, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/09/20",
+            "gmap_id": "0x808e4027c63414c1:0xae0f0291b3b4fd1",
+            "iid": 2710,
+            "name": "Shogun Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537458753836
+        },
+        {
+            "address": "Okayama Sushi, 565 N 6th St A, San Jose, CA 95112",
+            "category": "['Sushi restaurant', 'Banquet hall', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/03",
+            "gmap_id": "0x808fcc85292a5649:0xfa6c79a02cd9fd85",
+            "iid": 3292,
+            "name": "Okayama Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543871354273
+        },
+        {
+            "address": "Nijiya Market, 240 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "date": "2019/01/15",
+            "gmap_id": "0x808fcc84e134e047:0x845a11e6ecd8d327",
+            "iid": 3285,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547574458261
+        },
+        {
+            "address": "Japonessa Sushi Cocina, 1400 1st Ave, Seattle, WA 98101",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Delivery service', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "date": "2019/03/11",
+            "gmap_id": "0x54906ab24f2c0953:0x76d1c08a65e548de",
+            "iid": 745,
+            "name": "Japonessa Sushi Cocina",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1552284619871
+        },
+        {
+            "address": "Hojoko, 1271 Boylston St, Boston, MA 02215",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "date": "2019/04/02",
+            "gmap_id": "0x89e37a1dfada04cf:0x5663cd8bf7332a94",
+            "iid": 21058,
+            "name": "Hojoko",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554169777942
+        },
+        {
+            "address": "Sapporo Ramen, 1815 Massachusetts Ave, Cambridge, MA 02140",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/03",
+            "gmap_id": "0x89e3773dcbeacf09:0xb3e3b8fbdf6266db",
+            "iid": 20963,
+            "name": "Sapporo Ramen",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554256515700
+        },
+        {
+            "address": "Sushi Garden Scotts Valley, 5600 Scotts Valley Dr STE C, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant']",
+            "date": "2020/01/01",
+            "gmap_id": "0x808e474f08433dd7:0x3c7ed1a419af34f",
+            "iid": 2713,
+            "name": "Sushi Garden Scotts Valley",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1577918491560
+        },
+        {
+            "address": "Kappo Nami Nami, 240 Castro St, Mountain View, CA 94041",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/09/11",
+            "gmap_id": "0x808fb7346d0186b5:0x5adc861e7de67053",
+            "iid": 3145,
+            "name": "Kappo Nami Nami",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1599863944814
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "The Mad Monkfish, 524 Massachusetts Ave, Cambridge, MA 02139",
+            "category": "['Sushi restaurant', 'Jazz club', 'Thai restaurant']",
+            "gmap_id": "0x89e377540bc57ef3:0xec4112ca562a5656",
+            "iid": 20971,
+            "name": "The Mad Monkfish",
+            "rank": 1,
+            "score": 8.188051223754883,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sushirrito - Palo Alto, 448 University Ave, Palo Alto, CA 94301",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fbb38fd355b43:0x62898eb6071dac1",
+            "iid": 3166,
+            "name": "Sushirrito - Palo Alto",
+            "rank": 2,
+            "score": 7.92336893081665,
+            "state": "California"
+        },
+        {
+            "address": "Yamato II, 545 Boylston St, Boston, MA 02116",
+            "category": "['Japanese restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x89e37a0b7c9a3bcd:0x3a4ab15379f89a8d",
+            "iid": 21040,
+            "name": "Yamato II",
+            "rank": 3,
+            "score": 7.86038064956665,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sushi Nakazawa, 23 Commerce St, New York, NY 10014",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2599317340fb3:0xe039cb326a713b70",
+            "iid": 18358,
+            "name": "Sushi Nakazawa",
+            "rank": 4,
+            "score": 7.8403000831604,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Confidential San Jose, 26 N San Pedro St, San Jose, CA 95113",
+            "category": "['Sushi restaurant', 'Bar', 'Lounge', 'Restaurant']",
+            "gmap_id": "0x808fcca3026cb66f:0x23dbf3e56d3ea89f",
+            "iid": 3294,
+            "name": "Sushi Confidential San Jose",
+            "rank": 5,
+            "score": 7.795140743255615,
+            "state": "California"
+        },
+        {
+            "address": "Hokkaido Ramen Santouka Harvard Square, 1 Bow St, Cambridge, MA 02138",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x89e37743508533dd:0x4243a046d8931294",
+            "iid": 20967,
+            "name": "Hokkaido Ramen Santouka Harvard Square",
+            "rank": 6,
+            "score": 7.605851173400879,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Cafe Sushi, 1105 Massachusetts Ave, Cambridge, MA 02138",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89e3775b3807ba0d:0x33b9d4324ef59446",
+            "iid": 20975,
+            "name": "Cafe Sushi",
+            "rank": 7,
+            "score": 7.455691337585449,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Blue Ribbon Sushi Bar & Grill, 308 W 58th St, New York, NY 10019",
+            "category": "['Sushi restaurant', 'Bar', 'Bar & grill', 'Restaurant']",
+            "gmap_id": "0x89c25858808111a3:0x64d128565d0486e",
+            "iid": 17963,
+            "name": "Blue Ribbon Sushi Bar & Grill",
+            "rank": 8,
+            "score": 7.404234409332275,
+            "state": "New_York"
+        },
+        {
+            "address": "FuGaKyu Japanese Cuisine, 1280 Beacon St, Brookline, MA 02446",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant', 'Seafood restaurant', 'Self-catering accommodation', 'Sushi restaurant']",
+            "gmap_id": "0x89e379953ecf51fd:0x5b260fa7716ed43c",
+            "iid": 21006,
+            "name": "FuGaKyu Japanese Cuisine",
+            "rank": 9,
+            "score": 7.3992815017700195,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Fuji at Assembly, 320 Canal St, Somerville, MA 02145",
+            "category": "['Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e3712756d83c29:0xe07e1c8851129c00",
+            "iid": 20908,
+            "name": "Fuji at Assembly",
+            "rank": 10,
+            "score": 7.392528533935547,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Fuki Sushi, 4119 El Camino Real, Palo Alto, CA 94306",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x808fba6319bf0de5:0x6e2964c22bacc712",
+            "iid": 3154,
+            "name": "Fuki Sushi",
+            "rank": 11,
+            "score": 7.377708911895752,
+            "state": "California"
+        },
+        {
+            "address": "Toku Modern Asian, 2014 Northern Blvd, Manhasset, NY 11030",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Bar', 'Pan-Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2888c2e3de385:0xbf761b98795ec963",
+            "iid": 19127,
+            "name": "Toku Modern Asian",
+            "rank": 12,
+            "score": 7.11214017868042,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Tomi, 635 W Dana St, Mountain View, CA 94041, United States",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb73161d008c9:0xf1ccd9ca251ef04",
+            "iid": 3134,
+            "name": "Sushi Tomi",
+            "rank": 13,
+            "score": 7.016104221343994,
+            "state": "California"
+        },
+        {
+            "address": "Umi Sake House, 2230 1st Ave, Seattle, WA 98121",
+            "category": "['Sushi restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x5490154dba050597:0xbd801c431fefd4cd",
+            "iid": 543,
+            "name": "Umi Sake House",
+            "rank": 14,
+            "score": 6.95177698135376,
+            "state": "Washington"
+        },
+        {
+            "address": "Ichiran, 374 Johnson Ave, Brooklyn, NY 11206",
+            "category": "['Ramen restaurant', 'Chinese noodle restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x89c25c0034670c0f:0xe65b1b2bc6ad199d",
+            "iid": 18784,
+            "name": "Ichiran",
+            "rank": 15,
+            "score": 6.785311698913574,
+            "state": "New_York"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 16-18 Eliot St 2nd Floor, Cambridge, MA 02138",
+            "category": "['Japanese restaurant', 'Barbecue restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x89e37767f99a33bd:0x810d7b1d3c1391d9",
+            "iid": 20978,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 16,
+            "score": 6.7324018478393555,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Daikaya, 705 6th St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Izakaya restaurant']",
+            "gmap_id": "0x89b7b73aab846c17:0x64520a673457796e",
+            "iid": 17166,
+            "name": "Daikaya",
+            "rank": 17,
+            "score": 6.7191081047058105,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Fuji at Kendall, 300 Third St, Cambridge, MA 02142",
+            "category": "['Japanese restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x89e370a527758727:0xe03189b1c272d2c4",
+            "iid": 20898,
+            "name": "Fuji at Kendall",
+            "rank": 18,
+            "score": 6.673527240753174,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Ippudo NY, 65 4th Ave, New York, NY 10003",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c2599be79c4359:0xb9d6395de6e0aff6",
+            "iid": 18409,
+            "name": "Ippudo NY",
+            "rank": 19,
+            "score": 6.594296455383301,
+            "state": "New_York"
+        },
+        {
+            "address": "O Ya, 9 East St, Boston, MA 02111",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e37a78bce2010b:0x1cba4c5acde6643e",
+            "iid": 21074,
+            "name": "O Ya",
+            "rank": 20,
+            "score": 6.566179275512695,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Eugene Tsuji",
+        "uid": 55542,
+        "user_id": 107491731858425290387
+    }
+}

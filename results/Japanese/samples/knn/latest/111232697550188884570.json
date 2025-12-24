@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Kinza Sushi Japanese Restaurant, 4627 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant']",
+            "date": "2018/11/22",
+            "gmap_id": "0x80c297c8dbd7086f:0x18b621cb4d08606c",
+            "iid": 3958,
+            "name": "Kinza Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542869240467
+        },
+        {
+            "address": "Sushi Note, 13447 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x80c297ce1011db45:0xbc094ca7f566ad77",
+            "iid": 3960,
+            "name": "Sushi Note",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543207744054
+        },
+        {
+            "address": "K-ZO, 9240 Culver Blvd, Culver City, CA 90232",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/17",
+            "gmap_id": "0x80c2ba29fffcaec9:0x36955a9ee90f5382",
+            "iid": 4289,
+            "name": "K-ZO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550422857479
+        },
+        {
+            "address": "Iroha Sushi of Tokyo, 12953 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/03/31",
+            "gmap_id": "0x80c2bdf52ff48ba5:0x44ee9721b53f1e2",
+            "iid": 4453,
+            "name": "Iroha Sushi of Tokyo",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554076378277
+        },
+        {
+            "address": "Hanami Sushi, 4454 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x80c297ce543e3c97:0x328836d518ec210f",
+            "iid": 3963,
+            "name": "Hanami Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555871879630
+        },
+        {
+            "address": "Yen Sushi & Sake Bar, 12930 Ventura Blvd #120, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x80c2bdf4e0741459:0x50a02dc7932aeea6",
+            "iid": 4451,
+            "name": "Yen Sushi & Sake Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562732184554
+        },
+        {
+            "address": "Mogumogu, 11555 W Olympic Blvd suite b, Los Angeles, CA 90064",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fried chicken takeaway', 'Noodle shop', 'Ramen restaurant', 'Soup restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x80c2bb9ab593ebe5:0xfd2b963bffa59714",
+            "iid": 4402,
+            "name": "Mogumogu",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564722508325
+        },
+        {
+            "address": "Okumura Restaurant, 17302 Ventura Blvd, Encino, CA 91316",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/08/17",
+            "gmap_id": "0x80c2984a0b0c48bd:0x357e2e2ee204515",
+            "iid": 3973,
+            "name": "Okumura Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566003847553
+        },
+        {
+            "address": "Raku, 5030 Spring Mountain Rd, Las Vegas, NV 89146",
+            "category": "['Authentic Japanese restaurant', 'Japanese confectionery shop', 'Izakaya restaurant', 'Restaurant']",
+            "date": "2019/09/18",
+            "gmap_id": "0x80c8c6b70788f811:0x8090a287886bb4a6",
+            "iid": 5334,
+            "name": "Raku",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1568794286208
+        },
+        {
+            "address": "Killer Noodle Tsujita, 2030 Sawtelle Blvd, Los Angeles, CA 90025",
+            "category": "['Ramen restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2bb74e300f8db:0x272f752ecb1b278d",
+            "iid": 4386,
+            "name": "Killer Noodle Tsujita",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575486189456
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Yamato, 17200 Ventura Blvd #221, Encino, CA 91316",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29835d871de5b:0xbeda2f62eed53581",
+            "iid": 3971,
+            "name": "Yamato",
+            "rank": 1,
+            "score": -0.26567813754081726,
+            "state": "California"
+        },
+        {
+            "address": "Midori Sushi, 17047 Ventura Blvd, Encino, CA 91316",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c29836bb4d5b2f:0x2d755d51db122336",
+            "iid": 3972,
+            "name": "Midori Sushi",
+            "rank": 2,
+            "score": -0.4793774485588074,
+            "state": "California"
+        },
+        {
+            "address": "Kopan Sushi & Ramen, 17547 Ventura Blvd, Encino, CA 91316",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2984c9f90754f:0x80fd0c48cc39a08d",
+            "iid": 3974,
+            "name": "Kopan Sushi & Ramen",
+            "rank": 3,
+            "score": -0.5249454379081726,
+            "state": "California"
+        },
+        {
+            "address": "Cho Cho San, 4928 Balboa Blvd, Encino, CA 91316",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c29831080c24a1:0x7570655c04078f65",
+            "iid": 3970,
+            "name": "Cho Cho San",
+            "rank": 4,
+            "score": -0.8620519042015076,
+            "state": "California"
+        },
+        {
+            "address": "Octopus Japanese Restaurant, 16733 Ventura Blvd, Encino, CA 91436",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c298301e4dd685:0x62e44cf8df104b04",
+            "iid": 3969,
+            "name": "Octopus Japanese Restaurant",
+            "rank": 5,
+            "score": -1.1176350116729736,
+            "state": "California"
+        },
+        {
+            "address": "Zeppin Sushi LLC, 16733 Ventura Blvd, Encino, CA 91436",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c299a3996c78df:0xd0fd16ec3c6e8bb2",
+            "iid": 3994,
+            "name": "Zeppin Sushi LLC",
+            "rank": 6,
+            "score": -1.1270575523376465,
+            "state": "California"
+        },
+        {
+            "address": "Shin Sushi, 16573 Ventura Blvd, Encino, CA 91436",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x80c299c0ece14175:0xfa5779c696f05bef",
+            "iid": 3996,
+            "name": "Shin Sushi",
+            "rank": 7,
+            "score": -1.4716721773147583,
+            "state": "California"
+        },
+        {
+            "address": "Four On Six, 16573 Ventura Blvd #14, Encino, CA 91436",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c29825932d3649:0xcd226c0662e99eaa",
+            "iid": 3966,
+            "name": "Four On Six",
+            "rank": 8,
+            "score": -1.519486427307129,
+            "state": "California"
+        },
+        {
+            "address": "Sushi KATSU-YA Encino, 16542 Ventura Blvd #100, Encino, CA 91436",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2982594688abb:0x5d5d3e6f811674c5",
+            "iid": 3967,
+            "name": "Sushi KATSU-YA Encino",
+            "rank": 9,
+            "score": -1.5236788988113403,
+            "state": "California"
+        },
+        {
+            "address": "Street Cafe By Aroma, 18047 Ventura Blvd, Encino, CA 91316",
+            "category": "['Kosher restaurant', 'Bakery', 'Cafe', 'Delivery Restaurant', 'Mediterranean restaurant', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c299ac3e3fa879:0x3b92b58c81c6c69a",
+            "iid": 3995,
+            "name": "Street Cafe By Aroma",
+            "rank": 10,
+            "score": -1.537336826324463,
+            "state": "California"
+        },
+        {
+            "address": "Benihana, 16226 Ventura Blvd, Encino, CA 91436",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x80c2982759582b31:0x24986942e993781b",
+            "iid": 3968,
+            "name": "Benihana",
+            "rank": 11,
+            "score": -2.2108747959136963,
+            "state": "California"
+        },
+        {
+            "address": "Miho Sushi, 18373 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c299f7209fdac9:0x8102af798c1e705c",
+            "iid": 3997,
+            "name": "Miho Sushi",
+            "rank": 12,
+            "score": -2.262641191482544,
+            "state": "California"
+        },
+        {
+            "address": "Doko Sushi, 18406 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c29934ec7d635b:0xcc026195491e5708",
+            "iid": 3984,
+            "name": "Doko Sushi",
+            "rank": 13,
+            "score": -2.3310537338256836,
+            "state": "California"
+        },
+        {
+            "address": "The Fish House, 16101 Ventura Blvd, Encino, CA 91436",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c297899a75b26d:0xa272bc07eedf7ec8",
+            "iid": 3947,
+            "name": "The Fish House",
+            "rank": 14,
+            "score": -2.4025120735168457,
+            "state": "California"
+        },
+        {
+            "address": "Sushi|Bar, 16101 Ventura Blvd Suite 242, Encino, CA 91436",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c2978999c9e18d:0x9ab106f0b707b231",
+            "iid": 3946,
+            "name": "Sushi|Bar",
+            "rank": 15,
+            "score": -2.421757459640503,
+            "state": "California"
+        },
+        {
+            "address": "Sola Japanese Izakaya Dining, 15928 Ventura Blvd #120, Encino, CA 91436",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2978c75b34f4b:0x2b73f7b0301ac93c",
+            "iid": 3949,
+            "name": "Sola Japanese Izakaya Dining",
+            "rank": 16,
+            "score": -2.7859585285186768,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Iki, 18663 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c2990eebe38b4f:0x64fc1a8c1beda7c3",
+            "iid": 3980,
+            "name": "Sushi Iki",
+            "rank": 17,
+            "score": -2.9949097633361816,
+            "state": "California"
+        },
+        {
+            "address": "Kushiyu, 18713-15 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2990e6219ad19:0x8b954fbc6e34e0b2",
+            "iid": 3978,
+            "name": "Kushiyu",
+            "rank": 18,
+            "score": -3.0980992317199707,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Yotsuya, 18760 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2990e703c87b3:0x64e7b6e80ee6d135",
+            "iid": 3979,
+            "name": "Sushi Yotsuya",
+            "rank": 19,
+            "score": -3.2313222885131836,
+            "state": "California"
+        },
+        {
+            "address": "BBQ Teriyaki & Sushi, 18855 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2990df0a55895:0xd10f042c88bdf49",
+            "iid": 3977,
+            "name": "BBQ Teriyaki & Sushi",
+            "rank": 20,
+            "score": -3.426257848739624,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Monica Guevara",
+        "uid": 83264,
+        "user_id": 111232697550188884570
+    }
+}

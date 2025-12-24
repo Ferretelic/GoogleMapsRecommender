@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Don Quijote Honolulu, 801 Kaheka St, Honolulu, HI 96814",
+            "category": "['Supermarket', 'Asian grocery store', 'General store', 'Grocery store', 'Japanese grocery store', 'Pharmacy']",
+            "date": "2018/07/19",
+            "gmap_id": "0x7c006dede4a406b3:0x328c1ae0697b7359",
+            "iid": 1897,
+            "name": "Don Quijote Honolulu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1531987236947
+        },
+        {
+            "address": "Mamaya, 98-199 Kamehameha Hwy A-7B, Aiea, HI 96701",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x7c006f52259fec47:0x2011717ac3237cd5",
+            "iid": 1983,
+            "name": "Mamaya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1532818993348
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "date": "2018/09/01",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1535785099475
+        },
+        {
+            "address": "Aunty's Ramen, 1110 McCully St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "date": "2018/11/08",
+            "gmap_id": "0x7c006d939cf63789:0x2a8866f414ab13b0",
+            "iid": 1855,
+            "name": "Aunty's Ramen",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1541661933507
+        },
+        {
+            "address": "sushi mon, 8320 W Sahara Ave #180, Las Vegas, NV 89117",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80c8c099c612a7d7:0x2ef03a37d49e8296",
+            "iid": 5232,
+            "name": "sushi mon",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1546317748529
+        },
+        {
+            "address": "RA Sushi Bar Restaurant and Ramen Sensei, 13802 N Scottsdale Rd #176, Scottsdale, AZ 85254",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x872b7415984cd6f9:0x6742aa51d351199f",
+            "iid": 9128,
+            "name": "RA Sushi Bar Restaurant and Ramen Sensei",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1546317827849
+        },
+        {
+            "address": "Ramen Ya, 2810 Valkenburgh St, Honolulu, HI 96818",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x7c006f7347bf7367:0xfba97e8979b70a8",
+            "iid": 1991,
+            "name": "Ramen Ya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1546845458403
+        },
+        {
+            "address": "Shirokiya Japan Village Walk, 1450 Ala Moana Blvd #1360, Honolulu, HI 96814",
+            "category": "['Food court', 'Bakery', 'Beer garden', 'Collectibles store', 'Dessert shop', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/19",
+            "gmap_id": "0x7c006df045a36271:0xc32f4e283f2349fa",
+            "iid": 1915,
+            "name": "Shirokiya Japan Village Walk",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1547880365609
+        },
+        {
+            "address": "Junpuu, 1010 S King St #108, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x7c006de6f0845ce5:0xe1ec9e0c4d3d0f29",
+            "iid": 1884,
+            "name": "Junpuu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1549186702049
+        },
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "split": "valid",
+            "state": "Hawaii",
+            "unix_time": 1554623876513
+        },
+        {
+            "address": "Matsuzaka-Tei, 1029 Makolu St B, Pearl City, HI 96782",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x7c00660d0fc65569:0x5ad624fe38aaa438",
+            "iid": 1778,
+            "name": "Matsuzaka-Tei",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1561803767134
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Sweet Thunder Products The Local Fusion Sushi, 1710 Kamehameha Ave, Hilo, HI 96720",
+            "category": "['Sushi restaurant', 'Conveyor belt sushi restaurant']",
+            "gmap_id": "0x79524b6948b666d1:0xd0104ba832e1cb7b",
+            "iid": 1675,
+            "name": "Sweet Thunder Products The Local Fusion Sushi",
+            "rank": 1,
+            "score": -887.6640014648438,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sakura Sushi & Grill, 200 Kanoelehua Ave, Hilo, HI 96720",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x79524dac9673aa11:0x9e0807ffa29879bc",
+            "iid": 1679,
+            "name": "Sakura Sushi & Grill",
+            "rank": 2,
+            "score": -887.7153930664062,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Hilo Lunch Shop, 421 Kalanikoa St # 101, Hilo, HI 96720",
+            "category": "['Japanese restaurant', 'Hawaiian restaurant']",
+            "gmap_id": "0x79524b6186779103:0x7daf6d2da91cbbd7",
+            "iid": 1672,
+            "name": "Hilo Lunch Shop",
+            "rank": 3,
+            "score": -888.0596923828125,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Miyo's Restaurant, 564 Hinano St, Hilo, HI 96720",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant', 'Japanese curry restaurant']",
+            "gmap_id": "0x79524b5d3f43fb29:0xc50053212da4ed86",
+            "iid": 1671,
+            "name": "Miyo's Restaurant",
+            "rank": 4,
+            "score": -888.5905151367188,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Takenoko Sushi Llc, 578 Hinano St, Hilo, HI 96720",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x79524b663686ef07:0xd3f4934541cd22f7",
+            "iid": 1673,
+            "name": "Takenoko Sushi Llc",
+            "rank": 5,
+            "score": -888.5992431640625,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tetsumen Ramen, 697 Manono St, Hilo, HI 96720",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x79524bb383114005:0xbde91439c4a7511f",
+            "iid": 1678,
+            "name": "Tetsumen Ramen",
+            "rank": 6,
+            "score": -888.6705322265625,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tetsumen, 697 Manono St, Hilo, HI 96720",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x79524b68788c7c0d:0xd8ed1a2a5b99b315",
+            "iid": 1674,
+            "name": "Tetsumen",
+            "rank": 7,
+            "score": -888.6788940429688,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Blane's Drive Inn - Industrial, 150 Wiwoole St, Hilo, HI 96720",
+            "category": "['Hawaiian restaurant', 'American restaurant', 'Fast food restaurant', 'Filipino restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x79524b6c93fafd23:0xabb199015da864b2",
+            "iid": 1677,
+            "name": "Blane's Drive Inn - Industrial",
+            "rank": 8,
+            "score": -889.0328979492188,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Aomatsu, 165 E Kawili St, Hilo, HI 96720",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x79524b6a280d07d5:0xf891f5c7b4688b78",
+            "iid": 1676,
+            "name": "Aomatsu",
+            "rank": 9,
+            "score": -889.12109375,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Genki Sushi, Prince Kuhio Plaza, 111 Puainako St, Hilo, HI 96720, United States",
+            "category": "['Conveyor belt sushi restaurant']",
+            "gmap_id": "0x79524b1315e11673:0xb4a2cfdb906bc566",
+            "iid": 1660,
+            "name": "Genki Sushi",
+            "rank": 10,
+            "score": -889.1417846679688,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Daiichi Ramen Hilo, 111 E Puainako St, Hilo, HI 96720",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x79524b01d8f4887f:0x61b828ebecf8cc0a",
+            "iid": 1659,
+            "name": "Daiichi Ramen Hilo",
+            "rank": 11,
+            "score": -889.156005859375,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Kawamoto Store, 784 Kilauea Ave, Hilo, HI 96720",
+            "category": "['Japanese restaurant', 'Caterer']",
+            "gmap_id": "0x79524b5b9a707365:0xa168a77b07de5700",
+            "iid": 1669,
+            "name": "Kawamoto Store",
+            "rank": 12,
+            "score": -889.221435546875,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Dragon Kitchen Sushi, 330 Kamehameha Ave, Hilo, HI 96720",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x79524b5794abef7d:0xfb1274f894016fb0",
+            "iid": 1667,
+            "name": "Dragon Kitchen Sushi",
+            "rank": 13,
+            "score": -889.2467651367188,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Kenichi Restaurant, 684 Kilauea Ave, Hilo, HI 96720",
+            "category": "['Japanese restaurant', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x79524b5bb8641d93:0xfafd7e004ac3535f",
+            "iid": 1670,
+            "name": "Kenichi Restaurant",
+            "rank": 14,
+            "score": -889.2520141601562,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Ocean Sushi, 235 Keawe St, Hilo, HI 96720",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x79524b57b580840d:0x160d148ee5f3e440",
+            "iid": 1668,
+            "name": "Ocean Sushi",
+            "rank": 15,
+            "score": -889.3554077148438,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Restaurant Miwa, 1261 Kilauea Ave # 230, Hilo, HI 96720",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x79524b430bf24f2d:0x52284411cc709479",
+            "iid": 1661,
+            "name": "Restaurant Miwa",
+            "rank": 16,
+            "score": -889.3565063476562,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Two Ladies Kitchen, 274 Kilauea Ave, Hilo, HI 96720",
+            "category": "['Japanese confectionery shop']",
+            "gmap_id": "0x79524b5765174011:0x81607b8f6569ac22",
+            "iid": 1666,
+            "name": "Two Ladies Kitchen",
+            "rank": 17,
+            "score": -889.366943359375,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Ebisuya Sushi, 179 Kilauea Ave, Hilo, HI 96720",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x79524b570b2610f1:0xbfac20e95fa58d2a",
+            "iid": 1665,
+            "name": "Ebisuya Sushi",
+            "rank": 18,
+            "score": -889.3746337890625,
+            "state": "Hawaii"
+        },
+        {
+            "address": "KANPAI - Sushi, Noodle, & Sake Bar, 190 Keawe St #10th, Hilo, HI 96720",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Karaoke bar', 'Ramen restaurant']",
+            "gmap_id": "0x79524b563a7fce7b:0x7b3abbd7fef2538",
+            "iid": 1664,
+            "name": "KANPAI - Sushi, Noodle, & Sake Bar",
+            "rank": 19,
+            "score": -889.3812866210938,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Cousins Seafood & Bento Hilo HI, 14 W Lanikaula St, Hilo, HI 96720",
+            "category": "['Takeout Restaurant', 'Catering food and drink supplier', 'Deli', 'Hawaiian restaurant', 'Mexican restaurant', 'Sandwich shop', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x79524b43d6354499:0xb178dfd20d0ad676",
+            "iid": 1662,
+            "name": "Cousins Seafood & Bento Hilo HI",
+            "rank": 20,
+            "score": -889.541748046875,
+            "state": "Hawaii"
+        }
+    ],
+    "user": {
+        "name": "Gordon Lam",
+        "uid": 63531,
+        "user_id": 108579026400301163667
+    }
+}

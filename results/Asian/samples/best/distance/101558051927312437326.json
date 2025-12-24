@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China King, 3743 Elm St, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "date": "2016/12/30",
+            "gmap_id": "0x87df25e5266c71c3:0xa8525f2212c17412",
+            "iid": 34218,
+            "name": "China King",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1483123880316
+        },
+        {
+            "address": "China One, 2012 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/02/23",
+            "gmap_id": "0x87df2df34b1c3627:0x84ba94cd53d55e64",
+            "iid": 34251,
+            "name": "China One",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1487869361071
+        },
+        {
+            "address": "India Palace, 12322 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x87df316a2bda29a7:0x766ba2c892ef935",
+            "iid": 34260,
+            "name": "India Palace",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1498874196621
+        },
+        {
+            "address": "Love Sushi, 2201 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/21",
+            "gmap_id": "0x87db5ea849e05593:0x8dd5c262ac203f9d",
+            "iid": 34112,
+            "name": "Love Sushi",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1534816019261
+        },
+        {
+            "address": "India's House, 1101 E Broadway, Columbia, MO 65201",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb7c30f1b2607:0x19314a856d0da3f3",
+            "iid": 34137,
+            "name": "India's House",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708214276
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 2531 Broadway Bluffs Dr, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb81e42d80a1b:0x4c46ecdc36ccc33a",
+            "iid": 34153,
+            "name": "Kobe Japanese Steakhouse",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708293120
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/26",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1553625068237
+        },
+        {
+            "address": "Panda Cafe, 501 Hwy 28, Owensville, MO 65066",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87dbeae3992f9439:0x5274da7cadee17fd",
+            "iid": 34118,
+            "name": "Panda Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1556980653783
+        },
+        {
+            "address": "Kabab N Kurry, 2220 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Indian restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87df2f20371a1d4f:0xf37669ed4f7c6d28",
+            "iid": 34256,
+            "name": "Kabab N Kurry",
+            "split": "valid",
+            "state": "Missouri",
+            "unix_time": 1556980671124
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 6519,
+            "name": "Hula Grill Waikiki",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1563149917750
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Teriyaki Madness, 1653 W Island Green Dr Ste 130, Meridian, ID 83646",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55cae7f4fa65:0x225b2adc029f2e05",
+            "iid": 5059,
+            "name": "Teriyaki Madness",
+            "rank": 1,
+            "score": -2.822742223739624,
+            "state": "Idaho"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 54334,
+            "name": "Chopstix",
+            "rank": 2,
+            "score": -2.8228018283843994,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Khao Hom Thai & Sushi, 5624 Ox Rd, Fairfax Station, VA 22039",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89b64f31522eada3:0xb25a8be19a57a2",
+            "iid": 55609,
+            "name": "Khao Hom Thai & Sushi",
+            "rank": 3,
+            "score": -2.8228611946105957,
+            "state": "Virginia"
+        },
+        {
+            "address": "Lottie's Pad Thai Food Cart, Commercial St SE, Salem, OR 97306",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54c007b51def1ddb:0xbef8337c6289e217",
+            "iid": 5276,
+            "name": "Lottie's Pad Thai Food Cart",
+            "rank": 4,
+            "score": -2.8229634761810303,
+            "state": "Oregon"
+        },
+        {
+            "address": "NaaMo Thai Restaurant, 209 Applegarth Rd Suite 1, Monroe Township, NJ 08831",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c3d9a430ef6f8d:0x780a2c7d75130080",
+            "iid": 64963,
+            "name": "NaaMo Thai Restaurant",
+            "rank": 5,
+            "score": -2.8230974674224854,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Hibachi Express New Port Richey, 5308 Little Rd, New Port Richey, FL 34655",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c291045966164b:0x53c7390beec6ac9",
+            "iid": 46850,
+            "name": "Hibachi Express New Port Richey",
+            "rank": 6,
+            "score": -2.8231046199798584,
+            "state": "Florida"
+        },
+        {
+            "address": "Curry House #2, 4277 N West Ave, Fresno, CA 93705",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80946768248f0f8b:0x583c680ff2d61d9a",
+            "iid": 11819,
+            "name": "Curry House #2",
+            "rank": 7,
+            "score": -2.8231143951416016,
+            "state": "California"
+        },
+        {
+            "address": "K brothers, 2058 8th St, Coralville, IA 52241",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x87e4437d04dde4bb:0x5923ef9c26e6dc15",
+            "iid": 34535,
+            "name": "K brothers",
+            "rank": 8,
+            "score": -2.823154926300049,
+            "state": "Iowa"
+        },
+        {
+            "address": "bb.q Chicken Doraville, 5805 Buford Hwy NE #2, Doraville, GA 30340",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x88f5a7dfab2963f7:0xe5ee52d6852f5009",
+            "iid": 52439,
+            "name": "bb.q Chicken Doraville",
+            "rank": 9,
+            "score": -2.823155403137207,
+            "state": "Georgia"
+        },
+        {
+            "address": "21 Biryani Pots, 5639 Kanan Rd, Agoura Hills, CA 91301",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80e82795a4c98179:0xf4b71863f4dbdf15",
+            "iid": 21290,
+            "name": "21 Biryani Pots",
+            "rank": 10,
+            "score": -2.823180675506592,
+            "state": "California"
+        },
+        {
+            "address": "Everest Himalayan Cuisine, Encinitas, Downtown 101 Highway CA, 745 S Coast Hwy 101 #103J, Encinitas, CA 92024",
+            "category": "['Indian restaurant', 'Nepalese restaurant', 'Tibetan restaurant']",
+            "gmap_id": "0x80dc0d7d7f4f5bc3:0xb7acac5274a2c86c",
+            "iid": 18786,
+            "name": "Everest Himalayan Cuisine, Encinitas, Downtown 101 Highway CA",
+            "rank": 11,
+            "score": -2.8231818675994873,
+            "state": "California"
+        },
+        {
+            "address": "Sakura Japanese restaurant, 1071 Wayne Ave, Chambersburg, PA 17201",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c99f639388b889:0x9bc9d5b5ad3e398c",
+            "iid": 67487,
+            "name": "Sakura Japanese restaurant",
+            "rank": 12,
+            "score": -2.8232011795043945,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "BODHI : Craft Bar + Thai Bistro, 922 Massachusetts Ave, Indianapolis, IN 46202",
+            "category": "['Cocktail bar', 'Gastropub', 'Thai restaurant']",
+            "gmap_id": "0x886b51478ae3dadf:0x21523437af3ea5a7",
+            "iid": 45044,
+            "name": "BODHI : Craft Bar + Thai Bistro",
+            "rank": 13,
+            "score": -2.8232314586639404,
+            "state": "Indiana"
+        },
+        {
+            "address": "Bombay Burger, 1420 E Madison St, Seattle, WA 98122",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54906b5c804a1f5d:0xa5d1c30a2a9527d0",
+            "iid": 2985,
+            "name": "Bombay Burger",
+            "rank": 14,
+            "score": -2.823240041732788,
+            "state": "Washington"
+        },
+        {
+            "address": "Paprikas, 110 Imperial Plaza Dr, Imperial, PA 15126",
+            "category": "['Indian restaurant', 'American restaurant', 'Italian restaurant', 'Pizza restaurant']",
+            "gmap_id": "0x88345b247acb4a49:0x9bbac62ce4c89198",
+            "iid": 40181,
+            "name": "Paprikas",
+            "rank": 15,
+            "score": -2.8232486248016357,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Little Foodies \u5c0f\u80d6\u5409, 1411 156th Ave NE suite C, Bellevue, WA 98007",
+            "category": "['Chinese restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x54906d7fc38c4a7b:0x1949671d0e8b37d4",
+            "iid": 3126,
+            "name": "Little Foodies \u5c0f\u80d6\u5409",
+            "rank": 16,
+            "score": -2.823253870010376,
+            "state": "Washington"
+        },
+        {
+            "address": "Aroma Indian Cuisine, 14700 Tamiami Trail N, Naples, FL 34110",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88db19a33acaf3cb:0xa2dcabc81dfbb029",
+            "iid": 48987,
+            "name": "Aroma Indian Cuisine",
+            "rank": 17,
+            "score": -2.823254346847534,
+            "state": "Florida"
+        },
+        {
+            "address": "Pacific East, 186 Union St, Westlake, OH 44145",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88309311b18159cf:0x4fb2998efb68410c",
+            "iid": 39657,
+            "name": "Pacific East",
+            "rank": 18,
+            "score": -2.8232593536376953,
+            "state": "Ohio"
+        },
+        {
+            "address": "Kin Thai Street Eatery, 1050 20th St Suite 180, Sacramento, CA 95811",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x809ad1afcc0eb341:0x22fa22acd60fa947",
+            "iid": 12416,
+            "name": "Kin Thai Street Eatery",
+            "rank": 19,
+            "score": -2.8232767581939697,
+            "state": "California"
+        },
+        {
+            "address": "YUYU Chinese Restaurant, 1700 Falcon Rd, Altus, OK 73521",
+            "category": "['Asian restaurant', 'Cafe', 'Chinese restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x87ab65052ef1711b:0x3d9a2db7f22313e0",
+            "iid": 32072,
+            "name": "YUYU Chinese Restaurant",
+            "rank": 20,
+            "score": -2.823282480239868,
+            "state": "Oklahoma"
+        }
+    ],
+    "user": {
+        "name": "J Kinz",
+        "uid": 46530,
+        "user_id": 101558051927312437326
+    }
+}

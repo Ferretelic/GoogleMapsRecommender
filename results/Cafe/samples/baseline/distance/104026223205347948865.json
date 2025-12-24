@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Madras Caf\u00e9, 1177 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Indian restaurant', 'Coffee shop', 'Restaurant']",
+            "date": "2017/06/20",
+            "gmap_id": "0x808fb6e8d40eb295:0x7990316e7fd45ea7",
+            "iid": 3545,
+            "name": "Madras Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497921439465
+        },
+        {
+            "address": "Psycho Donuts, 288 S 2nd St, San Jose, CA 95113",
+            "category": "['Donut shop', 'Art gallery', 'Bakery', 'Coffee shop']",
+            "date": "2017/06/28",
+            "gmap_id": "0x808fccba40a7176b:0x373ef5ecf30ebea1",
+            "iid": 3938,
+            "name": "Psycho Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498628352378
+        },
+        {
+            "address": "Starbucks, 150 S 1st St Suite 135, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/07/28",
+            "gmap_id": "0x808fcca30f370005:0x75a7e2b9f3ee2f13",
+            "iid": 3925,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501203661680
+        },
+        {
+            "address": "Sugar Plum Coffee Shop, 1815 Colfax St, Concord, CA 94520",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2017/09/14",
+            "gmap_id": "0x80856725f22fb5b5:0x75af90b0a66d2881",
+            "iid": 858,
+            "name": "Sugar Plum Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1505423505783
+        },
+        {
+            "address": "Honeyberry, 3655 N 1st St Ste101, San Jose, CA 95134",
+            "category": "['Cafe']",
+            "date": "2017/10/25",
+            "gmap_id": "0x808fc907d8b24013:0x3f83d99ff9dd0a89",
+            "iid": 3766,
+            "name": "Honeyberry",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1508970730308
+        },
+        {
+            "address": "Starbucks, 3555 Monroe St #65, Santa Clara, CA 95051",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/02/20",
+            "gmap_id": "0x808fb60049c7d185:0xd66f2fd390eee1c4",
+            "iid": 3512,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519109761569
+        },
+        {
+            "address": "Cocola, 333 Santana Row #1045, San Jose, CA 95128",
+            "category": "['Patisserie', 'Cafe']",
+            "date": "2018/06/14",
+            "gmap_id": "0x808fcae00584be5f:0x28b2b19ec61994d2",
+            "iid": 3834,
+            "name": "Cocola",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528946422369
+        },
+        {
+            "address": "Krispy Kreme, 3133 Mission College Blvd, Santa Clara, CA 95054",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2018/09/18",
+            "gmap_id": "0x808fc9dd79eefafb:0x633fa7b0b35ee5f9",
+            "iid": 3795,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537251727936
+        },
+        {
+            "address": "Mikayla's Cafe, 2209 Tasman Dr, Santa Clara, CA 95054",
+            "category": "['Restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Hamburger restaurant', 'Traditional American restaurant']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808fc9b15959e1d1:0x6f6ab6f83ca4951",
+            "iid": 3787,
+            "name": "Mikayla's Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1550469428226
+        },
+        {
+            "address": "Blue Bottle Coffee, 368 Santana Row Suite 1020, San Jose, CA 95128",
+            "category": "['Cafe']",
+            "date": "2019/11/24",
+            "gmap_id": "0x808fcb10b88f82c7:0x1fc8823511f2c107",
+            "iid": 3843,
+            "name": "Blue Bottle Coffee",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1574577116170
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 1811 Hillsdale Ave, San Jose, CA 95124",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x808e3580cb92d8bd:0xff6a6e40ae99dece",
+            "iid": 2391,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": -2.256124496459961,
+            "state": "California"
+        },
+        {
+            "address": "Li Cha Tea, 1245 N Broadway, Walnut Creek, CA 94596",
+            "category": "['Cafe']",
+            "gmap_id": "0x808561479e4775cb:0x7c931dbb95254528",
+            "iid": 779,
+            "name": "Li Cha Tea",
+            "rank": 2,
+            "score": -2.3433306217193604,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 852 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808fb5e41bb927e7:0x67a51d7b2ef6a492",
+            "iid": 3506,
+            "name": "Dunkin'",
+            "rank": 3,
+            "score": -2.5007898807525635,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 4,
+            "score": -2.5130703449249268,
+            "state": "California"
+        },
+        {
+            "address": "Joebella Coffee Paso Robles, 1803 Spring St #8, Paso Robles, CA 93446",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecc5d1e48e7261:0x591fbf9561b1b3dd",
+            "iid": 13371,
+            "name": "Joebella Coffee Paso Robles",
+            "rank": 5,
+            "score": -2.526643991470337,
+            "state": "California"
+        },
+        {
+            "address": "MudLab, 440 Grand Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Artist', 'Bakery', 'Coworking space', 'Event venue', 'Grocery store', 'Pasta shop']",
+            "gmap_id": "0x80857d0750490b69:0xad3394d0ef19731b",
+            "iid": 1010,
+            "name": "MudLab",
+            "rank": 6,
+            "score": -2.5438716411590576,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 6597 Collins Dr, Moorpark, CA 93021",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80e82d56ebdc28b3:0x9b8c6beaf817c757",
+            "iid": 12773,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": -2.545229434967041,
+            "state": "California"
+        },
+        {
+            "address": "Chant\u2019el Cafe, 1750 Prairie City Rd Ste 150, Folsom, CA 95630",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ae58feefb1791:0xceb210acdf8785ed",
+            "iid": 5484,
+            "name": "Chant\u2019el Cafe",
+            "rank": 8,
+            "score": -2.54693865776062,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13473 Telegraph Rd Suite A, Whittier, CA 90605",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2d3720eed5821:0x1a1615416f7b2919",
+            "iid": 8444,
+            "name": "Starbucks",
+            "rank": 9,
+            "score": -2.5472397804260254,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7040 Sepulveda Blvd, Van Nuys, CA 91405",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c297ba9769c4ff:0x33775ad178835a1a",
+            "iid": 6178,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": -2.5473451614379883,
+            "state": "California"
+        },
+        {
+            "address": "Jane's Cafe, 591 Camino De La Reina Suite 130, San Diego, CA 92108",
+            "category": "['Breakfast restaurant', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80d95564aa979ae5:0x4ebfb61aa649050b",
+            "iid": 9610,
+            "name": "Jane's Cafe",
+            "rank": 11,
+            "score": -2.550112724304199,
+            "state": "California"
+        },
+        {
+            "address": "Winchell's Donut House, 8001 Eastern Ave, Bell Gardens, CA 90201",
+            "category": "['Donut shop', 'Coffee shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2cdb2a8235cfd:0xc0c5bc8eb4f2c7b3",
+            "iid": 8310,
+            "name": "Winchell's Donut House",
+            "rank": 12,
+            "score": -2.5527422428131104,
+            "state": "California"
+        },
+        {
+            "address": "IT'S BOBA TIME- BELL, 6515 Atlantic Ave Suite A, Bell, CA 90201",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2cebed91af3ad:0x7034a31859fe20f2",
+            "iid": 8332,
+            "name": "IT'S BOBA TIME- BELL",
+            "rank": 13,
+            "score": -2.559481382369995,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": -2.5622928142547607,
+            "state": "California"
+        },
+        {
+            "address": "The Cup, 385 Novel B3, Irvine, CA 92618",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80dcc3818e0c0ff9:0xdd62cdf82b3a2fee",
+            "iid": 10950,
+            "name": "The Cup",
+            "rank": 15,
+            "score": -2.563065528869629,
+            "state": "California"
+        },
+        {
+            "address": "Sharetea, 2010 Birch Rd, Chula Vista, CA 91915",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d94558432d8119:0xe042877e396a09eb",
+            "iid": 9240,
+            "name": "Sharetea",
+            "rank": 16,
+            "score": -2.5632412433624268,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 8351 Bruceville Rd Suite 1, Sacramento, CA 95823",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x809ac675ddd8ab53:0x4942de26b8b01657",
+            "iid": 5065,
+            "name": "Dunkin'",
+            "rank": 17,
+            "score": -2.563817262649536,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Club, 1264 E Gibson Rd c309, Woodland, CA 95776",
+            "category": "['Cafe']",
+            "gmap_id": "0x8084d117b6f3d665:0x2a15c5ee67458dd9",
+            "iid": 557,
+            "name": "Coffee Club",
+            "rank": 18,
+            "score": -2.568812608718872,
+            "state": "California"
+        },
+        {
+            "address": "The Hamlett, 7801 Broadway, Lemon Grove, CA 91945",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d95102c11e0305:0x6683555078186ac7",
+            "iid": 9334,
+            "name": "The Hamlett",
+            "rank": 19,
+            "score": -2.5691275596618652,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 6000 Bollinger Canyon Rd Suite 1609, San Ramon, CA 94583",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808ff3821d846019:0xe5a282584d689b01",
+            "iid": 4114,
+            "name": "Philz Coffee",
+            "rank": 20,
+            "score": -2.572869300842285,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Sona Balsam",
+        "uid": 30426,
+        "user_id": 104026223205347948865
+    }
+}

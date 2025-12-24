@@ -402,46 +402,54 @@ The table below is the summarization of results on `Cafe` test dataset:
 
 *You can see more details in `./results/[category]/test_performances.csv` or `./results/[category]/test_performances.png`*
 
-Here is a sample of recommended businesses for a user in the dataset with `best` model trained with `Japanese` dataset whose scores are calculated with the `fold` method:
+Here is a sample of recommended businesses for a user in the dataset with `best` model trained with `Cafe` dataset whose scores are calculated with the `fold` method:
 
 ```
 ================================================================================
-Recommendations for user S. Toro with LightGCN Best (Fold)
+Recommendations for user Sean O'Hara with LightGCN Best (Fold)
   History
-    [11272] [Illinois       ] Furious Spoon Logan Square
-    [ 7309] [Texas          ] JINYA Ramen Bar - NASA
-    [10908] [Illinois       ] Furious Spoon Pilsen
-    [10886] [Illinois       ] Sushi Sai
-    [ 7460] [Texas          ] AGU Ramen - Washington Avenue
-    [ 7363] [Texas          ] JINYA Ramen Bar - Houston Mid Town
-    [ 7360] [Texas          ] Osaka
-    [ 7462] [Texas          ] Samurai Noodle - Heights
-    [11347] [Illinois       ] Furious Spoon Wicker Park
-    [10872] [Illinois       ] Slurping Turtle
-    [ 7379] [Texas          ] Ramen Tatsu-ya
-    [ 7400] [Texas          ] Tamashi
+    [ 2782] [California     ] The Buena Vista
+    [ 7672] [California     ] Superba Snacks + Coffee
+    [ 7613] [California     ] Cafe de Leche
+    [ 7936] [California     ] Brooklyn Bagel Bakery
+    [ 7947] [California     ] Stories
+    [ 3149] [California     ] Basque Boulangerie Café
+    [ 7678] [California     ] Urth Caffe Pasadena
+    [ 6464] [California     ] Playa Provisions
+    [ 4944] [California     ] The Red Hut Café
+    [ 2059] [California     ] Parker-Lusseau Pastries
+    [ 3151] [California     ] Sideboard Danville
+    [ 8116] [California     ] The Original Pantry Cafe
+    [ 6733] [California     ] Cassell's Hamburgers
+    [ 7603] [California     ] Lemon Poppy Kitchen
+    [ 7734] [California     ] Amara Kitchen
+    [ 7317] [California     ] Idle Hour
+    [ 7615] [California     ] Pat & Lorraines Coffee Shop
+    [ 3098] [California     ] Arizmendi Bakery
+    [ 4087] [California     ] Boba Bliss
+    [ 1872] [California     ] Equator Coffees
 --------------------------------------------------------------------------------
   Recommendations
-    [11275]  1 [Illinois       ] Ramen Wasabi | 5.515
-    [ 7379]  2 [Texas          ] Ramen Tatsu-ya | 5.093
-    [ 7350]  3 [Texas          ] Gyu-Kaku Japanese BBQ | 4.968
-    [10848]  4 [Illinois       ] Strings Ramen Shop | 4.708
-    [ 7381]  5 [Texas          ] Ninja Ramen | 4.676
-    [ 7421]  6 [Texas          ] Tiger Den | 4.580
-    [ 7362]  7 [Texas          ] Kura Revolving Sushi Bar | 4.416
-    [11346]  8 [Illinois       ] Kizuki Ramen & Izakaya | 4.368
-    [10873]  9 [Illinois       ] RAMEN-SAN | 4.323
-    [ 7391] 10 [Texas          ] Oishii | 4.307
-    [ 7364] 11 [Texas          ] Ono Poke | 4.149
-    [ 7463] 12 [Texas          ] Pokeworks | 4.013
-    [11350] 13 [Illinois       ] Sushi Taku - Wicker Park | 3.992
-    [11342] 14 [Illinois       ] Sushi Para M | 3.844
-    [11345] 15 [Illinois       ] Oiistar | 3.794
-    [10904] 16 [Illinois       ] High Five Ramen | 3.747
-    [ 7351] 17 [Texas          ] Izakaya | 3.731
-    [ 7382] 18 [Texas          ] Miyako | 3.702
-    [ 7384] 19 [Texas          ] Aka Sushi House | 3.655
-    [10855] 20 [Illinois       ] Umai | 3.573
+    [ 7925]  1 [California     ] Spoke Bicycle Cafe | 3.596
+    [ 7726]  2 [California     ] Civil Coffee | 3.350
+    [ 7604]  3 [California     ] Habitat Coffee | 2.798
+    [ 7619]  4 [California     ] Swork Coffee | 2.792
+    [ 7949]  5 [California     ] Masa of Echo Park Bakery & Cafe | 2.740
+    [ 7945]  6 [California     ] Tierra Mia Coffee | 2.682
+    [ 7566]  7 [California     ] Proof Bakery | 2.575
+    [ 7611]  8 [California     ] The Highland Cafe | 2.514
+    [ 7983]  9 [California     ] Millie's Cafe | 2.453
+    [ 7715] 10 [California     ] Found Coffee | 2.436
+    [ 7721] 11 [California     ] Tierra Mia Coffee | 2.389
+    [ 7727] 12 [California     ] Kindness & Mischief Coffee | 2.297
+    [ 7909] 13 [California     ] The Little Jewel of New Orleans | 2.275
+    [ 3154] 14 [California     ] Peet's Coffee | 2.238
+    [ 7537] 15 [California     ] Porto's Bakery and Cafe | 2.231
+    [ 7913] 16 [California     ] Nick's Cafe | 2.181
+    [ 7554] 17 [California     ] House of Pies | 2.177
+    [ 7725] 18 [California     ] Antigua Bread | 2.170
+    [ 7705] 19 [California     ] Little Flower | 2.047
+    [ 7924] 20 [California     ] La Colombe Frogtown Cafe and Roastery | 2.038
 ================================================================================
 ```
 

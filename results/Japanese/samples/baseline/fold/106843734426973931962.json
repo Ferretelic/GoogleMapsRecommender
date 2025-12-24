@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Mito, 6470 Spalding Dr, Peachtree Corners, GA 30092",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/09/03",
+            "gmap_id": "0x88f5a08f688ce4a3:0x900481f87cb220bd",
+            "iid": 16019,
+            "name": "Sushi Mito",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1504406342685
+        },
+        {
+            "address": "Ramen Bar by Hajime, 4180 Old Milton Parkway #1-H, Alpharetta, GA 30005",
+            "category": "['Japanese restaurant']",
+            "date": "2018/06/02",
+            "gmap_id": "0x88f59fac5b995267:0x6f6cdd4e4142f40c",
+            "iid": 16016,
+            "name": "Ramen Bar by Hajime",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1527899592688
+        },
+        {
+            "address": "Sweet Tuna, 4511 Olde Perimeter Way #800, Atlanta, GA 30346",
+            "category": "['Sushi restaurant', 'Hawaiian restaurant', 'Seafood restaurant']",
+            "date": "2018/09/13",
+            "gmap_id": "0x88f50959f8258461:0x87af3741ba38337f",
+            "iid": 15820,
+            "name": "Sweet Tuna",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1536861174754
+        },
+        {
+            "address": "Nori Nori, 6690 Roswell Rd Suite 2110, Sandy Springs, GA 30328",
+            "category": "['Sushi restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/11/09",
+            "gmap_id": "0x88f50c208b3ad2ff:0x662a5300e11a1f3a",
+            "iid": 15840,
+            "name": "Nori Nori",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1541787579651
+        },
+        {
+            "address": "Yuzu Sushi, 5193 Peachtree Blvd #E, Chamblee, GA 30341",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/27",
+            "gmap_id": "0x88f509aedf950747:0xe8d0f19ea8425738",
+            "iid": 15825,
+            "name": "Yuzu Sushi",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1548624642582
+        },
+        {
+            "address": "JINYA Ramen Bar - Buckhead, 3714 Roswell Rd Unit 35, Atlanta, GA 30342",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/01/27",
+            "gmap_id": "0x88f50f659a18a43d:0xd97d3517a79321db",
+            "iid": 15858,
+            "name": "JINYA Ramen Bar - Buckhead",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1548624764285
+        },
+        {
+            "address": "Genki Noodles and Sushi, 5590 Roswell Rd, Sandy Springs, GA 30342",
+            "category": "['Asian fusion restaurant', 'Bar', 'Caterer', 'Family restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/03/08",
+            "gmap_id": "0x88f50ee96c4e539b:0xec812bfa1e00c938",
+            "iid": 15851,
+            "name": "Genki Noodles and Sushi",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1552066346361
+        },
+        {
+            "address": "Breakers Korean BBQ - Atlanta, 4400 Ashford Crossing, Dunwoody, GA 30346",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2019/05/24",
+            "gmap_id": "0x88f5090c7259ec87:0x4aa051119b1ceafb",
+            "iid": 15812,
+            "name": "Breakers Korean BBQ - Atlanta",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1558717889040
+        },
+        {
+            "address": "JINYA Ramen Bar - Sandy Springs, 5975 Roswell Rd Suite B217, Sandy Springs, GA 30328",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/11/08",
+            "gmap_id": "0x88f50e9432e05599:0x726396db4af3458f",
+            "iid": 15847,
+            "name": "JINYA Ramen Bar - Sandy Springs",
+            "split": "valid",
+            "state": "Georgia",
+            "unix_time": 1573254031280
+        },
+        {
+            "address": "Okiboru Tsukemen & Ramen, 6125 Roswell Rd Suite 800, Atlanta, GA 30328",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2020/01/24",
+            "gmap_id": "0x88f50fcbee22a319:0x7189dc84ee8372d",
+            "iid": 15861,
+            "name": "Okiboru Tsukemen & Ramen",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1579897960996
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "JINYA Ramen Bar - Sandy Springs, 5975 Roswell Rd Suite B217, Sandy Springs, GA 30328",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x88f50e9432e05599:0x726396db4af3458f",
+            "iid": 15847,
+            "name": "JINYA Ramen Bar - Sandy Springs",
+            "rank": 1,
+            "score": 12.079331398010254,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 6035 Peachtree Rd Unit A107-A110, Doraville, GA 30360",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f509c197fa5db7:0xb5aad7a4fa93f4a4",
+            "iid": 15827,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 2,
+            "score": 10.936678886413574,
+            "state": "Georgia"
+        },
+        {
+            "address": "Shoya Izakaya, 6035 Peachtree Rd A101, Doraville, GA 30340",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f509db658d9175:0x4887e093c36cd148",
+            "iid": 15830,
+            "name": "Shoya Izakaya",
+            "rank": 3,
+            "score": 10.68676471710205,
+            "state": "Georgia"
+        },
+        {
+            "address": "Wagaya - Westside, 339 14th St NW, Atlanta, GA 30318",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f504f5d7376a6b:0xf4ccbc33d7c234f5",
+            "iid": 15750,
+            "name": "Wagaya - Westside",
+            "rank": 4,
+            "score": 9.984545707702637,
+            "state": "Georgia"
+        },
+        {
+            "address": "Ginya Izakaya, 1700, 6 Northside Dr NW Ste.A-5, A, Atlanta, GA 30318",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Ramen restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f504e319172161:0x5e2c0ec51b3b1f93",
+            "iid": 15747,
+            "name": "Ginya Izakaya",
+            "rank": 5,
+            "score": 9.767934799194336,
+            "state": "Georgia"
+        },
+        {
+            "address": "Breakers Korean BBQ - Duluth, 3505 Gwinnett Pl Dr NW #101, Duluth, GA 30096",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x88f5a310a3a5de75:0xbcfc8805694a81b4",
+            "iid": 16038,
+            "name": "Breakers Korean BBQ - Duluth",
+            "rank": 6,
+            "score": 9.383508682250977,
+            "state": "Georgia"
+        },
+        {
+            "address": "Ru Sans Sushi and Seafood, 3365 Piedmont Rd NE, Atlanta, GA 30305",
+            "category": "['Sushi restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x88f505f57f415aa1:0xeecd08f82de03471",
+            "iid": 15780,
+            "name": "Ru Sans Sushi and Seafood",
+            "rank": 7,
+            "score": 9.056181907653809,
+            "state": "Georgia"
+        },
+        {
+            "address": "Nakato Japanese Restaurant, 1776 Cheshire Bridge Rd NE, Atlanta, GA 30324",
+            "category": "['Japanese restaurant', 'Bar', 'Bar & grill', 'Takeout Restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Teppanyaki restaurant']",
+            "gmap_id": "0x88f505d1e1c4c597:0x89f92e46db8a18c",
+            "iid": 15771,
+            "name": "Nakato Japanese Restaurant",
+            "rank": 8,
+            "score": 8.800739288330078,
+            "state": "Georgia"
+        },
+        {
+            "address": "Tokyo Bay Japanese Restaurant, 925 Holcomb Bridge Rd, Roswell, GA 30076",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f574b58531f5e1:0x2d97dfdd56bdfdcc",
+            "iid": 15947,
+            "name": "Tokyo Bay Japanese Restaurant",
+            "rank": 9,
+            "score": 8.728830337524414,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kang Nam, 5715 Buford Hwy NE # 101, Atlanta, GA 30340",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f5a7603626d80f:0xd50383ec9d589cbf",
+            "iid": 16050,
+            "name": "Kang Nam",
+            "rank": 10,
+            "score": 8.366576194763184,
+            "state": "Georgia"
+        },
+        {
+            "address": "The Cowfish, 4400 Ashford Dunwoody Rd NE, Atlanta, GA 30346",
+            "category": "['Sushi restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x88f5095ad467245f:0x663c963d93cefbdc",
+            "iid": 15821,
+            "name": "The Cowfish",
+            "rank": 11,
+            "score": 8.239622116088867,
+            "state": "Georgia"
+        },
+        {
+            "address": "Kuroshio Sushi Bar and Grille at Cumberland, 2700 Cobb Pkwy B3, Smyrna, GA 30080",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar & grill', 'Japanese restaurant']",
+            "gmap_id": "0x88f51050e490ce69:0x227f46ae6da6512c",
+            "iid": 15864,
+            "name": "Kuroshio Sushi Bar and Grille at Cumberland",
+            "rank": 12,
+            "score": 8.229166984558105,
+            "state": "Georgia"
+        },
+        {
+            "address": "LanZhou Ramen \u5170\u5dde\u62c9\u9762, 5231 Buford Hwy NE, Doraville, GA 30340",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x88f509ce541bca67:0x43d40571174b99fc",
+            "iid": 15828,
+            "name": "LanZhou Ramen \u5170\u5dde\u62c9\u9762",
+            "rank": 13,
+            "score": 8.226943969726562,
+            "state": "Georgia"
+        },
+        {
+            "address": "Hajime, 2345 Cheshire Bridge Rd NE UNIT 101, Atlanta, GA 30324",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f506743e310ca3:0x43434a6360340c31",
+            "iid": 15788,
+            "name": "Hajime",
+            "rank": 14,
+            "score": 8.179281234741211,
+            "state": "Georgia"
+        },
+        {
+            "address": "Thaicoon & Sushi Bar, 1799 Briarcliff Rd NE Suite W, Atlanta, GA 30306",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f506611beb0709:0x9f7a420d5de57be2",
+            "iid": 15786,
+            "name": "Thaicoon & Sushi Bar",
+            "rank": 15,
+            "score": 8.177261352539062,
+            "state": "Georgia"
+        },
+        {
+            "address": "Fumi Hibachi Sushi, 3550 Mall Blvd NW, Duluth, GA 30096",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f5a310732af475:0x9bd2c448977cea60",
+            "iid": 16037,
+            "name": "Fumi Hibachi Sushi",
+            "rank": 16,
+            "score": 8.174419403076172,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sushi Kiku, 2770 Lenox Rd NE, Atlanta, GA 30324",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f505e23547fc31:0xb2e30d1ab5cbd3c2",
+            "iid": 15774,
+            "name": "Sushi Kiku",
+            "rank": 17,
+            "score": 8.02692985534668,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sushi Nami, 5610 Glenridge Dr, Sandy Springs, GA 30342",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88f50ecf56995bfb:0xfe3c37c7a1fcb229",
+            "iid": 15850,
+            "name": "Sushi Nami",
+            "rank": 18,
+            "score": 7.989625453948975,
+            "state": "Georgia"
+        },
+        {
+            "address": "Eight Sushi Lounge, 930 Howell Mill Rd NW, Atlanta, GA 30318",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88f50493632b18c5:0xc0abdef522725b72",
+            "iid": 15744,
+            "name": "Eight Sushi Lounge",
+            "rank": 19,
+            "score": 7.8603057861328125,
+            "state": "Georgia"
+        },
+        {
+            "address": "SriThai: Thai kitchen & sushi bar, 4500 Satellite Blvd #1360, Duluth, GA 30096",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f5a393fa1b75f9:0x1213d8235c25cb85",
+            "iid": 16041,
+            "name": "SriThai: Thai kitchen & sushi bar",
+            "rank": 20,
+            "score": 7.850834369659424,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Nicholas Holmes",
+        "uid": 50803,
+        "user_id": 106843734426973931962
+    }
+}

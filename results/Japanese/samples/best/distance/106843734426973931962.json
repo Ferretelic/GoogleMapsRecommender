@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Mito, 6470 Spalding Dr, Peachtree Corners, GA 30092",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/09/03",
+            "gmap_id": "0x88f5a08f688ce4a3:0x900481f87cb220bd",
+            "iid": 16019,
+            "name": "Sushi Mito",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1504406342685
+        },
+        {
+            "address": "Ramen Bar by Hajime, 4180 Old Milton Parkway #1-H, Alpharetta, GA 30005",
+            "category": "['Japanese restaurant']",
+            "date": "2018/06/02",
+            "gmap_id": "0x88f59fac5b995267:0x6f6cdd4e4142f40c",
+            "iid": 16016,
+            "name": "Ramen Bar by Hajime",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1527899592688
+        },
+        {
+            "address": "Sweet Tuna, 4511 Olde Perimeter Way #800, Atlanta, GA 30346",
+            "category": "['Sushi restaurant', 'Hawaiian restaurant', 'Seafood restaurant']",
+            "date": "2018/09/13",
+            "gmap_id": "0x88f50959f8258461:0x87af3741ba38337f",
+            "iid": 15820,
+            "name": "Sweet Tuna",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1536861174754
+        },
+        {
+            "address": "Nori Nori, 6690 Roswell Rd Suite 2110, Sandy Springs, GA 30328",
+            "category": "['Sushi restaurant', 'Buffet restaurant', 'Restaurant']",
+            "date": "2018/11/09",
+            "gmap_id": "0x88f50c208b3ad2ff:0x662a5300e11a1f3a",
+            "iid": 15840,
+            "name": "Nori Nori",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1541787579651
+        },
+        {
+            "address": "Yuzu Sushi, 5193 Peachtree Blvd #E, Chamblee, GA 30341",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/27",
+            "gmap_id": "0x88f509aedf950747:0xe8d0f19ea8425738",
+            "iid": 15825,
+            "name": "Yuzu Sushi",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1548624642582
+        },
+        {
+            "address": "JINYA Ramen Bar - Buckhead, 3714 Roswell Rd Unit 35, Atlanta, GA 30342",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/01/27",
+            "gmap_id": "0x88f50f659a18a43d:0xd97d3517a79321db",
+            "iid": 15858,
+            "name": "JINYA Ramen Bar - Buckhead",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1548624764285
+        },
+        {
+            "address": "Genki Noodles and Sushi, 5590 Roswell Rd, Sandy Springs, GA 30342",
+            "category": "['Asian fusion restaurant', 'Bar', 'Caterer', 'Family restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/03/08",
+            "gmap_id": "0x88f50ee96c4e539b:0xec812bfa1e00c938",
+            "iid": 15851,
+            "name": "Genki Noodles and Sushi",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1552066346361
+        },
+        {
+            "address": "Breakers Korean BBQ - Atlanta, 4400 Ashford Crossing, Dunwoody, GA 30346",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Barbecue restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Steak house', 'Sushi restaurant']",
+            "date": "2019/05/24",
+            "gmap_id": "0x88f5090c7259ec87:0x4aa051119b1ceafb",
+            "iid": 15812,
+            "name": "Breakers Korean BBQ - Atlanta",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1558717889040
+        },
+        {
+            "address": "JINYA Ramen Bar - Sandy Springs, 5975 Roswell Rd Suite B217, Sandy Springs, GA 30328",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/11/08",
+            "gmap_id": "0x88f50e9432e05599:0x726396db4af3458f",
+            "iid": 15847,
+            "name": "JINYA Ramen Bar - Sandy Springs",
+            "split": "valid",
+            "state": "Georgia",
+            "unix_time": 1573254031280
+        },
+        {
+            "address": "Okiboru Tsukemen & Ramen, 6125 Roswell Rd Suite 800, Atlanta, GA 30328",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2020/01/24",
+            "gmap_id": "0x88f50fcbee22a319:0x7189dc84ee8372d",
+            "iid": 15861,
+            "name": "Okiboru Tsukemen & Ramen",
+            "split": "test",
+            "state": "Georgia",
+            "unix_time": 1579897960996
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Gyro & Teriyaki, 6681 Roswell Rd # H, Sandy Springs, GA 30328",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88f50c2085ac8841:0x8d9246fd042a5364",
+            "iid": 15839,
+            "name": "Gyro & Teriyaki",
+            "rank": 1,
+            "score": -2.5550589561462402,
+            "state": "Georgia"
+        },
+        {
+            "address": "Blue Grotto Sushi, Tapas & Bar, 220 Sandy Springs Cir UNIT 205, Sandy Springs, GA 30328",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Restaurant', 'Spanish restaurant']",
+            "gmap_id": "0x88f50e9078a47855:0xc3b9c286213f81ec",
+            "iid": 15846,
+            "name": "Blue Grotto Sushi, Tapas & Bar",
+            "rank": 2,
+            "score": -2.5944745540618896,
+            "state": "Georgia"
+        },
+        {
+            "address": "Poke Bar (Chastain Park), 4920 Roswell Rd Ste 47, Sandy Springs, GA 30342",
+            "category": "['Sushi restaurant', 'Health food restaurant', 'Korean barbecue restaurant', 'Lunch restaurant', 'Restaurant']",
+            "gmap_id": "0x88f50f1c4e4787c5:0x55eee6d3c520bd7",
+            "iid": 15852,
+            "name": "Poke Bar (Chastain Park)",
+            "rank": 3,
+            "score": -2.696654796600342,
+            "state": "Georgia"
+        },
+        {
+            "address": "Vegas Test Kitchen, 1020 E Fremont St #120, Las Vegas, NV 89101",
+            "category": "['American restaurant', 'Asian restaurant', 'Bagel shop', 'Pie shop', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c36d11539e27:0xc136ddffaf461845",
+            "iid": 5249,
+            "name": "Vegas Test Kitchen",
+            "rank": 4,
+            "score": -2.7766008377075195,
+            "state": "Nevada"
+        },
+        {
+            "address": "Aki Kushiyaki, 2106 E Madison St, Seattle, WA 98112",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54906b2d601dd8e3:0xbf5a8042f7137364",
+            "iid": 788,
+            "name": "Aki Kushiyaki",
+            "rank": 5,
+            "score": -2.7766735553741455,
+            "state": "Washington"
+        },
+        {
+            "address": "Yamazaki Sushi & Steaks, 1405 NE McWilliams Rd, Bremerton, WA 98311",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x54903b372e11d3e3:0xd04da02cfc3a930",
+            "iid": 587,
+            "name": "Yamazaki Sushi & Steaks",
+            "rank": 6,
+            "score": -2.7767488956451416,
+            "state": "Washington"
+        },
+        {
+            "address": "Silverlake Ramen, 12540 120th Ave NE #118, Kirkland, WA 98034",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54900d24f7b20a4b:0x28b4033fd1f25e00",
+            "iid": 408,
+            "name": "Silverlake Ramen",
+            "rank": 7,
+            "score": -2.7769761085510254,
+            "state": "Washington"
+        },
+        {
+            "address": "Wolverine Sushi Bar, 413 E Huron St Suite C, Ann Arbor, MI 48104",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x883cafe8bd090ea7:0xce3baa9d92168105",
+            "iid": 12218,
+            "name": "Wolverine Sushi Bar",
+            "rank": 8,
+            "score": -2.7772936820983887,
+            "state": "Michigan"
+        },
+        {
+            "address": "Daigo Sushi Roll Bar, 527 Carroll St, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c25b0fe7bea7e1:0xf02d1650e1e8923b",
+            "iid": 18707,
+            "name": "Daigo Sushi Roll Bar",
+            "rank": 9,
+            "score": -2.777738094329834,
+            "state": "New_York"
+        },
+        {
+            "address": "Washington, Spokane Valley, N Sullivan Rd, Kokoro Ramen\u90ae\u653f\u7f16\u7801: 99037",
+            "category": "['Traditional restaurant', 'Bubble tea store', 'Ramen restaurant']",
+            "gmap_id": "0x5361df4fe4742aff:0x5198cb1eee31893a",
+            "iid": 272,
+            "name": "Kokoro Ramen",
+            "rank": 10,
+            "score": -2.777911901473999,
+            "state": "Washington"
+        },
+        {
+            "address": "Donburi Station Bellevue, 14339 NE 20th St Ste E, Bellevue, WA 98007",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54906d9f5fd8d82d:0x2ef566f33cf5ddb9",
+            "iid": 833,
+            "name": "Donburi Station Bellevue",
+            "rank": 11,
+            "score": -2.77799391746521,
+            "state": "Washington"
+        },
+        {
+            "address": "Sushi Damu, 3651 Justin Rd #140, Flower Mound, TX 75028",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864c33380e63aa97:0x6865c75ec094564f",
+            "iid": 8051,
+            "name": "Sushi Damu",
+            "rank": 12,
+            "score": -2.778064727783203,
+            "state": "Texas"
+        },
+        {
+            "address": "Love Sushi, 2658 Mount Vernon Ave unit B, Bakersfield, CA 93306",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80ea691b77d1a677:0xa61ff50f6055eb5b",
+            "iid": 6908,
+            "name": "Love Sushi",
+            "rank": 13,
+            "score": -2.7780826091766357,
+            "state": "California"
+        },
+        {
+            "address": "Tatsumi Sushi, 2700 W Anderson Ln Suite #212, Austin, TX 78757",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8644cbb00ec3d055:0x1f231d4f68cbafe7",
+            "iid": 7699,
+            "name": "Tatsumi Sushi",
+            "rank": 14,
+            "score": -2.7780871391296387,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyo Hibachi (under construction), 2140 Salem Rd SE, Conyers, GA 30013",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f44b0a3d11e1c1:0xd805e150fb8e7847",
+            "iid": 15672,
+            "name": "Tokyo Hibachi (under construction)",
+            "rank": 15,
+            "score": -2.778102159500122,
+            "state": "Georgia"
+        },
+        {
+            "address": "Bonchon Dinkytown, 406 14th Ave SE, Minneapolis, MN 55414",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x52b32d5f3ea67b89:0x84bc5ea7a618bc0c",
+            "iid": 143,
+            "name": "Bonchon Dinkytown",
+            "rank": 16,
+            "score": -2.778167247772217,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Yokohama Greenwood, Yokohama, 67 N Madison Ave, Greenwood, IN 46142",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886b5d1755970877:0x2989b805c12417ab",
+            "iid": 13444,
+            "name": "Yokohama Greenwood",
+            "rank": 17,
+            "score": -2.7781851291656494,
+            "state": "Indiana"
+        },
+        {
+            "address": "Nosu Ramen, 700 12th St #150, Golden, CO 80401",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x876b9ba8d9d55251:0xada457d4caa66b84",
+            "iid": 9593,
+            "name": "Nosu Ramen",
+            "rank": 18,
+            "score": -2.7782864570617676,
+            "state": "Colorado"
+        },
+        {
+            "address": "Kissaki Sushi, 28-17 Jackson Ave, Queens, NY 11101",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Kaiseki restaurant']",
+            "gmap_id": "0x89c259f1a6c27fdf:0x2d014683ad971821",
+            "iid": 18607,
+            "name": "Kissaki Sushi",
+            "rank": 19,
+            "score": -2.7782883644104004,
+            "state": "New_York"
+        },
+        {
+            "address": "Rayaki Ramen Philadelphia, 2818 Cottman Ave, Philadelphia, PA 19149",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c6b5eef0ea4bb1:0x82b6f216b160f06b",
+            "iid": 20053,
+            "name": "Rayaki Ramen Philadelphia",
+            "rank": 20,
+            "score": -2.7783827781677246,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Nicholas Holmes",
+        "uid": 50803,
+        "user_id": 106843734426973931962
+    }
+}

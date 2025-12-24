@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hibachi Grill & Noodle Bar, 45 NE 3rd Ave, Miami, FL 33131",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Noodle shop', 'Pan-Asian restaurant', 'Thai restaurant']",
+            "date": "2018/06/21",
+            "gmap_id": "0x88d9b69e0f7da63b:0x5156fe0a1a6ebc08",
+            "iid": 14728,
+            "name": "Hibachi Grill & Noodle Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1529548556675
+        },
+        {
+            "address": "Tokyo Japanese Cuisine, 211 Main St, Oneonta, NY 13820",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/10/28",
+            "gmap_id": "0x89db8c780ce575d3:0x366e6d6906ee26ac",
+            "iid": 20647,
+            "name": "Tokyo Japanese Cuisine",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1540738944148
+        },
+        {
+            "address": "Futo Buta, 222 E Bland St, Charlotte, NC 28203",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "date": "2019/04/09",
+            "gmap_id": "0x88569f7f7b682e6b:0xfd63c45a39aee275",
+            "iid": 12773,
+            "name": "Futo Buta",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1554818295515
+        },
+        {
+            "address": "Bleu Monkey Cafe, 163 Marshall St, Syracuse, NY 13210",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/04/11",
+            "gmap_id": "0x89d9f3a1c166cabf:0xd89036cbadaf770b",
+            "iid": 20638,
+            "name": "Bleu Monkey Cafe",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1555006199697
+        },
+        {
+            "address": "Pok'e Noodle, 9090 Destiny USA Dr #9748, Syracuse, NY 13204",
+            "category": "['Japanese restaurant', 'Hawaiian restaurant', 'Ramen restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x89d9f22955a524ed:0x5e45f00094853fd7",
+            "iid": 20630,
+            "name": "Pok'e Noodle",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1555201840420
+        },
+        {
+            "address": "Mt Fuji Japanese Restaurant, 5006 NY-23, Oneonta, NY 13820",
+            "category": "['Sushi restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89db8bbd684327c9:0xc7cfddab6ebe6700",
+            "iid": 20646,
+            "name": "Mt Fuji Japanese Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1555812051139
+        },
+        {
+            "address": "Kasai, 218 Walton St, Syracuse, NY 13202",
+            "category": "['Ramen restaurant', 'Bar', 'Izakaya restaurant']",
+            "date": "2019/05/11",
+            "gmap_id": "0x89d9f3dd8504ff55:0x699893bb3c57fcc8",
+            "iid": 20640,
+            "name": "Kasai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1557614062508
+        },
+        {
+            "address": "P.F. Chang's, 306 Hiawatha Blvd W Spc H-111, Syracuse, NY 13204",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/05/20",
+            "gmap_id": "0x89d9f22f22b16a65:0xfe533ef7da1e0e95",
+            "iid": 20632,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1558388629237
+        },
+        {
+            "address": "Ocean Sushi, 7567 Oswego Rd #3, Liverpool, NY 13090",
+            "category": "['Sushi restaurant']",
+            "date": "2019/05/26",
+            "gmap_id": "0x89d9efb299b9ac3d:0x7b0c317259bc4162",
+            "iid": 20626,
+            "name": "Ocean Sushi",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1558866193389
+        },
+        {
+            "address": "Oishii Bento, 119 Oakland Ave, Pittsburgh, PA 15213",
+            "category": "['Korean restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/06/13",
+            "gmap_id": "0x8834f229952e1931:0xeb459d805bb47d15",
+            "iid": 11978,
+            "name": "Oishii Bento",
+            "split": "test",
+            "state": "Pennsylvania",
+            "unix_time": 1560393614131
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Koto Japanese Steakhouse & Sushi, 9331 Destiny USA Dr, Syracuse, NY 13204",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89d9f2295d48cadb:0x292fad1d311f5ff9",
+            "iid": 20631,
+            "name": "Koto Japanese Steakhouse & Sushi",
+            "rank": 1,
+            "score": 0.7965993881225586,
+            "state": "New_York"
+        },
+        {
+            "address": "New York, Syracuse, Onondaga Blvd, Yamasho sushi steakhouse\u90ae\u653f\u7f16\u7801: 13219",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89d9f14e48f1e089:0x32ba90758ff92f73",
+            "iid": 20628,
+            "name": "Yamasho sushi steakhouse",
+            "rank": 2,
+            "score": 0.7939698696136475,
+            "state": "New_York"
+        },
+        {
+            "address": "Sakana-Ya Sushi Bar, 215 Walton St, Syracuse, NY 13202",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89d9f3c0b35efe69:0x3d5ea3f42176a546",
+            "iid": 20639,
+            "name": "Sakana-Ya Sushi Bar",
+            "rank": 3,
+            "score": 0.7931118607521057,
+            "state": "New_York"
+        },
+        {
+            "address": "Aloha Japanese Bento, 217 S Salina St #3, Syracuse, NY 13202",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89d9f3f20a601181:0xda56462aef829b4d",
+            "iid": 20641,
+            "name": "Aloha Japanese Bento",
+            "rank": 4,
+            "score": 0.782793402671814,
+            "state": "New_York"
+        },
+        {
+            "address": "Ocean Sushi, 7567 Oswego Rd #3, Liverpool, NY 13090",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89d9efb299b9ac3d:0x7b0c317259bc4162",
+            "iid": 20626,
+            "name": "Ocean Sushi",
+            "rank": 5,
+            "score": 0.782456636428833,
+            "state": "New_York"
+        },
+        {
+            "address": "Ichiban Japanese Steakhouse, 302 Old Liverpool Rd, Liverpool, NY 13088",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d9f1f36e8231ff:0x66f1989f805e26fa",
+            "iid": 20629,
+            "name": "Ichiban Japanese Steakhouse",
+            "rank": 6,
+            "score": 0.7701400518417358,
+            "state": "New_York"
+        },
+        {
+            "address": "Asahi, 508 Westcott St, Syracuse, NY 13210",
+            "category": "['Sushi restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x89d9f3126f58e0a7:0x30cdebfdc06e2cb1",
+            "iid": 20635,
+            "name": "Asahi",
+            "rank": 7,
+            "score": 0.7667666077613831,
+            "state": "New_York"
+        },
+        {
+            "address": "Sake Bomb, 8081 Brewerton Rd, Cicero, NY 13039",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x89d9ed1545da2579:0xbf0ba4d0b65a9e30",
+            "iid": 20625,
+            "name": "Sake Bomb",
+            "rank": 8,
+            "score": 0.7607227563858032,
+            "state": "New_York"
+        },
+        {
+            "address": "Firudo Asian Food & Bar, 3237 Erie Blvd E, Syracuse, NY 13214",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Family restaurant', 'Soup restaurant']",
+            "gmap_id": "0x89d9f2d4d8d3ed63:0xce870b5569f2d763",
+            "iid": 20633,
+            "name": "Firudo Asian Food & Bar",
+            "rank": 9,
+            "score": 0.7504157423973083,
+            "state": "New_York"
+        },
+        {
+            "address": "Mitsuba Ramen Noodle, 3206 Erie Blvd E, Syracuse, NY 13214",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "gmap_id": "0x89d98d3651ddde69:0x2ca87923d3f0d0db",
+            "iid": 20623,
+            "name": "Mitsuba Ramen Noodle",
+            "rank": 10,
+            "score": 0.740300178527832,
+            "state": "New_York"
+        },
+        {
+            "address": "Oishi Restaurant, 701-5 S Crouse Ave, Syracuse, NY 13210",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89d9f3a1bdedc3bd:0xe94c46f7ae1cc396",
+            "iid": 20637,
+            "name": "Oishi Restaurant",
+            "rank": 11,
+            "score": 0.7388867735862732,
+            "state": "New_York"
+        },
+        {
+            "address": "Mitsuba, 174 Township Blvd #10, Camillus, NY 13031",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d9f0a00f804883:0xb3d12492cead555",
+            "iid": 20627,
+            "name": "Mitsuba",
+            "rank": 12,
+            "score": 0.7290732264518738,
+            "state": "New_York"
+        },
+        {
+            "address": "Secret Garden, 2731 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89d9f32801a09419:0xf56eee4f8cd060d5",
+            "iid": 20636,
+            "name": "Secret Garden",
+            "rank": 13,
+            "score": 0.7233781218528748,
+            "state": "New_York"
+        },
+        {
+            "address": "Mizu, 2841 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x89d9f2d63f506ef9:0xb3aa8565e9dafd0a",
+            "iid": 20634,
+            "name": "Mizu",
+            "rank": 14,
+            "score": 0.6962853074073792,
+            "state": "New_York"
+        },
+        {
+            "address": "Good Time Sushi, 301 Fayette St, Manlius, NY 13104",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89d98ead69f9fbc9:0x15285bdf61bbeec8",
+            "iid": 20624,
+            "name": "Good Time Sushi",
+            "rank": 15,
+            "score": 0.6954105496406555,
+            "state": "New_York"
+        },
+        {
+            "address": "Toscana Italian Fusion & Grill, 64 Main St, Cooperstown, NY 13326",
+            "category": "['Italian restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x89dc0726fd610135:0x7925a6c902f37139",
+            "iid": 20650,
+            "name": "Toscana Italian Fusion & Grill",
+            "rank": 16,
+            "score": 0.6719093918800354,
+            "state": "New_York"
+        },
+        {
+            "address": "Kyoko's Japanese Restaurant, 111 Brooklea Dr, Fayetteville, NY 13066",
+            "category": "['Japanese restaurant', 'Steak house']",
+            "gmap_id": "0x89d98c392c9bb707:0xc5622f3b0a705d5c",
+            "iid": 20622,
+            "name": "Kyoko's Japanese Restaurant",
+            "rank": 17,
+            "score": 0.6695871353149414,
+            "state": "New_York"
+        },
+        {
+            "address": "Mt Fuji sushi resturant, 134 Main St, Cooperstown, NY 13326",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89dc07268f4e0225:0xded12326b55492d0",
+            "iid": 20649,
+            "name": "Mt Fuji sushi resturant",
+            "rank": 18,
+            "score": 0.6400602459907532,
+            "state": "New_York"
+        },
+        {
+            "address": "Asian Temptation Modern Asian Cuisine, 748 NY-28, Oneonta, NY 13820",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89db8b8c3a9f2639:0x4087496fa07ff587",
+            "iid": 20645,
+            "name": "Asian Temptation Modern Asian Cuisine",
+            "rank": 19,
+            "score": 0.6384440660476685,
+            "state": "New_York"
+        },
+        {
+            "address": "Tiger Asian Cuisine, 195 Main St, Oneonta, NY 13820",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89db8c781165a40f:0x23535e6e90a00874",
+            "iid": 20648,
+            "name": "Tiger Asian Cuisine",
+            "rank": 20,
+            "score": 0.6292824149131775,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Dominic Artuso",
+        "uid": 127304,
+        "user_id": 117199476274757105230
+    }
+}

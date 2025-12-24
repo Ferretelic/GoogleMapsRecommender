@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mt. Fuji, 309 W Cardinal Blvd, Louisville, KY 40208",
+            "category": "['Japanese restaurant']",
+            "date": "2018/03/25",
+            "gmap_id": "0x88690d5e750b5bc3:0xfe9f2cc7b5693f33",
+            "iid": 13349,
+            "name": "Mt. Fuji",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522018046122
+        },
+        {
+            "address": "Fuji Asian Bistro, 6801 Dixie Hwy Ste 102, Louisville, KY 40258",
+            "category": "['Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x8869115a366431c7:0xd73c285d9408b97a",
+            "iid": 13351,
+            "name": "Fuji Asian Bistro",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522326797607
+        },
+        {
+            "address": "Sapporo Japanese Grill & Sushi, 1706 Bardstown Rd, Louisville, KY 40205",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x88690cb7b114d637:0x2505b84d7fefc412",
+            "iid": 13346,
+            "name": "Sapporo Japanese Grill & Sushi",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522326930022
+        },
+        {
+            "address": "Tea Station Asian Bistro, 9422 Norton Commons Blvd, Prospect, KY 40059",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/23",
+            "gmap_id": "0x88699dd3d11f4dc7:0x7caded1cff772dfa",
+            "iid": 13384,
+            "name": "Tea Station Asian Bistro",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1524522661904
+        },
+        {
+            "address": "FUSIAN, 8060 Montgomery Rd #100, Cincinnati, OH 45236",
+            "category": "['Asian restaurant', 'Grocery delivery service', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "date": "2018/06/03",
+            "gmap_id": "0x884053417a94e3f3:0xd74b0dccf7ed76c3",
+            "iid": 12271,
+            "name": "FUSIAN",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1527987813905
+        },
+        {
+            "address": "Sakura Blue, 4600 Shelbyville Rd #118, Louisville, KY 40207",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/05",
+            "gmap_id": "0x8869753b8f0d209f:0xccdae23a24d6c72b",
+            "iid": 13370,
+            "name": "Sakura Blue",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1551814009447
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/05/15",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 12259,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1557888195695
+        },
+        {
+            "address": "ToGo Sushi, 700 Lyndon Ln, Louisville, KY 40222",
+            "category": "['Sushi restaurant']",
+            "date": "2019/12/30",
+            "gmap_id": "0x8869756173b3ccbd:0x3766b43815c820f3",
+            "iid": 13371,
+            "name": "ToGo Sushi",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1577740821998
+        },
+        {
+            "address": "Bamboo Sushi Bar & Hibachi, 2505 S Ferdon Blvd, Crestview, FL 32536",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2020/01/20",
+            "gmap_id": "0x88917343a0be528f:0x8d6ac2318a65bfaa",
+            "iid": 13830,
+            "name": "Bamboo Sushi Bar & Hibachi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1579480281814
+        },
+        {
+            "address": "Dragon King's Daughter, 129 W Market St, New Albany, IN 47150",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Raw food restaurant', 'Sushi restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x88696c59271c543f:0x6a305d4240bb0d0",
+            "iid": 13354,
+            "name": "Dragon King's Daughter",
+            "split": "test",
+            "state": "Indiana",
+            "unix_time": 1619395873607
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Raw Sushi Bar and Grill, 1407 E Crystal Dr, La Grange, KY 40031",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x88698e18654ffc5f:0x6d27fa9487db4d69",
+            "iid": 13377,
+            "name": "Raw Sushi Bar and Grill",
+            "rank": 1,
+            "score": -9.83736801147461,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Jumbo Buffet, 1218 Market St, La Grange, KY 40031",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88698e1d97ba01e1:0x9a4dbb7133e0efb8",
+            "iid": 13378,
+            "name": "Jumbo Buffet",
+            "rank": 2,
+            "score": -10.725274085998535,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Rikishi, 6110 Crestwood Station, Crestwood, KY 40014",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88699a460daf0593:0x60a38ca3fb43821b",
+            "iid": 13382,
+            "name": "Rikishi",
+            "rank": 3,
+            "score": -19.037221908569336,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Asahi Japanese Restaurant (II), 6001 Pleasant Colony Ct #8, Crestwood, KY 40014",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x88699a30a54eba67:0xb05deefce229231",
+            "iid": 13381,
+            "name": "Asahi Japanese Restaurant (II)",
+            "rank": 4,
+            "score": -20.143125534057617,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Sushi Master, 9415 Norton Commons Blvd #101, Prospect, KY 40059",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88699d38a30a0151:0xa89e01a36cb19b98",
+            "iid": 13383,
+            "name": "Sushi Master",
+            "rank": 5,
+            "score": -25.510997772216797,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Shogun, 4110 Hampton Lake Way, Louisville, KY 40241",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88699e9226774a1d:0x3578e04fc520cce4",
+            "iid": 13387,
+            "name": "Shogun",
+            "rank": 6,
+            "score": -26.533422470092773,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Yamato, 1084 Market St, Charlestown, IN 47111",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x8869799ff155b2f3:0xd84e505b6ca0a23e",
+            "iid": 13376,
+            "name": "Yamato",
+            "rank": 7,
+            "score": -26.893369674682617,
+            "state": "Indiana"
+        },
+        {
+            "address": "Fuji Japanese Steakhouse, 3576 Springhurst Blvd, Louisville, KY 40241",
+            "category": "['Japanese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x88699e6029a7433d:0x717966124a582cbd",
+            "iid": 13385,
+            "name": "Fuji Japanese Steakhouse",
+            "rank": 8,
+            "score": -27.398664474487305,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Drake's Paddock Shops, 3921 Summit Plaza Dr, Louisville, KY 40241",
+            "category": "['American restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88699e71fa2c587f:0x403e55ae875c606c",
+            "iid": 13386,
+            "name": "Drake's Paddock Shops",
+            "rank": 9,
+            "score": -27.443056106567383,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Arata Sushi, 9207 US-42, Prospect, KY 40059",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8869763e1e47336f:0x250f3034a5212734",
+            "iid": 13375,
+            "name": "Arata Sushi",
+            "rank": 10,
+            "score": -27.771909713745117,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Jasmine Szechuan Chinese Cuisine and Tsubaki Sushi Bar, 13825 English Villa Dr, Louisville, KY 40245",
+            "category": "['Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88699899e85e7231:0x79304640890a1a99",
+            "iid": 13379,
+            "name": "Jasmine Szechuan Chinese Cuisine and Tsubaki Sushi Bar",
+            "rank": 11,
+            "score": -30.02935218811035,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Samurai Sushi And Hibachi, 12905 Shelbyville Rd, Louisville, KY 40243",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x886998b2504c615d:0xa41e5c456bc39fcd",
+            "iid": 13380,
+            "name": "Samurai Sushi And Hibachi",
+            "rank": 12,
+            "score": -30.454439163208008,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Masa Japanese Bistro & Sushi, 12336 Shelbyville Rd, Louisville, KY 40243",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88699f4ec681c93f:0x5f6f6ab71ee3cbe5",
+            "iid": 13388,
+            "name": "Masa Japanese Bistro & Sushi",
+            "rank": 13,
+            "score": -30.650442123413086,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Yamato Japanese Steakhouse, 140 Clifty Dr, Madison, IN 47250",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x886a3ba922321e53:0x6805972e0d01730d",
+            "iid": 13396,
+            "name": "Yamato Japanese Steakhouse",
+            "rank": 14,
+            "score": -31.814645767211914,
+            "state": "Indiana"
+        },
+        {
+            "address": "Sushi Bar, 630 Clifty Dr, Madison, IN 47250",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x886a3a54460f16c9:0xb9ac83e6e31e4e99",
+            "iid": 13395,
+            "name": "Sushi Bar",
+            "rank": 15,
+            "score": -31.847339630126953,
+            "state": "Indiana"
+        },
+        {
+            "address": "Jasmine Asian Bistro, 2420 Lime Kiln Ln, Louisville, KY 40222",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Takeout Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x886975e0d1b6765b:0x6180cf9019191691",
+            "iid": 13374,
+            "name": "Jasmine Asian Bistro",
+            "rank": 16,
+            "score": -32.305511474609375,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Tokyo Restaurant, 2415 Lime Kiln Ln C, Louisville, KY 40222",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886975a37da5dc4f:0xa51b7c5524a8ca94",
+            "iid": 13373,
+            "name": "Tokyo Restaurant",
+            "rank": 17,
+            "score": -32.31328201293945,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Ginza Asian Bistro, 9420 Shelbyville Rd, Louisville, KY 40222",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88699fbca6f98ad5:0x2da02f78ec9319bb",
+            "iid": 13390,
+            "name": "Ginza Asian Bistro",
+            "rank": 18,
+            "score": -32.81394577026367,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Hiko-A-Mon, 1115 Herr Ln Suite 130, Louisville, KY 40222",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x886975654dc77cbb:0xf70a70043828ea3",
+            "iid": 13372,
+            "name": "Hiko-A-Mon",
+            "rank": 19,
+            "score": -32.853084564208984,
+            "state": "Kentucky"
+        },
+        {
+            "address": "P.F. Chang's, 9120 Shelbyville Rd, Louisville, KY 40222",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88699f92dd39f785:0x880b104933e60978",
+            "iid": 13389,
+            "name": "P.F. Chang's",
+            "rank": 20,
+            "score": -33.03926467895508,
+            "state": "Kentucky"
+        }
+    ],
+    "user": {
+        "name": "Dereck De J",
+        "uid": 118492,
+        "user_id": 116003820119391990251
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Tikka Bistro, 1250 E Apache Blvd #116, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x872b09afa79f132b:0x7d1ff574b9e4d847",
+            "iid": 29058,
+            "name": "Tikka Bistro",
+            "rank": 1,
+            "score": 0.4566745162010193,
+            "state": "Arizona"
+        },
+        {
+            "address": "Chennai Express, 933 E University Dr, Tempe, AZ 85281",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x872b08e6fabd5f01:0x9238279e75426cf",
+            "iid": 29025,
+            "name": "Chennai Express",
+            "rank": 2,
+            "score": 0.41385412216186523,
+            "state": "Arizona"
+        },
+        {
+            "address": "Inchin's Bamboo Garden, 10050 N Scottsdale Rd Suite 121, Scottsdale, AZ 85253",
+            "category": "['Indian restaurant', 'Chinese restaurant', 'Cocktail bar', 'Halal restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x872b74eaa7f8f86d:0x803398ee6df02580",
+            "iid": 29540,
+            "name": "Inchin's Bamboo Garden",
+            "rank": 3,
+            "score": 0.41382017731666565,
+            "state": "Arizona"
+        },
+        {
+            "address": "India's Restaurant, 4366 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Family restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2c74dab8c9f3f:0xa2003ea26e4cf55f",
+            "iid": 15183,
+            "name": "India's Restaurant",
+            "rank": 4,
+            "score": 0.40975284576416016,
+            "state": "California"
+        },
+        {
+            "address": "Indias Curry Place, 311 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80c2c76811c030e3:0x622c2e1bde6348fc",
+            "iid": 15225,
+            "name": "Indias Curry Place",
+            "rank": 5,
+            "score": 0.40783438086509705,
+            "state": "California"
+        },
+        {
+            "address": "Amaravati Indian Cuisine, 710 W Elliot Rd #108, Tempe, AZ 85284",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x872b0679d003288d:0x71ee7f72c7382c69",
+            "iid": 28880,
+            "name": "Amaravati Indian Cuisine",
+            "rank": 6,
+            "score": 0.3851909637451172,
+            "state": "Arizona"
+        },
+        {
+            "address": "Udupi Indian Vegetarian & Vegan Cuisine, 1636 N Scottsdale Rd, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x872b09156aa5a38b:0xd026d8a8ddcad69b",
+            "iid": 29043,
+            "name": "Udupi Indian Vegetarian & Vegan Cuisine",
+            "rank": 7,
+            "score": 0.3773801028728485,
+            "state": "Arizona"
+        },
+        {
+            "address": "Paradise Biryani Pointe, #14, 4050 W Ray Rd, Chandler, AZ 85226",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x872b06dc52c4a6ed:0x7b92e84dbc7e76bc",
+            "iid": 28900,
+            "name": "Paradise Biryani Pointe",
+            "rank": 8,
+            "score": 0.37652769684791565,
+            "state": "Arizona"
+        },
+        {
+            "address": "Bharat Bazaar, 933 E University Dr #114, Tempe, AZ 85281",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x872b08e6fa59864f:0x63e6cbe2ac4bc074",
+            "iid": 29022,
+            "name": "Bharat Bazaar",
+            "rank": 9,
+            "score": 0.3755597770214081,
+            "state": "Arizona"
+        },
+        {
+            "address": "Lotus International Market, 2043 S Alma School Rd, Mesa, AZ 85210",
+            "category": "['Asian grocery store', 'Indian grocery store']",
+            "gmap_id": "0x872b07f5271a0653:0x4a5295d5572a294d",
+            "iid": 28968,
+            "name": "Lotus International Market",
+            "rank": 10,
+            "score": 0.37515440583229065,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sweet Magic Indo-Chinese Restaurant, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Indian sizzler restaurant', 'Indian takeaway', 'Modern Indian restaurant']",
+            "gmap_id": "0x872b719508293a35:0xc211308cd5da695e",
+            "iid": 29487,
+            "name": "Sweet Magic Indo-Chinese Restaurant",
+            "rank": 11,
+            "score": 0.35720568895339966,
+            "state": "Arizona"
+        },
+        {
+            "address": "Little India Chaat & Restaurant, 1813 E Baseline Rd #108, Tempe, AZ 85283",
+            "category": "['Indian grocery store', 'Indian restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x872b06327d4de4e9:0xd89a5a549e3ea236",
+            "iid": 28871,
+            "name": "Little India Chaat & Restaurant",
+            "rank": 12,
+            "score": 0.3483947217464447,
+            "state": "Arizona"
+        },
+        {
+            "address": "Apna Bazaar Indian Groceries, 3607 E Bell Rd #2, Phoenix, AZ 85032",
+            "category": "['Indian grocery store', 'Grocery store']",
+            "gmap_id": "0x872b719cf32372af:0x970d860d9636b2b",
+            "iid": 29490,
+            "name": "Apna Bazaar Indian Groceries",
+            "rank": 13,
+            "score": 0.3448876142501831,
+            "state": "Arizona"
+        },
+        {
+            "address": "Lotus Market, 18425 N 19th Ave #110, Phoenix, AZ 85023",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x872b6f01cada070b:0x6de2ae99f9a06c4e",
+            "iid": 29461,
+            "name": "Lotus Market",
+            "rank": 14,
+            "score": 0.34389591217041016,
+            "state": "Arizona"
+        },
+        {
+            "address": "Agra Cafe Indian Cuisine, 4325 Sunset Blvd, Los Angeles, CA 90029",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80c2c74c4015fd7f:0x4db295e2e5a0ecd",
+            "iid": 15179,
+            "name": "Agra Cafe Indian Cuisine",
+            "rank": 15,
+            "score": 0.3430425524711609,
+            "state": "California"
+        },
+        {
+            "address": "Pastries N Chaat Phoenix, 4030 E Bell Rd #101, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Cake shop', 'Catering food and drink supplier', 'Fast food restaurant', 'Pizza restaurant']",
+            "gmap_id": "0x872b7177257e1697:0x9ae3561316c13074",
+            "iid": 29481,
+            "name": "Pastries N Chaat Phoenix",
+            "rank": 16,
+            "score": 0.34097784757614136,
+            "state": "Arizona"
+        },
+        {
+            "address": "Chutneys Indian Cuisine, 1801 E Baseline Rd STE 104, Tempe, AZ 85283",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x872b063269642629:0x75c5f8542861b542",
+            "iid": 28870,
+            "name": "Chutneys Indian Cuisine",
+            "rank": 17,
+            "score": 0.3388892412185669,
+            "state": "Arizona"
+        },
+        {
+            "address": "Saffron Indian Grocery N Kitchen, 15050 N Northsight Blvd #101, Scottsdale, AZ 85260",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x872b75406b2dc781:0x35f8e9c8eee04fcb",
+            "iid": 29555,
+            "name": "Saffron Indian Grocery N Kitchen",
+            "rank": 18,
+            "score": 0.3367077708244324,
+            "state": "Arizona"
+        },
+        {
+            "address": "Anarbagh Indian Restaurant, 4656 Franklin Ave, Los Angeles, CA 90027",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80c2c0af0fe672ab:0x2b365301a4ae439e",
+            "iid": 14678,
+            "name": "Anarbagh Indian Restaurant",
+            "rank": 19,
+            "score": 0.33621904253959656,
+            "state": "California"
+        },
+        {
+            "address": "Just Biryani,Phoenix - AZ, 3539 W Bell Rd, Phoenix, AZ 85053",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x872b6fd81b2b38e9:0xdbc70e1636f4365b",
+            "iid": 29470,
+            "name": "Just Biryani,Phoenix - AZ",
+            "rank": 20,
+            "score": 0.329149454832077,
+            "state": "Arizona"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

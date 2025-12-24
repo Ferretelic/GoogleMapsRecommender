@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi Bon, 5812 Twelve Mile Rd, Warren, MI 48092",
+            "category": "['Sushi restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x8824da9aa2b690f1:0x2ea45d12ddf05ec4",
+            "iid": 11757,
+            "name": "Sushi Bon",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1564759873642
+        },
+        {
+            "address": "Sagano of Warren, 28202 Dequindre Rd, Warren, MI 48092",
+            "category": "['Japanese restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x8824c555fc89f063:0x6d64a450afe2716a",
+            "iid": 11725,
+            "name": "Sagano of Warren",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1564759880176
+        },
+        {
+            "address": "Sarku Japan Sushi Bar, 6000 Sepulveda Blvd Suite 3224, Culver City, CA 90230",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80c2b1cf5d8512d5:0x9a18c6abb65bcbb9",
+            "iid": 4107,
+            "name": "Sarku Japan Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580243768872
+        },
+        {
+            "address": "Empire Szechuan, 89 Stony Hill Rd, Bethel, CT 06801",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Cocktail bar', 'Fusion restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/03/02",
+            "gmap_id": "0x89e7f953269dca3b:0x4b116e76bd4af0c4",
+            "iid": 21527,
+            "name": "Empire Szechuan",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1583168205601
+        },
+        {
+            "address": "Tsuruhashi, 18798 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Japanese steakhouse', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x80dd2734819dec95:0x5a488b3bd3c2f035",
+            "iid": 6458,
+            "name": "Tsuruhashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593450239488
+        },
+        {
+            "address": "Maki Plus, 2071 Statham Blvd, Oxnard, CA 93033",
+            "category": "['Japanese restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x80e84eeb217a823f:0x1607c14bdbcc9d83",
+            "iid": 6837,
+            "name": "Maki Plus",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593450307609
+        },
+        {
+            "address": "Ramen & More, 807 Howe Ave, Sacramento, CA 95825",
+            "category": "['Ramen restaurant']",
+            "date": "2020/12/17",
+            "gmap_id": "0x809ada5b4bc181cb:0x6c1c0a8dfefa39e6",
+            "iid": 3694,
+            "name": "Ramen & More",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1608239733096
+        },
+        {
+            "address": "Mamasushi Restaurant, 3478 E Tremont Ave, The Bronx, NY 10465",
+            "category": "['Sushi restaurant']",
+            "date": "2021/01/21",
+            "gmap_id": "0x89c28b505f01be69:0x3ac67ad92a4e5e88",
+            "iid": 19167,
+            "name": "Mamasushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1611252469261
+        },
+        {
+            "address": "Tokyo Steak, 14317 Bear Valley Rd #1, Victorville, CA 92392",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Teppanyaki restaurant']",
+            "date": "2021/03/06",
+            "gmap_id": "0x80c366228c7de7b3:0xaf565e9b78b9a6ac",
+            "iid": 5177,
+            "name": "Tokyo Steak",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1615059086701
+        },
+        {
+            "address": "Kabuki, 7801 Edinger Ave Suite 114, Huntington Beach, CA 92647",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2021/03/18",
+            "gmap_id": "0x80dd264249a69587:0xefc162ee17c417b9",
+            "iid": 6439,
+            "name": "Kabuki",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616081371508
+        },
+        {
+            "address": "Urban Thai & Sushi, 660 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2021/04/06",
+            "gmap_id": "0x88d9ac779949da1f:0x303b7e81e6c449f6",
+            "iid": 14581,
+            "name": "Urban Thai & Sushi",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1617722128444
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Osaka Steak & Sushi House, 1660 Lareu St f, Garden City, KS 67846",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x8709efd72528438f:0x778a96f9c1be6b8b",
+            "iid": 8751,
+            "name": "Osaka Steak & Sushi House",
+            "rank": 1,
+            "score": -4.31048583984375,
+            "state": "Kansas"
+        },
+        {
+            "address": "Ninja Sushi & Steak House, 416 N Main St, Garden City, KS 67846",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8709ee17347e86a5:0x55ca78df43dfa1d1",
+            "iid": 8750,
+            "name": "Ninja Sushi & Steak House",
+            "rank": 2,
+            "score": -5.9348039627075195,
+            "state": "Kansas"
+        },
+        {
+            "address": "Osaki Sushi and Steakhouse, 2100 W Wyatt Earp Blvd, Dodge City, KS 67801",
+            "category": "['Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x87a71afbeb7e8c7f:0x32f6b154fef0743",
+            "iid": 9930,
+            "name": "Osaki Sushi and Steakhouse",
+            "rank": 3,
+            "score": -76.3705825805664,
+            "state": "Kansas"
+        },
+        {
+            "address": "King's Buffet, 1005 W Wyatt Earp Blvd, Dodge City, KS 67801",
+            "category": "['Buffet restaurant', 'American restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87a71b0517717ff7:0xf985f0c09b31e2cd",
+            "iid": 9931,
+            "name": "King's Buffet",
+            "rank": 4,
+            "score": -77.63517761230469,
+            "state": "Kansas"
+        },
+        {
+            "address": "Sake2Me Sushi & Seafood Grille, 803 Fort St, Hays, KS 67601",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87a17985d06ec289:0x93c362cf9f3dc4f5",
+            "iid": 9927,
+            "name": "Sake2Me Sushi & Seafood Grille",
+            "rank": 5,
+            "score": -162.45567321777344,
+            "state": "Kansas"
+        },
+        {
+            "address": "Osaki Japanese Restaurant, 2522 Vine St, Hays, KS 67601",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87a17974818a48a3:0xe3d109426b8dc962",
+            "iid": 9926,
+            "name": "Osaki Japanese Restaurant",
+            "rank": 6,
+            "score": -164.3285675048828,
+            "state": "Kansas"
+        },
+        {
+            "address": "Tryyaki Asian Cuisine, 2814 Vine St, Hays, KS 67601",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87a1790b7ebb01a5:0xd947613744e87e25",
+            "iid": 9925,
+            "name": "Tryyaki Asian Cuisine",
+            "rank": 7,
+            "score": -164.68582153320312,
+            "state": "Kansas"
+        },
+        {
+            "address": "Tomi Sushi Steak, 1803 E 1st St, Pratt, KS 67124",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87a5b33abba09643:0xbe757cacb2fa9f13",
+            "iid": 9929,
+            "name": "Tomi Sushi Steak",
+            "rank": 8,
+            "score": -191.6307830810547,
+            "state": "Kansas"
+        },
+        {
+            "address": "Mr Cao Japanese Steakhouse, 1505 E 17th Ave, Hutchinson, KS 67501",
+            "category": "['Japanese steakhouse', 'Steak house']",
+            "gmap_id": "0x87a4b6389c432171:0x9aa15e4454202a6b",
+            "iid": 9928,
+            "name": "Mr Cao Japanese Steakhouse",
+            "rank": 9,
+            "score": -257.95623779296875,
+            "state": "Kansas"
+        },
+        {
+            "address": "Osaki Sushi, 202 S Dumas Ave, Dumas, TX 79029",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8706849be9770c3f:0xeea589a4225dd9f0",
+            "iid": 8749,
+            "name": "Osaki Sushi",
+            "rank": 10,
+            "score": -259.5308837890625,
+            "state": "Texas"
+        },
+        {
+            "address": "Daimaru Japanese Steakhouse & Sushi, 3045 S 9th St, Salina, KS 67401",
+            "category": "['Japanese restaurant', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x87bcc8800c213d93:0xc6588e03d73ed1ea",
+            "iid": 10125,
+            "name": "Daimaru Japanese Steakhouse & Sushi",
+            "rank": 11,
+            "score": -294.39202880859375,
+            "state": "Kansas"
+        },
+        {
+            "address": "Kanai, 12111 W Maple St, Wichita, KS 67235",
+            "category": "['Event venue', 'Caterer', 'Japanese restaurant']",
+            "gmap_id": "0x87bade5ff9cc7a81:0x240f2aa80af0d427",
+            "iid": 10090,
+            "name": "Kanai",
+            "rank": 12,
+            "score": -297.798583984375,
+            "state": "Kansas"
+        },
+        {
+            "address": "Nippon Grill, 4041 N Maize Rd, Maize, KS 67101",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87bb206d99034efd:0xb1fca625dc7a7944",
+            "iid": 10122,
+            "name": "Nippon Grill",
+            "rank": 13,
+            "score": -298.244384765625,
+            "state": "Kansas"
+        },
+        {
+            "address": "Wasabi Sushi Bar | West, 2404 N Maize Rd, Wichita, KS 67205",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x87badf937e305cdb:0xadc16ce6ff74db49",
+            "iid": 10091,
+            "name": "Wasabi Sushi Bar | West",
+            "rank": 14,
+            "score": -298.80841064453125,
+            "state": "Kansas"
+        },
+        {
+            "address": "Poke Mix, 8918 W 21st St #600, Wichita, KS 67205",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x87badfe773549805:0x307fccb93ea205b5",
+            "iid": 10094,
+            "name": "Poke Mix",
+            "rank": 15,
+            "score": -300.2643737792969,
+            "state": "Kansas"
+        },
+        {
+            "address": "Kobe Steak House of Japan, 8760 W 21st St, Wichita, KS 67205",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Event venue', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x87badf94ec37f973:0xa9af089695764d2d",
+            "iid": 10092,
+            "name": "Kobe Steak House of Japan",
+            "rank": 16,
+            "score": -300.41357421875,
+            "state": "Kansas"
+        },
+        {
+            "address": "Ninza Sushi Bar (West), 8428 W 13th St N #100, Wichita, KS 67212",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87badfd7a7b05173:0xbfbbcddfd826212b",
+            "iid": 10093,
+            "name": "Ninza Sushi Bar (West)",
+            "rank": 17,
+            "score": -300.87420654296875,
+            "state": "Kansas"
+        },
+        {
+            "address": "Tuta's Teriyaki, 1212 S Tyler Rd # 100, Wichita, KS 67209",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87bade1c80913681:0xe11ea8a1bc2c619c",
+            "iid": 10089,
+            "name": "Tuta's Teriyaki",
+            "rank": 18,
+            "score": -301.2649841308594,
+            "state": "Kansas"
+        },
+        {
+            "address": "Emperor's Japanese Grill, 2250 N Ridge Rd STE 200, Wichita, KS 67205",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87bae012ea30a8fb:0xb1d7cb37db1c2255",
+            "iid": 10095,
+            "name": "Emperor's Japanese Grill",
+            "rank": 19,
+            "score": -302.0044250488281,
+            "state": "Kansas"
+        },
+        {
+            "address": "Emperor's Japanese Grill, 7825 W Maple St, Wichita, KS 67209",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87bae0a21e2bb7c1:0x5ad892cb953d6432",
+            "iid": 10097,
+            "name": "Emperor's Japanese Grill",
+            "rank": 20,
+            "score": -302.0785827636719,
+            "state": "Kansas"
+        }
+    ],
+    "user": {
+        "name": "dillon mayo",
+        "uid": 3161,
+        "user_id": 100419809446694001120
+    }
+}

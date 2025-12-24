@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai Thai Cuisine, 3843 County Rd 516, Old Bridge, NJ 08857",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2012/03/16",
+            "gmap_id": "0x89c3cdcd366c388d:0xfede8b4042f47aa3",
+            "iid": 64895,
+            "name": "Thai Thai Cuisine",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1331867947772
+        },
+        {
+            "address": "Sakura Japanese Steakhouse and Sushi Bar, 102 Railway Ln, Hagerstown, MD 21740",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2012/03/20",
+            "gmap_id": "0x89c9f28d8696465d:0x595e8df22c41a11d",
+            "iid": 67561,
+            "name": "Sakura Japanese Steakhouse and Sushi Bar",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1332271618222
+        },
+        {
+            "address": "Bhojan, 102 Lexington Ave, New York, NY 10016",
+            "category": "['Indian restaurant']",
+            "date": "2014/05/19",
+            "gmap_id": "0x89c259a77d70ea29:0xa3ad705d4a102b11",
+            "iid": 59981,
+            "name": "Bhojan",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1400462357133
+        },
+        {
+            "address": "Lemon Grass Thai Cuisine, 2666 Madison Rd, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2014/12/21",
+            "gmap_id": "0x8841b27c4ac71271:0x7dad837a84c9af3a",
+            "iid": 41909,
+            "name": "Lemon Grass Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1419132514725
+        },
+        {
+            "address": "House of Bangkok Thai Cuisine, 4876 Dixie Hwy, Fairfield, OH 45014",
+            "category": "['Thai restaurant']",
+            "date": "2015/02/05",
+            "gmap_id": "0x884048bc779f7ff9:0x2132cd760dee38ac",
+            "iid": 41551,
+            "name": "House of Bangkok Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1423161914420
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2015/04/27",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 41584,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1430156930708
+        },
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/06/19",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 57120,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1434672779005
+        },
+        {
+            "address": "Korealistic, 7735 Cox Ln, West Chester Township, OH 45069",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2015/10/19",
+            "gmap_id": "0x88405a08b91e2211:0x95315cd3fa4e1e73",
+            "iid": 41688,
+            "name": "Korealistic",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1445272240846
+        },
+        {
+            "address": "Bonsai Sushi, 1652 Bruce B Downs Blvd, Wesley Chapel, FL 33544",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2016/01/11",
+            "gmap_id": "0x88c2b0d2fb83f1df:0xd2bd6d1d5eb33fdf",
+            "iid": 46897,
+            "name": "Bonsai Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1452536948568
+        },
+        {
+            "address": "Kettles Vietnamese Bistro, 1202 W Steele Ln, Santa Rosa, CA 95403",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/08/23",
+            "gmap_id": "0x8084386f07f68219:0x4f80d53a4df5d02a",
+            "iid": 6694,
+            "name": "Kettles Vietnamese Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1471922974527
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Wong's Wok, 9409 Mall Rd, Morgantown, WV 26501",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88357c0bddf2fd15:0xee13e977ccb0ed41",
+            "iid": 40510,
+            "name": "Wong's Wok",
+            "rank": 1,
+            "score": -4.516371250152588,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Panda Express, 100 Sesame Dr, Morgantown, WV 26501",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88357bfac58446a7:0x558571a5626a57b5",
+            "iid": 40509,
+            "name": "Panda Express",
+            "rank": 2,
+            "score": -5.379188060760498,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Fusion Japanese Steakhouse, 201 Fusion St, Granville, WV 26534",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88357bf03c922741:0xc15bb136dcf44ac6",
+            "iid": 40508,
+            "name": "Fusion Japanese Steakhouse",
+            "rank": 3,
+            "score": -5.561324119567871,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "PHO HUNG VIETNAMESE CUISINE, 20 Commerce Dr, Westover, WV 26501",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88357c751c383421:0xfc118fe69b249460",
+            "iid": 40511,
+            "name": "PHO HUNG VIETNAMESE CUISINE",
+            "rank": 4,
+            "score": -5.703824043273926,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "China Wok, 873 Fairmont Rd, Westover, WV 26501",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x88357b8a8d0c4c31:0x436b6f8f0cc68d95",
+            "iid": 40501,
+            "name": "China Wok",
+            "rank": 5,
+            "score": -5.874433994293213,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Evergreen Chinese Restaurant, 813 Target Way, Morgantown, WV 26501",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88357be72c81d4ab:0xe405fa8975ae2d26",
+            "iid": 40507,
+            "name": "Evergreen Chinese Restaurant",
+            "rank": 6,
+            "score": -5.938444137573242,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Mother India Restaurant, 40 High St, Morgantown, WV 26505",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88357c821be54c75:0x854a24360176455d",
+            "iid": 40512,
+            "name": "Mother India Restaurant",
+            "rank": 7,
+            "score": -7.842863082885742,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Great Wall Restaurant, 162 High St, Morgantown, WV 26505",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x88357b7d9186d6bf:0x974ac6f1b37de818",
+            "iid": 40500,
+            "name": "Great Wall Restaurant",
+            "rank": 8,
+            "score": -7.997960567474365,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Von Son Asian Market, 1389 University Ave, Morgantown, WV 26505",
+            "category": "['Chinese supermarket', 'Asian grocery store', 'Grocery store']",
+            "gmap_id": "0x88357b7c4074e1d1:0xa902589b7e393ff5",
+            "iid": 40497,
+            "name": "Von Son Asian Market",
+            "rank": 9,
+            "score": -8.081575393676758,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Saigon Pho Kitchen, 3109 University Ave, Morgantown, WV 26505",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88357ba3ef3db385:0x2890e4bc817a9f7",
+            "iid": 40504,
+            "name": "Saigon Pho Kitchen",
+            "rank": 10,
+            "score": -8.146822929382324,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Volcano Japanese Restaurant, 372 Patteson Drive, Morgantown, WV 26505",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88357ba220018391:0xc504b314dc2a43fa",
+            "iid": 40503,
+            "name": "Volcano Japanese Restaurant",
+            "rank": 11,
+            "score": -8.150486946105957,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Chaang Thai Restaurant, 361 High St, Morgantown, WV 26505",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88357b7cff17a2b1:0xe4280e3f125f2e71",
+            "iid": 40499,
+            "name": "Chaang Thai Restaurant",
+            "rank": 12,
+            "score": -8.15103530883789,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "New Foo Sheen, 450 Beechurst Ave, Morgantown, WV 26505",
+            "category": "['Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x88357b7717172387:0x712b1748a89a77d5",
+            "iid": 40495,
+            "name": "New Foo Sheen",
+            "rank": 13,
+            "score": -8.153478622436523,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Yama Japanese Restaurant, 387 1/2 High St, Morgantown, WV 26505",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88357b7cfb741ce3:0xd620c643bb9bd89e",
+            "iid": 40498,
+            "name": "Yama Japanese Restaurant",
+            "rank": 14,
+            "score": -8.177489280700684,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Lavender Cafe, 247 Beechurst Ave, Morgantown, WV 26505",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88357b91af0316ef:0x1f4a4a88c3c42b8d",
+            "iid": 40502,
+            "name": "Lavender Cafe",
+            "rank": 15,
+            "score": -8.179662704467773,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Ogawa, 2920 University Ave, Morgantown, WV 26505",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88357b0aada40307:0xf5ded389fcaa7d11",
+            "iid": 40489,
+            "name": "Ogawa",
+            "rank": 16,
+            "score": -8.357171058654785,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Green Tea Asian Fusion, 511 Burroughs Street #106, Morgantown, WV 26505",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88357ba44a8a8635:0x8e0ba2f703f527a",
+            "iid": 40505,
+            "name": "Green Tea Asian Fusion",
+            "rank": 17,
+            "score": -8.386961936950684,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Ta-Khrai Thai Cafe, 2862 University Ave, Morgantown, WV 26505",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88357b7530639c8d:0xe2b5b27134ab1b5d",
+            "iid": 40494,
+            "name": "Ta-Khrai Thai Cafe",
+            "rank": 18,
+            "score": -8.407470703125,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Bombay Indian Grill, 2011 University Ave, Morgantown, WV 26505",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x88357b7a8379ccfb:0xf3ef69a8d29cd2c7",
+            "iid": 40496,
+            "name": "Bombay Indian Grill",
+            "rank": 19,
+            "score": -8.441161155700684,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Peking House Restaurant, 1125 Van Voorhis Rd, Morgantown, WV 26505",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88357ba762cbbcf9:0x889851a72358cf50",
+            "iid": 40506,
+            "name": "Peking House Restaurant",
+            "rank": 20,
+            "score": -8.730192184448242,
+            "state": "West_Virginia"
+        }
+    ],
+    "user": {
+        "name": "Oren Pollak",
+        "uid": 303678,
+        "user_id": 110172896773652108969
+    }
+}

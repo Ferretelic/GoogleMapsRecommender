@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Kinza Sushi Japanese Restaurant, 4627 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant']",
+            "date": "2018/11/22",
+            "gmap_id": "0x80c297c8dbd7086f:0x18b621cb4d08606c",
+            "iid": 3958,
+            "name": "Kinza Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542869240467
+        },
+        {
+            "address": "Sushi Note, 13447 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x80c297ce1011db45:0xbc094ca7f566ad77",
+            "iid": 3960,
+            "name": "Sushi Note",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543207744054
+        },
+        {
+            "address": "K-ZO, 9240 Culver Blvd, Culver City, CA 90232",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/17",
+            "gmap_id": "0x80c2ba29fffcaec9:0x36955a9ee90f5382",
+            "iid": 4289,
+            "name": "K-ZO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550422857479
+        },
+        {
+            "address": "Iroha Sushi of Tokyo, 12953 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/03/31",
+            "gmap_id": "0x80c2bdf52ff48ba5:0x44ee9721b53f1e2",
+            "iid": 4453,
+            "name": "Iroha Sushi of Tokyo",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554076378277
+        },
+        {
+            "address": "Hanami Sushi, 4454 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x80c297ce543e3c97:0x328836d518ec210f",
+            "iid": 3963,
+            "name": "Hanami Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555871879630
+        },
+        {
+            "address": "Yen Sushi & Sake Bar, 12930 Ventura Blvd #120, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x80c2bdf4e0741459:0x50a02dc7932aeea6",
+            "iid": 4451,
+            "name": "Yen Sushi & Sake Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562732184554
+        },
+        {
+            "address": "Mogumogu, 11555 W Olympic Blvd suite b, Los Angeles, CA 90064",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fried chicken takeaway', 'Noodle shop', 'Ramen restaurant', 'Soup restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x80c2bb9ab593ebe5:0xfd2b963bffa59714",
+            "iid": 4402,
+            "name": "Mogumogu",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564722508325
+        },
+        {
+            "address": "Okumura Restaurant, 17302 Ventura Blvd, Encino, CA 91316",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/08/17",
+            "gmap_id": "0x80c2984a0b0c48bd:0x357e2e2ee204515",
+            "iid": 3973,
+            "name": "Okumura Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566003847553
+        },
+        {
+            "address": "Raku, 5030 Spring Mountain Rd, Las Vegas, NV 89146",
+            "category": "['Authentic Japanese restaurant', 'Japanese confectionery shop', 'Izakaya restaurant', 'Restaurant']",
+            "date": "2019/09/18",
+            "gmap_id": "0x80c8c6b70788f811:0x8090a287886bb4a6",
+            "iid": 5334,
+            "name": "Raku",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1568794286208
+        },
+        {
+            "address": "Killer Noodle Tsujita, 2030 Sawtelle Blvd, Los Angeles, CA 90025",
+            "category": "['Ramen restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2bb74e300f8db:0x272f752ecb1b278d",
+            "iid": 4386,
+            "name": "Killer Noodle Tsujita",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575486189456
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Shu Restaurant, 2932 1/2 Beverly Glen Cir, Los Angeles, CA 90077",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2bd76dbe90a4d:0x7717aadbe4e79f7a",
+            "iid": 4447,
+            "name": "Shu Restaurant",
+            "rank": 1,
+            "score": -0.8840738534927368,
+            "state": "California"
+        },
+        {
+            "address": "Kaiju Sushi, 13704 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c2962923126cd7:0x8d31445d66486828",
+            "iid": 3925,
+            "name": "Kaiju Sushi",
+            "rank": 2,
+            "score": -3.0234086513519287,
+            "state": "California"
+        },
+        {
+            "address": "Hyakumi Noodle Station, 13608 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Caterer', 'Authentic Japanese restaurant', 'Takeout Restaurant', 'Noodle shop', 'Ramen restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c29628eeb8386f:0x2c3ea87aa24fcbb9",
+            "iid": 3923,
+            "name": "Hyakumi Noodle Station",
+            "rank": 3,
+            "score": -3.031799793243408,
+            "state": "California"
+        },
+        {
+            "address": "YOK RAMEN, 13608 Ventura Blvd #3700, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80c29628eeb8386f:0x87563aff5c0699a6",
+            "iid": 3924,
+            "name": "YOK RAMEN",
+            "rank": 4,
+            "score": -3.0342330932617188,
+            "state": "California"
+        },
+        {
+            "address": "Umigame Japanese Kitchen, 13608 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c297b528481b31:0xbf95810bdb012dbf",
+            "iid": 3954,
+            "name": "Umigame Japanese Kitchen",
+            "rank": 5,
+            "score": -3.035634756088257,
+            "state": "California"
+        },
+        {
+            "address": "Izakaya M, 13573 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Bar & grill', 'Izakaya restaurant', 'Pub', 'Sushi restaurant']",
+            "gmap_id": "0x80c2962894b75b01:0x104132dc0d15ab59",
+            "iid": 3922,
+            "name": "Izakaya M",
+            "rank": 6,
+            "score": -3.082301616668701,
+            "state": "California"
+        },
+        {
+            "address": "Midori Sushi, 13905 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c2962c6c00ac4d:0x470bcbe8a3c0e6f2",
+            "iid": 3926,
+            "name": "Midori Sushi",
+            "rank": 7,
+            "score": -3.126507043838501,
+            "state": "California"
+        },
+        {
+            "address": "All About Poke, 13203 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Restaurant', 'Hawaiian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2bd8a777cda09:0x6dfc9f1f503e0f91",
+            "iid": 4449,
+            "name": "All About Poke",
+            "rank": 8,
+            "score": -3.244830369949341,
+            "state": "California"
+        },
+        {
+            "address": "Big Fish Japanese Cuisine, 4364 Woodman Ave, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c2962f2702b741:0xcc4d5351d8f93247",
+            "iid": 3927,
+            "name": "Big Fish Japanese Cuisine",
+            "rank": 9,
+            "score": -3.2675528526306152,
+            "state": "California"
+        },
+        {
+            "address": "Dojo Sushi, 14423 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c297ce3d9b4c09:0x5d80a4b1fc1b7f16",
+            "iid": 3962,
+            "name": "Dojo Sushi",
+            "rank": 10,
+            "score": -3.4239261150360107,
+            "state": "California"
+        },
+        {
+            "address": "Ramen by Omae, 14425 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c29908d3ca935d:0x7fc6dc3a9a45b685",
+            "iid": 3976,
+            "name": "Ramen by Omae",
+            "rank": 11,
+            "score": -3.447317123413086,
+            "state": "California"
+        },
+        {
+            "address": "Ahi Sushi, 12915 Ventura Blvd # A, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdf51d7c035f:0x1b4c78951b117f8",
+            "iid": 4452,
+            "name": "Ahi Sushi",
+            "rank": 12,
+            "score": -3.4473471641540527,
+            "state": "California"
+        },
+        {
+            "address": "Tamashii Ramen House, 14531 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297cfbd51e769:0x18c47275500871e1",
+            "iid": 3964,
+            "name": "Tamashii Ramen House",
+            "rank": 13,
+            "score": -3.5419647693634033,
+            "state": "California"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 14457 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant', 'Bar & grill', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x80c297ce3cb8ab5b:0x904fd5cc16063b08",
+            "iid": 3961,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 14,
+            "score": -3.543405055999756,
+            "state": "California"
+        },
+        {
+            "address": "Nomura Sushi Restaurant, 14622 Ventura Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c297c5774554bd:0xefecaa6e7d32ae2a",
+            "iid": 3957,
+            "name": "Nomura Sushi Restaurant",
+            "rank": 15,
+            "score": -3.611039876937866,
+            "state": "California"
+        },
+        {
+            "address": "Shiki Sushi, 12745 A Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bdf42502cb81:0xf7b9735026497644",
+            "iid": 4450,
+            "name": "Shiki Sushi",
+            "rank": 16,
+            "score": -3.696851968765259,
+            "state": "California"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar - Now Open!, 14006 Riverside Dr Suite 24, Sherman Oaks, CA 91423",
+            "category": "['Conveyor belt sushi restaurant']",
+            "gmap_id": "0x80c2978c3c14cf9b:0xcb72661ce01abc58",
+            "iid": 3948,
+            "name": "Kura Revolving Sushi Bar - Now Open!",
+            "rank": 17,
+            "score": -3.9539246559143066,
+            "state": "California"
+        },
+        {
+            "address": "LA LA Sushi, 12415 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bd0e0f7ecd35:0x2c249e132edbeb4f",
+            "iid": 4446,
+            "name": "LA LA Sushi",
+            "rank": 18,
+            "score": -3.9719607830047607,
+            "state": "California"
+        },
+        {
+            "address": "Daiwa Sushi, 12415 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c2bdfa620a9dc1:0x1253e6b261ce11b1",
+            "iid": 4454,
+            "name": "Daiwa Sushi",
+            "rank": 19,
+            "score": -3.9721388816833496,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Mac, 15030 Ventura Blvd #21, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c297c19a66a8c3:0xb4ba13edbd4bc7c6",
+            "iid": 3956,
+            "name": "Sushi Mac",
+            "rank": 20,
+            "score": -4.122755527496338,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Monica Guevara",
+        "uid": 83264,
+        "user_id": 111232697550188884570
+    }
+}

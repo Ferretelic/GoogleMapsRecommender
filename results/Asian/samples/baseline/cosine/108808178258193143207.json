@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China Bear, 12755 Southwest Fwy, Stafford, TX 77477",
+            "category": "['Buffet restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x8640e7a5323b70f9:0x89e3de23e1394878",
+            "iid": 24068,
+            "name": "China Bear",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1517602638434
+        },
+        {
+            "address": "Chinese American Restaurant, 11317 Bissonnet St, Houston, TX 77099, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/02/18",
+            "gmap_id": "0x8640dd5f2a54e6c5:0x9f096474a633ce75",
+            "iid": 23885,
+            "name": "Chinese American Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1518993512098
+        },
+        {
+            "address": "Koba Woo Restaurant, 332 E Avenue D, Killeen, TX 76541",
+            "category": "['Korean restaurant']",
+            "date": "2018/05/09",
+            "gmap_id": "0x86454b89a684c74d:0xa7fe7aa8b599e24d",
+            "iid": 24737,
+            "name": "Koba Woo Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1525864551249
+        },
+        {
+            "address": "China Garden Restaurant, 1602 Leeland St, Houston, TX 77003",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640bf17ef9f3115:0x2e30c47f96f8cd49",
+            "iid": 22916,
+            "name": "China Garden Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536278340062
+        },
+        {
+            "address": "Sichuan Noodles \u9762\u9762\u805a\u9053, 9889 Bellaire Blvd c305, Houston, TX 77036",
+            "category": "['Chinese restaurant']",
+            "date": "2019/03/29",
+            "gmap_id": "0x8640c2cf39ac8089:0x2b3a389e041e26f3",
+            "iid": 23226,
+            "name": "Sichuan Noodles \u9762\u9762\u805a\u9053",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1553817652429
+        },
+        {
+            "address": "Savoy Restaurant, 11246 S Wilcrest Dr 145 B, Houston, TX 77099",
+            "category": "['Pakistani restaurant', 'Halal restaurant', 'Indian restaurant']",
+            "date": "2019/08/04",
+            "gmap_id": "0x8640e7e5756064bb:0x4a52b97abcbaa9e6",
+            "iid": 24086,
+            "name": "Savoy Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1564928444432
+        },
+        {
+            "address": "Fung's Kitchen, 7320 Southwest Fwy #115, Houston, TX 77074",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Banquet hall', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2019/10/26",
+            "gmap_id": "0x8640c25ed759c2d9:0x1eb45fc225111447",
+            "iid": 23152,
+            "name": "Fung's Kitchen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1572057850178
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/16",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 23745,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1573910399263
+        },
+        {
+            "address": "Benihana, 9707 Westheimer Rd, Houston, TX 77042",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2021/03/09",
+            "gmap_id": "0x8640c3161bea4d37:0xbe4674c5780f92ba",
+            "iid": 23260,
+            "name": "Benihana",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1615252565956
+        },
+        {
+            "address": "B2J Suancai Fish, 9393 Bellaire Blvd Ste B, Houston, TX 77036, United States",
+            "category": "['Chinese restaurant', 'Seafood restaurant', 'Sichuan restaurant']",
+            "date": "2021/06/03",
+            "gmap_id": "0x8640c3a675e0c6df:0x6b8382f9a7304722",
+            "iid": 23289,
+            "name": "B2J Suancai Fish",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1622680189877
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Teacup Cafe, 8300 W Sam Houston Pkwy S, Houston, TX 77072",
+            "category": "['Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Coffee shop', 'Restaurant', 'Taiwanese restaurant', 'Tea house']",
+            "gmap_id": "0x8640c2b3bd3a2243:0xbf5f7b1efb6e5861",
+            "iid": 23169,
+            "name": "Teacup Cafe",
+            "rank": 1,
+            "score": 0.7064729332923889,
+            "state": "Texas"
+        },
+        {
+            "address": "Chuanr, 9889 Bellaire Blvd #314, Houston, TX 77036",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c2cf25202267:0x42c6103eb550d8f2",
+            "iid": 23225,
+            "name": "Chuanr",
+            "rank": 2,
+            "score": 0.690613865852356,
+            "state": "Texas"
+        },
+        {
+            "address": "Pier 61 Asian Cajun, 12106 Murphy Rd, Stafford, TX 77477",
+            "category": "['Cajun restaurant', 'Seafood restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640e7de60f7c635:0xa6327429eaf1f1a0",
+            "iid": 24082,
+            "name": "Pier 61 Asian Cajun",
+            "rank": 3,
+            "score": 0.684942364692688,
+            "state": "Texas"
+        },
+        {
+            "address": "Swen Chinese Cafe \u96a8\u7de3\u805a\u9910, 4526 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640e675232ceef3:0xbfb48acd2bf9edf7",
+            "iid": 24009,
+            "name": "Swen Chinese Cafe \u96a8\u7de3\u805a\u9910",
+            "rank": 4,
+            "score": 0.6592006087303162,
+            "state": "Texas"
+        },
+        {
+            "address": "King Bo II Restaurant, 4707 Hwy 6, Missouri City, TX 77459",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640e60ae1416299:0x89063e8fc837f8c6",
+            "iid": 23984,
+            "name": "King Bo II Restaurant",
+            "rank": 5,
+            "score": 0.6533149480819702,
+            "state": "Texas"
+        },
+        {
+            "address": "Qin's Noodle Kitchen-Happy Valley Chinese Restaurant, 9889 Bellaire Blvd #306, Houston, TX 77036",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640c2cf1ee90193:0xbc326501a76ea825",
+            "iid": 23223,
+            "name": "Qin's Noodle Kitchen-Happy Valley Chinese Restaurant",
+            "rank": 6,
+            "score": 0.650787353515625,
+            "state": "Texas"
+        },
+        {
+            "address": "Pepper Lunch Houston, 9393 Bellaire Blvd ste c, Houston, TX 77036",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Japanese steakhouse', 'Teppanyaki restaurant']",
+            "gmap_id": "0x8640c2c5a972a097:0xf277ef5d78900c29",
+            "iid": 23199,
+            "name": "Pepper Lunch Houston",
+            "rank": 7,
+            "score": 0.6506654620170593,
+            "state": "Texas"
+        },
+        {
+            "address": "Chippy\u2019s Restaurant, 11609 S Texas 6, Sugar Land, TX 77498",
+            "category": "['American restaurant', 'Falafel restaurant', 'Fast food restaurant', 'Gyro restaurant', 'Halal restaurant', 'Hamburger restaurant', 'Indian restaurant']",
+            "gmap_id": "0x8640e1aabd28a3b9:0x45adac34298217ff",
+            "iid": 23960,
+            "name": "Chippy\u2019s Restaurant",
+            "rank": 8,
+            "score": 0.64859539270401,
+            "state": "Texas"
+        },
+        {
+            "address": "Great Wall Supermarket, 9889 Bellaire Blvd #B, Houston, TX 77036",
+            "category": "['Asian grocery store', 'Japanese grocery store', 'Supermarket']",
+            "gmap_id": "0x8640c2cc5556a0b5:0xdfddf6dc427fd3fd",
+            "iid": 23200,
+            "name": "Great Wall Supermarket",
+            "rank": 9,
+            "score": 0.6423702836036682,
+            "state": "Texas"
+        },
+        {
+            "address": "Jade Garden, 4555 Hwy 6 C, Sugar Land, TX 77478",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640e675232ceef3:0x7b7bb07bd6e173e4",
+            "iid": 24008,
+            "name": "Jade Garden",
+            "rank": 10,
+            "score": 0.6398497819900513,
+            "state": "Texas"
+        },
+        {
+            "address": "Wing Kee, 6938 Wilcrest Dr B, Houston, TX 77072",
+            "category": "['Chinese restaurant', 'BBQ area']",
+            "gmap_id": "0x8640dd30a6a44275:0x6351be27fcc3e988",
+            "iid": 23836,
+            "name": "Wing Kee",
+            "rank": 11,
+            "score": 0.6352671384811401,
+            "state": "Texas"
+        },
+        {
+            "address": "Chengdu Taste, 9896 Bellaire Blvd A, Houston, TX 77036",
+            "category": "['Sichuan restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c2ce35b0f1c5:0x20ae64e4d1b7a9c3",
+            "iid": 23205,
+            "name": "Chengdu Taste",
+            "rank": 12,
+            "score": 0.6341673135757446,
+            "state": "Texas"
+        },
+        {
+            "address": "Changs Chinese Restaurant, 16100 Kensington Dr, Sugar Land, TX 77479",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8640e6bfa3924e59:0x91fd2e5fd7fd9e79",
+            "iid": 24031,
+            "name": "Changs Chinese Restaurant",
+            "rank": 13,
+            "score": 0.6328817009925842,
+            "state": "Texas"
+        },
+        {
+            "address": "Six Ping Bakery -, 9384 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Bakery', 'Chinese bakery']",
+            "gmap_id": "0x8640c2c5010d2527:0x2377e31620ffee0",
+            "iid": 23194,
+            "name": "Six Ping Bakery -",
+            "rank": 14,
+            "score": 0.6283066868782043,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 9717 Hwy 6, Missouri City, TX 77459",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8640ef009cd5ee79:0x8259268b5f6f4a69",
+            "iid": 24110,
+            "name": "Panda Express",
+            "rank": 15,
+            "score": 0.6281523704528809,
+            "state": "Texas"
+        },
+        {
+            "address": "Jusgo Supermarket, 3412 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Chinese supermarket']",
+            "gmap_id": "0x8640e78cd771ba5b:0xc9c3f0bce9248994",
+            "iid": 24064,
+            "name": "Jusgo Supermarket",
+            "rank": 16,
+            "score": 0.6263920664787292,
+            "state": "Texas"
+        },
+        {
+            "address": "Tofu Village, 9889 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c2cf1ee90193:0x885e75ed8457b57a",
+            "iid": 23220,
+            "name": "Tofu Village",
+            "rank": 17,
+            "score": 0.6255248188972473,
+            "state": "Texas"
+        },
+        {
+            "address": "Feng Cha Bubble Tea, 13540 University Blvd #400, Sugar Land, TX 77479",
+            "category": "['Bubble tea store', 'Chinese tea house', 'Coffee shop', 'Dessert shop', 'Ice cream shop']",
+            "gmap_id": "0x8640e1629fc132f9:0xb96c0485f69ce8d9",
+            "iid": 23950,
+            "name": "Feng Cha Bubble Tea",
+            "rank": 18,
+            "score": 0.6239210367202759,
+            "state": "Texas"
+        },
+        {
+            "address": "Van Loc, 3010 Milam St, Houston, TX 77006",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640bf69537d21d5:0x2f98eafe08ccb2b8",
+            "iid": 22964,
+            "name": "Van Loc",
+            "rank": 19,
+            "score": 0.6218768358230591,
+            "state": "Texas"
+        },
+        {
+            "address": "San Dong Noodle House \u5c71\u6771\u9eb5\u9928, 9938 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dumpling restaurant', 'Noodle shop', 'Restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x8640c2ce68aeb389:0x16e25a4685d55e7f",
+            "iid": 23209,
+            "name": "San Dong Noodle House \u5c71\u6771\u9eb5\u9928",
+            "rank": 20,
+            "score": 0.6213890314102173,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Jon Menefee",
+        "uid": 262924,
+        "user_id": 108808178258193143207
+    }
+}

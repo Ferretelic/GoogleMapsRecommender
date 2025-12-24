@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "India's Restaurant, 4366 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Indian restaurant', 'Buffet restaurant', 'Family restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2c74dab8c9f3f:0xa2003ea26e4cf55f",
+            "iid": 15183,
+            "name": "India's Restaurant",
+            "rank": 1,
+            "score": 5.8094563484191895,
+            "state": "California"
+        },
+        {
+            "address": "Delhi Palace, 2500 S Woodlands Village Blvd #8, Flagstaff, AZ 86001",
+            "category": "['Indian restaurant', 'Fine dining restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x872d858777adc71b:0xcf82c829dcab101d",
+            "iid": 29784,
+            "name": "Delhi Palace",
+            "rank": 2,
+            "score": 5.010993957519531,
+            "state": "Arizona"
+        },
+        {
+            "address": "Urban Masala, 6554 Hollywood Blvd, Los Angeles, CA 90028",
+            "category": "['Indian restaurant', 'Grill', 'Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2bf3b67a4b02d:0xa941403f8ec10722",
+            "iid": 14575,
+            "name": "Urban Masala",
+            "rank": 3,
+            "score": 4.982100486755371,
+            "state": "California"
+        },
+        {
+            "address": "Viks Chaat, 2390 Fourth St, Berkeley, CA 94710, United States",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80857ee873ccbc7d:0x155df5665e04771b",
+            "iid": 7480,
+            "name": "Viks Chaat",
+            "rank": 4,
+            "score": 4.866026878356934,
+            "state": "California"
+        },
+        {
+            "address": "Raavi North Indian Cuisine, 533 Jackson St, San Francisco, CA 94133",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808580f4d731ba47:0x60e4c66bb262968c",
+            "iid": 7939,
+            "name": "Raavi North Indian Cuisine",
+            "rank": 5,
+            "score": 4.537745952606201,
+            "state": "California"
+        },
+        {
+            "address": "Al Watan Halal Tandoori Restaurant, 13619 S Inglewood Ave, Hawthorne, CA 90250",
+            "category": "['Pakistani restaurant', 'Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b42456cf1497:0x5eb7cd7ed2736077",
+            "iid": 13634,
+            "name": "Al Watan Halal Tandoori Restaurant",
+            "rank": 6,
+            "score": 4.536360740661621,
+            "state": "California"
+        },
+        {
+            "address": "Samosa House, 11510 Washington Blvd, Los Angeles, CA 90066",
+            "category": "['Indian restaurant', 'Indian grocery store', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2ba14cc699c45:0xad9f5c9007eda78",
+            "iid": 14152,
+            "name": "Samosa House",
+            "rank": 7,
+            "score": 4.531483173370361,
+            "state": "California"
+        },
+        {
+            "address": "Pakwan Restaurant - Tenderloin, 501 O'Farrell St, San Francisco, CA 94102",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x808580902c11ff33:0x6735e5227132c759",
+            "iid": 7667,
+            "name": "Pakwan Restaurant - Tenderloin",
+            "rank": 8,
+            "score": 4.481043338775635,
+            "state": "California"
+        },
+        {
+            "address": "Trio House, 2700 S Figueroa St, Los Angeles, CA 90007",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2c7e725c4b865:0xd8d4fd48e71ce940",
+            "iid": 15430,
+            "name": "Trio House",
+            "rank": 9,
+            "score": 4.467721462249756,
+            "state": "California"
+        },
+        {
+            "address": "Udupi Indian Vegetarian & Vegan Cuisine, 1636 N Scottsdale Rd, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x872b09156aa5a38b:0xd026d8a8ddcad69b",
+            "iid": 29043,
+            "name": "Udupi Indian Vegetarian & Vegan Cuisine",
+            "rank": 10,
+            "score": 4.431535243988037,
+            "state": "Arizona"
+        },
+        {
+            "address": "Flavor of India Burbank, 161 E Orange Grove Ave, Burbank, CA 91502",
+            "category": "['Indian restaurant', 'Punjabi restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c295508f572517:0xdc916891dd702b12",
+            "iid": 13148,
+            "name": "Flavor of India Burbank",
+            "rank": 11,
+            "score": 4.389522552490234,
+            "state": "California"
+        },
+        {
+            "address": "Annapurna Cuisine, 10200 Venice Blvd, Culver City, CA 90232",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2ba2e56deefad:0x983f07f2129253fa",
+            "iid": 14171,
+            "name": "Annapurna Cuisine",
+            "rank": 12,
+            "score": 4.316262245178223,
+            "state": "California"
+        },
+        {
+            "address": "Lee Lee International Supermarkets, 2025 N Dobson Rd, Chandler, AZ 85224",
+            "category": "['Asian grocery store', 'Grocery store', 'Indian grocery store', 'Japanese grocery store', 'Korean grocery store', 'Produce market', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x872b076950ae541b:0x8796e7750e2e9ee9",
+            "iid": 28925,
+            "name": "Lee Lee International Supermarkets",
+            "rank": 13,
+            "score": 4.306309223175049,
+            "state": "Arizona"
+        },
+        {
+            "address": "BADMAASH Downtown LA, 108 W 2nd St #104, Los Angeles, CA 90012",
+            "category": "['Indian restaurant', 'American restaurant']",
+            "gmap_id": "0x80c2c70c7b0742ab:0x56164f85adb8c160",
+            "iid": 15134,
+            "name": "BADMAASH Downtown LA",
+            "rank": 14,
+            "score": 4.301314353942871,
+            "state": "California"
+        },
+        {
+            "address": "Mayura Indian Restaurant, 10406 Venice Blvd, Culver City, CA 90232",
+            "category": "['Indian restaurant', 'Indian takeaway']",
+            "gmap_id": "0x80c2bbbf2b50ec41:0xcac3f43013e39c16",
+            "iid": 14385,
+            "name": "Mayura Indian Restaurant",
+            "rank": 15,
+            "score": 4.299639701843262,
+            "state": "California"
+        },
+        {
+            "address": "Din Tai Fung, 177 Caruso Ave, Glendale, CA 91210",
+            "category": "['Taiwanese restaurant', 'Chinese noodle restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Dumpling restaurant', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2c0fe60e478ed:0xfc500ddb3e812763",
+            "iid": 14702,
+            "name": "Din Tai Fung",
+            "rank": 16,
+            "score": 4.284957408905029,
+            "state": "California"
+        },
+        {
+            "address": "Indian Delhi Palace, 5104 E McDowell Rd, Phoenix, AZ 85008",
+            "category": "['Indian restaurant', 'Banquet hall', 'Buffet restaurant', 'Caterer', 'Event venue']",
+            "gmap_id": "0x872b0c1ef304b55b:0xb30da7dad2cec86a",
+            "iid": 29100,
+            "name": "Indian Delhi Palace",
+            "rank": 17,
+            "score": 4.262083053588867,
+            "state": "Arizona"
+        },
+        {
+            "address": "Lotus Vegan, 4715 Lankershim Blvd, North Hollywood, CA 91602",
+            "category": "['Vegan restaurant', 'Thai restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c295f4d18caa81:0xd3a4b89e4e4fb24c",
+            "iid": 13190,
+            "name": "Lotus Vegan",
+            "rank": 18,
+            "score": 4.196850776672363,
+            "state": "California"
+        },
+        {
+            "address": "Delhi Palace Cuisine of India, 933 E University Dr #103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x872b08e6fa59864f:0x37a23b9ca1f1d4be",
+            "iid": 29021,
+            "name": "Delhi Palace Cuisine of India",
+            "rank": 19,
+            "score": 4.188422679901123,
+            "state": "Arizona"
+        },
+        {
+            "address": "dosa By DOSA, 2301 Broadway, Oakland, CA 94612",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808f80acdcd5a3d7:0x727752d2c1b13333",
+            "iid": 9281,
+            "name": "dosa By DOSA",
+            "rank": 20,
+            "score": 4.163959503173828,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Uchi, 904 Westheimer Rd Suite A, Houston, TX 77006",
+            "category": "['Japanese restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x8640bf66aaaaaaab:0xba870240e892b2c6",
+            "iid": 7358,
+            "name": "Uchi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506283929146
+        },
+        {
+            "address": "Wild Cajun Crawfish, 6533 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Cajun restaurant', 'Southern restaurant (US)', 'Sushi restaurant']",
+            "date": "2018/03/18",
+            "gmap_id": "0x8640dd2fbfdc5691:0xbbf4225d876a11b",
+            "iid": 7539,
+            "name": "Wild Cajun Crawfish",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1521377174580
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/07",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 7533,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1523125454481
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 11301 Katy Fwy, Houston, TX 77079",
+            "category": "['Yakiniku restaurant', 'Bar', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/10",
+            "gmap_id": "0x8640db41cec74a09:0xb7b32d96b12f0af",
+            "iid": 7517,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541879149302
+        },
+        {
+            "address": "Sushi Choo Choo, 12149 FM 1960, Houston, TX 77065",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/12/09",
+            "gmap_id": "0x8640d1a1efa37c6d:0x2c0a9e3cc0485bf6",
+            "iid": 7492,
+            "name": "Sushi Choo Choo",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1544323444205
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/19",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 7520,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545182851646
+        },
+        {
+            "address": "Marukame Udon, 1104 Fort Street Mall, Honolulu, HI 96813",
+            "category": "['Udon noodle restaurant', 'Japanese restaurant', 'Restaurant', 'Tempura restaurant']",
+            "date": "2019/06/09",
+            "gmap_id": "0x7c006e745ec4428d:0x1efe275b56b64276",
+            "iid": 1969,
+            "name": "Marukame Udon",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1560040473905
+        },
+        {
+            "address": "Sushi II, 655 Ke\u2019eaumoku St #109, Honolulu, HI 96814",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/20",
+            "gmap_id": "0x7c006dee4877850d:0xb7945e64df5f8a02",
+            "iid": 1902,
+            "name": "Sushi II",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1561060272336
+        },
+        {
+            "address": "JINYA Ramen Bar - Cypress, 11930 Barker Cypress Rd Suite 100, Cypress, TX 77433",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/07/21",
+            "gmap_id": "0x8640d56b7112afa7:0x3a6f39ec4d5ae381",
+            "iid": 7502,
+            "name": "JINYA Ramen Bar - Cypress",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1563751013032
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 7748 Cypress Creek Pkwy suite a, Houston, TX 77070",
+            "category": "['Yakiniku restaurant', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x8640cd1ef5a61021:0x6e0a2ec9a77de1ca",
+            "iid": 7475,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1616895129686
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Ramen Bar Ichi, 1801 S Dairy Ashford Rd #108, Houston, TX 77077",
+            "category": "['Restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x8640dc6243d6ac47:0x3b8a4cdbaffa2049",
+            "iid": 7530,
+            "name": "Ramen Bar Ichi",
+            "rank": 1,
+            "score": 0.5282160043716431,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyo One, 2938 W Sam Houston Pkwy S, Houston, TX 77042",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8640c333b2f25c77:0x55fe6c5fd02a6fb8",
+            "iid": 7426,
+            "name": "Tokyo One",
+            "rank": 2,
+            "score": 0.526647686958313,
+            "state": "Texas"
+        },
+        {
+            "address": "Pokii Eatery, 12153 Katy Fwy, Houston, TX 77079",
+            "category": "['Hawaiian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640db748b5cdecd:0xc76bba80f1b838be",
+            "iid": 7519,
+            "name": "Pokii Eatery",
+            "rank": 3,
+            "score": 0.5061213970184326,
+            "state": "Texas"
+        },
+        {
+            "address": "Koto Japanese Restaurant, 10842 Westheimer Rd, Houston, TX 77042",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640dcc9415d5983:0x9adb4218b9274d",
+            "iid": 7536,
+            "name": "Koto Japanese Restaurant",
+            "rank": 4,
+            "score": 0.5011054277420044,
+            "state": "Texas"
+        },
+        {
+            "address": "Izakaya-Wa, 12665 Memorial Dr, Houston, TX 77024",
+            "category": "['Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8640c4aa513b1f8d:0xe8b40aaaa8847443",
+            "iid": 7449,
+            "name": "Izakaya-Wa",
+            "rank": 5,
+            "score": 0.4963023364543915,
+            "state": "Texas"
+        },
+        {
+            "address": "Ramen Jin, 11181 Westheimer Rd, Houston, TX 77042",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x8640dcc66befdfe7:0x75f28855e0d6e3d3",
+            "iid": 7535,
+            "name": "Ramen Jin",
+            "rank": 6,
+            "score": 0.4932076036930084,
+            "state": "Texas"
+        },
+        {
+            "address": "RA Sushi Bar Restaurant, 799 Town and Country Blvd Suite 234, Houston, TX 77024",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x8640c4b2c334e17f:0x8313267e0b0502fe",
+            "iid": 7451,
+            "name": "RA Sushi Bar Restaurant",
+            "rank": 7,
+            "score": 0.4931362271308899,
+            "state": "Texas"
+        },
+        {
+            "address": "Mikoto Ramen & Sushi Bar, 12155 Katy Fwy, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x8640db7455ea5673:0xf6f77244c5a04d1",
+            "iid": 7518,
+            "name": "Mikoto Ramen & Sushi Bar",
+            "rank": 8,
+            "score": 0.472748339176178,
+            "state": "Texas"
+        },
+        {
+            "address": "Seiwa Market, 1801 S Dairy Ashford Rd #116, Houston, TX 77077",
+            "category": "['Japanese grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x8640dc624187f7c9:0xd513388f4804100c",
+            "iid": 7529,
+            "name": "Seiwa Market",
+            "rank": 9,
+            "score": 0.47042548656463623,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Choo Choo, 1675 S Voss Rd, Houston, TX 77057",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c39485c491a9:0x42082b377cc7f216",
+            "iid": 7432,
+            "name": "Sushi Choo Choo",
+            "rank": 10,
+            "score": 0.4686497747898102,
+            "state": "Texas"
+        },
+        {
+            "address": "Ramen Okidoki & Lims Chicken, 10603 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Ramen restaurant', 'Fried chicken takeaway', 'Japanese restaurant']",
+            "gmap_id": "0x8640dd316b6ffffd:0x257fa4915cc9b1d2",
+            "iid": 7540,
+            "name": "Ramen Okidoki & Lims Chicken",
+            "rank": 11,
+            "score": 0.4650689959526062,
+            "state": "Texas"
+        },
+        {
+            "address": "GENJI RESTAURANT & BAR, 11124 Westheimer Rd, Houston, TX 77042",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c3bb6735274b:0xc7544374f3d1919e",
+            "iid": 7437,
+            "name": "GENJI RESTAURANT & BAR",
+            "rank": 12,
+            "score": 0.46382197737693787,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyo Japan Buffet, 7465 W Greens Rd, Houston, TX 77064",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640cddf28164741:0xc100b44194b06b3d",
+            "iid": 7481,
+            "name": "Tokyo Japan Buffet",
+            "rank": 13,
+            "score": 0.4577038586139679,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Jin, 14670 Memorial Dr, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640db83ecb65591:0xd3d72d26f86de824",
+            "iid": 7521,
+            "name": "Sushi Jin",
+            "rank": 14,
+            "score": 0.44476282596588135,
+            "state": "Texas"
+        },
+        {
+            "address": "Dadami, 1927 Gessner Rd, Houston, TX 77080",
+            "category": "['Korean restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8640c4dec7e47b95:0x1e28c889ef088b6",
+            "iid": 7453,
+            "name": "Dadami",
+            "rank": 15,
+            "score": 0.4375593960285187,
+            "state": "Texas"
+        },
+        {
+            "address": "Kuu, 947 Gessner Rd, Houston, TX 77024",
+            "category": "['Japanese restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x8640c4beab6f6663:0x4d23dfe5d8665337",
+            "iid": 7452,
+            "name": "Kuu",
+            "rank": 16,
+            "score": 0.4302120506763458,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Miyagi, 10600 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8640dd322b707c19:0x48b59c8750a2eeb8",
+            "iid": 7541,
+            "name": "Sushi Miyagi",
+            "rank": 17,
+            "score": 0.4276387095451355,
+            "state": "Texas"
+        },
+        {
+            "address": "Nori Sushi Bistro, 700 Town and Country Blvd, Houston, TX 77024",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c4b2a2620383:0x849fc1e91e3976a0",
+            "iid": 7450,
+            "name": "Nori Sushi Bistro",
+            "rank": 18,
+            "score": 0.42533010244369507,
+            "state": "Texas"
+        },
+        {
+            "address": "Sasaki Japanese Restaurant, 8979 Westheimer Rd, Houston, TX 77063",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c30984f52db9:0xd10a23274fd1a64e",
+            "iid": 7422,
+            "name": "Sasaki Japanese Restaurant",
+            "rank": 19,
+            "score": 0.41309237480163574,
+            "state": "Texas"
+        },
+        {
+            "address": "Papa Yu, 1037 Blalock Rd, Houston, TX 77055",
+            "category": "['Japanese restaurant', 'Dessert shop', 'Restaurant', 'Sushi restaurant', 'Tea house']",
+            "gmap_id": "0x8640c48a4c2928f3:0x644b16fdecde8d89",
+            "iid": 7446,
+            "name": "Papa Yu",
+            "rank": 20,
+            "score": 0.41239070892333984,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Jeslyn Tran",
+        "uid": 119185,
+        "user_id": 116093281311797937164
+    }
+}

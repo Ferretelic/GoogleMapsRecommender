@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Garden, 820 Bay Ave, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/04",
+            "gmap_id": "0x808e1570875d3997:0x98f3493c6278462a",
+            "iid": 2634,
+            "name": "Sushi Garden",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522825723821
+        },
+        {
+            "address": "I Love Sushi, 516 Front St, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x808e4027a1421e47:0xb4af237d8bea6224",
+            "iid": 2709,
+            "name": "I Love Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523338884145
+        },
+        {
+            "address": "Shogun Japanese Restaurant, 1123 Pacific Ave, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/09/20",
+            "gmap_id": "0x808e4027c63414c1:0xae0f0291b3b4fd1",
+            "iid": 2710,
+            "name": "Shogun Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537458753836
+        },
+        {
+            "address": "Okayama Sushi, 565 N 6th St A, San Jose, CA 95112",
+            "category": "['Sushi restaurant', 'Banquet hall', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/03",
+            "gmap_id": "0x808fcc85292a5649:0xfa6c79a02cd9fd85",
+            "iid": 3292,
+            "name": "Okayama Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543871354273
+        },
+        {
+            "address": "Nijiya Market, 240 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "date": "2019/01/15",
+            "gmap_id": "0x808fcc84e134e047:0x845a11e6ecd8d327",
+            "iid": 3285,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547574458261
+        },
+        {
+            "address": "Japonessa Sushi Cocina, 1400 1st Ave, Seattle, WA 98101",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Delivery service', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "date": "2019/03/11",
+            "gmap_id": "0x54906ab24f2c0953:0x76d1c08a65e548de",
+            "iid": 745,
+            "name": "Japonessa Sushi Cocina",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1552284619871
+        },
+        {
+            "address": "Hojoko, 1271 Boylston St, Boston, MA 02215",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "date": "2019/04/02",
+            "gmap_id": "0x89e37a1dfada04cf:0x5663cd8bf7332a94",
+            "iid": 21058,
+            "name": "Hojoko",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554169777942
+        },
+        {
+            "address": "Sapporo Ramen, 1815 Massachusetts Ave, Cambridge, MA 02140",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/03",
+            "gmap_id": "0x89e3773dcbeacf09:0xb3e3b8fbdf6266db",
+            "iid": 20963,
+            "name": "Sapporo Ramen",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554256515700
+        },
+        {
+            "address": "Sushi Garden Scotts Valley, 5600 Scotts Valley Dr STE C, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant']",
+            "date": "2020/01/01",
+            "gmap_id": "0x808e474f08433dd7:0x3c7ed1a419af34f",
+            "iid": 2713,
+            "name": "Sushi Garden Scotts Valley",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1577918491560
+        },
+        {
+            "address": "Kappo Nami Nami, 240 Castro St, Mountain View, CA 94041",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/09/11",
+            "gmap_id": "0x808fb7346d0186b5:0x5adc861e7de67053",
+            "iid": 3145,
+            "name": "Kappo Nami Nami",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1599863944814
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Bonchon Santa Teresa, 7026 Santa Teresa Blvd Suite 30, San Jose, CA 95139",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x808e2f119bee1a37:0xd9f4df54826f1e44",
+            "iid": 2655,
+            "name": "Bonchon Santa Teresa",
+            "rank": 1,
+            "score": 0.5580547451972961,
+            "state": "California"
+        },
+        {
+            "address": "Hidden Garden Sushi, 2363 Birch St suite b, Palo Alto, CA 94306",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x808fbae5b03807a5:0xdddb4b5854782beb",
+            "iid": 3156,
+            "name": "Hidden Garden Sushi",
+            "rank": 2,
+            "score": 0.5491103529930115,
+            "state": "California"
+        },
+        {
+            "address": "Waza Sushi + Ramen, 485 Myrtle Ave, Brooklyn, NY 11205",
+            "category": "['Sushi restaurant', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25bc7541a33a5:0x902b3a0a3866607a",
+            "iid": 18769,
+            "name": "Waza Sushi + Ramen",
+            "rank": 3,
+            "score": 0.5457653999328613,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Market Sprouts, 300 7th Ave, Santa Cruz, CA 95062",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e6ab3e465ce63:0x3778e71fa722ddcd",
+            "iid": 2718,
+            "name": "Sushi Market Sprouts",
+            "rank": 4,
+            "score": 0.529269814491272,
+            "state": "California"
+        },
+        {
+            "address": "Sushi On the Run, 114 N Santa Cruz Ave, Los Gatos, CA 95030",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808e35f00aa248b1:0x470eba6e3df19428",
+            "iid": 2703,
+            "name": "Sushi On the Run",
+            "rank": 5,
+            "score": 0.5193349123001099,
+            "state": "California"
+        },
+        {
+            "address": "Fuji at Assembly, 320 Canal St, Somerville, MA 02145",
+            "category": "['Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e3712756d83c29:0xe07e1c8851129c00",
+            "iid": 20908,
+            "name": "Fuji at Assembly",
+            "rank": 6,
+            "score": 0.5138218402862549,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Shiki Japanese Restaurant, 6229 Santa Teresa Blvd, San Jose, CA 95119",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e2e2e5dc0547b:0x9c00047a65438107",
+            "iid": 2653,
+            "name": "Shiki Japanese Restaurant",
+            "rank": 7,
+            "score": 0.5137739181518555,
+            "state": "California"
+        },
+        {
+            "address": "Sakura Japanese Restaurant, 5 Pine St, Waltham, MA 02453",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e382d9b474c701:0x85333a3ec6bbee36",
+            "iid": 21115,
+            "name": "Sakura Japanese Restaurant",
+            "rank": 8,
+            "score": 0.5108562707901001,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sushi Confidential San Jose, 26 N San Pedro St, San Jose, CA 95113",
+            "category": "['Sushi restaurant', 'Bar', 'Lounge', 'Restaurant']",
+            "gmap_id": "0x808fcca3026cb66f:0x23dbf3e56d3ea89f",
+            "iid": 3294,
+            "name": "Sushi Confidential San Jose",
+            "rank": 9,
+            "score": 0.5104283690452576,
+            "state": "California"
+        },
+        {
+            "address": "KAITO, 1855 41st Avenue Food Court In The Capitola Mall, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e1516ae6982e7:0x14d0c89b2d2ce9f",
+            "iid": 2630,
+            "name": "KAITO",
+            "rank": 10,
+            "score": 0.5091897249221802,
+            "state": "California"
+        },
+        {
+            "address": "Camp BBQ, 4014 Geary Blvd, San Francisco, CA 94118",
+            "category": "['Barbecue restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80858739394f4a21:0xbdd1b548b5b43a2b",
+            "iid": 2518,
+            "name": "Camp BBQ",
+            "rank": 11,
+            "score": 0.5089565515518188,
+            "state": "California"
+        },
+        {
+            "address": "Hanamaru, 675 S Bernardo Ave, Sunnyvale, CA 94087",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb6e9166bf7db:0xbc46e24393e80d75",
+            "iid": 3132,
+            "name": "Hanamaru",
+            "rank": 12,
+            "score": 0.495320200920105,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Totoro, 1701 Mission St, Santa Cruz, CA 95060",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e6a7f74dda951:0x4822d2cd3d4c335",
+            "iid": 2717,
+            "name": "Sushi Totoro",
+            "rank": 13,
+            "score": 0.495241641998291,
+            "state": "California"
+        },
+        {
+            "address": "Sushirrito - Palo Alto, 448 University Ave, Palo Alto, CA 94301",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fbb38fd355b43:0x62898eb6071dac1",
+            "iid": 3166,
+            "name": "Sushirrito - Palo Alto",
+            "rank": 14,
+            "score": 0.4948185384273529,
+            "state": "California"
+        },
+        {
+            "address": "The Mad Monkfish, 524 Massachusetts Ave, Cambridge, MA 02139",
+            "category": "['Sushi restaurant', 'Jazz club', 'Thai restaurant']",
+            "gmap_id": "0x89e377540bc57ef3:0xec4112ca562a5656",
+            "iid": 20971,
+            "name": "The Mad Monkfish",
+            "rank": 15,
+            "score": 0.492460161447525,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Shin Hakata Ramen, 173 Massachusetts Ave, Boston, MA 02115",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e37b895c466173:0x7999b5712b12a941",
+            "iid": 21084,
+            "name": "Shin Hakata Ramen",
+            "rank": 16,
+            "score": 0.49010157585144043,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Karakatta, 230 Thompson St, New York, NY 10012",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c25991bb90019f:0x41c9212bc3dde6d2",
+            "iid": 18353,
+            "name": "Karakatta",
+            "rank": 17,
+            "score": 0.4894426465034485,
+            "state": "New_York"
+        },
+        {
+            "address": "Seven Seas Sushi, 130 E Santa Clara St, San Jose, CA 95113",
+            "category": "['Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fccbcfe593791:0x23233793212da1ab",
+            "iid": 3300,
+            "name": "Seven Seas Sushi",
+            "rank": 18,
+            "score": 0.4785771369934082,
+            "state": "California"
+        },
+        {
+            "address": "Sushi 88 & Ramen, 506 Showers Dr, Mountain View, CA 94040",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb098a7043c39:0xda2e267d82ce7a1c",
+            "iid": 3057,
+            "name": "Sushi 88 & Ramen",
+            "rank": 19,
+            "score": 0.4775542616844177,
+            "state": "California"
+        },
+        {
+            "address": "O Ya, 9 East St, Boston, MA 02111",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89e37a78bce2010b:0x1cba4c5acde6643e",
+            "iid": 21074,
+            "name": "O Ya",
+            "rank": 20,
+            "score": 0.47514858841896057,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Eugene Tsuji",
+        "uid": 55542,
+        "user_id": 107491731858425290387
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Ichiban Teriyaki Yelm, 506 W Yelm Ave, Yelm, WA 98597",
+            "category": "['Japanese restaurant']",
+            "date": "2011/10/18",
+            "gmap_id": "0x549113b8641d7f49:0x9e5b05e75ffa381f",
+            "iid": 948,
+            "name": "Ichiban Teriyaki Yelm",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1318903335739
+        },
+        {
+            "address": "Young's Teriyaki, 1010 Algiers Dr NE B, Yelm, WA 98597",
+            "category": "['Japanese restaurant']",
+            "date": "2011/10/18",
+            "gmap_id": "0x54916085435e5dd3:0x536c190b47193208",
+            "iid": 954,
+            "name": "Young's Teriyaki",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1318903451877
+        },
+        {
+            "address": "Uwajimaya Seattle, 600 5th Ave S, Seattle, WA 98104",
+            "category": "['Asian grocery store', 'Grocery store', 'Japanese grocery store', 'Seafood market', 'Supermarket']",
+            "date": "2017/01/10",
+            "gmap_id": "0x54906abcdbd7d9ab:0xfeedcd4ac66b4ebb",
+            "iid": 764,
+            "name": "Uwajimaya Seattle",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1484081117795
+        },
+        {
+            "address": "Kinza Teriyaki, 22219 Mountain Hwy E, Spanaway, WA 98387",
+            "category": "['Japanese restaurant']",
+            "date": "2017/03/19",
+            "gmap_id": "0x54911ca4fdec40cd:0x1c50469f607efbb3",
+            "iid": 950,
+            "name": "Kinza Teriyaki",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1489892021508
+        },
+        {
+            "address": "Happy Teriyaki 11 on River Road, 717 River Rd, Puyallup, WA 98371",
+            "category": "['Japanese restaurant']",
+            "date": "2017/04/20",
+            "gmap_id": "0x5490feb3064d9e91:0x29c5b9b8618da430",
+            "iid": 911,
+            "name": "Happy Teriyaki 11 on River Road",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1492685817011
+        },
+        {
+            "address": "Haiku Sushi & Seafood Buffet, 7530 164th Ave NE STE A108, Redmond, WA 98052",
+            "category": "['Buffet restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/12/31",
+            "gmap_id": "0x549072ae2b80672b:0xa4a46543fe66d8da",
+            "iid": 867,
+            "name": "Haiku Sushi & Seafood Buffet",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1546227951999
+        },
+        {
+            "address": "Koibito, 730 Sleater Kinney Rd SE, Lacey, WA 98503",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x54910b3652250bf7:0xadce3fdaeb568546",
+            "iid": 940,
+            "name": "Koibito",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1546832537336
+        },
+        {
+            "address": "Teriyaki,etc!, 11511 NE 195th St Classroom, Bothell, WA 98011",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/01/22",
+            "gmap_id": "0x54900e6002c870b9:0xf2e63195ec61c7ff",
+            "iid": 421,
+            "name": "Teriyaki,etc!",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1548130540965
+        },
+        {
+            "address": "Happy Teriyaki #3, 1107 College St SE # A, Lacey, WA 98503",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/18",
+            "gmap_id": "0x54910b461d018e39:0x792ae4ae12021dc7",
+            "iid": 941,
+            "name": "Happy Teriyaki #3",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1555568103771
+        },
+        {
+            "address": "Happy Teriyaki #4 Lacey, 8205 Martin Way E STE L, Lacey, WA 98516, United States",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/03",
+            "gmap_id": "0x54910b90d513e13d:0x5e82f38f76c2e828",
+            "iid": 943,
+            "name": "Happy Teriyaki #4 Lacey",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1559541199264
+        },
+        {
+            "address": "Happy Bento, 9909 168th St E #103, Puyallup, WA 98375",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/19",
+            "gmap_id": "0x5490fd4b7ebc7831:0x7511eb1860d90328",
+            "iid": 907,
+            "name": "Happy Bento",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1560927441590
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Ichi Teriyaki, 1414 Lake Tapps Pkwy E, Auburn, WA 98092",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x5490f9d91af179b1:0x2e951f1f31432d96",
+            "iid": 890,
+            "name": "Ichi Teriyaki",
+            "rank": 1,
+            "score": -1.8655524253845215,
+            "state": "Washington"
+        },
+        {
+            "address": "Suzy's Pho Teriyaki, 11416 Canyon Rd E B, Puyallup, WA 98373",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x5490fdebf7526907:0x5a70c6c223594ff7",
+            "iid": 910,
+            "name": "Suzy's Pho Teriyaki",
+            "rank": 2,
+            "score": -2.281444549560547,
+            "state": "Washington"
+        },
+        {
+            "address": "LAON Sushi & Teriyaki, 1905 Bridgeport Way W ste100, University Place, WA 98466",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x5491aba69f4c16ed:0xa3dc7f1e7802510d",
+            "iid": 978,
+            "name": "LAON Sushi & Teriyaki",
+            "rank": 3,
+            "score": -2.2921690940856934,
+            "state": "Washington"
+        },
+        {
+            "address": "Sapporo Teriyaki IV, 3850 S Meridian, Puyallup, WA 98373",
+            "category": "['Japanese restaurant', 'Health food restaurant', 'Korean restaurant', 'Weight loss service', 'Wok restaurant']",
+            "gmap_id": "0x5490fc5ae9e5cafb:0x89955650c8b73058",
+            "iid": 904,
+            "name": "Sapporo Teriyaki IV",
+            "rank": 4,
+            "score": -2.3268795013427734,
+            "state": "Washington"
+        },
+        {
+            "address": "Sake Sushi + Grill, 5738 N 26th St, Tacoma, WA 98407",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54905588322537c3:0x1014e26d74d7b484",
+            "iid": 642,
+            "name": "Sake Sushi + Grill",
+            "rank": 5,
+            "score": -2.3746156692504883,
+            "state": "Washington"
+        },
+        {
+            "address": "Sun's Teriyaki, 9915 224th St E, Graham, WA 98338",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54911da1e48a46d3:0x912bbf4b17413fb1",
+            "iid": 951,
+            "name": "Sun's Teriyaki",
+            "rank": 6,
+            "score": -2.4104883670806885,
+            "state": "Washington"
+        },
+        {
+            "address": "Kyoto Teriyaki Restaurant, 513 S Meridian, Puyallup, WA 98371",
+            "category": "['Japanese restaurant', 'Kyoto style Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x5490fc02411d59b3:0xc938d249555018b8",
+            "iid": 898,
+            "name": "Kyoto Teriyaki Restaurant",
+            "rank": 7,
+            "score": -2.445721387863159,
+            "state": "Washington"
+        },
+        {
+            "address": "Bonsai Teriyaki, 5738 N 26th St, Tacoma, WA 98406",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x549054c79c49b28d:0x4e70d751dbb54887",
+            "iid": 630,
+            "name": "Bonsai Teriyaki",
+            "rank": 8,
+            "score": -2.465404987335205,
+            "state": "Washington"
+        },
+        {
+            "address": "Modoo #2 Teriyaki, 15127 Main St #103, Sumner, WA 98390",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5490fbd32f9d0e21:0x13f1471fa6756c2f",
+            "iid": 897,
+            "name": "Modoo #2 Teriyaki",
+            "rank": 9,
+            "score": -2.47792649269104,
+            "state": "Washington"
+        },
+        {
+            "address": "Meadow Teriyaki, 5320 66th St W, University Place, WA 98467",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x54910064ba757969:0x58c436ff40b081e0",
+            "iid": 922,
+            "name": "Meadow Teriyaki",
+            "rank": 10,
+            "score": -2.4929609298706055,
+            "state": "Washington"
+        },
+        {
+            "address": "kamakura japanese cuisine, 4804 Pacific Ave SE, Lacey, WA 98503",
+            "category": "['Japanese restaurant', 'Modern izakaya restaurants', 'Restaurant']",
+            "gmap_id": "0x54910b4c5d1cc9a9:0xc477c55028ce2042",
+            "iid": 942,
+            "name": "kamakura japanese cuisine",
+            "rank": 11,
+            "score": -2.5096893310546875,
+            "state": "Washington"
+        },
+        {
+            "address": "Kin Ja Teriyaki, 8415 87th Ave SW, Lakewood, WA 98498",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x549100ba6356d607:0x340f227dbe9bd86a",
+            "iid": 923,
+            "name": "Kin Ja Teriyaki",
+            "rank": 12,
+            "score": -2.5318217277526855,
+            "state": "Washington"
+        },
+        {
+            "address": "Sapporo Teriyaki, 512 Auburn Way N, Auburn, WA 98002",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x549058645b3eb859:0x523d928cae8c5974",
+            "iid": 662,
+            "name": "Sapporo Teriyaki",
+            "rank": 13,
+            "score": -2.5485341548919678,
+            "state": "Washington"
+        },
+        {
+            "address": "Teriyaki House, 1608 SW Dash Point Rd, Federal Way, WA 98023",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5490573d7611ff2f:0x9223b840c385727b",
+            "iid": 646,
+            "name": "Teriyaki House",
+            "rank": 14,
+            "score": -2.582113742828369,
+            "state": "Washington"
+        },
+        {
+            "address": "Happy Teriyaki 16, 106 Legion Way SE, Olympia, WA 98501",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bubble tea store', 'Pho restaurant']",
+            "gmap_id": "0x5491751c5db0c70f:0x479f8780889fa834",
+            "iid": 962,
+            "name": "Happy Teriyaki 16",
+            "rank": 15,
+            "score": -2.586958408355713,
+            "state": "Washington"
+        },
+        {
+            "address": "Kicori Ramen, 18126 E Valley Hwy, Kent, WA 98032",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x54905d02e32f01c9:0x4cdda2dc726d6909",
+            "iid": 697,
+            "name": "Kicori Ramen",
+            "rank": 16,
+            "score": -2.6078388690948486,
+            "state": "Washington"
+        },
+        {
+            "address": "Jinza Teriyaki, 9318 Steele St S, Tacoma, WA 98444",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x549101b1910a6b69:0x51d6c5316f411b87",
+            "iid": 932,
+            "name": "Jinza Teriyaki",
+            "rank": 17,
+            "score": -2.6152539253234863,
+            "state": "Washington"
+        },
+        {
+            "address": "Miako Teriyaki Restaurant, 301 E Wallace Kneeland Blvd #218, Shelton, WA 98584",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x5491963457d312fb:0xe2b4daf83febdfed",
+            "iid": 969,
+            "name": "Miako Teriyaki Restaurant",
+            "rank": 18,
+            "score": -2.616452217102051,
+            "state": "Washington"
+        },
+        {
+            "address": "International Teriyaki House, 1620 S 312th St, Federal Way, WA 98003",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x5490577b796fa475:0x7cf37a3317ce2875",
+            "iid": 651,
+            "name": "International Teriyaki House",
+            "rank": 19,
+            "score": -2.6241447925567627,
+            "state": "Washington"
+        },
+        {
+            "address": "goPok\u00e9, 17348 Southcenter Pkwy Suite 104, Tukwila, WA 98188",
+            "category": "['Poke bar', 'Dessert shop', 'Hawaiian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54905df6994170ab:0x9ac91af85299fddb",
+            "iid": 710,
+            "name": "goPok\u00e9",
+            "rank": 20,
+            "score": -2.6598145961761475,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Evergreen King",
+        "uid": 35913,
+        "user_id": 104859115225701985286
+    }
+}

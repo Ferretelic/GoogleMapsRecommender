@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Sansei Seafood Restaurant & Sushi Bar, 815 Pine St, Seattle, WA 98101",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54906ab545ba2905:0xafac0b78afedf58e",
+            "iid": 2865,
+            "name": "Sansei Seafood Restaurant & Sushi Bar",
+            "rank": 1,
+            "score": -0.07899637520313263,
+            "state": "Washington"
+        },
+        {
+            "address": "Dough Zone\u2122 Dumpling House (Seattle Pine St.), 815 Pine St, Seattle, WA 98101",
+            "category": "['Chinese restaurant', 'Chinese noodle restaurant', 'Dumpling restaurant']",
+            "gmap_id": "0x54906b9d5e682ca1:0xc5ef54b8ea2a6808",
+            "iid": 2995,
+            "name": "Dough Zone\u2122 Dumpling House (Seattle Pine St.)",
+            "rank": 2,
+            "score": -0.10054446756839752,
+            "state": "Washington"
+        },
+        {
+            "address": "Zaika, 1100 Pike St, Seattle, WA 98101",
+            "category": "['Modern Indian restaurant', 'Fusion restaurant', 'Indian restaurant']",
+            "gmap_id": "0x54906b17e3e53921:0x175278d031ca1548",
+            "iid": 2978,
+            "name": "Zaika",
+            "rank": 3,
+            "score": -0.22465267777442932,
+            "state": "Washington"
+        },
+        {
+            "address": "Citrus Thai Restaurant, 800 Olive Way, Seattle, WA 98101, United States",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x549015355e0145d9:0x53faad8e10671c59",
+            "iid": 2056,
+            "name": "Citrus Thai Restaurant",
+            "rank": 4,
+            "score": -0.2571239769458771,
+            "state": "Washington"
+        },
+        {
+            "address": "Thai Ginger Pacific Place, 600 Pine St Level 4, Seattle, WA 98101",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Catering food and drink supplier', 'Gluten-free restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x54906ab4d193e931:0xe3461dca673df20a",
+            "iid": 2862,
+            "name": "Thai Ginger Pacific Place",
+            "rank": 5,
+            "score": -0.27775290608406067,
+            "state": "Washington"
+        },
+        {
+            "address": "Din Tai Fung, 600 Pine St #403, Seattle, WA 98101",
+            "category": "['Taiwanese restaurant', 'Chinese restaurant', 'Dumpling restaurant']",
+            "gmap_id": "0x54906ab4d193e93d:0x43071dc8ccc02412",
+            "iid": 2863,
+            "name": "Din Tai Fung",
+            "rank": 6,
+            "score": -0.2909042239189148,
+            "state": "Washington"
+        },
+        {
+            "address": "New Saigon Restaurant, 1529 6th Ave, Seattle, WA 98101",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x54906ab4c3ef97b1:0x1025eeabebf324de",
+            "iid": 2861,
+            "name": "New Saigon Restaurant",
+            "rank": 7,
+            "score": -0.3105773627758026,
+            "state": "Washington"
+        },
+        {
+            "address": "Sushi Kudasai, 1420 5th Ave #203, Seattle, WA 98101",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906ab48a4853f1:0x209ea56e892268e3",
+            "iid": 2860,
+            "name": "Sushi Kudasai",
+            "rank": 8,
+            "score": -0.32508543133735657,
+            "state": "Washington"
+        },
+        {
+            "address": "Qin Xi'an Noodles, 1203 Pine St, Seattle, WA 98101",
+            "category": "['Chinese noodle restaurant', 'Restaurant']",
+            "gmap_id": "0x54906acad412d5e5:0xdcbf6db9d5025a79",
+            "iid": 2943,
+            "name": "Qin Xi'an Noodles",
+            "rank": 9,
+            "score": -0.3388059437274933,
+            "state": "Washington"
+        },
+        {
+            "address": "Nana\u2019s Green Tea, 1007 Stewart St #103, Seattle, WA 98101",
+            "category": "['Japanese sweets restaurant', 'Ice cream shop', 'Authentic Japanese restaurant', 'Japanese curry restaurant', 'Japanese restaurant', 'Tea house']",
+            "gmap_id": "0x5490159756087dbd:0xfcc69e989ac50f1e",
+            "iid": 2136,
+            "name": "Nana\u2019s Green Tea",
+            "rank": 10,
+            "score": -0.40010008215904236,
+            "state": "Washington"
+        },
+        {
+            "address": NaN,
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x5490145155555555:0xf8deebb3c15ce6c6",
+            "iid": 1918,
+            "name": "Mejari Fusion Sushi 1924 N 45th St Seattle WA 98103",
+            "rank": 11,
+            "score": -0.40534666180610657,
+            "state": "Washington"
+        },
+        {
+            "address": "Seattle Pho + Bar, 925 Stewart St #102, Seattle, WA 98101",
+            "category": "['Vietnamese restaurant', 'Bar']",
+            "gmap_id": "0x5490153578f02dd7:0x3277741f3e2134f7",
+            "iid": 2057,
+            "name": "Seattle Pho + Bar",
+            "rank": 12,
+            "score": -0.40798240900039673,
+            "state": "Washington"
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 320 E Pine St, Seattle, WA 98122",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54906acb32e5a7b1:0x6b880432581d21e5",
+            "iid": 2945,
+            "name": "Kizuki Ramen & Izakaya",
+            "rank": 13,
+            "score": -0.4455389082431793,
+            "state": "Washington"
+        },
+        {
+            "address": "Xi'an Noodles, 400 Pine St, Seattle, WA 98101",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x54906b8c6c93477b:0x7b3cda61c283bb7f",
+            "iid": 2992,
+            "name": "Xi'an Noodles",
+            "rank": 14,
+            "score": -0.4499318599700928,
+            "state": "Washington"
+        },
+        {
+            "address": "Hamanasu, 1200 5th Ave, Seattle, WA 98101, United States",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54906ab403730b41:0x2787abbe0b614e8d",
+            "iid": 2857,
+            "name": "Hamanasu",
+            "rank": 15,
+            "score": -0.46608835458755493,
+            "state": "Washington"
+        },
+        {
+            "address": "Midori Teriyaki, 1120 Howell St, Seattle, WA 98101",
+            "category": "['Asian restaurant', 'Chicken restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54901535041c4723:0x11c1320d49447c26",
+            "iid": 2055,
+            "name": "Midori Teriyaki",
+            "rank": 16,
+            "score": -0.4700533449649811,
+            "state": "Washington"
+        },
+        {
+            "address": "Umma's Lunch Box, 1301 5th Ave, Seattle, WA 98101",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x54906ab40a0e0dd1:0x2fa5c016fe5a9948",
+            "iid": 2858,
+            "name": "Umma's Lunch Box",
+            "rank": 17,
+            "score": -0.47434306144714355,
+            "state": "Washington"
+        },
+        {
+            "address": "P.F. Chang's, 400 Pine St Ste 136, Seattle, WA 98101",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x5490154b4d0eb13f:0xd2742b4134721f07",
+            "iid": 2100,
+            "name": "P.F. Chang's",
+            "rank": 18,
+            "score": -0.4806637167930603,
+            "state": "Washington"
+        },
+        {
+            "address": "Pho Bac, 1809 Minor Ave, Seattle, WA 98101",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x5490154a922bac57:0x271bad43c527190c",
+            "iid": 2097,
+            "name": "Pho Bac",
+            "rank": 19,
+            "score": -0.4859673082828522,
+            "state": "Washington"
+        },
+        {
+            "address": "Meet Korean BBQ, 500 E Pike St, Seattle, WA 98122",
+            "category": "['Korean barbecue restaurant', 'Barbecue restaurant', 'Korean restaurant', 'Steak house']",
+            "gmap_id": "0x54906bf9dd50a3ed:0x2031a682b72c5239",
+            "iid": 3016,
+            "name": "Meet Korean BBQ",
+            "rank": 20,
+            "score": -0.4895423352718353,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

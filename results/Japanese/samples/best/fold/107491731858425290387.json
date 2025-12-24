@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Garden, 820 Bay Ave, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/04",
+            "gmap_id": "0x808e1570875d3997:0x98f3493c6278462a",
+            "iid": 2634,
+            "name": "Sushi Garden",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522825723821
+        },
+        {
+            "address": "I Love Sushi, 516 Front St, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x808e4027a1421e47:0xb4af237d8bea6224",
+            "iid": 2709,
+            "name": "I Love Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523338884145
+        },
+        {
+            "address": "Shogun Japanese Restaurant, 1123 Pacific Ave, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/09/20",
+            "gmap_id": "0x808e4027c63414c1:0xae0f0291b3b4fd1",
+            "iid": 2710,
+            "name": "Shogun Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537458753836
+        },
+        {
+            "address": "Okayama Sushi, 565 N 6th St A, San Jose, CA 95112",
+            "category": "['Sushi restaurant', 'Banquet hall', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/03",
+            "gmap_id": "0x808fcc85292a5649:0xfa6c79a02cd9fd85",
+            "iid": 3292,
+            "name": "Okayama Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543871354273
+        },
+        {
+            "address": "Nijiya Market, 240 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "date": "2019/01/15",
+            "gmap_id": "0x808fcc84e134e047:0x845a11e6ecd8d327",
+            "iid": 3285,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547574458261
+        },
+        {
+            "address": "Japonessa Sushi Cocina, 1400 1st Ave, Seattle, WA 98101",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Delivery service', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "date": "2019/03/11",
+            "gmap_id": "0x54906ab24f2c0953:0x76d1c08a65e548de",
+            "iid": 745,
+            "name": "Japonessa Sushi Cocina",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1552284619871
+        },
+        {
+            "address": "Hojoko, 1271 Boylston St, Boston, MA 02215",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "date": "2019/04/02",
+            "gmap_id": "0x89e37a1dfada04cf:0x5663cd8bf7332a94",
+            "iid": 21058,
+            "name": "Hojoko",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554169777942
+        },
+        {
+            "address": "Sapporo Ramen, 1815 Massachusetts Ave, Cambridge, MA 02140",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/03",
+            "gmap_id": "0x89e3773dcbeacf09:0xb3e3b8fbdf6266db",
+            "iid": 20963,
+            "name": "Sapporo Ramen",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554256515700
+        },
+        {
+            "address": "Sushi Garden Scotts Valley, 5600 Scotts Valley Dr STE C, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant']",
+            "date": "2020/01/01",
+            "gmap_id": "0x808e474f08433dd7:0x3c7ed1a419af34f",
+            "iid": 2713,
+            "name": "Sushi Garden Scotts Valley",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1577918491560
+        },
+        {
+            "address": "Kappo Nami Nami, 240 Castro St, Mountain View, CA 94041",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/09/11",
+            "gmap_id": "0x808fb7346d0186b5:0x5adc861e7de67053",
+            "iid": 3145,
+            "name": "Kappo Nami Nami",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1599863944814
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Akira Seabright, 1222 Soquel Ave, Santa Cruz, CA 95062",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808e401c020f2d27:0x1278bdba74b8874e",
+            "iid": 2705,
+            "name": "Akira Seabright",
+            "rank": 1,
+            "score": 6.823397159576416,
+            "state": "California"
+        },
+        {
+            "address": "KAITO, 1855 41st Avenue Food Court In The Capitola Mall, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e1516ae6982e7:0x14d0c89b2d2ce9f",
+            "iid": 2630,
+            "name": "KAITO",
+            "rank": 2,
+            "score": 5.6830573081970215,
+            "state": "California"
+        },
+        {
+            "address": "Mobo Sushi, 105 River St S, Santa Cruz, CA 95060",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808e4026fddc3a9f:0xf34a699b9bd7421a",
+            "iid": 2708,
+            "name": "Mobo Sushi",
+            "rank": 3,
+            "score": 5.633001327514648,
+            "state": "California"
+        },
+        {
+            "address": "Ginza Japanese Steak House & Sushi, 525 Water St, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e40230e74e0e7:0x13328018b05d4f4e",
+            "iid": 2707,
+            "name": "Ginza Japanese Steak House & Sushi",
+            "rank": 4,
+            "score": 5.3155035972595215,
+            "state": "California"
+        },
+        {
+            "address": "Rumble Fish, 4727 Scotts Valley Dr, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant', 'Fish & chips restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e40caa847e0ef:0xb17b6f15d2cfd5cd",
+            "iid": 2711,
+            "name": "Rumble Fish",
+            "rank": 5,
+            "score": 5.135976791381836,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Totoro, 1701 Mission St, Santa Cruz, CA 95060",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e6a7f74dda951:0x4822d2cd3d4c335",
+            "iid": 2717,
+            "name": "Sushi Totoro",
+            "rank": 6,
+            "score": 4.911369323730469,
+            "state": "California"
+        },
+        {
+            "address": "Akira Aptos, 105 Post Office Dr STE D, Aptos, CA 95003",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808e1678f26e7f0f:0x8ed5695dfe2dd92b",
+            "iid": 2636,
+            "name": "Akira Aptos",
+            "rank": 7,
+            "score": 4.663918972015381,
+            "state": "California"
+        },
+        {
+            "address": "Takara, 3775 Capitola Rd, Capitola, CA 95010",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808e15698f46c1bf:0xb09e1f04271729f3",
+            "iid": 2633,
+            "name": "Takara",
+            "rank": 8,
+            "score": 4.576968193054199,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Garden Scotts Valley, 5600 Scotts Valley Dr STE C, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808e474f08433dd7:0x3c7ed1a419af34f",
+            "iid": 2713,
+            "name": "Sushi Garden Scotts Valley",
+            "rank": 9,
+            "score": 4.48982048034668,
+            "state": "California"
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 3245,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "rank": 10,
+            "score": 3.984401226043701,
+            "state": "California"
+        },
+        {
+            "address": "Miyuki Restaurant, 452 E Lake Ave, Watsonville, CA 95076",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808e1b161f3d133d:0xd5f9ef837fc5f290",
+            "iid": 2640,
+            "name": "Miyuki Restaurant",
+            "rank": 11,
+            "score": 3.982881546020508,
+            "state": "California"
+        },
+        {
+            "address": "Imura Japanese Restaurant, 1994 Main St, Watsonville, CA 95076",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808e1af2303b96e1:0x6103d1358b1c8e8f",
+            "iid": 2638,
+            "name": "Imura Japanese Restaurant",
+            "rank": 12,
+            "score": 3.8406405448913574,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Garden Watsonville, 1441 Main St, Watsonville, CA 95076",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808e1ae4181de6a5:0x4fee04a2e27cda9",
+            "iid": 2637,
+            "name": "Sushi Garden Watsonville",
+            "rank": 13,
+            "score": 3.5707695484161377,
+            "state": "California"
+        },
+        {
+            "address": "Sapporo Ramen, 1200 41st Ave Ste C, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808e1533525287d9:0x69b757c22c25c1f9",
+            "iid": 2632,
+            "name": "Sapporo Ramen",
+            "rank": 14,
+            "score": 3.5498714447021484,
+            "state": "California"
+        },
+        {
+            "address": "M.G. Sushi, 1733 Seabright Ave, Santa Cruz, CA 95062",
+            "category": "['Sushi restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x808e40211631583f:0xced3097bb27b59ab",
+            "iid": 2706,
+            "name": "M.G. Sushi",
+            "rank": 15,
+            "score": 3.5426342487335205,
+            "state": "California"
+        },
+        {
+            "address": "Kenzo Sushi, 5465 Snell Ave, San Jose, CA 95123",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808e31f30ea098cf:0x27232b78e1b38a52",
+            "iid": 2666,
+            "name": "Kenzo Sushi",
+            "rank": 16,
+            "score": 3.5242302417755127,
+            "state": "California"
+        },
+        {
+            "address": "Naka Sushi, 1200 41st Ave, Capitola, CA 95010",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808e1517aaaaaaab:0xb7c49eb75871cf25",
+            "iid": 2631,
+            "name": "Naka Sushi",
+            "rank": 17,
+            "score": 3.359520435333252,
+            "state": "California"
+        },
+        {
+            "address": "Cha Cha, 547 W Capitol Expy, San Jose, CA 95136",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808e324babee7365:0xaaf39b751e458ff1",
+            "iid": 2670,
+            "name": "Cha Cha",
+            "rank": 18,
+            "score": 3.2233641147613525,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Blossom, 11 Camp Evers Ln, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Ramen restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x808e40cdc678b267:0x69d9c0143fc68fff",
+            "iid": 2712,
+            "name": "Sushi Blossom",
+            "rank": 19,
+            "score": 3.136251926422119,
+            "state": "California"
+        },
+        {
+            "address": "Fuji, 56 W Santa Clara St, San Jose, CA 95113",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808fcca33a59d819:0x6aae31eeac901812",
+            "iid": 3295,
+            "name": "Fuji",
+            "rank": 20,
+            "score": 3.132791757583618,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Eugene Tsuji",
+        "uid": 55542,
+        "user_id": 107491731858425290387
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Iron Chef, 4301 S Meridian, Puyallup, WA 98373",
+            "category": "['Japanese steakhouse']",
+            "date": "2011/05/04",
+            "gmap_id": "0x5490fc41a57d39e9:0x97f187f3989a0611",
+            "iid": 3318,
+            "name": "Iron Chef",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1304524345505
+        },
+        {
+            "address": "Mercel's Bake Shop, 8500 49th St N, Pinellas Park, FL 33781",
+            "category": "['Filipino restaurant', 'Asian grocery store', 'Caterer', 'Grocery delivery service', 'Market', 'Restaurant']",
+            "date": "2011/05/04",
+            "gmap_id": "0x88c2e4f1893bd035:0x123821f91c1c1f5a",
+            "iid": 47284,
+            "name": "Mercel's Bake Shop",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1304524407177
+        },
+        {
+            "address": "Siam Thai Restaurant, Westchase, 9546 W Linebaugh Ave, Tampa, FL 33626",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2011/06/02",
+            "gmap_id": "0x88c2ea5b0f26087b:0x33271cf4cf86f14f",
+            "iid": 47327,
+            "name": "Siam Thai Restaurant, Westchase",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1307030368572
+        },
+        {
+            "address": "China Yuan, 8502 N Armenia Ave #1a, Tampa, FL 33604",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2011/08/01",
+            "gmap_id": "0x88c2c1376c5795b3:0x28b90c65d625d642",
+            "iid": 46976,
+            "name": "China Yuan",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1312219448847
+        },
+        {
+            "address": "Taki Japanese Steakhouse, 4711 Ashford Dunwoody Rd, Atlanta, GA 30338",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2011/08/14",
+            "gmap_id": "0x88f5095f38b8aa71:0x16772f9a1432ced6",
+            "iid": 51575,
+            "name": "Taki Japanese Steakhouse",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1313284088724
+        },
+        {
+            "address": "Florida, Clearwater, Gulf to Bay Blvd, Saki Endless Sushi & Hibachi Restaurant\u90ae\u653f\u7f16\u7801: 33759",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2015/02/01",
+            "gmap_id": "0x88c2efd7334bbe93:0xd5653c404a9a233d",
+            "iid": 47364,
+            "name": "Saki Endless Sushi & Hibachi Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1422757053557
+        },
+        {
+            "address": "Saigon Deli, 3858 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Deli', 'Restaurant']",
+            "date": "2017/02/06",
+            "gmap_id": "0x88c2c11349964eb9:0x138941c315dd1fc",
+            "iid": 46969,
+            "name": "Saigon Deli",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486410668732
+        },
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/18",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 47324,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1566160307203
+        },
+        {
+            "address": "Blu Sushi, 13451 McGregor Blvd #23, Fort Myers, FL 33919",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Night club', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88db3f74f2ddc27b:0xfafbbec77631970d",
+            "iid": 49041,
+            "name": "Blu Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1578832424549
+        },
+        {
+            "address": "Florida, Tampa, N Dale Mabry Hwy, Saki Endless Sushi and Hibachi Grill Eatery\u90ae\u653f\u7f16\u7801: 33618",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88c2c0e5db8be0db:0x114693ff531b7ea8",
+            "iid": 46955,
+            "name": "Saki Endless Sushi and Hibachi Grill Eatery",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1578832432401
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Chicken Yummy, 5505 E Fowler Ave, Temple Terrace, FL 33617, United States",
+            "category": "['Chinese restaurant', 'Chicken restaurant']",
+            "gmap_id": "0x88c2c7da036b40af:0x71413f559b0256f9",
+            "iid": 47113,
+            "name": "Chicken Yummy",
+            "rank": 1,
+            "score": 0.6259351372718811,
+            "state": "Florida"
+        },
+        {
+            "address": "Genghis Grill, 3805 Northdale Blvd, Tampa, FL 33624",
+            "category": "['Mongolian barbecue restaurant', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Pan-Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88c2c09de34db42b:0x31dd6523dc0548d2",
+            "iid": 46953,
+            "name": "Genghis Grill",
+            "rank": 2,
+            "score": 0.6050565242767334,
+            "state": "Florida"
+        },
+        {
+            "address": "Matoi Sushi, 602 N Dale Mabry Hwy, Tampa, FL 33609",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x88c2c308cb973463:0x91e08ff9f0c1ff84",
+            "iid": 47005,
+            "name": "Matoi Sushi",
+            "rank": 3,
+            "score": 0.6014308333396912,
+            "state": "Florida"
+        },
+        {
+            "address": "Florida, Tampa, N Dale Mabry Hwy, Saki Endless Sushi and Hibachi Grill Eatery\u90ae\u653f\u7f16\u7801: 33618",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c0e5db8be0db:0x114693ff531b7ea8",
+            "iid": 46955,
+            "name": "Saki Endless Sushi and Hibachi Grill Eatery",
+            "rank": 4,
+            "score": 0.6001667976379395,
+            "state": "Florida"
+        },
+        {
+            "address": "Fusion Bowl, 504 E Kennedy Blvd, Tampa, FL 33602",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c2c48b0faf360b:0x6ddb5fb444e72abf",
+            "iid": 47055,
+            "name": "Fusion Bowl",
+            "rank": 5,
+            "score": 0.5993281006813049,
+            "state": "Florida"
+        },
+        {
+            "address": "Umami Sushi, 17677 N Dale Mabry Hwy, Lutz, FL 33548",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c2bf1407fbbe5f:0x206ea3ee7c0e21fe",
+            "iid": 46940,
+            "name": "Umami Sushi",
+            "rank": 6,
+            "score": 0.5983498096466064,
+            "state": "Florida"
+        },
+        {
+            "address": "Hong Kong House, 1120 E Fowler Ave, Tampa, FL 33612",
+            "category": "['Chinese restaurant', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x88c2c71a4c389831:0xf987f6e8e89761a1",
+            "iid": 47082,
+            "name": "Hong Kong House",
+            "rank": 7,
+            "score": 0.5926986336708069,
+            "state": "Florida"
+        },
+        {
+            "address": "SaRiOne Grill, 7525 W Hillsborough Ave, Town 'N' Country, FL 33615",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x88c2e9fdc5267589:0x44b55dd38fb91bfd",
+            "iid": 47322,
+            "name": "SaRiOne Grill",
+            "rank": 8,
+            "score": 0.5910595059394836,
+            "state": "Florida"
+        },
+        {
+            "address": "Osaka Sushi & Grill, 14428 N Dale Mabry Hwy, Tampa, FL 33618",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese steakhouse']",
+            "gmap_id": "0x88c2c091efa4680f:0x159045cdca32fe0c",
+            "iid": 46947,
+            "name": "Osaka Sushi & Grill",
+            "rank": 9,
+            "score": 0.5903754830360413,
+            "state": "Florida"
+        },
+        {
+            "address": "Filipiniana Philippine Caf\u00e9, 3848 W Waters Ave, Tampa, FL 33614",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x88c2c112b60e2347:0x39334c3feaa1fe76",
+            "iid": 46968,
+            "name": "Filipiniana Philippine Caf\u00e9",
+            "rank": 10,
+            "score": 0.5877958536148071,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Quyen Vietnamese Cuisine, 8404 W Hillsborough Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c16cc64f58ad:0x8c71b7075182f907",
+            "iid": 46982,
+            "name": "Pho Quyen Vietnamese Cuisine",
+            "rank": 11,
+            "score": 0.5867133140563965,
+            "state": "Florida"
+        },
+        {
+            "address": "Ho ho to go, 2502 W Columbus Dr #2212, Tampa, FL 33607",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88c2c38fee7d14a5:0x407b56b0b657d261",
+            "iid": 47034,
+            "name": "Ho ho to go",
+            "rank": 12,
+            "score": 0.5848038196563721,
+            "state": "Florida"
+        },
+        {
+            "address": "Faceless Samurai, 3428 Tampa Rd, Palm Harbor, FL 34684",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88c2ed7119cdd4e9:0x4f152d257fcf2400",
+            "iid": 47345,
+            "name": "Faceless Samurai",
+            "rank": 13,
+            "score": 0.5766376256942749,
+            "state": "Florida"
+        },
+        {
+            "address": "Sarione Korean Restaurant, 3940 W Cypress St, Tampa, FL 33607",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c306497787b1:0xcd95341b1e212ee8",
+            "iid": 47004,
+            "name": "Sarione Korean Restaurant",
+            "rank": 14,
+            "score": 0.5754595994949341,
+            "state": "Florida"
+        },
+        {
+            "address": "Seasons Cafe and Bakery, 7261 US Hwy 19 N, Pinellas Park, FL 33781",
+            "category": "['Vietnamese restaurant', 'Bakery', 'Restaurant']",
+            "gmap_id": "0x88c2e46519c4030d:0x9840780a5d7e2d10",
+            "iid": 47262,
+            "name": "Seasons Cafe and Bakery",
+            "rank": 15,
+            "score": 0.5672650337219238,
+            "state": "Florida"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 3401 W Bay to Bay Blvd, Tampa, FL 33629",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88c2c33827d0b283:0xf06dcfc5371635fb",
+            "iid": 47015,
+            "name": "KELP SUSHI JOINT",
+            "rank": 16,
+            "score": 0.564708411693573,
+            "state": "Florida"
+        },
+        {
+            "address": "A-GREEN ORIENTAL MARKET, 1321 E Fletcher Ave, Tampa, FL 33612",
+            "category": "['Korean grocery store']",
+            "gmap_id": "0x88c2c76cd8e88129:0xf1637b9b67b276cf",
+            "iid": 47092,
+            "name": "A-GREEN ORIENTAL MARKET",
+            "rank": 17,
+            "score": 0.56231689453125,
+            "state": "Florida"
+        },
+        {
+            "address": "Saki Endless Sushi & Hibachi, 35927 US Hwy 19 N #1523, Palm Harbor, FL 34684",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88c2f2a92f6a7b77:0x87cae4684e49f1ce",
+            "iid": 47397,
+            "name": "Saki Endless Sushi & Hibachi",
+            "rank": 18,
+            "score": 0.5616675615310669,
+            "state": "Florida"
+        },
+        {
+            "address": "Loon Fong's Nam Viet - Machi Coffee and Tea, 8150 49th St N, Pinellas Park, FL 33781",
+            "category": "['Bubble tea store', 'Asian restaurant', 'Chinese restaurant', 'Coffee shop', 'Tea house', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c2e48da796393d:0x4ae2bb43387c97a9",
+            "iid": 47269,
+            "name": "Loon Fong's Nam Viet - Machi Coffee and Tea",
+            "rank": 19,
+            "score": 0.556842029094696,
+            "state": "Florida"
+        },
+        {
+            "address": "Dosunco RAMEN, 3310 W Kennedy Blvd, Tampa, FL 33609",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Soup shop', 'Udon noodle restaurant']",
+            "gmap_id": "0x88c2c30d3efee365:0x9cbf2973cc8b9376",
+            "iid": 47006,
+            "name": "Dosunco RAMEN",
+            "rank": 20,
+            "score": 0.5556663274765015,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Henry Cekan",
+        "uid": 128687,
+        "user_id": 104316392500823453878
+    }
+}

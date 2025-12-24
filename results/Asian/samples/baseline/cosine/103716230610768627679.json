@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi Mido, 6010 Nieman Rd, Shawnee, KS 66203",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2018/05/17",
+            "gmap_id": "0x87c0ed27a764ea23:0x4c3810f0edc1feaf",
+            "iid": 33115,
+            "name": "Sushi Mido",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1526518656785
+        },
+        {
+            "address": "Korma Sutra - Indian Restaurant in Kansas City, 12112 W 87th St Pkwy, Lenexa, KS 66215",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Seafood restaurant', 'South Asian restaurant']",
+            "date": "2018/05/17",
+            "gmap_id": "0x87c0eb5497bc6b3d:0xe92dc5dc93ce1c84",
+            "iid": 33074,
+            "name": "Korma Sutra - Indian Restaurant in Kansas City",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1526518721816
+        },
+        {
+            "address": "Hong Kong Star Restaurant, 918 Old 56 Highway, Olathe, KS 66061",
+            "category": "['Chinese restaurant']",
+            "date": "2018/06/07",
+            "gmap_id": "0x87c0be0cd117489f:0x151f905ba71f069e",
+            "iid": 32961,
+            "name": "Hong Kong Star Restaurant",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1528375717403
+        },
+        {
+            "address": "Taj Mahal Authentic Cuisine of india, 7521 Wornall Rd, Kansas City, MO 64114",
+            "category": "['Indian restaurant', 'Ethnic restaurant']",
+            "date": "2018/10/19",
+            "gmap_id": "0x87c0efca19a9bba5:0xeea91cd60a9be9e1",
+            "iid": 33147,
+            "name": "Taj Mahal Authentic Cuisine of india",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1539971544655
+        },
+        {
+            "address": "Pho Good, 10952 W 74th Terrace, Shawnee, KS 66203",
+            "category": "['Restaurant', 'Takeout Restaurant', 'Vietnamese restaurant']",
+            "date": "2018/12/26",
+            "gmap_id": "0x87c0ecb8dedced7b:0xeee1cb3d4408dd96",
+            "iid": 33106,
+            "name": "Pho Good",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1545833455442
+        },
+        {
+            "address": "Aso Sushi, 8615 Hauser Ct, Lenexa, KS 66061",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/01/26",
+            "gmap_id": "0x87c094a62ab56c83:0x4b96e71006817fa8",
+            "iid": 32933,
+            "name": "Aso Sushi",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1548483664704
+        },
+        {
+            "address": "Thai Place, 9359 W 87th St, Overland Park, KS 66212",
+            "category": "['Thai restaurant', 'Fine dining restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/03/06",
+            "gmap_id": "0x87c0eb7b79ba7da9:0xea77a5ec4dcff5f2",
+            "iid": 33078,
+            "name": "Thai Place",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1551846088972
+        },
+        {
+            "address": "Evergreen Lin's, 13034 Kansas Ave, Bonner Springs, KS 66012",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/10/05",
+            "gmap_id": "0x87c08f84ca07ab3f:0xf4966b3925a1171e",
+            "iid": 32926,
+            "name": "Evergreen Lin's",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1570271411977
+        },
+        {
+            "address": "Sang Sang Asian Express, 10904 W 75th St, Shawnee, KS 66214",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2019/12/01",
+            "gmap_id": "0x87c0ecbeca521a45:0xdeeb24e411cdb6c4",
+            "iid": 33108,
+            "name": "Sang Sang Asian Express",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1575163398995
+        },
+        {
+            "address": "Panda Express, 12210 W 95th St, Lenexa, KS 66215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/26",
+            "gmap_id": "0x87c094b5300481dd:0x12956cc5278e0134",
+            "iid": 32934,
+            "name": "Panda Express",
+            "split": "valid",
+            "state": "Kansas",
+            "unix_time": 1579998138194
+        },
+        {
+            "address": "Sakura Japanese Restaurant, 7474 Nieman Rd, Shawnee, KS 66203",
+            "category": "['Japanese restaurant', 'Steak house']",
+            "date": "2020/12/20",
+            "gmap_id": "0x87c0ecb90ed790ad:0xb98f746fd6c1d97e",
+            "iid": 33107,
+            "name": "Sakura Japanese Restaurant",
+            "split": "test",
+            "state": "Kansas",
+            "unix_time": 1608433889588
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Sawasdee Thai Cuisine, 11838 Quivira Rd, Overland Park, KS 66210",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0eaca0cdaa5d9:0x4f1da6bd811a690a",
+            "iid": 33060,
+            "name": "Sawasdee Thai Cuisine",
+            "rank": 1,
+            "score": 0.7688835263252258,
+            "state": "Kansas"
+        },
+        {
+            "address": "Golden Palace Chinese Restaurant, 1711 S Mur-Len Rd, Olathe, KS 66062",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x87c0be5a9e6bd949:0xd553c75f1b1cfbc5",
+            "iid": 32965,
+            "name": "Golden Palace Chinese Restaurant",
+            "rank": 2,
+            "score": 0.7375511527061462,
+            "state": "Kansas"
+        },
+        {
+            "address": "Bo Lings, 8973 Metcalf Ave, Overland Park, KS 66212",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Caterer', 'Dim sum restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0eb932aa84fcf:0xdedb7dd24e35ec78",
+            "iid": 33082,
+            "name": "Bo Lings",
+            "rank": 3,
+            "score": 0.7338404655456543,
+            "state": "Kansas"
+        },
+        {
+            "address": "Korean Restaurant Sobahn, 7800 Shawnee Mission Pkwy, Overland Park, KS 66202",
+            "category": "['Korean restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87c0ec520a05c7e9:0xc0f9924768714f0a",
+            "iid": 33099,
+            "name": "Korean Restaurant Sobahn",
+            "rank": 4,
+            "score": 0.7295636534690857,
+            "state": "Kansas"
+        },
+        {
+            "address": "Rice House, 14958 W 87th St Pkwy, Lenexa, KS 66215",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x87c094832905e39b:0xc6181699c36ffb8c",
+            "iid": 32931,
+            "name": "Rice House",
+            "rank": 5,
+            "score": 0.72791987657547,
+            "state": "Kansas"
+        },
+        {
+            "address": "Caf\u00e9 Vie, 10330 Metcalf Ave, Overland Park, KS 66212",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Cafe', 'Coffee shop', 'Korean restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x87c0ebb6778acdbb:0x5643cde2c09cd33e",
+            "iid": 33091,
+            "name": "Caf\u00e9 Vie",
+            "rank": 6,
+            "score": 0.724174976348877,
+            "state": "Kansas"
+        },
+        {
+            "address": "Joy Wok, 11920 Metcalf Ave, Overland Park, KS 66213",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87c0ea6b7615e649:0xf2a3a5af37c053bd",
+            "iid": 33053,
+            "name": "Joy Wok",
+            "rank": 7,
+            "score": 0.7236261963844299,
+            "state": "Kansas"
+        },
+        {
+            "address": "Blue Koi, 10581 Mission Rd, Leawood, KS 66206",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x87c0e99c17528cf7:0xaed5c5e923a430a3",
+            "iid": 33038,
+            "name": "Blue Koi",
+            "rank": 8,
+            "score": 0.7227402925491333,
+            "state": "Kansas"
+        },
+        {
+            "address": "Lucky Wok, 15129 W 87th St Pkwy, Lenexa, KS 66219",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x87c09483b01c71ed:0xaf7025d5f2619c8a",
+            "iid": 32932,
+            "name": "Lucky Wok",
+            "rank": 9,
+            "score": 0.7203698754310608,
+            "state": "Kansas"
+        },
+        {
+            "address": "Master Wok, 14947 W 119th St, Olathe, KS 66062",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Cantonese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x87c09512a4e61f61:0xeaf75657515377a1",
+            "iid": 32938,
+            "name": "Master Wok",
+            "rank": 10,
+            "score": 0.7196363210678101,
+            "state": "Kansas"
+        },
+        {
+            "address": "Fortune Palace, 12102 W 87th St Pkwy, Lenexa, KS 66215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0eb54973e3b65:0x69cd403aa481eb6b",
+            "iid": 33073,
+            "name": "Fortune Palace",
+            "rank": 11,
+            "score": 0.7195075154304504,
+            "state": "Kansas"
+        },
+        {
+            "address": "Panda Express, 11996 S Strang Line Rd, Olathe, KS 66062",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87c095755973b53f:0xace71591dfa0275",
+            "iid": 32943,
+            "name": "Panda Express",
+            "rank": 12,
+            "score": 0.7170617580413818,
+            "state": "Kansas"
+        },
+        {
+            "address": "Bangkok Pavilion Thai Restaurant, 7249 W 97th St, Overland Park, KS 66212",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87c0ebbec919d961:0x546e10b76ea7419f",
+            "iid": 33092,
+            "name": "Bangkok Pavilion Thai Restaurant",
+            "rank": 13,
+            "score": 0.7158604264259338,
+            "state": "Kansas"
+        },
+        {
+            "address": "India Palace, 9918 W 87th St, Overland Park, KS 66212",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0eb66b28718fd:0xca04ca685e348bbf",
+            "iid": 33076,
+            "name": "India Palace",
+            "rank": 14,
+            "score": 0.7156680226325989,
+            "state": "Kansas"
+        },
+        {
+            "address": "Yuva Eats, 14967 W 119th St, Olathe, KS 66062",
+            "category": "['Nepalese restaurant', 'Indian restaurant', 'Tibetan restaurant']",
+            "gmap_id": "0x87c095bc54139dbd:0x1c492dc761146868",
+            "iid": 32946,
+            "name": "Yuva Eats",
+            "rank": 15,
+            "score": 0.713935375213623,
+            "state": "Kansas"
+        },
+        {
+            "address": "Sushi Haru, 13133 State Line Rd, Kansas City, MO 64145",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87c0c27c6b1acac1:0x5353848ea712521c",
+            "iid": 32997,
+            "name": "Sushi Haru",
+            "rank": 16,
+            "score": 0.7128730416297913,
+            "state": "Missouri"
+        },
+        {
+            "address": "Manila Bay Ihaw Ihaw, 4800 Bannister Rd, Kansas City, MO 64137",
+            "category": "['Filipino restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0e645b1d86c95:0x60e23df5a7470a58",
+            "iid": 33023,
+            "name": "Manila Bay Ihaw Ihaw",
+            "rank": 17,
+            "score": 0.7079549431800842,
+            "state": "Missouri"
+        },
+        {
+            "address": "Bo Lings, 7105 W 135th St, Overland Park, KS 66223",
+            "category": "['Chinese restaurant', 'Caterer']",
+            "gmap_id": "0x87c0c1c33125ddc9:0x49e1d76c0f2c0a26",
+            "iid": 32986,
+            "name": "Bo Lings",
+            "rank": 18,
+            "score": 0.7078683376312256,
+            "state": "Kansas"
+        },
+        {
+            "address": "Thai Orchid, 6504 Martway St, Mission, KS 66202",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Pan-Asian restaurant', 'South Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x87c0edcb47c40369:0x29a108f21cd8b9c7",
+            "iid": 33118,
+            "name": "Thai Orchid",
+            "rank": 19,
+            "score": 0.7022660970687866,
+            "state": "Kansas"
+        },
+        {
+            "address": "Sakura Japanese Restaurant, 7474 Nieman Rd, Shawnee, KS 66203",
+            "category": "['Japanese restaurant', 'Steak house']",
+            "gmap_id": "0x87c0ecb90ed790ad:0xb98f746fd6c1d97e",
+            "iid": 33107,
+            "name": "Sakura Japanese Restaurant",
+            "rank": 20,
+            "score": 0.7009440064430237,
+            "state": "Kansas"
+        }
+    ],
+    "user": {
+        "name": "Peggy Burns",
+        "uid": 110764,
+        "user_id": 103716230610768627679
+    }
+}

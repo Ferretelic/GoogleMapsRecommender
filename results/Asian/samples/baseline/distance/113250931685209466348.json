@@ -1,0 +1,348 @@
+{
+    "history": [
+        {
+            "address": "Uwajimaya Seattle, 600 5th Ave S, Seattle, WA 98104",
+            "category": "['Asian grocery store', 'Grocery store', 'Japanese grocery store', 'Seafood market', 'Supermarket']",
+            "date": "2016/09/16",
+            "gmap_id": "0x54906abcdbd7d9ab:0xfeedcd4ac66b4ebb",
+            "iid": 2904,
+            "name": "Uwajimaya Seattle",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1474064073120
+        },
+        {
+            "address": "Youngwol Noodle, 31260 Pacific Hwy S #7, Federal Way, WA 98003",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2016/11/30",
+            "gmap_id": "0x5490577bb5edf197:0x5bf8056aa948a2c2",
+            "iid": 2514,
+            "name": "Youngwol Noodle",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1480464254489
+        },
+        {
+            "address": "Bento Factory, 3201 Rucker Ave, Everett, WA 98201",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/03/08",
+            "gmap_id": "0x549aaa9c6adb52cd:0xbe8f859c8973dbde",
+            "iid": 4816,
+            "name": "Bento Factory",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1489005353394
+        },
+        {
+            "address": "Bento Factory, 3201 Rucker Ave, Everett, WA 98201",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2017/03/08",
+            "gmap_id": "0x549aaa9c6adb52cd:0xbe8f859c8973dbde",
+            "iid": 4816,
+            "name": "Bento Factory",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1489005353394
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 320 E Pine St, Seattle, WA 98122",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2017/03/15",
+            "gmap_id": "0x54906acb32e5a7b1:0x6b880432581d21e5",
+            "iid": 2945,
+            "name": "Kizuki Ramen & Izakaya",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1489620055930
+        },
+        {
+            "address": "Chan Seattle, 86 Pine St, Seattle, WA 98101",
+            "category": "['Korean restaurant', 'Gastropub']",
+            "date": "2017/04/01",
+            "gmap_id": "0x54906ab2dd6f28b1:0x4cffebce8113a64a",
+            "iid": 2845,
+            "name": "Chan Seattle",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1491018767515
+        },
+        {
+            "address": "98037 Washington, Lynnwood, Hwy 99, Sam Oh Jung Restaurant",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2019/02/07",
+            "gmap_id": "0x5490051cc10bc733:0x106436d71f438185",
+            "iid": 1579,
+            "name": "Sam Oh Jung Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1549565876038
+        },
+        {
+            "address": "H Mart Lynnwood, 3301 184th St SW, Lynnwood, WA 98037",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Supermarket']",
+            "date": "2019/05/10",
+            "gmap_id": "0x5490050c6e597ced:0x85fc7542f82b2377",
+            "iid": 1575,
+            "name": "H Mart Lynnwood",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1557511365681
+        },
+        {
+            "address": "Shiki, 4 W Roy St, Seattle, WA 98119",
+            "category": "['Japanese restaurant', 'Fugu restaurant', 'Sushi restaurant']",
+            "date": "2019/11/03",
+            "gmap_id": "0x549015422fe77bf3:0xdae9e9d9c6b48d00",
+            "iid": 2076,
+            "name": "Shiki",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1572810338247
+        },
+        {
+            "address": "Fremont Bowl, 4258 Fremont Ave N Ste #4262, Seattle, WA 98103",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/11/06",
+            "gmap_id": "0x5490145348365d81:0x2ea5cf098ebdee6",
+            "iid": 1920,
+            "name": "Fremont Bowl",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1572998751802
+        },
+        {
+            "address": "Fremont Bowl, 4258 Fremont Ave N Ste #4262, Seattle, WA 98103",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2019/11/06",
+            "gmap_id": "0x5490145348365d81:0x2ea5cf098ebdee6",
+            "iid": 1920,
+            "name": "Fremont Bowl",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1572998751802
+        },
+        {
+            "address": "Shiro's Sushi, 2401 2nd Ave, Seattle, WA 98121",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/11/12",
+            "gmap_id": "0x5490154e7d9f0253:0xb170adb05ad5c454",
+            "iid": 2115,
+            "name": "Shiro's Sushi",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1573584422283
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Kyodai Handroll & Seafood Bar, 2626 N Josey Ln, Carrollton, TX 75007",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x864c25771a20dd01:0x717e3ff17048c765",
+            "iid": 25575,
+            "name": "Kyodai Handroll & Seafood Bar",
+            "rank": 1,
+            "score": -2.319490909576416,
+            "state": "Texas"
+        },
+        {
+            "address": "Saffron Columbus, 5300 Sidney Simons Blvd Suite 27, Columbus, GA 31904",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x888ccdddca67fe35:0x7387913462abff46",
+            "iid": 46238,
+            "name": "Saffron Columbus",
+            "rank": 2,
+            "score": -2.3559911251068115,
+            "state": "Georgia"
+        },
+        {
+            "address": "California, San Francisco, Cortland Ave, Shokudou\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7fa3e5e7731f:0x61a2a36642107cb7",
+            "iid": 9254,
+            "name": "Shokudou",
+            "rank": 3,
+            "score": -2.3595659732818604,
+            "state": "California"
+        },
+        {
+            "address": "Great India, 752 Blue Vista Ln #400, Midvale, UT 84047",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87528971c6afead3:0x679fb662b8237409",
+            "iid": 30249,
+            "name": "Great India",
+            "rank": 4,
+            "score": -2.3622524738311768,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 5,
+            "score": -2.364912271499634,
+            "state": "Texas"
+        },
+        {
+            "address": "Taichi Bubble Tea, 2460 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Restaurant', 'Bubble tea store', 'Chinese takeaway', 'Ramen restaurant']",
+            "gmap_id": "0x89e839035dc18483:0x754aa3f4a8c2094c",
+            "iid": 71987,
+            "name": "Taichi Bubble Tea",
+            "rank": 6,
+            "score": -2.3651301860809326,
+            "state": "New_York"
+        },
+        {
+            "address": "Gotji's Kitchen, 400 Main St, Buda, TX 78610",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865b5391f8ab7e21:0x50276f6f719071f8",
+            "iid": 27140,
+            "name": "Gotji's Kitchen",
+            "rank": 7,
+            "score": -2.369631767272949,
+            "state": "Texas"
+        },
+        {
+            "address": "Dup Bap, 691 Bloomfield Ave, West Caldwell, NJ 07006",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c30163715debe1:0x52f5d907843e5992",
+            "iid": 63946,
+            "name": "Dup Bap",
+            "rank": 8,
+            "score": -2.3700382709503174,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kai Ramen North Hollywood (NoHo Arts District), 5200 Lankershim Blvd STE 110, North Hollywood, CA 91601",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c29512f036e489:0xd593636854bd265",
+            "iid": 13131,
+            "name": "Kai Ramen North Hollywood (NoHo Arts District)",
+            "rank": 9,
+            "score": -2.370216131210327,
+            "state": "California"
+        },
+        {
+            "address": "W & Z Asian bistro & sushi bar, 203 East, AZ-260, Payson, AZ 85541",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x872c11fd058f1093:0x55159130f6ee2ad0",
+            "iid": 29756,
+            "name": "W & Z Asian bistro & sushi bar",
+            "rank": 10,
+            "score": -2.3713419437408447,
+            "state": "Arizona"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 11,
+            "score": -2.371793508529663,
+            "state": "Florida"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 12,
+            "score": -2.373260736465454,
+            "state": "Nevada"
+        },
+        {
+            "address": "Tum Pok Pok, 5000 Buford Hwy NE, Chamblee, GA 30341",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f509de908f9261:0xa891d09a6dd47e8d",
+            "iid": 51628,
+            "name": "Tum Pok Pok",
+            "rank": 13,
+            "score": -2.373570442199707,
+            "state": "Georgia"
+        },
+        {
+            "address": "Umi Sushi, 7636 Dublin Blvd, Colorado Springs, CO 80923",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8713494094deb401:0x15eb823c017ec7e2",
+            "iid": 28422,
+            "name": "Umi Sushi",
+            "rank": 14,
+            "score": -2.373694896697998,
+            "state": "Colorado"
+        },
+        {
+            "address": "Thai Nine Restaurant, 9873 N Michigan Rd, Carmel, IN 46032",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8814abd7c63ff377:0xafc4fab408ec49e2",
+            "iid": 38309,
+            "name": "Thai Nine Restaurant",
+            "rank": 15,
+            "score": -2.374504327774048,
+            "state": "Indiana"
+        },
+        {
+            "address": "Suggi Oota, 949 Ruff Dr, San Jose, CA 95110",
+            "category": "['Indian restaurant', 'Indian takeaway', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fcbeb9bd195dd:0x5c512b6315d54596",
+            "iid": 10903,
+            "name": "Suggi Oota",
+            "rank": 16,
+            "score": -2.3745245933532715,
+            "state": "California"
+        },
+        {
+            "address": "Oregon, Grants Pass, NE D St, Hunan Garden\u90ae\u653f\u7f16\u7801: 97526",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c57b7d82f40285:0xc47f276ef1f47800",
+            "iid": 5487,
+            "name": "Hunan Garden",
+            "rank": 17,
+            "score": -2.3759143352508545,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chao Phraya Thai Cuisine, 328 Curry Hollow Rd, Pleasant Hills, PA 15236",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8834fb9ed2de39b9:0xd33b839a7055d98c",
+            "iid": 40469,
+            "name": "Chao Phraya Thai Cuisine",
+            "rank": 18,
+            "score": -2.3761179447174072,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 46972,
+            "name": "KELP SUSHI JOINT",
+            "rank": 19,
+            "score": -2.379272699356079,
+            "state": "Florida"
+        },
+        {
+            "address": "Desi Bites, 16165 SW Regatta Ln # 300, Beaverton, OR 97006",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54950fe83c8441ad:0x6b6a2e36f9b39405",
+            "iid": 4011,
+            "name": "Desi Bites",
+            "rank": 20,
+            "score": -2.381070613861084,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "Russell Christenson",
+        "uid": 394852,
+        "user_id": 113250931685209466348
+    }
+}

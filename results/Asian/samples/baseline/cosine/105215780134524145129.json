@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Yummy Ph\u1edf, 8900 161st Avenue Northeast, Redmond, WA 98052",
+            "category": "['Vietnamese restaurant']",
+            "date": "2016/11/28",
+            "gmap_id": "0x54900d4b7d45775f:0x4764ce0c0563d37b",
+            "iid": 1704,
+            "name": "Yummy Ph\u1edf",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1480294067846
+        },
+        {
+            "address": "Ph\u1edf B\u1eafc Restaurant, 1314 S Jackson St, Seattle, WA 98144",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/05/21",
+            "gmap_id": "0x54906abf986e2905:0x65cc15bb06f902d6",
+            "iid": 2928,
+            "name": "Ph\u1edf B\u1eafc Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1495392460842
+        },
+        {
+            "address": "Pho Bac, 1809 Minor Ave, Seattle, WA 98101",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2017/07/21",
+            "gmap_id": "0x5490154a922bac57:0x271bad43c527190c",
+            "iid": 2097,
+            "name": "Pho Bac",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1500598239301
+        },
+        {
+            "address": "Ph\u1edf Ao Sen Restaurant, 1139 E 12th St, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/07/21",
+            "gmap_id": "0x808f8726bba02d7b:0xc3cff9842b18a1b2",
+            "iid": 9452,
+            "name": "Ph\u1edf Ao Sen Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500598251969
+        },
+        {
+            "address": "Pho Grand, 277C Grand St, New York, NY 10002",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/07/21",
+            "gmap_id": "0x89c2598791707d55:0x395095c5abfccb5c",
+            "iid": 59646,
+            "name": "Pho Grand",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1500598282928
+        },
+        {
+            "address": "Feast Buffet, 485 Renton Center Way SW, Renton, WA 98057",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x549042b2bd9bd3bd:0x2f219c8a48a80161",
+            "iid": 2374,
+            "name": "Feast Buffet",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1567321015891
+        },
+        {
+            "address": "King Wah, 219 E Washington Ave, Sunnyvale, CA 94086",
+            "category": "['Chinese restaurant']",
+            "date": "2019/12/27",
+            "gmap_id": "0x808fb65d14a2587b:0x15a602e1c4e64c60",
+            "iid": 10171,
+            "name": "King Wah",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1577422502406
+        },
+        {
+            "address": "108 Vietnamese Restaurant, 18114 E Valley Hwy, Kent, WA 98032",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2020/08/19",
+            "gmap_id": "0x54905d02c368dd7f:0xefb8f47ffd3ae324",
+            "iid": 2677,
+            "name": "108 Vietnamese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1597795647791
+        },
+        {
+            "address": "Haiku Sushi & Seafood Buffet, 7530 164th Ave NE STE A108, Redmond, WA 98052",
+            "category": "['Buffet restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2020/08/28",
+            "gmap_id": "0x549072ae2b80672b:0xa4a46543fe66d8da",
+            "iid": 3240,
+            "name": "Haiku Sushi & Seafood Buffet",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1598577821802
+        },
+        {
+            "address": "Pho Bac Restaurant, 3300 Rainier Ave S #6034, Seattle, WA 98144",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2020/11/10",
+            "gmap_id": "0x54906a6466d53ca3:0x940a64c37b95b2b7",
+            "iid": 2812,
+            "name": "Pho Bac Restaurant",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1605051164530
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Kizuki Ramen & Izakaya, 575 Bellevue Way NE Space 252, Bellevue, WA 98004",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54906c8667753cbf:0x710a5c4475a72a5d",
+            "iid": 3048,
+            "name": "Kizuki Ramen & Izakaya",
+            "rank": 1,
+            "score": 0.6215754151344299,
+            "state": "Washington"
+        },
+        {
+            "address": "Deng Ji Yunnan Guoqiao Mixian, 40-09 Prince St, Queens, NY 11354",
+            "category": "['Chinese noodle restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Noodle shop']",
+            "gmap_id": "0x89c2610bafddf25d:0x9454ed172dfcfd08",
+            "iid": 61743,
+            "name": "Deng Ji Yunnan Guoqiao Mixian",
+            "rank": 2,
+            "score": 0.6209060549736023,
+            "state": "New_York"
+        },
+        {
+            "address": "Shanghai Cafe, 12708 SE 38th St, Bellevue, WA 98006",
+            "category": "['Shanghainese restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x5490695552c6191f:0x1db84793c4fff776",
+            "iid": 2799,
+            "name": "Shanghai Cafe",
+            "rank": 3,
+            "score": 0.6173629760742188,
+            "state": "Washington"
+        },
+        {
+            "address": "Zhen Kee, 151 Sunset Blvd N, Renton, WA 98057",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x549068012fa40001:0x2fa090a66ba046ac",
+            "iid": 2774,
+            "name": "Zhen Kee",
+            "rank": 4,
+            "score": 0.5978178381919861,
+            "state": "Washington"
+        },
+        {
+            "address": "Happy Lamb Hot Pot, Bellevue \u5feb\u4e50\u5c0f\u7f8a, 1411 156th Ave NE, Bellevue, WA 98007",
+            "category": "['Hot pot restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x54906da56824cda5:0x45e52e0e5ad1c6df",
+            "iid": 3136,
+            "name": "Happy Lamb Hot Pot, Bellevue \u5feb\u4e50\u5c0f\u7f8a",
+            "rank": 5,
+            "score": 0.5972822904586792,
+            "state": "Washington"
+        },
+        {
+            "address": "KIWAMI Sushi Bar & Sake House, 104 Kirkland Ave, Kirkland, WA 98033",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x549012dd7e552d9d:0x6222eb5af04fb506",
+            "iid": 1870,
+            "name": "KIWAMI Sushi Bar & Sake House",
+            "rank": 6,
+            "score": 0.589159369468689,
+            "state": "Washington"
+        },
+        {
+            "address": "Baron's Sino Kitchen & Bar, 500 Bellevue Way NE Suite 210, Bellevue, WA 98004",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Brunch restaurant', 'Caterer', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Family restaurant', 'Delivery Restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x54906c860c9dbdd3:0x8e941822f2954343",
+            "iid": 3045,
+            "name": "Baron's Sino Kitchen & Bar",
+            "rank": 7,
+            "score": 0.5881090760231018,
+            "state": "Washington"
+        },
+        {
+            "address": "Papaya Renton Landing, 827 N 10th Pl, Renton, WA 98057",
+            "category": "['Vietnamese restaurant', 'Bubble tea store', 'Vegetarian restaurant']",
+            "gmap_id": "0x54906819d40b3f1d:0xf209deed726ebadd",
+            "iid": 2778,
+            "name": "Papaya Renton Landing",
+            "rank": 8,
+            "score": 0.5857483148574829,
+            "state": "Washington"
+        },
+        {
+            "address": "Spicy Chong Qing, 18230 E Valley Hwy #175, Kent, WA 98032",
+            "category": "['Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x54905d02f517d433:0x1d856d07c0d663f4",
+            "iid": 2680,
+            "name": "Spicy Chong Qing",
+            "rank": 9,
+            "score": 0.5849503874778748,
+            "state": "Washington"
+        },
+        {
+            "address": "Shanghai Shanghai, 989 112th Ave NE #205, Bellevue, WA 98004, United States",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x54906ecfa9afda13:0x7696bdb331095abe",
+            "iid": 3191,
+            "name": "Shanghai Shanghai",
+            "rank": 10,
+            "score": 0.5819262862205505,
+            "state": "Washington"
+        },
+        {
+            "address": "Ph\u1edf T\u00e1i Bellevue Vietnamese Restaurant, 14701 NE 20th St # C, Bellevue, WA 98007, United States",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54906da8380cb5ef:0xe10be1b629828bc6",
+            "iid": 3145,
+            "name": "Ph\u1edf T\u00e1i Bellevue Vietnamese Restaurant",
+            "rank": 11,
+            "score": 0.5797987580299377,
+            "state": "Washington"
+        },
+        {
+            "address": "Cafe Ori, 14339 NE 20th St suite i, Bellevue, WA 98007",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant']",
+            "gmap_id": "0x54906d07577e7b43:0xaa98293e328fbdf6",
+            "iid": 3085,
+            "name": "Cafe Ori",
+            "rank": 12,
+            "score": 0.5794581770896912,
+            "state": "Washington"
+        },
+        {
+            "address": "My\u2019s Vietnamese Sandwiches and Deli, 12619 Renton Ave S #3712, Seattle, WA 98178",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x549043d74555a65f:0xe7bfbb8ba176eb68",
+            "iid": 2397,
+            "name": "My\u2019s Vietnamese Sandwiches and Deli",
+            "rank": 13,
+            "score": 0.576361358165741,
+            "state": "Washington"
+        },
+        {
+            "address": "Ph\u1edf Ever, 12015 NE 8th St, Bellevue, WA 98005",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906c5f9f1bdd43:0x4817cc8191ded158",
+            "iid": 3031,
+            "name": "Ph\u1edf Ever",
+            "rank": 14,
+            "score": 0.576123058795929,
+            "state": "Washington"
+        },
+        {
+            "address": "Ishoni Yakiniku, 10630 NE 8th St, Bellevue, WA 98004",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54906c8ed2bbf5c5:0x74228ecfcf457c92",
+            "iid": 3069,
+            "name": "Ishoni Yakiniku",
+            "rank": 15,
+            "score": 0.574629545211792,
+            "state": "Washington"
+        },
+        {
+            "address": "Renton Seafood Restaurant, 4250-A NE 4th St, Renton, WA 98059",
+            "category": "['Seafood restaurant', 'American restaurant', 'Cantonese restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Restaurant']",
+            "gmap_id": "0x549067d9252b3cfd:0x63bfd7659953deae",
+            "iid": 2769,
+            "name": "Renton Seafood Restaurant",
+            "rank": 16,
+            "score": 0.573434054851532,
+            "state": "Washington"
+        },
+        {
+            "address": "Szechuan Chef, 15015 Main St, Bellevue, WA 98007",
+            "category": "['Sichuan restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906c4a73f85ff9:0x1e617dc8bd4684f",
+            "iid": 3029,
+            "name": "Szechuan Chef",
+            "rank": 17,
+            "score": 0.5727404356002808,
+            "state": "Washington"
+        },
+        {
+            "address": "I Love Pho, 3900 Factoria Blvd SE, Bellevue, WA 98006",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x549069552e9feb7f:0xf760f404be677de7",
+            "iid": 2798,
+            "name": "I Love Pho",
+            "rank": 18,
+            "score": 0.5726394057273865,
+            "state": "Washington"
+        },
+        {
+            "address": "8090 Chongqing Noodle, 14808 NE 24th St A, Redmond, WA 98052",
+            "category": "['Chinese noodle restaurant', 'Restaurant']",
+            "gmap_id": "0x54906d0856c353a9:0x88d6a671d71bfb13",
+            "iid": 3097,
+            "name": "8090 Chongqing Noodle",
+            "rank": 19,
+            "score": 0.5702727437019348,
+            "state": "Washington"
+        },
+        {
+            "address": "Ten Seconds Yunnan Rice Noodle, 1299 156th Ave NE Ste 135, Bellevue, WA 98007",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x54906d442af51151:0xf5f496b99ba921f5",
+            "iid": 3118,
+            "name": "Ten Seconds Yunnan Rice Noodle",
+            "rank": 20,
+            "score": 0.5692799091339111,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Christopher Nguyen",
+        "uid": 155844,
+        "user_id": 105215780134524145129
+    }
+}

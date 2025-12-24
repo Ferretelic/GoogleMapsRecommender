@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi Bon, 5812 Twelve Mile Rd, Warren, MI 48092",
+            "category": "['Sushi restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x8824da9aa2b690f1:0x2ea45d12ddf05ec4",
+            "iid": 11757,
+            "name": "Sushi Bon",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1564759873642
+        },
+        {
+            "address": "Sagano of Warren, 28202 Dequindre Rd, Warren, MI 48092",
+            "category": "['Japanese restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x8824c555fc89f063:0x6d64a450afe2716a",
+            "iid": 11725,
+            "name": "Sagano of Warren",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1564759880176
+        },
+        {
+            "address": "Sarku Japan Sushi Bar, 6000 Sepulveda Blvd Suite 3224, Culver City, CA 90230",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80c2b1cf5d8512d5:0x9a18c6abb65bcbb9",
+            "iid": 4107,
+            "name": "Sarku Japan Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580243768872
+        },
+        {
+            "address": "Empire Szechuan, 89 Stony Hill Rd, Bethel, CT 06801",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Cocktail bar', 'Fusion restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/03/02",
+            "gmap_id": "0x89e7f953269dca3b:0x4b116e76bd4af0c4",
+            "iid": 21527,
+            "name": "Empire Szechuan",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1583168205601
+        },
+        {
+            "address": "Tsuruhashi, 18798 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Japanese steakhouse', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x80dd2734819dec95:0x5a488b3bd3c2f035",
+            "iid": 6458,
+            "name": "Tsuruhashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593450239488
+        },
+        {
+            "address": "Maki Plus, 2071 Statham Blvd, Oxnard, CA 93033",
+            "category": "['Japanese restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x80e84eeb217a823f:0x1607c14bdbcc9d83",
+            "iid": 6837,
+            "name": "Maki Plus",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593450307609
+        },
+        {
+            "address": "Ramen & More, 807 Howe Ave, Sacramento, CA 95825",
+            "category": "['Ramen restaurant']",
+            "date": "2020/12/17",
+            "gmap_id": "0x809ada5b4bc181cb:0x6c1c0a8dfefa39e6",
+            "iid": 3694,
+            "name": "Ramen & More",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1608239733096
+        },
+        {
+            "address": "Mamasushi Restaurant, 3478 E Tremont Ave, The Bronx, NY 10465",
+            "category": "['Sushi restaurant']",
+            "date": "2021/01/21",
+            "gmap_id": "0x89c28b505f01be69:0x3ac67ad92a4e5e88",
+            "iid": 19167,
+            "name": "Mamasushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1611252469261
+        },
+        {
+            "address": "Tokyo Steak, 14317 Bear Valley Rd #1, Victorville, CA 92392",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Teppanyaki restaurant']",
+            "date": "2021/03/06",
+            "gmap_id": "0x80c366228c7de7b3:0xaf565e9b78b9a6ac",
+            "iid": 5177,
+            "name": "Tokyo Steak",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1615059086701
+        },
+        {
+            "address": "Kabuki, 7801 Edinger Ave Suite 114, Huntington Beach, CA 92647",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2021/03/18",
+            "gmap_id": "0x80dd264249a69587:0xefc162ee17c417b9",
+            "iid": 6439,
+            "name": "Kabuki",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616081371508
+        },
+        {
+            "address": "Urban Thai & Sushi, 660 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2021/04/06",
+            "gmap_id": "0x88d9ac779949da1f:0x303b7e81e6c449f6",
+            "iid": 14581,
+            "name": "Urban Thai & Sushi",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1617722128444
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Mongolian Buffet, 4235 Twelve Mile Rd, Warren, MI 48092",
+            "category": "['Buffet restaurant', 'Chinese restaurant', 'Mongolian barbecue restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8824daa51e8b339d:0xf63eb9894595ffa1",
+            "iid": 11758,
+            "name": "Mongolian Buffet",
+            "rank": 1,
+            "score": 7.192296028137207,
+            "state": "Michigan"
+        },
+        {
+            "address": "Naruto Sushi, 34788 Van Dyke Ave, Sterling Heights, MI 48312",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x8824dba47804832b:0x9dccd8ec48b339b0",
+            "iid": 11760,
+            "name": "Naruto Sushi",
+            "rank": 2,
+            "score": 6.500643253326416,
+            "state": "Michigan"
+        },
+        {
+            "address": "Hibachi Buffet (Buffet is Open), 33431 Van Dyke Ave, Sterling Heights, MI 48312, United States",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Buffet restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8824dbae9bf7a1bd:0x4a9d773291bdb6b7",
+            "iid": 11761,
+            "name": "Hibachi Buffet (Buffet is Open)",
+            "rank": 3,
+            "score": 6.385862350463867,
+            "state": "Michigan"
+        },
+        {
+            "address": "Fuji Japanese Buffet, 32153 John R Rd, Madison Heights, MI 48071",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8824c5112776b731:0x72e80ca5f02c9f83",
+            "iid": 11721,
+            "name": "Fuji Japanese Buffet",
+            "rank": 4,
+            "score": 6.094186305999756,
+            "state": "Michigan"
+        },
+        {
+            "address": "Edamame Sushi, 31632 John R Rd, Madison Heights, MI 48071",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Filipino restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8824c516cb2404cf:0x6de58f53879c6afe",
+            "iid": 11722,
+            "name": "Edamame Sushi",
+            "rank": 5,
+            "score": 6.0875773429870605,
+            "state": "Michigan"
+        },
+        {
+            "address": "Toro Chinese, Japanese and Hibachi, Toro Japanese & Chinese Cuisine, 28 Church Hill Rd, Newtown, CT 06470",
+            "category": "['Asian restaurant', 'Bar', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89e7fb69c5cc9e11:0x602eecffea881f60",
+            "iid": 21528,
+            "name": "Toro Chinese, Japanese and Hibachi",
+            "rank": 6,
+            "score": 5.636842250823975,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Teppanyaki Grill & Buffet, 35543 S Gratiot Ave, Clinton Twp, MI 48035",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88252751ab911151:0x105b339852d8e475",
+            "iid": 11786,
+            "name": "Teppanyaki Grill & Buffet",
+            "rank": 7,
+            "score": 5.280769348144531,
+            "state": "Michigan"
+        },
+        {
+            "address": "Katsunori Sushi Restaurant, 14073 Main St Suite 109, Hesperia, CA 92345",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c367e125e57d3f:0x8bbe0c4ae18aebab",
+            "iid": 5183,
+            "name": "Katsunori Sushi Restaurant",
+            "rank": 8,
+            "score": 5.226362228393555,
+            "state": "California"
+        },
+        {
+            "address": "Shogun, 37750 Van Dyke Ave, Sterling Heights, MI 48312",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Bistro', 'Japanese restaurant', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x8824db8720b6092f:0x887c89b284249ba",
+            "iid": 11759,
+            "name": "Shogun",
+            "rank": 9,
+            "score": 5.1619086265563965,
+            "state": "Michigan"
+        },
+        {
+            "address": "Samurai Sushi 2, 15550 Main Street #D-18, Hesperia, CA 92345",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c3678521fa83c5:0x9334809e2b55b823",
+            "iid": 5182,
+            "name": "Samurai Sushi 2",
+            "rank": 10,
+            "score": 4.919308185577393,
+            "state": "California"
+        },
+        {
+            "address": "Pho Kobe, 15208 Bear Valley Rd, Victorville, CA 92395",
+            "category": "['Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c36643e4da78af:0xeec1f7322c1b619a",
+            "iid": 5178,
+            "name": "Pho Kobe",
+            "rank": 11,
+            "score": 4.864130973815918,
+            "state": "California"
+        },
+        {
+            "address": "Samurai Sushi, 14464 Seventh St, Victorville, CA 92395",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x80c365cce0b7dca7:0x40ddf7988b243545",
+            "iid": 5175,
+            "name": "Samurai Sushi",
+            "rank": 12,
+            "score": 4.81259298324585,
+            "state": "California"
+        },
+        {
+            "address": "Ninja Poki Yaki, 17878 CA-18, Apple Valley, CA 92307",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c364775247268d:0x3e60a11339168354",
+            "iid": 5172,
+            "name": "Ninja Poki Yaki",
+            "rank": 13,
+            "score": 4.798472881317139,
+            "state": "California"
+        },
+        {
+            "address": "Yoshi Japanese Cuisine, 17005 Bear Valley Rd Suite B, Hesperia, CA 92345",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c366e749e965e3:0x91d6349601ce71c1",
+            "iid": 5181,
+            "name": "Yoshi Japanese Cuisine",
+            "rank": 14,
+            "score": 4.788508415222168,
+            "state": "California"
+        },
+        {
+            "address": "Ichiban Japanese Bistro, 44955 Hayes Rd, Sterling Heights, MI 48313",
+            "category": "['Japanese restaurant', 'Bar', 'Bistro', 'Japanese steakhouse', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Teppanyaki restaurant']",
+            "gmap_id": "0x8824de6af4092889:0x178d098c42c89e22",
+            "iid": 11766,
+            "name": "Ichiban Japanese Bistro",
+            "rank": 15,
+            "score": 4.749332904815674,
+            "state": "Michigan"
+        },
+        {
+            "address": "Sushi Zone, 16749 E 9 Mile Rd, Eastpointe, MI 48021",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8824d7a76ae424b5:0xd0e8fda3d24837f5",
+            "iid": 11756,
+            "name": "Sushi Zone",
+            "rank": 16,
+            "score": 4.73313045501709,
+            "state": "Michigan"
+        },
+        {
+            "address": "Fusion 25, 123 S Main St, Newtown, CT 06470",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Japanese steakhouse', 'Lounge', 'Sushi restaurant']",
+            "gmap_id": "0x89e7fcb041cc0b19:0xb08c5b629c633be3",
+            "iid": 21529,
+            "name": "Fusion 25",
+            "rank": 17,
+            "score": 4.657611846923828,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Hanabi Sushi, 13790 Bear Valley Rd, Victorville, CA 92392",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c368a07d469c59:0x983c4ffc405ca4c6",
+            "iid": 5186,
+            "name": "Hanabi Sushi",
+            "rank": 18,
+            "score": 4.640848636627197,
+            "state": "California"
+        },
+        {
+            "address": "Oasis Sushi Restaurant, 12719 Main St, Hesperia, CA 92345",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c36841dd866885:0x60136a2004764802",
+            "iid": 5185,
+            "name": "Oasis Sushi Restaurant",
+            "rank": 19,
+            "score": 4.557049751281738,
+            "state": "California"
+        },
+        {
+            "address": "Tai Fai Restaurant, 8505 W Nine Mile Rd, Oak Park, MI 48237",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x8824ced6ce0cf339:0xffb90f0ca2dcd448",
+            "iid": 11742,
+            "name": "Tai Fai Restaurant",
+            "rank": 20,
+            "score": 4.495869159698486,
+            "state": "Michigan"
+        }
+    ],
+    "user": {
+        "name": "dillon mayo",
+        "uid": 3161,
+        "user_id": 100419809446694001120
+    }
+}

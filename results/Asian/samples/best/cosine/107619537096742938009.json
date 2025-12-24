@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Shin-Sen-Gumi \u2013 Irvine, 6404 Irvine Blvd, Irvine, CA 92620",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Ramen restaurant', 'Restaurant', 'Udon noodle restaurant']",
+            "date": "2017/12/31",
+            "gmap_id": "0x80dcdcd5862d7969:0x1aabeaea52fc0df5",
+            "iid": 19620,
+            "name": "Shin-Sen-Gumi \u2013 Irvine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514761824263
+        },
+        {
+            "address": "Pho Kim Kim, 1029, 1020 Hwy 6 N Suite, Houston, TX 77079",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/03/05",
+            "gmap_id": "0x8640dbfdac9c4edb:0xae381e03aa700993",
+            "iid": 23759,
+            "name": "Pho Kim Kim",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1520284751386
+        },
+        {
+            "address": "Sichuan Impression, 13816 Red Hill Ave, Tustin, CA 92780",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "date": "2018/07/16",
+            "gmap_id": "0x80dcdbec241a8ca3:0xe0a3bb61569b7cbb",
+            "iid": 19567,
+            "name": "Sichuan Impression",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531706965186
+        },
+        {
+            "address": "Izakaya-Wa, 12665 Memorial Dr, Houston, TX 77024",
+            "category": "['Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2018/08/02",
+            "gmap_id": "0x8640c4aa513b1f8d:0xe8b40aaaa8847443",
+            "iid": 23364,
+            "name": "Izakaya-Wa",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533174344223
+        },
+        {
+            "address": "Pho Saigon, 2553 Gessner Rd, Houston, TX 77080",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x8640c523faaa15cd:0x4d61c46a82e460de",
+            "iid": 23407,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1534988492495
+        },
+        {
+            "address": "Tamashi, 1106 Silber Rd d1, Houston, TX 77055, United States",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/08/24",
+            "gmap_id": "0x8640c6a33468331f:0x87162141515fb61f",
+            "iid": 23436,
+            "name": "Tamashi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535074501039
+        },
+        {
+            "address": "Mikoto Ramen & Sushi Bar, 12155 Katy Fwy, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2018/08/31",
+            "gmap_id": "0x8640db7455ea5673:0xf6f77244c5a04d1",
+            "iid": 23744,
+            "name": "Mikoto Ramen & Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535726506209
+        },
+        {
+            "address": "Ginger Thai Cuisine, 303 Grasshopper Ln, Houston, TX 77079",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Seafood restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640dbe066732b47:0x2ae8a1b4537c7913",
+            "iid": 23756,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536200498471
+        },
+        {
+            "address": "Pho Oceanside, 518 Oceanside Blvd, Oceanside, CA 92054",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/10/01",
+            "gmap_id": "0x80dc6e19183d5423:0xc1c117640bbbb426",
+            "iid": 18792,
+            "name": "Pho Oceanside",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1538436342668
+        },
+        {
+            "address": "Torihei Yakitori Robata Dining, 1757 W Carson St Ste A, Torrance, CA 90501",
+            "category": "['Yakitori restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/22",
+            "gmap_id": "0x80dd4aa4cbe26543:0x9cccbcd21c393524",
+            "iid": 21109,
+            "name": "Torihei Yakitori Robata Dining",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1561229059586
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Umami Sushi, 1029 Hwy 6, Houston, TX 77079",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "gmap_id": "0x8640dbdf9801a4d5:0x4ba981ac1ee91b88",
+            "iid": 23755,
+            "name": "Umami Sushi",
+            "rank": 1,
+            "score": 0.5605624318122864,
+            "state": "Texas"
+        },
+        {
+            "address": "Pinto Thai Restaurant, 1005 Dairy Ashford Rd, Houston, TX 77079",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x8640db9c51a8c3c9:0x93bd5f8bb24dd551",
+            "iid": 23754,
+            "name": "Pinto Thai Restaurant",
+            "rank": 2,
+            "score": 0.5556976199150085,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Jin, 14670 Memorial Dr, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640db83ecb65591:0xd3d72d26f86de824",
+            "iid": 23749,
+            "name": "Sushi Jin",
+            "rank": 3,
+            "score": 0.553733766078949,
+            "state": "Texas"
+        },
+        {
+            "address": "North China Restaurant, 14525 Katy Fwy, Houston, TX 77079",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Diner', 'Mandarin restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x8640d96097e671c9:0x36a85ed5cd27e997",
+            "iid": 23731,
+            "name": "North China Restaurant",
+            "rank": 4,
+            "score": 0.5427708029747009,
+            "state": "Texas"
+        },
+        {
+            "address": "Viet Urban Kitchen, 14741 Memorial Dr, Houston, TX 77079",
+            "category": "['Vietnamese restaurant', 'Crab house', 'Dessert restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Pho restaurant', 'Sandwich shop', 'Wi-Fi spot']",
+            "gmap_id": "0x8640db8440d9fda5:0x3904440fd1536f1",
+            "iid": 23750,
+            "name": "Viet Urban Kitchen",
+            "rank": 5,
+            "score": 0.5173684358596802,
+            "state": "Texas"
+        },
+        {
+            "address": "Ph\u1edf Huy Restaurant, 2420 Gessner Rd, Houston, TX 77080",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "gmap_id": "0x8640c5212245db5f:0xeaf52d1e895ba497",
+            "iid": 23404,
+            "name": "Ph\u1edf Huy Restaurant",
+            "rank": 6,
+            "score": 0.5086289048194885,
+            "state": "Texas"
+        },
+        {
+            "address": "Golden Oolong Tea, 1041 Blalock Rd, Houston, TX 77055",
+            "category": "['Chinese tea house', 'Cafe']",
+            "gmap_id": "0x8640c48a44145099:0xa99732b9e3c6d0ed",
+            "iid": 23352,
+            "name": "Golden Oolong Tea",
+            "rank": 7,
+            "score": 0.49723243713378906,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai House, 1531 Eldridge Pkwy #100, Houston, TX 77077",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8640dc73553ca883:0xfc0ad0a7101719ab",
+            "iid": 23785,
+            "name": "Thai House",
+            "rank": 8,
+            "score": 0.48998379707336426,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Tan An, 17754 Katy Fwy #8, Houston, TX 77094",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8640d91e495e2ad1:0x3b9416c757172ac5",
+            "iid": 23729,
+            "name": "Pho Tan An",
+            "rank": 9,
+            "score": 0.4796880781650543,
+            "state": "Texas"
+        },
+        {
+            "address": "Hang Out Asian Grill, 17756 Katy Fwy #2, Houston, TX 77094",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640d91e318e2817:0x7c02deea04c4609e",
+            "iid": 23728,
+            "name": "Hang Out Asian Grill",
+            "rank": 10,
+            "score": 0.4763394296169281,
+            "state": "Texas"
+        },
+        {
+            "address": "Annam Indian Cuisine, 1029 S Texas 6, Houston, TX 77079",
+            "category": "['Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x8640dbfc54d808fb:0x6f33ae2a64dc5e57",
+            "iid": 23758,
+            "name": "Annam Indian Cuisine",
+            "rank": 11,
+            "score": 0.47127246856689453,
+            "state": "Texas"
+        },
+        {
+            "address": "Nihao Chinese Restaurant, 15115 Memorial Dr, Houston, TX 77079, United States",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640db9b55abc68f:0x5fdd4bc15b20f1cf",
+            "iid": 23753,
+            "name": "Nihao Chinese Restaurant",
+            "rank": 12,
+            "score": 0.4668259024620056,
+            "state": "Texas"
+        },
+        {
+            "address": "Roostar, 1411 Gessner Rd Suite I, Houston, TX 77080",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640c4c3efa66f93:0x8a3bdf5355056ecf",
+            "iid": 23376,
+            "name": "Roostar",
+            "rank": 13,
+            "score": 0.4659784138202667,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai Jin, 2753 Gessner Rd, Houston, TX 77080",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c5235cd2444f:0x1d68ebc9a3066c14",
+            "iid": 23405,
+            "name": "Thai Jin",
+            "rank": 14,
+            "score": 0.4629904627799988,
+            "state": "Texas"
+        },
+        {
+            "address": "Cafe Chopstix, 9930 Katy Fwy #300, Houston, TX 77055",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640c495ac49c5d3:0x10feda22e9d77c11",
+            "iid": 23362,
+            "name": "Cafe Chopstix",
+            "rank": 15,
+            "score": 0.4575686752796173,
+            "state": "Texas"
+        },
+        {
+            "address": "Papa Yu, 1037 Blalock Rd, Houston, TX 77055",
+            "category": "['Japanese restaurant', 'Dessert shop', 'Restaurant', 'Sushi restaurant', 'Tea house']",
+            "gmap_id": "0x8640c48a4c2928f3:0x644b16fdecde8d89",
+            "iid": 23353,
+            "name": "Papa Yu",
+            "rank": 16,
+            "score": 0.455268532037735,
+            "state": "Texas"
+        },
+        {
+            "address": "Rattan Pan Asian bistro & Wine Bar, 1396 Eldridge Pkwy Suite A, Houston, TX 77077",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Fusion restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x8640dc0aba3801c3:0x1735bf07c014a8d0",
+            "iid": 23760,
+            "name": "Rattan Pan Asian bistro & Wine Bar",
+            "rank": 17,
+            "score": 0.44667842984199524,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushipop, 1463 Wirt Rd, Houston, TX 77055",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640c4940c5cc44b:0xef8d77e14baad5b3",
+            "iid": 23361,
+            "name": "Sushipop",
+            "rank": 18,
+            "score": 0.44411978125572205,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Quynh Restaurant, Inside Ranch 99 Supermarket, 1005 Blalock Rd Unit C, Houston, TX 77055",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8640c48bb692337b:0x9d2a99d6f5cb9cec",
+            "iid": 23356,
+            "name": "Pho Quynh Restaurant",
+            "rank": 19,
+            "score": 0.44349434971809387,
+            "state": "Texas"
+        },
+        {
+            "address": "Kimchi Korean Cafe, 17748 Katy Fwy, Houston, TX 77094",
+            "category": "['Korean restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x8640d91e1b3adf9f:0x255487a6d834aa53",
+            "iid": 23727,
+            "name": "Kimchi Korean Cafe",
+            "rank": 20,
+            "score": 0.44193777441978455,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Mingte Kao",
+        "uid": 227653,
+        "user_id": 107619537096742938009
+    }
+}

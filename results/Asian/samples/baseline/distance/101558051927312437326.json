@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China King, 3743 Elm St, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "date": "2016/12/30",
+            "gmap_id": "0x87df25e5266c71c3:0xa8525f2212c17412",
+            "iid": 34218,
+            "name": "China King",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1483123880316
+        },
+        {
+            "address": "China One, 2012 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/02/23",
+            "gmap_id": "0x87df2df34b1c3627:0x84ba94cd53d55e64",
+            "iid": 34251,
+            "name": "China One",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1487869361071
+        },
+        {
+            "address": "India Palace, 12322 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x87df316a2bda29a7:0x766ba2c892ef935",
+            "iid": 34260,
+            "name": "India Palace",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1498874196621
+        },
+        {
+            "address": "Love Sushi, 2201 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/21",
+            "gmap_id": "0x87db5ea849e05593:0x8dd5c262ac203f9d",
+            "iid": 34112,
+            "name": "Love Sushi",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1534816019261
+        },
+        {
+            "address": "India's House, 1101 E Broadway, Columbia, MO 65201",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb7c30f1b2607:0x19314a856d0da3f3",
+            "iid": 34137,
+            "name": "India's House",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708214276
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 2531 Broadway Bluffs Dr, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb81e42d80a1b:0x4c46ecdc36ccc33a",
+            "iid": 34153,
+            "name": "Kobe Japanese Steakhouse",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708293120
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/26",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1553625068237
+        },
+        {
+            "address": "Panda Cafe, 501 Hwy 28, Owensville, MO 65066",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87dbeae3992f9439:0x5274da7cadee17fd",
+            "iid": 34118,
+            "name": "Panda Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1556980653783
+        },
+        {
+            "address": "Kabab N Kurry, 2220 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Indian restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87df2f20371a1d4f:0xf37669ed4f7c6d28",
+            "iid": 34256,
+            "name": "Kabab N Kurry",
+            "split": "valid",
+            "state": "Missouri",
+            "unix_time": 1556980671124
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 6519,
+            "name": "Hula Grill Waikiki",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1563149917750
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Thai Kitchen Wentzville, 2 W Pearce Blvd, Wentzville, MO 63385",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87dec9897e982e7f:0x4bcb9b943f9a0f5a",
+            "iid": 34179,
+            "name": "Thai Kitchen Wentzville",
+            "rank": 1,
+            "score": -2.2688724994659424,
+            "state": "Missouri"
+        },
+        {
+            "address": "Showok Chinese Carry-Out, 10204 Manchester Rd, St. Louis, MO 63122",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8cc5d5c7733b7:0xe223f14f4f370e3e",
+            "iid": 34007,
+            "name": "Showok Chinese Carry-Out",
+            "rank": 2,
+            "score": -2.3160104751586914,
+            "state": "Missouri"
+        },
+        {
+            "address": "Sifu Wong Kitchen, 1219 Wildwood Ave, Sunnyvale, CA 94089",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x808fc98aff770bf1:0x3d19c54c5ac78ffc",
+            "iid": 10694,
+            "name": "Sifu Wong Kitchen",
+            "rank": 3,
+            "score": -2.319514751434326,
+            "state": "California"
+        },
+        {
+            "address": "Spring Restaurant Inc (Xu\u00e2n Qu\u00e1n), 7 Ayers Village Rd, Methuen, MA 01844",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Pho restaurant']",
+            "gmap_id": "0x89e3019449b8fc49:0x4c97b2721aa0b5ee",
+            "iid": 69054,
+            "name": "Spring Restaurant Inc (Xu\u00e2n Qu\u00e1n)",
+            "rank": 4,
+            "score": -2.3222060203552246,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Toyose, 3814 Noriega St, San Francisco, CA 94122",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x8085878a8085d297:0xadf6a9f9923446f2",
+            "iid": 8187,
+            "name": "Toyose",
+            "rank": 5,
+            "score": -2.3257944583892822,
+            "state": "California"
+        },
+        {
+            "address": "Sarku Japan, 168 W County Center Dr Unit FC - 3, Des Peres, MO 63131",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x87d8cd8669666825:0xaeda9452fb502bc8",
+            "iid": 34010,
+            "name": "Sarku Japan",
+            "rank": 6,
+            "score": -2.327702283859253,
+            "state": "Missouri"
+        },
+        {
+            "address": "Lemongrass by Sip Saam Thai, 1320 Cypress Creek Road Ste 100, Cedar Park, TX 78613",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865b2d3eefbb5a77:0x1ccc4233ba5cceed",
+            "iid": 27010,
+            "name": "Lemongrass by Sip Saam Thai",
+            "rank": 7,
+            "score": -2.329460859298706,
+            "state": "Texas"
+        },
+        {
+            "address": "Yellowtail Ramen & Aburi, 220 Tiny Town Rd Suite 106, Clarksville, TN 37042",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886529564a5acac7:0x43bff74ba09b402f",
+            "iid": 44658,
+            "name": "Yellowtail Ramen & Aburi",
+            "rank": 8,
+            "score": -2.331655502319336,
+            "state": "Tennessee"
+        },
+        {
+            "address": "KBOP, 1891 Chamblee Tucker Rd Suite 4-1, Chamblee, GA 30341",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Delivery service', 'Takeout Restaurant', 'Restaurant', 'Rice restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x88f509c9f0af8c29:0x25a46b00d9fd4967",
+            "iid": 51605,
+            "name": "KBOP",
+            "rank": 9,
+            "score": -2.331951379776001,
+            "state": "Georgia"
+        },
+        {
+            "address": "Soup Shop, 5840 Firestone Blvd #102, South Gate, CA 90280",
+            "category": "['Vietnamese restaurant', 'Pho restaurant', 'Soup restaurant', 'Soup shop']",
+            "gmap_id": "0x80c2cd093bcb768d:0x70529206613cc2e0",
+            "iid": 15532,
+            "name": "Soup Shop",
+            "rank": 10,
+            "score": -2.3357510566711426,
+            "state": "California"
+        },
+        {
+            "address": "Taichi Bubble Tea, 2460 Nesconset Hwy, Stony Brook, NY 11790",
+            "category": "['Restaurant', 'Bubble tea store', 'Chinese takeaway', 'Ramen restaurant']",
+            "gmap_id": "0x89e839035dc18483:0x754aa3f4a8c2094c",
+            "iid": 71987,
+            "name": "Taichi Bubble Tea",
+            "rank": 11,
+            "score": -2.3363542556762695,
+            "state": "New_York"
+        },
+        {
+            "address": "FUKUMI RAMEN - Citrus Heights, 5410 Sunrise Blvd STE 2, Citrus Heights, CA 95610",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x809adf809a11d6db:0xd380195713dc792a",
+            "iid": 12637,
+            "name": "FUKUMI RAMEN - Citrus Heights",
+            "rank": 12,
+            "score": -2.337580442428589,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Blvd Ph\u1edf & Grill, 30975 Five Mile Rd, Livonia, MI 48154",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8824b3f56cee8555:0x83abed68d50fa968",
+            "iid": 39166,
+            "name": "Saigon Blvd Ph\u1edf & Grill",
+            "rank": 13,
+            "score": -2.337859630584717,
+            "state": "Michigan"
+        },
+        {
+            "address": "Banzai Japanese Bar & Kitchen, 609 E Olive Ave Suite C, Fresno, CA 93728",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8094679e15c7e947:0x74c45af0c865a2b4",
+            "iid": 11825,
+            "name": "Banzai Japanese Bar & Kitchen",
+            "rank": 14,
+            "score": -2.3408751487731934,
+            "state": "California"
+        },
+        {
+            "address": "Pepper House, 10176 Baltimore National Pike #105, Ellicott City, MD 21042",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Cold noodle restaurant', 'Dan Dan noodle restaurant', 'Noodle shop', 'Sichuan restaurant']",
+            "gmap_id": "0x89c82108c2fa81e1:0xabcbee5d933f57ea",
+            "iid": 67242,
+            "name": "Pepper House",
+            "rank": 15,
+            "score": -2.342212677001953,
+            "state": "Maryland"
+        },
+        {
+            "address": "Fuhu, 3000 S Las Vegas Blvd, Las Vegas, NV 89109",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c8c535aec72b49:0x3fcd544da15b5898",
+            "iid": 17135,
+            "name": "Fuhu",
+            "rank": 16,
+            "score": -2.3437514305114746,
+            "state": "Nevada"
+        },
+        {
+            "address": "Kelly's Healing Massage, 990 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Massage therapist', 'Thai massage therapist']",
+            "gmap_id": "0x808fb782b4f1c997:0x5bc9681b751fdba4",
+            "iid": 10276,
+            "name": "Kelly's Healing Massage",
+            "rank": 17,
+            "score": -2.343827724456787,
+            "state": "California"
+        },
+        {
+            "address": "Q Sushi Bar & Omakase, 4845 N Damen Ave., Chicago, IL 60625",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fd306d715ff05:0x12309afda7bd955c",
+            "iid": 37949,
+            "name": "Q Sushi Bar & Omakase",
+            "rank": 18,
+            "score": -2.344151020050049,
+            "state": "Illinois"
+        },
+        {
+            "address": "Momo Korean Restaurant, 2761 Briargate Blvd, Colorado Springs, CO 80920",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x87134fdfd01c0bd9:0x8519f74ee6428054",
+            "iid": 28474,
+            "name": "Momo Korean Restaurant",
+            "rank": 19,
+            "score": -2.3441901206970215,
+            "state": "Colorado"
+        },
+        {
+            "address": "Indiyas, 3003 English Creek Ave 2nd Floor, Egg Harbor Township, NJ 08234",
+            "category": "['Indian restaurant', 'Catering food and drink supplier', 'Halal restaurant', 'Restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x89c0c3651a0a2dd1:0xf858166a781dc0cb",
+            "iid": 57649,
+            "name": "Indiyas",
+            "rank": 20,
+            "score": -2.344395399093628,
+            "state": "New_Jersey"
+        }
+    ],
+    "user": {
+        "name": "J Kinz",
+        "uid": 46530,
+        "user_id": 101558051927312437326
+    }
+}

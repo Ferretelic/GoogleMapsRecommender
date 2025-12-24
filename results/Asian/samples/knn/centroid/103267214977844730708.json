@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Merry Go Round, 212 S Main St, Lone Pine, CA 93545",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80bf844c80fc901b:0x1171ec7dcb8cf11e",
+            "iid": 12914,
+            "name": "Merry Go Round",
+            "rank": 1,
+            "score": -15.478479385375977,
+            "state": "California"
+        },
+        {
+            "address": "New China, 250 E Antelope Ave STE J, Woodlake, CA 93286",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x809539b3cbe32de1:0x823a3dd6e4ae484c",
+            "iid": 11953,
+            "name": "New China",
+            "rank": 2,
+            "score": -79.29287719726562,
+            "state": "California"
+        },
+        {
+            "address": "Mandarin House, 163 E Pine St, Exeter, CA 93221",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x809533fe89b8d583:0x29b75febd6147747",
+            "iid": 11952,
+            "name": "Mandarin House",
+            "rank": 3,
+            "score": -87.03191375732422,
+            "state": "California"
+        },
+        {
+            "address": "Mei Wah Chinese Restaurant, 138 E Samoa St, Lindsay, CA 93247",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80eacae2dc461273:0x3a41528036a40d29",
+            "iid": 21632,
+            "name": "Mei Wah Chinese Restaurant",
+            "rank": 4,
+            "score": -87.12809753417969,
+            "state": "California"
+        },
+        {
+            "address": "Fortune Cookie | Chinese Restaurant, 1110 W Visalia Rd, Exeter, CA 93221",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80953158fc6f4443:0xb3a4f53d40be9f3e",
+            "iid": 11951,
+            "name": "Fortune Cookie | Chinese Restaurant",
+            "rank": 5,
+            "score": -88.11331939697266,
+            "state": "California"
+        },
+        {
+            "address": "Yamatani Japanese Restaurant, 635 N Main St, Bishop, CA 93514",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80be160035ff34c1:0x370a2048696e413d",
+            "iid": 12911,
+            "name": "Yamatani Japanese Restaurant",
+            "rank": 6,
+            "score": -89.39248657226562,
+            "state": "California"
+        },
+        {
+            "address": "Nanlangka | Teppanyaki & Sushi Bar, 560 N Main St, Porterville, CA 93257",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80eab83928c3b7ed:0x754fc4634d2ccb3c",
+            "iid": 21626,
+            "name": "Nanlangka | Teppanyaki & Sushi Bar",
+            "rank": 7,
+            "score": -89.42094421386719,
+            "state": "California"
+        },
+        {
+            "address": "New L & D Chinese Buffet, 256 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80eab83d5c73b5c1:0x6684d99ea68e8006",
+            "iid": 21627,
+            "name": "New L & D Chinese Buffet",
+            "rank": 8,
+            "score": -89.52378845214844,
+            "state": "California"
+        },
+        {
+            "address": "Thai Thai Restaurant, 703 Airport Road Enter On Left Of Building, Bishop, CA 93514",
+            "category": "['Asian restaurant', 'South Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80be3e20d5878d8b:0xd39c9a0e88375042",
+            "iid": 12913,
+            "name": "Thai Thai Restaurant",
+            "rank": 9,
+            "score": -89.64583587646484,
+            "state": "California"
+        },
+        {
+            "address": "Imperial Gourmet Chinese, 930 N Main St K, Bishop, CA 93514",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80be1600deb06ab7:0x191372803947ab04",
+            "iid": 12912,
+            "name": "Imperial Gourmet Chinese",
+            "rank": 10,
+            "score": -89.90230560302734,
+            "state": "California"
+        },
+        {
+            "address": "China Cafe, 21 S Main St, Porterville, CA 93257",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80eab8449c9254d1:0x17422d536ed4e8ce",
+            "iid": 21628,
+            "name": "China Cafe",
+            "rank": 11,
+            "score": -90.23560333251953,
+            "state": "California"
+        },
+        {
+            "address": "Asia Garden, 895 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80eab804560a5ebb:0x109887ec06f0011e",
+            "iid": 21625,
+            "name": "Asia Garden",
+            "rank": 12,
+            "score": -90.63491821289062,
+            "state": "California"
+        },
+        {
+            "address": "New China Restaurant, 325 W Olive Ave, Porterville, CA 93257",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80eab869939cb943:0x9d24d52fd62c8fdd",
+            "iid": 21629,
+            "name": "New China Restaurant",
+            "rank": 13,
+            "score": -90.73881530761719,
+            "state": "California"
+        },
+        {
+            "address": "Thai Kitchen, 951 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x80eab804467bcf57:0x34629357a9caba0c",
+            "iid": 21624,
+            "name": "Thai Kitchen",
+            "rank": 14,
+            "score": -90.81133270263672,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Bowl, 1285 W Henderson Ave, Porterville, CA 93257",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80eab800aa5b9d73:0x77814a9855053bfa",
+            "iid": 21623,
+            "name": "Tokyo Bowl",
+            "rank": 15,
+            "score": -91.27027893066406,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 460 W Vandalia Ave, Porterville, CA 93257",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x80eab8f8e5f3c6d7:0x6cbf1886b7f6ba18",
+            "iid": 21630,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": -91.6932601928711,
+            "state": "California"
+        },
+        {
+            "address": "#Saynomo' Asian Fusion Restaurant, 1392 W Olive Ave, Porterville, CA 93257",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bubble tea store', 'Delivery service', 'Thai restaurant']",
+            "gmap_id": "0x80eab919610ae883:0x5c93c41479f7e784",
+            "iid": 21631,
+            "name": "#Saynomo' Asian Fusion Restaurant",
+            "rank": 17,
+            "score": -92.3413314819336,
+            "state": "California"
+        },
+        {
+            "address": "Hong Kong Chop Suey, 12561 Avenue 416 UNIT B, Orosi, CA 93647",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8095191a9337476d:0x9f65abf742c1fc0d",
+            "iid": 11903,
+            "name": "Hong Kong Chop Suey",
+            "rank": 18,
+            "score": -94.80126190185547,
+            "state": "California"
+        },
+        {
+            "address": "Golden China Buffet, 520 Lovers Ln, Visalia, CA 93292",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80952f95f794b2bb:0x4aa075e82fa96b5c",
+            "iid": 11947,
+            "name": "Golden China Buffet",
+            "rank": 19,
+            "score": -96.03780364990234,
+            "state": "California"
+        },
+        {
+            "address": "Kow Loon Chinese Restaurant, 2300 E Mineral King Ave, Visalia, CA 93292",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80952f99d0971da5:0x9f26cfe3696b8bc1",
+            "iid": 11948,
+            "name": "Kow Loon Chinese Restaurant",
+            "rank": 20,
+            "score": -96.59222412109375,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

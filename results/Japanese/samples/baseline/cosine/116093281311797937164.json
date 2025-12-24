@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Uchi, 904 Westheimer Rd Suite A, Houston, TX 77006",
+            "category": "['Japanese restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x8640bf66aaaaaaab:0xba870240e892b2c6",
+            "iid": 7358,
+            "name": "Uchi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506283929146
+        },
+        {
+            "address": "Wild Cajun Crawfish, 6533 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Cajun restaurant', 'Southern restaurant (US)', 'Sushi restaurant']",
+            "date": "2018/03/18",
+            "gmap_id": "0x8640dd2fbfdc5691:0xbbf4225d876a11b",
+            "iid": 7539,
+            "name": "Wild Cajun Crawfish",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1521377174580
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/07",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 7533,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1523125454481
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 11301 Katy Fwy, Houston, TX 77079",
+            "category": "['Yakiniku restaurant', 'Bar', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/10",
+            "gmap_id": "0x8640db41cec74a09:0xb7b32d96b12f0af",
+            "iid": 7517,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541879149302
+        },
+        {
+            "address": "Sushi Choo Choo, 12149 FM 1960, Houston, TX 77065",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/12/09",
+            "gmap_id": "0x8640d1a1efa37c6d:0x2c0a9e3cc0485bf6",
+            "iid": 7492,
+            "name": "Sushi Choo Choo",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1544323444205
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/19",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 7520,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545182851646
+        },
+        {
+            "address": "Marukame Udon, 1104 Fort Street Mall, Honolulu, HI 96813",
+            "category": "['Udon noodle restaurant', 'Japanese restaurant', 'Restaurant', 'Tempura restaurant']",
+            "date": "2019/06/09",
+            "gmap_id": "0x7c006e745ec4428d:0x1efe275b56b64276",
+            "iid": 1969,
+            "name": "Marukame Udon",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1560040473905
+        },
+        {
+            "address": "Sushi II, 655 Ke\u2019eaumoku St #109, Honolulu, HI 96814",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/20",
+            "gmap_id": "0x7c006dee4877850d:0xb7945e64df5f8a02",
+            "iid": 1902,
+            "name": "Sushi II",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1561060272336
+        },
+        {
+            "address": "JINYA Ramen Bar - Cypress, 11930 Barker Cypress Rd Suite 100, Cypress, TX 77433",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/07/21",
+            "gmap_id": "0x8640d56b7112afa7:0x3a6f39ec4d5ae381",
+            "iid": 7502,
+            "name": "JINYA Ramen Bar - Cypress",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1563751013032
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 7748 Cypress Creek Pkwy suite a, Houston, TX 77070",
+            "category": "['Yakiniku restaurant', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x8640cd1ef5a61021:0x6e0a2ec9a77de1ca",
+            "iid": 7475,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1616895129686
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "MIAN | \u6ecb\u5473\u5c0f\u9762, 808 Sheridan St #105, Honolulu, HI 96814",
+            "category": "['Chinese restaurant', 'Chinese noodle restaurant', 'Chinese takeaway', 'Fast food restaurant', 'Ramen restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x7c006def1b96e615:0xc716ab14c2a7e6b4",
+            "iid": 1911,
+            "name": "MIAN | \u6ecb\u5473\u5c0f\u9762",
+            "rank": 1,
+            "score": 0.6934102773666382,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Mr Ojisan Restaurant, 1016 Kapahulu Ave #140, Honolulu, HI 96816",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006d8309b14115:0x1fb63c8e3a3f6544",
+            "iid": 1827,
+            "name": "Mr Ojisan Restaurant",
+            "rank": 2,
+            "score": 0.6862659454345703,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Hawai'i Sushi, 2919 Kapiolani Blvd #31, Honolulu, HI 96816",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x7c006d84a0eaaaab:0xa80033060a6394e7",
+            "iid": 1831,
+            "name": "Hawai'i Sushi",
+            "rank": 3,
+            "score": 0.6647470593452454,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Katsumidori sushi Tokyo, 100 Holomoana St, Honolulu, HI 96815",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x7c006df6b94126d7:0xea8cd2ba2930588c",
+            "iid": 1941,
+            "name": "Katsumidori sushi Tokyo",
+            "rank": 4,
+            "score": 0.6562398076057434,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sunrise Restaurant Hawaii, 525 Kapahulu Ave # A, Honolulu, HI 96815",
+            "category": "['Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x7c00727f45dc0915:0x9ef07e36137f4645",
+            "iid": 2037,
+            "name": "Sunrise Restaurant Hawaii",
+            "rank": 5,
+            "score": 0.6507560610771179,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Rinka, 1001 Queen St #105, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006defaaaaaaab:0x2fe90143639195a8",
+            "iid": 1912,
+            "name": "Rinka",
+            "rank": 6,
+            "score": 0.6435953378677368,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Curry House Coco Ichibanya, 1450 Ala Moana Blvd, Honolulu, HI 96814",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x7c006df045a36271:0xe3b03910a0b003a6",
+            "iid": 1916,
+            "name": "Curry House Coco Ichibanya",
+            "rank": 7,
+            "score": 0.6340869069099426,
+            "state": "Hawaii"
+        },
+        {
+            "address": "I-naba, 1610 S King St # A, Honolulu, HI 96826",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006dec89286d21:0x870728b296abde78",
+            "iid": 1892,
+            "name": "I-naba",
+            "rank": 8,
+            "score": 0.6320077776908875,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tonkatsu Tamafuji, 449 Kapahulu Ave, Honolulu, HI 96815",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c0072792b7bbe6f:0x1236c7d123283ebc",
+            "iid": 2033,
+            "name": "Tonkatsu Tamafuji",
+            "rank": 9,
+            "score": 0.6309922933578491,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sushi Company, 1111 McCully St # A, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006df28f7603d3:0xe850a817d957a1a8",
+            "iid": 1931,
+            "name": "Sushi Company",
+            "rank": 10,
+            "score": 0.6280888319015503,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Aloha Cones, 1339 N School St Ste 103, Honolulu, HI 96817",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006fe6cd295089:0xf0e4f36f0d9da219",
+            "iid": 1996,
+            "name": "Aloha Cones",
+            "rank": 11,
+            "score": 0.6279857754707336,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Ramen Bar Ichi, 1801 S Dairy Ashford Rd #108, Houston, TX 77077",
+            "category": "['Restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x8640dc6243d6ac47:0x3b8a4cdbaffa2049",
+            "iid": 7530,
+            "name": "Ramen Bar Ichi",
+            "rank": 12,
+            "score": 0.6269168257713318,
+            "state": "Texas"
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "rank": 13,
+            "score": 0.6266620755195618,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Kokoro-tei, 2424 S Beretania St, Honolulu, HI 96826",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006d90e20a6525:0x13c7fd8a72735b57",
+            "iid": 1848,
+            "name": "Kokoro-tei",
+            "rank": 14,
+            "score": 0.6260077357292175,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Rinka, 1500 Kapiolani Blvd, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006dee28412bdd:0x72f110656c4ecfed",
+            "iid": 1899,
+            "name": "Rinka",
+            "rank": 15,
+            "score": 0.6209292411804199,
+            "state": "Hawaii"
+        },
+        {
+            "address": "ZIGU, 413 Seaside Ave #1f, Honolulu, HI 96815",
+            "category": "['Authentic Japanese restaurant', 'Bar', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006d89f0663025:0x772ce4e9ebaa540b",
+            "iid": 1832,
+            "name": "ZIGU",
+            "rank": 16,
+            "score": 0.6172473430633545,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Do-ne, 1614 Kalakaua Ave, Honolulu, HI 96826",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006dedaed91c03:0xe5a5f88bcb47c5a3",
+            "iid": 1896,
+            "name": "Do-ne",
+            "rank": 17,
+            "score": 0.6168632507324219,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Minori Craft Japanese Tavern, 1731 Kalakaua Ave, Honolulu, HI 96826",
+            "category": "['Izakaya restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006d4efbe6cbe1:0x68a6b62aa63d33f1",
+            "iid": 1807,
+            "name": "Minori Craft Japanese Tavern",
+            "rank": 18,
+            "score": 0.6150857210159302,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sushiman, 333 Keahole St # 2C2, Honolulu, HI 96825",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x7c00128a7944866f:0xc6e4753ad3efe07f",
+            "iid": 1733,
+            "name": "Sushiman",
+            "rank": 19,
+            "score": 0.6113215684890747,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Mitsuwa Marketplace Hawaii Waikiki, 2330 Kalakaua Ave #250, Honolulu, HI 96815",
+            "category": "['Japanese grocery store', 'Food court', 'Supermarket']",
+            "gmap_id": "0x7c00727618900003:0x44c90233c1a9b2a7",
+            "iid": 2022,
+            "name": "Mitsuwa Marketplace Hawaii Waikiki",
+            "rank": 20,
+            "score": 0.6091364622116089,
+            "state": "Hawaii"
+        }
+    ],
+    "user": {
+        "name": "Jeslyn Tran",
+        "uid": 119185,
+        "user_id": 116093281311797937164
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hamilton, 600 14th St NW, Washington, D.C., DC 20005",
+            "category": "['American restaurant', 'Bar', 'Brunch restaurant', 'Catering food and drink supplier', 'Cocktail bar', 'Dessert restaurant', 'Event venue', 'Live music venue', 'Restaurant', 'Sushi restaurant']",
+            "date": "2015/12/20",
+            "gmap_id": "0x89b7b797c7d538d3:0xd7872ecc9a2a243e",
+            "iid": 17190,
+            "name": "The Hamilton",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1450581746344
+        },
+        {
+            "address": "Sushi Jin Next Door, 8555 Fenton St, Silver Spring, MD 20910",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2016/01/17",
+            "gmap_id": "0x89b7c8ba0a933aa7:0x5f8a2a55fe44b127",
+            "iid": 17268,
+            "name": "Sushi Jin Next Door",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1453074024913
+        },
+        {
+            "address": "Ginza Japanese Restaurant, 9616 Reisterstown Rd, Owings Mills, MD 21117",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/08/05",
+            "gmap_id": "0x89c8176b88494b4b:0x9953e4e75977829a",
+            "iid": 20385,
+            "name": "Ginza Japanese Restaurant",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1470427793926
+        },
+        {
+            "address": "Ippudo NY, 65 4th Ave, New York, NY 10003",
+            "category": "['Ramen restaurant']",
+            "date": "2018/12/02",
+            "gmap_id": "0x89c2599be79c4359:0xb9d6395de6e0aff6",
+            "iid": 18409,
+            "name": "Ippudo NY",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543724128893
+        },
+        {
+            "address": "Haikan, 805 V St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2019/05/10",
+            "gmap_id": "0x89b7b7e4df0c024f:0x284b6fa985d06644",
+            "iid": 17212,
+            "name": "Haikan",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1557530263701
+        },
+        {
+            "address": "RACKS Fish House & Oyster Bar, 5 SE 2nd Ave, Delray Beach, FL 33444",
+            "category": "['Seafood restaurant', 'American restaurant', 'Bar', 'Cocktail bar', 'Delivery Restaurant', 'Oyster bar restaurant', 'Sushi restaurant', 'Tapas bar', 'Tapas restaurant', 'Wine bar']",
+            "date": "2019/06/21",
+            "gmap_id": "0x88d8dfdcb006b699:0x2c51d97bd16c9501",
+            "iid": 14295,
+            "name": "RACKS Fish House & Oyster Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561138334340
+        },
+        {
+            "address": "Nama Sushi Bar & Restaurant, 465 K St NW, Washington, DC 20001",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/09/30",
+            "gmap_id": "0x89b7b7205a420fe5:0x363259c3e118ffb8",
+            "iid": 17161,
+            "name": "Nama Sushi Bar & Restaurant",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1569807548990
+        },
+        {
+            "address": "IPPUDO SAN FRANCISCO, 18 Yerba Buena Ln, San Francisco, CA 94103",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/11/21",
+            "gmap_id": "0x808580862be0dea3:0x6c80a515c00c6c5c",
+            "iid": 2336,
+            "name": "IPPUDO SAN FRANCISCO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574297244433
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "valid",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Peking hibachi, 4533 N Mayo Trail, Pikeville, KY 41501",
+            "category": "['Japanese steakhouse', 'Japanese restaurant']",
+            "gmap_id": "0x88451325d8233d01:0x6db06d280cb64b69",
+            "iid": 12413,
+            "name": "Peking hibachi",
+            "rank": 1,
+            "score": -8.134122848510742,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Yamato Steak House, 125 Flemingsburg Rd, Morehead, KY 40351",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88440d9e61122afb:0x476466e1a4f9610d",
+            "iid": 12412,
+            "name": "Yamato Steak House",
+            "rank": 2,
+            "score": -100.46537780761719,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Taste of Asia, 821 3rd Ave, Huntington, WV 25701",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x884609c519245525:0xb6e80745edfdfe38",
+            "iid": 12415,
+            "name": "Taste of Asia",
+            "rank": 3,
+            "score": -102.9553451538086,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Shogun, 3420 US-60, Barboursville, WV 25504",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Brewpub', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x884600895cc5842f:0xeae90622517386b6",
+            "iid": 12414,
+            "name": "Shogun",
+            "rank": 4,
+            "score": -106.79630279541016,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Moto Japanese Restaurant, 1001 E Stone Dr, Kingsport, TN 37660",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x885a929c690a08e1:0x964afce319c93dc8",
+            "iid": 13004,
+            "name": "Moto Japanese Restaurant",
+            "rank": 5,
+            "score": -107.32025909423828,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Stir Fry Cafe: Asian, Sushi & Thai Cuisine Kingsport, TN, 125 Broad St, Kingsport, TN 37660",
+            "category": "['Asian restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x885a8d54ba6e2e4d:0x2f024200602357c4",
+            "iid": 13002,
+            "name": "Stir Fry Cafe: Asian, Sushi & Thai Cuisine Kingsport, TN",
+            "rank": 6,
+            "score": -107.88168334960938,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Drake's Bristol, 508 Pinnacle Pkwy, Bristol, TN 37620",
+            "category": "['Restaurant', 'Bar', 'Hamburger restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x885a9c495b0200e7:0xeb59574105104cfa",
+            "iid": 13005,
+            "name": "Drake's Bristol",
+            "rank": 7,
+            "score": -108.4061279296875,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Wasabi Japanese Steakhouse & Sushi Bar, 1805 N Eastman Rd, Kingsport, TN 37664",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house']",
+            "gmap_id": "0x885a8d78b03ae9ef:0xc660245bc83c2f92",
+            "iid": 13003,
+            "name": "Wasabi Japanese Steakhouse & Sushi Bar",
+            "rank": 8,
+            "score": -108.72028350830078,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Osaka Japanese Steakhouse, 102 Bonham Rd, Bristol, VA 24202",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88507474fc0e5bbb:0x11a85689c4f4f02c",
+            "iid": 12471,
+            "name": "Osaka Japanese Steakhouse",
+            "rank": 9,
+            "score": -108.98383331298828,
+            "state": "Virginia"
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 1131 Old Airport Rd, Bristol, VA 24202",
+            "category": "['Japanese steakhouse', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8850738cbc88d09b:0xb8b1ba111e9ee38c",
+            "iid": 12470,
+            "name": "Kobe Japanese Steakhouse",
+            "rank": 10,
+            "score": -109.1598129272461,
+            "state": "Virginia"
+        },
+        {
+            "address": "Sakura Express Japanese, 2591 W State St, Bristol, TN 37620",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8850761e4fb2af75:0xc599f2bcb8eb37a2",
+            "iid": 12472,
+            "name": "Sakura Express Japanese",
+            "rank": 11,
+            "score": -109.60212707519531,
+            "state": "Tennessee"
+        },
+        {
+            "address": "620 State Restaurant | Sushi + Asian + American + Cocktail Bar | Bristol, TN, 620 State St, Bristol, TN 37620",
+            "category": "['American restaurant', 'Asian restaurant', 'Hamburger restaurant', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x8850768a6ca6a6cf:0x1b64f2692cad6108",
+            "iid": 12473,
+            "name": "620 State Restaurant | Sushi + Asian + American + Cocktail Bar | Bristol, TN",
+            "rank": 12,
+            "score": -110.60247039794922,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Shoku Japanese Steak House, 1921 TN-394 Ste 1, Blountville, TN 37617",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x885a84b047896015:0xf747464600c99ec",
+            "iid": 13000,
+            "name": "Shoku Japanese Steak House",
+            "rank": 13,
+            "score": -114.12327575683594,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Moto Japanese Restaurant, 4260 Fort Henry Dr, Kingsport, TN 37663",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x885a8c6a845f0f9d:0x2ea930ad317a9662",
+            "iid": 13001,
+            "name": "Moto Japanese Restaurant",
+            "rank": 14,
+            "score": -115.5699462890625,
+            "state": "Tennessee"
+        },
+        {
+            "address": "KITA MODERN JAPANESE, 2815 Mountaineer Blvd, Charleston, WV 25309",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x884f331cbe92d5bb:0x96feb7465795466",
+            "iid": 12468,
+            "name": "KITA MODERN JAPANESE",
+            "rank": 15,
+            "score": -122.19905090332031,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Taste of Asia, 1 Liberty Sq, Hurricane, WV 25526",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8848b41fc5c5b2b1:0xfdc787a33a20d5fd",
+            "iid": 12426,
+            "name": "Taste of Asia",
+            "rank": 16,
+            "score": -123.3280029296875,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Hibachi Japanese Steakhouse, 48 RHL Blvd, South Charleston, WV 25309",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x884f3292c9f02bab:0xf390d606798b2e98",
+            "iid": 12466,
+            "name": "Hibachi Japanese Steakhouse",
+            "rank": 17,
+            "score": -123.96023559570312,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Sakura Hibachi, 230 Nitro Market Pl, Charleston, WV 25313",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8848cba7a9df588b:0x8850ae2429ded028",
+            "iid": 12427,
+            "name": "Sakura Hibachi",
+            "rank": 18,
+            "score": -125.0051498413086,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Fuji's | Sushi & Teriyaki, 1113 Jefferson Rd, South Charleston, WV 25309",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x884f32bb8276f2b1:0x181a54097260f8ee",
+            "iid": 12467,
+            "name": "Fuji's | Sushi & Teriyaki",
+            "rank": 19,
+            "score": -125.15269470214844,
+            "state": "West_Virginia"
+        },
+        {
+            "address": "Yummy Yummy Japanese Restaurant, 232 E Main St, Marion, VA 24354",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88502d4d5de6f7d3:0x425b7aa572534564",
+            "iid": 12469,
+            "name": "Yummy Yummy Japanese Restaurant",
+            "rank": 20,
+            "score": -126.69210815429688,
+            "state": "Virginia"
+        }
+    ],
+    "user": {
+        "name": "Tanveer Huq",
+        "uid": 92368,
+        "user_id": 112473692825486621977
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Japonais by Morimoto, 600 W Chicago Ave, Chicago, IL 60654",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2012/01/18",
+            "gmap_id": "0x880fd3349c9527a5:0xf53ad5e279b21404",
+            "iid": 11388,
+            "name": "Japonais by Morimoto",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1326855134568
+        },
+        {
+            "address": "Robongi Hoboken, 520 Washington St, Hoboken, NJ 07030",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2016/04/09",
+            "gmap_id": "0x89c259dff3955efd:0xab3013b84a501d8a",
+            "iid": 18588,
+            "name": "Robongi Hoboken",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1460241276379
+        },
+        {
+            "address": "Zuma, 261 Madison Ave, New York, NY 10016",
+            "category": "['Japanese restaurant']",
+            "date": "2016/05/03",
+            "gmap_id": "0x89c25900da7d168f:0x9f06dc02dfbacf06",
+            "iid": 18118,
+            "name": "Zuma",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462236872551
+        },
+        {
+            "address": "sushiDOKKU / BOOZE BOX, 823 W Randolph St, Chicago, IL 60607",
+            "category": "['Sushi restaurant', 'Lounge']",
+            "date": "2016/05/19",
+            "gmap_id": "0x880e2cdacc755c6b:0xd892b76eb188a559",
+            "iid": 10903,
+            "name": "sushiDOKKU / BOOZE BOX",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1463695647354
+        },
+        {
+            "address": "Red Lantern Restaurant & Lounge, 39 Stanhope St, Boston, MA 02116",
+            "category": "['Asian restaurant', 'Lounge', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/03",
+            "gmap_id": "0x89e37a733255f1e3:0xf61f00a1028c9602",
+            "iid": 21063,
+            "name": "Red Lantern Restaurant & Lounge",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1464915624761
+        },
+        {
+            "address": "Ogawashi, 1100 Fifth Ave, San Diego, CA 92101",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/04",
+            "gmap_id": "0x80d954a7c7f8ec7d:0x4fc70275c6e92613",
+            "iid": 5561,
+            "name": "Ogawashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1465079041772
+        },
+        {
+            "address": "Oishii Boston, 1166 Washington St, Boston, MA 02118",
+            "category": "['Authentic Japanese restaurant']",
+            "date": "2016/08/17",
+            "gmap_id": "0x89e37a6e6d403195:0xc727e893746649cf",
+            "iid": 21061,
+            "name": "Oishii Boston",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1471438497848
+        },
+        {
+            "address": "Roka Akor - San Francisco, 801 Montgomery St, San Francisco, CA 94133",
+            "category": "['Japanese restaurant']",
+            "date": "2016/10/08",
+            "gmap_id": "0x808581281ce6ce4b:0xbe12a60aff36f188",
+            "iid": 2475,
+            "name": "Roka Akor - San Francisco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1475896315452
+        },
+        {
+            "address": "Hatsuhana Sushi Restaurant, 17 E 48th St, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2016/12/21",
+            "gmap_id": "0x89c258fc2af38ec3:0x2a73e292b7593d80",
+            "iid": 18097,
+            "name": "Hatsuhana Sushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1482286742951
+        },
+        {
+            "address": "Sushi Rock Las Olas, 1515 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/01/14",
+            "gmap_id": "0x88d9004eec327681:0x78bf3d046ba0e56b",
+            "iid": 14333,
+            "name": "Sushi Rock Las Olas",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1484413289036
+        },
+        {
+            "address": "Hiro Sushi, 9958 Midlothian Turnpike, Richmond, VA 23235",
+            "category": "['Sushi restaurant']",
+            "date": "2020/07/04",
+            "gmap_id": "0x89b16d43f8f2f601:0xfdae725165a2052e",
+            "iid": 16807,
+            "name": "Hiro Sushi",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1593826645033
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Shinbashi, 7 E 48th St, New York, NY 10017",
+            "category": "['Authentic Japanese restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c258fe82322bf1:0x16f4af1e7aa43ca4",
+            "iid": 18106,
+            "name": "Shinbashi",
+            "rank": 1,
+            "score": -0.04382796213030815,
+            "state": "New_York"
+        },
+        {
+            "address": "Kurumazushi, 7 E 47th St 2nd Floor, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c258fe7c87b859:0xf4d5471439a404ac",
+            "iid": 18105,
+            "name": "Kurumazushi",
+            "rank": 2,
+            "score": -0.08693695068359375,
+            "state": "New_York"
+        },
+        {
+            "address": "Katsu-Hama, 11 E 47th St, New York, NY 10017",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c258fe7a2e5949:0x9707493ff4f17cc6",
+            "iid": 18104,
+            "name": "Katsu-Hama",
+            "rank": 3,
+            "score": -0.0912201926112175,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Ann, 38 E 51st St, New York, NY 10022",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c258fc6266d567:0xa374f781523233c5",
+            "iid": 18098,
+            "name": "Sushi Ann",
+            "rank": 4,
+            "score": -0.23011665046215057,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Fussion, 26 W 47th St, New York, NY 10036",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Kosher restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c258fe5549907b:0x82c111dfe5d19837",
+            "iid": 18103,
+            "name": "Sushi Fussion",
+            "rank": 5,
+            "score": -0.26242414116859436,
+            "state": "New_York"
+        },
+        {
+            "address": "Kuro-Obi Ramen by Ippudo, Grand Central, 230 Park Ave, New York, NY 10169",
+            "category": "['Ramen restaurant', 'Food court']",
+            "gmap_id": "0x89c258fdf6c83d7f:0x5cc2bcef7f741e66",
+            "iid": 18101,
+            "name": "Kuro-Obi Ramen by Ippudo",
+            "rank": 6,
+            "score": -0.2949052155017853,
+            "state": "New_York"
+        },
+        {
+            "address": "Ikinari Steak, 37 W 46th St, New York, NY 10036",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Steak house']",
+            "gmap_id": "0x89c258ffac021929:0x29fdc015e3cc08af",
+            "iid": 18111,
+            "name": "Ikinari Steak",
+            "rank": 7,
+            "score": -0.29613256454467773,
+            "state": "New_York"
+        },
+        {
+            "address": "Blue Ribbon Sushi Bar - Rock Center, 30 Rockefeller Plaza, Concourse Level, New York, 10112",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c258fed01e43f3:0x7de1330cd98d8a85",
+            "iid": 18108,
+            "name": "Blue Ribbon Sushi Bar - Rock Center",
+            "rank": 8,
+            "score": -0.29719656705856323,
+            "state": "New_York"
+        },
+        {
+            "address": "Ippudo 5th Avenue, 24 W 46th St, New York, NY 10036",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c258ffb16451bf:0x410a4f43b0eb6416",
+            "iid": 18112,
+            "name": "Ippudo 5th Avenue",
+            "rank": 9,
+            "score": -0.3026224970817566,
+            "state": "New_York"
+        },
+        {
+            "address": "HAMA, 11 W 51st St, New York, NY 10019",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c258f950f04b93:0xb720960bdf24b084",
+            "iid": 18082,
+            "name": "HAMA",
+            "rank": 10,
+            "score": -0.3115377128124237,
+            "state": "New_York"
+        },
+        {
+            "address": "Lea Wine Bar, 230 Park Ave, New York, NY 10169",
+            "category": "['Wine bar', 'Bar', 'Cocktail bar', 'Lounge', 'Restaurant', 'Sushi restaurant', 'Tapas bar']",
+            "gmap_id": "0x89c258fdf35ef555:0xd054706af2c15ea1",
+            "iid": 18100,
+            "name": "Lea Wine Bar",
+            "rank": 11,
+            "score": -0.3265787363052368,
+            "state": "New_York"
+        },
+        {
+            "address": "Azusa of Japan, 3 E 44th St, New York, NY 10017",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x89c258fe27ab2f81:0x839e3486df80abda",
+            "iid": 18102,
+            "name": "Azusa of Japan",
+            "rank": 12,
+            "score": -0.32741305232048035,
+            "state": "New_York"
+        },
+        {
+            "address": "Yama Ramen, 60 W 48th St, New York, NY 10036",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c258ff1a6e63eb:0xcc29338f2f8f7eaa",
+            "iid": 18109,
+            "name": "Yama Ramen",
+            "rank": 13,
+            "score": -0.34286734461784363,
+            "state": "New_York"
+        },
+        {
+            "address": "Minamoto Kitchoan, 509 Madison Ave, New York, NY 10022",
+            "category": "['Japanese confectionery shop', 'Gift shop']",
+            "gmap_id": "0x89c258fe912998d1:0xcbc4a84b2949bce",
+            "iid": 18107,
+            "name": "Minamoto Kitchoan",
+            "rank": 14,
+            "score": -0.3452427089214325,
+            "state": "New_York"
+        },
+        {
+            "address": "ROYCE' Chocolate Madison, 509 Madison Ave, New York, NY 10022",
+            "category": "['Chocolate shop', 'Candy store', 'Chocolate artisan', 'Japanese sweets restaurant']",
+            "gmap_id": "0x89c258fb9d5fd9af:0xe8243712cd2ee156",
+            "iid": 18096,
+            "name": "ROYCE' Chocolate Madison",
+            "rank": 15,
+            "score": -0.3481816351413727,
+            "state": "New_York"
+        },
+        {
+            "address": "Soba Nippon, 19 W 52nd St, New York, NY 10103",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c258f95db49693:0xba82e769aa1481ea",
+            "iid": 18083,
+            "name": "Soba Nippon",
+            "rank": 16,
+            "score": -0.37250450253486633,
+            "state": "New_York"
+        },
+        {
+            "address": "Dainobu, 129 E 47th St, New York, NY 10017",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x89c258fd6efe9809:0xd89feabe5eddfbb9",
+            "iid": 18099,
+            "name": "Dainobu",
+            "rank": 17,
+            "score": -0.41719019412994385,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Shop, 31 W 52nd St, New York, NY 10019",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c258fb057c3f97:0x3f6944ea4cce8333",
+            "iid": 18095,
+            "name": "Sushi Shop",
+            "rank": 18,
+            "score": -0.44221070408821106,
+            "state": "New_York"
+        },
+        {
+            "address": "Sen Sakana, 28 W 44th St, New York, NY 10036",
+            "category": "['Japanese restaurant', 'Peruvian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c258ffe057bf11:0x9fff91fc37007840",
+            "iid": 18113,
+            "name": "Sen Sakana",
+            "rank": 19,
+            "score": -0.4481672942638397,
+            "state": "New_York"
+        },
+        {
+            "address": "Global Kitchen, 1290 6th Ave, New York, NY 10104",
+            "category": "['Fast food restaurant', 'Korean restaurant', 'Mexican restaurant', 'Pasta shop', 'Pizza delivery', 'Restaurant', 'Salad shop', 'Sandwich shop', 'Sushi restaurant']",
+            "gmap_id": "0x89c258f922869ad3:0x2f9eefaa98c89350",
+            "iid": 18081,
+            "name": "Global Kitchen",
+            "rank": 20,
+            "score": -0.4517935514450073,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Keith Jackson",
+        "uid": 133274,
+        "user_id": 118010957561848937641
+    }
+}

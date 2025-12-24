@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Soto South Lamar, 1100 S Lamar Blvd Ste 2115, Austin, TX 78704",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "date": "2018/02/03",
+            "gmap_id": "0x8644b51f67aab5cf:0xa954d06feb8ddd83",
+            "iid": 7645,
+            "name": "Soto South Lamar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1517701625175
+        },
+        {
+            "address": "Kumako Ramen, 211 Jackson St, San Jose, CA 95112",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2018/02/11",
+            "gmap_id": "0x808fcc84ef10e251:0x5d09f70e188c20b7",
+            "iid": 3289,
+            "name": "Kumako Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518318194953
+        },
+        {
+            "address": "Kumako Ramen, 211 Jackson St, San Jose, CA 95112",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2018/02/11",
+            "gmap_id": "0x808fcc84ef10e251:0x5d09f70e188c20b7",
+            "iid": 3289,
+            "name": "Kumako Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1518318194953
+        },
+        {
+            "address": "Angel Fish Japanese Restaurant, 883 Island Dr C-2, Alameda, CA 94502",
+            "category": "['Japanese restaurant']",
+            "date": "2018/03/30",
+            "gmap_id": "0x808f843c3c7e0625:0x4ef366d325032da1",
+            "iid": 2892,
+            "name": "Angel Fish Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522377649396
+        },
+        {
+            "address": "Yoshi's, 510 Embarcadero West, Oakland, CA 94607",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Event venue', 'Jazz club', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/05/04",
+            "gmap_id": "0x808f80c78c8d21c7:0x97d406c1dd46c63e",
+            "iid": 2888,
+            "name": "Yoshi's",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1525440796400
+        },
+        {
+            "address": "Sushi House, 2375 Shore Line Dr, Alameda, CA 94501, United States",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/06/13",
+            "gmap_id": "0x808f86a45a3d7401:0x50ee9025dc45fa4b",
+            "iid": 2899,
+            "name": "Sushi House",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528896443609
+        },
+        {
+            "address": "Aburaya, 362 17th St, Oakland, CA 94612",
+            "category": "['Japanese restaurant', 'Fried chicken takeaway', 'Soul food restaurant']",
+            "date": "2018/11/12",
+            "gmap_id": "0x808f80b395f50cf7:0x5b41ffb720148af5",
+            "iid": 2879,
+            "name": "Aburaya",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542032470952
+        },
+        {
+            "address": "California, San Francisco, Columbus Ave, Kan Ramen\u90ae\u653f\u7f16\u7801: 94133",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/15",
+            "gmap_id": "0x808580f48ec98d03:0x78cd6d05197651ac",
+            "iid": 2472,
+            "name": "Kan Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547560705460
+        },
+        {
+            "address": "Aonami Sushi, 128 W 2nd St, Chico, CA 95928",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/31",
+            "gmap_id": "0x8083270ade871145:0x1724563aa0175e74",
+            "iid": 2079,
+            "name": "Aonami Sushi",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1548944780848
+        },
+        {
+            "address": "Judoku Sushi, 3314 Piedmont Ave, Oakland, CA 94611",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2019/05/07",
+            "gmap_id": "0x808f8755f64b17c1:0xec572f674aca4176",
+            "iid": 2911,
+            "name": "Judoku Sushi",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1557234738200
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Tonli Kitchen, 7011 Sunne Ln #120, Walnut Creek, CA 94597",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x8085610c3acd86b3:0x7e5a3474dad21ff7",
+            "iid": 2183,
+            "name": "Tonli Kitchen",
+            "rank": 1,
+            "score": 0.6444972157478333,
+            "state": "California"
+        },
+        {
+            "address": "Umami, 2909 Webster St, San Francisco, CA 94123",
+            "category": "['Japanese restaurant', 'Gluten-free restaurant', 'Restaurant']",
+            "gmap_id": "0x808580da94be3671:0x1acddd67c599c8d2",
+            "iid": 2450,
+            "name": "Umami",
+            "rank": 2,
+            "score": 0.6250699758529663,
+            "state": "California"
+        },
+        {
+            "address": "Nande-Ya, 1737 Post St, San Francisco, CA 94115",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808580b926521fc9:0x17392818cb3433b2",
+            "iid": 2425,
+            "name": "Nande-Ya",
+            "rank": 3,
+            "score": 0.6250427961349487,
+            "state": "California"
+        },
+        {
+            "address": "Takara, 22 Peace Plaza #505, San Francisco, CA 94115",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808580bec47c4937:0x83856ecc3574e74a",
+            "iid": 2429,
+            "name": "Takara",
+            "rank": 4,
+            "score": 0.6248483657836914,
+            "state": "California"
+        },
+        {
+            "address": "Ozumo SF, 161 Steuart St, San Francisco, CA 94105",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80858065a8da1125:0x1da38cdc39547ca5",
+            "iid": 2323,
+            "name": "Ozumo SF",
+            "rank": 5,
+            "score": 0.6215206980705261,
+            "state": "California"
+        },
+        {
+            "address": "MOMO RAMEN, 6200 Claremont Ave, Oakland, CA 94618",
+            "category": "['Ramen restaurant', 'Chicken shop']",
+            "gmap_id": "0x80857d427349cf7f:0x60366a5507fda806",
+            "iid": 2263,
+            "name": "MOMO RAMEN",
+            "rank": 6,
+            "score": 0.6176587343215942,
+            "state": "California"
+        },
+        {
+            "address": "Mifune Don, 22 Peace Plaza, San Francisco, CA 94115",
+            "category": "['Japanese restaurant', 'Soba noodle shop']",
+            "gmap_id": "0x808580bed702f3dd:0x9cc239ae0db9efee",
+            "iid": 2433,
+            "name": "Mifune Don",
+            "rank": 7,
+            "score": 0.6133002638816833,
+            "state": "California"
+        },
+        {
+            "address": "Poke Fusion, 112 Waverly Pl, San Francisco, CA 94108",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8085808b57547a65:0xe51df937889d212b",
+            "iid": 2352,
+            "name": "Poke Fusion",
+            "rank": 8,
+            "score": 0.612064003944397,
+            "state": "California"
+        },
+        {
+            "address": "Super Mira, 1790 Sutter St, San Francisco, CA 94115",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808580b8ca58c9d1:0x186dae5997ebc1c0",
+            "iid": 2403,
+            "name": "Super Mira",
+            "rank": 9,
+            "score": 0.6103390455245972,
+            "state": "California"
+        },
+        {
+            "address": "P.F. Chang's, 5633 Bay St, Emeryville, CA 94608",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80857e415e221f7f:0x20ef51fb57e77c8b",
+            "iid": 2283,
+            "name": "P.F. Chang's",
+            "rank": 10,
+            "score": 0.6093388199806213,
+            "state": "California"
+        },
+        {
+            "address": "New Oyaji Restaurant, 3123 Clement St #1615, San Francisco, CA 94121",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808587a9c29270bf:0x710124dc751eaad2",
+            "iid": 2557,
+            "name": "New Oyaji Restaurant",
+            "rank": 11,
+            "score": 0.6068722009658813,
+            "state": "California"
+        },
+        {
+            "address": "Takoba SF, 138 Minna, San Francisco, CA 94105",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x8085807d48a8e851:0x2289105f003b7d1c",
+            "iid": 2330,
+            "name": "Takoba SF",
+            "rank": 12,
+            "score": 0.6009442806243896,
+            "state": "California"
+        },
+        {
+            "address": "Common Sage, 1552 Polk St, San Francisco, CA 94109",
+            "category": "['Ramen restaurant', 'Cafe', 'Catering food and drink supplier', 'Coffee shop', 'Japanese restaurant', 'Market', 'Sake brewery', 'Tea house', 'Wine store']",
+            "gmap_id": "0x808580eb25695679:0x9c2ae58ca1909d76",
+            "iid": 2464,
+            "name": "Common Sage",
+            "rank": 13,
+            "score": 0.596959114074707,
+            "state": "California"
+        },
+        {
+            "address": "Mifune Don, 1581 Webster St #100, San Francisco, CA 94115",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808580b8d7c745a3:0xae6d9db664e0698f",
+            "iid": 2416,
+            "name": "Mifune Don",
+            "rank": 14,
+            "score": 0.5931276082992554,
+            "state": "California"
+        },
+        {
+            "address": "Sapporo-Ya Japanese Restaurant, 1581 Webster St, San Francisco, CA 94115",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808580b8e176c767:0x4789879ad5644b6a",
+            "iid": 2419,
+            "name": "Sapporo-Ya Japanese Restaurant",
+            "rank": 15,
+            "score": 0.5900939106941223,
+            "state": "California"
+        },
+        {
+            "address": "Kappa Japanese Restaurant, 1700 Post St, San Francisco, CA 94115",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808580b8d6a89b6b:0x308e0f07dda67c0",
+            "iid": 2410,
+            "name": "Kappa Japanese Restaurant",
+            "rank": 16,
+            "score": 0.5863468647003174,
+            "state": "California"
+        },
+        {
+            "address": "Nobuyuki, 2221 Clement St, San Francisco, CA 94121",
+            "category": "['Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8085870576aa1907:0xc6451cc2004193b4",
+            "iid": 2501,
+            "name": "Nobuyuki",
+            "rank": 17,
+            "score": 0.5851452946662903,
+            "state": "California"
+        },
+        {
+            "address": "Benkyodo Co, 1747 Buchanan St, San Francisco, CA 94115",
+            "category": "['Japanese sweets restaurant', 'Bakery']",
+            "gmap_id": "0x808580b8cc6e52cf:0xc82f94812c54787e",
+            "iid": 2404,
+            "name": "Benkyodo Co",
+            "rank": 18,
+            "score": 0.5842493176460266,
+            "state": "California"
+        },
+        {
+            "address": "The Shota, 115 Sansome St, San Francisco, CA 94104",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8085817985bc3103:0xfa2db915e7305343",
+            "iid": 2485,
+            "name": "The Shota",
+            "rank": 19,
+            "score": 0.583184003829956,
+            "state": "California"
+        },
+        {
+            "address": "Nijiya Market San Francisco Store, 1737 Post St #333, San Francisco, CA 94115",
+            "category": "['Japanese grocery store', 'Asian grocery store', 'Supermarket']",
+            "gmap_id": "0x808580b8d7c745a3:0x3976a08275903f1c",
+            "iid": 2413,
+            "name": "Nijiya Market San Francisco Store",
+            "rank": 20,
+            "score": 0.5810523629188538,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "David Kolonay",
+        "uid": 10368,
+        "user_id": 101401302834324480207
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hokkaido Ramen Santouka Bellevue, #3rd, 103 Bellevue Way NE Suite 3, Bellevue, WA 98004",
+            "category": "['Ramen restaurant']",
+            "date": "2016/08/31",
+            "gmap_id": "0x54906c7ddb72a44d:0x5ecae91a8cb6cb17",
+            "iid": 806,
+            "name": "Hokkaido Ramen Santouka Bellevue",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1472612497321
+        },
+        {
+            "address": "Katsu Burger, 3333 184th St SW, Lynnwood, WA 98037",
+            "category": "['Hamburger restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/02/14",
+            "gmap_id": "0x5490050c19774793:0x4295816aa8b585c9",
+            "iid": 355,
+            "name": "Katsu Burger",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1518579191234
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 575 Bellevue Way NE Space 252, Bellevue, WA 98004",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2018/09/04",
+            "gmap_id": "0x54906c8667753cbf:0x710a5c4475a72a5d",
+            "iid": 809,
+            "name": "Kizuki Ramen & Izakaya",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1536030676789
+        },
+        {
+            "address": "\u301298103 Washington, Seattle, N 39th St, kamonegi",
+            "category": "['Japanese restaurant', 'Restaurant', 'Soba noodle shop']",
+            "date": "2018/10/13",
+            "gmap_id": "0x549014555575792f:0xaf7967773ae43cf4",
+            "iid": 483,
+            "name": "kamonegi",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1539403728779
+        },
+        {
+            "address": "Kona Kitchen - Seattle, 8501 5th Ave NE, Seattle, WA 98115",
+            "category": "['Hawaiian restaurant', 'American restaurant', 'Asian restaurant', 'Family restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/12",
+            "gmap_id": "0x549014092620d14b:0x7ece16998c9d4e7f",
+            "iid": 470,
+            "name": "Kona Kitchen - Seattle",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1541982412587
+        },
+        {
+            "address": "Muto Izakaya, 19505 44th Ave W K, Lynnwood, WA 98036",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Sushi restaurant']",
+            "date": "2019/04/22",
+            "gmap_id": "0x5490054028ded6f7:0xb5f68e1df20d1ca",
+            "iid": 363,
+            "name": "Muto Izakaya",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1555905159367
+        },
+        {
+            "address": "Saburos | Sushi House Restaurant, 1667 SE Bybee Blvd, Portland, OR 97202",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2019/05/14",
+            "gmap_id": "0x54950aea7857a21d:0x9e42cf28463598da",
+            "iid": 1065,
+            "name": "Saburos | Sushi House Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1557806156039
+        },
+        {
+            "address": "Musashi's international district, 512 S King St, Seattle, WA 98104",
+            "category": "['Sushi restaurant']",
+            "date": "2019/09/03",
+            "gmap_id": "0x54906abc8504d25d:0x7cdb7d5fdc4013a9",
+            "iid": 760,
+            "name": "Musashi's international district",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1567480682075
+        },
+        {
+            "address": "Sushi.Com, 430 W Main Ave, Spokane, WA 99201",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/10",
+            "gmap_id": "0x549e186016220493:0x20b67d26b124f25d",
+            "iid": 1382,
+            "name": "Sushi.Com",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1578626305237
+        },
+        {
+            "address": "King of Ramen Spokane, 1601 N Division St, Spokane, WA 99207",
+            "category": "['Ramen restaurant']",
+            "date": "2020/02/29",
+            "gmap_id": "0x549e18efeb66c1bf:0x7123e638dc23fdae",
+            "iid": 1392,
+            "name": "King of Ramen Spokane",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1583014527464
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Menya Musashi Tsukemen & Ramen, 1510 Belmont Ave, Seattle, WA 98122",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54906b9a8eaab02d:0xa0ab806a823031bc",
+            "iid": 793,
+            "name": "Menya Musashi Tsukemen & Ramen",
+            "rank": 1,
+            "score": 0.6579490303993225,
+            "state": "Washington"
+        },
+        {
+            "address": "Izumi, 12539 116th Ave NE, Kirkland, WA 98034",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54900d87b36da23d:0x3553bd3a693d4985",
+            "iid": 415,
+            "name": "Izumi",
+            "rank": 2,
+            "score": 0.6479102969169617,
+            "state": "Washington"
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 319 NE Thornton Pl, Seattle, WA 98125",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x549013ffb52ddd61:0xc74e57fabdc614ae",
+            "iid": 469,
+            "name": "Kizuki Ramen & Izakaya",
+            "rank": 3,
+            "score": 0.6376643180847168,
+            "state": "Washington"
+        },
+        {
+            "address": "ISSIAN, 1618 N 45th St, Seattle, WA 98103",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54901450cd1b4d45:0x453ea9e3c28ff838",
+            "iid": 476,
+            "name": "ISSIAN",
+            "rank": 4,
+            "score": 0.6280984282493591,
+            "state": "Washington"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 14506 NE 20th St #2, Bellevue, WA 98007",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x54906da82aab7a11:0xe1a6be4f7be2657b",
+            "iid": 835,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 5,
+            "score": 0.6212238073348999,
+            "state": "Washington"
+        },
+        {
+            "address": "Nana\u2019s Green Tea, 1007 Stewart St #103, Seattle, WA 98101",
+            "category": "['Japanese sweets restaurant', 'Ice cream shop', 'Authentic Japanese restaurant', 'Japanese curry restaurant', 'Japanese restaurant', 'Tea house']",
+            "gmap_id": "0x5490159756087dbd:0xfcc69e989ac50f1e",
+            "iid": 549,
+            "name": "Nana\u2019s Green Tea",
+            "rank": 6,
+            "score": 0.6153954863548279,
+            "state": "Washington"
+        },
+        {
+            "address": "Tengu Sushi Japanese Restaurant, 311 NE 103rd St, Seattle, WA 98125",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x549013fe2dbb4341:0xc78040436dcb249b",
+            "iid": 468,
+            "name": "Tengu Sushi Japanese Restaurant",
+            "rank": 7,
+            "score": 0.6086829304695129,
+            "state": "Washington"
+        },
+        {
+            "address": "Modern Japanese Cuisine & Desserts, 6108 Phinney Ave N, Seattle, WA 98103",
+            "category": "['Sushi restaurant', 'Bakery', 'Authentic Japanese restaurant', 'Wedding bakery', 'Wholesale bakery']",
+            "gmap_id": "0x54901450cd1b4d45:0xd7b6aad2da820930",
+            "iid": 477,
+            "name": "Modern Japanese Cuisine & Desserts",
+            "rank": 8,
+            "score": 0.6052718162536621,
+            "state": "Washington"
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 14845 Main St, Bellevue, WA 98007",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54906c4a5a128b97:0x237f95e15f689f1b",
+            "iid": 801,
+            "name": "Kizuki Ramen & Izakaya",
+            "rank": 9,
+            "score": 0.6050924062728882,
+            "state": "Washington"
+        },
+        {
+            "address": "Ishoni Yakiniku, 10630 NE 8th St, Bellevue, WA 98004",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54906c8ed2bbf5c5:0x74228ecfcf457c92",
+            "iid": 818,
+            "name": "Ishoni Yakiniku",
+            "rank": 10,
+            "score": 0.5977297425270081,
+            "state": "Washington"
+        },
+        {
+            "address": "Engimono Ramen & Izakaya, 300 NE Northgate Way, Seattle, WA 98125",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x549011c85b049123:0xbecda688c3f9a1fa",
+            "iid": 451,
+            "name": "Engimono Ramen & Izakaya",
+            "rank": 11,
+            "score": 0.5945135951042175,
+            "state": "Washington"
+        },
+        {
+            "address": "Betsutenjin Ramen, 954 E Union St #102, Seattle, WA 98122",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54906acc11ce2721:0xb9282b43d6d7be80",
+            "iid": 771,
+            "name": "Betsutenjin Ramen",
+            "rank": 12,
+            "score": 0.5911450386047363,
+            "state": "Washington"
+        },
+        {
+            "address": "Musashi's, 1400 N 45th St, Seattle, WA 98103",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x5490145125b330a9:0x37e6b707ac51e117",
+            "iid": 480,
+            "name": "Musashi's",
+            "rank": 13,
+            "score": 0.5844526886940002,
+            "state": "Washington"
+        },
+        {
+            "address": "Ginza, 103 102nd Ave SE, Bellevue, WA 98004",
+            "category": "['Japanese restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x54906c7e1140f219:0x5dc4af872a9f288f",
+            "iid": 807,
+            "name": "Ginza",
+            "rank": 14,
+            "score": 0.582270622253418,
+            "state": "Washington"
+        },
+        {
+            "address": "Kiku Sushi, 13112 NE 20th St #200, Bellevue, WA 98005",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54906cfc332a5f1d:0xe9a0ac7bfbad29d4",
+            "iid": 824,
+            "name": "Kiku Sushi",
+            "rank": 15,
+            "score": 0.5815612077713013,
+            "state": "Washington"
+        },
+        {
+            "address": "Ramen Yoshi, 14339 NE 20th St, Bellevue, WA 98007",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x54906da9fea13957:0x293ab14df323db4b",
+            "iid": 836,
+            "name": "Ramen Yoshi",
+            "rank": 16,
+            "score": 0.5761562585830688,
+            "state": "Washington"
+        },
+        {
+            "address": "JINYA Ramen Bar - Bellevue, 15600 NE 8th St Suite 0-11, Bellevue, WA 98008",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x54906dba90c7a437:0xbf7f25a8c028f3d0",
+            "iid": 839,
+            "name": "JINYA Ramen Bar - Bellevue",
+            "rank": 17,
+            "score": 0.5740098357200623,
+            "state": "Washington"
+        },
+        {
+            "address": "Aloha Ramen Japanese Noodle, 3004 NE 127th St, Seattle, WA 98125",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x54901423c9430a99:0x4c4d84689f64bc06",
+            "iid": 472,
+            "name": "Aloha Ramen Japanese Noodle",
+            "rank": 18,
+            "score": 0.5685520172119141,
+            "state": "Washington"
+        },
+        {
+            "address": "Kokkaku, 6904, 2208 N 45th St, Seattle, WA 98103",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Pacific Northwest restaurant (US)']",
+            "gmap_id": "0x54901459bbfe0a1b:0xa6dfbf5efc2d1e87",
+            "iid": 486,
+            "name": "Kokkaku",
+            "rank": 19,
+            "score": 0.5659015774726868,
+            "state": "Washington"
+        },
+        {
+            "address": "Adana, 1449 E Pine St, Seattle, WA 98122",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906ad20e56365d:0x42be954df3437d62",
+            "iid": 785,
+            "name": "Adana",
+            "rank": 20,
+            "score": 0.558863639831543,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Sarah K",
+        "uid": 29258,
+        "user_id": 103967647735744840784
+    }
+}

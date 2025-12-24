@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Uchi, 904 Westheimer Rd Suite A, Houston, TX 77006",
+            "category": "['Japanese restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x8640bf66aaaaaaab:0xba870240e892b2c6",
+            "iid": 7358,
+            "name": "Uchi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506283929146
+        },
+        {
+            "address": "Wild Cajun Crawfish, 6533 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Cajun restaurant', 'Southern restaurant (US)', 'Sushi restaurant']",
+            "date": "2018/03/18",
+            "gmap_id": "0x8640dd2fbfdc5691:0xbbf4225d876a11b",
+            "iid": 7539,
+            "name": "Wild Cajun Crawfish",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1521377174580
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/07",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 7533,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1523125454481
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 11301 Katy Fwy, Houston, TX 77079",
+            "category": "['Yakiniku restaurant', 'Bar', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/10",
+            "gmap_id": "0x8640db41cec74a09:0xb7b32d96b12f0af",
+            "iid": 7517,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541879149302
+        },
+        {
+            "address": "Sushi Choo Choo, 12149 FM 1960, Houston, TX 77065",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/12/09",
+            "gmap_id": "0x8640d1a1efa37c6d:0x2c0a9e3cc0485bf6",
+            "iid": 7492,
+            "name": "Sushi Choo Choo",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1544323444205
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/19",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 7520,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545182851646
+        },
+        {
+            "address": "Marukame Udon, 1104 Fort Street Mall, Honolulu, HI 96813",
+            "category": "['Udon noodle restaurant', 'Japanese restaurant', 'Restaurant', 'Tempura restaurant']",
+            "date": "2019/06/09",
+            "gmap_id": "0x7c006e745ec4428d:0x1efe275b56b64276",
+            "iid": 1969,
+            "name": "Marukame Udon",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1560040473905
+        },
+        {
+            "address": "Sushi II, 655 Ke\u2019eaumoku St #109, Honolulu, HI 96814",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/20",
+            "gmap_id": "0x7c006dee4877850d:0xb7945e64df5f8a02",
+            "iid": 1902,
+            "name": "Sushi II",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1561060272336
+        },
+        {
+            "address": "JINYA Ramen Bar - Cypress, 11930 Barker Cypress Rd Suite 100, Cypress, TX 77433",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/07/21",
+            "gmap_id": "0x8640d56b7112afa7:0x3a6f39ec4d5ae381",
+            "iid": 7502,
+            "name": "JINYA Ramen Bar - Cypress",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1563751013032
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 7748 Cypress Creek Pkwy suite a, Houston, TX 77070",
+            "category": "['Yakiniku restaurant', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x8640cd1ef5a61021:0x6e0a2ec9a77de1ca",
+            "iid": 7475,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1616895129686
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "OKIROKI SUSHI WINGS, 349 W Mariposa Rd, Nogales, AZ 85621",
+            "category": "['Sushi restaurant', 'Sports bar']",
+            "gmap_id": "0x86d6ada5830602c5:0x74c1905faa6574a0",
+            "iid": 8647,
+            "name": "OKIROKI SUSHI WINGS",
+            "rank": 1,
+            "score": -412.4614562988281,
+            "state": "Arizona"
+        },
+        {
+            "address": "Hana Tokyo, 1633 AZ-92, Sierra Vista, AZ 85635",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86d7293faff5d19d:0x9d516ebae37df517",
+            "iid": 8649,
+            "name": "Hana Tokyo",
+            "rank": 2,
+            "score": -439.3985900878906,
+            "state": "Arizona"
+        },
+        {
+            "address": "Bunbuku Restaurant, 297 W Fry Blvd, Sierra Vista, AZ 85635",
+            "category": "['Korean restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x86d7284b74092b11:0x5f41075cca446eeb",
+            "iid": 8648,
+            "name": "Bunbuku Restaurant",
+            "rank": 3,
+            "score": -440.3222961425781,
+            "state": "Arizona"
+        },
+        {
+            "address": "Tanuki Sushi Bar & Garden, 1221 E Fry Blvd, Sierra Vista, AZ 85635",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x86d729aad51b1583:0x82797a02c8b16e48",
+            "iid": 8650,
+            "name": "Tanuki Sushi Bar & Garden",
+            "rank": 4,
+            "score": -440.6325378417969,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi Lin Japanese Restaurant, 1295 W Duval Mine Rd STE 151, Green Valley, AZ 85614",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d6852a017ecbf5:0x983c0c44175623f3",
+            "iid": 8646,
+            "name": "Sushi Lin Japanese Restaurant",
+            "rank": 5,
+            "score": -471.83349609375,
+            "state": "Arizona"
+        },
+        {
+            "address": "Ume Asian and Sushi, 5655 W Valencia Rd, Tucson, AZ 85757",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d67871465c456d:0xfb25bbfa89331985",
+            "iid": 8641,
+            "name": "Ume Asian and Sushi",
+            "rank": 6,
+            "score": -497.1501770019531,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sachiko Sushi, 3210 E Valencia Rd, Tucson, AZ 85706",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d67b232e0fbe0f:0x1adf88590b05da63",
+            "iid": 8645,
+            "name": "Sachiko Sushi",
+            "rank": 7,
+            "score": -497.79248046875,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi-kito Restaurantestaurant, 5650 S 12th Ave, Tucson, AZ 85706",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d67a3922e9a5f7:0x5c2220c7707d2fe4",
+            "iid": 8643,
+            "name": "Sushi-kito Restaurantestaurant",
+            "rank": 8,
+            "score": -499.3992004394531,
+            "state": "Arizona"
+        },
+        {
+            "address": "Hana Tokyo, 5435 S Calle Santa Cruz #185, Tucson, AZ 85706",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x86d67a224884401b:0x23c1529a142f0d76",
+            "iid": 8642,
+            "name": "Hana Tokyo",
+            "rank": 9,
+            "score": -499.68804931640625,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi Lounge, 4802 S 6th Ave, Tucson, AZ 85714",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x86d67a6ea0b798e1:0x87ff3c799bb87b80",
+            "iid": 8644,
+            "name": "Sushi Lounge",
+            "rank": 10,
+            "score": -501.1036376953125,
+            "state": "Arizona"
+        },
+        {
+            "address": "Great Wall of China, 2445 S Craycroft Rd, Tucson, AZ 85711",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x86d665619624943b:0x91a603af40fc8b6f",
+            "iid": 8600,
+            "name": "Great Wall of China",
+            "rank": 11,
+            "score": -504.73126220703125,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi To Go And More, 7755 E Golf Links Rd #107, Tucson, AZ 85730",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d665ed94e90cb7:0xfaccb6a10c83fba1",
+            "iid": 8601,
+            "name": "Sushi To Go And More",
+            "rank": 12,
+            "score": -504.777587890625,
+            "state": "Arizona"
+        },
+        {
+            "address": "MiAn Sushi & Modern Asian Cuisine, 88 E Broadway Blvd, Tucson, AZ 85701",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x86d670e1839a2393:0x12a2453c3d894b99",
+            "iid": 8617,
+            "name": "MiAn Sushi & Modern Asian Cuisine",
+            "rank": 13,
+            "score": -507.3262634277344,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi-Cho Restaurant, 1830 E Broadway Blvd, Tucson, AZ 85719",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d67056b29f56db:0x938b3af6b4599e67",
+            "iid": 8616,
+            "name": "Sushi-Cho Restaurant",
+            "rank": 14,
+            "score": -507.3760986328125,
+            "state": "Arizona"
+        },
+        {
+            "address": "OBON Sushi Bar Ramen, 350 E Congress St, Tucson, AZ 85701",
+            "category": "['Restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x86d670e250b9ada9:0x6251825d3a19594f",
+            "iid": 8618,
+            "name": "OBON Sushi Bar Ramen",
+            "rank": 15,
+            "score": -507.45025634765625,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi Garden - Broadway, 3048 E Broadway Blvd, Tucson, AZ 85716",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d67025dd80035b:0xcbe6a35340a64f94",
+            "iid": 8615,
+            "name": "Sushi Garden - Broadway",
+            "rank": 16,
+            "score": -507.5049743652344,
+            "state": "Arizona"
+        },
+        {
+            "address": "Fresh Sushi Pho, 7159 E Broadway Blvd, Tucson, AZ 85710",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x86d66f6c57b042a3:0x635a3eb10e5d3761",
+            "iid": 8609,
+            "name": "Fresh Sushi Pho",
+            "rank": 17,
+            "score": -507.987060546875,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi Nara, 64 N Harrison Rd, Tucson, AZ 85748",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x86d668bcc86a8abd:0x1735a0665765be6a",
+            "iid": 8602,
+            "name": "Sushi Nara",
+            "rank": 18,
+            "score": -508.3171081542969,
+            "state": "Arizona"
+        },
+        {
+            "address": "Fuku Sushi, 940 E University Blvd, Tucson, AZ 85719",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x86d671040556ba97:0xb0cf95e80bd1a004",
+            "iid": 8619,
+            "name": "Fuku Sushi",
+            "rank": 19,
+            "score": -508.5355529785156,
+            "state": "Arizona"
+        },
+        {
+            "address": "Raijin Ramen, 2955 E Speedway Blvd, Tucson, AZ 85716",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x86d671b6729714dd:0xabb4fbef74123fd",
+            "iid": 8621,
+            "name": "Raijin Ramen",
+            "rank": 20,
+            "score": -509.18548583984375,
+            "state": "Arizona"
+        }
+    ],
+    "user": {
+        "name": "Jeslyn Tran",
+        "uid": 119185,
+        "user_id": 116093281311797937164
+    }
+}

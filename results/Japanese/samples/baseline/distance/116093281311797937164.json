@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Uchi, 904 Westheimer Rd Suite A, Houston, TX 77006",
+            "category": "['Japanese restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x8640bf66aaaaaaab:0xba870240e892b2c6",
+            "iid": 7358,
+            "name": "Uchi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506283929146
+        },
+        {
+            "address": "Wild Cajun Crawfish, 6533 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Cajun restaurant', 'Southern restaurant (US)', 'Sushi restaurant']",
+            "date": "2018/03/18",
+            "gmap_id": "0x8640dd2fbfdc5691:0xbbf4225d876a11b",
+            "iid": 7539,
+            "name": "Wild Cajun Crawfish",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1521377174580
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/07",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 7533,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1523125454481
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 11301 Katy Fwy, Houston, TX 77079",
+            "category": "['Yakiniku restaurant', 'Bar', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/10",
+            "gmap_id": "0x8640db41cec74a09:0xb7b32d96b12f0af",
+            "iid": 7517,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541879149302
+        },
+        {
+            "address": "Sushi Choo Choo, 12149 FM 1960, Houston, TX 77065",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/12/09",
+            "gmap_id": "0x8640d1a1efa37c6d:0x2c0a9e3cc0485bf6",
+            "iid": 7492,
+            "name": "Sushi Choo Choo",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1544323444205
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/19",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 7520,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545182851646
+        },
+        {
+            "address": "Marukame Udon, 1104 Fort Street Mall, Honolulu, HI 96813",
+            "category": "['Udon noodle restaurant', 'Japanese restaurant', 'Restaurant', 'Tempura restaurant']",
+            "date": "2019/06/09",
+            "gmap_id": "0x7c006e745ec4428d:0x1efe275b56b64276",
+            "iid": 1969,
+            "name": "Marukame Udon",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1560040473905
+        },
+        {
+            "address": "Sushi II, 655 Ke\u2019eaumoku St #109, Honolulu, HI 96814",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/20",
+            "gmap_id": "0x7c006dee4877850d:0xb7945e64df5f8a02",
+            "iid": 1902,
+            "name": "Sushi II",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1561060272336
+        },
+        {
+            "address": "JINYA Ramen Bar - Cypress, 11930 Barker Cypress Rd Suite 100, Cypress, TX 77433",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/07/21",
+            "gmap_id": "0x8640d56b7112afa7:0x3a6f39ec4d5ae381",
+            "iid": 7502,
+            "name": "JINYA Ramen Bar - Cypress",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1563751013032
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 7748 Cypress Creek Pkwy suite a, Houston, TX 77070",
+            "category": "['Yakiniku restaurant', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x8640cd1ef5a61021:0x6e0a2ec9a77de1ca",
+            "iid": 7475,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1616895129686
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Han no Daidokoro, 1108 Auahi St #150, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006dc74eaa1c6d:0xe43bfe063dc1fab5",
+            "iid": 1869,
+            "name": "Han no Daidokoro",
+            "rank": 1,
+            "score": -1.7972345352172852,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Higoto Japanese Eatery, 3221 Waialae Ave Ste A4, Honolulu, HI 96816",
+            "category": "['Takeout Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006d750255a40b:0x5a72e387a1b66f20",
+            "iid": 1815,
+            "name": "Higoto Japanese Eatery",
+            "rank": 2,
+            "score": -2.023352861404419,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Matsuzaka-Tei, 328 Kalihi St, Honolulu, HI 96819",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006f9ab1ed940b:0x49f9f2e53dc1da9c",
+            "iid": 1992,
+            "name": "Matsuzaka-Tei",
+            "rank": 3,
+            "score": -2.061675786972046,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Rantei Japanese Cuisine, 1271 Franklin Mall, Santa Clara, CA 95050",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fcbe4ecd2c325:0x1282199f5d43399b",
+            "iid": 3277,
+            "name": "Rantei Japanese Cuisine",
+            "rank": 4,
+            "score": -2.1424174308776855,
+            "state": "California"
+        },
+        {
+            "address": "ZEN Japanese Grill & Sushi Bistro, 1703 N Causeway Blvd Ste A, Mandeville, LA 70471",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86275bdb28be0bd7:0x25e1fb514bfb29",
+            "iid": 7151,
+            "name": "ZEN Japanese Grill & Sushi Bistro",
+            "rank": 5,
+            "score": -2.1507680416107178,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Daigo Sushi Roll Bar, 527 Carroll St, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c25b0fe7bea7e1:0xf02d1650e1e8923b",
+            "iid": 18707,
+            "name": "Daigo Sushi Roll Bar",
+            "rank": 6,
+            "score": -2.1652698516845703,
+            "state": "New_York"
+        },
+        {
+            "address": "MJ Sushi, 6068 Stevenson Blvd, Fremont, CA 94538",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808fc735dc8e5163:0xc347bf3f2a90e1b3",
+            "iid": 3205,
+            "name": "MJ Sushi",
+            "rank": 7,
+            "score": -2.170464277267456,
+            "state": "California"
+        },
+        {
+            "address": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR, 227 Parkingway, Quincy, MA 02169",
+            "category": "['Hot pot restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e37db2261101f9:0x469b051bcb527420",
+            "iid": 21099,
+            "name": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR",
+            "rank": 8,
+            "score": -2.1744000911712646,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sakura #16, 235 Market St, Winchester, VA 22603",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x89b5f10a19edcde5:0x5a8a8da79f58f868",
+            "iid": 16879,
+            "name": "Sakura #16",
+            "rank": 9,
+            "score": -2.1745362281799316,
+            "state": "Virginia"
+        },
+        {
+            "address": "Sushi Enya Beverly Hills, 480 S San Vicente Blvd, Los Angeles, CA 90048",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b9dd3e58da15:0xc96ba51c4fd2b4b5",
+            "iid": 4282,
+            "name": "Sushi Enya Beverly Hills",
+            "rank": 10,
+            "score": -2.1746716499328613,
+            "state": "California"
+        },
+        {
+            "address": "Top Sushi, 8851 Metropark Dr #100, Shenandoah, TX 77385",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864737b8fea0876b:0xe9a3662023764fcf",
+            "iid": 7816,
+            "name": "Top Sushi",
+            "rank": 11,
+            "score": -2.175666570663452,
+            "state": "Texas"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 13141,
+            "name": "Aki Japanese Cuisine",
+            "rank": 12,
+            "score": -2.1768171787261963,
+            "state": "Alabama"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 13996,
+            "name": "KELP SUSHI JOINT",
+            "rank": 13,
+            "score": -2.177105665206909,
+            "state": "Florida"
+        },
+        {
+            "address": "Hidden Omakase, 5353 W Alabama St #102, Houston, TX 77056",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8640c1917dbafd5b:0x4486b7c4f5e946a9",
+            "iid": 7410,
+            "name": "Hidden Omakase",
+            "rank": 14,
+            "score": -2.1780593395233154,
+            "state": "Texas"
+        },
+        {
+            "address": "Yami Boba Sushi & Bento, 18052 FM 529 Rd, Cypress, TX 77433",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8640d75c5d8f3d3b:0x9c755ea903c5ddd4",
+            "iid": 7511,
+            "name": "Yami Boba Sushi & Bento",
+            "rank": 15,
+            "score": -2.1785547733306885,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 5092,
+            "name": "Sushi One Spot",
+            "rank": 16,
+            "score": -2.179271697998047,
+            "state": "California"
+        },
+        {
+            "address": "Mitate, 3612 SE 82nd Ave, Portland, OR 97266",
+            "category": "['Sushi takeaway']",
+            "gmap_id": "0x5495a10041e363df:0x5e98420869eaefbd",
+            "iid": 1243,
+            "name": "Mitate",
+            "rank": 17,
+            "score": -2.1803736686706543,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chef Katsu Brooklyn, 143 Greene Ave, Brooklyn, NY 11238",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c25bd4cc9f40b7:0x235c16671831acdc",
+            "iid": 18773,
+            "name": "Chef Katsu Brooklyn",
+            "rank": 18,
+            "score": -2.180466651916504,
+            "state": "New_York"
+        },
+        {
+            "address": "Yakuza House, 1325 Veterans Memorial Blvd STE A, Metairie, LA 70005",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8620af787063e9dd:0xf184b6b82a89db6f",
+            "iid": 7013,
+            "name": "Yakuza House",
+            "rank": 19,
+            "score": -2.18206787109375,
+            "state": "Louisiana"
+        },
+        {
+            "address": "RamenYa, 7938 Crain Hwy S, Glen Burnie, MD 21061",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7fd4f0cb2fd15:0x67cb8646ed7a7c7f",
+            "iid": 17408,
+            "name": "RamenYa",
+            "rank": 20,
+            "score": -2.182126522064209,
+            "state": "Maryland"
+        }
+    ],
+    "user": {
+        "name": "Jeslyn Tran",
+        "uid": 119185,
+        "user_id": 116093281311797937164
+    }
+}

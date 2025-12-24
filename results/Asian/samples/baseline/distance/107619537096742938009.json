@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Shin-Sen-Gumi \u2013 Irvine, 6404 Irvine Blvd, Irvine, CA 92620",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Ramen restaurant', 'Restaurant', 'Udon noodle restaurant']",
+            "date": "2017/12/31",
+            "gmap_id": "0x80dcdcd5862d7969:0x1aabeaea52fc0df5",
+            "iid": 19620,
+            "name": "Shin-Sen-Gumi \u2013 Irvine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514761824263
+        },
+        {
+            "address": "Pho Kim Kim, 1029, 1020 Hwy 6 N Suite, Houston, TX 77079",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/03/05",
+            "gmap_id": "0x8640dbfdac9c4edb:0xae381e03aa700993",
+            "iid": 23759,
+            "name": "Pho Kim Kim",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1520284751386
+        },
+        {
+            "address": "Sichuan Impression, 13816 Red Hill Ave, Tustin, CA 92780",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "date": "2018/07/16",
+            "gmap_id": "0x80dcdbec241a8ca3:0xe0a3bb61569b7cbb",
+            "iid": 19567,
+            "name": "Sichuan Impression",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531706965186
+        },
+        {
+            "address": "Izakaya-Wa, 12665 Memorial Dr, Houston, TX 77024",
+            "category": "['Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2018/08/02",
+            "gmap_id": "0x8640c4aa513b1f8d:0xe8b40aaaa8847443",
+            "iid": 23364,
+            "name": "Izakaya-Wa",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533174344223
+        },
+        {
+            "address": "Pho Saigon, 2553 Gessner Rd, Houston, TX 77080",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x8640c523faaa15cd:0x4d61c46a82e460de",
+            "iid": 23407,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1534988492495
+        },
+        {
+            "address": "Tamashi, 1106 Silber Rd d1, Houston, TX 77055, United States",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/08/24",
+            "gmap_id": "0x8640c6a33468331f:0x87162141515fb61f",
+            "iid": 23436,
+            "name": "Tamashi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535074501039
+        },
+        {
+            "address": "Mikoto Ramen & Sushi Bar, 12155 Katy Fwy, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2018/08/31",
+            "gmap_id": "0x8640db7455ea5673:0xf6f77244c5a04d1",
+            "iid": 23744,
+            "name": "Mikoto Ramen & Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535726506209
+        },
+        {
+            "address": "Ginger Thai Cuisine, 303 Grasshopper Ln, Houston, TX 77079",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Seafood restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640dbe066732b47:0x2ae8a1b4537c7913",
+            "iid": 23756,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536200498471
+        },
+        {
+            "address": "Pho Oceanside, 518 Oceanside Blvd, Oceanside, CA 92054",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/10/01",
+            "gmap_id": "0x80dc6e19183d5423:0xc1c117640bbbb426",
+            "iid": 18792,
+            "name": "Pho Oceanside",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1538436342668
+        },
+        {
+            "address": "Torihei Yakitori Robata Dining, 1757 W Carson St Ste A, Torrance, CA 90501",
+            "category": "['Yakitori restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/22",
+            "gmap_id": "0x80dd4aa4cbe26543:0x9cccbcd21c393524",
+            "iid": 21109,
+            "name": "Torihei Yakitori Robata Dining",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1561229059586
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "komeya sushi & ramen, 25114 Grogans Mill Rd STE A, Spring, TX 77380",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8647350960e1c7eb:0xbd565f71f3862038",
+            "iid": 24891,
+            "name": "komeya sushi & ramen",
+            "rank": 1,
+            "score": -2.1161789894104004,
+            "state": "Texas"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 2,
+            "score": -2.1388978958129883,
+            "state": "Nevada"
+        },
+        {
+            "address": "Japan House, 324 Long Hollow Pike #201, Goodlettsville, TN 37072",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x886445dedf27abd9:0xdb17a61e1bc3644b",
+            "iid": 44400,
+            "name": "Japan House",
+            "rank": 3,
+            "score": -2.1528196334838867,
+            "state": "Tennessee"
+        },
+        {
+            "address": "RAJ EXPRESS INDIAN KITCHEN, 11721 College Blvd, Overland Park, KS 66210",
+            "category": "['North Eastern Indian restaurant', 'Ethnic restaurant', 'Health food restaurant', 'Indian restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x87c0eb1bd08a7739:0xc8a67a8ce18b3fa7",
+            "iid": 33066,
+            "name": "RAJ EXPRESS INDIAN KITCHEN",
+            "rank": 4,
+            "score": -2.1553099155426025,
+            "state": "Kansas"
+        },
+        {
+            "address": "Spicy Girl, 5748 International Dr, Orlando, FL 32819",
+            "category": "['Chinese restaurant', 'Delivery Chinese restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x88e77f4c90479db9:0x7538bf4ef2014063",
+            "iid": 50578,
+            "name": "Spicy Girl",
+            "rank": 5,
+            "score": -2.1615493297576904,
+            "state": "Florida"
+        },
+        {
+            "address": "Viet-Thai, 8451 Davis Lake Pkwy, Charlotte, NC 28269",
+            "category": "['Pho restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8856a78c93df353b:0x97e16cf253b266d1",
+            "iid": 43342,
+            "name": "Viet-Thai",
+            "rank": 6,
+            "score": -2.162245988845825,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "GK MONGOLIAN BBQ, 2314 W Kettleman Ln STE 103, Lodi, CA 95242",
+            "category": "['Mongolian barbecue restaurant', 'Barbecue restaurant', 'Chinese restaurant', 'Delivery Chinese restaurant']",
+            "gmap_id": "0x809aa1c248beca1b:0x5d55265cd68ca5c7",
+            "iid": 12176,
+            "name": "GK MONGOLIAN BBQ",
+            "rank": 7,
+            "score": -2.1640727519989014,
+            "state": "California"
+        },
+        {
+            "address": "Jollibee, 5520 Stockdale Hwy, Bakersfield, CA 93309",
+            "category": "['Chicken restaurant', 'Family restaurant', 'Filipino restaurant', 'Hamburger restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80ea419e85c847d1:0x970376624ed555a2",
+            "iid": 21539,
+            "name": "Jollibee",
+            "rank": 8,
+            "score": -2.1643805503845215,
+            "state": "California"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 9,
+            "score": -2.166828155517578,
+            "state": "Florida"
+        },
+        {
+            "address": "Korean Mammas Cooking, 3624 Sonoma Blvd, Vallejo, CA 94590",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x808573f0627c36f9:0x5da98fe56cc155cd",
+            "iid": 7177,
+            "name": "Korean Mammas Cooking",
+            "rank": 10,
+            "score": -2.1677587032318115,
+            "state": "California"
+        },
+        {
+            "address": "W & Z Asian bistro & sushi bar, 203 East, AZ-260, Payson, AZ 85541",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x872c11fd058f1093:0x55159130f6ee2ad0",
+            "iid": 29756,
+            "name": "W & Z Asian bistro & sushi bar",
+            "rank": 11,
+            "score": -2.1683566570281982,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi House and Asian Cuisine, 2682 High Commons Way, West Valley City, UT 84120",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8752f3b42fea5d6f:0x4ee3e86117d85c6e",
+            "iid": 30399,
+            "name": "Sushi House and Asian Cuisine",
+            "rank": 12,
+            "score": -2.171383857727051,
+            "state": "Utah"
+        },
+        {
+            "address": "Kazoku Hibachi Express, 171 John McGhee Blvd, Caryville, TN 37714",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x885c4df176118fc3:0xc31b04f4846ce626",
+            "iid": 43979,
+            "name": "Kazoku Hibachi Express",
+            "rank": 13,
+            "score": -2.1716504096984863,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Pho 88, 578 W Northfield Dr, Brownsburg, IN 46112",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x886cadcf2de8dc5f:0xa6be848f3b78c8fb",
+            "iid": 45270,
+            "name": "Pho 88",
+            "rank": 14,
+            "score": -2.172085762023926,
+            "state": "Indiana"
+        },
+        {
+            "address": "Pho Waipahu, 94-300 Farrington Hwy #C02, Waipahu, HI 96797",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c00653b3e6d1027:0xacc7c13f6e54b90",
+            "iid": 6056,
+            "name": "Pho Waipahu",
+            "rank": 15,
+            "score": -2.1742472648620605,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Teriyaki Madness, 6409 Grand Ave Unit B1, Gurnee, IL 60031",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x880f8f2d3efc9b33:0x475966cd277b5021",
+            "iid": 37005,
+            "name": "Teriyaki Madness",
+            "rank": 16,
+            "score": -2.174875259399414,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sangam Supermarket, 17685 TX-249, Houston, TX 77064",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x8640cda87704b363:0x1914a4a14bc4b4c",
+            "iid": 23539,
+            "name": "Sangam Supermarket",
+            "rank": 17,
+            "score": -2.176196336746216,
+            "state": "Texas"
+        },
+        {
+            "address": "Yogi Korean Restaurant, 608 E Green St, Champaign, IL 61820",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x880cd7560b57c211:0xb804c8a274f67128",
+            "iid": 36012,
+            "name": "Yogi Korean Restaurant",
+            "rank": 18,
+            "score": -2.176466226577759,
+            "state": "Illinois"
+        },
+        {
+            "address": "King's Kitchen, 440 State St, Salem, OR 97301",
+            "category": "['Southeast Asian restaurant', 'Cambodian restaurant', 'Laotian restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x54bfffec963b2425:0xf22f9e46fa7a0131",
+            "iid": 5253,
+            "name": "King's Kitchen",
+            "rank": 19,
+            "score": -2.176603078842163,
+            "state": "Oregon"
+        },
+        {
+            "address": "JINYA Ramen Bar - Eastvale, 12768 Limonite Ave, Eastvale, CA 92880",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80dccb87dd20cbfb:0x9f057d329f897298",
+            "iid": 19217,
+            "name": "JINYA Ramen Bar - Eastvale",
+            "rank": 20,
+            "score": -2.176744222640991,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Mingte Kao",
+        "uid": 227653,
+        "user_id": 107619537096742938009
+    }
+}

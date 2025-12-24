@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Japonais by Morimoto, 600 W Chicago Ave, Chicago, IL 60654",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2012/01/18",
+            "gmap_id": "0x880fd3349c9527a5:0xf53ad5e279b21404",
+            "iid": 11388,
+            "name": "Japonais by Morimoto",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1326855134568
+        },
+        {
+            "address": "Robongi Hoboken, 520 Washington St, Hoboken, NJ 07030",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2016/04/09",
+            "gmap_id": "0x89c259dff3955efd:0xab3013b84a501d8a",
+            "iid": 18588,
+            "name": "Robongi Hoboken",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1460241276379
+        },
+        {
+            "address": "Zuma, 261 Madison Ave, New York, NY 10016",
+            "category": "['Japanese restaurant']",
+            "date": "2016/05/03",
+            "gmap_id": "0x89c25900da7d168f:0x9f06dc02dfbacf06",
+            "iid": 18118,
+            "name": "Zuma",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462236872551
+        },
+        {
+            "address": "sushiDOKKU / BOOZE BOX, 823 W Randolph St, Chicago, IL 60607",
+            "category": "['Sushi restaurant', 'Lounge']",
+            "date": "2016/05/19",
+            "gmap_id": "0x880e2cdacc755c6b:0xd892b76eb188a559",
+            "iid": 10903,
+            "name": "sushiDOKKU / BOOZE BOX",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1463695647354
+        },
+        {
+            "address": "Red Lantern Restaurant & Lounge, 39 Stanhope St, Boston, MA 02116",
+            "category": "['Asian restaurant', 'Lounge', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/03",
+            "gmap_id": "0x89e37a733255f1e3:0xf61f00a1028c9602",
+            "iid": 21063,
+            "name": "Red Lantern Restaurant & Lounge",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1464915624761
+        },
+        {
+            "address": "Ogawashi, 1100 Fifth Ave, San Diego, CA 92101",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/04",
+            "gmap_id": "0x80d954a7c7f8ec7d:0x4fc70275c6e92613",
+            "iid": 5561,
+            "name": "Ogawashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1465079041772
+        },
+        {
+            "address": "Oishii Boston, 1166 Washington St, Boston, MA 02118",
+            "category": "['Authentic Japanese restaurant']",
+            "date": "2016/08/17",
+            "gmap_id": "0x89e37a6e6d403195:0xc727e893746649cf",
+            "iid": 21061,
+            "name": "Oishii Boston",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1471438497848
+        },
+        {
+            "address": "Roka Akor - San Francisco, 801 Montgomery St, San Francisco, CA 94133",
+            "category": "['Japanese restaurant']",
+            "date": "2016/10/08",
+            "gmap_id": "0x808581281ce6ce4b:0xbe12a60aff36f188",
+            "iid": 2475,
+            "name": "Roka Akor - San Francisco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1475896315452
+        },
+        {
+            "address": "Hatsuhana Sushi Restaurant, 17 E 48th St, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2016/12/21",
+            "gmap_id": "0x89c258fc2af38ec3:0x2a73e292b7593d80",
+            "iid": 18097,
+            "name": "Hatsuhana Sushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1482286742951
+        },
+        {
+            "address": "Sushi Rock Las Olas, 1515 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/01/14",
+            "gmap_id": "0x88d9004eec327681:0x78bf3d046ba0e56b",
+            "iid": 14333,
+            "name": "Sushi Rock Las Olas",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1484413289036
+        },
+        {
+            "address": "Hiro Sushi, 9958 Midlothian Turnpike, Richmond, VA 23235",
+            "category": "['Sushi restaurant']",
+            "date": "2020/07/04",
+            "gmap_id": "0x89b16d43f8f2f601:0xfdae725165a2052e",
+            "iid": 16807,
+            "name": "Hiro Sushi",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1593826645033
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "JINYA Ramen Bar - Chandler, 130 S Arizona Ave #1, Chandler, AZ 85225",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x872babfaf945b035:0xc2362c5faf806d72",
+            "iid": 9194,
+            "name": "JINYA Ramen Bar - Chandler",
+            "rank": 1,
+            "score": -1.8641694784164429,
+            "state": "Arizona"
+        },
+        {
+            "address": "Issho sushi and steakhouse, 216 Pottstown Pike, Exton, PA 19341",
+            "category": "['Restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x89c6f521b7cf9125:0x62cacb7ca2e4b6e7",
+            "iid": 20264,
+            "name": "Issho sushi and steakhouse",
+            "rank": 2,
+            "score": -1.8642263412475586,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kissho Sushi, 1425 George Ferris Drive M-181, Sparks, NV 89434",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80993f38ba5376b5:0xb810a0ee095c8d25",
+            "iid": 3539,
+            "name": "Kissho Sushi",
+            "rank": 3,
+            "score": -1.8643996715545654,
+            "state": "Nevada"
+        },
+        {
+            "address": "Captain Hook's | Best Sushi, Best Pho, Best Thai, Sushi/Pho/Thai Cape Coral, 2612 Santa Barbara Blvd Ste. 12-13, Cape Coral, FL 33914",
+            "category": "['Restaurant', 'Pho restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88db47e53a3a3cdd:0xcb8b1298ce87fa64",
+            "iid": 14956,
+            "name": "Captain Hook's | Best Sushi, Best Pho, Best Thai, Sushi/Pho/Thai Cape Coral",
+            "rank": 4,
+            "score": -1.8644537925720215,
+            "state": "Florida"
+        },
+        {
+            "address": "Kotsu Ramen & Gyoza, 9359 Central Ave #C, Montclair, CA 91763",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80c33173381bea19:0x178148e70d791319",
+            "iid": 5085,
+            "name": "Kotsu Ramen & Gyoza",
+            "rank": 5,
+            "score": -1.8645099401474,
+            "state": "California"
+        },
+        {
+            "address": "Miyake Sushi, 8419 S 73rd Plaza #105, Papillion, NE 68046",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87938be5ba0dc461:0xdce323325aa1e8f8",
+            "iid": 9876,
+            "name": "Miyake Sushi",
+            "rank": 6,
+            "score": -1.8646364212036133,
+            "state": "Nebraska"
+        },
+        {
+            "address": "Kazan BBQ, Ramen, & Bar, 1 Crossgates Mall Rd, Albany, NY 12203",
+            "category": "['Ramen restaurant', 'Bar', 'BBQ area', 'Japanese steakhouse']",
+            "gmap_id": "0x89de7531f774e0e7:0xcc7623e30e4cf76d",
+            "iid": 20763,
+            "name": "Kazan BBQ, Ramen, & Bar",
+            "rank": 7,
+            "score": -1.8648674488067627,
+            "state": "New_York"
+        },
+        {
+            "address": "Jo Jo Japanese Hibachi & Sushi, 7409 Kingery Hwy, Willowbrook, IL 60527",
+            "category": "['Authentic Japanese restaurant']",
+            "gmap_id": "0x880e4f5c8084b441:0x146951f799db0469",
+            "iid": 10984,
+            "name": "Jo Jo Japanese Hibachi & Sushi",
+            "rank": 8,
+            "score": -1.8648818731307983,
+            "state": "Illinois"
+        },
+        {
+            "address": "2nd South Market, 210 2nd Ave S, Twin Falls, ID 83301",
+            "category": "['Restaurant', 'Barbecue restaurant', 'Beer hall', 'Coffee shop', 'Family restaurant', 'Ice cream shop', 'Live music venue', 'Mexican restaurant', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54aca32d5bff417b:0xf45d648dc1606903",
+            "iid": 1418,
+            "name": "2nd South Market",
+            "rank": 9,
+            "score": -1.8650490045547485,
+            "state": "Idaho"
+        },
+        {
+            "address": "On Demand Sushi, 5660 S Hualapai Way #105, Las Vegas, NV 89148",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8b8b99d17fe13:0x93aae06a8b41dc60",
+            "iid": 5200,
+            "name": "On Demand Sushi",
+            "rank": 10,
+            "score": -1.8650745153427124,
+            "state": "Nevada"
+        },
+        {
+            "address": "Trapper's Sushi, 10321 W McDowell Rd Suite A-101, Avondale, AZ 85392",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x872b3f1ab956fb3f:0xcf6cc3dfc2edaa50",
+            "iid": 9047,
+            "name": "Trapper's Sushi",
+            "rank": 11,
+            "score": -1.8651211261749268,
+            "state": "Arizona"
+        },
+        {
+            "address": "Volcano Sushi Bar & Hibachi, 5612 W Memorial Rd, Oklahoma City, OK 73142",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87b203ae8e8c0c5d:0x4ceb0b16cbafc6fb",
+            "iid": 9950,
+            "name": "Volcano Sushi Bar & Hibachi",
+            "rank": 12,
+            "score": -1.8652124404907227,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Kooma - King of Prussia, 201 Main St, King of Prussia, PA 19406",
+            "category": "['Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c69554a9998303:0xc6bbced4f4d7d325",
+            "iid": 19989,
+            "name": "Kooma - King of Prussia",
+            "rank": 13,
+            "score": -1.865242600440979,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ooi Sushi, 4236 Crescent St, Queens, NY 11101",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c2592474b794ad:0x8c8a6c74f3228669",
+            "iid": 18201,
+            "name": "Ooi Sushi",
+            "rank": 14,
+            "score": -1.8652921915054321,
+            "state": "New_York"
+        },
+        {
+            "address": "Yami Boba Sushi & Bento, 18052 FM 529 Rd, Cypress, TX 77433",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8640d75c5d8f3d3b:0x9c755ea903c5ddd4",
+            "iid": 7511,
+            "name": "Yami Boba Sushi & Bento",
+            "rank": 15,
+            "score": -1.8653349876403809,
+            "state": "Texas"
+        },
+        {
+            "address": "Okami Sushi Chicago, 6818 W North Ave, Chicago, IL 60707",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880fcbaf89c4f67b:0x7295dc015d75bb7",
+            "iid": 11261,
+            "name": "Okami Sushi Chicago",
+            "rank": 16,
+            "score": -1.8653663396835327,
+            "state": "Illinois"
+        },
+        {
+            "address": "Rayaki Ramen Edison, 2090 Lincoln Hwy, Edison, NJ 08817",
+            "category": "['Ramen restaurant', 'Bubble tea store', 'Yakitori restaurant']",
+            "gmap_id": "0x89c3c9ad2c0a2c3b:0x2770c72fcf0c06e",
+            "iid": 19813,
+            "name": "Rayaki Ramen Edison",
+            "rank": 17,
+            "score": -1.8653727769851685,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Bonchon Addison, 4980 Belt Line Rd Suite 140, Dallas, TX 75254",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x864c219f724cac25:0x38cf9fdda43c0f0",
+            "iid": 7947,
+            "name": "Bonchon Addison",
+            "rank": 18,
+            "score": -1.8654063940048218,
+            "state": "Texas"
+        },
+        {
+            "address": "Sarashina Horii, 45 E 20th St, New York, NY 10003",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c2592a2bcfeb0f:0xbec03c1927832c8e",
+            "iid": 18204,
+            "name": "Sarashina Horii",
+            "rank": 19,
+            "score": -1.8654108047485352,
+            "state": "New_York"
+        },
+        {
+            "address": "Blu fin sushi fusion, 2305 Longmire Dr suite 200, College Station, TX 77845",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864685a76a0d241f:0xafbe524015781efe",
+            "iid": 7767,
+            "name": "Blu fin sushi fusion",
+            "rank": 20,
+            "score": -1.8654261827468872,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Keith Jackson",
+        "uid": 133274,
+        "user_id": 118010957561848937641
+    }
+}

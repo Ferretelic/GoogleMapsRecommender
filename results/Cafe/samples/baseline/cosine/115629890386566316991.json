@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Starbucks, 8231 La Palma Ave, Buena Park, CA 90620",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/08/07",
+            "gmap_id": "0x80dd2bdecbf2b731:0xf1f50764311f3ca3",
+            "iid": 12116,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1502074860288
+        },
+        {
+            "address": "Starbucks, 1064 Emerald Bay Rd, South Lake Tahoe, CA 96150",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/06/29",
+            "gmap_id": "0x80998fb0db180d45:0xdbf9c840f84381c1",
+            "iid": 4925,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1530232324154
+        },
+        {
+            "address": "Starbucks, 709 Cirby Way, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/04/27",
+            "gmap_id": "0x809b207269ddd86b:0xb15e0ccd68f47024",
+            "iid": 5610,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556338857427
+        },
+        {
+            "address": "Java Detour Inc, 8540 Auburn Blvd, Citrus Heights, CA 95610",
+            "category": "['Coffee shop']",
+            "date": "2019/04/27",
+            "gmap_id": "0x809adf8a084e0fb3:0x85f635405da87b08",
+            "iid": 5432,
+            "name": "Java Detour Inc",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556338927231
+        },
+        {
+            "address": "Krispy Kreme, 10317 Fairway Dr, Roseville, CA 95678",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2019/04/27",
+            "gmap_id": "0x809b21f283b7feed:0x7752ff4ae2df13c0",
+            "iid": 5642,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556338931926
+        },
+        {
+            "address": "Starbucks, 6612 Lonetree Blvd, Rocklin, CA 95765",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/04/27",
+            "gmap_id": "0x809b22267e09fba3:0xa9839a093d562290",
+            "iid": 5650,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556339090837
+        },
+        {
+            "address": "Starbucks, 415 Roseville Square A, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/04/27",
+            "gmap_id": "0x809b2017fd9ac9c9:0x5d597ebcc4312543",
+            "iid": 5600,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556339214695
+        },
+        {
+            "address": "Starbucks, 1335 Pacific Ave, Santa Cruz, CA 95060",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/04/27",
+            "gmap_id": "0x808e402623aed0a1:0xb03e50b85dbe6efa",
+            "iid": 2420,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1556339303714
+        },
+        {
+            "address": "Starbucks, 9450 Fairway Dr #100, Roseville, CA 95678, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/04/27",
+            "gmap_id": "0x809b21e783cb35b1:0x5691449497528432",
+            "iid": 5637,
+            "name": "Starbucks",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1556339360688
+        },
+        {
+            "address": "Starbucks, 998 Sunrise Ave #115, Roseville, CA 95661",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2019/08/26",
+            "gmap_id": "0x809b20070701aa53:0xe5c485dd1a01cbf6",
+            "iid": 5599,
+            "name": "Starbucks",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1566800364178
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 1151 Galleria Blvd Space 1163, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b21d0c04d7417:0x4add49d4172b866e",
+            "iid": 5626,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.7066359519958496,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1228 Galleria Blvd #100, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b21d624e7c3bb:0x605779805543fc3f",
+            "iid": 5631,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 0.7047656178474426,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9045 Woodcreek Oaks Blvd, Roseville, CA 95747",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x809b23dd4f5e0507:0x718327ccf5213d0c",
+            "iid": 5658,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.6887326836585999,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5070 Rocklin Rd, Rocklin, CA 95677",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b1ef9f3d5b38d:0x7f81b6d8065f764b",
+            "iid": 5575,
+            "name": "Starbucks",
+            "rank": 4,
+            "score": 0.6705958843231201,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2110 Sunset Blvd #100, Rocklin, CA 95765, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b2217a43bf6c7:0x583dc9b75bc94a61",
+            "iid": 5647,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": 0.6632364988327026,
+            "state": "California"
+        },
+        {
+            "address": "Bayside Caf\u00e9 - Blue Oaks Campus, 10000 Alantown Dr, Roseville, CA 95678",
+            "category": "['Cafe']",
+            "gmap_id": "0x809b222b8442143d:0x603be3946e86705e",
+            "iid": 5651,
+            "name": "Bayside Caf\u00e9 - Blue Oaks Campus",
+            "rank": 6,
+            "score": 0.6626230478286743,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 59 Lincoln Blvd, Lincoln, CA 95648",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b3d16218b18fb:0x6107cd981b43c83",
+            "iid": 5679,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 0.6565991044044495,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 2030 Douglas Blvd Suite 12, Roseville, CA 95661",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b1ff011e6cf85:0x2d95e0a2da3f90bf",
+            "iid": 5591,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 0.6531399488449097,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 5100 Commons Dr, Rocklin, CA 95677",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x809b1edce057908b:0x6dd6b26d8c332491",
+            "iid": 5572,
+            "name": "Panera Bread",
+            "rank": 9,
+            "score": 0.6474204063415527,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4001 Woodcreek Oaks Blvd E, Roseville, CA 95747, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b216a5df73aa5:0x9d20ad249e1abb6",
+            "iid": 5618,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.6290783882141113,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 1410 E Roseville Pkwy, Roseville, CA 95661",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b1f900d173c37:0x8fe5d8ac907577a9",
+            "iid": 5582,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 0.6268585920333862,
+            "state": "California"
+        },
+        {
+            "address": "Noah's NY Bagels, 2030 Douglas Blvd Ste 14, Roseville, CA 95661",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x809b1ff0268670a3:0x1cfae4b38bb932c5",
+            "iid": 5592,
+            "name": "Noah's NY Bagels",
+            "rank": 12,
+            "score": 0.6187143325805664,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5494 Crossings Drive Pad 8, Rocklin, CA 95677",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b1f1aaa060049:0xdee081cbbfc51559",
+            "iid": 5576,
+            "name": "Starbucks",
+            "rank": 13,
+            "score": 0.6104915142059326,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 129 Ferrari Ranch Rd #110, Lincoln, CA 95648",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b3d29674402ef:0xf779559f720ca090",
+            "iid": 5681,
+            "name": "Starbucks",
+            "rank": 14,
+            "score": 0.6098440289497375,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5837 Sunrise Blvd, Citrus Heights, CA 95610",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ade3cb5441e91:0xb77243abe5b27e74",
+            "iid": 5401,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": 0.6062584519386292,
+            "state": "California"
+        },
+        {
+            "address": "Boudin SF, 1017 Galleria Blvd Suite 100, Roseville, CA 95678",
+            "category": "['Bakery', 'Cafe', 'Caterer', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x809b21d456002eb5:0x548556aa1245fad8",
+            "iid": 5627,
+            "name": "Boudin SF",
+            "rank": 16,
+            "score": 0.6061792969703674,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 943 Pleasant Grove Blvd #100, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b2194dd8ce263:0x656567baa6920d01",
+            "iid": 5624,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": 0.6053186058998108,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9450 Fairway Dr #100, Roseville, CA 95678, United States",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b21e783cb35b1:0x5691449497528432",
+            "iid": 5637,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.6031083464622498,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, 731 Pleasant Grove Blvd Suite 185, Roseville, CA 95678",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x809b21ee11789e3d:0x9f61e3dddc5262b7",
+            "iid": 5641,
+            "name": "Peet's Coffee",
+            "rank": 19,
+            "score": 0.6003342270851135,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 4033 Cavitt Stallman Rd, Granite Bay, CA 95746",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x809b1fd6923a9689:0xae9a158be1e81a74",
+            "iid": 5584,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": 0.5919984579086304,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Melissa Allen",
+        "uid": 118288,
+        "user_id": 115629890386566316991
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi Mido, 6010 Nieman Rd, Shawnee, KS 66203",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2018/05/17",
+            "gmap_id": "0x87c0ed27a764ea23:0x4c3810f0edc1feaf",
+            "iid": 33115,
+            "name": "Sushi Mido",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1526518656785
+        },
+        {
+            "address": "Korma Sutra - Indian Restaurant in Kansas City, 12112 W 87th St Pkwy, Lenexa, KS 66215",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Family restaurant', 'Restaurant', 'Seafood restaurant', 'South Asian restaurant']",
+            "date": "2018/05/17",
+            "gmap_id": "0x87c0eb5497bc6b3d:0xe92dc5dc93ce1c84",
+            "iid": 33074,
+            "name": "Korma Sutra - Indian Restaurant in Kansas City",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1526518721816
+        },
+        {
+            "address": "Hong Kong Star Restaurant, 918 Old 56 Highway, Olathe, KS 66061",
+            "category": "['Chinese restaurant']",
+            "date": "2018/06/07",
+            "gmap_id": "0x87c0be0cd117489f:0x151f905ba71f069e",
+            "iid": 32961,
+            "name": "Hong Kong Star Restaurant",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1528375717403
+        },
+        {
+            "address": "Taj Mahal Authentic Cuisine of india, 7521 Wornall Rd, Kansas City, MO 64114",
+            "category": "['Indian restaurant', 'Ethnic restaurant']",
+            "date": "2018/10/19",
+            "gmap_id": "0x87c0efca19a9bba5:0xeea91cd60a9be9e1",
+            "iid": 33147,
+            "name": "Taj Mahal Authentic Cuisine of india",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1539971544655
+        },
+        {
+            "address": "Pho Good, 10952 W 74th Terrace, Shawnee, KS 66203",
+            "category": "['Restaurant', 'Takeout Restaurant', 'Vietnamese restaurant']",
+            "date": "2018/12/26",
+            "gmap_id": "0x87c0ecb8dedced7b:0xeee1cb3d4408dd96",
+            "iid": 33106,
+            "name": "Pho Good",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1545833455442
+        },
+        {
+            "address": "Aso Sushi, 8615 Hauser Ct, Lenexa, KS 66061",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/01/26",
+            "gmap_id": "0x87c094a62ab56c83:0x4b96e71006817fa8",
+            "iid": 32933,
+            "name": "Aso Sushi",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1548483664704
+        },
+        {
+            "address": "Thai Place, 9359 W 87th St, Overland Park, KS 66212",
+            "category": "['Thai restaurant', 'Fine dining restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/03/06",
+            "gmap_id": "0x87c0eb7b79ba7da9:0xea77a5ec4dcff5f2",
+            "iid": 33078,
+            "name": "Thai Place",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1551846088972
+        },
+        {
+            "address": "Evergreen Lin's, 13034 Kansas Ave, Bonner Springs, KS 66012",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2019/10/05",
+            "gmap_id": "0x87c08f84ca07ab3f:0xf4966b3925a1171e",
+            "iid": 32926,
+            "name": "Evergreen Lin's",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1570271411977
+        },
+        {
+            "address": "Sang Sang Asian Express, 10904 W 75th St, Shawnee, KS 66214",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2019/12/01",
+            "gmap_id": "0x87c0ecbeca521a45:0xdeeb24e411cdb6c4",
+            "iid": 33108,
+            "name": "Sang Sang Asian Express",
+            "split": "train",
+            "state": "Kansas",
+            "unix_time": 1575163398995
+        },
+        {
+            "address": "Panda Express, 12210 W 95th St, Lenexa, KS 66215",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/26",
+            "gmap_id": "0x87c094b5300481dd:0x12956cc5278e0134",
+            "iid": 32934,
+            "name": "Panda Express",
+            "split": "valid",
+            "state": "Kansas",
+            "unix_time": 1579998138194
+        },
+        {
+            "address": "Sakura Japanese Restaurant, 7474 Nieman Rd, Shawnee, KS 66203",
+            "category": "['Japanese restaurant', 'Steak house']",
+            "date": "2020/12/20",
+            "gmap_id": "0x87c0ecb90ed790ad:0xb98f746fd6c1d97e",
+            "iid": 33107,
+            "name": "Sakura Japanese Restaurant",
+            "split": "test",
+            "state": "Kansas",
+            "unix_time": 1608433889588
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Phikul Thai Bistro, 17 E 5th St, Kansas City, MO 64106",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87c0f140c24064bb:0x2ee8039378a7720f",
+            "iid": 33171,
+            "name": "Phikul Thai Bistro",
+            "rank": 1,
+            "score": -1.814524531364441,
+            "state": "Missouri"
+        },
+        {
+            "address": "Momo Korean Restaurant, 2761 Briargate Blvd, Colorado Springs, CO 80920",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x87134fdfd01c0bd9:0x8519f74ee6428054",
+            "iid": 28474,
+            "name": "Momo Korean Restaurant",
+            "rank": 2,
+            "score": -1.8936551809310913,
+            "state": "Colorado"
+        },
+        {
+            "address": "Pho Bowl Vietnamese Cuisine, 115 Krispy Kreme Drive #1, Bloomington, IL 61704",
+            "category": "['Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x880b717c84d77e0d:0x7af5b3722ee4c002",
+            "iid": 35954,
+            "name": "Pho Bowl Vietnamese Cuisine",
+            "rank": 3,
+            "score": -1.8946924209594727,
+            "state": "Illinois"
+        },
+        {
+            "address": "Cupbop - Korean BBQ, 806 Blue Lakes Blvd N, Twin Falls, ID 83301",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x54aca3dddad1edbb:0xa5bb956eb578e98e",
+            "iid": 5021,
+            "name": "Cupbop - Korean BBQ",
+            "rank": 4,
+            "score": -1.8990403413772583,
+            "state": "Idaho"
+        },
+        {
+            "address": "Razia Indian Restaurant, 28112 Bouquet Canyon Rd, Santa Clarita, CA 91350",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80c287454bd7dab7:0xd5d3dd6fc893da42",
+            "iid": 13030,
+            "name": "Razia Indian Restaurant",
+            "rank": 5,
+            "score": -1.9049409627914429,
+            "state": "California"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 7479 Tidewater Dr, Norfolk, VA 23505",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89ba97ebd0f792bd:0x156084d0d8bd74b4",
+            "iid": 57390,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 6,
+            "score": -1.9069498777389526,
+            "state": "Virginia"
+        },
+        {
+            "address": "Panda Express, 10139 E, E State Rte 350, Raytown, MO 64138",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0e131505e1baf:0x361518a1c0e92488",
+            "iid": 33013,
+            "name": "Panda Express",
+            "rank": 7,
+            "score": -1.9071084260940552,
+            "state": "Missouri"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 8,
+            "score": -1.907771110534668,
+            "state": "Florida"
+        },
+        {
+            "address": "Viet-Thai, 8451 Davis Lake Pkwy, Charlotte, NC 28269",
+            "category": "['Pho restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8856a78c93df353b:0x97e16cf253b266d1",
+            "iid": 43342,
+            "name": "Viet-Thai",
+            "rank": 9,
+            "score": -1.908308744430542,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Jasmine Thai Kitchen, 2270 Executive Dr, Hampton, VA 23666",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x89ba83c2062a592f:0x3486945728a1cdae",
+            "iid": 57291,
+            "name": "Jasmine Thai Kitchen",
+            "rank": 10,
+            "score": -1.9086145162582397,
+            "state": "Virginia"
+        },
+        {
+            "address": "Rib No. 7, 32 W 33rd St, New York, NY 10001",
+            "category": "['Korean restaurant', 'Fine dining restaurant', 'Korean barbecue restaurant', 'Korean rib restaurant']",
+            "gmap_id": "0x89c259c3721519f3:0xd82597f8e194c4b4",
+            "iid": 60201,
+            "name": "Rib No. 7",
+            "rank": 11,
+            "score": -1.9110289812088013,
+            "state": "New_York"
+        },
+        {
+            "address": "California, San Francisco, Cortland Ave, Shokudou\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7fa3e5e7731f:0x61a2a36642107cb7",
+            "iid": 9254,
+            "name": "Shokudou",
+            "rank": 12,
+            "score": -1.9111850261688232,
+            "state": "California"
+        },
+        {
+            "address": "Saigon Blvd Ph\u1edf & Grill, 30975 Five Mile Rd, Livonia, MI 48154",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8824b3f56cee8555:0x83abed68d50fa968",
+            "iid": 39166,
+            "name": "Saigon Blvd Ph\u1edf & Grill",
+            "rank": 13,
+            "score": -1.9116166830062866,
+            "state": "Michigan"
+        },
+        {
+            "address": "Ginza Japanese Grill - North Charleston, 5647 Rivers Ave, North Charleston, SC 29406",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fe6397576378ab:0x10b1e3a09d6166f7",
+            "iid": 53203,
+            "name": "Ginza Japanese Grill - North Charleston",
+            "rank": 14,
+            "score": -1.9116181135177612,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "PHO-4-EVER, 701 S Madison St, Webb City, MO 64870",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x87c87fe8f3ce4455:0xe602ec0eb8fd3ee7",
+            "iid": 33328,
+            "name": "PHO-4-EVER",
+            "rank": 15,
+            "score": -1.9119685888290405,
+            "state": "Missouri"
+        },
+        {
+            "address": "Miyake Sushi, 8419 S 73rd Plaza #105, Papillion, NE 68046",
+            "category": "['Restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87938be5ba0dc461:0xdce323325aa1e8f8",
+            "iid": 31817,
+            "name": "Miyake Sushi",
+            "rank": 16,
+            "score": -1.912145972251892,
+            "state": "Nebraska"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 54334,
+            "name": "Chopstix",
+            "rank": 17,
+            "score": -1.9122494459152222,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Bao Bao Cafe, 214 W 39th St, New York, NY 10018",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x89c2598529cd6bc3:0x4337804cb04b5d10",
+            "iid": 59615,
+            "name": "Bao Bao Cafe",
+            "rank": 18,
+            "score": -1.9131332635879517,
+            "state": "New_York"
+        },
+        {
+            "address": "New Jersey, Burlington Township, Mt Holly Rd, jing's sushi house\u90ae\u653f\u7f16\u7801: 08016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c14f701554d267:0x773f4fc039a6c2d0",
+            "iid": 57841,
+            "name": "jing's sushi house",
+            "rank": 19,
+            "score": -1.9156420230865479,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Panda Express, 22090 US Hwy 72 E, Athens, AL 35613",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88628bf14fe763a3:0x1d48f12566aca120",
+            "iid": 44251,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": -1.9160221815109253,
+            "state": "Alabama"
+        }
+    ],
+    "user": {
+        "name": "Peggy Burns",
+        "uid": 110764,
+        "user_id": 103716230610768627679
+    }
+}

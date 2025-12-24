@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Don Quijote Honolulu, 801 Kaheka St, Honolulu, HI 96814",
+            "category": "['Supermarket', 'Asian grocery store', 'General store', 'Grocery store', 'Japanese grocery store', 'Pharmacy']",
+            "date": "2018/07/19",
+            "gmap_id": "0x7c006dede4a406b3:0x328c1ae0697b7359",
+            "iid": 1897,
+            "name": "Don Quijote Honolulu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1531987236947
+        },
+        {
+            "address": "Mamaya, 98-199 Kamehameha Hwy A-7B, Aiea, HI 96701",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x7c006f52259fec47:0x2011717ac3237cd5",
+            "iid": 1983,
+            "name": "Mamaya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1532818993348
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "date": "2018/09/01",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1535785099475
+        },
+        {
+            "address": "Aunty's Ramen, 1110 McCully St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "date": "2018/11/08",
+            "gmap_id": "0x7c006d939cf63789:0x2a8866f414ab13b0",
+            "iid": 1855,
+            "name": "Aunty's Ramen",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1541661933507
+        },
+        {
+            "address": "sushi mon, 8320 W Sahara Ave #180, Las Vegas, NV 89117",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80c8c099c612a7d7:0x2ef03a37d49e8296",
+            "iid": 5232,
+            "name": "sushi mon",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1546317748529
+        },
+        {
+            "address": "RA Sushi Bar Restaurant and Ramen Sensei, 13802 N Scottsdale Rd #176, Scottsdale, AZ 85254",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x872b7415984cd6f9:0x6742aa51d351199f",
+            "iid": 9128,
+            "name": "RA Sushi Bar Restaurant and Ramen Sensei",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1546317827849
+        },
+        {
+            "address": "Ramen Ya, 2810 Valkenburgh St, Honolulu, HI 96818",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x7c006f7347bf7367:0xfba97e8979b70a8",
+            "iid": 1991,
+            "name": "Ramen Ya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1546845458403
+        },
+        {
+            "address": "Shirokiya Japan Village Walk, 1450 Ala Moana Blvd #1360, Honolulu, HI 96814",
+            "category": "['Food court', 'Bakery', 'Beer garden', 'Collectibles store', 'Dessert shop', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/19",
+            "gmap_id": "0x7c006df045a36271:0xc32f4e283f2349fa",
+            "iid": 1915,
+            "name": "Shirokiya Japan Village Walk",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1547880365609
+        },
+        {
+            "address": "Junpuu, 1010 S King St #108, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x7c006de6f0845ce5:0xe1ec9e0c4d3d0f29",
+            "iid": 1884,
+            "name": "Junpuu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1549186702049
+        },
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "split": "valid",
+            "state": "Hawaii",
+            "unix_time": 1554623876513
+        },
+        {
+            "address": "Matsuzaka-Tei, 1029 Makolu St B, Pearl City, HI 96782",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x7c00660d0fc65569:0x5ad624fe38aaa438",
+            "iid": 1778,
+            "name": "Matsuzaka-Tei",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1561803767134
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "KUMORI JAPANESE RESTAURANT, 105 Ruthlynn Dr, Longview, TX 75605",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x863639990d34f389:0xc4bd866ceeba181",
+            "iid": 7234,
+            "name": "KUMORI JAPANESE RESTAURANT",
+            "rank": 1,
+            "score": -2.1549839973449707,
+            "state": "Texas"
+        },
+        {
+            "address": "Hula House, 5819 Northwest Loop 410 #120, San Antonio, TX 78238",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x865c5d5cc358115f:0x2f05f97203bc54e2",
+            "iid": 8444,
+            "name": "Hula House",
+            "rank": 2,
+            "score": -2.1551923751831055,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Sakana Southlake, 2175 E Southlake Blvd #170, Southlake, TX 76092",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x864dd5663e11dd69:0xebc47d683d81af28",
+            "iid": 8141,
+            "name": "Sushi Sakana Southlake",
+            "rank": 3,
+            "score": -2.1552608013153076,
+            "state": "Texas"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 266 116th Ave NE, Bellevue, WA 98004",
+            "category": "['Conveyor belt sushi restaurant']",
+            "gmap_id": "0x54906d39c40ee96b:0x9c33d9929c39b083",
+            "iid": 832,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 4,
+            "score": -2.1554057598114014,
+            "state": "Washington"
+        },
+        {
+            "address": "T&J Restaurant, 1601 County Rd 42 W, Burnsville, MN 55306",
+            "category": "['Thai restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87f63bf84acaa893:0xf43557372665ea9f",
+            "iid": 10608,
+            "name": "T&J Restaurant",
+            "rank": 5,
+            "score": -2.1554596424102783,
+            "state": "Minnesota"
+        },
+        {
+            "address": "ONI, 600 Central Ave SW Ste 100, Albuquerque, NM 87102",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x87220b8a3cbf15bb:0x4c2b9ac67452879a",
+            "iid": 8840,
+            "name": "ONI",
+            "rank": 6,
+            "score": -2.155518054962158,
+            "state": "New_Mexico"
+        },
+        {
+            "address": "Sakura #16, 235 Market St, Winchester, VA 22603",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x89b5f10a19edcde5:0x5a8a8da79f58f868",
+            "iid": 16879,
+            "name": "Sakura #16",
+            "rank": 7,
+            "score": -2.155592918395996,
+            "state": "Virginia"
+        },
+        {
+            "address": "Daigo Sushi Roll Bar, 527 Carroll St, Brooklyn, NY 11215",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c25b0fe7bea7e1:0xf02d1650e1e8923b",
+            "iid": 18707,
+            "name": "Daigo Sushi Roll Bar",
+            "rank": 8,
+            "score": -2.1556284427642822,
+            "state": "New_York"
+        },
+        {
+            "address": "Sea Shai, 388 US-46, South Hackensack, NJ 07606",
+            "category": "['Korean restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c2f94802630147:0xb54e615d30f8bc36",
+            "iid": 19520,
+            "name": "Sea Shai",
+            "rank": 9,
+            "score": -2.1556308269500732,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "PASSION FUSION GRILLE, 20 SW COURT SQ, Graham, NC 27253",
+            "category": "['Restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Chinese takeaway', 'Sushi restaurant']",
+            "gmap_id": "0x88532b9aa1a0cded:0x25bddb5d3852a239",
+            "iid": 12592,
+            "name": "PASSION FUSION GRILLE",
+            "rank": 10,
+            "score": -2.155656576156616,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Q Sushi Bar & Omakase, 4845 N Damen Ave., Chicago, IL 60625",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fd306d715ff05:0x12309afda7bd955c",
+            "iid": 11369,
+            "name": "Q Sushi Bar & Omakase",
+            "rank": 11,
+            "score": -2.155704975128174,
+            "state": "Illinois"
+        },
+        {
+            "address": "Trapper's Sushi, 10321 W McDowell Rd Suite A-101, Avondale, AZ 85392",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x872b3f1ab956fb3f:0xcf6cc3dfc2edaa50",
+            "iid": 9047,
+            "name": "Trapper's Sushi",
+            "rank": 12,
+            "score": -2.155716896057129,
+            "state": "Arizona"
+        },
+        {
+            "address": "Bonchon Addison, 4980 Belt Line Rd Suite 140, Dallas, TX 75254",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x864c219f724cac25:0x38cf9fdda43c0f0",
+            "iid": 7947,
+            "name": "Bonchon Addison",
+            "rank": 13,
+            "score": -2.1558074951171875,
+            "state": "Texas"
+        },
+        {
+            "address": "Musashi's, 7405 168th Ave NE #150, Redmond, WA 98052",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x549073864d1822db:0x537b91aa426470a",
+            "iid": 874,
+            "name": "Musashi's",
+            "rank": 14,
+            "score": -2.155869245529175,
+            "state": "Washington"
+        },
+        {
+            "address": "FuRaiBo Izakaya, 3396 S Bristol St, Santa Ana, CA 92704",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80dcdf401136253b:0x1b7615798c22040f",
+            "iid": 6286,
+            "name": "FuRaiBo Izakaya",
+            "rank": 15,
+            "score": -2.156028985977173,
+            "state": "California"
+        },
+        {
+            "address": "I love sushi Japanese Cuisine, 2300 Elliston Pl, Nashville, TN 37203",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x886467d9797ef477:0x6e59e4d8d9b2aa40",
+            "iid": 13243,
+            "name": "I love sushi Japanese Cuisine",
+            "rank": 16,
+            "score": -2.156036138534546,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Zitz Sum, 396 Alhambra Cir Suite 155, Coral Gables, FL 33134",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Wine bar']",
+            "gmap_id": "0x88d9b795fa9df5b3:0x47c18216cde285c2",
+            "iid": 14751,
+            "name": "Zitz Sum",
+            "rank": 17,
+            "score": -2.156059503555298,
+            "state": "Florida"
+        },
+        {
+            "address": "Rakiraki Ramen & Tsukemen, 8973 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80dbf92f91221309:0x82e305f2a2070736",
+            "iid": 5761,
+            "name": "Rakiraki Ramen & Tsukemen",
+            "rank": 18,
+            "score": -2.1560678482055664,
+            "state": "California"
+        },
+        {
+            "address": "RamenYa, 7938 Crain Hwy S, Glen Burnie, MD 21061",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7fd4f0cb2fd15:0x67cb8646ed7a7c7f",
+            "iid": 17408,
+            "name": "RamenYa",
+            "rank": 19,
+            "score": -2.156079053878784,
+            "state": "Maryland"
+        },
+        {
+            "address": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR, 227 Parkingway, Quincy, MA 02169",
+            "category": "['Hot pot restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e37db2261101f9:0x469b051bcb527420",
+            "iid": 21099,
+            "name": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR",
+            "rank": 20,
+            "score": -2.156088352203369,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Gordon Lam",
+        "uid": 63531,
+        "user_id": 108579026400301163667
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai Thai Cuisine, 3843 County Rd 516, Old Bridge, NJ 08857",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2012/03/16",
+            "gmap_id": "0x89c3cdcd366c388d:0xfede8b4042f47aa3",
+            "iid": 64895,
+            "name": "Thai Thai Cuisine",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1331867947772
+        },
+        {
+            "address": "Sakura Japanese Steakhouse and Sushi Bar, 102 Railway Ln, Hagerstown, MD 21740",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2012/03/20",
+            "gmap_id": "0x89c9f28d8696465d:0x595e8df22c41a11d",
+            "iid": 67561,
+            "name": "Sakura Japanese Steakhouse and Sushi Bar",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1332271618222
+        },
+        {
+            "address": "Bhojan, 102 Lexington Ave, New York, NY 10016",
+            "category": "['Indian restaurant']",
+            "date": "2014/05/19",
+            "gmap_id": "0x89c259a77d70ea29:0xa3ad705d4a102b11",
+            "iid": 59981,
+            "name": "Bhojan",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1400462357133
+        },
+        {
+            "address": "Lemon Grass Thai Cuisine, 2666 Madison Rd, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2014/12/21",
+            "gmap_id": "0x8841b27c4ac71271:0x7dad837a84c9af3a",
+            "iid": 41909,
+            "name": "Lemon Grass Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1419132514725
+        },
+        {
+            "address": "House of Bangkok Thai Cuisine, 4876 Dixie Hwy, Fairfield, OH 45014",
+            "category": "['Thai restaurant']",
+            "date": "2015/02/05",
+            "gmap_id": "0x884048bc779f7ff9:0x2132cd760dee38ac",
+            "iid": 41551,
+            "name": "House of Bangkok Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1423161914420
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2015/04/27",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 41584,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1430156930708
+        },
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/06/19",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 57120,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1434672779005
+        },
+        {
+            "address": "Korealistic, 7735 Cox Ln, West Chester Township, OH 45069",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2015/10/19",
+            "gmap_id": "0x88405a08b91e2211:0x95315cd3fa4e1e73",
+            "iid": 41688,
+            "name": "Korealistic",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1445272240846
+        },
+        {
+            "address": "Bonsai Sushi, 1652 Bruce B Downs Blvd, Wesley Chapel, FL 33544",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2016/01/11",
+            "gmap_id": "0x88c2b0d2fb83f1df:0xd2bd6d1d5eb33fdf",
+            "iid": 46897,
+            "name": "Bonsai Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1452536948568
+        },
+        {
+            "address": "Kettles Vietnamese Bistro, 1202 W Steele Ln, Santa Rosa, CA 95403",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/08/23",
+            "gmap_id": "0x8084386f07f68219:0x4f80d53a4df5d02a",
+            "iid": 6694,
+            "name": "Kettles Vietnamese Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1471922974527
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Lin's Asian Bistro, 1900 Airport Way, Fairbanks, AK 99701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x51325bf60b538f51:0x1828fc7f978879de",
+            "iid": 546,
+            "name": "Lin's Asian Bistro",
+            "rank": 1,
+            "score": -2.796048402786255,
+            "state": "Alaska"
+        },
+        {
+            "address": "Thaikota, 1201 1st Ave N, Fargo, ND 58102",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x52c8cb31834e6d11:0xbc979599a537c24c",
+            "iid": 1031,
+            "name": "Thaikota",
+            "rank": 2,
+            "score": -2.7964425086975098,
+            "state": "North_Dakota"
+        },
+        {
+            "address": "Saigon Kitchen, 112 North St, Burlington, VT 05401",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x4cca7bde4becba2f:0xdbc6f7bdb16dcdd6",
+            "iid": 446,
+            "name": "Saigon Kitchen",
+            "rank": 3,
+            "score": -2.7966394424438477,
+            "state": "Vermont"
+        },
+        {
+            "address": "House of Punjab, 3000 32nd Ave S, Grand Forks, ND 58201",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x52c681bf99e04df1:0xcb7fa28dfb3a4306",
+            "iid": 1017,
+            "name": "House of Punjab",
+            "rank": 4,
+            "score": -2.796663761138916,
+            "state": "North_Dakota"
+        },
+        {
+            "address": "Stone Korean Restaurant, 24032 Bothell Everett Hwy #400, Bothell, WA 98021",
+            "category": "['Restaurant', 'Korean restaurant']",
+            "gmap_id": "0x54900f9505da718d:0x9c4b82deab722459",
+            "iid": 1769,
+            "name": "Stone Korean Restaurant",
+            "rank": 5,
+            "score": -2.796802520751953,
+            "state": "Washington"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 54334,
+            "name": "Chopstix",
+            "rank": 6,
+            "score": -2.799304246902466,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Namaste India, 78415 US-40, Winter Park, CO 80482",
+            "category": "['French restaurant', 'Indian restaurant']",
+            "gmap_id": "0x876a35c41785c8e9:0x6eb0fd6823e74022",
+            "iid": 30719,
+            "name": "Namaste India",
+            "rank": 7,
+            "score": -2.800048589706421,
+            "state": "Colorado"
+        },
+        {
+            "address": "Teriyaki Madness, 1653 W Island Green Dr Ste 130, Meridian, ID 83646",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55cae7f4fa65:0x225b2adc029f2e05",
+            "iid": 5059,
+            "name": "Teriyaki Madness",
+            "rank": 8,
+            "score": -2.8012943267822266,
+            "state": "Idaho"
+        },
+        {
+            "address": "Ph\u1edf Charlotte, 1225 Tamiami Trail A4, Port Charlotte, FL 33953",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88dcaba63fe95ea5:0x5d1e236543c0a339",
+            "iid": 49146,
+            "name": "Ph\u1edf Charlotte",
+            "rank": 9,
+            "score": -2.8013222217559814,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho 305, 2519 NE 2nd Ave, Miami, FL 33137",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88d9b7a04c8cc5dd:0x4a530850b641851",
+            "iid": 48691,
+            "name": "Pho 305",
+            "rank": 10,
+            "score": -2.8013834953308105,
+            "state": "Florida"
+        },
+        {
+            "address": "Zitz Sum, 396 Alhambra Cir Suite 155, Coral Gables, FL 33134",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Wine bar']",
+            "gmap_id": "0x88d9b795fa9df5b3:0x47c18216cde285c2",
+            "iid": 48677,
+            "name": "Zitz Sum",
+            "rank": 11,
+            "score": -2.8014209270477295,
+            "state": "Florida"
+        },
+        {
+            "address": "JoyThai Kitchen, 260 Coit Rd #110, McKinney, TX 75071",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x864c3f5dd0fa58ef:0x9a12848febda0917",
+            "iid": 26027,
+            "name": "JoyThai Kitchen",
+            "rank": 12,
+            "score": -2.8014330863952637,
+            "state": "Texas"
+        },
+        {
+            "address": "Golden Box Express, 21212 Bake Pkwy Unit C & D, Lake Forest, CA 92630",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Cantonese restaurant', 'Chinese noodle restaurant', 'Chinese takeaway', 'Chinese tea house', 'Sichuan restaurant']",
+            "gmap_id": "0x80dce90d94db4f03:0xdfe86659fdfbddc7",
+            "iid": 19895,
+            "name": "Golden Box Express",
+            "rank": 13,
+            "score": -2.801433801651001,
+            "state": "California"
+        },
+        {
+            "address": "SushiStop Glendale, 204 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2c1b9d6c6b6bb:0x8ce6257adae3d7b4",
+            "iid": 14753,
+            "name": "SushiStop Glendale",
+            "rank": 14,
+            "score": -2.8014464378356934,
+            "state": "California"
+        },
+        {
+            "address": "Ate O'clock Thai Restaurant, 4736 University Way NE, Seattle, WA 98105",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54901515d8ed8845:0x2ee81ba0c863bc36",
+            "iid": 2019,
+            "name": "Ate O'clock Thai Restaurant",
+            "rank": 15,
+            "score": -2.801450729370117,
+            "state": "Washington"
+        },
+        {
+            "address": "Chin's Szechwan - Carlsbad, 2820 Roosevelt St, Carlsbad, CA 92008",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Chinese noodle restaurant', 'Dumpling restaurant', 'Soup restaurant']",
+            "gmap_id": "0x80dc736926023cb9:0xb3377acd90a46f16",
+            "iid": 18861,
+            "name": "Chin's Szechwan - Carlsbad",
+            "rank": 16,
+            "score": -2.801456928253174,
+            "state": "California"
+        },
+        {
+            "address": "EurAsia 3- Ramen | Sushi | Poke, 5222 Burnet Rd Ste 400A, Austin, TX 78756",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8644cb2c4d2df40b:0xcc5d31866dd02d7e",
+            "iid": 24498,
+            "name": "EurAsia 3- Ramen | Sushi | Poke",
+            "rank": 17,
+            "score": -2.8014726638793945,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 6519 Winchester Blvd, Canal Winchester, OH 43110",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88387df6a4013829:0x201a425d177b4d97",
+            "iid": 40689,
+            "name": "Panda Express",
+            "rank": 18,
+            "score": -2.8015475273132324,
+            "state": "Ohio"
+        },
+        {
+            "address": "Okoku Express Japanese Restaurant, 203 Unit B E, W Meadow Rd, Eden, NC 27288",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8852ebf961a58b75:0x8d0522b5643ef813",
+            "iid": 42533,
+            "name": "Okoku Express Japanese Restaurant",
+            "rank": 19,
+            "score": -2.8015623092651367,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Little Foodies \u5c0f\u80d6\u5409, 1411 156th Ave NE suite C, Bellevue, WA 98007",
+            "category": "['Chinese restaurant', 'Barbecue restaurant']",
+            "gmap_id": "0x54906d7fc38c4a7b:0x1949671d0e8b37d4",
+            "iid": 3126,
+            "name": "Little Foodies \u5c0f\u80d6\u5409",
+            "rank": 20,
+            "score": -2.8015761375427246,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Oren Pollak",
+        "uid": 303678,
+        "user_id": 110172896773652108969
+    }
+}

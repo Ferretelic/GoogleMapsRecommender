@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hamilton, 600 14th St NW, Washington, D.C., DC 20005",
+            "category": "['American restaurant', 'Bar', 'Brunch restaurant', 'Catering food and drink supplier', 'Cocktail bar', 'Dessert restaurant', 'Event venue', 'Live music venue', 'Restaurant', 'Sushi restaurant']",
+            "date": "2015/12/20",
+            "gmap_id": "0x89b7b797c7d538d3:0xd7872ecc9a2a243e",
+            "iid": 17190,
+            "name": "The Hamilton",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1450581746344
+        },
+        {
+            "address": "Sushi Jin Next Door, 8555 Fenton St, Silver Spring, MD 20910",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2016/01/17",
+            "gmap_id": "0x89b7c8ba0a933aa7:0x5f8a2a55fe44b127",
+            "iid": 17268,
+            "name": "Sushi Jin Next Door",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1453074024913
+        },
+        {
+            "address": "Ginza Japanese Restaurant, 9616 Reisterstown Rd, Owings Mills, MD 21117",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/08/05",
+            "gmap_id": "0x89c8176b88494b4b:0x9953e4e75977829a",
+            "iid": 20385,
+            "name": "Ginza Japanese Restaurant",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1470427793926
+        },
+        {
+            "address": "Ippudo NY, 65 4th Ave, New York, NY 10003",
+            "category": "['Ramen restaurant']",
+            "date": "2018/12/02",
+            "gmap_id": "0x89c2599be79c4359:0xb9d6395de6e0aff6",
+            "iid": 18409,
+            "name": "Ippudo NY",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543724128893
+        },
+        {
+            "address": "Haikan, 805 V St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2019/05/10",
+            "gmap_id": "0x89b7b7e4df0c024f:0x284b6fa985d06644",
+            "iid": 17212,
+            "name": "Haikan",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1557530263701
+        },
+        {
+            "address": "RACKS Fish House & Oyster Bar, 5 SE 2nd Ave, Delray Beach, FL 33444",
+            "category": "['Seafood restaurant', 'American restaurant', 'Bar', 'Cocktail bar', 'Delivery Restaurant', 'Oyster bar restaurant', 'Sushi restaurant', 'Tapas bar', 'Tapas restaurant', 'Wine bar']",
+            "date": "2019/06/21",
+            "gmap_id": "0x88d8dfdcb006b699:0x2c51d97bd16c9501",
+            "iid": 14295,
+            "name": "RACKS Fish House & Oyster Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561138334340
+        },
+        {
+            "address": "Nama Sushi Bar & Restaurant, 465 K St NW, Washington, DC 20001",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/09/30",
+            "gmap_id": "0x89b7b7205a420fe5:0x363259c3e118ffb8",
+            "iid": 17161,
+            "name": "Nama Sushi Bar & Restaurant",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1569807548990
+        },
+        {
+            "address": "IPPUDO SAN FRANCISCO, 18 Yerba Buena Ln, San Francisco, CA 94103",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/11/21",
+            "gmap_id": "0x808580862be0dea3:0x6c80a515c00c6c5c",
+            "iid": 2336,
+            "name": "IPPUDO SAN FRANCISCO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574297244433
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "valid",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Daikaya, 705 6th St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Izakaya restaurant']",
+            "gmap_id": "0x89b7b73aab846c17:0x64520a673457796e",
+            "iid": 17166,
+            "name": "Daikaya",
+            "rank": 1,
+            "score": 7.952319145202637,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Sushi Taro, 1503 17th St NW, Washington, DC 20036",
+            "category": "['Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b7c13a1e20c5:0x5491b9db801c33d0",
+            "iid": 17201,
+            "name": "Sushi Taro",
+            "rank": 2,
+            "score": 6.732245445251465,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Grace's Mandarin, 188 Waterfront St, Oxon Hill, MD 20745",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b07376fc37a3:0xad1f433e0b63784a",
+            "iid": 17087,
+            "name": "Grace's Mandarin",
+            "rank": 3,
+            "score": 6.592172145843506,
+            "state": "Maryland"
+        },
+        {
+            "address": "JINYA Ramen Bar - Washington DC, 1336 14th St NW, Washington, DC 20005",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7b7ea61e2a789:0x2d27d078becab24b",
+            "iid": 17218,
+            "name": "JINYA Ramen Bar - Washington DC",
+            "rank": 4,
+            "score": 6.398844242095947,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Bantam King, 501 G St. NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Chicken restaurant', 'Halal restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7b78e62e9c015:0x83c5e2f25df7c10b",
+            "iid": 17181,
+            "name": "Bantam King",
+            "rank": 5,
+            "score": 6.180362701416016,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Toki Underground, 1234 H St NE, Washington, DC 20002",
+            "category": "['Asian restaurant', 'Bar', 'Cocktail bar', 'Dumpling restaurant', 'Noodle shop', 'Ramen restaurant', 'Soup shop']",
+            "gmap_id": "0x89b7b83fdcc20123:0x6390a2c38a93d1ee",
+            "iid": 17228,
+            "name": "Toki Underground",
+            "rank": 6,
+            "score": 6.166365146636963,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Rakuya, 1900 Q St NW, Washington, DC 20009",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b7c63e23aefb:0x1cc779f43393c70b",
+            "iid": 17202,
+            "name": "Rakuya",
+            "rank": 7,
+            "score": 5.979101181030273,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Sushi Sono, 10215 Wincopin Cir, Columbia, MD 21044",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7df968609838b:0x2223db4a7927ff18",
+            "iid": 17355,
+            "name": "Sushi Sono",
+            "rank": 8,
+            "score": 5.9543867111206055,
+            "state": "Maryland"
+        },
+        {
+            "address": "OKI Bowl DC & Sake, 1817 M St NW, Washington, DC 20036",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x89b7b7b866dd4bcd:0x787f6520fb7dc510",
+            "iid": 17195,
+            "name": "OKI Bowl DC & Sake",
+            "rank": 9,
+            "score": 5.917579650878906,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Donburi, 2438 18th St NW, Washington, DC 20009",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b7da31a51b99:0xc17792cc8a74fc76",
+            "iid": 17208,
+            "name": "Donburi",
+            "rank": 10,
+            "score": 5.894649028778076,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Chaplin's Restaurant, 1501 9th St NW, Washington, DC 20001",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Cocktail bar', 'Ramen restaurant']",
+            "gmap_id": "0x89b7b7edd940a969:0xfeed85a86d11e4ba",
+            "iid": 17220,
+            "name": "Chaplin's Restaurant",
+            "rank": 11,
+            "score": 5.852070331573486,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Kippo Ramen, 606 S Broadway, Baltimore, MD 21231",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x89c803803dd3a2e1:0x9fc4f72881c74973",
+            "iid": 20330,
+            "name": "Kippo Ramen",
+            "rank": 12,
+            "score": 5.831682205200195,
+            "state": "Maryland"
+        },
+        {
+            "address": "Nooshi, 524 8th St SE, Washington, DC 20003",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Noodle shop', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b83339ba76fd:0xd54e90be393bc05f",
+            "iid": 17225,
+            "name": "Nooshi",
+            "rank": 13,
+            "score": 5.798703670501709,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "SEI, 444 7th St NW, Washington, DC 20004",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Cocktail bar', 'Japanese restaurant', 'Korean restaurant', 'Restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x89b7b790202bbabd:0xf8ab84cec781e9ea",
+            "iid": 17182,
+            "name": "SEI",
+            "rank": 14,
+            "score": 5.504848480224609,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Momiji, 505 H St NW, Washington, D.C., DC 20001",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b78dcd02217b:0x3a0fd546e604ac77",
+            "iid": 17177,
+            "name": "Momiji",
+            "rank": 15,
+            "score": 5.437960624694824,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Zento Japanese Restaurant, 693 N Washington St, Alexandria, VA 22314",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b0fa7a15c0ed:0x201807100ec57207",
+            "iid": 17093,
+            "name": "Zento Japanese Restaurant",
+            "rank": 16,
+            "score": 5.394710540771484,
+            "state": "Virginia"
+        },
+        {
+            "address": "Red Maple Asian Cuisine and Bar, 10110 Colesville Rd, Silver Spring, MD 20901",
+            "category": "['Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7cf58d90e1dff:0xd02f612ffaf04992",
+            "iid": 17330,
+            "name": "Red Maple Asian Cuisine and Bar",
+            "rank": 17,
+            "score": 5.3393073081970215,
+            "state": "Maryland"
+        },
+        {
+            "address": "Azumi, 725 Aliceanna St, Baltimore, MD 21202",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c8037c5cce5087:0xdf9baccae956162b",
+            "iid": 20326,
+            "name": "Azumi",
+            "rank": 18,
+            "score": 5.326381206512451,
+            "state": "Maryland"
+        },
+        {
+            "address": "Yuraku Japanese Restaurant, 19773 Frederick Rd, Germantown, MD 20876",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89b62c8a5a734031:0x4e80321509b713a1",
+            "iid": 16888,
+            "name": "Yuraku Japanese Restaurant",
+            "rank": 19,
+            "score": 5.29408597946167,
+            "state": "Maryland"
+        },
+        {
+            "address": "Sushi Q Elkridge, 6325 Washington Blvd Unit F, Elkridge, MD 21075",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7e21c73a462e9:0xb8125cb785603269",
+            "iid": 17364,
+            "name": "Sushi Q Elkridge",
+            "rank": 20,
+            "score": 5.292341709136963,
+            "state": "Maryland"
+        }
+    ],
+    "user": {
+        "name": "Tanveer Huq",
+        "uid": 92368,
+        "user_id": 112473692825486621977
+    }
+}

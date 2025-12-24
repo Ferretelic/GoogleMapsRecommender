@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai Thai Cuisine, 3843 County Rd 516, Old Bridge, NJ 08857",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2012/03/16",
+            "gmap_id": "0x89c3cdcd366c388d:0xfede8b4042f47aa3",
+            "iid": 64895,
+            "name": "Thai Thai Cuisine",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1331867947772
+        },
+        {
+            "address": "Sakura Japanese Steakhouse and Sushi Bar, 102 Railway Ln, Hagerstown, MD 21740",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2012/03/20",
+            "gmap_id": "0x89c9f28d8696465d:0x595e8df22c41a11d",
+            "iid": 67561,
+            "name": "Sakura Japanese Steakhouse and Sushi Bar",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1332271618222
+        },
+        {
+            "address": "Bhojan, 102 Lexington Ave, New York, NY 10016",
+            "category": "['Indian restaurant']",
+            "date": "2014/05/19",
+            "gmap_id": "0x89c259a77d70ea29:0xa3ad705d4a102b11",
+            "iid": 59981,
+            "name": "Bhojan",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1400462357133
+        },
+        {
+            "address": "Lemon Grass Thai Cuisine, 2666 Madison Rd, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2014/12/21",
+            "gmap_id": "0x8841b27c4ac71271:0x7dad837a84c9af3a",
+            "iid": 41909,
+            "name": "Lemon Grass Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1419132514725
+        },
+        {
+            "address": "House of Bangkok Thai Cuisine, 4876 Dixie Hwy, Fairfield, OH 45014",
+            "category": "['Thai restaurant']",
+            "date": "2015/02/05",
+            "gmap_id": "0x884048bc779f7ff9:0x2132cd760dee38ac",
+            "iid": 41551,
+            "name": "House of Bangkok Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1423161914420
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2015/04/27",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 41584,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1430156930708
+        },
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/06/19",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 57120,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1434672779005
+        },
+        {
+            "address": "Korealistic, 7735 Cox Ln, West Chester Township, OH 45069",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2015/10/19",
+            "gmap_id": "0x88405a08b91e2211:0x95315cd3fa4e1e73",
+            "iid": 41688,
+            "name": "Korealistic",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1445272240846
+        },
+        {
+            "address": "Bonsai Sushi, 1652 Bruce B Downs Blvd, Wesley Chapel, FL 33544",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2016/01/11",
+            "gmap_id": "0x88c2b0d2fb83f1df:0xd2bd6d1d5eb33fdf",
+            "iid": 46897,
+            "name": "Bonsai Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1452536948568
+        },
+        {
+            "address": "Kettles Vietnamese Bistro, 1202 W Steele Ln, Santa Rosa, CA 95403",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/08/23",
+            "gmap_id": "0x8084386f07f68219:0x4f80d53a4df5d02a",
+            "iid": 6694,
+            "name": "Kettles Vietnamese Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1471922974527
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Thai Ginger, 1045 Washington Blvd, Trenton, NJ 08691",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Delivery service', 'Health food restaurant', 'Takeout Restaurant', 'Restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x89c15f7a73e0df75:0x50536e818ab3e4ba",
+            "iid": 57923,
+            "name": "Thai Ginger",
+            "rank": 1,
+            "score": -2.745204448699951,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Choolaah, 227 Summit Park Dr, Pittsburgh, PA 15275",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8834597962f96e63:0xd1e11802828caac5",
+            "iid": 40179,
+            "name": "Choolaah",
+            "rank": 2,
+            "score": -2.802790403366089,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Rice Bowl of India, 4919 N Main St, Baytown, TX 77521",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x863f5d3c8e240e7b:0xfd7317fec7cf8748",
+            "iid": 22596,
+            "name": "Rice Bowl of India",
+            "rank": 3,
+            "score": -2.8150455951690674,
+            "state": "Texas"
+        },
+        {
+            "address": "Jia, Beau Rivage Resort & Casino, 875 Beach Blvd, Biloxi, MS 39530",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x889c0ee4e5989573:0xad26816cd5b50b41",
+            "iid": 46734,
+            "name": "Jia",
+            "rank": 4,
+            "score": -2.840214729309082,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Panda Express, 4106 S Garnett Rd, Tulsa, OK 74146",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x87b68d17568d5345:0x6c6ab0819c4df5ad",
+            "iid": 32502,
+            "name": "Panda Express",
+            "rank": 5,
+            "score": -2.8508188724517822,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Kanji Goose Creek, 119 Plantation N Blvd #2A, Goose Creek, SC 29445",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88fe6182c397d121:0xe5cefcb52509df03",
+            "iid": 53186,
+            "name": "Kanji Goose Creek",
+            "rank": 6,
+            "score": -2.8657524585723877,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Ajeet India & Nepali Cuisine, 341 Ludlow Ave, Cincinnati, OH 45220",
+            "category": "['Indian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x8841b3982068e231:0x1cbea42f0cd89006",
+            "iid": 41925,
+            "name": "Ajeet India & Nepali Cuisine",
+            "rank": 7,
+            "score": -2.866157293319702,
+            "state": "Ohio"
+        },
+        {
+            "address": "EurAsia 3- Ramen | Sushi | Poke, 5222 Burnet Rd Ste 400A, Austin, TX 78756",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8644cb2c4d2df40b:0xcc5d31866dd02d7e",
+            "iid": 24498,
+            "name": "EurAsia 3- Ramen | Sushi | Poke",
+            "rank": 8,
+            "score": -2.8670451641082764,
+            "state": "Texas"
+        },
+        {
+            "address": "Sunita's Thai Kitchen, 9085 SW Beaverton Hillsdale Hwy, Portland, OR 97225",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x54950dfd5b44f22f:0xc8849a5c5d3225aa",
+            "iid": 3913,
+            "name": "Sunita's Thai Kitchen",
+            "rank": 9,
+            "score": -2.871605634689331,
+            "state": "Oregon"
+        },
+        {
+            "address": "Red Lantern Chinese Cuisine, 926 S Grand Ave, Glendora, CA 91740",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80c327e4dab9784b:0xe5a754ee1d0a3fc",
+            "iid": 16206,
+            "name": "Red Lantern Chinese Cuisine",
+            "rank": 10,
+            "score": -2.872680425643921,
+            "state": "California"
+        },
+        {
+            "address": "Bombaywala & CO., 440 Forest Ave, Paramus, NJ 07652",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x89c2fabf1bf402fd:0xe1c35c5ba85e8ea3",
+            "iid": 63808,
+            "name": "Bombaywala & CO.",
+            "rank": 11,
+            "score": -2.8727638721466064,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 12,
+            "score": -2.872988700866699,
+            "state": "Nevada"
+        },
+        {
+            "address": "Japan House, 324 Long Hollow Pike #201, Goodlettsville, TN 37072",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x886445dedf27abd9:0xdb17a61e1bc3644b",
+            "iid": 44400,
+            "name": "Japan House",
+            "rank": 13,
+            "score": -2.8733601570129395,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Vijayawada Biryani Point, 2636 Homestead Rd, Santa Clara, CA 95051",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808fcb95e23b913d:0x35652c9e9f464a73",
+            "iid": 10878,
+            "name": "Vijayawada Biryani Point",
+            "rank": 14,
+            "score": -2.8733644485473633,
+            "state": "California"
+        },
+        {
+            "address": "Sakana Japanese Sushi & Steak (Vista), 925 S Vista Ave, Boise, ID 83705",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54aef9121eea2eb5:0x7423f2f686dde59c",
+            "iid": 5117,
+            "name": "Sakana Japanese Sushi & Steak (Vista)",
+            "rank": 15,
+            "score": -2.8768441677093506,
+            "state": "Idaho"
+        },
+        {
+            "address": "Sozai Restaurant, 449 W 14 Mile Rd, Clawson, MI 48017",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8824c553948eb74f:0xbf0db8301f8ea484",
+            "iid": 39301,
+            "name": "Sozai Restaurant",
+            "rank": 16,
+            "score": -2.877495288848877,
+            "state": "Michigan"
+        },
+        {
+            "address": "Curry Craft - Nordahl, 763 Center Dr Suite #101, San Marcos, CA 92069",
+            "category": "['Restaurant', 'Indian restaurant', 'Modern Indian restaurant']",
+            "gmap_id": "0x80dbf5eb5db40f95:0x67d368113c0cdbcb",
+            "iid": 18409,
+            "name": "Curry Craft - Nordahl",
+            "rank": 17,
+            "score": -2.8795595169067383,
+            "state": "California"
+        },
+        {
+            "address": "South Carolina, Bluffton, Kitties Landing Rd, AKOMEYA Asian Bistro\u90ae\u653f\u7f16\u7801: 29910",
+            "category": "['Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fb8935eab40ddf:0x1a3c58a6f7fab549",
+            "iid": 53079,
+            "name": "AKOMEYA Asian Bistro",
+            "rank": 18,
+            "score": -2.8811213970184326,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "Teriyaki Madness, 6409 Grand Ave Unit B1, Gurnee, IL 60031",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x880f8f2d3efc9b33:0x475966cd277b5021",
+            "iid": 37005,
+            "name": "Teriyaki Madness",
+            "rank": 19,
+            "score": -2.8817572593688965,
+            "state": "Illinois"
+        },
+        {
+            "address": "Wagaya Sushi & Grill, 3425 SE 192nd Ave #110, Vancouver, WA 98683",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x5495a50de6f12307:0x468bc09fe8306d5c",
+            "iid": 4484,
+            "name": "Wagaya Sushi & Grill",
+            "rank": 20,
+            "score": -2.882171630859375,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Oren Pollak",
+        "uid": 303678,
+        "user_id": 110172896773652108969
+    }
+}

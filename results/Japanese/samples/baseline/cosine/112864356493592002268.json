@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Taka's Grill, 250 N Main St A, Fort Bragg, CA 95437",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/02/25",
+            "gmap_id": "0x8080354f2d8d99db:0x3f8ff0f649d7a2a8",
+            "iid": 2068,
+            "name": "Taka's Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1487984472872
+        },
+        {
+            "address": "Yummy Grill & Sushi, 7331 W Lake Mead Blvd #105, Las Vegas, NV 89128",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/03/27",
+            "gmap_id": "0x80c8c03b3878def7:0xfb43d84b05509fc0",
+            "iid": 5229,
+            "name": "Yummy Grill & Sushi",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1490622220761
+        },
+        {
+            "address": "Viet Orleans Bistro, 300 Baronne St, New Orleans, LA 70112, United States",
+            "category": "['Vietnamese restaurant', 'Sushi restaurant']",
+            "date": "2017/03/27",
+            "gmap_id": "0x8620a60b208863e7:0x5fa33e228deba3d8",
+            "iid": 6991,
+            "name": "Viet Orleans Bistro",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1490622311586
+        },
+        {
+            "address": "SoHo Sushi, 3218 W Kennedy Blvd, Tampa, FL 33609",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/03/27",
+            "gmap_id": "0x88c2c372cbb3f0c5:0xd73048e656d33cb",
+            "iid": 14020,
+            "name": "SoHo Sushi",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1490624878963
+        },
+        {
+            "address": "Little Tokyo Restaurant, 2300 N Causeway Blvd, Metairie, LA 70001",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/11/22",
+            "gmap_id": "0x8620b01b30afee65:0x4c2b634d17f1270a",
+            "iid": 7017,
+            "name": "Little Tokyo Restaurant",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1511315305851
+        },
+        {
+            "address": "H2O Sushi & Izakaya, 325 Hughes Center Dr #120, Las Vegas, NV 89169",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/12/24",
+            "gmap_id": "0x80c8c44f4578a00d:0x59a269e8ef7e7a38",
+            "iid": 5284,
+            "name": "H2O Sushi & Izakaya",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1514075429453
+        },
+        {
+            "address": "Sasa Sushi, 7408, 7450 W Cheyenne Ave #118, Las Vegas, NV 89129",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/01/24",
+            "gmap_id": "0x80c8ea962edddfab:0x8bf6011622070724",
+            "iid": 5464,
+            "name": "Sasa Sushi",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1516753665683
+        },
+        {
+            "address": "Kona Grill - Boca Park, 750 S Rampart Blvd, Las Vegas, NV 89145",
+            "category": "['American restaurant', 'Cocktail bar', 'Sushi restaurant']",
+            "date": "2018/02/24",
+            "gmap_id": "0x80c8bf8420ed52bd:0xca3d80a5fa2d1e26",
+            "iid": 5215,
+            "name": "Kona Grill - Boca Park",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1519435608666
+        },
+        {
+            "address": "YAMA SUSHI SPRING MOUNTAIN, 3909 Spring Mountain Rd, Las Vegas, NV 89102",
+            "category": "['Sushi restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x80c8c6a655532729:0x8328ff4c96853f0d",
+            "iid": 5330,
+            "name": "YAMA SUSHI SPRING MOUNTAIN",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1539277634797
+        },
+        {
+            "address": "Sushiro, 556 N Eastern Ave ste h, Las Vegas, NV 89101",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x80c8c34182ffe791:0x9fac80f4b35eccd",
+            "iid": 5248,
+            "name": "Sushiro",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1539277967217
+        },
+        {
+            "address": "Kikuya Restaurant, 1315 N King St, Honolulu, HI 96817",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x7c006e631bf852c5:0x4c71ad0e549a3827",
+            "iid": 1956,
+            "name": "Kikuya Restaurant",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1539278687930
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Daisho Sushi, 7435 S Eastern Ave, Las Vegas, NV 89123",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c8cf9502c92bd5:0x2cab316d7ed3d465",
+            "iid": 5420,
+            "name": "Daisho Sushi",
+            "rank": 1,
+            "score": 0.6164255142211914,
+            "state": "Nevada"
+        },
+        {
+            "address": "Tokyo Boys, 375 N Stephanie St UNIT 311, Henderson, NV 89014",
+            "category": "['Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8d05621e83ee9:0xe37a6ba21b7d7712",
+            "iid": 5426,
+            "name": "Tokyo Boys",
+            "rank": 2,
+            "score": 0.6162006258964539,
+            "state": "Nevada"
+        },
+        {
+            "address": "Michi Ramen, 1018 W Sunset Rd, Henderson, NV 89014",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80c8d18122e0e8a7:0x7db19212ce1a3f75",
+            "iid": 5429,
+            "name": "Michi Ramen",
+            "rank": 3,
+            "score": 0.6051357984542847,
+            "state": "Nevada"
+        },
+        {
+            "address": "SOHO JAPANESE RESTAURANT, 7377 S Jones Blvd Ste 116, Las Vegas, NV 89139",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c8c62f4a35340f:0xbd778ea36e0ff2cb",
+            "iid": 5318,
+            "name": "SOHO JAPANESE RESTAURANT",
+            "rank": 4,
+            "score": 0.5893566608428955,
+            "state": "Nevada"
+        },
+        {
+            "address": "Biwon Korean BBQ and Sushi Restaurant All You Can Eat, 2721 W Sahara Ave, Las Vegas, NV 89102",
+            "category": "['Korean barbecue restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c3f845e96479:0xb9904c815b9bf470",
+            "iid": 5258,
+            "name": "Biwon Korean BBQ and Sushi Restaurant All You Can Eat",
+            "rank": 5,
+            "score": 0.5849184989929199,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushi King Las Vegas, 3430 E Tropicana Ave #30, Las Vegas, NV 89121",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c8c514413b48db:0x58bc35f3895c6b0",
+            "iid": 5300,
+            "name": "Sushi King Las Vegas",
+            "rank": 6,
+            "score": 0.5745781660079956,
+            "state": "Nevada"
+        },
+        {
+            "address": "Imperial Sushi Seafood Buffet, 5845 Spring Mountain Rd Suite B11, Las Vegas, NV 89146",
+            "category": "['Buffet restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c7921a774be3:0xf9beecd4d7299d5a",
+            "iid": 5372,
+            "name": "Imperial Sushi Seafood Buffet",
+            "rank": 7,
+            "score": 0.573740541934967,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushi Cruise, 2625 E Tropicana Ave, Las Vegas, NV 89121",
+            "category": "['Restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c8c53eed39abbb:0x1f7f449edb3a6361",
+            "iid": 5304,
+            "name": "Sushi Cruise",
+            "rank": 8,
+            "score": 0.5726658701896667,
+            "state": "Nevada"
+        },
+        {
+            "address": "Ohjah Japanese Steakhouse, 239 N Pecos Rd, Henderson, NV 89074",
+            "category": "['Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x80c8cfd126f9574b:0x1eb6909342932b8f",
+            "iid": 5424,
+            "name": "Ohjah Japanese Steakhouse",
+            "rank": 9,
+            "score": 0.5709480047225952,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushi Cafe, 237 N Stephanie St, Henderson, NV 89074",
+            "category": "['Japanese restaurant', 'Cafe', 'Cafeteria', 'Fast food restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8d1aa17eb4f5b:0x22bbf2eac007fd35",
+            "iid": 5433,
+            "name": "Sushi Cafe",
+            "rank": 10,
+            "score": 0.5704287886619568,
+            "state": "Nevada"
+        },
+        {
+            "address": "Crave American Kitchen & Sushi Bar, 10970 Rosemary Park Dr #160, Las Vegas, NV 89135",
+            "category": "['New American restaurant', 'Bar', 'Cocktail bar', 'Eclectic restaurant', 'Event venue', 'Fine dining restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x80c8be54fd1cae79:0x30accf8d47511a86",
+            "iid": 5202,
+            "name": "Crave American Kitchen & Sushi Bar",
+            "rank": 11,
+            "score": 0.5699850916862488,
+            "state": "Nevada"
+        },
+        {
+            "address": "Cook On Wok, 8380 W Cheyenne Ave, Las Vegas, NV 89129",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x80c8eab6f35df783:0xceaf659745a6186b",
+            "iid": 5465,
+            "name": "Cook On Wok",
+            "rank": 12,
+            "score": 0.5662833452224731,
+            "state": "Nevada"
+        },
+        {
+            "address": "Buffet@Asia, 4090 S Eastern Ave, Las Vegas, NV 89119",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Chinese restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c4e01b6fa821:0x1049916e6e97caeb",
+            "iid": 5292,
+            "name": "Buffet@Asia",
+            "rank": 13,
+            "score": 0.5606498122215271,
+            "state": "Nevada"
+        },
+        {
+            "address": "Hiroba Sushi, 10720 S Eastern Ave #100, Henderson, NV 89052",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8ce0714c608ed:0x1fb7d9ba561204b1",
+            "iid": 5402,
+            "name": "Hiroba Sushi",
+            "rank": 14,
+            "score": 0.5597558617591858,
+            "state": "Nevada"
+        },
+        {
+            "address": "89117 Nevada, Las Vegas, W Sahara Ave, Hanabi Sushi & Rolls",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8bf71bd23fe49:0xaf47fc40c7e9d9bf",
+            "iid": 5212,
+            "name": "Hanabi Sushi & Rolls",
+            "rank": 15,
+            "score": 0.5548099875450134,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushiwa, 790 Coronado Center Dr, Henderson, NV 89052",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8ce0fa06151c7:0x89ee9c16b0ac0f42",
+            "iid": 5404,
+            "name": "Sushiwa",
+            "rank": 16,
+            "score": 0.5532779097557068,
+            "state": "Nevada"
+        },
+        {
+            "address": "Bone and Belly Ramen, 2235 Village Walk Dr Suite 151, Henderson, NV 89052",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80c8d1d5eb7bca35:0x2c03d8a90b3e599",
+            "iid": 5436,
+            "name": "Bone and Belly Ramen",
+            "rank": 17,
+            "score": 0.5507422089576721,
+            "state": "Nevada"
+        },
+        {
+            "address": "Osaka Japanese Bistro, 4205 W Sahara Ave, Las Vegas, NV 89102",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c1516d58fcd9:0xaea54e9b04b4f71f",
+            "iid": 5240,
+            "name": "Osaka Japanese Bistro",
+            "rank": 18,
+            "score": 0.5450121164321899,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushi Loca Downtown Summerlin, Downtown Summerlin, 10965 Lavender Hill Dr, Las Vegas, NV 89135",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c8beffa9061223:0x18b201d576a04e9d",
+            "iid": 5203,
+            "name": "Sushi Loca Downtown Summerlin",
+            "rank": 19,
+            "score": 0.5413540601730347,
+            "state": "Nevada"
+        },
+        {
+            "address": "SOHO Sushi Burrito, 2600 W Sahara Ave Ste 115, Las Vegas, NV 89102",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8c50127124e09:0xfd0a76968ee44a6b",
+            "iid": 5296,
+            "name": "SOHO Sushi Burrito",
+            "rank": 20,
+            "score": 0.5406066179275513,
+            "state": "Nevada"
+        }
+    ],
+    "user": {
+        "name": "M W",
+        "uid": 95245,
+        "user_id": 112864356493592002268
+    }
+}

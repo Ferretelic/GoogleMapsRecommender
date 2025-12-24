@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Maharaja Indian Cuisine, 6290 N Lockwood Ridge Rd, Sarasota, FL 34243",
+            "category": "['Indian restaurant']",
+            "date": "2016/03/19",
+            "gmap_id": "0x88c33f1b73cc0937:0x478494f9a0525532",
+            "iid": 47535,
+            "name": "Maharaja Indian Cuisine",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1458345738720
+        },
+        {
+            "address": "Pho 101 NOODLE HOUSE, 6125 S Tamiami Trail, Sarasota, FL 34231",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/07/24",
+            "gmap_id": "0x88c34184582b759f:0x7ccc4ddeb4c6dd69",
+            "iid": 47569,
+            "name": "Pho 101 NOODLE HOUSE",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1469403349578
+        },
+        {
+            "address": "China Star, 3558 Clark Rd, Sarasota, FL 34231",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x88c34168438379b5:0x81cff5bbd99069d3",
+            "iid": 47562,
+            "name": "China Star",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1510774828789
+        },
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/12/17",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 47324,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1513534564782
+        },
+        {
+            "address": "Top Ph\u1edf, 11697 E Colfax Ave, Aurora, CO 80010",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/19",
+            "gmap_id": "0x876c7cb6b1cd1bc9:0xbfe6da705707f341",
+            "iid": 31248,
+            "name": "Top Ph\u1edf",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1566240585140
+        },
+        {
+            "address": "Thai Monkey Club, 102 S Broadway, Denver, CO 80209",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/12/22",
+            "gmap_id": "0x876c7f1e4411dcff:0x7df02cf7a3f12cd2",
+            "iid": 31349,
+            "name": "Thai Monkey Club",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1576991890520
+        },
+        {
+            "address": "Bangkok Restaurant, 4791 Swift Rd, Sarasota, FL 34231",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/02/20",
+            "gmap_id": "0x88c3410be5b61117:0x29115808ef2e0bae",
+            "iid": 47557,
+            "name": "Bangkok Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1582159605269
+        },
+        {
+            "address": "Pho 99, 5191 Clark Rd, Sarasota, FL 34233",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/02/23",
+            "gmap_id": "0x88c346b0c51f1c5d:0xe68e0b96520cfed7",
+            "iid": 47582,
+            "name": "Pho 99",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1582470370438
+        },
+        {
+            "address": "Pho Cali, 1578 Main St, Sarasota, FL 34236",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2020/02/23",
+            "gmap_id": "0x88c3406d233d24c3:0x382cec05d546e52b",
+            "iid": 47548,
+            "name": "Pho Cali",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1582470479216
+        },
+        {
+            "address": "Hideko 2 Sushi-Thai Restaurant, 7646 Lockwood Ridge Rd #4962, Sarasota, FL 34243",
+            "category": "['Thai restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/03/08",
+            "gmap_id": "0x88c33ee51f22ecf7:0xb02a6ff63dcc2cd4",
+            "iid": 47532,
+            "name": "Hideko 2 Sushi-Thai Restaurant",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1583679884363
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Gao Fresh Noodle, 5863 S Vickery St, Cumming, GA 30040",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88f59d4683264629:0x1c82ea5fe094cd87",
+            "iid": 52168,
+            "name": "Gao Fresh Noodle",
+            "rank": 1,
+            "score": -2.384058952331543,
+            "state": "Georgia"
+        },
+        {
+            "address": "Mono Mono Korean Fried Chicken, 1550 Blake St, Denver, CO 80202",
+            "category": "['Chicken wings restaurant', 'Bar', 'Korean restaurant']",
+            "gmap_id": "0x876c79f508592285:0x92c3486b36b9abb2",
+            "iid": 31221,
+            "name": "Mono Mono Korean Fried Chicken",
+            "rank": 2,
+            "score": -2.4034242630004883,
+            "state": "Colorado"
+        },
+        {
+            "address": "Miyako House, 122 College St, Asheville, NC 28801",
+            "category": "['Japanese restaurant', 'Japanese curry restaurant']",
+            "gmap_id": "0x8859f3d736d6225f:0xb34e9583f2ae75f7",
+            "iid": 43784,
+            "name": "Miyako House",
+            "rank": 3,
+            "score": -2.4084956645965576,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Sakana Japanese Sushi & Steak (Vista), 925 S Vista Ave, Boise, ID 83705",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54aef9121eea2eb5:0x7423f2f686dde59c",
+            "iid": 5117,
+            "name": "Sakana Japanese Sushi & Steak (Vista)",
+            "rank": 4,
+            "score": -2.4100959300994873,
+            "state": "Idaho"
+        },
+        {
+            "address": "Hurry Curry of Tokyo - Bellevue, 15015 Main St #114, Bellevue, WA 98007",
+            "category": "['Japanese restaurant', 'Japanese curry restaurant']",
+            "gmap_id": "0x54906ddc960d1a33:0x8b9d4d43cbd106de",
+            "iid": 3171,
+            "name": "Hurry Curry of Tokyo - Bellevue",
+            "rank": 5,
+            "score": -2.4211227893829346,
+            "state": "Washington"
+        },
+        {
+            "address": "Summerlin Body Therapeutics, 7455 W Washington Ave #210, Las Vegas, NV 89128",
+            "category": "['Massage spa', 'Day spa', 'Facial spa', 'Foot massage parlor', 'Massage therapist', 'Medical spa', 'Reiki therapist', 'Sports massage therapist', 'Thai massage therapist', 'Waxing hair removal service']",
+            "gmap_id": "0x80c8c041ded0a6af:0xb0fa50113b09e24b",
+            "iid": 16941,
+            "name": "Summerlin Body Therapeutics",
+            "rank": 6,
+            "score": -2.423621654510498,
+            "state": "Nevada"
+        },
+        {
+            "address": "Mandala Indian Cuisine, 14510 Big Basin Way Suite 3, Saratoga, CA 95070",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808e4bea1d6e188b:0x77a4e1a59a37b5fe",
+            "iid": 8744,
+            "name": "Mandala Indian Cuisine",
+            "rank": 7,
+            "score": -2.4241175651550293,
+            "state": "California"
+        },
+        {
+            "address": "Tokyo Sushi Steakhouse, 1815 E Jackson Blvd, Jackson, MO 63755",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88778b6d85c7274d:0xfb086edbf83c4101",
+            "iid": 45553,
+            "name": "Tokyo Sushi Steakhouse",
+            "rank": 8,
+            "score": -2.4263463020324707,
+            "state": "Missouri"
+        },
+        {
+            "address": "Ph\u1edf Ca Dao & Grill, 609 N Escondido Blvd, Escondido, CA 92025",
+            "category": "['Restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dbf498577c894d:0xbfc4248b9ea12bef",
+            "iid": 18392,
+            "name": "Ph\u1edf Ca Dao & Grill",
+            "rank": 9,
+            "score": -2.4274137020111084,
+            "state": "California"
+        },
+        {
+            "address": "Charlie Chow's Dragon Grill, 255 E 400 S, Salt Lake City, UT 84111",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x8752f529e14136bf:0x473678d1ef5def9f",
+            "iid": 30435,
+            "name": "Charlie Chow's Dragon Grill",
+            "rank": 10,
+            "score": -2.4294230937957764,
+            "state": "Utah"
+        },
+        {
+            "address": "Texas, Frisco, Main St, 888 Cookhouse\u90ae\u653f\u7f16\u7801: 75033",
+            "category": "['Traditional restaurant', 'Asian restaurant', 'Chinese noodle restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Restaurant']",
+            "gmap_id": "0x864c3ba758de1911:0x4ab35c0dab34038e",
+            "iid": 25898,
+            "name": "888 Cookhouse",
+            "rank": 11,
+            "score": -2.4318859577178955,
+            "state": "Texas"
+        },
+        {
+            "address": "Seafood Party Midwest City, 7199 SE 29th St suite 104-5, Midwest City, OK 73110",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x87b23d42d7eb1611:0xde91180e9ce71afd",
+            "iid": 32372,
+            "name": "Seafood Party Midwest City",
+            "rank": 12,
+            "score": -2.4329097270965576,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Padma's Amrutham, 11990 Coit Rd Suite #140, Frisco, TX 75035",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864c3fe214363e59:0xf95b0047aa987851",
+            "iid": 26031,
+            "name": "Padma's Amrutham",
+            "rank": 13,
+            "score": -2.4334330558776855,
+            "state": "Texas"
+        },
+        {
+            "address": "Urban Rolls, 5428 Crossings Dr Suite 101, Rocklin, CA 95677",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'Pho restaurant']",
+            "gmap_id": "0x809b1fb39dd8e6a7:0x757d2c6ab152b3e4",
+            "iid": 12751,
+            "name": "Urban Rolls",
+            "rank": 14,
+            "score": -2.4335174560546875,
+            "state": "California"
+        },
+        {
+            "address": "9292 Korean BBQ, 7131 Little River Turnpike, Annandale, VA 22003",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89b7b3acd0eeb06f:0xf3fe8acb9d065dad",
+            "iid": 56114,
+            "name": "9292 Korean BBQ",
+            "rank": 15,
+            "score": -2.4353151321411133,
+            "state": "Virginia"
+        },
+        {
+            "address": "Kelly's Healing Massage, 990 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Massage therapist', 'Thai massage therapist']",
+            "gmap_id": "0x808fb782b4f1c997:0x5bc9681b751fdba4",
+            "iid": 10276,
+            "name": "Kelly's Healing Massage",
+            "rank": 16,
+            "score": -2.435793161392212,
+            "state": "California"
+        },
+        {
+            "address": "Izumi Spa Massage, 4060 S El Camino Real, San Mateo, CA 94403",
+            "category": "['Massage therapist', 'Foot massage parlor', 'Massage spa', 'Reflexologist', 'Sports massage therapist', 'Thai massage therapist']",
+            "gmap_id": "0x808f9fc41a5420bb:0xa2962d7894687118",
+            "iid": 9838,
+            "name": "Izumi Spa Massage",
+            "rank": 17,
+            "score": -2.4371695518493652,
+            "state": "California"
+        },
+        {
+            "address": "Two Wheels, 1382 2nd Ave, New York, NY 10021",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c2594986ef4705:0x2282de136ccabd50",
+            "iid": 59444,
+            "name": "Two Wheels",
+            "rank": 18,
+            "score": -2.437229871749878,
+            "state": "New_York"
+        },
+        {
+            "address": "W & Z Asian bistro & sushi bar, 203 East, AZ-260, Payson, AZ 85541",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x872c11fd058f1093:0x55159130f6ee2ad0",
+            "iid": 29756,
+            "name": "W & Z Asian bistro & sushi bar",
+            "rank": 19,
+            "score": -2.4374730587005615,
+            "state": "Arizona"
+        },
+        {
+            "address": "Dragon Teriyaki Express, 5630 Fulton Industrial Blvd SW Suite A, Atlanta, GA 30336",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88f51f47d72e7c75:0xaec04592eb95ea5b",
+            "iid": 51825,
+            "name": "Dragon Teriyaki Express",
+            "rank": 20,
+            "score": -2.4376585483551025,
+            "state": "Georgia"
+        }
+    ],
+    "user": {
+        "name": "Ana Mihajlovic",
+        "uid": 83710,
+        "user_id": 102811755458729443310
+    }
+}

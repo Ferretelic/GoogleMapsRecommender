@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Garden, 820 Bay Ave, Capitola, CA 95010",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/04",
+            "gmap_id": "0x808e1570875d3997:0x98f3493c6278462a",
+            "iid": 2634,
+            "name": "Sushi Garden",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1522825723821
+        },
+        {
+            "address": "I Love Sushi, 516 Front St, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/04/10",
+            "gmap_id": "0x808e4027a1421e47:0xb4af237d8bea6224",
+            "iid": 2709,
+            "name": "I Love Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1523338884145
+        },
+        {
+            "address": "Shogun Japanese Restaurant, 1123 Pacific Ave, Santa Cruz, CA 95060",
+            "category": "['Japanese restaurant']",
+            "date": "2018/09/20",
+            "gmap_id": "0x808e4027c63414c1:0xae0f0291b3b4fd1",
+            "iid": 2710,
+            "name": "Shogun Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537458753836
+        },
+        {
+            "address": "Okayama Sushi, 565 N 6th St A, San Jose, CA 95112",
+            "category": "['Sushi restaurant', 'Banquet hall', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/12/03",
+            "gmap_id": "0x808fcc85292a5649:0xfa6c79a02cd9fd85",
+            "iid": 3292,
+            "name": "Okayama Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543871354273
+        },
+        {
+            "address": "Nijiya Market, 240 Jackson St, San Jose, CA 95112",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "date": "2019/01/15",
+            "gmap_id": "0x808fcc84e134e047:0x845a11e6ecd8d327",
+            "iid": 3285,
+            "name": "Nijiya Market",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1547574458261
+        },
+        {
+            "address": "Japonessa Sushi Cocina, 1400 1st Ave, Seattle, WA 98101",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Delivery service', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "date": "2019/03/11",
+            "gmap_id": "0x54906ab24f2c0953:0x76d1c08a65e548de",
+            "iid": 745,
+            "name": "Japonessa Sushi Cocina",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1552284619871
+        },
+        {
+            "address": "Hojoko, 1271 Boylston St, Boston, MA 02215",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "date": "2019/04/02",
+            "gmap_id": "0x89e37a1dfada04cf:0x5663cd8bf7332a94",
+            "iid": 21058,
+            "name": "Hojoko",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554169777942
+        },
+        {
+            "address": "Sapporo Ramen, 1815 Massachusetts Ave, Cambridge, MA 02140",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/03",
+            "gmap_id": "0x89e3773dcbeacf09:0xb3e3b8fbdf6266db",
+            "iid": 20963,
+            "name": "Sapporo Ramen",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1554256515700
+        },
+        {
+            "address": "Sushi Garden Scotts Valley, 5600 Scotts Valley Dr STE C, Scotts Valley, CA 95066",
+            "category": "['Sushi restaurant']",
+            "date": "2020/01/01",
+            "gmap_id": "0x808e474f08433dd7:0x3c7ed1a419af34f",
+            "iid": 2713,
+            "name": "Sushi Garden Scotts Valley",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1577918491560
+        },
+        {
+            "address": "Kappo Nami Nami, 240 Castro St, Mountain View, CA 94041",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/09/11",
+            "gmap_id": "0x808fb7346d0186b5:0x5adc861e7de67053",
+            "iid": 3145,
+            "name": "Kappo Nami Nami",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1599863944814
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Tokyo Hibachi (under construction), 2140 Salem Rd SE, Conyers, GA 30013",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f44b0a3d11e1c1:0xd805e150fb8e7847",
+            "iid": 15672,
+            "name": "Tokyo Hibachi (under construction)",
+            "rank": 1,
+            "score": -2.5301403999328613,
+            "state": "Georgia"
+        },
+        {
+            "address": "Zitz Sum, 396 Alhambra Cir Suite 155, Coral Gables, FL 33134",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Wine bar']",
+            "gmap_id": "0x88d9b795fa9df5b3:0x47c18216cde285c2",
+            "iid": 14751,
+            "name": "Zitz Sum",
+            "rank": 2,
+            "score": -2.5306549072265625,
+            "state": "Florida"
+        },
+        {
+            "address": "Hinoya Curry SF, 3347 Fillmore St, San Francisco, CA 94123",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x80858152c09edccb:0x3dd372d88b08ccb8",
+            "iid": 2479,
+            "name": "Hinoya Curry SF",
+            "rank": 3,
+            "score": -2.5311403274536133,
+            "state": "California"
+        },
+        {
+            "address": "n/soto, 4566 W Washington Blvd, Los Angeles, CA 90016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2b9c6f355bbaf:0xaa31f74ab8b51600",
+            "iid": 4279,
+            "name": "n/soto",
+            "rank": 4,
+            "score": -2.5311663150787354,
+            "state": "California"
+        },
+        {
+            "address": "Poke & More, 12892 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Health food restaurant', 'Bubble tea store', 'Hawaiian restaurant', 'Japanese restaurant', 'Salad shop', 'Sushi takeaway', 'Tea house']",
+            "gmap_id": "0x88d9ad81428cb5fd:0x4248f353aaeebc2f",
+            "iid": 14600,
+            "name": "Poke & More",
+            "rank": 5,
+            "score": -2.5316991806030273,
+            "state": "Florida"
+        },
+        {
+            "address": "Yakuza House, 1325 Veterans Memorial Blvd STE A, Metairie, LA 70005",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8620af787063e9dd:0xf184b6b82a89db6f",
+            "iid": 7013,
+            "name": "Yakuza House",
+            "rank": 6,
+            "score": -2.5320043563842773,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Kokoro Ramen, 1473 Brace Rd Ste G, Cherry Hill, NJ 08034",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c6cd6758861349:0x62ffcee4babebc48",
+            "iid": 20214,
+            "name": "Kokoro Ramen",
+            "rank": 7,
+            "score": -2.5326831340789795,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kumo Sushi, 825 Linden St, Bethlehem, PA 18018",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c43f2fd51473af:0x2d5e7f0ca29698dd",
+            "iid": 19897,
+            "name": "Kumo Sushi",
+            "rank": 8,
+            "score": -2.5362141132354736,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Rakkan Ramen, 600 N Shepherd Dr Suite 515, Houston, TX 77007",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x8640c79a00c02231:0x62c3ac7e16e0945a",
+            "iid": 7467,
+            "name": "Rakkan Ramen",
+            "rank": 9,
+            "score": -2.5406951904296875,
+            "state": "Texas"
+        },
+        {
+            "address": "Yokohama Greenwood, Yokohama, 67 N Madison Ave, Greenwood, IN 46142",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886b5d1755970877:0x2989b805c12417ab",
+            "iid": 13444,
+            "name": "Yokohama Greenwood",
+            "rank": 10,
+            "score": -2.5416269302368164,
+            "state": "Indiana"
+        },
+        {
+            "address": "Captain Hook's | Best Sushi, Best Pho, Best Thai, Sushi/Pho/Thai Cape Coral, 2612 Santa Barbara Blvd Ste. 12-13, Cape Coral, FL 33914",
+            "category": "['Restaurant', 'Pho restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88db47e53a3a3cdd:0xcb8b1298ce87fa64",
+            "iid": 14956,
+            "name": "Captain Hook's | Best Sushi, Best Pho, Best Thai, Sushi/Pho/Thai Cape Coral",
+            "rank": 11,
+            "score": -2.5417990684509277,
+            "state": "Florida"
+        },
+        {
+            "address": "Sushi Sakana Southlake, 2175 E Southlake Blvd #170, Southlake, TX 76092",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x864dd5663e11dd69:0xebc47d683d81af28",
+            "iid": 8141,
+            "name": "Sushi Sakana Southlake",
+            "rank": 12,
+            "score": -2.543401002883911,
+            "state": "Texas"
+        },
+        {
+            "address": "Ori Sushi Robata Bar, 12780 Foothill Blvd, Rancho Cucamonga, CA 91739",
+            "category": "['Authentic Japanese restaurant']",
+            "gmap_id": "0x80c34be682740a43:0x9b75ca8d0158887b",
+            "iid": 5150,
+            "name": "Ori Sushi Robata Bar",
+            "rank": 13,
+            "score": -2.543795585632324,
+            "state": "California"
+        },
+        {
+            "address": "Ten Ichi Mart & Deli, 188 Berry St, Brooklyn, NY 11249",
+            "category": "['Japanese grocery store', 'Sushi takeaway']",
+            "gmap_id": "0x89c2590e6a2dd07d:0x81e0c88307e1fd6",
+            "iid": 18174,
+            "name": "Ten Ichi Mart & Deli",
+            "rank": 14,
+            "score": -2.5465750694274902,
+            "state": "New_York"
+        },
+        {
+            "address": "Kansai Hayward, 954 B St, Hayward, CA 94541",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808f935a8ba23085:0x6f38e570c881fca5",
+            "iid": 2950,
+            "name": "Kansai Hayward",
+            "rank": 15,
+            "score": -2.547919750213623,
+            "state": "California"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 5092,
+            "name": "Sushi One Spot",
+            "rank": 16,
+            "score": -2.5488522052764893,
+            "state": "California"
+        },
+        {
+            "address": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR, 227 Parkingway, Quincy, MA 02169",
+            "category": "['Hot pot restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e37db2261101f9:0x469b051bcb527420",
+            "iid": 21099,
+            "name": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR",
+            "rank": 17,
+            "score": -2.5489132404327393,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 13141,
+            "name": "Aki Japanese Cuisine",
+            "rank": 18,
+            "score": -2.5492568016052246,
+            "state": "Alabama"
+        },
+        {
+            "address": "Sushi Miguels Style Highland, 7199 Boulder Ave UNIT 2, Highland, CA 92346",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c355a93311849b:0x50db28e0103c93fc",
+            "iid": 5165,
+            "name": "Sushi Miguels Style Highland",
+            "rank": 19,
+            "score": -2.5493900775909424,
+            "state": "California"
+        },
+        {
+            "address": "Little Miss Ha Vietnamese Cuisine, 915 Houston Northcutt Blvd, Mt Pleasant, SC 29464",
+            "category": "['Restaurant', 'Chinese noodle restaurant', 'Dumpling restaurant', 'Gluten-free restaurant', 'Japanese curry restaurant', 'Udon noodle restaurant', 'Vegan restaurant', 'Vegetarian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x88fe7181a0d495bd:0xf67816802e06f481",
+            "iid": 16299,
+            "name": "Little Miss Ha Vietnamese Cuisine",
+            "rank": 20,
+            "score": -2.549506902694702,
+            "state": "South_Carolina"
+        }
+    ],
+    "user": {
+        "name": "Eugene Tsuji",
+        "uid": 55542,
+        "user_id": 107491731858425290387
+    }
+}

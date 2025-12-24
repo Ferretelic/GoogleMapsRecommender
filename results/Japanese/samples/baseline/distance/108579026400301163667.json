@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Don Quijote Honolulu, 801 Kaheka St, Honolulu, HI 96814",
+            "category": "['Supermarket', 'Asian grocery store', 'General store', 'Grocery store', 'Japanese grocery store', 'Pharmacy']",
+            "date": "2018/07/19",
+            "gmap_id": "0x7c006dede4a406b3:0x328c1ae0697b7359",
+            "iid": 1897,
+            "name": "Don Quijote Honolulu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1531987236947
+        },
+        {
+            "address": "Mamaya, 98-199 Kamehameha Hwy A-7B, Aiea, HI 96701",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x7c006f52259fec47:0x2011717ac3237cd5",
+            "iid": 1983,
+            "name": "Mamaya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1532818993348
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "date": "2018/09/01",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1535785099475
+        },
+        {
+            "address": "Aunty's Ramen, 1110 McCully St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "date": "2018/11/08",
+            "gmap_id": "0x7c006d939cf63789:0x2a8866f414ab13b0",
+            "iid": 1855,
+            "name": "Aunty's Ramen",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1541661933507
+        },
+        {
+            "address": "sushi mon, 8320 W Sahara Ave #180, Las Vegas, NV 89117",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80c8c099c612a7d7:0x2ef03a37d49e8296",
+            "iid": 5232,
+            "name": "sushi mon",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1546317748529
+        },
+        {
+            "address": "RA Sushi Bar Restaurant and Ramen Sensei, 13802 N Scottsdale Rd #176, Scottsdale, AZ 85254",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x872b7415984cd6f9:0x6742aa51d351199f",
+            "iid": 9128,
+            "name": "RA Sushi Bar Restaurant and Ramen Sensei",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1546317827849
+        },
+        {
+            "address": "Ramen Ya, 2810 Valkenburgh St, Honolulu, HI 96818",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x7c006f7347bf7367:0xfba97e8979b70a8",
+            "iid": 1991,
+            "name": "Ramen Ya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1546845458403
+        },
+        {
+            "address": "Shirokiya Japan Village Walk, 1450 Ala Moana Blvd #1360, Honolulu, HI 96814",
+            "category": "['Food court', 'Bakery', 'Beer garden', 'Collectibles store', 'Dessert shop', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/19",
+            "gmap_id": "0x7c006df045a36271:0xc32f4e283f2349fa",
+            "iid": 1915,
+            "name": "Shirokiya Japan Village Walk",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1547880365609
+        },
+        {
+            "address": "Junpuu, 1010 S King St #108, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x7c006de6f0845ce5:0xe1ec9e0c4d3d0f29",
+            "iid": 1884,
+            "name": "Junpuu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1549186702049
+        },
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "split": "valid",
+            "state": "Hawaii",
+            "unix_time": 1554623876513
+        },
+        {
+            "address": "Matsuzaka-Tei, 1029 Makolu St B, Pearl City, HI 96782",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x7c00660d0fc65569:0x5ad624fe38aaa438",
+            "iid": 1778,
+            "name": "Matsuzaka-Tei",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1561803767134
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Han no Daidokoro, 1108 Auahi St #150, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006dc74eaa1c6d:0xe43bfe063dc1fab5",
+            "iid": 1869,
+            "name": "Han no Daidokoro",
+            "rank": 1,
+            "score": -1.6624765396118164,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Matsuzaka-Tei, 328 Kalihi St, Honolulu, HI 96819",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006f9ab1ed940b:0x49f9f2e53dc1da9c",
+            "iid": 1992,
+            "name": "Matsuzaka-Tei",
+            "rank": 2,
+            "score": -2.0641188621520996,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Hawaii Pot Shabu Shabu House, 554 Olive Ave, Wahiawa, HI 96786",
+            "category": "['Japanese restaurant', 'Hot pot restaurant', 'Shabu-shabu restaurant']",
+            "gmap_id": "0x7c005d7ed78d73a3:0x4e01e33b1943eca7",
+            "iid": 1742,
+            "name": "Hawaii Pot Shabu Shabu House",
+            "rank": 3,
+            "score": -2.115417718887329,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Marians Catering, 79 Mango Pl, Wahiawa, HI 96786",
+            "category": "['Caterer', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c005df23f6a1613:0xb32158520a60a61a",
+            "iid": 1744,
+            "name": "Marians Catering",
+            "rank": 4,
+            "score": -2.1291379928588867,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tahk Omakase Sushi, 737 Lincoln Ave, Steamboat Springs, CO 80487",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x874269419caa5f51:0x8e1b6acc59ae233f",
+            "iid": 9253,
+            "name": "Tahk Omakase Sushi",
+            "rank": 5,
+            "score": -2.1357572078704834,
+            "state": "Colorado"
+        },
+        {
+            "address": "Pok\u00e9 Spot, 655 S Willow St Suite 100, Manchester, NH 03103",
+            "category": "['Hawaiian restaurant', 'Poke bar', 'Sushi takeaway']",
+            "gmap_id": "0x89e24fa11528e093:0x95cf042b6e10a6f4",
+            "iid": 20794,
+            "name": "Pok\u00e9 Spot",
+            "rank": 6,
+            "score": -2.1360065937042236,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "MJ Sushi, 6068 Stevenson Blvd, Fremont, CA 94538",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808fc735dc8e5163:0xc347bf3f2a90e1b3",
+            "iid": 3205,
+            "name": "MJ Sushi",
+            "rank": 7,
+            "score": -2.1453990936279297,
+            "state": "California"
+        },
+        {
+            "address": "Shibuya Eatery, 2321 18th St NW, Washington, DC 20009",
+            "category": "['Authentic Japanese restaurant']",
+            "gmap_id": "0x89b7b7584644c729:0xc54467546c04377e",
+            "iid": 17169,
+            "name": "Shibuya Eatery",
+            "rank": 8,
+            "score": -2.1454975605010986,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Donburi Station Bellevue, 14339 NE 20th St Ste E, Bellevue, WA 98007",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54906d9f5fd8d82d:0x2ef566f33cf5ddb9",
+            "iid": 833,
+            "name": "Donburi Station Bellevue",
+            "rank": 9,
+            "score": -2.145787239074707,
+            "state": "Washington"
+        },
+        {
+            "address": "Pennsylvania, Parkesburg, Commons Dr, Raku Hibachi & Sushi\u90ae\u653f\u7f16\u7801: 19365",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c645a73520a34b:0x33382e546efa1ef3",
+            "iid": 19962,
+            "name": "Raku Hibachi & Sushi",
+            "rank": 10,
+            "score": -2.1480965614318848,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR, 227 Parkingway, Quincy, MA 02169",
+            "category": "['Hot pot restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e37db2261101f9:0x469b051bcb527420",
+            "iid": 21099,
+            "name": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR",
+            "rank": 11,
+            "score": -2.1525397300720215,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Zitz Sum, 396 Alhambra Cir Suite 155, Coral Gables, FL 33134",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Wine bar']",
+            "gmap_id": "0x88d9b795fa9df5b3:0x47c18216cde285c2",
+            "iid": 14751,
+            "name": "Zitz Sum",
+            "rank": 12,
+            "score": -2.152822971343994,
+            "state": "Florida"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 5092,
+            "name": "Sushi One Spot",
+            "rank": 13,
+            "score": -2.1561152935028076,
+            "state": "California"
+        },
+        {
+            "address": "Yakuza House, 1325 Veterans Memorial Blvd STE A, Metairie, LA 70005",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8620af787063e9dd:0xf184b6b82a89db6f",
+            "iid": 7013,
+            "name": "Yakuza House",
+            "rank": 14,
+            "score": -2.1562788486480713,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Umami, 2808 7th Ave S #117, Birmingham, AL 35233",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x88891b21dd9aa693:0xdff7e1830df368df",
+            "iid": 13679,
+            "name": "Umami",
+            "rank": 15,
+            "score": -2.1566100120544434,
+            "state": "Alabama"
+        },
+        {
+            "address": "Rosella, 137 Avenue A, New York, NY 10009",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c259a9610bfc8f:0x58666551a9dcb450",
+            "iid": 18487,
+            "name": "Rosella",
+            "rank": 16,
+            "score": -2.1568925380706787,
+            "state": "New_York"
+        },
+        {
+            "address": "Asiatico Asian Kitchen, 10 SE, Bay St, Depoe Bay, OR 97341",
+            "category": "['Asian fusion restaurant', 'Dumpling restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54ea879977c09a93:0x5ba271afa76e6a29",
+            "iid": 1607,
+            "name": "Asiatico Asian Kitchen",
+            "rank": 17,
+            "score": -2.158107280731201,
+            "state": "Oregon"
+        },
+        {
+            "address": "KINTON RAMEN, 197 Niagara, Central Valley, NY 10917",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c2d7c85814c731:0xd9c56ceab2fb9f12",
+            "iid": 19291,
+            "name": "KINTON RAMEN",
+            "rank": 18,
+            "score": -2.158337354660034,
+            "state": "New_York"
+        },
+        {
+            "address": "Rakiraki Ramen & Tsukemen, 8973 Mira Mesa Blvd, San Diego, CA 92126",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80dbf92f91221309:0x82e305f2a2070736",
+            "iid": 5761,
+            "name": "Rakiraki Ramen & Tsukemen",
+            "rank": 19,
+            "score": -2.158581018447876,
+            "state": "California"
+        },
+        {
+            "address": "Vegas Test Kitchen, 1020 E Fremont St #120, Las Vegas, NV 89101",
+            "category": "['American restaurant', 'Asian restaurant', 'Bagel shop', 'Pie shop', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c36d11539e27:0xc136ddffaf461845",
+            "iid": 5249,
+            "name": "Vegas Test Kitchen",
+            "rank": 20,
+            "score": -2.1588149070739746,
+            "state": "Nevada"
+        }
+    ],
+    "user": {
+        "name": "Gordon Lam",
+        "uid": 63531,
+        "user_id": 108579026400301163667
+    }
+}

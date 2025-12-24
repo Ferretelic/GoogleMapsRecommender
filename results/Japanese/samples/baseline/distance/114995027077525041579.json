@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hashigo Sushi, 18685 Main St, Huntington Beach, CA 92648",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/04/20",
+            "gmap_id": "0x80dd26c6e35cdd0b:0x82f132ec9dc794b5",
+            "iid": 6446,
+            "name": "Hashigo Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492651759291
+        },
+        {
+            "address": "Sushi Raku Japanese Restaurant, 5190 Kanan Rd, Agoura Hills, CA 91301",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/28",
+            "gmap_id": "0x80e826a94ccae66d:0xe04ea388825cba69",
+            "iid": 6775,
+            "name": "Sushi Raku Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1493349655970
+        },
+        {
+            "address": "Red Samurai Steak House, 8562 Seneca Turnpike, New Hartford, NY 13413",
+            "category": "['Japanese restaurant', 'Takeout Restaurant']",
+            "date": "2017/07/22",
+            "gmap_id": "0x89d9418d6dd9330d:0x4eeabaae2e961ce4",
+            "iid": 20618,
+            "name": "Red Samurai Steak House",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1500695876609
+        },
+        {
+            "address": "Yoshi Japanese Cuisine, 17005 Bear Valley Rd Suite B, Hesperia, CA 92345",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/06/19",
+            "gmap_id": "0x80c366e749e965e3:0x91d6349601ce71c1",
+            "iid": 5181,
+            "name": "Yoshi Japanese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560970442608
+        },
+        {
+            "address": "Fuji Steak House, 4389 Eastgate Square Dr, Cincinnati, OH 45245",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x8841a9ffd53462c5:0xf7efa6d322aa7ab7",
+            "iid": 12321,
+            "name": "Fuji Steak House",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1561684338115
+        },
+        {
+            "address": "Secret Garden, 2731 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x89d9f32801a09419:0xf56eee4f8cd060d5",
+            "iid": 20636,
+            "name": "Secret Garden",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1561684407127
+        },
+        {
+            "address": "Jiro Sushi, 1101 NW 23rd St, Oklahoma City, OK 73106",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x87b210b2211aa3bd:0x3310c206e77ec102",
+            "iid": 9963,
+            "name": "Jiro Sushi",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1561684458946
+        },
+        {
+            "address": "Sushi Twister, 5566 Boulder Hwy, Las Vegas, NV 89122",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c8da8627e5f537:0x64a2a4bac24c2237",
+            "iid": 5445,
+            "name": "Sushi Twister",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1561684488345
+        },
+        {
+            "address": "SLICE SHABU, 16871 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Shabu-shabu restaurant', 'Asian restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Soup restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80dd26f42a8a5823:0x443a1b8d85d354cb",
+            "iid": 6449,
+            "name": "SLICE SHABU",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1561684507875
+        },
+        {
+            "address": "I Love Sushi, 11041 S Eastern Ave, Henderson, NV 89052",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2020/01/10",
+            "gmap_id": "0x80c8cdfc7ea2d411:0xdeb907e376f60437",
+            "iid": 5399,
+            "name": "I Love Sushi",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1578679821243
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Osaki, 970 Millcreek Mall, Erie, PA 16565",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese steakhouse', 'Steak house']",
+            "gmap_id": "0x883281df78da6769:0xfaa081184ae93dfc",
+            "iid": 11906,
+            "name": "Osaki",
+            "rank": 1,
+            "score": -3.022176742553711,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sushi Damu, 3651 Justin Rd #140, Flower Mound, TX 75028",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864c33380e63aa97:0x6865c75ec094564f",
+            "iid": 8051,
+            "name": "Sushi Damu",
+            "rank": 2,
+            "score": -3.1034419536590576,
+            "state": "Texas"
+        },
+        {
+            "address": "Tahk Omakase Sushi, 737 Lincoln Ave, Steamboat Springs, CO 80487",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x874269419caa5f51:0x8e1b6acc59ae233f",
+            "iid": 9253,
+            "name": "Tahk Omakase Sushi",
+            "rank": 3,
+            "score": -3.1069724559783936,
+            "state": "Colorado"
+        },
+        {
+            "address": "Sen Udon, 39-32 Bell Blvd, Queens, NY 11361",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c28bc095078d8b:0xba8adc6ad9b9b3be",
+            "iid": 19171,
+            "name": "Sen Udon",
+            "rank": 4,
+            "score": -3.113243341445923,
+            "state": "New_York"
+        },
+        {
+            "address": "Vegas Test Kitchen, 1020 E Fremont St #120, Las Vegas, NV 89101",
+            "category": "['American restaurant', 'Asian restaurant', 'Bagel shop', 'Pie shop', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c36d11539e27:0xc136ddffaf461845",
+            "iid": 5249,
+            "name": "Vegas Test Kitchen",
+            "rank": 5,
+            "score": -3.117877721786499,
+            "state": "Nevada"
+        },
+        {
+            "address": "Izumi Revolving Sushi, 94 Serramonte Center, Daly City, CA 94015",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f7bb3a4b7abdf:0x2c797d4284c808be",
+            "iid": 2769,
+            "name": "Izumi Revolving Sushi",
+            "rank": 6,
+            "score": -3.123171091079712,
+            "state": "California"
+        },
+        {
+            "address": "Ichiban Sushi & Cajun Seafood, 802 W 1425 N, Layton, UT 84041",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8753030b60a4460b:0x2af915d0faaa8da8",
+            "iid": 9448,
+            "name": "Ichiban Sushi & Cajun Seafood",
+            "rank": 7,
+            "score": -3.1237800121307373,
+            "state": "Utah"
+        },
+        {
+            "address": "KINTON RAMEN, 197 Niagara, Central Valley, NY 10917",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c2d7c85814c731:0xd9c56ceab2fb9f12",
+            "iid": 19291,
+            "name": "KINTON RAMEN",
+            "rank": 8,
+            "score": -3.125382900238037,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Enya Beverly Hills, 480 S San Vicente Blvd, Los Angeles, CA 90048",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b9dd3e58da15:0xc96ba51c4fd2b4b5",
+            "iid": 4282,
+            "name": "Sushi Enya Beverly Hills",
+            "rank": 9,
+            "score": -3.1262497901916504,
+            "state": "California"
+        },
+        {
+            "address": "Pacific Kitchen - more than just Pok\u00e9, 25810 Hemingway Ave, Stevenson Ranch, CA 91381",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2812b600ee3dd:0xe1dd8aa06432f08b",
+            "iid": 3851,
+            "name": "Pacific Kitchen - more than just Pok\u00e9",
+            "rank": 10,
+            "score": -3.1267402172088623,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Sakana Southlake, 2175 E Southlake Blvd #170, Southlake, TX 76092",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x864dd5663e11dd69:0xebc47d683d81af28",
+            "iid": 8141,
+            "name": "Sushi Sakana Southlake",
+            "rank": 11,
+            "score": -3.1272079944610596,
+            "state": "Texas"
+        },
+        {
+            "address": "California, San Francisco, 20th St, Yoji House\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x808f7fd5297e6c73:0xc12d39e4d3397baf",
+            "iid": 2866,
+            "name": "Yoji House",
+            "rank": 12,
+            "score": -3.127727746963501,
+            "state": "California"
+        },
+        {
+            "address": "Frisco Sushi 469, 3288 Main St, Frisco, TX 75033",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864c3bd954afffff:0x9a85739ca0006a8d",
+            "iid": 8063,
+            "name": "Frisco Sushi 469",
+            "rank": 13,
+            "score": -3.128115653991699,
+            "state": "Texas"
+        },
+        {
+            "address": "2nd South Market, 210 2nd Ave S, Twin Falls, ID 83301",
+            "category": "['Restaurant', 'Barbecue restaurant', 'Beer hall', 'Coffee shop', 'Family restaurant', 'Ice cream shop', 'Live music venue', 'Mexican restaurant', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54aca32d5bff417b:0xf45d648dc1606903",
+            "iid": 1418,
+            "name": "2nd South Market",
+            "rank": 14,
+            "score": -3.1284430027008057,
+            "state": "Idaho"
+        },
+        {
+            "address": "Sushi En, 8900 Hadden Rd, Twinsburg, OH 44087",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x88311f2c29f75b61:0x190678f35f5da04c",
+            "iid": 11871,
+            "name": "Sushi En",
+            "rank": 15,
+            "score": -3.1285829544067383,
+            "state": "Ohio"
+        },
+        {
+            "address": "Kumo Sushi, 825 Linden St, Bethlehem, PA 18018",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c43f2fd51473af:0x2d5e7f0ca29698dd",
+            "iid": 19897,
+            "name": "Kumo Sushi",
+            "rank": 16,
+            "score": -3.1291604042053223,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Hoshi sushi, 6516 Superior Ave, Sarasota, FL 34231",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x88c3410c16faea97:0xc54bd1496eeee948",
+            "iid": 14221,
+            "name": "Hoshi sushi",
+            "rank": 17,
+            "score": -3.1294095516204834,
+            "state": "Florida"
+        },
+        {
+            "address": "Kobe Buddha House, 89 Plaistow Rd, Haverhill, MA 01830",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e2ff595d03b599:0x87ac8b4d11cb0e45",
+            "iid": 20819,
+            "name": "Kobe Buddha House",
+            "rank": 18,
+            "score": -3.1314122676849365,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "JINYA Ramen Bar - Chandler, 130 S Arizona Ave #1, Chandler, AZ 85225",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x872babfaf945b035:0xc2362c5faf806d72",
+            "iid": 9194,
+            "name": "JINYA Ramen Bar - Chandler",
+            "rank": 19,
+            "score": -3.1317336559295654,
+            "state": "Arizona"
+        },
+        {
+            "address": "E.B.I. Sushi & More, 7900 4th St N, St. Petersburg, FL 33702",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c2e7fb9f661a61:0xef914789cc3b5bc4",
+            "iid": 14113,
+            "name": "E.B.I. Sushi & More",
+            "rank": 20,
+            "score": -3.1318399906158447,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Wonji Dharma",
+        "uid": 111013,
+        "user_id": 114995027077525041579
+    }
+}

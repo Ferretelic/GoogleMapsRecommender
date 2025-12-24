@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mt. Fuji, 309 W Cardinal Blvd, Louisville, KY 40208",
+            "category": "['Japanese restaurant']",
+            "date": "2018/03/25",
+            "gmap_id": "0x88690d5e750b5bc3:0xfe9f2cc7b5693f33",
+            "iid": 13349,
+            "name": "Mt. Fuji",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522018046122
+        },
+        {
+            "address": "Fuji Asian Bistro, 6801 Dixie Hwy Ste 102, Louisville, KY 40258",
+            "category": "['Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x8869115a366431c7:0xd73c285d9408b97a",
+            "iid": 13351,
+            "name": "Fuji Asian Bistro",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522326797607
+        },
+        {
+            "address": "Sapporo Japanese Grill & Sushi, 1706 Bardstown Rd, Louisville, KY 40205",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x88690cb7b114d637:0x2505b84d7fefc412",
+            "iid": 13346,
+            "name": "Sapporo Japanese Grill & Sushi",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522326930022
+        },
+        {
+            "address": "Tea Station Asian Bistro, 9422 Norton Commons Blvd, Prospect, KY 40059",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/23",
+            "gmap_id": "0x88699dd3d11f4dc7:0x7caded1cff772dfa",
+            "iid": 13384,
+            "name": "Tea Station Asian Bistro",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1524522661904
+        },
+        {
+            "address": "FUSIAN, 8060 Montgomery Rd #100, Cincinnati, OH 45236",
+            "category": "['Asian restaurant', 'Grocery delivery service', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "date": "2018/06/03",
+            "gmap_id": "0x884053417a94e3f3:0xd74b0dccf7ed76c3",
+            "iid": 12271,
+            "name": "FUSIAN",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1527987813905
+        },
+        {
+            "address": "Sakura Blue, 4600 Shelbyville Rd #118, Louisville, KY 40207",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/05",
+            "gmap_id": "0x8869753b8f0d209f:0xccdae23a24d6c72b",
+            "iid": 13370,
+            "name": "Sakura Blue",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1551814009447
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/05/15",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 12259,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1557888195695
+        },
+        {
+            "address": "ToGo Sushi, 700 Lyndon Ln, Louisville, KY 40222",
+            "category": "['Sushi restaurant']",
+            "date": "2019/12/30",
+            "gmap_id": "0x8869756173b3ccbd:0x3766b43815c820f3",
+            "iid": 13371,
+            "name": "ToGo Sushi",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1577740821998
+        },
+        {
+            "address": "Bamboo Sushi Bar & Hibachi, 2505 S Ferdon Blvd, Crestview, FL 32536",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2020/01/20",
+            "gmap_id": "0x88917343a0be528f:0x8d6ac2318a65bfaa",
+            "iid": 13830,
+            "name": "Bamboo Sushi Bar & Hibachi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1579480281814
+        },
+        {
+            "address": "Dragon King's Daughter, 129 W Market St, New Albany, IN 47150",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Raw food restaurant', 'Sushi restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x88696c59271c543f:0x6a305d4240bb0d0",
+            "iid": 13354,
+            "name": "Dragon King's Daughter",
+            "split": "test",
+            "state": "Indiana",
+            "unix_time": 1619395873607
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Ginza Asian Bistro, 9420 Shelbyville Rd, Louisville, KY 40222",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88699fbca6f98ad5:0x2da02f78ec9319bb",
+            "iid": 13390,
+            "name": "Ginza Asian Bistro",
+            "rank": 1,
+            "score": -1.8805714845657349,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Okome House, 4457 42nd Ave S, Minneapolis, MN 55406",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87f629ab9b5c76db:0xed925ce0aa795710",
+            "iid": 10585,
+            "name": "Okome House",
+            "rank": 2,
+            "score": -2.318483352661133,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Tengu Sushi, 715 SW Hurbert St Unit D, Newport, OR 97365",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Restaurant', 'Rice restaurant']",
+            "gmap_id": "0x54c1d7c44b3121e5:0x49b9b26833e1e58",
+            "iid": 1553,
+            "name": "Tengu Sushi",
+            "rank": 3,
+            "score": -2.318558692932129,
+            "state": "Oregon"
+        },
+        {
+            "address": "Soto, 224 Westheimer Rd, Houston, TX 77006",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640bf9f740090b7:0x955e0ea4c8926396",
+            "iid": 7367,
+            "name": "Soto",
+            "rank": 4,
+            "score": -2.3199193477630615,
+            "state": "Texas"
+        },
+        {
+            "address": "Yokohama Greenwood, Yokohama, 67 N Madison Ave, Greenwood, IN 46142",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886b5d1755970877:0x2989b805c12417ab",
+            "iid": 13444,
+            "name": "Yokohama Greenwood",
+            "rank": 5,
+            "score": -2.3206942081451416,
+            "state": "Indiana"
+        },
+        {
+            "address": "Sushi Master, 9415 Norton Commons Blvd #101, Prospect, KY 40059",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88699d38a30a0151:0xa89e01a36cb19b98",
+            "iid": 13383,
+            "name": "Sushi Master",
+            "rank": 6,
+            "score": -2.3214430809020996,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Q One Teriyaki & Sushi Express, 569 N State St, Lindon, UT 84042",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x874d85be085328a1:0x2f5b4e6312d4ebef",
+            "iid": 9281,
+            "name": "Q One Teriyaki & Sushi Express",
+            "rank": 7,
+            "score": -2.3231165409088135,
+            "state": "Utah"
+        },
+        {
+            "address": "Bonchon Dinkytown, 406 14th Ave SE, Minneapolis, MN 55414",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x52b32d5f3ea67b89:0x84bc5ea7a618bc0c",
+            "iid": 143,
+            "name": "Bonchon Dinkytown",
+            "rank": 8,
+            "score": -2.324868679046631,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Sushi Ichiban, 520 E Fremont St #150, Las Vegas, NV 89101",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8c3afc86d0603:0x3d26da3c0368a0de",
+            "iid": 5254,
+            "name": "Sushi Ichiban",
+            "rank": 9,
+            "score": -2.3258204460144043,
+            "state": "Nevada"
+        },
+        {
+            "address": "Rayaki Ramen Philadelphia, 2818 Cottman Ave, Philadelphia, PA 19149",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c6b5eef0ea4bb1:0x82b6f216b160f06b",
+            "iid": 20053,
+            "name": "Rayaki Ramen Philadelphia",
+            "rank": 10,
+            "score": -2.327270030975342,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tetsumen Ramen, 697 Manono St, Hilo, HI 96720",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x79524bb383114005:0xbde91439c4a7511f",
+            "iid": 1678,
+            "name": "Tetsumen Ramen",
+            "rank": 11,
+            "score": -2.3277699947357178,
+            "state": "Hawaii"
+        },
+        {
+            "address": "in the raw vu, 110 N Elgin Ave, Tulsa, OK 74120",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87b6ebc8cf416e37:0x43b86cdad061173f",
+            "iid": 10077,
+            "name": "in the raw vu",
+            "rank": 12,
+            "score": -2.328657388687134,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "On Demand Sushi, 5660 S Hualapai Way #105, Las Vegas, NV 89148",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8b8b99d17fe13:0x93aae06a8b41dc60",
+            "iid": 5200,
+            "name": "On Demand Sushi",
+            "rank": 13,
+            "score": -2.3298134803771973,
+            "state": "Nevada"
+        },
+        {
+            "address": "Pok\u00e9 Spot, 655 S Willow St Suite 100, Manchester, NH 03103",
+            "category": "['Hawaiian restaurant', 'Poke bar', 'Sushi takeaway']",
+            "gmap_id": "0x89e24fa11528e093:0x95cf042b6e10a6f4",
+            "iid": 20794,
+            "name": "Pok\u00e9 Spot",
+            "rank": 14,
+            "score": -2.3299543857574463,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "n/soto, 4566 W Washington Blvd, Los Angeles, CA 90016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2b9c6f355bbaf:0xaa31f74ab8b51600",
+            "iid": 4279,
+            "name": "n/soto",
+            "rank": 15,
+            "score": -2.330016613006592,
+            "state": "California"
+        },
+        {
+            "address": "Blue Buddha Sushi Lounge, 99 Town Center Ave Unit A5, Big Sky, MT 59716",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x535011abb3ad1cf7:0x73648049aed43785",
+            "iid": 241,
+            "name": "Blue Buddha Sushi Lounge",
+            "rank": 16,
+            "score": -2.330103635787964,
+            "state": "Montana"
+        },
+        {
+            "address": "PASSION FUSION GRILLE, 20 SW COURT SQ, Graham, NC 27253",
+            "category": "['Restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Chinese takeaway', 'Sushi restaurant']",
+            "gmap_id": "0x88532b9aa1a0cded:0x25bddb5d3852a239",
+            "iid": 12592,
+            "name": "PASSION FUSION GRILLE",
+            "rank": 17,
+            "score": -2.331129789352417,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "RamenYa, 7938 Crain Hwy S, Glen Burnie, MD 21061",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7fd4f0cb2fd15:0x67cb8646ed7a7c7f",
+            "iid": 17408,
+            "name": "RamenYa",
+            "rank": 18,
+            "score": -2.331805944442749,
+            "state": "Maryland"
+        },
+        {
+            "address": "P.F. Chang's To Go, 630 3rd Ave, New York, NY 10017",
+            "category": "['Delivery Chinese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259f20ebdfa73:0x9fe453b2158c1cba",
+            "iid": 18608,
+            "name": "P.F. Chang's To Go",
+            "rank": 19,
+            "score": -2.332371473312378,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Burrito Cafe, 623 Northern Pacific Ave, Fargo, ND 58102",
+            "category": "['Sushi restaurant', 'Bubble tea store', 'Restaurant']",
+            "gmap_id": "0x52c8c9529de98d77:0xa0c253a1dfae6ea7",
+            "iid": 201,
+            "name": "Sushi Burrito Cafe",
+            "rank": 20,
+            "score": -2.332646131515503,
+            "state": "North_Dakota"
+        }
+    ],
+    "user": {
+        "name": "Dereck De J",
+        "uid": 118492,
+        "user_id": 116003820119391990251
+    }
+}

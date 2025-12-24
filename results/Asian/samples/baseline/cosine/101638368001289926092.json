@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Royal Albert's Palace, 1050 King Georges Post Rd, Fords, NJ 08863",
+            "category": "['Banquet hall', 'Asian restaurant', 'Conference center', 'Indian restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "date": "2018/02/14",
+            "gmap_id": "0x89c3b5fcb74f9ab3:0xde8fa45baff66466",
+            "iid": 64482,
+            "name": "Royal Albert's Palace",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1518635918782
+        },
+        {
+            "address": "Adda Indian Canteen, 31-31 Thomson Ave, Queens, NY 11101",
+            "category": "['Indian restaurant']",
+            "date": "2019/11/01",
+            "gmap_id": "0x89c25ff7a5e3c723:0x2bb730fbe0c20890",
+            "iid": 61435,
+            "name": "Adda Indian Canteen",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1572577014898
+        },
+        {
+            "address": "Aarzu Modern Indian Bistro, 30 E Main St, Freehold, NJ 07728",
+            "category": "['Indian restaurant', 'Delivery service', 'Fine dining restaurant', 'Takeout Restaurant', 'Small plates restaurant', 'Tapas bar']",
+            "date": "2020/01/06",
+            "gmap_id": "0x89c3d4676c2673e1:0x633f11f714426a82",
+            "iid": 64947,
+            "name": "Aarzu Modern Indian Bistro",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1578270541409
+        },
+        {
+            "address": "iPh\u1edf Tower Vietnamese-French Bistro, 3623 Broadway Blvd, Kansas City, MO 64111",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant', 'French restaurant']",
+            "date": "2020/02/02",
+            "gmap_id": "0x87c0efd90346ad71:0xda21223ee554f4da",
+            "iid": 33152,
+            "name": "iPh\u1edf Tower Vietnamese-French Bistro",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1580639225122
+        },
+        {
+            "address": "Honest Restaurant Edison, 1681 Oak Tree Rd, Edison, NJ 08820",
+            "category": "['Indian restaurant', 'Vegetarian restaurant']",
+            "date": "2020/07/05",
+            "gmap_id": "0x89c3b6f6dd22ec43:0xdae773af15b9f7cd",
+            "iid": 64540,
+            "name": "Honest Restaurant Edison",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1593990543529
+        },
+        {
+            "address": "Dimple's Khasiyat Restaurant, 77 Middlesex Ave, Iselin, NJ 08830",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "date": "2020/07/06",
+            "gmap_id": "0x89c3b68557f14ae5:0xb4a8e48f270cf336",
+            "iid": 64501,
+            "name": "Dimple's Khasiyat Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1594003640803
+        },
+        {
+            "address": "Honest Restaurant, 811 Newark Ave, Jersey City, NJ 07306",
+            "category": "['Indian restaurant']",
+            "date": "2020/08/30",
+            "gmap_id": "0x89c2572fdf3ce741:0x2e9a2e6c48ddec34",
+            "iid": 58693,
+            "name": "Honest Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1598829193497
+        },
+        {
+            "address": "Udipi Cafe, 4141 Old William Penn Hwy, Monroeville, PA 15146",
+            "category": "['Indian restaurant']",
+            "date": "2020/09/07",
+            "gmap_id": "0x8834ebcbd5a5bdf7:0xa3e51660ee167bc8",
+            "iid": 40281,
+            "name": "Udipi Cafe",
+            "split": "train",
+            "state": "Pennsylvania",
+            "unix_time": 1599522006184
+        },
+        {
+            "address": "Tikka Shack Indian Grub //Mechanicsburg, 825 Hogestown Rd, Mechanicsburg, PA 17050",
+            "category": "['Indian restaurant']",
+            "date": "2020/09/07",
+            "gmap_id": "0x89c8ddca81d13a49:0x2e02c646a389c68f",
+            "iid": 67446,
+            "name": "Tikka Shack Indian Grub //Mechanicsburg",
+            "split": "valid",
+            "state": "Pennsylvania",
+            "unix_time": 1599522105009
+        },
+        {
+            "address": "A2B Indian Veg Restaurant, 3159 US-46, Parsippany, NJ 07054",
+            "category": "['Restaurant', 'Sweets and dessert buffet', 'Indian restaurant', 'South Asian restaurant', 'Vegetarian restaurant']",
+            "date": "2020/10/11",
+            "gmap_id": "0x89c3096915d82cc1:0xed10a546ab937b12",
+            "iid": 64034,
+            "name": "A2B Indian Veg Restaurant",
+            "split": "test",
+            "state": "New_Jersey",
+            "unix_time": 1602382074148
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Mejwaani, 2105 New Brunswick Ave #3, South Plainfield, NJ 07080",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3b84d958fdd4f:0xb0af4e11cf3c111b",
+            "iid": 64596,
+            "name": "Mejwaani",
+            "rank": 1,
+            "score": 0.6214780807495117,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Masala Times Greenwich Village, 194 Bleecker St, New York, NY 10012",
+            "category": "['Indian restaurant', 'Delivery service', 'Halal restaurant']",
+            "gmap_id": "0x89c2599216239655:0x623c66fcbc615618",
+            "iid": 59733,
+            "name": "Masala Times Greenwich Village",
+            "rank": 2,
+            "score": 0.6066276431083679,
+            "state": "New_York"
+        },
+        {
+            "address": "Anjappar, 116 Lexington Ave, New York, NY 10016, United States",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c25909d4fd1d69:0x2982f827d4c7bdda",
+            "iid": 59294,
+            "name": "Anjappar",
+            "rank": 3,
+            "score": 0.5789716839790344,
+            "state": "New_York"
+        },
+        {
+            "address": "The Kati Roll Company, 49 W 39th St, New York, NY 10018",
+            "category": "['Fast food restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c259aa651f4c2d:0xd34771f7bf73446c",
+            "iid": 60061,
+            "name": "The Kati Roll Company",
+            "rank": 4,
+            "score": 0.575005054473877,
+            "state": "New_York"
+        },
+        {
+            "address": "Thelewala, 112 MacDougal St, New York, NY 10012",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c2599227759f0f:0x55970149a25eba9",
+            "iid": 59740,
+            "name": "Thelewala",
+            "rank": 5,
+            "score": 0.5742539763450623,
+            "state": "New_York"
+        },
+        {
+            "address": "Dhamaka, 119 Delancey St, New York, NY 10002",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c259ed25db2327:0x376080ea1043c7bb",
+            "iid": 60274,
+            "name": "Dhamaka",
+            "rank": 6,
+            "score": 0.5555672645568848,
+            "state": "New_York"
+        },
+        {
+            "address": "EggMania - Iselin NJ, 1546 Oak Tree Rd, Iselin, NJ 08830",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3b68c51296a0b:0xca1c9141fe2f7c5c",
+            "iid": 64504,
+            "name": "EggMania - Iselin NJ",
+            "rank": 7,
+            "score": 0.552413284778595,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "The Kati Roll Company, 22 Maiden Ln, New York, NY 10038",
+            "category": "['Indian takeaway']",
+            "gmap_id": "0x89c25b4031859517:0x3185a17525aefb92",
+            "iid": 60656,
+            "name": "The Kati Roll Company",
+            "rank": 8,
+            "score": 0.5507552623748779,
+            "state": "New_York"
+        },
+        {
+            "address": "Rotikaa Foods, 1174 Green St, Iselin, NJ 08830",
+            "category": "['Indian takeaway', 'Bakery']",
+            "gmap_id": "0x89c3b78841f68131:0x674e0a5616cc2c7e",
+            "iid": 64575,
+            "name": "Rotikaa Foods",
+            "rank": 9,
+            "score": 0.542500376701355,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "The Kati Roll Company, 99 MacDougal St, New York, NY 10012",
+            "category": "['Fast food restaurant', 'Asian restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c2599227e6cc1b:0xb4d5e12eaca2e69",
+            "iid": 59742,
+            "name": "The Kati Roll Company",
+            "rank": 10,
+            "score": 0.5401034951210022,
+            "state": "New_York"
+        },
+        {
+            "address": "Saravanaa Bhavan, 81 Lexington Ave, New York, NY 10016",
+            "category": "['Vegetarian restaurant', 'Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25909c372a2e9:0x67d618b66f6774f3",
+            "iid": 59288,
+            "name": "Saravanaa Bhavan",
+            "rank": 11,
+            "score": 0.5400018692016602,
+            "state": "New_York"
+        },
+        {
+            "address": "Moti Mahal Delux, 1149 1st Avenue, New York, NY 10065",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c258e80eb87003:0x1d65400fcaf944d9",
+            "iid": 59118,
+            "name": "Moti Mahal Delux",
+            "rank": 12,
+            "score": 0.5391359925270081,
+            "state": "New_York"
+        },
+        {
+            "address": "Patel Brothers, 780-782 Newark Ave, Jersey City, NJ 07306",
+            "category": "['Indian grocery store', \"Farmers' market\", 'Grocery store', 'Wholesaler']",
+            "gmap_id": "0x89c25730232e1bab:0x2bb7c0456bf1d6fd",
+            "iid": 58700,
+            "name": "Patel Brothers",
+            "rank": 13,
+            "score": 0.5388753414154053,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Taco Mahal, 73 7th Ave S, New York, NY 10014",
+            "category": "['Indian restaurant', 'Restaurant', 'Taco restaurant']",
+            "gmap_id": "0x89c259939e98e71b:0x4d4ea6942d64831e",
+            "iid": 59757,
+            "name": "Taco Mahal",
+            "rank": 14,
+            "score": 0.5327087044715881,
+            "state": "New_York"
+        },
+        {
+            "address": "Bar Moga, 128 W Houston St, New York, NY 10012",
+            "category": "['Cocktail bar', 'Japanese restaurant']",
+            "gmap_id": "0x89c2598df8d92e47:0xa12703a46b7b6d42",
+            "iid": 59715,
+            "name": "Bar Moga",
+            "rank": 15,
+            "score": 0.5277311205863953,
+            "state": "New_York"
+        },
+        {
+            "address": "Rajbhog Sweets, 812 Newark Ave, Jersey City, NJ 07306",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c2572fde59f0b3:0x2494495a9a14e552",
+            "iid": 58692,
+            "name": "Rajbhog Sweets",
+            "rank": 16,
+            "score": 0.5270727872848511,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kailash Parbat, 99 Lexington Ave, New York, NY 10016",
+            "category": "['Indian restaurant', 'Caterer', 'Gluten-free restaurant', 'Kosher restaurant', 'Delivery Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x4065fce8515b924d:0xaed1813516a30bf8",
+            "iid": 55,
+            "name": "Kailash Parbat",
+            "rank": 17,
+            "score": 0.5254766941070557,
+            "state": "New_York"
+        },
+        {
+            "address": "Sri Dosa Place, 271 NJ-27, Iselin, NJ 08830",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3b68f7d34d485:0x848f8320b65a7368",
+            "iid": 64511,
+            "name": "Sri Dosa Place",
+            "rank": 18,
+            "score": 0.5235270261764526,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Indian King Biryani House (Cart), Broadway &, Liberty St, New York, NY 10005",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x89c25a176f7f704f:0x570909545412d88f",
+            "iid": 60320,
+            "name": "Indian King Biryani House (Cart)",
+            "rank": 19,
+            "score": 0.5184911489486694,
+            "state": "New_York"
+        },
+        {
+            "address": "Rasoi II Restaurant, 1567 Oak Tree Rd, Iselin, NJ 08830",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c3b68cf7aafca1:0xfd277d0fc236472f",
+            "iid": 64510,
+            "name": "Rasoi II Restaurant",
+            "rank": 20,
+            "score": 0.5147475004196167,
+            "state": "New_Jersey"
+        }
+    ],
+    "user": {
+        "name": "Anuja Shah",
+        "uid": 48908,
+        "user_id": 101638368001289926092
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Seafood Shanty, 31 Dock St, Edgartown, MA 02539",
+            "category": "['Seafood restaurant', 'Bar', 'Sushi restaurant']",
+            "date": "2015/11/24",
+            "gmap_id": "0x89e52c3b957b2c57:0x14bd0bf1a8f1bc7d",
+            "iid": 21345,
+            "name": "The Seafood Shanty",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448386230593
+        },
+        {
+            "address": "Mandarin Westboro Inc, 132 Turnpike Rd, Westborough, MA 01581",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Sichuan restaurant', 'Sushi restaurant']",
+            "date": "2015/11/28",
+            "gmap_id": "0x89e40a92bbc9ec63:0x82c966e5013b38f3",
+            "iid": 21224,
+            "name": "Mandarin Westboro Inc",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448741598199
+        },
+        {
+            "address": "Takara Japanese Restaurant, 15 Elissa Ave, Wayland, MA 01778",
+            "category": "['Japanese restaurant']",
+            "date": "2016/01/16",
+            "gmap_id": "0x89e3859d1b6d3c19:0x36906cfaaf719de6",
+            "iid": 21120,
+            "name": "Takara Japanese Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1452952022788
+        },
+        {
+            "address": "P.F. Chang's, 1245 Worcester St Ste #4008, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2017/01/16",
+            "gmap_id": "0x89e38882bf8d47cb:0xc639b0ea7ed17f56",
+            "iid": 21127,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1484592292461
+        },
+        {
+            "address": "Tanaka, 222 E 51st St, New York, NY 10022",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x89c258e31b884675:0xaa66aa08c4ed8624",
+            "iid": 18040,
+            "name": "Tanaka",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522323566865
+        },
+        {
+            "address": "East Sushi Restaurant, 43 Scotch Rd, Ewing Township, NJ 08628",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/18",
+            "gmap_id": "0x89c157e712b8531f:0x5bd4da75682a1f00",
+            "iid": 17630,
+            "name": "East Sushi Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1531952628484
+        },
+        {
+            "address": "Shanghai Tokyo, 54 E Central St, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/07/20",
+            "gmap_id": "0x89e387ac940ca26f:0x186c570995cc552b",
+            "iid": 21125,
+            "name": "Shanghai Tokyo",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1532047209910
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/14",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 2358,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748786788
+        },
+        {
+            "address": "Pho 1 Waltham, 374 Moody St, Waltham, MA 02453",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "date": "2019/02/04",
+            "gmap_id": "0x89e382d8e1b5c22d:0xfbdfd12f238d15c1",
+            "iid": 21113,
+            "name": "Pho 1 Waltham",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1549238752392
+        },
+        {
+            "address": "Kazan BBQ, Ramen, & Bar, 1 Crossgates Mall Rd, Albany, NY 12203",
+            "category": "['Ramen restaurant', 'Bar', 'BBQ area', 'Japanese steakhouse']",
+            "date": "2021/04/25",
+            "gmap_id": "0x89de7531f774e0e7:0xcc7623e30e4cf76d",
+            "iid": 20763,
+            "name": "Kazan BBQ, Ramen, & Bar",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1619313704195
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Estela's Donburi, 891 Bush St, San Francisco, CA 94108",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808581a997ae85d9:0xcf89badfeac59993",
+            "iid": 2493,
+            "name": "Estela's Donburi",
+            "rank": 1,
+            "score": -0.07244697958230972,
+            "state": "California"
+        },
+        {
+            "address": "Ryoko's Japanese Restaurant & Bar, 619 Taylor St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x8085808e0fbbe951:0x2a0d6d496a174461",
+            "iid": 2359,
+            "name": "Ryoko's Japanese Restaurant & Bar",
+            "rank": 2,
+            "score": -0.09366176277399063,
+            "state": "California"
+        },
+        {
+            "address": "Izakaya Ninja, 900 Bush St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8085808df3541d4f:0x52a4b30f2c451ca0",
+            "iid": 2357,
+            "name": "Izakaya Ninja",
+            "rank": 3,
+            "score": -0.09434492141008377,
+            "state": "California"
+        },
+        {
+            "address": "Sakana Sushi Bar & Grill, 605 Post St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085808e10cebe85:0x977f97f13dd0ead1",
+            "iid": 2360,
+            "name": "Sakana Sushi Bar & Grill",
+            "rank": 4,
+            "score": -0.1436637043952942,
+            "state": "California"
+        },
+        {
+            "address": "Hitachino San Francisco, 639 Post St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8085808e18dbbabd:0x60229fc5d49f96d0",
+            "iid": 2361,
+            "name": "Hitachino San Francisco",
+            "rank": 5,
+            "score": -0.15019957721233368,
+            "state": "California"
+        },
+        {
+            "address": "Akiko's Sushi Bar, 542 A Mason St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8085808e7cddbe8d:0x86d688049cb51747",
+            "iid": 2364,
+            "name": "Akiko's Sushi Bar",
+            "rank": 6,
+            "score": -0.19167333841323853,
+            "state": "California"
+        },
+        {
+            "address": "Katana Ya, 422 Geary St, San Francisco, CA 94102",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Noodle shop', 'Soba noodle shop', 'Sushi restaurant']",
+            "gmap_id": "0x8085808e51ab7a67:0xd0483a7251ab6b0a",
+            "iid": 2363,
+            "name": "Katana Ya",
+            "rank": 7,
+            "score": -0.2535865604877472,
+            "state": "California"
+        },
+        {
+            "address": "AMAMI Ramen, 430 Geary St, San Francisco, CA 94102",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x8085808e5103e5d1:0xcd865d4d61060e6e",
+            "iid": 2362,
+            "name": "AMAMI Ramen",
+            "rank": 8,
+            "score": -0.254117488861084,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Toni, 733 Bush St, San Francisco, CA 94108",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x8085808c2e410551:0x317274916f305124",
+            "iid": 2356,
+            "name": "Sushi Toni",
+            "rank": 9,
+            "score": -0.26150453090667725,
+            "state": "California"
+        },
+        {
+            "address": "Maru Sushi, 529 Powell St, San Francisco, CA 94108",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8085808e9e1a51db:0xd486e0adbedd707d",
+            "iid": 2365,
+            "name": "Maru Sushi",
+            "rank": 10,
+            "score": -0.29968348145484924,
+            "state": "California"
+        },
+        {
+            "address": "Mensho Tokyo SF, 672 Geary St, San Francisco, CA 94102",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80858091bfcba4f3:0xef6d15db707c1776",
+            "iid": 2374,
+            "name": "Mensho Tokyo SF",
+            "rank": 11,
+            "score": -0.31927719712257385,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Boat, 389 Geary St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8085808efe78a503:0xab475be4456e18dd",
+            "iid": 2366,
+            "name": "Sushi Boat",
+            "rank": 12,
+            "score": -0.3242855668067932,
+            "state": "California"
+        },
+        {
+            "address": "Mason O'Farrell Garage, 325 Mason St, San Francisco, CA 94102",
+            "category": "['Parking garage', 'Cafe', 'Car rental agency', 'Electric vehicle charging station', 'Florist', 'Halal restaurant', 'Jeweler', 'Lottery shop', 'Sunglasses store', 'Sushi restaurant']",
+            "gmap_id": "0x8085808fa8019bf9:0xd48a0d763dcaf45f",
+            "iid": 2370,
+            "name": "Mason O'Farrell Garage",
+            "rank": 13,
+            "score": -0.33731094002723694,
+            "state": "California"
+        },
+        {
+            "address": "Oma Sushi, 330 O'Farrell St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8085808fb0b4263d:0xd2703d7f73a20e9a",
+            "iid": 2371,
+            "name": "Oma Sushi",
+            "rank": 14,
+            "score": -0.3501353859901428,
+            "state": "California"
+        },
+        {
+            "address": "Elephant Sushi, 705 Geary St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80858091a2b80787:0xb654cb04efd938de",
+            "iid": 2373,
+            "name": "Elephant Sushi",
+            "rank": 15,
+            "score": -0.38430243730545044,
+            "state": "California"
+        },
+        {
+            "address": "Dojima Ann \u5802\u5cf6\u5eb5, 219 O'Farrell St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8085808f3fd7d4ef:0x9fb447d8468d6f5d",
+            "iid": 2367,
+            "name": "Dojima Ann \u5802\u5cf6\u5eb5",
+            "rank": 16,
+            "score": -0.4515670835971832,
+            "state": "California"
+        },
+        {
+            "address": "Miyabiya Sushi & Grill, 115 Cyril Magnin St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x8085808f6ed257e9:0xf6b08f53abf43f5",
+            "iid": 2369,
+            "name": "Miyabiya Sushi & Grill",
+            "rank": 17,
+            "score": -0.4651145935058594,
+            "state": "California"
+        },
+        {
+            "address": "Hana Zen Yakitori & Sushi Bar, 115 Cyril Magnin St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8085808f6ec3e8a5:0x57b0513c17b02ff7",
+            "iid": 2368,
+            "name": "Hana Zen Yakitori & Sushi Bar",
+            "rank": 18,
+            "score": -0.4651145935058594,
+            "state": "California"
+        },
+        {
+            "address": "KEIKO \u00e0 Nob Hill, 1250 Jones St, San Francisco, CA 94109",
+            "category": "['French restaurant', 'Fine dining restaurant', 'Fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808580ed35fb3bdd:0xdc28e58800a4f593",
+            "iid": 2467,
+            "name": "KEIKO \u00e0 Nob Hill",
+            "rank": 19,
+            "score": -0.49101680517196655,
+            "state": "California"
+        },
+        {
+            "address": "Fishmandu Sushi, 846 Geary St, San Francisco, CA 94109",
+            "category": "['Sushi restaurant', 'Bar', 'Restaurant', 'Seafood restaurant', 'Sushi takeaway', 'Wine bar']",
+            "gmap_id": "0x8085817dd94164d9:0xaa7644292cdc1be8",
+            "iid": 2486,
+            "name": "Fishmandu Sushi",
+            "rank": 20,
+            "score": -0.5336493849754333,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Vasu Nagalingam",
+        "uid": 111370,
+        "user_id": 115041247282715097180
+    }
+}

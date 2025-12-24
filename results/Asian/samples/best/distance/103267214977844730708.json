@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 376 Kilauea Ave, Hilo, HI 96720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x79524b421b1e5311:0x486963a643926b6d",
+            "iid": 5795,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": -2.7919223308563232,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Cedar Thai Food Express, 13441 Cedar Rd, Cleveland Heights, OH 44118",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x8830fd4142ae1eab:0x9b8a217fb3d66a8",
+            "iid": 39905,
+            "name": "Cedar Thai Food Express",
+            "rank": 2,
+            "score": -2.792008876800537,
+            "state": "Ohio"
+        },
+        {
+            "address": "Tabla, 3005 Peachtree Rd #400, Atlanta, GA 30305",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x88f505e58fc767e3:0x2200c51785c808dc",
+            "iid": 51431,
+            "name": "Tabla",
+            "rank": 3,
+            "score": -2.792046308517456,
+            "state": "Georgia"
+        },
+        {
+            "address": "House of Punjab, 3000 32nd Ave S, Grand Forks, ND 58201",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x52c681bf99e04df1:0xcb7fa28dfb3a4306",
+            "iid": 1017,
+            "name": "House of Punjab",
+            "rank": 4,
+            "score": -2.7921323776245117,
+            "state": "North_Dakota"
+        },
+        {
+            "address": "Fresh Vietnamese Bistro & Teahouse, 3840 Promenade Pkwy STE A, D'Iberville, MS 39540",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x889c0d9661e03b47:0xeb5e97144e7bada9",
+            "iid": 46727,
+            "name": "Fresh Vietnamese Bistro & Teahouse",
+            "rank": 5,
+            "score": -2.792133092880249,
+            "state": "Mississippi"
+        },
+        {
+            "address": "White Jasmin Thai Cuisine, 5 W Main St, Lansdale, PA 19446",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89c6a34f4a06214f:0x7947e9e32bc9dd9b",
+            "iid": 65632,
+            "name": "White Jasmin Thai Cuisine",
+            "rank": 6,
+            "score": -2.7921407222747803,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sa-Bai Thai Bistro, 2580 AZ-95, Bullhead City, AZ 86442",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80ce4154e59c71ed:0x8b32d091441ba99f",
+            "iid": 17673,
+            "name": "Sa-Bai Thai Bistro",
+            "rank": 7,
+            "score": -2.792175531387329,
+            "state": "Arizona"
+        },
+        {
+            "address": "Gogi 92, 1602 Village Market Blvd SE, Leesburg, VA 20175",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x89b63dfa5ba73ca9:0x4363f8250bc51ac2",
+            "iid": 55232,
+            "name": "Gogi 92",
+            "rank": 8,
+            "score": -2.792180061340332,
+            "state": "Virginia"
+        },
+        {
+            "address": "Eternity, 120-35 83rd Ave, Queens, NY 11415",
+            "category": "['Modern Indian restaurant']",
+            "gmap_id": "0x89c2611c258e3327:0x72f79220e237899d",
+            "iid": 61752,
+            "name": "Eternity",
+            "rank": 9,
+            "score": -2.7921903133392334,
+            "state": "New_York"
+        },
+        {
+            "address": "Nagoya Japanese Restaurant, 2915 28th St SE, Grand Rapids, MI 49512",
+            "category": "['Japanese restaurant', 'Children hall', 'Rice restaurant', 'Soup restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88184d7666c51da9:0x72bf8f923723ea80",
+            "iid": 38607,
+            "name": "Nagoya Japanese Restaurant",
+            "rank": 10,
+            "score": -2.792219400405884,
+            "state": "Michigan"
+        },
+        {
+            "address": "King's Kitchen, 440 State St, Salem, OR 97301",
+            "category": "['Southeast Asian restaurant', 'Cambodian restaurant', 'Laotian restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x54bfffec963b2425:0xf22f9e46fa7a0131",
+            "iid": 5253,
+            "name": "King's Kitchen",
+            "rank": 11,
+            "score": -2.7922260761260986,
+            "state": "Oregon"
+        },
+        {
+            "address": "Teriyaki Madness, 4944 Thompson Pkwy, Johnstown, CO 80534",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x876ead0f3cec845f:0x74325f6894d97d76",
+            "iid": 31644,
+            "name": "Teriyaki Madness",
+            "rank": 12,
+            "score": -2.7922558784484863,
+            "state": "Colorado"
+        },
+        {
+            "address": "HOM Korean Kitchen, 20080 Stevens Creek Blvd #104, Cupertino, CA 95014",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x808fb5c325b5ae17:0x5ff667c6fc587493",
+            "iid": 10090,
+            "name": "HOM Korean Kitchen",
+            "rank": 13,
+            "score": -2.7922585010528564,
+            "state": "California"
+        },
+        {
+            "address": "Land of Thai, 350 E Main St, Clinton, CT 06413",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89e627844a3911b9:0x2ec12fc0566ed1da",
+            "iid": 70996,
+            "name": "Land of Thai",
+            "rank": 14,
+            "score": -2.79227614402771,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Asahi Hibachi & Sushi, 586 US-60, Republic, MO 65738",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87cf5de4ca212343:0x613f49f0f5d98597",
+            "iid": 33559,
+            "name": "Asahi Hibachi & Sushi",
+            "rank": 15,
+            "score": -2.7923009395599365,
+            "state": "Missouri"
+        },
+        {
+            "address": "KRAVE Thai Restaurant, 22250 Bulverde Rd Ste 118, San Antonio, TX 78259",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865c89dba1402bf5:0xae7ae26cee826dad",
+            "iid": 27428,
+            "name": "KRAVE Thai Restaurant",
+            "rank": 16,
+            "score": -2.7923057079315186,
+            "state": "Texas"
+        },
+        {
+            "address": "Surina Thai, 2390 Chamblee Tucker Rd, Chamblee, GA 30341",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f509868d67cd2d:0xf9b5fa0ecc662587",
+            "iid": 51589,
+            "name": "Surina Thai",
+            "rank": 17,
+            "score": -2.792307138442993,
+            "state": "Georgia"
+        },
+        {
+            "address": "Teriyaki Madness, 2535 Otay Center Dr Ste C, San Diego, CA 92154",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80d947f9ff16dfd9:0x88deafec802a258f",
+            "iid": 17750,
+            "name": "Teriyaki Madness",
+            "rank": 18,
+            "score": -2.792332172393799,
+            "state": "California"
+        },
+        {
+            "address": "Cupbop - Korean BBQ, 806 Blue Lakes Blvd N, Twin Falls, ID 83301",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x54aca3dddad1edbb:0xa5bb956eb578e98e",
+            "iid": 5021,
+            "name": "Cupbop - Korean BBQ",
+            "rank": 19,
+            "score": -2.792332172393799,
+            "state": "Idaho"
+        },
+        {
+            "address": "Mito sushi and Grill, 9430 Narcoossee Rd, Orlando, FL 32827",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88e763e7d826adf5:0x6f0e43ae1f9d0823",
+            "iid": 50172,
+            "name": "Mito sushi and Grill",
+            "rank": 20,
+            "score": -2.7923343181610107,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

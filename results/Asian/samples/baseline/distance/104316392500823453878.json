@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Iron Chef, 4301 S Meridian, Puyallup, WA 98373",
+            "category": "['Japanese steakhouse']",
+            "date": "2011/05/04",
+            "gmap_id": "0x5490fc41a57d39e9:0x97f187f3989a0611",
+            "iid": 3318,
+            "name": "Iron Chef",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1304524345505
+        },
+        {
+            "address": "Mercel's Bake Shop, 8500 49th St N, Pinellas Park, FL 33781",
+            "category": "['Filipino restaurant', 'Asian grocery store', 'Caterer', 'Grocery delivery service', 'Market', 'Restaurant']",
+            "date": "2011/05/04",
+            "gmap_id": "0x88c2e4f1893bd035:0x123821f91c1c1f5a",
+            "iid": 47284,
+            "name": "Mercel's Bake Shop",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1304524407177
+        },
+        {
+            "address": "Siam Thai Restaurant, Westchase, 9546 W Linebaugh Ave, Tampa, FL 33626",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2011/06/02",
+            "gmap_id": "0x88c2ea5b0f26087b:0x33271cf4cf86f14f",
+            "iid": 47327,
+            "name": "Siam Thai Restaurant, Westchase",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1307030368572
+        },
+        {
+            "address": "China Yuan, 8502 N Armenia Ave #1a, Tampa, FL 33604",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2011/08/01",
+            "gmap_id": "0x88c2c1376c5795b3:0x28b90c65d625d642",
+            "iid": 46976,
+            "name": "China Yuan",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1312219448847
+        },
+        {
+            "address": "Taki Japanese Steakhouse, 4711 Ashford Dunwoody Rd, Atlanta, GA 30338",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2011/08/14",
+            "gmap_id": "0x88f5095f38b8aa71:0x16772f9a1432ced6",
+            "iid": 51575,
+            "name": "Taki Japanese Steakhouse",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1313284088724
+        },
+        {
+            "address": "Florida, Clearwater, Gulf to Bay Blvd, Saki Endless Sushi & Hibachi Restaurant\u90ae\u653f\u7f16\u7801: 33759",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2015/02/01",
+            "gmap_id": "0x88c2efd7334bbe93:0xd5653c404a9a233d",
+            "iid": 47364,
+            "name": "Saki Endless Sushi & Hibachi Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1422757053557
+        },
+        {
+            "address": "Saigon Deli, 3858 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Deli', 'Restaurant']",
+            "date": "2017/02/06",
+            "gmap_id": "0x88c2c11349964eb9:0x138941c315dd1fc",
+            "iid": 46969,
+            "name": "Saigon Deli",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486410668732
+        },
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/18",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 47324,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1566160307203
+        },
+        {
+            "address": "Blu Sushi, 13451 McGregor Blvd #23, Fort Myers, FL 33919",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Night club', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88db3f74f2ddc27b:0xfafbbec77631970d",
+            "iid": 49041,
+            "name": "Blu Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1578832424549
+        },
+        {
+            "address": "Florida, Tampa, N Dale Mabry Hwy, Saki Endless Sushi and Hibachi Grill Eatery\u90ae\u653f\u7f16\u7801: 33618",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88c2c0e5db8be0db:0x114693ff531b7ea8",
+            "iid": 46955,
+            "name": "Saki Endless Sushi and Hibachi Grill Eatery",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1578832432401
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Dup Bap, 691 Bloomfield Ave, West Caldwell, NJ 07006",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x89c30163715debe1:0x52f5d907843e5992",
+            "iid": 63946,
+            "name": "Dup Bap",
+            "rank": 1,
+            "score": -2.253507137298584,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Mercantile on Main, 240 E Main St, Rochester, NY 14604",
+            "category": "['Food court', 'Cafe', 'Food producer', 'Indian takeaway', 'Meat dish restaurant', 'Pasta shop', 'Restaurant', 'Salad shop', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x89d6b515dddd6de1:0x6c2317dad013fe38",
+            "iid": 68119,
+            "name": "Mercantile on Main",
+            "rank": 2,
+            "score": -2.256359338760376,
+            "state": "New_York"
+        },
+        {
+            "address": "Great India, 752 Blue Vista Ln #400, Midvale, UT 84047",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87528971c6afead3:0x679fb662b8237409",
+            "iid": 30249,
+            "name": "Great India",
+            "rank": 3,
+            "score": -2.2610230445861816,
+            "state": "Utah"
+        },
+        {
+            "address": "Saffron Columbus, 5300 Sidney Simons Blvd Suite 27, Columbus, GA 31904",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x888ccdddca67fe35:0x7387913462abff46",
+            "iid": 46238,
+            "name": "Saffron Columbus",
+            "rank": 4,
+            "score": -2.261050224304199,
+            "state": "Georgia"
+        },
+        {
+            "address": "Oregon, Grants Pass, NE D St, Hunan Garden\u90ae\u653f\u7f16\u7801: 97526",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54c57b7d82f40285:0xc47f276ef1f47800",
+            "iid": 5487,
+            "name": "Hunan Garden",
+            "rank": 5,
+            "score": -2.2648258209228516,
+            "state": "Oregon"
+        },
+        {
+            "address": "Tum Pok Pok, 5000 Buford Hwy NE, Chamblee, GA 30341",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f509de908f9261:0xa891d09a6dd47e8d",
+            "iid": 51628,
+            "name": "Tum Pok Pok",
+            "rank": 6,
+            "score": -2.265138864517212,
+            "state": "Georgia"
+        },
+        {
+            "address": "Yogi Korean Restaurant, 608 E Green St, Champaign, IL 61820",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x880cd7560b57c211:0xb804c8a274f67128",
+            "iid": 36012,
+            "name": "Yogi Korean Restaurant",
+            "rank": 7,
+            "score": -2.2665727138519287,
+            "state": "Illinois"
+        },
+        {
+            "address": "Taj Mahal Cuisine, 142 S Tennessee Ave, Atlantic City, NJ 08401",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x89c0ef3c8a953b11:0xf40e9e406d725fac",
+            "iid": 57717,
+            "name": "Taj Mahal Cuisine",
+            "rank": 8,
+            "score": -2.267375946044922,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Lucky Thai Cuisine, 7239 Fairbanks North Houston Rd, Houston, TX 77040",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8640cffdfa4b6e11:0x76fb95fddc6392cd",
+            "iid": 23580,
+            "name": "Lucky Thai Cuisine",
+            "rank": 9,
+            "score": -2.267916202545166,
+            "state": "Texas"
+        },
+        {
+            "address": "Ginza Japanese Grill - North Charleston, 5647 Rivers Ave, North Charleston, SC 29406",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88fe6397576378ab:0x10b1e3a09d6166f7",
+            "iid": 53203,
+            "name": "Ginza Japanese Grill - North Charleston",
+            "rank": 10,
+            "score": -2.2680256366729736,
+            "state": "South_Carolina"
+        },
+        {
+            "address": "UDOM Khmer Restaurant, 1223 E Anaheim St, Long Beach, CA 90813",
+            "category": "['Event venue', 'Cambodian restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dd31c430139813:0xdd61bd6b42373794",
+            "iid": 20909,
+            "name": "UDOM Khmer Restaurant",
+            "rank": 11,
+            "score": -2.2687389850616455,
+            "state": "California"
+        },
+        {
+            "address": "Sarashina Horii, 45 E 20th St, New York, NY 10003",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c2592a2bcfeb0f:0xbec03c1927832c8e",
+            "iid": 59380,
+            "name": "Sarashina Horii",
+            "rank": 12,
+            "score": -2.269076347351074,
+            "state": "New_York"
+        },
+        {
+            "address": "China Kitchen, 12100 Veterans Memorial Dr ste j, Houston, TX 77067",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8640cde40ad7ab47:0x2917d087cc1b39f9",
+            "iid": 23550,
+            "name": "China Kitchen",
+            "rank": 13,
+            "score": -2.2696502208709717,
+            "state": "Texas"
+        },
+        {
+            "address": "Osaka Marketplace, 1655 S De Anza Blvd, Cupertino, CA 95014",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fb51c2f05b1d9:0xcfcb32d6226683f3",
+            "iid": 9989,
+            "name": "Osaka Marketplace",
+            "rank": 14,
+            "score": -2.270111560821533,
+            "state": "California"
+        },
+        {
+            "address": "Pho Mai Cali, 9888 N Magnolia Ave, Santee, CA 92071",
+            "category": "['Restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80dbe37e7e110281:0x1466fc950edacc6c",
+            "iid": 18351,
+            "name": "Pho Mai Cali",
+            "rank": 15,
+            "score": -2.2716054916381836,
+            "state": "California"
+        },
+        {
+            "address": "Pora Foods, 1 American Dream Way, East Rutherford, NJ 07073",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c2f95b1abb51b5:0xc58f2ed7901b313c",
+            "iid": 63747,
+            "name": "Pora Foods",
+            "rank": 16,
+            "score": -2.272648572921753,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Chao Phraya Thai Cuisine, 328 Curry Hollow Rd, Pleasant Hills, PA 15236",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8834fb9ed2de39b9:0xd33b839a7055d98c",
+            "iid": 40469,
+            "name": "Chao Phraya Thai Cuisine",
+            "rank": 17,
+            "score": -2.273663282394409,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Bombay Burger, 1420 E Madison St, Seattle, WA 98122",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54906b5c804a1f5d:0xa5d1c30a2a9527d0",
+            "iid": 2985,
+            "name": "Bombay Burger",
+            "rank": 18,
+            "score": -2.273883819580078,
+            "state": "Washington"
+        },
+        {
+            "address": "Charlie Chow's Dragon Grill, 255 E 400 S, Salt Lake City, UT 84111",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x8752f529e14136bf:0x473678d1ef5def9f",
+            "iid": 30435,
+            "name": "Charlie Chow's Dragon Grill",
+            "rank": 19,
+            "score": -2.274397850036621,
+            "state": "Utah"
+        },
+        {
+            "address": "Kiko Rice & Noodle, 758 W North St, Fayetteville, AR 72701",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x87c96f067f0e30e9:0xc21795c61a9e03a2",
+            "iid": 33426,
+            "name": "Kiko Rice & Noodle",
+            "rank": 20,
+            "score": -2.27443790435791,
+            "state": "Arkansas"
+        }
+    ],
+    "user": {
+        "name": "Henry Cekan",
+        "uid": 128687,
+        "user_id": 104316392500823453878
+    }
+}

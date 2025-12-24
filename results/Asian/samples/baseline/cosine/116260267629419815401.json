@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Rainbow Asian Cuisine, 2412 N Roan St, Johnson City, TN 37601",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Restaurant', 'Thai restaurant']",
+            "date": "2017/10/09",
+            "gmap_id": "0x885a7d48c15be253:0xa66a7adce85916c2",
+            "iid": 43824,
+            "name": "Rainbow Asian Cuisine",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1507508568462
+        },
+        {
+            "address": "Wok and Hibachi, 101 E Unaka Ave #1, Johnson City, TN 37601",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "date": "2017/10/09",
+            "gmap_id": "0x885a7d1d42b419a5:0xfa280b0444ce3346",
+            "iid": 43818,
+            "name": "Wok and Hibachi",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1507508965870
+        },
+        {
+            "address": "Wok and Hibachi, 101 E Unaka Ave #1, Johnson City, TN 37601",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "date": "2017/10/09",
+            "gmap_id": "0x885a7d1d42b419a5:0xfa280b0444ce3346",
+            "iid": 43818,
+            "name": "Wok and Hibachi",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1507508965870
+        },
+        {
+            "address": "Yamato Japanese Steakhouse, 2108 W Market St Ste 700, Johnson City, TN 37604",
+            "category": "['Japanese restaurant']",
+            "date": "2017/11/24",
+            "gmap_id": "0x885a6332afd2d2e1:0xcdf5ac281ddd8d7b",
+            "iid": 43809,
+            "name": "Yamato Japanese Steakhouse",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1511536362295
+        },
+        {
+            "address": "Tomy Thai, 1736 W State of Franklin Rd #70, Johnson City, TN 37604",
+            "category": "['Thai restaurant']",
+            "date": "2018/05/26",
+            "gmap_id": "0x885a7cc8008f475b:0x8ae6ac5f357ced99",
+            "iid": 43813,
+            "name": "Tomy Thai",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1527333691269
+        },
+        {
+            "address": "Moto Japanese Restaurant, 2607 N Roan St, Johnson City, TN 37601",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2018/10/02",
+            "gmap_id": "0x885a7d4ef440f4d1:0x318b47461d2ff7e1",
+            "iid": 43825,
+            "name": "Moto Japanese Restaurant",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1538441167013
+        },
+        {
+            "address": "V's Authentic Vietnamese Cuisine, 920 N State of Franklin Rd #530, Johnson City, TN 37604",
+            "category": "['Vietnamese restaurant']",
+            "date": "2018/11/18",
+            "gmap_id": "0x885a6329f74bdf73:0xa7d5cf587c46d2fb",
+            "iid": 43807,
+            "name": "V's Authentic Vietnamese Cuisine",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1542503427054
+        },
+        {
+            "address": "Miso Teriyaki House, 1811 W State of Franklin Rd #3, Johnson City, TN 37604, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/06/10",
+            "gmap_id": "0x885a7cb7e781d255:0x267b328c08e18a52",
+            "iid": 43812,
+            "name": "Miso Teriyaki House",
+            "split": "train",
+            "state": "Tennessee",
+            "unix_time": 1560128749212
+        },
+        {
+            "address": "House of Lu, 89 Cherokee St NE, Marietta, GA 30060",
+            "category": "['Chinese restaurant']",
+            "date": "2019/07/16",
+            "gmap_id": "0x88f51424bb7f649f:0x1bee4fb741fcfd35",
+            "iid": 51757,
+            "name": "House of Lu",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1563294008900
+        },
+        {
+            "address": "Thai Diner, 3300 Cobb Pkwy SE #106, Atlanta, GA 30339",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/11/10",
+            "gmap_id": "0x88f5103e36683e8f:0xb940a48aef65487b",
+            "iid": 51702,
+            "name": "Thai Diner",
+            "split": "valid",
+            "state": "Georgia",
+            "unix_time": 1573346162594
+        },
+        {
+            "address": "Soho Steak & Seafood Sushi Bar, 407 21st Ave N, Myrtle Beach, SC 29577",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Chinese restaurant', 'Eclectic restaurant', 'Fusion restaurant', 'Japanese restaurant', 'Mediterranean restaurant', 'Restaurant', 'Seafood restaurant', 'Steak house']",
+            "date": "2021/03/10",
+            "gmap_id": "0x890068f08bd7f139:0x3af854bdee42e727",
+            "iid": 53435,
+            "name": "Soho Steak & Seafood Sushi Bar",
+            "split": "test",
+            "state": "South_Carolina",
+            "unix_time": 1615406928570
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "China Garden Restaurant, 2111 N Roan St #5, Johnson City, TN 37604",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x885a7d39b67af583:0x6734abbda3000015",
+            "iid": 43820,
+            "name": "China Garden Restaurant",
+            "rank": 1,
+            "score": 0.8328147530555725,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Tennessee, Greeneville, E Andrew Johnson Hwy, Rice Box\u90ae\u653f\u7f16\u7801: 37745",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a4e61d061976d:0x84e6f6d79f6298d3",
+            "iid": 43801,
+            "name": "Rice Box",
+            "rank": 2,
+            "score": 0.8124332427978516,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Hunan Chinese Restaurant, 745 W Elk Ave, Elizabethton, TN 37643",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88508028828d4a3b:0xec128db9815022a1",
+            "iid": 42375,
+            "name": "Hunan Chinese Restaurant",
+            "rank": 3,
+            "score": 0.7945328950881958,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Red Chili, 115 S Sycamore St, Elizabethton, TN 37643",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x885a7ff855555555:0x962a463fa0a02a56",
+            "iid": 43830,
+            "name": "Red Chili",
+            "rank": 4,
+            "score": 0.7941819429397583,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Miso Teriyaki House, 421 W Elk Ave, Elizabethton, TN 37643",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x885a7fe1327eb355:0x790f8c81fbca41af",
+            "iid": 43829,
+            "name": "Miso Teriyaki House",
+            "rank": 5,
+            "score": 0.784325122833252,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Moto Japanese Restaurant, 4260 Fort Henry Dr, Kingsport, TN 37663",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x885a8c6a845f0f9d:0x2ea930ad317a9662",
+            "iid": 43838,
+            "name": "Moto Japanese Restaurant",
+            "rank": 6,
+            "score": 0.7819502949714661,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Thai-Am, 5925 US-19E, Hampton, TN 37658",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8850823cd85cc8f9:0xc93ab5521b163255",
+            "iid": 42376,
+            "name": "Thai-Am",
+            "rank": 7,
+            "score": 0.7763224840164185,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Ming Garden Chinese Restaurant, 1207 N Eastman Rd, Kingsport, TN 37664",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x885a8d7200ad4611:0xf10f8314ec303344",
+            "iid": 43842,
+            "name": "Ming Garden Chinese Restaurant",
+            "rank": 8,
+            "score": 0.7747812867164612,
+            "state": "Tennessee"
+        },
+        {
+            "address": "China King, 1990 TN-394, Blountville, TN 37617",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a84ba9f900acd:0xac91f017f854c10e",
+            "iid": 43833,
+            "name": "China King",
+            "rank": 9,
+            "score": 0.7698411345481873,
+            "state": "Tennessee"
+        },
+        {
+            "address": "China Luck Buffet, 6216, 5205 Bobby Hicks Hwy #8, Johnson City, TN 37615",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a8981a6036c73:0x19ce53f0d3dfdc8d",
+            "iid": 43836,
+            "name": "China Luck Buffet",
+            "rank": 10,
+            "score": 0.7689926624298096,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Tomy Thai North Roan, 2244 N Roan St, Johnson City, TN 37601",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x885a7d47f38d4c9f:0x521caedcddee6b6c",
+            "iid": 43822,
+            "name": "Tomy Thai North Roan",
+            "rank": 11,
+            "score": 0.7668305039405823,
+            "state": "Tennessee"
+        },
+        {
+            "address": "China Chef, 1347 Tusculum Blvd, Greeneville, TN 37745",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a4ef48d6321e1:0x1c46138f6bf08514",
+            "iid": 43803,
+            "name": "China Chef",
+            "rank": 12,
+            "score": 0.7567023038864136,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Shoku Japanese Steak House, 1921 TN-394 Ste 1, Blountville, TN 37617",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x885a84b047896015:0xf747464600c99ec",
+            "iid": 43832,
+            "name": "Shoku Japanese Steak House",
+            "rank": 13,
+            "score": 0.7544136047363281,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Tennessee, Johnson City, Sunset Dr, Hana Japanese Steakhouse\u90ae\u653f\u7f16\u7801: 37604",
+            "category": "['Authentic Japanese restaurant']",
+            "gmap_id": "0x885a7d37c31e9ccf:0xc853f49e4eac2fcc",
+            "iid": 43819,
+            "name": "Hana Japanese Steakhouse",
+            "rank": 14,
+            "score": 0.7525234818458557,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Hibachi Grill & Supreme Buffet, 205 E Mountcastle Dr, Johnson City, TN 37601",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x885a7d3f3091a2db:0x723a9eeefc7f8517",
+            "iid": 43821,
+            "name": "Hibachi Grill & Supreme Buffet",
+            "rank": 15,
+            "score": 0.750625729560852,
+            "state": "Tennessee"
+        },
+        {
+            "address": "China Buffet, 590 E Andrew Johnson Hwy, Greeneville, TN 37745",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x885a4e7dae75d765:0x861044aa86c6b76b",
+            "iid": 43802,
+            "name": "China Buffet",
+            "rank": 16,
+            "score": 0.7375535368919373,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Happy Wok, 4307 N Roan St # 6, Johnson City, TN 37615",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x885a88181897dd03:0xb9a51d35c81acee4",
+            "iid": 43834,
+            "name": "Happy Wok",
+            "rank": 17,
+            "score": 0.7346996068954468,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Spice World International Market, 3101 Browns Mill Rd, Johnson City, TN 37604",
+            "category": "['Grocery store', 'Asian grocery store', 'Indian grocery store']",
+            "gmap_id": "0x885a62ae252dbc43:0xea660737db55e6a6",
+            "iid": 43804,
+            "name": "Spice World International Market",
+            "rank": 18,
+            "score": 0.733690083026886,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Korean Taco House, 101 Buffalo St, Johnson City, TN 37604",
+            "category": "['Korean restaurant', 'Asian restaurant', 'Restaurant', 'Taco restaurant']",
+            "gmap_id": "0x885a7cfb8700c1cb:0x155b6f2ca1a40e54",
+            "iid": 43817,
+            "name": "Korean Taco House",
+            "rank": 19,
+            "score": 0.7321194410324097,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Panda Express, 922 N State of Franklin Rd, Johnson City, TN 37604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x885a6329fdcb1ce3:0x365daf8f09ac418",
+            "iid": 43808,
+            "name": "Panda Express",
+            "rank": 20,
+            "score": 0.7236607074737549,
+            "state": "Tennessee"
+        }
+    ],
+    "user": {
+        "name": "Benjamin Meeks",
+        "uid": 484525,
+        "user_id": 116260267629419815401
+    }
+}

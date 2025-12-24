@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hibachi Grill & Noodle Bar, 45 NE 3rd Ave, Miami, FL 33131",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Noodle shop', 'Pan-Asian restaurant', 'Thai restaurant']",
+            "date": "2018/06/21",
+            "gmap_id": "0x88d9b69e0f7da63b:0x5156fe0a1a6ebc08",
+            "iid": 14728,
+            "name": "Hibachi Grill & Noodle Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1529548556675
+        },
+        {
+            "address": "Tokyo Japanese Cuisine, 211 Main St, Oneonta, NY 13820",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/10/28",
+            "gmap_id": "0x89db8c780ce575d3:0x366e6d6906ee26ac",
+            "iid": 20647,
+            "name": "Tokyo Japanese Cuisine",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1540738944148
+        },
+        {
+            "address": "Futo Buta, 222 E Bland St, Charlotte, NC 28203",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "date": "2019/04/09",
+            "gmap_id": "0x88569f7f7b682e6b:0xfd63c45a39aee275",
+            "iid": 12773,
+            "name": "Futo Buta",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1554818295515
+        },
+        {
+            "address": "Bleu Monkey Cafe, 163 Marshall St, Syracuse, NY 13210",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/04/11",
+            "gmap_id": "0x89d9f3a1c166cabf:0xd89036cbadaf770b",
+            "iid": 20638,
+            "name": "Bleu Monkey Cafe",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1555006199697
+        },
+        {
+            "address": "Pok'e Noodle, 9090 Destiny USA Dr #9748, Syracuse, NY 13204",
+            "category": "['Japanese restaurant', 'Hawaiian restaurant', 'Ramen restaurant']",
+            "date": "2019/04/14",
+            "gmap_id": "0x89d9f22955a524ed:0x5e45f00094853fd7",
+            "iid": 20630,
+            "name": "Pok'e Noodle",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1555201840420
+        },
+        {
+            "address": "Mt Fuji Japanese Restaurant, 5006 NY-23, Oneonta, NY 13820",
+            "category": "['Sushi restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x89db8bbd684327c9:0xc7cfddab6ebe6700",
+            "iid": 20646,
+            "name": "Mt Fuji Japanese Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1555812051139
+        },
+        {
+            "address": "Kasai, 218 Walton St, Syracuse, NY 13202",
+            "category": "['Ramen restaurant', 'Bar', 'Izakaya restaurant']",
+            "date": "2019/05/11",
+            "gmap_id": "0x89d9f3dd8504ff55:0x699893bb3c57fcc8",
+            "iid": 20640,
+            "name": "Kasai",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1557614062508
+        },
+        {
+            "address": "P.F. Chang's, 306 Hiawatha Blvd W Spc H-111, Syracuse, NY 13204",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2019/05/20",
+            "gmap_id": "0x89d9f22f22b16a65:0xfe533ef7da1e0e95",
+            "iid": 20632,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1558388629237
+        },
+        {
+            "address": "Ocean Sushi, 7567 Oswego Rd #3, Liverpool, NY 13090",
+            "category": "['Sushi restaurant']",
+            "date": "2019/05/26",
+            "gmap_id": "0x89d9efb299b9ac3d:0x7b0c317259bc4162",
+            "iid": 20626,
+            "name": "Ocean Sushi",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1558866193389
+        },
+        {
+            "address": "Oishii Bento, 119 Oakland Ave, Pittsburgh, PA 15213",
+            "category": "['Korean restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "date": "2019/06/13",
+            "gmap_id": "0x8834f229952e1931:0xeb459d805bb47d15",
+            "iid": 11978,
+            "name": "Oishii Bento",
+            "split": "test",
+            "state": "Pennsylvania",
+            "unix_time": 1560393614131
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Oishi Restaurant, 701-5 S Crouse Ave, Syracuse, NY 13210",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89d9f3a1bdedc3bd:0xe94c46f7ae1cc396",
+            "iid": 20637,
+            "name": "Oishi Restaurant",
+            "rank": 1,
+            "score": -2.663776397705078,
+            "state": "New_York"
+        },
+        {
+            "address": "Asahi, 508 Westcott St, Syracuse, NY 13210",
+            "category": "['Sushi restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x89d9f3126f58e0a7:0x30cdebfdc06e2cb1",
+            "iid": 20635,
+            "name": "Asahi",
+            "rank": 2,
+            "score": -2.855058193206787,
+            "state": "New_York"
+        },
+        {
+            "address": "Toscana Italian Fusion & Grill, 64 Main St, Cooperstown, NY 13326",
+            "category": "['Italian restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x89dc0726fd610135:0x7925a6c902f37139",
+            "iid": 20650,
+            "name": "Toscana Italian Fusion & Grill",
+            "rank": 3,
+            "score": -2.946661949157715,
+            "state": "New_York"
+        },
+        {
+            "address": "Mt Fuji sushi resturant, 134 Main St, Cooperstown, NY 13326",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89dc07268f4e0225:0xded12326b55492d0",
+            "iid": 20649,
+            "name": "Mt Fuji sushi resturant",
+            "rank": 4,
+            "score": -2.9549789428710938,
+            "state": "New_York"
+        },
+        {
+            "address": "Kyoko's Japanese Restaurant, 111 Brooklea Dr, Fayetteville, NY 13066",
+            "category": "['Japanese restaurant', 'Steak house']",
+            "gmap_id": "0x89d98c392c9bb707:0xc5622f3b0a705d5c",
+            "iid": 20622,
+            "name": "Kyoko's Japanese Restaurant",
+            "rank": 5,
+            "score": -3.007213830947876,
+            "state": "New_York"
+        },
+        {
+            "address": "Asahi Sushi, 59 Nassau St B, New York, NY 10038",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c25bd3dc44eedd:0xa0efd0529b1d1009",
+            "iid": 18772,
+            "name": "Asahi Sushi",
+            "rank": 6,
+            "score": -3.239447593688965,
+            "state": "New_York"
+        },
+        {
+            "address": "Miyabi Sushi, 2429 N Atlantic Ave #40, Daytona Beach, FL 32118",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Teppanyaki restaurant']",
+            "gmap_id": "0x88e6db60203c2e61:0xb32f1d027522957",
+            "iid": 15313,
+            "name": "Miyabi Sushi",
+            "rank": 7,
+            "score": -3.239490032196045,
+            "state": "Florida"
+        },
+        {
+            "address": "Pennsylvania, Parkesburg, Commons Dr, Raku Hibachi & Sushi\u90ae\u653f\u7f16\u7801: 19365",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c645a73520a34b:0x33382e546efa1ef3",
+            "iid": 19962,
+            "name": "Raku Hibachi & Sushi",
+            "rank": 8,
+            "score": -3.2395341396331787,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sapporo, 2800 Marina Bay Dr Suite A, League City, TX 77573",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86409d383b20e3db:0x18d9165940c3445a",
+            "iid": 7312,
+            "name": "Sapporo",
+            "rank": 9,
+            "score": -3.2395455837249756,
+            "state": "Texas"
+        },
+        {
+            "address": "Mitate, 3612 SE 82nd Ave, Portland, OR 97266",
+            "category": "['Sushi takeaway']",
+            "gmap_id": "0x5495a10041e363df:0x5e98420869eaefbd",
+            "iid": 1243,
+            "name": "Mitate",
+            "rank": 10,
+            "score": -3.239769220352173,
+            "state": "Oregon"
+        },
+        {
+            "address": "Hula House, 5819 Northwest Loop 410 #120, San Antonio, TX 78238",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x865c5d5cc358115f:0x2f05f97203bc54e2",
+            "iid": 8444,
+            "name": "Hula House",
+            "rank": 11,
+            "score": -3.2398715019226074,
+            "state": "Texas"
+        },
+        {
+            "address": "Hinoya Curry SF, 3347 Fillmore St, San Francisco, CA 94123",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x80858152c09edccb:0x3dd372d88b08ccb8",
+            "iid": 2479,
+            "name": "Hinoya Curry SF",
+            "rank": 12,
+            "score": -3.239874839782715,
+            "state": "California"
+        },
+        {
+            "address": "Florida, Jacksonville, Atlantic Blvd, Fancy sushi\u90ae\u653f\u7f16\u7801: 32225",
+            "category": "['Sushi restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Poke bar', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x88e44b25989084ff:0x4b0390f7ba042e28",
+            "iid": 15182,
+            "name": "Fancy sushi",
+            "rank": 13,
+            "score": -3.2398831844329834,
+            "state": "Florida"
+        },
+        {
+            "address": "Washington, Spokane Valley, N Sullivan Rd, Kokoro Ramen\u90ae\u653f\u7f16\u7801: 99037",
+            "category": "['Traditional restaurant', 'Bubble tea store', 'Ramen restaurant']",
+            "gmap_id": "0x5361df4fe4742aff:0x5198cb1eee31893a",
+            "iid": 272,
+            "name": "Kokoro Ramen",
+            "rank": 14,
+            "score": -3.2398979663848877,
+            "state": "Washington"
+        },
+        {
+            "address": "JINYA Ramen Bar - Chandler, 130 S Arizona Ave #1, Chandler, AZ 85225",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x872babfaf945b035:0xc2362c5faf806d72",
+            "iid": 9194,
+            "name": "JINYA Ramen Bar - Chandler",
+            "rank": 15,
+            "score": -3.2399818897247314,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sakura Sushi and Grill, 3261 Western Branch Blvd, Chesapeake, VA 23321",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89ba9fbd36c98519:0xfb28deadc0bdeb8c",
+            "iid": 17499,
+            "name": "Sakura Sushi and Grill",
+            "rank": 16,
+            "score": -3.2399888038635254,
+            "state": "Virginia"
+        },
+        {
+            "address": "Kazan BBQ, Ramen, & Bar, 1 Crossgates Mall Rd, Albany, NY 12203",
+            "category": "['Ramen restaurant', 'Bar', 'BBQ area', 'Japanese steakhouse']",
+            "gmap_id": "0x89de7531f774e0e7:0xcc7623e30e4cf76d",
+            "iid": 20763,
+            "name": "Kazan BBQ, Ramen, & Bar",
+            "rank": 17,
+            "score": -3.2400522232055664,
+            "state": "New_York"
+        },
+        {
+            "address": "Harmony steakhouse, 6124 Mills Dr, Whitestown, IN 46075",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x88135301b22b478b:0x18966d9276b23fe5",
+            "iid": 11479,
+            "name": "Harmony steakhouse",
+            "rank": 18,
+            "score": -3.2401034832000732,
+            "state": "Indiana"
+        },
+        {
+            "address": "Rayaki Ramen Philadelphia, 2818 Cottman Ave, Philadelphia, PA 19149",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c6b5eef0ea4bb1:0x82b6f216b160f06b",
+            "iid": 20053,
+            "name": "Rayaki Ramen Philadelphia",
+            "rank": 19,
+            "score": -3.240121841430664,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Masa Asia, 2111 W Main St, Norristown, PA 19403",
+            "category": "['Asian restaurant', 'Delivery service', 'Family restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c697a7697cc96b:0xed41135dfcf90401",
+            "iid": 19996,
+            "name": "Masa Asia",
+            "rank": 20,
+            "score": -3.240147352218628,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Dominic Artuso",
+        "uid": 127304,
+        "user_id": 117199476274757105230
+    }
+}

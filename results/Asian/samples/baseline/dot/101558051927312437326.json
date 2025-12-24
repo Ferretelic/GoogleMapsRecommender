@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China King, 3743 Elm St, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "date": "2016/12/30",
+            "gmap_id": "0x87df25e5266c71c3:0xa8525f2212c17412",
+            "iid": 34218,
+            "name": "China King",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1483123880316
+        },
+        {
+            "address": "China One, 2012 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/02/23",
+            "gmap_id": "0x87df2df34b1c3627:0x84ba94cd53d55e64",
+            "iid": 34251,
+            "name": "China One",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1487869361071
+        },
+        {
+            "address": "India Palace, 12322 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x87df316a2bda29a7:0x766ba2c892ef935",
+            "iid": 34260,
+            "name": "India Palace",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1498874196621
+        },
+        {
+            "address": "Love Sushi, 2201 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/21",
+            "gmap_id": "0x87db5ea849e05593:0x8dd5c262ac203f9d",
+            "iid": 34112,
+            "name": "Love Sushi",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1534816019261
+        },
+        {
+            "address": "India's House, 1101 E Broadway, Columbia, MO 65201",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb7c30f1b2607:0x19314a856d0da3f3",
+            "iid": 34137,
+            "name": "India's House",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708214276
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 2531 Broadway Bluffs Dr, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb81e42d80a1b:0x4c46ecdc36ccc33a",
+            "iid": 34153,
+            "name": "Kobe Japanese Steakhouse",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708293120
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/26",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1553625068237
+        },
+        {
+            "address": "Panda Cafe, 501 Hwy 28, Owensville, MO 65066",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87dbeae3992f9439:0x5274da7cadee17fd",
+            "iid": 34118,
+            "name": "Panda Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1556980653783
+        },
+        {
+            "address": "Kabab N Kurry, 2220 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Indian restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87df2f20371a1d4f:0xf37669ed4f7c6d28",
+            "iid": 34256,
+            "name": "Kabab N Kurry",
+            "split": "valid",
+            "state": "Missouri",
+            "unix_time": 1556980671124
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 6519,
+            "name": "Hula Grill Waikiki",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1563149917750
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "P.F. Chang's, 400 Lombard St, St Charles, MO 63303",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87df2ef0854fafb5:0x456dc7869c31e73e",
+            "iid": 34253,
+            "name": "P.F. Chang's",
+            "rank": 1,
+            "score": 9.973711013793945,
+            "state": "Missouri"
+        },
+        {
+            "address": "Joy Luck Chinese Buffet, 8030 Manchester Rd, St. Louis, MO 63144",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8caff9c3580f1:0x7e9f41b85b478d12",
+            "iid": 33980,
+            "name": "Joy Luck Chinese Buffet",
+            "rank": 2,
+            "score": 9.918560028076172,
+            "state": "Missouri"
+        },
+        {
+            "address": "Haveli Indian Restaurant, 9720 Page Ave, St. Louis, MO 63132",
+            "category": "['Indian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87df34820fab011f:0xf99a959c306f9a3f",
+            "iid": 34296,
+            "name": "Haveli Indian Restaurant",
+            "rank": 3,
+            "score": 9.829242706298828,
+            "state": "Missouri"
+        },
+        {
+            "address": "Rasoi, 25 N Euclid Ave, St. Louis, MO 63108",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x87d8b527f597ce4d:0x8ba01a5ab6c5a4f7",
+            "iid": 33915,
+            "name": "Rasoi",
+            "rank": 4,
+            "score": 9.76421070098877,
+            "state": "Missouri"
+        },
+        {
+            "address": "Anis Hyderabad House, 12637 Olive Blvd, Creve Coeur, MO 63141",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x87ded116a48f8a7b:0xd8298ea2e8adb65f",
+            "iid": 34191,
+            "name": "Anis Hyderabad House",
+            "rank": 5,
+            "score": 9.569912910461426,
+            "state": "Missouri"
+        },
+        {
+            "address": "House of India, 8501 Delmar Blvd, St. Louis, MO 63124",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87df34b7d8116833:0x81c106f478330661",
+            "iid": 34302,
+            "name": "House of India",
+            "rank": 6,
+            "score": 9.534083366394043,
+            "state": "Missouri"
+        },
+        {
+            "address": "Aroma Indian Grill, 7541 N Lindbergh Blvd, Hazelwood, MO 63042",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87df37190836bf59:0xde5d760d6a2f0724",
+            "iid": 34347,
+            "name": "Aroma Indian Grill",
+            "rank": 7,
+            "score": 9.507105827331543,
+            "state": "Missouri"
+        },
+        {
+            "address": "Sushi Ai, 2009 Zumbehl Rd, St Charles, MO 63303",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87df28d72607dc97:0x87b305db46d196f",
+            "iid": 34223,
+            "name": "Sushi Ai",
+            "rank": 8,
+            "score": 9.3676176071167,
+            "state": "Missouri"
+        },
+        {
+            "address": "P.F. Chang's, 25 The Blvd, Richmond Heights, MO 63117",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87d8cb231974b8ed:0x3754e275d0fa1f",
+            "iid": 33985,
+            "name": "P.F. Chang's",
+            "rank": 9,
+            "score": 9.271017074584961,
+            "state": "Missouri"
+        },
+        {
+            "address": "Ocean Buffet, 225 St Robert Blvd, St Robert, MO 65584",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x87dadd712a400001:0xf3a00489cb47e26d",
+            "iid": 34098,
+            "name": "Ocean Buffet",
+            "rank": 10,
+            "score": 9.082465171813965,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thai 202, 235 N Euclid Ave, St. Louis, MO 63115",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87d8b4d7d13740e5:0x608d33d2f8f7eb90",
+            "iid": 33905,
+            "name": "Thai 202",
+            "rank": 11,
+            "score": 9.074543952941895,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Garden, 3420 Clark Ln, Columbia, MO 65202, United States",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Japanese steakhouse']",
+            "gmap_id": "0x87dcb80a4844daad:0x80f6025f75c8e0f6",
+            "iid": 34149,
+            "name": "China Garden",
+            "rank": 12,
+            "score": 9.066788673400879,
+            "state": "Missouri"
+        },
+        {
+            "address": "Pearl Cafe, 8416 N Lindbergh Blvd, Florissant, MO 63031",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87df370ebb10ce8b:0x5eaec0c536eeb22a",
+            "iid": 34346,
+            "name": "Pearl Cafe",
+            "rank": 13,
+            "score": 8.977889060974121,
+            "state": "Missouri"
+        },
+        {
+            "address": "Signature India Manchester, 14031 Manchester Rd, Manchester, MO 63011",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87d8d3b159ef01b9:0x40b96bf1fa84ec2e",
+            "iid": 34038,
+            "name": "Signature India Manchester",
+            "rank": 14,
+            "score": 8.915143966674805,
+            "state": "Missouri"
+        },
+        {
+            "address": "Saffron Indian Cuisine, 2137 Barrett Station Rd, St. Louis, MO 63131",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87d8d244e5820d87:0x86c1e4ead1b4cf12",
+            "iid": 34026,
+            "name": "Saffron Indian Cuisine",
+            "rank": 15,
+            "score": 8.88989543914795,
+            "state": "Missouri"
+        },
+        {
+            "address": "Pho Grand Restaurant, 3195 S Grand Blvd, St. Louis, MO 63118",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8b4681c81b3e7:0xbd2407130c38a015",
+            "iid": 33892,
+            "name": "Pho Grand Restaurant",
+            "rank": 16,
+            "score": 8.8766450881958,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thai Kitchen, 2031 Dorsett Village, Maryland Heights, MO 63043",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87df2df34af990df:0xfc9fb7a5c450b0ec",
+            "iid": 34250,
+            "name": "Thai Kitchen",
+            "rank": 17,
+            "score": 8.76112174987793,
+            "state": "Missouri"
+        },
+        {
+            "address": "Drunken Fish - Central West End, 1 Maryland Plaza, St. Louis, MO 63108",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Cocktail bar', 'Fusion restaurant', 'Japanese restaurant', 'Lounge', 'Seafood restaurant']",
+            "gmap_id": "0x87d8b4d62cb578f1:0x84fe91569aa33885",
+            "iid": 33904,
+            "name": "Drunken Fish - Central West End",
+            "rank": 18,
+            "score": 8.75819206237793,
+            "state": "Missouri"
+        },
+        {
+            "address": "Lona's Lil Eats, 2199 California Ave, St. Louis, MO 63104",
+            "category": "['Restaurant', 'Asian restaurant', 'Caterer', 'Chinese restaurant', 'Health food restaurant', 'Thai restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x87d8b47fccee2a1d:0xa12a5a4a22fc4d33",
+            "iid": 33898,
+            "name": "Lona's Lil Eats",
+            "rank": 19,
+            "score": 8.732563018798828,
+            "state": "Missouri"
+        },
+        {
+            "address": "Gokul Indian Restaurant, 6101 Delmar Blvd, St. Louis, MO 63112",
+            "category": "['Indian restaurant', 'Kosher restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x87df4aaba0ca27bf:0xd6313573a55223ad",
+            "iid": 34385,
+            "name": "Gokul Indian Restaurant",
+            "rank": 20,
+            "score": 8.707186698913574,
+            "state": "Missouri"
+        }
+    ],
+    "user": {
+        "name": "J Kinz",
+        "uid": 46530,
+        "user_id": 101558051927312437326
+    }
+}

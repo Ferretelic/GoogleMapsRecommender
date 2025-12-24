@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Corner Bakery, 100 N La Cienega Blvd, Los Angeles, CA 90048",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "date": "2016/08/05",
+            "gmap_id": "0x80c2b94c9dadb6cb:0x55f7a9ecbdc230fb",
+            "iid": 6904,
+            "name": "Corner Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470432680104
+        },
+        {
+            "address": "Starbucks, 5453 Hollywood Blvd D, Los Angeles, CA 90027",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/06/10",
+            "gmap_id": "0x80c2bf506f481e4f:0xbb085ea3137be785",
+            "iid": 7464,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497074817581
+        },
+        {
+            "address": "It's Boba Time Vermont, 701 S Vermont Ave, Los Angeles, CA 90005",
+            "category": "['Bubble tea store', 'Coffee shop']",
+            "date": "2017/07/28",
+            "gmap_id": "0x80c2c7791314cbc5:0x49114c954ffbc393",
+            "iid": 8037,
+            "name": "It's Boba Time Vermont",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501218118705
+        },
+        {
+            "address": "Einstein Bros. Bagels, 374 E H St #1701, Chula Vista, CA 91910",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "date": "2017/07/28",
+            "gmap_id": "0x80d94e39314fdc59:0x1708b49a3aabf6cd",
+            "iid": 9296,
+            "name": "Einstein Bros. Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501218731840
+        },
+        {
+            "address": "Panera Bread, 300 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2017/07/28",
+            "gmap_id": "0x80c2c054e4b9e08b:0x9187a287e7cca8ff",
+            "iid": 7534,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501219235023
+        },
+        {
+            "address": "Por Vida, 2146 Logan Ave, San Diego, CA 92113",
+            "category": "['Coffee shop']",
+            "date": "2017/11/06",
+            "gmap_id": "0x80d9536d34cb250b:0x68fe085afb5abccf",
+            "iid": 9427,
+            "name": "Por Vida",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1509941720442
+        },
+        {
+            "address": "Venti Boba & Milk Corner, 2180 B Chatsworth Blvd, San Diego, CA 92107",
+            "category": "['Cafe']",
+            "date": "2018/01/27",
+            "gmap_id": "0x80deabace983fc9d:0xbad369ec82097a3c",
+            "iid": 12676,
+            "name": "Venti Boba & Milk Corner",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517018741925
+        },
+        {
+            "address": "Caff\u00e9 Bene, 3287 Wilshire Blvd B, Los Angeles, CA 90010",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80c2c760d2652eef:0xfa2f801fd6b8f10e",
+            "iid": 8006,
+            "name": "Caff\u00e9 Bene",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581539833743
+        },
+        {
+            "address": "Starbucks, 181 S Vermont Ave, Los Angeles, CA 90004",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/15",
+            "gmap_id": "0x80c2c7450f4fc5af:0xe025474db913680c",
+            "iid": 7981,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581782781617
+        },
+        {
+            "address": "Sharp Specialty Coffee, 3421 W 6th St, Los Angeles, CA 90020",
+            "category": "['Cafe']",
+            "date": "2020/03/10",
+            "gmap_id": "0x80c2c77ce085ea7f:0x5c8ee6b86469c2e8",
+            "iid": 8046,
+            "name": "Sharp Specialty Coffee",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1583824783547
+        },
+        {
+            "address": "Sunday Morning, 3300 W 6th St #4, Los Angeles, CA 90020",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2020/03/10",
+            "gmap_id": "0x80c2c7125b3025e5:0xf82052c92db571ef",
+            "iid": 7944,
+            "name": "Sunday Morning",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583824882940
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Kuma Caf\u00e9, 1050 Columbia St, San Diego, CA 92101",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d954a97d472dcb:0x7702169d0e021639",
+            "iid": 9480,
+            "name": "Kuma Caf\u00e9",
+            "rank": 1,
+            "score": 0.616191565990448,
+            "state": "California"
+        },
+        {
+            "address": "Local Krave, 3233 Kemper St, San Diego, CA 92110",
+            "category": "['Coffee roasters', 'Bakery', 'Breakfast restaurant', 'Coffee shop', 'Lunch restaurant']",
+            "gmap_id": "0x80deaaf9939eaa91:0x3e68b055c74f4d25",
+            "iid": 12635,
+            "name": "Local Krave",
+            "rank": 2,
+            "score": 0.5980469584465027,
+            "state": "California"
+        },
+        {
+            "address": "Caf\u00e9 The Barn, 228 S Oxford Ave, Los Angeles, CA 90004",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b9582fdf5285:0x8180cf15b1acf754",
+            "iid": 6911,
+            "name": "Caf\u00e9 The Barn",
+            "rank": 3,
+            "score": 0.5972042679786682,
+            "state": "California"
+        },
+        {
+            "address": "La Rose Cafe, 4749 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c7535cd39dc7:0x8362f5aecf0957f3",
+            "iid": 7992,
+            "name": "La Rose Cafe",
+            "rank": 4,
+            "score": 0.5903000831604004,
+            "state": "California"
+        },
+        {
+            "address": "The Milk Bar | North Park, 2940 Lincoln Ave, San Diego, CA 92104",
+            "category": "['Ice cream shop', 'Cafe', 'Cookie shop', 'Milk delivery service']",
+            "gmap_id": "0x80d954f6e2293cdf:0x4517037b496f7c88",
+            "iid": 9558,
+            "name": "The Milk Bar | North Park",
+            "rank": 5,
+            "score": 0.5733423233032227,
+            "state": "California"
+        },
+        {
+            "address": "K-Town Pc Cafe, 2748 W 8th St #201, Los Angeles, CA 90005",
+            "category": "['Internet cafe']",
+            "gmap_id": "0x80c2c79d62ecaa55:0x957bdaafa239111",
+            "iid": 8068,
+            "name": "K-Town Pc Cafe",
+            "rank": 6,
+            "score": 0.5571638941764832,
+            "state": "California"
+        },
+        {
+            "address": "Nitro + & Dr. Freeze Amazing Desserts, 2506 Congress St, San Diego, CA 92110",
+            "category": "['Ice cream shop', 'Coffee shop', 'Dessert shop']",
+            "gmap_id": "0x80deabbff59f3e8d:0xf945be8e6e3f90c7",
+            "iid": 12678,
+            "name": "Nitro + & Dr. Freeze Amazing Desserts",
+            "rank": 7,
+            "score": 0.556782066822052,
+            "state": "California"
+        },
+        {
+            "address": "Full Service Coffee Co., 4450 Beverly Blvd, Los Angeles, CA 90004",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b8a3d07e5555:0xc9ba8ffaa82a04f4",
+            "iid": 6785,
+            "name": "Full Service Coffee Co.",
+            "rank": 8,
+            "score": 0.5566200017929077,
+            "state": "California"
+        },
+        {
+            "address": "It's Boba Time, 704 N Vermont Ave, Los Angeles, CA 90029",
+            "category": "['Cafe', 'Juice shop']",
+            "gmap_id": "0x80c2c75bae0b16db:0x4749fc3b737cf7cf",
+            "iid": 8004,
+            "name": "It's Boba Time",
+            "rank": 9,
+            "score": 0.5499251484870911,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 534 S Occidental Blvd, Los Angeles, CA 90057",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c7713ba902a9:0x2ff6d617e3cea539",
+            "iid": 8027,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.537589967250824,
+            "state": "California"
+        },
+        {
+            "address": "Up2You Cafe, 7770 Vickers St #101, San Diego, CA 92111",
+            "category": "['Dessert restaurant', 'Cafe', 'Coffee shop', 'Dessert shop', 'Ice cream shop', 'Studying center', 'Tea house']",
+            "gmap_id": "0x80dbff96e0ee54a9:0xd19996272dda39b1",
+            "iid": 10235,
+            "name": "Up2You Cafe",
+            "rank": 11,
+            "score": 0.5340606570243835,
+            "state": "California"
+        },
+        {
+            "address": "It's Boba Time, 125 N Western Ave, Los Angeles, CA 90004",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b8a2e861b8a3:0x356a4e6d15beb849",
+            "iid": 6781,
+            "name": "It's Boba Time",
+            "rank": 12,
+            "score": 0.5309767127037048,
+            "state": "California"
+        },
+        {
+            "address": "Holy Matcha, 201 Park Blvd #105, San Diego, CA 92101",
+            "category": "['Cafe']",
+            "gmap_id": "0x80d953402c302575:0x9ee469ab1327a1bc",
+            "iid": 9366,
+            "name": "Holy Matcha",
+            "rank": 13,
+            "score": 0.5274932384490967,
+            "state": "California"
+        },
+        {
+            "address": "Tabac, 589 Third Ave, San Diego, CA 92101",
+            "category": "['Hookah bar', 'Cafe', 'Cigar shop']",
+            "gmap_id": "0x80d953576290c9d9:0x849f6524f25de8fc",
+            "iid": 9386,
+            "name": "Tabac",
+            "rank": 14,
+            "score": 0.527329683303833,
+            "state": "California"
+        },
+        {
+            "address": "85C Bakery Cafe - Balboa Mesa, 5575 Balboa Ave Suite 330, San Diego, CA 92111",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x80dc0073e4852e15:0x68f1aea148b5089a",
+            "iid": 10263,
+            "name": "85C Bakery Cafe - Balboa Mesa",
+            "rank": 15,
+            "score": 0.5253963470458984,
+            "state": "California"
+        },
+        {
+            "address": "Peet's Coffee, San Diego International Airport Terminal 2 East, 3707 N Harbor Dr, San Diego, CA 92101",
+            "category": "['Coffee shop', 'Cafe', 'Espresso bar', 'Tea house']",
+            "gmap_id": "0x80deab114767a859:0xb7d5addb570ad521",
+            "iid": 12650,
+            "name": "Peet's Coffee",
+            "rank": 16,
+            "score": 0.5232716202735901,
+            "state": "California"
+        },
+        {
+            "address": "\ubbf8\uc2a4 \ucee4\ud53c Miss Coffee, 300 S Hobart Blvd # 101, Los Angeles, CA 90020",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b8994b11dc93:0x2b270b34720b3e49",
+            "iid": 6757,
+            "name": "\ubbf8\uc2a4 \ucee4\ud53c Miss Coffee",
+            "rank": 17,
+            "score": 0.5220038890838623,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 5545 Sunset Blvd #106, Hollywood, CA 90028",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2bf51e4633bf1:0xdb071266cbbae2b2",
+            "iid": 7467,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.5180138945579529,
+            "state": "California"
+        },
+        {
+            "address": "Coffee MCO, 2580 W Olympic Blvd Unit #2, Los Angeles, CA 90006",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2c77012f8c47d:0x2ab939de93a59542",
+            "iid": 8024,
+            "name": "Coffee MCO",
+            "rank": 19,
+            "score": 0.5151441693305969,
+            "state": "California"
+        },
+        {
+            "address": "Val's Coffee Corner, 2244 Bacon St, San Diego, CA 92107",
+            "category": "['Cafe']",
+            "gmap_id": "0x80deaa3f30a31f55:0xe962affe8db2e82a",
+            "iid": 12605,
+            "name": "Val's Coffee Corner",
+            "rank": 20,
+            "score": 0.5130043029785156,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Miriam Marroquin",
+        "uid": 96512,
+        "user_id": 112739402675259437486
+    }
+}

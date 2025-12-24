@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mizu Machi Japanese & Asian Restaurant, 527 Coffeen St, Watertown, NY 13601",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2017/03/15",
+            "gmap_id": "0x89d8701f1e193531:0x271a1f32982f99ea",
+            "iid": 68186,
+            "name": "Mizu Machi Japanese & Asian Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1489600528528
+        },
+        {
+            "address": "Great Wall, 300 Arsenal St, Watertown, NY 13601",
+            "category": "['Restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/01/24",
+            "gmap_id": "0x89d8701dff7a11df:0xc11cda9327ab10a0",
+            "iid": 68185,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1516810745144
+        },
+        {
+            "address": "Grand Buffet of Leray Inc, 26437 Johnson Rd, Evans Mills, NY 13637",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/16",
+            "gmap_id": "0x89d87bd7c4b08385:0x648aafede4948d6d",
+            "iid": 68190,
+            "name": "Grand Buffet of Leray Inc",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1521239772248
+        },
+        {
+            "address": "Daily Buffet, 1283 Arsenal St, Watertown, NY 13601",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "date": "2018/05/16",
+            "gmap_id": "0x89d86fd32e420569:0xbfe66e7a2ca57850",
+            "iid": 68182,
+            "name": "Daily Buffet",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1526475577498
+        },
+        {
+            "address": "United China Restaurant, 144 (2C, Eastern Blvd, Watertown, NY 13601",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/10/14",
+            "gmap_id": "0x89d8654a696e9077:0x48004cca3bd233b7",
+            "iid": 68178,
+            "name": "United China Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1539543063105
+        },
+        {
+            "address": "Suk Hui Hi's Korean Restaurant, 1301 State St, Watertown, NY 13601",
+            "category": "['Korean restaurant']",
+            "date": "2018/12/04",
+            "gmap_id": "0x89d865520d7c1875:0xf506969ff8640679",
+            "iid": 68179,
+            "name": "Suk Hui Hi's Korean Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543951483230
+        },
+        {
+            "address": "Chinatown Express, 746 6th St NW, Washington, DC 20001",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Family restaurant']",
+            "date": "2019/07/27",
+            "gmap_id": "0x89b7b78ddee96a19:0x82aa70837fbcfaa9",
+            "iid": 56319,
+            "name": "Chinatown Express",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1564188310964
+        },
+        {
+            "address": "Bantam King, 501 G St. NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Chicken restaurant', 'Halal restaurant', 'Japanese restaurant']",
+            "date": "2019/08/04",
+            "gmap_id": "0x89b7b78e62e9c015:0x83c5e2f25df7c10b",
+            "iid": 56328,
+            "name": "Bantam King",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1564947256563
+        },
+        {
+            "address": "Sushi Express of Watertown, 300 Arsenal St, Watertown, NY 13601",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2020/09/02",
+            "gmap_id": "0x89d86fe207fb5e5f:0x550abc7e187c6bcb",
+            "iid": 68184,
+            "name": "Sushi Express of Watertown",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1599069561152
+        },
+        {
+            "address": "Fuji Hibachi sushi Asian bistro, 2184 Glenwood Shopping Plaza, Oneida, NY 13421",
+            "category": "['Japanese restaurant']",
+            "date": "2020/09/05",
+            "gmap_id": "0x89d976dfadb0143d:0xf1085abd2899f77",
+            "iid": 68218,
+            "name": "Fuji Hibachi sushi Asian bistro",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1599318482857
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "2000 Chinese Restaurant, 22070 US-11, Watertown, NY 13601",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89d87074b854f40f:0xb60b487f4d0076e8",
+            "iid": 68187,
+            "name": "2000 Chinese Restaurant",
+            "rank": 1,
+            "score": -2.059105157852173,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Express of Watertown, 300 Arsenal St, Watertown, NY 13601",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89d86fe207fb5e5f:0x550abc7e187c6bcb",
+            "iid": 68184,
+            "name": "Sushi Express of Watertown",
+            "rank": 2,
+            "score": -2.22544527053833,
+            "state": "New_York"
+        },
+        {
+            "address": "China Gourmet, 13187 NY-12, Boonville, NY 13309",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d8dfb816034fdf:0x134a4fbaf0ba86c4",
+            "iid": 68193,
+            "name": "China Gourmet",
+            "rank": 3,
+            "score": -2.4861624240875244,
+            "state": "New_York"
+        },
+        {
+            "address": "China Wok, 5 Liberty St, Adams, NY 13605",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d841a5cda18e3f:0x21654b02beabfd1",
+            "iid": 68176,
+            "name": "China Wok",
+            "rank": 4,
+            "score": -2.5350072383880615,
+            "state": "New_York"
+        },
+        {
+            "address": "Asia Food Market, 701 W Buffalo St, Ithaca, NY 14850",
+            "category": "['Chinese supermarket']",
+            "gmap_id": "0x89d081ed964a4d87:0xad405c6f89a6ae9e",
+            "iid": 67765,
+            "name": "Asia Food Market",
+            "rank": 5,
+            "score": -2.5794639587402344,
+            "state": "New_York"
+        },
+        {
+            "address": "Golden Garden Restaurant, 1265 Broadway, Buffalo, NY 14212",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89d30d8338cf325f:0xd4da78237bd09dd9",
+            "iid": 67889,
+            "name": "Golden Garden Restaurant",
+            "rank": 6,
+            "score": -2.5870718955993652,
+            "state": "New_York"
+        },
+        {
+            "address": "China House, 3913 Oneida St, New Hartford, NY 13413",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89d943c2614a173f:0x57b05f085bcbe30f",
+            "iid": 68209,
+            "name": "China House",
+            "rank": 7,
+            "score": -2.698286771774292,
+            "state": "New_York"
+        },
+        {
+            "address": "Super Wok Chinese Restaurant, 20991 NY-3 #4, Watertown, NY 13601",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d86e17b9dc89c1:0x6a098910d54c3510",
+            "iid": 68180,
+            "name": "Super Wok Chinese Restaurant",
+            "rank": 8,
+            "score": -2.734635591506958,
+            "state": "New_York"
+        },
+        {
+            "address": "Golden Cheng, 323 State St A, Carthage, NY 13619",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89d884320bc862df:0xb23b60b054c3cf1e",
+            "iid": 68192,
+            "name": "Golden Cheng",
+            "rank": 9,
+            "score": -2.739482879638672,
+            "state": "New_York"
+        },
+        {
+            "address": "Florida, Sarasota, Cattlemen Rd, SUSHI BAY KITCHEN&SAKE BAR\u90ae\u653f\u7f16\u7801: 34233",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88c3479984798b05:0x4e82948aa0ac2d73",
+            "iid": 47589,
+            "name": "SUSHI BAY KITCHEN&SAKE BAR",
+            "rank": 10,
+            "score": -2.7803192138671875,
+            "state": "Florida"
+        },
+        {
+            "address": "Spoonsticks, 4348 Merrick Rd, Massapequa, NY 11758",
+            "category": "['Korean restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c27fedc8737af3:0x3004326e7b2e8b02",
+            "iid": 62304,
+            "name": "Spoonsticks",
+            "rank": 11,
+            "score": -2.792937755584717,
+            "state": "New_York"
+        },
+        {
+            "address": "MUGHAL PALACE, 16 Broadway, Valhalla, NY 10595",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c2952191ebf8dd:0x3a6416ebb72a0300",
+            "iid": 62705,
+            "name": "MUGHAL PALACE",
+            "rank": 12,
+            "score": -2.8050119876861572,
+            "state": "New_York"
+        },
+        {
+            "address": "bb.q Chicken Doraville, 5805 Buford Hwy NE #2, Doraville, GA 30340",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x88f5a7dfab2963f7:0xe5ee52d6852f5009",
+            "iid": 52439,
+            "name": "bb.q Chicken Doraville",
+            "rank": 13,
+            "score": -2.805461883544922,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asahi Hibachi & Sushi, 586 US-60, Republic, MO 65738",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87cf5de4ca212343:0x613f49f0f5d98597",
+            "iid": 33559,
+            "name": "Asahi Hibachi & Sushi",
+            "rank": 14,
+            "score": -2.8079895973205566,
+            "state": "Missouri"
+        },
+        {
+            "address": "Soto, 224 Westheimer Rd, Houston, TX 77006",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640bf9f740090b7:0x955e0ea4c8926396",
+            "iid": 22983,
+            "name": "Soto",
+            "rank": 15,
+            "score": -2.8112728595733643,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 8417 Evergreen Way Suite 120, Everett, WA 98208",
+            "category": "['Chinese restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x549001a96d0e9515:0x5ec352e9d547c476",
+            "iid": 1542,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": -2.8117051124572754,
+            "state": "Washington"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 17,
+            "score": -2.813211679458618,
+            "state": "Nevada"
+        },
+        {
+            "address": "Isarn Thai Soul Kitchen (Ravenna), 2316 NE 65th St Suite 101, Seattle, WA 98115",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x549015c682c27d3d:0xa89002434c3dacc5",
+            "iid": 2169,
+            "name": "Isarn Thai Soul Kitchen (Ravenna)",
+            "rank": 18,
+            "score": -2.813891649246216,
+            "state": "Washington"
+        },
+        {
+            "address": "Teriyaki Madness, 7074 W 105th St, Overland Park, KS 66212",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87c0eb95eaedd347:0x2574563dfd87af6a",
+            "iid": 33086,
+            "name": "Teriyaki Madness",
+            "rank": 19,
+            "score": -2.814052104949951,
+            "state": "Kansas"
+        },
+        {
+            "address": "The Monk's Heights, 126 Heights Blvd Unit #110, Houston, TX 77007",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8640c19abdf11311:0xd74a8cb7a3e564a7",
+            "iid": 23113,
+            "name": "The Monk's Heights",
+            "rank": 20,
+            "score": -2.815725326538086,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Drone Flyer",
+        "uid": 120225,
+        "user_id": 104033241935874432167
+    }
+}

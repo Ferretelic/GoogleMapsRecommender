@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Japonais by Morimoto, 600 W Chicago Ave, Chicago, IL 60654",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2012/01/18",
+            "gmap_id": "0x880fd3349c9527a5:0xf53ad5e279b21404",
+            "iid": 11388,
+            "name": "Japonais by Morimoto",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1326855134568
+        },
+        {
+            "address": "Robongi Hoboken, 520 Washington St, Hoboken, NJ 07030",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2016/04/09",
+            "gmap_id": "0x89c259dff3955efd:0xab3013b84a501d8a",
+            "iid": 18588,
+            "name": "Robongi Hoboken",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1460241276379
+        },
+        {
+            "address": "Zuma, 261 Madison Ave, New York, NY 10016",
+            "category": "['Japanese restaurant']",
+            "date": "2016/05/03",
+            "gmap_id": "0x89c25900da7d168f:0x9f06dc02dfbacf06",
+            "iid": 18118,
+            "name": "Zuma",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462236872551
+        },
+        {
+            "address": "sushiDOKKU / BOOZE BOX, 823 W Randolph St, Chicago, IL 60607",
+            "category": "['Sushi restaurant', 'Lounge']",
+            "date": "2016/05/19",
+            "gmap_id": "0x880e2cdacc755c6b:0xd892b76eb188a559",
+            "iid": 10903,
+            "name": "sushiDOKKU / BOOZE BOX",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1463695647354
+        },
+        {
+            "address": "Red Lantern Restaurant & Lounge, 39 Stanhope St, Boston, MA 02116",
+            "category": "['Asian restaurant', 'Lounge', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/03",
+            "gmap_id": "0x89e37a733255f1e3:0xf61f00a1028c9602",
+            "iid": 21063,
+            "name": "Red Lantern Restaurant & Lounge",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1464915624761
+        },
+        {
+            "address": "Ogawashi, 1100 Fifth Ave, San Diego, CA 92101",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/04",
+            "gmap_id": "0x80d954a7c7f8ec7d:0x4fc70275c6e92613",
+            "iid": 5561,
+            "name": "Ogawashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1465079041772
+        },
+        {
+            "address": "Oishii Boston, 1166 Washington St, Boston, MA 02118",
+            "category": "['Authentic Japanese restaurant']",
+            "date": "2016/08/17",
+            "gmap_id": "0x89e37a6e6d403195:0xc727e893746649cf",
+            "iid": 21061,
+            "name": "Oishii Boston",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1471438497848
+        },
+        {
+            "address": "Roka Akor - San Francisco, 801 Montgomery St, San Francisco, CA 94133",
+            "category": "['Japanese restaurant']",
+            "date": "2016/10/08",
+            "gmap_id": "0x808581281ce6ce4b:0xbe12a60aff36f188",
+            "iid": 2475,
+            "name": "Roka Akor - San Francisco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1475896315452
+        },
+        {
+            "address": "Hatsuhana Sushi Restaurant, 17 E 48th St, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2016/12/21",
+            "gmap_id": "0x89c258fc2af38ec3:0x2a73e292b7593d80",
+            "iid": 18097,
+            "name": "Hatsuhana Sushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1482286742951
+        },
+        {
+            "address": "Sushi Rock Las Olas, 1515 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/01/14",
+            "gmap_id": "0x88d9004eec327681:0x78bf3d046ba0e56b",
+            "iid": 14333,
+            "name": "Sushi Rock Las Olas",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1484413289036
+        },
+        {
+            "address": "Hiro Sushi, 9958 Midlothian Turnpike, Richmond, VA 23235",
+            "category": "['Sushi restaurant']",
+            "date": "2020/07/04",
+            "gmap_id": "0x89b16d43f8f2f601:0xfdae725165a2052e",
+            "iid": 16807,
+            "name": "Hiro Sushi",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1593826645033
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Noodle Hut & Sushi Bar, Sparks, NV 89431",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80993f3091542dfd:0x341c042d25ba0574",
+            "iid": 3536,
+            "name": "Noodle Hut & Sushi Bar",
+            "rank": 1,
+            "score": -2.4777119159698486,
+            "state": "Nevada"
+        },
+        {
+            "address": "\u301247906 Indiana, West Lafayette, E State St, DENJU",
+            "category": "['Japanese restaurant', 'Takeout Restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x88131d683ef6411b:0x9e6a51316172543c",
+            "iid": 11478,
+            "name": "DENJU",
+            "rank": 2,
+            "score": -2.5494439601898193,
+            "state": "Indiana"
+        },
+        {
+            "address": "Maruichi Japanese Food and Deli, 1398 Massachusetts Ave, Arlington, MA 02476",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x89e37795cfe6ab6d:0xd824541aa08ca335",
+            "iid": 20979,
+            "name": "Maruichi Japanese Food and Deli",
+            "rank": 3,
+            "score": -2.565535306930542,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "n/soto, 4566 W Washington Blvd, Los Angeles, CA 90016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2b9c6f355bbaf:0xaa31f74ab8b51600",
+            "iid": 4279,
+            "name": "n/soto",
+            "rank": 4,
+            "score": -2.6420862674713135,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Miguels Style Highland, 7199 Boulder Ave UNIT 2, Highland, CA 92346",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c355a93311849b:0x50db28e0103c93fc",
+            "iid": 5165,
+            "name": "Sushi Miguels Style Highland",
+            "rank": 5,
+            "score": -2.6568164825439453,
+            "state": "California"
+        },
+        {
+            "address": "Yokohama Greenwood, Yokohama, 67 N Madison Ave, Greenwood, IN 46142",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886b5d1755970877:0x2989b805c12417ab",
+            "iid": 13444,
+            "name": "Yokohama Greenwood",
+            "rank": 6,
+            "score": -2.6598217487335205,
+            "state": "Indiana"
+        },
+        {
+            "address": "Kizami Sushi, 2235 N Lincoln Ave, Chicago, IL 60614",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fd3e075ad5c6b:0xb1910ed57daf32f7",
+            "iid": 11439,
+            "name": "Kizami Sushi",
+            "rank": 7,
+            "score": -2.660146951675415,
+            "state": "Illinois"
+        },
+        {
+            "address": "Umami, 18921 University Blvd #900, Sugar Land, TX 77479",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8640e5b27f6c7d13:0x2c280f2db7c0ddcd",
+            "iid": 7550,
+            "name": "Umami",
+            "rank": 8,
+            "score": -2.6635892391204834,
+            "state": "Texas"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 13141,
+            "name": "Aki Japanese Cuisine",
+            "rank": 9,
+            "score": -2.666419267654419,
+            "state": "Alabama"
+        },
+        {
+            "address": "Rosella, 137 Avenue A, New York, NY 10009",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c259a9610bfc8f:0x58666551a9dcb450",
+            "iid": 18487,
+            "name": "Rosella",
+            "rank": 10,
+            "score": -2.666888952255249,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 5092,
+            "name": "Sushi One Spot",
+            "rank": 11,
+            "score": -2.66780948638916,
+            "state": "California"
+        },
+        {
+            "address": "California, San Francisco, 20th St, Yoji House\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x808f7fd5297e6c73:0xc12d39e4d3397baf",
+            "iid": 2866,
+            "name": "Yoji House",
+            "rank": 12,
+            "score": -2.668236255645752,
+            "state": "California"
+        },
+        {
+            "address": "Rakkan Ramen, 600 N Shepherd Dr Suite 515, Houston, TX 77007",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x8640c79a00c02231:0x62c3ac7e16e0945a",
+            "iid": 7467,
+            "name": "Rakkan Ramen",
+            "rank": 13,
+            "score": -2.669990301132202,
+            "state": "Texas"
+        },
+        {
+            "address": "Aki Kushiyaki, 2106 E Madison St, Seattle, WA 98112",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54906b2d601dd8e3:0xbf5a8042f7137364",
+            "iid": 788,
+            "name": "Aki Kushiyaki",
+            "rank": 14,
+            "score": -2.6713016033172607,
+            "state": "Washington"
+        },
+        {
+            "address": "Soto, 224 Westheimer Rd, Houston, TX 77006",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640bf9f740090b7:0x955e0ea4c8926396",
+            "iid": 7367,
+            "name": "Soto",
+            "rank": 15,
+            "score": -2.673182725906372,
+            "state": "Texas"
+        },
+        {
+            "address": "Poke & More, 12892 Biscayne Blvd, North Miami, FL 33181",
+            "category": "['Health food restaurant', 'Bubble tea store', 'Hawaiian restaurant', 'Japanese restaurant', 'Salad shop', 'Sushi takeaway', 'Tea house']",
+            "gmap_id": "0x88d9ad81428cb5fd:0x4248f353aaeebc2f",
+            "iid": 14600,
+            "name": "Poke & More",
+            "rank": 16,
+            "score": -2.6747677326202393,
+            "state": "Florida"
+        },
+        {
+            "address": "Sushi Club 305, 2475 NW 95th Ave STE 7, Doral, FL 33172",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x88d9b94db377092f:0x85e75eca4ce8e77a",
+            "iid": 14788,
+            "name": "Sushi Club 305",
+            "rank": 17,
+            "score": -2.676393747329712,
+            "state": "Florida"
+        },
+        {
+            "address": "Asiatico Asian Kitchen, 10 SE, Bay St, Depoe Bay, OR 97341",
+            "category": "['Asian fusion restaurant', 'Dumpling restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54ea879977c09a93:0x5ba271afa76e6a29",
+            "iid": 1607,
+            "name": "Asiatico Asian Kitchen",
+            "rank": 18,
+            "score": -2.677159309387207,
+            "state": "Oregon"
+        },
+        {
+            "address": "JINYA Ramen Bar - Chandler, 130 S Arizona Ave #1, Chandler, AZ 85225",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x872babfaf945b035:0xc2362c5faf806d72",
+            "iid": 9194,
+            "name": "JINYA Ramen Bar - Chandler",
+            "rank": 19,
+            "score": -2.679312229156494,
+            "state": "Arizona"
+        },
+        {
+            "address": "Sushi Suite 202, 1816 N Clark St, Chicago, IL 60614",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880fd3bc07808003:0x4b54ab8b545bd90",
+            "iid": 11430,
+            "name": "Sushi Suite 202",
+            "rank": 20,
+            "score": -2.680070161819458,
+            "state": "Illinois"
+        }
+    ],
+    "user": {
+        "name": "Keith Jackson",
+        "uid": 133274,
+        "user_id": 118010957561848937641
+    }
+}

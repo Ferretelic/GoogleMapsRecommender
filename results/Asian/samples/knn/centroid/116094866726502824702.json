@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Ginger Thai Katy, 27110 Cinco Ranch Blvd #1100, Katy, TX 77494",
+            "category": "['Thai restaurant']",
+            "date": "2018/08/08",
+            "gmap_id": "0x8641217d9a226a59:0x7b9d5ad146ede938",
+            "iid": 24153,
+            "name": "Ginger Thai Katy",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533699406194
+        },
+        {
+            "address": "Grand Imperial Chinese Restaurant, 27131 Cinco Ranch Blvd #500, Katy, TX 77494",
+            "category": "['Chinese restaurant', 'Caterer', 'Delivery Restaurant']",
+            "date": "2019/04/30",
+            "gmap_id": "0x8641217dc74a1ebd:0x4a7d60800aa3f574",
+            "iid": 24154,
+            "name": "Grand Imperial Chinese Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1556647837809
+        },
+        {
+            "address": "I Love Ph\u1edf, 405 Slide Rd #112, Lubbock, TX 79416",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x86fe0d3b676894c3:0x19f02a0dfcc24a7c",
+            "iid": 28196,
+            "name": "I Love Ph\u1edf",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1576203695952
+        },
+        {
+            "address": "Pho Saigon, 890 Mason Rd, Katy, TX 77450",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x864127386bc2c3fb:0x363c6edac97a6e84",
+            "iid": 24229,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591678210
+        },
+        {
+            "address": "JINYA Ramen Bar - Katy, 21788 Katy Fwy, Katy, TX 77449",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x8641276eb1e82e0f:0x327837533f0f7122",
+            "iid": 24247,
+            "name": "JINYA Ramen Bar - Katy",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591684311
+        },
+        {
+            "address": "Panda Express, 313 University Ave, Lubbock, TX 79415",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x86fe12b9a60829ff:0x19e105160e3addd8",
+            "iid": 28199,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591712313
+        },
+        {
+            "address": "Hayashi Midtown, 3701 19th St, Lubbock, TX 79410",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Family restaurant', 'Authentic Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x86fe72ab54295fbd:0x831a394646ebaa0b",
+            "iid": 28220,
+            "name": "Hayashi Midtown",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591775241
+        },
+        {
+            "address": "Tikka Shack Indian Grub, 6620 Milwaukee Ave #100, Lubbock, TX 79424",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x86fe730cacf0ab67:0xe138d159fa7dd213",
+            "iid": 28232,
+            "name": "Tikka Shack Indian Grub",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578794517352
+        },
+        {
+            "address": "Little Panda, 1221 University Ave, Lubbock, TX 79401",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x86fe12b4425cba61:0x594f70b567e5dd24",
+            "iid": 28198,
+            "name": "Little Panda",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1582520204111
+        },
+        {
+            "address": "Little V Vietnamese Bistro, 4031 FM 1463, Katy, TX 77494",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x864123976022c1b3:0x3d40870dc813ba4a",
+            "iid": 24179,
+            "name": "Little V Vietnamese Bistro",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1582520243395
+        },
+        {
+            "address": "Panda Express, 3100 N Terminal Rd #24, Houston, TX 77032",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x8640b441c11eb255:0x846022f8aa878fdb",
+            "iid": 22877,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1582520330320
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "China Wok, 705 S Commercial Ave, Coleman, TX 76834",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x865724cd5708964f:0xdb4ea12e10114179",
+            "iid": 26949,
+            "name": "China Wok",
+            "rank": 1,
+            "score": -23.373369216918945,
+            "state": "Texas"
+        },
+        {
+            "address": "Jolene's Thai Cuisine, 2001 Coggin Ave, Brownwood, TX 76801",
+            "category": "['Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8650c7be9878f2cf:0xfe188376be61cfc1",
+            "iid": 26889,
+            "name": "Jolene's Thai Cuisine",
+            "rank": 2,
+            "score": -26.59560203552246,
+            "state": "Texas"
+        },
+        {
+            "address": "China Cafe, 1417 Austin Ave # C, Brownwood, TX 76801",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8650c7a57575b339:0x4fbe9845c414caa8",
+            "iid": 26888,
+            "name": "China Cafe",
+            "rank": 3,
+            "score": -26.694538116455078,
+            "state": "Texas"
+        },
+        {
+            "address": "New China, 715 Conrad Hilton Blvd, Cisco, TX 76437",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8651387a820b27e7:0x984542bf94e6cac0",
+            "iid": 26891,
+            "name": "New China",
+            "rank": 4,
+            "score": -60.29831314086914,
+            "state": "Texas"
+        },
+        {
+            "address": "China Cafe, 412 E Main St, Eastland, TX 76448",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86511536397b739b:0x99df314866e6f5e9",
+            "iid": 26890,
+            "name": "China Cafe",
+            "rank": 5,
+            "score": -68.21697235107422,
+            "state": "Texas"
+        },
+        {
+            "address": "China Wok, 812 Hutchins Ave, Ballinger, TX 76821",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8657a6ffba85840d:0xbfed869e48d6e6d0",
+            "iid": 26950,
+            "name": "China Wok",
+            "rank": 6,
+            "score": -74.0691146850586,
+            "state": "Texas"
+        },
+        {
+            "address": "China Wok, 133 N Main St, Winters, TX 79567",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8657ab3156116565:0x1d800ec6493b3cdf",
+            "iid": 26951,
+            "name": "China Wok",
+            "rank": 7,
+            "score": -74.32154846191406,
+            "state": "Texas"
+        },
+        {
+            "address": "Mian Bistro, 6410 Buffalo Gap Rd #D, Abilene, TX 79606",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86568ce5215fca09:0x25215a188665eb7c",
+            "iid": 26930,
+            "name": "Mian Bistro",
+            "rank": 8,
+            "score": -78.69384765625,
+            "state": "Texas"
+        },
+        {
+            "address": "Golden Chopsticks, 4358 Sayles Blvd, Abilene, TX 79605",
+            "category": "['Chinese takeaway', 'Buffet restaurant']",
+            "gmap_id": "0x86568dddca3ad6e1:0x96bfa26a30c75c3d",
+            "iid": 26936,
+            "name": "Golden Chopsticks",
+            "rank": 9,
+            "score": -79.18980407714844,
+            "state": "Texas"
+        },
+        {
+            "address": "Hashi Teppan Grill, 3388 Rebecca Ln, Abilene, TX 79606",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x86568dad63f93829:0x5841dd513223bb83",
+            "iid": 26932,
+            "name": "Hashi Teppan Grill",
+            "rank": 10,
+            "score": -79.9107437133789,
+            "state": "Texas"
+        },
+        {
+            "address": "Little Panda, 3390 Rebecca Ln, Abilene, TX 79606",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86568dad60c883dd:0x16ef64f751b87c30",
+            "iid": 26931,
+            "name": "Little Panda",
+            "rank": 11,
+            "score": -79.91674041748047,
+            "state": "Texas"
+        },
+        {
+            "address": "Little Ninja, 4102 Buffalo Gap Rd # n, Abilene, TX 79605",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86568db70e168637:0x5a8505d0bd7376ab",
+            "iid": 26935,
+            "name": "Little Ninja",
+            "rank": 12,
+            "score": -80.0675048828125,
+            "state": "Texas"
+        },
+        {
+            "address": "ENFU Express ( abilene texas ), 4310 Buffalo Gap Rd, Abilene, TX 79606",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86568db3fff1483d:0x3d85a8e691659b83",
+            "iid": 26933,
+            "name": "ENFU Express ( abilene texas )",
+            "rank": 13,
+            "score": -80.10404205322266,
+            "state": "Texas"
+        },
+        {
+            "address": "Buffet Asia, 3366 John Knox Dr, Abilene, TX 79606",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x86568db525f03aa3:0xe2cfb4f38dd4da19",
+            "iid": 26934,
+            "name": "Buffet Asia",
+            "rank": 14,
+            "score": -80.66637420654297,
+            "state": "Texas"
+        },
+        {
+            "address": "AZIDA, 818 E Hwy 80, Abilene, TX 79601",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x865691802d2283f5:0x5bae6154f869de62",
+            "iid": 26947,
+            "name": "AZIDA",
+            "rank": 15,
+            "score": -81.0252685546875,
+            "state": "Texas"
+        },
+        {
+            "address": "Harvest Moon, 1149 E N 10th St, Abilene, TX 79601",
+            "category": "['Chinese restaurant', 'Buffet restaurant']",
+            "gmap_id": "0x86568e24b7e39339:0x72ab41d75204fc90",
+            "iid": 26938,
+            "name": "Harvest Moon",
+            "rank": 16,
+            "score": -81.54901123046875,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho King, 2025 S 14th St, Abilene, TX 79602",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86568f2e075b52f9:0x7afee334bff88993",
+            "iid": 26944,
+            "name": "Pho King",
+            "rank": 17,
+            "score": -81.71926879882812,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 1749 TX-351, Abilene, TX 79601",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x865691b354283f1b:0x4df06225a198a1a",
+            "iid": 26948,
+            "name": "Panda Express",
+            "rank": 18,
+            "score": -82.81918334960938,
+            "state": "Texas"
+        },
+        {
+            "address": "Phoenix Pho boba Tea, 2439 N Judge Ely Blvd suit 2501, Abilene, TX 79601",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8656914a12e6620d:0x48ffa259783b1efc",
+            "iid": 26946,
+            "name": "Phoenix Pho boba Tea",
+            "rank": 19,
+            "score": -83.24554443359375,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyo Asia Fusion, 1441 S Danville Dr, Abilene, TX 79605",
+            "category": "['Asian restaurant', 'Japanese steakhouse', 'Seafood restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x86568e9e0383d935:0xd96c51b6194f48bb",
+            "iid": 26942,
+            "name": "Tokyo Asia Fusion",
+            "rank": 20,
+            "score": -83.66034698486328,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Krista Beck",
+        "uid": 479565,
+        "user_id": 116094866726502824702
+    }
+}

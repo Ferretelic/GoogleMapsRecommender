@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hamilton, 600 14th St NW, Washington, D.C., DC 20005",
+            "category": "['American restaurant', 'Bar', 'Brunch restaurant', 'Catering food and drink supplier', 'Cocktail bar', 'Dessert restaurant', 'Event venue', 'Live music venue', 'Restaurant', 'Sushi restaurant']",
+            "date": "2015/12/20",
+            "gmap_id": "0x89b7b797c7d538d3:0xd7872ecc9a2a243e",
+            "iid": 17190,
+            "name": "The Hamilton",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1450581746344
+        },
+        {
+            "address": "Sushi Jin Next Door, 8555 Fenton St, Silver Spring, MD 20910",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2016/01/17",
+            "gmap_id": "0x89b7c8ba0a933aa7:0x5f8a2a55fe44b127",
+            "iid": 17268,
+            "name": "Sushi Jin Next Door",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1453074024913
+        },
+        {
+            "address": "Ginza Japanese Restaurant, 9616 Reisterstown Rd, Owings Mills, MD 21117",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/08/05",
+            "gmap_id": "0x89c8176b88494b4b:0x9953e4e75977829a",
+            "iid": 20385,
+            "name": "Ginza Japanese Restaurant",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1470427793926
+        },
+        {
+            "address": "Ippudo NY, 65 4th Ave, New York, NY 10003",
+            "category": "['Ramen restaurant']",
+            "date": "2018/12/02",
+            "gmap_id": "0x89c2599be79c4359:0xb9d6395de6e0aff6",
+            "iid": 18409,
+            "name": "Ippudo NY",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543724128893
+        },
+        {
+            "address": "Haikan, 805 V St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2019/05/10",
+            "gmap_id": "0x89b7b7e4df0c024f:0x284b6fa985d06644",
+            "iid": 17212,
+            "name": "Haikan",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1557530263701
+        },
+        {
+            "address": "RACKS Fish House & Oyster Bar, 5 SE 2nd Ave, Delray Beach, FL 33444",
+            "category": "['Seafood restaurant', 'American restaurant', 'Bar', 'Cocktail bar', 'Delivery Restaurant', 'Oyster bar restaurant', 'Sushi restaurant', 'Tapas bar', 'Tapas restaurant', 'Wine bar']",
+            "date": "2019/06/21",
+            "gmap_id": "0x88d8dfdcb006b699:0x2c51d97bd16c9501",
+            "iid": 14295,
+            "name": "RACKS Fish House & Oyster Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561138334340
+        },
+        {
+            "address": "Nama Sushi Bar & Restaurant, 465 K St NW, Washington, DC 20001",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/09/30",
+            "gmap_id": "0x89b7b7205a420fe5:0x363259c3e118ffb8",
+            "iid": 17161,
+            "name": "Nama Sushi Bar & Restaurant",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1569807548990
+        },
+        {
+            "address": "IPPUDO SAN FRANCISCO, 18 Yerba Buena Ln, San Francisco, CA 94103",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/11/21",
+            "gmap_id": "0x808580862be0dea3:0x6c80a515c00c6c5c",
+            "iid": 2336,
+            "name": "IPPUDO SAN FRANCISCO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574297244433
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "valid",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Nooshi, 524 8th St SE, Washington, DC 20003",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Noodle shop', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b83339ba76fd:0xd54e90be393bc05f",
+            "iid": 17225,
+            "name": "Nooshi",
+            "rank": 1,
+            "score": 0.5965344309806824,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Saburo Ramen Bar, 8503 Baltimore Ave, College Park, MD 20740",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89b7c6a7b22281e5:0xcbdf4569145786f7",
+            "iid": 17259,
+            "name": "Saburo Ramen Bar",
+            "rank": 2,
+            "score": 0.5826731324195862,
+            "state": "Maryland"
+        },
+        {
+            "address": "Mi & Yu Noodle Bar, 1016 S Charles St, Baltimore, MD 21230",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "gmap_id": "0x89c803689cb39deb:0xb130132aed080d72",
+            "iid": 20322,
+            "name": "Mi & Yu Noodle Bar",
+            "rank": 3,
+            "score": 0.5760379433631897,
+            "state": "Maryland"
+        },
+        {
+            "address": "Sushi Sono, 10215 Wincopin Cir, Columbia, MD 21044",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89b7df968609838b:0x2223db4a7927ff18",
+            "iid": 17355,
+            "name": "Sushi Sono",
+            "rank": 4,
+            "score": 0.5732282996177673,
+            "state": "Maryland"
+        },
+        {
+            "address": "Mi & Yu Noodle Bar, The Rotunda, 711 W 40th St #154, Baltimore, MD 21211",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "gmap_id": "0x89c8052f569f0f17:0xc809e26098ff8455",
+            "iid": 20342,
+            "name": "Mi & Yu Noodle Bar",
+            "rank": 5,
+            "score": 0.5642915368080139,
+            "state": "Maryland"
+        },
+        {
+            "address": "Daikaya, 705 6th St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Izakaya restaurant']",
+            "gmap_id": "0x89b7b73aab846c17:0x64520a673457796e",
+            "iid": 17166,
+            "name": "Daikaya",
+            "rank": 6,
+            "score": 0.5640777945518494,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Kippo Ramen, 606 S Broadway, Baltimore, MD 21231",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x89c803803dd3a2e1:0x9fc4f72881c74973",
+            "iid": 20330,
+            "name": "Kippo Ramen",
+            "rank": 7,
+            "score": 0.5633098483085632,
+            "state": "Maryland"
+        },
+        {
+            "address": "Sushi Taro, 1503 17th St NW, Washington, DC 20036",
+            "category": "['Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b7c13a1e20c5:0x5491b9db801c33d0",
+            "iid": 17201,
+            "name": "Sushi Taro",
+            "rank": 8,
+            "score": 0.5631197690963745,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Shoyou Sushi, 1450 Light St, Baltimore, MD 21230",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c8036ea8e4223b:0x26e396f2a4120fe4",
+            "iid": 20324,
+            "name": "Shoyou Sushi",
+            "rank": 9,
+            "score": 0.561607301235199,
+            "state": "Maryland"
+        },
+        {
+            "address": "Red Maple Asian Cuisine and Bar, 10110 Colesville Rd, Silver Spring, MD 20901",
+            "category": "['Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7cf58d90e1dff:0xd02f612ffaf04992",
+            "iid": 17330,
+            "name": "Red Maple Asian Cuisine and Bar",
+            "rank": 10,
+            "score": 0.5559483170509338,
+            "state": "Maryland"
+        },
+        {
+            "address": "Matsuri Restaurant, 1105 S Charles St, Baltimore, MD 21230",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c8036893697ac9:0x7e9478dc62f1c075",
+            "iid": 20321,
+            "name": "Matsuri Restaurant",
+            "rank": 11,
+            "score": 0.5532392859458923,
+            "state": "Maryland"
+        },
+        {
+            "address": "Sushi Capitol, 750 6th St NW, Washington, DC 20001",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x89b7b7dfe2e884e5:0x540857b6f72129eb",
+            "iid": 17211,
+            "name": "Sushi Capitol",
+            "rank": 12,
+            "score": 0.5520857572555542,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Joss Caf\u00e9 & Sushi Bar, 195 Main St, Annapolis, MD 21401",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89b7f64fe2064489:0x6bde4c2fa7949b05",
+            "iid": 17391,
+            "name": "Joss Caf\u00e9 & Sushi Bar",
+            "rank": 13,
+            "score": 0.5478246212005615,
+            "state": "Maryland"
+        },
+        {
+            "address": "Buredo, 10219 Old Georgetown Rd, Bethesda, MD 20814",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x89b7cc0b6f1a5b99:0x283a5a468cfa99f1",
+            "iid": 17295,
+            "name": "Buredo",
+            "rank": 14,
+            "score": 0.5452039837837219,
+            "state": "Maryland"
+        },
+        {
+            "address": "Azumi, 725 Aliceanna St, Baltimore, MD 21202",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c8037c5cce5087:0xdf9baccae956162b",
+            "iid": 20326,
+            "name": "Azumi",
+            "rank": 15,
+            "score": 0.5433034300804138,
+            "state": "Maryland"
+        },
+        {
+            "address": "Hilo Poke & Sushi, R. House, 301 W 29th St, Baltimore, MD 21211",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c804dcf45b0d0f:0xe249c6707ba71117",
+            "iid": 20338,
+            "name": "Hilo Poke & Sushi",
+            "rank": 16,
+            "score": 0.5398306846618652,
+            "state": "Maryland"
+        },
+        {
+            "address": "Donburi, 1134 19th St NW, Washington, DC 20036",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89b7b7b8346c4a6b:0x7b6ae41626261a3c",
+            "iid": 17193,
+            "name": "Donburi",
+            "rank": 17,
+            "score": 0.5375810861587524,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "Donburi, 2438 18th St NW, Washington, DC 20009",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b7da31a51b99:0xc17792cc8a74fc76",
+            "iid": 17208,
+            "name": "Donburi",
+            "rank": 18,
+            "score": 0.5368281602859497,
+            "state": "District_of_Columbia"
+        },
+        {
+            "address": "PekoPeko Ramen, 7 E 33rd St, Baltimore, MD 21218",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c804e03d8b8771:0x1fabb9665c9986fa",
+            "iid": 20340,
+            "name": "PekoPeko Ramen",
+            "rank": 19,
+            "score": 0.5353111624717712,
+            "state": "Maryland"
+        },
+        {
+            "address": "Grace's Mandarin, 188 Waterfront St, Oxon Hill, MD 20745",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b7b07376fc37a3:0xad1f433e0b63784a",
+            "iid": 17087,
+            "name": "Grace's Mandarin",
+            "rank": 20,
+            "score": 0.5343244671821594,
+            "state": "Maryland"
+        }
+    ],
+    "user": {
+        "name": "Tanveer Huq",
+        "uid": 92368,
+        "user_id": 112473692825486621977
+    }
+}

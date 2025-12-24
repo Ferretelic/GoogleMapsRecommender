@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Shin-Sen-Gumi \u2013 Irvine, 6404 Irvine Blvd, Irvine, CA 92620",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Ramen restaurant', 'Restaurant', 'Udon noodle restaurant']",
+            "date": "2017/12/31",
+            "gmap_id": "0x80dcdcd5862d7969:0x1aabeaea52fc0df5",
+            "iid": 19620,
+            "name": "Shin-Sen-Gumi \u2013 Irvine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514761824263
+        },
+        {
+            "address": "Pho Kim Kim, 1029, 1020 Hwy 6 N Suite, Houston, TX 77079",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/03/05",
+            "gmap_id": "0x8640dbfdac9c4edb:0xae381e03aa700993",
+            "iid": 23759,
+            "name": "Pho Kim Kim",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1520284751386
+        },
+        {
+            "address": "Sichuan Impression, 13816 Red Hill Ave, Tustin, CA 92780",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "date": "2018/07/16",
+            "gmap_id": "0x80dcdbec241a8ca3:0xe0a3bb61569b7cbb",
+            "iid": 19567,
+            "name": "Sichuan Impression",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531706965186
+        },
+        {
+            "address": "Izakaya-Wa, 12665 Memorial Dr, Houston, TX 77024",
+            "category": "['Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2018/08/02",
+            "gmap_id": "0x8640c4aa513b1f8d:0xe8b40aaaa8847443",
+            "iid": 23364,
+            "name": "Izakaya-Wa",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533174344223
+        },
+        {
+            "address": "Pho Saigon, 2553 Gessner Rd, Houston, TX 77080",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x8640c523faaa15cd:0x4d61c46a82e460de",
+            "iid": 23407,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1534988492495
+        },
+        {
+            "address": "Tamashi, 1106 Silber Rd d1, Houston, TX 77055, United States",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/08/24",
+            "gmap_id": "0x8640c6a33468331f:0x87162141515fb61f",
+            "iid": 23436,
+            "name": "Tamashi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535074501039
+        },
+        {
+            "address": "Mikoto Ramen & Sushi Bar, 12155 Katy Fwy, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2018/08/31",
+            "gmap_id": "0x8640db7455ea5673:0xf6f77244c5a04d1",
+            "iid": 23744,
+            "name": "Mikoto Ramen & Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535726506209
+        },
+        {
+            "address": "Ginger Thai Cuisine, 303 Grasshopper Ln, Houston, TX 77079",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Seafood restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640dbe066732b47:0x2ae8a1b4537c7913",
+            "iid": 23756,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536200498471
+        },
+        {
+            "address": "Pho Oceanside, 518 Oceanside Blvd, Oceanside, CA 92054",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/10/01",
+            "gmap_id": "0x80dc6e19183d5423:0xc1c117640bbbb426",
+            "iid": 18792,
+            "name": "Pho Oceanside",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1538436342668
+        },
+        {
+            "address": "Torihei Yakitori Robata Dining, 1757 W Carson St Ste A, Torrance, CA 90501",
+            "category": "['Yakitori restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/22",
+            "gmap_id": "0x80dd4aa4cbe26543:0x9cccbcd21c393524",
+            "iid": 21109,
+            "name": "Torihei Yakitori Robata Dining",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1561229059586
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Saigon Kitchen, 112 North St, Burlington, VT 05401",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Pho restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x4cca7bde4becba2f:0xdbc6f7bdb16dcdd6",
+            "iid": 446,
+            "name": "Saigon Kitchen",
+            "rank": 1,
+            "score": -2.595632553100586,
+            "state": "Vermont"
+        },
+        {
+            "address": "Stone Korean Restaurant, 24032 Bothell Everett Hwy #400, Bothell, WA 98021",
+            "category": "['Restaurant', 'Korean restaurant']",
+            "gmap_id": "0x54900f9505da718d:0x9c4b82deab722459",
+            "iid": 1769,
+            "name": "Stone Korean Restaurant",
+            "rank": 2,
+            "score": -2.5960068702697754,
+            "state": "Washington"
+        },
+        {
+            "address": "House of Punjab, 3000 32nd Ave S, Grand Forks, ND 58201",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x52c681bf99e04df1:0xcb7fa28dfb3a4306",
+            "iid": 1017,
+            "name": "House of Punjab",
+            "rank": 3,
+            "score": -2.5960299968719482,
+            "state": "North_Dakota"
+        },
+        {
+            "address": "Thaikota, 1201 1st Ave N, Fargo, ND 58102",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x52c8cb31834e6d11:0xbc979599a537c24c",
+            "iid": 1031,
+            "name": "Thaikota",
+            "rank": 4,
+            "score": -2.5961732864379883,
+            "state": "North_Dakota"
+        },
+        {
+            "address": "Lin's Asian Bistro, 1900 Airport Way, Fairbanks, AK 99701",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x51325bf60b538f51:0x1828fc7f978879de",
+            "iid": 546,
+            "name": "Lin's Asian Bistro",
+            "rank": 5,
+            "score": -2.596357583999634,
+            "state": "Alaska"
+        },
+        {
+            "address": "Namaste India, 78415 US-40, Winter Park, CO 80482",
+            "category": "['French restaurant', 'Indian restaurant']",
+            "gmap_id": "0x876a35c41785c8e9:0x6eb0fd6823e74022",
+            "iid": 30719,
+            "name": "Namaste India",
+            "rank": 6,
+            "score": -2.5970497131347656,
+            "state": "Colorado"
+        },
+        {
+            "address": "Origami, 2217 San Ramon Valley Blvd Suite F, San Ramon, CA 94583",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808ff3ccae8bb3a5:0x8d9d737a4c5f6b1f",
+            "iid": 11287,
+            "name": "Origami",
+            "rank": 7,
+            "score": -2.597177267074585,
+            "state": "California"
+        },
+        {
+            "address": "Little Peach's, 39119 Cedar Blvd, Newark, CA 94560",
+            "category": "['Restaurant', 'Bubble tea store', 'Catering food and drink supplier', 'Chicken wings restaurant', 'Chinese restaurant', 'Dessert restaurant', 'Rice restaurant', 'Tea house']",
+            "gmap_id": "0x808fbf6da9a36395:0xa5d069b2ed3ab07c",
+            "iid": 10442,
+            "name": "Little Peach's",
+            "rank": 8,
+            "score": -2.597177743911743,
+            "state": "California"
+        },
+        {
+            "address": "Thai Time, 9313 Anderson Mill Rd, Austin, TX 78729",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8644cd974a81d535:0x771b106730dcc920",
+            "iid": 24599,
+            "name": "Thai Time",
+            "rank": 9,
+            "score": -2.59718918800354,
+            "state": "Texas"
+        },
+        {
+            "address": "Curry Leaf Restaurant Bar & Banquet, 1800 Valley View Ln #104, Irving, TX 75061",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x864e8148ed4268a7:0x835f7117d07f1c07",
+            "iid": 26477,
+            "name": "Curry Leaf Restaurant Bar & Banquet",
+            "rank": 10,
+            "score": -2.597257614135742,
+            "state": "Texas"
+        },
+        {
+            "address": "Daikon Banh Mi Shop, 919 Pearl St, Boulder, CO 80302",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x876bed08647e1f23:0xe8e52bc0a5d6922a",
+            "iid": 30950,
+            "name": "Daikon Banh Mi Shop",
+            "rank": 11,
+            "score": -2.5973353385925293,
+            "state": "Colorado"
+        },
+        {
+            "address": "Pure Pho and Grill Express, 2192 North Point Cir, Alpharetta, GA 30022",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88f5758958869b8b:0xbdf5e57c588d93a2",
+            "iid": 51996,
+            "name": "Pure Pho and Grill Express",
+            "rank": 12,
+            "score": -2.5973966121673584,
+            "state": "Georgia"
+        },
+        {
+            "address": "Asahi Hibachi & Sushi, 586 US-60, Republic, MO 65738",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87cf5de4ca212343:0x613f49f0f5d98597",
+            "iid": 33559,
+            "name": "Asahi Hibachi & Sushi",
+            "rank": 13,
+            "score": -2.5974152088165283,
+            "state": "Missouri"
+        },
+        {
+            "address": "BODHI : Craft Bar + Thai Bistro, 922 Massachusetts Ave, Indianapolis, IN 46202",
+            "category": "['Cocktail bar', 'Gastropub', 'Thai restaurant']",
+            "gmap_id": "0x886b51478ae3dadf:0x21523437af3ea5a7",
+            "iid": 45044,
+            "name": "BODHI : Craft Bar + Thai Bistro",
+            "rank": 14,
+            "score": -2.5974488258361816,
+            "state": "Indiana"
+        },
+        {
+            "address": "Aki Kushiyaki, 2106 E Madison St, Seattle, WA 98112",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x54906b2d601dd8e3:0xbf5a8042f7137364",
+            "iid": 2983,
+            "name": "Aki Kushiyaki",
+            "rank": 15,
+            "score": -2.597458839416504,
+            "state": "Washington"
+        },
+        {
+            "address": "Menya Shono, 908 4th St, San Rafael, CA 94901",
+            "category": "['Authentic Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x808599e11148a087:0x2e2abfde76671cec",
+            "iid": 8243,
+            "name": "Menya Shono",
+            "rank": 16,
+            "score": -2.597466230392456,
+            "state": "California"
+        },
+        {
+            "address": "Sa-Bai Thai Bistro, 2580 AZ-95, Bullhead City, AZ 86442",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x80ce4154e59c71ed:0x8b32d091441ba99f",
+            "iid": 17673,
+            "name": "Sa-Bai Thai Bistro",
+            "rank": 17,
+            "score": -2.5974714756011963,
+            "state": "Arizona"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 46972,
+            "name": "KELP SUSHI JOINT",
+            "rank": 18,
+            "score": -2.597482204437256,
+            "state": "Florida"
+        },
+        {
+            "address": "Kai Ramen North Hollywood (NoHo Arts District), 5200 Lankershim Blvd STE 110, North Hollywood, CA 91601",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c29512f036e489:0xd593636854bd265",
+            "iid": 13131,
+            "name": "Kai Ramen North Hollywood (NoHo Arts District)",
+            "rank": 19,
+            "score": -2.597485303878784,
+            "state": "California"
+        },
+        {
+            "address": "Mazaa Biryani Corner, 38245 W 10 Mile Rd, Farmington Hills, MI 48335",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8824af6e24a6773f:0xcd22da7eadf18a64",
+            "iid": 39110,
+            "name": "Mazaa Biryani Corner",
+            "rank": 20,
+            "score": -2.5974903106689453,
+            "state": "Michigan"
+        }
+    ],
+    "user": {
+        "name": "Mingte Kao",
+        "uid": 227653,
+        "user_id": 107619537096742938009
+    }
+}

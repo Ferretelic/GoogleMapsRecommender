@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Panda Express, 1872 West, Cross Hollow Rd, Cedar City, UT 84720",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2016/11/11",
+            "gmap_id": "0x80b5627375ca64e7:0xf8b5393fc141b774",
+            "iid": 12908,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1478892158906
+        },
+        {
+            "address": "Thai Evergreen, 160 E University Pkwy, Orem, UT 84058",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2017/01/25",
+            "gmap_id": "0x874d9afda44173ff:0xd7cd794221ed3e7",
+            "iid": 30050,
+            "name": "Thai Evergreen",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1485303277752
+        },
+        {
+            "address": "Panda Express, 494 E 1300 S, Orem, UT 84097",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/02/01",
+            "gmap_id": "0x874d9a8968b5e189:0xd894d1721a07b3bf",
+            "iid": 30035,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1485986768032
+        },
+        {
+            "address": "Tsunami Restaurant & Sushi Bar - Traverse Mountain, 1616 W Traverse Pkwy, Lehi, UT 84043",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x87528019420eea9f:0x6abab208ac6e7f83",
+            "iid": 30161,
+            "name": "Tsunami Restaurant & Sushi Bar - Traverse Mountain",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1531292820561
+        },
+        {
+            "address": "P.F. Chang's, 575 E University Pkwy Ste A-20, Orem, UT 84097",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/07/11",
+            "gmap_id": "0x874d9a8bf9d211c7:0x601593912a8a91c",
+            "iid": 30038,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1531292915330
+        },
+        {
+            "address": "Panda Express, 785 S Main St, Heber City, UT 84032, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x874df597d05698f9:0xd1cdae4b69f2513b",
+            "iid": 30079,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1536713901386
+        },
+        {
+            "address": "Panda Express, 748 E Commerce Way, Spanish Fork, UT 84660",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x874dbd1f637708f5:0xadf47a5a86cfe35e",
+            "iid": 30068,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1547654133939
+        },
+        {
+            "address": "Panda Express, 1240 N University Ave, Provo, UT 84604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x874d90a38e7cc06f:0x201392c3cc5f951b",
+            "iid": 30002,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Utah",
+            "unix_time": 1547654175745
+        },
+        {
+            "address": "Sushi House, 705 S 500 E, American Fork, UT 84003",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/01/16",
+            "gmap_id": "0x874d83e0a67079a5:0x32089ce6c2b2471d",
+            "iid": 29985,
+            "name": "Sushi House",
+            "split": "valid",
+            "state": "Utah",
+            "unix_time": 1547654206896
+        },
+        {
+            "address": "Osaka, 46 W Center St, Provo, UT 84601",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/21",
+            "gmap_id": "0x874d9753653b3211:0x550092f451026ae7",
+            "iid": 30020,
+            "name": "Osaka",
+            "split": "test",
+            "state": "Utah",
+            "unix_time": 1548112031007
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Hogi Yogi, 295 S Main St, Springville, UT 84663",
+            "category": "['Sandwich shop', 'Japanese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x874dbd8699722553:0xd4edcd3fc984f02c",
+            "iid": 30073,
+            "name": "Hogi Yogi",
+            "rank": 1,
+            "score": 0.6938768625259399,
+            "state": "Utah"
+        },
+        {
+            "address": "Oriental Garden, 412 UT-198, Salem, UT 84653",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x874da4b4e38eb6b5:0xcdb12faa25bba1a4",
+            "iid": 30062,
+            "name": "Oriental Garden",
+            "rank": 2,
+            "score": 0.6772408485412598,
+            "state": "Utah"
+        },
+        {
+            "address": "Panda Express, 148 S Pleasant Grove Blvd, Pleasant Grove, UT 84062",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x874d840f5fc66c69:0xf06daeacc3f9b58",
+            "iid": 29986,
+            "name": "Panda Express",
+            "rank": 3,
+            "score": 0.6736055612564087,
+            "state": "Utah"
+        },
+        {
+            "address": "China Wok, 97 E 1000 N, Spanish Fork, UT 84660",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x874dbd2638fce6b3:0xedc175fd6ef62826",
+            "iid": 30070,
+            "name": "China Wok",
+            "rank": 4,
+            "score": 0.6680291295051575,
+            "state": "Utah"
+        },
+        {
+            "address": "Rice Wok, 1468 N State St, Orem, UT 84057",
+            "category": "['Chinese restaurant', 'Fast food restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x874d8518ce64c09f:0x94c9921515d73a65",
+            "iid": 29990,
+            "name": "Rice Wok",
+            "rank": 5,
+            "score": 0.6677432656288147,
+            "state": "Utah"
+        },
+        {
+            "address": "Wild Ginger, 366 N University Ave, Provo, UT 84601",
+            "category": "['Asian restaurant', 'Buffet restaurant', 'Chicken restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x874d90ac59064ae7:0x172055d44af68e06",
+            "iid": 30008,
+            "name": "Wild Ginger",
+            "rank": 6,
+            "score": 0.6517871022224426,
+            "state": "Utah"
+        },
+        {
+            "address": "China Town, 330 S State St, Provo, UT 84606",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x874d97572dc2cdfb:0xc3f970535001e638",
+            "iid": 30025,
+            "name": "China Town",
+            "rank": 7,
+            "score": 0.6402987241744995,
+            "state": "Utah"
+        },
+        {
+            "address": NaN,
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x874d90ac6a75d487:0x8d35a904de43fd53",
+            "iid": 30009,
+            "name": "TV",
+            "rank": 8,
+            "score": 0.6268121600151062,
+            "state": "Oregon"
+        },
+        {
+            "address": "Panda Express, 1413 N Redwood Rd, Saratoga Springs, UT 84045",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x874d7e5abb2beded:0x8bb4e8c3b338f3e",
+            "iid": 29961,
+            "name": "Panda Express",
+            "rank": 9,
+            "score": 0.6240624785423279,
+            "state": "Utah"
+        },
+        {
+            "address": "Noodle King, 163 N University Ave, Provo, UT 84601",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x874d90acb48a6c21:0x7504d581846abccd",
+            "iid": 30010,
+            "name": "Noodle King",
+            "rank": 10,
+            "score": 0.6229127049446106,
+            "state": "Utah"
+        },
+        {
+            "address": "Pho Plus, 68 W Center St, Provo, UT 84601",
+            "category": "['Vietnamese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x874d97536303b853:0xcc5f1ea94b39fd96",
+            "iid": 30018,
+            "name": "Pho Plus",
+            "rank": 11,
+            "score": 0.6164983510971069,
+            "state": "Utah"
+        },
+        {
+            "address": "Mongolian Grill, 484 S 1750 W, Springville, UT 84663",
+            "category": "['Restaurant', 'Chinese restaurant', 'Mongolian barbecue restaurant']",
+            "gmap_id": "0x874dbd5ffe6190eb:0x8b2d12b95c4d28f2",
+            "iid": 30072,
+            "name": "Mongolian Grill",
+            "rank": 12,
+            "score": 0.614411473274231,
+            "state": "Utah"
+        },
+        {
+            "address": "King Buffet of Orem, 123 South State St, Orem, UT 84058",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x874d9ac70a2ebb4d:0xb2736669b7543ff4",
+            "iid": 30045,
+            "name": "King Buffet of Orem",
+            "rank": 13,
+            "score": 0.6125202775001526,
+            "state": "Utah"
+        },
+        {
+            "address": "Chen's Noodle House, 1468 State St, Orem, UT 84057",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x874d9a8c2e03e6f1:0x4231db9d6c94639",
+            "iid": 30039,
+            "name": "Chen's Noodle House",
+            "rank": 14,
+            "score": 0.6124794483184814,
+            "state": "Utah"
+        },
+        {
+            "address": "Thai-Ger Cuisine, 410 N University Ave, Provo, UT 84601",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x874d90ac41157031:0x9d2b0faeb6afb2ba",
+            "iid": 30007,
+            "name": "Thai-Ger Cuisine",
+            "rank": 15,
+            "score": 0.610700249671936,
+            "state": "Utah"
+        },
+        {
+            "address": "Mekong Caf\u00e9 2, 546 1750 W, Springville, UT 84663",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x874dbd8e20dce06d:0x9b73ad513b07fcd5",
+            "iid": 30075,
+            "name": "Mekong Caf\u00e9 2",
+            "rank": 16,
+            "score": 0.6089349985122681,
+            "state": "Utah"
+        },
+        {
+            "address": "Hong Kong Buffet, 84 N Main St, Cedar City, UT 84720",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80b561ba89b92d7b:0xfecffb82963d60e6",
+            "iid": 12905,
+            "name": "Hong Kong Buffet",
+            "rank": 17,
+            "score": 0.6085865497589111,
+            "state": "Utah"
+        },
+        {
+            "address": "Tepanyaki Japanese Steakhouse, 777 E University Pkwy, Orem, UT 84097",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x874d9a87cdd79a5d:0xffdd89f00bf35c12",
+            "iid": 30031,
+            "name": "Tepanyaki Japanese Steakhouse",
+            "rank": 18,
+            "score": 0.6082811951637268,
+            "state": "Utah"
+        },
+        {
+            "address": "Rice King Restaurant, 278 W Center St #4419, Provo, UT 84601",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x874d97552396a2c5:0x9667079bf0508a0d",
+            "iid": 30023,
+            "name": "Rice King Restaurant",
+            "rank": 19,
+            "score": 0.606204092502594,
+            "state": "Utah"
+        },
+        {
+            "address": "ASIAN CAFE, 3535 Ranches Pkwy F, Eagle Mountain, UT 84005",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x874d7c3620a99d0d:0x682eacaaffb9cd65",
+            "iid": 29959,
+            "name": "ASIAN CAFE",
+            "rank": 20,
+            "score": 0.6056615710258484,
+            "state": "Utah"
+        }
+    ],
+    "user": {
+        "name": "Jed Chrisman",
+        "uid": 353862,
+        "user_id": 111860609982621951981
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Neko Robata and Sushi Bar, 4318 N Western Ave, Oklahoma City, OK 73118",
+            "category": "['Sushi restaurant', 'Family restaurant', 'Fine dining restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/05/25",
+            "gmap_id": "0x87b21a0366e2d56d:0x1d14e0a4c568aaf9",
+            "iid": 9979,
+            "name": "Sushi Neko Robata and Sushi Bar",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1558798575874
+        },
+        {
+            "address": "THAI DELIGHT BROADWAY Edmond, 3409 S Broadway #750, Edmond, OK 73013",
+            "category": "['Thai restaurant', 'Catering food and drink supplier', 'Fine dining restaurant', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "date": "2019/10/09",
+            "gmap_id": "0x87b21f978fef54b7:0xd64b94434956d1e0",
+            "iid": 10008,
+            "name": "THAI DELIGHT BROADWAY Edmond",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1570583867867
+        },
+        {
+            "address": "Yuzo Sushi Tapas, 808 N Broadway Ave, Oklahoma City, OK 73102",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/10/15",
+            "gmap_id": "0x87b217300b534e91:0x46cf3e7238a497df",
+            "iid": 9974,
+            "name": "Yuzo Sushi Tapas",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1571100078244
+        },
+        {
+            "address": "Jiro Sushi, 1101 NW 23rd St, Oklahoma City, OK 73106",
+            "category": "['Japanese restaurant']",
+            "date": "2019/11/27",
+            "gmap_id": "0x87b210b2211aa3bd:0x3310c206e77ec102",
+            "iid": 9963,
+            "name": "Jiro Sushi",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1574860181917
+        },
+        {
+            "address": "Volcano Sushi Bar & Hibachi, 5301 Main St #103, Del City, OK 73115",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2019/12/08",
+            "gmap_id": "0x87b23dec47ee1893:0x78f3036c36115dc5",
+            "iid": 10016,
+            "name": "Volcano Sushi Bar & Hibachi",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1575840753853
+        },
+        {
+            "address": "Grand House Asian Bistro, 2701 N Classen Blvd, Oklahoma City, OK 73106, United States",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Sushi restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x87b210af9a99e36f:0xdfda4c7b3216cdb1",
+            "iid": 9962,
+            "name": "Grand House Asian Bistro",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1578538801719
+        },
+        {
+            "address": "Tamashii Ramen House, 321 NW 8th St, Oklahoma City, OK 73102, United States",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2020/01/14",
+            "gmap_id": "0x87b2173198b8cb33:0x5a0bac2835bb3e37",
+            "iid": 9976,
+            "name": "Tamashii Ramen House",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1578971959081
+        },
+        {
+            "address": "Tamashii Ramen House, 321 NW 8th St, Oklahoma City, OK 73102, United States",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2020/01/14",
+            "gmap_id": "0x87b2173198b8cb33:0x5a0bac2835bb3e37",
+            "iid": 9976,
+            "name": "Tamashii Ramen House",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1578971959081
+        },
+        {
+            "address": "Hibachi Express & Sushi, 5801 S Sooner Rd J, Oklahoma City, OK 73135",
+            "category": "['Sushi restaurant', 'Fast food restaurant', 'Japanese restaurant', 'Teppanyaki restaurant']",
+            "date": "2020/02/25",
+            "gmap_id": "0x87b23e16c40044e5:0x6171717d06f27461",
+            "iid": 10017,
+            "name": "Hibachi Express & Sushi",
+            "split": "valid",
+            "state": "Oklahoma",
+            "unix_time": 1582599742249
+        },
+        {
+            "address": "Broadway 10 Bar & Chophouse, Buick Building, 1101, N Broadway Ave, Oklahoma City, OK 73103",
+            "category": "['Steak house', 'Bar', 'Chophouse restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Wine bar']",
+            "date": "2020/12/15",
+            "gmap_id": "0x87b21730a49e4687:0x765beb2a73994b16",
+            "iid": 9975,
+            "name": "Broadway 10 Bar & Chophouse",
+            "split": "test",
+            "state": "Oklahoma",
+            "unix_time": 1608006118361
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Yokozuna OKC, 13230 Pawnee Dr #100, Oklahoma City, OK 73114",
+            "category": "['Asian fusion restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87b21c1004528123:0xf45106d923be4f0b",
+            "iid": 9989,
+            "name": "Yokozuna OKC",
+            "rank": 1,
+            "score": 0.7620289921760559,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 7516 N Western Ave, Oklahoma City, OK 73116",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87b21a2b614b4ba1:0x7aa084af6af32edf",
+            "iid": 9982,
+            "name": "Tokyo Japanese Restaurant",
+            "rank": 2,
+            "score": 0.7596444487571716,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Musashi's Japanese Steakhouse, 4315 N Western Ave, Oklahoma City, OK 73118",
+            "category": "['Japanese restaurant', 'Bar & grill', 'Caterer', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x87b21a04a2fab461:0x5f6f861c4553fe52",
+            "iid": 9980,
+            "name": "Musashi's Japanese Steakhouse",
+            "rank": 3,
+            "score": 0.7269710302352905,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Gor\u014d Ramen + Izakaya, 3000 Paseo, Oklahoma City, OK 73103",
+            "category": "['Ramen restaurant', 'Bar', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x87b210b8f9368441:0xe547b7dd9bf8cdad",
+            "iid": 9964,
+            "name": "Gor\u014d Ramen + Izakaya",
+            "rank": 4,
+            "score": 0.7153563499450684,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Tamashii Ramen - Ya, 132 E 5th St, Edmond, OK 73034",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x87b21f48d2a3a5a7:0x9284d5d444aa68d9",
+            "iid": 10005,
+            "name": "Tamashii Ramen - Ya",
+            "rank": 5,
+            "score": 0.7138946056365967,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "GoGo Sushi, 432 NW 10th St, Oklahoma City, OK 73103",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x87b2173391563d2d:0xb8a94511ffbc2d6c",
+            "iid": 9977,
+            "name": "GoGo Sushi",
+            "rank": 6,
+            "score": 0.7101041674613953,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Nhinja Sushi Second St., 2080 E 2nd St, Edmond, OK 73034",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87b21f90a41d501d:0xc280ca14508a12a4",
+            "iid": 10007,
+            "name": "Nhinja Sushi Second St.",
+            "rank": 7,
+            "score": 0.705987274646759,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Roll & Rock Sushi Station, 6227 N Meridian Ave, Oklahoma City, OK 73112",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87b21ad08dd9518f:0x7e571d8d2425535e",
+            "iid": 9985,
+            "name": "Roll & Rock Sushi Station",
+            "rank": 8,
+            "score": 0.7050713300704956,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Masa Ramen & Sushi, 1001 W Memorial Rd Ste 104, Oklahoma City, OK 73114",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87b21dab990b729b:0x6ccb3ea5fb9f85d7",
+            "iid": 9998,
+            "name": "Masa Ramen & Sushi",
+            "rank": 9,
+            "score": 0.7013156414031982,
+            "state": "Oklahoma"
+        },
+        {
+            "address": NaN,
+            "category": "['Izakaya restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x87b217511098d417:0x987001b8e3b6bb3c",
+            "iid": 9978,
+            "name": "Gun Izakaya",
+            "rank": 10,
+            "score": 0.6859874725341797,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "The Sushi Bar, 1201 NW 178th St, Edmond, OK 73012",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87b21ddc8569031b:0xd14914c1218e6d2b",
+            "iid": 9999,
+            "name": "The Sushi Bar",
+            "rank": 11,
+            "score": 0.6811853051185608,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Ding asian fusion sushi bar, Express, 6400 NW 39th Expy, Bethany, OK 73008",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87b20544d2693e73:0x8d355d27842575c5",
+            "iid": 9954,
+            "name": "Ding asian fusion sushi bar",
+            "rank": 12,
+            "score": 0.6797061562538147,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Nhinja Sushi Broadway, 5 W 15th St, Edmond, OK 73013",
+            "category": "['Sushi restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x87b21eff52bf72e9:0x7232e1a52438bc1b",
+            "iid": 10003,
+            "name": "Nhinja Sushi Broadway",
+            "rank": 13,
+            "score": 0.6794757843017578,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Nhinja Sushi May, 13905 N May Ave, Oklahoma City, OK 73134",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Japanese restaurant']",
+            "gmap_id": "0x87b21c5f92d07283:0x8bc2d2f9c427fa0c",
+            "iid": 9991,
+            "name": "Nhinja Sushi May",
+            "rank": 14,
+            "score": 0.6664336323738098,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Saii Asian Bistro and Sushi Bar, 6900 N May Ave, Oklahoma City, OK 73116",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x87b21b8770a769b7:0xe547a0756e4d113f",
+            "iid": 9987,
+            "name": "Saii Asian Bistro and Sushi Bar",
+            "rank": 15,
+            "score": 0.6630508303642273,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Inaka Sushi & Bar, 9321 N Pennsylvania Ave, Oklahoma City, OK 73120",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Sushi takeaway']",
+            "gmap_id": "0x87b21bbed835d4c1:0x5742586d14d1071a",
+            "iid": 9988,
+            "name": "Inaka Sushi & Bar",
+            "rank": 16,
+            "score": 0.6569451689720154,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Broadway 10 Bar & Chophouse, Buick Building, 1101, N Broadway Ave, Oklahoma City, OK 73103",
+            "category": "['Steak house', 'Bar', 'Chophouse restaurant', 'Seafood restaurant', 'Sushi restaurant', 'Wine bar']",
+            "gmap_id": "0x87b21730a49e4687:0x765beb2a73994b16",
+            "iid": 9975,
+            "name": "Broadway 10 Bar & Chophouse",
+            "rank": 17,
+            "score": 0.6482009291648865,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Cafe De Taipei, 603 S Broadway, Edmond, OK 73034",
+            "category": "['Taiwanese restaurant', 'Bubble tea store', 'Japanese restaurant']",
+            "gmap_id": "0x87b21e52b7d7baaf:0x393ac0c9da408d6f",
+            "iid": 10002,
+            "name": "Cafe De Taipei",
+            "rank": 18,
+            "score": 0.6446458101272583,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Volcano Sushi Bar & Hibachi, 1609 Penn Park Blvd #10, Oklahoma City, OK 73159",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87b21395a60a0821:0x5448c927b1ab6a52",
+            "iid": 9969,
+            "name": "Volcano Sushi Bar & Hibachi",
+            "rank": 19,
+            "score": 0.6428463459014893,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "The Sushi Bar, 6432 W Memorial Rd, Oklahoma City, OK 73142",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x87b20340a15b7159:0x35b16aa6e09fd931",
+            "iid": 9947,
+            "name": "The Sushi Bar",
+            "rank": 20,
+            "score": 0.6333261728286743,
+            "state": "Oklahoma"
+        }
+    ],
+    "user": {
+        "name": "Jamie Johnson",
+        "uid": 62593,
+        "user_id": 108446568210059506795
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Japonais by Morimoto, 600 W Chicago Ave, Chicago, IL 60654",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2012/01/18",
+            "gmap_id": "0x880fd3349c9527a5:0xf53ad5e279b21404",
+            "iid": 11388,
+            "name": "Japonais by Morimoto",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1326855134568
+        },
+        {
+            "address": "Robongi Hoboken, 520 Washington St, Hoboken, NJ 07030",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2016/04/09",
+            "gmap_id": "0x89c259dff3955efd:0xab3013b84a501d8a",
+            "iid": 18588,
+            "name": "Robongi Hoboken",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1460241276379
+        },
+        {
+            "address": "Zuma, 261 Madison Ave, New York, NY 10016",
+            "category": "['Japanese restaurant']",
+            "date": "2016/05/03",
+            "gmap_id": "0x89c25900da7d168f:0x9f06dc02dfbacf06",
+            "iid": 18118,
+            "name": "Zuma",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462236872551
+        },
+        {
+            "address": "sushiDOKKU / BOOZE BOX, 823 W Randolph St, Chicago, IL 60607",
+            "category": "['Sushi restaurant', 'Lounge']",
+            "date": "2016/05/19",
+            "gmap_id": "0x880e2cdacc755c6b:0xd892b76eb188a559",
+            "iid": 10903,
+            "name": "sushiDOKKU / BOOZE BOX",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1463695647354
+        },
+        {
+            "address": "Red Lantern Restaurant & Lounge, 39 Stanhope St, Boston, MA 02116",
+            "category": "['Asian restaurant', 'Lounge', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/03",
+            "gmap_id": "0x89e37a733255f1e3:0xf61f00a1028c9602",
+            "iid": 21063,
+            "name": "Red Lantern Restaurant & Lounge",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1464915624761
+        },
+        {
+            "address": "Ogawashi, 1100 Fifth Ave, San Diego, CA 92101",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/04",
+            "gmap_id": "0x80d954a7c7f8ec7d:0x4fc70275c6e92613",
+            "iid": 5561,
+            "name": "Ogawashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1465079041772
+        },
+        {
+            "address": "Oishii Boston, 1166 Washington St, Boston, MA 02118",
+            "category": "['Authentic Japanese restaurant']",
+            "date": "2016/08/17",
+            "gmap_id": "0x89e37a6e6d403195:0xc727e893746649cf",
+            "iid": 21061,
+            "name": "Oishii Boston",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1471438497848
+        },
+        {
+            "address": "Roka Akor - San Francisco, 801 Montgomery St, San Francisco, CA 94133",
+            "category": "['Japanese restaurant']",
+            "date": "2016/10/08",
+            "gmap_id": "0x808581281ce6ce4b:0xbe12a60aff36f188",
+            "iid": 2475,
+            "name": "Roka Akor - San Francisco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1475896315452
+        },
+        {
+            "address": "Hatsuhana Sushi Restaurant, 17 E 48th St, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2016/12/21",
+            "gmap_id": "0x89c258fc2af38ec3:0x2a73e292b7593d80",
+            "iid": 18097,
+            "name": "Hatsuhana Sushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1482286742951
+        },
+        {
+            "address": "Sushi Rock Las Olas, 1515 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/01/14",
+            "gmap_id": "0x88d9004eec327681:0x78bf3d046ba0e56b",
+            "iid": 14333,
+            "name": "Sushi Rock Las Olas",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1484413289036
+        },
+        {
+            "address": "Hiro Sushi, 9958 Midlothian Turnpike, Richmond, VA 23235",
+            "category": "['Sushi restaurant']",
+            "date": "2020/07/04",
+            "gmap_id": "0x89b16d43f8f2f601:0xfdae725165a2052e",
+            "iid": 16807,
+            "name": "Hiro Sushi",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1593826645033
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Sunda Chicago, 110 W Illinois St, Chicago, IL 60654",
+            "category": "['Southeast Asian restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2cb3dad6dba5:0xda554f9fc3a0e498",
+            "iid": 10879,
+            "name": "Sunda Chicago",
+            "rank": 1,
+            "score": 5.895148754119873,
+            "state": "Illinois"
+        },
+        {
+            "address": "Blue Ribbon Sushi, 119 Sullivan St, New York, NY 10012",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c2598db6bbba4b:0xc16017f0b775b359",
+            "iid": 18341,
+            "name": "Blue Ribbon Sushi",
+            "rank": 2,
+            "score": 5.741936683654785,
+            "state": "New_York"
+        },
+        {
+            "address": "RAMEN-SAN, 59 W Hubbard St #2, Chicago, IL 60654",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x880e2cb184a107cb:0xfa0c46e9cc5ea8f4",
+            "iid": 10873,
+            "name": "RAMEN-SAN",
+            "rank": 3,
+            "score": 5.6917877197265625,
+            "state": "Illinois"
+        },
+        {
+            "address": "Douzo Sushi, 131 Dartmouth St, Boston, MA 02116",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e37a0d13004401:0xadeefbb0f2176d27",
+            "iid": 21042,
+            "name": "Douzo Sushi",
+            "rank": 4,
+            "score": 5.591893672943115,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Roka Akor - Chicago, 456 N Clark St, Chicago, IL 60654",
+            "category": "['Japanese restaurant', 'Steak house']",
+            "gmap_id": "0x880e2cb3d37963cd:0x5657bac7ef11f7da",
+            "iid": 10878,
+            "name": "Roka Akor - Chicago",
+            "rank": 5,
+            "score": 5.530345916748047,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Yasuda, 204 E 43rd St, New York, NY 10017",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259031cfa96d1:0xb48caafcb427629c",
+            "iid": 18136,
+            "name": "Sushi Yasuda",
+            "rank": 6,
+            "score": 5.39622163772583,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi-san, 63 W Grand Ave, Chicago, IL 60654",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880e2cb237a797c7:0xc4b7bcfdc7520f95",
+            "iid": 10875,
+            "name": "Sushi-san",
+            "rank": 7,
+            "score": 5.3620924949646,
+            "state": "Illinois"
+        },
+        {
+            "address": "Morimoto, 88 10th Ave, New York, NY 10011",
+            "category": "['Sushi restaurant', 'Bar', 'Family restaurant', 'Japanese restaurant', 'Lounge', 'Lunch restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x89c259c0baf3254f:0x36020a4a29243b6",
+            "iid": 18560,
+            "name": "Morimoto",
+            "rank": 8,
+            "score": 5.16454553604126,
+            "state": "New_York"
+        },
+        {
+            "address": "Cafe Sushi, 1105 Massachusetts Ave, Cambridge, MA 02138",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89e3775b3807ba0d:0x33b9d4324ef59446",
+            "iid": 20975,
+            "name": "Cafe Sushi",
+            "rank": 9,
+            "score": 5.043477535247803,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Koi New York, 40 W 40th St, New York, NY 10018",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c259aa8642b8cf:0xc0f21b5e8e75d249",
+            "iid": 18493,
+            "name": "Koi New York",
+            "rank": 10,
+            "score": 4.9825520515441895,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Yasaka, 251 W 72nd St, New York, NY 10023",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c25861f92c2143:0x6df52b9e7310c3c5",
+            "iid": 17971,
+            "name": "Sushi Yasaka",
+            "rank": 11,
+            "score": 4.955499649047852,
+            "state": "New_York"
+        },
+        {
+            "address": "Slurping Turtle, 116 W Hubbard St, Chicago, IL 60654",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e2cb16189c1cb:0xeddc059220be2c4a",
+            "iid": 10872,
+            "name": "Slurping Turtle",
+            "rank": 12,
+            "score": 4.905961990356445,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 2358,
+            "name": "Sanraku",
+            "rank": 13,
+            "score": 4.88564920425415,
+            "state": "California"
+        },
+        {
+            "address": "Ocean Prime, 140 Seaport Blvd, Boston, MA 02210",
+            "category": "['Seafood restaurant', 'American restaurant', 'Fine dining restaurant', 'Lounge', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x89e37a827ec1438b:0x963fdfc6ed1ffaf3",
+            "iid": 21076,
+            "name": "Ocean Prime",
+            "rank": 14,
+            "score": 4.830604076385498,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "High Five Ramen, 112 N Green St, Chicago, IL 60607",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x880e2cdad0af0517:0xee3a19c97a02fa85",
+            "iid": 10904,
+            "name": "High Five Ramen",
+            "rank": 15,
+            "score": 4.763964653015137,
+            "state": "Illinois"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 210 E Ohio St, Chicago, IL 60611",
+            "category": "['Barbecue restaurant', 'Japanese restaurant', 'Tapas bar']",
+            "gmap_id": "0x880e2cab75329649:0x8f867c97b55810e6",
+            "iid": 10869,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 16,
+            "score": 4.6688618659973145,
+            "state": "Illinois"
+        },
+        {
+            "address": "Nobu, 195 Broadway, New York, NY 10007",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x89c25a19b684cf65:0xd2962999c22f1521",
+            "iid": 18636,
+            "name": "Nobu",
+            "rank": 17,
+            "score": 4.638473033905029,
+            "state": "New_York"
+        },
+        {
+            "address": "Momosan Lexington, NY, 342 Lexington Ave, New York, NY 10016",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c25901576cc1b9:0x1a5972c514d020e",
+            "iid": 18124,
+            "name": "Momosan Lexington, NY",
+            "rank": 18,
+            "score": 4.633598327636719,
+            "state": "New_York"
+        },
+        {
+            "address": "Empire, 1 Marina Park Drive, Boston, MA 02210",
+            "category": "['Pan-Asian restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e3707f0fc05c5d:0x7bbd8d6ca1d6944c",
+            "iid": 20880,
+            "name": "Empire",
+            "rank": 19,
+            "score": 4.615960597991943,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "RUKA, 505 Washington St, Boston, MA 02111",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Peruvian restaurant']",
+            "gmap_id": "0x89e37082d2b824eb:0x28dbac78bf7e8eb8",
+            "iid": 20883,
+            "name": "RUKA",
+            "rank": 20,
+            "score": 4.514461994171143,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Keith Jackson",
+        "uid": 133274,
+        "user_id": 118010957561848937641
+    }
+}

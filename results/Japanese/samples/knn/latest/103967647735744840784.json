@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hokkaido Ramen Santouka Bellevue, #3rd, 103 Bellevue Way NE Suite 3, Bellevue, WA 98004",
+            "category": "['Ramen restaurant']",
+            "date": "2016/08/31",
+            "gmap_id": "0x54906c7ddb72a44d:0x5ecae91a8cb6cb17",
+            "iid": 806,
+            "name": "Hokkaido Ramen Santouka Bellevue",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1472612497321
+        },
+        {
+            "address": "Katsu Burger, 3333 184th St SW, Lynnwood, WA 98037",
+            "category": "['Hamburger restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/02/14",
+            "gmap_id": "0x5490050c19774793:0x4295816aa8b585c9",
+            "iid": 355,
+            "name": "Katsu Burger",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1518579191234
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 575 Bellevue Way NE Space 252, Bellevue, WA 98004",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2018/09/04",
+            "gmap_id": "0x54906c8667753cbf:0x710a5c4475a72a5d",
+            "iid": 809,
+            "name": "Kizuki Ramen & Izakaya",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1536030676789
+        },
+        {
+            "address": "\u301298103 Washington, Seattle, N 39th St, kamonegi",
+            "category": "['Japanese restaurant', 'Restaurant', 'Soba noodle shop']",
+            "date": "2018/10/13",
+            "gmap_id": "0x549014555575792f:0xaf7967773ae43cf4",
+            "iid": 483,
+            "name": "kamonegi",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1539403728779
+        },
+        {
+            "address": "Kona Kitchen - Seattle, 8501 5th Ave NE, Seattle, WA 98115",
+            "category": "['Hawaiian restaurant', 'American restaurant', 'Asian restaurant', 'Family restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/12",
+            "gmap_id": "0x549014092620d14b:0x7ece16998c9d4e7f",
+            "iid": 470,
+            "name": "Kona Kitchen - Seattle",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1541982412587
+        },
+        {
+            "address": "Muto Izakaya, 19505 44th Ave W K, Lynnwood, WA 98036",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Sushi restaurant']",
+            "date": "2019/04/22",
+            "gmap_id": "0x5490054028ded6f7:0xb5f68e1df20d1ca",
+            "iid": 363,
+            "name": "Muto Izakaya",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1555905159367
+        },
+        {
+            "address": "Saburos | Sushi House Restaurant, 1667 SE Bybee Blvd, Portland, OR 97202",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2019/05/14",
+            "gmap_id": "0x54950aea7857a21d:0x9e42cf28463598da",
+            "iid": 1065,
+            "name": "Saburos | Sushi House Restaurant",
+            "split": "train",
+            "state": "Oregon",
+            "unix_time": 1557806156039
+        },
+        {
+            "address": "Musashi's international district, 512 S King St, Seattle, WA 98104",
+            "category": "['Sushi restaurant']",
+            "date": "2019/09/03",
+            "gmap_id": "0x54906abc8504d25d:0x7cdb7d5fdc4013a9",
+            "iid": 760,
+            "name": "Musashi's international district",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1567480682075
+        },
+        {
+            "address": "Sushi.Com, 430 W Main Ave, Spokane, WA 99201",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/10",
+            "gmap_id": "0x549e186016220493:0x20b67d26b124f25d",
+            "iid": 1382,
+            "name": "Sushi.Com",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1578626305237
+        },
+        {
+            "address": "King of Ramen Spokane, 1601 N Division St, Spokane, WA 99207",
+            "category": "['Ramen restaurant']",
+            "date": "2020/02/29",
+            "gmap_id": "0x549e18efeb66c1bf:0x7123e638dc23fdae",
+            "iid": 1392,
+            "name": "King of Ramen Spokane",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1583014527464
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Fort St. George, 601 S King St UNIT 202, Seattle, WA 98104",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906abc8b1ef259:0xbacc11cdc0038ce1",
+            "iid": 762,
+            "name": "Fort St. George",
+            "rank": 1,
+            "score": -0.07335656881332397,
+            "state": "Washington"
+        },
+        {
+            "address": "Maekawa Bar, 601 S King St #2, Seattle, WA 98104",
+            "category": "['Japanese restaurant', 'Bar']",
+            "gmap_id": "0x54906abc8b1e7081:0x93fff44e30cbd782",
+            "iid": 761,
+            "name": "Maekawa Bar",
+            "rank": 2,
+            "score": -0.09066933393478394,
+            "state": "Washington"
+        },
+        {
+            "address": "Momosan Seattle, 504 5th Ave S Suite 119, Seattle, WA 98104",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x54906b5c4ddd84dd:0x7caa2652070a1d03",
+            "iid": 790,
+            "name": "Momosan Seattle",
+            "rank": 3,
+            "score": -0.09342195093631744,
+            "state": "Washington"
+        },
+        {
+            "address": "Aloha Plates, 511 S Weller St, Seattle, WA 98104",
+            "category": "['Hawaiian restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Filipino restaurant', 'Food court', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906abcea372a19:0xa799a7c11c24b139",
+            "iid": 765,
+            "name": "Aloha Plates",
+            "rank": 4,
+            "score": -0.12119133025407791,
+            "state": "Washington"
+        },
+        {
+            "address": "Maneki Restaurant, 304 6th Ave S, Seattle, WA 98104",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906abb8f11278b:0x67652e9acd844703",
+            "iid": 757,
+            "name": "Maneki Restaurant",
+            "rank": 5,
+            "score": -0.15019626915454865,
+            "state": "Washington"
+        },
+        {
+            "address": "Tsukushinbo, 515 South Main St, Seattle, WA 98104",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54906abb9a90cf9d:0xcf699f944dc35994",
+            "iid": 759,
+            "name": "Tsukushinbo",
+            "rank": 6,
+            "score": -0.16456866264343262,
+            "state": "Washington"
+        },
+        {
+            "address": "Uwajimaya Seattle, 600 5th Ave S, Seattle, WA 98104",
+            "category": "['Asian grocery store', 'Grocery store', 'Japanese grocery store', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x54906abcdbd7d9ab:0xfeedcd4ac66b4ebb",
+            "iid": 764,
+            "name": "Uwajimaya Seattle",
+            "rank": 7,
+            "score": -0.17763470113277435,
+            "state": "Washington"
+        },
+        {
+            "address": "Samurai Noodle, 606 5th Ave S, Seattle, WA 98104",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x54906abcdaad7e1d:0xbacd6a69ab4fa972",
+            "iid": 763,
+            "name": "Samurai Noodle",
+            "rank": 8,
+            "score": -0.1810302436351776,
+            "state": "Washington"
+        },
+        {
+            "address": "Fuji Sushi, 520 South Main St, Seattle, WA 98104",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54906abb9174053f:0x55b99474851a6f61",
+            "iid": 758,
+            "name": "Fuji Sushi",
+            "rank": 9,
+            "score": -0.1848141849040985,
+            "state": "Washington"
+        },
+        {
+            "address": "Matsu, 501 Stadium Pl S, Seattle, WA 98104",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Lounge']",
+            "gmap_id": "0x54906be67748046d:0x70bfe529c4c3d831",
+            "iid": 798,
+            "name": "Matsu",
+            "rank": 10,
+            "score": -0.39142343401908875,
+            "state": "Washington"
+        },
+        {
+            "address": "Asia Ginger Teriyaki Restaurant, 209 2nd Ave S, Seattle, WA 98104",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54906abad8caa85b:0x8b284979fceb2645",
+            "iid": 756,
+            "name": "Asia Ginger Teriyaki Restaurant",
+            "rank": 11,
+            "score": -0.42024800181388855,
+            "state": "Washington"
+        },
+        {
+            "address": "I Heart Sushi, 111 Yesler Way, Seattle, WA 98104",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x54906abab98e74c3:0x56d46efd42bdafd3",
+            "iid": 755,
+            "name": "I Heart Sushi",
+            "rank": 12,
+            "score": -0.5820780992507935,
+            "state": "Washington"
+        },
+        {
+            "address": "Ten Sushi #35, 1207 S Jackson St b106, Seattle, WA 98144",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54906abfb18e7555:0x8246645a1acde533",
+            "iid": 766,
+            "name": "Ten Sushi #35",
+            "rank": 13,
+            "score": -0.7920032143592834,
+            "state": "Washington"
+        },
+        {
+            "address": "Sushi Blossom, 1222 S Weller St, Seattle, WA 98144",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x54906b50a098b3b7:0xce320c8a5b447436",
+            "iid": 789,
+            "name": "Sushi Blossom",
+            "rank": 14,
+            "score": -0.8297683596611023,
+            "state": "Washington"
+        },
+        {
+            "address": "Happy Teriyaki, 823 3rd Ave #109, Seattle, WA 98104",
+            "category": "['Japanese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x54906ab0f38ecf2b:0xfe283625eb897444",
+            "iid": 741,
+            "name": "Happy Teriyaki",
+            "rank": 15,
+            "score": -0.835068941116333,
+            "state": "Washington"
+        },
+        {
+            "address": "Sushi Kudasai, 925 4th Ave #430, Seattle, WA 98104",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x54906ab12218a97b:0xe905588365a545a9",
+            "iid": 742,
+            "name": "Sushi Kudasai",
+            "rank": 16,
+            "score": -0.9216031432151794,
+            "state": "Washington"
+        },
+        {
+            "address": "joybento, 214 Madison St, Seattle, WA 98104",
+            "category": "['Korean restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x54906ab1a9741c97:0x7e0fee814c012bb8",
+            "iid": 743,
+            "name": "joybento",
+            "rank": 17,
+            "score": -0.9720785021781921,
+            "state": "Washington"
+        },
+        {
+            "address": "Mikado Teppanyaki, 1306 S King St, Seattle, WA 98144",
+            "category": "['Japanese restaurant', 'Bar']",
+            "gmap_id": "0x54906abfdd488895:0xeb2fe6573d1b0acb",
+            "iid": 767,
+            "name": "Mikado Teppanyaki",
+            "rank": 18,
+            "score": -0.9935551881790161,
+            "state": "Washington"
+        },
+        {
+            "address": "Sushi Kanpai, 900 8th Ave, Seattle, WA 98104",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54906ab655c284a9:0x2cd5bdc16181c0e4",
+            "iid": 754,
+            "name": "Sushi Kanpai",
+            "rank": 19,
+            "score": -1.0056724548339844,
+            "state": "Washington"
+        },
+        {
+            "address": "BB's Teriyaki Grill, 1111 3rd Ave, Seattle, WA 98101",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54906b8a45396fbd:0x4d33dd77e65e770",
+            "iid": 792,
+            "name": "BB's Teriyaki Grill",
+            "rank": 20,
+            "score": -1.0596686601638794,
+            "state": "Washington"
+        }
+    ],
+    "user": {
+        "name": "Sarah K",
+        "uid": 29258,
+        "user_id": 103967647735744840784
+    }
+}

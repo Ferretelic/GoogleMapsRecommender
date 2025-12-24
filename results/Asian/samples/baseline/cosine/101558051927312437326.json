@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China King, 3743 Elm St, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "date": "2016/12/30",
+            "gmap_id": "0x87df25e5266c71c3:0xa8525f2212c17412",
+            "iid": 34218,
+            "name": "China King",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1483123880316
+        },
+        {
+            "address": "China One, 2012 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/02/23",
+            "gmap_id": "0x87df2df34b1c3627:0x84ba94cd53d55e64",
+            "iid": 34251,
+            "name": "China One",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1487869361071
+        },
+        {
+            "address": "India Palace, 12322 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x87df316a2bda29a7:0x766ba2c892ef935",
+            "iid": 34260,
+            "name": "India Palace",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1498874196621
+        },
+        {
+            "address": "Love Sushi, 2201 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/21",
+            "gmap_id": "0x87db5ea849e05593:0x8dd5c262ac203f9d",
+            "iid": 34112,
+            "name": "Love Sushi",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1534816019261
+        },
+        {
+            "address": "India's House, 1101 E Broadway, Columbia, MO 65201",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb7c30f1b2607:0x19314a856d0da3f3",
+            "iid": 34137,
+            "name": "India's House",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708214276
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 2531 Broadway Bluffs Dr, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb81e42d80a1b:0x4c46ecdc36ccc33a",
+            "iid": 34153,
+            "name": "Kobe Japanese Steakhouse",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708293120
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/26",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1553625068237
+        },
+        {
+            "address": "Panda Cafe, 501 Hwy 28, Owensville, MO 65066",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87dbeae3992f9439:0x5274da7cadee17fd",
+            "iid": 34118,
+            "name": "Panda Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1556980653783
+        },
+        {
+            "address": "Kabab N Kurry, 2220 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Indian restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87df2f20371a1d4f:0xf37669ed4f7c6d28",
+            "iid": 34256,
+            "name": "Kabab N Kurry",
+            "split": "valid",
+            "state": "Missouri",
+            "unix_time": 1556980671124
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 6519,
+            "name": "Hula Grill Waikiki",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1563149917750
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Aroma Indian Grill, 7541 N Lindbergh Blvd, Hazelwood, MO 63042",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x87df37190836bf59:0xde5d760d6a2f0724",
+            "iid": 34347,
+            "name": "Aroma Indian Grill",
+            "rank": 1,
+            "score": 0.7066330909729004,
+            "state": "Missouri"
+        },
+        {
+            "address": "New China Buffet, 2028 steutermann road, Washington Crossing, Washington, MO 63090",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d94eef10d5717f:0x65139f2213de3254",
+            "iid": 34083,
+            "name": "New China Buffet",
+            "rank": 2,
+            "score": 0.6819592118263245,
+            "state": "Missouri"
+        },
+        {
+            "address": "Chen's Palace, 216 N Franklin St, Kirksville, MO 63501",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87e80e7f210d31eb:0x412997ad1a012fd7",
+            "iid": 34612,
+            "name": "Chen's Palace",
+            "rank": 3,
+            "score": 0.6614120006561279,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Kitchen Inc, 503 E Nifong Blvd L, Columbia, MO 65201",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87dcb71aa86bfafd:0x479db9a9562b572e",
+            "iid": 34129,
+            "name": "China Kitchen Inc",
+            "rank": 4,
+            "score": 0.6471654772758484,
+            "state": "Missouri"
+        },
+        {
+            "address": "East Sun Chinese Restaurant, 617 N Franklin St B, Cuba, MO 65453",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87dbce627f1a9fff:0x7fee9e014716968c",
+            "iid": 34117,
+            "name": "East Sun Chinese Restaurant",
+            "rank": 5,
+            "score": 0.6466197371482849,
+            "state": "Missouri"
+        },
+        {
+            "address": "Chef Buffet, 17 Silo Dr, Union, MO 63084",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87d945b139174063:0xa25b4acdf824f6c2",
+            "iid": 34080,
+            "name": "Chef Buffet",
+            "rank": 6,
+            "score": 0.6412695646286011,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Wok, 98 The Legends Pkwy #100, Eureka, MO 63025",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d928701f72ba27:0x115160c16d1384b3",
+            "iid": 34073,
+            "name": "China Wok",
+            "rank": 7,
+            "score": 0.6408267021179199,
+            "state": "Missouri"
+        },
+        {
+            "address": "Taj Mahal Indian Cuisine, 601 Business Loop 70 W, Columbia, MO 65203",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Grocery store', 'South Asian restaurant']",
+            "gmap_id": "0x87dcb7c5619683eb:0xd04d74bf930d9bb8",
+            "iid": 34143,
+            "name": "Taj Mahal Indian Cuisine",
+            "rank": 8,
+            "score": 0.6342065334320068,
+            "state": "Missouri"
+        },
+        {
+            "address": "Asabi Bistro Sushi Bar & Grill, 1325 Lake St Louis Blvd, Lake St Louis, MO 63367",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x87decfeeafcad289:0x4917b53c384ba900",
+            "iid": 34184,
+            "name": "Asabi Bistro Sushi Bar & Grill",
+            "rank": 9,
+            "score": 0.6292197704315186,
+            "state": "Missouri"
+        },
+        {
+            "address": "Yangtze Chinese Restaurant, 104 W Franklin St, Salem, MO 65560",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87da4019fd671251:0xfe9f1bd78d52df99",
+            "iid": 34087,
+            "name": "Yangtze Chinese Restaurant",
+            "rank": 10,
+            "score": 0.6287805438041687,
+            "state": "Missouri"
+        },
+        {
+            "address": "Simply Thai Restaurant, 2470 US-67, Florissant, MO 63033",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87df37e5d611402f:0xec39148e1bc4ffd8",
+            "iid": 34355,
+            "name": "Simply Thai Restaurant",
+            "rank": 11,
+            "score": 0.6205413341522217,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Garden, 229 Lamp and Lantern Village, Chesterfield, MO 63017",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87d8d368adb5b14f:0x95afec451a2a2f13",
+            "iid": 34030,
+            "name": "China Garden",
+            "rank": 12,
+            "score": 0.6203480958938599,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Buffet, 44 S Service Rd W, Sullivan, MO 63080",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d9624a16d4cd67:0x6dab044f861658cb",
+            "iid": 34084,
+            "name": "China Buffet",
+            "rank": 13,
+            "score": 0.6175245642662048,
+            "state": "Missouri"
+        },
+        {
+            "address": "P.F. Chang's, 400 Lombard St, St Charles, MO 63303",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87df2ef0854fafb5:0x456dc7869c31e73e",
+            "iid": 34253,
+            "name": "P.F. Chang's",
+            "rank": 14,
+            "score": 0.6163793206214905,
+            "state": "Missouri"
+        },
+        {
+            "address": "Flavor of India, 11939 Olive Blvd, St. Louis, MO 63141",
+            "category": "['Indian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x87df32a1bfab0a11:0x2c3c21bc95984c6d",
+            "iid": 34272,
+            "name": "Flavor of India",
+            "rank": 15,
+            "score": 0.6147155165672302,
+            "state": "Missouri"
+        },
+        {
+            "address": "Sabaai-Sabaai Thai Cuisine, 219 Madison St #3229, Jefferson City, MO 65101",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87db5e4415f70047:0x521fac5d986f350c",
+            "iid": 34108,
+            "name": "Sabaai-Sabaai Thai Cuisine",
+            "rank": 16,
+            "score": 0.6117749810218811,
+            "state": "Missouri"
+        },
+        {
+            "address": "Asian Corner, 204 Meramec Valley Plaza, Valley Park, MO 63088",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87d8d17360103a09:0x38a1f3e2c03f0fb0",
+            "iid": 34023,
+            "name": "Asian Corner",
+            "rank": 17,
+            "score": 0.6100804209709167,
+            "state": "Missouri"
+        },
+        {
+            "address": "Mandarin Garden, 635 S Bishop Ave, Rolla, MO 65401",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87da54edd0249c91:0x9ba3af2f370c7fcf",
+            "iid": 34094,
+            "name": "Mandarin Garden",
+            "rank": 18,
+            "score": 0.6054912209510803,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thip Thai Cuisine, 3907 Peachtree Dr, Columbia, MO 65203",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87dcb71c3a65a34f:0xa878ebd9e55bee2d",
+            "iid": 34131,
+            "name": "Thip Thai Cuisine",
+            "rank": 19,
+            "score": 0.605437159538269,
+            "state": "Missouri"
+        },
+        {
+            "address": "Love Sushi, 2101 W Broadway Suite S, Columbia, MO 65203",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87dcb6051c730549:0x4967f38cf4a09ef0",
+            "iid": 34126,
+            "name": "Love Sushi",
+            "rank": 20,
+            "score": 0.6052125692367554,
+            "state": "Missouri"
+        }
+    ],
+    "user": {
+        "name": "J Kinz",
+        "uid": 46530,
+        "user_id": 101558051927312437326
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hamilton, 600 14th St NW, Washington, D.C., DC 20005",
+            "category": "['American restaurant', 'Bar', 'Brunch restaurant', 'Catering food and drink supplier', 'Cocktail bar', 'Dessert restaurant', 'Event venue', 'Live music venue', 'Restaurant', 'Sushi restaurant']",
+            "date": "2015/12/20",
+            "gmap_id": "0x89b7b797c7d538d3:0xd7872ecc9a2a243e",
+            "iid": 17190,
+            "name": "The Hamilton",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1450581746344
+        },
+        {
+            "address": "Sushi Jin Next Door, 8555 Fenton St, Silver Spring, MD 20910",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2016/01/17",
+            "gmap_id": "0x89b7c8ba0a933aa7:0x5f8a2a55fe44b127",
+            "iid": 17268,
+            "name": "Sushi Jin Next Door",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1453074024913
+        },
+        {
+            "address": "Ginza Japanese Restaurant, 9616 Reisterstown Rd, Owings Mills, MD 21117",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/08/05",
+            "gmap_id": "0x89c8176b88494b4b:0x9953e4e75977829a",
+            "iid": 20385,
+            "name": "Ginza Japanese Restaurant",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1470427793926
+        },
+        {
+            "address": "Ippudo NY, 65 4th Ave, New York, NY 10003",
+            "category": "['Ramen restaurant']",
+            "date": "2018/12/02",
+            "gmap_id": "0x89c2599be79c4359:0xb9d6395de6e0aff6",
+            "iid": 18409,
+            "name": "Ippudo NY",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543724128893
+        },
+        {
+            "address": "Haikan, 805 V St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2019/05/10",
+            "gmap_id": "0x89b7b7e4df0c024f:0x284b6fa985d06644",
+            "iid": 17212,
+            "name": "Haikan",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1557530263701
+        },
+        {
+            "address": "RACKS Fish House & Oyster Bar, 5 SE 2nd Ave, Delray Beach, FL 33444",
+            "category": "['Seafood restaurant', 'American restaurant', 'Bar', 'Cocktail bar', 'Delivery Restaurant', 'Oyster bar restaurant', 'Sushi restaurant', 'Tapas bar', 'Tapas restaurant', 'Wine bar']",
+            "date": "2019/06/21",
+            "gmap_id": "0x88d8dfdcb006b699:0x2c51d97bd16c9501",
+            "iid": 14295,
+            "name": "RACKS Fish House & Oyster Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561138334340
+        },
+        {
+            "address": "Nama Sushi Bar & Restaurant, 465 K St NW, Washington, DC 20001",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/09/30",
+            "gmap_id": "0x89b7b7205a420fe5:0x363259c3e118ffb8",
+            "iid": 17161,
+            "name": "Nama Sushi Bar & Restaurant",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1569807548990
+        },
+        {
+            "address": "IPPUDO SAN FRANCISCO, 18 Yerba Buena Ln, San Francisco, CA 94103",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/11/21",
+            "gmap_id": "0x808580862be0dea3:0x6c80a515c00c6c5c",
+            "iid": 2336,
+            "name": "IPPUDO SAN FRANCISCO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574297244433
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "valid",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Tokyo Express, 814 Mission St, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80858086504cfa81:0x614ef19e9fb7b6f8",
+            "iid": 2337,
+            "name": "Tokyo Express",
+            "rank": 1,
+            "score": -0.19184456765651703,
+            "state": "California"
+        },
+        {
+            "address": "Bimi Poke, 135 4th St Mailbox #10, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80858146870aa833:0xe6a527d580293cfa",
+            "iid": 2478,
+            "name": "Bimi Poke",
+            "rank": 2,
+            "score": -0.22327806055545807,
+            "state": "California"
+        },
+        {
+            "address": "Sanraku, 135 4th St, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808580870d6d38fb:0xfe73567d9c497651",
+            "iid": 2339,
+            "name": "Sanraku",
+            "rank": 3,
+            "score": -0.24341356754302979,
+            "state": "California"
+        },
+        {
+            "address": "Tsuta Japanese Soba Noodles, 155 4th St, San Francisco, CA 94103",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x808581688f732a15:0x427a397075950e57",
+            "iid": 2481,
+            "name": "Tsuta Japanese Soba Noodles",
+            "rank": 4,
+            "score": -0.2450418919324875,
+            "state": "California"
+        },
+        {
+            "address": "Ginto, 658 Market St, San Francisco, CA 94104",
+            "category": "['Izakaya restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8085808847ae5121:0xecae485ebb739b45",
+            "iid": 2341,
+            "name": "Ginto",
+            "rank": 5,
+            "score": -0.28881096839904785,
+            "state": "California"
+        },
+        {
+            "address": "K MINAMOTO San Francisco Store, 648 Market St, San Francisco, CA 94104",
+            "category": "['Japanese confectionery shop', 'Gift shop']",
+            "gmap_id": "0x808580883a50b8eb:0xea3eb25fb4db24a4",
+            "iid": 2340,
+            "name": "K MINAMOTO San Francisco Store",
+            "rank": 6,
+            "score": -0.31224071979522705,
+            "state": "California"
+        },
+        {
+            "address": "Sarku Japan, 865 Market St Space #C08, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Fast food restaurant', 'Restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x8085808608e32d97:0xe5213da2590385bb",
+            "iid": 2335,
+            "name": "Sarku Japan",
+            "rank": 7,
+            "score": -0.32162225246429443,
+            "state": "California"
+        },
+        {
+            "address": "Ajisen Ramen, 865 Market St #C - 12, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80858085de1e33eb:0x3f41d6d8fc7952e5",
+            "iid": 2334,
+            "name": "Ajisen Ramen",
+            "rank": 8,
+            "score": -0.3397045135498047,
+            "state": "California"
+        },
+        {
+            "address": "Dojima Ann \u5802\u5cf6\u5eb5, 219 O'Farrell St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8085808f3fd7d4ef:0x9fb447d8468d6f5d",
+            "iid": 2367,
+            "name": "Dojima Ann \u5802\u5cf6\u5eb5",
+            "rank": 9,
+            "score": -0.343515545129776,
+            "state": "California"
+        },
+        {
+            "address": "\u301294102 California, San Francisco, Ellis St, SUSHI Nagai",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808581f7ddbbd02b:0xa45318cafac5932c",
+            "iid": 2497,
+            "name": "SUSHI Nagai",
+            "rank": 10,
+            "score": -0.34448859095573425,
+            "state": "California"
+        },
+        {
+            "address": "Takoba SF, 138 Minna, San Francisco, CA 94105",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x8085807d48a8e851:0x2289105f003b7d1c",
+            "iid": 2330,
+            "name": "Takoba SF",
+            "rank": 11,
+            "score": -0.37703225016593933,
+            "state": "California"
+        },
+        {
+            "address": "Sushirrito, 59 New Montgomery St, San Francisco, CA 94105",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Burrito restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80858062a6bcdae7:0xa9c1aacdfed1d7d2",
+            "iid": 2317,
+            "name": "Sushirrito",
+            "rank": 12,
+            "score": -0.37747588753700256,
+            "state": "California"
+        },
+        {
+            "address": "Kaisen Sushi, 71 5th St, San Francisco, CA 94103",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8085808680845385:0xa58b2d79098ea6a2",
+            "iid": 2338,
+            "name": "Kaisen Sushi",
+            "rank": 13,
+            "score": -0.39095616340637207,
+            "state": "California"
+        },
+        {
+            "address": "Miyabiya Sushi & Grill, 115 Cyril Magnin St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x8085808f6ed257e9:0xf6b08f53abf43f5",
+            "iid": 2369,
+            "name": "Miyabiya Sushi & Grill",
+            "rank": 14,
+            "score": -0.3956381380558014,
+            "state": "California"
+        },
+        {
+            "address": "Hana Zen Yakitori & Sushi Bar, 115 Cyril Magnin St, San Francisco, CA 94102",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8085808f6ec3e8a5:0x57b0513c17b02ff7",
+            "iid": 2368,
+            "name": "Hana Zen Yakitori & Sushi Bar",
+            "rank": 15,
+            "score": -0.3956381380558014,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Boat, 389 Geary St, San Francisco, CA 94102",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8085808efe78a503:0xab475be4456e18dd",
+            "iid": 2366,
+            "name": "Sushi Boat",
+            "rank": 16,
+            "score": -0.4450603723526001,
+            "state": "California"
+        },
+        {
+            "address": "Mikaku Restaurant, 323 Grant Ave, San Francisco, CA 94108",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808580895d5ba35f:0xa3d8ae0934a09ca9",
+            "iid": 2342,
+            "name": "Mikaku Restaurant",
+            "rank": 17,
+            "score": -0.448249489068985,
+            "state": "California"
+        },
+        {
+            "address": "Bamboo Asia, 41 Montgomery St, San Francisco, CA 94104",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Indian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x80858089d1fe7f4b:0x57d35d8fae11d265",
+            "iid": 2345,
+            "name": "Bamboo Asia",
+            "rank": 18,
+            "score": -0.44995030760765076,
+            "state": "California"
+        },
+        {
+            "address": "Sushirrito - Union Square, 226 Kearny St, San Francisco, CA 94104",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80858062a6bcdae7:0xdf875c0d2342e4ef",
+            "iid": 2318,
+            "name": "Sushirrito - Union Square",
+            "rank": 19,
+            "score": -0.46455344557762146,
+            "state": "California"
+        },
+        {
+            "address": "Mason O'Farrell Garage, 325 Mason St, San Francisco, CA 94102",
+            "category": "['Parking garage', 'Cafe', 'Car rental agency', 'Electric vehicle charging station', 'Florist', 'Halal restaurant', 'Jeweler', 'Lottery shop', 'Sunglasses store', 'Sushi restaurant']",
+            "gmap_id": "0x8085808fa8019bf9:0xd48a0d763dcaf45f",
+            "iid": 2370,
+            "name": "Mason O'Farrell Garage",
+            "rank": 20,
+            "score": -0.4723305106163025,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Tanveer Huq",
+        "uid": 92368,
+        "user_id": 112473692825486621977
+    }
+}

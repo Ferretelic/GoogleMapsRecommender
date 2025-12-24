@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Biryani & Co., 11150 Research Blvd #210, Austin, TX 78759",
+            "category": "['Indian restaurant']",
+            "date": "2017/08/01",
+            "gmap_id": "0x8644cc8951c8f31f:0xe64640a18084301e",
+            "iid": 24573,
+            "name": "Biryani & Co.",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1501606745150
+        },
+        {
+            "address": "Pho Yen, 1612 S Friendswood Dr, Friendswood, TX 77546",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/08/12",
+            "gmap_id": "0x86409ad42a18c57d:0xf095fff00df0405d",
+            "iid": 22742,
+            "name": "Pho Yen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1502557702719
+        },
+        {
+            "address": "Sip Saam Thai, 6301 W Parmer Ln, Austin, TX 78729",
+            "category": "['Thai restaurant']",
+            "date": "2017/12/05",
+            "gmap_id": "0x8644cd0653d2fd8d:0x374345aad7b3232c",
+            "iid": 24583,
+            "name": "Sip Saam Thai",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1512494695866
+        },
+        {
+            "address": "Pho Viet, 603 Louis Henna Blvd B 200, Round Rock, TX 78664",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/12/22",
+            "gmap_id": "0x8644ce2bf48ad443:0x169e37c45d471969",
+            "iid": 24614,
+            "name": "Pho Viet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1513981587813
+        },
+        {
+            "address": "Iron Fish Sushi & Grill, 900 E Pecan St Ste 800, Pflugerville, TX 78660",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/01/04",
+            "gmap_id": "0x8644cf7df8bef691:0xe44e95ef38705fbe",
+            "iid": 24645,
+            "name": "Iron Fish Sushi & Grill",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1515084532046
+        },
+        {
+            "address": "Godavari, 1779 Wells Branch Pkwy #102, Austin, TX 78728",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2018/02/12",
+            "gmap_id": "0x8644cef48f813ef1:0x40f847e7a27f3f52",
+            "iid": 24637,
+            "name": "Godavari",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1518458695990
+        },
+        {
+            "address": "Pho Phi Restaurant, 1700 W Parmer Ln #610, Austin, TX 78727",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/03/01",
+            "gmap_id": "0x8644cea2e5d09f75:0x3cdedf90528cef3f",
+            "iid": 24620,
+            "name": "Pho Phi Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1519920043453
+        },
+        {
+            "address": "Midori Sushi Austin, 13435 US-183 #301, Austin, TX 78750",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant']",
+            "date": "2018/04/09",
+            "gmap_id": "0x865b32ccfbeb1755:0x3a2929d9b245236",
+            "iid": 27044,
+            "name": "Midori Sushi Austin",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1523296705560
+        },
+        {
+            "address": "Kumar's Austin, 15803 Windermere Dr #206, Pflugerville, TX 78660",
+            "category": "['Indian restaurant', 'Cafe', 'Restaurant']",
+            "date": "2019/09/17",
+            "gmap_id": "0x8644cfa931c75815:0x6c282223099f482f",
+            "iid": 24650,
+            "name": "Kumar's Austin",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1568747139449
+        },
+        {
+            "address": "Pho Saigon Noodle House, 10901 N Lamar Blvd A108, Austin, TX 78753",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/11/08",
+            "gmap_id": "0x8644c944bf01248d:0x9402e403b91e2c20",
+            "iid": 24434,
+            "name": "Pho Saigon Noodle House",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1573255264664
+        },
+        {
+            "address": "Tokyo Japanese Steakhouse & Sushi Bar, 3300 Central Mall Dr, Port Arthur, TX 77642",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2020/01/06",
+            "gmap_id": "0x863eb0d28d6fe93b:0x84a88f5ece99ff0a",
+            "iid": 22565,
+            "name": "Tokyo Japanese Steakhouse & Sushi Bar",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1578279314294
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Hunan Ranch, 14900 Avery Ranch Blvd, Austin, TX 78717",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Hunan restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x8644d2b720c0d73d:0xf31cb9202a364485",
+            "iid": 24686,
+            "name": "Hunan Ranch",
+            "rank": 1,
+            "score": 0.6615966558456421,
+            "state": "Texas"
+        },
+        {
+            "address": "Muangthai Thai Cuisine, 13945 US-183 C-80, Austin, TX 78717",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x865b32a5c5311da7:0xc9b91178809d525a",
+            "iid": 27037,
+            "name": "Muangthai Thai Cuisine",
+            "rank": 2,
+            "score": 0.6282122135162354,
+            "state": "Texas"
+        },
+        {
+            "address": "MIYAKO YAKITORI & SUSHI, 8701 W Parmer Ln Suite 2128, Austin, TX 78729",
+            "category": "['Authentic Japanese restaurant', 'Izakaya restaurant', 'Sushi restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x8644cd2a154a3a2d:0x56faeaa1ac29e06a",
+            "iid": 24588,
+            "name": "MIYAKO YAKITORI & SUSHI",
+            "rank": 3,
+            "score": 0.6260524392127991,
+            "state": "Texas"
+        },
+        {
+            "address": "Basil Thai, 2501 W Parmer Ln #550, Austin, TX 78727",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x8644cc21a2a22c1f:0x20d7fcc3cdca0caf",
+            "iid": 24553,
+            "name": "Basil Thai",
+            "rank": 4,
+            "score": 0.6253437399864197,
+            "state": "Texas"
+        },
+        {
+            "address": "Yak N Yeti, 200 Buttercup Creek Blvd Suite 125, Cedar Park, TX 78613",
+            "category": "['Nepalese restaurant', 'Indian restaurant']",
+            "gmap_id": "0x865b2d0e452f9c9d:0x97ee1e8cbe2555a2",
+            "iid": 27009,
+            "name": "Yak N Yeti",
+            "rank": 5,
+            "score": 0.6237866282463074,
+            "state": "Texas"
+        },
+        {
+            "address": "NALA'S - Cedar Park, 12920 W Parmer Ln #105, Cedar Park, TX 78613",
+            "category": "['Indian restaurant', 'Fine dining restaurant', 'Indian takeaway']",
+            "gmap_id": "0x8644d32c04900001:0xa9703fc606c8f1bc",
+            "iid": 24688,
+            "name": "NALA'S - Cedar Park",
+            "rank": 6,
+            "score": 0.6218159794807434,
+            "state": "Texas"
+        },
+        {
+            "address": "Manpasand Indian Pakistani Halal Groceries Supermarket, 13945 North, 183 Lakeline Mall Dr Exit, Austin, TX 78717",
+            "category": "['Indian grocery store', 'Asian grocery store', 'Fresh food market', 'Fruit and vegetable store', 'Grocery store', 'Health food store', 'Herb shop', 'Natural goods store', 'Spice store', 'Supermarket']",
+            "gmap_id": "0x865b32a5ed24a551:0xf816cc980f44b312",
+            "iid": 27038,
+            "name": "Manpasand Indian Pakistani Halal Groceries Supermarket",
+            "rank": 7,
+            "score": 0.6136634349822998,
+            "state": "Texas"
+        },
+        {
+            "address": "Origami Japanese Cuisine, 110 N Interstate Hwy 35, Round Rock, TX 78681",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8644d1ed5390a1d9:0x1e1c2976b0a0e54e",
+            "iid": 24680,
+            "name": "Origami Japanese Cuisine",
+            "rank": 8,
+            "score": 0.6082916259765625,
+            "state": "Texas"
+        },
+        {
+            "address": "Biryani Pot, 12407 N Mopac Expy, Austin, TX 78758",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8644cc218e77b84d:0x8403fdc4a210105f",
+            "iid": 24552,
+            "name": "Biryani Pot",
+            "rank": 9,
+            "score": 0.6037407517433167,
+            "state": "Texas"
+        },
+        {
+            "address": "Kim Phung Restaurant, 315 N Bell Blvd, Cedar Park, TX 78613",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x865b2d063b64f889:0x67da58eaedb95c45",
+            "iid": 27003,
+            "name": "Kim Phung Restaurant",
+            "rank": 10,
+            "score": 0.6013756990432739,
+            "state": "Texas"
+        },
+        {
+            "address": "Jenna's Asian Kitchen, 12300 Ranch Rd 620 N, Austin, TX 78750",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x865b329100f032eb:0x21f6ba694fff1fb",
+            "iid": 27030,
+            "name": "Jenna's Asian Kitchen",
+            "rank": 11,
+            "score": 0.6000012755393982,
+            "state": "Texas"
+        },
+        {
+            "address": "Masala Wok, 10515 N Mopac Expy Suite A - 155, Austin, TX 78759",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x8644cc7867c4ecb5:0x2ec7c5eb80fd500c",
+            "iid": 24564,
+            "name": "Masala Wok",
+            "rank": 12,
+            "score": 0.599394679069519,
+            "state": "Texas"
+        },
+        {
+            "address": "Soto Japanese Restaurant & Sushi Bar, 11066 Pecan Park Blvd Ste 402, Cedar Park, TX 78613",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x865b32a38ee07391:0xc0f650d37a765c98",
+            "iid": 27034,
+            "name": "Soto Japanese Restaurant & Sushi Bar",
+            "rank": 13,
+            "score": 0.5993373394012451,
+            "state": "Texas"
+        },
+        {
+            "address": "Biryani-N-Grill, 13945 US-183, Austin, TX 78717",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x865b32a5ef49f599:0xf489ff6e09e5957b",
+            "iid": 27039,
+            "name": "Biryani-N-Grill",
+            "rank": 14,
+            "score": 0.5975815057754517,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Dan, 2711 La Frontera Blvd, Round Rock, TX 78681",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8644ce1c70b7e8c5:0xeaa0ad5e32d9c5a1",
+            "iid": 24604,
+            "name": "Pho Dan",
+            "rank": 15,
+            "score": 0.5969458222389221,
+            "state": "Texas"
+        },
+        {
+            "address": "Hana World Market, 1700 W Parmer Ln #100, Austin, TX 78727",
+            "category": "['Asian grocery store', 'Korean grocery store', 'Supermarket']",
+            "gmap_id": "0x8644cebccb8cd96b:0x492b1cf70b8db906",
+            "iid": 24625,
+            "name": "Hana World Market",
+            "rank": 16,
+            "score": 0.5966757535934448,
+            "state": "Texas"
+        },
+        {
+            "address": "Tarka Indian Kitchen, 11066 Pecan Park Blvd, Cedar Park, TX 78613",
+            "category": "['Indian restaurant', 'Gluten-free restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x865b32a47d109a17:0xafe385302161ab60",
+            "iid": 27035,
+            "name": "Tarka Indian Kitchen",
+            "rank": 17,
+            "score": 0.5955459475517273,
+            "state": "Texas"
+        },
+        {
+            "address": "Woks It 2 U, 15609 Ronald W Reagan Blvd Bldg B230, Leander, TX 78641",
+            "category": "['Chinese restaurant', 'Catering food and drink supplier', 'Lunch restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Self-catering accommodation']",
+            "gmap_id": "0x865b2ca408d643fd:0xb3bc7a5b3130c0b8",
+            "iid": 26991,
+            "name": "Woks It 2 U",
+            "rank": 18,
+            "score": 0.5926215052604675,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi Ocean, 16238 Ranch Rd 620 N A, Austin, TX 78717",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8644d271bf11c24d:0xcc80d5b38d60f620",
+            "iid": 24683,
+            "name": "Sushi Ocean",
+            "rank": 19,
+            "score": 0.5910035371780396,
+            "state": "Texas"
+        },
+        {
+            "address": "H Mart Austin, 11301 Lakeline Blvd, Austin, TX 78717",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Food court', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x865b2d588f595035:0x3c49ec0f18b8428a",
+            "iid": 27014,
+            "name": "H Mart Austin",
+            "rank": 20,
+            "score": 0.5906091928482056,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Chris Hart",
+        "uid": 356781,
+        "user_id": 111962533688286700988
+    }
+}

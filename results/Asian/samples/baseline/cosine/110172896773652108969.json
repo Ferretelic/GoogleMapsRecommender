@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai Thai Cuisine, 3843 County Rd 516, Old Bridge, NJ 08857",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2012/03/16",
+            "gmap_id": "0x89c3cdcd366c388d:0xfede8b4042f47aa3",
+            "iid": 64895,
+            "name": "Thai Thai Cuisine",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1331867947772
+        },
+        {
+            "address": "Sakura Japanese Steakhouse and Sushi Bar, 102 Railway Ln, Hagerstown, MD 21740",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2012/03/20",
+            "gmap_id": "0x89c9f28d8696465d:0x595e8df22c41a11d",
+            "iid": 67561,
+            "name": "Sakura Japanese Steakhouse and Sushi Bar",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1332271618222
+        },
+        {
+            "address": "Bhojan, 102 Lexington Ave, New York, NY 10016",
+            "category": "['Indian restaurant']",
+            "date": "2014/05/19",
+            "gmap_id": "0x89c259a77d70ea29:0xa3ad705d4a102b11",
+            "iid": 59981,
+            "name": "Bhojan",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1400462357133
+        },
+        {
+            "address": "Lemon Grass Thai Cuisine, 2666 Madison Rd, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2014/12/21",
+            "gmap_id": "0x8841b27c4ac71271:0x7dad837a84c9af3a",
+            "iid": 41909,
+            "name": "Lemon Grass Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1419132514725
+        },
+        {
+            "address": "House of Bangkok Thai Cuisine, 4876 Dixie Hwy, Fairfield, OH 45014",
+            "category": "['Thai restaurant']",
+            "date": "2015/02/05",
+            "gmap_id": "0x884048bc779f7ff9:0x2132cd760dee38ac",
+            "iid": 41551,
+            "name": "House of Bangkok Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1423161914420
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2015/04/27",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 41584,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1430156930708
+        },
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/06/19",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 57120,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1434672779005
+        },
+        {
+            "address": "Korealistic, 7735 Cox Ln, West Chester Township, OH 45069",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2015/10/19",
+            "gmap_id": "0x88405a08b91e2211:0x95315cd3fa4e1e73",
+            "iid": 41688,
+            "name": "Korealistic",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1445272240846
+        },
+        {
+            "address": "Bonsai Sushi, 1652 Bruce B Downs Blvd, Wesley Chapel, FL 33544",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2016/01/11",
+            "gmap_id": "0x88c2b0d2fb83f1df:0xd2bd6d1d5eb33fdf",
+            "iid": 46897,
+            "name": "Bonsai Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1452536948568
+        },
+        {
+            "address": "Kettles Vietnamese Bistro, 1202 W Steele Ln, Santa Rosa, CA 95403",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/08/23",
+            "gmap_id": "0x8084386f07f68219:0x4f80d53a4df5d02a",
+            "iid": 6694,
+            "name": "Kettles Vietnamese Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1471922974527
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Asian Bistro, 623 Newman Springs Rd, Lincroft, NJ 07738",
+            "category": "['Asian fusion restaurant', 'Chinese takeaway', 'Japanese restaurant', 'Delivery Restaurant', 'Restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Thai restaurant']",
+            "gmap_id": "0x89c22e069af83cab:0x81ab85df4c876da1",
+            "iid": 58027,
+            "name": "Asian Bistro",
+            "rank": 1,
+            "score": 0.5536726713180542,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Sakura Steak House, 5510 Rybolt Rd, Cincinnati, OH 45248",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8841cb33d1ef6417:0xd1ff6d3136dfbbd",
+            "iid": 41993,
+            "name": "Sakura Steak House",
+            "rank": 2,
+            "score": 0.5385324358940125,
+            "state": "Ohio"
+        },
+        {
+            "address": "Indian Spice, 351 7th Ave #4320, Brooklyn, NY 11215",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c25b02b314ca7d:0x91755db943cd5c08",
+            "iid": 60599,
+            "name": "Indian Spice",
+            "rank": 3,
+            "score": 0.5346961617469788,
+            "state": "New_York"
+        },
+        {
+            "address": "Copper Chimney, 126 E 28th St, New York, NY 10016",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x89c259a78001c741:0x85a54a32ff551b25",
+            "iid": 59983,
+            "name": "Copper Chimney",
+            "rank": 4,
+            "score": 0.5272818803787231,
+            "state": "New_York"
+        },
+        {
+            "address": "Kuro, Kuro, 1000, Boardwalk, Atlantic City, NJ 08401",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c0efc15473b119:0x7859e2dd9b83459e",
+            "iid": 57719,
+            "name": "Kuro",
+            "rank": 5,
+            "score": 0.526421844959259,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Thunwa Thai, 10 S Commerce Ave, Front Royal, VA 22630",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89b5c5cf58b88837:0x24ba4f96384da97c",
+            "iid": 54996,
+            "name": "Thunwa Thai",
+            "rank": 6,
+            "score": 0.5250396728515625,
+            "state": "Virginia"
+        },
+        {
+            "address": "Japonica, 100 University Pl, New York, NY 10003",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c25999b47ee711:0x16bee085bb8074ba",
+            "iid": 59803,
+            "name": "Japonica",
+            "rank": 7,
+            "score": 0.5125612020492554,
+            "state": "New_York"
+        },
+        {
+            "address": "Noodlefan, 557 Englishtown Rd, Monroe Township, NJ 08831",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89c3d0fd08d578a9:0x365adfbd0d116736",
+            "iid": 64919,
+            "name": "Noodlefan",
+            "rank": 8,
+            "score": 0.509648859500885,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Tokyo Restaurant, 1711 NJ-47, Rio Grande, NJ 08242",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c0a98b3d10f0e1:0xeadd42b89454493e",
+            "iid": 57631,
+            "name": "Tokyo Restaurant",
+            "rank": 9,
+            "score": 0.5069434642791748,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Red Chili's Hibachi, 5560 Crawford Dr, Bethlehem, PA 18017",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c4408750964d25:0xaae0ec7aaf692d11",
+            "iid": 65224,
+            "name": "Red Chili's Hibachi",
+            "rank": 10,
+            "score": 0.5047413110733032,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Jaffron, 11 W Bridge St, New Hope, PA 18938",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x89c3ff4f1fb71f91:0x3b9377c6469e392a",
+            "iid": 65103,
+            "name": "Jaffron",
+            "rank": 11,
+            "score": 0.5003383755683899,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sawan, 336 U.S. 9, Englishtown, NJ 07726",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89c3d226a72417f5:0x2de9aef69cad740b",
+            "iid": 64929,
+            "name": "Sawan",
+            "rank": 12,
+            "score": 0.49954646825790405,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Caffe India, 79 Washington St, Morristown, NJ 07960",
+            "category": "['Indian restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89c3a6ba4f023c1d:0x51f9a883a2cafdfd",
+            "iid": 64239,
+            "name": "Caffe India",
+            "rank": 13,
+            "score": 0.49632638692855835,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Kabuto Sushi and Teppanyaki, 1836 Abbey Rd, Charlottesville, VA 22911",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89b388efc4af2e87:0x714d42c17c52b278",
+            "iid": 54926,
+            "name": "Kabuto Sushi and Teppanyaki",
+            "rank": 14,
+            "score": 0.493158221244812,
+            "state": "Virginia"
+        },
+        {
+            "address": "Thai Cafe, 182 Neff Ave # W4, Harrisonburg, VA 22801",
+            "category": "['Thai restaurant', 'Cafe']",
+            "gmap_id": "0x89b4929bbaede50b:0xb1a509d13a3fa431",
+            "iid": 54964,
+            "name": "Thai Cafe",
+            "rank": 15,
+            "score": 0.48682764172554016,
+            "state": "Virginia"
+        },
+        {
+            "address": "NewYork Roll'n Katsu, 11 W 32nd St, New York City, NY 10001",
+            "category": "['Sushi takeaway', 'Asian restaurant', 'Fast food restaurant', 'Japanese curry restaurant', 'Sushi restaurant', 'Udon noodle restaurant']",
+            "gmap_id": "0x89c25912cd158789:0xad261e4f142a0f7f",
+            "iid": 59325,
+            "name": "NewYork Roll'n Katsu",
+            "rank": 16,
+            "score": 0.4832013249397278,
+            "state": "New_York"
+        },
+        {
+            "address": "Peking Wok, 62 Main St, High Bridge, NJ 08829",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89c38bbfec4abacb:0x42c19cd9c6977e23",
+            "iid": 64165,
+            "name": "Peking Wok",
+            "rank": 17,
+            "score": 0.482326477766037,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Sushi Village, 1820 Evelyn Byrd Ave #110, Harrisonburg, VA 22801",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89b49296617a0121:0x40c1d25ded672ba0",
+            "iid": 54961,
+            "name": "Sushi Village",
+            "rank": 18,
+            "score": 0.48130249977111816,
+            "state": "Virginia"
+        },
+        {
+            "address": "New Han Dynasty Restaurant, 4130 E Joppa Rd, Nottingham, MD 21236",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89c809b5ca0dc313:0xc863152ff6949a6f",
+            "iid": 67068,
+            "name": "New Han Dynasty Restaurant",
+            "rank": 19,
+            "score": 0.4809938073158264,
+            "state": "Maryland"
+        },
+        {
+            "address": "New Red Pepper, 204 W McMillan St, Cincinnati, OH 45219",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Seafood restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8841b3f51ce5628f:0xe0e04633ba6bb2cb",
+            "iid": 41938,
+            "name": "New Red Pepper",
+            "rank": 20,
+            "score": 0.4787220358848572,
+            "state": "Ohio"
+        }
+    ],
+    "user": {
+        "name": "Oren Pollak",
+        "uid": 303678,
+        "user_id": 110172896773652108969
+    }
+}

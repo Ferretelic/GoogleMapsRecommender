@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mt. Fuji, 309 W Cardinal Blvd, Louisville, KY 40208",
+            "category": "['Japanese restaurant']",
+            "date": "2018/03/25",
+            "gmap_id": "0x88690d5e750b5bc3:0xfe9f2cc7b5693f33",
+            "iid": 13349,
+            "name": "Mt. Fuji",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522018046122
+        },
+        {
+            "address": "Fuji Asian Bistro, 6801 Dixie Hwy Ste 102, Louisville, KY 40258",
+            "category": "['Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x8869115a366431c7:0xd73c285d9408b97a",
+            "iid": 13351,
+            "name": "Fuji Asian Bistro",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522326797607
+        },
+        {
+            "address": "Sapporo Japanese Grill & Sushi, 1706 Bardstown Rd, Louisville, KY 40205",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x88690cb7b114d637:0x2505b84d7fefc412",
+            "iid": 13346,
+            "name": "Sapporo Japanese Grill & Sushi",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1522326930022
+        },
+        {
+            "address": "Tea Station Asian Bistro, 9422 Norton Commons Blvd, Prospect, KY 40059",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Chinese takeaway', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/23",
+            "gmap_id": "0x88699dd3d11f4dc7:0x7caded1cff772dfa",
+            "iid": 13384,
+            "name": "Tea Station Asian Bistro",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1524522661904
+        },
+        {
+            "address": "FUSIAN, 8060 Montgomery Rd #100, Cincinnati, OH 45236",
+            "category": "['Asian restaurant', 'Grocery delivery service', 'Japanese restaurant', 'Sushi restaurant', 'Vegetarian restaurant']",
+            "date": "2018/06/03",
+            "gmap_id": "0x884053417a94e3f3:0xd74b0dccf7ed76c3",
+            "iid": 12271,
+            "name": "FUSIAN",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1527987813905
+        },
+        {
+            "address": "Sakura Blue, 4600 Shelbyville Rd #118, Louisville, KY 40207",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/05",
+            "gmap_id": "0x8869753b8f0d209f:0xccdae23a24d6c72b",
+            "iid": 13370,
+            "name": "Sakura Blue",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1551814009447
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2019/05/15",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 12259,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1557888195695
+        },
+        {
+            "address": "ToGo Sushi, 700 Lyndon Ln, Louisville, KY 40222",
+            "category": "['Sushi restaurant']",
+            "date": "2019/12/30",
+            "gmap_id": "0x8869756173b3ccbd:0x3766b43815c820f3",
+            "iid": 13371,
+            "name": "ToGo Sushi",
+            "split": "train",
+            "state": "Kentucky",
+            "unix_time": 1577740821998
+        },
+        {
+            "address": "Bamboo Sushi Bar & Hibachi, 2505 S Ferdon Blvd, Crestview, FL 32536",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2020/01/20",
+            "gmap_id": "0x88917343a0be528f:0x8d6ac2318a65bfaa",
+            "iid": 13830,
+            "name": "Bamboo Sushi Bar & Hibachi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1579480281814
+        },
+        {
+            "address": "Dragon King's Daughter, 129 W Market St, New Albany, IN 47150",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Raw food restaurant', 'Sushi restaurant']",
+            "date": "2021/04/26",
+            "gmap_id": "0x88696c59271c543f:0x6a305d4240bb0d0",
+            "iid": 13354,
+            "name": "Dragon King's Daughter",
+            "split": "test",
+            "state": "Indiana",
+            "unix_time": 1619395873607
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Dragon King's Daughter, 1126 Bardstown Rd, Louisville, KY 40204",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88690cd35b7970a3:0xd0952bbf9e469658",
+            "iid": 13348,
+            "name": "Dragon King's Daughter",
+            "rank": 1,
+            "score": 15.316657066345215,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Sake Blue, 9326 Cedar Center Way, Louisville, KY 40291",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8869a74c0eb0bd6b:0x228279cd5f24637c",
+            "iid": 13394,
+            "name": "Sake Blue",
+            "rank": 2,
+            "score": 14.457483291625977,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Osaka, 2039 Frankfort Ave, Louisville, KY 40206",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x8869733ecc865f45:0x46ca605b15e7eed8",
+            "iid": 13367,
+            "name": "Osaka",
+            "rank": 3,
+            "score": 13.273028373718262,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Drake's Paddock Shops, 3921 Summit Plaza Dr, Louisville, KY 40241",
+            "category": "['American restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88699e71fa2c587f:0x403e55ae875c606c",
+            "iid": 13386,
+            "name": "Drake's Paddock Shops",
+            "rank": 4,
+            "score": 13.220415115356445,
+            "state": "Kentucky"
+        },
+        {
+            "address": "P.F. Chang's, 9120 Shelbyville Rd, Louisville, KY 40222",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88699f92dd39f785:0x880b104933e60978",
+            "iid": 13389,
+            "name": "P.F. Chang's",
+            "rank": 5,
+            "score": 13.196694374084473,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Oishii Sushi, 2810 Taylorsville Rd, Louisville, KY 40205, United States",
+            "category": "['Tempura restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88690ca4521066b9:0x1747752bb188b30",
+            "iid": 13345,
+            "name": "Oishii Sushi",
+            "rank": 6,
+            "score": 12.603635787963867,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Jeff Ruby's Steakhouse, Louisville, 325 W Main St, Louisville, KY 40202",
+            "category": "['Steak house', 'Bar', 'Live music venue', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886972bcb91137f1:0x78546df44d5251cd",
+            "iid": 13364,
+            "name": "Jeff Ruby's Steakhouse, Louisville",
+            "rank": 7,
+            "score": 12.369860649108887,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Mirin Restaurant / Cafe, 2011 Frankfort Ave, Louisville, KY 40206",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x8869733eafb417d1:0x1812ecabb1359b9d",
+            "iid": 13366,
+            "name": "Mirin Restaurant / Cafe",
+            "rank": 8,
+            "score": 11.604551315307617,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Asahi Japanese Restaurant, 3701 Lexington Rd, Louisville, KY 40207",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x886974c6cf022293:0x2d949a611cd78d1b",
+            "iid": 13369,
+            "name": "Asahi Japanese Restaurant",
+            "rank": 9,
+            "score": 11.469428062438965,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Chik'n & Mi, 1765 Mellwood Ave, Louisville, KY 40206",
+            "category": "['Asian fusion restaurant', 'Brunch restaurant', 'Chicken restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x88697341d28c68bd:0x810366cc092a4c2f",
+            "iid": 13368,
+            "name": "Chik'n & Mi",
+            "rank": 10,
+            "score": 11.4353666305542,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Dragon King's Daughter, 129 W Market St, New Albany, IN 47150",
+            "category": "['Asian fusion restaurant', 'Japanese restaurant', 'Raw food restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88696c59271c543f:0x6a305d4240bb0d0",
+            "iid": 13354,
+            "name": "Dragon King's Daughter",
+            "rank": 11,
+            "score": 11.134357452392578,
+            "state": "Indiana"
+        },
+        {
+            "address": "Hiko-A-Mon, 1115 Herr Ln Suite 130, Louisville, KY 40222",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x886975654dc77cbb:0xf70a70043828ea3",
+            "iid": 13372,
+            "name": "Hiko-A-Mon",
+            "rank": 12,
+            "score": 10.933412551879883,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Kansai Japanese Steakhouse, 1850 S Hurstbourne Pkwy, Louisville, KY 40220",
+            "category": "['Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x8869a017b6870be9:0xcd831a87519fee0c",
+            "iid": 13392,
+            "name": "Kansai Japanese Steakhouse",
+            "rank": 13,
+            "score": 10.482526779174805,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Wild Ginger - Highland, 1700 Bardstown Rd, Louisville, KY 40205",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x88690cb7b600d945:0x83869b472f809af0",
+            "iid": 13347,
+            "name": "Wild Ginger - Highland",
+            "rank": 14,
+            "score": 10.398759841918945,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Shogun Japanese Steak Seafood & Sushi, 9026 Taylorsville Rd, Louisville, KY 40299",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x8869a012efaac6d7:0x7fcce3ed6cccb8cd",
+            "iid": 13391,
+            "name": "Shogun Japanese Steak Seafood & Sushi",
+            "rank": 15,
+            "score": 10.331075668334961,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Hibachi Sushi Buffet, 5316 Bardstown Rd, Louisville, KY 40291",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Buffet restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x88690a0a55db714d:0x27646482d97e8365",
+            "iid": 13342,
+            "name": "Hibachi Sushi Buffet",
+            "rank": 16,
+            "score": 10.315290451049805,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Ramen Inochi, 2009 Highland Ave, Louisville, KY 40204",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x8869732aef04fb5b:0xe7aeb38f68645af7",
+            "iid": 13365,
+            "name": "Ramen Inochi",
+            "rank": 17,
+            "score": 10.133938789367676,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Hiko A Mon Japanese Restaurant, 416 W Muhammad Ali Blvd, Louisville, KY 40202",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x886972a57b7135b9:0xdf7cf0e9b23e8cbd",
+            "iid": 13362,
+            "name": "Hiko A Mon Japanese Restaurant",
+            "rank": 18,
+            "score": 9.538978576660156,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Kansai Japanese Steakhouse, 1370 Veterans Pkwy # 700, Clarksville, IN 47129",
+            "category": "['Japanese restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x886971f759e410e9:0x6b112c869088d93b",
+            "iid": 13359,
+            "name": "Kansai Japanese Steakhouse",
+            "rank": 19,
+            "score": 9.455137252807617,
+            "state": "Indiana"
+        },
+        {
+            "address": "Hibachi Sushi Buffet, 5729 Preston Hwy, Louisville, KY 40219",
+            "category": "['Sushi restaurant', 'Buffet restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88690c17d20af27b:0x37805d7cf9cafe60",
+            "iid": 13343,
+            "name": "Hibachi Sushi Buffet",
+            "rank": 20,
+            "score": 9.208269119262695,
+            "state": "Kentucky"
+        }
+    ],
+    "user": {
+        "name": "Dereck De J",
+        "uid": 118492,
+        "user_id": 116003820119391990251
+    }
+}

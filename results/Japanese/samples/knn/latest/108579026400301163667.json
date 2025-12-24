@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Don Quijote Honolulu, 801 Kaheka St, Honolulu, HI 96814",
+            "category": "['Supermarket', 'Asian grocery store', 'General store', 'Grocery store', 'Japanese grocery store', 'Pharmacy']",
+            "date": "2018/07/19",
+            "gmap_id": "0x7c006dede4a406b3:0x328c1ae0697b7359",
+            "iid": 1897,
+            "name": "Don Quijote Honolulu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1531987236947
+        },
+        {
+            "address": "Mamaya, 98-199 Kamehameha Hwy A-7B, Aiea, HI 96701",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x7c006f52259fec47:0x2011717ac3237cd5",
+            "iid": 1983,
+            "name": "Mamaya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1532818993348
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "date": "2018/09/01",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1535785099475
+        },
+        {
+            "address": "Aunty's Ramen, 1110 McCully St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "date": "2018/11/08",
+            "gmap_id": "0x7c006d939cf63789:0x2a8866f414ab13b0",
+            "iid": 1855,
+            "name": "Aunty's Ramen",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1541661933507
+        },
+        {
+            "address": "sushi mon, 8320 W Sahara Ave #180, Las Vegas, NV 89117",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80c8c099c612a7d7:0x2ef03a37d49e8296",
+            "iid": 5232,
+            "name": "sushi mon",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1546317748529
+        },
+        {
+            "address": "RA Sushi Bar Restaurant and Ramen Sensei, 13802 N Scottsdale Rd #176, Scottsdale, AZ 85254",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x872b7415984cd6f9:0x6742aa51d351199f",
+            "iid": 9128,
+            "name": "RA Sushi Bar Restaurant and Ramen Sensei",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1546317827849
+        },
+        {
+            "address": "Ramen Ya, 2810 Valkenburgh St, Honolulu, HI 96818",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x7c006f7347bf7367:0xfba97e8979b70a8",
+            "iid": 1991,
+            "name": "Ramen Ya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1546845458403
+        },
+        {
+            "address": "Shirokiya Japan Village Walk, 1450 Ala Moana Blvd #1360, Honolulu, HI 96814",
+            "category": "['Food court', 'Bakery', 'Beer garden', 'Collectibles store', 'Dessert shop', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/19",
+            "gmap_id": "0x7c006df045a36271:0xc32f4e283f2349fa",
+            "iid": 1915,
+            "name": "Shirokiya Japan Village Walk",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1547880365609
+        },
+        {
+            "address": "Junpuu, 1010 S King St #108, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x7c006de6f0845ce5:0xe1ec9e0c4d3d0f29",
+            "iid": 1884,
+            "name": "Junpuu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1549186702049
+        },
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "split": "valid",
+            "state": "Hawaii",
+            "unix_time": 1554623876513
+        },
+        {
+            "address": "Matsuzaka-Tei, 1029 Makolu St B, Pearl City, HI 96782",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x7c00660d0fc65569:0x5ad624fe38aaa438",
+            "iid": 1778,
+            "name": "Matsuzaka-Tei",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1561803767134
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Latest)",
+        "type": "latest"
+    },
+    "recommendations": [
+        {
+            "address": "Teruya's Andagi, 1104 Pensacola St, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Caterer', 'Restaurant']",
+            "gmap_id": "0x7c006de62ec984d7:0x54d20b9f0263dc09",
+            "iid": 1883,
+            "name": "Teruya's Andagi",
+            "rank": 1,
+            "score": -0.32202857732772827,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Akira Japanese Restaurant, 1150 S King St, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006d6410e4791d:0x9fc53f8e4be487dc",
+            "iid": 1813,
+            "name": "Akira Japanese Restaurant",
+            "rank": 2,
+            "score": -0.40613478422164917,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Morio's Sushi Bistro, 1150 S King St #103, Honolulu, HI 96814",
+            "category": "['Sushi restaurant', 'Bar']",
+            "gmap_id": "0x7c007277a7edf989:0x58cb53105f69ebe0",
+            "iid": 2032,
+            "name": "Morio's Sushi Bistro",
+            "rank": 3,
+            "score": -0.412842333316803,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tai Sei Ramen, 800 S Beretania St STE 102, Honolulu, HI 96813",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006de0b34c4d59:0x74593b66ec05a8bb",
+            "iid": 1871,
+            "name": "Tai Sei Ramen",
+            "rank": 4,
+            "score": -0.4148975610733032,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Kats Sushi, 715 S King St #105, Honolulu, HI 96813",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x7c006de1aa77aa59:0x54186a2a8692db35",
+            "iid": 1873,
+            "name": "Kats Sushi",
+            "rank": 5,
+            "score": -0.5599709153175354,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Yanagi Sushi, 762 Kapiolani Blvd, Honolulu, HI 96813",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006de1823ce179:0x6b40181ed0595260",
+            "iid": 1872,
+            "name": "Yanagi Sushi",
+            "rank": 6,
+            "score": -0.5633677840232849,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Doraku Izakaya and Sushi, 1009 Kapiolani Blvd, Honolulu, HI 96814",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x7c006de38386b29f:0xe03c72dc1132a552",
+            "iid": 1875,
+            "name": "Doraku Izakaya and Sushi",
+            "rank": 7,
+            "score": -0.5966410636901855,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sakura Terrace, 1240 S King St, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006de8c548cd13:0xa7e55e385d4767e8",
+            "iid": 1886,
+            "name": "Sakura Terrace",
+            "rank": 8,
+            "score": -0.6349486708641052,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Asian Mix, #A-, 1234 S Beretania St, Honolulu, HI 96814",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Fast food restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006de854d99ff3:0x6790ccb602cf61cf",
+            "iid": 1885,
+            "name": "Asian Mix",
+            "rank": 9,
+            "score": -0.6432693004608154,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Kabuki Restaurant, 600 Kapiolani Blvd, Honolulu, HI 96813",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006de1adf68185:0x76a99ab6d2b36805",
+            "iid": 1874,
+            "name": "Kabuki Restaurant",
+            "rank": 10,
+            "score": -0.685869038105011,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Golden Pork Tonkotsu Ramen Bar, 1279 S King St, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Noodle shop', 'Restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x7c006de8d4066a5f:0x59d0486b118be2c3",
+            "iid": 1887,
+            "name": "Golden Pork Tonkotsu Ramen Bar",
+            "rank": 11,
+            "score": -0.698761522769928,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Asahi Grill Ward, 515 Ward Ave, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Hawaiian restaurant']",
+            "gmap_id": "0x7c006de3aa34f8bf:0x8532cf66984c2fda",
+            "iid": 1876,
+            "name": "Asahi Grill Ward",
+            "rank": 12,
+            "score": -0.7132063508033752,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 1221 Kapiolani Blvd #105, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Barbecue restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006de522730589:0xe34db6aeff48a5ba",
+            "iid": 1879,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 13,
+            "score": -0.7445962429046631,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Izakaya Uosan, 1221 Kapiolani Blvd, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006de523d6aaab:0x373dda9d626578fd",
+            "iid": 1880,
+            "name": "Izakaya Uosan",
+            "rank": 14,
+            "score": -0.7558401823043823,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Menya le Nood, 560 Pensacola St, Honolulu, HI 96814",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006de4d9c1c97f:0x591b458665a4453b",
+            "iid": 1878,
+            "name": "Menya le Nood",
+            "rank": 15,
+            "score": -0.7806414365768433,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Nanzan Giro Giro, 560 Pensacola St #107, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006de4d75a2549:0x6a3bf4d30bb33949",
+            "iid": 1877,
+            "name": "Nanzan Giro Giro",
+            "rank": 16,
+            "score": -0.7931837439537048,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sushi You, 1296 S Beretania St ste 103, Honolulu, HI 96814",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x7c006de90bc907f5:0xec3d084f2c13a470",
+            "iid": 1888,
+            "name": "Sushi You",
+            "rank": 17,
+            "score": -0.7965894937515259,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Japanese B.B.Q. Yoshi, 1316 Young St, Honolulu, HI 96814",
+            "category": "['Authentic Japanese restaurant', 'Restaurant', 'Yakiniku restaurant']",
+            "gmap_id": "0x7c006de916111f73:0x1e8869142b9da3d7",
+            "iid": 1890,
+            "name": "Japanese B.B.Q. Yoshi",
+            "rank": 18,
+            "score": -0.8045783042907715,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Obento Rinka, 1317 S Beretania St, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006de9127ac85b:0x9682f78d615b141e",
+            "iid": 1889,
+            "name": "Obento Rinka",
+            "rank": 19,
+            "score": -0.8152920007705688,
+            "state": "Hawaii"
+        },
+        {
+            "address": "MIAN | \u6ecb\u5473\u5c0f\u9762, 808 Sheridan St #105, Honolulu, HI 96814",
+            "category": "['Chinese restaurant', 'Chinese noodle restaurant', 'Chinese takeaway', 'Fast food restaurant', 'Ramen restaurant', 'Sichuan restaurant']",
+            "gmap_id": "0x7c006def1b96e615:0xc716ab14c2a7e6b4",
+            "iid": 1911,
+            "name": "MIAN | \u6ecb\u5473\u5c0f\u9762",
+            "rank": 20,
+            "score": -0.8164463639259338,
+            "state": "Hawaii"
+        }
+    ],
+    "user": {
+        "name": "Gordon Lam",
+        "uid": 63531,
+        "user_id": 108579026400301163667
+    }
+}

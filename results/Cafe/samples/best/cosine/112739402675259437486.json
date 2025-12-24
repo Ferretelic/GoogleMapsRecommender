@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Corner Bakery, 100 N La Cienega Blvd, Los Angeles, CA 90048",
+            "category": "['Sandwich shop', 'American restaurant', 'Bakery', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Salad shop']",
+            "date": "2016/08/05",
+            "gmap_id": "0x80c2b94c9dadb6cb:0x55f7a9ecbdc230fb",
+            "iid": 6904,
+            "name": "Corner Bakery",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1470432680104
+        },
+        {
+            "address": "Starbucks, 5453 Hollywood Blvd D, Los Angeles, CA 90027",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/06/10",
+            "gmap_id": "0x80c2bf506f481e4f:0xbb085ea3137be785",
+            "iid": 7464,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497074817581
+        },
+        {
+            "address": "It's Boba Time Vermont, 701 S Vermont Ave, Los Angeles, CA 90005",
+            "category": "['Bubble tea store', 'Coffee shop']",
+            "date": "2017/07/28",
+            "gmap_id": "0x80c2c7791314cbc5:0x49114c954ffbc393",
+            "iid": 8037,
+            "name": "It's Boba Time Vermont",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501218118705
+        },
+        {
+            "address": "Einstein Bros. Bagels, 374 E H St #1701, Chula Vista, CA 91910",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "date": "2017/07/28",
+            "gmap_id": "0x80d94e39314fdc59:0x1708b49a3aabf6cd",
+            "iid": 9296,
+            "name": "Einstein Bros. Bagels",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501218731840
+        },
+        {
+            "address": "Panera Bread, 300 N Brand Blvd, Glendale, CA 91203",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "date": "2017/07/28",
+            "gmap_id": "0x80c2c054e4b9e08b:0x9187a287e7cca8ff",
+            "iid": 7534,
+            "name": "Panera Bread",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501219235023
+        },
+        {
+            "address": "Por Vida, 2146 Logan Ave, San Diego, CA 92113",
+            "category": "['Coffee shop']",
+            "date": "2017/11/06",
+            "gmap_id": "0x80d9536d34cb250b:0x68fe085afb5abccf",
+            "iid": 9427,
+            "name": "Por Vida",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1509941720442
+        },
+        {
+            "address": "Venti Boba & Milk Corner, 2180 B Chatsworth Blvd, San Diego, CA 92107",
+            "category": "['Cafe']",
+            "date": "2018/01/27",
+            "gmap_id": "0x80deabace983fc9d:0xbad369ec82097a3c",
+            "iid": 12676,
+            "name": "Venti Boba & Milk Corner",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1517018741925
+        },
+        {
+            "address": "Caff\u00e9 Bene, 3287 Wilshire Blvd B, Los Angeles, CA 90010",
+            "category": "['Coffee shop', 'Cafe', 'Dessert shop']",
+            "date": "2020/02/12",
+            "gmap_id": "0x80c2c760d2652eef:0xfa2f801fd6b8f10e",
+            "iid": 8006,
+            "name": "Caff\u00e9 Bene",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581539833743
+        },
+        {
+            "address": "Starbucks, 181 S Vermont Ave, Los Angeles, CA 90004",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2020/02/15",
+            "gmap_id": "0x80c2c7450f4fc5af:0xe025474db913680c",
+            "iid": 7981,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1581782781617
+        },
+        {
+            "address": "Sharp Specialty Coffee, 3421 W 6th St, Los Angeles, CA 90020",
+            "category": "['Cafe']",
+            "date": "2020/03/10",
+            "gmap_id": "0x80c2c77ce085ea7f:0x5c8ee6b86469c2e8",
+            "iid": 8046,
+            "name": "Sharp Specialty Coffee",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1583824783547
+        },
+        {
+            "address": "Sunday Morning, 3300 W 6th St #4, Los Angeles, CA 90020",
+            "category": "['Cafe', 'Coffee shop']",
+            "date": "2020/03/10",
+            "gmap_id": "0x80c2c7125b3025e5:0xf82052c92db571ef",
+            "iid": 7944,
+            "name": "Sunday Morning",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1583824882940
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "It's Boba Time, 704 N Vermont Ave, Los Angeles, CA 90029",
+            "category": "['Cafe', 'Juice shop']",
+            "gmap_id": "0x80c2c75bae0b16db:0x4749fc3b737cf7cf",
+            "iid": 8004,
+            "name": "It's Boba Time",
+            "rank": 1,
+            "score": 0.3941253423690796,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3150 Wilshire Blvd, Los Angeles, CA 90010",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c77a2cc644e1:0x8e3e00ca1ff3c3c6",
+            "iid": 8040,
+            "name": "Starbucks",
+            "rank": 2,
+            "score": 0.38787931203842163,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3461 W 3rd St, Los Angeles, CA 90020",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2c765ad0d3f0d:0x124af6790f362b04",
+            "iid": 8012,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.3790670931339264,
+            "state": "California"
+        },
+        {
+            "address": "It's Boba Time, 3450 W 6th St UNIT 111, Los Angeles, CA 90020",
+            "category": "['Bubble tea store', 'Coffee shop']",
+            "gmap_id": "0x80c2c7791314cbc5:0x56d8b1da9fc7d28b",
+            "iid": 8038,
+            "name": "It's Boba Time",
+            "rank": 4,
+            "score": 0.37400320172309875,
+            "state": "California"
+        },
+        {
+            "address": "It's Boba Time, 125 N Western Ave, Los Angeles, CA 90004",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b8a2e861b8a3:0x356a4e6d15beb849",
+            "iid": 6781,
+            "name": "It's Boba Time",
+            "rank": 5,
+            "score": 0.3493345379829407,
+            "state": "California"
+        },
+        {
+            "address": "McDonald's, 341 S Vermont Ave, Los Angeles, CA 90020",
+            "category": "['Fast food restaurant', 'Breakfast restaurant', 'Coffee shop', 'Hamburger restaurant', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2b88280bffed7:0x4a6a42c7c4f6b552",
+            "iid": 6731,
+            "name": "McDonald's",
+            "rank": 6,
+            "score": 0.34435564279556274,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 534 S Occidental Blvd, Los Angeles, CA 90057",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c7713ba902a9:0x2ff6d617e3cea539",
+            "iid": 8027,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": 0.3333131968975067,
+            "state": "California"
+        },
+        {
+            "address": "85\u00b0C Bakery Cafe - Koreatown, 3377 Wilshire Blvd #101, Los Angeles, CA 90010",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Dessert shop', 'Restaurant']",
+            "gmap_id": "0x80c2c77d09ed6891:0xf99e4ea3b3b0fe55",
+            "iid": 8047,
+            "name": "85\u00b0C Bakery Cafe - Koreatown",
+            "rank": 8,
+            "score": 0.32582807540893555,
+            "state": "California"
+        },
+        {
+            "address": "Leelin Bakery & Cafe, 209 Vermont Ave, Los Angeles, CA 90004",
+            "category": "['Filipino restaurant', 'Cafe']",
+            "gmap_id": "0x80c2c76415e17cb7:0xe22c9bf09880f4ef",
+            "iid": 8009,
+            "name": "Leelin Bakery & Cafe",
+            "rank": 9,
+            "score": 0.323479562997818,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 620 S Virgil Ave, Los Angeles, CA 90020",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2c770b92d1fd5:0xfc045a06d158b409",
+            "iid": 8026,
+            "name": "Starbucks",
+            "rank": 10,
+            "score": 0.3227786719799042,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 8480 Beverly Blvd, Los Angeles, CA 90048",
+            "category": "['Coffee shop', 'Cafe', 'Coffee store', 'Espresso bar']",
+            "gmap_id": "0x80c2b94ca7ce0597:0xaea031870f8c4f9b",
+            "iid": 6905,
+            "name": "Starbucks",
+            "rank": 11,
+            "score": 0.3218543827533722,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 3183 Wilshire Blvd #115A, Los Angeles, CA 90010",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2c77bcd8e5fa5:0xba4ba5e2d7458ec1",
+            "iid": 8042,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 12,
+            "score": 0.3154398798942566,
+            "state": "California"
+        },
+        {
+            "address": "Tom N Tom's Vermont Galleria, 440 S Vermont Ave UNIT 116, Los Angeles, CA 90020",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x80c2c764cce801bf:0xb52fc3e49a09b522",
+            "iid": 8011,
+            "name": "Tom N Tom's Vermont Galleria",
+            "rank": 13,
+            "score": 0.31505194306373596,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Mermaid, 3353 Wilshire Blvd, Los Angeles, CA 90010",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2c77dadee2941:0xc2b866c1cb7ad924",
+            "iid": 8052,
+            "name": "Cafe Mermaid",
+            "rank": 14,
+            "score": 0.3144662082195282,
+            "state": "California"
+        },
+        {
+            "address": "It's Boba Time (St. Andrews + Sunset), 5549 Sunset Blvd, Los Angeles, CA 90028",
+            "category": "['Bubble tea store', 'Cafe']",
+            "gmap_id": "0x80c2bf9349b8ef0b:0xdf82b083745a5541",
+            "iid": 7481,
+            "name": "It's Boba Time (St. Andrews + Sunset)",
+            "rank": 15,
+            "score": 0.3042287826538086,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3450 Wilshire Blvd, Los Angeles, CA 90010",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c77d824289e1:0xd05e55ff4d4a8f65",
+            "iid": 8051,
+            "name": "Starbucks",
+            "rank": 16,
+            "score": 0.3039602041244507,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 230 S Alvarado St, Los Angeles, CA 90057",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2c7ed2ad45dad:0x8b0a5d0dad29ca5a",
+            "iid": 8158,
+            "name": "Starbucks",
+            "rank": 17,
+            "score": 0.30230429768562317,
+            "state": "California"
+        },
+        {
+            "address": "Dr. Robbin, 3000 W 6th St, Los Angeles, CA 90020",
+            "category": "['Asian fusion restaurant', 'Coffee shop', 'Korean restaurant']",
+            "gmap_id": "0x80c2c7709f5ee75b:0xd7a1f642126c56a0",
+            "iid": 8025,
+            "name": "Dr. Robbin",
+            "rank": 18,
+            "score": 0.2969425916671753,
+            "state": "California"
+        },
+        {
+            "address": "Tom N Toms Coffee, 113 N Western Ave, Los Angeles, CA 90004",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2b8a2e6828b3d:0xc8ae6e23b3bf8f63",
+            "iid": 6780,
+            "name": "Tom N Toms Coffee",
+            "rank": 19,
+            "score": 0.29093360900878906,
+            "state": "California"
+        },
+        {
+            "address": "La Monarca Bakery & Cafe, 1096 N Western Ave, Los Angeles, CA 90029",
+            "category": "['Cafe', 'Bakery', 'Catering food and drink supplier']",
+            "gmap_id": "0x80c2b8ad0ff1a185:0xc5b41beef3d14183",
+            "iid": 6789,
+            "name": "La Monarca Bakery & Cafe",
+            "rank": 20,
+            "score": 0.2851790487766266,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Miriam Marroquin",
+        "uid": 96512,
+        "user_id": 112739402675259437486
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hashigo Sushi, 18685 Main St, Huntington Beach, CA 92648",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/04/20",
+            "gmap_id": "0x80dd26c6e35cdd0b:0x82f132ec9dc794b5",
+            "iid": 6446,
+            "name": "Hashigo Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492651759291
+        },
+        {
+            "address": "Sushi Raku Japanese Restaurant, 5190 Kanan Rd, Agoura Hills, CA 91301",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/28",
+            "gmap_id": "0x80e826a94ccae66d:0xe04ea388825cba69",
+            "iid": 6775,
+            "name": "Sushi Raku Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1493349655970
+        },
+        {
+            "address": "Red Samurai Steak House, 8562 Seneca Turnpike, New Hartford, NY 13413",
+            "category": "['Japanese restaurant', 'Takeout Restaurant']",
+            "date": "2017/07/22",
+            "gmap_id": "0x89d9418d6dd9330d:0x4eeabaae2e961ce4",
+            "iid": 20618,
+            "name": "Red Samurai Steak House",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1500695876609
+        },
+        {
+            "address": "Yoshi Japanese Cuisine, 17005 Bear Valley Rd Suite B, Hesperia, CA 92345",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/06/19",
+            "gmap_id": "0x80c366e749e965e3:0x91d6349601ce71c1",
+            "iid": 5181,
+            "name": "Yoshi Japanese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560970442608
+        },
+        {
+            "address": "Fuji Steak House, 4389 Eastgate Square Dr, Cincinnati, OH 45245",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x8841a9ffd53462c5:0xf7efa6d322aa7ab7",
+            "iid": 12321,
+            "name": "Fuji Steak House",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1561684338115
+        },
+        {
+            "address": "Secret Garden, 2731 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x89d9f32801a09419:0xf56eee4f8cd060d5",
+            "iid": 20636,
+            "name": "Secret Garden",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1561684407127
+        },
+        {
+            "address": "Jiro Sushi, 1101 NW 23rd St, Oklahoma City, OK 73106",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x87b210b2211aa3bd:0x3310c206e77ec102",
+            "iid": 9963,
+            "name": "Jiro Sushi",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1561684458946
+        },
+        {
+            "address": "Sushi Twister, 5566 Boulder Hwy, Las Vegas, NV 89122",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c8da8627e5f537:0x64a2a4bac24c2237",
+            "iid": 5445,
+            "name": "Sushi Twister",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1561684488345
+        },
+        {
+            "address": "SLICE SHABU, 16871 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Shabu-shabu restaurant', 'Asian restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Soup restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80dd26f42a8a5823:0x443a1b8d85d354cb",
+            "iid": 6449,
+            "name": "SLICE SHABU",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1561684507875
+        },
+        {
+            "address": "I Love Sushi, 11041 S Eastern Ave, Henderson, NV 89052",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2020/01/10",
+            "gmap_id": "0x80c8cdfc7ea2d411:0xdeb907e376f60437",
+            "iid": 5399,
+            "name": "I Love Sushi",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1578679821243
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Osaki Sushi and Steakhouse, 2100 W Wyatt Earp Blvd, Dodge City, KS 67801",
+            "category": "['Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x87a71afbeb7e8c7f:0x32f6b154fef0743",
+            "iid": 9930,
+            "name": "Osaki Sushi and Steakhouse",
+            "rank": 1,
+            "score": -45.80048370361328,
+            "state": "Kansas"
+        },
+        {
+            "address": "King's Buffet, 1005 W Wyatt Earp Blvd, Dodge City, KS 67801",
+            "category": "['Buffet restaurant', 'American restaurant', 'Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87a71b0517717ff7:0xf985f0c09b31e2cd",
+            "iid": 9931,
+            "name": "King's Buffet",
+            "rank": 2,
+            "score": -46.31013488769531,
+            "state": "Kansas"
+        },
+        {
+            "address": "Osaka Steak & Sushi House, 1660 Lareu St f, Garden City, KS 67846",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x8709efd72528438f:0x778a96f9c1be6b8b",
+            "iid": 8751,
+            "name": "Osaka Steak & Sushi House",
+            "rank": 3,
+            "score": -81.1672134399414,
+            "state": "Kansas"
+        },
+        {
+            "address": "Ninja Sushi & Steak House, 416 N Main St, Garden City, KS 67846",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8709ee17347e86a5:0x55ca78df43dfa1d1",
+            "iid": 8750,
+            "name": "Ninja Sushi & Steak House",
+            "rank": 4,
+            "score": -82.18611907958984,
+            "state": "Kansas"
+        },
+        {
+            "address": "Tomi Sushi Steak, 1803 E 1st St, Pratt, KS 67124",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87a5b33abba09643:0xbe757cacb2fa9f13",
+            "iid": 9929,
+            "name": "Tomi Sushi Steak",
+            "rank": 5,
+            "score": -141.53857421875,
+            "state": "Kansas"
+        },
+        {
+            "address": "Sake2Me Sushi & Seafood Grille, 803 Fort St, Hays, KS 67601",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87a17985d06ec289:0x93c362cf9f3dc4f5",
+            "iid": 9927,
+            "name": "Sake2Me Sushi & Seafood Grille",
+            "rank": 6,
+            "score": -184.55699157714844,
+            "state": "Kansas"
+        },
+        {
+            "address": "Osaki Japanese Restaurant, 2522 Vine St, Hays, KS 67601",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87a17974818a48a3:0xe3d109426b8dc962",
+            "iid": 9926,
+            "name": "Osaki Japanese Restaurant",
+            "rank": 7,
+            "score": -186.37075805664062,
+            "state": "Kansas"
+        },
+        {
+            "address": "Tryyaki Asian Cuisine, 2814 Vine St, Hays, KS 67601",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87a1790b7ebb01a5:0xd947613744e87e25",
+            "iid": 9925,
+            "name": "Tryyaki Asian Cuisine",
+            "rank": 8,
+            "score": -186.88011169433594,
+            "state": "Kansas"
+        },
+        {
+            "address": "Mr Cao Japanese Steakhouse, 1505 E 17th Ave, Hutchinson, KS 67501",
+            "category": "['Japanese steakhouse', 'Steak house']",
+            "gmap_id": "0x87a4b6389c432171:0x9aa15e4454202a6b",
+            "iid": 9928,
+            "name": "Mr Cao Japanese Steakhouse",
+            "rank": 9,
+            "score": -223.1448974609375,
+            "state": "Kansas"
+        },
+        {
+            "address": "Osaki Sushi, 202 S Dumas Ave, Dumas, TX 79029",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8706849be9770c3f:0xeea589a4225dd9f0",
+            "iid": 8749,
+            "name": "Osaki Sushi",
+            "rank": 10,
+            "score": -226.8332977294922,
+            "state": "Texas"
+        },
+        {
+            "address": "Osaki Steak & Sushi House, 103 Janets Way, Elk City, OK 73644",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87abe5cc745a3f77:0x124a1e16e21eb7d6",
+            "iid": 9932,
+            "name": "Osaki Steak & Sushi House",
+            "rank": 11,
+            "score": -233.01283264160156,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Chen Garden | Hibachi & Sushi Buffet, 4125 W Owen K Garriott Rd, Enid, OK 73703",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87afd2f7cba5f83b:0x59b4514767ec506",
+            "iid": 9939,
+            "name": "Chen Garden | Hibachi & Sushi Buffet",
+            "rank": 12,
+            "score": -237.65098571777344,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Kanai, 12111 W Maple St, Wichita, KS 67235",
+            "category": "['Event venue', 'Caterer', 'Japanese restaurant']",
+            "gmap_id": "0x87bade5ff9cc7a81:0x240f2aa80af0d427",
+            "iid": 10090,
+            "name": "Kanai",
+            "rank": 13,
+            "score": -249.53720092773438,
+            "state": "Kansas"
+        },
+        {
+            "address": "Wasabi Sushi Bar | West, 2404 N Maize Rd, Wichita, KS 67205",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x87badf937e305cdb:0xadc16ce6ff74db49",
+            "iid": 10091,
+            "name": "Wasabi Sushi Bar | West",
+            "rank": 14,
+            "score": -251.93260192871094,
+            "state": "Kansas"
+        },
+        {
+            "address": "Nippon Grill, 4041 N Maize Rd, Maize, KS 67101",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87bb206d99034efd:0xb1fca625dc7a7944",
+            "iid": 10122,
+            "name": "Nippon Grill",
+            "rank": 15,
+            "score": -252.25645446777344,
+            "state": "Kansas"
+        },
+        {
+            "address": "Tuta's Teriyaki, 1212 S Tyler Rd # 100, Wichita, KS 67209",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87bade1c80913681:0xe11ea8a1bc2c619c",
+            "iid": 10089,
+            "name": "Tuta's Teriyaki",
+            "rank": 16,
+            "score": -252.84033203125,
+            "state": "Kansas"
+        },
+        {
+            "address": "Poke Mix, 8918 W 21st St #600, Wichita, KS 67205",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x87badfe773549805:0x307fccb93ea205b5",
+            "iid": 10094,
+            "name": "Poke Mix",
+            "rank": 17,
+            "score": -253.30322265625,
+            "state": "Kansas"
+        },
+        {
+            "address": "Kobe Steak House of Japan, 8760 W 21st St, Wichita, KS 67205",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Event venue', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x87badf94ec37f973:0xa9af089695764d2d",
+            "iid": 10092,
+            "name": "Kobe Steak House of Japan",
+            "rank": 18,
+            "score": -253.45553588867188,
+            "state": "Kansas"
+        },
+        {
+            "address": "Ninza Sushi Bar (West), 8428 W 13th St N #100, Wichita, KS 67212",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87badfd7a7b05173:0xbfbbcddfd826212b",
+            "iid": 10093,
+            "name": "Ninza Sushi Bar (West)",
+            "rank": 19,
+            "score": -253.5380096435547,
+            "state": "Kansas"
+        },
+        {
+            "address": "Emperor's Japanese Grill, 7825 W Maple St, Wichita, KS 67209",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87bae0a21e2bb7c1:0x5ad892cb953d6432",
+            "iid": 10097,
+            "name": "Emperor's Japanese Grill",
+            "rank": 20,
+            "score": -253.86367797851562,
+            "state": "Kansas"
+        }
+    ],
+    "user": {
+        "name": "Wonji Dharma",
+        "uid": 111013,
+        "user_id": 114995027077525041579
+    }
+}

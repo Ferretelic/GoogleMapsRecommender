@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Iron Chef, 4301 S Meridian, Puyallup, WA 98373",
+            "category": "['Japanese steakhouse']",
+            "date": "2011/05/04",
+            "gmap_id": "0x5490fc41a57d39e9:0x97f187f3989a0611",
+            "iid": 3318,
+            "name": "Iron Chef",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1304524345505
+        },
+        {
+            "address": "Mercel's Bake Shop, 8500 49th St N, Pinellas Park, FL 33781",
+            "category": "['Filipino restaurant', 'Asian grocery store', 'Caterer', 'Grocery delivery service', 'Market', 'Restaurant']",
+            "date": "2011/05/04",
+            "gmap_id": "0x88c2e4f1893bd035:0x123821f91c1c1f5a",
+            "iid": 47284,
+            "name": "Mercel's Bake Shop",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1304524407177
+        },
+        {
+            "address": "Siam Thai Restaurant, Westchase, 9546 W Linebaugh Ave, Tampa, FL 33626",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2011/06/02",
+            "gmap_id": "0x88c2ea5b0f26087b:0x33271cf4cf86f14f",
+            "iid": 47327,
+            "name": "Siam Thai Restaurant, Westchase",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1307030368572
+        },
+        {
+            "address": "China Yuan, 8502 N Armenia Ave #1a, Tampa, FL 33604",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2011/08/01",
+            "gmap_id": "0x88c2c1376c5795b3:0x28b90c65d625d642",
+            "iid": 46976,
+            "name": "China Yuan",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1312219448847
+        },
+        {
+            "address": "Taki Japanese Steakhouse, 4711 Ashford Dunwoody Rd, Atlanta, GA 30338",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2011/08/14",
+            "gmap_id": "0x88f5095f38b8aa71:0x16772f9a1432ced6",
+            "iid": 51575,
+            "name": "Taki Japanese Steakhouse",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1313284088724
+        },
+        {
+            "address": "Florida, Clearwater, Gulf to Bay Blvd, Saki Endless Sushi & Hibachi Restaurant\u90ae\u653f\u7f16\u7801: 33759",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2015/02/01",
+            "gmap_id": "0x88c2efd7334bbe93:0xd5653c404a9a233d",
+            "iid": 47364,
+            "name": "Saki Endless Sushi & Hibachi Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1422757053557
+        },
+        {
+            "address": "Saigon Deli, 3858 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Deli', 'Restaurant']",
+            "date": "2017/02/06",
+            "gmap_id": "0x88c2c11349964eb9:0x138941c315dd1fc",
+            "iid": 46969,
+            "name": "Saigon Deli",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486410668732
+        },
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/18",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 47324,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1566160307203
+        },
+        {
+            "address": "Blu Sushi, 13451 McGregor Blvd #23, Fort Myers, FL 33919",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Night club', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88db3f74f2ddc27b:0xfafbbec77631970d",
+            "iid": 49041,
+            "name": "Blu Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1578832424549
+        },
+        {
+            "address": "Florida, Tampa, N Dale Mabry Hwy, Saki Endless Sushi and Hibachi Grill Eatery\u90ae\u653f\u7f16\u7801: 33618",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88c2c0e5db8be0db:0x114693ff531b7ea8",
+            "iid": 46955,
+            "name": "Saki Endless Sushi and Hibachi Grill Eatery",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1578832432401
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Taste Of Vietnam, 9226 Park Meadows Dr, Lone Tree, CO 80124",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x876c852e96075dc7:0x5db2ac98badb6614",
+            "iid": 31448,
+            "name": "Taste Of Vietnam",
+            "rank": 1,
+            "score": -2.5902884006500244,
+            "state": "Colorado"
+        },
+        {
+            "address": "Liang's Thai Food, California St &, 16th St Mall, Denver, CO 80202",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x876c796a8a967421:0x2d6e5e21c85bebe3",
+            "iid": 31212,
+            "name": "Liang's Thai Food",
+            "rank": 2,
+            "score": -2.590310573577881,
+            "state": "Colorado"
+        },
+        {
+            "address": "Tokyo Hibachi (under construction), 2140 Salem Rd SE, Conyers, GA 30013",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f44b0a3d11e1c1:0xd805e150fb8e7847",
+            "iid": 51123,
+            "name": "Tokyo Hibachi (under construction)",
+            "rank": 3,
+            "score": -2.5903217792510986,
+            "state": "Georgia"
+        },
+        {
+            "address": "Panda Express, 350 Tucker Rd, Tehachapi, CA 93561",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c1f78cd4167551:0xe748a4ee08859ce4",
+            "iid": 12921,
+            "name": "Panda Express",
+            "rank": 4,
+            "score": -2.59032940864563,
+            "state": "California"
+        },
+        {
+            "address": "Thai Maison, 2430 James St, Bellingham, WA 98225",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x5485a3084389e80d:0x278a30ee3379f7ae",
+            "iid": 1420,
+            "name": "Thai Maison",
+            "rank": 5,
+            "score": -2.590353012084961,
+            "state": "Washington"
+        },
+        {
+            "address": "Bao Dumplings & Bao Tea \u5bf6\u9903\u5bf6\u8336, 1358 NJ-36, Hazlet, NJ 07730",
+            "category": "['Dumpling restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Dim sum restaurant']",
+            "gmap_id": "0x89c235d3eeed285d:0x858b6bd3976311ef",
+            "iid": 58075,
+            "name": "Bao Dumplings & Bao Tea \u5bf6\u9903\u5bf6\u8336",
+            "rank": 6,
+            "score": -2.5903639793395996,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Din Tai Noodle, 1034 E Bastanchury Rd, Fullerton, CA 92835",
+            "category": "['Chinese noodle restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x80dcd57875a9ba93:0x2f865b28228cd1b5",
+            "iid": 19321,
+            "name": "Din Tai Noodle",
+            "rank": 7,
+            "score": -2.5903677940368652,
+            "state": "California"
+        },
+        {
+            "address": "APSARA CAF\u00c9, 5025 Church Rd E Suite 100, Olive Branch, MS 38654",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Bakery', 'Bubble tea store', 'Cambodian restaurant', 'Chinese noodle restaurant', 'Coffee shop', 'Thai restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x887f8d951b3cc439:0x425afe3979897bde",
+            "iid": 45721,
+            "name": "APSARA CAF\u00c9",
+            "rank": 8,
+            "score": -2.590414524078369,
+            "state": "Mississippi"
+        },
+        {
+            "address": "Mazaa Biryani Corner, 38245 W 10 Mile Rd, Farmington Hills, MI 48335",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8824af6e24a6773f:0xcd22da7eadf18a64",
+            "iid": 39110,
+            "name": "Mazaa Biryani Corner",
+            "rank": 9,
+            "score": -2.5904221534729004,
+            "state": "Michigan"
+        },
+        {
+            "address": "Em Vietnamese Bistro, 57 Front St, Brooklyn, NY 11201",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89c25b0b1c49020d:0x5050438fd4dfb8e8",
+            "iid": 60607,
+            "name": "Em Vietnamese Bistro",
+            "rank": 10,
+            "score": -2.590425729751587,
+            "state": "New_York"
+        },
+        {
+            "address": "Sozai Restaurant, 449 W 14 Mile Rd, Clawson, MI 48017",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8824c553948eb74f:0xbf0db8301f8ea484",
+            "iid": 39301,
+            "name": "Sozai Restaurant",
+            "rank": 11,
+            "score": -2.5904390811920166,
+            "state": "Michigan"
+        },
+        {
+            "address": "Soto, 224 Westheimer Rd, Houston, TX 77006",
+            "category": "['Japanese restaurant', 'Fine dining restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640bf9f740090b7:0x955e0ea4c8926396",
+            "iid": 22983,
+            "name": "Soto",
+            "rank": 12,
+            "score": -2.590453624725342,
+            "state": "Texas"
+        },
+        {
+            "address": "Underdog Hot Chicken, 1347 16th St, Fort Lee, NJ 07024",
+            "category": "['Chicken restaurant', 'Korean restaurant']",
+            "gmap_id": "0x89c2f7917bf5de77:0x5097755fc51427ec",
+            "iid": 63662,
+            "name": "Underdog Hot Chicken",
+            "rank": 13,
+            "score": -2.5904722213745117,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Mai Thai, 3145 Silverlake Village Dr #112, Pearland, TX 77584",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x8640935dab5be0b5:0x9510701707a9f051",
+            "iid": 22694,
+            "name": "Mai Thai",
+            "rank": 14,
+            "score": -2.59047269821167,
+            "state": "Texas"
+        },
+        {
+            "address": "Casa De Goa, 177 S Plank Rd, Newburgh, NY 12550",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89dd2f3814e19d31:0x1d4ce002e0f4ec49",
+            "iid": 68475,
+            "name": "Casa De Goa",
+            "rank": 15,
+            "score": -2.5904736518859863,
+            "state": "New_York"
+        },
+        {
+            "address": "Tokyo Sushi Steakhouse, 1815 E Jackson Blvd, Jackson, MO 63755",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88778b6d85c7274d:0xfb086edbf83c4101",
+            "iid": 45553,
+            "name": "Tokyo Sushi Steakhouse",
+            "rank": 16,
+            "score": -2.590479612350464,
+            "state": "Missouri"
+        },
+        {
+            "address": "26 Thai Sushi & Bar (Brookhaven), 705 Town Blvd NE, Q330, Brookhaven, GA 30319",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x88f50913cf13dc39:0x79e9714803ce7f35",
+            "iid": 51555,
+            "name": "26 Thai Sushi & Bar (Brookhaven)",
+            "rank": 17,
+            "score": -2.590482234954834,
+            "state": "Georgia"
+        },
+        {
+            "address": "Nawab Fine Indian Cuisine, 6828 Market St, Wilmington, NC 28405",
+            "category": "['Indian restaurant', 'Indian takeaway']",
+            "gmap_id": "0x89a98d7687cb1351:0xcb68b281f29e9c7e",
+            "iid": 53582,
+            "name": "Nawab Fine Indian Cuisine",
+            "rank": 18,
+            "score": -2.5905115604400635,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Pho Auntie 7, 2690 Castro Valley Blvd, Castro Valley, CA 94546",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x808f91da84e2e14f:0x656cf3b0866509b3",
+            "iid": 9597,
+            "name": "Pho Auntie 7",
+            "rank": 19,
+            "score": -2.5905239582061768,
+            "state": "California"
+        },
+        {
+            "address": "Okome House, 4457 42nd Ave S, Minneapolis, MN 55406",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87f629ab9b5c76db:0xed925ce0aa795710",
+            "iid": 34959,
+            "name": "Okome House",
+            "rank": 20,
+            "score": -2.5905330181121826,
+            "state": "Minnesota"
+        }
+    ],
+    "user": {
+        "name": "Henry Cekan",
+        "uid": 128687,
+        "user_id": 104316392500823453878
+    }
+}

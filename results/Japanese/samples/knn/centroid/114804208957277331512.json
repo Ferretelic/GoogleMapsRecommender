@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Sushi Tomi, 635 W Dana St, Mountain View, CA 94041, United States",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2013/10/21",
+            "gmap_id": "0x808fb73161d008c9:0xf1ccd9ca251ef04",
+            "iid": 3134,
+            "name": "Sushi Tomi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1382327446016
+        },
+        {
+            "address": "Maru Ichi, 368 Castro St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant']",
+            "date": "2013/10/21",
+            "gmap_id": "0x808fb733847435ab:0xbc12056d5ef79dd3",
+            "iid": 3136,
+            "name": "Maru Ichi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1382327644160
+        },
+        {
+            "address": "Bonchon Sunnyvale, 572 E El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "date": "2013/10/21",
+            "gmap_id": "0x808fb67a7656b90d:0xb1d12f7abdc05f95",
+            "iid": 3128,
+            "name": "Bonchon Sunnyvale",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1382328325853
+        },
+        {
+            "address": "Gochi Cupertino, 19980 Homestead Rd, Cupertino, CA 95014",
+            "category": "['Japanese restaurant', 'Tapas restaurant']",
+            "date": "2013/10/21",
+            "gmap_id": "0x808fb5c78e1841e7:0xf8efac3fb5ce0b40",
+            "iid": 3109,
+            "name": "Gochi Cupertino",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1382328759695
+        },
+        {
+            "address": "Tomisushi Restaurant, 4336 Moorpark Ave, San Jose, CA 95129",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2013/10/21",
+            "gmap_id": "0x808fca96ff8b5fc7:0x659fd855e715c0dc",
+            "iid": 3249,
+            "name": "Tomisushi Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1382328817168
+        },
+        {
+            "address": "Sushi Sam's Edomata, 218 E 3rd Ave, San Mateo, CA 94401",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2013/10/21",
+            "gmap_id": "0x808f9e707b56023f:0xbf9c78417630d5da",
+            "iid": 2984,
+            "name": "Sushi Sam's Edomata",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1382328888049
+        },
+        {
+            "address": "Yakko Sushi Japanese Restaurant, 975 W Dana St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/04/19",
+            "gmap_id": "0x808fb7348d7aef0d:0xd8c02f41d2e824d1",
+            "iid": 3146,
+            "name": "Yakko Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1524151672829
+        },
+        {
+            "address": "Yugen Ramen, 152 Castro St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/05/11",
+            "gmap_id": "0x808fb7343b2418bd:0x97552ea5316e3eb",
+            "iid": 3141,
+            "name": "Yugen Ramen",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1526082734517
+        },
+        {
+            "address": "Masa Sushi Japan, 650 Castro St #180, Mountain View, CA 94041",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/10/12",
+            "gmap_id": "0x808fb732c778d9c1:0x89381c7360795f8e",
+            "iid": 3135,
+            "name": "Masa Sushi Japan",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1539385927671
+        },
+        {
+            "address": "TANTO Japanese Restaurant, 1063 E El Camino Real, Sunnyvale, CA 94087, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Brazilian restaurant', 'Coffee shop', 'Cuban restaurant', 'New American restaurant']",
+            "date": "2019/03/24",
+            "gmap_id": "0x808fb5f01cd7d477:0x5bfd6bcbc43a35b3",
+            "iid": 3114,
+            "name": "TANTO Japanese Restaurant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1553387398547
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Ryowa, 859 Villa St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "gmap_id": "0x808fb73441131a89:0xd450480847cd5f06",
+            "iid": 3144,
+            "name": "Ryowa",
+            "rank": 1,
+            "score": -0.35274210572242737,
+            "state": "California"
+        },
+        {
+            "address": "Kappo Nami Nami, 240 Castro St, Mountain View, CA 94041",
+            "category": "['Izakaya restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb7346d0186b5:0x5adc861e7de67053",
+            "iid": 3145,
+            "name": "Kappo Nami Nami",
+            "rank": 2,
+            "score": -0.38341835141181946,
+            "state": "California"
+        },
+        {
+            "address": "Shabuway, 180 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808fb7343d1cc031:0xaf2b8cf26e15142c",
+            "iid": 3143,
+            "name": "Shabuway",
+            "rank": 3,
+            "score": -0.4146052598953247,
+            "state": "California"
+        },
+        {
+            "address": "Rumble Fish Mountain View, 357 Castro St Unit 3A, Mountain View, CA 94041",
+            "category": "['Sushi restaurant', 'Cocktail bar', 'Japanese restaurant']",
+            "gmap_id": "0x808fb73391499ab5:0x2ac86c39ea90d386",
+            "iid": 3137,
+            "name": "Rumble Fish Mountain View",
+            "rank": 4,
+            "score": -0.43559929728507996,
+            "state": "California"
+        },
+        {
+            "address": "Bushido, 156 Castro St, Mountain View, CA 94041, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Izakaya restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb73428b08d99:0xc9e0b0725fdccada",
+            "iid": 3140,
+            "name": "Bushido",
+            "rank": 5,
+            "score": -0.43966835737228394,
+            "state": "California"
+        },
+        {
+            "address": "KakaRoto, 743 W Dana St, Mountain View, CA 94041",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808fb76b3367982f:0x8c2c79e34d613240",
+            "iid": 3149,
+            "name": "KakaRoto",
+            "rank": 6,
+            "score": -0.4427570104598999,
+            "state": "California"
+        },
+        {
+            "address": "Kobe Curry, 152 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese curry restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb7343c39af61:0x313e96c16b831f98",
+            "iid": 3142,
+            "name": "Kobe Curry",
+            "rank": 7,
+            "score": -0.4500408172607422,
+            "state": "California"
+        },
+        {
+            "address": "Barracuda Japanese Restaurant, 124 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb73425ef7fc7:0x3ab8de4dfe6d3b8",
+            "iid": 3139,
+            "name": "Barracuda Japanese Restaurant",
+            "rank": 8,
+            "score": -0.4576244354248047,
+            "state": "California"
+        },
+        {
+            "address": "Afuri Ramen + Dumpling, 124 Castro St, Mountain View, CA 94041",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808fb70644786a69:0x1a2b3f70b9da3776",
+            "iid": 3133,
+            "name": "Afuri Ramen + Dumpling",
+            "rank": 9,
+            "score": -0.46151742339134216,
+            "state": "California"
+        },
+        {
+            "address": "Shalala, 698 W Dana St, Mountain View, CA 94041",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb733e3895c73:0x5fbeb3ae533abf45",
+            "iid": 3138,
+            "name": "Shalala",
+            "rank": 10,
+            "score": -0.5030222535133362,
+            "state": "California"
+        },
+        {
+            "address": "Masa Sushi Japan, 650 Castro St #180, Mountain View, CA 94041",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb732c778d9c1:0x89381c7360795f8e",
+            "iid": 3135,
+            "name": "Masa Sushi Japan",
+            "rank": 11,
+            "score": -0.6351066827774048,
+            "state": "California"
+        },
+        {
+            "address": "Guru Katsu, 1711-B W El Camino Real, Mountain View, CA 94040",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x808fb0c88eb3195f:0x1c30b66e67d1df12",
+            "iid": 3061,
+            "name": "Guru Katsu",
+            "rank": 12,
+            "score": -0.9914230108261108,
+            "state": "California"
+        },
+        {
+            "address": "Momoya Sushi, 570 N Shoreline Blvd suite j, Mountain View, CA 94043",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb74c0e400625:0xbc00314659512598",
+            "iid": 3148,
+            "name": "Momoya Sushi",
+            "rank": 13,
+            "score": -1.0636075735092163,
+            "state": "California"
+        },
+        {
+            "address": "Gochi Japanese Fusion Tapas, 1943 W El Camino Real, Mountain View, CA 94041",
+            "category": "['Japanese restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x808fb0b8f686fa75:0x796176801a001ee",
+            "iid": 3060,
+            "name": "Gochi Japanese Fusion Tapas",
+            "rank": 14,
+            "score": -1.273148536682129,
+            "state": "California"
+        },
+        {
+            "address": "Sushi 85, 1350 Grant Rd Suite #6, Mountain View, CA 94040",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808fb6d7ad502541:0x5b7c253a54a4a851",
+            "iid": 3129,
+            "name": "Sushi 85",
+            "rank": 15,
+            "score": -1.9651291370391846,
+            "state": "California"
+        },
+        {
+            "address": "Joy Sushi, 225 E Middlefield Rd, Mountain View, CA 94043",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fb73df74d9d67:0x23b40afa4f145604",
+            "iid": 3147,
+            "name": "Joy Sushi",
+            "rank": 16,
+            "score": -1.993726134300232,
+            "state": "California"
+        },
+        {
+            "address": "Nijiya Market, 143 E El Camino Real, Mountain View, CA 94040",
+            "category": "['Japanese grocery store', 'Asian grocery store', 'Deli', 'Supermarket']",
+            "gmap_id": "0x808fb6d833fb8489:0xc662618588ae86b",
+            "iid": 3130,
+            "name": "Nijiya Market",
+            "rank": 17,
+            "score": -2.0088741779327393,
+            "state": "California"
+        },
+        {
+            "address": "Sushi 88 & Ramen, 506 Showers Dr, Mountain View, CA 94040",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x808fb098a7043c39:0xda2e267d82ce7a1c",
+            "iid": 3057,
+            "name": "Sushi 88 & Ramen",
+            "rank": 18,
+            "score": -2.2644872665405273,
+            "state": "California"
+        },
+        {
+            "address": "Hon Sushi, 1477 Plymouth St, Mountain View, CA 94043",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "gmap_id": "0x808fb9fe27855f0d:0x9928d6a7cc4edb6b",
+            "iid": 3150,
+            "name": "Hon Sushi",
+            "rank": 19,
+            "score": -2.5253686904907227,
+            "state": "California"
+        },
+        {
+            "address": "Satsuma Sushi, 705 E El Camino Real, Mountain View, CA 94040",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808fb6dd021d583d:0xd079c3ed85448990",
+            "iid": 3131,
+            "name": "Satsuma Sushi",
+            "rank": 20,
+            "score": -2.6944339275360107,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Nicole Gfroerer",
+        "uid": 109616,
+        "user_id": 114804208957277331512
+    }
+}

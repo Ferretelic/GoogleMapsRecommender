@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hashigo Sushi, 18685 Main St, Huntington Beach, CA 92648",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/04/20",
+            "gmap_id": "0x80dd26c6e35cdd0b:0x82f132ec9dc794b5",
+            "iid": 6446,
+            "name": "Hashigo Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492651759291
+        },
+        {
+            "address": "Sushi Raku Japanese Restaurant, 5190 Kanan Rd, Agoura Hills, CA 91301",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/28",
+            "gmap_id": "0x80e826a94ccae66d:0xe04ea388825cba69",
+            "iid": 6775,
+            "name": "Sushi Raku Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1493349655970
+        },
+        {
+            "address": "Red Samurai Steak House, 8562 Seneca Turnpike, New Hartford, NY 13413",
+            "category": "['Japanese restaurant', 'Takeout Restaurant']",
+            "date": "2017/07/22",
+            "gmap_id": "0x89d9418d6dd9330d:0x4eeabaae2e961ce4",
+            "iid": 20618,
+            "name": "Red Samurai Steak House",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1500695876609
+        },
+        {
+            "address": "Yoshi Japanese Cuisine, 17005 Bear Valley Rd Suite B, Hesperia, CA 92345",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/06/19",
+            "gmap_id": "0x80c366e749e965e3:0x91d6349601ce71c1",
+            "iid": 5181,
+            "name": "Yoshi Japanese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560970442608
+        },
+        {
+            "address": "Fuji Steak House, 4389 Eastgate Square Dr, Cincinnati, OH 45245",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x8841a9ffd53462c5:0xf7efa6d322aa7ab7",
+            "iid": 12321,
+            "name": "Fuji Steak House",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1561684338115
+        },
+        {
+            "address": "Secret Garden, 2731 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x89d9f32801a09419:0xf56eee4f8cd060d5",
+            "iid": 20636,
+            "name": "Secret Garden",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1561684407127
+        },
+        {
+            "address": "Jiro Sushi, 1101 NW 23rd St, Oklahoma City, OK 73106",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x87b210b2211aa3bd:0x3310c206e77ec102",
+            "iid": 9963,
+            "name": "Jiro Sushi",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1561684458946
+        },
+        {
+            "address": "Sushi Twister, 5566 Boulder Hwy, Las Vegas, NV 89122",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c8da8627e5f537:0x64a2a4bac24c2237",
+            "iid": 5445,
+            "name": "Sushi Twister",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1561684488345
+        },
+        {
+            "address": "SLICE SHABU, 16871 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Shabu-shabu restaurant', 'Asian restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Soup restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80dd26f42a8a5823:0x443a1b8d85d354cb",
+            "iid": 6449,
+            "name": "SLICE SHABU",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1561684507875
+        },
+        {
+            "address": "I Love Sushi, 11041 S Eastern Ave, Henderson, NV 89052",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2020/01/10",
+            "gmap_id": "0x80c8cdfc7ea2d411:0xdeb907e376f60437",
+            "iid": 5399,
+            "name": "I Love Sushi",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1578679821243
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Kampai Japanese Restaurant, 869 W Main St, Branford, CT 06405",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e7d646f9e6a63b:0xe938851104c5e129",
+            "iid": 21490,
+            "name": "Kampai Japanese Restaurant",
+            "rank": 1,
+            "score": 0.4619564712047577,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Roll & Rock Sushi Station, 6227 N Meridian Ave, Oklahoma City, OK 73112",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87b21ad08dd9518f:0x7e571d8d2425535e",
+            "iid": 9985,
+            "name": "Roll & Rock Sushi Station",
+            "rank": 2,
+            "score": 0.4502139687538147,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Kyotori Japanese Restaurant, 9789 Chapman Ave, Garden Grove, CA 92841",
+            "category": "['Japanese restaurant', 'Restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80dd285d7cbef16b:0x8b11ad8debda1cde",
+            "iid": 6475,
+            "name": "Kyotori Japanese Restaurant",
+            "rank": 3,
+            "score": 0.4483744204044342,
+            "state": "California"
+        },
+        {
+            "address": "Courthouse Sushi, 137 N Maclay Ave, San Fernando, CA 91340",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c291b5554dd953:0x87f903cba7a788c0",
+            "iid": 3888,
+            "name": "Courthouse Sushi",
+            "rank": 4,
+            "score": 0.4456699788570404,
+            "state": "California"
+        },
+        {
+            "address": "Benihana, 2100 E Ball Rd, Anaheim, CA 92806",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x80dcd7af8512cbb3:0xe213c3f15e41bce2",
+            "iid": 6151,
+            "name": "Benihana",
+            "rank": 5,
+            "score": 0.44195857644081116,
+            "state": "California"
+        },
+        {
+            "address": "Fuji Grill, 736 Maple Rd, Buffalo, NY 14221",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d373ed9376fbaf:0x6562fa653fb0ef13",
+            "iid": 20579,
+            "name": "Fuji Grill",
+            "rank": 6,
+            "score": 0.441904217004776,
+            "state": "New_York"
+        },
+        {
+            "address": "BF Sushi, 6375 S Rainbow Blvd #102, Las Vegas, NV 89118",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8c7b146dffff7:0x9e55e8c90547a660",
+            "iid": 5374,
+            "name": "BF Sushi",
+            "rank": 7,
+            "score": 0.44072315096855164,
+            "state": "Nevada"
+        },
+        {
+            "address": "Aburi Sushi, 8285 On the Mall Suite 217, Buena Park, CA 90620",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80dd2bdf2d075d5f:0xa0f76c717ddf6d23",
+            "iid": 6529,
+            "name": "Aburi Sushi",
+            "rank": 8,
+            "score": 0.4406786262989044,
+            "state": "California"
+        },
+        {
+            "address": "Fuji Grill III, 4109 N Buffalo St, Orchard Park, NY 14127",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d3060104ed90bd:0xb6636c756d0ac740",
+            "iid": 20550,
+            "name": "Fuji Grill III",
+            "rank": 9,
+            "score": 0.43979591131210327,
+            "state": "New_York"
+        },
+        {
+            "address": "Teriyaki Madness, 2530 S Decatur Blvd Ste 110, Las Vegas, NV 89102",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c8c148cd891a45:0x6bb37da59f64300e",
+            "iid": 5239,
+            "name": "Teriyaki Madness",
+            "rank": 10,
+            "score": 0.43841278553009033,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sake Cafe Sushi Cuisine, 8222 Transit Rd, Buffalo, NY 14221",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d375d218cdb769:0x94ae25520193e0b2",
+            "iid": 20584,
+            "name": "Sake Cafe Sushi Cuisine",
+            "rank": 11,
+            "score": 0.43699395656585693,
+            "state": "New_York"
+        },
+        {
+            "address": "Wasabi Restaurant, 100 Plaza Dr, Buffalo, NY 14221",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89d37401572fb91f:0xf6acf290e403e47d",
+            "iid": 20580,
+            "name": "Wasabi Restaurant",
+            "rank": 12,
+            "score": 0.4369678497314453,
+            "state": "New_York"
+        },
+        {
+            "address": "90623 California, La Palma, Centerpointe Dr, Tokyo Grill",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80dd2c71c584f9a3:0x6cd61aa4d120589d",
+            "iid": 6538,
+            "name": "Tokyo Grill",
+            "rank": 13,
+            "score": 0.4349379539489746,
+            "state": "California"
+        },
+        {
+            "address": "Osaki, 970 Millcreek Mall, Erie, PA 16565",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese steakhouse', 'Steak house']",
+            "gmap_id": "0x883281df78da6769:0xfaa081184ae93dfc",
+            "iid": 11906,
+            "name": "Osaki",
+            "rank": 14,
+            "score": 0.43059492111206055,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ding asian fusion sushi bar, Express, 6400 NW 39th Expy, Bethany, OK 73008",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87b20544d2693e73:0x8d355d27842575c5",
+            "iid": 9954,
+            "name": "Ding asian fusion sushi bar",
+            "rank": 15,
+            "score": 0.43015629053115845,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "THAI DELIGHT BROADWAY Edmond, 3409 S Broadway #750, Edmond, OK 73013",
+            "category": "['Thai restaurant', 'Catering food and drink supplier', 'Fine dining restaurant', 'Takeout Restaurant', 'Restaurant', 'Southeast Asian restaurant', 'Sushi restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x87b21f978fef54b7:0xd64b94434956d1e0",
+            "iid": 10008,
+            "name": "THAI DELIGHT BROADWAY Edmond",
+            "rank": 16,
+            "score": 0.4290574789047241,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Good Time Sushi, 301 Fayette St, Manlius, NY 13104",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89d98ead69f9fbc9:0x15285bdf61bbeec8",
+            "iid": 20624,
+            "name": "Good Time Sushi",
+            "rank": 17,
+            "score": 0.4290255010128021,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Kaya, 4355 Spring Mountain Rd #101b, Las Vegas, NV 89103",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8c6a50be759e1:0x2a39ffa98b7efd72",
+            "iid": 5326,
+            "name": "Sushi Kaya",
+            "rank": 18,
+            "score": 0.4248121976852417,
+            "state": "Nevada"
+        },
+        {
+            "address": "Yogis Teriyaki, 3300, 11001 Chapman Ave # C, Garden Grove, CA 92840",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x80dd2816c8f72c3f:0xb4b93dd7407dfcde",
+            "iid": 6474,
+            "name": "Yogis Teriyaki",
+            "rank": 19,
+            "score": 0.42349064350128174,
+            "state": "California"
+        },
+        {
+            "address": "Rok n Sushi, 16141 Roscoe Blvd, North Hills, CA 91343",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c290a8723f0745:0x3c9195ba581f6307",
+            "iid": 3885,
+            "name": "Rok n Sushi",
+            "rank": 20,
+            "score": 0.42164021730422974,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Wonji Dharma",
+        "uid": 111013,
+        "user_id": 114995027077525041579
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Madras Caf\u00e9, 1177 W El Camino Real, Sunnyvale, CA 94087",
+            "category": "['Indian restaurant', 'Coffee shop', 'Restaurant']",
+            "date": "2017/06/20",
+            "gmap_id": "0x808fb6e8d40eb295:0x7990316e7fd45ea7",
+            "iid": 3545,
+            "name": "Madras Caf\u00e9",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1497921439465
+        },
+        {
+            "address": "Psycho Donuts, 288 S 2nd St, San Jose, CA 95113",
+            "category": "['Donut shop', 'Art gallery', 'Bakery', 'Coffee shop']",
+            "date": "2017/06/28",
+            "gmap_id": "0x808fccba40a7176b:0x373ef5ecf30ebea1",
+            "iid": 3938,
+            "name": "Psycho Donuts",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1498628352378
+        },
+        {
+            "address": "Starbucks, 150 S 1st St Suite 135, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2017/07/28",
+            "gmap_id": "0x808fcca30f370005:0x75a7e2b9f3ee2f13",
+            "iid": 3925,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1501203661680
+        },
+        {
+            "address": "Sugar Plum Coffee Shop, 1815 Colfax St, Concord, CA 94520",
+            "category": "['Coffee shop', 'Restaurant']",
+            "date": "2017/09/14",
+            "gmap_id": "0x80856725f22fb5b5:0x75af90b0a66d2881",
+            "iid": 858,
+            "name": "Sugar Plum Coffee Shop",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1505423505783
+        },
+        {
+            "address": "Honeyberry, 3655 N 1st St Ste101, San Jose, CA 95134",
+            "category": "['Cafe']",
+            "date": "2017/10/25",
+            "gmap_id": "0x808fc907d8b24013:0x3f83d99ff9dd0a89",
+            "iid": 3766,
+            "name": "Honeyberry",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1508970730308
+        },
+        {
+            "address": "Starbucks, 3555 Monroe St #65, Santa Clara, CA 95051",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "date": "2018/02/20",
+            "gmap_id": "0x808fb60049c7d185:0xd66f2fd390eee1c4",
+            "iid": 3512,
+            "name": "Starbucks",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1519109761569
+        },
+        {
+            "address": "Cocola, 333 Santana Row #1045, San Jose, CA 95128",
+            "category": "['Patisserie', 'Cafe']",
+            "date": "2018/06/14",
+            "gmap_id": "0x808fcae00584be5f:0x28b2b19ec61994d2",
+            "iid": 3834,
+            "name": "Cocola",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1528946422369
+        },
+        {
+            "address": "Krispy Kreme, 3133 Mission College Blvd, Santa Clara, CA 95054",
+            "category": "['Donut shop', 'Coffee shop', 'Dessert shop', 'Fast food restaurant']",
+            "date": "2018/09/18",
+            "gmap_id": "0x808fc9dd79eefafb:0x633fa7b0b35ee5f9",
+            "iid": 3795,
+            "name": "Krispy Kreme",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1537251727936
+        },
+        {
+            "address": "Mikayla's Cafe, 2209 Tasman Dr, Santa Clara, CA 95054",
+            "category": "['Restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Coffee shop', 'Hamburger restaurant', 'Traditional American restaurant']",
+            "date": "2019/02/18",
+            "gmap_id": "0x808fc9b15959e1d1:0x6f6ab6f83ca4951",
+            "iid": 3787,
+            "name": "Mikayla's Cafe",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1550469428226
+        },
+        {
+            "address": "Blue Bottle Coffee, 368 Santana Row Suite 1020, San Jose, CA 95128",
+            "category": "['Cafe']",
+            "date": "2019/11/24",
+            "gmap_id": "0x808fcb10b88f82c7:0x1fc8823511f2c107",
+            "iid": 3843,
+            "name": "Blue Bottle Coffee",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1574577116170
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Starbucks, 31 Rio Robles E, San Jose, CA 95134",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fc9094afd3bfb:0x5e4de4bf08460222",
+            "iid": 3768,
+            "name": "Starbucks",
+            "rank": 1,
+            "score": 0.4323108494281769,
+            "state": "California"
+        },
+        {
+            "address": "Gong Cha - Downtown San Jose, 140 Paseo de San Antonio, San Jose, CA 95112",
+            "category": "['Bubble tea store', 'Coffee shop', 'Juice shop']",
+            "gmap_id": "0x808fccbbd5a1f885:0xdffc5794b368205c",
+            "iid": 3946,
+            "name": "Gong Cha - Downtown San Jose",
+            "rank": 2,
+            "score": 0.4002968370914459,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 55 River Oaks Pl #40, San Jose, CA 95134",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fc90cc6cab2d7:0xb24d1572b25df7b1",
+            "iid": 3769,
+            "name": "Starbucks",
+            "rank": 3,
+            "score": 0.39957326650619507,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Falafel, 4300 Great America Pkwy, Santa Clara, CA 95054",
+            "category": "['Cafe', 'Halal restaurant', 'Lunch restaurant', 'Mediterranean restaurant', 'Restaurant', 'Turkish restaurant']",
+            "gmap_id": "0x808fc9c3b958fcb7:0x32e760aac3ce6b18",
+            "iid": 3788,
+            "name": "Cafe Falafel",
+            "rank": 4,
+            "score": 0.39480236172676086,
+            "state": "California"
+        },
+        {
+            "address": "Fantasia Coffee & Tea, 3969 Rivermark Plaza, Santa Clara, CA 95054",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fc97676a8cf79:0x6c0f0d487b4161c3",
+            "iid": 3782,
+            "name": "Fantasia Coffee & Tea",
+            "rank": 5,
+            "score": 0.35932403802871704,
+            "state": "California"
+        },
+        {
+            "address": "Paris Baguette, 3561 El Camino Real #75, Santa Clara, CA 95051",
+            "category": "['Bakery', 'Cafe', 'Cake shop', 'Pastry shop', 'Sandwich shop']",
+            "gmap_id": "0x808fb5f6163eef47:0xbc355fe81d131917",
+            "iid": 3510,
+            "name": "Paris Baguette",
+            "rank": 6,
+            "score": 0.3556555211544037,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 4180 N 1st St, San Jose, CA 95134",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x808fc8532ffa2fc9:0xf74241ec88861d39",
+            "iid": 3749,
+            "name": "Panera Bread",
+            "rank": 7,
+            "score": 0.35108378529548645,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3253 Coronado Pl, Santa Clara, CA 95054",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fc9d0457eb1d1:0xe93067a3cde1c760",
+            "iid": 3792,
+            "name": "Starbucks",
+            "rank": 8,
+            "score": 0.3463232219219208,
+            "state": "California"
+        },
+        {
+            "address": "Philz Coffee, 118 Paseo de San Antonio, San Jose, CA 95112",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808fccbbd516f8b7:0xa48a49dfd03f76e9",
+            "iid": 3945,
+            "name": "Philz Coffee",
+            "rank": 9,
+            "score": 0.34469279646873474,
+            "state": "California"
+        },
+        {
+            "address": "Specialty's Caf\u00e9 & Bakery, 2702 Augustine Dr, Santa Clara, CA 95054",
+            "category": "['Bakery', 'Cafe', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x808fc9ee433fbb89:0xd5520195f871f006",
+            "iid": 3798,
+            "name": "Specialty's Caf\u00e9 & Bakery",
+            "rank": 10,
+            "score": 0.3437771499156952,
+            "state": "California"
+        },
+        {
+            "address": "Bangalore Cafe, 3077 El Camino Real, Santa Clara, CA 95051",
+            "category": "['South Indian restaurant', 'Cafe', 'Indian restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808fca0d979c0e6d:0x4820de23b98d97cb",
+            "iid": 3803,
+            "name": "Bangalore Cafe",
+            "rank": 11,
+            "score": 0.34300267696380615,
+            "state": "California"
+        },
+        {
+            "address": "Einstein Bros. Bagels, Terminal A, 1661 Airport Blvd, San Jose, CA 95110",
+            "category": "['Bagel shop', 'Bakery', 'Breakfast restaurant', 'Cafe', 'Coffee shop']",
+            "gmap_id": "0x808fcbc14ef7392f:0xa18c6148b749dc78",
+            "iid": 3888,
+            "name": "Einstein Bros. Bagels",
+            "rank": 12,
+            "score": 0.3420582115650177,
+            "state": "California"
+        },
+        {
+            "address": "First Cafe @Samsung, 85 W Tasman Dr, San Jose, CA 95134",
+            "category": "['Cafe']",
+            "gmap_id": "0x808fc907f8b39bb3:0x74be4c65533d2bc8",
+            "iid": 3767,
+            "name": "First Cafe @Samsung",
+            "rank": 13,
+            "score": 0.34159132838249207,
+            "state": "California"
+        },
+        {
+            "address": "Breaktime Tea - San Jose, 110 E San Fernando St, San Jose, CA 95112",
+            "category": "['Bubble tea store', 'Cafe', 'Dessert restaurant', 'Snack bar']",
+            "gmap_id": "0x808fccbb89b8c565:0x74692fcea4d06655",
+            "iid": 3942,
+            "name": "Breaktime Tea - San Jose",
+            "rank": 14,
+            "score": 0.3410831689834595,
+            "state": "California"
+        },
+        {
+            "address": "Panera Bread, 1195 E Arques Ave, Sunnyvale, CA 94085",
+            "category": "['Cafe', 'Bakery', 'Breakfast restaurant', 'Caterer', 'Coffee shop', 'Delivery service', 'Takeout Restaurant', 'Salad shop', 'Sandwich shop', 'Soup restaurant']",
+            "gmap_id": "0x808fb61eeffc8db5:0x947fced5fb1fce68",
+            "iid": 3513,
+            "name": "Panera Bread",
+            "rank": 15,
+            "score": 0.340533971786499,
+            "state": "California"
+        },
+        {
+            "address": "Whispers Cafe and Creperie, 150 S 2nd St, San Jose, CA 95113",
+            "category": "['Cafe', 'Breakfast restaurant', 'Brunch restaurant', 'Cr\u00eaperie', 'Restaurant']",
+            "gmap_id": "0x808fccbb745f10f9:0x480433c1e4e598d1",
+            "iid": 3941,
+            "name": "Whispers Cafe and Creperie",
+            "rank": 16,
+            "score": 0.3360391855239868,
+            "state": "California"
+        },
+        {
+            "address": "Thirst Tea, 150 S 1st St #118, San Jose, CA 95113",
+            "category": "['Cafe', 'Tea house']",
+            "gmap_id": "0x808fccbb6b40b411:0xc929a8ef57b91cdd",
+            "iid": 3940,
+            "name": "Thirst Tea",
+            "rank": 17,
+            "score": 0.3247642517089844,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 101 E Santa Clara St, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fcca30f370005:0x1f91881970adda7a",
+            "iid": 3924,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": 0.3241496682167053,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 145 W Santa Clara St, San Jose, CA 95113",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fcca30f370005:0xa26d5904032c40bc",
+            "iid": 3926,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": 0.3240896463394165,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3055 Olin Ave #1025, San Jose, CA 95128",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808fcadfdb678f6b:0x1841d9d49349b5b9",
+            "iid": 3833,
+            "name": "Starbucks",
+            "rank": 20,
+            "score": 0.3237585723400116,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Sona Balsam",
+        "uid": 30426,
+        "user_id": 104026223205347948865
+    }
+}

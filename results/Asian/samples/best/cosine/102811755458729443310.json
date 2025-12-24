@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Maharaja Indian Cuisine, 6290 N Lockwood Ridge Rd, Sarasota, FL 34243",
+            "category": "['Indian restaurant']",
+            "date": "2016/03/19",
+            "gmap_id": "0x88c33f1b73cc0937:0x478494f9a0525532",
+            "iid": 47535,
+            "name": "Maharaja Indian Cuisine",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1458345738720
+        },
+        {
+            "address": "Pho 101 NOODLE HOUSE, 6125 S Tamiami Trail, Sarasota, FL 34231",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/07/24",
+            "gmap_id": "0x88c34184582b759f:0x7ccc4ddeb4c6dd69",
+            "iid": 47569,
+            "name": "Pho 101 NOODLE HOUSE",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1469403349578
+        },
+        {
+            "address": "China Star, 3558 Clark Rd, Sarasota, FL 34231",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/11/15",
+            "gmap_id": "0x88c34168438379b5:0x81cff5bbd99069d3",
+            "iid": 47562,
+            "name": "China Star",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1510774828789
+        },
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/12/17",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 47324,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1513534564782
+        },
+        {
+            "address": "Top Ph\u1edf, 11697 E Colfax Ave, Aurora, CO 80010",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/19",
+            "gmap_id": "0x876c7cb6b1cd1bc9:0xbfe6da705707f341",
+            "iid": 31248,
+            "name": "Top Ph\u1edf",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1566240585140
+        },
+        {
+            "address": "Thai Monkey Club, 102 S Broadway, Denver, CO 80209",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2019/12/22",
+            "gmap_id": "0x876c7f1e4411dcff:0x7df02cf7a3f12cd2",
+            "iid": 31349,
+            "name": "Thai Monkey Club",
+            "split": "train",
+            "state": "Colorado",
+            "unix_time": 1576991890520
+        },
+        {
+            "address": "Bangkok Restaurant, 4791 Swift Rd, Sarasota, FL 34231",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/02/20",
+            "gmap_id": "0x88c3410be5b61117:0x29115808ef2e0bae",
+            "iid": 47557,
+            "name": "Bangkok Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1582159605269
+        },
+        {
+            "address": "Pho 99, 5191 Clark Rd, Sarasota, FL 34233",
+            "category": "['Vietnamese restaurant']",
+            "date": "2020/02/23",
+            "gmap_id": "0x88c346b0c51f1c5d:0xe68e0b96520cfed7",
+            "iid": 47582,
+            "name": "Pho 99",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1582470370438
+        },
+        {
+            "address": "Pho Cali, 1578 Main St, Sarasota, FL 34236",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2020/02/23",
+            "gmap_id": "0x88c3406d233d24c3:0x382cec05d546e52b",
+            "iid": 47548,
+            "name": "Pho Cali",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1582470479216
+        },
+        {
+            "address": "Hideko 2 Sushi-Thai Restaurant, 7646 Lockwood Ridge Rd #4962, Sarasota, FL 34243",
+            "category": "['Thai restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2020/03/08",
+            "gmap_id": "0x88c33ee51f22ecf7:0xb02a6ff63dcc2cd4",
+            "iid": 47532,
+            "name": "Hideko 2 Sushi-Thai Restaurant",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1583679884363
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "NORI Sushi&Thai, 4003 Clark Rd, Sarasota, FL 34233",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88c341444c5351e3:0xb1c22dfd8fdeb3b3",
+            "iid": 47559,
+            "name": "NORI Sushi&Thai",
+            "rank": 1,
+            "score": 0.6944810152053833,
+            "state": "Florida"
+        },
+        {
+            "address": "Thailand Restaurant Gulf Gate, 2238 Gulf Gate Dr, Sarasota, FL 34231",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x88c3417f077c458b:0x4f49a40007f52838",
+            "iid": 47566,
+            "name": "Thailand Restaurant Gulf Gate",
+            "rank": 2,
+            "score": 0.6663095355033875,
+            "state": "Florida"
+        },
+        {
+            "address": "Taste Of Hong Kong, 2224 Gulf Gate Dr, Sarasota, FL 34231",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c3417f09eac4cb:0x9e769233a2f0c280",
+            "iid": 47567,
+            "name": "Taste Of Hong Kong",
+            "rank": 3,
+            "score": 0.6626051068305969,
+            "state": "Florida"
+        },
+        {
+            "address": "Pacific Rim, 1859 Hillview St, Sarasota, FL 34239",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88c34045a15354f5:0x150f2a82be9610da",
+            "iid": 47545,
+            "name": "Pacific Rim",
+            "rank": 4,
+            "score": 0.6575769186019897,
+            "state": "Florida"
+        },
+        {
+            "address": "Isan Thai Restaurant, 5758 S Tamiami Trail, Sarasota, FL 34231",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x88c34190141b2ee1:0xe94f2f69eac4b6d7",
+            "iid": 47572,
+            "name": "Isan Thai Restaurant",
+            "rank": 5,
+            "score": 0.6400909423828125,
+            "state": "Florida"
+        },
+        {
+            "address": "Casa Italia - Italian Specialty Foods and International Market, 2080 Constitution Blvd, Sarasota, FL 34231",
+            "category": "['Gourmet grocery store', 'Deli', 'Indian grocery store', 'Italian grocery store', 'Wine store']",
+            "gmap_id": "0x88c3419a98df7435:0x516af183081697db",
+            "iid": 47573,
+            "name": "Casa Italia - Italian Specialty Foods and International Market",
+            "rank": 6,
+            "score": 0.6388580799102783,
+            "state": "Florida"
+        },
+        {
+            "address": "Pho Cali, 1578 Main St, Sarasota, FL 34236",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x88c3406d233d24c3:0x382cec05d546e52b",
+            "iid": 47548,
+            "name": "Pho Cali",
+            "rank": 7,
+            "score": 0.6333287954330444,
+            "state": "Florida"
+        },
+        {
+            "address": "China Wok Chinese Takeout Food, 2881 Clark Rd #12, Sarasota, FL 34231",
+            "category": "['Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x88c341712b6a773b:0x279020e4eafc35fc",
+            "iid": 47564,
+            "name": "China Wok Chinese Takeout Food",
+            "rank": 8,
+            "score": 0.6294741630554199,
+            "state": "Florida"
+        },
+        {
+            "address": "Goichi's Sushi, 4563 Bee Ridge Rd, Sarasota, FL 34233",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88c3412a93466ced:0x580413bcf9223921",
+            "iid": 47558,
+            "name": "Goichi's Sushi",
+            "rank": 9,
+            "score": 0.6213743686676025,
+            "state": "Florida"
+        },
+        {
+            "address": "Ichiban Restaurant & Sushi Bar, 2724 Stickney Point Rd, Sarasota, FL 34231",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c341777f741647:0x6d3b740be4f22b30",
+            "iid": 47565,
+            "name": "Ichiban Restaurant & Sushi Bar",
+            "rank": 10,
+            "score": 0.6203036904335022,
+            "state": "Florida"
+        },
+        {
+            "address": "Siam Gulf Sarasota, 1100 N Tuttle Ave Unit1&2, Sarasota, FL 34237",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sake brewery', 'Thai restaurant']",
+            "gmap_id": "0x88c3415c5759d0bf:0x331cbc7b95347e4c",
+            "iid": 47560,
+            "name": "Siam Gulf Sarasota",
+            "rank": 11,
+            "score": 0.6193587183952332,
+            "state": "Florida"
+        },
+        {
+            "address": "Siam Orchid, 4141 S Tamiami Trail # 10, Sarasota, FL 34231",
+            "category": "['Asian restaurant', 'Southeast Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88c341b0280afb49:0x429ba3ba0ccd5e00",
+            "iid": 47574,
+            "name": "Siam Orchid",
+            "rank": 12,
+            "score": 0.6139905452728271,
+            "state": "Florida"
+        },
+        {
+            "address": "Shangri-La Restaurant, 5828 Bee Ridge Rd, Sarasota, FL 34233",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c346e003ac2e97:0x31275d843c410cb1",
+            "iid": 47585,
+            "name": "Shangri-La Restaurant",
+            "rank": 13,
+            "score": 0.6128717064857483,
+            "state": "Florida"
+        },
+        {
+            "address": "China Taste, 8258 Bee Ridge Rd, Sarasota, FL 34241",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x88c347cd0f5a9317:0xea6b541a7e2abb4f",
+            "iid": 47590,
+            "name": "China Taste",
+            "rank": 14,
+            "score": 0.6121272444725037,
+            "state": "Florida"
+        },
+        {
+            "address": "Tsunami Sushi & Hibachi, 100 Central Ave #1022, Sarasota, FL 34236",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Live music venue', 'Pan-Asian restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x88c3401293d9cd73:0x3ae4ce4bf4a82b2f",
+            "iid": 47542,
+            "name": "Tsunami Sushi & Hibachi",
+            "rank": 15,
+            "score": 0.611117959022522,
+            "state": "Florida"
+        },
+        {
+            "address": "China 1, 6575 S Tamiami Trail, Sarasota, FL 34231",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x88c3417f7d9f9dfb:0x64b4b446bdabbfb7",
+            "iid": 47568,
+            "name": "China 1",
+            "rank": 16,
+            "score": 0.6098134517669678,
+            "state": "Florida"
+        },
+        {
+            "address": "Spice Station, 1438 Boulevard of the Arts, Sarasota, FL 34236",
+            "category": "['Thai restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88c341e41d59b0a5:0x7d4a53f19a6a2581",
+            "iid": 47577,
+            "name": "Spice Station",
+            "rank": 17,
+            "score": 0.6016280651092529,
+            "state": "Florida"
+        },
+        {
+            "address": "Daruma South Sarasota - Japanese Steakhouse & Sushi Lounge, 4910 S Tamiami Trail, Sarasota, FL 34231",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88c341e0b9246add:0x397e9b4aea8efff2",
+            "iid": 47576,
+            "name": "Daruma South Sarasota - Japanese Steakhouse & Sushi Lounge",
+            "rank": 18,
+            "score": 0.5991946458816528,
+            "state": "Florida"
+        },
+        {
+            "address": "New Dynasty Restaurant, 6131 S Tamiami Trail, Sarasota, FL 34231",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c341845de9d0e9:0x4054acb4b9843d26",
+            "iid": 47570,
+            "name": "New Dynasty Restaurant",
+            "rank": 19,
+            "score": 0.595780074596405,
+            "state": "Florida"
+        },
+        {
+            "address": "New York Chinese Restaurant, 5010 Clark Rd, Sarasota, FL 34233",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88c346b0dfdf2c73:0x53124e7fb67d5aee",
+            "iid": 47583,
+            "name": "New York Chinese Restaurant",
+            "rank": 20,
+            "score": 0.5943719148635864,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Ana Mihajlovic",
+        "uid": 83710,
+        "user_id": 102811755458729443310
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Uchi, 904 Westheimer Rd Suite A, Houston, TX 77006",
+            "category": "['Japanese restaurant']",
+            "date": "2017/09/24",
+            "gmap_id": "0x8640bf66aaaaaaab:0xba870240e892b2c6",
+            "iid": 7358,
+            "name": "Uchi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1506283929146
+        },
+        {
+            "address": "Wild Cajun Crawfish, 6533 Wilcrest Dr, Houston, TX 77072",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Cajun restaurant', 'Southern restaurant (US)', 'Sushi restaurant']",
+            "date": "2018/03/18",
+            "gmap_id": "0x8640dd2fbfdc5691:0xbbf4225d876a11b",
+            "iid": 7539,
+            "name": "Wild Cajun Crawfish",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1521377174580
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/04/07",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 7533,
+            "name": "Kura Revolving Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1523125454481
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 11301 Katy Fwy, Houston, TX 77079",
+            "category": "['Yakiniku restaurant', 'Bar', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2018/11/10",
+            "gmap_id": "0x8640db41cec74a09:0xb7b32d96b12f0af",
+            "iid": 7517,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1541879149302
+        },
+        {
+            "address": "Sushi Choo Choo, 12149 FM 1960, Houston, TX 77065",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/12/09",
+            "gmap_id": "0x8640d1a1efa37c6d:0x2c0a9e3cc0485bf6",
+            "iid": 7492,
+            "name": "Sushi Choo Choo",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1544323444205
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/19",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 7520,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1545182851646
+        },
+        {
+            "address": "Marukame Udon, 1104 Fort Street Mall, Honolulu, HI 96813",
+            "category": "['Udon noodle restaurant', 'Japanese restaurant', 'Restaurant', 'Tempura restaurant']",
+            "date": "2019/06/09",
+            "gmap_id": "0x7c006e745ec4428d:0x1efe275b56b64276",
+            "iid": 1969,
+            "name": "Marukame Udon",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1560040473905
+        },
+        {
+            "address": "Sushi II, 655 Ke\u2019eaumoku St #109, Honolulu, HI 96814",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/20",
+            "gmap_id": "0x7c006dee4877850d:0xb7945e64df5f8a02",
+            "iid": 1902,
+            "name": "Sushi II",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1561060272336
+        },
+        {
+            "address": "JINYA Ramen Bar - Cypress, 11930 Barker Cypress Rd Suite 100, Cypress, TX 77433",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2019/07/21",
+            "gmap_id": "0x8640d56b7112afa7:0x3a6f39ec4d5ae381",
+            "iid": 7502,
+            "name": "JINYA Ramen Bar - Cypress",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1563751013032
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 7748 Cypress Creek Pkwy suite a, Houston, TX 77070",
+            "category": "['Yakiniku restaurant', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2021/03/28",
+            "gmap_id": "0x8640cd1ef5a61021:0x6e0a2ec9a77de1ca",
+            "iid": 7475,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1616895129686
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Vegas Test Kitchen, 1020 E Fremont St #120, Las Vegas, NV 89101",
+            "category": "['American restaurant', 'Asian restaurant', 'Bagel shop', 'Pie shop', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c36d11539e27:0xc136ddffaf461845",
+            "iid": 5249,
+            "name": "Vegas Test Kitchen",
+            "rank": 1,
+            "score": -1.9117958545684814,
+            "state": "Nevada"
+        },
+        {
+            "address": "Bamboo Sushi Bar & Hibachi Fort Walton, 9 Eglin Pkwy NE, Fort Walton Beach, FL 32548",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88913fe0d1d16305:0xe6336be12ff88635",
+            "iid": 13811,
+            "name": "Bamboo Sushi Bar & Hibachi Fort Walton",
+            "rank": 2,
+            "score": -1.9131749868392944,
+            "state": "Florida"
+        },
+        {
+            "address": "Pennsylvania, Parkesburg, Commons Dr, Raku Hibachi & Sushi\u90ae\u653f\u7f16\u7801: 19365",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c645a73520a34b:0x33382e546efa1ef3",
+            "iid": 19962,
+            "name": "Raku Hibachi & Sushi",
+            "rank": 3,
+            "score": -1.913235068321228,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sakura Sushi and Grill, 3261 Western Branch Blvd, Chesapeake, VA 23321",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89ba9fbd36c98519:0xfb28deadc0bdeb8c",
+            "iid": 17499,
+            "name": "Sakura Sushi and Grill",
+            "rank": 4,
+            "score": -1.9132939577102661,
+            "state": "Virginia"
+        },
+        {
+            "address": "Asahi Sushi, 59 Nassau St B, New York, NY 10038",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c25bd3dc44eedd:0xa0efd0529b1d1009",
+            "iid": 18772,
+            "name": "Asahi Sushi",
+            "rank": 5,
+            "score": -1.9133942127227783,
+            "state": "New_York"
+        },
+        {
+            "address": "Pok\u00e9 Spot, 655 S Willow St Suite 100, Manchester, NH 03103",
+            "category": "['Hawaiian restaurant', 'Poke bar', 'Sushi takeaway']",
+            "gmap_id": "0x89e24fa11528e093:0x95cf042b6e10a6f4",
+            "iid": 20794,
+            "name": "Pok\u00e9 Spot",
+            "rank": 6,
+            "score": -1.9134488105773926,
+            "state": "New_Hampshire"
+        },
+        {
+            "address": "Asiatico Asian Kitchen, 10 SE, Bay St, Depoe Bay, OR 97341",
+            "category": "['Asian fusion restaurant', 'Dumpling restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54ea879977c09a93:0x5ba271afa76e6a29",
+            "iid": 1607,
+            "name": "Asiatico Asian Kitchen",
+            "rank": 7,
+            "score": -1.9134551286697388,
+            "state": "Oregon"
+        },
+        {
+            "address": "Silverlake Ramen, 12540 120th Ave NE #118, Kirkland, WA 98034",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54900d24f7b20a4b:0x28b4033fd1f25e00",
+            "iid": 408,
+            "name": "Silverlake Ramen",
+            "rank": 8,
+            "score": -1.9134594202041626,
+            "state": "Washington"
+        },
+        {
+            "address": "ZEN Japanese Grill & Sushi Bistro, 1703 N Causeway Blvd Ste A, Mandeville, LA 70471",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86275bdb28be0bd7:0x25e1fb514bfb29",
+            "iid": 7151,
+            "name": "ZEN Japanese Grill & Sushi Bistro",
+            "rank": 9,
+            "score": -1.9135608673095703,
+            "state": "Louisiana"
+        },
+        {
+            "address": "I love sushi Japanese Cuisine, 2300 Elliston Pl, Nashville, TN 37203",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x886467d9797ef477:0x6e59e4d8d9b2aa40",
+            "iid": 13243,
+            "name": "I love sushi Japanese Cuisine",
+            "rank": 10,
+            "score": -1.9135996103286743,
+            "state": "Tennessee"
+        },
+        {
+            "address": "Sushi Umi, 13051 Worldgate Dr, Herndon, VA 20170",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89b64703f3658c2f:0x86bda260a2e9f486",
+            "iid": 16954,
+            "name": "Sushi Umi",
+            "rank": 11,
+            "score": -1.9136148691177368,
+            "state": "Virginia"
+        },
+        {
+            "address": "Sarashina Horii, 45 E 20th St, New York, NY 10003",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c2592a2bcfeb0f:0xbec03c1927832c8e",
+            "iid": 18204,
+            "name": "Sarashina Horii",
+            "rank": 12,
+            "score": -1.9136731624603271,
+            "state": "New_York"
+        },
+        {
+            "address": "Yamazaki Sushi & Steaks, 1405 NE McWilliams Rd, Bremerton, WA 98311",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x54903b372e11d3e3:0xd04da02cfc3a930",
+            "iid": 587,
+            "name": "Yamazaki Sushi & Steaks",
+            "rank": 13,
+            "score": -1.9137316942214966,
+            "state": "Washington"
+        },
+        {
+            "address": "Kissaki Sushi, 286 Columbus Ave, New York, NY 10023",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89c259cccf5d7e8f:0xf4def159e81adff1",
+            "iid": 18572,
+            "name": "Kissaki Sushi",
+            "rank": 14,
+            "score": -1.9137635231018066,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi Sakana Southlake, 2175 E Southlake Blvd #170, Southlake, TX 76092",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x864dd5663e11dd69:0xebc47d683d81af28",
+            "iid": 8141,
+            "name": "Sushi Sakana Southlake",
+            "rank": 15,
+            "score": -1.9137715101242065,
+            "state": "Texas"
+        },
+        {
+            "address": "Kansai Hayward, 954 B St, Hayward, CA 94541",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808f935a8ba23085:0x6f38e570c881fca5",
+            "iid": 2950,
+            "name": "Kansai Hayward",
+            "rank": 16,
+            "score": -1.9137946367263794,
+            "state": "California"
+        },
+        {
+            "address": "Kissaki Sushi, 28-17 Jackson Ave, Queens, NY 11101",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Kaiseki restaurant']",
+            "gmap_id": "0x89c259f1a6c27fdf:0x2d014683ad971821",
+            "iid": 18607,
+            "name": "Kissaki Sushi",
+            "rank": 17,
+            "score": -1.9138284921646118,
+            "state": "New_York"
+        },
+        {
+            "address": "Masa Asia, 2111 W Main St, Norristown, PA 19403",
+            "category": "['Asian restaurant', 'Delivery service', 'Family restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c697a7697cc96b:0xed41135dfcf90401",
+            "iid": 19996,
+            "name": "Masa Asia",
+            "rank": 18,
+            "score": -1.9138493537902832,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "PASSION FUSION GRILLE, 20 SW COURT SQ, Graham, NC 27253",
+            "category": "['Restaurant', 'Asian restaurant', 'Bubble tea store', 'Chinese restaurant', 'Chinese takeaway', 'Sushi restaurant']",
+            "gmap_id": "0x88532b9aa1a0cded:0x25bddb5d3852a239",
+            "iid": 12592,
+            "name": "PASSION FUSION GRILLE",
+            "rank": 19,
+            "score": -1.9138684272766113,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "Bamboo Garden Super Chinese Buffet, 3125 Columbia Blvd, Titusville, FL 32780",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Family restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88e74db921f9d2bd:0x3fc1afc69f30d481",
+            "iid": 15344,
+            "name": "Bamboo Garden Super Chinese Buffet",
+            "rank": 20,
+            "score": -1.913896083831787,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Jeslyn Tran",
+        "uid": 119185,
+        "user_id": 116093281311797937164
+    }
+}

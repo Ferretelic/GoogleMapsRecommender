@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Dosa Allee, 1020 Market St, San Francisco, CA 94102",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808580851c3b2c0b:0x158b702b3ce0e36",
+            "iid": 7572,
+            "name": "Dosa Allee",
+            "rank": 1,
+            "score": 0.6305564045906067,
+            "state": "California"
+        },
+        {
+            "address": "Co Nam, 3936 Telegraph Ave, Oakland, CA 94609",
+            "category": "['Vietnamese restaurant', 'Cocktail bar', 'Tapas bar']",
+            "gmap_id": "0x80857d276816ec07:0xe10e1908316e21ee",
+            "iid": 7331,
+            "name": "Co Nam",
+            "rank": 2,
+            "score": 0.6030872464179993,
+            "state": "California"
+        },
+        {
+            "address": "Al Hamra Indian Pizza & Curry, 3083 16th St, San Francisco, CA 94103",
+            "category": "['Indian restaurant', 'Pakistani restaurant', 'Pizza delivery', 'Pizza restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7e2252f101b7:0x51b98b5daef7d746",
+            "iid": 9109,
+            "name": "Al Hamra Indian Pizza & Curry",
+            "rank": 3,
+            "score": 0.5981037020683289,
+            "state": "California"
+        },
+        {
+            "address": "Chanvi Eatery, 1063 Market St, San Francisco, CA 94103",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80858084c1f10c81:0x59de13f21ef76bdc",
+            "iid": 7569,
+            "name": "Chanvi Eatery",
+            "rank": 4,
+            "score": 0.5961331129074097,
+            "state": "California"
+        },
+        {
+            "address": "Raavi North Indian Cuisine, 533 Jackson St, San Francisco, CA 94133",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808580f4d731ba47:0x60e4c66bb262968c",
+            "iid": 7939,
+            "name": "Raavi North Indian Cuisine",
+            "rank": 5,
+            "score": 0.5925779938697815,
+            "state": "California"
+        },
+        {
+            "address": "Urban Curry, 523 Broadway, San Francisco, CA 94133",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x808580f461112949:0x8474de2ea935f9c7",
+            "iid": 7917,
+            "name": "Urban Curry",
+            "rank": 6,
+            "score": 0.5851755142211914,
+            "state": "California"
+        },
+        {
+            "address": "Nature Vegetarian Restaurant, 1116 Franklin St, Oakland, CA 94607",
+            "category": "['Chinese restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x808f80b421b14cb5:0x14f2849240f28057",
+            "iid": 9306,
+            "name": "Nature Vegetarian Restaurant",
+            "rank": 7,
+            "score": 0.5762209892272949,
+            "state": "California"
+        },
+        {
+            "address": "Udupi Palace, 1903 University Ave, Berkeley, CA 94704",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80857f27a25cbadb:0x5a5990244889c972",
+            "iid": 7490,
+            "name": "Udupi Palace",
+            "rank": 8,
+            "score": 0.5733803510665894,
+            "state": "California"
+        },
+        {
+            "address": "Salama Bazaar Indian Groceries, 603 Geary St, San Francisco, CA 94102",
+            "category": "['Indian grocery store']",
+            "gmap_id": "0x80858091db1c3c53:0xec6bff240c85a538",
+            "iid": 7702,
+            "name": "Salama Bazaar Indian Groceries",
+            "rank": 9,
+            "score": 0.5730994939804077,
+            "state": "California"
+        },
+        {
+            "address": "Shalimar Restaurant, 1409 Polk St, San Francisco, CA 94109",
+            "category": "['Indian restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x80858091d431bfd3:0x67e00a61ce7b0fb8",
+            "iid": 7697,
+            "name": "Shalimar Restaurant",
+            "rank": 10,
+            "score": 0.5633490681648254,
+            "state": "California"
+        },
+        {
+            "address": "Delicious Curry House, 1437 Franklin St, Oakland, CA 94612",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Nepalese restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x808f80b39486c8f1:0x67dad17f65c44d4f",
+            "iid": 9299,
+            "name": "Delicious Curry House",
+            "rank": 11,
+            "score": 0.5605055689811707,
+            "state": "California"
+        },
+        {
+            "address": "Biryani Tika Kabab Halal Indian & Pakistani Cuisine, 328 14th St, Oakland, CA 94612",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Pakistani restaurant']",
+            "gmap_id": "0x808f80b462156b37:0xaa8c5fc0f7daf4d5",
+            "iid": 9312,
+            "name": "Biryani Tika Kabab Halal Indian & Pakistani Cuisine",
+            "rank": 12,
+            "score": 0.5581045746803284,
+            "state": "California"
+        },
+        {
+            "address": "Mount Everest Restaurant, 2598 Telegraph Ave, Berkeley, CA 94704",
+            "category": "['Indian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x80857c2c1196fa43:0x3dd3b3fc1bc14bf",
+            "iid": 7304,
+            "name": "Mount Everest Restaurant",
+            "rank": 13,
+            "score": 0.5559341907501221,
+            "state": "California"
+        },
+        {
+            "address": "Cedar Market, 1601 California St, Berkeley, CA 94703",
+            "category": "['Grocery store', 'Beer store', 'Frozen food store', 'Indian grocery store', 'Lottery retailer', 'Organic food store', 'Shipping service', 'Supermarket', 'Wine store']",
+            "gmap_id": "0x80857ebb87b864d9:0x7469a871f1e6605e",
+            "iid": 7466,
+            "name": "Cedar Market",
+            "rank": 14,
+            "score": 0.5534998178482056,
+            "state": "California"
+        },
+        {
+            "address": "Thai Dishes on Broadway, 123 Broadway, Santa Monica, CA 90401",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c2a4d04f987027:0xc518ea3d707d3107",
+            "iid": 13560,
+            "name": "Thai Dishes on Broadway",
+            "rank": 15,
+            "score": 0.5534736514091492,
+            "state": "California"
+        },
+        {
+            "address": "Tsing's Chinese Restaurant, 361 W Portal Ave, San Francisco, CA 94127",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x808f7dbffb6b8373:0x193f7df26ac314e6",
+            "iid": 9049,
+            "name": "Tsing's Chinese Restaurant",
+            "rank": 16,
+            "score": 0.5533831119537354,
+            "state": "California"
+        },
+        {
+            "address": "Priya Indian Cuisine, 2072 San Pablo Ave, Berkeley, CA 94702",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80857eea76a5511b:0x12462595415eea25",
+            "iid": 7481,
+            "name": "Priya Indian Cuisine",
+            "rank": 17,
+            "score": 0.5469760894775391,
+            "state": "California"
+        },
+        {
+            "address": "High Peaks Kitchen, 391 Grand Ave, Oakland, CA 94610",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x808f874f54c23733:0x6f3a405bf964ba71",
+            "iid": 9473,
+            "name": "High Peaks Kitchen",
+            "rank": 18,
+            "score": 0.5469003915786743,
+            "state": "California"
+        },
+        {
+            "address": "Tai San, 2811 Telegraph Ave, Berkeley, CA 94705",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x80857dd351ec9a8d:0xe720359168590b3",
+            "iid": 7357,
+            "name": "Tai San",
+            "rank": 19,
+            "score": 0.5437175631523132,
+            "state": "California"
+        },
+        {
+            "address": "Lahore Karahi, 612 O'Farrell St, San Francisco, CA 94109",
+            "category": "['Pakistani restaurant', 'Asian restaurant', 'Halal restaurant', 'Indian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x80858091add69db7:0x196d97249dfad0a0",
+            "iid": 7692,
+            "name": "Lahore Karahi",
+            "rank": 20,
+            "score": 0.542443037033081,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

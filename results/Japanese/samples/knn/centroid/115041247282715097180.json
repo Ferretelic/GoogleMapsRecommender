@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Seafood Shanty, 31 Dock St, Edgartown, MA 02539",
+            "category": "['Seafood restaurant', 'Bar', 'Sushi restaurant']",
+            "date": "2015/11/24",
+            "gmap_id": "0x89e52c3b957b2c57:0x14bd0bf1a8f1bc7d",
+            "iid": 21345,
+            "name": "The Seafood Shanty",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448386230593
+        },
+        {
+            "address": "Mandarin Westboro Inc, 132 Turnpike Rd, Westborough, MA 01581",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Sichuan restaurant', 'Sushi restaurant']",
+            "date": "2015/11/28",
+            "gmap_id": "0x89e40a92bbc9ec63:0x82c966e5013b38f3",
+            "iid": 21224,
+            "name": "Mandarin Westboro Inc",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448741598199
+        },
+        {
+            "address": "Takara Japanese Restaurant, 15 Elissa Ave, Wayland, MA 01778",
+            "category": "['Japanese restaurant']",
+            "date": "2016/01/16",
+            "gmap_id": "0x89e3859d1b6d3c19:0x36906cfaaf719de6",
+            "iid": 21120,
+            "name": "Takara Japanese Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1452952022788
+        },
+        {
+            "address": "P.F. Chang's, 1245 Worcester St Ste #4008, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2017/01/16",
+            "gmap_id": "0x89e38882bf8d47cb:0xc639b0ea7ed17f56",
+            "iid": 21127,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1484592292461
+        },
+        {
+            "address": "Tanaka, 222 E 51st St, New York, NY 10022",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x89c258e31b884675:0xaa66aa08c4ed8624",
+            "iid": 18040,
+            "name": "Tanaka",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522323566865
+        },
+        {
+            "address": "East Sushi Restaurant, 43 Scotch Rd, Ewing Township, NJ 08628",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/18",
+            "gmap_id": "0x89c157e712b8531f:0x5bd4da75682a1f00",
+            "iid": 17630,
+            "name": "East Sushi Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1531952628484
+        },
+        {
+            "address": "Shanghai Tokyo, 54 E Central St, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/07/20",
+            "gmap_id": "0x89e387ac940ca26f:0x186c570995cc552b",
+            "iid": 21125,
+            "name": "Shanghai Tokyo",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1532047209910
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/14",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 2358,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748786788
+        },
+        {
+            "address": "Pho 1 Waltham, 374 Moody St, Waltham, MA 02453",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "date": "2019/02/04",
+            "gmap_id": "0x89e382d8e1b5c22d:0xfbdfd12f238d15c1",
+            "iid": 21113,
+            "name": "Pho 1 Waltham",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1549238752392
+        },
+        {
+            "address": "Kazan BBQ, Ramen, & Bar, 1 Crossgates Mall Rd, Albany, NY 12203",
+            "category": "['Ramen restaurant', 'Bar', 'BBQ area', 'Japanese steakhouse']",
+            "date": "2021/04/25",
+            "gmap_id": "0x89de7531f774e0e7:0xcc7623e30e4cf76d",
+            "iid": 20763,
+            "name": "Kazan BBQ, Ramen, & Bar",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1619313704195
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Japan One, 1500 Bee Line Hwy, DuBois, PA 15801",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89ccf41f4b6e84b3:0x76b51bdaa8b7be54",
+            "iid": 20505,
+            "name": "Japan One",
+            "rank": 1,
+            "score": -26.01551055908203,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Fuji Jade Garden & My Thai, 287 Northland Center, State College, PA 16803",
+            "category": "['Pan-Asian restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89cea8bbe9bb1723:0x679362fa82b7d20",
+            "iid": 20512,
+            "name": "Fuji Jade Garden & My Thai",
+            "rank": 2,
+            "score": -61.43858337402344,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tadashi Japanese Restaurant, 100 S Atherton St, State College, PA 16801",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89cea92be65ee4a5:0xd184329e42c6551e",
+            "iid": 20513,
+            "name": "Tadashi Japanese Restaurant",
+            "rank": 3,
+            "score": -63.768287658691406,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tadashi Japanese Restaurant, 206 W College Ave, State College, PA 16801",
+            "category": "['Authentic Japanese restaurant']",
+            "gmap_id": "0x89cea899189fdb91:0x50890227f5946870",
+            "iid": 20508,
+            "name": "Tadashi Japanese Restaurant",
+            "rank": 4,
+            "score": -63.77766799926758,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Osaka, 450 E College Ave, State College, PA 16801",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89cea61e273871f9:0x7b1ad41ba66873bf",
+            "iid": 20506,
+            "name": "Osaka",
+            "rank": 5,
+            "score": -63.82421112060547,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi, 428 E College Ave, State College, PA 16801",
+            "category": "['Japanese restaurant', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x89cea8a086770fb9:0xbe027942d981c14",
+            "iid": 20509,
+            "name": "Tokyo Sushi & Hibachi",
+            "rank": 6,
+            "score": -63.82707214355469,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kondu, 132 S Allen St, State College, PA 16801",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x89cea898b8629c85:0x93303b7d07449284",
+            "iid": 20507,
+            "name": "Kondu",
+            "rank": 7,
+            "score": -63.87529373168945,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Say Sushi Restaurant, 310 S Allen St, State College, PA 16801",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x89cea8a26890aabd:0x112ec8e0ddd70e4b",
+            "iid": 20510,
+            "name": "Say Sushi Restaurant",
+            "rank": 8,
+            "score": -64.17333221435547,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Sakura, 1525 S Atherton St, State College, PA 16801",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89cea8b2ef559cd7:0xabb19f9899860a40",
+            "iid": 20511,
+            "name": "Sakura",
+            "rank": 9,
+            "score": -65.9227066040039,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Aki Japanese Steakhouse and Sushi Bar, 267 Park Hills Plaza, Altoona, PA 16602",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89cb9140e78dd8e3:0xf20c1e645f51f801",
+            "iid": 20504,
+            "name": "Aki Japanese Steakhouse and Sushi Bar",
+            "rank": 10,
+            "score": -78.73295593261719,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "UMI Hibachi Steakhouse, 1470 Indian Springs Rd #5, Indiana, PA 15701",
+            "category": "['Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x89cb454e477cdd93:0x89c64168de072780",
+            "iid": 20503,
+            "name": "UMI Hibachi Steakhouse",
+            "rank": 11,
+            "score": -90.47708129882812,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tokyo Sushi & Hibachi Restaurant, 205 S Logan Blvd, Burnham, PA 17009",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89ceb560a3b0f8a3:0x1812bfde5ef99c53",
+            "iid": 20514,
+            "name": "Tokyo Sushi & Hibachi Restaurant",
+            "rank": 12,
+            "score": -94.7731704711914,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Oishi, 2234 W State St, Olean, NY 14760",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89d2708dc908a1b5:0x494fd59b7890b5d5",
+            "iid": 20545,
+            "name": "Oishi",
+            "rank": 13,
+            "score": -99.8774642944336,
+            "state": "New_York"
+        },
+        {
+            "address": "Yamato Sushi Restaurant, 212 Market St, Kittanning, PA 16201",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x883357cd919b9f83:0xbd0b67fe611f6954",
+            "iid": 11907,
+            "name": "Yamato Sushi Restaurant",
+            "rank": 14,
+            "score": -100.4288558959961,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Tokyo & Beijing Asian Cuisine, 816 Foote Ave, Jamestown, NY 14701",
+            "category": "['Asian fusion restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89d2a85c02413dd1:0x84d0cbce4182c514",
+            "iid": 20546,
+            "name": "Tokyo & Beijing Asian Cuisine",
+            "rank": 15,
+            "score": -120.15826416015625,
+            "state": "New_York"
+        },
+        {
+            "address": "Shanghai-Tokyo, 612 S Pike Rd #103, Sarver, PA 16055",
+            "category": "['Chinese restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8834a261f2ff4b29:0x219b228f7be34559",
+            "iid": 11944,
+            "name": "Shanghai-Tokyo",
+            "rank": 16,
+            "score": -121.2205810546875,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Ichiban Japanese Restaurant, 1800 E 3rd St, Williamsport, PA 17701",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89cfa67c5c4a1285:0x43ecf862edc8851d",
+            "iid": 20517,
+            "name": "Ichiban Japanese Restaurant",
+            "rank": 17,
+            "score": -122.07730102539062,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Forte, 114 E 3rd St, Jamestown, NY 14701",
+            "category": "['New American restaurant', 'Cocktail bar', 'Sushi restaurant']",
+            "gmap_id": "0x89d2a8e47f5149f9:0xf9bc1c7e2cf2c66e",
+            "iid": 20547,
+            "name": "Forte",
+            "rank": 18,
+            "score": -122.40019989013672,
+            "state": "New_York"
+        },
+        {
+            "address": "FuJi Sushi & Steak House, 279 E Fairmount Ave, Lakewood, NY 14750",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89d2abcf5a18fcbb:0xfa4c7cf5c04f7182",
+            "iid": 20548,
+            "name": "FuJi Sushi & Steak House",
+            "rank": 19,
+            "score": -125.81536865234375,
+            "state": "New_York"
+        },
+        {
+            "address": "Grace Buffet & Grill, 811 N Loyalsock Ave, Montoursville, PA 17754",
+            "category": "['Buffet restaurant', 'Chinese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89cfa3f81353547b:0xc5b4351a097a841",
+            "iid": 20516,
+            "name": "Grace Buffet & Grill",
+            "rank": 20,
+            "score": -126.41040802001953,
+            "state": "Pennsylvania"
+        }
+    ],
+    "user": {
+        "name": "Vasu Nagalingam",
+        "uid": 111370,
+        "user_id": 115041247282715097180
+    }
+}

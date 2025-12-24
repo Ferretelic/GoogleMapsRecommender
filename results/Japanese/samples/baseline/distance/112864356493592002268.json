@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Taka's Grill, 250 N Main St A, Fort Bragg, CA 95437",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2017/02/25",
+            "gmap_id": "0x8080354f2d8d99db:0x3f8ff0f649d7a2a8",
+            "iid": 2068,
+            "name": "Taka's Grill",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1487984472872
+        },
+        {
+            "address": "Yummy Grill & Sushi, 7331 W Lake Mead Blvd #105, Las Vegas, NV 89128",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/03/27",
+            "gmap_id": "0x80c8c03b3878def7:0xfb43d84b05509fc0",
+            "iid": 5229,
+            "name": "Yummy Grill & Sushi",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1490622220761
+        },
+        {
+            "address": "Viet Orleans Bistro, 300 Baronne St, New Orleans, LA 70112, United States",
+            "category": "['Vietnamese restaurant', 'Sushi restaurant']",
+            "date": "2017/03/27",
+            "gmap_id": "0x8620a60b208863e7:0x5fa33e228deba3d8",
+            "iid": 6991,
+            "name": "Viet Orleans Bistro",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1490622311586
+        },
+        {
+            "address": "SoHo Sushi, 3218 W Kennedy Blvd, Tampa, FL 33609",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2017/03/27",
+            "gmap_id": "0x88c2c372cbb3f0c5:0xd73048e656d33cb",
+            "iid": 14020,
+            "name": "SoHo Sushi",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1490624878963
+        },
+        {
+            "address": "Little Tokyo Restaurant, 2300 N Causeway Blvd, Metairie, LA 70001",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/11/22",
+            "gmap_id": "0x8620b01b30afee65:0x4c2b634d17f1270a",
+            "iid": 7017,
+            "name": "Little Tokyo Restaurant",
+            "split": "train",
+            "state": "Louisiana",
+            "unix_time": 1511315305851
+        },
+        {
+            "address": "H2O Sushi & Izakaya, 325 Hughes Center Dr #120, Las Vegas, NV 89169",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2017/12/24",
+            "gmap_id": "0x80c8c44f4578a00d:0x59a269e8ef7e7a38",
+            "iid": 5284,
+            "name": "H2O Sushi & Izakaya",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1514075429453
+        },
+        {
+            "address": "Sasa Sushi, 7408, 7450 W Cheyenne Ave #118, Las Vegas, NV 89129",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant']",
+            "date": "2018/01/24",
+            "gmap_id": "0x80c8ea962edddfab:0x8bf6011622070724",
+            "iid": 5464,
+            "name": "Sasa Sushi",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1516753665683
+        },
+        {
+            "address": "Kona Grill - Boca Park, 750 S Rampart Blvd, Las Vegas, NV 89145",
+            "category": "['American restaurant', 'Cocktail bar', 'Sushi restaurant']",
+            "date": "2018/02/24",
+            "gmap_id": "0x80c8bf8420ed52bd:0xca3d80a5fa2d1e26",
+            "iid": 5215,
+            "name": "Kona Grill - Boca Park",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1519435608666
+        },
+        {
+            "address": "YAMA SUSHI SPRING MOUNTAIN, 3909 Spring Mountain Rd, Las Vegas, NV 89102",
+            "category": "['Sushi restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x80c8c6a655532729:0x8328ff4c96853f0d",
+            "iid": 5330,
+            "name": "YAMA SUSHI SPRING MOUNTAIN",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1539277634797
+        },
+        {
+            "address": "Sushiro, 556 N Eastern Ave ste h, Las Vegas, NV 89101",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x80c8c34182ffe791:0x9fac80f4b35eccd",
+            "iid": 5248,
+            "name": "Sushiro",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1539277967217
+        },
+        {
+            "address": "Kikuya Restaurant, 1315 N King St, Honolulu, HI 96817",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/10/11",
+            "gmap_id": "0x7c006e631bf852c5:0x4c71ad0e549a3827",
+            "iid": 1956,
+            "name": "Kikuya Restaurant",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1539278687930
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Sakura Ya, 9750 W Skye Canyon Park Dr #110, Las Vegas, NV 89166",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c8934d829c7b7f:0x178ba15f3c9442a0",
+            "iid": 5190,
+            "name": "Sakura Ya",
+            "rank": 1,
+            "score": -2.539944648742676,
+            "state": "Nevada"
+        },
+        {
+            "address": "Zeppin Sushi LLC, 16733 Ventura Blvd, Encino, CA 91436",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c299a3996c78df:0xd0fd16ec3c6e8bb2",
+            "iid": 3994,
+            "name": "Zeppin Sushi LLC",
+            "rank": 2,
+            "score": -2.5556983947753906,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Club 305, 2475 NW 95th Ave STE 7, Doral, FL 33172",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x88d9b94db377092f:0x85e75eca4ce8e77a",
+            "iid": 14788,
+            "name": "Sushi Club 305",
+            "rank": 3,
+            "score": -2.561788320541382,
+            "state": "Florida"
+        },
+        {
+            "address": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR, 227 Parkingway, Quincy, MA 02169",
+            "category": "['Hot pot restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e37db2261101f9:0x469b051bcb527420",
+            "iid": 21099,
+            "name": "ROYAL HOTPOT SUSHI KOREAN BBQ & BAR",
+            "rank": 4,
+            "score": -2.5650222301483154,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Kissho Sushi, 1425 George Ferris Drive M-181, Sparks, NV 89434",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80993f38ba5376b5:0xb810a0ee095c8d25",
+            "iid": 3539,
+            "name": "Kissho Sushi",
+            "rank": 5,
+            "score": -2.5670626163482666,
+            "state": "Nevada"
+        },
+        {
+            "address": "Namba Sushi, 2760 Deer Springs Way #101, North Las Vegas, NV 89084",
+            "category": "['Authentic Japanese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8e953ca622f67:0x95e66163e6889cff",
+            "iid": 5455,
+            "name": "Namba Sushi",
+            "rank": 6,
+            "score": -2.5693938732147217,
+            "state": "Nevada"
+        },
+        {
+            "address": "Teriyaki Madness, 16955 N 75th Ave Ste 115, Peoria, AZ 85382",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x872b69a2e8e9c817:0xc4d37ae230d7bcae",
+            "iid": 9090,
+            "name": "Teriyaki Madness",
+            "rank": 7,
+            "score": -2.569531202316284,
+            "state": "Arizona"
+        },
+        {
+            "address": "Okami Sushi Chicago, 6818 W North Ave, Chicago, IL 60707",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880fcbaf89c4f67b:0x7295dc015d75bb7",
+            "iid": 11261,
+            "name": "Okami Sushi Chicago",
+            "rank": 8,
+            "score": -2.5702672004699707,
+            "state": "Illinois"
+        },
+        {
+            "address": "Pennsylvania, Parkesburg, Commons Dr, Raku Hibachi & Sushi\u90ae\u653f\u7f16\u7801: 19365",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c645a73520a34b:0x33382e546efa1ef3",
+            "iid": 19962,
+            "name": "Raku Hibachi & Sushi",
+            "rank": 9,
+            "score": -2.5706582069396973,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Berkeley Park Sushi Co, 4404 Yates St, Denver, CO 80212",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x876b87e3ece6e5e5:0xb954d11c3a07bb47",
+            "iid": 9569,
+            "name": "Berkeley Park Sushi Co",
+            "rank": 10,
+            "score": -2.575549602508545,
+            "state": "Colorado"
+        },
+        {
+            "address": "Koy Restaurant, 391 Wilmington Pike Suite 5&6, Glen Mills, PA 19342",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c6fbd789707285:0x8d510b96191b8983",
+            "iid": 20269,
+            "name": "Koy Restaurant",
+            "rank": 11,
+            "score": -2.5782337188720703,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Hinoya Curry SF, 3347 Fillmore St, San Francisco, CA 94123",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x80858152c09edccb:0x3dd372d88b08ccb8",
+            "iid": 2479,
+            "name": "Hinoya Curry SF",
+            "rank": 12,
+            "score": -2.5793099403381348,
+            "state": "California"
+        },
+        {
+            "address": "Kona Pok\u00e9, 1240 N Hwy A1A, Indialantic, FL 32903",
+            "category": "['Restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Sushi restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88de119e45433001:0x4ef4fa9c8668f3b7",
+            "iid": 15065,
+            "name": "Kona Pok\u00e9",
+            "rank": 13,
+            "score": -2.579941749572754,
+            "state": "Florida"
+        },
+        {
+            "address": "Florida, Jacksonville, Atlantic Blvd, Fancy sushi\u90ae\u653f\u7f16\u7801: 32225",
+            "category": "['Sushi restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Takeout Restaurant', 'Poke bar', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x88e44b25989084ff:0x4b0390f7ba042e28",
+            "iid": 15182,
+            "name": "Fancy sushi",
+            "rank": 14,
+            "score": -2.580018997192383,
+            "state": "Florida"
+        },
+        {
+            "address": "Tahk Omakase Sushi, 737 Lincoln Ave, Steamboat Springs, CO 80487",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x874269419caa5f51:0x8e1b6acc59ae233f",
+            "iid": 9253,
+            "name": "Tahk Omakase Sushi",
+            "rank": 15,
+            "score": -2.5817408561706543,
+            "state": "Colorado"
+        },
+        {
+            "address": "Top Sushi, 8851 Metropark Dr #100, Shenandoah, TX 77385",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864737b8fea0876b:0xe9a3662023764fcf",
+            "iid": 7816,
+            "name": "Top Sushi",
+            "rank": 16,
+            "score": -2.582908868789673,
+            "state": "Texas"
+        },
+        {
+            "address": "2nd South Market, 210 2nd Ave S, Twin Falls, ID 83301",
+            "category": "['Restaurant', 'Barbecue restaurant', 'Beer hall', 'Coffee shop', 'Family restaurant', 'Ice cream shop', 'Live music venue', 'Mexican restaurant', 'Pizza restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54aca32d5bff417b:0xf45d648dc1606903",
+            "iid": 1418,
+            "name": "2nd South Market",
+            "rank": 17,
+            "score": -2.5831410884857178,
+            "state": "Idaho"
+        },
+        {
+            "address": "Blu fin sushi fusion, 2305 Longmire Dr suite 200, College Station, TX 77845",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x864685a76a0d241f:0xafbe524015781efe",
+            "iid": 7767,
+            "name": "Blu fin sushi fusion",
+            "rank": 18,
+            "score": -2.583453893661499,
+            "state": "Texas"
+        },
+        {
+            "address": "Sen Udon, 39-32 Bell Blvd, Queens, NY 11361",
+            "category": "['Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89c28bc095078d8b:0xba8adc6ad9b9b3be",
+            "iid": 19171,
+            "name": "Sen Udon",
+            "rank": 19,
+            "score": -2.583796977996826,
+            "state": "New_York"
+        },
+        {
+            "address": "Nosu Ramen, 700 12th St #150, Golden, CO 80401",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x876b9ba8d9d55251:0xada457d4caa66b84",
+            "iid": 9593,
+            "name": "Nosu Ramen",
+            "rank": 20,
+            "score": -2.583867073059082,
+            "state": "Colorado"
+        }
+    ],
+    "user": {
+        "name": "M W",
+        "uid": 95245,
+        "user_id": 112864356493592002268
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Wolfe's Lunch, 1220 16th St, San Francisco, CA 94107",
+            "category": "['American restaurant', 'Breakfast restaurant', 'Hamburger restaurant', 'Japanese restaurant', 'Korean restaurant', 'Takeout Restaurant', 'Restaurant', 'Sandwich shop']",
+            "date": "2015/06/20",
+            "gmap_id": "0x808f7fcd1dd7befb:0xdf69935d2c20745c",
+            "iid": 9263,
+            "name": "Wolfe's Lunch",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1434834931466
+        },
+        {
+            "address": "Himalayan Hut, 7300 Sunset Blvd, Los Angeles, CA 90046",
+            "category": "['Nepalese restaurant', 'Asian restaurant', 'Indian restaurant']",
+            "date": "2016/04/07",
+            "gmap_id": "0x80c2beded3a24af9:0x9d9041a5e972d05f",
+            "iid": 14535,
+            "name": "Himalayan Hut",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1460007845153
+        },
+        {
+            "address": "India\u2019s Clay Pit Silver Lake, 309 N Virgil Ave, Los Angeles, CA 90004",
+            "category": "['Indian restaurant', 'North Eastern Indian restaurant', 'Pakistani restaurant']",
+            "date": "2016/04/22",
+            "gmap_id": "0x80c2c7680edd3b63:0x9368dbecc5684add",
+            "iid": 15224,
+            "name": "India\u2019s Clay Pit Silver Lake",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1461300885315
+        },
+        {
+            "address": "Bawarchi Indian Cuisine, 3607 E Bell Rd #6, Phoenix, AZ 85032",
+            "category": "['Indian restaurant', 'Halal restaurant', 'Restaurant']",
+            "date": "2016/07/21",
+            "gmap_id": "0x872b719cf310e299:0xbf8493f9dc120bea",
+            "iid": 29489,
+            "name": "Bawarchi Indian Cuisine",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1469073224573
+        },
+        {
+            "address": "Wat Dong Moon Lek Noodle, 4356 Fountain Ave, Los Angeles, CA 90029",
+            "category": "['Thai restaurant']",
+            "date": "2017/07/08",
+            "gmap_id": "0x80c2c74dab5da617:0x6f506ea55065c046",
+            "iid": 15182,
+            "name": "Wat Dong Moon Lek Noodle",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1499475108763
+        },
+        {
+            "address": "Pastries 'N' Chaat, 920 E University Dr UNIT 103, Tempe, AZ 85281",
+            "category": "['Indian restaurant', 'Bakery']",
+            "date": "2017/08/28",
+            "gmap_id": "0x872b08e72147b6a3:0x90b11ecd18dee0cc",
+            "iid": 29026,
+            "name": "Pastries 'N' Chaat",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1503959721745
+        },
+        {
+            "address": "Bangkok Noodles & Thai BBQ, 1958 Shattuck Ave, Berkeley, CA 94704",
+            "category": "['Thai restaurant']",
+            "date": "2019/06/23",
+            "gmap_id": "0x80857e9efbc5a66d:0x75c6c3651c83f1a6",
+            "iid": 7454,
+            "name": "Bangkok Noodles & Thai BBQ",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1561278197281
+        },
+        {
+            "address": "Daawat Indian Grill & Bar, 820 Pike St, Seattle, WA 98101",
+            "category": "['Indian restaurant', 'Bar & grill', 'Restaurant']",
+            "date": "2020/01/23",
+            "gmap_id": "0x54906ab513beaa4d:0xd6f485451bb95b6d",
+            "iid": 2864,
+            "name": "Daawat Indian Grill & Bar",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1579751229568
+        },
+        {
+            "address": "Tandoori Hut, University Avenue, 3890 Fifth Ave, San Diego, CA 92103",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "date": "2020/11/01",
+            "gmap_id": "0x80d954da93b57a7b:0xad4c631143e1bebb",
+            "iid": 17970,
+            "name": "Tandoori Hut",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1604202934648
+        },
+        {
+            "address": "Hollywood Thai Resturant, 5241 Hollywood Blvd, Los Angeles, CA 90027",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2020/11/02",
+            "gmap_id": "0x80c2bf572e8f1bc5:0xdf40ec8f5e9685e3",
+            "iid": 14625,
+            "name": "Hollywood Thai Resturant",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1604346302773
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Marhaba halal restaurant, 1109 Fillmore St, San Francisco, CA 94115",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x808581f568090ac7:0x2bdfc5ca0276142",
+            "iid": 7982,
+            "name": "Marhaba halal restaurant",
+            "rank": 1,
+            "score": -2.533360242843628,
+            "state": "California"
+        },
+        {
+            "address": "Kingdom Of Dumpling \u6c34\u9903\u4e4b\u570b, 1713 Taraval St, San Francisco, CA 94116",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x808f7d3931946b65:0xe1d349bdf3b9869",
+            "iid": 9008,
+            "name": "Kingdom Of Dumpling \u6c34\u9903\u4e4b\u570b",
+            "rank": 2,
+            "score": -2.5811402797698975,
+            "state": "California"
+        },
+        {
+            "address": "Zaika Indian Cuisine, 737 3rd St, San Francisco, CA 94107",
+            "category": "['Indian restaurant', 'Indian Muslim restaurant', 'Indian sizzler restaurant', 'Indian takeaway', 'Modern Indian restaurant']",
+            "gmap_id": "0x808f7f4155829331:0xe9ea06d0b6ba22ce",
+            "iid": 9248,
+            "name": "Zaika Indian Cuisine",
+            "rank": 3,
+            "score": -2.6233277320861816,
+            "state": "California"
+        },
+        {
+            "address": "Essence Thai Spa, 505 Beach St Suite 131, San Francisco, CA 94133",
+            "category": "['Thai massage therapist', 'Massage therapist', 'Spa']",
+            "gmap_id": "0x808580e3ef148cdb:0x25e7151ecb8fc9cb",
+            "iid": 7857,
+            "name": "Essence Thai Spa",
+            "rank": 4,
+            "score": -2.650968313217163,
+            "state": "California"
+        },
+        {
+            "address": "Jay Hind, 4959 W Ray Rd Suite #38, Chandler, AZ 85226",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x872b0795207bb021:0x350991434bf7b62b",
+            "iid": 28945,
+            "name": "Jay Hind",
+            "rank": 5,
+            "score": -2.735812187194824,
+            "state": "Arizona"
+        },
+        {
+            "address": "Hello Vietnam Pho & Roll, 8752 E Shea Blvd, Scottsdale, AZ 85260",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x872b753b2365d01d:0xea994da34e3ecad2",
+            "iid": 29550,
+            "name": "Hello Vietnam Pho & Roll",
+            "rank": 6,
+            "score": -2.746328115463257,
+            "state": "Arizona"
+        },
+        {
+            "address": "Senor Sisig, 1628 Webster St, Oakland, CA 94612",
+            "category": "['Filipino restaurant', 'Fusion restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x808f812aa1455517:0x780f43d1feff7a66",
+            "iid": 9368,
+            "name": "Senor Sisig",
+            "rank": 7,
+            "score": -2.7532949447631836,
+            "state": "California"
+        },
+        {
+            "address": "Razia Indian Restaurant, 28112 Bouquet Canyon Rd, Santa Clarita, CA 91350",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80c287454bd7dab7:0xd5d3dd6fc893da42",
+            "iid": 13030,
+            "name": "Razia Indian Restaurant",
+            "rank": 8,
+            "score": -2.779731273651123,
+            "state": "California"
+        },
+        {
+            "address": "Lazy Susan, 208 Fell St, San Francisco, CA 94102",
+            "category": "['Chinese restaurant', 'Chinese takeaway']",
+            "gmap_id": "0x8085814aaff017e1:0xe798d8f4a0b7fd90",
+            "iid": 7952,
+            "name": "Lazy Susan",
+            "rank": 9,
+            "score": -2.7855918407440186,
+            "state": "California"
+        },
+        {
+            "address": "Panda Express, 17907 Bulverde Rd, San Antonio, TX 78259",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x865c8b60ca5b4255:0x1a07cd631f4727ad",
+            "iid": 27443,
+            "name": "Panda Express",
+            "rank": 10,
+            "score": -2.793494701385498,
+            "state": "Texas"
+        },
+        {
+            "address": "House of Punjab, 3000 32nd Ave S, Grand Forks, ND 58201",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x52c681bf99e04df1:0xcb7fa28dfb3a4306",
+            "iid": 1017,
+            "name": "House of Punjab",
+            "rank": 11,
+            "score": -2.7971675395965576,
+            "state": "North_Dakota"
+        },
+        {
+            "address": "Little Saigon Bistro, 2725 S Beneva Rd, Sarasota, FL 34232",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x88c341644e1c15a7:0x924924462ffa08e5",
+            "iid": 47561,
+            "name": "Little Saigon Bistro",
+            "rank": 12,
+            "score": -2.797731876373291,
+            "state": "Florida"
+        },
+        {
+            "address": "Panda Express, 5811 S Westnedge Ave, Portage, MI 49002",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88179dee9cf012f5:0xe5d34795de64499",
+            "iid": 38576,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": -2.7999398708343506,
+            "state": "Michigan"
+        },
+        {
+            "address": "Bao Bao Cafe, 214 W 39th St, New York, NY 10018",
+            "category": "['Chinese noodle restaurant']",
+            "gmap_id": "0x89c2598529cd6bc3:0x4337804cb04b5d10",
+            "iid": 59615,
+            "name": "Bao Bao Cafe",
+            "rank": 14,
+            "score": -2.8050732612609863,
+            "state": "New_York"
+        },
+        {
+            "address": "Fusia Bento Bar, 405 College Ave, Ithaca, NY 14850",
+            "category": "['Asian restaurant', 'Chinese takeaway', 'Delivery service', 'Delivery Restaurant']",
+            "gmap_id": "0x89d081dda066c2f5:0x457365105618cebc",
+            "iid": 67763,
+            "name": "Fusia Bento Bar",
+            "rank": 15,
+            "score": -2.8066835403442383,
+            "state": "New_York"
+        },
+        {
+            "address": "Thai Nine Restaurant, 9873 N Michigan Rd, Carmel, IN 46032",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8814abd7c63ff377:0xafc4fab408ec49e2",
+            "iid": 38309,
+            "name": "Thai Nine Restaurant",
+            "rank": 16,
+            "score": -2.8093442916870117,
+            "state": "Indiana"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 7479 Tidewater Dr, Norfolk, VA 23505",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x89ba97ebd0f792bd:0x156084d0d8bd74b4",
+            "iid": 57390,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 17,
+            "score": -2.810637950897217,
+            "state": "Virginia"
+        },
+        {
+            "address": "Desi Bites, 16165 SW Regatta Ln # 300, Beaverton, OR 97006",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54950fe83c8441ad:0x6b6a2e36f9b39405",
+            "iid": 4011,
+            "name": "Desi Bites",
+            "rank": 18,
+            "score": -2.811408281326294,
+            "state": "Oregon"
+        },
+        {
+            "address": "Chopstix, 5607 Creedmoor Rd, Raleigh, NC 27612",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89acf7a4181fe277:0x2de0d760abbdd7e5",
+            "iid": 54334,
+            "name": "Chopstix",
+            "rank": 19,
+            "score": -2.8119781017303467,
+            "state": "North_Carolina"
+        },
+        {
+            "address": "The coconut river park, 5489 Carlson Dr, Sacramento, CA 95819",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x809adb0b2c5794b5:0xb3679b00a01f4fea",
+            "iid": 12551,
+            "name": "The coconut river park",
+            "rank": 20,
+            "score": -2.813283920288086,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "W. B. Hagerty",
+        "uid": 97280,
+        "user_id": 103267214977844730708
+    }
+}

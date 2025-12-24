@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Hamilton, 600 14th St NW, Washington, D.C., DC 20005",
+            "category": "['American restaurant', 'Bar', 'Brunch restaurant', 'Catering food and drink supplier', 'Cocktail bar', 'Dessert restaurant', 'Event venue', 'Live music venue', 'Restaurant', 'Sushi restaurant']",
+            "date": "2015/12/20",
+            "gmap_id": "0x89b7b797c7d538d3:0xd7872ecc9a2a243e",
+            "iid": 17190,
+            "name": "The Hamilton",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1450581746344
+        },
+        {
+            "address": "Sushi Jin Next Door, 8555 Fenton St, Silver Spring, MD 20910",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2016/01/17",
+            "gmap_id": "0x89b7c8ba0a933aa7:0x5f8a2a55fe44b127",
+            "iid": 17268,
+            "name": "Sushi Jin Next Door",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1453074024913
+        },
+        {
+            "address": "Ginza Japanese Restaurant, 9616 Reisterstown Rd, Owings Mills, MD 21117",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "date": "2016/08/05",
+            "gmap_id": "0x89c8176b88494b4b:0x9953e4e75977829a",
+            "iid": 20385,
+            "name": "Ginza Japanese Restaurant",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1470427793926
+        },
+        {
+            "address": "Ippudo NY, 65 4th Ave, New York, NY 10003",
+            "category": "['Ramen restaurant']",
+            "date": "2018/12/02",
+            "gmap_id": "0x89c2599be79c4359:0xb9d6395de6e0aff6",
+            "iid": 18409,
+            "name": "Ippudo NY",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543724128893
+        },
+        {
+            "address": "Haikan, 805 V St NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "date": "2019/05/10",
+            "gmap_id": "0x89b7b7e4df0c024f:0x284b6fa985d06644",
+            "iid": 17212,
+            "name": "Haikan",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1557530263701
+        },
+        {
+            "address": "RACKS Fish House & Oyster Bar, 5 SE 2nd Ave, Delray Beach, FL 33444",
+            "category": "['Seafood restaurant', 'American restaurant', 'Bar', 'Cocktail bar', 'Delivery Restaurant', 'Oyster bar restaurant', 'Sushi restaurant', 'Tapas bar', 'Tapas restaurant', 'Wine bar']",
+            "date": "2019/06/21",
+            "gmap_id": "0x88d8dfdcb006b699:0x2c51d97bd16c9501",
+            "iid": 14295,
+            "name": "RACKS Fish House & Oyster Bar",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1561138334340
+        },
+        {
+            "address": "Nama Sushi Bar & Restaurant, 465 K St NW, Washington, DC 20001",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2019/09/30",
+            "gmap_id": "0x89b7b7205a420fe5:0x363259c3e118ffb8",
+            "iid": 17161,
+            "name": "Nama Sushi Bar & Restaurant",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1569807548990
+        },
+        {
+            "address": "IPPUDO SAN FRANCISCO, 18 Yerba Buena Ln, San Francisco, CA 94103",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop']",
+            "date": "2019/11/21",
+            "gmap_id": "0x808580862be0dea3:0x6c80a515c00c6c5c",
+            "iid": 2336,
+            "name": "IPPUDO SAN FRANCISCO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1574297244433
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "valid",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        },
+        {
+            "address": "Umaya Izakaya, 733 10th St NW, Washington, DC 20001",
+            "category": "['Restaurant', 'Beer garden', 'Cocktail bar', 'Ramen restaurant', 'Seafood donburi restaurant', 'Sushi restaurant', 'Tonkatsu restaurant', 'Yakitori restaurant']",
+            "date": "2020/04/18",
+            "gmap_id": "0x89b7b7916cba6095:0xb0ad91a02bd45281",
+            "iid": 17184,
+            "name": "Umaya Izakaya",
+            "split": "test",
+            "state": "District_of_Columbia",
+            "unix_time": 1587241573388
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Gyu Shige (\u725b\u7e41) Japanese BBQ, 2980 District Ave #100, Fairfax, VA 22031",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x89b64bf341d0196f:0x381c64b98f093512",
+            "iid": 16979,
+            "name": "Gyu Shige (\u725b\u7e41) Japanese BBQ",
+            "rank": 1,
+            "score": -2.419343948364258,
+            "state": "Virginia"
+        },
+        {
+            "address": "Kujira Ramen, 2909 E Harmony Rd #200, Fort Collins, CO 80528",
+            "category": "['Restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x876eb35ca4a86287:0xc72e2ad9e767bb88",
+            "iid": 9835,
+            "name": "Kujira Ramen",
+            "rank": 2,
+            "score": -2.4768099784851074,
+            "state": "Colorado"
+        },
+        {
+            "address": "Maruichi Japanese Food and Deli, 1398 Massachusetts Ave, Arlington, MA 02476",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x89e37795cfe6ab6d:0xd824541aa08ca335",
+            "iid": 20979,
+            "name": "Maruichi Japanese Food and Deli",
+            "rank": 3,
+            "score": -2.497009038925171,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Oishii Sushi & Ramen, 138 Chestnut St, Philadelphia, PA 19106",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c6c9c269601915:0x2400a43b22269bca",
+            "iid": 20189,
+            "name": "Oishii Sushi & Ramen",
+            "rank": 4,
+            "score": -2.5175344944000244,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Rakkan Ramen, 600 N Shepherd Dr Suite 515, Houston, TX 77007",
+            "category": "['Ramen restaurant', 'Japanese restaurant', 'Noodle shop', 'Restaurant']",
+            "gmap_id": "0x8640c79a00c02231:0x62c3ac7e16e0945a",
+            "iid": 7467,
+            "name": "Rakkan Ramen",
+            "rank": 5,
+            "score": -2.5919084548950195,
+            "state": "Texas"
+        },
+        {
+            "address": "Captain Hook's | Best Sushi, Best Pho, Best Thai, Sushi/Pho/Thai Cape Coral, 2612 Santa Barbara Blvd Ste. 12-13, Cape Coral, FL 33914",
+            "category": "['Restaurant', 'Pho restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x88db47e53a3a3cdd:0xcb8b1298ce87fa64",
+            "iid": 14956,
+            "name": "Captain Hook's | Best Sushi, Best Pho, Best Thai, Sushi/Pho/Thai Cape Coral",
+            "rank": 6,
+            "score": -2.598883628845215,
+            "state": "Florida"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 13996,
+            "name": "KELP SUSHI JOINT",
+            "rank": 7,
+            "score": -2.6006195545196533,
+            "state": "Florida"
+        },
+        {
+            "address": "Aki Japanese Cuisine, 6125 University Dr NW Suite B18, Huntsville, AL 35806",
+            "category": "['Japanese restaurant', 'Bubble tea store', 'Chinese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886269b1db74773f:0xac6ff40ad91194c1",
+            "iid": 13141,
+            "name": "Aki Japanese Cuisine",
+            "rank": 8,
+            "score": -2.602445125579834,
+            "state": "Alabama"
+        },
+        {
+            "address": "Fuji Hibachi & Sushi, 1559 N Telegraph Rd, Monroe, MI 48162",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x883b6ff41328f653:0x84646b54c1fa4c0b",
+            "iid": 12173,
+            "name": "Fuji Hibachi & Sushi",
+            "rank": 9,
+            "score": -2.6068954467773438,
+            "state": "Michigan"
+        },
+        {
+            "address": "SushiFork, 1008 E Battlefield Rd Suite 100, Springfield, MO 65807",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87cf6501ff4228b3:0x47c493e9c46dbd2f",
+            "iid": 10318,
+            "name": "SushiFork",
+            "rank": 10,
+            "score": -2.6125006675720215,
+            "state": "Missouri"
+        },
+        {
+            "address": "Kumo Sushi, 825 Linden St, Bethlehem, PA 18018",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x89c43f2fd51473af:0x2d5e7f0ca29698dd",
+            "iid": 19897,
+            "name": "Kumo Sushi",
+            "rank": 11,
+            "score": -2.6131997108459473,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Chef Katsu Brooklyn, 143 Greene Ave, Brooklyn, NY 11238",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c25bd4cc9f40b7:0x235c16671831acdc",
+            "iid": 18773,
+            "name": "Chef Katsu Brooklyn",
+            "rank": 12,
+            "score": -2.61386775970459,
+            "state": "New_York"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 5092,
+            "name": "Sushi One Spot",
+            "rank": 13,
+            "score": -2.613931894302368,
+            "state": "California"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 266 116th Ave NE, Bellevue, WA 98004",
+            "category": "['Conveyor belt sushi restaurant']",
+            "gmap_id": "0x54906d39c40ee96b:0x9c33d9929c39b083",
+            "iid": 832,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 14,
+            "score": -2.6147501468658447,
+            "state": "Washington"
+        },
+        {
+            "address": "Yakuza House, 1325 Veterans Memorial Blvd STE A, Metairie, LA 70005",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8620af787063e9dd:0xf184b6b82a89db6f",
+            "iid": 7013,
+            "name": "Yakuza House",
+            "rank": 15,
+            "score": -2.6157007217407227,
+            "state": "Louisiana"
+        },
+        {
+            "address": "Sushi Miguels Style Highland, 7199 Boulder Ave UNIT 2, Highland, CA 92346",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c355a93311849b:0x50db28e0103c93fc",
+            "iid": 5165,
+            "name": "Sushi Miguels Style Highland",
+            "rank": 16,
+            "score": -2.6158032417297363,
+            "state": "California"
+        },
+        {
+            "address": "Musashi's, 7405 168th Ave NE #150, Redmond, WA 98052",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x549073864d1822db:0x537b91aa426470a",
+            "iid": 874,
+            "name": "Musashi's",
+            "rank": 17,
+            "score": -2.616652727127075,
+            "state": "Washington"
+        },
+        {
+            "address": "Kansai Hayward, 954 B St, Hayward, CA 94541",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x808f935a8ba23085:0x6f38e570c881fca5",
+            "iid": 2950,
+            "name": "Kansai Hayward",
+            "rank": 18,
+            "score": -2.6172122955322266,
+            "state": "California"
+        },
+        {
+            "address": "Ten Ichi Mart & Deli, 188 Berry St, Brooklyn, NY 11249",
+            "category": "['Japanese grocery store', 'Sushi takeaway']",
+            "gmap_id": "0x89c2590e6a2dd07d:0x81e0c88307e1fd6",
+            "iid": 18174,
+            "name": "Ten Ichi Mart & Deli",
+            "rank": 19,
+            "score": -2.6247477531433105,
+            "state": "New_York"
+        },
+        {
+            "address": "California, San Francisco, 20th St, Yoji House\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x808f7fd5297e6c73:0xc12d39e4d3397baf",
+            "iid": 2866,
+            "name": "Yoji House",
+            "rank": 20,
+            "score": -2.6273255348205566,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Tanveer Huq",
+        "uid": 92368,
+        "user_id": 112473692825486621977
+    }
+}

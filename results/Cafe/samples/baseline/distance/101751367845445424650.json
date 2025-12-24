@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Milano Coffee CO, 8685 Rio San Diego Dr Ste A, San Diego, CA 92108",
+            "category": "['Restaurant', 'Cafe', 'Coffee shop', 'Sandwich shop']",
+            "date": "2011/05/29",
+            "gmap_id": "0x80d955113d738cd9:0xc07ff4dd94141078",
+            "iid": 9574,
+            "name": "Milano Coffee CO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1306679735548
+        },
+        {
+            "address": "Bar Nine, 3515 Helms Ave, Culver City, CA 90232",
+            "category": "['Coffee shop', 'Coffee roasters', 'Coffee store']",
+            "date": "2015/11/16",
+            "gmap_id": "0x80c2b9848d8bacdf:0x42464bf9fe36b27",
+            "iid": 6933,
+            "name": "Bar Nine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1447697367680
+        },
+        {
+            "address": "The Conservatory for Coffee, Tea & Cocoa, 10117 Washington Blvd, Culver City, CA 90232",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2015/11/16",
+            "gmap_id": "0x80c2ba2f308a3f21:0xe6bc11b42dcb0e88",
+            "iid": 6981,
+            "name": "The Conservatory for Coffee, Tea & Cocoa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1447698773259
+        },
+        {
+            "address": "Coffee Commissary, 3417 Motor Ave, Los Angeles, CA 90034",
+            "category": "['Cafe']",
+            "date": "2015/12/01",
+            "gmap_id": "0x80c2bbccbae54bab:0x3cd7eb3e4f6faffa",
+            "iid": 7201,
+            "name": "Coffee Commissary",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448934307057
+        },
+        {
+            "address": "Lodge Bread Company, 11918 Washington Blvd, Los Angeles, CA 90066",
+            "category": "['Cafe', 'Bakery', 'Pizza restaurant', 'Restaurant']",
+            "date": "2015/12/06",
+            "gmap_id": "0x80c2ba6c715b1311:0x5309098589dc3c7c",
+            "iid": 7004,
+            "name": "Lodge Bread Company",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1449430375778
+        },
+        {
+            "address": "Champs Elysees cafe, 275 S Robertson Blvd, Beverly Hills, CA 90211",
+            "category": "['French restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Lunch restaurant']",
+            "date": "2015/12/23",
+            "gmap_id": "0x80c2b95a8e9ab155:0x9b31cb1c2bd5230d",
+            "iid": 6916,
+            "name": "Champs Elysees cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1450891450297
+        },
+        {
+            "address": "Coffee Code 7855 La Palma Ave Ste 6, Buena Park, CA 90620",
+            "category": "['Coffee shop']",
+            "date": "2016/01/03",
+            "gmap_id": "0x80dd2be0b35e1a8d:0xf8359461a6cab21",
+            "iid": 12117,
+            "name": "Coffee Code",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1451860056145
+        },
+        {
+            "address": "Le Pain Quotidien, 9901 Washington Blvd Ste 102, Culver City, CA 90232",
+            "category": "['Restaurant', 'Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop']",
+            "date": "2016/07/02",
+            "gmap_id": "0x80c2ba2927fa3101:0x8004bffd6a07373d",
+            "iid": 6973,
+            "name": "Le Pain Quotidien",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1467491189818
+        },
+        {
+            "address": "American Tea Room, 909 S Santa Fe Ave, Los Angeles, CA 90021",
+            "category": "['Tea house', 'Cafe', 'Cocktail bar', 'Restaurant', 'Tea store']",
+            "date": "2017/07/03",
+            "gmap_id": "0x80c2c620374aec0d:0x1bff165cc1a5a57a",
+            "iid": 7819,
+            "name": "American Tea Room",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1499115390249
+        },
+        {
+            "address": "TOMS Flagship, 1344 Abbot Kinney Blvd, Venice, CA 90291",
+            "category": "['Shoe store', 'Coffee shop', 'Sunglasses store']",
+            "date": "2018/12/24",
+            "gmap_id": "0x80c2babf72005db3:0x17110948ce87a1f2",
+            "iid": 7037,
+            "name": "TOMS Flagship",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1545664953535
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Philz Coffee, 6000 Bollinger Canyon Rd Suite 1609, San Ramon, CA 94583",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808ff3821d846019:0xe5a282584d689b01",
+            "iid": 4114,
+            "name": "Philz Coffee",
+            "rank": 1,
+            "score": -2.3789427280426025,
+            "state": "California"
+        },
+        {
+            "address": "Stoble Coffee, 418 Broadway St, Chico, CA 95928",
+            "category": "['Coffee shop', 'Cafe']",
+            "gmap_id": "0x8083276f3be27437:0xdb025d436f754f4e",
+            "iid": 282,
+            "name": "Stoble Coffee",
+            "rank": 2,
+            "score": -2.3791213035583496,
+            "state": "California"
+        },
+        {
+            "address": "Abanico Coffee Roasters, 2121 Mission St, San Francisco, CA 94110",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x808f7f93c972d729:0x648cd4920dfaa61e",
+            "iid": 2898,
+            "name": "Abanico Coffee Roasters",
+            "rank": 3,
+            "score": -2.3931987285614014,
+            "state": "California"
+        },
+        {
+            "address": "Komi Coffee, Tea, & Snacks, 25401 Alicia Pkwy Suite I, Laguna Hills, CA 92653",
+            "category": "['Cafe']",
+            "gmap_id": "0x80dce98845196097:0x3143deabcfcc5b82",
+            "iid": 11671,
+            "name": "Komi Coffee, Tea, & Snacks",
+            "rank": 4,
+            "score": -2.4053258895874023,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 470 Lake Park Ave, Oakland, CA 94610",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x808f87118ebdb817:0x94ad97c3591e4a72",
+            "iid": 3085,
+            "name": "Starbucks",
+            "rank": 5,
+            "score": -2.407527446746826,
+            "state": "California"
+        },
+        {
+            "address": "Mast Coffee, 2421 17th St, Sacramento, CA 95818",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x809ad1f5ae775ef3:0x1e2305357af1ecda",
+            "iid": 5229,
+            "name": "Mast Coffee",
+            "rank": 6,
+            "score": -2.4089198112487793,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 7040 Sepulveda Blvd, Van Nuys, CA 91405",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c297ba9769c4ff:0x33775ad178835a1a",
+            "iid": 6178,
+            "name": "Starbucks",
+            "rank": 7,
+            "score": -2.4129388332366943,
+            "state": "California"
+        },
+        {
+            "address": "Pink Rose Cafe, 8209 La Mesa Blvd, La Mesa, CA 91942",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d957a709f303e9:0xe8ae4abe76947444",
+            "iid": 9705,
+            "name": "Pink Rose Cafe",
+            "rank": 8,
+            "score": -2.4142048358917236,
+            "state": "California"
+        },
+        {
+            "address": "Dutch Bros Coffee, 575 W Olive Ave, Merced, CA 95348",
+            "category": "['Coffee shop', 'Cafe', 'Juice shop', 'Tea house']",
+            "gmap_id": "0x809143cbb6c58c0f:0x108603f1b6b3174f",
+            "iid": 4462,
+            "name": "Dutch Bros Coffee",
+            "rank": 9,
+            "score": -2.4146454334259033,
+            "state": "California"
+        },
+        {
+            "address": "Dunkin', 2739 Santa Rosa Ave, Santa Rosa, CA 95407",
+            "category": "['Coffee shop', 'Bagel shop', 'Bakery', 'Breakfast restaurant', 'Donut shop', 'Fast food restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x808449558b8a1231:0x9880135b7b2409e",
+            "iid": 488,
+            "name": "Dunkin'",
+            "rank": 10,
+            "score": -2.41465425491333,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Mei \u7f8e\u800c\u7f8e, 43761 Boscell Rd #5125, Fremont, CA 94538",
+            "category": "['Breakfast restaurant', 'Cafe', 'Lunch restaurant', 'Taiwanese restaurant']",
+            "gmap_id": "0x808fc71d61bcb7d7:0x6cd30ddf8f1b4c8",
+            "iid": 3735,
+            "name": "Cafe Mei \u7f8e\u800c\u7f8e",
+            "rank": 11,
+            "score": -2.416766405105591,
+            "state": "California"
+        },
+        {
+            "address": "Artisan by 7 Leaves and Crema Bakery, 10065 Garfield Ave, Fountain Valley, CA 92708",
+            "category": "['Cafe', 'Bakery', 'Brunch restaurant', 'Coffee shop', 'Tea house']",
+            "gmap_id": "0x80dd2118da7b2aad:0x55217a49ca946a4f",
+            "iid": 11841,
+            "name": "Artisan by 7 Leaves and Crema Bakery",
+            "rank": 12,
+            "score": -2.417588710784912,
+            "state": "California"
+        },
+        {
+            "address": "Skippers Brew Coffee House - SLO, 1242 Monterey St Suite 110, San Luis Obispo, CA 93401",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80ecf14f835fb435:0xcb97e2a3ba65ee48",
+            "iid": 13438,
+            "name": "Skippers Brew Coffee House - SLO",
+            "rank": 13,
+            "score": -2.4211535453796387,
+            "state": "California"
+        },
+        {
+            "address": "Stirred Roasters Coffee House, 13295 South St, Cerritos, CA 90703",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dd2d31491d6d29:0x5c462ae7b1afc36e",
+            "iid": 12165,
+            "name": "Stirred Roasters Coffee House",
+            "rank": 14,
+            "score": -2.4238698482513428,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 760 W Charter Way, Stockton, CA 95206",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80901345ceb8653f:0x4c8ff7e44874ff75",
+            "iid": 4213,
+            "name": "Starbucks",
+            "rank": 15,
+            "score": -2.4241855144500732,
+            "state": "California"
+        },
+        {
+            "address": "Spot Brazil, 1344 Garnet Ave, San Diego, CA 92109",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80dc010a69c5d08d:0x72739f93a73df55b",
+            "iid": 10281,
+            "name": "Spot Brazil",
+            "rank": 16,
+            "score": -2.426032781600952,
+            "state": "California"
+        },
+        {
+            "address": "Lo/Cal Coffee & Market - Fairfax, 487 S Fairfax Ave, Los Angeles, CA 90036",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Coffee stand', 'Coffee store', 'Dessert shop', 'Espresso bar', 'Gift shop', 'Lunch restaurant', 'Tea house']",
+            "gmap_id": "0x80c2b9e38849afb9:0xc729206176ba5f6c",
+            "iid": 6957,
+            "name": "Lo/Cal Coffee & Market - Fairfax",
+            "rank": 17,
+            "score": -2.42641282081604,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 13616 Camino Canada, El Cajon, CA 92021",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80d959e29714e315:0x976b2d9e7f240e45",
+            "iid": 9746,
+            "name": "Starbucks",
+            "rank": 18,
+            "score": -2.426647663116455,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 3194 Kendall Dr, San Bernardino, CA 92407",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c351a61c05fba1:0x6e8cd189b981ef62",
+            "iid": 9075,
+            "name": "Starbucks",
+            "rank": 19,
+            "score": -2.4278500080108643,
+            "state": "California"
+        },
+        {
+            "address": "Coffee Club, 1264 E Gibson Rd c309, Woodland, CA 95776",
+            "category": "['Cafe']",
+            "gmap_id": "0x8084d117b6f3d665:0x2a15c5ee67458dd9",
+            "iid": 557,
+            "name": "Coffee Club",
+            "rank": 20,
+            "score": -2.428656578063965,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jeff Willson",
+        "uid": 13343,
+        "user_id": 101751367845445424650
+    }
+}

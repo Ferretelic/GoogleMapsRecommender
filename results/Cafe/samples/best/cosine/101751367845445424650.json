@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Milano Coffee CO, 8685 Rio San Diego Dr Ste A, San Diego, CA 92108",
+            "category": "['Restaurant', 'Cafe', 'Coffee shop', 'Sandwich shop']",
+            "date": "2011/05/29",
+            "gmap_id": "0x80d955113d738cd9:0xc07ff4dd94141078",
+            "iid": 9574,
+            "name": "Milano Coffee CO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1306679735548
+        },
+        {
+            "address": "Bar Nine, 3515 Helms Ave, Culver City, CA 90232",
+            "category": "['Coffee shop', 'Coffee roasters', 'Coffee store']",
+            "date": "2015/11/16",
+            "gmap_id": "0x80c2b9848d8bacdf:0x42464bf9fe36b27",
+            "iid": 6933,
+            "name": "Bar Nine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1447697367680
+        },
+        {
+            "address": "The Conservatory for Coffee, Tea & Cocoa, 10117 Washington Blvd, Culver City, CA 90232",
+            "category": "['Cafe', 'Restaurant']",
+            "date": "2015/11/16",
+            "gmap_id": "0x80c2ba2f308a3f21:0xe6bc11b42dcb0e88",
+            "iid": 6981,
+            "name": "The Conservatory for Coffee, Tea & Cocoa",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1447698773259
+        },
+        {
+            "address": "Coffee Commissary, 3417 Motor Ave, Los Angeles, CA 90034",
+            "category": "['Cafe']",
+            "date": "2015/12/01",
+            "gmap_id": "0x80c2bbccbae54bab:0x3cd7eb3e4f6faffa",
+            "iid": 7201,
+            "name": "Coffee Commissary",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1448934307057
+        },
+        {
+            "address": "Lodge Bread Company, 11918 Washington Blvd, Los Angeles, CA 90066",
+            "category": "['Cafe', 'Bakery', 'Pizza restaurant', 'Restaurant']",
+            "date": "2015/12/06",
+            "gmap_id": "0x80c2ba6c715b1311:0x5309098589dc3c7c",
+            "iid": 7004,
+            "name": "Lodge Bread Company",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1449430375778
+        },
+        {
+            "address": "Champs Elysees cafe, 275 S Robertson Blvd, Beverly Hills, CA 90211",
+            "category": "['French restaurant', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop', 'Dessert restaurant', 'Lunch restaurant']",
+            "date": "2015/12/23",
+            "gmap_id": "0x80c2b95a8e9ab155:0x9b31cb1c2bd5230d",
+            "iid": 6916,
+            "name": "Champs Elysees cafe",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1450891450297
+        },
+        {
+            "address": "Coffee Code 7855 La Palma Ave Ste 6, Buena Park, CA 90620",
+            "category": "['Coffee shop']",
+            "date": "2016/01/03",
+            "gmap_id": "0x80dd2be0b35e1a8d:0xf8359461a6cab21",
+            "iid": 12117,
+            "name": "Coffee Code",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1451860056145
+        },
+        {
+            "address": "Le Pain Quotidien, 9901 Washington Blvd Ste 102, Culver City, CA 90232",
+            "category": "['Restaurant', 'Bakery', 'Breakfast restaurant', 'Brunch restaurant', 'Coffee shop']",
+            "date": "2016/07/02",
+            "gmap_id": "0x80c2ba2927fa3101:0x8004bffd6a07373d",
+            "iid": 6973,
+            "name": "Le Pain Quotidien",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1467491189818
+        },
+        {
+            "address": "American Tea Room, 909 S Santa Fe Ave, Los Angeles, CA 90021",
+            "category": "['Tea house', 'Cafe', 'Cocktail bar', 'Restaurant', 'Tea store']",
+            "date": "2017/07/03",
+            "gmap_id": "0x80c2c620374aec0d:0x1bff165cc1a5a57a",
+            "iid": 7819,
+            "name": "American Tea Room",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1499115390249
+        },
+        {
+            "address": "TOMS Flagship, 1344 Abbot Kinney Blvd, Venice, CA 90291",
+            "category": "['Shoe store', 'Coffee shop', 'Sunglasses store']",
+            "date": "2018/12/24",
+            "gmap_id": "0x80c2babf72005db3:0x17110948ce87a1f2",
+            "iid": 7037,
+            "name": "TOMS Flagship",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1545664953535
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Super Domestic Coffee, 10054 Culver Blvd, Culver City, CA 90232",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2bbab401d9f5f:0x9308a860d55de93b",
+            "iid": 7183,
+            "name": "Super Domestic Coffee",
+            "rank": 1,
+            "score": 0.5920150279998779,
+            "state": "California"
+        },
+        {
+            "address": "Cognoscenti Coffee, 6114 Washington Blvd, Culver City, CA 90232",
+            "category": "['Coffee shop', 'Espresso bar']",
+            "gmap_id": "0x80c2b99c5a251287:0xbb3256bf2035ac7b",
+            "iid": 6944,
+            "name": "Cognoscenti Coffee",
+            "rank": 2,
+            "score": 0.5783448815345764,
+            "state": "California"
+        },
+        {
+            "address": "C&M Cafe, 10640 Woodbine St Suite 104, Los Angeles, CA 90034",
+            "category": "['Cafe', 'Breakfast restaurant', 'Brunch restaurant', 'Caterer', 'Coffee shop', 'Restaurant', 'Sandwich shop']",
+            "gmap_id": "0x80c2bbcb36deb5dd:0xbf6f7ac583eeda6b",
+            "iid": 7198,
+            "name": "C&M Cafe",
+            "rank": 3,
+            "score": 0.5755863785743713,
+            "state": "California"
+        },
+        {
+            "address": "Blue Bottle Coffee, 8830 Washington Blvd Suite #103, Culver City, CA 90232",
+            "category": "['Cafe', 'Coffee shop']",
+            "gmap_id": "0x80c2b98159991c61:0x4d5895404da30f01",
+            "iid": 6932,
+            "name": "Blue Bottle Coffee",
+            "rank": 4,
+            "score": 0.5318877100944519,
+            "state": "California"
+        },
+        {
+            "address": "Make Out, 9426 Washington Blvd, Culver City, CA 90232",
+            "category": "['Cafe', 'Juice shop', 'Vegan restaurant']",
+            "gmap_id": "0x80c2ba29c4c999e7:0x35416af11ced4d1",
+            "iid": 6976,
+            "name": "Make Out",
+            "rank": 5,
+            "score": 0.48532724380493164,
+            "state": "California"
+        },
+        {
+            "address": "Starbucks, 9718 Washington Blvd, Culver City, CA 90232",
+            "category": "['Coffee shop', 'Breakfast restaurant', 'Cafe', 'Coffee store', 'Espresso bar', 'Internet cafe']",
+            "gmap_id": "0x80c2ba29021e06e5:0xbf571cbbec326313",
+            "iid": 6972,
+            "name": "Starbucks",
+            "rank": 6,
+            "score": 0.44380754232406616,
+            "state": "California"
+        },
+        {
+            "address": "C&M Cafe, 12924 Riverside Dr, Sherman Oaks, CA 91423",
+            "category": "['Cafe', 'Coffee shop', 'Frozen yogurt shop']",
+            "gmap_id": "0x80c2bbcb8a041647:0xdac1d3f2683aed3b",
+            "iid": 7199,
+            "name": "C&M Cafe",
+            "rank": 7,
+            "score": 0.422669380903244,
+            "state": "California"
+        },
+        {
+            "address": "Destroyer, 3578 Hayden Ave, Culver City, CA 90232",
+            "category": "['New American restaurant', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80c2b99ab5148abf:0xe63ca4fce42691c7",
+            "iid": 6943,
+            "name": "Destroyer",
+            "rank": 8,
+            "score": 0.41932567954063416,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 10202 Washington Blvd, Culver City, CA 90232",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2ba2f325c187b:0xa16d6da5c721865b",
+            "iid": 6982,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 9,
+            "score": 0.41922619938850403,
+            "state": "California"
+        },
+        {
+            "address": "Alana's Coffee Roasters, 12511 Venice Blvd, Los Angeles, CA 90066",
+            "category": "['Coffee shop']",
+            "gmap_id": "0x80c2ba5e95d221a1:0x6a4a8860480dcac0",
+            "iid": 6997,
+            "name": "Alana's Coffee Roasters",
+            "rank": 10,
+            "score": 0.41635873913764954,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Vida, 9755 Culver Blvd, Culver City, CA 90232",
+            "category": "['Cafe', 'Coffee shop', 'Salad shop', 'Sandwich shop']",
+            "gmap_id": "0x80c2ba28fa5659c9:0xd343a297423e0da9",
+            "iid": 6971,
+            "name": "Cafe Vida",
+            "rank": 11,
+            "score": 0.403815895318985,
+            "state": "California"
+        },
+        {
+            "address": "Bianca, 8850 Washington Blvd, Culver City, CA 90232",
+            "category": "['Restaurant', 'Bakery', 'Cafe', 'Patisserie']",
+            "gmap_id": "0x80c2b9223cab8b6b:0x35b8c154957a3bbf",
+            "iid": 6859,
+            "name": "Bianca",
+            "rank": 12,
+            "score": 0.3980177342891693,
+            "state": "California"
+        },
+        {
+            "address": "Grand Casino Bakery & Cafe, 3826 Main St, Culver City, CA 90232",
+            "category": "['Argentinian restaurant', 'Bakery', 'Cafe', 'Cake shop', 'Coffee shop', 'Latin American restaurant', 'Wedding bakery']",
+            "gmap_id": "0x80c2ba29f54a807f:0x944152ae03467281",
+            "iid": 6978,
+            "name": "Grand Casino Bakery & Cafe",
+            "rank": 13,
+            "score": 0.3887968361377716,
+            "state": "California"
+        },
+        {
+            "address": "Undergrind Caf\u00e9, 2713 S Robertson Blvd, Los Angeles, CA 90034",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2b97c235868f7:0x22977ab79fce82b7",
+            "iid": 6929,
+            "name": "Undergrind Caf\u00e9",
+            "rank": 14,
+            "score": 0.37515610456466675,
+            "state": "California"
+        },
+        {
+            "address": "Cafe Laurent, 4243 Overland Ave, Culver City, CA 90230",
+            "category": "['French restaurant', 'Bistro', 'Breakfast restaurant', 'Brunch restaurant', 'Cafe', 'Live music venue', 'Restaurant']",
+            "gmap_id": "0x80c2ba23bcbf4663:0x8e4e1c6f457ba822",
+            "iid": 6970,
+            "name": "Cafe Laurent",
+            "rank": 15,
+            "score": 0.3714102506637573,
+            "state": "California"
+        },
+        {
+            "address": "Simpang Asia, 10433 National Blvd #2, Los Angeles, CA 90034",
+            "category": "['Indonesian restaurant', 'Cafe', 'Halal restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2bbcb99c2200f:0xc6b3dfc7ed3fbab2",
+            "iid": 7200,
+            "name": "Simpang Asia",
+            "rank": 16,
+            "score": 0.3666961193084717,
+            "state": "California"
+        },
+        {
+            "address": "The Coffee Bean & Tea Leaf, 10612 National Blvd, Los Angeles, CA 90034",
+            "category": "['Coffee shop', 'Tea house']",
+            "gmap_id": "0x80c2bbc9fafce81f:0x3b0674dcbe44939",
+            "iid": 7197,
+            "name": "The Coffee Bean & Tea Leaf",
+            "rank": 17,
+            "score": 0.355156272649765,
+            "state": "California"
+        },
+        {
+            "address": "Cafe 70 Degrees, 3863 Culver Center, Culver City, CA 90232",
+            "category": "['Cafe']",
+            "gmap_id": "0x80c2ba300cb62561:0x35cfdc6ba4bcb211",
+            "iid": 6985,
+            "name": "Cafe 70 Degrees",
+            "rank": 18,
+            "score": 0.3489474952220917,
+            "state": "California"
+        },
+        {
+            "address": "Spot Cafe & Lounge, 4455 Overland Ave, Culver City, CA 90230",
+            "category": "['Lounge', 'Cafe', 'Restaurant']",
+            "gmap_id": "0x80c2ba21fa001a0d:0x69a6ec01a00fffb3",
+            "iid": 6969,
+            "name": "Spot Cafe & Lounge",
+            "rank": 19,
+            "score": 0.347659707069397,
+            "state": "California"
+        },
+        {
+            "address": "Supa Coffee, 1173 S Robertson Blvd, Los Angeles, CA 90035",
+            "category": "['Coffee shop', 'Espresso bar', 'Delivery Restaurant', 'Tea house']",
+            "gmap_id": "0x80c2b95d08e4e371:0x51835d1a591bb211",
+            "iid": 6917,
+            "name": "Supa Coffee",
+            "rank": 20,
+            "score": 0.3378322124481201,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Jeff Willson",
+        "uid": 13343,
+        "user_id": 101751367845445424650
+    }
+}

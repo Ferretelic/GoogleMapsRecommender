@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi Bon, 5812 Twelve Mile Rd, Warren, MI 48092",
+            "category": "['Sushi restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x8824da9aa2b690f1:0x2ea45d12ddf05ec4",
+            "iid": 11757,
+            "name": "Sushi Bon",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1564759873642
+        },
+        {
+            "address": "Sagano of Warren, 28202 Dequindre Rd, Warren, MI 48092",
+            "category": "['Japanese restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x8824c555fc89f063:0x6d64a450afe2716a",
+            "iid": 11725,
+            "name": "Sagano of Warren",
+            "split": "train",
+            "state": "Michigan",
+            "unix_time": 1564759880176
+        },
+        {
+            "address": "Sarku Japan Sushi Bar, 6000 Sepulveda Blvd Suite 3224, Culver City, CA 90230",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/01/28",
+            "gmap_id": "0x80c2b1cf5d8512d5:0x9a18c6abb65bcbb9",
+            "iid": 4107,
+            "name": "Sarku Japan Sushi Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1580243768872
+        },
+        {
+            "address": "Empire Szechuan, 89 Stony Hill Rd, Bethel, CT 06801",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Cocktail bar', 'Fusion restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2020/03/02",
+            "gmap_id": "0x89e7f953269dca3b:0x4b116e76bd4af0c4",
+            "iid": 21527,
+            "name": "Empire Szechuan",
+            "split": "train",
+            "state": "Connecticut",
+            "unix_time": 1583168205601
+        },
+        {
+            "address": "Tsuruhashi, 18798 Brookhurst St, Fountain Valley, CA 92708",
+            "category": "['Japanese steakhouse', 'Barbecue restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x80dd2734819dec95:0x5a488b3bd3c2f035",
+            "iid": 6458,
+            "name": "Tsuruhashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593450239488
+        },
+        {
+            "address": "Maki Plus, 2071 Statham Blvd, Oxnard, CA 93033",
+            "category": "['Japanese restaurant']",
+            "date": "2020/06/29",
+            "gmap_id": "0x80e84eeb217a823f:0x1607c14bdbcc9d83",
+            "iid": 6837,
+            "name": "Maki Plus",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1593450307609
+        },
+        {
+            "address": "Ramen & More, 807 Howe Ave, Sacramento, CA 95825",
+            "category": "['Ramen restaurant']",
+            "date": "2020/12/17",
+            "gmap_id": "0x809ada5b4bc181cb:0x6c1c0a8dfefa39e6",
+            "iid": 3694,
+            "name": "Ramen & More",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1608239733096
+        },
+        {
+            "address": "Mamasushi Restaurant, 3478 E Tremont Ave, The Bronx, NY 10465",
+            "category": "['Sushi restaurant']",
+            "date": "2021/01/21",
+            "gmap_id": "0x89c28b505f01be69:0x3ac67ad92a4e5e88",
+            "iid": 19167,
+            "name": "Mamasushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1611252469261
+        },
+        {
+            "address": "Tokyo Steak, 14317 Bear Valley Rd #1, Victorville, CA 92392",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Teppanyaki restaurant']",
+            "date": "2021/03/06",
+            "gmap_id": "0x80c366228c7de7b3:0xaf565e9b78b9a6ac",
+            "iid": 5177,
+            "name": "Tokyo Steak",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1615059086701
+        },
+        {
+            "address": "Kabuki, 7801 Edinger Ave Suite 114, Huntington Beach, CA 92647",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2021/03/18",
+            "gmap_id": "0x80dd264249a69587:0xefc162ee17c417b9",
+            "iid": 6439,
+            "name": "Kabuki",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1616081371508
+        },
+        {
+            "address": "Urban Thai & Sushi, 660 W Hallandale Beach Blvd, Hallandale Beach, FL 33009",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2021/04/06",
+            "gmap_id": "0x88d9ac779949da1f:0x303b7e81e6c449f6",
+            "iid": 14581,
+            "name": "Urban Thai & Sushi",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1617722128444
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Chungs of Waterford, 4187 Highland Rd, Waterford Twp, MI 48328",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8824bda2c8858103:0x49786ebfe95a8eea",
+            "iid": 11704,
+            "name": "Chungs of Waterford",
+            "rank": 1,
+            "score": -2.9857046604156494,
+            "state": "Michigan"
+        },
+        {
+            "address": "Bahdah Sushi, 32832 Woodward Ave, Royal Oak, MI 48073",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x8824c77f8a0c1509:0xfbab3e266ca2e0a4",
+            "iid": 11737,
+            "name": "Bahdah Sushi",
+            "rank": 2,
+            "score": -3.124392032623291,
+            "state": "Michigan"
+        },
+        {
+            "address": "Sushi Lover, 5903 Dixie Hwy, Village of Clarkston, MI 48346",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88249779d7f49a0f:0x9d079c207caf6634",
+            "iid": 11654,
+            "name": "Sushi Lover",
+            "rank": 3,
+            "score": -3.1951262950897217,
+            "state": "Michigan"
+        },
+        {
+            "address": "Zao Jun New Asian & Sushi, 6608 Telegraph Rd, Bloomfield Hills, MI 48301",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x8824b917333abddd:0xba6ccc9d21f1f70f",
+            "iid": 11697,
+            "name": "Zao Jun New Asian & Sushi",
+            "rank": 4,
+            "score": -3.2284929752349854,
+            "state": "Michigan"
+        },
+        {
+            "address": "War Water Brewery, 201 N Riverside Ave Suite C1, St Clair, MI 48079",
+            "category": "['Restaurant', 'Bar', 'Brewery', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x882573db4fc2f131:0xde971aa015c379e5",
+            "iid": 11788,
+            "name": "War Water Brewery",
+            "rank": 5,
+            "score": -3.2330822944641113,
+            "state": "Michigan"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 736 W Big Beaver Rd, Troy, MI 48084",
+            "category": "['Conveyor belt sushi restaurant']",
+            "gmap_id": "0x8824c54d7e937da7:0x17c5ed60ae936140",
+            "iid": 11723,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 6,
+            "score": -3.254972219467163,
+            "state": "Michigan"
+        },
+        {
+            "address": "Poke Poke - Sushi Unrolled, 21931 Michigan Ave #150, Dearborn, MI 48124",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x883b35d12889e69d:0xb9a6df53fa0c83af",
+            "iid": 12150,
+            "name": "Poke Poke - Sushi Unrolled",
+            "rank": 7,
+            "score": -3.2842893600463867,
+            "state": "Michigan"
+        },
+        {
+            "address": "Norikoh Chelsea, 43 W 24th St, New York, NY 10010",
+            "category": "['Japanese restaurant', 'Authentic Japanese restaurant', 'Izakaya restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89c259f4193f287b:0x153495c94f6e6822",
+            "iid": 18609,
+            "name": "Norikoh Chelsea",
+            "rank": 8,
+            "score": -3.3107240200042725,
+            "state": "New_York"
+        },
+        {
+            "address": "J Sushi, 32800 Ryan Rd, Warren, MI 48092",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8824dbf676401ba7:0x51606d8759d2732f",
+            "iid": 11762,
+            "name": "J Sushi",
+            "rank": 9,
+            "score": -3.321640729904175,
+            "state": "Michigan"
+        },
+        {
+            "address": "Bash Original Izakaya, 5069 Trumbull, Detroit, MI 48208",
+            "category": "['Authentic Japanese restaurant', 'Asian restaurant', 'Bar', 'Seafood restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x8824cdcb546fe701:0x3462859c785c7d0b",
+            "iid": 11741,
+            "name": "Bash Original Izakaya",
+            "rank": 10,
+            "score": -3.3466780185699463,
+            "state": "Michigan"
+        },
+        {
+            "address": "KCM, 209 Diamond Ave SE, Grand Rapids, MI 49506",
+            "category": "['Japanese restaurant', 'Japanese curry restaurant', 'Korean restaurant', 'Rice restaurant', 'Tonkatsu restaurant']",
+            "gmap_id": "0x8819ad7871b89a85:0x4a8ddd3b4c676bb8",
+            "iid": 11572,
+            "name": "KCM",
+            "rank": 11,
+            "score": -3.3603079319000244,
+            "state": "Michigan"
+        },
+        {
+            "address": "Sister Sushi & Grilled, 476 Los Angeles Ave, Moorpark, CA 93021",
+            "category": "['Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x80e83223d99327f9:0x593426a970c2c510",
+            "iid": 6802,
+            "name": "Sister Sushi & Grilled",
+            "rank": 12,
+            "score": -3.3644237518310547,
+            "state": "California"
+        },
+        {
+            "address": "Sachi Sushi, 8730 Santa Monica Blvd #3/F, West Hollywood, CA 90069",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2bf13b9de7aaf:0x476aeb3f9c263db",
+            "iid": 4507,
+            "name": "Sachi Sushi",
+            "rank": 13,
+            "score": -3.3647685050964355,
+            "state": "California"
+        },
+        {
+            "address": "Jasmine Home Cooking, At Northside Marketplace, 21 Furnace St, Akron, OH 44308",
+            "category": "['Authentic Japanese restaurant', 'Bubble tea store', 'Japanese curry restaurant', 'Rice restaurant', 'Udon noodle restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8831291458749ac5:0x49527981c45315e",
+            "iid": 11881,
+            "name": "Jasmine Home Cooking",
+            "rank": 14,
+            "score": -3.4047489166259766,
+            "state": "Ohio"
+        },
+        {
+            "address": "Ninja hibachi sushi steak house, 1080 S Main St, Bowling Green, OH 43402",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x883c0bd1b5a2d3ab:0xb5426cc461d99e48",
+            "iid": 12181,
+            "name": "Ninja hibachi sushi steak house",
+            "rank": 15,
+            "score": -3.475630760192871,
+            "state": "Ohio"
+        },
+        {
+            "address": "LA LA Sushi, 12415 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c2bd0e0f7ecd35:0x2c249e132edbeb4f",
+            "iid": 4446,
+            "name": "LA LA Sushi",
+            "rank": 16,
+            "score": -3.480213165283203,
+            "state": "California"
+        },
+        {
+            "address": "Ichiban Sushi & Cajun Seafood, 802 W 1425 N, Layton, UT 84041",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x8753030b60a4460b:0x2af915d0faaa8da8",
+            "iid": 9448,
+            "name": "Ichiban Sushi & Cajun Seafood",
+            "rank": 17,
+            "score": -3.48513126373291,
+            "state": "Utah"
+        },
+        {
+            "address": "Hi Pot - Bethlehem, 312 E 3rd St, Bethlehem, PA 18015",
+            "category": "['Hot pot restaurant', 'Bubble tea store', 'Chinese restaurant', 'Dessert shop', 'Ramen restaurant']",
+            "gmap_id": "0x89c43f25efcec187:0xd94a7454157d00da",
+            "iid": 19895,
+            "name": "Hi Pot - Bethlehem",
+            "rank": 18,
+            "score": -3.492177963256836,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Kobe Buddha House, 89 Plaistow Rd, Haverhill, MA 01830",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e2ff595d03b599:0x87ac8b4d11cb0e45",
+            "iid": 20819,
+            "name": "Kobe Buddha House",
+            "rank": 19,
+            "score": -3.4981653690338135,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Sushi Umi, 13051 Worldgate Dr, Herndon, VA 20170",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89b64703f3658c2f:0x86bda260a2e9f486",
+            "iid": 16954,
+            "name": "Sushi Umi",
+            "rank": 20,
+            "score": -3.501999855041504,
+            "state": "Virginia"
+        }
+    ],
+    "user": {
+        "name": "dillon mayo",
+        "uid": 3161,
+        "user_id": 100419809446694001120
+    }
+}

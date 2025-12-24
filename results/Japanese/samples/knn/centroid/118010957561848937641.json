@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Japonais by Morimoto, 600 W Chicago Ave, Chicago, IL 60654",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant']",
+            "date": "2012/01/18",
+            "gmap_id": "0x880fd3349c9527a5:0xf53ad5e279b21404",
+            "iid": 11388,
+            "name": "Japonais by Morimoto",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1326855134568
+        },
+        {
+            "address": "Robongi Hoboken, 520 Washington St, Hoboken, NJ 07030",
+            "category": "['Restaurant', 'Japanese restaurant']",
+            "date": "2016/04/09",
+            "gmap_id": "0x89c259dff3955efd:0xab3013b84a501d8a",
+            "iid": 18588,
+            "name": "Robongi Hoboken",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1460241276379
+        },
+        {
+            "address": "Zuma, 261 Madison Ave, New York, NY 10016",
+            "category": "['Japanese restaurant']",
+            "date": "2016/05/03",
+            "gmap_id": "0x89c25900da7d168f:0x9f06dc02dfbacf06",
+            "iid": 18118,
+            "name": "Zuma",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1462236872551
+        },
+        {
+            "address": "sushiDOKKU / BOOZE BOX, 823 W Randolph St, Chicago, IL 60607",
+            "category": "['Sushi restaurant', 'Lounge']",
+            "date": "2016/05/19",
+            "gmap_id": "0x880e2cdacc755c6b:0xd892b76eb188a559",
+            "iid": 10903,
+            "name": "sushiDOKKU / BOOZE BOX",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1463695647354
+        },
+        {
+            "address": "Red Lantern Restaurant & Lounge, 39 Stanhope St, Boston, MA 02116",
+            "category": "['Asian restaurant', 'Lounge', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/03",
+            "gmap_id": "0x89e37a733255f1e3:0xf61f00a1028c9602",
+            "iid": 21063,
+            "name": "Red Lantern Restaurant & Lounge",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1464915624761
+        },
+        {
+            "address": "Ogawashi, 1100 Fifth Ave, San Diego, CA 92101",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "date": "2016/06/04",
+            "gmap_id": "0x80d954a7c7f8ec7d:0x4fc70275c6e92613",
+            "iid": 5561,
+            "name": "Ogawashi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1465079041772
+        },
+        {
+            "address": "Oishii Boston, 1166 Washington St, Boston, MA 02118",
+            "category": "['Authentic Japanese restaurant']",
+            "date": "2016/08/17",
+            "gmap_id": "0x89e37a6e6d403195:0xc727e893746649cf",
+            "iid": 21061,
+            "name": "Oishii Boston",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1471438497848
+        },
+        {
+            "address": "Roka Akor - San Francisco, 801 Montgomery St, San Francisco, CA 94133",
+            "category": "['Japanese restaurant']",
+            "date": "2016/10/08",
+            "gmap_id": "0x808581281ce6ce4b:0xbe12a60aff36f188",
+            "iid": 2475,
+            "name": "Roka Akor - San Francisco",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1475896315452
+        },
+        {
+            "address": "Hatsuhana Sushi Restaurant, 17 E 48th St, New York, NY 10017",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2016/12/21",
+            "gmap_id": "0x89c258fc2af38ec3:0x2a73e292b7593d80",
+            "iid": 18097,
+            "name": "Hatsuhana Sushi Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1482286742951
+        },
+        {
+            "address": "Sushi Rock Las Olas, 1515 E Las Olas Blvd, Fort Lauderdale, FL 33301",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2017/01/14",
+            "gmap_id": "0x88d9004eec327681:0x78bf3d046ba0e56b",
+            "iid": 14333,
+            "name": "Sushi Rock Las Olas",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1484413289036
+        },
+        {
+            "address": "Hiro Sushi, 9958 Midlothian Turnpike, Richmond, VA 23235",
+            "category": "['Sushi restaurant']",
+            "date": "2020/07/04",
+            "gmap_id": "0x89b16d43f8f2f601:0xfdae725165a2052e",
+            "iid": 16807,
+            "name": "Hiro Sushi",
+            "split": "test",
+            "state": "Virginia",
+            "unix_time": 1593826645033
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Harmony steakhouse, 6124 Mills Dr, Whitestown, IN 46075",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x88135301b22b478b:0x18966d9276b23fe5",
+            "iid": 11479,
+            "name": "Harmony steakhouse",
+            "rank": 1,
+            "score": -26.91306495666504,
+            "state": "Indiana"
+        },
+        {
+            "address": "Happy Kitchen & Sushi Bar, 69 Boone Village, Zionsville, IN 46077",
+            "category": "['Sushi restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x88135512e747eb77:0xb26d0e31e5976b83",
+            "iid": 11480,
+            "name": "Happy Kitchen & Sushi Bar",
+            "rank": 2,
+            "score": -31.214683532714844,
+            "state": "Indiana"
+        },
+        {
+            "address": "TEGRY BISTRO, 1521 N Green St # A, New Augusta, IN 46278",
+            "category": "['Bistro', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x886cadb91b41ee4b:0xf741ee202187ac41",
+            "iid": 13471,
+            "name": "TEGRY BISTRO",
+            "rank": 3,
+            "score": -33.11369705200195,
+            "state": "Indiana"
+        },
+        {
+            "address": "Yamato Sushi & Hibachi Express, 927 N Green St, Brownsburg, IN 46112",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x886cad445cd8207b:0x8e9dc81ea7eefb4c",
+            "iid": 13470,
+            "name": "Yamato Sushi & Hibachi Express",
+            "rank": 4,
+            "score": -34.29587173461914,
+            "state": "Indiana"
+        },
+        {
+            "address": "Tegry Bistro, 6010 W 86th St #140, Indianapolis, IN 46278",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Steak house', 'Wine bar']",
+            "gmap_id": "0x886caab9e5ce2a3f:0x43f623539a1b72e2",
+            "iid": 13469,
+            "name": "Tegry Bistro",
+            "rank": 5,
+            "score": -34.994842529296875,
+            "state": "Indiana"
+        },
+        {
+            "address": "Hino Oishi, 10491 Walnut Creek Dr Suite #160, Carmel, IN 46032",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8814aac05252fcf3:0xcae7dc58e1673d20",
+            "iid": 11484,
+            "name": "Hino Oishi",
+            "rank": 6,
+            "score": -35.10782241821289,
+            "state": "Indiana"
+        },
+        {
+            "address": "Teppanyaki Grill & Supreme Buffet, 2641 Maple Point Dr, Lafayette, IN 47905",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x88131c5f6319bf19:0x8cd31059e009bc4b",
+            "iid": 11472,
+            "name": "Teppanyaki Grill & Supreme Buffet",
+            "rank": 7,
+            "score": -37.27748107910156,
+            "state": "Indiana"
+        },
+        {
+            "address": "Chiba, 228 Park St, Westfield, IN 46074",
+            "category": "['Japanese restaurant', 'Bar', 'Restaurant']",
+            "gmap_id": "0x8814afab3f148d51:0xb707cd16ad6db708",
+            "iid": 11496,
+            "name": "Chiba",
+            "rank": 8,
+            "score": -37.53561019897461,
+            "state": "Indiana"
+        },
+        {
+            "address": "Tian Fu Sushi All You Can Eat, 3512 W 86th St, Indianapolis, IN 46268",
+            "category": "['Sushi restaurant', 'Buffet restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x886b55292a9f6659:0x288123905fd83ec5",
+            "iid": 13436,
+            "name": "Tian Fu Sushi All You Can Eat",
+            "rank": 9,
+            "score": -37.800270080566406,
+            "state": "Indiana"
+        },
+        {
+            "address": "Naked Tchopstix, 2902 W 86th St #70, Indianapolis, IN 46268",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x886b54d9320d2fdb:0x3cb21438c22f1f00",
+            "iid": 13435,
+            "name": "Naked Tchopstix",
+            "rank": 10,
+            "score": -38.405479431152344,
+            "state": "Indiana"
+        },
+        {
+            "address": "Tokyo One Sushi Buffet, 140 Frontage Rd a1, Lafayette, IN 47905",
+            "category": "['Sushi restaurant', 'Grill', 'Asian restaurant']",
+            "gmap_id": "0x88131b57639d93fb:0xe413d307964eb3ae",
+            "iid": 11471,
+            "name": "Tokyo One Sushi Buffet",
+            "rank": 11,
+            "score": -38.48219680786133,
+            "state": "Indiana"
+        },
+        {
+            "address": "Mark Pi's China Gate & Sushi bar, 12297 N Meridian St, Carmel, IN 46032",
+            "category": "['Chinese restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x8814ac6635c8e4fd:0xa75fe767f7ae34e6",
+            "iid": 11486,
+            "name": "Mark Pi's China Gate & Sushi bar",
+            "rank": 12,
+            "score": -38.655269622802734,
+            "state": "Indiana"
+        },
+        {
+            "address": "Kazan Japanese Steakhouse, 2412 Lake Cir Dr, Indianapolis, IN 46268",
+            "category": "['Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x886b54d1c12e7261:0xcd1fef4e8a156843",
+            "iid": 13434,
+            "name": "Kazan Japanese Steakhouse",
+            "rank": 13,
+            "score": -38.80144500732422,
+            "state": "Indiana"
+        },
+        {
+            "address": "Miracle Sushi & Modern Asian Cuisine, 12505 Old Meridian St #140, Carmel, IN 46032",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8814ac43080d3639:0xe3acc3e6b9203223",
+            "iid": 11485,
+            "name": "Miracle Sushi & Modern Asian Cuisine",
+            "rank": 14,
+            "score": -38.8922004699707,
+            "state": "Indiana"
+        },
+        {
+            "address": "Asahi Japanese Steakhouse, 3412 IN-38, Lafayette, IN 47905",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x88131a4dc96cab59:0x58ffd0091bc286b0",
+            "iid": 11470,
+            "name": "Asahi Japanese Steakhouse",
+            "rank": 15,
+            "score": -38.918121337890625,
+            "state": "Indiana"
+        },
+        {
+            "address": "Sushi Don, 3338 Main St, Lafayette, IN 47905",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x88131ce39d95d845:0x58c49f293c64fe8d",
+            "iid": 11474,
+            "name": "Sushi Don",
+            "rank": 16,
+            "score": -39.12122344970703,
+            "state": "Indiana"
+        },
+        {
+            "address": "Kona Grill - Carmel, 14395 Clay Terrace Blvd, Carmel, IN 46032",
+            "category": "['American restaurant', 'Cocktail bar', 'Sushi restaurant']",
+            "gmap_id": "0x8814add5e72f248f:0xbd048d66fb843e35",
+            "iid": 11493,
+            "name": "Kona Grill - Carmel",
+            "rank": 17,
+            "score": -39.341548919677734,
+            "state": "Indiana"
+        },
+        {
+            "address": "Koto Japanese Steak House, 14490 Lowes Wy, Carmel, IN 46033",
+            "category": "['Sushi restaurant', 'Bar & grill', 'Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x8814add871b9acf5:0x78c90e8f949c084c",
+            "iid": 11494,
+            "name": "Koto Japanese Steak House",
+            "rank": 18,
+            "score": -39.78636169433594,
+            "state": "Indiana"
+        },
+        {
+            "address": "MT Fuji Japanese Steak House, 700 Sagamore Pkwy S, Lafayette, IN 47905",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88131cde17bca94f:0x97f0fef01a0aaa44",
+            "iid": 11473,
+            "name": "MT Fuji Japanese Steak House",
+            "rank": 19,
+            "score": -39.824764251708984,
+            "state": "Indiana"
+        },
+        {
+            "address": "Kizuki Ramen & Izakaya, 2450 E 146th St, Carmel, IN 46033",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x8814ae7680fb7889:0x15f2d6767c1007ed",
+            "iid": 11495,
+            "name": "Kizuki Ramen & Izakaya",
+            "rank": 20,
+            "score": -39.936317443847656,
+            "state": "Indiana"
+        }
+    ],
+    "user": {
+        "name": "Keith Jackson",
+        "uid": 133274,
+        "user_id": 118010957561848937641
+    }
+}

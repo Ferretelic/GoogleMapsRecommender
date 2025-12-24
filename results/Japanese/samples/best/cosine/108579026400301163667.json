@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Don Quijote Honolulu, 801 Kaheka St, Honolulu, HI 96814",
+            "category": "['Supermarket', 'Asian grocery store', 'General store', 'Grocery store', 'Japanese grocery store', 'Pharmacy']",
+            "date": "2018/07/19",
+            "gmap_id": "0x7c006dede4a406b3:0x328c1ae0697b7359",
+            "iid": 1897,
+            "name": "Don Quijote Honolulu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1531987236947
+        },
+        {
+            "address": "Mamaya, 98-199 Kamehameha Hwy A-7B, Aiea, HI 96701",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x7c006f52259fec47:0x2011717ac3237cd5",
+            "iid": 1983,
+            "name": "Mamaya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1532818993348
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "date": "2018/09/01",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1535785099475
+        },
+        {
+            "address": "Aunty's Ramen, 1110 McCully St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "date": "2018/11/08",
+            "gmap_id": "0x7c006d939cf63789:0x2a8866f414ab13b0",
+            "iid": 1855,
+            "name": "Aunty's Ramen",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1541661933507
+        },
+        {
+            "address": "sushi mon, 8320 W Sahara Ave #180, Las Vegas, NV 89117",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80c8c099c612a7d7:0x2ef03a37d49e8296",
+            "iid": 5232,
+            "name": "sushi mon",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1546317748529
+        },
+        {
+            "address": "RA Sushi Bar Restaurant and Ramen Sensei, 13802 N Scottsdale Rd #176, Scottsdale, AZ 85254",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x872b7415984cd6f9:0x6742aa51d351199f",
+            "iid": 9128,
+            "name": "RA Sushi Bar Restaurant and Ramen Sensei",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1546317827849
+        },
+        {
+            "address": "Ramen Ya, 2810 Valkenburgh St, Honolulu, HI 96818",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x7c006f7347bf7367:0xfba97e8979b70a8",
+            "iid": 1991,
+            "name": "Ramen Ya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1546845458403
+        },
+        {
+            "address": "Shirokiya Japan Village Walk, 1450 Ala Moana Blvd #1360, Honolulu, HI 96814",
+            "category": "['Food court', 'Bakery', 'Beer garden', 'Collectibles store', 'Dessert shop', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/19",
+            "gmap_id": "0x7c006df045a36271:0xc32f4e283f2349fa",
+            "iid": 1915,
+            "name": "Shirokiya Japan Village Walk",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1547880365609
+        },
+        {
+            "address": "Junpuu, 1010 S King St #108, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x7c006de6f0845ce5:0xe1ec9e0c4d3d0f29",
+            "iid": 1884,
+            "name": "Junpuu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1549186702049
+        },
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "split": "valid",
+            "state": "Hawaii",
+            "unix_time": 1554623876513
+        },
+        {
+            "address": "Matsuzaka-Tei, 1029 Makolu St B, Pearl City, HI 96782",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x7c00660d0fc65569:0x5ad624fe38aaa438",
+            "iid": 1778,
+            "name": "Matsuzaka-Tei",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1561803767134
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "rank": 1,
+            "score": 0.5696503520011902,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Taiyo Ramen, 451 Piikoi St #105, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x7c006dfab6fe489f:0x1dbd533e0551facd",
+            "iid": 1945,
+            "name": "Taiyo Ramen",
+            "rank": 2,
+            "score": 0.5631458759307861,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Genki Sushi Ward Centre, 1200 Ala Moana Blvd #408, Honolulu, HI 96814",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x7c006dfc95b40377:0x31a184302ccf7344",
+            "iid": 1948,
+            "name": "Genki Sushi Ward Centre",
+            "rank": 3,
+            "score": 0.5278147459030151,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Curry House Coco Ichibanya, 98-199 Kamehameha Hwy, Aiea, HI 96701",
+            "category": "['Japanese curry restaurant']",
+            "gmap_id": "0x7c006f52259fec47:0x29372a22ca2d838d",
+            "iid": 1984,
+            "name": "Curry House Coco Ichibanya",
+            "rank": 4,
+            "score": 0.5225028991699219,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Ninja Sushi Airport, 550 Paiea St, Honolulu, HI 96819",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006fa8720b7d3d:0xc360a73be2376f05",
+            "iid": 1994,
+            "name": "Ninja Sushi Airport",
+            "rank": 5,
+            "score": 0.5177497863769531,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Yanagi Sushi, 762 Kapiolani Blvd, Honolulu, HI 96813",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006de1823ce179:0x6b40181ed0595260",
+            "iid": 1872,
+            "name": "Yanagi Sushi",
+            "rank": 6,
+            "score": 0.5171127915382385,
+            "state": "Hawaii"
+        },
+        {
+            "address": "AGU Ramen - Pearlridge, 98-1005 Moanalua Rd #545, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x7c0068b2ac840ea9:0x4a045884c7fe4c21",
+            "iid": 1792,
+            "name": "AGU Ramen - Pearlridge",
+            "rank": 7,
+            "score": 0.5084838271141052,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Golden Pork Tonkotsu Ramen Bar, 1279 S King St, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Noodle shop', 'Restaurant', 'Small plates restaurant']",
+            "gmap_id": "0x7c006de8d4066a5f:0x59d0486b118be2c3",
+            "iid": 1887,
+            "name": "Golden Pork Tonkotsu Ramen Bar",
+            "rank": 8,
+            "score": 0.5080424547195435,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tempura Ichidai, 1450 Ala Moana Boulevard, Ala Moana Center, Level 3, Honolulu, HI 96814",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c006dfaa0b8a123:0x70f846f9aea201c",
+            "iid": 1943,
+            "name": "Tempura Ichidai",
+            "rank": 9,
+            "score": 0.5045991539955139,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Genki Sushi, Ewa Town Center 91, 1401 Fort Weaver Rd #D103, Ewa Beach, HI 96706",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Family restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x7c006494b6dd0c73:0x58d61a3e754cce6e",
+            "iid": 1767,
+            "name": "Genki Sushi",
+            "rank": 10,
+            "score": 0.49152883887290955,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Musubi Cafe Iyasume Lanai, 1450 Ala Moana Blvd #2278, Honolulu, HI 96814",
+            "category": "['Japanese delicatessen', 'Japanese restaurant', 'Rice restaurant']",
+            "gmap_id": "0x7c006dfa9bfda351:0xbe1428f8f9986f4a",
+            "iid": 1942,
+            "name": "Musubi Cafe Iyasume Lanai",
+            "rank": 11,
+            "score": 0.4904419183731079,
+            "state": "Hawaii"
+        },
+        {
+            "address": "HOKKAIDO RAMEN SANTOUKA, 801 Kaheka St A-8, Honolulu, HI 96814",
+            "category": "['Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006dede4a406b3:0xbcb4c41dc67fb0c9",
+            "iid": 1898,
+            "name": "HOKKAIDO RAMEN SANTOUKA",
+            "rank": 12,
+            "score": 0.4868285059928894,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Okome Hawaii, 91-5431 Kapolei Pkwy #301, Kapolei, HI 96707",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c0063609c550ceb:0x42b740165943522c",
+            "iid": 1759,
+            "name": "Okome Hawaii",
+            "rank": 13,
+            "score": 0.48055386543273926,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Genki Sushi, 1450 Ala Moana Boulevard center #2096, Honolulu, HI 96814",
+            "category": "['Conveyor belt sushi restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x7c006df045a36271:0x2e82a95b7fa088b4",
+            "iid": 1914,
+            "name": "Genki Sushi",
+            "rank": 14,
+            "score": 0.4764057397842407,
+            "state": "Hawaii"
+        },
+        {
+            "address": "KuruKuru Sushi - Kahala Mall, 4211 Waialae Ave, Honolulu, HI 96816",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006d608472afdf:0x1a112d25dbce010f",
+            "iid": 1810,
+            "name": "KuruKuru Sushi - Kahala Mall",
+            "rank": 15,
+            "score": 0.4760895073413849,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Genki Sushi, 98-1005 Moanalua Rd #801, Aiea, HI 96701",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006f52be986b0f:0xe42c762f28bfadaa",
+            "iid": 1989,
+            "name": "Genki Sushi",
+            "rank": 16,
+            "score": 0.4737352728843689,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Hot Pot Heaven, 98-199 Kamehameha Hwy, Aiea, HI 96701",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c006f52305c7a2d:0x28c2ab9ed697cb79",
+            "iid": 1987,
+            "name": "Hot Pot Heaven",
+            "rank": 17,
+            "score": 0.4720766246318817,
+            "state": "Hawaii"
+        },
+        {
+            "address": "AGU Ramen - SLAA, 925 Isenberg St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x7c006d9195964311:0x720889bdbbb0706d",
+            "iid": 1849,
+            "name": "AGU Ramen - SLAA",
+            "rank": 18,
+            "score": 0.469278484582901,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Rokaru Shabu Shabu, 1140 Kuala St #104, Pearl City, HI 96782",
+            "category": "['Hot pot restaurant', 'Buffet restaurant', 'Japanese restaurant', 'Takeout Restaurant', 'Shabu-shabu restaurant']",
+            "gmap_id": "0x7c00660d3810fe87:0x4371cd9f7928a4e3",
+            "iid": 1780,
+            "name": "Rokaru Shabu Shabu",
+            "rank": 19,
+            "score": 0.4647824764251709,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Curry House Coco Ichibanya, 1960 Kapiolani Blvd, Honolulu, HI 96826",
+            "category": "['Japanese restaurant', 'Japanese curry restaurant']",
+            "gmap_id": "0x7c006d8d33c8f4e9:0x98bbea19a628e64c",
+            "iid": 1841,
+            "name": "Curry House Coco Ichibanya",
+            "rank": 20,
+            "score": 0.4637293517589569,
+            "state": "Hawaii"
+        }
+    ],
+    "user": {
+        "name": "Gordon Lam",
+        "uid": 63531,
+        "user_id": 108579026400301163667
+    }
+}

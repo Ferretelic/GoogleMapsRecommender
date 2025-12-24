@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Ginger Thai Katy, 27110 Cinco Ranch Blvd #1100, Katy, TX 77494",
+            "category": "['Thai restaurant']",
+            "date": "2018/08/08",
+            "gmap_id": "0x8641217d9a226a59:0x7b9d5ad146ede938",
+            "iid": 24153,
+            "name": "Ginger Thai Katy",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533699406194
+        },
+        {
+            "address": "Grand Imperial Chinese Restaurant, 27131 Cinco Ranch Blvd #500, Katy, TX 77494",
+            "category": "['Chinese restaurant', 'Caterer', 'Delivery Restaurant']",
+            "date": "2019/04/30",
+            "gmap_id": "0x8641217dc74a1ebd:0x4a7d60800aa3f574",
+            "iid": 24154,
+            "name": "Grand Imperial Chinese Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1556647837809
+        },
+        {
+            "address": "I Love Ph\u1edf, 405 Slide Rd #112, Lubbock, TX 79416",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/12/13",
+            "gmap_id": "0x86fe0d3b676894c3:0x19f02a0dfcc24a7c",
+            "iid": 28196,
+            "name": "I Love Ph\u1edf",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1576203695952
+        },
+        {
+            "address": "Pho Saigon, 890 Mason Rd, Katy, TX 77450",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Noodle shop', 'Restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x864127386bc2c3fb:0x363c6edac97a6e84",
+            "iid": 24229,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591678210
+        },
+        {
+            "address": "JINYA Ramen Bar - Katy, 21788 Katy Fwy, Katy, TX 77449",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x8641276eb1e82e0f:0x327837533f0f7122",
+            "iid": 24247,
+            "name": "JINYA Ramen Bar - Katy",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591684311
+        },
+        {
+            "address": "Panda Express, 313 University Ave, Lubbock, TX 79415",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x86fe12b9a60829ff:0x19e105160e3addd8",
+            "iid": 28199,
+            "name": "Panda Express",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591712313
+        },
+        {
+            "address": "Hayashi Midtown, 3701 19th St, Lubbock, TX 79410",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Family restaurant', 'Authentic Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/09",
+            "gmap_id": "0x86fe72ab54295fbd:0x831a394646ebaa0b",
+            "iid": 28220,
+            "name": "Hayashi Midtown",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578591775241
+        },
+        {
+            "address": "Tikka Shack Indian Grub, 6620 Milwaukee Ave #100, Lubbock, TX 79424",
+            "category": "['Indian restaurant', 'Fast food restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x86fe730cacf0ab67:0xe138d159fa7dd213",
+            "iid": 28232,
+            "name": "Tikka Shack Indian Grub",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1578794517352
+        },
+        {
+            "address": "Little Panda, 1221 University Ave, Lubbock, TX 79401",
+            "category": "['Chinese restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x86fe12b4425cba61:0x594f70b567e5dd24",
+            "iid": 28198,
+            "name": "Little Panda",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1582520204111
+        },
+        {
+            "address": "Little V Vietnamese Bistro, 4031 FM 1463, Katy, TX 77494",
+            "category": "['Vietnamese restaurant', 'Asian fusion restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x864123976022c1b3:0x3d40870dc813ba4a",
+            "iid": 24179,
+            "name": "Little V Vietnamese Bistro",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1582520243395
+        },
+        {
+            "address": "Panda Express, 3100 N Terminal Rd #24, Houston, TX 77032",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2020/02/24",
+            "gmap_id": "0x8640b441c11eb255:0x846022f8aa878fdb",
+            "iid": 22877,
+            "name": "Panda Express",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1582520330320
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Masiso \ub9c8\uc2dc\uc18c, 4809 34th St, Lubbock, TX 79410",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x86fe73645b5a56e7:0x74c3c34890cd1d05",
+            "iid": 28235,
+            "name": "Masiso \ub9c8\uc2dc\uc18c",
+            "rank": 1,
+            "score": 0.7959433197975159,
+            "state": "Texas"
+        },
+        {
+            "address": "Yamagata Japanese Steak House, 5905 82nd St # 104, Lubbock, TX 79424",
+            "category": "['Japanese steakhouse']",
+            "gmap_id": "0x86fe73ae43f6d5d3:0x6e8b6913d8e45217",
+            "iid": 28239,
+            "name": "Yamagata Japanese Steak House",
+            "rank": 2,
+            "score": 0.7208150625228882,
+            "state": "Texas"
+        },
+        {
+            "address": "Tikka Shack @ Texas Tech, 2407 9th St #500, Lubbock, TX 79401",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x86fe13e075757f45:0x30c332f76f18a726",
+            "iid": 28202,
+            "name": "Tikka Shack @ Texas Tech",
+            "rank": 3,
+            "score": 0.7147141695022583,
+            "state": "Texas"
+        },
+        {
+            "address": "Susaki Sushi Steakhouse, 6301 82nd St #601, Lubbock, TX 79424",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x86fe73a3423b0593:0xd9f76395f0702318",
+            "iid": 28238,
+            "name": "Susaki Sushi Steakhouse",
+            "rank": 4,
+            "score": 0.7128703594207764,
+            "state": "Texas"
+        },
+        {
+            "address": "China Town Restaurant, 5217 82nd St Unit 114, Lubbock, TX 79424",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86fe724fedc2be6d:0x939d31d8e4819e82",
+            "iid": 28211,
+            "name": "China Town Restaurant",
+            "rank": 5,
+            "score": 0.7025591731071472,
+            "state": "Texas"
+        },
+        {
+            "address": "Mama Fu's Asian House, 1910 Quaker Ave #106, Lubbock, TX 79407",
+            "category": "['Asian restaurant', 'Asian fusion restaurant', 'Caterer', 'Chinese restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Pan-Asian restaurant', 'Thai restaurant']",
+            "gmap_id": "0x86fe0d4cb2128ea5:0xe918bbc0b3a4c592",
+            "iid": 28197,
+            "name": "Mama Fu's Asian House",
+            "rank": 6,
+            "score": 0.6991391777992249,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyo Japanese Steakhouse, 4637 50th St, Lubbock, TX 79414",
+            "category": "['Japanese restaurant', 'Japanese steakhouse']",
+            "gmap_id": "0x86fe72eca8791f1f:0xe21ffd07ecd0dfd0",
+            "iid": 28226,
+            "name": "Tokyo Japanese Steakhouse",
+            "rank": 7,
+            "score": 0.6976296901702881,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 11411 Quaker Ave, Lubbock, TX 79423",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Fast food restaurant', 'Restaurant']",
+            "gmap_id": "0x86fe721ded235e8f:0x93990a0ffe3b6769",
+            "iid": 28209,
+            "name": "Panda Express",
+            "rank": 8,
+            "score": 0.695885956287384,
+            "state": "Texas"
+        },
+        {
+            "address": "Linda's Cafe, 1901 W Loop 289 UNIT 6, Lubbock, TX 79407",
+            "category": "['Filipino restaurant']",
+            "gmap_id": "0x86fe0ccc1c05e96d:0x68f886cc244ece3f",
+            "iid": 28193,
+            "name": "Linda's Cafe",
+            "rank": 9,
+            "score": 0.6931419968605042,
+            "state": "Texas"
+        },
+        {
+            "address": "Chinese Kitchen, 7411 Milwaukee Ave, Lubbock, TX 79424",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x86fe72ef64652857:0xeb9389494b391e8e",
+            "iid": 28227,
+            "name": "Chinese Kitchen",
+            "rank": 10,
+            "score": 0.6890534162521362,
+            "state": "Texas"
+        },
+        {
+            "address": "Gandhi Bazar, 2815 34th St, Lubbock, TX 79410, United States",
+            "category": "['Grocery store', 'Indian grocery store']",
+            "gmap_id": "0x86fe72b9999832cb:0xff0c560841557b58",
+            "iid": 28222,
+            "name": "Gandhi Bazar",
+            "rank": 11,
+            "score": 0.68560791015625,
+            "state": "Texas"
+        },
+        {
+            "address": "P.F. Chang's, 2906 W Loop 289, Lubbock, TX 79407",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x86fe732de91a0c27:0x6a9dfaea8746d023",
+            "iid": 28234,
+            "name": "P.F. Chang's",
+            "rank": 12,
+            "score": 0.6846872568130493,
+            "state": "Texas"
+        },
+        {
+            "address": "Genghis Grill, 6201 Slide Rd, Lubbock, TX 79414",
+            "category": "['Mongolian barbecue restaurant', 'Asian restaurant', 'Bar & grill', 'Chinese restaurant', 'Pan-Asian restaurant', 'Restaurant', 'South Asian restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x86fe72f0c0e887f7:0xe829f9761f21f3e5",
+            "iid": 28229,
+            "name": "Genghis Grill",
+            "rank": 13,
+            "score": 0.6825465559959412,
+            "state": "Texas"
+        },
+        {
+            "address": "Beijing House Restaurant, 3605 50th St, Lubbock, TX 79413",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86fe729c495e1eef:0xe054c81b7e1055a6",
+            "iid": 28219,
+            "name": "Beijing House Restaurant",
+            "rank": 14,
+            "score": 0.6805148720741272,
+            "state": "Texas"
+        },
+        {
+            "address": "Hong Kong Restaurant, 4845 50th St, Lubbock, TX 79414",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86fe72e956296a8d:0xf22d6a2c0104d0a2",
+            "iid": 28224,
+            "name": "Hong Kong Restaurant",
+            "rank": 15,
+            "score": 0.676665186882019,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai Pepper, 3702 20th St, Lubbock, TX 79410",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x86fe72acaf19f609:0x84c6a833bc7d3e1d",
+            "iid": 28221,
+            "name": "Thai Pepper",
+            "rank": 16,
+            "score": 0.67463219165802,
+            "state": "Texas"
+        },
+        {
+            "address": "Ohana Japanese Steakhouse, 5510 4th St #100, Lubbock, TX 79416",
+            "category": "['Japanese restaurant', 'Bar', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x86fe0d205fa149d5:0xc46c94394a6aed94",
+            "iid": 28194,
+            "name": "Ohana Japanese Steakhouse",
+            "rank": 17,
+            "score": 0.6712948679924011,
+            "state": "Texas"
+        },
+        {
+            "address": "Pei Wei Asian Kitchen, 4210 82nd St, Lubbock, TX 79423",
+            "category": "['Restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x86fe726f9e824fb7:0x1ad82370528e5163",
+            "iid": 28213,
+            "name": "Pei Wei Asian Kitchen",
+            "rank": 18,
+            "score": 0.6698824167251587,
+            "state": "Texas"
+        },
+        {
+            "address": "Ohana Steakhouse & Sushi Bar, 5217 82nd St, Lubbock, TX 79424",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Steak house']",
+            "gmap_id": "0x86fe724fedc2be6d:0x71e8543fce6c3d05",
+            "iid": 28210,
+            "name": "Ohana Steakhouse & Sushi Bar",
+            "rank": 19,
+            "score": 0.6671707034111023,
+            "state": "Texas"
+        },
+        {
+            "address": "Choochai Thai Cuisine, 2330 19th St, Lubbock, TX 79401",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x86fe6d4a8e8fdd59:0xc54b86bd454456d8",
+            "iid": 28205,
+            "name": "Choochai Thai Cuisine",
+            "rank": 20,
+            "score": 0.6656765341758728,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Krista Beck",
+        "uid": 479565,
+        "user_id": 116094866726502824702
+    }
+}

@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Seafood Shanty, 31 Dock St, Edgartown, MA 02539",
+            "category": "['Seafood restaurant', 'Bar', 'Sushi restaurant']",
+            "date": "2015/11/24",
+            "gmap_id": "0x89e52c3b957b2c57:0x14bd0bf1a8f1bc7d",
+            "iid": 21345,
+            "name": "The Seafood Shanty",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448386230593
+        },
+        {
+            "address": "Mandarin Westboro Inc, 132 Turnpike Rd, Westborough, MA 01581",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Sichuan restaurant', 'Sushi restaurant']",
+            "date": "2015/11/28",
+            "gmap_id": "0x89e40a92bbc9ec63:0x82c966e5013b38f3",
+            "iid": 21224,
+            "name": "Mandarin Westboro Inc",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448741598199
+        },
+        {
+            "address": "Takara Japanese Restaurant, 15 Elissa Ave, Wayland, MA 01778",
+            "category": "['Japanese restaurant']",
+            "date": "2016/01/16",
+            "gmap_id": "0x89e3859d1b6d3c19:0x36906cfaaf719de6",
+            "iid": 21120,
+            "name": "Takara Japanese Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1452952022788
+        },
+        {
+            "address": "P.F. Chang's, 1245 Worcester St Ste #4008, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2017/01/16",
+            "gmap_id": "0x89e38882bf8d47cb:0xc639b0ea7ed17f56",
+            "iid": 21127,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1484592292461
+        },
+        {
+            "address": "Tanaka, 222 E 51st St, New York, NY 10022",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x89c258e31b884675:0xaa66aa08c4ed8624",
+            "iid": 18040,
+            "name": "Tanaka",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522323566865
+        },
+        {
+            "address": "East Sushi Restaurant, 43 Scotch Rd, Ewing Township, NJ 08628",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/18",
+            "gmap_id": "0x89c157e712b8531f:0x5bd4da75682a1f00",
+            "iid": 17630,
+            "name": "East Sushi Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1531952628484
+        },
+        {
+            "address": "Shanghai Tokyo, 54 E Central St, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/07/20",
+            "gmap_id": "0x89e387ac940ca26f:0x186c570995cc552b",
+            "iid": 21125,
+            "name": "Shanghai Tokyo",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1532047209910
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/14",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 2358,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748786788
+        },
+        {
+            "address": "Pho 1 Waltham, 374 Moody St, Waltham, MA 02453",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "date": "2019/02/04",
+            "gmap_id": "0x89e382d8e1b5c22d:0xfbdfd12f238d15c1",
+            "iid": 21113,
+            "name": "Pho 1 Waltham",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1549238752392
+        },
+        {
+            "address": "Kazan BBQ, Ramen, & Bar, 1 Crossgates Mall Rd, Albany, NY 12203",
+            "category": "['Ramen restaurant', 'Bar', 'BBQ area', 'Japanese steakhouse']",
+            "date": "2021/04/25",
+            "gmap_id": "0x89de7531f774e0e7:0xcc7623e30e4cf76d",
+            "iid": 20763,
+            "name": "Kazan BBQ, Ramen, & Bar",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1619313704195
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Yama Fuji Restaurant, 74 Main St #8, Medway, MA 02053",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e470f3df7257c5:0x10de43bd0b68b704",
+            "iid": 21289,
+            "name": "Yama Fuji Restaurant",
+            "rank": 1,
+            "score": 0.6440314054489136,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Fugakyu Cafe, 621 Boston Post Rd, Sudbury, MA 01776",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x89e38ee79a885f23:0x96721fe5466c19a2",
+            "iid": 21140,
+            "name": "Fugakyu Cafe",
+            "rank": 2,
+            "score": 0.5952519178390503,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Yama Zakura, 369 W Main St #3, Northborough, MA 01532",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x89e3f5fe46ef717d:0x591eef1f362ef4c",
+            "iid": 21202,
+            "name": "Yama Zakura",
+            "rank": 3,
+            "score": 0.582058310508728,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Yama, 245 Washington St, Wellesley, MA 02481",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e383e28e193105:0xdc9c16db79ba8dc0",
+            "iid": 21118,
+            "name": "Yama",
+            "rank": 4,
+            "score": 0.5733494758605957,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Okami Sushi Hibachi, 58 Apex Dr, Marlborough, MA 01752",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e3f55167dc39a5:0xb7703a37bd09a807",
+            "iid": 21199,
+            "name": "Okami Sushi Hibachi",
+            "rank": 5,
+            "score": 0.5706604719161987,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Mr Shu, 2 Ridge Rd, North Arlington, NJ 07031",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89c255cdd43a7013:0xb947dafdf15a8afa",
+            "iid": 17890,
+            "name": "Mr Shu",
+            "rank": 6,
+            "score": 0.5588234663009644,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Doragon Ramen, 1 W Union St, Ashland, MA 01721",
+            "category": "['Ramen restaurant', 'Bubble tea store', 'Chicken wings restaurant', 'Authentic Japanese restaurant']",
+            "gmap_id": "0x89e477b212d95cfb:0x668b10c014d8c303",
+            "iid": 21295,
+            "name": "Doragon Ramen",
+            "rank": 7,
+            "score": 0.5528432726860046,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Pok\u00e9moto, 1145 Chapel St, New Haven, CT 06511",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Health food restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e7d923f19ec481:0xbf22afa3b26e6362",
+            "iid": 21497,
+            "name": "Pok\u00e9moto",
+            "rank": 8,
+            "score": 0.5441228747367859,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Lola 41 Nantucket, 15 S Beach St, Nantucket, MA 02554",
+            "category": "['Eclectic restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89fadce1dd4faddf:0xfd9f44ee76468f93",
+            "iid": 21713,
+            "name": "Lola 41 Nantucket",
+            "rank": 9,
+            "score": 0.5439300537109375,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Crudo, 78 Salem St, Boston, MA 02113",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89e3708f2b0e615d:0x9240247b177bb777",
+            "iid": 20892,
+            "name": "Crudo",
+            "rank": 10,
+            "score": 0.5320669412612915,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Feng Asian Bistro & Hibachi, 70 Worcester-Providence Turnpike, Millbury, MA 01527",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x89e405717cb942af:0x2a69bc4511fff24a",
+            "iid": 21209,
+            "name": "Feng Asian Bistro & Hibachi",
+            "rank": 11,
+            "score": 0.5244539976119995,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Baba Sushi, 309 Park Ave, Worcester, MA 01609",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Japanese restaurant', 'Stand bar', 'Sushi restaurant']",
+            "gmap_id": "0x89e4068fc05e1af9:0xd00864d23ad19022",
+            "iid": 21215,
+            "name": "Baba Sushi",
+            "rank": 12,
+            "score": 0.5241908431053162,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Kenichi Asian Bistro, 270 Shrewsbury St, Worcester, MA 01604",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e4063ec7e0f07b:0x43809f7fbae46977",
+            "iid": 21210,
+            "name": "Kenichi Asian Bistro",
+            "rank": 13,
+            "score": 0.5207686424255371,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "KIKU, 2085 Burnt Mills Rd, Bedminster, NJ 07921",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89c3942ae8d0375d:0xb4ad0d24983960f3",
+            "iid": 19646,
+            "name": "KIKU",
+            "rank": 14,
+            "score": 0.5179216861724854,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Shogun Steak House & Sushi Bar, 3606 S, I-35E, Denton, TX 76210",
+            "category": "['Japanese steakhouse', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x864c34cb41e211a3:0x40d864347e521c1",
+            "iid": 8053,
+            "name": "Shogun Steak House & Sushi Bar",
+            "rank": 15,
+            "score": 0.5148690938949585,
+            "state": "Texas"
+        },
+        {
+            "address": "Aoi Japanese Restaurant, 855 Worcester Rd, Framingham, MA 01701",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e389a8936f6f53:0x7f261c6177463708",
+            "iid": 21133,
+            "name": "Aoi Japanese Restaurant",
+            "rank": 16,
+            "score": 0.5115625262260437,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "Ko Sushi and Grill, 25 Hayward St, Hopkinton, MA 01748",
+            "category": "['Sushi restaurant', 'Grill', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x89e47361d6eb73c9:0xf779ad220cd6d8ee",
+            "iid": 21293,
+            "name": "Ko Sushi and Grill",
+            "rank": 17,
+            "score": 0.5097640752792358,
+            "state": "Massachusetts"
+        },
+        {
+            "address": "New Aston Palace, 3476 Concord Rd, Aston, PA 19014",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89c6e60172077b95:0x244762deb6fdb4de",
+            "iid": 20240,
+            "name": "New Aston Palace",
+            "rank": 18,
+            "score": 0.5082008242607117,
+            "state": "Pennsylvania"
+        },
+        {
+            "address": "Oh Baby Sushi, 2139 Roosevelt Ave, Redwood City, CA 94061",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x808fa3bf0a731481:0xaea0bbe87522a4d0",
+            "iid": 3046,
+            "name": "Oh Baby Sushi",
+            "rank": 19,
+            "score": 0.5080264806747437,
+            "state": "California"
+        },
+        {
+            "address": "Great Wok Wellesley, 180 Worcester St, Wellesley, MA 02472",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x89e383d2374a02b5:0x62039de83ba6f097",
+            "iid": 21117,
+            "name": "Great Wok Wellesley",
+            "rank": 20,
+            "score": 0.506677508354187,
+            "state": "Massachusetts"
+        }
+    ],
+    "user": {
+        "name": "Vasu Nagalingam",
+        "uid": 111370,
+        "user_id": 115041247282715097180
+    }
+}

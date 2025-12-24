@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China Bear, 12755 Southwest Fwy, Stafford, TX 77477",
+            "category": "['Buffet restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x8640e7a5323b70f9:0x89e3de23e1394878",
+            "iid": 24068,
+            "name": "China Bear",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1517602638434
+        },
+        {
+            "address": "Chinese American Restaurant, 11317 Bissonnet St, Houston, TX 77099, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/02/18",
+            "gmap_id": "0x8640dd5f2a54e6c5:0x9f096474a633ce75",
+            "iid": 23885,
+            "name": "Chinese American Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1518993512098
+        },
+        {
+            "address": "Koba Woo Restaurant, 332 E Avenue D, Killeen, TX 76541",
+            "category": "['Korean restaurant']",
+            "date": "2018/05/09",
+            "gmap_id": "0x86454b89a684c74d:0xa7fe7aa8b599e24d",
+            "iid": 24737,
+            "name": "Koba Woo Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1525864551249
+        },
+        {
+            "address": "China Garden Restaurant, 1602 Leeland St, Houston, TX 77003",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640bf17ef9f3115:0x2e30c47f96f8cd49",
+            "iid": 22916,
+            "name": "China Garden Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536278340062
+        },
+        {
+            "address": "Sichuan Noodles \u9762\u9762\u805a\u9053, 9889 Bellaire Blvd c305, Houston, TX 77036",
+            "category": "['Chinese restaurant']",
+            "date": "2019/03/29",
+            "gmap_id": "0x8640c2cf39ac8089:0x2b3a389e041e26f3",
+            "iid": 23226,
+            "name": "Sichuan Noodles \u9762\u9762\u805a\u9053",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1553817652429
+        },
+        {
+            "address": "Savoy Restaurant, 11246 S Wilcrest Dr 145 B, Houston, TX 77099",
+            "category": "['Pakistani restaurant', 'Halal restaurant', 'Indian restaurant']",
+            "date": "2019/08/04",
+            "gmap_id": "0x8640e7e5756064bb:0x4a52b97abcbaa9e6",
+            "iid": 24086,
+            "name": "Savoy Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1564928444432
+        },
+        {
+            "address": "Fung's Kitchen, 7320 Southwest Fwy #115, Houston, TX 77074",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Banquet hall', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2019/10/26",
+            "gmap_id": "0x8640c25ed759c2d9:0x1eb45fc225111447",
+            "iid": 23152,
+            "name": "Fung's Kitchen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1572057850178
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/16",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 23745,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1573910399263
+        },
+        {
+            "address": "Benihana, 9707 Westheimer Rd, Houston, TX 77042",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2021/03/09",
+            "gmap_id": "0x8640c3161bea4d37:0xbe4674c5780f92ba",
+            "iid": 23260,
+            "name": "Benihana",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1615252565956
+        },
+        {
+            "address": "B2J Suancai Fish, 9393 Bellaire Blvd Ste B, Houston, TX 77036, United States",
+            "category": "['Chinese restaurant', 'Seafood restaurant', 'Sichuan restaurant']",
+            "date": "2021/06/03",
+            "gmap_id": "0x8640c3a675e0c6df:0x6b8382f9a7304722",
+            "iid": 23289,
+            "name": "B2J Suancai Fish",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1622680189877
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Tapioca Blossom, 14175 Northwest Fwy, Houston, TX 77040",
+            "category": "['Cafe', 'Bubble tea store', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640cf75c5aeb689:0x94003d8112a5ef2c",
+            "iid": 23573,
+            "name": "Tapioca Blossom",
+            "rank": 1,
+            "score": -1.9070771932601929,
+            "state": "Texas"
+        },
+        {
+            "address": "komeya sushi & ramen, 25114 Grogans Mill Rd STE A, Spring, TX 77380",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8647350960e1c7eb:0xbd565f71f3862038",
+            "iid": 24891,
+            "name": "komeya sushi & ramen",
+            "rank": 2,
+            "score": -1.9698365926742554,
+            "state": "Texas"
+        },
+        {
+            "address": "Hunan Plus, 23227 Mercantile Pkwy, Katy, TX 77449",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86412713196e9029:0x7024382667297fa2",
+            "iid": 24215,
+            "name": "Hunan Plus",
+            "rank": 3,
+            "score": -2.114347457885742,
+            "state": "Texas"
+        },
+        {
+            "address": "Tokyo Hibachi (under construction), 2140 Salem Rd SE, Conyers, GA 30013",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f44b0a3d11e1c1:0xd805e150fb8e7847",
+            "iid": 51123,
+            "name": "Tokyo Hibachi (under construction)",
+            "rank": 4,
+            "score": -2.1358373165130615,
+            "state": "Georgia"
+        },
+        {
+            "address": "Venue Restaurant and Bar, 2410 San Ramon Valley Blvd #150, San Ramon, CA 94583",
+            "category": "['Indian restaurant', 'Bar', 'Bar & grill', 'Delivery service', 'Fine dining restaurant', 'Indian takeaway', 'Takeout Restaurant', 'Pakistani restaurant', 'Restaurant']",
+            "gmap_id": "0x808ff33483e6864f:0x9ae61aec7e04ed28",
+            "iid": 11280,
+            "name": "Venue Restaurant and Bar",
+            "rank": 5,
+            "score": -2.1432430744171143,
+            "state": "California"
+        },
+        {
+            "address": "Kobe Sushi and Teriyaki, 1905 S 1st St, Yakima, WA 98903",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x5499d7b7b1b45887:0x861e2f0927153bb4",
+            "iid": 4760,
+            "name": "Kobe Sushi and Teriyaki",
+            "rank": 6,
+            "score": -2.145822048187256,
+            "state": "Washington"
+        },
+        {
+            "address": "Cloves Indian Groceries & Kitchen, 1930 W Thunderbird Rd UNIT 108, Phoenix, AZ 85023",
+            "category": "['Indian grocery store', 'Halal restaurant', 'Indian restaurant', 'Meat products', 'Produce market', 'Wholesale grocer']",
+            "gmap_id": "0x872b6fcf79c5fec7:0x7bfdbcdb5ed1674d",
+            "iid": 29469,
+            "name": "Cloves Indian Groceries & Kitchen",
+            "rank": 7,
+            "score": -2.147662878036499,
+            "state": "Arizona"
+        },
+        {
+            "address": "99352 Washington, Richland, George Washington Way, Ara Sushi & Grill",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54987b4d8966e4b7:0x8fc10a9ff2fd3a1b",
+            "iid": 4726,
+            "name": "Ara Sushi & Grill",
+            "rank": 8,
+            "score": -2.1523170471191406,
+            "state": "Washington"
+        },
+        {
+            "address": "Korean Mammas Cooking, 3624 Sonoma Blvd, Vallejo, CA 94590",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x808573f0627c36f9:0x5da98fe56cc155cd",
+            "iid": 7177,
+            "name": "Korean Mammas Cooking",
+            "rank": 9,
+            "score": -2.1574347019195557,
+            "state": "California"
+        },
+        {
+            "address": "Bombay indian cuisine, 2885 E Jensen Ave, Fresno, CA 93706",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x80945ffde2f57121:0x239e89ebfc838703",
+            "iid": 11774,
+            "name": "Bombay indian cuisine",
+            "rank": 10,
+            "score": -2.158639430999756,
+            "state": "California"
+        },
+        {
+            "address": "Pho Waipahu, 94-300 Farrington Hwy #C02, Waipahu, HI 96797",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c00653b3e6d1027:0xacc7c13f6e54b90",
+            "iid": 6056,
+            "name": "Pho Waipahu",
+            "rank": 11,
+            "score": -2.159151077270508,
+            "state": "Hawaii"
+        },
+        {
+            "address": "OG Chan's, 9868 Dyer St, El Paso, TX 79924",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86e751f005b8cf95:0x446424afa913d6c2",
+            "iid": 28079,
+            "name": "OG Chan's",
+            "rank": 12,
+            "score": -2.1620235443115234,
+            "state": "Texas"
+        },
+        {
+            "address": "Little Sister Irvine Spectrum, 896 Spectrum Center Dr, Irvine, CA 92618",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x80dce7da3aa20551:0x5a4607024dc02a20",
+            "iid": 19840,
+            "name": "Little Sister Irvine Spectrum",
+            "rank": 13,
+            "score": -2.162867546081543,
+            "state": "California"
+        },
+        {
+            "address": "Lucky House, 14291 W Grand Ave Suite #106, Surprise, AZ 85374",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x872b5b6b7957763f:0x7421e6752e315920",
+            "iid": 29313,
+            "name": "Lucky House",
+            "rank": 14,
+            "score": -2.1636040210723877,
+            "state": "Arizona"
+        },
+        {
+            "address": "Honkaku Sushi, 19 E North Ave., Glendale Heights, IL 60139",
+            "category": "['Restaurant', 'Caterer', 'Delivery service', 'Japanese restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880e53c0a74886cb:0x27b2b49155af5629",
+            "iid": 36635,
+            "name": "Honkaku Sushi",
+            "rank": 15,
+            "score": -2.1649017333984375,
+            "state": "Illinois"
+        },
+        {
+            "address": "Momo Korean Restaurant, 2761 Briargate Blvd, Colorado Springs, CO 80920",
+            "category": "['Korean restaurant']",
+            "gmap_id": "0x87134fdfd01c0bd9:0x8519f74ee6428054",
+            "iid": 28474,
+            "name": "Momo Korean Restaurant",
+            "rank": 16,
+            "score": -2.165114641189575,
+            "state": "Colorado"
+        },
+        {
+            "address": "Teriyaki Madness, 1653 W Island Green Dr Ste 130, Meridian, ID 83646",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55cae7f4fa65:0x225b2adc029f2e05",
+            "iid": 5059,
+            "name": "Teriyaki Madness",
+            "rank": 17,
+            "score": -2.1653921604156494,
+            "state": "Idaho"
+        },
+        {
+            "address": "Mazaa Biryani Corner, 38245 W 10 Mile Rd, Farmington Hills, MI 48335",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x8824af6e24a6773f:0xcd22da7eadf18a64",
+            "iid": 39110,
+            "name": "Mazaa Biryani Corner",
+            "rank": 18,
+            "score": -2.1682422161102295,
+            "state": "Michigan"
+        },
+        {
+            "address": "Fusion Grille - Indian Food, 603 S Las Vegas Blvd, Las Vegas, NV 89101",
+            "category": "['Indian restaurant', 'Fusion restaurant', 'Health food restaurant', 'Mediterranean restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x80c8c341cb39edc5:0xd29b89a1a51a341f",
+            "iid": 16996,
+            "name": "Fusion Grille - Indian Food",
+            "rank": 19,
+            "score": -2.1686415672302246,
+            "state": "Nevada"
+        },
+        {
+            "address": "KELP SUSHI JOINT, 6507 W Waters Ave Ste 9, Tampa, FL 33634",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x88c2c11a4cb99791:0xbfb1968c2d2ee517",
+            "iid": 46972,
+            "name": "KELP SUSHI JOINT",
+            "rank": 20,
+            "score": -2.170118808746338,
+            "state": "Florida"
+        }
+    ],
+    "user": {
+        "name": "Jon Menefee",
+        "uid": 262924,
+        "user_id": 108808178258193143207
+    }
+}

@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Sushi Kushi Toyo, 825 S Waukegan Rd, Lake Forest, IL 60045",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x880f955d1f0108fb:0xf13e68a96f408ed7",
+            "iid": 11097,
+            "name": "Sushi Kushi Toyo",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1536720725412
+        },
+        {
+            "address": "Ramen House Shinchan, Plum grove Rd &, Euclid Ave, Palatine, IL 60067",
+            "category": "['Ramen restaurant']",
+            "date": "2018/09/12",
+            "gmap_id": "0x880fa50f170db571:0x7ba82764a2a6f43f",
+            "iid": 11128,
+            "name": "Ramen House Shinchan",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1536720808830
+        },
+        {
+            "address": "Mitsuwa Marketplace, 100 E Algonquin Rd, Arlington Heights, IL 60005",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "date": "2019/04/08",
+            "gmap_id": "0x880fb066729e09b3:0xedcf27a9d8c1647c",
+            "iid": 11171,
+            "name": "Mitsuwa Marketplace",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1554766181017
+        },
+        {
+            "address": "Sushi Station, 1641 W Algonquin Rd, Rolling Meadows, IL 60008",
+            "category": "['Conveyor belt sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/04/08",
+            "gmap_id": "0x880fb00edb3b53d9:0x2790338e701fda5f",
+            "iid": 11162,
+            "name": "Sushi Station",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1554766208980
+        },
+        {
+            "address": "Sushi by chambada, 201 N Western Ave, Los Angeles, CA 90004",
+            "category": "['Sushi restaurant']",
+            "date": "2019/05/12",
+            "gmap_id": "0x80c2b99aaa97ff25:0x478b972b020409ac",
+            "iid": 4278,
+            "name": "Sushi by chambada",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1557633886219
+        },
+        {
+            "address": "Sushi Box, 3494 Milwaukee Ave, Northbrook, IL 60062",
+            "category": "['Sushi restaurant']",
+            "date": "2019/11/26",
+            "gmap_id": "0x880fb867983f1a95:0x9cf3d32378a05d6e",
+            "iid": 11190,
+            "name": "Sushi Box",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1574792053720
+        },
+        {
+            "address": "Umacamon Japanese Kitchen, 1673 W Algonquin Rd, Rolling Meadows, IL 60008",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/08",
+            "gmap_id": "0x880fb00edfb03f19:0xe5662eec1cba3a3a",
+            "iid": 11163,
+            "name": "Umacamon Japanese Kitchen",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1578520378353
+        },
+        {
+            "address": "Ron of Japan, 633 Skokie Blvd ll111, Northbrook, IL 60062",
+            "category": "['Japanese steakhouse', 'Restaurant', 'Teppanyaki restaurant']",
+            "date": "2020/01/08",
+            "gmap_id": "0x880fc14bd20d484d:0xbba83e31126ce1d3",
+            "iid": 11220,
+            "name": "Ron of Japan",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1578520755411
+        },
+        {
+            "address": "Torino Ramen, 1162 Wilmette Ave, Wilmette, IL 60091",
+            "category": "['Ramen restaurant', 'Cocktail bar', 'Sushi restaurant']",
+            "date": "2020/01/08",
+            "gmap_id": "0x880fc537f15a176d:0x8143deaab3e7ccd6",
+            "iid": 11229,
+            "name": "Torino Ramen",
+            "split": "train",
+            "state": "Illinois",
+            "unix_time": 1578520798296
+        },
+        {
+            "address": "Kitakata Ramen Ban Nai - Hoffman Estates, 1129 N Roselle Rd, Hoffman Estates, IL 60169",
+            "category": "['Ramen restaurant']",
+            "date": "2020/01/21",
+            "gmap_id": "0x880faf45c7c97827:0x6e45096f30a97d00",
+            "iid": 11150,
+            "name": "Kitakata Ramen Ban Nai - Hoffman Estates",
+            "split": "valid",
+            "state": "Illinois",
+            "unix_time": 1579633127825
+        },
+        {
+            "address": "Hello Tokyo, 9038 W Golf Rd, Niles, IL 60714",
+            "category": "['Asian household goods store', 'Discount store', 'Japanese grocery store', 'Protective clothing supplier']",
+            "date": "2021/02/10",
+            "gmap_id": "0x880fc9327f54d4a3:0xcf8541e9c732cfcc",
+            "iid": 11252,
+            "name": "Hello Tokyo",
+            "split": "test",
+            "state": "Illinois",
+            "unix_time": 1612999623475
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "Blufish, 2709 Pfingsten Rd, Glenview, IL 60026",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant']",
+            "gmap_id": "0x880fc77beb3224ef:0x509884dd97d514f5",
+            "iid": 11242,
+            "name": "Blufish",
+            "rank": 1,
+            "score": 0.6619865894317627,
+            "state": "Illinois"
+        },
+        {
+            "address": "Bonchon Glenview, 1615 N Milwaukee Ave Unit 100, Glenview, IL 60025",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x880fb86efa2bf939:0x4a8bedc2b44d625d",
+            "iid": 11192,
+            "name": "Bonchon Glenview",
+            "rank": 2,
+            "score": 0.652472198009491,
+            "state": "Illinois"
+        },
+        {
+            "address": "Manooben, 1728 N Milwaukee Ave, Glenview, IL 60025",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fc7f631269afd:0xf2dc104c913e961d",
+            "iid": 11245,
+            "name": "Manooben",
+            "rank": 3,
+            "score": 0.6309950351715088,
+            "state": "Illinois"
+        },
+        {
+            "address": "Mozu Sushi & Izakaya, 1669 Milwaukee Ave, Glenview, IL 60025",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x880fb86f249f8b1b:0xcffcbfac08071494",
+            "iid": 11193,
+            "name": "Mozu Sushi & Izakaya",
+            "rank": 4,
+            "score": 0.5945008397102356,
+            "state": "Illinois"
+        },
+        {
+            "address": "Ramen Takeya Arlington Heights, 932 W Algonquin Rd, Arlington Heights, IL 60005",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x880fb00c29acc56f:0x907c920b830e97d9",
+            "iid": 11161,
+            "name": "Ramen Takeya Arlington Heights",
+            "rank": 5,
+            "score": 0.5834784507751465,
+            "state": "Illinois"
+        },
+        {
+            "address": "Ronin's Spoon Ramen (\u6d6a\u4eba\u9eb5\u5c4b\uff09, 2659 Shermer Rd, Northbrook, IL 60062",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x880fc70e58de6987:0xd464486fdb2f3693",
+            "iid": 11239,
+            "name": "Ronin's Spoon Ramen (\u6d6a\u4eba\u9eb5\u5c4b\uff09",
+            "rank": 6,
+            "score": 0.5793914794921875,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sozai Banzai, 1089 E Golf Rd, Arlington Heights, IL 60005",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "gmap_id": "0x880fb08886b32223:0x28536c098901d938",
+            "iid": 11173,
+            "name": "Sozai Banzai",
+            "rank": 7,
+            "score": 0.5737998485565186,
+            "state": "Illinois"
+        },
+        {
+            "address": "Kamehachi, 1320 Shermer Rd, Northbrook, IL 60062",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fc73036aa82a1:0xb12548a38e56e46d",
+            "iid": 11240,
+            "name": "Kamehachi",
+            "rank": 8,
+            "score": 0.5723279714584351,
+            "state": "Illinois"
+        },
+        {
+            "address": "Fish on Fire Restaurant, 1615 Milwaukee Ave #135, Glenview, IL 60025",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse']",
+            "gmap_id": "0x880fb86e580db4a7:0xe76307b150ecdf",
+            "iid": 11191,
+            "name": "Fish on Fire Restaurant",
+            "rank": 9,
+            "score": 0.5702513456344604,
+            "state": "Illinois"
+        },
+        {
+            "address": "153 Akira, 1137 Greenleaf Ave, Wilmette, IL 60091",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fc537e244973f:0x10563d9366f17cba",
+            "iid": 11228,
+            "name": "153 Akira",
+            "rank": 10,
+            "score": 0.5699182152748108,
+            "state": "Illinois"
+        },
+        {
+            "address": "Tensuke Sushi Catering, 3 S Arlington Heights Rd, Elk Grove Village, IL 60007",
+            "category": "['Catering food and drink supplier', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fb04ebe2a1f1d:0xc5d9055d38f84aaa",
+            "iid": 11165,
+            "name": "Tensuke Sushi Catering",
+            "rank": 11,
+            "score": 0.5568703413009644,
+            "state": "Illinois"
+        },
+        {
+            "address": "Hannosuke, 100 E Algonquin Rd, Arlington Heights, IL 60005",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x880fb066655ec0c5:0x4b10c569016f2ace",
+            "iid": 11167,
+            "name": "Hannosuke",
+            "rank": 12,
+            "score": 0.5494967699050903,
+            "state": "Illinois"
+        },
+        {
+            "address": "Kurumaya, 1201 E Higgins Rd, Elk Grove Village, IL 60007",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fb0f94d302be9:0x972d7337f8b851ce",
+            "iid": 11178,
+            "name": "Kurumaya",
+            "rank": 13,
+            "score": 0.5413495302200317,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Kushi San3, 281 W Townline Rd #150, Vernon Hills, IL 60061",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880f964ad4d4ad99:0xdb07a169b7f11fd4",
+            "iid": 11101,
+            "name": "Sushi Kushi San3",
+            "rank": 14,
+            "score": 0.5411270260810852,
+            "state": "Illinois"
+        },
+        {
+            "address": "Fuji Thai, 1000 Weiland Rd, Buffalo Grove, IL 60089",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x880fbc3707289877:0xa9d8d15093bb3f38",
+            "iid": 11201,
+            "name": "Fuji Thai",
+            "rank": 15,
+            "score": 0.5402395129203796,
+            "state": "Illinois"
+        },
+        {
+            "address": "Fujiyama Japanese Restaurant, 3057 Dundee Rd, Northbrook, IL 60062",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fc0aaa0edf055:0x3d208ee7abd77842",
+            "iid": 11217,
+            "name": "Fujiyama Japanese Restaurant",
+            "rank": 16,
+            "score": 0.5371118187904358,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sakura Hibachi Grill & Sushi All You Can Eat, 1615 Milwaukee Ave #135, Glenview, IL 60025",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x880fb9fa6d9ccd63:0x72b87a1a4d29cb4e",
+            "iid": 11194,
+            "name": "Sakura Hibachi Grill & Sushi All You Can Eat",
+            "rank": 17,
+            "score": 0.5370109677314758,
+            "state": "Illinois"
+        },
+        {
+            "address": "Tensuke Market and Food Court, 3 S Arlington Heights Rd, Elk Grove Village, IL 60007",
+            "category": "['Japanese grocery store', 'Asian grocery store', 'Asian restaurant', 'Grocery store', 'Japanese restaurant', 'Ramen restaurant', 'Restaurant', 'Seafood market', 'Supermarket', 'Sushi restaurant']",
+            "gmap_id": "0x880fb04ed35d87f3:0x65db1d385abf2626",
+            "iid": 11166,
+            "name": "Tensuke Market and Food Court",
+            "rank": 18,
+            "score": 0.5235363841056824,
+            "state": "Illinois"
+        },
+        {
+            "address": "R & Roll Sushi Market, 8526 W Golf Rd L, Niles, IL 60714",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880fc80af354d4fd:0xce92ea3f40fd26f0",
+            "iid": 11248,
+            "name": "R & Roll Sushi Market",
+            "rank": 19,
+            "score": 0.520057737827301,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Gallery, 73 S Milwaukee Ave, Wheeling, IL 60090",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x880fbeccd3c067e3:0xd7c256ec9f3305a3",
+            "iid": 11212,
+            "name": "Sushi Gallery",
+            "rank": 20,
+            "score": 0.5142803192138672,
+            "state": "Illinois"
+        }
+    ],
+    "user": {
+        "name": "\uc815\uc131\uc6a9sung chung",
+        "uid": 134426,
+        "user_id": 118165438814086840308
+    }
+}

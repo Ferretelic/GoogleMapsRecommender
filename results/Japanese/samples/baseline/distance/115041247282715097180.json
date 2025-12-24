@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "The Seafood Shanty, 31 Dock St, Edgartown, MA 02539",
+            "category": "['Seafood restaurant', 'Bar', 'Sushi restaurant']",
+            "date": "2015/11/24",
+            "gmap_id": "0x89e52c3b957b2c57:0x14bd0bf1a8f1bc7d",
+            "iid": 21345,
+            "name": "The Seafood Shanty",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448386230593
+        },
+        {
+            "address": "Mandarin Westboro Inc, 132 Turnpike Rd, Westborough, MA 01581",
+            "category": "['Asian restaurant', 'Chinese restaurant', 'Sichuan restaurant', 'Sushi restaurant']",
+            "date": "2015/11/28",
+            "gmap_id": "0x89e40a92bbc9ec63:0x82c966e5013b38f3",
+            "iid": 21224,
+            "name": "Mandarin Westboro Inc",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1448741598199
+        },
+        {
+            "address": "Takara Japanese Restaurant, 15 Elissa Ave, Wayland, MA 01778",
+            "category": "['Japanese restaurant']",
+            "date": "2016/01/16",
+            "gmap_id": "0x89e3859d1b6d3c19:0x36906cfaaf719de6",
+            "iid": 21120,
+            "name": "Takara Japanese Restaurant",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1452952022788
+        },
+        {
+            "address": "P.F. Chang's, 1245 Worcester St Ste #4008, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Chinese restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "date": "2017/01/16",
+            "gmap_id": "0x89e38882bf8d47cb:0xc639b0ea7ed17f56",
+            "iid": 21127,
+            "name": "P.F. Chang's",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1484592292461
+        },
+        {
+            "address": "Tanaka, 222 E 51st St, New York, NY 10022",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/03/29",
+            "gmap_id": "0x89c258e31b884675:0xaa66aa08c4ed8624",
+            "iid": 18040,
+            "name": "Tanaka",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1522323566865
+        },
+        {
+            "address": "East Sushi Restaurant, 43 Scotch Rd, Ewing Township, NJ 08628",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2018/07/18",
+            "gmap_id": "0x89c157e712b8531f:0x5bd4da75682a1f00",
+            "iid": 17630,
+            "name": "East Sushi Restaurant",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1531952628484
+        },
+        {
+            "address": "Shanghai Tokyo, 54 E Central St, Natick, MA 01760",
+            "category": "['Chinese restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "date": "2018/07/20",
+            "gmap_id": "0x89e387ac940ca26f:0x186c570995cc552b",
+            "iid": 21125,
+            "name": "Shanghai Tokyo",
+            "split": "train",
+            "state": "Massachusetts",
+            "unix_time": 1532047209910
+        },
+        {
+            "address": "Sanraku, 704 Sutter St, San Francisco, CA 94109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2018/12/14",
+            "gmap_id": "0x8085808dfcc7fae9:0xb0cb8149aa4e8ce2",
+            "iid": 2358,
+            "name": "Sanraku",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1544748786788
+        },
+        {
+            "address": "Pho 1 Waltham, 374 Moody St, Waltham, MA 02453",
+            "category": "['Pho restaurant', 'Asian restaurant', 'Chicken wings restaurant', 'Japanese restaurant', 'Korean restaurant', 'Seafood restaurant', 'Thai restaurant', 'Vietnamese restaurant']",
+            "date": "2019/02/04",
+            "gmap_id": "0x89e382d8e1b5c22d:0xfbdfd12f238d15c1",
+            "iid": 21113,
+            "name": "Pho 1 Waltham",
+            "split": "valid",
+            "state": "Massachusetts",
+            "unix_time": 1549238752392
+        },
+        {
+            "address": "Kazan BBQ, Ramen, & Bar, 1 Crossgates Mall Rd, Albany, NY 12203",
+            "category": "['Ramen restaurant', 'Bar', 'BBQ area', 'Japanese steakhouse']",
+            "date": "2021/04/25",
+            "gmap_id": "0x89de7531f774e0e7:0xcc7623e30e4cf76d",
+            "iid": 20763,
+            "name": "Kazan BBQ, Ramen, & Bar",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1619313704195
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Soy, 419 Main St, Rosendale, NY 12472",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x89dd1bca2856f93b:0x79b4e2a6e638a93e",
+            "iid": 20666,
+            "name": "Soy",
+            "rank": 1,
+            "score": -3.010037899017334,
+            "state": "New_York"
+        },
+        {
+            "address": "Pok\u00e9moto, 1145 Chapel St, New Haven, CT 06511",
+            "category": "['Hawaiian restaurant', 'Asian restaurant', 'Health food restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x89e7d923f19ec481:0xbf22afa3b26e6362",
+            "iid": 21497,
+            "name": "Pok\u00e9moto",
+            "rank": 2,
+            "score": -3.0189027786254883,
+            "state": "Connecticut"
+        },
+        {
+            "address": "Taka Mediterranean Bar and Grill, 16b Wharf St, Boothbay Harbor, ME 04538",
+            "category": "['Mediterranean restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x4cad997b73ccc36d:0x90faa3c22c3cd779",
+            "iid": 21,
+            "name": "Taka Mediterranean Bar and Grill",
+            "rank": 3,
+            "score": -3.0336661338806152,
+            "state": "Maine"
+        },
+        {
+            "address": "Noodle Hut & Sushi Bar, Sparks, NV 89431",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80993f3091542dfd:0x341c042d25ba0574",
+            "iid": 3536,
+            "name": "Noodle Hut & Sushi Bar",
+            "rank": 4,
+            "score": -3.068251848220825,
+            "state": "Nevada"
+        },
+        {
+            "address": "Florida, Jacksonville, River Marsh Dr, SUSHI HOUSE 2 at town center\u90ae\u653f\u7f16\u7801: 32246",
+            "category": "['Sushi restaurant', 'Izakaya restaurant', 'Japanese restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x88e5b52688543dbd:0x5696c9a36dbf20ec",
+            "iid": 15209,
+            "name": "SUSHI HOUSE 2 at town center",
+            "rank": 5,
+            "score": -3.076603889465332,
+            "state": "Florida"
+        },
+        {
+            "address": "Asian Station, 1343 W Morse Ave, Chicago, IL 60626",
+            "category": "['Restaurant', 'Asian restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "gmap_id": "0x880fd1f8bfafc573:0x579fb6881e41a177",
+            "iid": 11318,
+            "name": "Asian Station",
+            "rank": 6,
+            "score": -3.0795738697052,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Miguels Style Highland, 7199 Boulder Ave UNIT 2, Highland, CA 92346",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c355a93311849b:0x50db28e0103c93fc",
+            "iid": 5165,
+            "name": "Sushi Miguels Style Highland",
+            "rank": 7,
+            "score": -3.0942554473876953,
+            "state": "California"
+        },
+        {
+            "address": "Bonchon Addison, 4980 Belt Line Rd Suite 140, Dallas, TX 75254",
+            "category": "['Asian fusion restaurant', 'Asian restaurant', 'Chicken restaurant', 'Chicken wings restaurant', 'Fried chicken takeaway', 'Japanese restaurant', 'Korean restaurant', 'Pan-Asian restaurant']",
+            "gmap_id": "0x864c219f724cac25:0x38cf9fdda43c0f0",
+            "iid": 7947,
+            "name": "Bonchon Addison",
+            "rank": 8,
+            "score": -3.094670295715332,
+            "state": "Texas"
+        },
+        {
+            "address": "Sushi One Spot, 9405 Monte Vista Ave, Montclair, CA 91763",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c331c7ec95894d:0xf651c4bd7b35f685",
+            "iid": 5092,
+            "name": "Sushi One Spot",
+            "rank": 9,
+            "score": -3.0951642990112305,
+            "state": "California"
+        },
+        {
+            "address": "Q Sushi Bar & Omakase, 4845 N Damen Ave., Chicago, IL 60625",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x880fd306d715ff05:0x12309afda7bd955c",
+            "iid": 11369,
+            "name": "Q Sushi Bar & Omakase",
+            "rank": 10,
+            "score": -3.098752498626709,
+            "state": "Illinois"
+        },
+        {
+            "address": "Umami, 18921 University Blvd #900, Sugar Land, TX 77479",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8640e5b27f6c7d13:0x2c280f2db7c0ddcd",
+            "iid": 7550,
+            "name": "Umami",
+            "rank": 11,
+            "score": -3.099768877029419,
+            "state": "Texas"
+        },
+        {
+            "address": "Kotsu Ramen & Gyoza, 9359 Central Ave #C, Montclair, CA 91763",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80c33173381bea19:0x178148e70d791319",
+            "iid": 5085,
+            "name": "Kotsu Ramen & Gyoza",
+            "rank": 12,
+            "score": -3.100552558898926,
+            "state": "California"
+        },
+        {
+            "address": "Aozora Japanese Restaurant, 820 Sycamore Valley Rd, Danville, CA 94526",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x808f8d372f757fc5:0xbbf2865fea2be5a3",
+            "iid": 2922,
+            "name": "Aozora Japanese Restaurant",
+            "rank": 13,
+            "score": -3.102388381958008,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Sakana Southlake, 2175 E Southlake Blvd #170, Southlake, TX 76092",
+            "category": "['Japanese restaurant', 'Asian fusion restaurant']",
+            "gmap_id": "0x864dd5663e11dd69:0xebc47d683d81af28",
+            "iid": 8141,
+            "name": "Sushi Sakana Southlake",
+            "rank": 14,
+            "score": -3.104163408279419,
+            "state": "Texas"
+        },
+        {
+            "address": "Tahk Omakase Sushi, 737 Lincoln Ave, Steamboat Springs, CO 80487",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x874269419caa5f51:0x8e1b6acc59ae233f",
+            "iid": 9253,
+            "name": "Tahk Omakase Sushi",
+            "rank": 15,
+            "score": -3.1055450439453125,
+            "state": "Colorado"
+        },
+        {
+            "address": "California, San Francisco, 20th St, Yoji House\u90ae\u653f\u7f16\u7801: 94110",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bubble tea store']",
+            "gmap_id": "0x808f7fd5297e6c73:0xc12d39e4d3397baf",
+            "iid": 2866,
+            "name": "Yoji House",
+            "rank": 16,
+            "score": -3.1061794757843018,
+            "state": "California"
+        },
+        {
+            "address": "T&J Restaurant, 1601 County Rd 42 W, Burnsville, MN 55306",
+            "category": "['Thai restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87f63bf84acaa893:0xf43557372665ea9f",
+            "iid": 10608,
+            "name": "T&J Restaurant",
+            "rank": 17,
+            "score": -3.106201648712158,
+            "state": "Minnesota"
+        },
+        {
+            "address": "n/soto, 4566 W Washington Blvd, Los Angeles, CA 90016",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c2b9c6f355bbaf:0xaa31f74ab8b51600",
+            "iid": 4279,
+            "name": "n/soto",
+            "rank": 18,
+            "score": -3.1077234745025635,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Enya Beverly Hills, 480 S San Vicente Blvd, Los Angeles, CA 90048",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x80c2b9dd3e58da15:0xc96ba51c4fd2b4b5",
+            "iid": 4282,
+            "name": "Sushi Enya Beverly Hills",
+            "rank": 19,
+            "score": -3.1078262329101562,
+            "state": "California"
+        },
+        {
+            "address": "SushiFork, 1008 E Battlefield Rd Suite 100, Springfield, MO 65807",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x87cf6501ff4228b3:0x47c493e9c46dbd2f",
+            "iid": 10318,
+            "name": "SushiFork",
+            "rank": 20,
+            "score": -3.1080336570739746,
+            "state": "Missouri"
+        }
+    ],
+    "user": {
+        "name": "Vasu Nagalingam",
+        "uid": 111370,
+        "user_id": 115041247282715097180
+    }
+}

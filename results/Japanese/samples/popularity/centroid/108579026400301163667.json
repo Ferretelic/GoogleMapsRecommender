@@ -1,0 +1,337 @@
+{
+    "history": [
+        {
+            "address": "Don Quijote Honolulu, 801 Kaheka St, Honolulu, HI 96814",
+            "category": "['Supermarket', 'Asian grocery store', 'General store', 'Grocery store', 'Japanese grocery store', 'Pharmacy']",
+            "date": "2018/07/19",
+            "gmap_id": "0x7c006dede4a406b3:0x328c1ae0697b7359",
+            "iid": 1897,
+            "name": "Don Quijote Honolulu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1531987236947
+        },
+        {
+            "address": "Mamaya, 98-199 Kamehameha Hwy A-7B, Aiea, HI 96701",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "date": "2018/07/28",
+            "gmap_id": "0x7c006f52259fec47:0x2011717ac3237cd5",
+            "iid": 1983,
+            "name": "Mamaya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1532818993348
+        },
+        {
+            "address": "Izakaya Torae Torae, 1111 McCully St, Honolulu, HI 96826",
+            "category": "['Sushi restaurant', 'Asian restaurant']",
+            "date": "2018/09/01",
+            "gmap_id": "0x7c006df28f7603d3:0x904efc9938b179bc",
+            "iid": 1930,
+            "name": "Izakaya Torae Torae",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1535785099475
+        },
+        {
+            "address": "Aunty's Ramen, 1110 McCully St, Honolulu, HI 96826",
+            "category": "['Ramen restaurant']",
+            "date": "2018/11/08",
+            "gmap_id": "0x7c006d939cf63789:0x2a8866f414ab13b0",
+            "iid": 1855,
+            "name": "Aunty's Ramen",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1541661933507
+        },
+        {
+            "address": "sushi mon, 8320 W Sahara Ave #180, Las Vegas, NV 89117",
+            "category": "['Sushi restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x80c8c099c612a7d7:0x2ef03a37d49e8296",
+            "iid": 5232,
+            "name": "sushi mon",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1546317748529
+        },
+        {
+            "address": "RA Sushi Bar Restaurant and Ramen Sensei, 13802 N Scottsdale Rd #176, Scottsdale, AZ 85254",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Bar', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/01/01",
+            "gmap_id": "0x872b7415984cd6f9:0x6742aa51d351199f",
+            "iid": 9128,
+            "name": "RA Sushi Bar Restaurant and Ramen Sensei",
+            "split": "train",
+            "state": "Arizona",
+            "unix_time": 1546317827849
+        },
+        {
+            "address": "Ramen Ya, 2810 Valkenburgh St, Honolulu, HI 96818",
+            "category": "['Japanese restaurant']",
+            "date": "2019/01/07",
+            "gmap_id": "0x7c006f7347bf7367:0xfba97e8979b70a8",
+            "iid": 1991,
+            "name": "Ramen Ya",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1546845458403
+        },
+        {
+            "address": "Shirokiya Japan Village Walk, 1450 Ala Moana Blvd #1360, Honolulu, HI 96814",
+            "category": "['Food court', 'Bakery', 'Beer garden', 'Collectibles store', 'Dessert shop', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/01/19",
+            "gmap_id": "0x7c006df045a36271:0xc32f4e283f2349fa",
+            "iid": 1915,
+            "name": "Shirokiya Japan Village Walk",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1547880365609
+        },
+        {
+            "address": "Junpuu, 1010 S King St #108, Honolulu, HI 96814, United States",
+            "category": "['Ramen restaurant', 'Noodle shop']",
+            "date": "2019/02/03",
+            "gmap_id": "0x7c006de6f0845ce5:0xe1ec9e0c4d3d0f29",
+            "iid": 1884,
+            "name": "Junpuu",
+            "split": "train",
+            "state": "Hawaii",
+            "unix_time": 1549186702049
+        },
+        {
+            "address": "Goma Tei Ramen Pearlridge, 98-1005 Moanalua Rd, Aiea, HI 96701",
+            "category": "['Ramen restaurant']",
+            "date": "2019/04/07",
+            "gmap_id": "0x7c006f52b43fd78b:0x39f540bb84b1d72d",
+            "iid": 1988,
+            "name": "Goma Tei Ramen Pearlridge",
+            "split": "valid",
+            "state": "Hawaii",
+            "unix_time": 1554623876513
+        },
+        {
+            "address": "Matsuzaka-Tei, 1029 Makolu St B, Pearl City, HI 96782",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/29",
+            "gmap_id": "0x7c00660d0fc65569:0x5ad624fe38aaa438",
+            "iid": 1778,
+            "name": "Matsuzaka-Tei",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1561803767134
+        }
+    ],
+    "model": {
+        "model": "popularity",
+        "name": "Popularity (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Uwajimaya Seattle, 600 5th Ave S, Seattle, WA 98104",
+            "category": "['Asian grocery store', 'Grocery store', 'Japanese grocery store', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x54906abcdbd7d9ab:0xfeedcd4ac66b4ebb",
+            "iid": 764,
+            "name": "Uwajimaya Seattle",
+            "rank": 1,
+            "score": 0.3440612554550171,
+            "state": "Washington"
+        },
+        {
+            "address": "Mitsuwa Marketplace - San Jose, 675 Saratoga Ave, San Jose, CA 95129",
+            "category": "['Japanese grocery store']",
+            "gmap_id": "0x808fca9666411fd9:0x1d01b64563871544",
+            "iid": 3245,
+            "name": "Mitsuwa Marketplace - San Jose",
+            "rank": 2,
+            "score": 0.3410341441631317,
+            "state": "California"
+        },
+        {
+            "address": "Mitsuwa Marketplace - Costa Mesa, 665 Paularino Ave, Costa Mesa, CA 92626",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "gmap_id": "0x80dcdf18d4624d87:0xe5f53a926eebb3e1",
+            "iid": 6270,
+            "name": "Mitsuwa Marketplace - Costa Mesa",
+            "rank": 3,
+            "score": 0.27477937936782837,
+            "state": "California"
+        },
+        {
+            "address": "Mitsuwa Marketplace, 3525 W Carson St Suite 164, Torrance, CA 90503",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "gmap_id": "0x80dd4aa4e45b9231:0xe6bbb3af7a2987bb",
+            "iid": 6688,
+            "name": "Mitsuwa Marketplace",
+            "rank": 4,
+            "score": 0.2540436387062073,
+            "state": "California"
+        },
+        {
+            "address": "Musubi Cafe IYASUME, Pacific Monarch Hotel, 2427 K\u016bhi\u014d Ave. #1F, Honolulu, HI 96815",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x7c007276f8314f95:0x4bb749f7fe9ecf63",
+            "iid": 2031,
+            "name": "Musubi Cafe IYASUME",
+            "rank": 5,
+            "score": 0.23594285547733307,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Marukai Wholesale Mart, 2310 Kamehameha Hwy, Honolulu, HI 96819",
+            "category": "['Japanese grocery store', 'Supermarket']",
+            "gmap_id": "0x7c006e5f5fb22137:0x79fe3b0c6a851b01",
+            "iid": 1954,
+            "name": "Marukai Wholesale Mart",
+            "rank": 6,
+            "score": 0.2285049706697464,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Sushi Tomi, 635 W Dana St, Mountain View, CA 94041, United States",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x808fb73161d008c9:0xf1ccd9ca251ef04",
+            "iid": 3134,
+            "name": "Sushi Tomi",
+            "rank": 7,
+            "score": 0.22505716979503632,
+            "state": "California"
+        },
+        {
+            "address": "Mitsuwa Marketplace - New Jersey, 595 River Rd, Edgewater, NJ 07020",
+            "category": "['Supermarket', 'Food court', 'Japanese grocery store', 'Japanese restaurant']",
+            "gmap_id": "0x89c2f64a5606cb39:0x9d3e2d129ac7672e",
+            "iid": 19447,
+            "name": "Mitsuwa Marketplace - New Jersey",
+            "rank": 8,
+            "score": 0.20987121760845184,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "Uwajimaya Beaverton, 10500 SW Beaverton Hillsdale Hwy, Beaverton, OR 97005",
+            "category": "['Asian grocery store', 'Grocery store', 'Japanese grocery store', 'Seafood market', 'Supermarket']",
+            "gmap_id": "0x54950c04c07d5089:0x5b2f345008809c32",
+            "iid": 1077,
+            "name": "Uwajimaya Beaverton",
+            "rank": 9,
+            "score": 0.19973501563072205,
+            "state": "Oregon"
+        },
+        {
+            "address": "Zippy's McCully, 1725 S King St, Honolulu, HI 96826",
+            "category": "['Restaurant', 'American restaurant', 'Asian restaurant', 'Bakery', 'Fast food restaurant', 'Hawaiian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006decc84a7cd7:0xb44926a6ca941be8",
+            "iid": 1895,
+            "name": "Zippy's McCully",
+            "rank": 10,
+            "score": 0.18588240444660187,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Yanagi Sushi, 762 Kapiolani Blvd, Honolulu, HI 96813",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x7c006de1823ce179:0x6b40181ed0595260",
+            "iid": 1872,
+            "name": "Yanagi Sushi",
+            "rank": 11,
+            "score": 0.18086549639701843,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Mitsuwa Marketplace, 100 E Algonquin Rd, Arlington Heights, IL 60005",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "gmap_id": "0x880fb066729e09b3:0xedcf27a9d8c1647c",
+            "iid": 11171,
+            "name": "Mitsuwa Marketplace",
+            "rank": 12,
+            "score": 0.17748449742794037,
+            "state": "Illinois"
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 2012,
+            "name": "Hula Grill Waikiki",
+            "rank": 13,
+            "score": 0.17642679810523987,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Waikiki Yokocho, 2250 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Japanese restaurant', 'Japanese curry restaurant', 'Ramen restaurant', 'Restaurant', 'Sushi restaurant', 'Yakiniku restaurant']",
+            "gmap_id": "0x7c007275f2dd9c43:0x12f22ad501ad9912",
+            "iid": 2020,
+            "name": "Waikiki Yokocho",
+            "rank": 14,
+            "score": 0.17642253637313843,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tanioka's Seafoods & Catering, 94-903 Farrington Hwy, Waipahu, HI 96797",
+            "category": "['Seafood restaurant', 'Asian restaurant', 'Caterer', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x7c00642d38c63875:0xeb422ddac09bd95d",
+            "iid": 1764,
+            "name": "Tanioka's Seafoods & Catering",
+            "rank": 15,
+            "score": 0.1724584549665451,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Mitsuwa Marketplace - Santa Monica, 3760 S Centinela Ave, Los Angeles, CA 90066",
+            "category": "['Japanese grocery store', 'Food court', 'Japanese restaurant', 'Supermarket']",
+            "gmap_id": "0x80c2ba5c00ef0963:0x9816c7db3afce282",
+            "iid": 4300,
+            "name": "Mitsuwa Marketplace - Santa Monica",
+            "rank": 16,
+            "score": 0.17086759209632874,
+            "state": "California"
+        },
+        {
+            "address": "Daikokuya Little Tokyo, 327 E 1st St, Los Angeles, CA 90012",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant', 'Lunch restaurant', 'Restaurant', 'Rice restaurant', 'Soup restaurant', 'Sushi restaurant', 'Tempura restaurant', 'Vegan restaurant']",
+            "gmap_id": "0x80c2c647c36efd67:0xc53f5231ed83a07c",
+            "iid": 4674,
+            "name": "Daikokuya Little Tokyo",
+            "rank": 17,
+            "score": 0.16788709163665771,
+            "state": "California"
+        },
+        {
+            "address": "Japonessa Sushi Cocina, 1400 1st Ave, Seattle, WA 98101",
+            "category": "['Sushi restaurant', 'Asian fusion restaurant', 'Bar', 'Delivery service', 'Japanese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x54906ab24f2c0953:0x76d1c08a65e548de",
+            "iid": 745,
+            "name": "Japonessa Sushi Cocina",
+            "rank": 18,
+            "score": 0.16548185050487518,
+            "state": "Washington"
+        },
+        {
+            "address": "Shokudo Japanese Restaurant & Bar, 1585 Kapiolani Blvd, Honolulu, HI 96814",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x7c006df1ea149aa7:0xdaf0c72a311f2642",
+            "iid": 1925,
+            "name": "Shokudo Japanese Restaurant & Bar",
+            "rank": 19,
+            "score": 0.16217298805713654,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Tonkatsu Tamafuji, 449 Kapahulu Ave, Honolulu, HI 96815",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x7c0072792b7bbe6f:0x1236c7d123283ebc",
+            "iid": 2033,
+            "name": "Tonkatsu Tamafuji",
+            "rank": 20,
+            "score": 0.15960949659347534,
+            "state": "Hawaii"
+        }
+    ],
+    "user": {
+        "name": "Gordon Lam",
+        "uid": 63531,
+        "user_id": 108579026400301163667
+    }
+}

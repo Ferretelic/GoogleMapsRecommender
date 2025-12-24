@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China King, 3743 Elm St, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "date": "2016/12/30",
+            "gmap_id": "0x87df25e5266c71c3:0xa8525f2212c17412",
+            "iid": 34218,
+            "name": "China King",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1483123880316
+        },
+        {
+            "address": "China One, 2012 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/02/23",
+            "gmap_id": "0x87df2df34b1c3627:0x84ba94cd53d55e64",
+            "iid": 34251,
+            "name": "China One",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1487869361071
+        },
+        {
+            "address": "India Palace, 12322 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x87df316a2bda29a7:0x766ba2c892ef935",
+            "iid": 34260,
+            "name": "India Palace",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1498874196621
+        },
+        {
+            "address": "Love Sushi, 2201 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/21",
+            "gmap_id": "0x87db5ea849e05593:0x8dd5c262ac203f9d",
+            "iid": 34112,
+            "name": "Love Sushi",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1534816019261
+        },
+        {
+            "address": "India's House, 1101 E Broadway, Columbia, MO 65201",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb7c30f1b2607:0x19314a856d0da3f3",
+            "iid": 34137,
+            "name": "India's House",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708214276
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 2531 Broadway Bluffs Dr, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb81e42d80a1b:0x4c46ecdc36ccc33a",
+            "iid": 34153,
+            "name": "Kobe Japanese Steakhouse",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708293120
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/26",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1553625068237
+        },
+        {
+            "address": "Panda Cafe, 501 Hwy 28, Owensville, MO 65066",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87dbeae3992f9439:0x5274da7cadee17fd",
+            "iid": 34118,
+            "name": "Panda Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1556980653783
+        },
+        {
+            "address": "Kabab N Kurry, 2220 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Indian restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87df2f20371a1d4f:0xf37669ed4f7c6d28",
+            "iid": 34256,
+            "name": "Kabab N Kurry",
+            "split": "valid",
+            "state": "Missouri",
+            "unix_time": 1556980671124
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 6519,
+            "name": "Hula Grill Waikiki",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1563149917750
+        }
+    ],
+    "model": {
+        "model": "best",
+        "name": "LightGCN Best (Cosine)",
+        "type": "cosine"
+    },
+    "recommendations": [
+        {
+            "address": "China House Buffet, 1325 Bass Pro Drive, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery service', 'Takeout Restaurant']",
+            "gmap_id": "0x87df2efb3c6750bf:0xd056dc648de5f23e",
+            "iid": 34254,
+            "name": "China House Buffet",
+            "rank": 1,
+            "score": 0.5846379995346069,
+            "state": "Missouri"
+        },
+        {
+            "address": "P.F. Chang's, 400 Lombard St, St Charles, MO 63303",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Dim sum restaurant', 'Takeout Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87df2ef0854fafb5:0x456dc7869c31e73e",
+            "iid": 34253,
+            "name": "P.F. Chang's",
+            "rank": 2,
+            "score": 0.5829818248748779,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Garden, 3420 Clark Ln, Columbia, MO 65202, United States",
+            "category": "['Chinese restaurant', 'Buffet restaurant', 'Japanese steakhouse']",
+            "gmap_id": "0x87dcb80a4844daad:0x80f6025f75c8e0f6",
+            "iid": 34149,
+            "name": "China Garden",
+            "rank": 3,
+            "score": 0.5720030665397644,
+            "state": "Missouri"
+        },
+        {
+            "address": "Sabaai-Sabaai Thai Cuisine, 219 Madison St #3229, Jefferson City, MO 65101",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87db5e4415f70047:0x521fac5d986f350c",
+            "iid": 34108,
+            "name": "Sabaai-Sabaai Thai Cuisine",
+            "rank": 4,
+            "score": 0.5687650442123413,
+            "state": "Missouri"
+        },
+        {
+            "address": "Hunan Restaurant, 1416 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Asian restaurant', 'Caterer', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x87db5eeffe900907:0x5a20a30c4274da5",
+            "iid": 34114,
+            "name": "Hunan Restaurant",
+            "rank": 5,
+            "score": 0.561778724193573,
+            "state": "Missouri"
+        },
+        {
+            "address": "Kojaba Bar Korean Japanese BBQ, 21 N Providence Rd, Columbia, MO 65203",
+            "category": "['Korean restaurant', 'Bar', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87dcc9d44fb91543:0xea013838b1911a20",
+            "iid": 34158,
+            "name": "Kojaba Bar Korean Japanese BBQ",
+            "rank": 6,
+            "score": 0.5585153698921204,
+            "state": "Missouri"
+        },
+        {
+            "address": "Green China, 2148 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87df2f1f39ad44c3:0xf6c089617d904971",
+            "iid": 34255,
+            "name": "Green China",
+            "rank": 7,
+            "score": 0.5570562481880188,
+            "state": "Missouri"
+        },
+        {
+            "address": "Sake Japanese Bistro and Bar, 16 S 10th St, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Bar', 'Cocktail bar', 'Sports bar', 'Sushi restaurant']",
+            "gmap_id": "0x87dcb7c39a8dc663:0x8c7c33d68db10b56",
+            "iid": 34139,
+            "name": "Sake Japanese Bistro and Bar",
+            "rank": 8,
+            "score": 0.554324746131897,
+            "state": "Missouri"
+        },
+        {
+            "address": "Fuji Japanese Steak House & Sushi Bar, 3600 Country Club Dr Ste 512, Jefferson City, MO 65109",
+            "category": "['Japanese restaurant', 'Restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x87db5903411e7b9b:0xc751da1b8855229c",
+            "iid": 34107,
+            "name": "Fuji Japanese Steak House & Sushi Bar",
+            "rank": 9,
+            "score": 0.548287570476532,
+            "state": "Missouri"
+        },
+        {
+            "address": "Okii Mama, 3709 S Providence Rd c, Columbia, MO 65203",
+            "category": "['Taiwanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Korean restaurant', 'Thai restaurant']",
+            "gmap_id": "0x87dcb71b9dbf6f75:0xe6f2b41a8ab26f6c",
+            "iid": 34130,
+            "name": "Okii Mama",
+            "rank": 10,
+            "score": 0.5474994778633118,
+            "state": "Missouri"
+        },
+        {
+            "address": "Dragon Kitchen, 1893 N Bluff St, Fulton, MO 65251",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87dc8ef35ea63847:0x76a34a8d221414d6",
+            "iid": 34120,
+            "name": "Dragon Kitchen",
+            "rank": 11,
+            "score": 0.5465542078018188,
+            "state": "Missouri"
+        },
+        {
+            "address": "Osaka Japanese Restaurant, 120 E Nifong Blvd, Columbia, MO 65203",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87dcb71c6957aced:0x90cd975ccf291f76",
+            "iid": 34132,
+            "name": "Osaka Japanese Restaurant",
+            "rank": 12,
+            "score": 0.5451025366783142,
+            "state": "Missouri"
+        },
+        {
+            "address": "Panda Express, 91 Conley Rd, Columbia, MO 65201",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87dcb81a6a23d067:0x9e0ae0686a2f4bb2",
+            "iid": 34151,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": 0.5347796678543091,
+            "state": "Missouri"
+        },
+        {
+            "address": "Love Sushi, 2101 W Broadway Suite S, Columbia, MO 65203",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87dcb6051c730549:0x4967f38cf4a09ef0",
+            "iid": 34126,
+            "name": "Love Sushi",
+            "rank": 14,
+            "score": 0.5335268974304199,
+            "state": "Missouri"
+        },
+        {
+            "address": "Jina Yoo's Asian Bistro, 2200 Forum Blvd #108, Columbia, MO 65203",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87dcb6672e19c729:0xcb0cb2c53eaf89f",
+            "iid": 34127,
+            "name": "Jina Yoo's Asian Bistro",
+            "rank": 15,
+            "score": 0.532710611820221,
+            "state": "Missouri"
+        },
+        {
+            "address": "J Vietnamese Cafe, 1406 Missouri Blvd ste c, Jefferson City, MO 65109",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x87db5ef00e2c9e2b:0x896ee88f2c69520",
+            "iid": 34115,
+            "name": "J Vietnamese Cafe",
+            "rank": 16,
+            "score": 0.5258775949478149,
+            "state": "Missouri"
+        },
+        {
+            "address": "Kampai, 907 Alley A, Columbia, MO 65201",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87dcb7c478a10f37:0xde1c63664138b30e",
+            "iid": 34141,
+            "name": "Kampai",
+            "rank": 17,
+            "score": 0.5245441794395447,
+            "state": "Missouri"
+        },
+        {
+            "address": "Red Sky Chinese Bistro, 112 E Dunklin St, Jefferson City, MO 65101",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x87db5e5d01256927:0x7134fe09ebdff59f",
+            "iid": 34110,
+            "name": "Red Sky Chinese Bistro",
+            "rank": 18,
+            "score": 0.5239992141723633,
+            "state": "Missouri"
+        },
+        {
+            "address": "Surah Korean Cuisine & BBQ, 3510 Interstate 70 Dr SE ste a, Columbia, MO 65201",
+            "category": "['Korean restaurant', 'Delivery service', 'Takeout Restaurant']",
+            "gmap_id": "0x87dcb9fc86adf5e7:0xb19374d199f4bb7a",
+            "iid": 34154,
+            "name": "Surah Korean Cuisine & BBQ",
+            "rank": 19,
+            "score": 0.5189610719680786,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thip Thai Cuisine, 3907 Peachtree Dr, Columbia, MO 65203",
+            "category": "['Thai restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87dcb71c3a65a34f:0xa878ebd9e55bee2d",
+            "iid": 34131,
+            "name": "Thip Thai Cuisine",
+            "rank": 20,
+            "score": 0.5159230828285217,
+            "state": "Missouri"
+        }
+    ],
+    "user": {
+        "name": "J Kinz",
+        "uid": 46530,
+        "user_id": 101558051927312437326
+    }
+}

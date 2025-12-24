@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Iron Chef, 4301 S Meridian, Puyallup, WA 98373",
+            "category": "['Japanese steakhouse']",
+            "date": "2011/05/04",
+            "gmap_id": "0x5490fc41a57d39e9:0x97f187f3989a0611",
+            "iid": 3318,
+            "name": "Iron Chef",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1304524345505
+        },
+        {
+            "address": "Mercel's Bake Shop, 8500 49th St N, Pinellas Park, FL 33781",
+            "category": "['Filipino restaurant', 'Asian grocery store', 'Caterer', 'Grocery delivery service', 'Market', 'Restaurant']",
+            "date": "2011/05/04",
+            "gmap_id": "0x88c2e4f1893bd035:0x123821f91c1c1f5a",
+            "iid": 47284,
+            "name": "Mercel's Bake Shop",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1304524407177
+        },
+        {
+            "address": "Siam Thai Restaurant, Westchase, 9546 W Linebaugh Ave, Tampa, FL 33626",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "date": "2011/06/02",
+            "gmap_id": "0x88c2ea5b0f26087b:0x33271cf4cf86f14f",
+            "iid": 47327,
+            "name": "Siam Thai Restaurant, Westchase",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1307030368572
+        },
+        {
+            "address": "China Yuan, 8502 N Armenia Ave #1a, Tampa, FL 33604",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2011/08/01",
+            "gmap_id": "0x88c2c1376c5795b3:0x28b90c65d625d642",
+            "iid": 46976,
+            "name": "China Yuan",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1312219448847
+        },
+        {
+            "address": "Taki Japanese Steakhouse, 4711 Ashford Dunwoody Rd, Atlanta, GA 30338",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2011/08/14",
+            "gmap_id": "0x88f5095f38b8aa71:0x16772f9a1432ced6",
+            "iid": 51575,
+            "name": "Taki Japanese Steakhouse",
+            "split": "train",
+            "state": "Georgia",
+            "unix_time": 1313284088724
+        },
+        {
+            "address": "Florida, Clearwater, Gulf to Bay Blvd, Saki Endless Sushi & Hibachi Restaurant\u90ae\u653f\u7f16\u7801: 33759",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2015/02/01",
+            "gmap_id": "0x88c2efd7334bbe93:0xd5653c404a9a233d",
+            "iid": 47364,
+            "name": "Saki Endless Sushi & Hibachi Restaurant",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1422757053557
+        },
+        {
+            "address": "Saigon Deli, 3858 W Waters Ave, Tampa, FL 33614",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Deli', 'Restaurant']",
+            "date": "2017/02/06",
+            "gmap_id": "0x88c2c11349964eb9:0x138941c315dd1fc",
+            "iid": 46969,
+            "name": "Saigon Deli",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1486410668732
+        },
+        {
+            "address": "Thinh An Kitchen & Tofu, 8104 W Waters Ave, Tampa, FL 33615",
+            "category": "['Vietnamese restaurant']",
+            "date": "2019/08/18",
+            "gmap_id": "0x88c2ea0da825ff85:0x76720312887786d0",
+            "iid": 47324,
+            "name": "Thinh An Kitchen & Tofu",
+            "split": "train",
+            "state": "Florida",
+            "unix_time": 1566160307203
+        },
+        {
+            "address": "Blu Sushi, 13451 McGregor Blvd #23, Fort Myers, FL 33919",
+            "category": "['Sushi restaurant', 'Bar', 'Japanese restaurant', 'Night club', 'Restaurant', 'Seafood restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88db3f74f2ddc27b:0xfafbbec77631970d",
+            "iid": 49041,
+            "name": "Blu Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1578832424549
+        },
+        {
+            "address": "Florida, Tampa, N Dale Mabry Hwy, Saki Endless Sushi and Hibachi Grill Eatery\u90ae\u653f\u7f16\u7801: 33618",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2020/01/12",
+            "gmap_id": "0x88c2c0e5db8be0db:0x114693ff531b7ea8",
+            "iid": 46955,
+            "name": "Saki Endless Sushi and Hibachi Grill Eatery",
+            "split": "test",
+            "state": "Florida",
+            "unix_time": 1578832432401
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Wagasa Sushi & Hibachi, 712 D'Olive St, Bay Minette, AL 36507",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x889a8a07188f1ccb:0x8a0a2a919e9790e3",
+            "iid": 46664,
+            "name": "Wagasa Sushi & Hibachi",
+            "rank": 1,
+            "score": -27.460426330566406,
+            "state": "Alabama"
+        },
+        {
+            "address": "Super China Buffet, 3129, 615 D'Olive St #2, Bay Minette, AL 36507",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x889a8a072cffbdbf:0xa606c19294913fe2",
+            "iid": 46665,
+            "name": "Super China Buffet",
+            "rank": 2,
+            "score": -27.525394439697266,
+            "state": "Alabama"
+        },
+        {
+            "address": "Chen's Buffet, 121 Lindberg Ave, Atmore, AL 36502",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant', 'Restaurant']",
+            "gmap_id": "0x889079091700d155:0x34a6edf559994f93",
+            "iid": 46324,
+            "name": "Chen's Buffet",
+            "rank": 3,
+            "score": -30.228588104248047,
+            "state": "Alabama"
+        },
+        {
+            "address": "China Chef Restaurant, 118 Saraland Loop, Saraland, AL 36571",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x889a568d8e05be2d:0x5753d7b8fa11c65",
+            "iid": 46660,
+            "name": "China Chef Restaurant",
+            "rank": 4,
+            "score": -43.91480255126953,
+            "state": "Alabama"
+        },
+        {
+            "address": "China Palace Restaurant, 124 Saraland Blvd S, Saraland, AL 36571",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x889a56ecaa5512e5:0x96d402fe39ecb92f",
+            "iid": 46661,
+            "name": "China Palace Restaurant",
+            "rank": 5,
+            "score": -44.26236343383789,
+            "state": "Alabama"
+        },
+        {
+            "address": "Number 1 China Chinese Restaurant, 2401 College Ave, Jackson, AL 36545",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x889aca3241fc5e71:0x87d9382c27ffa90f",
+            "iid": 46666,
+            "name": "Number 1 China Chinese Restaurant",
+            "rank": 6,
+            "score": -46.73736572265625,
+            "state": "Alabama"
+        },
+        {
+            "address": "East Coast, 422 N Craft Hwy, Chickasaw, AL 36611",
+            "category": "['Restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x889a514157805993:0xc71fbffb4b3adfdb",
+            "iid": 46656,
+            "name": "East Coast",
+            "rank": 7,
+            "score": -48.577545166015625,
+            "state": "Alabama"
+        },
+        {
+            "address": "Stix, 10240 Eastern Shore Blvd #5813, Spanish Fort, AL 36527",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Chinese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x889a68239201267b:0xd8d3fb6979b25a97",
+            "iid": 46662,
+            "name": "Stix",
+            "rank": 8,
+            "score": -51.624996185302734,
+            "state": "Alabama"
+        },
+        {
+            "address": "Mekong, 3354 St Stephens Rd, Mobile, AL 36612",
+            "category": "['Asian restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x889a53b13ffc1a75:0x8ef86181459ebb1c",
+            "iid": 46659,
+            "name": "Mekong",
+            "rank": 9,
+            "score": -52.76663589477539,
+            "state": "Alabama"
+        },
+        {
+            "address": "Oishi Japanese Sushi Bar and Grill, 23000 Town Centre Ave #800, Spanish Fort, AL 36527",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x889a43103d9a769f:0xd77cce3be0046247",
+            "iid": 46614,
+            "name": "Oishi Japanese Sushi Bar and Grill",
+            "rank": 10,
+            "score": -53.13700866699219,
+            "state": "Alabama"
+        },
+        {
+            "address": "Peking Garden Restaurant, 2316 St Stephens Rd, Mobile, AL 36617",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x889a51f30ec72ee3:0xe62bc07c41e9db59",
+            "iid": 46657,
+            "name": "Peking Garden Restaurant",
+            "rank": 11,
+            "score": -53.9310417175293,
+            "state": "Alabama"
+        },
+        {
+            "address": "New South China, 29075 US-98, Daphne, AL 36526",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x889a43a012eb46dd:0xcf9f8a94d494fa1c",
+            "iid": 46616,
+            "name": "New South China",
+            "rank": 12,
+            "score": -54.659183502197266,
+            "state": "Alabama"
+        },
+        {
+            "address": "Nagoya Sushi Steakhouse, 29075 US-98, Daphne, AL 36526",
+            "category": "['Authentic Japanese restaurant', 'Chinese takeaway', 'Sushi takeaway', 'Wine bar']",
+            "gmap_id": "0x889a4336552cca29:0xdccc578e7f5c156e",
+            "iid": 46615,
+            "name": "Nagoya Sushi Steakhouse",
+            "rank": 13,
+            "score": -54.666900634765625,
+            "state": "Alabama"
+        },
+        {
+            "address": "Hibachi On the Go, 28825 US-98, Daphne, AL 36526",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x889a43a1ed7689bb:0xc08313cc13208de9",
+            "iid": 46617,
+            "name": "Hibachi On the Go",
+            "rank": 14,
+            "score": -55.0206184387207,
+            "state": "Alabama"
+        },
+        {
+            "address": "Japanese Express, 28825 US-98, Daphne, AL 36526",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x889a43a1ed76b25b:0x2813bba0e8053c3a",
+            "iid": 46618,
+            "name": "Japanese Express",
+            "rank": 15,
+            "score": -55.0206184387207,
+            "state": "Alabama"
+        },
+        {
+            "address": "Bangkok Thai Cuisine, 28600 US-98 suite l, Daphne, AL 36526",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x889a43a25fccf63d:0xe85d1484794d6122",
+            "iid": 46619,
+            "name": "Bangkok Thai Cuisine",
+            "rank": 16,
+            "score": -55.397796630859375,
+            "state": "Alabama"
+        },
+        {
+            "address": "Dragon City Buffet, 28611 US-98, Daphne, AL 36526",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x889a43a261248c03:0x94d1052daebf5151",
+            "iid": 46620,
+            "name": "Dragon City Buffet",
+            "rank": 17,
+            "score": -55.40056610107422,
+            "state": "Alabama"
+        },
+        {
+            "address": "Aroy Thai, 966 Government St, Mobile, AL 36604",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x889a4e31e0df0617:0xea586a29df7bcbb4",
+            "iid": 46654,
+            "name": "Aroy Thai",
+            "rank": 18,
+            "score": -55.82699966430664,
+            "state": "Alabama"
+        },
+        {
+            "address": "Daruma Japanese Steak House, 27955 US-98, Daphne, AL 36526",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x889a410b9831fce3:0xa5a6e7dbbede3ce1",
+            "iid": 46611,
+            "name": "Daruma Japanese Steak House",
+            "rank": 19,
+            "score": -56.59595489501953,
+            "state": "Alabama"
+        },
+        {
+            "address": "China Chef Restaurant, 27955 US-98, Daphne, AL 36526",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x889a43bdce9b52bb:0xd40bb85e0d0d2ea8",
+            "iid": 46621,
+            "name": "China Chef Restaurant",
+            "rank": 20,
+            "score": -56.59867858886719,
+            "state": "Alabama"
+        }
+    ],
+    "user": {
+        "name": "Henry Cekan",
+        "uid": 128687,
+        "user_id": 104316392500823453878
+    }
+}

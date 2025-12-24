@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Thai Thai Cuisine, 3843 County Rd 516, Old Bridge, NJ 08857",
+            "category": "['Thai restaurant', 'Vegetarian restaurant']",
+            "date": "2012/03/16",
+            "gmap_id": "0x89c3cdcd366c388d:0xfede8b4042f47aa3",
+            "iid": 64895,
+            "name": "Thai Thai Cuisine",
+            "split": "train",
+            "state": "New_Jersey",
+            "unix_time": 1331867947772
+        },
+        {
+            "address": "Sakura Japanese Steakhouse and Sushi Bar, 102 Railway Ln, Hagerstown, MD 21740",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2012/03/20",
+            "gmap_id": "0x89c9f28d8696465d:0x595e8df22c41a11d",
+            "iid": 67561,
+            "name": "Sakura Japanese Steakhouse and Sushi Bar",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1332271618222
+        },
+        {
+            "address": "Bhojan, 102 Lexington Ave, New York, NY 10016",
+            "category": "['Indian restaurant']",
+            "date": "2014/05/19",
+            "gmap_id": "0x89c259a77d70ea29:0xa3ad705d4a102b11",
+            "iid": 59981,
+            "name": "Bhojan",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1400462357133
+        },
+        {
+            "address": "Lemon Grass Thai Cuisine, 2666 Madison Rd, Cincinnati, OH 45208",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "date": "2014/12/21",
+            "gmap_id": "0x8841b27c4ac71271:0x7dad837a84c9af3a",
+            "iid": 41909,
+            "name": "Lemon Grass Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1419132514725
+        },
+        {
+            "address": "House of Bangkok Thai Cuisine, 4876 Dixie Hwy, Fairfield, OH 45014",
+            "category": "['Thai restaurant']",
+            "date": "2015/02/05",
+            "gmap_id": "0x884048bc779f7ff9:0x2132cd760dee38ac",
+            "iid": 41551,
+            "name": "House of Bangkok Thai Cuisine",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1423161914420
+        },
+        {
+            "address": "Tokyo Japanese Restaurant, 11481 Chester Rd, Cincinnati, OH 45246",
+            "category": "['Japanese restaurant', 'Bar', 'Chinese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2015/04/27",
+            "gmap_id": "0x88404e1b597b4299:0x851e9423fc2c970d",
+            "iid": 41584,
+            "name": "Tokyo Japanese Restaurant",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1430156930708
+        },
+        {
+            "address": "Yama Sushi Bar Annapolis, 2049 West St E, Annapolis, MD 21401",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2015/06/19",
+            "gmap_id": "0x89b7f6daabe29875:0x5b50b97bd1545f27",
+            "iid": 57120,
+            "name": "Yama Sushi Bar Annapolis",
+            "split": "train",
+            "state": "Maryland",
+            "unix_time": 1434672779005
+        },
+        {
+            "address": "Korealistic, 7735 Cox Ln, West Chester Township, OH 45069",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "date": "2015/10/19",
+            "gmap_id": "0x88405a08b91e2211:0x95315cd3fa4e1e73",
+            "iid": 41688,
+            "name": "Korealistic",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1445272240846
+        },
+        {
+            "address": "Bonsai Sushi, 1652 Bruce B Downs Blvd, Wesley Chapel, FL 33544",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2016/01/11",
+            "gmap_id": "0x88c2b0d2fb83f1df:0xd2bd6d1d5eb33fdf",
+            "iid": 46897,
+            "name": "Bonsai Sushi",
+            "split": "valid",
+            "state": "Florida",
+            "unix_time": 1452536948568
+        },
+        {
+            "address": "Kettles Vietnamese Bistro, 1202 W Steele Ln, Santa Rosa, CA 95403",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2016/08/23",
+            "gmap_id": "0x8084386f07f68219:0x4f80d53a4df5d02a",
+            "iid": 6694,
+            "name": "Kettles Vietnamese Bistro",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1471922974527
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "Amerasia, 521 Madison Ave, Covington, KY 41011",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8841b139cd72b55d:0xad4b3df4cd378ada",
+            "iid": 41889,
+            "name": "Amerasia",
+            "rank": 1,
+            "score": 5.0018110275268555,
+            "state": "Kentucky"
+        },
+        {
+            "address": "Ambar India Restaurant, 350 Ludlow Ave, Cincinnati, OH 45220",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8841b38768f1cd45:0x830dbf4d5b8f7b5a",
+            "iid": 41922,
+            "name": "Ambar India Restaurant",
+            "rank": 2,
+            "score": 4.98699951171875,
+            "state": "Ohio"
+        },
+        {
+            "address": "Twin Dragon Buffet & Grill, 7763 Tylersville Rd, West Chester Township, OH 45069",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x88405a083f8a41ad:0x81685fe98c03907",
+            "iid": 41686,
+            "name": "Twin Dragon Buffet & Grill",
+            "rank": 3,
+            "score": 4.979532241821289,
+            "state": "Ohio"
+        },
+        {
+            "address": "Izen's Drunken Bento, 212 W McMillan St, Cincinnati, OH 45219",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x8841b3f51c36f70d:0xc83a2cd6155a90e2",
+            "iid": 41936,
+            "name": "Izen's Drunken Bento",
+            "rank": 4,
+            "score": 4.8812360763549805,
+            "state": "Ohio"
+        },
+        {
+            "address": "Green Papaya, 2942 Wasson Rd, Cincinnati, OH 45209",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8841ad819aa14b83:0xa171116e600f1c98",
+            "iid": 41873,
+            "name": "Green Papaya",
+            "rank": 5,
+            "score": 4.815583229064941,
+            "state": "Ohio"
+        },
+        {
+            "address": "Pho Lang Thang, 1828 Race St, Cincinnati, OH 45202",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8841b3f917e487bd:0x31565ac71362ae1e",
+            "iid": 41939,
+            "name": "Pho Lang Thang",
+            "rank": 6,
+            "score": 4.795382499694824,
+            "state": "Ohio"
+        },
+        {
+            "address": "Sichuan Chili, 10400 Reading Rd #205b, Cincinnati, OH 45241",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x88405215b70b3cd1:0x7e75d22c311411d9",
+            "iid": 41624,
+            "name": "Sichuan Chili",
+            "rank": 7,
+            "score": 4.726844310760498,
+            "state": "Ohio"
+        },
+        {
+            "address": "Grand Oriental Chinese (Dim Sum) Restaurant, 4800 Fields Ertel Rd, Cincinnati, OH 45249",
+            "category": "['Chinese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "gmap_id": "0x884056589ba384d7:0x42b1699437510562",
+            "iid": 41656,
+            "name": "Grand Oriental Chinese (Dim Sum) Restaurant",
+            "rank": 8,
+            "score": 4.67620849609375,
+            "state": "Ohio"
+        },
+        {
+            "address": "Dusmesh Indian Restaurant | Best Indian food | Best Indian Restaurant | Best Indian Curry, 944 Ludlow Ave, Cincinnati, OH 45220",
+            "category": "['Indian restaurant', 'Fine dining restaurant', 'Indian takeaway', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x8841b4883943eff7:0xf735896f4d7ea3c7",
+            "iid": 41942,
+            "name": "Dusmesh Indian Restaurant | Best Indian food | Best Indian Restaurant | Best Indian Curry",
+            "rank": 9,
+            "score": 4.67257022857666,
+            "state": "Ohio"
+        },
+        {
+            "address": "Kyoto Japanese Cuisine - USA, 12082 Montgomery Rd, Cincinnati, OH 45249",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x884056437afc391b:0xc546b9f5a220f5c3",
+            "iid": 41655,
+            "name": "Kyoto Japanese Cuisine - USA",
+            "rank": 10,
+            "score": 4.49322509765625,
+            "state": "Ohio"
+        },
+        {
+            "address": "Elephant Walk Indian Bar and Grill, 170 W McMillan St, Cincinnati, OH 45219",
+            "category": "['Modern Indian restaurant', 'Bar & grill', 'Ethiopian restaurant']",
+            "gmap_id": "0x8841b3f4ee059f15:0xa257b00eee92ad63",
+            "iid": 41929,
+            "name": "Elephant Walk Indian Bar and Grill",
+            "rank": 11,
+            "score": 4.467761516571045,
+            "state": "Ohio"
+        },
+        {
+            "address": "Basil Thai Bistro, 4762 Cornell Rd, Blue Ash, OH 45241",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8840515e3439dd61:0xb1834809a9c1f0b2",
+            "iid": 41616,
+            "name": "Basil Thai Bistro",
+            "rank": 12,
+            "score": 4.458902835845947,
+            "state": "Ohio"
+        },
+        {
+            "address": "New Krishna Indian Cuisine, 11974 Lebanon Rd #100, Cincinnati, OH 45241",
+            "category": "['Indian restaurant', 'Restaurant']",
+            "gmap_id": "0x8840510b91a7b0f1:0x8d28c203d3e8dc23",
+            "iid": 41612,
+            "name": "New Krishna Indian Cuisine",
+            "rank": 13,
+            "score": 4.434493541717529,
+            "state": "Ohio"
+        },
+        {
+            "address": "HARU, 628 Vine St, Cincinnati, OH 45202",
+            "category": "['Restaurant', 'Asian restaurant', 'Korean restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8841b150cb0ac55b:0xb51dc1414a009be7",
+            "iid": 41894,
+            "name": "HARU",
+            "rank": 14,
+            "score": 4.394057750701904,
+            "state": "Ohio"
+        },
+        {
+            "address": "Shanghai, 700 Elm St, Cincinnati, OH 45202",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8841b15a2a1ee869:0x638133bdba69a5a7",
+            "iid": 41900,
+            "name": "Shanghai",
+            "rank": 15,
+            "score": 4.350850582122803,
+            "state": "Ohio"
+        },
+        {
+            "address": "Baba India Restaurant, 3120 Madison Rd, Cincinnati, OH 45209",
+            "category": "['Indian restaurant', 'Asian restaurant', 'Indian takeaway', 'Punjabi restaurant']",
+            "gmap_id": "0x8841ad7a578d1299:0x8eb1752b25c14642",
+            "iid": 41872,
+            "name": "Baba India Restaurant",
+            "rank": 16,
+            "score": 4.32798433303833,
+            "state": "Ohio"
+        },
+        {
+            "address": "Adeep India, 211 W McMillan St, Cincinnati, OH 45219",
+            "category": "['Indian restaurant', 'Asian restaurant', 'South Asian restaurant']",
+            "gmap_id": "0x8841b3f51cd4d675:0xf51c28213920a45c",
+            "iid": 41937,
+            "name": "Adeep India",
+            "rank": 17,
+            "score": 4.274737358093262,
+            "state": "Ohio"
+        },
+        {
+            "address": "BIBIBOP Asian Grill, 7616 Blake St, Liberty Township, OH 45069",
+            "category": "['Asian fusion restaurant', 'Korean restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88405a1568bd04a1:0x5796446c8e9f8b63",
+            "iid": 41692,
+            "name": "BIBIBOP Asian Grill",
+            "rank": 18,
+            "score": 4.265836238861084,
+            "state": "Ohio"
+        },
+        {
+            "address": "Stone Bowl Sushi, Ramen, Korean Restaurant, 3355 Madison Rd, Cincinnati, OH 45209",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Korean restaurant', 'Ramen restaurant', 'Restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x8841ad6e055ec7d5:0x1a5923d81de6075f",
+            "iid": 41870,
+            "name": "Stone Bowl Sushi, Ramen, Korean Restaurant",
+            "rank": 19,
+            "score": 4.262353897094727,
+            "state": "Ohio"
+        },
+        {
+            "address": "Ando Japanese Restaurant, 5889 Pfeiffer Rd #4819, Blue Ash, OH 45242",
+            "category": "['Japanese restaurant', 'Dessert restaurant', 'Authentic Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x884053ed78bc12b7:0xb31915d7fbc188f7",
+            "iid": 41643,
+            "name": "Ando Japanese Restaurant",
+            "rank": 20,
+            "score": 4.205163955688477,
+            "state": "Ohio"
+        }
+    ],
+    "user": {
+        "name": "Oren Pollak",
+        "uid": 303678,
+        "user_id": 110172896773652108969
+    }
+}

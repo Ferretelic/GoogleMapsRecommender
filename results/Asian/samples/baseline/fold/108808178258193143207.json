@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China Bear, 12755 Southwest Fwy, Stafford, TX 77477",
+            "category": "['Buffet restaurant', 'Authentic Japanese restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2018/02/02",
+            "gmap_id": "0x8640e7a5323b70f9:0x89e3de23e1394878",
+            "iid": 24068,
+            "name": "China Bear",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1517602638434
+        },
+        {
+            "address": "Chinese American Restaurant, 11317 Bissonnet St, Houston, TX 77099, United States",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "date": "2018/02/18",
+            "gmap_id": "0x8640dd5f2a54e6c5:0x9f096474a633ce75",
+            "iid": 23885,
+            "name": "Chinese American Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1518993512098
+        },
+        {
+            "address": "Koba Woo Restaurant, 332 E Avenue D, Killeen, TX 76541",
+            "category": "['Korean restaurant']",
+            "date": "2018/05/09",
+            "gmap_id": "0x86454b89a684c74d:0xa7fe7aa8b599e24d",
+            "iid": 24737,
+            "name": "Koba Woo Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1525864551249
+        },
+        {
+            "address": "China Garden Restaurant, 1602 Leeland St, Houston, TX 77003",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640bf17ef9f3115:0x2e30c47f96f8cd49",
+            "iid": 22916,
+            "name": "China Garden Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536278340062
+        },
+        {
+            "address": "Sichuan Noodles \u9762\u9762\u805a\u9053, 9889 Bellaire Blvd c305, Houston, TX 77036",
+            "category": "['Chinese restaurant']",
+            "date": "2019/03/29",
+            "gmap_id": "0x8640c2cf39ac8089:0x2b3a389e041e26f3",
+            "iid": 23226,
+            "name": "Sichuan Noodles \u9762\u9762\u805a\u9053",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1553817652429
+        },
+        {
+            "address": "Savoy Restaurant, 11246 S Wilcrest Dr 145 B, Houston, TX 77099",
+            "category": "['Pakistani restaurant', 'Halal restaurant', 'Indian restaurant']",
+            "date": "2019/08/04",
+            "gmap_id": "0x8640e7e5756064bb:0x4a52b97abcbaa9e6",
+            "iid": 24086,
+            "name": "Savoy Restaurant",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1564928444432
+        },
+        {
+            "address": "Fung's Kitchen, 7320 Southwest Fwy #115, Houston, TX 77074",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Banquet hall', 'Cantonese restaurant', 'Dim sum restaurant', 'Seafood restaurant']",
+            "date": "2019/10/26",
+            "gmap_id": "0x8640c25ed759c2d9:0x1eb45fc225111447",
+            "iid": 23152,
+            "name": "Fung's Kitchen",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1572057850178
+        },
+        {
+            "address": "Hibachi Grill & Buffet, 12183 Katy Fwy H, Houston, TX 77079",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Dim sum restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/11/16",
+            "gmap_id": "0x8640db75a644f4b7:0x7f30078a1ef1c5f6",
+            "iid": 23745,
+            "name": "Hibachi Grill & Buffet",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1573910399263
+        },
+        {
+            "address": "Benihana, 9707 Westheimer Rd, Houston, TX 77042",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "date": "2021/03/09",
+            "gmap_id": "0x8640c3161bea4d37:0xbe4674c5780f92ba",
+            "iid": 23260,
+            "name": "Benihana",
+            "split": "valid",
+            "state": "Texas",
+            "unix_time": 1615252565956
+        },
+        {
+            "address": "B2J Suancai Fish, 9393 Bellaire Blvd Ste B, Houston, TX 77036, United States",
+            "category": "['Chinese restaurant', 'Seafood restaurant', 'Sichuan restaurant']",
+            "date": "2021/06/03",
+            "gmap_id": "0x8640c3a675e0c6df:0x6b8382f9a7304722",
+            "iid": 23289,
+            "name": "B2J Suancai Fish",
+            "split": "test",
+            "state": "Texas",
+            "unix_time": 1622680189877
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Fold)",
+        "type": "fold"
+    },
+    "recommendations": [
+        {
+            "address": "H Mart Houston Bellaire, 9896 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Asian grocery store', 'Grocery store', 'Korean grocery store', 'Supermarket']",
+            "gmap_id": "0x8640c2ce35b0f1c5:0x81f4a9b6a4090729",
+            "iid": 23206,
+            "name": "H Mart Houston Bellaire",
+            "rank": 1,
+            "score": 7.698673725128174,
+            "state": "Texas"
+        },
+        {
+            "address": "Seiwa Market, 1801 S Dairy Ashford Rd #116, Houston, TX 77077",
+            "category": "['Japanese grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x8640dc624187f7c9:0xd513388f4804100c",
+            "iid": 23777,
+            "name": "Seiwa Market",
+            "rank": 2,
+            "score": 7.060481071472168,
+            "state": "Texas"
+        },
+        {
+            "address": "H Mart Houston Blalock, 1302 Blalock Rd, Houston, TX 77055",
+            "category": "['Korean grocery store', 'Asian grocery store', 'Grocery store', 'Supermarket']",
+            "gmap_id": "0x8640c4f59f98b987:0x210f7a4264552cd0",
+            "iid": 23387,
+            "name": "H Mart Houston Blalock",
+            "rank": 3,
+            "score": 7.007873058319092,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Ben, 3613 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640e67b5585b357:0x9ac7a11be81493dc",
+            "iid": 24011,
+            "name": "Pho Ben",
+            "rank": 4,
+            "score": 6.869694709777832,
+            "state": "Texas"
+        },
+        {
+            "address": "Hong Kong City Mall, 11205 Bellaire Blvd, Houston, TX 77072",
+            "category": "['Shopping mall', 'Cake shop', 'Dentist', 'Gift shop', 'Insurance agency', 'Restaurant', 'Supermarket', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640dd3a6f95e45b:0xa5be45d74bc43d2e",
+            "iid": 23852,
+            "name": "Hong Kong City Mall",
+            "rank": 5,
+            "score": 6.797326564788818,
+            "state": "Texas"
+        },
+        {
+            "address": "Tofu Village, 9889 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c2cf1ee90193:0x885e75ed8457b57a",
+            "iid": 23220,
+            "name": "Tofu Village",
+            "rank": 6,
+            "score": 6.695256233215332,
+            "state": "Texas"
+        },
+        {
+            "address": "Mala Sichuan Bistro, 9348 Bellaire Blvd, Houston, TX 77036",
+            "category": "['Sichuan restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese restaurant', 'Takeout Restaurant']",
+            "gmap_id": "0x8640c2c4e50ace35:0x6170c3de20b2d37b",
+            "iid": 23186,
+            "name": "Mala Sichuan Bistro",
+            "rank": 7,
+            "score": 6.685760498046875,
+            "state": "Texas"
+        },
+        {
+            "address": "Tan Tan Restaurant, 6816 Ranchester Dr, Houston, TX 77036",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640c2c36f70419b:0x7f0a10d9ee9d1dd",
+            "iid": 23177,
+            "name": "Tan Tan Restaurant",
+            "rank": 8,
+            "score": 6.582432746887207,
+            "state": "Texas"
+        },
+        {
+            "address": "H Mart Katy, 23119 Colonial Pkwy bldg b, Katy, TX 77449",
+            "category": "['Asian grocery store', 'Food court', 'Grocery store', 'Korean grocery store']",
+            "gmap_id": "0x864126fcfe8875bf:0x63db7482c56dae61",
+            "iid": 24205,
+            "name": "H Mart Katy",
+            "rank": 9,
+            "score": 6.551214694976807,
+            "state": "Texas"
+        },
+        {
+            "address": "Jin Korean BBQ, 8338 W Sam Houston Pkwy S Suite 168, Houston, TX 77072",
+            "category": "['Korean barbecue restaurant']",
+            "gmap_id": "0x8640c2b3af1ba531:0x244762a3c43e68ec",
+            "iid": 23168,
+            "name": "Jin Korean BBQ",
+            "rank": 10,
+            "score": 6.548259258270264,
+            "state": "Texas"
+        },
+        {
+            "address": "Westheimer Tan Tan Restaurant - Closed!, 8066 Westheimer Rd, Houston, TX 77063",
+            "category": "['Restaurant', 'Asian restaurant', 'Chinese restaurant', 'Southeast Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8640c3a403c6ee27:0x9f2c2109e8b0491f",
+            "iid": 23285,
+            "name": "Westheimer Tan Tan Restaurant - Closed!",
+            "rank": 11,
+            "score": 6.5361857414245605,
+            "state": "Texas"
+        },
+        {
+            "address": "Kura Revolving Sushi Bar, 11161 Westheimer Rd B, Houston, TX 77042",
+            "category": "['Conveyor belt sushi restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640dcc5e35b2ef5:0x9dc00b0ec139bb78",
+            "iid": 23790,
+            "name": "Kura Revolving Sushi Bar",
+            "rank": 12,
+            "score": 6.514016628265381,
+            "state": "Texas"
+        },
+        {
+            "address": "Les Givral's, 2704 Milam St, Houston, TX 77006",
+            "category": "['Vietnamese restaurant', 'Cafe', 'Sandwich shop']",
+            "gmap_id": "0x8640bf6bbeb1e787:0xf7a5d86f045659b5",
+            "iid": 22968,
+            "name": "Les Givral's",
+            "rank": 13,
+            "score": 6.435428619384766,
+            "state": "Texas"
+        },
+        {
+            "address": "Thai Gourmet, 6324 Richmond Ave, Houston, TX 77057",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8640c3c8a207cba1:0x97b09996e279344a",
+            "iid": 23319,
+            "name": "Thai Gourmet",
+            "rank": 14,
+            "score": 6.35359001159668,
+            "state": "Texas"
+        },
+        {
+            "address": "Great Wall Supermarket, 9889 Bellaire Blvd #B, Houston, TX 77036",
+            "category": "['Asian grocery store', 'Japanese grocery store', 'Supermarket']",
+            "gmap_id": "0x8640c2cc5556a0b5:0xdfddf6dc427fd3fd",
+            "iid": 23200,
+            "name": "Great Wall Supermarket",
+            "rank": 15,
+            "score": 6.342862606048584,
+            "state": "Texas"
+        },
+        {
+            "address": "Jollibee, 8001 S Main St #100, Houston, TX 77025",
+            "category": "['Filipino restaurant', 'Fast food restaurant']",
+            "gmap_id": "0x8640bf39cfecca89:0x9de5b336d75bb3",
+            "iid": 22932,
+            "name": "Jollibee",
+            "rank": 16,
+            "score": 6.293478012084961,
+            "state": "Texas"
+        },
+        {
+            "address": "JINYA Ramen Bar - Houston Mid Town, 3201 Louisiana St, Houston, TX 77002",
+            "category": "['Ramen restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8640bf6ec7ca13b3:0x44adbf79b7580c3",
+            "iid": 22975,
+            "name": "JINYA Ramen Bar - Houston Mid Town",
+            "rank": 17,
+            "score": 6.261256694793701,
+            "state": "Texas"
+        },
+        {
+            "address": "Kim Son Restaurant | Sugar Land, 12750 Southwest Fwy, Stafford, TX 77477",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640e7b762f843f5:0x71d2f7a0967d9620",
+            "iid": 24074,
+            "name": "Kim Son Restaurant | Sugar Land",
+            "rank": 18,
+            "score": 6.239650249481201,
+            "state": "Texas"
+        },
+        {
+            "address": "Keeper's, 4654 Hwy 6, Sugar Land, TX 77478",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Authentic Japanese restaurant', 'Restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x8640e6743e1715e5:0x77ef09bafe451cfe",
+            "iid": 23998,
+            "name": "Keeper's",
+            "rank": 19,
+            "score": 6.19495964050293,
+            "state": "Texas"
+        },
+        {
+            "address": "Mein Restaurant, 9630 Clarewood Dr Ste A13, Houston, TX 77036",
+            "category": "['Cantonese restaurant', 'Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x8640c2dab681ab87:0x2cc80fe2e5b5a867",
+            "iid": 23241,
+            "name": "Mein Restaurant",
+            "rank": 20,
+            "score": 6.184731960296631,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Jon Menefee",
+        "uid": 262924,
+        "user_id": 108808178258193143207
+    }
+}

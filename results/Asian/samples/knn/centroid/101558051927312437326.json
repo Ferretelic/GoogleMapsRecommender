@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "China King, 3743 Elm St, St Charles, MO 63301",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Buffet restaurant']",
+            "date": "2016/12/30",
+            "gmap_id": "0x87df25e5266c71c3:0xa8525f2212c17412",
+            "iid": 34218,
+            "name": "China King",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1483123880316
+        },
+        {
+            "address": "China One, 2012 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "date": "2017/02/23",
+            "gmap_id": "0x87df2df34b1c3627:0x84ba94cd53d55e64",
+            "iid": 34251,
+            "name": "China One",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1487869361071
+        },
+        {
+            "address": "India Palace, 12322 Dorsett Rd, Maryland Heights, MO 63043",
+            "category": "['Indian restaurant', 'Bar', 'Restaurant']",
+            "date": "2017/07/01",
+            "gmap_id": "0x87df316a2bda29a7:0x766ba2c892ef935",
+            "iid": 34260,
+            "name": "India Palace",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1498874196621
+        },
+        {
+            "address": "Love Sushi, 2201 Missouri Blvd, Jefferson City, MO 65109",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2018/08/21",
+            "gmap_id": "0x87db5ea849e05593:0x8dd5c262ac203f9d",
+            "iid": 34112,
+            "name": "Love Sushi",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1534816019261
+        },
+        {
+            "address": "India's House, 1101 E Broadway, Columbia, MO 65201",
+            "category": "['Indian restaurant', 'Buffet restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb7c30f1b2607:0x19314a856d0da3f3",
+            "iid": 34137,
+            "name": "India's House",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708214276
+        },
+        {
+            "address": "Kobe Japanese Steakhouse, 2531 Broadway Bluffs Dr, Columbia, MO 65201",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Sushi restaurant']",
+            "date": "2019/03/04",
+            "gmap_id": "0x87dcb81e42d80a1b:0x4c46ecdc36ccc33a",
+            "iid": 34153,
+            "name": "Kobe Japanese Steakhouse",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1551708293120
+        },
+        {
+            "address": "Chai Pani Asheville, 22 Battery Park Ave, Asheville, NC 28801",
+            "category": "['Indian restaurant', 'Restaurant', 'South Asian restaurant']",
+            "date": "2019/03/26",
+            "gmap_id": "0x8859f3568bf85cff:0xf4c88007439a714f",
+            "iid": 43767,
+            "name": "Chai Pani Asheville",
+            "split": "train",
+            "state": "North_Carolina",
+            "unix_time": 1553625068237
+        },
+        {
+            "address": "Panda Cafe, 501 Hwy 28, Owensville, MO 65066",
+            "category": "['Chinese restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87dbeae3992f9439:0x5274da7cadee17fd",
+            "iid": 34118,
+            "name": "Panda Cafe",
+            "split": "train",
+            "state": "Missouri",
+            "unix_time": 1556980653783
+        },
+        {
+            "address": "Kabab N Kurry, 2220 1st Capitol Dr, St Charles, MO 63301",
+            "category": "['Indian restaurant']",
+            "date": "2019/05/04",
+            "gmap_id": "0x87df2f20371a1d4f:0xf37669ed4f7c6d28",
+            "iid": 34256,
+            "name": "Kabab N Kurry",
+            "split": "valid",
+            "state": "Missouri",
+            "unix_time": 1556980671124
+        },
+        {
+            "address": "Hula Grill Waikiki, 2335 Kalakaua Ave, Honolulu, HI 96815",
+            "category": "['Hawaiian restaurant', 'Japanese restaurant', 'Pacific Rim restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/07/15",
+            "gmap_id": "0x7c007275d5c243cb:0xbfd7d6636524588",
+            "iid": 6519,
+            "name": "Hula Grill Waikiki",
+            "split": "test",
+            "state": "Hawaii",
+            "unix_time": 1563149917750
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Fuji Sushi, 1127 Imperial Main, Imperial, MO 63052",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87d8c3da04a91db5:0xcd98e06a286ed59d",
+            "iid": 33936,
+            "name": "Fuji Sushi",
+            "rank": 1,
+            "score": -8.97234058380127,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Wok, 1255 Imperial Main St, Imperial, MO 63052",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8c3da12da7a41:0x9d2eef4677ed486a",
+            "iid": 33937,
+            "name": "China Wok",
+            "rank": 2,
+            "score": -9.46112060546875,
+            "state": "Missouri"
+        },
+        {
+            "address": "Fu Lin House, 7125 Metropolitan Blvd #105, Barnhart, MO 63012",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87d8c243cbfc5427:0xbb55436c1bfe27e9",
+            "iid": 33935,
+            "name": "Fu Lin House",
+            "rank": 3,
+            "score": -9.627344131469727,
+            "state": "Missouri"
+        },
+        {
+            "address": "New China, 3930 Jeffco Blvd, Arnold, MO 63010",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8c403dc785785:0xbb67f43b1dd7f85f",
+            "iid": 33938,
+            "name": "New China",
+            "rank": 4,
+            "score": -11.135156631469727,
+            "state": "Missouri"
+        },
+        {
+            "address": "Ja Bowl Asian Express, 101 N Market St, Waterloo, IL 62298",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8a2b54d05910d:0xe92c05fc7e61e67c",
+            "iid": 33857,
+            "name": "Ja Bowl Asian Express",
+            "rank": 5,
+            "score": -12.21340274810791,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Ai, 2000 Richardson Rd Suite 1, Arnold, MO 63010",
+            "category": "['Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8c5c77f1d8bf5:0x541bf406f86be03a",
+            "iid": 33943,
+            "name": "Sushi Ai",
+            "rank": 6,
+            "score": -12.851691246032715,
+            "state": "Missouri"
+        },
+        {
+            "address": "Happy Wok, 3916 Vogel Rd, Arnold, MO 63010, United States",
+            "category": "['Chinese restaurant', 'Meal delivery', 'Restaurant']",
+            "gmap_id": "0x87d8c4147eb559f3:0xaad8f4b09a39ab59",
+            "iid": 33939,
+            "name": "Happy Wok",
+            "rank": 7,
+            "score": -12.931138038635254,
+            "state": "Missouri"
+        },
+        {
+            "address": "China Star, 1240 Columbia Center, Columbia, IL 62236",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Chinese takeaway', 'Delivery Chinese restaurant', 'Delivery Restaurant', 'Takeout Restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8ba2b83e1df13:0x46850a3c0f4a5baf",
+            "iid": 33933,
+            "name": "China Star",
+            "rank": 8,
+            "score": -13.776786804199219,
+            "state": "Illinois"
+        },
+        {
+            "address": "China King, 6051 Telegraph Rd, St. Louis, MO 63129",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8c78ef3431539:0xe2f9cd9819efc6cf",
+            "iid": 33950,
+            "name": "China King",
+            "rank": 9,
+            "score": -13.81801986694336,
+            "state": "Missouri"
+        },
+        {
+            "address": "J Sushi, 1249 Water Tower Pl, Arnold, MO 63010",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x87d8c6802eccbd7b:0xc4ed4c9402946d34",
+            "iid": 33948,
+            "name": "J Sushi",
+            "rank": 10,
+            "score": -13.918944358825684,
+            "state": "Missouri"
+        },
+        {
+            "address": "Miyabi, 892 Arnold Commons Dr, Arnold, MO 63010",
+            "category": "['Sushi restaurant', 'Japanese steakhouse']",
+            "gmap_id": "0x87d8c42da03c7fb9:0x949afcb359cbe2db",
+            "iid": 33940,
+            "name": "Miyabi",
+            "rank": 11,
+            "score": -14.033626556396484,
+            "state": "Missouri"
+        },
+        {
+            "address": "Super China Buffet, 2204 Michigan Ave, Arnold, MO 63010",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8c42e952be0af:0xc10836371fa7bec",
+            "iid": 33941,
+            "name": "Super China Buffet",
+            "rank": 12,
+            "score": -14.209550857543945,
+            "state": "Missouri"
+        },
+        {
+            "address": "Panda Express, 3880 S Old Hwy 141, Arnold, MO 63010",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8c433bb49fe8f:0x19c925da3b7850a7",
+            "iid": 33942,
+            "name": "Panda Express",
+            "rank": 13,
+            "score": -14.389301300048828,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thai House, 109 S Main St, Columbia, IL 62236",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8bbb33448e451:0x2e600b2f51a1ad93",
+            "iid": 33934,
+            "name": "Thai House",
+            "rank": 14,
+            "score": -14.410257339477539,
+            "state": "Illinois"
+        },
+        {
+            "address": "China King, 229 Arnold Crossroads Center, Arnold, MO 63010",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x87d8c5d5778d5fc3:0xec339f579ba44adb",
+            "iid": 33944,
+            "name": "China King",
+            "rank": 15,
+            "score": -14.61394214630127,
+            "state": "Missouri"
+        },
+        {
+            "address": "Thai Rama, 606 N Truman Blvd, Crystal City, MO 63019",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x87d8eeb2520d62c7:0x9c888e2c790c2bdf",
+            "iid": 34067,
+            "name": "Thai Rama",
+            "rank": 16,
+            "score": -14.62109088897705,
+            "state": "Missouri"
+        },
+        {
+            "address": "Q Tea Vietnamese Cafe, 671 Jeffco Blvd, Arnold, MO 63010",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x87d8c764c18dcd47:0xe7a1c3dddd13ff68",
+            "iid": 33949,
+            "name": "Q Tea Vietnamese Cafe",
+            "rank": 17,
+            "score": -14.664504051208496,
+            "state": "Missouri"
+        },
+        {
+            "address": "Great Peking, 669 Jeffco Blvd, Arnold, MO 63010",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x87d8c67ad0b76a59:0xe908304d1bbf2ed1",
+            "iid": 33947,
+            "name": "Great Peking",
+            "rank": 18,
+            "score": -14.671321868896484,
+            "state": "Missouri"
+        },
+        {
+            "address": "Hunan Peking, 5638 Telegraph Rd, St. Louis, MO 63129",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x87d8c7f15c6485e1:0xc1ac8a34f0b80620",
+            "iid": 33952,
+            "name": "Hunan Peking",
+            "rank": 19,
+            "score": -14.951313018798828,
+            "state": "Missouri"
+        },
+        {
+            "address": "Lams Garden Restaurant, 510 Bailey Rd, Crystal City, MO 63019",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x87d8eebaff2acc79:0x3646ee7a098aa34f",
+            "iid": 34068,
+            "name": "Lams Garden Restaurant",
+            "rank": 20,
+            "score": -15.364211082458496,
+            "state": "Missouri"
+        }
+    ],
+    "user": {
+        "name": "J Kinz",
+        "uid": 46530,
+        "user_id": 101558051927312437326
+    }
+}

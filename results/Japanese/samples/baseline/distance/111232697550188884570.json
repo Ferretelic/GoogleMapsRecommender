@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Kinza Sushi Japanese Restaurant, 4627 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant']",
+            "date": "2018/11/22",
+            "gmap_id": "0x80c297c8dbd7086f:0x18b621cb4d08606c",
+            "iid": 3958,
+            "name": "Kinza Sushi Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1542869240467
+        },
+        {
+            "address": "Sushi Note, 13447 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2018/11/26",
+            "gmap_id": "0x80c297ce1011db45:0xbc094ca7f566ad77",
+            "iid": 3960,
+            "name": "Sushi Note",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1543207744054
+        },
+        {
+            "address": "K-ZO, 9240 Culver Blvd, Culver City, CA 90232",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/02/17",
+            "gmap_id": "0x80c2ba29fffcaec9:0x36955a9ee90f5382",
+            "iid": 4289,
+            "name": "K-ZO",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1550422857479
+        },
+        {
+            "address": "Iroha Sushi of Tokyo, 12953 Ventura Blvd, Studio City, CA 91604",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/03/31",
+            "gmap_id": "0x80c2bdf52ff48ba5:0x44ee9721b53f1e2",
+            "iid": 4453,
+            "name": "Iroha Sushi of Tokyo",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1554076378277
+        },
+        {
+            "address": "Hanami Sushi, 4454 Van Nuys Blvd, Sherman Oaks, CA 91403",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/04/21",
+            "gmap_id": "0x80c297ce543e3c97:0x328836d518ec210f",
+            "iid": 3963,
+            "name": "Hanami Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1555871879630
+        },
+        {
+            "address": "Yen Sushi & Sake Bar, 12930 Ventura Blvd #120, Studio City, CA 91604",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/07/10",
+            "gmap_id": "0x80c2bdf4e0741459:0x50a02dc7932aeea6",
+            "iid": 4451,
+            "name": "Yen Sushi & Sake Bar",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1562732184554
+        },
+        {
+            "address": "Mogumogu, 11555 W Olympic Blvd suite b, Los Angeles, CA 90064",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Fried chicken takeaway', 'Noodle shop', 'Ramen restaurant', 'Soup restaurant']",
+            "date": "2019/08/02",
+            "gmap_id": "0x80c2bb9ab593ebe5:0xfd2b963bffa59714",
+            "iid": 4402,
+            "name": "Mogumogu",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1564722508325
+        },
+        {
+            "address": "Okumura Restaurant, 17302 Ventura Blvd, Encino, CA 91316",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "date": "2019/08/17",
+            "gmap_id": "0x80c2984a0b0c48bd:0x357e2e2ee204515",
+            "iid": 3973,
+            "name": "Okumura Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1566003847553
+        },
+        {
+            "address": "Raku, 5030 Spring Mountain Rd, Las Vegas, NV 89146",
+            "category": "['Authentic Japanese restaurant', 'Japanese confectionery shop', 'Izakaya restaurant', 'Restaurant']",
+            "date": "2019/09/18",
+            "gmap_id": "0x80c8c6b70788f811:0x8090a287886bb4a6",
+            "iid": 5334,
+            "name": "Raku",
+            "split": "valid",
+            "state": "Nevada",
+            "unix_time": 1568794286208
+        },
+        {
+            "address": "Killer Noodle Tsujita, 2030 Sawtelle Blvd, Los Angeles, CA 90025",
+            "category": "['Ramen restaurant']",
+            "date": "2019/12/04",
+            "gmap_id": "0x80c2bb74e300f8db:0x272f752ecb1b278d",
+            "iid": 4386,
+            "name": "Killer Noodle Tsujita",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1575486189456
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Distance)",
+        "type": "distance"
+    },
+    "recommendations": [
+        {
+            "address": "Umigame Japanese Kitchen, 13608 Ventura Blvd, Sherman Oaks, CA 91423",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x80c297b528481b31:0xbf95810bdb012dbf",
+            "iid": 3954,
+            "name": "Umigame Japanese Kitchen",
+            "rank": 1,
+            "score": -1.9432313442230225,
+            "state": "California"
+        },
+        {
+            "address": "Four On Six, 16573 Ventura Blvd #14, Encino, CA 91436",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c29825932d3649:0xcd226c0662e99eaa",
+            "iid": 3966,
+            "name": "Four On Six",
+            "rank": 2,
+            "score": -2.0010366439819336,
+            "state": "California"
+        },
+        {
+            "address": "Doko Sushi, 18406 Ventura Blvd, Tarzana, CA 91356",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c29934ec7d635b:0xcc026195491e5708",
+            "iid": 3984,
+            "name": "Doko Sushi",
+            "rank": 3,
+            "score": -2.5944478511810303,
+            "state": "California"
+        },
+        {
+            "address": "Shin Sushi, 16573 Ventura Blvd, Encino, CA 91436",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x80c299c0ece14175:0xfa5779c696f05bef",
+            "iid": 3996,
+            "name": "Shin Sushi",
+            "rank": 4,
+            "score": -2.60664701461792,
+            "state": "California"
+        },
+        {
+            "address": "PokeMotto Noho, 11114 W Magnolia Blvd, North Hollywood, CA 91601",
+            "category": "['Hawaiian restaurant', 'Poke bar', 'Seafood restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x80c295f3985fefc9:0xd3aba0a918cfc5f7",
+            "iid": 3917,
+            "name": "PokeMotto Noho",
+            "rank": 5,
+            "score": -2.609546661376953,
+            "state": "California"
+        },
+        {
+            "address": "Pokemotto Tarzana, 19100 Ventura Blvd Ste. F, Tarzana, CA 91356",
+            "category": "['Sushi takeaway']",
+            "gmap_id": "0x80c29931589424cb:0x56dd05a6a18d2c4c",
+            "iid": 3983,
+            "name": "Pokemotto Tarzana",
+            "rank": 6,
+            "score": -2.72004771232605,
+            "state": "California"
+        },
+        {
+            "address": "Sushi 101, 11331 Moorpark St, North Hollywood, CA 91602",
+            "category": "['Authentic Japanese restaurant']",
+            "gmap_id": "0x80c2be1ba122a39b:0x2362acb84a99c857",
+            "iid": 4471,
+            "name": "Sushi 101",
+            "rank": 7,
+            "score": -2.744903087615967,
+            "state": "California"
+        },
+        {
+            "address": "Miyabi Sushi, 2429 N Atlantic Ave #40, Daytona Beach, FL 32118",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Sushi takeaway', 'Teppanyaki restaurant']",
+            "gmap_id": "0x88e6db60203c2e61:0xb32f1d027522957",
+            "iid": 15313,
+            "name": "Miyabi Sushi",
+            "rank": 8,
+            "score": -2.7501437664031982,
+            "state": "Florida"
+        },
+        {
+            "address": "Wasabi Sushi & Steak Japanese Restaurant, 3725 Sixes Rd Ste 109, Canton, GA 30114",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x88f5694a54d83a65:0x3f5a0d1cef9b79f9",
+            "iid": 15929,
+            "name": "Wasabi Sushi & Steak Japanese Restaurant",
+            "rank": 9,
+            "score": -2.752267360687256,
+            "state": "Georgia"
+        },
+        {
+            "address": "Sushi Suite 202, 1816 N Clark St, Chicago, IL 60614",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x880fd3bc07808003:0x4b54ab8b545bd90",
+            "iid": 11430,
+            "name": "Sushi Suite 202",
+            "rank": 10,
+            "score": -2.7533857822418213,
+            "state": "Illinois"
+        },
+        {
+            "address": "Sushi Miguels Style Highland, 7199 Boulder Ave UNIT 2, Highland, CA 92346",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c355a93311849b:0x50db28e0103c93fc",
+            "iid": 5165,
+            "name": "Sushi Miguels Style Highland",
+            "rank": 11,
+            "score": -2.758446216583252,
+            "state": "California"
+        },
+        {
+            "address": "Umami, 2808 7th Ave S #117, Birmingham, AL 35233",
+            "category": "['Restaurant', 'Asian restaurant', 'Bar', 'Sushi restaurant']",
+            "gmap_id": "0x88891b21dd9aa693:0xdff7e1830df368df",
+            "iid": 13679,
+            "name": "Umami",
+            "rank": 12,
+            "score": -2.762864112854004,
+            "state": "Alabama"
+        },
+        {
+            "address": "Sakura Tappenyaki Sushi, 91-5431 Kapolei Pkwy #1709, Kapolei, HI 96707",
+            "category": "['Sushi restaurant', 'Conveyor belt sushi restaurant', 'Japanese restaurant', 'Sushi takeaway']",
+            "gmap_id": "0x7c00635beb464199:0x3713c2a6214f3452",
+            "iid": 1757,
+            "name": "Sakura Tappenyaki Sushi",
+            "rank": 13,
+            "score": -2.765717029571533,
+            "state": "Hawaii"
+        },
+        {
+            "address": "Menya Shono, 908 4th St, San Rafael, CA 94901",
+            "category": "['Authentic Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x808599e11148a087:0x2e2abfde76671cec",
+            "iid": 2568,
+            "name": "Menya Shono",
+            "rank": 14,
+            "score": -2.7699100971221924,
+            "state": "California"
+        },
+        {
+            "address": "Asiatico Asian Kitchen, 10 SE, Bay St, Depoe Bay, OR 97341",
+            "category": "['Asian fusion restaurant', 'Dumpling restaurant', 'Ramen restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x54ea879977c09a93:0x5ba271afa76e6a29",
+            "iid": 1607,
+            "name": "Asiatico Asian Kitchen",
+            "rank": 15,
+            "score": -2.770679473876953,
+            "state": "Oregon"
+        },
+        {
+            "address": "Kona Pok\u00e9, 1240 N Hwy A1A, Indialantic, FL 32903",
+            "category": "['Restaurant', 'Gluten-free restaurant', 'Health food restaurant', 'Sushi restaurant', 'Vegan restaurant', 'Vegetarian restaurant']",
+            "gmap_id": "0x88de119e45433001:0x4ef4fa9c8668f3b7",
+            "iid": 15065,
+            "name": "Kona Pok\u00e9",
+            "rank": 16,
+            "score": -2.7712209224700928,
+            "state": "Florida"
+        },
+        {
+            "address": "Zitz Sum, 396 Alhambra Cir Suite 155, Coral Gables, FL 33134",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Wine bar']",
+            "gmap_id": "0x88d9b795fa9df5b3:0x47c18216cde285c2",
+            "iid": 14751,
+            "name": "Zitz Sum",
+            "rank": 17,
+            "score": -2.7712221145629883,
+            "state": "Florida"
+        },
+        {
+            "address": "Kokoro Ramen, 1473 Brace Rd Ste G, Cherry Hill, NJ 08034",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x89c6cd6758861349:0x62ffcee4babebc48",
+            "iid": 20214,
+            "name": "Kokoro Ramen",
+            "rank": 18,
+            "score": -2.7716116905212402,
+            "state": "New_Jersey"
+        },
+        {
+            "address": "T&J Restaurant, 1601 County Rd 42 W, Burnsville, MN 55306",
+            "category": "['Thai restaurant', 'Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x87f63bf84acaa893:0xf43557372665ea9f",
+            "iid": 10608,
+            "name": "T&J Restaurant",
+            "rank": 19,
+            "score": -2.771629571914673,
+            "state": "Minnesota"
+        },
+        {
+            "address": "Kotsu Ramen & Gyoza, 9359 Central Ave #C, Montclair, CA 91763",
+            "category": "['Ramen restaurant']",
+            "gmap_id": "0x80c33173381bea19:0x178148e70d791319",
+            "iid": 5085,
+            "name": "Kotsu Ramen & Gyoza",
+            "rank": 20,
+            "score": -2.7718141078948975,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Monica Guevara",
+        "uid": 83264,
+        "user_id": 111232697550188884570
+    }
+}

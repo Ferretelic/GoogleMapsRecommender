@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Hashigo Sushi, 18685 Main St, Huntington Beach, CA 92648",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "date": "2017/04/20",
+            "gmap_id": "0x80dd26c6e35cdd0b:0x82f132ec9dc794b5",
+            "iid": 6446,
+            "name": "Hashigo Sushi",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1492651759291
+        },
+        {
+            "address": "Sushi Raku Japanese Restaurant, 5190 Kanan Rd, Agoura Hills, CA 91301",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2017/04/28",
+            "gmap_id": "0x80e826a94ccae66d:0xe04ea388825cba69",
+            "iid": 6775,
+            "name": "Sushi Raku Japanese Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1493349655970
+        },
+        {
+            "address": "Red Samurai Steak House, 8562 Seneca Turnpike, New Hartford, NY 13413",
+            "category": "['Japanese restaurant', 'Takeout Restaurant']",
+            "date": "2017/07/22",
+            "gmap_id": "0x89d9418d6dd9330d:0x4eeabaae2e961ce4",
+            "iid": 20618,
+            "name": "Red Samurai Steak House",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1500695876609
+        },
+        {
+            "address": "Yoshi Japanese Cuisine, 17005 Bear Valley Rd Suite B, Hesperia, CA 92345",
+            "category": "['Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "date": "2019/06/19",
+            "gmap_id": "0x80c366e749e965e3:0x91d6349601ce71c1",
+            "iid": 5181,
+            "name": "Yoshi Japanese Cuisine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1560970442608
+        },
+        {
+            "address": "Fuji Steak House, 4389 Eastgate Square Dr, Cincinnati, OH 45245",
+            "category": "['Japanese steakhouse', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x8841a9ffd53462c5:0xf7efa6d322aa7ab7",
+            "iid": 12321,
+            "name": "Fuji Steak House",
+            "split": "train",
+            "state": "Ohio",
+            "unix_time": 1561684338115
+        },
+        {
+            "address": "Secret Garden, 2731 Erie Blvd E, Syracuse, NY 13224",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Korean restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x89d9f32801a09419:0xf56eee4f8cd060d5",
+            "iid": 20636,
+            "name": "Secret Garden",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1561684407127
+        },
+        {
+            "address": "Jiro Sushi, 1101 NW 23rd St, Oklahoma City, OK 73106",
+            "category": "['Japanese restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x87b210b2211aa3bd:0x3310c206e77ec102",
+            "iid": 9963,
+            "name": "Jiro Sushi",
+            "split": "train",
+            "state": "Oklahoma",
+            "unix_time": 1561684458946
+        },
+        {
+            "address": "Sushi Twister, 5566 Boulder Hwy, Las Vegas, NV 89122",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Seafood restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80c8da8627e5f537:0x64a2a4bac24c2237",
+            "iid": 5445,
+            "name": "Sushi Twister",
+            "split": "train",
+            "state": "Nevada",
+            "unix_time": 1561684488345
+        },
+        {
+            "address": "SLICE SHABU, 16871 Beach Blvd, Huntington Beach, CA 92647",
+            "category": "['Shabu-shabu restaurant', 'Asian restaurant', 'Hot pot restaurant', 'Japanese restaurant', 'Soup restaurant']",
+            "date": "2019/06/28",
+            "gmap_id": "0x80dd26f42a8a5823:0x443a1b8d85d354cb",
+            "iid": 6449,
+            "name": "SLICE SHABU",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1561684507875
+        },
+        {
+            "address": "I Love Sushi, 11041 S Eastern Ave, Henderson, NV 89052",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "date": "2020/01/10",
+            "gmap_id": "0x80c8cdfc7ea2d411:0xdeb907e376f60437",
+            "iid": 5399,
+            "name": "I Love Sushi",
+            "split": "test",
+            "state": "Nevada",
+            "unix_time": 1578679821243
+        }
+    ],
+    "model": {
+        "model": "baseline",
+        "name": "LightGCN Baseline (Dot)",
+        "type": "dot"
+    },
+    "recommendations": [
+        {
+            "address": "Benihana, 2100 E Ball Rd, Anaheim, CA 92806",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x80dcd7af8512cbb3:0xe213c3f15e41bce2",
+            "iid": 6151,
+            "name": "Benihana",
+            "rank": 1,
+            "score": 10.096973419189453,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Kaya, 4355 Spring Mountain Rd #101b, Las Vegas, NV 89103",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8c6a50be759e1:0x2a39ffa98b7efd72",
+            "iid": 5326,
+            "name": "Sushi Kaya",
+            "rank": 2,
+            "score": 10.043612480163574,
+            "state": "Nevada"
+        },
+        {
+            "address": "Umiya Sushi, 4465 W Flamingo Rd, Las Vegas, NV 89103",
+            "category": "['Sushi restaurant', 'Buffet restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x80c8c697ed4f1bd5:0x5af5fb25aa1cc7d6",
+            "iid": 5324,
+            "name": "Umiya Sushi",
+            "rank": 3,
+            "score": 8.852753639221191,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushi House Goyemon, 5255 S Decatur Blvd #118, Las Vegas, NV 89118",
+            "category": "['Asian restaurant', 'Japanese restaurant', 'Restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c661e6def889:0x5a243ed2c55e9945",
+            "iid": 5321,
+            "name": "Sushi House Goyemon",
+            "rank": 4,
+            "score": 8.733400344848633,
+            "state": "Nevada"
+        },
+        {
+            "address": "Gorilla Sushi, 1801 E Tropicana Ave #2, Las Vegas, NV 89119",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x80c8c511ad685bef:0x407a7550c89d6e38",
+            "iid": 5299,
+            "name": "Gorilla Sushi",
+            "rank": 5,
+            "score": 8.508591651916504,
+            "state": "Nevada"
+        },
+        {
+            "address": "JINYA Ramen Bar - Flamingo, 4860 W Flamingo Rd, Las Vegas, NV 89103",
+            "category": "['Restaurant', 'Asian restaurant', 'Japanese restaurant', 'Ramen restaurant']",
+            "gmap_id": "0x80c8c6be072e6e15:0x7f17958d8763bfd8",
+            "iid": 5348,
+            "name": "JINYA Ramen Bar - Flamingo",
+            "rank": 6,
+            "score": 8.477167129516602,
+            "state": "Nevada"
+        },
+        {
+            "address": "Sushi Neko Robata and Sushi Bar, 4318 N Western Ave, Oklahoma City, OK 73118",
+            "category": "['Sushi restaurant', 'Family restaurant', 'Fine dining restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87b21a0366e2d56d:0x1d14e0a4c568aaf9",
+            "iid": 9979,
+            "name": "Sushi Neko Robata and Sushi Bar",
+            "rank": 7,
+            "score": 8.451251983642578,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Tamashii Ramen House, 321 NW 8th St, Oklahoma City, OK 73102, United States",
+            "category": "['Ramen restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x87b2173198b8cb33:0x5a0bac2835bb3e37",
+            "iid": 9976,
+            "name": "Tamashii Ramen House",
+            "rank": 8,
+            "score": 7.795201778411865,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Sapporo Revolving Sushi, 4671 Spring Mountain Rd, Las Vegas, NV 89102",
+            "category": "['Conveyor belt sushi restaurant']",
+            "gmap_id": "0x80c8c6ba7a89755b:0x8e85231b655d409b",
+            "iid": 5345,
+            "name": "Sapporo Revolving Sushi",
+            "rank": 9,
+            "score": 7.761144638061523,
+            "state": "Nevada"
+        },
+        {
+            "address": "Gyu-Kaku Japanese BBQ, 3550 S Decatur Blvd, Las Vegas, NV 89103",
+            "category": "['Japanese restaurant', 'Bar', 'Barbecue restaurant', 'Kushiyaki restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x80c8c6b75f8f4f83:0x3383181529928de4",
+            "iid": 5336,
+            "name": "Gyu-Kaku Japanese BBQ",
+            "rank": 10,
+            "score": 7.742162227630615,
+            "state": "Nevada"
+        },
+        {
+            "address": "Aburi Sushi, 8285 On the Mall Suite 217, Buena Park, CA 90620",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80dd2bdf2d075d5f:0xa0f76c717ddf6d23",
+            "iid": 6529,
+            "name": "Aburi Sushi",
+            "rank": 11,
+            "score": 7.69130802154541,
+            "state": "California"
+        },
+        {
+            "address": "Sushi Koma, 8665 W Flamingo Rd, Las Vegas, NV 89147",
+            "category": "['Sushi restaurant']",
+            "gmap_id": "0x80c8c7542e84945d:0x49207a0b06bcd9b8",
+            "iid": 5362,
+            "name": "Sushi Koma",
+            "rank": 12,
+            "score": 7.542444229125977,
+            "state": "Nevada"
+        },
+        {
+            "address": "JJANGA Steak & Sushi, 6125 S Fort Apache Rd, Las Vegas, NV 89148, United States",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Bar', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Tapas restaurant']",
+            "gmap_id": "0x80c8b889ad4ccecb:0x1a29c3eac6fbfb9e",
+            "iid": 5196,
+            "name": "JJANGA Steak & Sushi",
+            "rank": 13,
+            "score": 7.534807205200195,
+            "state": "Nevada"
+        },
+        {
+            "address": "Gor\u014d Ramen + Izakaya, 3000 Paseo, Oklahoma City, OK 73103",
+            "category": "['Ramen restaurant', 'Bar', 'Izakaya restaurant', 'Japanese restaurant', 'Restaurant', 'Yakitori restaurant']",
+            "gmap_id": "0x87b210b8f9368441:0xe547b7dd9bf8cdad",
+            "iid": 9964,
+            "name": "Gor\u014d Ramen + Izakaya",
+            "rank": 14,
+            "score": 7.482006072998047,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Volcano Sushi Bar & Hibachi, 2727 S I-35 Service Rd, Moore, OK 73160",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Restaurant']",
+            "gmap_id": "0x87b214f41d6dd6ad:0x5b2a04b374198d8d",
+            "iid": 9970,
+            "name": "Volcano Sushi Bar & Hibachi",
+            "rank": 15,
+            "score": 7.471102714538574,
+            "state": "Oklahoma"
+        },
+        {
+            "address": "Fujiyama Japanese Steakhouse & Sushi Bar, 5959 20th St, Vero Beach, FL 32966",
+            "category": "['Japanese steakhouse', 'Asian restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Steak house', 'Sushi restaurant']",
+            "gmap_id": "0x88de5fd39d5bbf2b:0x7bad407e265aaf3b",
+            "iid": 15080,
+            "name": "Fujiyama Japanese Steakhouse & Sushi Bar",
+            "rank": 16,
+            "score": 7.450675964355469,
+            "state": "Florida"
+        },
+        {
+            "address": "Teton Kitchen Thai & Japanese Cuisine, 415 Dick Rd, Depew, NY 14043",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Thai restaurant']",
+            "gmap_id": "0x89d30b448944cd7f:0xf17e0dc53d45b2be",
+            "iid": 20554,
+            "name": "Teton Kitchen Thai & Japanese Cuisine",
+            "rank": 17,
+            "score": 7.442808628082275,
+            "state": "New_York"
+        },
+        {
+            "address": "Benihana, 16226 Ventura Blvd, Encino, CA 91436",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Restaurant', 'Steak house', 'Sushi restaurant', 'Teppanyaki restaurant']",
+            "gmap_id": "0x80c2982759582b31:0x24986942e993781b",
+            "iid": 3968,
+            "name": "Benihana",
+            "rank": 18,
+            "score": 7.420769214630127,
+            "state": "California"
+        },
+        {
+            "address": "Yama Sushi, 1350 E Flamingo Rd #18, Las Vegas, NV 89119",
+            "category": "['Japanese restaurant', 'Sushi restaurant']",
+            "gmap_id": "0x80c8c4fe9fee8527:0xad35876f5d2ee7f3",
+            "iid": 5294,
+            "name": "Yama Sushi",
+            "rank": 19,
+            "score": 7.319455623626709,
+            "state": "Nevada"
+        },
+        {
+            "address": "Samurai Sushi, 14464 Seventh St, Victorville, CA 92395",
+            "category": "['Sushi restaurant', 'Restaurant']",
+            "gmap_id": "0x80c365cce0b7dca7:0x40ddf7988b243545",
+            "iid": 5175,
+            "name": "Samurai Sushi",
+            "rank": 20,
+            "score": 7.318485736846924,
+            "state": "California"
+        }
+    ],
+    "user": {
+        "name": "Wonji Dharma",
+        "uid": 111013,
+        "user_id": 114995027077525041579
+    }
+}

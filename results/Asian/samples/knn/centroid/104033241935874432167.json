@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Mizu Machi Japanese & Asian Restaurant, 527 Coffeen St, Watertown, NY 13601",
+            "category": "['Japanese restaurant', 'Sushi restaurant', 'Thai restaurant']",
+            "date": "2017/03/15",
+            "gmap_id": "0x89d8701f1e193531:0x271a1f32982f99ea",
+            "iid": 68186,
+            "name": "Mizu Machi Japanese & Asian Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1489600528528
+        },
+        {
+            "address": "Great Wall, 300 Arsenal St, Watertown, NY 13601",
+            "category": "['Restaurant', 'Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/01/24",
+            "gmap_id": "0x89d8701dff7a11df:0xc11cda9327ab10a0",
+            "iid": 68185,
+            "name": "Great Wall",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1516810745144
+        },
+        {
+            "address": "Grand Buffet of Leray Inc, 26437 Johnson Rd, Evans Mills, NY 13637",
+            "category": "['Chinese restaurant']",
+            "date": "2018/03/16",
+            "gmap_id": "0x89d87bd7c4b08385:0x648aafede4948d6d",
+            "iid": 68190,
+            "name": "Grand Buffet of Leray Inc",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1521239772248
+        },
+        {
+            "address": "Daily Buffet, 1283 Arsenal St, Watertown, NY 13601",
+            "category": "['Buffet restaurant', 'Chinese restaurant']",
+            "date": "2018/05/16",
+            "gmap_id": "0x89d86fd32e420569:0xbfe66e7a2ca57850",
+            "iid": 68182,
+            "name": "Daily Buffet",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1526475577498
+        },
+        {
+            "address": "United China Restaurant, 144 (2C, Eastern Blvd, Watertown, NY 13601",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "date": "2018/10/14",
+            "gmap_id": "0x89d8654a696e9077:0x48004cca3bd233b7",
+            "iid": 68178,
+            "name": "United China Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1539543063105
+        },
+        {
+            "address": "Suk Hui Hi's Korean Restaurant, 1301 State St, Watertown, NY 13601",
+            "category": "['Korean restaurant']",
+            "date": "2018/12/04",
+            "gmap_id": "0x89d865520d7c1875:0xf506969ff8640679",
+            "iid": 68179,
+            "name": "Suk Hui Hi's Korean Restaurant",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1543951483230
+        },
+        {
+            "address": "Chinatown Express, 746 6th St NW, Washington, DC 20001",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Family restaurant']",
+            "date": "2019/07/27",
+            "gmap_id": "0x89b7b78ddee96a19:0x82aa70837fbcfaa9",
+            "iid": 56319,
+            "name": "Chinatown Express",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1564188310964
+        },
+        {
+            "address": "Bantam King, 501 G St. NW, Washington, DC 20001",
+            "category": "['Ramen restaurant', 'Chicken restaurant', 'Halal restaurant', 'Japanese restaurant']",
+            "date": "2019/08/04",
+            "gmap_id": "0x89b7b78e62e9c015:0x83c5e2f25df7c10b",
+            "iid": 56328,
+            "name": "Bantam King",
+            "split": "train",
+            "state": "District_of_Columbia",
+            "unix_time": 1564947256563
+        },
+        {
+            "address": "Sushi Express of Watertown, 300 Arsenal St, Watertown, NY 13601",
+            "category": "['Sushi restaurant', 'Japanese restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "date": "2020/09/02",
+            "gmap_id": "0x89d86fe207fb5e5f:0x550abc7e187c6bcb",
+            "iid": 68184,
+            "name": "Sushi Express of Watertown",
+            "split": "valid",
+            "state": "New_York",
+            "unix_time": 1599069561152
+        },
+        {
+            "address": "Fuji Hibachi sushi Asian bistro, 2184 Glenwood Shopping Plaza, Oneida, NY 13421",
+            "category": "['Japanese restaurant']",
+            "date": "2020/09/05",
+            "gmap_id": "0x89d976dfadb0143d:0xf1085abd2899f77",
+            "iid": 68218,
+            "name": "Fuji Hibachi sushi Asian bistro",
+            "split": "test",
+            "state": "New_York",
+            "unix_time": 1599318482857
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Lucky Kitchen, 15 S Main St, Homer, NY 13077",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89da6ca82a81c085:0x8bad8ef1806542e1",
+            "iid": 68321,
+            "name": "Lucky Kitchen",
+            "rank": 1,
+            "score": -8.582033157348633,
+            "state": "New_York"
+        },
+        {
+            "address": "Tasty China, 6 Elm St, Tully, NY 13159",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89da1822c7c0cf01:0xcf8592253b00b2ee",
+            "iid": 68317,
+            "name": "Tasty China",
+            "rank": 2,
+            "score": -10.964354515075684,
+            "state": "New_York"
+        },
+        {
+            "address": "Big Hunan, 1124 NY-222, Cortland, NY 13045",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89da6c67ff2af143:0xb0ac42c22fb4ef98",
+            "iid": 68320,
+            "name": "Big Hunan",
+            "rank": 3,
+            "score": -13.03528118133545,
+            "state": "New_York"
+        },
+        {
+            "address": "Cortland Buffet Inc, 3656 NY-281, Cortland, NY 13045",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x89da6c3a6dce7c43:0xc7962c5ce21518eb",
+            "iid": 68319,
+            "name": "Cortland Buffet Inc",
+            "rank": 4,
+            "score": -14.773687362670898,
+            "state": "New_York"
+        },
+        {
+            "address": "New York Garden Chinese Restaurant, 144 Main St, Groton, NY 13073",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89da76aa75de26ed:0xd06971c5b2c520d9",
+            "iid": 68322,
+            "name": "New York Garden Chinese Restaurant",
+            "rank": 5,
+            "score": -20.679582595825195,
+            "state": "New_York"
+        },
+        {
+            "address": "Golden City, 9 North St, Dryden, NY 13053",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89da7a96edbf74a7:0x83bc500ce018110c",
+            "iid": 68323,
+            "name": "Golden City",
+            "rank": 6,
+            "score": -26.55373191833496,
+            "state": "New_York"
+        },
+        {
+            "address": "Rong Cheng, 402 W Seneca Turnpike, Syracuse, NY 13207",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d9f440f68e162f:0xd6eea55d93f21cba",
+            "iid": 68313,
+            "name": "Rong Cheng",
+            "rank": 7,
+            "score": -32.16774368286133,
+            "state": "New_York"
+        },
+        {
+            "address": "China Cafe, 240 W Seneca St, Manlius, NY 13104",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d989513060ed67:0x11f1010044b56444",
+            "iid": 68221,
+            "name": "China Cafe",
+            "rank": 8,
+            "score": -35.15596389770508,
+            "state": "New_York"
+        },
+        {
+            "address": "Mr Stirfry, 214 Tecumseh Rd, Syracuse, NY 13224",
+            "category": "['Chinese restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Delivery Restaurant', 'Restaurant']",
+            "gmap_id": "0x89d9f367c21abe31:0x8698226286da9498",
+            "iid": 68294,
+            "name": "Mr Stirfry",
+            "rank": 9,
+            "score": -35.29621124267578,
+            "state": "New_York"
+        },
+        {
+            "address": "Sumo Japanese Sushi And Hibachi Grill, 2309 N Triphammer Rd #15, Ithaca, NY 14850",
+            "category": "['Japanese restaurant', 'Asian restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x89d0825dd760d5a7:0x9ec2d8834e59cbe8",
+            "iid": 67769,
+            "name": "Sumo Japanese Sushi And Hibachi Grill",
+            "rank": 10,
+            "score": -35.641971588134766,
+            "state": "New_York"
+        },
+        {
+            "address": "Friends And Pho, 2309 N Triphammer Rd, Ithaca, NY 14850",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x89d0825dd4290951:0xc11adc51fe75d2c6",
+            "iid": 67768,
+            "name": "Friends And Pho",
+            "rank": 11,
+            "score": -35.64987564086914,
+            "state": "New_York"
+        },
+        {
+            "address": "Mingold Kitchen Chinese Restaurant, 4713 Onondaga Blvd, Syracuse, NY 13219",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x89d9f14c331bca63:0x9a4734f8232befb3",
+            "iid": 68259,
+            "name": "Mingold Kitchen Chinese Restaurant",
+            "rank": 12,
+            "score": -35.71308898925781,
+            "state": "New_York"
+        },
+        {
+            "address": "New York, Syracuse, Onondaga Blvd, Yamasho sushi steakhouse\u90ae\u653f\u7f16\u7801: 13219",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x89d9f14e48f1e089:0x32ba90758ff92f73",
+            "iid": 68260,
+            "name": "Yamasho sushi steakhouse",
+            "rank": 13,
+            "score": -35.72949981689453,
+            "state": "New_York"
+        },
+        {
+            "address": "Les P\u00e2tes et Les Nouilles, 37 Albany St, Cazenovia, NY 13035",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x89d987a015edff13:0xed1f01977a9f0abb",
+            "iid": 68220,
+            "name": "Les P\u00e2tes et Les Nouilles",
+            "rank": 14,
+            "score": -35.7678108215332,
+            "state": "New_York"
+        },
+        {
+            "address": "Mitsuba, 2300 N Triphammer Rd, Ithaca, NY 14850",
+            "category": "['Japanese restaurant', 'Chinese restaurant', 'Japanese steakhouse', 'Restaurant']",
+            "gmap_id": "0x89d0825b9f7b6b09:0x9a23b259c814b318",
+            "iid": 67767,
+            "name": "Mitsuba",
+            "rank": 15,
+            "score": -35.97328567504883,
+            "state": "New_York"
+        },
+        {
+            "address": "New Long Cheng, 1005 S Salina St, Syracuse, NY 13202",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d9f39401440e11:0x66abc2a22c9a05f",
+            "iid": 68295,
+            "name": "New Long Cheng",
+            "rank": 16,
+            "score": -36.126914978027344,
+            "state": "New_York"
+        },
+        {
+            "address": "Easy Wok, 40 Catherwood Rd # C12, Ithaca, NY 14850",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d0825a0a93a329:0x138445e221a1db41",
+            "iid": 67766,
+            "name": "Easy Wok",
+            "rank": 17,
+            "score": -36.182777404785156,
+            "state": "New_York"
+        },
+        {
+            "address": "Moghul Indian Grill, 121 Marshall St, Syracuse, NY 13210",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x89d9f3a1c1a92fd5:0xdc90d76820457647",
+            "iid": 68299,
+            "name": "Moghul Indian Grill",
+            "rank": 18,
+            "score": -36.63803482055664,
+            "state": "New_York"
+        },
+        {
+            "address": "Panda West | Chinese Seafood Restaurant, 135 Marshall St, Syracuse, NY 13210",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x89d9f3a1c6689f55:0x776734d150e03838",
+            "iid": 68300,
+            "name": "Panda West | Chinese Seafood Restaurant",
+            "rank": 19,
+            "score": -36.64501190185547,
+            "state": "New_York"
+        },
+        {
+            "address": "Sweet Basil, 143 Marshall St, Syracuse, NY 13210",
+            "category": "['Thai restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x89d9ed8e890264ed:0x5c43d2647a2e2d1a",
+            "iid": 68247,
+            "name": "Sweet Basil",
+            "rank": 20,
+            "score": -36.648460388183594,
+            "state": "New_York"
+        }
+    ],
+    "user": {
+        "name": "Drone Flyer",
+        "uid": 120225,
+        "user_id": 104033241935874432167
+    }
+}

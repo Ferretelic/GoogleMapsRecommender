@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Shin-Sen-Gumi \u2013 Irvine, 6404 Irvine Blvd, Irvine, CA 92620",
+            "category": "['Japanese restaurant', 'Izakaya restaurant', 'Ramen restaurant', 'Restaurant', 'Udon noodle restaurant']",
+            "date": "2017/12/31",
+            "gmap_id": "0x80dcdcd5862d7969:0x1aabeaea52fc0df5",
+            "iid": 19620,
+            "name": "Shin-Sen-Gumi \u2013 Irvine",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1514761824263
+        },
+        {
+            "address": "Pho Kim Kim, 1029, 1020 Hwy 6 N Suite, Houston, TX 77079",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/03/05",
+            "gmap_id": "0x8640dbfdac9c4edb:0xae381e03aa700993",
+            "iid": 23759,
+            "name": "Pho Kim Kim",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1520284751386
+        },
+        {
+            "address": "Sichuan Impression, 13816 Red Hill Ave, Tustin, CA 92780",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "date": "2018/07/16",
+            "gmap_id": "0x80dcdbec241a8ca3:0xe0a3bb61569b7cbb",
+            "iid": 19567,
+            "name": "Sichuan Impression",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1531706965186
+        },
+        {
+            "address": "Izakaya-Wa, 12665 Memorial Dr, Houston, TX 77024",
+            "category": "['Izakaya restaurant', 'Japanese restaurant']",
+            "date": "2018/08/02",
+            "gmap_id": "0x8640c4aa513b1f8d:0xe8b40aaaa8847443",
+            "iid": 23364,
+            "name": "Izakaya-Wa",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1533174344223
+        },
+        {
+            "address": "Pho Saigon, 2553 Gessner Rd, Houston, TX 77080",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2018/08/23",
+            "gmap_id": "0x8640c523faaa15cd:0x4d61c46a82e460de",
+            "iid": 23407,
+            "name": "Pho Saigon",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1534988492495
+        },
+        {
+            "address": "Tamashi, 1106 Silber Rd d1, Houston, TX 77055, United States",
+            "category": "['Japanese restaurant', 'Ramen restaurant', 'Restaurant']",
+            "date": "2018/08/24",
+            "gmap_id": "0x8640c6a33468331f:0x87162141515fb61f",
+            "iid": 23436,
+            "name": "Tamashi",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535074501039
+        },
+        {
+            "address": "Mikoto Ramen & Sushi Bar, 12155 Katy Fwy, Houston, TX 77079",
+            "category": "['Japanese restaurant', 'Asian restaurant']",
+            "date": "2018/08/31",
+            "gmap_id": "0x8640db7455ea5673:0xf6f77244c5a04d1",
+            "iid": 23744,
+            "name": "Mikoto Ramen & Sushi Bar",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1535726506209
+        },
+        {
+            "address": "Ginger Thai Cuisine, 303 Grasshopper Ln, Houston, TX 77079",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Seafood restaurant', 'Southeast Asian restaurant', 'Sushi restaurant']",
+            "date": "2018/09/06",
+            "gmap_id": "0x8640dbe066732b47:0x2ae8a1b4537c7913",
+            "iid": 23756,
+            "name": "Ginger Thai Cuisine",
+            "split": "train",
+            "state": "Texas",
+            "unix_time": 1536200498471
+        },
+        {
+            "address": "Pho Oceanside, 518 Oceanside Blvd, Oceanside, CA 92054",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2018/10/01",
+            "gmap_id": "0x80dc6e19183d5423:0xc1c117640bbbb426",
+            "iid": 18792,
+            "name": "Pho Oceanside",
+            "split": "valid",
+            "state": "California",
+            "unix_time": 1538436342668
+        },
+        {
+            "address": "Torihei Yakitori Robata Dining, 1757 W Carson St Ste A, Torrance, CA 90501",
+            "category": "['Yakitori restaurant', 'Asian restaurant', 'Japanese restaurant', 'Restaurant']",
+            "date": "2019/06/22",
+            "gmap_id": "0x80dd4aa4cbe26543:0x9cccbcd21c393524",
+            "iid": 21109,
+            "name": "Torihei Yakitori Robata Dining",
+            "split": "test",
+            "state": "California",
+            "unix_time": 1561229059586
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Panda Express, 5578 Sherwood Way, San Angelo, TX 76901",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x8657e46137f23a8f:0x7d7c6741759c966c",
+            "iid": 26953,
+            "name": "Panda Express",
+            "rank": 1,
+            "score": -93.75540924072266,
+            "state": "Texas"
+        },
+        {
+            "address": "Masa Sushi Bar & Japanese Grill, 4545 Sherwood Way, San Angelo, TX 76901",
+            "category": "['Sushi restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x8657e5197a0c9cc1:0xbabedd30f653c890",
+            "iid": 26956,
+            "name": "Masa Sushi Bar & Japanese Grill",
+            "rank": 2,
+            "score": -95.1102523803711,
+            "state": "Texas"
+        },
+        {
+            "address": "Bombay To Kathmandu Kitchen, 3520 Knickerbocker Rd C, San Angelo, TX 76904",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x8657e50f3c3fffff:0x7bd4d9b051d29797",
+            "iid": 26955,
+            "name": "Bombay To Kathmandu Kitchen",
+            "rank": 3,
+            "score": -95.43800354003906,
+            "state": "Texas"
+        },
+        {
+            "address": "Indian Cuisine / Taste of The Himalayas, 3520 Knickerbocker Rd C, San Angelo, TX 76904",
+            "category": "['Indian restaurant', 'Asian fusion restaurant', 'Asian restaurant', 'Nepalese restaurant']",
+            "gmap_id": "0x8657e50f22465b09:0xdc60a78a01e5cb53",
+            "iid": 26954,
+            "name": "Indian Cuisine / Taste of The Himalayas",
+            "rank": 4,
+            "score": -95.44233703613281,
+            "state": "Texas"
+        },
+        {
+            "address": "King Buffet, 3508 Knickerbocker Rd, San Angelo, TX 76904",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8657e54b9a82f243:0xe44c5dc148e83af7",
+            "iid": 26957,
+            "name": "King Buffet",
+            "rank": 5,
+            "score": -95.49674987792969,
+            "state": "Texas"
+        },
+        {
+            "address": "Ichiban Japanese Steak House, 2412 College Hills Blvd, San Angelo, TX 76904",
+            "category": "['Japanese restaurant', 'Japanese steakhouse', 'Sushi restaurant']",
+            "gmap_id": "0x8657e5b2009e1dd3:0x7195128097c76356",
+            "iid": 26960,
+            "name": "Ichiban Japanese Steak House",
+            "rank": 6,
+            "score": -96.34098052978516,
+            "state": "Texas"
+        },
+        {
+            "address": "What Da Pho, 3315 Sherwood Way #101, San Angelo, TX 76904",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x8657e5b43c343ddf:0x82337022910ccfde",
+            "iid": 26961,
+            "name": "What Da Pho",
+            "rank": 7,
+            "score": -96.92855072021484,
+            "state": "Texas"
+        },
+        {
+            "address": "Bonsai Garden, 1801 Knickerbocker Rd, San Angelo, TX 76904",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x8657e59e37776e57:0xbd4f63fe70d13080",
+            "iid": 26959,
+            "name": "Bonsai Garden",
+            "rank": 8,
+            "score": -97.08416748046875,
+            "state": "Texas"
+        },
+        {
+            "address": "Nakamura Sushi House, 3222 Sherwood Way, San Angelo, TX 76901",
+            "category": "['Sushi restaurant', 'Korean restaurant']",
+            "gmap_id": "0x8657e413285385eb:0x90fb71c40672fa6b",
+            "iid": 26952,
+            "name": "Nakamura Sushi House",
+            "rank": 9,
+            "score": -97.22606658935547,
+            "state": "Texas"
+        },
+        {
+            "address": "Dragonlicious, 2503 Sherwood Way, San Angelo, TX 76901",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x8657e5c79b89d19b:0x8e5094e1a3be3ae6",
+            "iid": 26963,
+            "name": "Dragonlicious",
+            "rank": 10,
+            "score": -98.15213012695312,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Saigon - Asian Cuisine, 2001 W Harris Ave, San Angelo, TX 76901",
+            "category": "['Restaurant', 'Asian restaurant', 'Pho restaurant', 'Vietnamese restaurant']",
+            "gmap_id": "0x8657e5bf3ca1de4d:0xc9d8d0241329a2a0",
+            "iid": 26962,
+            "name": "Pho Saigon - Asian Cuisine",
+            "rank": 11,
+            "score": -98.77153015136719,
+            "state": "Texas"
+        },
+        {
+            "address": "Ban Moon, 405 W Ave N, San Angelo, TX 76903",
+            "category": "['Thai restaurant', 'Restaurant']",
+            "gmap_id": "0x8657e58837b3551f:0x8272a602c6bc3973",
+            "iid": 26958,
+            "name": "Ban Moon",
+            "rank": 12,
+            "score": -99.27509307861328,
+            "state": "Texas"
+        },
+        {
+            "address": "Super Mercado, 1501 S Chadbourne St, San Angelo, TX 76903",
+            "category": "['Grocery store', 'Asian grocery store', 'Gourmet grocery store', 'Grocery delivery service', 'Indian grocery store', 'Italian grocery store', 'Kosher grocery store', 'Mexican grocery store']",
+            "gmap_id": "0x8657ef63fb0bd75b:0x9f48a5364806c281",
+            "iid": 26965,
+            "name": "Super Mercado",
+            "rank": 13,
+            "score": -99.90669250488281,
+            "state": "Texas"
+        },
+        {
+            "address": "Wok & Rice, 435 Pulliam St, San Angelo, TX 76903",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8657ef52150905c9:0x753cc60c33bcc728",
+            "iid": 26964,
+            "name": "Wok & Rice",
+            "rank": 14,
+            "score": -102.36573028564453,
+            "state": "Texas"
+        },
+        {
+            "address": "Chang Thai, 1527 E Harris Ave, San Angelo, TX 76903",
+            "category": "['Thai restaurant']",
+            "gmap_id": "0x8657efb8650c1981:0x1c0ea50a65d8080c",
+            "iid": 26966,
+            "name": "Chang Thai",
+            "rank": 15,
+            "score": -102.86280059814453,
+            "state": "Texas"
+        },
+        {
+            "address": "Panda Express, 2400 Veterans Blvd #30, Del Rio, TX 78840",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x86f5eb9c7370b145:0x4d396ddbb68aa366",
+            "iid": 28139,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": -154.71636962890625,
+            "state": "Texas"
+        },
+        {
+            "address": "China Wok, 812 Hutchins Ave, Ballinger, TX 76821",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x8657a6ffba85840d:0xbfed869e48d6e6d0",
+            "iid": 26950,
+            "name": "China Wok",
+            "rank": 17,
+            "score": -155.23704528808594,
+            "state": "Texas"
+        },
+        {
+            "address": "Del Rio Golden Dragon, 504 E 9th St, Del Rio, TX 78840",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x86f5eb655b9b9759:0xd5ee3a0ff77c2f8b",
+            "iid": 28138,
+            "name": "Del Rio Golden Dragon",
+            "rank": 18,
+            "score": -156.6937713623047,
+            "state": "Texas"
+        },
+        {
+            "address": "Jitra Thai Cuisine, 904 E Gibbs St, Del Rio, TX 78840",
+            "category": "['Thai restaurant', 'Asian restaurant', 'Southeast Asian restaurant']",
+            "gmap_id": "0x86f5eb6100724d07:0xa5b93362e6a5d837",
+            "iid": 28137,
+            "name": "Jitra Thai Cuisine",
+            "rank": 19,
+            "score": -157.5497589111328,
+            "state": "Texas"
+        },
+        {
+            "address": "Pho Street, 503 E Interstate 20 #130, Midland, TX 79701",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x86f962a41ab4a1c1:0xb3ab803a7a888c34",
+            "iid": 28143,
+            "name": "Pho Street",
+            "rank": 20,
+            "score": -160.979736328125,
+            "state": "Texas"
+        }
+    ],
+    "user": {
+        "name": "Mingte Kao",
+        "uid": 227653,
+        "user_id": 107619537096742938009
+    }
+}

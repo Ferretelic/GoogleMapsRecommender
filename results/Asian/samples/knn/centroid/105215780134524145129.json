@@ -1,0 +1,326 @@
+{
+    "history": [
+        {
+            "address": "Yummy Ph\u1edf, 8900 161st Avenue Northeast, Redmond, WA 98052",
+            "category": "['Vietnamese restaurant']",
+            "date": "2016/11/28",
+            "gmap_id": "0x54900d4b7d45775f:0x4764ce0c0563d37b",
+            "iid": 1704,
+            "name": "Yummy Ph\u1edf",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1480294067846
+        },
+        {
+            "address": "Ph\u1edf B\u1eafc Restaurant, 1314 S Jackson St, Seattle, WA 98144",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/05/21",
+            "gmap_id": "0x54906abf986e2905:0x65cc15bb06f902d6",
+            "iid": 2928,
+            "name": "Ph\u1edf B\u1eafc Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1495392460842
+        },
+        {
+            "address": "Pho Bac, 1809 Minor Ave, Seattle, WA 98101",
+            "category": "['Vietnamese restaurant', 'Pho restaurant']",
+            "date": "2017/07/21",
+            "gmap_id": "0x5490154a922bac57:0x271bad43c527190c",
+            "iid": 2097,
+            "name": "Pho Bac",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1500598239301
+        },
+        {
+            "address": "Ph\u1edf Ao Sen Restaurant, 1139 E 12th St, Oakland, CA 94606",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "date": "2017/07/21",
+            "gmap_id": "0x808f8726bba02d7b:0xc3cff9842b18a1b2",
+            "iid": 9452,
+            "name": "Ph\u1edf Ao Sen Restaurant",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1500598251969
+        },
+        {
+            "address": "Pho Grand, 277C Grand St, New York, NY 10002",
+            "category": "['Vietnamese restaurant']",
+            "date": "2017/07/21",
+            "gmap_id": "0x89c2598791707d55:0x395095c5abfccb5c",
+            "iid": 59646,
+            "name": "Pho Grand",
+            "split": "train",
+            "state": "New_York",
+            "unix_time": 1500598282928
+        },
+        {
+            "address": "Feast Buffet, 485 Renton Center Way SW, Renton, WA 98057",
+            "category": "['Buffet restaurant', 'Asian restaurant', 'Chinese restaurant', 'Restaurant']",
+            "date": "2019/09/01",
+            "gmap_id": "0x549042b2bd9bd3bd:0x2f219c8a48a80161",
+            "iid": 2374,
+            "name": "Feast Buffet",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1567321015891
+        },
+        {
+            "address": "King Wah, 219 E Washington Ave, Sunnyvale, CA 94086",
+            "category": "['Chinese restaurant']",
+            "date": "2019/12/27",
+            "gmap_id": "0x808fb65d14a2587b:0x15a602e1c4e64c60",
+            "iid": 10171,
+            "name": "King Wah",
+            "split": "train",
+            "state": "California",
+            "unix_time": 1577422502406
+        },
+        {
+            "address": "108 Vietnamese Restaurant, 18114 E Valley Hwy, Kent, WA 98032",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2020/08/19",
+            "gmap_id": "0x54905d02c368dd7f:0xefb8f47ffd3ae324",
+            "iid": 2677,
+            "name": "108 Vietnamese Restaurant",
+            "split": "train",
+            "state": "Washington",
+            "unix_time": 1597795647791
+        },
+        {
+            "address": "Haiku Sushi & Seafood Buffet, 7530 164th Ave NE STE A108, Redmond, WA 98052",
+            "category": "['Buffet restaurant', 'Japanese restaurant', 'Seafood restaurant', 'Sushi restaurant']",
+            "date": "2020/08/28",
+            "gmap_id": "0x549072ae2b80672b:0xa4a46543fe66d8da",
+            "iid": 3240,
+            "name": "Haiku Sushi & Seafood Buffet",
+            "split": "valid",
+            "state": "Washington",
+            "unix_time": 1598577821802
+        },
+        {
+            "address": "Pho Bac Restaurant, 3300 Rainier Ave S #6034, Seattle, WA 98144",
+            "category": "['Vietnamese restaurant', 'Asian restaurant', 'Restaurant', 'Southeast Asian restaurant']",
+            "date": "2020/11/10",
+            "gmap_id": "0x54906a6466d53ca3:0x940a64c37b95b2b7",
+            "iid": 2812,
+            "name": "Pho Bac Restaurant",
+            "split": "test",
+            "state": "Washington",
+            "unix_time": 1605051164530
+        }
+    ],
+    "model": {
+        "model": "knn",
+        "name": "KNN (Centroid)",
+        "type": "centroid"
+    },
+    "recommendations": [
+        {
+            "address": "Beijing Restaurant, 1203 S Washington Ave, Emmett, ID 83617",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54af09e3b67524b7:0x5f1ce26d88f70329",
+            "iid": 5129,
+            "name": "Beijing Restaurant",
+            "rank": 1,
+            "score": -46.19013595581055,
+            "state": "Idaho"
+        },
+        {
+            "address": "China Palace Fine Dining, 625 E State St, Eagle, ID 83616",
+            "category": "['Chinese restaurant', 'Asian restaurant']",
+            "gmap_id": "0x54afaaaf8a3bbe97:0x65a06b37359d68a0",
+            "iid": 5139,
+            "name": "China Palace Fine Dining",
+            "rank": 2,
+            "score": -59.03096389770508,
+            "state": "Idaho"
+        },
+        {
+            "address": "Pho Nguyen, 7310 W State St, Garden City, ID 83714",
+            "category": "['Vietnamese restaurant', 'Restaurant']",
+            "gmap_id": "0x54aeff677991dca7:0xf3d9733ac8fc2373",
+            "iid": 5125,
+            "name": "Pho Nguyen",
+            "rank": 3,
+            "score": -60.88138961791992,
+            "state": "Idaho"
+        },
+        {
+            "address": "Pho 79, 7310 W State St, Garden City, ID 83714",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x54aeff98dcefe0e9:0xa9f5375b7f74776a",
+            "iid": 5126,
+            "name": "Pho 79",
+            "rank": 4,
+            "score": -60.889442443847656,
+            "state": "Idaho"
+        },
+        {
+            "address": "Madhuban Indian Cuisine, 6930 W State St, Boise, ID 83714",
+            "category": "['Indian restaurant']",
+            "gmap_id": "0x54aeff9f7323b6cb:0xc1e96d750fbdf090",
+            "iid": 5128,
+            "name": "Madhuban Indian Cuisine",
+            "rank": 5,
+            "score": -61.06523895263672,
+            "state": "Idaho"
+        },
+        {
+            "address": "Panda Express, 6675 N Glenwood St, Garden City, ID 83714",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54aeff9e88b2d52d:0x4ca85653fb541721",
+            "iid": 5127,
+            "name": "Panda Express",
+            "rank": 6,
+            "score": -61.287452697753906,
+            "state": "Idaho"
+        },
+        {
+            "address": "Jimbo Restaurant, 107 N Main St T, Payette, ID 83661",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54af85e7990a5c83:0xa201edffd29925b8",
+            "iid": 5130,
+            "name": "Jimbo Restaurant",
+            "rank": 7,
+            "score": -61.79212188720703,
+            "state": "Idaho"
+        },
+        {
+            "address": "Asian Wok Chinese Restaurant, 9706 W State St, Star, ID 83669",
+            "category": "['Chinese restaurant', 'Delivery Restaurant']",
+            "gmap_id": "0x54afac6276a65059:0xf8c983f0831a61c0",
+            "iid": 5140,
+            "name": "Asian Wok Chinese Restaurant",
+            "rank": 8,
+            "score": -62.29805374145508,
+            "state": "Idaho"
+        },
+        {
+            "address": "Top Wok, 12375 W Chinden Blvd c, Boise, ID 83713",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54ae551394e17cab:0x20bd08ec63f568a6",
+            "iid": 5057,
+            "name": "Top Wok",
+            "rank": 9,
+            "score": -62.3763313293457,
+            "state": "Idaho"
+        },
+        {
+            "address": "Sakura Sushi, # 138 3210 East, W Chinden Blvd #6765, Eagle, ID 83616",
+            "category": "['Sushi restaurant', 'Asian restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55188400bd23:0xe1fc5d227bdccc10",
+            "iid": 5058,
+            "name": "Sakura Sushi",
+            "rank": 10,
+            "score": -62.4781494140625,
+            "state": "Idaho"
+        },
+        {
+            "address": "Golden Horse Restaurant, 1 W Main St, Weiser, ID 83672",
+            "category": "['Restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x54a5793b9767aca3:0x97b79d65a0fb2093",
+            "iid": 4988,
+            "name": "Golden Horse Restaurant",
+            "rank": 11,
+            "score": -62.62148666381836,
+            "state": "Idaho"
+        },
+        {
+            "address": "Mandarin Dynasty, 411 SW 3rd St, Fruitland, ID 83619",
+            "category": "['Asian restaurant', 'Chinese restaurant']",
+            "gmap_id": "0x54af901deb6199af:0x1413ba44bd0b7e1c",
+            "iid": 5138,
+            "name": "Mandarin Dynasty",
+            "rank": 12,
+            "score": -62.7684440612793,
+            "state": "Idaho"
+        },
+        {
+            "address": "Pho Bac, 7700 W Goddard Rd, Boise, ID 83704, United States",
+            "category": "['Vietnamese restaurant']",
+            "gmap_id": "0x54aeff6083ef168d:0x66c16e14bd652199",
+            "iid": 5124,
+            "name": "Pho Bac",
+            "rank": 13,
+            "score": -63.61415481567383,
+            "state": "Idaho"
+        },
+        {
+            "address": "Teriyaki Madness, 1653 W Island Green Dr Ste 130, Meridian, ID 83646",
+            "category": "['Asian fusion restaurant', 'Caterer', 'Fast food restaurant', 'Gluten-free restaurant', 'Japanese restaurant']",
+            "gmap_id": "0x54ae55cae7f4fa65:0x225b2adc029f2e05",
+            "iid": 5059,
+            "name": "Teriyaki Madness",
+            "rank": 14,
+            "score": -63.69928741455078,
+            "state": "Idaho"
+        },
+        {
+            "address": "Cupbop - Korean BBQ, 1520 W Chinden Blvd # 104, Meridian, ID 83646",
+            "category": "['Korean restaurant', 'Restaurant']",
+            "gmap_id": "0x54ae54ae7c681237:0x3f31ad0d57d17e36",
+            "iid": 5056,
+            "name": "Cupbop - Korean BBQ",
+            "rank": 15,
+            "score": -63.71810531616211,
+            "state": "Idaho"
+        },
+        {
+            "address": "Panda Express, 1771 E Idaho Ave, Ontario, OR 97914",
+            "category": "['Chinese restaurant', 'Asian restaurant', 'Restaurant']",
+            "gmap_id": "0x54af8f94df25a01d:0xb93154945253039d",
+            "iid": 5133,
+            "name": "Panda Express",
+            "rank": 16,
+            "score": -63.777313232421875,
+            "state": "Oregon"
+        },
+        {
+            "address": "China Buffet, 1683 E Idaho Ave, Ontario, OR 97914",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54af8f95226b50b1:0x7260f85b06076ee8",
+            "iid": 5134,
+            "name": "China Buffet",
+            "rank": 17,
+            "score": -63.825439453125,
+            "state": "Oregon"
+        },
+        {
+            "address": "Mongolian Express Restaurant, 490 East Ln, Ontario, OR 97914",
+            "category": "['Chinese restaurant', 'Restaurant']",
+            "gmap_id": "0x54af8fea83d97cf7:0xaa378c53d4684aaa",
+            "iid": 5137,
+            "name": "Mongolian Express Restaurant",
+            "rank": 18,
+            "score": -63.925537109375,
+            "state": "Oregon"
+        },
+        {
+            "address": "Ogawa's Wicked Sushi, Burgers, And Bowls, 375 E Idaho Ave, Ontario, OR 97914",
+            "category": "['Japanese restaurant']",
+            "gmap_id": "0x54af8fbbb5d34255:0xb75572bd6e2c7813",
+            "iid": 5136,
+            "name": "Ogawa's Wicked Sushi, Burgers, And Bowls",
+            "rank": 19,
+            "score": -65.00608825683594,
+            "state": "Oregon"
+        },
+        {
+            "address": "Far East Restaurant, 44 NE 3rd St, Ontario, OR 97914",
+            "category": "['Chinese restaurant']",
+            "gmap_id": "0x54af8fba4c9daf23:0x2ea17aabbf51a4ba",
+            "iid": 5135,
+            "name": "Far East Restaurant",
+            "rank": 20,
+            "score": -65.04983520507812,
+            "state": "Oregon"
+        }
+    ],
+    "user": {
+        "name": "Christopher Nguyen",
+        "uid": 155844,
+        "user_id": 105215780134524145129
+    }
+}
