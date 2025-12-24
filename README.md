@@ -79,12 +79,12 @@ We experimented with three different strategies for defining edges and their ini
         * *Constant:* Fixed weight (hyperparameter).
         * *Dynamic:* Gaussian kernel based on distance:
 
-          $$w_{ii'} = e^{-dist(i, i')^2 / \sigma^2}$$
+          $$w_{ii^{\prime}} = e^{-dist(i, i^{\prime})^2 / \sigma^2}$$
 
-          where $dist(i, i')$ is the distance in km and $\sigma$ controls the decay speed.
+          where $dist(i, i^{\prime})$ is the distance in km and $\sigma$ controls the decay speed.
 
 ### 3.2. Graph Normalization
-After defining the initial weights $w_{ui}$ (or $w_{ii'}$), we apply **Symmetric Laplacian Normalization** to ensure training stability and prevent scale explosion. The normalized entry $\tilde{a}_{ui}$ in the adjacency matrix is calculated as:
+After defining the initial weights $w_{ui}$ (or $w_{ii^{\prime}}$), we apply **Symmetric Laplacian Normalization** to ensure training stability and prevent scale explosion. The normalized entry $\tilde{a}_{ui}$ in the adjacency matrix is calculated as:
 
 $$
 \tilde{a}_{ui} = \frac{w_{ui}}{\sqrt{D_u D_i}}
@@ -107,7 +107,7 @@ where $\mathbf{e}_u^{(0)}$ and $\mathbf{e}_i^{(0)}$ are the initialized embeddin
 
 **Layer Combination (Readout):**
 The final representation for each user and item is obtained by averaging the embeddings from all layers $K$:
-
+ the perturbed embedding
 $$
 \mathbf{e}_u^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_u^{(k)}, \quad
 \mathbf{e}_i^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_i^{(k)}
@@ -161,11 +161,11 @@ To enhance the robustness of learned representations against noise, we integrate
 The contrastive loss is formulated as:
 
 $$
-\mathcal{L}_\text{CL} = \sum_{u \in \mathcal{B}} -\log \frac{\exp(\text{sim}(\mathbf{e}'_u, \mathbf{e}''_u) / \tau)}{\sum_{v \in \mathcal{B}} \exp(\text{sim}(\mathbf{e}'_u, \mathbf{e}''_v) / \tau)}
+\mathcal{L}_\text{CL} = \sum_{u \in \mathcal{B}} -\log \frac{\exp(\text{sim}(\mathbf{e}^{\prime}_u, \mathbf{e}^{\prime\prime}_u) / \tau)}{\sum_{v \in \mathcal{B}} \exp(\text{sim}(\mathbf{e}^{\prime}_u, \mathbf{e}^{\prime\prime}_v) / \tau)}
 $$
 
 where:
-* $\mathbf{e}'_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_1$ and $\mathbf{e}''_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_2$ are the perturbed embeddings ($z \sim \mathcal{N}(0, 1)$).
+* $\mathbf{e}^{\prime}_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_1$ and $\mathbf{e}^{\prime\prime}_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_2$ are the perturbed embeddings ($z \sim \mathcal{N}(0, 1)$).
 * $\text{sim}(\cdot)$ denotes the cosine similarity.
 * $\tau$ is the temperature hyperparameter.
 * $\epsilon$ controls the magnitude of the noise.
@@ -187,10 +187,10 @@ To address this, we employed **MixGCF** [[5](#ref5)], a strategy designed to syn
 The process is as follows:
 1. Sample a batch of candidate negative items $\mathcal{M}$ from the unobserved set.
 2. Select a candidate negative item $j \in \mathcal{M}$ (typically the one with the highest score or based on specific selection criteria).
-3. Synthesize the hard negative embedding $\mathbf{e}'_j$ by mixing information from the positive item $i$:
+3. Synthesize the hard negative embedding $\mathbf{e}^{\prime}_j$ by mixing information from the positive item $i$:
 
 $$
-\mathbf{e}'_j = \alpha \mathbf{e}^{\ast}_{i} + (1 - \alpha) \mathbf{e}^{\ast}_{j}
+\mathbf{e}^{\prime}_j = \alpha \mathbf{e}^{\ast}_{i} + (1 - \alpha) \mathbf{e}^{\ast}_{j}
 $$
 
 where:
@@ -198,7 +198,7 @@ where:
 * $\mathbf{e}^{\ast}_j$ is the embedding of the selected negative item.
 * $\alpha$ is a hyperparameter controlling the mixing ratio.
 
-This synthesized embedding $\mathbf{e}'_j$ serves as a harder negative sample for computing the BPR loss, forcing the model to better discriminate between true positive items and difficult false candidates.
+This synthesized embedding $\mathbf{e}^{\prime}_j$ serves as a harder negative sample for computing the BPR loss, forcing the model to better discriminate between true positive items and difficult false candidates.
 
 ## 5. Experiments & Validations
 
@@ -206,7 +206,7 @@ This synthesized embedding $\mathbf{e}'_j$ serves as a harder negative sample fo
 To evaluate the recommendation performance, we adopted two widely used metrics for top-$K$ recommendation: **Recall@K** and **NDCG@K**. In our experiments, we set $K=20$.
 
 * **Recall@20:**
-    Measures the proportion of relevant items (i.e., the item in the test set) that are successfully included in the top-20 recommendation list. It indicates the model's ability to retrieve correct items.
+    Measures the proportion of relevant items (i.e., the item in the test set) that are successfully included in the top-20 recommendation list. It indicates the model^{\prime}s ability to retrieve correct items.
     
 * **NDCG@20 (Normalized Discounted Cumulative Gain):**
     Evaluates the quality of the ranking order. Unlike Recall, NDCG accounts for the position of the relevant item in the list, assigning higher scores when the correct item is ranked higher.
@@ -289,7 +289,7 @@ model:
 To comprehensively evaluate the performance of our recommender system, we employ a diverse set of metrics covering **Accuracy**, **Diversity**, **Catalog Coverage**, and **Popularity Bias**.
 
 ### 6.1. Accuracy Metrics
-These metrics measure the model's ability to predict the specific POIs that users actually visited in the test set.
+These metrics measure the model^{\prime}s ability to predict the specific POIs that users actually visited in the test set.
 
 * **Recall@K**
     * Measures the proportion of relevant items (ground-truth visits) that are successfully retrieved in the top-$K$ recommendation list.
@@ -334,7 +334,7 @@ These metrics assess how the model utilizes the item catalog and distributes rec
 We analyze whether the model over-recommends popular items ("Head") at the expense of less popular ones ("Tail").
 
 * **Popularity Correlation (Spearman)**
-    * The Spearman rank correlation between an item's popularity in the training set and its recommendation frequency.
+    * The Spearman rank correlation between an item^{\prime}s popularity in the training set and its recommendation frequency.
     * A high positive correlation indicates strong popularity bias (the model simply mimics historical popularity).
 
 * **KL Divergence**
@@ -356,7 +356,7 @@ We analyze whether the model over-recommends popular items ("Head") at the expen
 To validate that our model learns meaningful representations beyond simple geographical proximity or popularity bias, we compared it against four heuristic baselines based on **Distance** and **Popularity**.
 
 **Metrics**
-We use the Haversine distance $d(u, i)$ between the user's reference point and the business location.
+We use the Haversine distance $d(u, i)$ between the user^{\prime}s reference point and the business location.
 * **KNN (Distance Only):** Ranks businesses solely by proximity.
 
     $$\text{Score} = - d(u, i)$$
@@ -366,7 +366,7 @@ We use the Haversine distance $d(u, i)$ between the user's reference point and t
     $$\text{Score} = \frac{\text{Popularity}_i}{d(u, i) + \epsilon}$$
 
 **Reference Points**
-For each metric, we tested two strategies to define the user's location:
+For each metric, we tested two strategies to define the user^{\prime}s location:
 * **Centroid:** The geometric center (mean latitude/longitude) of all businesses the user has visited.
 * **Latest:** The location of the most recent business the user visited.
 
@@ -390,7 +390,7 @@ For the trained LightGCN model, we evaluated four different strategies to comput
 
     $$\mathbf{e}_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
-    where $\mathcal{H}_u$ is the user's history in the training set.
+    where $\mathcal{H}_u$ is the user^{\prime}s history in the training set.
 
 The table below is the summarization of results on `Cafe` test dataset:
 
@@ -417,7 +417,7 @@ Here is a sample of recommended businesses for a user in the dataset with `best`
 
 ```
 ================================================================================
-Recommendations for user Sean O'Hara with LightGCN Best (Fold)
+Recommendations for user Sean O^{\prime}Hara with LightGCN Best (Fold)
   History
     [ 2782] [California     ] The Buena Vista
     [ 7672] [California     ] Superba Snacks + Coffee
@@ -431,7 +431,7 @@ Recommendations for user Sean O'Hara with LightGCN Best (Fold)
     [ 2059] [California     ] Parker-Lusseau Pastries
     [ 3151] [California     ] Sideboard Danville
     [ 8116] [California     ] The Original Pantry Cafe
-    [ 6733] [California     ] Cassell's Hamburgers
+    [ 6733] [California     ] Cassell^{\prime}s Hamburgers
     [ 7603] [California     ] Lemon Poppy Kitchen
     [ 7734] [California     ] Amara Kitchen
     [ 7317] [California     ] Idle Hour
@@ -449,14 +449,14 @@ Recommendations for user Sean O'Hara with LightGCN Best (Fold)
     [ 7945]  6 [California     ] Tierra Mia Coffee | 2.682
     [ 7566]  7 [California     ] Proof Bakery | 2.575
     [ 7611]  8 [California     ] The Highland Cafe | 2.514
-    [ 7983]  9 [California     ] Millie's Cafe | 2.453
+    [ 7983]  9 [California     ] Millie^{\prime}s Cafe | 2.453
     [ 7715] 10 [California     ] Found Coffee | 2.436
     [ 7721] 11 [California     ] Tierra Mia Coffee | 2.389
     [ 7727] 12 [California     ] Kindness & Mischief Coffee | 2.297
     [ 7909] 13 [California     ] The Little Jewel of New Orleans | 2.275
-    [ 3154] 14 [California     ] Peet's Coffee | 2.238
-    [ 7537] 15 [California     ] Porto's Bakery and Cafe | 2.231
-    [ 7913] 16 [California     ] Nick's Cafe | 2.181
+    [ 3154] 14 [California     ] Peet^{\prime}s Coffee | 2.238
+    [ 7537] 15 [California     ] Porto^{\prime}s Bakery and Cafe | 2.231
+    [ 7913] 16 [California     ] Nick^{\prime}s Cafe | 2.181
     [ 7554] 17 [California     ] House of Pies | 2.177
     [ 7725] 18 [California     ] Antigua Bread | 2.170
     [ 7705] 19 [California     ] Little Flower | 2.047
@@ -467,17 +467,17 @@ Recommendations for user Sean O'Hara with LightGCN Best (Fold)
 *Sample recommendations for test users can be found in `./results/[category]/samples`*
 
 ### 7.3. Inductive Inference (New Users)
-We tested the model's ability to recommend items to **New Users (Cold Start)** who were not present during training. Since these users do not have pre-trained embeddings, we infer their embeddings on-the-fly based on their visitation list.
+We tested the model^{\prime}s ability to recommend items to **New Users (Cold Start)** who were not present during training. Since these users do not have pre-trained embeddings, we infer their embeddings on-the-fly based on their visitation list.
 
 The inference strategy depends on the model type:
 
 * **Mean Aggregation** (Used in `dot`, `cosine`, `distance` models):
-    The new user's embedding is calculated as the simple average of the embeddings of items they have visited.
+    The new user^{\prime}s embedding is calculated as the simple average of the embeddings of items they have visited.
 
   $$\mathbf{e}_{new} = \frac{1}{|\mathcal{H}_{new}|} \sum_{j \in \mathcal{H}_{new}} \mathbf{e}_j$$
 
 * **Folding-in Aggregation** (Used in `fold` model):
-        The new user's embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
+        The new user^{\prime}s embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
 
   $$\mathbf{e}_{new} = \sum_{j \in \mathcal{H}_{new}} \frac{1}{\sqrt{|\mathcal{H}_{new}| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
@@ -521,7 +521,7 @@ Recommendations for user Shouki with LightGCN Best (Fold)
 ### 7.4. Qualitative Analysis (Dimensionality Reduction)
 To investigate whether the embeddings implicitly capture semantic and structural features, we visualized the item embeddings using **PCA** and **UMAP** [[6](#ref6)].
 
-* `chain`: Clustering of major chains (e.g., *Starbucks*, *McDonald's*).
+* `chain`: Clustering of major chains (e.g., *Starbucks*, *McDonald^{\prime}s*).
 * `city` / `states`: Geographical alignment of businesses.
 * `popularity`: Distribution based on review counts.
 * `price`: Clustering based on price tiers.
@@ -604,27 +604,27 @@ python test.py dataset=[category] device=[cpu or cuda]
 
 1.  <a id="ref1"></a>**LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation**
     Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, & Min-Yen Kan.
-    *Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)*.
+    *Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ^{\prime}20)*.
     [[Paper](https://arxiv.org/abs/2002.02126)]
 
 2.  <a id="ref2"></a>**UCTopic: Unsupervised Contrastive Learning for Phrase Representations and Topic Mining**
     Jiacheng Li, Jingbo Shang, Julian McAuley.
-    *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL '22)*.
+    *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL ^{\prime}22)*.
     [[Paper](https://aclanthology.org/2022.acl-long.426/)]
 
 3.  <a id="ref3"></a>**Personalized Showcases: Generating Multi-Modal Explanations for Recommendations**
     An Yan, Zhankui He, Jiacheng Li, Tianyang Zhang, Julian McAuley.
-    *Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '23)*.
+    *Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ^{\prime}23)*.
     [[Paper](https://arxiv.org/abs/2305.16643)]
 
 4. <a id="ref4"></a>**Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation**
    Junliang Yu, Hongzhi Yin, Xin Xia, Tong Chen, Lizhen Cui, & Quoc Viet Hung Nguyen.
-   *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '22)*.
+   *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ^{\prime}22)*.
    [[Paper](https://arxiv.org/abs/2112.08679)]
 
 5. <a id="ref5"></a>**MixGCF: An Improved Training Method for Graph Neural Networks for Recommender Systems**
    Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyue Wang, & Jie Tang.
-   *Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '21)*.
+   *Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD ^{\prime}21)*.
    [[Paper](https://arxiv.org/abs/2104.03279)]
 
 6. <a id="ref6"></a>**UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction**
@@ -634,5 +634,5 @@ python test.py dataset=[category] device=[cpu or cuda]
 
 7. <a id="ref7"></a>**Inductive Representation Learning on Large Graphs (GraphSAGE)**
    William L. Hamilton, Rex Ying, & Jure Leskovec.
-   *Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS '17)*.
+   *Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS ^{\prime}17)*.
    [[Paper](https://arxiv.org/abs/1706.02216)]
