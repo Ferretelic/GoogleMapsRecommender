@@ -109,18 +109,18 @@ where $\mathbf{e}_u^{(0)}$ and $\mathbf{e}_i^{(0)}$ are the initialized embeddin
 The final representation for each user and item is obtained by averaging the embeddings from all layers $K$:
 
 $$
-\mathbf{e}_u^{*} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_u^{(k)}, \quad
-\mathbf{e}_i^{*} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_i^{(k)}
+\mathbf{e}_u^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_u^{(k)}, \quad
+\mathbf{e}_i^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_i^{(k)}
 $$
 
-These final embeddings $\mathbf{e}_u^{*}$ and $\mathbf{e}_i^{*}$ are used to compute the prediction score via the inner product.
+These final embeddings $\mathbf{e}_u^{\ast}$ and $\mathbf{e}_i^{\ast}$ are used to compute the prediction score via the inner product.
 
 ### 3.4 Layer Weighting
 In our naive model, we take the average of embeddings from different layers. However, as the number of layers increases, the embeddings may become over-smoothed and lose specific information about the original user or business. Therefore, we applied the decaying weighting for layer embedding as follows:
 
 $$
-\mathbf{e}_u^{*} = \sum_{k=0}^K w_k\mathbf{e}_u^{(k)}, \quad
-\mathbf{e}_i^{*} = \sum_{k=0}^K w_k\mathbf{e}_i^{(k)}, \quad
+\mathbf{e}_u^{\ast} = \sum_{k=0}^K w_k\mathbf{e}_u^{(k)}, \quad
+\mathbf{e}_i^{\ast} = \sum_{k=0}^K w_k\mathbf{e}_i^{(k)}, \quad
 w_k = \frac{1.0 - kd}{\sum_{k=0}^K (1.0 - kd)}
 $$
 
@@ -139,7 +139,7 @@ where:
 * $\mathcal{D}$ is the training dataset consisting of triples $(u, i, j)$.
 * $i$ denotes a positive item (observed interaction).
 * $j$ denotes a negative item (unobserved interaction).
-* $\hat{y}_{ui} = {\mathbf{e}^{*}_u} \cdot \mathbf{e}^{*}_i$ is the predicted score.
+* $\hat{y}_{ui} = {\mathbf{e}^{\ast}_u} \cdot \mathbf{e}^{\ast}_i$ is the predicted score.
 * $\sigma(\cdot)$ is the sigmoid function.
 
 Minimizing this loss maximizes the margin between the scores of positive and negative items, guiding the embeddings of similar users and items to align closer in the vector space.
@@ -165,7 +165,7 @@ $$
 $$
 
 where:
-* $\mathbf{e}'_u = \mathbf{e}^{*}_u + \epsilon \cdot z_1$ and $\mathbf{e}''_u = \mathbf{e}^{*}_u + \epsilon \cdot z_2$ are the perturbed embeddings ($z \sim \mathcal{N}(0, 1)$).
+* $\mathbf{e}'_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_1$ and $\mathbf{e}''_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_2$ are the perturbed embeddings ($z \sim \mathcal{N}(0, 1)$).
 * $\text{sim}(\cdot)$ denotes the cosine similarity.
 * $\tau$ is the temperature hyperparameter.
 * $\epsilon$ controls the magnitude of the noise.
@@ -190,12 +190,12 @@ The process is as follows:
 3. Synthesize the hard negative embedding $\mathbf{e}'_j$ by mixing information from the positive item $i$:
 
 $$
-\mathbf{e}'_j = \alpha \mathbf{e}^{*}_{i} + (1 - \alpha) \mathbf{e}^{*}_{j}
+\mathbf{e}'_j = \alpha \mathbf{e}^{\ast}_{i} + (1 - \alpha) \mathbf{e}^{\ast}_{j}
 $$
 
 where:
-* $\mathbf{e}^{*}_i$ is the embedding of the positive item.
-* $\mathbf{e}^{*}_j$ is the embedding of the selected negative item.
+* $\mathbf{e}^{\ast}_i$ is the embedding of the positive item.
+* $\mathbf{e}^{\ast}_j$ is the embedding of the selected negative item.
 * $\alpha$ is a hyperparameter controlling the mixing ratio.
 
 This synthesized embedding $\mathbf{e}'_j$ serves as a harder negative sample for computing the BPR loss, forcing the model to better discriminate between true positive items and difficult false candidates.
