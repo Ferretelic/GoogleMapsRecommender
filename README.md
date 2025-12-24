@@ -207,7 +207,7 @@ This synthesized embedding $\mathbf{e}^{\prime}_j$ serves as a harder negative s
 To evaluate the recommendation performance, we adopted two widely used metrics for $\text{top-}K$ recommendation: **Recall@K** and **NDCG@K**. In our experiments, we set $K=20$.
 
 * **Recall@20:**
-    Measures the proportion of relevant items (i.e., the item in the test set) that are successfully included in the top-20 recommendation list. It indicates the model^{\prime}s ability to retrieve correct items.
+    Measures the proportion of relevant items (i.e., the item in the test set) that are successfully included in the top-20 recommendation list. It indicates the model's ability to retrieve correct items.
     
 * **NDCG@20 (Normalized Discounted Cumulative Gain):**
     Evaluates the quality of the ranking order. Unlike Recall, NDCG accounts for the position of the relevant item in the list, assigning higher scores when the correct item is ranked higher.
@@ -290,7 +290,7 @@ model:
 To comprehensively evaluate the performance of our recommender system, we employ a diverse set of metrics covering **Accuracy**, **Diversity**, **Catalog Coverage**, and **Popularity Bias**.
 
 ### 6.1. Accuracy Metrics
-These metrics measure the model^{\prime}s ability to predict the specific POIs that users actually visited in the test set.
+These metrics measure the model's ability to predict the specific POIs that users actually visited in the test set.
 
 * **Recall@K**
     * Measures the proportion of relevant items (ground-truth visits) that are successfully retrieved in the $\text{top-}K$ recommendation list.
@@ -335,7 +335,7 @@ These metrics assess how the model utilizes the item catalog and distributes rec
 We analyze whether the model over-recommends popular items ("Head") at the expense of less popular ones ("Tail").
 
 * **Popularity Correlation (Spearman)**
-    * The Spearman rank correlation between an item^{\prime}s popularity in the training set and its recommendation frequency.
+    * The Spearman rank correlation between an item's popularity in the training set and its recommendation frequency.
     * A high positive correlation indicates strong popularity bias (the model simply mimics historical popularity).
 
 * **KL Divergence**
@@ -357,7 +357,7 @@ We analyze whether the model over-recommends popular items ("Head") at the expen
 To validate that our model learns meaningful representations beyond simple geographical proximity or popularity bias, we compared it against four heuristic baselines based on **Distance** and **Popularity**.
 
 **Metrics**
-We use the Haversine distance $d(u, i)$ between the user^{\prime}s reference point and the business location.
+We use the Haversine distance $d(u, i)$ between the user's reference point and the business location.
 * **KNN (Distance Only):** Ranks businesses solely by proximity.
 
     $$\text{Score} = - d(u, i)$$
@@ -367,7 +367,7 @@ We use the Haversine distance $d(u, i)$ between the user^{\prime}s reference poi
     $$\text{Score} = \frac{\text{Popularity}_i}{d(u, i) + \epsilon}$$
 
 **Reference Points**
-For each metric, we tested two strategies to define the user^{\prime}s location:
+For each metric, we tested two strategies to define the user's location:
 * **Centroid:** The geometric center (mean latitude/longitude) of all businesses the user has visited.
 * **Latest:** The location of the most recent business the user visited.
 
@@ -391,7 +391,7 @@ For the trained LightGCN model, we evaluated four different strategies to comput
 
     $$\mathbf{e}\_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
-    where $\mathcal{H}_u$ is the user^{\prime}s history in the training set.
+    where $\mathcal{H}_u$ is the user's history in the training set.
 
 The table below is the summarization of results on `Cafe` test dataset:
 
