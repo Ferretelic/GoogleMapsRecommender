@@ -256,7 +256,7 @@ You can check the results of validations in `validations` branch.
 
 After a series of experiments, we identified the following configuration as the baseline and best performing model:
 
-*** Baseline ***
+***Baseline***
 ``` yaml
 training:
   batch_size: 1024
@@ -268,7 +268,7 @@ model:
   n_layers: 3
 ```
 
-*** Best ***
+***Best***
 ```yaml
 training:
   batch_size: 1024
