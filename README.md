@@ -108,6 +108,7 @@ where $\mathbf{e}_u^{(0)}$ and $\mathbf{e}_i^{(0)}$ are the initialized embeddin
 **Layer Combination (Readout):**
 The final representation for each user and item is obtained by averaging the embeddings from all layers $K$:
  the perturbed embedding
+
 $$
 \mathbf{e}_u^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_u^{(k)}, \quad
 \mathbf{e}_i^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_i^{(k)}
@@ -203,7 +204,7 @@ This synthesized embedding $\mathbf{e}^{\prime}_j$ serves as a harder negative s
 ## 5. Experiments & Validations
 
 ### 5.1. Evaluation Metrics
-To evaluate the recommendation performance, we adopted two widely used metrics for top-$K$ recommendation: **Recall@K** and **NDCG@K**. In our experiments, we set $K=20$.
+To evaluate the recommendation performance, we adopted two widely used metrics for $\text{top-}K$ recommendation: **Recall@K** and **NDCG@K**. In our experiments, we set $K=20$.
 
 * **Recall@20:**
     Measures the proportion of relevant items (i.e., the item in the test set) that are successfully included in the top-20 recommendation list. It indicates the model^{\prime}s ability to retrieve correct items.
@@ -292,7 +293,7 @@ To comprehensively evaluate the performance of our recommender system, we employ
 These metrics measure the model^{\prime}s ability to predict the specific POIs that users actually visited in the test set.
 
 * **Recall@K**
-    * Measures the proportion of relevant items (ground-truth visits) that are successfully retrieved in the top-$K$ recommendation list.
+    * Measures the proportion of relevant items (ground-truth visits) that are successfully retrieved in the $\text{top-}K$ recommendation list.
     * Higher values indicate a better ability to find correct items.
 
 * **NDCG@K (Normalized Discounted Cumulative Gain)**
@@ -388,7 +389,7 @@ For the trained LightGCN model, we evaluated four different strategies to comput
 * **`fold` (Folding-in / GCN Aggregation)**:
     Instead of using the learned user embedding parameter directly, we dynamically construct the user embedding from their interaction history using the GCN propagation rule. This allows us to assess the quality of the graph structure itself.
 
-    $$\mathbf{e}_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
+    $$\mathbf{e}\_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
     where $\mathcal{H}_u$ is the user^{\prime}s history in the training set.
 
