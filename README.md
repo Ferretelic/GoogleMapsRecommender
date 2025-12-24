@@ -165,7 +165,7 @@ $$
 $$
 
 where:
-* $\mathbf{e}^{\prime}_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_1$ and $\mathbf{e}^{\prime\prime}_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_2$ are the perturbed embeddings ($ z \sim \mathcal{N}(0, 1) $).
+* $\mathbf{e}^{\prime}_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_1$ and $\mathbf{e}^{\prime\prime}_u = \mathbf{e}^{\ast}_u + \epsilon \cdot z_2$ are the perturbed embeddings ($z \sim \mathcal{N}(0, 1) $).
 * $\text{sim}(\cdot)$ denotes the cosine similarity.
 * $\tau$ is the temperature hyperparameter.
 * $\epsilon$ controls the magnitude of the noise.
