@@ -66,9 +66,9 @@ We experimented with three different strategies for defining edges and their ini
     * The graph structure is identical to the `Naive` graph, but edge weights are continuous values based on the "freshness" of the review.
     * **Weight:** We apply an exponential decay function based on the time elapsed since the latest review in the dataset ($t_{\max}$):
   
-    $$
+    ```math
     w_{ui} = (1 - w_{\min}) e^{-\lambda(t_{\max} - t_{ui})} + w_{\min}
-    $$
+    ```
     
     where $w_{\min}$ is the minimum weight, $\lambda$ is the decay coefficient, and $(t_{\max} - t_{ui})$ represents the age of the review.
 
