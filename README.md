@@ -554,7 +554,7 @@ huggingface-cli download YourUserName/google-maps-recommender ./[category]/[best
 Then you can run all the tests as follows
 
 ``` bash
-python test.py dataset=[category]
+python test.py dataset=[category] device=[cpu or cuda]
 ```
 
 If you want to add a new user, you can modify `new_user` as `True` in `./config/test.yaml` and the program would allow you to create a new user with a list of `gmap_id`.
