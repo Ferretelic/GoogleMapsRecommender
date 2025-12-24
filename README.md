@@ -174,7 +174,7 @@ where:
 The final objective function combines BPR loss, $L_2$ regularization, and the contrastive loss:
 
 $$
-\mathcal{L} = \mathcal{L}_\text{BPR} + \lambda_\text{CL} \mathcal{L}_\text{CL} + \lambda_{L2}\mathcal{L}_{L2}
+\mathcal{L} = \mathcal{L}_\text{BPR} + \lambda_{L2}\mathcal{L}_{L2} + \lambda_\text{CL} \mathcal{L}_\text{CL}
 $$
 
 where $\lambda_{L2}, \lambda_\text{CL}$ are the weights for the $L_2$ regularization and the contrastive loss term, respectively.
@@ -190,7 +190,7 @@ The process is as follows:
 3. Synthesize the hard negative embedding $\mathbf{e}'_j$ by mixing information from the positive item $i$:
 
 $$
-\mathbf{e}'_j = \alpha \mathbf{e}^*_i + (1 - \alpha) \mathbf{e}^*_j
+\mathbf{e}'_j = \alpha \mathbf{e}^{*}_{i} + (1 - \alpha) \mathbf{e}^{*}_{j}
 $$
 
 where:
