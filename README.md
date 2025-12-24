@@ -79,9 +79,7 @@ We experimented with three different strategies for defining edges and their ini
         * *Constant:* Fixed weight (hyperparameter).
         * *Dynamic:* Gaussian kernel based on distance:
 
-          $$
-          w_{ii'} = e^{-dist(i, i')^2 / \sigma^2}
-          $$
+          $$w_{ii'} = e^{-dist(i, i')^2 / \sigma^2}$$
 
           where $dist(i, i')$ is the distance in km and $\sigma$ controls the decay speed.
 
@@ -308,9 +306,7 @@ Beyond accuracy, we evaluate the quality of recommendations to ensure users are 
     * Measures how "unexpected" or unpopular the recommended items are.
     * It is calculated as the average self-information of the recommended items:
 
-      $$
-      \text{Novelty}@K = \frac{1}{K} \sum_{i \in \hat{\mathcal{I}}_u} -\log_2 p(i)
-      $$
+      $$\text{Novelty}@K = \frac{1}{K} \sum_{i \in \hat{\mathcal{I}}_u} -\log_2 p(i)$$
 
       where $p(i)$ is the popularity probability of item $i$ in the training set. A higher value implies the model suggests niche or less known spots.
 
@@ -318,9 +314,7 @@ Beyond accuracy, we evaluate the quality of recommendations to ensure users are 
     * Measures the semantic dissimilarity among items within a single recommendation list.
     * It is computed based on the pairwise cosine distance of item embeddings:
 
-      $$
-      \text{Diversity}@K = \frac{2}{K(K-1)} \sum_{i, j \in \hat{\mathcal{I}}_u, i < j} (1 - \text{sim}(\mathbf{e}_i, \mathbf{e}_j))
-      $$
+      $$\text{Diversity}@K = \frac{2}{K(K-1)} \sum_{i, j \in \hat{\mathcal{I}}_u, i < j} (1 - \text{sim}(\mathbf{e}_i, \mathbf{e}_j))$$
 
       High diversity indicates the model recommends a variety of item types (e.g., mixing Parks, Cafes, and Museums) rather than a homogeneous list.
 
@@ -350,9 +344,7 @@ We analyze whether the model over-recommends popular items ("Head") at the expen
 * **Head-PRR / Tail-PRR (Popularity Reproduction Ratio)**
     * Measures the deviation of recommendation volume for "Head" (top 20% popular) and "Tail" (bottom 80% popular) items.
 
-      $$
-      \text{PRR} = \frac{\text{Share of Recommendations}}{\text{Share of Training Interactions}}
-      $$
+      $$\text{PRR} = \frac{\text{Share of Recommendations}}{\text{Share of Training Interactions}}$$
 
     * **PRR $> 1.0$:** The group is over-recommended (amplified bias).
     * **PRR $< 1.0$:** The group is under-recommended.
@@ -382,23 +374,22 @@ For each metric, we tested two strategies to define the user's location:
 For the trained LightGCN model, we evaluated four different strategies to compute the relevance score between a user $u$ and an item $i$.
 
 * **`dot`**: Standard dot product.
-
-    $$s = \mathbf{e}_u \cdot \mathbf{e}_i$$
+  $$s = \mathbf{e}_u \cdot \mathbf{e}_i$$
 
 * **`cosine`**: Cosine similarity.
 
-    $$s = \frac{\mathbf{e}_u \cdot \mathbf{e}_i}{\|\mathbf{e}_u\| \|\mathbf{e}_i\|}$$
+  $$s = \frac{\mathbf{e}_u \cdot \mathbf{e}_i}{\|\mathbf{e}_u\| \|\mathbf{e}_i\|}$$
 
 * **`distance`**: Negative Euclidean ($L_2$) distance (closer is better).
 
-    $$s = - \|\mathbf{e}_u - \mathbf{e}_i\|_2$$
+  $$s = - \|\mathbf{e}_u - \mathbf{e}_i\|_2$$
 
 * **`fold` (Folding-in / GCN Aggregation)**:
     Instead of using the learned user embedding parameter directly, we dynamically construct the user embedding from their interaction history using the GCN propagation rule. This allows us to assess the quality of the graph structure itself.
 
-    $$\mathbf{e}_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
+  $$\mathbf{e}_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
-    where $\mathcal{H}_u$ is the user's history in the training set.
+  where $\mathcal{H}_u$ is the user's history in the training set.
 
 The table below is the summarization of results on `Cafe` test dataset:
 
