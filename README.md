@@ -548,7 +548,7 @@ pip install -r requirements.txt
 To run an inference, you need to download the embedding through [huggingface](https://huggingface.co/Ferretelic/google-maps-recommender). You might be asked for sign in to Google Account.
 
 ``` bash
-huggingface-cli download YourUserName/google-maps-recommender ./[category]/[best or baseline].pt --local-dir ./embeddings/[category]
+huggingface-cli download Ferretelic/google-maps-recommender ./[category]/[best or baseline].pt --local-dir ./embeddings/[category]
 ```
 
 Then you can run all the tests as follows
