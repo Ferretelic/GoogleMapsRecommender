@@ -70,7 +70,7 @@ We experimented with three different strategies for defining edges and their ini
       w_{ui} = (1 - w_{\min}) e^{-\lambda(t_{\max} - t_{ui})} + w_{\min}
       $$
     
-      where $w_{\min}$ is the minimum weight, $\lambda$ is the decay coefficient, and $(t_{\max} - t_{ui})$ represents the age of the review.
+        where $w_{\min}$ is the minimum weight, $\lambda$ is the decay coefficient, and $(t_{\max} - t_{ui})$ represents the age of the review.
 
 * **Geo-Distance (Item-Item Edges):**
     * In addition to user-item interactions, we augment the graph with **item-item edges** connecting businesses that are geographically close.
