@@ -418,7 +418,7 @@ Here is a sample of recommended businesses for a user in the dataset with `best`
 
 ```
 ================================================================================
-Recommendations for user Sean O^{\prime}Hara with LightGCN Best (Fold)
+Recommendations for user Sean O'Hara with LightGCN Best (Fold)
   History
     [ 2782] [California     ] The Buena Vista
     [ 7672] [California     ] Superba Snacks + Coffee
@@ -432,7 +432,7 @@ Recommendations for user Sean O^{\prime}Hara with LightGCN Best (Fold)
     [ 2059] [California     ] Parker-Lusseau Pastries
     [ 3151] [California     ] Sideboard Danville
     [ 8116] [California     ] The Original Pantry Cafe
-    [ 6733] [California     ] Cassell^{\prime}s Hamburgers
+    [ 6733] [California     ] Cassell's Hamburgers
     [ 7603] [California     ] Lemon Poppy Kitchen
     [ 7734] [California     ] Amara Kitchen
     [ 7317] [California     ] Idle Hour
@@ -450,14 +450,14 @@ Recommendations for user Sean O^{\prime}Hara with LightGCN Best (Fold)
     [ 7945]  6 [California     ] Tierra Mia Coffee | 2.682
     [ 7566]  7 [California     ] Proof Bakery | 2.575
     [ 7611]  8 [California     ] The Highland Cafe | 2.514
-    [ 7983]  9 [California     ] Millie^{\prime}s Cafe | 2.453
+    [ 7983]  9 [California     ] Millie's Cafe | 2.453
     [ 7715] 10 [California     ] Found Coffee | 2.436
     [ 7721] 11 [California     ] Tierra Mia Coffee | 2.389
     [ 7727] 12 [California     ] Kindness & Mischief Coffee | 2.297
     [ 7909] 13 [California     ] The Little Jewel of New Orleans | 2.275
-    [ 3154] 14 [California     ] Peet^{\prime}s Coffee | 2.238
-    [ 7537] 15 [California     ] Porto^{\prime}s Bakery and Cafe | 2.231
-    [ 7913] 16 [California     ] Nick^{\prime}s Cafe | 2.181
+    [ 3154] 14 [California     ] Peet's Coffee | 2.238
+    [ 7537] 15 [California     ] Porto's Bakery and Cafe | 2.231
+    [ 7913] 16 [California     ] Nick's Cafe | 2.181
     [ 7554] 17 [California     ] House of Pies | 2.177
     [ 7725] 18 [California     ] Antigua Bread | 2.170
     [ 7705] 19 [California     ] Little Flower | 2.047
@@ -468,17 +468,16 @@ Recommendations for user Sean O^{\prime}Hara with LightGCN Best (Fold)
 *Sample recommendations for test users can be found in `./results/[category]/samples`*
 
 ### 7.3. Inductive Inference (New Users)
-We tested the model^{\prime}s ability to recommend items to **New Users (Cold Start)** who were not present during training. Since these users do not have pre-trained embeddings, we infer their embeddings on-the-fly based on their visitation list.
+We tested the model's ability to recommend items to **New Users (Cold Start)** who were not present during training. Since these users do not have pre-trained embeddings, we infer their embeddings on-the-fly based on their visitation list.
 
 The inference strategy depends on the model type:
 
-* **Mean Aggregation** (Used in `dot`, `cosine`, `distance` models):
-    The new user^{\prime}s embedding is calculated as the simple average of the embeddings of items they have visited.
+* **Mean Aggregation** (Used in `dot`, `cosine`, `distance` models): The new user's embedding is calculated as the simple average of the embeddings of items they have visited.
 
   $$\mathbf{e}_{new} = \frac{1}{|\mathcal{H}_{new}|} \sum_{j \in \mathcal{H}_{new}} \mathbf{e}_j$$
 
 * **Folding-in Aggregation** (Used in `fold` model):
-        The new user^{\prime}s embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
+        The new user's embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
 
   $$\mathbf{e}_{new} = \sum_{j \in \mathcal{H}_{new}} \frac{1}{\sqrt{|\mathcal{H}_{new}| |\mathcal{N}_j|}} \mathbf{e}_j$$
 
@@ -522,7 +521,7 @@ Recommendations for user Shouki with LightGCN Best (Fold)
 ### 7.4. Qualitative Analysis (Dimensionality Reduction)
 To investigate whether the embeddings implicitly capture semantic and structural features, we visualized the item embeddings using **PCA** and **UMAP** [[6](#ref6)].
 
-* `chain`: Clustering of major chains (e.g., *Starbucks*, *McDonald^{\prime}s*).
+* `chain`: Clustering of major chains (e.g., *Starbucks*, *McDonald's*).
 * `city` / `states`: Geographical alignment of businesses.
 * `popularity`: Distribution based on review counts.
 * `price`: Clustering based on price tiers.
@@ -605,27 +604,27 @@ python test.py dataset=[category] device=[cpu or cuda]
 
 1.  <a id="ref1"></a>**LightGCN: Simplifying and Powering Graph Convolution Network for Recommendation**
     Xiangnan He, Kuan Deng, Xiang Wang, Yan Li, Yongdong Zhang, & Min-Yen Kan.
-    *Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ^{\prime}20)*.
+    *Proceedings of the 43rd International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '20)*.
     [[Paper](https://arxiv.org/abs/2002.02126)]
 
 2.  <a id="ref2"></a>**UCTopic: Unsupervised Contrastive Learning for Phrase Representations and Topic Mining**
     Jiacheng Li, Jingbo Shang, Julian McAuley.
-    *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL ^{\prime}22)*.
+    *Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL '22)*.
     [[Paper](https://aclanthology.org/2022.acl-long.426/)]
 
 3.  <a id="ref3"></a>**Personalized Showcases: Generating Multi-Modal Explanations for Recommendations**
     An Yan, Zhankui He, Jiacheng Li, Tianyang Zhang, Julian McAuley.
-    *Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ^{\prime}23)*.
+    *Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '23)*.
     [[Paper](https://arxiv.org/abs/2305.16643)]
 
 4. <a id="ref4"></a>**Are Graph Augmentations Necessary? Simple Graph Contrastive Learning for Recommendation**
    Junliang Yu, Hongzhi Yin, Xin Xia, Tong Chen, Lizhen Cui, & Quoc Viet Hung Nguyen.
-   *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR ^{\prime}22)*.
+   *Proceedings of the 45th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '22)*.
    [[Paper](https://arxiv.org/abs/2112.08679)]
 
 5. <a id="ref5"></a>**MixGCF: An Improved Training Method for Graph Neural Networks for Recommender Systems**
    Tinglin Huang, Yuxiao Dong, Ming Ding, Zhen Yang, Wenzheng Feng, Xinyue Wang, & Jie Tang.
-   *Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD ^{\prime}21)*.
+   *Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (KDD '21)*.
    [[Paper](https://arxiv.org/abs/2104.03279)]
 
 6. <a id="ref6"></a>**UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction**
@@ -635,5 +634,5 @@ python test.py dataset=[category] device=[cpu or cuda]
 
 7. <a id="ref7"></a>**Inductive Representation Learning on Large Graphs (GraphSAGE)**
    William L. Hamilton, Rex Ying, & Jure Leskovec.
-   *Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS ^{\prime}17)*.
+   *Proceedings of the 31st International Conference on Neural Information Processing Systems (NIPS '17)*.
    [[Paper](https://arxiv.org/abs/1706.02216)]
