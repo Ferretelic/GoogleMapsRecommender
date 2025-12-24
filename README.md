@@ -107,7 +107,6 @@ where $\mathbf{e}_u^{(0)}$ and $\mathbf{e}_i^{(0)}$ are the initialized embeddin
 
 **Layer Combination (Readout):**
 The final representation for each user and item is obtained by averaging the embeddings from all layers $K$:
- the perturbed embedding
 
 $$
 \mathbf{e}_u^{\ast} = \frac{1}{K+1} \sum_{k=0}^K \mathbf{e}_u^{(k)}, \quad
@@ -537,7 +536,7 @@ The figure below is a result of PCA applied to business embeddings of `best` mod
 
 ### 8.1. Setup
 
-You can setup the environment as follows. As long as python version requirement is satisfied, you do not necessarily have to use `conda`.
+You can setup the environment as follows. You do not necessarily have to use `conda` as long as the Python version requirement is met.
 
 ``` bash
 conda create -n recommendation python=3.12
@@ -546,7 +545,7 @@ pip install -r requirements.txt
 ```
 
 ### 8.2. Inference
-To run an inference, you need to download the embedding through `DVC` first. You might be asked for sign in of Google Account.
+To run an inference, you need to download the embedding through `DVC` first. You might be asked for sign in to Google Account.
 
 ``` bash
 dvc pull ./embeddings/[category]/best.pt
@@ -575,7 +574,7 @@ meta_keys: [gmap_id, name, address, latitude, longitude, category, avg_rating, n
 review_keys: [gmap_id, user_id, name, time, rating]
 ```
 
-For a larger dataset like `Asian`, it would require huge GPU memory (32GB) and long training time (10 hours). Therefore, it is recommended to specify your domain very specific or choose only states you are interested.
+For a larger dataset like `Asian`, it would require huge GPU memory (32GB) and long training time (10 hours). Therefore, it is recommended to define a very specific domain or choose only the states you are interested in.
 
 * `min_num_reviews` is how many reviews you want all users and businesses to have. If you use larger value, then you can get dense interactions but smaller user and business size. If you use small value, then you would get sparse interactions and larger user and business size.
 * `min_rating` is how you define positive interaction.
