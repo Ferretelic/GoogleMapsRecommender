@@ -390,7 +390,7 @@ For the trained LightGCN model, we evaluated four different strategies to comput
 * **`fold` (Folding-in / GCN Aggregation)**:
     Instead of using the learned user embedding parameter directly, we dynamically construct the user embedding from their interaction history using the GCN propagation rule. This allows us to assess the quality of the graph structure itself.
 
-    $$\mathbf{e}\_u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}} \mathbf{e}_j$$
+    $$\mathbf{e} _ u = \sum_{j \in \mathcal{H}_u} \frac{1}{\sqrt{|\mathcal{H}_u| |\mathcal{N}_j|}}\mathbf{e} _ j$$
 
     where $\mathcal{H}_u$ is the user's history in the training set.
 
@@ -475,12 +475,12 @@ The inference strategy depends on the model type:
 
 * **Mean Aggregation** (Used in `dot`, `cosine`, `distance` models): The new user's embedding is calculated as the simple average of the embeddings of items they have visited.
 
-  $$\mathbf{e}\_{new} = \frac{1}{|\mathcal{H}\_{new}|} \sum_{j \in \mathcal{H}\_{new}} \mathbf{e}\_j$$
+  $$\mathbf{e} _ {new} = \frac{1}{|\mathcal{H} _ {new}|} \sum_{j \in \mathcal{H} _ {new}} \mathbf{e} _ j$$
 
 * **Folding-in Aggregation** (Used in `fold` model):
         The new user's embedding is constructed using the **weighted GCN normalization**, a strategy aligned with Inductive Learning metrics in GraphSAGE [[7](#ref7)]. This accounts for the degree (popularity) of the items in their history.
 
-  $$\mathbf{e}\_{new} = \sum_{j \in \mathcal{H}\_{new}} \frac{1}{\sqrt{|\mathcal{H}\_{new}| |\mathcal{N}\_j|}} \mathbf{e}\_j$$
+  $$\mathbf{e} _ {new} = \sum_{j \in \mathcal{H} _ {new}} \frac{1}{\sqrt{|\mathcal{H} _ {new}| |\mathcal{N} _ j|}} \mathbf{e} _ j$$
 
 Here is a sample of recommended businesses for a new user not in the dataset with `best` model trained with `Japanese` dataset whose scores are calculated with the `fold` method:
 
