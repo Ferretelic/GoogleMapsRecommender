@@ -545,10 +545,10 @@ pip install -r requirements.txt
 ```
 
 ### 8.2. Inference
-To run an inference, you need to download the embedding through `DVC` first. You might be asked for sign in to Google Account.
+To run an inference, you need to download the embedding through [huggingface](https://huggingface.co/Ferretelic/google-maps-recommender). You might be asked for sign in to Google Account.
 
 ``` bash
-dvc pull ./embeddings/[category]/best.pt -r public_store
+huggingface-cli download YourUserName/google-maps-recommender ./[category]/[best or baseline].pt --local-dir ./embeddings/[category]/[best or baseline].pt
 ```
 
 Then you can run all the tests as follows
