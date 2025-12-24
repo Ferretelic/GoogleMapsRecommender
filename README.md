@@ -66,11 +66,11 @@ We experimented with three different strategies for defining edges and their ini
     * The graph structure is identical to the `Naive` graph, but edge weights are continuous values based on the "freshness" of the review.
     * **Weight:** We apply an exponential decay function based on the time elapsed since the latest review in the dataset ($t_{\max}$):
   
-        $$
-        w_{ui} = (1 - w_{\min}) e^{-\lambda(t_{\max} - t_{ui})} + w_{\min}
-        $$
-
-        where $w_{\min}$ is the minimum weight, $\lambda$ is the decay coefficient, and $(t_{\max} - t_{ui})$ represents the age of the review.
+      $$
+      w_{ui} = (1 - w_{\min}) e^{-\lambda(t_{\max} - t_{ui})} + w_{\min}
+      $$
+    
+      where $w_{\min}$ is the minimum weight, $\lambda$ is the decay coefficient, and $(t_{\max} - t_{ui})$ represents the age of the review.
 
 * **Geo-Distance (Item-Item Edges):**
     * In addition to user-item interactions, we augment the graph with **item-item edges** connecting businesses that are geographically close.
@@ -81,11 +81,11 @@ We experimented with three different strategies for defining edges and their ini
         * *Constant:* Fixed weight (hyperparameter).
         * *Dynamic:* Gaussian kernel based on distance:
 
-            $$
-            w_{ii'} = e^{-dist(i, i')^2 / \sigma^2}
-            $$
+          $$
+          w_{ii'} = e^{-dist(i, i')^2 / \sigma^2}
+          $$
 
-            where $dist(i, i')$ is the distance in km and $\sigma$ controls the decay speed.
+          where $dist(i, i')$ is the distance in km and $\sigma$ controls the decay speed.
 
 ### 3.2. Graph Normalization
 After defining the initial weights $w_{ui}$ (or $w_{ii'}$), we apply **Symmetric Laplacian Normalization** to ensure training stability and prevent scale explosion. The normalized entry $\tilde{a}_{ui}$ in the adjacency matrix is calculated as:
